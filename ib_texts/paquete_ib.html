@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paquete IB - The Spanish Gym</title>
+    <style>
+        /* Base Styles */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { background-color: #525659; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        
+        /* The "Paper" Container */
+        .page {
+            background-color: white;
+            width: 8.5in;
+            min-height: 11in;
+            margin: 20px auto;
+            padding: 1in;
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+            overflow: hidden;
+        }
+
+        /* Print Settings to make it a perfect PDF */
+        @media print {
+            body { background-color: white; }
+            .page { 
+                margin: 0; 
+                box-shadow: none; 
+                page-break-after: always; /* Forces a new page in the PDF */
+            }
+        }
+
+        /* Watermark (Only applied to elements with .has-watermark) */
+        .has-watermark::before {
+            content: "";
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%; height: 80%;
+            background-image: url('https://raw.githubusercontent.com/scottscalici/spanishgym/main/images/spanishgymbw.png'); 
+            background-repeat: no-repeat; background-position: center; background-size: contain;
+            opacity: 0.06; z-index: 0; pointer-events: none;
+        }
+
+        .content-wrapper { position: relative; z-index: 1; }
+
+        /* Typography */
+        h1 { text-align: center; font-size: 1.3rem; margin-bottom: 2rem; line-height: 1.3; }
+        h2 { font-size: 1.1rem; border-bottom: 2px solid #000; padding-bottom: 5px; margin-bottom: 15px; margin-top: 30px;}
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; font-size: 0.9rem; font-weight: bold; }
+        .name-line { width: 200px; border-bottom: 1px solid #000; display: inline-block; margin-left: 10px; }
+        
+        /* Reading Text Styles */
+        .reading-section { display: flex; gap: 1.5rem; }
+        .line-numbers { width: 30px; flex-shrink: 0; text-align: right; font-family: monospace; color: #888; }
+        .line-num-slot { height: 2rem; display: flex; align-items: center; justify-content: flex-end; }
+        .reading-text p { font-size: 1.1rem; line-height: 2rem; margin-bottom: 2rem; text-indent: 2rem; text-align: justify; }
+
+        /* Questions Layout */
+        .instruction-block { background: #f0f0f0; padding: 10px; margin-bottom: 15px; font-weight: bold; border-left: 4px solid #333; }
+        .options-box { border: 1px solid #ccc; padding: 15px; margin-bottom: 15px; display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; }
+        .option-item { font-weight: bold; font-size: 0.95rem;}
+        
+        .question-row { margin-bottom: 15px; display: flex; align-items: baseline; gap: 10px; }
+        .q-number { font-weight: bold; width: 30px; flex-shrink: 0;}
+        .q-content { flex-grow: 1; }
+        
+        /* Input Blanks */
+        .blank-box { display: inline-block; width: 40px; height: 30px; border: 1px solid #000; text-align: center; line-height: 30px; font-weight: bold; }
+        .blank-line { display: inline-block; width: 100%; border-bottom: 1px dashed #000; height: 1.5rem; }
+        .mcq-options { margin-top: 5px; margin-left: 20px; }
+        .mcq-option { display: block; margin-bottom: 5px;}
+        
+        /* Answer Key Styles */
+        .answer-key-header { color: #d93025; text-align: center; font-weight: bold; font-size: 1.2rem; margin-bottom: 10px; border: 2px dashed #d93025; padding: 5px;}
+        .filled-answer { color: #d93025; font-family: 'Courier New', Courier, monospace; font-weight: bold; }
+        .filled-box { border-color: #d93025; color: #d93025; }
+
+    </style>
+</head>
+<body>
+
+    <div id="document-container"></div>
+
+    <script>
+        // 1. Point this to your new combined JSON file in GitHub
+        const jsonUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/ib_texts/tu_archivo.json'; // UPDATE THIS URL
+
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch(jsonUrl)
+                .then(response => response.json())
+                .then(data => generateDocument(data))
+                .catch(error => console.error('Error cargando el JSON:', error));
+        });
+
+        function generateDocument(data) {
+            const container = document.getElementById('document-container');
+            const globalTitle = data.worksheet.title;
+
+            // PART 1: Generate Reading Texts (Pages 1-3)
+            data.worksheet.texts.forEach(textData => {
+                container.appendChild(createReadingPage(textData, globalTitle));
+            });
+
+            // PART 2: Generate Student Question Sheets (Pages 4-6)
+            data.worksheet.texts.forEach(textData => {
+                container.appendChild(createQuestionPage(textData, globalTitle, false));
+            });
+
+            // PART 3: Generate Answer Keys (Pages 7-9)
+            data.worksheet.texts.forEach(textData => {
+                container.appendChild(createQuestionPage(textData, globalTitle, true));
+            });
+
+            // Delay line number calculation slightly to allow DOM to render
+            setTimeout(calculateLineNumbers, 300);
+        }
+
+        // --- RENDERERS ---
+
+        function createHeader(globalTitle, isAnswerKey) {
+            return `
+                <div class="header">
+                    <div>NOMBRE: <span class="name-line"></span></div>
+                    <div>${globalTitle}</div>
+                </div>
+                ${isAnswerKey ? '<div class="answer-key-header">CLAVE DE RESPUESTAS (ANSWER KEY)</div>' : ''}
+            `;
+        }
+
+        function createReadingPage(textData, globalTitle) {
+            const page = document.createElement('div');
+            page.className = 'page has-watermark'; // Apply watermark only to readings
+            
+            let paragraphsHtml = textData.paragraphs.map(p => `<p>${p}</p>`).join('');
+
+            page.innerHTML = `
+                <div class="content-wrapper">
+                    ${createHeader(globalTitle, false)}
+                    <h1>${textData.title}</h1>
+                    <div class="reading-section">
+                        <div class="line-numbers"></div>
+                        <div class="reading-text">${paragraphsHtml}</div>
+                    </div>
+                </div>
+            `;
+            return page;
+        }
+
+        function createQuestionPage(textData, globalTitle, isAnswerKey) {
+            const page = document.createElement('div');
+            page.className = 'page'; // No watermark on questions for better legibility
+            
+            let sectionsHtml = textData.question_sections.map(section => {
+                
+                let optionsHtml = '';
+                if (section.options) {
+                    const opts = Object.entries(section.options).map(([key, val]) => `<span class="option-item">${key}: ${val}</span>`).join(' | ');
+                    optionsHtml = `<div class="options-box">${opts}</div>`;
+                }
+
+                let questionsHtml = section.questions.map(q => renderQuestionByType(q, section.type, isAnswerKey)).join('');
+
+                return `
+                    <div class="instruction-block">${section.instructions}</div>
+                    ${optionsHtml}
+                    <div class="question-list">${questionsHtml}</div>
+                `;
+            }).join('');
+
+            page.innerHTML = `
+                <div class="content-wrapper">
+                    ${createHeader(globalTitle, isAnswerKey)}
+                    <h2>Preguntas: ${textData.title}</h2>
+                    ${sectionsHtml}
+                </div>
+            `;
+            return page;
+        }
+
+        // --- QUESTION LOGIC ROUTER ---
+        function renderQuestionByType(q, type, isAnswerKey) {
+            let answerVal = isAnswerKey ? q.answer : '';
+            let boxClass = isAnswerKey ? 'blank-box filled-box' : 'blank-box';
+            let textClass = isAnswerKey ? 'filled-answer' : '';
+
+            switch(type) {
+                case 'matching':
+                case 'fill_in_the_blank':
+                    return `
+                        <div class="question-row">
+                            <div class="${boxClass}">${answerVal}</div>
+                            <div class="q-number">${q.number}.</div>
+                            <div class="q-content">${q.prompt}</div>
+                        </div>`;
+                
+                case 'short_answer':
+                case 'reference':
+                case 'synonym_search':
+                    let lineContent = isAnswerKey ? `<span class="${textClass}">${q.answer}</span>` : '';
+                    return `
+                        <div class="question-row">
+                            <div class="q-number">${q.number}.</div>
+                            <div class="q-content">
+                                ${q.prompt}<br>
+                                <div class="blank-line">${lineContent}</div>
+                            </div>
+                        </div>`;
+                
+                case 'true_false_justification':
+                    let vBox = (isAnswerKey && q.answer_boolean === 'V') ? '[ X ]' : '[ &nbsp; ]';
+                    let fBox = (isAnswerKey && q.answer_boolean === 'F') ? '[ X ]' : '[ &nbsp; ]';
+                    let justContent = isAnswerKey ? `<span class="${textClass}">${q.answer_justification}</span>` : '';
+                    
+                    return `
+                        <div class="question-row">
+                            <div class="q-number">${q.number}.</div>
+                            <div class="q-content">
+                                ${q.prompt} <strong>V ${vBox} &nbsp;&nbsp; F ${fBox}</strong><br>
+                                Justificación: <div class="blank-line">${justContent}</div>
+                            </div>
+                        </div>`;
+
+                case 'multiple_choice':
+                    let optsHtml = Object.entries(q.options).map(([key, val]) => {
+                        let isCorrect = (isAnswerKey && key === q.answer);
+                        let boldClass = isCorrect ? `class="${textClass}"` : '';
+                        let marker = isCorrect ? '► ' : '';
+                        return `<div class="mcq-option"><span ${boldClass}>${marker}${key}. ${val}</span></div>`;
+                    }).join('');
+                    
+                    return `
+                        <div class="question-row">
+                            <div class="q-number">${q.number}.</div>
+                            <div class="q-content">
+                                ${q.prompt}
+                                <div class="mcq-options">${optsHtml}</div>
+                            </div>
+                        </div>`;
+
+                case 'multiple_select':
+                    let multiBoxes = '';
+                    if (isAnswerKey) {
+                        multiBoxes = q.answer.map(ans => `<div class="blank-box filled-box">${ans}</div>`).join(' ');
+                    } else {
+                        multiBoxes = `<div class="blank-box"></div> `.repeat(5);
+                    }
+                    
+                    return `
+                        <div class="question-row">
+                            <div class="q-number">${q.number}.</div>
+                            <div class="q-content">
+                                ${q.prompt}<br><br>
+                                ${multiBoxes}
+                            </div>
+                        </div>`;
+
+                default:
+                    return `<div>Error: Tipo de pregunta desconocido (${type})</div>`;
+            }
+        }
+
+        // --- LINE NUMBERS CALCULATOR ---
+        function calculateLineNumbers() {
+            const pages = document.querySelectorAll('.page');
+            
+            pages.forEach(page => {
+                const textContainer = page.querySelector('.reading-text');
+                const numbersContainer = page.querySelector('.line-numbers');
+                
+                if (textContainer && numbersContainer) {
+                    numbersContainer.innerHTML = '';
+                    const lineHeightPixels = 32; // Based on 2rem line-height
+                    const totalHeight = textContainer.offsetHeight;
+                    const totalLines = Math.floor(totalHeight / lineHeightPixels);
+
+                    for (let i = 1; i <= totalLines; i++) {
+                        const numSlot = document.createElement('div');
+                        numSlot.className = 'line-num-slot';
+                        if (i % 5 === 0) numSlot.textContent = i;
+                        numbersContainer.appendChild(numSlot);
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
