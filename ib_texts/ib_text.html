@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutina de Lectura - The Spanish Gym</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: #f4f4f4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        /* The "Paper" Container */
+        .worksheet-page {
+            background-color: white;
+            width: 8.5in; 
+            min-height: 11in; 
+            border: 4px solid #000;
+            padding: 1.5in 1in 1in 1in; 
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden; 
+        }
+
+        /* The Watermark */
+        .worksheet-page::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            height: 80%;
+            background-image: url('your-watermark-image.png'); /* UPDATE THIS */
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            opacity: 0.08; 
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        /* Content Wrapper */
+        .content-wrapper {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Header Styles */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2.5rem;
+            font-size: 0.9rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .header .name-line {
+            width: 250px;
+            border-bottom: 1px solid #000;
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        /* Title Styles */
+        h1 {
+            text-align: center;
+            font-size: 1.4rem;
+            margin-bottom: 2.5rem;
+            line-height: 1.3;
+            padding: 0 2rem;
+        }
+
+        /* Layout for Line Numbers and Text */
+        .reading-section {
+            display: flex;
+            gap: 1.5rem; /* Space between numbers and text */
+        }
+
+        /* Line Numbers Column */
+        .line-numbers {
+            width: 30px;
+            flex-shrink: 0;
+            text-align: right;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.9rem;
+            color: #888;
+            user-select: none; /* Prevents students from copying the numbers */
+        }
+
+        /* Number line sizing - must match reading text line-height */
+        .line-num-slot {
+            height: 2rem; 
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        /* Reading Text Styles */
+        .reading-text {
+            flex-grow: 1;
+        }
+
+        .reading-text p {
+            font-size: 1.1rem;
+            line-height: 2rem; /* EXACTLY 2rem for vertical rhythm */
+            margin-bottom: 2rem; /* EXACTLY 2rem to maintain the grid */
+            text-indent: 2rem; 
+            text-align: justify; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="worksheet-page">
+        <div class="content-wrapper">
+            
+            <div class="header" id="worksheet-header">
+                <div>NOMBRE: <span class="name-line"></span></div>
+                <div id="brand-text">Cargando...</div>
+            </div>
+
+            <h1 id="article-title">Cargando texto...</h1>
+
+            <div class="reading-section">
+                <div class="line-numbers" id="line-numbers-container"></div>
+                
+                <div class="reading-text" id="article-body"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        // 1. Fetch the data from your GitHub repository
+        const jsonUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/ib_texts/ib_text.json';
+
+        fetch(jsonUrl)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                // 2. Populate the Header and Title
+                document.getElementById('brand-text').textContent = data.metadata ? data.metadata.brand : "THE SPANISH GYM";
+                document.getElementById('article-title').textContent = data.article.title;
+
+                // 3. Populate the Paragraphs
+                const articleBody = document.getElementById('article-body');
+                data.article.paragraphs.forEach(paragraphText => {
+                    const p = document.createElement('p');
+                    p.textContent = paragraphText;
+                    articleBody.appendChild(p);
+                });
+
+                // 4. Generate the Line Numbers after a brief delay 
+                // (This ensures the browser has rendered the text wrapping first)
+                setTimeout(generateLineNumbers, 100);
+            })
+            .catch(error => {
+                console.error('Error fetching JSON:', error);
+                document.getElementById('article-title').textContent = "Error al cargar el texto";
+                document.getElementById('article-body').innerHTML = "<p>Please ensure the JSON URL is correct and public.</p>";
+            });
+
+
+        // Function to calculate and draw the numbers 5, 10, 15...
+        function generateLineNumbers() {
+            const textContainer = document.getElementById('article-body');
+            const numbersContainer = document.getElementById('line-numbers-container');
+            
+            numbersContainer.innerHTML = ''; // Clear out any existing numbers
+            
+            // 2rem is typically 32 pixels in standard browsers. 
+            // We use this to figure out exactly how many "lines" tall the text div is.
+            const lineHeightPixels = 32; 
+            const totalHeight = textContainer.offsetHeight;
+            const totalLines = Math.floor(totalHeight / lineHeightPixels);
+
+            for (let i = 1; i <= totalLines; i++) {
+                const numSlot = document.createElement('div');
+                numSlot.className = 'line-num-slot';
+                
+                // Only print the number if it is a multiple of 5
+                if (i % 5 === 0) {
+                    numSlot.textContent = i;
+                }
+                
+                numbersContainer.appendChild(numSlot);
+            }
+        }
+
+        // Re-calculate the numbers if the window is resized (which changes text wrapping)
+        window.addEventListener('resize', generateLineNumbers);
+    </script>
+
+</body>
+</html>
