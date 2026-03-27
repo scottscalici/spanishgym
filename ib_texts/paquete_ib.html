@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generador de Paquetes IB</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
     <style>
         /* Base Styles */
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body { background-color: #525659; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding-top: 60px; }
         
-        /* --- APP CONTROL BAR (HIDDEN WHEN PRINTING) --- */
+        /* Control Bar */
         .control-bar {
             position: fixed; top: 0; left: 0; width: 100%;
             background: #333; color: white; padding: 10px 20px;
@@ -19,20 +22,20 @@
         .control-bar select, .control-bar button {
             padding: 8px 16px; font-size: 1rem; border-radius: 4px; border: none; cursor: pointer;
         }
-        .control-bar button { background-color: #4CAF50; color: white; font-weight: bold; }
+        .control-bar button { background-color: #4CAF50; color: white; font-weight: bold; transition: background 0.3s;}
         .control-bar button:hover { background-color: #45a049; }
+        .control-bar button:disabled { background-color: #888; cursor: not-allowed; }
 
-        @media print {
-            .no-print { display: none !important; }
-            body { padding-top: 0; background-color: white; }
-            .page { margin: 0; box-shadow: none; page-break-after: always; }
-        }
-
-        /* --- WORKSHEET STYLES --- */
+        /* The "Paper" - strictly sized to US Letter ratio for perfect PDF scaling */
         .page {
-            background-color: white; width: 8.5in; min-height: 11in;
-            margin: 20px auto; padding: 1in; position: relative;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.5); overflow: hidden;
+            background-color: white; 
+            width: 816px; 
+            min-height: 1056px; 
+            margin: 20px auto; 
+            padding: 96px; 
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5); 
+            overflow: hidden;
         }
 
         .has-watermark::before {
@@ -68,7 +71,7 @@
         .mcq-options { margin-top: 5px; margin-left: 20px; }
         .mcq-option { display: block; margin-bottom: 5px;}
         
-        /* --- CONCISE ANSWER KEY STYLES --- */
+        /* Concise Answer Key */
         .answer-key-header { color: #d93025; text-align: center; font-weight: bold; font-size: 1.5rem; margin-bottom: 20px; border: 2px dashed #d93025; padding: 10px;}
         .key-text-block { margin-bottom: 30px; }
         .key-text-title { font-size: 1.1rem; font-weight: bold; background: #ffebee; color: #b71c1c; padding: 8px; margin-bottom: 15px; border-radius: 4px; }
@@ -80,61 +83,98 @@
 </head>
 <body>
 
-    <div class="control-bar no-print">
+    <div class="control-bar" id="ui-bar">
         <label for="set-selector"><strong>Seleccionar Paquete:</strong></label>
         <select id="set-selector">
-            <option value="https://raw.githubusercontent.com/scottscalici/spanishgym/main/ib_texts/ib_textos1.json">Paquete 1</option>
-            <option value="https://raw.githubusercontent.com/scottscalici/spanishgym/main/ib_texts/ib_textos2.json">Paquete 2</option>
-            </select>
-        <button onclick="window.print()">📥 Guardar como PDF</button>
+            <option value="">Buscando archivos...</option>
+        </select>
+        <button id="download-btn" onclick="exportToPDF()" disabled>📥 Descargar PDF Perfecto</button>
     </div>
 
     <div id="document-container"></div>
 
     <script>
+        // The GitHub API endpoint to list the contents of your ib_texts folder
+        const repoApiUrl = 'https://api.github.com/repos/scottscalici/spanishgym/contents/ib_texts';
+
         document.addEventListener('DOMContentLoaded', () => {
             const selector = document.getElementById('set-selector');
             
-            // Load the initial selected JSON
-            loadWorksheetData(selector.value);
+            // 1. Automatically fetch the list of files from your GitHub repository
+            fetch(repoApiUrl)
+                .then(response => {
+                    if (!response.ok) throw new Error('No se pudo acceder al repositorio');
+                    return response.json();
+                })
+                .then(files => {
+                    // Clear the "Buscando archivos..." message
+                    selector.innerHTML = '';
+                    
+                    // Filter out anything that isn't a .json file
+                    const jsonFiles = files.filter(file => file.name.endsWith('.json'));
+                    
+                    if (jsonFiles.length === 0) {
+                        selector.innerHTML = '<option value="">No se encontraron paquetes JSON</option>';
+                        return;
+                    }
 
-            // Listen for changes in the dropdown
-            selector.addEventListener('change', (e) => {
-                loadWorksheetData(e.target.value);
-            });
+                    // Dynamically create the dropdown options
+                    jsonFiles.forEach(file => {
+                        const option = document.createElement('option');
+                        // Use the raw download URL as the value so the app can fetch the actual text
+                        option.value = file.download_url; 
+                        
+                        // Clean up the file name to make it look nice in the dropdown
+                        // Changes "ib_textos1nm.json" into "Ib textos1nm"
+                        let prettyName = file.name.replace('.json', '').replace(/_/g, ' ');
+                        prettyName = prettyName.charAt(0).toUpperCase() + prettyName.slice(1);
+                        
+                        option.textContent = prettyName;
+                        selector.appendChild(option);
+                    });
+
+                    // Automatically load the very first packet in the list
+                    loadWorksheetData(selector.value);
+
+                    // Add the event listener so it updates when you select a new one
+                    selector.addEventListener('change', (e) => loadWorksheetData(e.target.value));
+                })
+                .catch(error => {
+                    console.error('Error fetching repo contents:', error);
+                    selector.innerHTML = '<option value="">Error al conectar con GitHub</option>';
+                });
         });
 
+        // 2. Fetch the actual content of the selected JSON file
         function loadWorksheetData(url) {
-            document.getElementById('document-container').innerHTML = '<h2 style="text-align:center; margin-top:100px;">Cargando documento...</h2>';
+            if (!url) return;
+            
+            document.getElementById('document-container').innerHTML = '<h2 style="text-align:center; margin-top:100px; color:white;">Cargando documento...</h2>';
+            document.getElementById('download-btn').disabled = true;
             
             fetch(url)
                 .then(response => {
-                    if (!response.ok) throw new Error('Network response was not ok');
+                    if (!response.ok) throw new Error('Network error');
                     return response.json();
                 })
-                .then(data => generateDocument(data))
+                .then(data => {
+                    generateDocument(data);
+                    document.getElementById('download-btn').disabled = false;
+                })
                 .catch(error => {
-                    console.error('Error cargando el JSON:', error);
-                    document.getElementById('document-container').innerHTML = '<h2 style="text-align:center; color:red; margin-top:100px;">Error al cargar el archivo JSON. Verifica el enlace.</h2>';
+                    console.error('Error:', error);
+                    document.getElementById('document-container').innerHTML = '<h2 style="text-align:center; color:#ff4444; margin-top:100px;">Error al cargar el archivo JSON. Verifica que el formato sea correcto.</h2>';
                 });
         }
 
+        // --- RENDER FUNCTIONS ---
         function generateDocument(data) {
             const container = document.getElementById('document-container');
-            container.innerHTML = ''; // Clear out the loading message
+            container.innerHTML = ''; 
             const globalTitle = data.worksheet.title;
 
-            // PART 1: Reading Texts
-            data.worksheet.texts.forEach(textData => {
-                container.appendChild(createReadingPage(textData, globalTitle));
-            });
-
-            // PART 2: Student Question Sheets
-            data.worksheet.texts.forEach(textData => {
-                container.appendChild(createQuestionPage(textData, globalTitle));
-            });
-
-            // PART 3: Concise Answer Key
+            data.worksheet.texts.forEach(textData => container.appendChild(createReadingPage(textData, globalTitle)));
+            data.worksheet.texts.forEach(textData => container.appendChild(createQuestionPage(textData, globalTitle)));
             container.appendChild(createConciseAnswerKeyPage(data));
 
             setTimeout(calculateLineNumbers, 300);
@@ -145,8 +185,7 @@
                 <div class="header">
                     <div>NOMBRE: <span class="name-line"></span></div>
                     <div>${globalTitle}</div>
-                </div>
-            `;
+                </div>`;
         }
 
         function createReadingPage(textData, globalTitle) {
@@ -162,8 +201,7 @@
                         <div class="line-numbers"></div>
                         <div class="reading-text">${paragraphsHtml}</div>
                     </div>
-                </div>
-            `;
+                </div>`;
             return page;
         }
 
@@ -182,8 +220,7 @@
                 return `
                     <div class="instruction-block">${section.instructions}</div>
                     ${optionsHtml}
-                    <div class="question-list">${questionsHtml}</div>
-                `;
+                    <div class="question-list">${questionsHtml}</div>`;
             }).join('');
 
             page.innerHTML = `
@@ -191,8 +228,7 @@
                     ${createHeader(globalTitle)}
                     <h2>Preguntas: ${textData.title}</h2>
                     ${sectionsHtml}
-                </div>
-            `;
+                </div>`;
             return page;
         }
 
@@ -200,109 +236,45 @@
             switch(type) {
                 case 'matching':
                 case 'fill_in_the_blank':
-                    return `
-                        <div class="question-row">
-                            <div class="blank-box"></div>
-                            <div class="q-number">${q.number}.</div>
-                            <div class="q-content">${q.prompt}</div>
-                        </div>`;
-                
+                    return `<div class="question-row"><div class="blank-box"></div><div class="q-number">${q.number}.</div><div class="q-content">${q.prompt}</div></div>`;
                 case 'short_answer':
                 case 'reference':
                 case 'synonym_search':
-                    return `
-                        <div class="question-row">
-                            <div class="q-number">${q.number}.</div>
-                            <div class="q-content">
-                                ${q.prompt}<br>
-                                <div class="blank-line"></div>
-                            </div>
-                        </div>`;
-                
+                    return `<div class="question-row"><div class="q-number">${q.number}.</div><div class="q-content">${q.prompt}<br><div class="blank-line"></div></div></div>`;
                 case 'true_false_justification':
-                    return `
-                        <div class="question-row">
-                            <div class="q-number">${q.number}.</div>
-                            <div class="q-content">
-                                ${q.prompt} <strong>V [ &nbsp; ] &nbsp;&nbsp; F [ &nbsp; ]</strong><br>
-                                Justificación: <div class="blank-line"></div>
-                            </div>
-                        </div>`;
-
+                    return `<div class="question-row"><div class="q-number">${q.number}.</div><div class="q-content">${q.prompt} <strong>V [ &nbsp; ] &nbsp;&nbsp; F [ &nbsp; ]</strong><br>Justificación: <div class="blank-line"></div></div></div>`;
                 case 'multiple_choice':
-                    let optsHtml = Object.entries(q.options).map(([key, val]) => {
-                        return `<div class="mcq-option"><span>${key}. ${val}</span></div>`;
-                    }).join('');
-                    
-                    return `
-                        <div class="question-row">
-                            <div class="q-number">${q.number}.</div>
-                            <div class="q-content">
-                                ${q.prompt}
-                                <div class="mcq-options">${optsHtml}</div>
-                            </div>
-                        </div>`;
-
+                    let optsHtml = Object.entries(q.options).map(([key, val]) => `<div class="mcq-option"><span>${key}. ${val}</span></div>`).join('');
+                    return `<div class="question-row"><div class="q-number">${q.number}.</div><div class="q-content">${q.prompt}<div class="mcq-options">${optsHtml}</div></div></div>`;
                 case 'multiple_select':
                     let multiBoxes = `<div class="blank-box"></div> `.repeat(5);
-                    return `
-                        <div class="question-row">
-                            <div class="q-number">${q.number}.</div>
-                            <div class="q-content">
-                                ${q.prompt}<br><br>
-                                ${multiBoxes}
-                            </div>
-                        </div>`;
-
+                    return `<div class="question-row"><div class="q-number">${q.number}.</div><div class="q-content">${q.prompt}<br><br>${multiBoxes}</div></div>`;
                 default:
-                    return `<div>Error: Tipo de pregunta desconocido (${type})</div>`;
+                    return `<div>Error: (${type})</div>`;
             }
         }
 
-        // --- NEW: CONCISE ANSWER KEY GENERATOR ---
         function createConciseAnswerKeyPage(data) {
             const page = document.createElement('div');
             page.className = 'page'; 
             
             let keyContentHtml = data.worksheet.texts.map(textData => {
                 let answersHtml = '';
-                
                 textData.question_sections.forEach(section => {
                     section.questions.forEach(q => {
-                        let answerString = "";
-                        
-                        // Handle different answer data structures
-                        if (section.type === 'true_false_justification') {
-                            answerString = `${q.answer_boolean} (Justificación: ${q.answer_justification})`;
-                        } else if (section.type === 'multiple_select') {
-                            answerString = q.answer.join(', ');
-                        } else {
-                            answerString = q.answer;
-                        }
-
-                        answersHtml += `
-                            <div class="key-item">
-                                <span class="key-num">${q.number}.</span> 
-                                <span class="key-ans">${answerString}</span>
-                            </div>
-                        `;
+                        let answerString = (section.type === 'true_false_justification') ? `${q.answer_boolean} (Justificación: ${q.answer_justification})` : 
+                                           (section.type === 'multiple_select') ? q.answer.join(', ') : q.answer;
+                        answersHtml += `<div class="key-item"><span class="key-num">${q.number}.</span> <span class="key-ans">${answerString}</span></div>`;
                     });
                 });
-
-                return `
-                    <div class="key-text-block">
-                        <div class="key-text-title">${textData.title}</div>
-                        <div class="key-grid">${answersHtml}</div>
-                    </div>
-                `;
+                return `<div class="key-text-block"><div class="key-text-title">${textData.title}</div><div class="key-grid">${answersHtml}</div></div>`;
             }).join('');
 
             page.innerHTML = `
                 <div class="content-wrapper">
                     <div class="answer-key-header">CLAVE DE RESPUESTAS (ANSWER KEY)</div>
                     ${keyContentHtml}
-                </div>
-            `;
+                </div>`;
             return page;
         }
 
@@ -313,10 +285,7 @@
                 const numbersContainer = page.querySelector('.line-numbers');
                 if (textContainer && numbersContainer) {
                     numbersContainer.innerHTML = '';
-                    const lineHeightPixels = 32; 
-                    const totalHeight = textContainer.offsetHeight;
-                    const totalLines = Math.floor(totalHeight / lineHeightPixels);
-
+                    const totalLines = Math.floor(textContainer.offsetHeight / 32);
                     for (let i = 1; i <= totalLines; i++) {
                         const numSlot = document.createElement('div');
                         numSlot.className = 'line-num-slot';
@@ -325,6 +294,39 @@
                     }
                 }
             });
+        }
+
+        // --- EXACT PDF EXPORT LOGIC ---
+        async function exportToPDF() {
+            const btn = document.getElementById('download-btn');
+            btn.innerHTML = "⏳ Generando PDF (Esto tomará unos segundos)...";
+            btn.disabled = true;
+
+            const { jsPDF } = window.jspdf;
+            const pdf = new jsPDF('p', 'pt', 'letter'); 
+            const pages = document.querySelectorAll('.page');
+
+            for (let i = 0; i < pages.length; i++) {
+                const pageElement = pages[i];
+                
+                const canvas = await html2canvas(pageElement, {
+                    scale: 2, 
+                    useCORS: true, 
+                    logging: false
+                });
+
+                const imgData = canvas.toDataURL('image/jpeg', 1.0);
+                
+                if (i > 0) pdf.addPage();
+                pdf.addImage(imgData, 'JPEG', 0, 0, 612, 792); 
+            }
+
+            // Grabs the current text of the dropdown to name the PDF file
+            const currentFileName = document.getElementById('set-selector').options[document.getElementById('set-selector').selectedIndex].text;
+            pdf.save(`${currentFileName.replace(/ /g, '_')}_Spanish_Gym.pdf`);
+            
+            btn.innerHTML = "📥 Descargar PDF Perfecto";
+            btn.disabled = false;
         }
     </script>
 </body>
