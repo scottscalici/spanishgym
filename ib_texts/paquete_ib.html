@@ -296,7 +296,7 @@
             });
         }
 
-        // --- EXACT PDF EXPORT LOGIC ---
+// --- EXACT PDF EXPORT LOGIC ---
         async function exportToPDF() {
             const btn = document.getElementById('download-btn');
             btn.innerHTML = "⏳ Generando PDF (Esto tomará unos segundos)...";
@@ -317,8 +317,15 @@
 
                 const imgData = canvas.toDataURL('image/jpeg', 1.0);
                 
+                // --- THE FIX ---
+                // We calculate the exact height to maintain the aspect ratio
+                const pdfWidth = 612; // 8.5 inches in points
+                const pdfHeight = (canvas.height * pdfWidth) / canvas.width;
+                
                 if (i > 0) pdf.addPage();
-                pdf.addImage(imgData, 'JPEG', 0, 0, 612, 792); 
+                
+                // Draw the image using the calculated proportional height
+                pdf.addImage(imgData, 'JPEG', 0, 0, pdfWidth, pdfHeight); 
             }
 
             // Grabs the current text of the dropdown to name the PDF file
