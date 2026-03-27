@@ -26,13 +26,13 @@
         .control-bar button:hover { background-color: #45a049; }
         .control-bar button:disabled { background-color: #888; cursor: not-allowed; }
 
-        /* The "Paper" - strictly sized to US Letter ratio for perfect PDF scaling */
+/* The "Paper" - strictly sized to US Letter ratio for perfect PDF scaling */
         .page {
             background-color: white; 
             width: 816px; 
             min-height: 1056px; 
             margin: 20px auto; 
-            padding: 96px; 
+            padding: 60px 72px; /* Tighter margins to fit more content */
             position: relative;
             box-shadow: 0 4px 8px rgba(0,0,0,0.5); 
             overflow: hidden;
@@ -48,21 +48,25 @@
 
         .content-wrapper { position: relative; z-index: 1; }
 
-        h1 { text-align: center; font-size: 1.3rem; margin-bottom: 2rem; line-height: 1.3; }
-        h2 { font-size: 1.1rem; border-bottom: 2px solid #000; padding-bottom: 5px; margin-bottom: 15px; margin-top: 30px;}
-        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; font-size: 0.9rem; font-weight: bold; }
+        /* Compact Typography */
+        h1 { text-align: center; font-size: 1.25rem; margin-bottom: 1rem; line-height: 1.3; }
+        h2 { font-size: 1.1rem; border-bottom: 2px solid #000; padding-bottom: 5px; margin-bottom: 10px; margin-top: 20px;}
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; font-size: 0.9rem; font-weight: bold; }
         .name-line { width: 200px; border-bottom: 1px solid #000; display: inline-block; margin-left: 10px; }
         
         .reading-section { display: flex; gap: 1.5rem; }
         .line-numbers { width: 30px; flex-shrink: 0; text-align: right; font-family: monospace; color: #888; }
-        .line-num-slot { height: 2rem; display: flex; align-items: center; justify-content: flex-end; }
-        .reading-text p { font-size: 1.1rem; line-height: 2rem; margin-bottom: 2rem; text-indent: 2rem; text-align: justify; }
+        
+        /* Line height and number slots MUST match to stay aligned */
+        .line-num-slot { height: 1.6rem; display: flex; align-items: center; justify-content: flex-end; }
+        .reading-text p { font-size: 1.1rem; line-height: 1.6rem; margin-bottom: 1.2rem; text-indent: 2rem; text-align: justify; }
 
-        .instruction-block { background: #f0f0f0; padding: 10px; margin-bottom: 15px; font-weight: bold; border-left: 4px solid #333; }
-        .options-box { border: 1px solid #ccc; padding: 15px; margin-bottom: 15px; display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; }
+        /* Compact Question Layouts */
+        .instruction-block { background: #f0f0f0; padding: 8px; margin-bottom: 10px; font-weight: bold; border-left: 4px solid #333; }
+        .options-box { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; }
         .option-item { font-weight: bold; font-size: 0.95rem;}
         
-        .question-row { margin-bottom: 15px; display: flex; align-items: baseline; gap: 10px; }
+        .question-row { margin-bottom: 10px; display: flex; align-items: baseline; gap: 10px; }
         .q-number { font-weight: bold; width: 30px; flex-shrink: 0;}
         .q-content { flex-grow: 1; }
         
@@ -278,14 +282,18 @@
             return page;
         }
 
-        function calculateLineNumbers() {
+ function calculateLineNumbers() {
             const pages = document.querySelectorAll('.page');
             pages.forEach(page => {
                 const textContainer = page.querySelector('.reading-text');
                 const numbersContainer = page.querySelector('.line-numbers');
                 if (textContainer && numbersContainer) {
                     numbersContainer.innerHTML = '';
-                    const totalLines = Math.floor(textContainer.offsetHeight / 32);
+                    
+                    // UPDATED: Matches the new 1.6rem CSS line-height
+                    const lineHeightPixels = 25.6; 
+                    
+                    const totalLines = Math.floor(textContainer.offsetHeight / lineHeightPixels);
                     for (let i = 1; i <= totalLines; i++) {
                         const numSlot = document.createElement('div');
                         numSlot.className = 'line-num-slot';
@@ -295,8 +303,8 @@
                 }
             });
         }
-
-// --- EXACT PDF EXPORT LOGIC ---
+        
+// --- EXACT PDF EXPORT LOGIC (WITH OVERFLOW SLICING) ---
         async function exportToPDF() {
             const btn = document.getElementById('download-btn');
             btn.innerHTML = "⏳ Generando PDF (Esto tomará unos segundos)...";
@@ -305,6 +313,9 @@
             const { jsPDF } = window.jspdf;
             const pdf = new jsPDF('p', 'pt', 'letter'); 
             const pages = document.querySelectorAll('.page');
+            
+            const pdfWidth = 612; // 8.5 inches in points
+            const pdfHeight = 792; // 11 inches in points
 
             for (let i = 0; i < pages.length; i++) {
                 const pageElement = pages[i];
@@ -317,18 +328,27 @@
 
                 const imgData = canvas.toDataURL('image/jpeg', 1.0);
                 
-                // --- THE FIX ---
-                // We calculate the exact height to maintain the aspect ratio
-                const pdfWidth = 612; // 8.5 inches in points
-                const pdfHeight = (canvas.height * pdfWidth) / canvas.width;
+                // Calculate the true scaled height of this specific div
+                const imgProps = pdf.getImageProperties(imgData);
+                const scaledHeight = (imgProps.height * pdfWidth) / imgProps.width;
                 
+                let heightLeft = scaledHeight;
+                let position = 0;
+
+                // Add the first page
                 if (i > 0) pdf.addPage();
-                
-                // Draw the image using the calculated proportional height
-                pdf.addImage(imgData, 'JPEG', 0, 0, pdfWidth, pdfHeight); 
+                pdf.addImage(imgData, 'JPEG', 0, position, pdfWidth, scaledHeight);
+                heightLeft -= pdfHeight;
+
+                // If the div was longer than 11 inches, create new pages for the overflow
+                while (heightLeft > 0) {
+                    position = heightLeft - scaledHeight; // Shifts the image exactly one page up
+                    pdf.addPage();
+                    pdf.addImage(imgData, 'JPEG', 0, position, pdfWidth, scaledHeight);
+                    heightLeft -= pdfHeight;
+                }
             }
 
-            // Grabs the current text of the dropdown to name the PDF file
             const currentFileName = document.getElementById('set-selector').options[document.getElementById('set-selector').selectedIndex].text;
             pdf.save(`${currentFileName.replace(/ /g, '_')}_Spanish_Gym.pdf`);
             
