@@ -1,0 +1,176 @@
+{
+  "worksheet": {
+    "title": "Práctica de Lectura IB: Cultura y Tradiciones",
+    "texts": [
+      {
+        "text_id": "A",
+        "title": "Texto A — La Semana Santa en España: Devoción y Cultura",
+        "paragraphs": [
+          "La Semana Santa en España es una de las celebraciones más profundas y espectaculares del país. Cada año, en primavera, las calles de numerosas ciudades se transforman en escenarios de devoción, arte y tradición. Aunque su origen es estrictamente religioso, hoy en día es también un evento cultural que atrae a millones de turistas internacionales.",
+          "Durante esta semana, las hermandades organizan procesiones. Los participantes, conocidos como nazarenos, caminan por las calles vistiendo túnicas tradicionales y sombreros en forma de cono llamados capirotes, cuyo propósito original era ocultar el rostro del penitente para mantener el anonimato durante su acto de fe.",
+          "El elemento central de estas procesiones son los 'pasos'. Estas son enormes plataformas de madera bellamente talladas que transportan esculturas religiosas de gran valor histórico. Los pasos son llevados a hombros por los costaleros, quienes caminan al ritmo de la música de las bandas, demostrando una impresionante resistencia física durante horas.",
+          "En la región de Andalucía, especialmente en Sevilla, el ambiente se llena de emoción con la 'saeta'. Este es un canto tradicional de influencia flamenca que se interpreta a capela desde los balcones cuando pasa la procesión debajo. Es un momento de absoluto silencio y de gran respeto por parte del público asistente."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 1–4: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para completar cada espacio en el texto. Escribe la letra correcta (A–F). Hay más opciones de las necesarias.",
+            "type": "matching",
+            "options": {
+              "A": "El vestuario típico de los participantes.",
+              "B": "Un canto que emociona a la multitud.",
+              "C": "El esfuerzo de cargar las imágenes.",
+              "D": "La decadencia de la religión.",
+              "E": "Una mezcla de fe y turismo.",
+              "F": "La historia de las catedrales."
+            },
+            "questions": [
+              { "number": 1, "prompt": "Párrafo 1", "answer": "E", "points": 1 },
+              { "number": 2, "prompt": "Párrafo 2", "answer": "A", "points": 1 },
+              { "number": 3, "prompt": "Párrafo 3", "answer": "C", "points": 1 },
+              { "number": 4, "prompt": "Párrafo 4", "answer": "B", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 5–7: Respuestas cortas. Contesta a las siguientes preguntas basándote en el texto.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 5, "prompt": "¿Qué dos aspectos, además de la devoción, caracterizan los escenarios de las ciudades en Semana Santa?", "answer": "arte y tradición", "points": 1 },
+              { "number": 6, "prompt": "¿Cuál era el objetivo inicial de usar capirotes?", "answer": "ocultar el rostro (del penitente) / mantener el anonimato", "points": 1 },
+              { "number": 7, "prompt": "¿Cómo se transportan las pesadas plataformas de madera por las calles?", "answer": "a hombros", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 8–10: Identificación de referencia. ¿A quién o a qué se refieren las palabras subrayadas? Contesta usando las palabras tal como aparecen en el texto.",
+            "type": "reference",
+            "questions": [
+              { "number": 8, "prompt": "...cuyo propósito original... (párrafo 2)", "answer": "capirotes", "points": 1 },
+              { "number": 9, "prompt": "Estas son enormes plataformas... (párrafo 3)", "answer": "(los) pasos", "points": 1 },
+              { "number": 10, "prompt": "...quienes caminan al ritmo... (párrafo 3)", "answer": "costaleros", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 11–13: Búsqueda de palabras (Sinónimos). Encuentra una palabra o expresión en el texto que signifique lo siguiente.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 11, "prompt": "visitantes (párrafo 1)", "answer": "turistas", "points": 1 },
+              { "number": 12, "prompt": "estatuas (párrafo 3)", "answer": "esculturas", "points": 1 },
+              { "number": 13, "prompt": "aguante (párrafo 3)", "answer": "resistencia", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "B",
+        "title": "Texto B — El tesoro de los Andes: La fibra de alpaca",
+        "paragraphs": [
+          "En lo alto de los Andes peruanos, la cría de la alpaca no es solo una actividad económica, sino una herencia cultural milenaria. Perú alberga aproximadamente el 80% de la población mundial de alpacas, convirtiendo a este camélido en un símbolo nacional y en el centro de vida de numerosas comunidades indígenas de la región.",
+          "La fibra de alpaca es valorada en la industria de la moda internacional por sus propiedades únicas. A diferencia de la lana de oveja, no contiene lanolina, lo que la hace hipoalergénica. Además, es increíblemente suave, resistente al agua y actúa como un aislante térmico perfecto, manteniendo el calor corporal en el frío invierno y ofreciendo frescura en verano.",
+          "El proceso de recolección de la fibra, conocido como 'esquila', se realiza con profundo respeto hacia el animal. Generalmente, se lleva a cabo una vez al año utilizando técnicas tradicionales que aseguran que la alpaca no sufra ningún daño. Esta práctica sostenible protege el ecosistema frágil de las montañas, ya que las alpacas, al pastar, no arrancan la hierba de raíz, permitiendo que la vegetación vuelva a crecer rápidamente.",
+          "Hoy en día, el desafío para los productores peruanos es competir en un mercado globalizado buscando ingresos dignos. Las asociaciones locales trabajan arduamente para evitar a los intermediarios comerciales y exportar la fibra directamente a las grandes marcas de moda en Europa y Asia, mejorando así la calidad de vida de los pastores andinos."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 14–17: Verdadero o Falso con justificación. Las siguientes frases son verdaderas o falsas. Marca [✓] la opción correcta y luego justifícala usando las palabras tal como aparecen en el texto. Las dos partes son necesarias para obtener [1 punto].",
+            "type": "true_false_justification",
+            "questions": [
+              { "number": 14, "prompt": "La mayor parte de las alpacas de todo el planeta viven en el territorio peruano.", "answer_boolean": "V", "answer_justification": "Perú alberga aproximadamente el 80% de la población mundial de alpacas", "points": 1 },
+              { "number": 15, "prompt": "La fibra de alpaca produce muchas reacciones alérgicas en las personas.", "answer_boolean": "F", "answer_justification": "no contiene lanolina, lo que la hace hipoalergénica", "points": 1 },
+              { "number": 16, "prompt": "La forma en que las alpacas se alimentan destruye permanentemente las plantas del ecosistema andino.", "answer_boolean": "F", "answer_justification": "no arrancan la hierba de raíz, permitiendo que la vegetación vuelva a crecer rápidamente", "points": 1 },
+              { "number": 17, "prompt": "Las comunidades locales buscan conectarse directamente con el mercado internacional europeo y asiático.", "answer_boolean": "V", "answer_justification": "exportar la fibra directamente a las grandes marcas de moda en Europa y Asia", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 18–20: Sinónimos. ¿Qué significan las siguientes palabras del texto? Elige las palabras apropiadas de la lista.",
+            "type": "matching",
+            "options": {
+              "A": "revendedores",
+              "B": "pastores",
+              "C": "montañas",
+              "D": "recolección",
+              "E": "patrimonio",
+              "F": "exportación"
+            },
+            "questions": [
+              { "number": 18, "prompt": "herencia (párrafo 1)", "answer": "E", "points": 1 },
+              { "number": 19, "prompt": "esquila (párrafo 3)", "answer": "D", "points": 1 },
+              { "number": 20, "prompt": "intermediarios (párrafo 4)", "answer": "A", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Pregunta 21–23: Opción múltiple. Elige la respuesta correcta.",
+            "type": "multiple_choice",
+            "questions": [
+              { "number": 21, "prompt": "Según el texto, la fibra de alpaca es un aislante perfecto porque...", "options": { "A": "solo sirve para los duros inviernos.", "B": "regula la temperatura corporal en diferentes estaciones del año.", "C": "es demasiado calurosa para los meses de verano.", "D": "se echa a perder al entrar en contacto con el agua." }, "answer": "B", "points": 1 },
+              { "number": 22, "prompt": "El proceso de la esquila se caracteriza por...", "options": { "A": "realizarse todos los meses del año de forma rápida.", "B": "ser una actividad que lastima a los camélidos.", "C": "emplear tecnología de punta en las montañas.", "D": "ser una práctica sostenible y respetuosa con los animales." }, "answer": "D", "points": 1 },
+              { "number": 23, "prompt": "El objetivo actual de las asociaciones andinas es...", "options": { "A": "criar ovejas en lugar de alpacas.", "B": "vender productos textiles mucho más baratos.", "C": "evitar vendedores del medio para mejorar las ganancias de los pastores.", "D": "impedir que la fibra de alpaca llegue al continente asiático." }, "answer": "C", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — El Merengue: Ritmo e Identidad Dominicana",
+        "paragraphs": [
+          "El merengue es el género musical y el baile nacional de la República Dominicana, y representa una parte fundamental de su identidad cultural. Su origen se remonta a mediados del siglo XIX, surgiendo como una expresión popular de la clase trabajadora antes de conquistar y unir a todos los estratos de la sociedad dominicana.",
+          "La instrumentación del merengue tradicional, conocido en el país como 'perico ripiao', es un ejemplo perfecto del mestizaje cultural de la isla caribeña. Utiliza tres instrumentos principales: la tambora (un tambor de origen africano que marca el compás), la güira (un cilindro de metal de procedencia indígena que se raspa) y el acordeón (de origen europeo, introducido por comerciantes alemanes). Esta rica combinación sonora crea un ritmo rápido, alegre y muy contagioso.",
+          "[ – 24 – ] los años, el merengue ha evolucionado. A mediados del siglo XX, se incorporaron instrumentos de viento [ – 25 – ] el saxofón y las trompetas, creando orquestas más grandes y un sonido más moderno para el público urbano. [ – 26 – ], en las últimas décadas, grandes artistas internacionales han fusionado el ritmo dominicano con otros géneros musicales como el pop y la música electrónica, [ – 27 – ] ha ayudado a popularizar el baile en las nuevas generaciones.",
+          "Hoy en día, el merengue no solo se baila en el Caribe, [ – 28 – ] en fiestas y discotecas a nivel global. En 2016, la UNESCO declaró al merengue como Patrimonio Cultural Inmaterial de la Humanidad, reconociendo su valioso papel en la promoción de la convivencia, la alegría y la unión entre las diferentes comunidades de todo el mundo."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 24–28: Completar espacios en blanco. Elige de la lista la palabra apropiada para completar cada espacio en el texto. Hay más opciones de las necesarias.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "sino", "B": "como", "C": "además", "D": "lo que", "E": "aunque", "F": "sin embargo", "G": "donde", "H": "con el paso de", "I": "ya que", "J": "hacia"
+            },
+            "questions": [
+              { "number": 24, "prompt": "[ – 24 – ]", "answer": "H", "points": 1 },
+              { "number": 25, "prompt": "[ – 25 – ]", "answer": "B", "points": 1 },
+              { "number": 26, "prompt": "[ – 26 – ]", "answer": "C", "points": 1 },
+              { "number": 27, "prompt": "[ – 27 – ]", "answer": "D", "points": 1 },
+              { "number": 28, "prompt": "[ – 28 – ]", "answer": "A", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Pregunta 29–33: Frases verdaderas. Elige las cinco frases verdaderas basándote en el texto (Escribe las letras A–J). [5 puntos]",
+            "type": "multiple_select",
+            "options": {
+              "A": "El merengue fue aceptado exclusivamente por la clase alta desde su invención.",
+              "B": "La música del merengue se originó en la República Dominicana en el siglo XIX.",
+              "C": "La instrumentación del 'perico ripiao' fusiona culturas de tres continentes distintos.",
+              "D": "El acordeón fue un instrumento musical inventado por los indígenas de la isla.",
+              "E": "El ritmo del merengue tradicional se caracteriza por ser triste, dramático y lento.",
+              "F": "La versión más moderna del merengue integra orquestas con instrumentos de viento.",
+              "G": "La reciente fusión del merengue con el pop fue un fracaso entre los jóvenes.",
+              "H": "El merengue es un género musical que se disfruta internacionalmente en la actualidad.",
+              "I": "La UNESCO otorgó un importante reconocimiento al merengue por su valor sociocultural.",
+              "J": "El merengue fue declarado Patrimonio de la Humanidad a finales del siglo XIX."
+            },
+            "questions": [
+              { "number": "29-33", "prompt": "Selecciona las 5 verdaderas", "answer": ["B", "C", "F", "H", "I"], "points": 5 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 34–37: Completar la oración. Elige de la lista el final apropiado para completar cada oración.",
+            "type": "matching",
+            "options": {
+              "A": "...la clase trabajadora.",
+              "B": "...el acordeón a la isla.",
+              "C": "...se popularizó en las nuevas generaciones.",
+              "D": "...los indígenas caribeños.",
+              "E": "...las clases altas dominicanas.",
+              "F": "...origen africano.",
+              "G": "...fue prohibido por la UNESCO."
+            },
+            "questions": [
+              { "number": 34, "prompt": "Originalmente, el merengue era una expresión exclusiva de...", "answer": "A", "points": 1 },
+              { "number": 35, "prompt": "La tambora es un instrumento que proviene de...", "answer": "F", "points": 1 },
+              { "number": 36, "prompt": "Los comerciantes de Alemania introdujeron...", "answer": "B", "points": 1 },
+              { "number": 37, "prompt": "Gracias a fusiones con la música electrónica, el merengue...", "answer": "C", "points": 1 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
