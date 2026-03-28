@@ -5,39 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spanish Gym | Generador IB</title>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 
     <style>
-        /* Base Application Styles */
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { background-color: #525659; font-family: 'Segoe UI', Tahoma, sans-serif; padding-top: 60px; }
+        body { background-color: #525659; font-family: 'Segoe UI', sans-serif; padding-top: 60px; }
         
-        /* Fixed Control Bar */
+        /* Navigation Bar */
         .control-bar {
             position: fixed; top: 0; left: 0; width: 100%;
             background: #333; color: white; padding: 10px 20px;
             display: flex; justify-content: center; gap: 20px; align-items: center;
-            z-index: 1000; box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+            z-index: 1000;
         }
         .control-bar select, .control-bar button { padding: 8px 16px; border-radius: 4px; border: none; cursor: pointer; }
         .control-bar button { background-color: #4CAF50; color: white; font-weight: bold; }
 
-        /* The "Paper" - Locked to US Letter Aspect Ratio */
+        /* The Paper Setup */
         .page {
             background-color: white; 
-            width: 816px;   /* 8.5 inches at 96 DPI */
-            height: 1056px; /* 11 inches at 96 DPI */
+            width: 8.5in; /* Fixed width for calculation */
             margin: 20px auto; 
-            padding: 60px 72px; 
+            padding: 0.75in 0.8in; 
             position: relative;
             box-shadow: 0 4px 8px rgba(0,0,0,0.5); 
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
+            page-break-after: always;
+        }
+        .page:last-child { page-break-after: auto; }
+
+        /* Prevent Slicing through questions */
+        .question-section-wrapper, .question-row, .instruction-block, .options-box, .key-item {
+            page-break-inside: avoid !important;
         }
 
-        /* Watermark Styles */
+        /* Watermark */
         .has-watermark::before {
             content: ""; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
             width: 80%; height: 80%;
@@ -48,29 +49,27 @@
 
         .content-wrapper { position: relative; z-index: 1; }
 
-        /* Document Typography */
-        h1 { text-align: center; font-size: 1.25rem; margin-bottom: 1rem; line-height: 1.3; }
+        /* Formatting elements */
+        h1 { text-align: center; font-size: 1.25rem; margin-bottom: 1rem; }
         h2 { font-size: 1.1rem; border-bottom: 2px solid #000; padding-bottom: 5px; margin-bottom: 15px; margin-top: 20px;}
-        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; font-size: 0.9rem; font-weight: bold; }
+        .header { display: flex; justify-content: space-between; font-size: 0.9rem; font-weight: bold; margin-bottom: 1.5rem; }
         .name-line { width: 200px; border-bottom: 1px solid #000; display: inline-block; margin-left: 10px; }
         
-        /* Reading Text Formatting */
         .reading-section { display: flex; gap: 1.5rem; }
-        .line-numbers { width: 30px; flex-shrink: 0; text-align: right; font-family: monospace; color: #888; }
+        .line-numbers { width: 30px; text-align: right; font-family: monospace; color: #888; }
         .line-num-slot { height: 1.6rem; display: flex; align-items: center; justify-content: flex-end; }
         .reading-text p { font-size: 1.05rem; line-height: 1.6rem; margin-bottom: 1.2rem; text-indent: 2rem; text-align: justify; }
 
-        /* Questions Layout */
         .instruction-block { background: #f4f4f4; padding: 10px; margin-bottom: 15px; font-weight: bold; border-left: 4px solid #333; }
         .options-box { 
-            border: 2px solid #ccc; padding: 12px; margin-bottom: 15px; 
+            border: 2px solid #ccc; padding: 15px; margin-bottom: 20px; 
             display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px; 
         }
         .question-row { margin-bottom: 12px; display: flex; align-items: baseline; gap: 10px; }
         .blank-box { width: 40px; height: 30px; border: 1px solid #000; text-align: center; line-height: 30px; font-weight: bold; flex-shrink: 0; }
-        .blank-line { border-bottom: 1px dashed #000; height: 1.2rem; width: 100%; flex-grow: 1; }
+        .blank-line { border-bottom: 1px dashed #000; height: 1.2rem; width: 100%; }
 
-        /* Answer Key Layout */
+        /* Key Styles */
         .answer-key-header { color: #d93025; text-align: center; font-weight: bold; font-size: 1.4rem; border: 2px dashed #d93025; padding: 10px; margin-bottom: 20px;}
         .key-grid { column-count: 2; column-gap: 20px; }
         .key-item { 
@@ -83,9 +82,9 @@
 <body>
 
     <div class="control-bar">
-        <label>Seleccionar Paquete:</label>
-        <select id="set-selector"><option>Buscando archivos...</option></select>
-        <button id="download-btn" onclick="exportToPDF()">📥 Descargar PDF Perfecto</button>
+        <label>Paquete:</label>
+        <select id="set-selector"><option>Buscando...</option></select>
+        <button id="download-btn" onclick="exportToPDF()">📥 Descargar PDF</button>
     </div>
 
     <div id="document-container"></div>
@@ -94,16 +93,15 @@
         const repoApiUrl = 'https://api.github.com/repos/scottscalici/spanishgym/contents/ib_texts';
 
         document.addEventListener('DOMContentLoaded', () => {
-            const selector = document.getElementById('set-selector');
             fetch(repoApiUrl)
                 .then(res => res.json())
                 .then(files => {
+                    const selector = document.getElementById('set-selector');
                     selector.innerHTML = '';
                     files.filter(f => f.name.endsWith('.json')).forEach(file => {
                         const opt = document.createElement('option');
                         opt.value = file.download_url;
-                        let name = file.name.replace('.json', '').replace(/_/g, ' ');
-                        opt.textContent = name.charAt(0).toUpperCase() + name.slice(1);
+                        opt.textContent = file.name.replace('.json', '').replace(/_/g, ' ');
                         selector.appendChild(opt);
                     });
                     loadData(selector.value);
@@ -117,41 +115,40 @@
                 container.innerHTML = '';
                 const title = data.worksheet.title;
 
-                data.worksheet.texts.forEach(t => container.appendChild(renderPage(t, title, 'reading')));
-                data.worksheet.texts.forEach(t => container.appendChild(renderPage(t, title, 'questions')));
-                container.appendChild(renderKeyPage(data));
+                // Render Sections
+                data.worksheet.texts.forEach(t => container.appendChild(renderReading(t, title)));
+                data.worksheet.texts.forEach(t => container.appendChild(renderQuestions(t, title)));
+                container.appendChild(renderKey(data));
 
                 setTimeout(doLineNumbers, 300);
             });
         }
 
-        function renderPage(t, title, type) {
+        function renderReading(t, title) {
             const p = document.createElement('div');
-            p.className = type === 'reading' ? 'page has-watermark' : 'page';
-            
-            let innerContent = "";
-            if (type === 'reading') {
-                innerContent = `
+            p.className = 'page has-watermark';
+            p.innerHTML = `
+                <div class="content-wrapper">
+                    <div class="header"><div>NOMBRE: <span class="name-line"></span></div><div>${title}</div></div>
                     <h1>${t.title}</h1>
                     <div class="reading-section">
                         <div class="line-numbers"></div>
                         <div class="reading-text">${t.paragraphs.map(txt => `<p>${txt}</p>`).join('')}</div>
-                    </div>`;
-            } else {
-                innerContent = `
-                    <h2>Preguntas: ${t.title}</h2>
-                    ${t.question_sections.map(s => {
-                        let opts = s.options ? `<div class="options-box">${Object.entries(s.options).map(([k,v])=>`<div><strong>${k}:</strong> ${v}</div>`).join('')}</div>` : '';
-                        let qs = s.questions.map(q => renderQRow(q, s.type)).join('');
-                        return `<div><div class="instruction-block">${s.instructions}</div>${opts}${qs}</div>`;
-                    }).join('')}`;
-            }
-
-            p.innerHTML = `
-                <div class="content-wrapper">
-                    <div class="header"><div>NOMBRE: <span class="name-line"></span></div><div>${title}</div></div>
-                    ${innerContent}
+                    </div>
                 </div>`;
+            return p;
+        }
+
+        function renderQuestions(t, title) {
+            const p = document.createElement('div');
+            p.className = 'page';
+            let content = t.question_sections.map(s => {
+                let opts = s.options ? `<div class="options-box">${Object.entries(s.options).map(([k,v])=>`<div><strong>${k}:</strong> ${v}</div>`).join('')}</div>` : '';
+                let qs = s.questions.map(q => renderQRow(q, s.type)).join('');
+                return `<div class="question-section-wrapper"><div class="instruction-block">${s.instructions}</div>${opts}${qs}</div>`;
+            }).join('');
+            
+            p.innerHTML = `<div class="content-wrapper"><div class="header"><div>NOMBRE: <span class="name-line"></span></div><div>${title}</div></div><h2>Preguntas: ${t.title}</h2>${content}</div>`;
             return p;
         }
 
@@ -162,14 +159,14 @@
             return `<div class="question-row"><b>${q.number}.</b> <div style="flex-grow:1">${q.prompt}<div class="blank-line"></div></div></div>`;
         }
 
-        function renderKeyPage(data) {
+        function renderKey(data) {
             const p = document.createElement('div');
             p.className = 'page';
             let content = data.worksheet.texts.map(t => {
                 let ans = t.question_sections.flatMap(s => s.questions).map(q => `<div class="key-item"><b>${q.number}.</b> <span class="key-ans">${q.answer}</span></div>`).join('');
-                return `<div style="margin-bottom:20px;"><b>${t.title}</b><div class="key-grid">${ans}</div></div>`;
-            }).join('');
-            p.innerHTML = `<div class="content-wrapper"><div class="answer-key-header">CLAVE DE RESPUESTAS</div>${content}</div>`;
+                return `<div><b>${t.title}</b><div class="key-grid">${ans}</div></div>`;
+            }).join('<br>');
+            p.innerHTML = `<div class="answer-key-header">CLAVE DE RESPUESTAS</div>${content}`;
             return p;
         }
 
@@ -179,40 +176,27 @@
                 const num = p.querySelector('.line-numbers');
                 if (txt && num) {
                     num.innerHTML = '';
-                    const lines = Math.floor(txt.offsetHeight / 25.6);
-                    for (let i = 1; i <= lines; i++) {
+                    for (let i = 1; i <= Math.floor(txt.offsetHeight/25.6); i++) {
                         let div = document.createElement('div');
                         div.className = 'line-num-slot';
-                        if (i % 5 === 0) div.textContent = i;
+                        if (i%5===0) div.textContent = i;
                         num.appendChild(div);
                     }
                 }
             });
         }
 
-        async function exportToPDF() {
-            const btn = document.getElementById('download-btn');
-            btn.innerHTML = "⏳ Procesando páginas...";
-            btn.disabled = true;
-
-            const { jsPDF } = window.jspdf;
-            const pdf = new jsPDF('p', 'pt', 'letter');
-            const pages = document.querySelectorAll('.page');
-
-            for (let i = 0; i < pages.length; i++) {
-                const canvas = await html2canvas(pages[i], {
-                    scale: 3, 
-                    useCORS: true,
-                    backgroundColor: "#ffffff"
-                });
-
-                if (i > 0) pdf.addPage();
-                pdf.addImage(canvas.toDataURL('image/jpeg', 1.0), 'JPEG', 0, 0, 612, 792);
-            }
-
-            pdf.save("Spanish_Gym_Packet.pdf");
-            btn.innerHTML = "📥 Descargar PDF Perfecto";
-            btn.disabled = false;
+        function exportToPDF() {
+            const element = document.getElementById('document-container');
+            const opt = {
+                margin: [0.4, 0, 0.4, 0], // Top, Left, Bottom, Right
+                filename: 'Spanish_Gym_Packet.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 2, useCORS: true },
+                jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' },
+                pagebreak: { mode: ['css', 'legacy'] }
+            };
+            html2pdf().set(opt).from(element).save();
         }
     </script>
 </body>
