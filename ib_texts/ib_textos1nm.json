@@ -74,9 +74,9 @@
             "type": "true_false_justification",
             "questions": [
               { "number": 14, "prompt": "La mayor parte de las alpacas de todo el planeta viven en el territorio peruano.", "answer": "V, Perú alberga aproximadamente el 80% de la población mundial de alpacas", "points": 1 },
-              { "number": 15, "prompt": "La fibra de alpaca produce muchas reacciones alérgicas en las personas.", "answer_boolean": "F", "answer_justification": "no contiene lanolina, lo que la hace hipoalergénica", "points": 1 },
-              { "number": 16, "prompt": "La forma en que las alpacas se alimentan destruye permanentemente las plantas del ecosistema andino.", "answer_boolean": "F", "answer_justification": "no arrancan la hierba de raíz, permitiendo que la vegetación vuelva a crecer rápidamente", "points": 1 },
-              { "number": 17, "prompt": "Las comunidades locales buscan conectarse directamente con el mercado internacional europeo y asiático.", "answer_boolean": "V", "answer_justification": "exportar la fibra directamente a las grandes marcas de moda en Europa y Asia", "points": 1 }
+              { "number": 15, "prompt": "La fibra de alpaca produce muchas reacciones alérgicas en las personas.", "answer": "F, no contiene lanolina, lo que la hace hipoalergénica", "points": 1 },
+              { "number": 16, "prompt": "La forma en que las alpacas se alimentan destruye permanentemente las plantas del ecosistema andino.", "answer": "F, no arrancan la hierba de raíz, permitiendo que la vegetación vuelva a crecer rápidamente", "points": 1 },
+              { "number": 17, "prompt": "Las comunidades locales buscan conectarse directamente con el mercado internacional europeo y asiático.", "answer": "V, exportar la fibra directamente a las grandes marcas de moda en Europa y Asia", "points": 1 }
             ]
           },
           {
