@@ -135,20 +135,58 @@
             return p;
         }
 
-        function renderQRow(q, type) {
-            if (type === 'matching' || type === 'fill_in_the_blank') {
-                return `
-                    <div class="question-row" style="display: flex; align-items: center; gap: 12px;">
-                        <div class="blank-box"></div>
-                        <div style="width: 30px;"><b>${q.number}.</b></div>
-                        <div style="flex-grow: 1;">${q.prompt}</div>
-                    </div>`;
+function renderQRow(q, type) {
+            switch(type) {
+                case 'matching':
+                case 'fill_in_the_blank':
+                    return `
+                        <div class="question-row" style="display: flex; align-items: center; gap: 12px; margin-bottom: 15px; page-break-inside: avoid;">
+                            <div class="blank-box"></div>
+                            <div style="width: 30px;"><b>${q.number}.</b></div>
+                            <div style="flex-grow: 1;">${q.prompt}</div>
+                        </div>`;
+                
+                case 'true_false_justification':
+                    return `
+                        <div class="question-row" style="margin-bottom: 20px; page-break-inside: avoid;">
+                            <div style="margin-bottom: 8px;"><b>${q.number}.</b> ${q.prompt} <strong>V [ &nbsp; ] &nbsp;&nbsp; F [ &nbsp; ]</strong></div>
+                            <div style="display: flex; align-items: flex-end; gap: 10px;">
+                                <span>Justificación:</span>
+                                <div class="blank-line" style="flex-grow: 1;"></div>
+                            </div>
+                        </div>`;
+                
+                case 'multiple_choice':
+                    let optsHtml = '';
+                    if(q.options) {
+                        optsHtml = Object.entries(q.options).map(([key, val]) => 
+                            `<div style="margin-left: 30px; margin-top: 6px;"><span>${key}. ${val}</span></div>`
+                        ).join('');
+                    }
+                    return `
+                        <div class="question-row" style="margin-bottom: 20px; page-break-inside: avoid;">
+                            <div><b>${q.number}.</b> ${q.prompt}</div>
+                            <div class="mcq-options">${optsHtml}</div>
+                        </div>`;
+
+                case 'multiple_select':
+                    let multiBoxes = `<div class="blank-box" style="margin-right: 15px;"></div>`.repeat(5);
+                    return `
+                        <div class="question-row" style="margin-bottom: 20px; page-break-inside: avoid;">
+                            <div><b>${q.number}.</b> ${q.prompt}</div>
+                            <div style="margin-top: 15px; margin-left: 30px;">${multiBoxes}</div>
+                        </div>`;
+
+                case 'short_answer':
+                case 'reference':
+                case 'synonym_search':
+                default:
+                    return `
+                        <div class="question-row" style="margin-bottom: 20px; page-break-inside: avoid;">
+                            <div><b>${q.number}.</b> ${q.prompt}</div>
+                            <div class="blank-line"></div>
+                        </div>`;
             }
-            return `
-                <div class="question-row">
-                    <div><b>${q.number}.</b> ${q.prompt}</div>
-                    <div class="blank-line"></div>
-                </div>`;
         }
 
         function renderKey(data) {
