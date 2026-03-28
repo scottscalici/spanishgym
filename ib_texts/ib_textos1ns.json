@@ -42,21 +42,21 @@
             "instructions": "Preguntas 6–10: Relacionar mitades. Basándote en el párrafo 3, une la primera parte de la frase (A–E) con su final correspondiente de la lista (I–VIII).",
             "type": "matching",
             "options": {
-              "I": "...arruinar la atmósfera espiritual de la tradición.",
-              "II": "...no se ha visto afectado por la tecnología.",
-              "III": "...fuerza que se aprende en los gimnasios.",
-              "IV": "...lograr que la tecnología y el misticismo convivan.",
-              "V": "...el alma de la festividad no ha cambiado.",
-              "VI": "...solo pueden soportar los jóvenes.",
-              "VII": "...fe y sufrimiento corporal genuino.",
-              "VIII": "...atraer a más turistas internacionales."
+              "A": "...arruinar la atmósfera espiritual de la tradición.",
+              "B": "...no se ha visto afectado por la tecnología.",
+              "C": "...fuerza que se aprende en los gimnasios.",
+              "D": "...lograr que la tecnología y el misticismo convivan.",
+              "E": "...el alma de la festividad no ha cambiado.",
+              "F": "...solo pueden soportar los jóvenes.",
+              "G": "...fe y sufrimiento corporal genuino.",
+              "H": "...atraer a más turistas internacionales."
             },
             "questions": [
-              { "number": "6", "prompt": "A. Algunos puristas afirman que...", "answer": "V", "points": 1 },
-              { "number": "7", "prompt": "B. La tarea de los costaleros es una demostración de...", "answer": "VII", "points": 1 },
-              { "number": "8", "prompt": "C. El peso de los pasos es algo que...", "answer": "II", "points": 1 },
-              { "number": "9", "prompt": "D. El reto principal de hoy en día es...", "answer": "IV", "points": 1 },
-              { "number": "10", "prompt": "E. El uso excesivo de dispositivos móviles amenaza con...", "answer": "I", "points": 1 }
+              { "number": "6", "prompt": "Algunos puristas afirman que...", "answer": "E", "points": 1 },
+              { "number": "7", "prompt": "La tarea de los costaleros es una demostración de...", "answer": "G", "points": 1 },
+              { "number": "8", "prompt": "El peso de los pasos es algo que...", "answer": "B", "points": 1 },
+              { "number": "9", "prompt": "El reto principal de hoy en día es...", "answer": "D", "points": 1 },
+              { "number": "10", "prompt": "El uso excesivo de dispositivos móviles amenaza con...", "answer": "A", "points": 1 }
             ]
           }
         ]
@@ -65,9 +65,9 @@
         "text_id": "B",
         "title": "Texto B — El oro de los Andes: Sostenibilidad y futuro de la fibra de alpaca",
         "paragraphs": [
-          "En las frías y escarpadas alturas de los Andes peruanos, a más de cuatro mil metros sobre el nivel del mar, pastan pacíficamente manadas de alpacas. Perú concentra cerca del 80% de la población mundial de este camélido, cuya crianza, lejos de ser una simple actividad ganadera, representa la principal fuente de ingresos para más de un millón de familias altoandinas. Hoy, la fibra de alpaca, apodada \"el oro de los Andes\", ha conquistado las pasarelas internacionales de alta costura, compitiendo directamente con el cachemir y la seda.",
-          "El creciente interés de la industria textil global no solo responde a que la fibra es hipoalergénica, térmica y resistente al agua, sino a su extraordinario perfil ecológico. En un mundo asfixiado por el impacto ambiental de la \"moda rápida\", la alpaca se presenta como una alternativa sostenible. A diferencia de las ovejas o cabras, cuyos cascos erosionan el suelo, la alpaca posee almohadillas en sus patas que protegen los delicados pastizales andinos. Además, al alimentarse, el animal corta la hierba sin arrancar la raíz, permitiendo que la flora local se regenere rápidamente.",
-          "Sin embargo, el horizonte no está libre de nubes. El innegable avance del cambio climático está provocando sequías prolongadas y heladas atípicas que amenazan la supervivencia de los rebaños y empobrecen a los pastores, quienes habitualmente operan en condiciones de extrema vulnerabilidad económica. Para hacer frente a esta situación y evitar la explotación de los intermediarios, el gobierno y las cooperativas locales han impulsado la marca \"Alpaca del Perú\". Este sello garantiza la trazabilidad del producto, certificando que los animales han sido esquilados mediante prácticas éticas que no les causan sufrimiento, y asegurando un pago justo para el criador directo."
+          "En las frías y escarpadas alturas de los Andes peruanos, a más de cuatro mil metros sobre el nivel del mar, pastan pacíficamente manadas de alpacas. Perú concentra cerca del 80% de la población mundial de este camélido, <u>cuya</u> crianza, lejos de ser una simple actividad ganadera, representa la principal fuente de ingresos para más de un millón de familias altoandinas. Hoy, la fibra de alpaca, apodada \"el oro de los Andes\", ha conquistado las pasarelas internacionales de alta costura, compitiendo directamente con el cachemir y la seda.",
+          "El creciente interés de la industria textil global no solo responde a que la fibra es hipoalergénica, térmica y resistente al agua, sino a su extraordinario perfil ecológico. En un mundo asfixiado por el impacto ambiental de la \"moda rápida\", la alpaca se presenta como una alternativa sostenible. A diferencia de las ovejas o cabras, <u>cuyos</u> cascos erosionan el suelo, la alpaca posee almohadillas en sus patas que protegen los delicados pastizales andinos. Además, al alimentarse, el animal corta la hierba sin arrancar <u>su</u> raíz, permitiendo que la flora local se regenere rápidamente.",
+          "Sin embargo, el horizonte no está libre de nubes. El innegable avance del cambio climático está provocando sequías prolongadas y heladas atípicas que amenazan la supervivencia de los rebaños y empobrecen a los pastores, quienes habitualmente operan en condiciones de extrema vulnerabilidad económica. Para hacer frente a esta situación y evitar la explotación de los intermediarios, el gobierno y las cooperativas locales han impulsado la marca \"Alpaca del Perú\". Este sello garantiza la trazabilidad del producto, certificando que los animales han sido esquilados mediante prácticas éticas que no <u>les</u> causan sufrimiento, y asegurando un pago justo para el criador directo."
         ],
         "question_sections": [
           {
@@ -75,7 +75,7 @@
             "type": "true_false_justification",
             "questions": [
               { "number": "11", "prompt": "La venta de fibra de alpaca es un ingreso económico menor para los habitantes de los Andes.", "answer": "F, (...) representa la principal fuente de ingresos para más de un millón de familias altoandinas.", "points": 2 },
-              { "number": "12", "prompt": "La manera en que las alpacas caminan y comen ayuda a conservar la naturaleza de las montañas.", "answer": "V, la alpaca posee almohadillas en sus patas que protegen los delicados pastizales / corta la hierba sin arrancar la raíz", "points": 2 },
+              { "number": "12", "prompt": "La manera en que las alpacas caminan y comen ayuda a conservar la naturaleza de las montañas.", "answer": "V, la alpaca posee almohadillas en sus patas que protegen los delicados pastizales / corta la hierba sin arrancar su raíz", "points": 2 },
               { "number": "13", "prompt": "El clima extremo está beneficiando actualmente el crecimiento económico de los pastores andinos.", "answer": "F, (...) están provocando sequías prolongadas y heladas atípicas que amenazan la supervivencia de los rebaños y empobrecen a los pastores (...)", "points": 2 }
             ]
           },
@@ -85,7 +85,7 @@
             "questions": [
               { "number": "14", "prompt": "\"...cuya crianza, lejos de ser...\" (Párrafo 1)", "answer": "de este camélido / de las alpacas", "points": 1 },
               { "number": "15", "prompt": "\"...cuyos cascos erosionan el suelo...\" (Párrafo 2)", "answer": "(de) las ovejas o cabras", "points": 1 },
-              { "number": "16", "prompt": "\"...sin arrancar la raíz...\" (Párrafo 2)", "answer": "(de) la hierba / de los pastizales / de la flora", "points": 1 },
+              { "number": "16", "prompt": "\"...sin arrancar su raíz...\" (Párrafo 2)", "answer": "(de) la hierba / de los pastizales / de la flora", "points": 1 },
               { "number": "17", "prompt": "\"...no les causan sufrimiento...\" (Párrafo 3)", "answer": "a los animales / a las alpacas", "points": 1 }
             ]
           },
@@ -104,10 +104,10 @@
         "text_id": "C",
         "title": "Texto C — El latido del barrio",
         "paragraphs": [
-          "Mateo miraba las notas musicales garabateadas en la partitura como si fueran insectos muertos. Llevaba tres horas frente al piano, intentando componer un merengue para el certamen del conservatorio, pero la melodía que brotaba de sus dedos era vacía, plástica, sin alma. Había aplicado toda la teoría aprendida: la síncopa exacta, la progresión de acordes perfecta. Sin embargo, aquello sonaba a un frío ejercicio académico, no a la música que hacía vibrar a su isla. Frustrado, cerró la tapa del piano de un golpe y salió al balcón buscando oxígeno.",
-          "La noche de Santo Domingo lo recibió con un abrazo de aire húmedo y espeso, cargado con el inconfundible aroma a plátano frito y a asfalto caliente. Abajo, en la callejuela iluminada por farolas parpadeantes, la vida seguía su curso ajena a las estrictas reglas de la armonía clásica. Mateo cerró los ojos y, de pronto, dejó de mirar para empezar a escuchar de verdad.",
+          "Mateo miraba las notas musicales garabateadas en la partitura como si fueran insectos muertos. Llevaba tres horas frente al piano, intentando componer un merengue para el certamen del conservatorio, pero la melodía que brotaba de <u>sus</u> dedos era vacía, plástica, sin alma. Había aplicado toda la teoría aprendida: la síncopa exacta, la progresión de acordes perfecta. Sin embargo, aquello sonaba a un frío ejercicio académico, no a la música que hacía vibrar a su isla. Frustrado, cerró la tapa del piano de un golpe y salió al balcón buscando oxígeno.",
+          "La noche de Santo Domingo <u>lo</u> recibió con un abrazo de aire húmedo y espeso, cargado con el inconfundible aroma a plátano frito y a asfalto caliente. Abajo, en la callejuela iluminada por farolas parpadeantes, la vida seguía su curso ajena a las estrictas reglas de la armonía clásica. Mateo cerró los ojos y, de pronto, dejó de mirar para empezar a escuchar de verdad.",
           "En la esquina de enfrente, cuatro hombres mayores jugaban al dominó. El golpe seco de las fichas contra la mesa de madera no era un simple ruido; era una percusión constante, un compás de cuatro por cuatro que marcaba el pulso del barrio. De fondo, el pregón rítmico de un vendedor ambulante se entrelazaba con las risas agudas de unos niños que corrían descalzos. Y entonces, como si el cielo quisiera unirse a la orquesta, comenzó a llover. Las pesadas gotas repiqueteaban contra los viejos techos de zinc con una estridencia metálica y frenética.",
-          "Mateo abrió los ojos de golpe. Ahí estaba. El repique en el zinc era la güira furiosa; el golpe de las fichas de dominó, la tambora profunda; y las voces de la calle formaban la línea de los metales. Comprendió entonces que el merengue no se calculaba matemáticamente en una hoja pentagramada; el merengue se respiraba. Era la banda sonora de la supervivencia, el sudor y la alegría de su gente. Con el corazón acelerado, volvió a entrar en su habitación, abrió el piano y, olvidándose por completo de la partitura, dejó que el barrio entero hablara a través de sus manos."
+          "Mateo abrió los ojos de golpe. Ahí estaba. El repique en el zinc era la güira furiosa; el golpe de las fichas de dominó, la tambora profunda; y las voces de la calle formaban la línea de los metales. Comprendió entonces que el merengue no se calculaba matemáticamente en una hoja pentagramada; el merengue se respiraba. <u>Era</u> la banda sonora de la supervivencia, el sudor y la alegría de su gente. Con el corazón acelerado, volvió a entrar en su habitación, abrió el piano y, olvidándose por completo de la partitura, dejó que el barrio entero hablara a través de <u>sus</u> manos."
         ],
         "question_sections": [
           {
