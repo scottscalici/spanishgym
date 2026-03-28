@@ -1,0 +1,150 @@
+{
+  "worksheet": {
+    "title": "Práctica de Lectura IB: Nivel Medio (Modelo 1)",
+    "texts": [
+      {
+        "text_id": "A",
+        "title": "Texto A — Fuego, arte y tradición: Las Fallas de Valencia",
+        "paragraphs": [
+          "Cada año, al acercarse la primavera, la ciudad de Valencia (España) se transforma en un inmenso museo al aire libre, y también en una fiesta de ruido y luz. Las Fallas, celebradas principalmente entre el 15 y el 19 de marzo, son una de las festividades más singulares y populares del país. Su origen se remonta a la antigua tradición de los carpinteros locales, quienes en la víspera del día de su patrón, San José, quemaban en las calles los restos de madera vieja y los soportes que usaban para iluminar sus talleres durante el invierno.",
+          "Con el paso de los siglos, esa simple hoguera de madera evolucionó. Hoy en día, los artistas falleros construyen gigantescos monumentos de cartón, madera y poliuretano, llamados \"fallas\" o \"ninots\". Estas impresionantes esculturas, que a veces alcanzan los treinta metros de altura, no son solo obras de arte estéticas; su propósito principal es la sátira. A través del humor y la ironía, las figuras critican a políticos, celebridades y problemas de la sociedad actual.",
+          "La fiesta no es solo visual, sino también auditiva. Todos los días a las dos de la tarde, la ciudad se paraliza para escuchar la mascletà, un espectáculo pirotécnico donde miles de petardos explotan con un ritmo ensordecedor que hace temblar el suelo. Finalmente, la festividad culmina en la noche del 19 de marzo con la cremà. En este emotivo momento, todas las fallas son quemadas y reducidas a cenizas por el fuego, simbolizando la purificación, la renovación y el comienzo de una nueva etapa."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Pregunta 1: Frases verdaderas. Selecciona las cuatro frases verdaderas basándote en el texto. Escribe las letras correspondientes en las casillas.",
+            "type": "multiple_select",
+            "options": {
+              "A": "Las Fallas se celebran durante todo el mes de abril.",
+              "B": "Originalmente, los carpinteros quemaban madera para celebrar a San José.",
+              "C": "Los materiales usados para hacer los monumentos han cambiado con el tiempo.",
+              "D": "El objetivo de las esculturas es puramente decorativo y sin mensaje.",
+              "E": "Las figuras falleras utilizan la burla y el humor para comentar sobre la actualidad.",
+              "F": "La mascletà es un evento nocturno que destaca por sus luces de colores.",
+              "G": "El ruido es un elemento fundamental de las celebraciones diarias.",
+              "H": "La cremà marca el inicio de la construcción de nuevas esculturas."
+            },
+            "questions": [
+              { "number": "1", "prompt": "Selecciona las 4 verdaderas", "answer": ["B", "C", "E", "G"], "points": 4 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 2–5: Búsqueda de palabras (Sinónimos). Busca en el texto las palabras que sean más próximas en significado a las siguientes expresiones.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": "2", "prompt": "Que no hay otra igual, únicas (Párrafo 1)", "answer": "singulares", "points": 1 },
+              { "number": "3", "prompt": "Fuego grande hecho al aire libre (Párrafo 2)", "answer": "hoguera", "points": 1 },
+              { "number": "4", "prompt": "Que causa o produce la pérdida temporal de la audición por ser muy fuerte (Párrafo 3)", "answer": "ensordecedor", "points": 1 },
+              { "number": "5", "prompt": "Termina o llega a su fin (Párrafo 3)", "answer": "culmina", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 6–10: Relacionar mitades. Une la primera parte de la frase con su final correspondiente de la lista (I–VIII), basándote en el texto.",
+            "type": "matching",
+            "options": {
+              "I": "...son muy pequeñas.",
+              "II": "...burlarse de personajes famosos y temas políticos.",
+              "III": "...se detiene para disfrutar de los petardos.",
+              "IV": "...los artesanos que limpiaban sus talleres.",
+              "V": "...dejar atrás lo viejo y empezar de nuevo.",
+              "VI": "...aumenta el tráfico de la ciudad.",
+              "VII": "...educar a los niños sobre historia.",
+              "VIII": "...pueden ser extremadamente altas."
+            },
+            "questions": [
+              { "number": "6", "prompt": "La costumbre de hacer fuego en marzo nació de...", "answer": "IV", "points": 1 },
+              { "number": "7", "prompt": "Las dimensiones de las esculturas actuales...", "answer": "VIII", "points": 1 },
+              { "number": "8", "prompt": "Los temas de los \"ninots\" se enfocan en...", "answer": "II", "points": 1 },
+              { "number": "9", "prompt": "A las 14:00 horas, la actividad de Valencia...", "answer": "III", "points": 1 },
+              { "number": "10", "prompt": "El acto de quemar las fallas representa...", "answer": "V", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "B",
+        "title": "Texto B — El Inti Raymi: La gran fiesta del Sol en los Andes",
+        "paragraphs": [
+          "El Inti Raymi, que en quechua significa \"Fiesta del Sol\", es una de las celebraciones indígenas más importantes y espectaculares de América del Sur. Se lleva a cabo cada 24 de junio en la ciudad de Cusco, Perú. Esta fecha no fue elegida al azar; coincide con el solsticio de invierno en el hemisferio sur, el momento del año en el que el sol se encuentra a la mayor distancia de la Tierra. Para los antiguos incas, este alejamiento representaba un peligro, por lo que realizaban grandes rituales para pedirle al dios Sol (Inti) que regresara y diera calor a <u>sus</u> cosechas.",
+          "Durante la época del Imperio Inca, la festividad era una ceremonia religiosa estricta a <u>la que</u> asistían delegaciones de todos los territorios dominados. Sin embargo, con la llegada de los conquistadores españoles en el siglo XVI, el Inti Raymi fue prohibido por ser considerado una práctica pagana. No fue hasta 1944 cuando un grupo de intelectuales y artistas cusqueños decidió recuperar <u>la celebración</u> basándose en los escritos de antiguos cronistas.",
+          "Hoy en día, el Inti Raymi es una enorme representación teatral que atrae a miles de turistas nacionales y extranjeros. Más de 700 actores locales, vestidos con coloridos trajes tradicionales, dan vida a los sacerdotes, nobles y al propio emperador inca. La ceremonia actual se divide en tres escenarios históricos: comienza en el templo del Coricancha, continúa en la Plaza de Armas de la ciudad, y termina con el acto principal en la impresionante fortaleza de piedra de Sacsayhuamán. <u>Allí</u>, entre música de flautas, tambores y danzas, el pueblo andino renueva su conexión espiritual con la naturaleza y mantiene viva su herencia cultural."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 11–14: Identificación de referencia. ¿A qué o a quién se refieren las palabras subrayadas en el texto?",
+            "type": "reference",
+            "questions": [
+              { "number": "11", "prompt": "\"...diera calor a <u>sus</u> cosechas.\" (Párrafo 1)", "answer": "de los antiguos incas / de los incas", "points": 1 },
+              { "number": "12", "prompt": "\"...a <u>la que</u> asistían delegaciones...\" (Párrafo 2)", "answer": "a la ceremonia religiosa / a la festividad", "points": 1 },
+              { "number": "13", "prompt": "\"...decidió recuperar <u>la celebración</u>...\" (Párrafo 2)", "answer": "el Inti Raymi / la festividad", "points": 1 },
+              { "number": "14", "prompt": "\"<u>Allí</u>, entre música de flautas...\" (Párrafo 3)", "answer": "en la fortaleza de Sacsayhuamán", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 15–17: Opción múltiple. Elige la respuesta correcta para cada pregunta.",
+            "type": "multiple_choice",
+            "questions": [
+              { "number": "15", "prompt": "Según el primer párrafo, los incas celebraban el Inti Raymi en junio porque:", "options": { "A": "Era el momento en que el sol estaba más cerca y calentaba más.", "B": "Temían que el sol no volviera al estar en su punto más lejano.", "C": "Era el cumpleaños del emperador inca.", "D": "Celebraban el inicio del verano en los Andes." }, "answer": "B", "points": 1 },
+              { "number": "16", "prompt": "En el siglo XVI, la celebración del Inti Raymi:", "options": { "A": "Fue apoyada y documentada por los conquistadores españoles.", "B": "Fue adaptada para incluir la religión católica.", "C": "Fue cancelada por motivos religiosos por los españoles.", "D": "Fue trasladada a la fortaleza de Sacsayhuamán en secreto." }, "answer": "C", "points": 1 },
+              { "number": "17", "prompt": "En el presente, los actores que participan en la ceremonia:", "options": { "A": "Son en su mayoría turistas que visitan el país.", "B": "Son habitantes de la zona que recrean la historia.", "C": "Improvisan los diálogos sin una base histórica.", "D": "Solo actúan en un escenario durante todo el día." }, "answer": "B", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 18–20: Verdadero o Falso con justificación. Marca [✓] la opción correcta y luego justifícala usando exactamente las palabras del texto.",
+            "type": "true_false_justification",
+            "questions": [
+              { "number": "18", "prompt": "El día en que se celebra el Inti Raymi fue escogido de manera accidental.", "answer": "F, \"Esta fecha no fue elegida al azar\"", "points": 2 },
+              { "number": "19", "prompt": "La versión moderna de la fiesta fue inventada sin tener ninguna fuente histórica.", "answer": "F, \"basándose en los escritos de antiguos cronistas\"", "points": 2 },
+              { "number": "20", "prompt": "El evento central y final de la celebración de hoy ocurre en una estructura antigua hecha de piedra.", "answer": "V, \"termina con el acto principal en la impresionante fortaleza de piedra de Sacsayhuamán\"", "points": 2 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — Laura Esquivel: Magia, amor y gastronomía",
+        "paragraphs": [
+          "La literatura latinoamericana está llena de nombres ilustres, pero pocos han logrado combinar con tanto éxito el realismo mágico y el arte culinario como la escritora mexicana Laura Esquivel. Nacida en la Ciudad de México en 1950, Esquivel trabajó inicialmente como maestra y guionista para programas de televisión infantil. Esta experiencia temprana moldeó su capacidad para contar historias visuales y directas, una habilidad que más tarde usaría en la literatura.",
+          "Fue en 1989 cuando Esquivel alcanzó la fama internacional con la publicación de su primera novela, Como agua para chocolate. En esta obra, cada capítulo comienza con una receta de cocina tradicional mexicana, la cual está profundamente entrelazada con los sentimientos de Tita, la protagonista. Para Tita, la cocina es mucho más que el lugar donde se preparan los alimentos; es su refugio y su único medio de comunicación. A través de sus platillos, ella transmite su amor, su tristeza y su pasión a quienes los consumen, provocando reacciones mágicas y exageradas en los comensales.",
+          "La novela de Esquivel fue revolucionaria porque elevó el espacio doméstico de la cocina, tradicionalmente considerado un lugar de opresión femenina, a un espacio de poder, creatividad y rebelión. El impacto de la historia fue tal, que en 1992 fue adaptada al cine bajo la dirección de Alfonso Arau, convirtiéndose en una de las películas extranjeras más taquilleras en Estados Unidos en su momento. La obra de Laura Esquivel nos recuerda que las emociones son el ingrediente principal de la vida y que un simple plato de comida puede contener la magia necesaria para cambiar el destino de una familia."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 21–25: Completar espacios en blanco. Elige de la lista (A–J) la palabra apropiada para completar cada espacio en el resumen del texto. Usa cada letra solo una vez.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "película", "B": "televisión", "C": "cocina", "D": "escritora", "E": "fracaso", "F": "política", "G": "tristeza", "H": "realismo", "I": "música", "J": "poesía"
+            },
+            "questions": [
+              { "number": "21", "prompt": "La famosa [ – 21 – ] mexicana Laura Esquivel comenzó su carrera trabajando en la educación y la...", "answer": "D", "points": 1 },
+              { "number": "22", "prompt": "...trabajando en la educación y la [ – 22 – ].", "answer": "B", "points": 1 },
+              { "number": "23", "prompt": "Se hizo conocida mundialmente con su libro Como agua para chocolate, donde utiliza el [ – 23 – ] mágico para contar su historia.", "answer": "H", "points": 1 },
+              { "number": "24", "prompt": "En la novela, la protagonista usa la [ – 24 – ] para expresar sus emociones más profundas a los demás.", "answer": "C", "points": 1 },
+              { "number": "25", "prompt": "La obra tuvo tanto éxito que, años después, se convirtió en una exitosa [ – 25 – ].", "answer": "A", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 26–29: Respuestas cortas. Contesta a las siguientes preguntas basándote en los párrafos 2 y 3.",
+            "type": "short_answer",
+            "questions": [
+              { "number": "26", "prompt": "¿Qué elemento literario o formato se incluye al principio de cada capítulo del libro?", "answer": "una receta de cocina (tradicional mexicana)", "points": 1 },
+              { "number": "27", "prompt": "Menciona dos emociones que la protagonista transmite a través de su comida. (Vale 2 puntos)", "answer": "Cualquiera de estas dos: su amor / su tristeza / su pasión", "points": 2 },
+              { "number": "28", "prompt": "¿Cómo reaccionan las personas cuando comen los platos preparados por Tita?", "answer": "provocando reacciones mágicas y exageradas (en los comensales)", "points": 1 },
+              { "number": "29", "prompt": "Antes de esta novela, ¿cómo se veía tradicionalmente el espacio de la cocina para la mujer?", "answer": "como un lugar de opresión femenina", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 30–33: Opción múltiple. Elige la respuesta correcta.",
+            "type": "multiple_choice",
+            "questions": [
+              { "number": "30", "prompt": "Según el párrafo 1, el trabajo anterior de Esquivel como guionista le ayudó a...", "options": { "A": "inventar recetas de cocina.", "B": "crear narrativas muy visuales.", "C": "conocer a autores famosos.", "D": "ganar premios de televisión." }, "answer": "B", "points": 1 },
+              { "number": "31", "prompt": "En el texto, la expresión \"Como agua para chocolate\" es...", "options": { "A": "el nombre de una comida tradicional.", "B": "el título de la novela más famosa de la autora.", "C": "un premio internacional.", "D": "el seudónimo literario de Laura Esquivel." }, "answer": "B", "points": 1 },
+              { "number": "32", "prompt": "¿Qué mensaje final deja la obra de Esquivel según el autor del artículo?", "options": { "A": "Las recetas de cocina deben mantenerse en secreto familiar.", "B": "La magia solo existe en los libros de ficción.", "C": "Los alimentos y los sentimientos tienen el poder de transformar la vida.", "D": "Las películas siempre son mejores que los libros originales." }, "answer": "C", "points": 1 },
+              { "number": "33", "prompt": "El propósito principal de este texto es:", "options": { "A": "Enseñar a preparar comida mexicana tradicional.", "B": "Criticar el papel de la mujer en la cocina.", "C": "Informar sobre la vida y la obra más importante de Laura Esquivel.", "D": "Reseñar negativamente la película de Alfonso Arau." }, "answer": "C", "points": 1 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
