@@ -29,17 +29,17 @@
             ]
           },
           {
-            "instructions": "Preguntas 2A–2D: Búsqueda de palabras (Sinónimos). Busca en el texto las palabras que sean más próximas en significado a las siguientes expresiones.",
+            "instructions": "Preguntas 2–5: Búsqueda de palabras (Sinónimos). Busca en el texto las palabras que sean más próximas en significado a las siguientes expresiones.",
             "type": "synonym_search",
             "questions": [
-              { "number": "2A", "prompt": "Persona que viene de otro lugar (Párrafo 1)", "answer": "forastero", "points": 1 },
-              { "number": "2B", "prompt": "Acción de dar o asignar un nuevo enfoque o planificación a algo (Párrafo 1)", "answer": "replantear", "points": 1 },
-              { "number": "2C", "prompt": "Suavizar, reducir o hacer menos grave un problema (Párrafo 2)", "answer": "mitigar", "points": 1 },
-              { "number": "2D", "prompt": "Que está a la cabeza en innovación o desarrollo (Párrafo 2)", "answer": "vanguardista", "points": 1 }
+              { "number": "2", "prompt": "Persona que viene de otro lugar (Párrafo 1)", "answer": "forastero", "points": 1 },
+              { "number": "3", "prompt": "Acción de dar o asignar un nuevo enfoque o planificación a algo (Párrafo 1)", "answer": "replantear", "points": 1 },
+              { "number": "4", "prompt": "Suavizar, reducir o hacer menos grave un problema (Párrafo 2)", "answer": "mitigar", "points": 1 },
+              { "number": "5", "prompt": "Que está a la cabeza en innovación o desarrollo (Párrafo 2)", "answer": "vanguardista", "points": 1 }
             ]
           },
           {
-            "instructions": "Preguntas 3A–3E: Relacionar mitades. Basándote en el párrafo 3, une la primera parte de la frase (A–E) con su final correspondiente de la lista (I–VIII).",
+            "instructions": "Preguntas 6–10: Relacionar mitades. Basándote en el párrafo 3, une la primera parte de la frase (A–E) con su final correspondiente de la lista (I–VIII).",
             "type": "matching",
             "options": {
               "I": "...arruinar la atmósfera espiritual de la tradición.",
@@ -52,11 +52,11 @@
               "VIII": "...atraer a más turistas internacionales."
             },
             "questions": [
-              { "number": "3A", "prompt": "Algunos puristas afirman que...", "answer": "V", "points": 1 },
-              { "number": "3B", "prompt": "La tarea de los costaleros es una demostración de...", "answer": "VII", "points": 1 },
-              { "number": "3C", "prompt": "El peso de los pasos es algo que...", "answer": "II", "points": 1 },
-              { "number": "3D", "prompt": "El reto principal de hoy en día es...", "answer": "IV", "points": 1 },
-              { "number": "3E", "prompt": "El uso excesivo de dispositivos móviles amenaza con...", "answer": "I", "points": 1 }
+              { "number": "6", "prompt": "A. Algunos puristas afirman que...", "answer": "V", "points": 1 },
+              { "number": "7", "prompt": "B. La tarea de los costaleros es una demostración de...", "answer": "VII", "points": 1 },
+              { "number": "8", "prompt": "C. El peso de los pasos es algo que...", "answer": "II", "points": 1 },
+              { "number": "9", "prompt": "D. El reto principal de hoy en día es...", "answer": "IV", "points": 1 },
+              { "number": "10", "prompt": "E. El uso excesivo de dispositivos móviles amenaza con...", "answer": "I", "points": 1 }
             ]
           }
         ]
@@ -71,31 +71,31 @@
         ],
         "question_sections": [
           {
-            "instructions": "Preguntas 4A–4C: Verdadero o Falso con justificación. Marca [✓] la opción correcta y luego justifícala usando exactamente las palabras del texto.",
+            "instructions": "Preguntas 11–13: Verdadero o Falso con justificación. Marca [✓] la opción correcta y luego justifícala usando exactamente las palabras del texto.",
             "type": "true_false_justification",
             "questions": [
-              { "number": "4A", "prompt": "La venta de fibra de alpaca es un ingreso económico menor para los habitantes de los Andes.", "answer": "F, (...) representa la principal fuente de ingresos para más de un millón de familias altoandinas.", "points": 2 },
-              { "number": "4B", "prompt": "La manera en que las alpacas caminan y comen ayuda a conservar la naturaleza de las montañas.", "answer": "V, la alpaca posee almohadillas en sus patas que protegen los delicados pastizales / corta la hierba sin arrancar la raíz", "points": 2 },
-              { "number": "4C", "prompt": "El clima extremo está beneficiando actualmente el crecimiento económico de los pastores andinos.", "answer": "F, (...) están provocando sequías prolongadas y heladas atípicas que amenazan la supervivencia de los rebaños y empobrecen a los pastores (...)", "points": 2 }
+              { "number": "11", "prompt": "La venta de fibra de alpaca es un ingreso económico menor para los habitantes de los Andes.", "answer": "F, (...) representa la principal fuente de ingresos para más de un millón de familias altoandinas.", "points": 2 },
+              { "number": "12", "prompt": "La manera en que las alpacas caminan y comen ayuda a conservar la naturaleza de las montañas.", "answer": "V, la alpaca posee almohadillas en sus patas que protegen los delicados pastizales / corta la hierba sin arrancar la raíz", "points": 2 },
+              { "number": "13", "prompt": "El clima extremo está beneficiando actualmente el crecimiento económico de los pastores andinos.", "answer": "F, (...) están provocando sequías prolongadas y heladas atípicas que amenazan la supervivencia de los rebaños y empobrecen a los pastores (...)", "points": 2 }
             ]
           },
           {
-            "instructions": "Preguntas 5A–5D: Identificación de referencia. ¿A qué o a quién se refieren las palabras subrayadas en el texto?",
+            "instructions": "Preguntas 14–17: Identificación de referencia. ¿A qué o a quién se refieren las palabras subrayadas en el texto?",
             "type": "reference",
             "questions": [
-              { "number": "5A", "prompt": "\"...cuya crianza, lejos de ser...\" (Párrafo 1)", "answer": "de este camélido / de las alpacas", "points": 1 },
-              { "number": "5B", "prompt": "\"...cuyos cascos erosionan el suelo...\" (Párrafo 2)", "answer": "(de) las ovejas o cabras", "points": 1 },
-              { "number": "5C", "prompt": "\"...sin arrancar la raíz...\" (Párrafo 2)", "answer": "(de) la hierba / de los pastizales / de la flora", "points": 1 },
-              { "number": "5D", "prompt": "\"...no les causan sufrimiento...\" (Párrafo 3)", "answer": "a los animales / a las alpacas", "points": 1 }
+              { "number": "14", "prompt": "\"...cuya crianza, lejos de ser...\" (Párrafo 1)", "answer": "de este camélido / de las alpacas", "points": 1 },
+              { "number": "15", "prompt": "\"...cuyos cascos erosionan el suelo...\" (Párrafo 2)", "answer": "(de) las ovejas o cabras", "points": 1 },
+              { "number": "16", "prompt": "\"...sin arrancar la raíz...\" (Párrafo 2)", "answer": "(de) la hierba / de los pastizales / de la flora", "points": 1 },
+              { "number": "17", "prompt": "\"...no les causan sufrimiento...\" (Párrafo 3)", "answer": "a los animales / a las alpacas", "points": 1 }
             ]
           },
           {
-            "instructions": "Preguntas 6-I a 6-III: Opción múltiple. Elige la respuesta correcta.",
+            "instructions": "Preguntas 18–20: Opción múltiple. Elige la respuesta correcta.",
             "type": "multiple_choice",
             "questions": [
-              { "number": "6-I", "prompt": "Según el segundo párrafo, la industria de la moda se interesa por la alpaca porque:", "options": { "A": "Es más barata de producir que la \"moda rápida\".", "B": "Reúne cualidades físicas excepcionales y es respetuosa con el medio ambiente.", "C": "Crece más rápido que la lana de las ovejas.", "D": "Es el único tejido que resiste las heladas." }, "answer": "B", "points": 1 },
-              { "number": "6-II", "prompt": "El propósito principal del sello \"Alpaca del Perú\" (párrafo 3) es:", "options": { "A": "Atraer a más turistas a las montañas.", "B": "Aumentar el número de rebaños exportados a Europa.", "C": "Dar transparencia al proceso de producción y proteger al trabajador rural.", "D": "Crear intermediarios para agilizar la venta en el extranjero." }, "answer": "C", "points": 1 },
-              { "number": "6-III", "prompt": "El tono general de este texto es:", "options": { "A": "Crítico y sarcástico.", "B": "Informativo y analítico.", "C": "Literario y romántico.", "D": "Pesimista y desalentador." }, "answer": "B", "points": 1 }
+              { "number": "18", "prompt": "Según el segundo párrafo, la industria de la moda se interesa por la alpaca porque:", "options": { "A": "Es más barata de producir que la \"moda rápida\".", "B": "Reúne cualidades físicas excepcionales y es respetuosa con el medio ambiente.", "C": "Crece más rápido que la lana de las ovejas.", "D": "Es el único tejido que resiste las heladas." }, "answer": "B", "points": 1 },
+              { "number": "19", "prompt": "El propósito principal del sello \"Alpaca del Perú\" (párrafo 3) es:", "options": { "A": "Atraer a más turistas a las montañas.", "B": "Aumentar el número de rebaños exportados a Europa.", "C": "Dar transparencia al proceso de producción y proteger al trabajador rural.", "D": "Crear intermediarios para agilizar la venta en el extranjero." }, "answer": "C", "points": 1 },
+              { "number": "20", "prompt": "El tono general de este texto es:", "options": { "A": "Crítico y sarcástico.", "B": "Informativo y analítico.", "C": "Literario y romántico.", "D": "Pesimista y desalentador." }, "answer": "B", "points": 1 }
             ]
           }
         ]
@@ -111,41 +111,41 @@
         ],
         "question_sections": [
           {
-            "instructions": "Preguntas 7A–7C: Búsqueda de palabras (Sinónimos). Busca en los párrafos 1 y 2 las palabras que sean más próximas en significado a las siguientes expresiones.",
+            "instructions": "Preguntas 21–23: Búsqueda de palabras (Sinónimos). Busca en los párrafos 1 y 2 las palabras que sean más próximas en significado a las siguientes expresiones.",
             "type": "synonym_search",
             "questions": [
-              { "number": "7A", "prompt": "Dibujadas o escritas de forma rápida y descuidada (Párrafo 1)", "answer": "garabateadas", "points": 1 },
-              { "number": "7B", "prompt": "Concurso o competición (Párrafo 1)", "answer": "certamen", "points": 1 },
-              { "number": "7C", "prompt": "Desconectada o independiente de algo (Párrafo 2)", "answer": "ajena", "points": 1 }
+              { "number": "21", "prompt": "Dibujadas o escritas de forma rápida y descuidada (Párrafo 1)", "answer": "garabateadas", "points": 1 },
+              { "number": "22", "prompt": "Concurso o competición (Párrafo 1)", "answer": "certamen", "points": 1 },
+              { "number": "23", "prompt": "Desconectada o independiente de algo (Párrafo 2)", "answer": "ajena", "points": 1 }
             ]
           },
           {
-            "instructions": "Preguntas 8A–8D: Identificación de referencia. ¿A qué o a quién se refieren las palabras subrayadas en el texto?",
+            "instructions": "Preguntas 24–27: Identificación de referencia. ¿A qué o a quién se refieren las palabras subrayadas en el texto?",
             "type": "reference",
             "questions": [
-              { "number": "8A", "prompt": "\"...pero la melodía que brotaba de sus dedos...\" (Párrafo 1)", "answer": "(de) Mateo / (de)l protagonista", "points": 1 },
-              { "number": "8B", "prompt": "\"...que lo recibió con un abrazo...\" (Párrafo 2)", "answer": "a Mateo / a él", "points": 1 },
-              { "number": "8C", "prompt": "\"...Era la banda sonora...\" (Párrafo 4)", "answer": "el merengue", "points": 1 },
-              { "number": "8D", "prompt": "\"...hablara a través de sus manos.\" (Párrafo 4)", "answer": "(de) Mateo / (de)l protagonista", "points": 1 }
+              { "number": "24", "prompt": "\"...pero la melodía que brotaba de sus dedos...\" (Párrafo 1)", "answer": "(de) Mateo / (de)l protagonista", "points": 1 },
+              { "number": "25", "prompt": "\"...que lo recibió con un abrazo...\" (Párrafo 2)", "answer": "a Mateo / a él", "points": 1 },
+              { "number": "26", "prompt": "\"...Era la banda sonora...\" (Párrafo 4)", "answer": "el merengue", "points": 1 },
+              { "number": "27", "prompt": "\"...hablara a través de sus manos.\" (Párrafo 4)", "answer": "(de) Mateo / (de)l protagonista", "points": 1 }
             ]
           },
           {
-            "instructions": "Preguntas 9-I a 9-IV: Opción múltiple. Elige la respuesta correcta para cada pregunta basándote en el texto.",
+            "instructions": "Preguntas 28–31: Opción múltiple. Elige la respuesta correcta para cada pregunta basándote en el texto.",
             "type": "multiple_choice",
             "questions": [
-              { "number": "9-I", "prompt": "La frase \"miraba las notas musicales... como si fueran insectos muertos\" (Párrafo 1) sugiere que la composición de Mateo era...", "options": { "A": "muy difícil de leer y tocar.", "B": "técnicamente incorrecta.", "C": "estática y carente de vida.", "D": "molesta para sus oídos." }, "answer": "C", "points": 1 },
-              { "number": "9-II", "prompt": "Al principio del texto, el principal conflicto interno de Mateo es que...", "options": { "A": "no tiene suficiente talento para ganar el conservatorio.", "B": "su educación académica le impide capturar la verdadera esencia de su cultura.", "C": "el ruido de su barrio no le permite concentrarse en sus estudios.", "D": "no recuerda cómo tocar los instrumentos tradicionales." }, "answer": "B", "points": 1 },
-              { "number": "9-III", "prompt": "En el tercer párrafo, el autor utiliza la descripción del entorno urbano para...", "options": { "A": "demostrar el nivel de pobreza de la ciudad.", "B": "ilustrar la falta de educación musical de los vecinos.", "C": "mostrar que la naturaleza es impredecible.", "D": "revelar que los ritmos musicales nacen de los sonidos cotidianos." }, "answer": "D", "points": 1 },
-              { "number": "9-IV", "prompt": "¿Cuál es el mensaje principal de la revelación de Mateo en el último párrafo?", "options": { "A": "El arte auténtico surge de la experiencia vivida, no de las fórmulas matemáticas.", "B": "Para ser un buen músico, hay que abandonar los estudios teóricos por completo.", "C": "La lluvia es el elemento más importante para la inspiración de un artista.", "D": "Solo los dominicanos pueden entender la teoría musical del merengue." }, "answer": "A", "points": 1 }
+              { "number": "28", "prompt": "La frase \"miraba las notas musicales... como si fueran insectos muertos\" (Párrafo 1) sugiere que la composición de Mateo era...", "options": { "A": "muy difícil de leer y tocar.", "B": "técnicamente incorrecta.", "C": "estática y carente de vida.", "D": "molesta para sus oídos." }, "answer": "C", "points": 1 },
+              { "number": "29", "prompt": "Al principio del texto, el principal conflicto interno de Mateo es que...", "options": { "A": "no tiene suficiente talento para ganar el conservatorio.", "B": "su educación académica le impide capturar la verdadera esencia de su cultura.", "C": "el ruido de su barrio no le permite concentrarse en sus estudios.", "D": "no recuerda cómo tocar los instrumentos tradicionales." }, "answer": "B", "points": 1 },
+              { "number": "30", "prompt": "En el tercer párrafo, el autor utiliza la descripción del entorno urbano para...", "options": { "A": "demostrar el nivel de pobreza de la ciudad.", "B": "ilustrar la falta de educación musical de los vecinos.", "C": "mostrar que la naturaleza es impredecible.", "D": "revelar que los ritmos musicales nacen de los sonidos cotidianos." }, "answer": "D", "points": 1 },
+              { "number": "31", "prompt": "¿Cuál es el mensaje principal de la revelación de Mateo en el último párrafo?", "options": { "A": "El arte auténtico surge de la experiencia vivida, no de las fórmulas matemáticas.", "B": "Para ser un buen músico, hay que abandonar los estudios teóricos por completo.", "C": "La lluvia es el elemento más importante para la inspiración de un artista.", "D": "Solo los dominicanos pueden entender la teoría musical del merengue." }, "answer": "A", "points": 1 }
             ]
           },
           {
-            "instructions": "Preguntas 10A–10C: Respuestas cortas. Basándote en el párrafo 4, relaciona los sonidos de la vida cotidiana con los instrumentos correspondientes.",
+            "instructions": "Preguntas 32–34: Respuestas cortas. Basándote en el párrafo 4, relaciona los sonidos de la vida cotidiana con los instrumentos correspondientes.",
             "type": "short_answer",
             "questions": [
-              { "number": "10A", "prompt": "La lluvia repiqueteando contra el techo metálico representa:", "answer": "la güira (furiosa)", "points": 1 },
-              { "number": "10B", "prompt": "El golpe de las piezas en el juego de mesa representa:", "answer": "la tambora (profunda)", "points": 1 },
-              { "number": "10C", "prompt": "Los gritos y conversaciones de las personas en la calle representan:", "answer": "la línea de los metales / los metales", "points": 1 }
+              { "number": "32", "prompt": "La lluvia repiqueteando contra el techo metálico representa:", "answer": "la güira (furiosa)", "points": 1 },
+              { "number": "33", "prompt": "El golpe de las piezas en el juego de mesa representa:", "answer": "la tambora (profunda)", "points": 1 },
+              { "number": "34", "prompt": "Los gritos y conversaciones de las personas en la calle representan:", "answer": "la línea de los metales / los metales", "points": 1 }
             ]
           }
         ]
