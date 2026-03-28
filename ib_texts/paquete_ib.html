@@ -37,8 +37,13 @@
             page-break-after: always; /* Forces a new page between sections */
         }
 
-        /* NEW: This tells the PDF engine NEVER to cut these items in half */
-        .question-row, .instruction-block, .options-box, .key-item {
+        /* Prevents the blank extra page at the end of the PDF */
+        .page:last-child {
+            page-break-after: auto; 
+        }
+
+        /* Keeps entire question blocks and answer keys together so they never split across pages */
+        .question-section-wrapper, .question-row, .instruction-block, .options-box, .key-item {
             page-break-inside: avoid;
         }
 
@@ -66,14 +71,14 @@
         /* Compact Question Layouts */
         .instruction-block { background: #f0f0f0; padding: 10px; margin-bottom: 15px; font-weight: bold; border-left: 4px solid #333; }
         
-        /* UPGRADED: Options Box is now a clean Grid, no more messy pipes "|" */
+        /* Options Box Grid */
         .options-box { 
             border: 2px solid #ccc; 
             border-radius: 6px;
             padding: 15px; 
             margin-bottom: 20px; 
             display: grid; 
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Auto-adapts columns */
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
             gap: 12px; 
             background-color: #fafafa;
         }
@@ -88,12 +93,25 @@
         .mcq-options { margin-top: 5px; margin-left: 20px; }
         .mcq-option { display: block; margin-bottom: 5px;}
         
-        /* Concise Answer Key */
+        /* Concise Answer Key (Using Columns to prevent splitting) */
         .answer-key-header { color: #d93025; text-align: center; font-weight: bold; font-size: 1.5rem; margin-bottom: 20px; border: 2px dashed #d93025; padding: 10px;}
         .key-text-block { margin-bottom: 30px; }
         .key-text-title { font-size: 1.1rem; font-weight: bold; background: #ffebee; color: #b71c1c; padding: 8px; margin-bottom: 15px; border-radius: 4px; }
-        .key-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px; font-family: 'Courier New', Courier, monospace; }
-        .key-item { background: #f9f9f9; padding: 8px; border-left: 3px solid #d93025; }
+        
+        /* Changed to column-count to render cleanly in PDF */
+        .key-grid { column-count: 2; column-gap: 20px; font-family: 'Courier New', Courier, monospace; }
+        
+        .key-item { 
+            background: #f9f9f9; 
+            padding: 8px; 
+            border-left: 3px solid #d93025; 
+            margin-bottom: 15px;
+            page-break-inside: avoid; 
+            break-inside: avoid; 
+            display: inline-block; /* Crucial for preventing column splits */
+            width: 100%;
+        }
+        
         .key-num { font-weight: bold; display: inline-block; width: 50px; }
         .key-ans { color: #d93025; font-weight: bold; }
     </style>
@@ -212,16 +230,18 @@
             let sectionsHtml = textData.question_sections.map(section => {
                 let optionsHtml = '';
                 if (section.options) {
-                    // UPGRADED: Using clean divs for the CSS grid instead of joining with "|"
                     const opts = Object.entries(section.options).map(([key, val]) => `<div class="option-item"><strong>${key}:</strong> ${val}</div>`).join('');
                     optionsHtml = `<div class="options-box">${opts}</div>`;
                 }
                 let questionsHtml = section.questions.map(q => renderQuestion(q, section.type)).join('');
 
+                // Wraps the entire instruction and question set so it stays grouped
                 return `
-                    <div class="instruction-block">${section.instructions}</div>
-                    ${optionsHtml}
-                    <div class="question-list">${questionsHtml}</div>`;
+                    <div class="question-section-wrapper">
+                        <div class="instruction-block">${section.instructions}</div>
+                        ${optionsHtml}
+                        <div class="question-list">${questionsHtml}</div>
+                    </div>`;
             }).join('');
 
             page.innerHTML = `
@@ -297,7 +317,7 @@
             });
         }
 
-        // NEW: "Smart" PDF Generator Function
+        // "Smart" PDF Generator Function
         function exportToPDF() {
             const btn = document.getElementById('download-btn');
             btn.innerHTML = "⏳ Generando PDF Seguro...";
@@ -306,14 +326,14 @@
             const element = document.getElementById('document-container');
             const currentFileName = document.getElementById('set-selector').options[document.getElementById('set-selector').selectedIndex].text;
 
-            // Configure html2pdf to respect CSS page breaks and format for US Letter
+            // Configure html2pdf to respect CSS page breaks, format for US Letter, and ADD MARGINS
             const opt = {
-                margin:       0, // Margins are handled by the padding inside our .page CSS
+                margin:       [0.5, 0, 0.5, 0], // [Top, Left, Bottom, Right] Adds half-inch margins to split pages
                 filename:     `${currentFileName.replace(/ /g, '_')}_Spanish_Gym.pdf`,
                 image:        { type: 'jpeg', quality: 0.98 },
                 html2canvas:  { scale: 2, useCORS: true, logging: false },
                 jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' },
-                pagebreak:    { mode: ['css', 'legacy'] } // This stops text from being cut in half!
+                pagebreak:    { mode: ['css', 'legacy'] }
             };
 
             // Generate the PDF
