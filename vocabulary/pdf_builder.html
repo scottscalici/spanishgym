@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Entrenamiento: Primeros Pasos</title>
+    <title>Entrenamiento: Generador Maestro</title>
     <style>
         /* Base Screen Styles */
         body {
@@ -13,9 +13,26 @@
             padding: 20px;
         }
         
-        #loading { color: white; text-align: center; font-size: 20px; margin-top: 50px; font-weight: bold;}
+        /* --- CONTROL PANEL (Hidden on Print) --- */
+        #control-panel {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 8.5in;
+            margin: 0 auto 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        #control-panel select { padding: 10px; font-size: 16px; border-radius: 5px; width: 60%; }
+        #control-panel button { padding: 10px 20px; font-size: 16px; background-color: #e67e22; color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;}
+        #control-panel button:hover { background-color: #d35400; }
         
-        /* Forces strictly 8.5 x 11 Portrait with tighter 0.5in margins */
+        #loading { color: white; text-align: center; font-size: 18px; margin-top: 20px; font-weight: bold; display: none;}
+        
+        /* Forces strictly 8.5 x 11 Portrait */
         .page {
             background: white;
             width: 8.5in;
@@ -69,7 +86,7 @@
         /* Print Override */
         @media print {
             body { background-color: white; margin: 0; padding: 0; }
-            #loading { display: none; }
+            .no-print { display: none !important; } /* Hides the menu when printing */
             @page { size: letter portrait; margin: 0; }
             .page { box-shadow: none; margin: 0; page-break-after: always; height: 100vh; }
         }
@@ -77,10 +94,41 @@
 </head>
 <body>
 
-    <div id="loading">Cargando Entrenamiento...</div>
+    <div id="control-panel" class="no-print">
+        <select id="set-selector"></select>
+        <button onclick="loadSelectedSet()">Generar Entrenamiento</button>
+    </div>
+    
+    <div id="loading" class="no-print">Buscando datos en GitHub...</div>
     <div id="app"></div>
 
     <script>
+        // ==========================================
+        // SET CONFIGURATION (Add new sets here!)
+        // ==========================================
+        const availableSets = [
+            { 
+                id: 1, 
+                name: "Set 1.1: Saludos y Cortesía", 
+                url: "https://raw.githubusercontent.com/scottscalici/spanishgym/main/vocabulary/1-1-primeros_pasos.json" 
+            },
+            { 
+                id: 2, 
+                name: "Set 1.2: Presentaciones y Personas", 
+                url: "https://raw.githubusercontent.com/scottscalici/spanishgym/main/vocabulary/1-2-primeros_pasos.json" 
+            }
+            // To add Set 3, just copy the block above, change id to 3, and add the new URL!
+        ];
+
+        // Populate the dropdown menu on page load
+        const selector = document.getElementById('set-selector');
+        availableSets.forEach(set => {
+            const option = document.createElement('option');
+            option.value = set.id;
+            option.text = set.name;
+            selector.appendChild(option);
+        });
+
         // Utility Function: Shuffle Arrays
         function shuffleArray(array) {
             let shuffled = [...array];
@@ -92,21 +140,35 @@
         }
 
         // ==========================================
-        // DATA FETCHING LOGIC
+        // DATA FETCHING LOGIC (The Brain)
         // ==========================================
-        const targetUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/vocabulary/1-1-primeros_pasos.json';
+        async function loadSelectedSet() {
+            const selectedId = parseInt(document.getElementById('set-selector').value);
+            const loadingText = document.getElementById('loading');
+            
+            loadingText.style.display = 'block';
+            document.getElementById('app').innerHTML = ''; // Clear old worksheet
 
-        async function init() {
+            // Figure out which URLs we need to fetch (Current set + ALL previous sets)
+            const urlsToFetch = availableSets
+                .filter(set => set.id <= selectedId)
+                .map(set => set.url);
+
             try {
-                const response = await fetch(targetUrl);
-                if (!response.ok) throw new Error('Network response was not ok');
-                const data = await response.json();
+                // Fetch all required JSONs simultaneously
+                const responses = await Promise.all(urlsToFetch.map(url => fetch(url)));
+                const allData = await Promise.all(responses.map(res => res.json()));
                 
-                document.getElementById('loading').style.display = 'none';
-                generateWorksheet(data);
+                // The *current* set is the last one in the array
+                const currentSetData = allData[allData.length - 1];
+
+                loadingText.style.display = 'none';
+                
+                // Pass both the current data and the entire history to the generator
+                generateWorksheet(currentSetData, allData);
                 
             } catch (error) {
-                document.getElementById('loading').innerText = "Error loading data. Make sure the JSON is pushed to GitHub!";
+                loadingText.innerText = "Error: Asegúrate de que los archivos JSON estén subidos a GitHub.";
                 console.error('Fetch error:', error);
             }
         }
@@ -114,14 +176,14 @@
         // ==========================================
         // WORKSHEET GENERATOR ENGINE
         // ==========================================
-        function generateWorksheet(data) {
+        function generateWorksheet(currentData, allHistoricalData) {
             const app = document.getElementById('app');
             let html = '';
             let answerKey = ''; 
 
-            const headerTitle = `Entrenamiento: ${data.programa} (Set ${data.set_numero})`;
+            const headerTitle = `Entrenamiento: ${currentData.programa} (Set ${currentData.set_numero})`;
 
-            // PÁGINA 1: PREPÁRATE
+            // --- PÁGINA 1: PREPÁRATE (Uses CURRENT Data) ---
             html += `
                 <div class="page">
                     <h1>${headerTitle}</h1>
@@ -130,7 +192,7 @@
                     <div class="two-col">
             `;
             const categories = {};
-            data.preparate.forEach(item => {
+            currentData.preparate.forEach(item => {
                 if (!categories[item.categoria]) categories[item.categoria] = [];
                 categories[item.categoria].push(item);
             });
@@ -155,8 +217,8 @@
             html += `</ul></div></div>`;
 
 
-            // PÁGINA 2: EL CALENTAMIENTO
-            const vocabSample = shuffleArray(data.preparate).slice(0, 20); 
+            // --- PÁGINA 2: EL CALENTAMIENTO (Uses CURRENT Data) ---
+            const vocabSample = shuffleArray(currentData.preparate).slice(0, 20); 
             const partA = vocabSample.slice(0, 10);
             const partB = vocabSample.slice(10, 20);
             const partA_EnglishShuffled = shuffleArray(partA);
@@ -206,9 +268,9 @@
             `;
 
 
-            // PÁGINA 3: EL CARDIO
-            const cardioEN = shuffleArray(data.cardio.filter(c => c.clue_en)).slice(0, 7);
-            const cardioES = shuffleArray(data.cardio.filter(c => c.clue_es)).slice(0, 7);
+            // --- PÁGINA 3: EL CARDIO (Uses CURRENT Data) ---
+            const cardioEN = shuffleArray(currentData.cardio.filter(c => c.clue_en)).slice(0, 7);
+            const cardioES = shuffleArray(currentData.cardio.filter(c => c.clue_es)).slice(0, 7);
 
             html += `
                 <div class="page">
@@ -240,8 +302,8 @@
             `;
 
 
-            // PÁGINA 4: LEVANTAR PESAS
-            const pesasSet = shuffleArray(data.levantar_pesas).slice(0, 18);
+            // --- PÁGINA 4: LEVANTAR PESAS (Uses CURRENT Data) ---
+            const pesasSet = shuffleArray(currentData.levantar_pesas).slice(0, 18);
             const pesasA = pesasSet.slice(0, 9);
             const pesasB = pesasSet.slice(9, 18);
             
@@ -283,8 +345,8 @@
             `;
 
 
-            // PÁGINA 5: EL ESTIRAMIENTO
-            const estiramientoSet = shuffleArray(data.estiramiento).slice(0, 6);
+            // --- PÁGINA 5: EL ESTIRAMIENTO (Uses CURRENT Data) ---
+            const estiramientoSet = shuffleArray(currentData.estiramiento).slice(0, 6);
             html += `
                 <div class="page">
                     <h1>${headerTitle}</h1>
@@ -307,10 +369,19 @@
             `;
 
 
-            // PÁGINA 6: PROFUNDIZA (Spiral Review Engine)
-            const masterVocab = [...data.preparate];
-            const masterCardio = [...data.cardio];
-            const masterPesas = [...data.levantar_pesas];
+            // ==========================================
+            // PÁGINA 6: PROFUNDIZA (SPIRAL REVIEW ENGINE)
+            // ==========================================
+            // This loops through the history and merges all JSONs into giant master arrays
+            let masterVocab = [];
+            let masterCardio = [];
+            let masterPesas = [];
+
+            allHistoricalData.forEach(dataset => {
+                if(dataset.preparate) masterVocab.push(...dataset.preparate);
+                if(dataset.cardio) masterCardio.push(...dataset.cardio);
+                if(dataset.levantar_pesas) masterPesas.push(...dataset.levantar_pesas);
+            });
 
             const reviewTrans = shuffleArray(masterVocab).slice(0, 6);
             const reviewCardio = shuffleArray(masterCardio).slice(0, 4);
@@ -363,7 +434,8 @@
                 </div>
             `;
 
-            // PÁGINA 7: CLAVE DE RESPUESTAS
+
+            // --- PÁGINA 7: CLAVE DE RESPUESTAS ---
             html += `
                 <div class="page">
                     <h1>${headerTitle}</h1>
@@ -375,9 +447,6 @@
 
             app.innerHTML = html;
         }
-
-        // Run the fetch on page load
-        init();
 
     </script>
 </body>
