@@ -36,20 +36,25 @@
         .two-col { display: flex; justify-content: space-between; font-size: 13.5px; align-items: flex-start; }
         .col { width: 48%; list-style-type: none; padding: 0; margin-top: 0;}
         
-        /* Specific tweaks for matching */
+        /* Specific tweaks for matching and lists */
         .match-col li { margin-bottom: 8px; border-bottom: 1px dashed #ccc; padding-bottom: 4px; font-size: 13px;}
+        .translation-col li { margin-bottom: 12px; font-size: 13.5px; }
         
         /* Specific tweaks for Vocab List */
         .vocab-col { margin-bottom: 0; }
         .vocab-col li { margin-bottom: 10px; font-size: 12.5px; line-height: 1.4;}
         
         .blank-line { display: inline-block; width: 120px; border-bottom: 1px solid #222; margin: 0 5px; }
-        .blank-line-long { display: inline-block; width: 180px; border-bottom: 1px solid #222; margin: 0 5px; }
-        .cardio-line-container { margin-top: 12px; margin-bottom: 4px; } /* Pushes the line down into the white space */
+        .blank-line-long { display: inline-block; width: 100%; border-bottom: 1px solid #222; margin-top: 4px; }
+        .blank-line-med { display: inline-block; width: 200px; border-bottom: 1px solid #222; margin: 0 5px; }
+        
+        /* Fixed Cardio Spacing */
+        .cardio-item { margin-bottom: 14px; font-size: 13.5px; line-height: 1.4;}
+        .cardio-line-container { margin-top: 6px; margin-bottom: 0px; width: 70%;} 
         
         .word-bank { background: #ecf0f1; padding: 8px; text-align: center; font-weight: bold; font-size: 13px; margin-bottom: 15px; border-radius: 5px; line-height: 1.4;}
         
-        .question-item { margin-bottom: 14px; font-size: 13.5px; line-height: 1.4;}
+        .question-item { margin-bottom: 12px; font-size: 13.5px; line-height: 1.4;}
 
         .checkbox-item { display: flex; align-items: center; margin-bottom: 10px; font-size: 14px; }
         .checkbox-item input { margin-right: 10px; transform: scale(1.1); }
@@ -86,7 +91,7 @@
             return shuffled;
         }
 
-        // Expanded JSON Data with Categories
+        // Expanded JSON Data with Extra Sentences
         const data = {
             "programa": "Primeros Pasos",
             "set_numero": 1,
@@ -146,7 +151,13 @@
                 { "oracion": "¡[target]! Me llamo Carlos, ¿cómo te llamas?", "target": "Hola", "hint": "Hello" },
                 { "oracion": "No pasa [target], todo está muy tranquilo aquí.", "target": "nada", "hint": "nothing" },
                 { "oracion": "Son las 3:00 de la tarde. ¡[target] a todos!", "target": "Buenas tardes", "hint": "Good afternoon" },
-                { "oracion": "Hasta [target], nos vemos en la clase de matemáticas mañana.", "target": "mañana", "hint": "tomorrow" }
+                { "oracion": "Hasta [target], nos vemos en la clase de matemáticas mañana.", "target": "mañana", "hint": "tomorrow" },
+                { "oracion": "¡[target]! Nos vemos el lunes en la escuela.", "target": "Chau", "hint": "Bye" },
+                { "oracion": "— ¿Quieres más jugo? — No, [target].", "target": "gracias", "hint": "thank you" },
+                { "oracion": "Paso por aquí, [target].", "target": "con permiso", "hint": "excuse me" },
+                { "oracion": "Son las ocho de la mañana. ¡[target]!", "target": "Buenos días", "hint": "Good morning" },
+                { "oracion": "— Hola, ¿[target]? — Todo bien, gracias.", "target": "Qué tal", "hint": "How are you" },
+                { "oracion": "Es la hora de almorzar. ¡[target], chicos!", "target": "Buenas tardes", "hint": "Good afternoon" }
             ],
             "estiramiento": [
                 { "cando": "greet my teacher when I walk into class in the morning.", "respuesta": "Buenos días" },
@@ -174,7 +185,7 @@
         const headerTitle = `Entrenamiento: ${data.programa} (Set ${data.set_numero})`;
 
         // ==========================================
-        // PÁGINA 1: PREPÁRATE (Categorized)
+        // PÁGINA 1: PREPÁRATE
         // ==========================================
         html += `
             <div class="page">
@@ -184,7 +195,6 @@
                 <div class="two-col">
         `;
         
-        // Group vocabulary by category
         const categories = {};
         data.preparate.forEach(item => {
             if (!categories[item.categoria]) categories[item.categoria] = [];
@@ -195,7 +205,6 @@
         const col1Cats = categoryNames.slice(0, Math.ceil(categoryNames.length / 2));
         const col2Cats = categoryNames.slice(Math.ceil(categoryNames.length / 2));
 
-        // Column 1
         html += `<ul class="col vocab-col">`;
         col1Cats.forEach(cat => {
             html += `<div class="category-header">${cat}</div>`;
@@ -205,7 +214,6 @@
         });
         html += `</ul>`;
 
-        // Column 2
         html += `<ul class="col vocab-col">`;
         col2Cats.forEach(cat => {
             html += `<div class="category-header">${cat}</div>`;
@@ -217,24 +225,22 @@
 
 
         // ==========================================
-        // PÁGINA 2: EL CALENTAMIENTO
+        // PÁGINA 2: EL CALENTAMIENTO (Matching + Translation)
         // ==========================================
-        const matchSet = shuffleArray(data.preparate).slice(0, 20); 
-        const partA = matchSet.slice(0, 10);
-        const partB = matchSet.slice(10, 20);
+        const vocabSample = shuffleArray(data.preparate).slice(0, 20); 
+        const partA = vocabSample.slice(0, 10);
+        const partB = vocabSample.slice(10, 20);
         
         const partA_EnglishShuffled = shuffleArray(partA);
-        const partB_SpanishShuffled = shuffleArray(partB);
         const lettersA = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'];
-        const lettersB = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'];
 
         html += `
             <div class="page">
                 <h1>${headerTitle}</h1>
                 <h2>El Calentamiento</h2>
-                <p class="instructions">Match the vocabulary words. Write the letter on the line.</p>
                 
-                <h3>Parte A: Español a Inglés</h3>
+                <h3>Parte A: Relacionar (Matching)</h3>
+                <p class="instructions" style="margin-top:-5px;">Match the Spanish words to their English translations.</p>
                 <div class="two-col">
                     <ul class="col match-col">
         `;
@@ -251,19 +257,21 @@
         html += `</ul></div>`;
 
         html += `
-                <h3>Parte B: Inglés a Español</h3>
+                <br>
+                <h3>Parte B: Traducción</h3>
+                <p class="instructions" style="margin-top:-5px;">Translate the English words into Spanish.</p>
                 <div class="two-col">
-                    <ul class="col match-col">
+                    <ul class="col translation-col" style="list-style-type:none;">
         `;
         let keyPartB = [];
-        partB.forEach((item, index) => {
-            html += `<li>___ ${index + 11}. ${item.en}</li>`;
-            let correctLetterIndex = partB_SpanishShuffled.findIndex(e => e.es === item.es);
-            keyPartB.push(`${index + 11}. ${lettersB[correctLetterIndex]}`);
+        partB.slice(0, 5).forEach((item, index) => {
+            html += `<li><strong>${index + 11}.</strong> ${item.en} <div class="blank-line-long"></div></li>`;
+            keyPartB.push(`${index + 11}. ${item.es}`);
         });
-        html += `</ul><ul class="col match-col" style="list-style-type:none;">`;
-        partB_SpanishShuffled.forEach((item, index) => {
-            html += `<li><strong>${lettersB[index]}.</strong> ${item.es}</li>`;
+        html += `</ul><ul class="col translation-col" style="list-style-type:none;">`;
+        partB.slice(5, 10).forEach((item, index) => {
+            html += `<li><strong>${index + 16}.</strong> ${item.en} <div class="blank-line-long"></div></li>`;
+            keyPartB.push(`${index + 16}. ${item.es}`);
         });
         html += `</ul></div></div>`;
 
@@ -293,7 +301,7 @@
         let keyCardioA = [];
         cardioEN.forEach((item, index) => {
             html += `
-                <div class="question-item">
+                <div class="cardio-item">
                     <strong>${index + 1}.</strong> ${item.clue_en}
                     <div class="cardio-line-container"><span class="blank-line-long"></span></div>
                 </div>`;
@@ -304,7 +312,7 @@
         let keyCardioB = [];
         cardioES.forEach((item, index) => {
             html += `
-                <div class="question-item">
+                <div class="cardio-item">
                     <strong>${index + 8}.</strong> ${item.clue_es}
                     <div class="cardio-line-container"><span class="blank-line-long"></span></div>
                 </div>`;
@@ -323,11 +331,11 @@
 
 
         // ==========================================
-        // PÁGINA 4: LEVANTAR PESAS
+        // PÁGINA 4: LEVANTAR PESAS (Expanded)
         // ==========================================
-        const pesasSet = shuffleArray(data.levantar_pesas).slice(0, 14);
-        const pesasA = pesasSet.slice(0, 7);
-        const pesasB = pesasSet.slice(7, 14);
+        const pesasSet = shuffleArray(data.levantar_pesas).slice(0, 18);
+        const pesasA = pesasSet.slice(0, 9);
+        const pesasB = pesasSet.slice(9, 18);
         
         let bankA = shuffleArray(pesasA.map(i => i.target)).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
         let bankB = shuffleArray(pesasB.map(i => i.target)).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
@@ -344,7 +352,7 @@
         `;
         let keyPesasA = [];
         pesasA.forEach((item, index) => {
-            let sentence = item.oracion.replace(/\[target\]/g, `<span class="blank-line"></span>`);
+            let sentence = item.oracion.replace(/\[target\]/g, `<span class="blank-line-med"></span>`);
             html += `<li class="question-item">${sentence} <em>(${item.hint})</em></li>`;
             keyPesasA.push(`${index + 1}. ${item.target}`);
         });
@@ -353,13 +361,13 @@
         html += `
                 <h3>Ejercicio B</h3>
                 <div class="word-bank">${bankB}</div>
-                <ol start="8" style="margin-top:0; padding-left:20px;">
+                <ol start="10" style="margin-top:0; padding-left:20px;">
         `;
         let keyPesasB = [];
         pesasB.forEach((item, index) => {
-            let sentence = item.oracion.replace(/\[target\]/g, `<span class="blank-line"></span>`);
+            let sentence = item.oracion.replace(/\[target\]/g, `<span class="blank-line-med"></span>`);
             html += `<li class="question-item">${sentence} <em>(${item.hint})</em></li>`;
-            keyPesasB.push(`${index + 8}. ${item.target}`);
+            keyPesasB.push(`${index + 10}. ${item.target}`);
         });
         html += `</ol></div>`;
 
@@ -389,7 +397,7 @@
                     <input type="checkbox"> <strong>I can&nbsp;</strong> ${item.cando}
                 </div>
                 <div class="prove-it">
-                    ↳ Prove it: <span class="blank-line-long"></span>
+                    ↳ Prove it: <span class="blank-line-med"></span>
                 </div>
             `;
             keyEstiramiento.push(`${index + 1}. ${item.respuesta}`);
