@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Entrenamiento: Primeros Pasos</title>
+    <style>
+        /* Base Styles for the Screen */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        .page {
+            background: white;
+            padding: 40px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 { border-bottom: 3px solid #2c3e50; padding-bottom: 10px; color: #2c3e50; }
+        h2 { color: #e67e22; margin-top: 0; }
+        .instructions { font-style: italic; color: #555; margin-bottom: 20px; }
+        
+        /* Matching Layout */
+        .matching-container { display: flex; justify-content: space-between; }
+        .match-col { width: 45%; list-style-type: none; padding: 0; }
+        .match-col li { margin-bottom: 15px; font-size: 1.1em; }
+        
+        /* Fill in the Blanks */
+        .blank-line { display: inline-block; width: 150px; border-bottom: 2px solid #333; margin: 0 5px; }
+        .word-bank { background: #ecf0f1; padding: 15px; text-align: center; font-weight: bold; margin-bottom: 20px; border-radius: 5px; }
+        
+        /* Print Styles - This makes it perfect for TPT */
+        @media print {
+            body { background-color: white; margin: 0; padding: 0; max-width: 100%; }
+            .page { 
+                box-shadow: none; 
+                margin-bottom: 0; 
+                padding: 0.5in; 
+                page-break-after: always; /* Forces each section to its own piece of paper */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="app"></div>
+
+    <script>
+        // 1. Paste your JSON data here
+        const data = {
+            "programa": "Primeros Pasos",
+            "tema": "Saludos y Cortesía",
+            "preparate": [
+                { "es": "Hola", "en": "Hello; Hi", "contexto": "¡Hola! Me llamo María." },
+                { "es": "Buenos días", "en": "Good morning", "contexto": "Buenos días, profesor." },
+                { "es": "Buenas tardes", "en": "Good afternoon", "contexto": "Buenas tardes, ¿cómo están?" },
+                { "es": "¿Qué tal?", "en": "How are you?; How is it going?", "contexto": "¡Hola, amigo! ¿Qué tal?" },
+                { "es": "Nada", "en": "Nothing", "contexto": "No pasa nada." },
+                { "es": "Adiós", "en": "Goodbye", "contexto": "La clase terminó. ¡Adiós!" },
+                { "es": "Hasta luego", "en": "See you later", "contexto": "Me voy a mi casa, ¡hasta luego!" },
+                { "es": "Por favor", "en": "Please", "contexto": "Necesito un lápiz, por favor." },
+                { "es": "Gracias", "en": "Thank you", "contexto": "Gracias por tu ayuda." },
+                { "es": "Con permiso", "en": "Excuse me (to pass)", "contexto": "Con permiso, necesito pasar por la puerta." }
+            ],
+            // (Note: For brevity in this example, I am using a shortened JSON. Paste the full JSON here in production)
+            "levantar_pesas": [
+                { "oracion": "¡[target], profesor! ¿Cómo está usted esta mañana?", "target": "Buenos días", "hint": "Good morning" },
+                { "oracion": "No tengo mi tarea de español hoy. ¡[target]!", "target": "Lo siento", "hint": "I'm sorry" },
+                { "oracion": "La clase terminó y me voy a mi casa. ¡[target]!", "target": "Adiós", "hint": "Goodbye" },
+                { "oracion": "Hay muchas personas en el pasillo. [target], necesito pasar.", "target": "Con permiso", "hint": "Excuse me" },
+                { "oracion": "¡[target]! Me llamo Carlos, ¿cómo te llamas?", "target": "Hola", "hint": "Hello" }
+            ]
+        };
+
+        // Utility Function to Shuffle Arrays
+        function shuffleArray(array) {
+            let shuffled = [...array];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        }
+
+        const app = document.getElementById('app');
+
+        // Build Page 1: El Vestuario
+        let html = `
+            <div class="page">
+                <h1>Entrenamiento: ${data.programa}</h1>
+                <h2>Página 1: Prepárate</h2>
+                <p class="instructions">Review your vocabulary list and the context sentences before you start your workout.</p>
+                <ul>
+        `;
+        data.preparate.forEach(item => {
+            html += `<li><strong>${item.es}</strong> (${item.en}) - <em>${item.contexto}</em></li>`;
+        });
+        html += `</ul></div>`;
+
+        // Build Page 2: El Calentamiento (Dynamic Matching)
+        // Grab 8 random words from the preparate list
+        const vocabSample = shuffleArray(data.preparate).slice(0, 8);
+        const englishShuffled = shuffleArray(vocabSample); // Shuffle the English side
+        const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
+
+        html += `
+            <div class="page">
+                <h1>Entrenamiento: ${data.programa}</h1>
+                <h2>Página 2: El Calentamiento</h2>
+                <p class="instructions">Match the Spanish vocabulary word to its English translation.</p>
+                <div class="matching-container">
+                    <ul class="match-col">
+        `;
+        vocabSample.forEach((item, index) => {
+            html += `<li>___ ${index + 1}. ${item.es}</li>`;
+        });
+        html += `</ul><ul class="match-col">`;
+        englishShuffled.forEach((item, index) => {
+            html += `<li><strong>${letters[index]}.</strong> ${item.en}</li>`;
+        });
+        html += `</ul></div></div>`;
+
+        // Build Page 4: Levantar Pesas (Dynamic Fill-in-the-blanks)
+        const pesasSample = shuffleArray(data.levantar_pesas).slice(0, 5); // Pick 5 random sentences
+        let wordBank = pesasSample.map(item => item.target);
+        wordBank = shuffleArray(wordBank).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
+
+        html += `
+            <div class="page">
+                <h1>Entrenamiento: ${data.programa}</h1>
+                <h2>Página 4: Levantar Pesas</h2>
+                <p class="instructions">Read the sentences and fill in the blanks using the word bank.</p>
+                <div class="word-bank">${wordBank}</div>
+                <ol>
+        `;
+        pesasSample.forEach(item => {
+            let sentence = item.oracion.replace(/\[target\]/g, `<span class="blank-line"></span>`);
+            html += `<li style="margin-bottom:20px; font-size:1.1em;">${sentence} <em>(${item.hint})</em></li>`;
+        });
+        html += `</ol></div>`;
+
+        app.innerHTML = html;
+    </script>
+</body>
+</html>
