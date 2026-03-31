@@ -49,8 +49,8 @@
         .blank-line-med { display: inline-block; width: 200px; border-bottom: 1px solid #222; margin: 0 5px; }
         
         /* Fixed Cardio Spacing */
-        .cardio-item { margin-bottom: 14px; font-size: 13.5px; line-height: 1.4;}
-        .cardio-line-container { margin-top: 6px; margin-bottom: 0px; width: 70%;} 
+        .cardio-item { margin-bottom: 8px; font-size: 13.5px; line-height: 1.4;} /* Reduced margin-bottom from 14px to 8px to pull next question up */
+        .cardio-line-container { margin-top: 4px; margin-bottom: 0px; width: 75%;} /* Tightened margin-top slightly */
         
         .word-bank { background: #ecf0f1; padding: 8px; text-align: center; font-weight: bold; font-size: 13px; margin-bottom: 15px; border-radius: 5px; line-height: 1.4;}
         
@@ -91,7 +91,7 @@
             return shuffled;
         }
 
-        // Expanded JSON Data with Extra Sentences and Scaffolded Clues
+        // Expanded JSON Data with Extra Sentences and More Scaffolded Clues
         const data = {
             "programa": "Primeros Pasos",
             "set_numero": 1,
@@ -128,14 +128,14 @@
                 { "clue_en": "A quick, informal way to ask your friend 'How is it going?'.", "respuesta": "¿Qué tal?" },
                 { "clue_en": "You say this to ask for a favor politely.", "respuesta": "Por favor" },
                 { "clue_en": "You say this when you are doing perfectly fine.", "respuesta": "Bien" },
-                { "clue_es": "Lo que dices por la noche antes de dormir <em>(before sleeping)</em>.", "respuesta": "Buenas noches" },
-                { "clue_es": "La respuesta educada <em>(polite response)</em> cuando una persona te dice 'gracias'.", "respuesta": "De nada" },
-                { "clue_es": "Una palabra corta e informal <em>(short and informal)</em> para decir 'adiós' a tus amigos.", "respuesta": "Chau" },
-                { "clue_es": "La palabra universal para saludar <em>(to greet)</em> a una persona.", "respuesta": "Hola" },
-                { "clue_es": "Lo que dices cuando quieres saber si hay información nueva <em>(new information)</em> en la vida de tu amigo.", "respuesta": "¿Qué hay de nuevo?" },
-                { "clue_es": "Una expresión de despedida cuando vas a ver a la persona más tarde <em>(later)</em> en el mismo día.", "respuesta": "Hasta luego" },
-                { "clue_es": "El estado de ánimo <em>(mood)</em> cuando no estás bien, pero tampoco estás muy mal.", "respuesta": "Regular" },
-                { "clue_es": "Lo que dices a tu maestro a las 2 de la tarde <em>(in the afternoon)</em>.", "respuesta": "Buenas tardes" }
+                { "clue_es": "Lo que dices <em>(What you say)</em> por la noche antes de dormir <em>(at night before sleeping)</em>.", "respuesta": "Buenas noches" },
+                { "clue_es": "La respuesta educada <em>(The polite response)</em> cuando una persona te dice <em>(when a person says to you)</em> 'gracias'.", "respuesta": "De nada" },
+                { "clue_es": "Una palabra corta e informal <em>(A short, informal word)</em> para decir 'adiós' a tus amigos <em>(to say 'goodbye' to your friends)</em>.", "respuesta": "Chau" },
+                { "clue_es": "La palabra universal para saludar <em>(The universal word to greet)</em> a una persona.", "respuesta": "Hola" },
+                { "clue_es": "Lo que dices <em>(What you say)</em> cuando quieres saber si hay información nueva <em>(if there is new information)</em> en la vida de tu amigo.", "respuesta": "¿Qué hay de nuevo?" },
+                { "clue_es": "Una expresión de despedida <em>(A farewell expression)</em> cuando vas a ver a la persona más tarde <em>(when you are going to see the person later)</em> en el mismo día.", "respuesta": "Hasta luego" },
+                { "clue_es": "El estado de ánimo <em>(The mood)</em> cuando no estás bien, pero tampoco estás muy mal <em>(when you are not well, but also not very bad)</em>.", "respuesta": "Regular" },
+                { "clue_es": "Lo que dices a tu maestro <em>(What you say to your teacher)</em> a las 2 de la tarde <em>(at 2 in the afternoon)</em>.", "respuesta": "Buenas tardes" }
             ],
             "levantar_pesas": [
                 { "oracion": "¡[target], profesor! ¿Cómo está usted esta mañana?", "target": "Buenos días", "hint": "Good morning" },
