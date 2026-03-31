@@ -49,21 +49,17 @@
         .blank-line-med { display: inline-block; width: 200px; border-bottom: 1px solid #222; margin: 0 5px; }
         
         /* Fixed Cardio Spacing */
-        .cardio-item { margin-bottom: 8px; font-size: 13.5px; line-height: 1.4;} /* Reduced margin-bottom from 14px to 8px to pull next question up */
-        .cardio-line-container { margin-top: 4px; margin-bottom: 0px; width: 75%;} /* Tightened margin-top slightly */
+        .cardio-item { margin-bottom: 8px; font-size: 13.5px; line-height: 1.4;}
+        .cardio-line-container { margin-top: 4px; margin-bottom: 0px; width: 75%;}
         
         .word-bank { background: #ecf0f1; padding: 8px; text-align: center; font-weight: bold; font-size: 13px; margin-bottom: 15px; border-radius: 5px; line-height: 1.4;}
         
-        .question-item { margin-bottom: 12px; font-size: 13.5px; line-height: 1.4;}
+        .question-item { margin-bottom: 14px; font-size: 13.5px; line-height: 1.4;}
 
         .checkbox-item { display: flex; align-items: center; margin-bottom: 10px; font-size: 14px; }
         .checkbox-item input { margin-right: 10px; transform: scale(1.1); }
         .prove-it { margin-left: 25px; margin-bottom: 20px; font-size: 13.5px; color: #555;}
         
-        /* Dialogue Styles */
-        .dialogue-line { margin-bottom: 15px; font-size: 14px; line-height: 1.6;}
-        .speaker { font-weight: bold; color: #2c3e50; margin-right: 10px;}
-
         /* Answer Key Styles */
         .key-section { margin-bottom: 15px; font-size: 12px; line-height: 1.4;}
         .key-section h3 { margin: 5px 0; color: #c0392b; font-size: 14px; border-bottom: 1px solid #eee; padding-bottom: 2px;}
@@ -91,7 +87,7 @@
             return shuffled;
         }
 
-        // Expanded JSON Data with Extra Sentences and More Scaffolded Clues
+        // Expanded JSON Data 
         const data = {
             "programa": "Primeros Pasos",
             "set_numero": 1,
@@ -166,15 +162,6 @@
                 { "cando": "say goodbye to my friends when I am going to see them the next day.", "respuesta": "Hasta mañana" },
                 { "cando": "tell someone that things are going 'just okay' or 'so-so'.", "respuesta": "Regular" },
                 { "cando": "ask my friend 'what's new?' when I haven't seen them in a while.", "respuesta": "¿Qué hay de nuevo?" }
-            ],
-            "profundiza": [
-                { "speaker": "Sofía", "frase": "¡ [target1], Mateo! ¿ [target2] ?", "respuestas": ["Hola", "¿Qué tal?"] },
-                { "speaker": "Mateo", "frase": "¡Hola, Sofía! Estoy [target3] , ¿y tú?", "respuestas": ["bien"] },
-                { "speaker": "Sofía", "frase": "Estoy muy bien, [target4]. ¿ [target5] en la escuela hoy?", "respuestas": ["gracias", "¿Qué pasa?"] },
-                { "speaker": "Mateo", "frase": "No pasa [target6]. Todo es normal.", "respuestas": ["nada"] },
-                { "speaker": "Sofía", "frase": "Oh, ¡necesito ir a la clase de matemáticas! [target7], necesito pasar.", "respuestas": ["Con permiso"] },
-                { "speaker": "Mateo", "frase": "No hay problema. ¡ [target8] en la cafetería para el almuerzo!", "respuestas": ["Nos vemos"] },
-                { "speaker": "Sofía", "frase": "Sí, ¡ [target9] !", "respuestas": ["Hasta luego"] }
             ]
         };
 
@@ -413,39 +400,71 @@
 
 
         // ==========================================
-        // PÁGINA 6: PROFUNDIZA
+        // PÁGINA 6: PROFUNDIZA (SPIRAL REVIEW ENGINE)
         // ==========================================
-        let dialogAnswers = [];
-        data.profundiza.forEach(line => { dialogAnswers = dialogAnswers.concat(line.respuestas); });
-        let dialogWordBank = shuffleArray(dialogAnswers).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
+        // In the future, this is where we will combine: [...set1.preparate, ...set2.preparate]
+        const masterVocab = [...data.preparate];
+        const masterCardio = [...data.cardio];
+        const masterPesas = [...data.levantar_pesas];
+
+        const reviewTrans = shuffleArray(masterVocab).slice(0, 6);
+        const reviewCardio = shuffleArray(masterCardio).slice(0, 4);
+        const reviewPesas = shuffleArray(masterPesas).slice(0, 5);
 
         html += `
             <div class="page">
                 <h1>${headerTitle}</h1>
-                <h2>Profundiza</h2>
-                <p class="instructions"><strong>¡Un paso más! Lee el diálogo y completa las palabras que faltan.</strong><br>(Dig deeper! Read the dialogue and fill in the missing words.)</p>
-                <div class="word-bank">${dialogWordBank}</div>
-                <div style="padding: 15px; background-color: #f9f9f9; border-radius: 8px; border: 1px solid #ddd;">
+                <h2>Profundiza: Repaso en Espiral</h2>
+                <p class="instructions"><strong>¡Un paso más! Repasa el vocabulario de las lecciones anteriores.</strong><br>(Dig deeper! Review vocabulary from previous lessons.)</p>
+                
+                <h3>Sección A: Traducción Rápida</h3>
+                <div class="two-col">
+                    <ul class="col translation-col" style="list-style-type:none;">
         `;
+        let keySpiral = [];
         
-        let keyRepeticiones = [];
-        let blankCounter = 1;
-
-        data.profundiza.forEach(line => {
-            let fraseHtml = line.frase;
-            line.respuestas.forEach(ans => {
-                fraseHtml = fraseHtml.replace(`[target${blankCounter}]`, ` <span class="blank-line" style="width: 100px;"></span> `);
-                keyRepeticiones.push(`${blankCounter}: ${ans}`);
-                blankCounter++;
-            });
-            html += `<div class="dialogue-line"><span class="speaker">${line.speaker}:</span> ${fraseHtml}</div>`;
+        // Translation Section
+        reviewTrans.slice(0, 3).forEach((item, index) => {
+            html += `<li><strong>${index + 1}.</strong> ${item.en} <div class="blank-line-long"></div></li>`;
+            keySpiral.push(`A${index + 1}: ${item.es}`);
         });
-        html += `</div></div>`;
+        html += `</ul><ul class="col translation-col" style="list-style-type:none;">`;
+        reviewTrans.slice(3, 6).forEach((item, index) => {
+            html += `<li><strong>${index + 4}.</strong> ${item.en} <div class="blank-line-long"></div></li>`;
+            keySpiral.push(`A${index + 4}: ${item.es}`);
+        });
+        html += `</ul></div>`;
+
+        // Cardio Clues Section
+        html += `<h3>Sección B: ¿Qué es?</h3>`;
+        reviewCardio.forEach((item, index) => {
+            let clue = item.clue_en || item.clue_es;
+            html += `
+                <div class="cardio-item">
+                    <strong>${index + 7}.</strong> ${clue}
+                    <div class="cardio-line-container" style="width:100%;"><span class="blank-line-long"></span></div>
+                </div>`;
+            keySpiral.push(`B${index + 7}: ${item.respuesta}`);
+        });
+
+        // Fill in the Blank Section
+        let reviewBank = shuffleArray(reviewPesas.map(i => i.target)).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
+        html += `
+            <h3>Sección C: Completar</h3>
+            <div class="word-bank">${reviewBank}</div>
+            <ol start="11" style="margin-top:0; padding-left:20px;">
+        `;
+        reviewPesas.forEach((item, index) => {
+            let sentence = item.oracion.replace(/\[target\]/g, `<span class="blank-line-med"></span>`);
+            html += `<li class="question-item">${sentence}</li>`;
+            keySpiral.push(`C${index + 11}: ${item.target}`);
+        });
+        html += `</ol></div>`;
 
         answerKey += `
             <div class="key-section">
-                <h3>Profundiza</h3>
-                ${keyRepeticiones.join(" | ")}
+                <h3>Profundiza (Repaso en Espiral)</h3>
+                ${keySpiral.join(" | ")}
             </div>
         `;
 
