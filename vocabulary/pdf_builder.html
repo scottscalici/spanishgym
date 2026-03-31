@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Entrenamiento: Primeros Pasos</title>
     <style>
-        /* Base Screen Styles - Simulates a physical piece of paper */
+        /* Base Screen Styles */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             color: #222;
@@ -13,60 +13,58 @@
             padding: 20px;
         }
         
-        /* Forces strictly 8.5 x 11 Portrait */
+        /* Forces strictly 8.5 x 11 Portrait with tighter 0.5in margins */
         .page {
             background: white;
             width: 8.5in;
             height: 11in; 
             margin: 0 auto 20px auto;
-            padding: 0.75in;
+            padding: 0.5in;
             box-sizing: border-box;
             box-shadow: 0 4px 10px rgba(0,0,0,0.3);
             position: relative;
             overflow: hidden;
         }
         
-        h1 { border-bottom: 3px solid #2c3e50; padding-bottom: 5px; color: #2c3e50; font-size: 24px; margin-top: 0;}
-        h2 { color: #e67e22; margin-top: 5px; margin-bottom: 5px; font-size: 18px; text-transform: uppercase; }
-        .instructions { font-style: italic; color: #555; margin-bottom: 15px; font-size: 14px; }
+        h1 { border-bottom: 3px solid #2c3e50; padding-bottom: 5px; color: #2c3e50; font-size: 22px; margin-top: 0; margin-bottom: 10px;}
+        h2 { color: #e67e22; margin-top: 0px; margin-bottom: 5px; font-size: 18px; text-transform: uppercase; }
+        h3 { font-size: 15px; margin-bottom: 8px; margin-top: 15px; color: #34495e; border-bottom: 1px solid #eee; padding-bottom: 3px;}
+        .instructions { font-style: italic; color: #555; margin-bottom: 15px; font-size: 13px; margin-top: 0;}
         
-        /* Layouts */
-        .two-col { display: flex; justify-content: space-between; font-size: 14px; }
+        /* Two Column Layouts */
+        .two-col { display: flex; justify-content: space-between; font-size: 13.5px; }
         .col { width: 48%; list-style-type: none; padding: 0; margin-top: 0;}
-        .col li { margin-bottom: 12px; border-bottom: 1px dashed #ccc; padding-bottom: 4px;}
         
-        .blank-line { display: inline-block; width: 150px; border-bottom: 1px solid #222; margin: 0 5px; }
-        .blank-line-long { display: inline-block; width: 250px; border-bottom: 1px solid #222; margin: 0 5px; }
+        /* Specific tweaks for matching */
+        .match-col li { margin-bottom: 8px; border-bottom: 1px dashed #ccc; padding-bottom: 4px; font-size: 13px;}
         
-        .word-bank { background: #ecf0f1; padding: 12px; text-align: center; font-weight: bold; font-size: 14px; margin-bottom: 20px; border-radius: 5px; line-height: 1.5;}
+        /* Specific tweaks for Vocab List */
+        .vocab-col li { margin-bottom: 12px; font-size: 12.5px; line-height: 1.4;}
         
-        .question-item { margin-bottom: 20px; font-size: 15px; line-height: 1.4;}
+        .blank-line { display: inline-block; width: 120px; border-bottom: 1px solid #222; margin: 0 5px; }
+        .blank-line-long { display: inline-block; width: 180px; border-bottom: 1px solid #222; margin: 0 5px; }
         
-        .vocab-list { font-size: 13.5px; line-height: 1.6; padding-left: 20px;}
-        .vocab-list li { margin-bottom: 8px; }
+        .word-bank { background: #ecf0f1; padding: 8px; text-align: center; font-weight: bold; font-size: 13px; margin-bottom: 15px; border-radius: 5px; line-height: 1.4;}
+        
+        .question-item { margin-bottom: 14px; font-size: 13.5px; line-height: 1.4;}
 
-        .checkbox-item { display: flex; align-items: center; margin-bottom: 15px; font-size: 15px; }
-        .checkbox-item input { margin-right: 10px; transform: scale(1.2); }
-        .prove-it { margin-left: 25px; margin-bottom: 20px; font-size: 14px; color: #555;}
+        .checkbox-item { display: flex; align-items: center; margin-bottom: 10px; font-size: 14px; }
+        .checkbox-item input { margin-right: 10px; transform: scale(1.1); }
+        .prove-it { margin-left: 25px; margin-bottom: 20px; font-size: 13.5px; color: #555;}
         
         /* Dialogue Styles */
-        .dialogue-line { margin-bottom: 15px; font-size: 15px; line-height: 1.6;}
+        .dialogue-line { margin-bottom: 15px; font-size: 14px; line-height: 1.6;}
         .speaker { font-weight: bold; color: #2c3e50; margin-right: 10px;}
 
         /* Answer Key Styles */
-        .key-section { margin-bottom: 20px; font-size: 13px; line-height: 1.5;}
-        .key-section h3 { margin: 5px 0; color: #c0392b; font-size: 15px; border-bottom: 1px solid #eee; padding-bottom: 3px;}
+        .key-section { margin-bottom: 15px; font-size: 12px; line-height: 1.4;}
+        .key-section h3 { margin: 5px 0; color: #c0392b; font-size: 14px; border-bottom: 1px solid #eee; padding-bottom: 2px;}
 
         /* Print Override */
         @media print {
             body { background-color: white; margin: 0; padding: 0; }
             @page { size: letter portrait; margin: 0; }
-            .page { 
-                box-shadow: none; 
-                margin: 0; 
-                page-break-after: always; 
-                height: 100vh; 
-            }
+            .page { box-shadow: none; margin: 0; page-break-after: always; height: 100vh; }
         }
     </style>
 </head>
@@ -85,11 +83,10 @@
             return shuffled;
         }
 
-        // The Master JSON Database
+        // Expanded JSON Data
         const data = {
             "programa": "Primeros Pasos",
             "set_numero": 1,
-            "tema": "Saludos y Cortesía",
             "preparate": [
                 { "es": "Hola", "en": "Hello; Hi", "contexto": "¡Hola! Me llamo María." },
                 { "es": "Buenos días", "en": "Good morning", "contexto": "Buenos días, profesor." },
@@ -121,10 +118,16 @@
                 { "clue_en": "The best response when someone asks you '¿Qué pasa?' and there is nothing going on.", "respuesta": "Nada" },
                 { "clue_en": "You say this when you step on someone's foot by accident.", "respuesta": "Lo siento / Perdón" },
                 { "clue_en": "A quick, informal way to ask your friend 'How is it going?'.", "respuesta": "¿Qué tal?" },
+                { "clue_en": "You say this to ask for a favor politely.", "respuesta": "Por favor" },
+                { "clue_en": "You say this when you are doing perfectly fine.", "respuesta": "Bien" },
                 { "clue_es": "Lo que dices por la noche antes de dormir.", "respuesta": "Buenas noches" },
                 { "clue_es": "La respuesta educada cuando una persona te dice 'gracias'.", "respuesta": "De nada" },
                 { "clue_es": "Una palabra corta e informal para decir 'adiós' a tus amigos.", "respuesta": "Chau" },
-                { "clue_es": "La expresión que usas para pedir una cosa educadamente.", "respuesta": "Por favor" }
+                { "clue_es": "La palabra universal para saludar a una persona.", "respuesta": "Hola" },
+                { "clue_es": "Lo que dices cuando quieres saber si hay información nueva en la vida de tu amigo.", "respuesta": "¿Qué hay de nuevo?" },
+                { "clue_es": "Una expresión de despedida cuando vas a ver a la persona más tarde en el mismo día.", "respuesta": "Hasta luego" },
+                { "clue_es": "El estado de ánimo cuando no estás bien, pero tampoco estás muy mal.", "respuesta": "Regular" },
+                { "clue_es": "Lo que dices a tu maestro a las 2 de la tarde.", "respuesta": "Buenas tardes" }
             ],
             "levantar_pesas": [
                 { "oracion": "¡[target], profesor! ¿Cómo está usted esta mañana?", "target": "Buenos días", "hint": "Good morning" },
@@ -134,15 +137,21 @@
                 { "oracion": "Estoy muy [target] hoy porque no tengo exámenes.", "target": "bien", "hint": "well/fine" },
                 { "oracion": "La clase terminó y me voy a mi casa. ¡[target]!", "target": "Adiós", "hint": "Goodbye" },
                 { "oracion": "¿[target], amigo? Hace mucho tiempo que no te veo.", "target": "¿Qué hay de nuevo?", "hint": "What's new?" },
-                { "oracion": "Hoy estoy enfermo, me duele la cabeza. Estoy [target].", "target": "regular", "hint": "so-so / ok" }
+                { "oracion": "Hoy estoy enfermo, me duele la cabeza. Estoy [target].", "target": "regular", "hint": "so-so / ok" },
+                { "oracion": "Me voy a dormir. ¡[target] mamá!", "target": "Buenas noches", "hint": "Good night" },
+                { "oracion": "Necesito un lápiz para el examen, [target].", "target": "por favor", "hint": "please" },
+                { "oracion": "¡[target]! Me llamo Carlos, ¿cómo te llamas?", "target": "Hola", "hint": "Hello" },
+                { "oracion": "No pasa [target], todo está muy tranquilo aquí.", "target": "nada", "hint": "nothing" },
+                { "oracion": "Son las 3:00 de la tarde. ¡[target] a todos!", "target": "Buenas tardes", "hint": "Good afternoon" },
+                { "oracion": "Hasta [target], nos vemos en la clase de matemáticas mañana.", "target": "mañana", "hint": "tomorrow" }
             ],
             "estiramiento": [
-                { "cando": "I can greet my teacher when I walk into class in the morning.", "respuesta": "Buenos días" },
-                { "cando": "I can politely ask someone to move out of the way in the hallway.", "respuesta": "Con permiso" },
-                { "cando": "I can apologize if I accidentally make a mistake.", "respuesta": "Perdón / Lo siento" },
-                { "cando": "I can say goodbye to my friends when I am going to see them the next day.", "respuesta": "Hasta mañana" },
-                { "cando": "I can tell someone that things are going 'just okay' or 'so-so'.", "respuesta": "Regular" },
-                { "cando": "I can ask my friend 'what's new?' when I haven't seen them in a while.", "respuesta": "¿Qué hay de nuevo?" }
+                { "cando": "greet my teacher when I walk into class in the morning.", "respuesta": "Buenos días" },
+                { "cando": "politely ask someone to move out of the way in the hallway.", "respuesta": "Con permiso" },
+                { "cando": "apologize if I accidentally make a mistake.", "respuesta": "Perdón / Lo siento" },
+                { "cando": "say goodbye to my friends when I am going to see them the next day.", "respuesta": "Hasta mañana" },
+                { "cando": "tell someone that things are going 'just okay' or 'so-so'.", "respuesta": "Regular" },
+                { "cando": "ask my friend 'what's new?' when I haven't seen them in a while.", "respuesta": "¿Qué hay de nuevo?" }
             ],
             "repeticiones_extra": [
                 { "speaker": "Sofía", "frase": "¡ [target1], Mateo! ¿ [target2] ?", "respuestas": ["Hola", "¿Qué tal?"] },
@@ -167,70 +176,77 @@
         html += `
             <div class="page">
                 <h1>${headerTitle}</h1>
-                <h2>Página 1: Prepárate</h2>
+                <h2>Prepárate</h2>
                 <p class="instructions">Review your vocabulary list and the context sentences before you start your workout.</p>
-                <ul class="vocab-list">
+                <div class="two-col">
+                    <ul class="col vocab-col">
         `;
-        data.preparate.forEach(item => {
-            html += `<li><strong>${item.es}</strong> <em>(${item.en})</em><br>Ejemplo: ${item.contexto}</li>`;
+        // Split prepárate into two columns
+        const halfVocab = Math.ceil(data.preparate.length / 2);
+        data.preparate.slice(0, halfVocab).forEach(item => {
+            html += `<li><strong>${item.es}</strong> <em>(${item.en})</em><br><span style="color:#555;">Ej: ${item.contexto}</span></li>`;
         });
-        html += `</ul></div>`;
+        html += `</ul><ul class="col vocab-col">`;
+        data.preparate.slice(halfVocab).forEach(item => {
+            html += `<li><strong>${item.es}</strong> <em>(${item.en})</em><br><span style="color:#555;">Ej: ${item.contexto}</span></li>`;
+        });
+        html += `</ul></div></div>`;
 
 
         // ==========================================
         // PÁGINA 2: EL CALENTAMIENTO
         // ==========================================
-        const matchSet = shuffleArray(data.preparate).slice(0, 10);
-        const partA = matchSet.slice(0, 5);
-        const partB = matchSet.slice(5, 10);
+        const matchSet = shuffleArray(data.preparate).slice(0, 20); // Get 20 words total
+        const partA = matchSet.slice(0, 10);
+        const partB = matchSet.slice(10, 20);
         
         const partA_EnglishShuffled = shuffleArray(partA);
         const partB_SpanishShuffled = shuffleArray(partB);
-        const letters = ['A', 'B', 'C', 'D', 'E'];
+        const lettersA = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'];
+        const lettersB = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'];
 
         html += `
             <div class="page">
                 <h1>${headerTitle}</h1>
-                <h2>Página 2: El Calentamiento</h2>
+                <h2>El Calentamiento</h2>
                 <p class="instructions">Match the vocabulary words. Write the letter on the line.</p>
                 
                 <h3>Parte A: Español a Inglés</h3>
                 <div class="two-col">
-                    <ul class="col">
+                    <ul class="col match-col">
         `;
         let keyPartA = [];
         partA.forEach((item, index) => {
             html += `<li>___ ${index + 1}. ${item.es}</li>`;
             let correctLetterIndex = partA_EnglishShuffled.findIndex(e => e.en === item.en);
-            keyPartA.push(`${index + 1}. ${letters[correctLetterIndex]}`);
+            keyPartA.push(`${index + 1}. ${lettersA[correctLetterIndex]}`);
         });
-        html += `</ul><ul class="col">`;
+        html += `</ul><ul class="col match-col" style="list-style-type:none;">`;
         partA_EnglishShuffled.forEach((item, index) => {
-            html += `<li><strong>${letters[index]}.</strong> ${item.en}</li>`;
+            html += `<li><strong>${lettersA[index]}.</strong> ${item.en}</li>`;
         });
         html += `</ul></div>`;
 
         html += `
-                <br>
                 <h3>Parte B: Inglés a Español</h3>
                 <div class="two-col">
-                    <ul class="col">
+                    <ul class="col match-col">
         `;
         let keyPartB = [];
         partB.forEach((item, index) => {
-            html += `<li>___ ${index + 6}. ${item.en}</li>`;
+            html += `<li>___ ${index + 11}. ${item.en}</li>`;
             let correctLetterIndex = partB_SpanishShuffled.findIndex(e => e.es === item.es);
-            keyPartB.push(`${index + 6}. ${letters[correctLetterIndex]}`);
+            keyPartB.push(`${index + 11}. ${lettersB[correctLetterIndex]}`);
         });
-        html += `</ul><ul class="col">`;
+        html += `</ul><ul class="col match-col" style="list-style-type:none;">`;
         partB_SpanishShuffled.forEach((item, index) => {
-            html += `<li><strong>${letters[index]}.</strong> ${item.es}</li>`;
+            html += `<li><strong>${lettersB[index]}.</strong> ${item.es}</li>`;
         });
         html += `</ul></div></div>`;
 
         answerKey += `
             <div class="key-section">
-                <h3>Página 2: Calentamiento</h3>
+                <h3>El Calentamiento</h3>
                 <strong>Parte A:</strong> ${keyPartA.join(" | ")}<br>
                 <strong>Parte B:</strong> ${keyPartB.join(" | ")}
             </div>
@@ -240,25 +256,37 @@
         // ==========================================
         // PÁGINA 3: EL CARDIO
         // ==========================================
-        const cardioSet = shuffleArray(data.cardio).slice(0, 8); 
+        const cardioEN = shuffleArray(data.cardio.filter(c => c.clue_en)).slice(0, 7);
+        const cardioES = shuffleArray(data.cardio.filter(c => c.clue_es)).slice(0, 7);
+
         html += `
             <div class="page">
                 <h1>${headerTitle}</h1>
-                <h2>Página 3: El Cardio</h2>
+                <h2>El Cardio</h2>
                 <p class="instructions">Read the clues and write the correct Spanish word.</p>
+                
+                <h3>Parte A: Pistas en Inglés</h3>
         `;
-        let keyCardio = [];
-        cardioSet.forEach((item, index) => {
-            let clue = item.clue_en ? item.clue_en : item.clue_es;
-            html += `<div class="question-item"><strong>${index + 1}.</strong> ${clue}<br><br> <span class="blank-line-long"></span></div>`;
-            keyCardio.push(`${index + 1}. ${item.respuesta}`);
+        let keyCardioA = [];
+        cardioEN.forEach((item, index) => {
+            html += `<div class="question-item"><strong>${index + 1}.</strong> ${item.clue_en}<br> <span class="blank-line-long"></span></div>`;
+            keyCardioA.push(`${index + 1}. ${item.respuesta}`);
         });
+
+        html += `<h3>Parte B: Pistas en Español</h3>`;
+        let keyCardioB = [];
+        cardioES.forEach((item, index) => {
+            html += `<div class="question-item"><strong>${index + 8}.</strong> ${item.clue_es}<br> <span class="blank-line-long"></span></div>`;
+            keyCardioB.push(`${index + 8}. ${item.respuesta}`);
+        });
+
         html += `</div>`;
         
         answerKey += `
             <div class="key-section">
-                <h3>Página 3: Cardio</h3>
-                ${keyCardio.join(" | ")}
+                <h3>El Cardio</h3>
+                <strong>Parte A:</strong> ${keyCardioA.join(" | ")}<br>
+                <strong>Parte B:</strong> ${keyCardioB.join(" | ")}
             </div>
         `;
 
@@ -266,30 +294,49 @@
         // ==========================================
         // PÁGINA 4: LEVANTAR PESAS
         // ==========================================
-        const pesasSet = shuffleArray(data.levantar_pesas).slice(0, 7);
-        let wordBankArr = pesasSet.map(i => i.target);
-        let wordBank = shuffleArray(wordBankArr).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
+        const pesasSet = shuffleArray(data.levantar_pesas).slice(0, 14);
+        const pesasA = pesasSet.slice(0, 7);
+        const pesasB = pesasSet.slice(7, 14);
         
+        let bankA = shuffleArray(pesasA.map(i => i.target)).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
+        let bankB = shuffleArray(pesasB.map(i => i.target)).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
+
         html += `
             <div class="page">
                 <h1>${headerTitle}</h1>
-                <h2>Página 4: Levantar Pesas</h2>
-                <p class="instructions">Fill in the blanks using the word bank. Use context clues to find the right answer.</p>
-                <div class="word-bank">${wordBank}</div>
-                <ol>
+                <h2>Levantar Pesas</h2>
+                <p class="instructions">Fill in the blanks using the word banks. Use context clues.</p>
+                
+                <h3>Ejercicio A</h3>
+                <div class="word-bank">${bankA}</div>
+                <ol style="margin-top:0; padding-left:20px;">
         `;
-        let keyPesas = [];
-        pesasSet.forEach((item, index) => {
+        let keyPesasA = [];
+        pesasA.forEach((item, index) => {
             let sentence = item.oracion.replace(/\[target\]/g, `<span class="blank-line"></span>`);
             html += `<li class="question-item">${sentence} <em>(${item.hint})</em></li>`;
-            keyPesas.push(`${index + 1}. ${item.target}`);
+            keyPesasA.push(`${index + 1}. ${item.target}`);
+        });
+        html += `</ol>`;
+
+        html += `
+                <h3>Ejercicio B</h3>
+                <div class="word-bank">${bankB}</div>
+                <ol start="8" style="margin-top:0; padding-left:20px;">
+        `;
+        let keyPesasB = [];
+        pesasB.forEach((item, index) => {
+            let sentence = item.oracion.replace(/\[target\]/g, `<span class="blank-line"></span>`);
+            html += `<li class="question-item">${sentence} <em>(${item.hint})</em></li>`;
+            keyPesasB.push(`${index + 8}. ${item.target}`);
         });
         html += `</ol></div>`;
 
         answerKey += `
             <div class="key-section">
-                <h3>Página 4: Levantar Pesas</h3>
-                ${keyPesas.join(" | ")}
+                <h3>Levantar Pesas</h3>
+                <strong>Ej A:</strong> ${keyPesasA.join(" | ")}<br>
+                <strong>Ej B:</strong> ${keyPesasB.join(" | ")}
             </div>
         `;
 
@@ -301,8 +348,8 @@
         html += `
             <div class="page">
                 <h1>${headerTitle}</h1>
-                <h2>Página 5: El Estiramiento</h2>
-                <p class="instructions">Self-Assessment. Read the "I can..." statements. If you can do it, check the box and write the Spanish phrase to prove it!</p>
+                <h2>El Estiramiento</h2>
+                <p class="instructions">Self-Assessment. Read the statements. If you can do it, check the box and write the Spanish phrase to prove it!</p>
         `;
         let keyEstiramiento = [];
         estiramientoSet.forEach((item, index) => {
@@ -311,7 +358,7 @@
                     <input type="checkbox"> <strong>I can</strong> ${item.cando}
                 </div>
                 <div class="prove-it">
-                    ↳ Prove it: <span class="blank-line"></span>
+                    ↳ Prove it: <span class="blank-line-long"></span>
                 </div>
             `;
             keyEstiramiento.push(`${index + 1}. ${item.respuesta}`);
@@ -320,7 +367,7 @@
 
         answerKey += `
             <div class="key-section">
-                <h3>Página 5: Estiramiento</h3>
+                <h3>El Estiramiento</h3>
                 ${keyEstiramiento.join(" | ")}
             </div>
         `;
@@ -329,20 +376,17 @@
         // ==========================================
         // PÁGINA 6: REPETICIONES EXTRA
         // ==========================================
-        // Extract all answers from the dialogue for the word bank
         let dialogAnswers = [];
-        data.repeticiones_extra.forEach(line => {
-            dialogAnswers = dialogAnswers.concat(line.respuestas);
-        });
+        data.repeticiones_extra.forEach(line => { dialogAnswers = dialogAnswers.concat(line.respuestas); });
         let dialogWordBank = shuffleArray(dialogAnswers).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
 
         html += `
             <div class="page">
                 <h1>${headerTitle}</h1>
-                <h2>Página 6: Repeticiones Extra</h2>
+                <h2>Repeticiones Extra</h2>
                 <p class="instructions">Side Quest! Read the dialogue between Sofía and Mateo and fill in the missing words.</p>
                 <div class="word-bank">${dialogWordBank}</div>
-                <div style="padding: 20px; background-color: #f9f9f9; border-radius: 8px; border: 1px solid #ddd;">
+                <div style="padding: 15px; background-color: #f9f9f9; border-radius: 8px; border: 1px solid #ddd;">
         `;
         
         let keyRepeticiones = [];
@@ -352,7 +396,7 @@
             let fraseHtml = line.frase;
             line.respuestas.forEach(ans => {
                 fraseHtml = fraseHtml.replace(`[target${blankCounter}]`, ` <span class="blank-line" style="width: 100px;"></span> `);
-                keyRepeticiones.push(`Blank ${blankCounter}: ${ans}`);
+                keyRepeticiones.push(`${blankCounter}: ${ans}`);
                 blankCounter++;
             });
             html += `<div class="dialogue-line"><span class="speaker">${line.speaker}:</span> ${fraseHtml}</div>`;
@@ -361,7 +405,7 @@
 
         answerKey += `
             <div class="key-section">
-                <h3>Página 6: Repeticiones Extra</h3>
+                <h3>Repeticiones Extra</h3>
                 ${keyRepeticiones.join(" | ")}
             </div>
         `;
@@ -373,13 +417,12 @@
         html += `
             <div class="page">
                 <h1>${headerTitle}</h1>
-                <h2>Clave de Respuestas (Teacher Key)</h2>
-                <p class="instructions">Keep this page separate. Do not distribute to students.</p>
+                <h2>Clave de Respuestas</h2>
+                <p class="instructions">Teacher Key. Do not distribute.</p>
                 ${answerKey}
             </div>
         `;
 
-        // Render everything to the DOM
         app.innerHTML = html;
     </script>
 </body>
