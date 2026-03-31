@@ -48,4 +48,30 @@
     { "oracion": "El libro de español está [target] del escritorio.", "target": "encima", "hint": "on top" },
     { "oracion": "Me gusta tocar el piano en la clase de [target].", "target": "música", "hint": "music" },
     { "oracion": "Vivo muy [target] de la escuela, a solo un minuto.", "target": "cerca", "hint": "near" },
-    { "
+    { "oracion": "Hoy tenemos una [target] de vocabulario en clase.", "target": "prueba", "hint": "quiz" },
+    { "oracion": "Mi [target] en la universidad es la administración de empresas.", "target": "especialización", "hint": "major" },
+    { "oracion": "Voy a estudiar [target] mi amigo, Tomás.", "target": "con", "hint": "with" },
+    { "oracion": "El profesor está de pie [target] de los estudiantes.", "target": "delante", "hint": "in front of" },
+    { "oracion": "No me gusta caminar a la escuela porque vivo muy [target].", "target": "lejos de", "hint": "far from" },
+    { "oracion": "El reloj está [target] la pizarra.", "target": "a la derecha de", "hint": "to the right of" },
+    { "oracion": "Leemos muchas novelas famosas en [target].", "target": "la literatura", "hint": "literature" },
+    { "oracion": "El gimnasio está [target] la biblioteca y la cafetería.", "target": "entre", "hint": "between" },
+    { "oracion": "En enero comenzamos el nuevo [target] escolar.", "target": "semestre", "hint": "semester" },
+    { "oracion": "La papelera está escondida [target] de la puerta.", "target": "detrás", "hint": "behind" },
+    { "oracion": "Pintamos y dibujamos en la clase de [target].", "target": "arte", "hint": "art" },
+    { "oracion": "En [target], aprendemos a usar programas y el internet.", "target": "la computación", "hint": "computer science" },
+    { "oracion": "Mi compañero está sentado [target] de mi pupitre.", "target": "al lado", "hint": "next to" },
+    { "oracion": "La ventana está [target] la puerta.", "target": "a la izquierda de", "hint": "to the left of" }
+  ],
+  "estiramiento": [
+    { "cando": "state what my major or field of study is.", "respuesta": "La especialización" },
+    { "cando": "say that something is located near my house.", "respuesta": "Cerca de" },
+    { "cando": "say that my backpack is under the desk.", "respuesta": "Debajo de" },
+    { "cando": "tell someone I have a quiz today.", "respuesta": "La prueba" },
+    { "cando": "name two school subjects from this list.", "respuesta": "El arte / La música" },
+    { "cando": "use the words for 'with' and 'without'.", "respuesta": "Con / Sin" }
+  ],
+  "profundiza": [
+    { "speaker": "A", "frase": "Filler para el JSON. La página 6 usa repaso automático.", "respuestas": ["nada"] }
+  ]
+}
