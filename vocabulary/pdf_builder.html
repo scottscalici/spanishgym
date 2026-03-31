@@ -13,6 +13,8 @@
             padding: 20px;
         }
         
+        #loading { color: white; text-align: center; font-size: 20px; margin-top: 50px; font-weight: bold;}
+        
         /* Forces strictly 8.5 x 11 Portrait with tighter 0.5in margins */
         .page {
             background: white;
@@ -67,6 +69,7 @@
         /* Print Override */
         @media print {
             body { background-color: white; margin: 0; padding: 0; }
+            #loading { display: none; }
             @page { size: letter portrait; margin: 0; }
             .page { box-shadow: none; margin: 0; page-break-after: always; height: 100vh; }
         }
@@ -74,6 +77,7 @@
 </head>
 <body>
 
+    <div id="loading">Cargando Entrenamiento...</div>
     <div id="app"></div>
 
     <script>
@@ -87,401 +91,294 @@
             return shuffled;
         }
 
-        // Expanded JSON Data 
-        const data = {
-            "programa": "Primeros Pasos",
-            "set_numero": 1,
-            "preparate": [
-                { "es": "Hola", "en": "Hello; Hi", "contexto": "¡Hola! Me llamo María.", "categoria": "Saludos" },
-                { "es": "Buenos días", "en": "Good morning", "contexto": "Buenos días, profesor.", "categoria": "Saludos" },
-                { "es": "Buenas tardes", "en": "Good afternoon", "contexto": "Buenas tardes, ¿cómo están?", "categoria": "Saludos" },
-                { "es": "Buenas noches", "en": "Good evening; Good night", "contexto": "Ya es tarde. Buenas noches, mamá.", "categoria": "Saludos" },
-                { "es": "¿Qué tal?", "en": "How are you?; How is it going?", "contexto": "¡Hola, amigo! ¿Qué tal?", "categoria": "Conversación" },
-                { "es": "¿Qué pasa?", "en": "What’s happening?; What’s going on?", "contexto": "Hay muchas personas aquí, ¿qué pasa?", "categoria": "Conversación" },
-                { "es": "¿Qué hay de nuevo?", "en": "What’s new?", "contexto": "No te veo desde el verano. ¿Qué hay de nuevo?", "categoria": "Conversación" },
-                { "es": "Nada", "en": "Nothing", "contexto": "No pasa nada.", "categoria": "Conversación" },
-                { "es": "Bien", "en": "Well; Fine", "contexto": "Estoy muy bien, gracias.", "categoria": "Conversación" },
-                { "es": "Regular", "en": "So-so; OK", "contexto": "Hoy no estoy muy bien, estoy regular.", "categoria": "Conversación" },
-                { "es": "Adiós", "en": "Goodbye", "contexto": "La clase terminó. ¡Adiós!", "categoria": "Despedidas" },
-                { "es": "Chau", "en": "Bye", "contexto": "Chau, nos vemos en la cafetería.", "categoria": "Despedidas" },
-                { "es": "Hasta luego", "en": "See you later", "contexto": "Me voy a mi casa, ¡hasta luego!", "categoria": "Despedidas" },
-                { "es": "Hasta pronto", "en": "See you soon", "contexto": "Nos vemos en un minuto. ¡Hasta pronto!", "categoria": "Despedidas" },
-                { "es": "Hasta mañana", "en": "See you tomorrow", "contexto": "Es el fin del día escolar, ¡hasta mañana!", "categoria": "Despedidas" },
-                { "es": "Nos vemos", "en": "See you", "contexto": "Nos vemos en el partido de fútbol.", "categoria": "Despedidas" },
-                { "es": "Por favor", "en": "Please", "contexto": "Necesito un lápiz, por favor.", "categoria": "Cortesía" },
-                { "es": "Gracias", "en": "Thank you", "contexto": "Gracias por tu ayuda.", "categoria": "Cortesía" },
-                { "es": "De nada", "en": "You’re welcome", "contexto": "—Gracias por el libro. —De nada.", "categoria": "Cortesía" },
-                { "es": "Con permiso", "en": "Excuse me (to pass)", "contexto": "Con permiso, necesito pasar por la puerta.", "categoria": "Cortesía" },
-                { "es": "Perdón", "en": "Pardon me; Excuse me", "contexto": "Perdón, ¿qué hora es?", "categoria": "Cortesía" },
-                { "es": "Lo siento", "en": "I’m sorry", "contexto": "Lo siento, no tengo mi tarea hoy.", "categoria": "Cortesía" }
-            ],
-            "cardio": [
-                { "clue_en": "You say this to your teacher when you walk into class at 8:00 AM.", "respuesta": "Buenos días" },
-                { "clue_en": "The polite phrase you must use when you need to walk past someone in a crowded hallway.", "respuesta": "Con permiso" },
-                { "clue_en": "You say this to your friend when you will see them the very next school day.", "respuesta": "Hasta mañana" },
-                { "clue_en": "The best response when someone asks you '¿Qué pasa?' and there is nothing going on.", "respuesta": "Nada" },
-                { "clue_en": "You say this when you step on someone's foot by accident.", "respuesta": "Lo siento / Perdón" },
-                { "clue_en": "A quick, informal way to ask your friend 'How is it going?'.", "respuesta": "¿Qué tal?" },
-                { "clue_en": "You say this to ask for a favor politely.", "respuesta": "Por favor" },
-                { "clue_en": "You say this when you are doing perfectly fine.", "respuesta": "Bien" },
-                { "clue_es": "Lo que dices <em>(What you say)</em> por la noche antes de dormir <em>(at night before sleeping)</em>.", "respuesta": "Buenas noches" },
-                { "clue_es": "La respuesta educada <em>(The polite response)</em> cuando una persona te dice <em>(when a person says to you)</em> 'gracias'.", "respuesta": "De nada" },
-                { "clue_es": "Una palabra corta e informal <em>(A short, informal word)</em> para decir 'adiós' a tus amigos <em>(to say 'goodbye' to your friends)</em>.", "respuesta": "Chau" },
-                { "clue_es": "La palabra universal para saludar <em>(The universal word to greet)</em> a una persona.", "respuesta": "Hola" },
-                { "clue_es": "Lo que dices <em>(What you say)</em> cuando quieres saber si hay información nueva <em>(if there is new information)</em> en la vida de tu amigo.", "respuesta": "¿Qué hay de nuevo?" },
-                { "clue_es": "Una expresión de despedida <em>(A farewell expression)</em> cuando vas a ver a la persona más tarde <em>(when you are going to see the person later)</em> en el mismo día.", "respuesta": "Hasta luego" },
-                { "clue_es": "El estado de ánimo <em>(The mood)</em> cuando no estás bien, pero tampoco estás muy mal <em>(when you are not well, but also not very bad)</em>.", "respuesta": "Regular" },
-                { "clue_es": "Lo que dices a tu maestro <em>(What you say to your teacher)</em> a las 2 de la tarde <em>(at 2 in the afternoon)</em>.", "respuesta": "Buenas tardes" }
-            ],
-            "levantar_pesas": [
-                { "oracion": "¡[target], profesor! ¿Cómo está usted esta mañana?", "target": "Buenos días", "hint": "Good morning" },
-                { "oracion": "— Aquí tienes tu diccionario de español. — ¡[target] por el diccionario!", "target": "Gracias", "hint": "Thank you" },
-                { "oracion": "No tengo mi tarea de español hoy. ¡[target]!", "target": "Lo siento", "hint": "I'm sorry" },
-                { "oracion": "Hay muchas personas en el pasillo. [target], necesito pasar.", "target": "Con permiso", "hint": "Excuse me" },
-                { "oracion": "Estoy muy [target] hoy porque no tengo exámenes.", "target": "bien", "hint": "well/fine" },
-                { "oracion": "La clase terminó y me voy a mi casa. ¡[target]!", "target": "Adiós", "hint": "Goodbye" },
-                { "oracion": "¿[target], amigo? Hace mucho tiempo que no te veo.", "target": "¿Qué hay de nuevo?", "hint": "What's new?" },
-                { "oracion": "Hoy estoy enfermo, me duele la cabeza. Estoy [target].", "target": "regular", "hint": "so-so / ok" },
-                { "oracion": "Me voy a dormir. ¡[target] mamá!", "target": "Buenas noches", "hint": "Good night" },
-                { "oracion": "Necesito un lápiz para el examen, [target].", "target": "por favor", "hint": "please" },
-                { "oracion": "¡[target]! Me llamo Carlos, ¿cómo te llamas?", "target": "Hola", "hint": "Hello" },
-                { "oracion": "No pasa [target], todo está muy tranquilo aquí.", "target": "nada", "hint": "nothing" },
-                { "oracion": "Son las 3:00 de la tarde. ¡[target] a todos!", "target": "Buenas tardes", "hint": "Good afternoon" },
-                { "oracion": "Hasta [target], nos vemos en la clase de matemáticas mañana.", "target": "mañana", "hint": "tomorrow" },
-                { "oracion": "¡[target]! Nos vemos el lunes en la escuela.", "target": "Chau", "hint": "Bye" },
-                { "oracion": "— ¿Quieres más jugo? — No, [target].", "target": "gracias", "hint": "thank you" },
-                { "oracion": "Paso por aquí, [target].", "target": "con permiso", "hint": "excuse me" },
-                { "oracion": "Son las ocho de la mañana. ¡[target]!", "target": "Buenos días", "hint": "Good morning" },
-                { "oracion": "— Hola, ¿[target]? — Todo bien, gracias.", "target": "Qué tal", "hint": "How are you" },
-                { "oracion": "Es la hora de almorzar. ¡[target], chicos!", "target": "Buenas tardes", "hint": "Good afternoon" }
-            ],
-            "estiramiento": [
-                { "cando": "greet my teacher when I walk into class in the morning.", "respuesta": "Buenos días" },
-                { "cando": "politely ask someone to move out of the way in the hallway.", "respuesta": "Con permiso" },
-                { "cando": "apologize if I accidentally make a mistake.", "respuesta": "Perdón / Lo siento" },
-                { "cando": "say goodbye to my friends when I am going to see them the next day.", "respuesta": "Hasta mañana" },
-                { "cando": "tell someone that things are going 'just okay' or 'so-so'.", "respuesta": "Regular" },
-                { "cando": "ask my friend 'what's new?' when I haven't seen them in a while.", "respuesta": "¿Qué hay de nuevo?" }
-            ]
-        };
+        // ==========================================
+        // DATA FETCHING LOGIC
+        // ==========================================
+        const targetUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/vocabulary/1-1-primeros_pasos.json';
 
-        const app = document.getElementById('app');
-        let html = '';
-        let answerKey = ''; 
-
-        const headerTitle = `Entrenamiento: ${data.programa} (Set ${data.set_numero})`;
+        async function init() {
+            try {
+                const response = await fetch(targetUrl);
+                if (!response.ok) throw new Error('Network response was not ok');
+                const data = await response.json();
+                
+                document.getElementById('loading').style.display = 'none';
+                generateWorksheet(data);
+                
+            } catch (error) {
+                document.getElementById('loading').innerText = "Error loading data. Make sure the JSON is pushed to GitHub!";
+                console.error('Fetch error:', error);
+            }
+        }
 
         // ==========================================
-        // PÁGINA 1: PREPÁRATE
+        // WORKSHEET GENERATOR ENGINE
         // ==========================================
-        html += `
-            <div class="page">
-                <h1>${headerTitle}</h1>
-                <h2>Prepárate</h2>
-                <p class="instructions"><strong>Repasa tu lista de vocabulario y las oraciones de contexto antes de empezar.</strong><br>(Review your vocabulary list and the context sentences before you start.)</p>
-                <div class="two-col">
-        `;
-        
-        const categories = {};
-        data.preparate.forEach(item => {
-            if (!categories[item.categoria]) categories[item.categoria] = [];
-            categories[item.categoria].push(item);
-        });
+        function generateWorksheet(data) {
+            const app = document.getElementById('app');
+            let html = '';
+            let answerKey = ''; 
 
-        const categoryNames = Object.keys(categories);
-        const col1Cats = categoryNames.slice(0, Math.ceil(categoryNames.length / 2));
-        const col2Cats = categoryNames.slice(Math.ceil(categoryNames.length / 2));
+            const headerTitle = `Entrenamiento: ${data.programa} (Set ${data.set_numero})`;
 
-        html += `<ul class="col vocab-col">`;
-        col1Cats.forEach(cat => {
-            html += `<div class="category-header">${cat}</div>`;
-            categories[cat].forEach(item => {
-                html += `<li><strong>${item.es}</strong> <em>(${item.en})</em><br><span style="color:#555;">${item.contexto}</span></li>`;
+            // PÁGINA 1: PREPÁRATE
+            html += `
+                <div class="page">
+                    <h1>${headerTitle}</h1>
+                    <h2>Prepárate</h2>
+                    <p class="instructions"><strong>Repasa tu lista de vocabulario y las oraciones de contexto antes de empezar.</strong><br>(Review your vocabulary list and the context sentences before you start.)</p>
+                    <div class="two-col">
+            `;
+            const categories = {};
+            data.preparate.forEach(item => {
+                if (!categories[item.categoria]) categories[item.categoria] = [];
+                categories[item.categoria].push(item);
             });
-        });
-        html += `</ul>`;
+            const categoryNames = Object.keys(categories);
+            const col1Cats = categoryNames.slice(0, Math.ceil(categoryNames.length / 2));
+            const col2Cats = categoryNames.slice(Math.ceil(categoryNames.length / 2));
 
-        html += `<ul class="col vocab-col">`;
-        col2Cats.forEach(cat => {
-            html += `<div class="category-header">${cat}</div>`;
-            categories[cat].forEach(item => {
-                html += `<li><strong>${item.es}</strong> <em>(${item.en})</em><br><span style="color:#555;">${item.contexto}</span></li>`;
+            html += `<ul class="col vocab-col">`;
+            col1Cats.forEach(cat => {
+                html += `<div class="category-header">${cat}</div>`;
+                categories[cat].forEach(item => {
+                    html += `<li><strong>${item.es}</strong> <em>(${item.en})</em><br><span style="color:#555;">${item.contexto}</span></li>`;
+                });
             });
-        });
-        html += `</ul></div></div>`;
+            html += `</ul><ul class="col vocab-col">`;
+            col2Cats.forEach(cat => {
+                html += `<div class="category-header">${cat}</div>`;
+                categories[cat].forEach(item => {
+                    html += `<li><strong>${item.es}</strong> <em>(${item.en})</em><br><span style="color:#555;">${item.contexto}</span></li>`;
+                });
+            });
+            html += `</ul></div></div>`;
 
 
-        // ==========================================
-        // PÁGINA 2: EL CALENTAMIENTO
-        // ==========================================
-        const vocabSample = shuffleArray(data.preparate).slice(0, 20); 
-        const partA = vocabSample.slice(0, 10);
-        const partB = vocabSample.slice(10, 20);
-        
-        const partA_EnglishShuffled = shuffleArray(partA);
-        const lettersA = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'];
+            // PÁGINA 2: EL CALENTAMIENTO
+            const vocabSample = shuffleArray(data.preparate).slice(0, 20); 
+            const partA = vocabSample.slice(0, 10);
+            const partB = vocabSample.slice(10, 20);
+            const partA_EnglishShuffled = shuffleArray(partA);
+            const lettersA = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'];
 
-        html += `
-            <div class="page">
-                <h1>${headerTitle}</h1>
-                <h2>El Calentamiento</h2>
-                
-                <h3>Parte A: Relacionar (Matching)</h3>
-                <p class="instructions" style="margin-top:-5px;"><strong>Relaciona las palabras en español con sus traducciones al inglés.</strong><br>(Match the Spanish words to their English translations.)</p>
-                <div class="two-col">
-                    <ul class="col match-col">
-        `;
-        let keyPartA = [];
-        partA.forEach((item, index) => {
-            html += `<li>___ ${index + 1}. ${item.es}</li>`;
-            let correctLetterIndex = partA_EnglishShuffled.findIndex(e => e.en === item.en);
-            keyPartA.push(`${index + 1}. ${lettersA[correctLetterIndex]}`);
-        });
-        html += `</ul><ul class="col match-col" style="list-style-type:none;">`;
-        partA_EnglishShuffled.forEach((item, index) => {
-            html += `<li><strong>${lettersA[index]}.</strong> ${item.en}</li>`;
-        });
-        html += `</ul></div>`;
-
-        html += `
-                <br>
-                <h3>Parte B: Traducción</h3>
-                <p class="instructions" style="margin-top:-5px;"><strong>Traduce las palabras del inglés al español.</strong><br>(Translate the English words into Spanish.)</p>
-                <div class="two-col">
-                    <ul class="col translation-col" style="list-style-type:none;">
-        `;
-        let keyPartB = [];
-        partB.slice(0, 5).forEach((item, index) => {
-            html += `<li><strong>${index + 11}.</strong> ${item.en} <div class="blank-line-long"></div></li>`;
-            keyPartB.push(`${index + 11}. ${item.es}`);
-        });
-        html += `</ul><ul class="col translation-col" style="list-style-type:none;">`;
-        partB.slice(5, 10).forEach((item, index) => {
-            html += `<li><strong>${index + 16}.</strong> ${item.en} <div class="blank-line-long"></div></li>`;
-            keyPartB.push(`${index + 16}. ${item.es}`);
-        });
-        html += `</ul></div></div>`;
-
-        answerKey += `
-            <div class="key-section">
-                <h3>El Calentamiento</h3>
-                <strong>Parte A:</strong> ${keyPartA.join(" | ")}<br>
-                <strong>Parte B:</strong> ${keyPartB.join(" | ")}
-            </div>
-        `;
-
-
-        // ==========================================
-        // PÁGINA 3: EL CARDIO
-        // ==========================================
-        const cardioEN = shuffleArray(data.cardio.filter(c => c.clue_en)).slice(0, 7);
-        const cardioES = shuffleArray(data.cardio.filter(c => c.clue_es)).slice(0, 7);
-
-        html += `
-            <div class="page">
-                <h1>${headerTitle}</h1>
-                <h2>El Cardio</h2>
-                <p class="instructions"><strong>Lee las pistas y escribe la palabra correcta en español.</strong><br>(Read the clues and write the correct Spanish word.)</p>
-                
-                <h3>Parte A: Pistas en Inglés</h3>
-        `;
-        let keyCardioA = [];
-        cardioEN.forEach((item, index) => {
             html += `
-                <div class="cardio-item">
-                    <strong>${index + 1}.</strong> ${item.clue_en}
-                    <div class="cardio-line-container"><span class="blank-line-long"></span></div>
-                </div>`;
-            keyCardioA.push(`${index + 1}. ${item.respuesta}`);
-        });
+                <div class="page">
+                    <h1>${headerTitle}</h1>
+                    <h2>El Calentamiento</h2>
+                    <h3>Parte A: Relacionar (Matching)</h3>
+                    <p class="instructions" style="margin-top:-5px;"><strong>Relaciona las palabras en español con sus traducciones al inglés.</strong><br>(Match the Spanish words to their English translations.)</p>
+                    <div class="two-col"><ul class="col match-col">
+            `;
+            let keyPartA = [];
+            partA.forEach((item, index) => {
+                html += `<li>___ ${index + 1}. ${item.es}</li>`;
+                let correctLetterIndex = partA_EnglishShuffled.findIndex(e => e.en === item.en);
+                keyPartA.push(`${index + 1}. ${lettersA[correctLetterIndex]}`);
+            });
+            html += `</ul><ul class="col match-col" style="list-style-type:none;">`;
+            partA_EnglishShuffled.forEach((item, index) => {
+                html += `<li><strong>${lettersA[index]}.</strong> ${item.en}</li>`;
+            });
+            html += `</ul></div><br>
+                    <h3>Parte B: Traducción</h3>
+                    <p class="instructions" style="margin-top:-5px;"><strong>Traduce las palabras del inglés al español.</strong><br>(Translate the English words into Spanish.)</p>
+                    <div class="two-col"><ul class="col translation-col" style="list-style-type:none;">`;
+            
+            let keyPartB = [];
+            partB.slice(0, 5).forEach((item, index) => {
+                html += `<li><strong>${index + 11}.</strong> ${item.en} <div class="blank-line-long"></div></li>`;
+                keyPartB.push(`${index + 11}. ${item.es}`);
+            });
+            html += `</ul><ul class="col translation-col" style="list-style-type:none;">`;
+            partB.slice(5, 10).forEach((item, index) => {
+                html += `<li><strong>${index + 16}.</strong> ${item.en} <div class="blank-line-long"></div></li>`;
+                keyPartB.push(`${index + 16}. ${item.es}`);
+            });
+            html += `</ul></div></div>`;
 
-        html += `<h3>Parte B: Pistas en Español</h3>`;
-        let keyCardioB = [];
-        cardioES.forEach((item, index) => {
-            html += `
-                <div class="cardio-item">
-                    <strong>${index + 8}.</strong> ${item.clue_es}
-                    <div class="cardio-line-container"><span class="blank-line-long"></span></div>
-                </div>`;
-            keyCardioB.push(`${index + 8}. ${item.respuesta}`);
-        });
-
-        html += `</div>`;
-        
-        answerKey += `
-            <div class="key-section">
-                <h3>El Cardio</h3>
-                <strong>Parte A:</strong> ${keyCardioA.join(" | ")}<br>
-                <strong>Parte B:</strong> ${keyCardioB.join(" | ")}
-            </div>
-        `;
-
-
-        // ==========================================
-        // PÁGINA 4: LEVANTAR PESAS
-        // ==========================================
-        const pesasSet = shuffleArray(data.levantar_pesas).slice(0, 18);
-        const pesasA = pesasSet.slice(0, 9);
-        const pesasB = pesasSet.slice(9, 18);
-        
-        let bankA = shuffleArray(pesasA.map(i => i.target)).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
-        let bankB = shuffleArray(pesasB.map(i => i.target)).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
-
-        html += `
-            <div class="page">
-                <h1>${headerTitle}</h1>
-                <h2>Levantar Pesas</h2>
-                <p class="instructions"><strong>Llena los espacios en blanco usando el banco de palabras. Usa las pistas de contexto.</strong><br>(Fill in the blanks using the word banks. Use context clues.)</p>
-                
-                <h3>Ejercicio A</h3>
-                <div class="word-bank">${bankA}</div>
-                <ol style="margin-top:0; padding-left:20px;">
-        `;
-        let keyPesasA = [];
-        pesasA.forEach((item, index) => {
-            let sentence = item.oracion.replace(/\[target\]/g, `<span class="blank-line-med"></span>`);
-            html += `<li class="question-item">${sentence} <em>(${item.hint})</em></li>`;
-            keyPesasA.push(`${index + 1}. ${item.target}`);
-        });
-        html += `</ol>`;
-
-        html += `
-                <h3>Ejercicio B</h3>
-                <div class="word-bank">${bankB}</div>
-                <ol start="10" style="margin-top:0; padding-left:20px;">
-        `;
-        let keyPesasB = [];
-        pesasB.forEach((item, index) => {
-            let sentence = item.oracion.replace(/\[target\]/g, `<span class="blank-line-med"></span>`);
-            html += `<li class="question-item">${sentence} <em>(${item.hint})</em></li>`;
-            keyPesasB.push(`${index + 10}. ${item.target}`);
-        });
-        html += `</ol></div>`;
-
-        answerKey += `
-            <div class="key-section">
-                <h3>Levantar Pesas</h3>
-                <strong>Ej A:</strong> ${keyPesasA.join(" | ")}<br>
-                <strong>Ej B:</strong> ${keyPesasB.join(" | ")}
-            </div>
-        `;
-
-
-        // ==========================================
-        // PÁGINA 5: EL ESTIRAMIENTO
-        // ==========================================
-        const estiramientoSet = shuffleArray(data.estiramiento).slice(0, 6);
-        html += `
-            <div class="page">
-                <h1>${headerTitle}</h1>
-                <h2>El Estiramiento</h2>
-                <p class="instructions">Self-Assessment. Read the statements. If you can do it, check the box and write the Spanish phrase to prove it!</p>
-        `;
-        let keyEstiramiento = [];
-        estiramientoSet.forEach((item, index) => {
-            html += `
-                <div class="checkbox-item">
-                    <input type="checkbox"> <strong>I can&nbsp;</strong> ${item.cando}
-                </div>
-                <div class="prove-it">
-                    ↳ Prove it: <span class="blank-line-med"></span>
+            answerKey += `
+                <div class="key-section">
+                    <h3>El Calentamiento</h3>
+                    <strong>Parte A:</strong> ${keyPartA.join(" | ")}<br>
+                    <strong>Parte B:</strong> ${keyPartB.join(" | ")}
                 </div>
             `;
-            keyEstiramiento.push(`${index + 1}. ${item.respuesta}`);
-        });
-        html += `</div>`;
-
-        answerKey += `
-            <div class="key-section">
-                <h3>El Estiramiento</h3>
-                ${keyEstiramiento.join(" | ")}
-            </div>
-        `;
 
 
-        // ==========================================
-        // PÁGINA 6: PROFUNDIZA (SPIRAL REVIEW ENGINE)
-        // ==========================================
-        // In the future, this is where we will combine: [...set1.preparate, ...set2.preparate]
-        const masterVocab = [...data.preparate];
-        const masterCardio = [...data.cardio];
-        const masterPesas = [...data.levantar_pesas];
+            // PÁGINA 3: EL CARDIO
+            const cardioEN = shuffleArray(data.cardio.filter(c => c.clue_en)).slice(0, 7);
+            const cardioES = shuffleArray(data.cardio.filter(c => c.clue_es)).slice(0, 7);
 
-        const reviewTrans = shuffleArray(masterVocab).slice(0, 6);
-        const reviewCardio = shuffleArray(masterCardio).slice(0, 4);
-        const reviewPesas = shuffleArray(masterPesas).slice(0, 5);
-
-        html += `
-            <div class="page">
-                <h1>${headerTitle}</h1>
-                <h2>Profundiza: Repaso en Espiral</h2>
-                <p class="instructions"><strong>¡Un paso más! Repasa el vocabulario de las lecciones anteriores.</strong><br>(Dig deeper! Review vocabulary from previous lessons.)</p>
-                
-                <h3>Sección A: Traducción Rápida</h3>
-                <div class="two-col">
-                    <ul class="col translation-col" style="list-style-type:none;">
-        `;
-        let keySpiral = [];
-        
-        // Translation Section
-        reviewTrans.slice(0, 3).forEach((item, index) => {
-            html += `<li><strong>${index + 1}.</strong> ${item.en} <div class="blank-line-long"></div></li>`;
-            keySpiral.push(`A${index + 1}: ${item.es}`);
-        });
-        html += `</ul><ul class="col translation-col" style="list-style-type:none;">`;
-        reviewTrans.slice(3, 6).forEach((item, index) => {
-            html += `<li><strong>${index + 4}.</strong> ${item.en} <div class="blank-line-long"></div></li>`;
-            keySpiral.push(`A${index + 4}: ${item.es}`);
-        });
-        html += `</ul></div>`;
-
-        // Cardio Clues Section
-        html += `<h3>Sección B: ¿Qué es?</h3>`;
-        reviewCardio.forEach((item, index) => {
-            let clue = item.clue_en || item.clue_es;
             html += `
-                <div class="cardio-item">
-                    <strong>${index + 7}.</strong> ${clue}
-                    <div class="cardio-line-container" style="width:100%;"><span class="blank-line-long"></span></div>
-                </div>`;
-            keySpiral.push(`B${index + 7}: ${item.respuesta}`);
-        });
+                <div class="page">
+                    <h1>${headerTitle}</h1>
+                    <h2>El Cardio</h2>
+                    <p class="instructions"><strong>Lee las pistas y escribe la palabra correcta en español.</strong><br>(Read the clues and write the correct Spanish word.)</p>
+                    <h3>Parte A: Pistas en Inglés</h3>
+            `;
+            let keyCardioA = [];
+            cardioEN.forEach((item, index) => {
+                html += `<div class="cardio-item"><strong>${index + 1}.</strong> ${item.clue_en}<div class="cardio-line-container"><span class="blank-line-long"></span></div></div>`;
+                keyCardioA.push(`${index + 1}. ${item.respuesta}`);
+            });
 
-        // Fill in the Blank Section
-        let reviewBank = shuffleArray(reviewPesas.map(i => i.target)).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
-        html += `
-            <h3>Sección C: Completar</h3>
-            <div class="word-bank">${reviewBank}</div>
-            <ol start="11" style="margin-top:0; padding-left:20px;">
-        `;
-        reviewPesas.forEach((item, index) => {
-            let sentence = item.oracion.replace(/\[target\]/g, `<span class="blank-line-med"></span>`);
-            html += `<li class="question-item">${sentence}</li>`;
-            keySpiral.push(`C${index + 11}: ${item.target}`);
-        });
-        html += `</ol></div>`;
-
-        answerKey += `
-            <div class="key-section">
-                <h3>Profundiza (Repaso en Espiral)</h3>
-                ${keySpiral.join(" | ")}
-            </div>
-        `;
+            html += `<h3>Parte B: Pistas en Español</h3>`;
+            let keyCardioB = [];
+            cardioES.forEach((item, index) => {
+                html += `<div class="cardio-item"><strong>${index + 8}.</strong> ${item.clue_es}<div class="cardio-line-container"><span class="blank-line-long"></span></div></div>`;
+                keyCardioB.push(`${index + 8}. ${item.respuesta}`);
+            });
+            html += `</div>`;
+            
+            answerKey += `
+                <div class="key-section">
+                    <h3>El Cardio</h3>
+                    <strong>Parte A:</strong> ${keyCardioA.join(" | ")}<br>
+                    <strong>Parte B:</strong> ${keyCardioB.join(" | ")}
+                </div>
+            `;
 
 
-        // ==========================================
-        // PÁGINA 7: CLAVE DE RESPUESTAS
-        // ==========================================
-        html += `
-            <div class="page">
-                <h1>${headerTitle}</h1>
-                <h2>Clave de Respuestas</h2>
-                <p class="instructions">Teacher Key. Do not distribute.</p>
-                ${answerKey}
-            </div>
-        `;
+            // PÁGINA 4: LEVANTAR PESAS
+            const pesasSet = shuffleArray(data.levantar_pesas).slice(0, 18);
+            const pesasA = pesasSet.slice(0, 9);
+            const pesasB = pesasSet.slice(9, 18);
+            
+            let bankA = shuffleArray(pesasA.map(i => i.target)).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
+            let bankB = shuffleArray(pesasB.map(i => i.target)).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
 
-        app.innerHTML = html;
+            html += `
+                <div class="page">
+                    <h1>${headerTitle}</h1>
+                    <h2>Levantar Pesas</h2>
+                    <p class="instructions"><strong>Llena los espacios en blanco usando el banco de palabras. Usa las pistas de contexto.</strong><br>(Fill in the blanks using the word banks. Use context clues.)</p>
+                    <h3>Ejercicio A</h3>
+                    <div class="word-bank">${bankA}</div>
+                    <ol style="margin-top:0; padding-left:20px;">
+            `;
+            let keyPesasA = [];
+            pesasA.forEach((item, index) => {
+                let sentence = item.oracion.replace(/\[target\]/g, `<span class="blank-line-med"></span>`);
+                html += `<li class="question-item">${sentence} <em>(${item.hint})</em></li>`;
+                keyPesasA.push(`${index + 1}. ${item.target}`);
+            });
+            html += `</ol><h3>Ejercicio B</h3>
+                    <div class="word-bank">${bankB}</div>
+                    <ol start="10" style="margin-top:0; padding-left:20px;">`;
+            let keyPesasB = [];
+            pesasB.forEach((item, index) => {
+                let sentence = item.oracion.replace(/\[target\]/g, `<span class="blank-line-med"></span>`);
+                html += `<li class="question-item">${sentence} <em>(${item.hint})</em></li>`;
+                keyPesasB.push(`${index + 10}. ${item.target}`);
+            });
+            html += `</ol></div>`;
+
+            answerKey += `
+                <div class="key-section">
+                    <h3>Levantar Pesas</h3>
+                    <strong>Ej A:</strong> ${keyPesasA.join(" | ")}<br>
+                    <strong>Ej B:</strong> ${keyPesasB.join(" | ")}
+                </div>
+            `;
+
+
+            // PÁGINA 5: EL ESTIRAMIENTO
+            const estiramientoSet = shuffleArray(data.estiramiento).slice(0, 6);
+            html += `
+                <div class="page">
+                    <h1>${headerTitle}</h1>
+                    <h2>El Estiramiento</h2>
+                    <p class="instructions">Self-Assessment. Read the statements. If you can do it, check the box and write the Spanish phrase to prove it!</p>
+            `;
+            let keyEstiramiento = [];
+            estiramientoSet.forEach((item, index) => {
+                html += `<div class="checkbox-item"><input type="checkbox"> <strong>I can&nbsp;</strong> ${item.cando}</div>
+                         <div class="prove-it">↳ Prove it: <span class="blank-line-med"></span></div>`;
+                keyEstiramiento.push(`${index + 1}. ${item.respuesta}`);
+            });
+            html += `</div>`;
+
+            answerKey += `
+                <div class="key-section">
+                    <h3>El Estiramiento</h3>
+                    ${keyEstiramiento.join(" | ")}
+                </div>
+            `;
+
+
+            // PÁGINA 6: PROFUNDIZA (Spiral Review Engine)
+            const masterVocab = [...data.preparate];
+            const masterCardio = [...data.cardio];
+            const masterPesas = [...data.levantar_pesas];
+
+            const reviewTrans = shuffleArray(masterVocab).slice(0, 6);
+            const reviewCardio = shuffleArray(masterCardio).slice(0, 4);
+            const reviewPesas = shuffleArray(masterPesas).slice(0, 5);
+
+            html += `
+                <div class="page">
+                    <h1>${headerTitle}</h1>
+                    <h2>Profundiza: Repaso en Espiral</h2>
+                    <p class="instructions"><strong>¡Un paso más! Repasa el vocabulario de las lecciones anteriores.</strong><br>(Dig deeper! Review vocabulary from previous lessons.)</p>
+                    
+                    <h3>Sección A: Traducción Rápida</h3>
+                    <div class="two-col"><ul class="col translation-col" style="list-style-type:none;">
+            `;
+            let keySpiral = [];
+            reviewTrans.slice(0, 3).forEach((item, index) => {
+                html += `<li><strong>${index + 1}.</strong> ${item.en} <div class="blank-line-long"></div></li>`;
+                keySpiral.push(`A${index + 1}: ${item.es}`);
+            });
+            html += `</ul><ul class="col translation-col" style="list-style-type:none;">`;
+            reviewTrans.slice(3, 6).forEach((item, index) => {
+                html += `<li><strong>${index + 4}.</strong> ${item.en} <div class="blank-line-long"></div></li>`;
+                keySpiral.push(`A${index + 4}: ${item.es}`);
+            });
+            html += `</ul></div>`;
+
+            html += `<h3>Sección B: ¿Qué es?</h3>`;
+            reviewCardio.forEach((item, index) => {
+                let clue = item.clue_en || item.clue_es;
+                html += `<div class="cardio-item"><strong>${index + 7}.</strong> ${clue}
+                         <div class="cardio-line-container" style="width:100%;"><span class="blank-line-long"></span></div></div>`;
+                keySpiral.push(`B${index + 7}: ${item.respuesta}`);
+            });
+
+            let reviewBank = shuffleArray(reviewPesas.map(i => i.target)).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
+            html += `<h3>Sección C: Completar</h3>
+                     <div class="word-bank">${reviewBank}</div>
+                     <ol start="11" style="margin-top:0; padding-left:20px;">`;
+            reviewPesas.forEach((item, index) => {
+                let sentence = item.oracion.replace(/\[target\]/g, `<span class="blank-line-med"></span>`);
+                html += `<li class="question-item">${sentence}</li>`;
+                keySpiral.push(`C${index + 11}: ${item.target}`);
+            });
+            html += `</ol></div>`;
+
+            answerKey += `
+                <div class="key-section">
+                    <h3>Profundiza (Repaso)</h3>
+                    ${keySpiral.join(" | ")}
+                </div>
+            `;
+
+            // PÁGINA 7: CLAVE DE RESPUESTAS
+            html += `
+                <div class="page">
+                    <h1>${headerTitle}</h1>
+                    <h2>Clave de Respuestas</h2>
+                    <p class="instructions">Teacher Key. Do not distribute.</p>
+                    ${answerKey}
+                </div>
+            `;
+
+            app.innerHTML = html;
+        }
+
+        // Run the fetch on page load
+        init();
+
     </script>
 </body>
 </html>
