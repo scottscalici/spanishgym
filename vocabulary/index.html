@@ -86,7 +86,7 @@
         /* Print Override */
         @media print {
             body { background-color: white; margin: 0; padding: 0; }
-            .no-print { display: none !important; } /* Hides the menu when printing */
+            .no-print { display: none !important; }
             @page { size: letter portrait; margin: 0; }
             .page { box-shadow: none; margin: 0; page-break-after: always; height: 100vh; }
         }
@@ -95,39 +95,73 @@
 <body>
 
     <div id="control-panel" class="no-print">
-        <select id="set-selector"></select>
+        <select id="set-selector">
+            <option value="" disabled selected>Cargando menú desde GitHub...</option>
+        </select>
         <button onclick="loadSelectedSet()">Generar Entrenamiento</button>
     </div>
     
-    <div id="loading" class="no-print">Buscando datos en GitHub...</div>
+    <div id="loading" class="no-print">Buscando datos...</div>
     <div id="app"></div>
 
     <script>
-        // ==========================================
-        // SET CONFIGURATION (Add new sets here!)
-        // ==========================================
-        const availableSets = [
-            { 
-                id: 1, 
-                name: "Set 1.1: Saludos y Cortesía", 
-                url: "https://raw.githubusercontent.com/scottscalici/spanishgym/main/vocabulary/1-1-primeros_pasos.json" 
-            },
-            { 
-                id: 2, 
-                name: "Set 1.2: Presentaciones y Personas", 
-                url: "https://raw.githubusercontent.com/scottscalici/spanishgym/main/vocabulary/1-2-primeros_pasos.json" 
-            }
-            // To add Set 3, just copy the block above, change id to 3, and add the new URL!
-        ];
+        let availableSets = [];
 
-        // Populate the dropdown menu on page load
-        const selector = document.getElementById('set-selector');
-        availableSets.forEach(set => {
-            const option = document.createElement('option');
-            option.value = set.id;
-            option.text = set.name;
-            selector.appendChild(option);
-        });
+        // ==========================================
+        // 1. DYNAMIC FOLDER FETCHING
+        // ==========================================
+        // The GitHub API URL that looks inside your vocabulary folder
+        const repoApiUrl = 'https://api.github.com/repos/scottscalici/spanishgym/contents/vocabulary';
+
+        async function initFolder() {
+            try {
+                const response = await fetch(repoApiUrl);
+                if (!response.ok) throw new Error('Could not read GitHub folder');
+                const files = await response.json();
+
+                // Filter for JSON files and dynamically build the menu
+                availableSets = files
+                    .filter(file => file.name.endsWith('.json'))
+                    .map((file, index) => {
+                        // Parse "1-1-primeros_pasos.json" into "Set 1.1: Primeros pasos"
+                        let cleanName = file.name.replace('.json', '');
+                        let parts = cleanName.split('-');
+                        let setNum = parts.length > 1 ? `${parts[0]}.${parts[1]}` : index + 1;
+                        let titleRaw = parts.length > 2 ? parts.slice(2).join(' ') : cleanName;
+                        let title = titleRaw.replace(/_/g, ' '); // remove underscores
+                        title = title.charAt(0).toUpperCase() + title.slice(1); // capitalize first letter
+
+                        return {
+                            id: index + 1,
+                            name: `Set ${setNum}: ${title}`,
+                            url: file.download_url
+                        };
+                    });
+
+                // Populate the Dropdown Menu
+                const selector = document.getElementById('set-selector');
+                selector.innerHTML = ''; // Clear loading text
+                availableSets.forEach(set => {
+                    const option = document.createElement('option');
+                    option.value = set.id;
+                    option.text = set.name;
+                    selector.appendChild(option);
+                });
+
+                // Automatically load the first set
+                if (availableSets.length > 0) {
+                    loadSelectedSet();
+                }
+
+            } catch (error) {
+                console.error("Error reading GitHub folder:", error);
+                document.getElementById('loading').innerText = "Error leyendo la carpeta de GitHub. Revisa la URL.";
+                document.getElementById('loading').style.display = 'block';
+            }
+        }
+
+        // Run the folder scan when the page opens
+        initFolder();
 
         // Utility Function: Shuffle Arrays
         function shuffleArray(array) {
@@ -140,50 +174,48 @@
         }
 
         // ==========================================
-        // DATA FETCHING LOGIC (The Brain)
+        // 2. FETCH DATA FOR GENERATION
         // ==========================================
         async function loadSelectedSet() {
             const selectedId = parseInt(document.getElementById('set-selector').value);
             const loadingText = document.getElementById('loading');
             
+            loadingText.innerText = "Construyendo Entrenamiento...";
             loadingText.style.display = 'block';
-            document.getElementById('app').innerHTML = ''; // Clear old worksheet
+            document.getElementById('app').innerHTML = ''; 
 
-            // Figure out which URLs we need to fetch (Current set + ALL previous sets)
+            // Grab the current set AND all previous sets for the Spiral Review
             const urlsToFetch = availableSets
                 .filter(set => set.id <= selectedId)
                 .map(set => set.url);
 
             try {
-                // Fetch all required JSONs simultaneously
                 const responses = await Promise.all(urlsToFetch.map(url => fetch(url)));
                 const allData = await Promise.all(responses.map(res => res.json()));
                 
-                // The *current* set is the last one in the array
+                // The current set is the last one in the array
                 const currentSetData = allData[allData.length - 1];
 
                 loadingText.style.display = 'none';
-                
-                // Pass both the current data and the entire history to the generator
                 generateWorksheet(currentSetData, allData);
                 
             } catch (error) {
-                loadingText.innerText = "Error: Asegúrate de que los archivos JSON estén subidos a GitHub.";
+                loadingText.innerText = "Error: No se pudieron descargar los datos JSON.";
                 console.error('Fetch error:', error);
             }
         }
 
         // ==========================================
-        // WORKSHEET GENERATOR ENGINE
+        // 3. WORKSHEET GENERATOR ENGINE
         // ==========================================
         function generateWorksheet(currentData, allHistoricalData) {
             const app = document.getElementById('app');
             let html = '';
             let answerKey = ''; 
 
-            const headerTitle = `Entrenamiento: ${currentData.programa} (Set ${currentData.set_numero})`;
+            const headerTitle = `Entrenamiento: ${currentData.programa || "Español"} (Set ${currentData.set_numero || ""})`;
 
-            // --- PÁGINA 1: PREPÁRATE (Uses CURRENT Data) ---
+            // --- PÁGINA 1: PREPÁRATE ---
             html += `
                 <div class="page">
                     <h1>${headerTitle}</h1>
@@ -193,8 +225,9 @@
             `;
             const categories = {};
             currentData.preparate.forEach(item => {
-                if (!categories[item.categoria]) categories[item.categoria] = [];
-                categories[item.categoria].push(item);
+                let cat = item.categoria || "Vocabulario";
+                if (!categories[cat]) categories[cat] = [];
+                categories[cat].push(item);
             });
             const categoryNames = Object.keys(categories);
             const col1Cats = categoryNames.slice(0, Math.ceil(categoryNames.length / 2));
@@ -217,12 +250,15 @@
             html += `</ul></div></div>`;
 
 
-            // --- PÁGINA 2: EL CALENTAMIENTO (Uses CURRENT Data) ---
+            // --- PÁGINA 2: EL CALENTAMIENTO ---
+            // Safely grab up to 20 words
             const vocabSample = shuffleArray(currentData.preparate).slice(0, 20); 
-            const partA = vocabSample.slice(0, 10);
-            const partB = vocabSample.slice(10, 20);
+            const halfLength = Math.floor(vocabSample.length / 2);
+            const partA = vocabSample.slice(0, halfLength);
+            const partB = vocabSample.slice(halfLength, vocabSample.length);
+            
             const partA_EnglishShuffled = shuffleArray(partA);
-            const lettersA = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'];
+            const lettersA = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O']; // Extra just in case
 
             html += `
                 <div class="page">
@@ -248,14 +284,17 @@
                     <div class="two-col"><ul class="col translation-col" style="list-style-type:none;">`;
             
             let keyPartB = [];
-            partB.slice(0, 5).forEach((item, index) => {
-                html += `<li><strong>${index + 11}.</strong> ${item.en} <div class="blank-line-long"></div></li>`;
-                keyPartB.push(`${index + 11}. ${item.es}`);
+            const midB = Math.ceil(partB.length / 2);
+            partB.slice(0, midB).forEach((item, index) => {
+                let displayNum = index + partA.length + 1;
+                html += `<li><strong>${displayNum}.</strong> ${item.en} <div class="blank-line-long"></div></li>`;
+                keyPartB.push(`${displayNum}. ${item.es}`);
             });
             html += `</ul><ul class="col translation-col" style="list-style-type:none;">`;
-            partB.slice(5, 10).forEach((item, index) => {
-                html += `<li><strong>${index + 16}.</strong> ${item.en} <div class="blank-line-long"></div></li>`;
-                keyPartB.push(`${index + 16}. ${item.es}`);
+            partB.slice(midB).forEach((item, index) => {
+                let displayNum = index + partA.length + midB + 1;
+                html += `<li><strong>${displayNum}.</strong> ${item.en} <div class="blank-line-long"></div></li>`;
+                keyPartB.push(`${displayNum}. ${item.es}`);
             });
             html += `</ul></div></div>`;
 
@@ -268,9 +307,12 @@
             `;
 
 
-            // --- PÁGINA 3: EL CARDIO (Uses CURRENT Data) ---
-            const cardioEN = shuffleArray(currentData.cardio.filter(c => c.clue_en)).slice(0, 7);
-            const cardioES = shuffleArray(currentData.cardio.filter(c => c.clue_es)).slice(0, 7);
+            // --- PÁGINA 3: EL CARDIO ---
+            const safeCardioEN = currentData.cardio ? currentData.cardio.filter(c => c.clue_en) : [];
+            const safeCardioES = currentData.cardio ? currentData.cardio.filter(c => c.clue_es) : [];
+            
+            const cardioEN = shuffleArray(safeCardioEN).slice(0, 7);
+            const cardioES = shuffleArray(safeCardioES).slice(0, 7);
 
             html += `
                 <div class="page">
@@ -288,8 +330,9 @@
             html += `<h3>Parte B: Pistas en Español</h3>`;
             let keyCardioB = [];
             cardioES.forEach((item, index) => {
-                html += `<div class="cardio-item"><strong>${index + 8}.</strong> ${item.clue_es}<div class="cardio-line-container"><span class="blank-line-long"></span></div></div>`;
-                keyCardioB.push(`${index + 8}. ${item.respuesta}`);
+                let displayNum = index + cardioEN.length + 1;
+                html += `<div class="cardio-item"><strong>${displayNum}.</strong> ${item.clue_es}<div class="cardio-line-container"><span class="blank-line-long"></span></div></div>`;
+                keyCardioB.push(`${displayNum}. ${item.respuesta}`);
             });
             html += `</div>`;
             
@@ -302,10 +345,12 @@
             `;
 
 
-            // --- PÁGINA 4: LEVANTAR PESAS (Uses CURRENT Data) ---
-            const pesasSet = shuffleArray(currentData.levantar_pesas).slice(0, 18);
-            const pesasA = pesasSet.slice(0, 9);
-            const pesasB = pesasSet.slice(9, 18);
+            // --- PÁGINA 4: LEVANTAR PESAS ---
+            const safePesas = currentData.levantar_pesas || [];
+            const pesasSet = shuffleArray(safePesas).slice(0, 18);
+            const halfPesas = Math.ceil(pesasSet.length / 2);
+            const pesasA = pesasSet.slice(0, halfPesas);
+            const pesasB = pesasSet.slice(halfPesas, pesasSet.length);
             
             let bankA = shuffleArray(pesasA.map(i => i.target)).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
             let bankB = shuffleArray(pesasB.map(i => i.target)).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
@@ -327,12 +372,13 @@
             });
             html += `</ol><h3>Ejercicio B</h3>
                     <div class="word-bank">${bankB}</div>
-                    <ol start="10" style="margin-top:0; padding-left:20px;">`;
+                    <ol start="${pesasA.length + 1}" style="margin-top:0; padding-left:20px;">`;
             let keyPesasB = [];
             pesasB.forEach((item, index) => {
                 let sentence = item.oracion.replace(/\[target\]/g, `<span class="blank-line-med"></span>`);
+                let displayNum = index + pesasA.length + 1;
                 html += `<li class="question-item">${sentence} <em>(${item.hint})</em></li>`;
-                keyPesasB.push(`${index + 10}. ${item.target}`);
+                keyPesasB.push(`${displayNum}. ${item.target}`);
             });
             html += `</ol></div>`;
 
@@ -345,8 +391,9 @@
             `;
 
 
-            // --- PÁGINA 5: EL ESTIRAMIENTO (Uses CURRENT Data) ---
-            const estiramientoSet = shuffleArray(currentData.estiramiento).slice(0, 6);
+            // --- PÁGINA 5: EL ESTIRAMIENTO ---
+            const safeEstiramiento = currentData.estiramiento || [];
+            const estiramientoSet = shuffleArray(safeEstiramiento).slice(0, 6);
             html += `
                 <div class="page">
                     <h1>${headerTitle}</h1>
@@ -372,7 +419,6 @@
             // ==========================================
             // PÁGINA 6: PROFUNDIZA (SPIRAL REVIEW ENGINE)
             // ==========================================
-            // This loops through the history and merges all JSONs into giant master arrays
             let masterVocab = [];
             let masterCardio = [];
             let masterPesas = [];
@@ -433,7 +479,6 @@
                     ${keySpiral.join(" | ")}
                 </div>
             `;
-
 
             // --- PÁGINA 7: CLAVE DE RESPUESTAS ---
             html += `
