@@ -29,20 +29,23 @@
         h1 { border-bottom: 3px solid #2c3e50; padding-bottom: 5px; color: #2c3e50; font-size: 22px; margin-top: 0; margin-bottom: 10px;}
         h2 { color: #e67e22; margin-top: 0px; margin-bottom: 5px; font-size: 18px; text-transform: uppercase; }
         h3 { font-size: 15px; margin-bottom: 8px; margin-top: 15px; color: #34495e; border-bottom: 1px solid #eee; padding-bottom: 3px;}
+        .category-header { font-size: 14px; color: #e67e22; border-bottom: 1px dashed #ccc; margin-top: 15px; margin-bottom: 8px; font-weight: bold; text-transform: uppercase; }
         .instructions { font-style: italic; color: #555; margin-bottom: 15px; font-size: 13px; margin-top: 0;}
         
         /* Two Column Layouts */
-        .two-col { display: flex; justify-content: space-between; font-size: 13.5px; }
+        .two-col { display: flex; justify-content: space-between; font-size: 13.5px; align-items: flex-start; }
         .col { width: 48%; list-style-type: none; padding: 0; margin-top: 0;}
         
         /* Specific tweaks for matching */
         .match-col li { margin-bottom: 8px; border-bottom: 1px dashed #ccc; padding-bottom: 4px; font-size: 13px;}
         
         /* Specific tweaks for Vocab List */
-        .vocab-col li { margin-bottom: 12px; font-size: 12.5px; line-height: 1.4;}
+        .vocab-col { margin-bottom: 0; }
+        .vocab-col li { margin-bottom: 10px; font-size: 12.5px; line-height: 1.4;}
         
         .blank-line { display: inline-block; width: 120px; border-bottom: 1px solid #222; margin: 0 5px; }
         .blank-line-long { display: inline-block; width: 180px; border-bottom: 1px solid #222; margin: 0 5px; }
+        .cardio-line-container { margin-top: 12px; margin-bottom: 4px; } /* Pushes the line down into the white space */
         
         .word-bank { background: #ecf0f1; padding: 8px; text-align: center; font-weight: bold; font-size: 13px; margin-bottom: 15px; border-radius: 5px; line-height: 1.4;}
         
@@ -83,33 +86,33 @@
             return shuffled;
         }
 
-        // Expanded JSON Data
+        // Expanded JSON Data with Categories
         const data = {
             "programa": "Primeros Pasos",
             "set_numero": 1,
             "preparate": [
-                { "es": "Hola", "en": "Hello; Hi", "contexto": "¡Hola! Me llamo María." },
-                { "es": "Buenos días", "en": "Good morning", "contexto": "Buenos días, profesor." },
-                { "es": "Buenas tardes", "en": "Good afternoon", "contexto": "Buenas tardes, ¿cómo están?" },
-                { "es": "Buenas noches", "en": "Good evening; Good night", "contexto": "Ya es tarde. Buenas noches, mamá." },
-                { "es": "¿Qué tal?", "en": "How are you?; How is it going?", "contexto": "¡Hola, amigo! ¿Qué tal?" },
-                { "es": "¿Qué pasa?", "en": "What’s happening?; What’s going on?", "contexto": "Hay muchas personas aquí, ¿qué pasa?" },
-                { "es": "¿Qué hay de nuevo?", "en": "What’s new?", "contexto": "No te veo desde el verano. ¿Qué hay de nuevo?" },
-                { "es": "Nada", "en": "Nothing", "contexto": "No pasa nada." },
-                { "es": "Bien", "en": "Well; Fine", "contexto": "Estoy muy bien, gracias." },
-                { "es": "Regular", "en": "So-so; OK", "contexto": "Hoy no estoy muy bien, estoy regular." },
-                { "es": "Adiós", "en": "Goodbye", "contexto": "La clase terminó. ¡Adiós!" },
-                { "es": "Chau", "en": "Bye", "contexto": "Chau, nos vemos en la cafetería." },
-                { "es": "Hasta luego", "en": "See you later", "contexto": "Me voy a mi casa, ¡hasta luego!" },
-                { "es": "Hasta pronto", "en": "See you soon", "contexto": "Nos vemos en un minuto. ¡Hasta pronto!" },
-                { "es": "Hasta mañana", "en": "See you tomorrow", "contexto": "Es el fin del día escolar, ¡hasta mañana!" },
-                { "es": "Nos vemos", "en": "See you", "contexto": "Nos vemos en el partido de fútbol." },
-                { "es": "Por favor", "en": "Please", "contexto": "Necesito un lápiz, por favor." },
-                { "es": "Gracias", "en": "Thank you", "contexto": "Gracias por tu ayuda." },
-                { "es": "De nada", "en": "You’re welcome", "contexto": "—Gracias por el libro. —De nada." },
-                { "es": "Con permiso", "en": "Excuse me (to pass)", "contexto": "Con permiso, necesito pasar por la puerta." },
-                { "es": "Perdón", "en": "Pardon me; Excuse me", "contexto": "Perdón, ¿qué hora es?" },
-                { "es": "Lo siento", "en": "I’m sorry", "contexto": "Lo siento, no tengo mi tarea hoy." }
+                { "es": "Hola", "en": "Hello; Hi", "contexto": "¡Hola! Me llamo María.", "categoria": "Saludos" },
+                { "es": "Buenos días", "en": "Good morning", "contexto": "Buenos días, profesor.", "categoria": "Saludos" },
+                { "es": "Buenas tardes", "en": "Good afternoon", "contexto": "Buenas tardes, ¿cómo están?", "categoria": "Saludos" },
+                { "es": "Buenas noches", "en": "Good evening; Good night", "contexto": "Ya es tarde. Buenas noches, mamá.", "categoria": "Saludos" },
+                { "es": "¿Qué tal?", "en": "How are you?; How is it going?", "contexto": "¡Hola, amigo! ¿Qué tal?", "categoria": "Conversación" },
+                { "es": "¿Qué pasa?", "en": "What’s happening?; What’s going on?", "contexto": "Hay muchas personas aquí, ¿qué pasa?", "categoria": "Conversación" },
+                { "es": "¿Qué hay de nuevo?", "en": "What’s new?", "contexto": "No te veo desde el verano. ¿Qué hay de nuevo?", "categoria": "Conversación" },
+                { "es": "Nada", "en": "Nothing", "contexto": "No pasa nada.", "categoria": "Conversación" },
+                { "es": "Bien", "en": "Well; Fine", "contexto": "Estoy muy bien, gracias.", "categoria": "Conversación" },
+                { "es": "Regular", "en": "So-so; OK", "contexto": "Hoy no estoy muy bien, estoy regular.", "categoria": "Conversación" },
+                { "es": "Adiós", "en": "Goodbye", "contexto": "La clase terminó. ¡Adiós!", "categoria": "Despedidas" },
+                { "es": "Chau", "en": "Bye", "contexto": "Chau, nos vemos en la cafetería.", "categoria": "Despedidas" },
+                { "es": "Hasta luego", "en": "See you later", "contexto": "Me voy a mi casa, ¡hasta luego!", "categoria": "Despedidas" },
+                { "es": "Hasta pronto", "en": "See you soon", "contexto": "Nos vemos en un minuto. ¡Hasta pronto!", "categoria": "Despedidas" },
+                { "es": "Hasta mañana", "en": "See you tomorrow", "contexto": "Es el fin del día escolar, ¡hasta mañana!", "categoria": "Despedidas" },
+                { "es": "Nos vemos", "en": "See you", "contexto": "Nos vemos en el partido de fútbol.", "categoria": "Despedidas" },
+                { "es": "Por favor", "en": "Please", "contexto": "Necesito un lápiz, por favor.", "categoria": "Cortesía" },
+                { "es": "Gracias", "en": "Thank you", "contexto": "Gracias por tu ayuda.", "categoria": "Cortesía" },
+                { "es": "De nada", "en": "You’re welcome", "contexto": "—Gracias por el libro. —De nada.", "categoria": "Cortesía" },
+                { "es": "Con permiso", "en": "Excuse me (to pass)", "contexto": "Con permiso, necesito pasar por la puerta.", "categoria": "Cortesía" },
+                { "es": "Perdón", "en": "Pardon me; Excuse me", "contexto": "Perdón, ¿qué hora es?", "categoria": "Cortesía" },
+                { "es": "Lo siento", "en": "I’m sorry", "contexto": "Lo siento, no tengo mi tarea hoy.", "categoria": "Cortesía" }
             ],
             "cardio": [
                 { "clue_en": "You say this to your teacher when you walk into class at 8:00 AM.", "respuesta": "Buenos días" },
@@ -171,7 +174,7 @@
         const headerTitle = `Entrenamiento: ${data.programa} (Set ${data.set_numero})`;
 
         // ==========================================
-        // PÁGINA 1: PREPÁRATE
+        // PÁGINA 1: PREPÁRATE (Categorized)
         // ==========================================
         html += `
             <div class="page">
@@ -179,16 +182,36 @@
                 <h2>Prepárate</h2>
                 <p class="instructions">Review your vocabulary list and the context sentences before you start your workout.</p>
                 <div class="two-col">
-                    <ul class="col vocab-col">
         `;
-        // Split prepárate into two columns
-        const halfVocab = Math.ceil(data.preparate.length / 2);
-        data.preparate.slice(0, halfVocab).forEach(item => {
-            html += `<li><strong>${item.es}</strong> <em>(${item.en})</em><br><span style="color:#555;">Ej: ${item.contexto}</span></li>`;
+        
+        // Group vocabulary by category
+        const categories = {};
+        data.preparate.forEach(item => {
+            if (!categories[item.categoria]) categories[item.categoria] = [];
+            categories[item.categoria].push(item);
         });
-        html += `</ul><ul class="col vocab-col">`;
-        data.preparate.slice(halfVocab).forEach(item => {
-            html += `<li><strong>${item.es}</strong> <em>(${item.en})</em><br><span style="color:#555;">Ej: ${item.contexto}</span></li>`;
+
+        const categoryNames = Object.keys(categories);
+        const col1Cats = categoryNames.slice(0, Math.ceil(categoryNames.length / 2));
+        const col2Cats = categoryNames.slice(Math.ceil(categoryNames.length / 2));
+
+        // Column 1
+        html += `<ul class="col vocab-col">`;
+        col1Cats.forEach(cat => {
+            html += `<div class="category-header">${cat}</div>`;
+            categories[cat].forEach(item => {
+                html += `<li><strong>${item.es}</strong> <em>(${item.en})</em><br><span style="color:#555;">Ej: ${item.contexto}</span></li>`;
+            });
+        });
+        html += `</ul>`;
+
+        // Column 2
+        html += `<ul class="col vocab-col">`;
+        col2Cats.forEach(cat => {
+            html += `<div class="category-header">${cat}</div>`;
+            categories[cat].forEach(item => {
+                html += `<li><strong>${item.es}</strong> <em>(${item.en})</em><br><span style="color:#555;">Ej: ${item.contexto}</span></li>`;
+            });
         });
         html += `</ul></div></div>`;
 
@@ -196,7 +219,7 @@
         // ==========================================
         // PÁGINA 2: EL CALENTAMIENTO
         // ==========================================
-        const matchSet = shuffleArray(data.preparate).slice(0, 20); // Get 20 words total
+        const matchSet = shuffleArray(data.preparate).slice(0, 20); 
         const partA = matchSet.slice(0, 10);
         const partB = matchSet.slice(10, 20);
         
@@ -269,14 +292,22 @@
         `;
         let keyCardioA = [];
         cardioEN.forEach((item, index) => {
-            html += `<div class="question-item"><strong>${index + 1}.</strong> ${item.clue_en}<br> <span class="blank-line-long"></span></div>`;
+            html += `
+                <div class="question-item">
+                    <strong>${index + 1}.</strong> ${item.clue_en}
+                    <div class="cardio-line-container"><span class="blank-line-long"></span></div>
+                </div>`;
             keyCardioA.push(`${index + 1}. ${item.respuesta}`);
         });
 
         html += `<h3>Parte B: Pistas en Español</h3>`;
         let keyCardioB = [];
         cardioES.forEach((item, index) => {
-            html += `<div class="question-item"><strong>${index + 8}.</strong> ${item.clue_es}<br> <span class="blank-line-long"></span></div>`;
+            html += `
+                <div class="question-item">
+                    <strong>${index + 8}.</strong> ${item.clue_es}
+                    <div class="cardio-line-container"><span class="blank-line-long"></span></div>
+                </div>`;
             keyCardioB.push(`${index + 8}. ${item.respuesta}`);
         });
 
@@ -355,7 +386,7 @@
         estiramientoSet.forEach((item, index) => {
             html += `
                 <div class="checkbox-item">
-                    <input type="checkbox"> <strong>I can</strong> ${item.cando}
+                    <input type="checkbox"> <strong>I can&nbsp;</strong> ${item.cando}
                 </div>
                 <div class="prove-it">
                     ↳ Prove it: <span class="blank-line-long"></span>
