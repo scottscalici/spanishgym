@@ -30,7 +30,7 @@
         h2 { color: #e67e22; margin-top: 0px; margin-bottom: 5px; font-size: 18px; text-transform: uppercase; }
         h3 { font-size: 15px; margin-bottom: 8px; margin-top: 15px; color: #34495e; border-bottom: 1px solid #eee; padding-bottom: 3px;}
         .category-header { font-size: 14px; color: #e67e22; border-bottom: 1px dashed #ccc; margin-top: 15px; margin-bottom: 8px; font-weight: bold; text-transform: uppercase; }
-        .instructions { font-style: italic; color: #555; margin-bottom: 15px; font-size: 13px; margin-top: 0;}
+        .instructions { font-style: italic; color: #555; margin-bottom: 15px; font-size: 13px; margin-top: 0; line-height: 1.4;}
         
         /* Two Column Layouts */
         .two-col { display: flex; justify-content: space-between; font-size: 13.5px; align-items: flex-start; }
@@ -91,7 +91,7 @@
             return shuffled;
         }
 
-        // Expanded JSON Data with Extra Sentences
+        // Expanded JSON Data with Extra Sentences and Scaffolded Clues
         const data = {
             "programa": "Primeros Pasos",
             "set_numero": 1,
@@ -128,14 +128,14 @@
                 { "clue_en": "A quick, informal way to ask your friend 'How is it going?'.", "respuesta": "¿Qué tal?" },
                 { "clue_en": "You say this to ask for a favor politely.", "respuesta": "Por favor" },
                 { "clue_en": "You say this when you are doing perfectly fine.", "respuesta": "Bien" },
-                { "clue_es": "Lo que dices por la noche antes de dormir.", "respuesta": "Buenas noches" },
-                { "clue_es": "La respuesta educada cuando una persona te dice 'gracias'.", "respuesta": "De nada" },
-                { "clue_es": "Una palabra corta e informal para decir 'adiós' a tus amigos.", "respuesta": "Chau" },
-                { "clue_es": "La palabra universal para saludar a una persona.", "respuesta": "Hola" },
-                { "clue_es": "Lo que dices cuando quieres saber si hay información nueva en la vida de tu amigo.", "respuesta": "¿Qué hay de nuevo?" },
-                { "clue_es": "Una expresión de despedida cuando vas a ver a la persona más tarde en el mismo día.", "respuesta": "Hasta luego" },
-                { "clue_es": "El estado de ánimo cuando no estás bien, pero tampoco estás muy mal.", "respuesta": "Regular" },
-                { "clue_es": "Lo que dices a tu maestro a las 2 de la tarde.", "respuesta": "Buenas tardes" }
+                { "clue_es": "Lo que dices por la noche antes de dormir <em>(before sleeping)</em>.", "respuesta": "Buenas noches" },
+                { "clue_es": "La respuesta educada <em>(polite response)</em> cuando una persona te dice 'gracias'.", "respuesta": "De nada" },
+                { "clue_es": "Una palabra corta e informal <em>(short and informal)</em> para decir 'adiós' a tus amigos.", "respuesta": "Chau" },
+                { "clue_es": "La palabra universal para saludar <em>(to greet)</em> a una persona.", "respuesta": "Hola" },
+                { "clue_es": "Lo que dices cuando quieres saber si hay información nueva <em>(new information)</em> en la vida de tu amigo.", "respuesta": "¿Qué hay de nuevo?" },
+                { "clue_es": "Una expresión de despedida cuando vas a ver a la persona más tarde <em>(later)</em> en el mismo día.", "respuesta": "Hasta luego" },
+                { "clue_es": "El estado de ánimo <em>(mood)</em> cuando no estás bien, pero tampoco estás muy mal.", "respuesta": "Regular" },
+                { "clue_es": "Lo que dices a tu maestro a las 2 de la tarde <em>(in the afternoon)</em>.", "respuesta": "Buenas tardes" }
             ],
             "levantar_pesas": [
                 { "oracion": "¡[target], profesor! ¿Cómo está usted esta mañana?", "target": "Buenos días", "hint": "Good morning" },
@@ -167,7 +167,7 @@
                 { "cando": "tell someone that things are going 'just okay' or 'so-so'.", "respuesta": "Regular" },
                 { "cando": "ask my friend 'what's new?' when I haven't seen them in a while.", "respuesta": "¿Qué hay de nuevo?" }
             ],
-            "repeticiones_extra": [
+            "profundiza": [
                 { "speaker": "Sofía", "frase": "¡ [target1], Mateo! ¿ [target2] ?", "respuestas": ["Hola", "¿Qué tal?"] },
                 { "speaker": "Mateo", "frase": "¡Hola, Sofía! Estoy [target3] , ¿y tú?", "respuestas": ["bien"] },
                 { "speaker": "Sofía", "frase": "Estoy muy bien, [target4]. ¿ [target5] en la escuela hoy?", "respuestas": ["gracias", "¿Qué pasa?"] },
@@ -191,7 +191,7 @@
             <div class="page">
                 <h1>${headerTitle}</h1>
                 <h2>Prepárate</h2>
-                <p class="instructions">Review your vocabulary list and the context sentences before you start your workout.</p>
+                <p class="instructions"><strong>Repasa tu lista de vocabulario y las oraciones de contexto antes de empezar.</strong><br>(Review your vocabulary list and the context sentences before you start.)</p>
                 <div class="two-col">
         `;
         
@@ -209,7 +209,7 @@
         col1Cats.forEach(cat => {
             html += `<div class="category-header">${cat}</div>`;
             categories[cat].forEach(item => {
-                html += `<li><strong>${item.es}</strong> <em>(${item.en})</em><br><span style="color:#555;">Ej: ${item.contexto}</span></li>`;
+                html += `<li><strong>${item.es}</strong> <em>(${item.en})</em><br><span style="color:#555;">${item.contexto}</span></li>`;
             });
         });
         html += `</ul>`;
@@ -218,14 +218,14 @@
         col2Cats.forEach(cat => {
             html += `<div class="category-header">${cat}</div>`;
             categories[cat].forEach(item => {
-                html += `<li><strong>${item.es}</strong> <em>(${item.en})</em><br><span style="color:#555;">Ej: ${item.contexto}</span></li>`;
+                html += `<li><strong>${item.es}</strong> <em>(${item.en})</em><br><span style="color:#555;">${item.contexto}</span></li>`;
             });
         });
         html += `</ul></div></div>`;
 
 
         // ==========================================
-        // PÁGINA 2: EL CALENTAMIENTO (Matching + Translation)
+        // PÁGINA 2: EL CALENTAMIENTO
         // ==========================================
         const vocabSample = shuffleArray(data.preparate).slice(0, 20); 
         const partA = vocabSample.slice(0, 10);
@@ -240,7 +240,7 @@
                 <h2>El Calentamiento</h2>
                 
                 <h3>Parte A: Relacionar (Matching)</h3>
-                <p class="instructions" style="margin-top:-5px;">Match the Spanish words to their English translations.</p>
+                <p class="instructions" style="margin-top:-5px;"><strong>Relaciona las palabras en español con sus traducciones al inglés.</strong><br>(Match the Spanish words to their English translations.)</p>
                 <div class="two-col">
                     <ul class="col match-col">
         `;
@@ -259,7 +259,7 @@
         html += `
                 <br>
                 <h3>Parte B: Traducción</h3>
-                <p class="instructions" style="margin-top:-5px;">Translate the English words into Spanish.</p>
+                <p class="instructions" style="margin-top:-5px;"><strong>Traduce las palabras del inglés al español.</strong><br>(Translate the English words into Spanish.)</p>
                 <div class="two-col">
                     <ul class="col translation-col" style="list-style-type:none;">
         `;
@@ -294,7 +294,7 @@
             <div class="page">
                 <h1>${headerTitle}</h1>
                 <h2>El Cardio</h2>
-                <p class="instructions">Read the clues and write the correct Spanish word.</p>
+                <p class="instructions"><strong>Lee las pistas y escribe la palabra correcta en español.</strong><br>(Read the clues and write the correct Spanish word.)</p>
                 
                 <h3>Parte A: Pistas en Inglés</h3>
         `;
@@ -331,7 +331,7 @@
 
 
         // ==========================================
-        // PÁGINA 4: LEVANTAR PESAS (Expanded)
+        // PÁGINA 4: LEVANTAR PESAS
         // ==========================================
         const pesasSet = shuffleArray(data.levantar_pesas).slice(0, 18);
         const pesasA = pesasSet.slice(0, 9);
@@ -344,7 +344,7 @@
             <div class="page">
                 <h1>${headerTitle}</h1>
                 <h2>Levantar Pesas</h2>
-                <p class="instructions">Fill in the blanks using the word banks. Use context clues.</p>
+                <p class="instructions"><strong>Llena los espacios en blanco usando el banco de palabras. Usa las pistas de contexto.</strong><br>(Fill in the blanks using the word banks. Use context clues.)</p>
                 
                 <h3>Ejercicio A</h3>
                 <div class="word-bank">${bankA}</div>
@@ -413,17 +413,17 @@
 
 
         // ==========================================
-        // PÁGINA 6: REPETICIONES EXTRA
+        // PÁGINA 6: PROFUNDIZA
         // ==========================================
         let dialogAnswers = [];
-        data.repeticiones_extra.forEach(line => { dialogAnswers = dialogAnswers.concat(line.respuestas); });
+        data.profundiza.forEach(line => { dialogAnswers = dialogAnswers.concat(line.respuestas); });
         let dialogWordBank = shuffleArray(dialogAnswers).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
 
         html += `
             <div class="page">
                 <h1>${headerTitle}</h1>
-                <h2>Repeticiones Extra</h2>
-                <p class="instructions">Side Quest! Read the dialogue between Sofía and Mateo and fill in the missing words.</p>
+                <h2>Profundiza</h2>
+                <p class="instructions"><strong>¡Un paso más! Lee el diálogo y completa las palabras que faltan.</strong><br>(Dig deeper! Read the dialogue and fill in the missing words.)</p>
                 <div class="word-bank">${dialogWordBank}</div>
                 <div style="padding: 15px; background-color: #f9f9f9; border-radius: 8px; border: 1px solid #ddd;">
         `;
@@ -431,7 +431,7 @@
         let keyRepeticiones = [];
         let blankCounter = 1;
 
-        data.repeticiones_extra.forEach(line => {
+        data.profundiza.forEach(line => {
             let fraseHtml = line.frase;
             line.respuestas.forEach(ans => {
                 fraseHtml = fraseHtml.replace(`[target${blankCounter}]`, ` <span class="blank-line" style="width: 100px;"></span> `);
@@ -444,7 +444,7 @@
 
         answerKey += `
             <div class="key-section">
-                <h3>Repeticiones Extra</h3>
+                <h3>Profundiza</h3>
                 ${keyRepeticiones.join(" | ")}
             </div>
         `;
