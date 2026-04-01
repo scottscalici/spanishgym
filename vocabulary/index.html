@@ -18,8 +18,11 @@
             max-width: 8.5in; margin: 0 auto 20px auto; text-align: center;
             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
+        #control-panel select { 
+            padding: 10px; font-size: 16px; border-radius: 5px; width: 50%; margin-right: 15px; 
+        }
         #control-panel button { 
-            padding: 15px 30px; font-size: 18px; background-color: #e67e22; 
+            padding: 12px 25px; font-size: 16px; background-color: #e67e22; 
             color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;
         }
         #control-panel button:hover { background-color: #d35400; }
@@ -93,16 +96,68 @@
 
     <div id="control-panel" class="no-print">
         <h2 style="color:white; margin-top:0;">Generador de Libros</h2>
-        <p style="margin-bottom: 20px;">Asegúrate de que <strong>primeros_pasos_master.json</strong> esté actualizado en GitHub.</p>
-        <button onclick="loadMasterBook()">Generar Libro Completo</button>
+        <div style="display: flex; justify-content: center; align-items: center; margin-top: 15px;">
+            <select id="program-selector">
+                <option value="" disabled selected>Cargando programas desde GitHub...</option>
+            </select>
+            <button onclick="loadMasterBook()">Generar Libro</button>
+        </div>
     </div>
     
     <div id="loading" class="no-print">Descargando datos y ensamblando libro...</div>
     <div id="app"></div>
 
     <script>
-        // Points to your Master Program file
-        const masterUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/vocabulary/primeros_pasos_master.json';
+        const repoApiUrl = 'https://api.github.com/repos/scottscalici/spanishgym/contents/vocabulary';
+
+        // 1. DYNAMICALLY FETCH MASTER FILES
+        async function initFolder() {
+            try {
+                const response = await fetch(repoApiUrl);
+                if (!response.ok) throw new Error('Could not read GitHub folder');
+                const files = await response.json();
+
+                const availablePrograms = files
+                    .filter(file => file.name.endsWith('_master.json'))
+                    .map((file) => {
+                        let cleanName = file.name.replace('_master.json', '');
+                        let title = cleanName.replace(/_/g, ' '); 
+                        // Convert to Title Case
+                        title = title.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+
+                        return {
+                            name: title,
+                            url: file.download_url
+                        };
+                    });
+
+                const selector = document.getElementById('program-selector');
+                selector.innerHTML = ''; 
+                
+                if (availablePrograms.length === 0) {
+                    const option = document.createElement('option');
+                    option.text = "No se encontraron archivos _master.json";
+                    option.disabled = true;
+                    selector.appendChild(option);
+                    return;
+                }
+
+                availablePrograms.forEach(prog => {
+                    const option = document.createElement('option');
+                    option.value = prog.url;
+                    option.text = prog.name;
+                    selector.appendChild(option);
+                });
+
+            } catch (error) {
+                console.error("Error reading GitHub folder:", error);
+                const selector = document.getElementById('program-selector');
+                selector.innerHTML = '<option disabled>Error cargando programas</option>';
+            }
+        }
+
+        // Initialize the dropdown on load
+        initFolder();
 
         function shuffleArray(array) {
             let shuffled = [...array];
@@ -113,7 +168,13 @@
             return shuffled;
         }
 
+        // 2. FETCH THE SELECTED MASTER BOOK
         async function loadMasterBook() {
+            const selector = document.getElementById('program-selector');
+            const masterUrl = selector.value;
+            
+            if (!masterUrl) return; 
+
             const loadingText = document.getElementById('loading');
             loadingText.style.display = 'block';
             document.getElementById('app').innerHTML = ''; 
@@ -132,6 +193,7 @@
             }
         }
 
+        // 3. THE GENERATOR ENGINE
         function buildBook(masterData) {
             const app = document.getElementById('app');
             let html = '';
@@ -139,9 +201,7 @@
             
             const programaNombre = masterData.programa || "Entrenamiento";
 
-            // ==========================================
-            // 1. BUILD THE INDEX / COVER PAGE
-            // ==========================================
+            // --- BUILD THE INDEX / COVER PAGE ---
             html += `
                 <div class="page">
                     <div class="content-layer">
@@ -182,19 +242,15 @@
             `;
 
 
-            // ==========================================
-            // 2. THE WORKBOOK ENGINE (LOOP THROUGH SETS & VERSIONS)
-            // ==========================================
+            // --- THE WORKBOOK ENGINE (LOOP THROUGH SETS & VERSIONS) ---
             let historicalCardio = [];
             let historicalPesas = [];
 
             masterData.sets.forEach(currentData => {
                 
-                // Update historical pools ONCE per set (so both versions draw from the same updated pool)
                 if(currentData.cardio) historicalCardio.push(...currentData.cardio);
                 if(currentData.levantar_pesas) historicalPesas.push(...currentData.levantar_pesas);
 
-                // This will hold the combined keys for Version A & B for this specific Set
                 let setAnswerKeyHTML = `<div class="page"><div class="content-layer">
                                         <h1>Clave de Respuestas: Set ${currentData.set_numero}</h1>`;
 
@@ -316,7 +372,7 @@
 
                     // --- LEVANTAR PESAS DATA PREP ---
                     const safePesas = currentData.levantar_pesas || [];
-                    const pesasSet = shuffleArray(safePesas).slice(0, 20); // Grabs 20 to fill the page
+                    const pesasSet = shuffleArray(safePesas).slice(0, 20); 
                     const halfPesas = Math.ceil(pesasSet.length / 2);
                     const pesasA = pesasSet.slice(0, halfPesas);
                     const pesasB = pesasSet.slice(halfPesas);
@@ -397,17 +453,14 @@
                     html += `</ol></div></div>`;
                     versionKeyData += `<div class="key-section"><h3>Profundiza (Repaso)</h3>${keySpiral.join(" | ")}</div>`;
 
-                    // Push this version's keys into the Set container
                     setAnswerKeyHTML += versionKeyData;
                 });
                 
-                // Close the Answer Key page for this set
                 setAnswerKeyHTML += `</div></div>`;
                 masterAnswerKeyHTML += setAnswerKeyHTML;
 
             });
 
-            // Append the massive Answer Key Appendix at the very end
             html += masterAnswerKeyHTML;
             app.innerHTML = html;
         }
