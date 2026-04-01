@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Generador de Guía del Profesor (TPT Preview)</title>
+    <style>
+        /* Base Screen Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #222;
+            background-color: #525659;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        #control-panel {
+            background-color: #2c3e50; color: white; padding: 20px; border-radius: 8px;
+            max-width: 8.5in; margin: 0 auto 20px auto; text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        #control-panel select { 
+            padding: 10px; font-size: 16px; border-radius: 5px; width: 50%; margin-right: 15px; 
+        }
+        #control-panel button { 
+            padding: 12px 25px; font-size: 16px; background-color: #e67e22; 
+            color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;
+        }
+        #control-panel button:hover { background-color: #d35400; }
+        #loading { color: white; text-align: center; font-size: 18px; margin-top: 20px; font-weight: bold; display: none;}
+        
+        /* 8.5 x 11 Portrait Pages */
+        .page {
+            background: white; width: 8.5in; height: 11in; margin: 0 auto 20px auto;
+            padding: 0.5in; box-sizing: border-box; box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            position: relative; overflow: hidden; z-index: 1;
+        }
+        
+        /* Subtle Footer Watermark */
+        .watermark {
+            position: absolute; bottom: 30px; right: 40px; width: 160px; height: 50px;
+            background-image: url('https://raw.githubusercontent.com/scottscalici/spanishgym/refs/heads/main/images/spanishgymbw.png');
+            background-position: bottom right; background-repeat: no-repeat; background-size: contain;
+            opacity: 0.15; z-index: 0; pointer-events: none;
+        }
+        
+        .content-layer { position: relative; z-index: 2; height: 100%; }
+
+        h1 { border-bottom: 3px solid #2c3e50; padding-bottom: 5px; color: #2c3e50; font-size: 26px; margin-top: 0; margin-bottom: 15px;}
+        h2 { color: #e67e22; margin-top: 0px; margin-bottom: 10px; font-size: 20px; text-transform: uppercase; }
+        h3 { font-size: 16px; margin-bottom: 5px; margin-top: 15px; color: #34495e; }
+        p { font-size: 15px; line-height: 1.5; color: #333; margin-top: 0; }
+        
+        /* Preview Specific Styles */
+        .promo-banner { background-color: #e67e22; color: white; text-align: center; padding: 10px; font-weight: bold; font-size: 18px; margin-bottom: 20px; border-radius: 5px;}
+        .feature-box { background-color: #f8f9fa; border-left: 5px solid #2c3e50; padding: 15px; margin-bottom: 20px; }
+        .vocab-grid { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;}
+        .vocab-set { width: 48%; background: #ecf0f1; padding: 15px; border-radius: 5px; box-sizing: border-box;}
+        .vocab-word-list { font-size: 13px; color: #555; line-height: 1.6; }
+        
+        /* Worksheet Sample Styles */
+        .word-bank { background: #ecf0f1; padding: 10px; text-align: center; font-weight: bold; font-size: 14px; margin-bottom: 15px; border-radius: 5px; line-height: 1.5;}
+        .question-item { margin-bottom: 15px; font-size: 14px; line-height: 1.5;}
+        .blank-line-med { display: inline-block; width: 200px; border-bottom: 1px solid #222; margin: 0 5px; }
+        
+        .index-logo { display: block; margin: 0 auto 30px auto; width: 350px; }
+        .hero-title { text-align: center; font-size: 32px; color: #2c3e50; text-transform: uppercase; border: none; margin-bottom: 10px;}
+        .hero-subtitle { text-align: center; font-size: 22px; color: #e67e22; margin-bottom: 40px;}
+
+        @media print {
+            body { background-color: white; margin: 0; padding: 0; }
+            .no-print { display: none !important; }
+            @page { size: letter portrait; margin: 0; }
+            .page { box-shadow: none; margin: 0; page-break-after: always; height: 100vh; }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="control-panel" class="no-print">
+        <h2 style="color:white; margin-top:0;">Generador de Preview (TPT)</h2>
+        <div style="display: flex; justify-content: center; align-items: center; margin-top: 15px;">
+            <select id="program-selector">
+                <option value="" disabled selected>Cargando programas...</option>
+            </select>
+            <button onclick="loadPreviewBook()">Generar Guía</button>
+        </div>
+    </div>
+    
+    <div id="loading" class="no-print">Construyendo documento de marketing...</div>
+    <div id="app"></div>
+
+    <script>
+        const repoApiUrl = 'https://api.github.com/repos/scottscalici/spanishgym/contents/vocabulary';
+
+        async function initFolder() {
+            try {
+                const response = await fetch(repoApiUrl);
+                const files = await response.json();
+                const availablePrograms = files
+                    .filter(file => file.name.endsWith('_master.json'))
+                    .map((file) => {
+                        let cleanName = file.name.replace('_master.json', '').replace(/_/g, ' '); 
+                        cleanName = cleanName.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+                        return { name: cleanName, url: file.download_url };
+                    });
+
+                const selector = document.getElementById('program-selector');
+                selector.innerHTML = ''; 
+                availablePrograms.forEach(prog => {
+                    const option = document.createElement('option');
+                    option.value = prog.url; option.text = prog.name;
+                    selector.appendChild(option);
+                });
+            } catch (error) {
+                console.error("Error reading GitHub folder:", error);
+            }
+        }
+        initFolder();
+
+        function shuffleArray(array) {
+            let shuffled = [...array];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        }
+
+        async function loadPreviewBook() {
+            const masterUrl = document.getElementById('program-selector').value;
+            if (!masterUrl) return; 
+
+            const loadingText = document.getElementById('loading');
+            loadingText.style.display = 'block';
+            document.getElementById('app').innerHTML = ''; 
+
+            try {
+                const response = await fetch(masterUrl);
+                const masterData = await response.json();
+                loadingText.style.display = 'none';
+                buildPreview(masterData);
+            } catch (error) {
+                console.error('Fetch error:', error);
+            }
+        }
+
+        function buildPreview(masterData) {
+            const app = document.getElementById('app');
+            let html = '';
+            const programaNombre = masterData.programa || "Programa";
+
+            // --- PAGE 1: THE HOOK & COVER ---
+            html += `
+                <div class="page">
+                    <div class="content-layer" style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
+                        <img src="https://raw.githubusercontent.com/scottscalici/spanishgym/refs/heads/main/images/spanishgym.png" class="index-logo">
+                        <h1 class="hero-title">Teacher's Guide & Preview</h1>
+                        <div class="hero-subtitle">Programa: ${programaNombre}</div>
+                        
+                        <div class="feature-box" style="font-size: 16px; line-height: 1.6; text-align: justify;">
+                            <strong>Ditch the boring worksheets. Welcome to The Spanish Gym.</strong><br><br>
+                            This curriculum treats vocabulary acquisition like a mental workout. Students move through carefully scaffolded "exercises"—from light warm-ups to heavy-lifting context clues—ensuring deep retention and true comprehension. 
+                            <br><br>
+                            Stop fighting wandering eyes and endless translation apps. With built-in spiral review and unique A/B versions for every single lesson, this resource is designed to keep your students actively engaged and accountable.
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            // --- PAGE 2: METHODOLOGY ---
+            html += `
+                <div class="page">
+                    <div class="watermark"></div>
+                    <div class="content-layer">
+                        <h1>How It Works: The Workout Plan</h1>
+                        <p>Every vocabulary set in this bundle follows the exact same 6-part structure, building confidence through repetition and scaffolding.</p>
+                        
+                        <div class="feature-box">
+                            <h3 style="margin-top:0;">📋 Prepárate (The Gameplan)</h3>
+                            <p>A clean master list featuring the Spanish word, English translation, and a real-world context sentence. No guessing required.</p>
+                        </div>
+                        <div class="feature-box">
+                            <h3 style="margin-top:0;">🏃 El Calentamiento (The Warm-up)</h3>
+                            <p>Low-stakes matching and direct translation to build initial recognition and get the brain moving.</p>
+                        </div>
+                        <div class="feature-box">
+                            <h3 style="margin-top:0;">🚴 El Cardio (Getting the Heart Rate Up)</h3>
+                            <p>Students read descriptive clues (scaffolded in English on one page, and Spanish on the next) to produce the target word without a word bank.</p>
+                        </div>
+                        <div class="feature-box">
+                            <h3 style="margin-top:0;">🏋️ Levantar Pesas (The Heavy Lifting)</h3>
+                            <p>Context-based, fill-in-the-blank sentences that force students to use grammar, logic, and context clues.</p>
+                        </div>
+                        <div class="feature-box">
+                            <h3 style="margin-top:0;">🧘 El Estiramiento (The Cool-down)</h3>
+                            <p>A quick self-assessment where students check off "I can..." statements and write a Spanish phrase to prove it.</p>
+                        </div>
+                        <div class="feature-box">
+                            <h3 style="margin-top:0;">🔄 Profundiza (Spiral Review)</h3>
+                            <p>The ultimate retention tool. Older vocabulary is continually brought back to force spaced repetition and long-term memory.</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            // --- PAGE 3: SCOPE & SEQUENCE ---
+            html += `
+                <div class="page">
+                    <div class="watermark"></div>
+                    <div class="content-layer">
+                        <h1>Scope & Sequence</h1>
+                        <p>This bundle includes strictly controlled vocabulary sets (approx. 20 words each) to prevent student burnout. Here is exactly what is covered in <strong>${programaNombre}</strong>:</p>
+                        <div class="vocab-grid">
+            `;
+            
+            masterData.sets.forEach(set => {
+                let wordList = set.preparate.map(item => item.es).join(', ');
+                html += `
+                    <div class="vocab-set">
+                        <h3 style="margin-top:0; color:#e67e22; border-bottom:1px solid #ccc; padding-bottom:5px;">Set ${set.set_numero}: ${set.titulo}</h3>
+                        <div class="vocab-word-list">${wordList}</div>
+                    </div>
+                `;
+            });
+
+            html += `
+                        </div>
+                        <p style="font-size:12px; color:#666; font-style:italic;">*Note: The generator uses expanded question pools to ensure a variety of contexts for these core words.</p>
+                    </div>
+                </div>
+            `;
+
+            // --- PAGE 4: FREE SAMPLE WORKSHEET ---
+            if (masterData.sets.length > 0 && masterData.sets[0].levantar_pesas) {
+                const sampleSet = masterData.sets[0];
+                const pesasSet = shuffleArray(sampleSet.levantar_pesas).slice(0, 15);
+                let bankA = shuffleArray(pesasSet.map(i => i.target)).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
+
+                html += `
+                    <div class="page">
+                        <div class="watermark"></div>
+                        <div class="content-layer">
+                            <div class="promo-banner">¡Pruébalo en tu clase hoy! (Free Sample Worksheet)</div>
+                            <h1 style="border-bottom:none; margin-bottom:0;">${programaNombre} (Set ${sampleSet.set_numero})</h1>
+                            <h2>🏋️ Levantar Pesas (Con Pistas)</h2>
+                            <p class="instructions"><strong>Llena los espacios en blanco usando el banco de palabras. Usa las pistas de contexto.</strong><br>(Fill in the blanks using the word banks. Use context clues.)</p>
+                            
+                            <div class="word-bank">${bankA}</div>
+                            <ol style="margin-top:20px; padding-left:20px;">
+                `;
+                
+                pesasSet.forEach((item) => {
+                    let sentence = item.oracion.replace(/\[target\]/g, `<span class="blank-line-med"></span>`);
+                    html += `<li class="question-item">${sentence} <em style="color:#666;">(${item.hint})</em></li>`;
+                });
+
+                html += `
+                            </ol>
+                        </div>
+                    </div>
+                `;
+            }
+
+            // --- PAGE 5: THE VERSION A/B PITCH ---
+            html += `
+                <div class="page">
+                    <div class="content-layer" style="display: flex; flex-direction: column; justify-content: center; height: 100%; text-align: center;">
+                        <h1 style="border:none; font-size:36px; color:#e67e22;">The "Version A & B" Advantage</h1>
+                        <p style="font-size:18px; padding: 0 40px; margin-bottom: 40px;">
+                            Every single practice set in the full bundle comes with a <strong>Versión A</strong> and a <strong>Versión B</strong>. 
+                        </p>
+                        
+                        <div style="display:flex; justify-content: space-around; margin-bottom: 40px;">
+                            <div style="width:40%; background:#f8f9fa; padding:20px; border-radius:8px; border-top:5px solid #2c3e50;">
+                                <h3>Anti-Cheating</h3>
+                                <p style="font-size:14px; text-align:left;">Hand out Version A to row one, and Version B to row two. The question pools are completely shuffled and swapped to eliminate wandering eyes.</p>
+                            </div>
+                            <div style="width:40%; background:#f8f9fa; padding:20px; border-radius:8px; border-top:5px solid #2c3e50;">
+                                <h3>Classwork / Homework</h3>
+                                <p style="font-size:14px; text-align:left;">Use Version A together in class to introduce the concepts, and assign Version B for homework or as a Friday quiz!</p>
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 20px; background: #2c3e50; color: white; padding: 20px; border-radius: 8px; display: inline-block; margin: 0 auto;">
+                            <h2 style="color:white; margin:0 0 10px 0;">Ready to transform your vocabulary routine?</h2>
+                            <p style="margin:0; font-size:16px;">Purchase the complete <strong>${programaNombre}</strong> bundle in the store now!</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            app.innerHTML = html;
+        }
+    </script>
+</body>
+</html>
