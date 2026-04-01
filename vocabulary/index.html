@@ -68,7 +68,7 @@
         .blank-line-med { display: inline-block; width: 200px; border-bottom: 1px solid #222; margin: 0 5px; }
         
         /* Fixed Cardio Spacing */
-        .cardio-item { margin-bottom: 8px; font-size: 13.5px; line-height: 1.4;}
+        .cardio-item { margin-bottom: 12px; font-size: 13.5px; line-height: 1.4;}
         .cardio-line-container { margin-top: 4px; margin-bottom: 0px; width: 75%;}
         
         .word-bank { background: #ecf0f1; padding: 8px; text-align: center; font-weight: bold; font-size: 13px; margin-bottom: 15px; border-radius: 5px; line-height: 1.4;}
@@ -297,30 +297,37 @@
             `;
 
 
-            // --- PÁGINA 3: EL CARDIO ---
+            // --- PÁGINA 3: EL CARDIO (Pistas en Inglés - Up to 15) ---
             const safeCardioEN = currentData.cardio ? currentData.cardio.filter(c => c.clue_en) : [];
-            const safeCardioES = currentData.cardio ? currentData.cardio.filter(c => c.clue_es) : [];
-            
-            const cardioEN = shuffleArray(safeCardioEN).slice(0, 7);
-            const cardioES = shuffleArray(safeCardioES).slice(0, 7);
+            const cardioEN = shuffleArray(safeCardioEN).slice(0, 15);
 
             html += `
                 <div class="page">
                     <h1>${headerTitle}</h1>
-                    <h2>El Cardio</h2>
+                    <h2>El Cardio: Pistas en Inglés</h2>
                     <p class="instructions"><strong>Lee las pistas y escribe la palabra correcta en español.</strong><br>(Read the clues and write the correct Spanish word.)</p>
-                    <h3>Parte A: Pistas en Inglés</h3>
             `;
             let keyCardioA = [];
             cardioEN.forEach((item, index) => {
                 html += `<div class="cardio-item"><strong>${index + 1}.</strong> ${item.clue_en}<div class="cardio-line-container"><span class="blank-line-long"></span></div></div>`;
                 keyCardioA.push(`${index + 1}. ${item.respuesta}`);
             });
+            html += `</div>`;
 
-            html += `<h3>Parte B: Pistas en Español</h3>`;
+
+            // --- PÁGINA 4: EL CARDIO (Pistas en Español - Up to 15) ---
+            const safeCardioES = currentData.cardio ? currentData.cardio.filter(c => c.clue_es) : [];
+            const cardioES = shuffleArray(safeCardioES).slice(0, 15);
+
+            html += `
+                <div class="page">
+                    <h1>${headerTitle}</h1>
+                    <h2>El Cardio: Pistas en Español</h2>
+                    <p class="instructions"><strong>Lee las pistas y escribe la palabra correcta en español.</strong><br>(Read the clues and write the correct Spanish word.)</p>
+            `;
             let keyCardioB = [];
             cardioES.forEach((item, index) => {
-                let displayNum = index + cardioEN.length + 1;
+                let displayNum = index + 1;
                 html += `<div class="cardio-item"><strong>${displayNum}.</strong> ${item.clue_es}<div class="cardio-line-container"><span class="blank-line-long"></span></div></div>`;
                 keyCardioB.push(`${displayNum}. ${item.respuesta}`);
             });
@@ -329,13 +336,13 @@
             answerKey += `
                 <div class="key-section">
                     <h3>El Cardio</h3>
-                    <strong>Parte A:</strong> ${keyCardioA.join(" | ")}<br>
-                    <strong>Parte B:</strong> ${keyCardioB.join(" | ")}
+                    <strong>Pistas en Inglés:</strong> ${keyCardioA.join(" | ")}<br>
+                    <strong>Pistas en Español:</strong> ${keyCardioB.join(" | ")}
                 </div>
             `;
 
 
-            // --- PÁGINA 4: LEVANTAR PESAS ---
+            // --- DATA PREP FOR LEVANTAR PESAS (Used on both pages) ---
             const safePesas = currentData.levantar_pesas || [];
             const pesasSet = shuffleArray(safePesas).slice(0, 18);
             const halfPesas = Math.ceil(pesasSet.length / 2);
@@ -344,44 +351,71 @@
             
             let bankA = shuffleArray(pesasA.map(i => i.target)).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
             let bankB = shuffleArray(pesasB.map(i => i.target)).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
+            
+            let keyPesasA = [];
+            let keyPesasB = [];
 
+            // --- PÁGINA 5: LEVANTAR PESAS (Con Pistas) ---
             html += `
                 <div class="page">
                     <h1>${headerTitle}</h1>
-                    <h2>Levantar Pesas</h2>
+                    <h2>Levantar Pesas (Con Pistas)</h2>
                     <p class="instructions"><strong>Llena los espacios en blanco usando el banco de palabras. Usa las pistas de contexto.</strong><br>(Fill in the blanks using the word banks. Use context clues.)</p>
                     <h3>Ejercicio A</h3>
                     <div class="word-bank">${bankA}</div>
                     <ol style="margin-top:0; padding-left:20px;">
             `;
-            let keyPesasA = [];
             pesasA.forEach((item, index) => {
                 let sentence = item.oracion.replace(/\[target\]/g, `<span class="blank-line-med"></span>`);
-                html += `<li class="question-item">${sentence} <em>(${item.hint})</em></li>`;
+                html += `<li class="question-item">${sentence} <em style="color:#666;">(${item.hint})</em></li>`;
                 keyPesasA.push(`${index + 1}. ${item.target}`);
             });
             html += `</ol><h3>Ejercicio B</h3>
                     <div class="word-bank">${bankB}</div>
                     <ol start="${pesasA.length + 1}" style="margin-top:0; padding-left:20px;">`;
-            let keyPesasB = [];
             pesasB.forEach((item, index) => {
                 let sentence = item.oracion.replace(/\[target\]/g, `<span class="blank-line-med"></span>`);
                 let displayNum = index + pesasA.length + 1;
-                html += `<li class="question-item">${sentence} <em>(${item.hint})</em></li>`;
+                html += `<li class="question-item">${sentence} <em style="color:#666;">(${item.hint})</em></li>`;
                 keyPesasB.push(`${displayNum}. ${item.target}`);
+            });
+            html += `</ol></div>`;
+
+
+            // --- PÁGINA 6: LEVANTAR PESAS (Sin Pistas) ---
+            html += `
+                <div class="page">
+                    <h1>${headerTitle}</h1>
+                    <h2>Levantar Pesas (Sin Pistas)</h2>
+                    <p class="instructions"><strong>Llena los espacios en blanco usando el banco de palabras.</strong><br>(Fill in the blanks using the word banks.)</p>
+                    <h3>Ejercicio A</h3>
+                    <div class="word-bank">${bankA}</div>
+                    <ol style="margin-top:0; padding-left:20px;">
+            `;
+            pesasA.forEach((item, index) => {
+                let sentence = item.oracion.replace(/\[target\]/g, `<span class="blank-line-med"></span>`);
+                html += `<li class="question-item">${sentence}</li>`;
+            });
+            html += `</ol><h3>Ejercicio B</h3>
+                    <div class="word-bank">${bankB}</div>
+                    <ol start="${pesasA.length + 1}" style="margin-top:0; padding-left:20px;">`;
+            pesasB.forEach((item, index) => {
+                let sentence = item.oracion.replace(/\[target\]/g, `<span class="blank-line-med"></span>`);
+                let displayNum = index + pesasA.length + 1;
+                html += `<li class="question-item">${sentence}</li>`;
             });
             html += `</ol></div>`;
 
             answerKey += `
                 <div class="key-section">
-                    <h3>Levantar Pesas</h3>
+                    <h3>Levantar Pesas (Ambas Versiones)</h3>
                     <strong>Ej A:</strong> ${keyPesasA.join(" | ")}<br>
                     <strong>Ej B:</strong> ${keyPesasB.join(" | ")}
                 </div>
             `;
 
 
-            // --- PÁGINA 5: EL ESTIRAMIENTO ---
+            // --- PÁGINA 7: EL ESTIRAMIENTO ---
             const safeEstiramiento = currentData.estiramiento || [];
             const estiramientoSet = shuffleArray(safeEstiramiento).slice(0, 6);
             html += `
@@ -407,66 +441,51 @@
 
 
             // ==========================================
-            // PÁGINA 6: PROFUNDIZA (ISOLATED REVIEW)
+            // PÁGINA 8: PROFUNDIZA (ISOLATED REVIEW)
             // ==========================================
-            let masterVocab = [];
             let masterCardio = [];
             let masterPesas = [];
 
             // ONLY push data if it belongs to the EXACT SAME PROGRAM
             allHistoricalData.forEach(dataset => {
                 if (dataset.programa === currentData.programa) {
-                    if(dataset.preparate) masterVocab.push(...dataset.preparate);
                     if(dataset.cardio) masterCardio.push(...dataset.cardio);
                     if(dataset.levantar_pesas) masterPesas.push(...dataset.levantar_pesas);
                 }
             });
 
-            const reviewTrans = shuffleArray(masterVocab).slice(0, 6);
-            const reviewPesas = shuffleArray(masterPesas).slice(0, 5);
-
-            // ONLY USE SPANISH CLUES FOR SECTION B
+            // ONLY USE SPANISH CLUES FOR SECTION A (Formerly B)
             const safeReviewCardio = masterCardio.filter(c => c.clue_es);
-            const reviewCardio = shuffleArray(safeReviewCardio).slice(0, 4);
+            const reviewCardio = shuffleArray(safeReviewCardio).slice(0, 6); // Increased to fill page
+            
+            // FILL IN THE BLANKS FOR SECTION B (Formerly C)
+            const reviewPesas = shuffleArray(masterPesas).slice(0, 8); // Increased to fill page
 
             html += `
                 <div class="page">
                     <h1>${headerTitle}</h1>
                     <h2>Profundiza: Repaso de la Lección</h2>
                     <p class="instructions"><strong>¡Un paso más! Repasa el vocabulario de las lecciones anteriores.</strong><br>(Dig deeper! Review vocabulary from previous lessons.)</p>
-                    
-                    <h3>Sección A: Traducción Rápida</h3>
-                    <div class="two-col"><ul class="col translation-col" style="list-style-type:none;">
             `;
             let keySpiral = [];
-            reviewTrans.slice(0, 3).forEach((item, index) => {
-                html += `<li><strong>${index + 1}.</strong> ${item.en} <div class="blank-line-long"></div></li>`;
-                keySpiral.push(`A${index + 1}: ${item.es}`);
-            });
-            html += `</ul><ul class="col translation-col" style="list-style-type:none;">`;
-            reviewTrans.slice(3, 6).forEach((item, index) => {
-                html += `<li><strong>${index + 4}.</strong> ${item.en} <div class="blank-line-long"></div></li>`;
-                keySpiral.push(`A${index + 4}: ${item.es}`);
-            });
-            html += `</ul></div>`;
 
-            html += `<h3>Sección B: ¿Qué es?</h3>`;
+            html += `<h3>Sección A: ¿Qué es?</h3>`;
             reviewCardio.forEach((item, index) => {
-                // Guaranteed to be a Spanish clue now because of the filter above
                 let clue = item.clue_es; 
-                html += `<div class="cardio-item"><strong>${index + 7}.</strong> ${clue}
+                html += `<div class="cardio-item"><strong>${index + 1}.</strong> ${clue}
                          <div class="cardio-line-container" style="width:100%;"><span class="blank-line-long"></span></div></div>`;
-                keySpiral.push(`B${index + 7}: ${item.respuesta}`);
+                keySpiral.push(`A${index + 1}: ${item.respuesta}`);
             });
 
             let reviewBank = shuffleArray(reviewPesas.map(i => i.target)).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
-            html += `<h3>Sección C: Completar</h3>
+            html += `<h3>Sección B: Completar</h3>
                      <div class="word-bank">${reviewBank}</div>
-                     <ol start="11" style="margin-top:0; padding-left:20px;">`;
+                     <ol start="${reviewCardio.length + 1}" style="margin-top:0; padding-left:20px;">`;
             reviewPesas.forEach((item, index) => {
                 let sentence = item.oracion.replace(/\[target\]/g, `<span class="blank-line-med"></span>`);
+                let displayNum = index + reviewCardio.length + 1;
                 html += `<li class="question-item">${sentence}</li>`;
-                keySpiral.push(`C${index + 11}: ${item.target}`);
+                keySpiral.push(`B${displayNum}: ${item.target}`);
             });
             html += `</ol></div>`;
 
@@ -477,7 +496,7 @@
                 </div>
             `;
 
-            // --- PÁGINA 7: CLAVE DE RESPUESTAS ---
+            // --- PÁGINA 9: CLAVE DE RESPUESTAS ---
             html += `
                 <div class="page">
                     <h1>${headerTitle}</h1>
