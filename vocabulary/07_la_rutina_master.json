@@ -372,3 +372,35 @@
         { "oracion": "Me lavo las manos [target] de preparar la comida.", "target": "antes", "hint": "before" },
         { "oracion": "Me ducho, me seco y, [target], me visto.", "target": "por último", "hint": "finally" },
         { "oracion": "El agua de la [target] está perfecta hoy.", "target": "ducha", "hint": "shower" },
+        { "oracion": "No tengo tiempo ahora, lo haré [target] esta noche.", "target": "más tarde", "hint": "later" },
+        { "oracion": "Me levanto tarde, [target] no tengo tiempo para desayunar.", "target": "entonces", "hint": "then/so" },
+        { "oracion": "A mis abuelos les [target] las botas de nieve pesadas.", "target": "molestan", "hint": "bother" },
+        { "oracion": "A la estudiante no le [target] la clase de biología celular.", "target": "interesa", "hint": "interest" },
+        { "oracion": "¿Te [target] bien esa chaqueta negra?", "target": "queda", "hint": "fit" },
+        { "oracion": "A los directores les [target] mucho la puntualidad.", "target": "importa", "hint": "matters" },
+        { "oracion": "A mi familia le [target] viajar por Europa en verano.", "target": "encanta", "hint": "loves" },
+        { "oracion": "A mí me [target] los domingos cuando no hay nada que hacer.", "target": "aburren", "hint": "bore (plural subjects)" },
+        { "oracion": "Solo me [target] diez minutos para terminar el ensayo.", "target": "quedan", "hint": "are left over" },
+        { "oracion": "A él le [target] una corbata para su traje gris.", "target": "falta", "hint": "lacks/needs" },
+        { "oracion": "Terminé la tarea; [target], puedo jugar videojuegos.", "target": "entonces", "hint": "then" },
+        { "oracion": "[target] las vacaciones, yo dormí mucho.", "target": "Durante", "hint": "During" },
+        { "oracion": "[target] de salir con sus amigos, ella se maquilla.", "target": "Antes", "hint": "Before" },
+        { "oracion": "Cenamos a las ocho y [target] miramos una película.", "target": "después", "hint": "after" },
+        { "oracion": "No sé la respuesta ahora, te la diré [target].", "target": "más tarde", "hint": "later" },
+        { "oracion": "A ellas les [target] la música de ese artista español.", "target": "fascina", "hint": "fascinates" }
+      ],
+      "estiramiento": [
+        { "cando": "say 'It bores me'.", "respuesta": "Me aburre" },
+        { "cando": "say 'I love books' (using encantar).", "respuesta": "Me encantan los libros" },
+        { "cando": "say 'It fascinates him'.", "respuesta": "A él le fascina" },
+        { "cando": "say 'It doesn't matter to me'.", "respuesta": "No me importa" },
+        { "cando": "say 'It interests us'.", "respuesta": "Nos interesa" },
+        { "cando": "say 'It bothers you' (informal).", "respuesta": "Te molesta" },
+        { "cando": "say 'The shirt fits me well'.", "respuesta": "La camisa me queda bien" },
+        { "cando": "say 'before' and 'after'.", "respuesta": "Antes / Después" },
+        { "cando": "say 'during' and 'finally'.", "respuesta": "Durante / Por último" },
+        { "cando": "say 'then' and 'later'.", "respuesta": "Luego (entonces) / Más tarde" }
+      ]
+    }
+  ]
+}
