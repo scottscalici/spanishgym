@@ -407,7 +407,7 @@
 
 
             // ==========================================
-            // PÁGINA 6: PROFUNDIZA (ISOLATED SPIRAL REVIEW)
+            // PÁGINA 6: PROFUNDIZA (ISOLATED REVIEW)
             // ==========================================
             let masterVocab = [];
             let masterCardio = [];
@@ -423,13 +423,16 @@
             });
 
             const reviewTrans = shuffleArray(masterVocab).slice(0, 6);
-            const reviewCardio = shuffleArray(masterCardio).slice(0, 4);
             const reviewPesas = shuffleArray(masterPesas).slice(0, 5);
+
+            // ONLY USE SPANISH CLUES FOR SECTION B
+            const safeReviewCardio = masterCardio.filter(c => c.clue_es);
+            const reviewCardio = shuffleArray(safeReviewCardio).slice(0, 4);
 
             html += `
                 <div class="page">
                     <h1>${headerTitle}</h1>
-                    <h2>Profundiza: Repaso en Espiral</h2>
+                    <h2>Profundiza: Repaso de la Lección</h2>
                     <p class="instructions"><strong>¡Un paso más! Repasa el vocabulario de las lecciones anteriores.</strong><br>(Dig deeper! Review vocabulary from previous lessons.)</p>
                     
                     <h3>Sección A: Traducción Rápida</h3>
@@ -449,7 +452,8 @@
 
             html += `<h3>Sección B: ¿Qué es?</h3>`;
             reviewCardio.forEach((item, index) => {
-                let clue = item.clue_en || item.clue_es;
+                // Guaranteed to be a Spanish clue now because of the filter above
+                let clue = item.clue_es; 
                 html += `<div class="cardio-item"><strong>${index + 7}.</strong> ${clue}
                          <div class="cardio-line-container" style="width:100%;"><span class="blank-line-long"></span></div></div>`;
                 keySpiral.push(`B${index + 7}: ${item.respuesta}`);
