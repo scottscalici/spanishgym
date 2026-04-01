@@ -32,12 +32,12 @@
             position: relative; overflow: hidden; z-index: 1;
         }
         
-        /* The Subtle Watermark */
+        /* The Subtle Footer Watermark */
         .watermark {
-            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            position: absolute; bottom: 30px; right: 40px; width: 160px; height: 50px;
             background-image: url('https://raw.githubusercontent.com/scottscalici/spanishgym/refs/heads/main/images/spanishgymbw.png');
-            background-position: center; background-repeat: no-repeat; background-size: 70%;
-            opacity: 0.08; z-index: 0; pointer-events: none;
+            background-position: bottom right; background-repeat: no-repeat; background-size: contain;
+            opacity: 0.15; z-index: 0; pointer-events: none;
         }
         
         /* Keeps text above the watermark */
@@ -92,8 +92,8 @@
 <body>
 
     <div id="control-panel" class="no-print">
-        <h2>Generador de Libros</h2>
-        <p>Asegúrate de que 'primeros_pasos_master.json' esté en GitHub.</p>
+        <h2 style="color:white; margin-top:0;">Generador de Libros</h2>
+        <p style="margin-bottom: 20px;">Asegúrate de que <strong>primeros_pasos_master.json</strong> esté actualizado en GitHub.</p>
         <button onclick="loadMasterBook()">Generar Libro Completo</button>
     </div>
     
@@ -101,7 +101,7 @@
     <div id="app"></div>
 
     <script>
-        // UPDATE THIS URL to point to your new master file
+        // Points to your Master Program file
         const masterUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/vocabulary/primeros_pasos_master.json';
 
         function shuffleArray(array) {
@@ -150,7 +150,7 @@
                         
                         <div style="margin-bottom: 20px; font-size: 16px;">
                             <strong>Nombre:</strong> <span class="blank-line-long"></span><br><br>
-                            <strong>Clase:</strong> <span class="blank-line" style="width: 250px;"></span> <strong>Profesor(a):</strong> <span class="blank-line" style="width: 250px;"></span>
+                            <strong>Clase / Hora:</strong> <span class="blank-line" style="width: 250px;"></span> <strong>Profesor(a):</strong> <span class="blank-line" style="width: 250px;"></span>
                         </div>
 
                         <table class="log-table">
@@ -190,15 +190,19 @@
 
             masterData.sets.forEach(currentData => {
                 
-                // Update historical pools for the Spiral Review
+                // Update historical pools ONCE per set (so both versions draw from the same updated pool)
                 if(currentData.cardio) historicalCardio.push(...currentData.cardio);
                 if(currentData.levantar_pesas) historicalPesas.push(...currentData.levantar_pesas);
+
+                // This will hold the combined keys for Version A & B for this specific Set
+                let setAnswerKeyHTML = `<div class="page"><div class="content-layer">
+                                        <h1>Clave de Respuestas: Set ${currentData.set_numero}</h1>`;
 
                 const versions = ['A', 'B'];
 
                 versions.forEach(version => {
                     const headerTitle = `${programaNombre} (Set ${currentData.set_numero} - Versión ${version})`;
-                    let versionAnswerKey = `<div class="page"><div class="content-layer"><h1>Clave de Respuestas: ${headerTitle}</h1>`;
+                    let versionKeyData = `<h2 style="margin-top:20px; color:#2c3e50;">Versión ${version}</h2>`;
 
                     // --- PÁGINA 1: PREPÁRATE ---
                     html += `
@@ -278,7 +282,7 @@
                     });
                     html += `</ul></div></div></div>`;
                     
-                    versionAnswerKey += `<div class="key-section"><h3>El Calentamiento</h3><strong>Parte A:</strong> ${keyPartA.join(" | ")}<br><strong>Parte B:</strong> ${keyPartB.join(" | ")}</div>`;
+                    versionKeyData += `<div class="key-section"><h3>El Calentamiento</h3><strong>A:</strong> ${keyPartA.join(" | ")}<br><strong>B:</strong> ${keyPartB.join(" | ")}</div>`;
 
 
                     // --- PÁGINA 3: EL CARDIO (INGLÉS) ---
@@ -307,12 +311,12 @@
                         keyCardioB.push(`${dNum}. ${item.respuesta}`);
                     });
                     html += `</div></div>`;
-                    versionAnswerKey += `<div class="key-section"><h3>El Cardio</h3><strong>Inglés:</strong> ${keyCardioA.join(" | ")}<br><strong>Español:</strong> ${keyCardioB.join(" | ")}</div>`;
+                    versionKeyData += `<div class="key-section"><h3>El Cardio</h3><strong>Inglés:</strong> ${keyCardioA.join(" | ")}<br><strong>Español:</strong> ${keyCardioB.join(" | ")}</div>`;
 
 
                     // --- LEVANTAR PESAS DATA PREP ---
                     const safePesas = currentData.levantar_pesas || [];
-                    const pesasSet = shuffleArray(safePesas).slice(0, 18);
+                    const pesasSet = shuffleArray(safePesas).slice(0, 20); // Grabs 20 to fill the page
                     const halfPesas = Math.ceil(pesasSet.length / 2);
                     const pesasA = pesasSet.slice(0, halfPesas);
                     const pesasB = pesasSet.slice(halfPesas);
@@ -350,7 +354,7 @@
                         html += `<li class="question-item">${item.oracion.replace(/\[target\]/g, `<span class="blank-line-med"></span>`)}</li>`;
                     });
                     html += `</ol></div></div>`;
-                    versionAnswerKey += `<div class="key-section"><h3>Levantar Pesas</h3><strong>Ej A:</strong> ${keyPesasA.join(" | ")}<br><strong>Ej B:</strong> ${keyPesasB.join(" | ")}</div>`;
+                    versionKeyData += `<div class="key-section"><h3>Levantar Pesas</h3><strong>Ej A:</strong> ${keyPesasA.join(" | ")}<br><strong>Ej B:</strong> ${keyPesasB.join(" | ")}</div>`;
 
 
                     // --- PÁGINA 7: EL ESTIRAMIENTO ---
@@ -365,7 +369,7 @@
                         keyEst.push(`${index + 1}. ${item.respuesta}`);
                     });
                     html += `</div></div>`;
-                    versionAnswerKey += `<div class="key-section"><h3>El Estiramiento</h3>${keyEst.join(" | ")}</div>`;
+                    versionKeyData += `<div class="key-section"><h3>El Estiramiento</h3>${keyEst.join(" | ")}</div>`;
 
 
                     // --- PÁGINA 8: PROFUNDIZA (SPIRAL REVIEW) ---
@@ -391,11 +395,16 @@
                         keySpiral.push(`B${index + reviewCardio.length + 1}: ${item.target}`);
                     });
                     html += `</ol></div></div>`;
-                    versionAnswerKey += `<div class="key-section"><h3>Profundiza (Repaso)</h3>${keySpiral.join(" | ")}</div></div></div>`;
+                    versionKeyData += `<div class="key-section"><h3>Profundiza (Repaso)</h3>${keySpiral.join(" | ")}</div>`;
 
-                    // Append this version's answer key to the master key document
-                    masterAnswerKeyHTML += versionAnswerKey;
+                    // Push this version's keys into the Set container
+                    setAnswerKeyHTML += versionKeyData;
                 });
+                
+                // Close the Answer Key page for this set
+                setAnswerKeyHTML += `</div></div>`;
+                masterAnswerKeyHTML += setAnswerKeyHTML;
+
             });
 
             // Append the massive Answer Key Appendix at the very end
