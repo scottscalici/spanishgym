@@ -52,7 +52,7 @@
     { "oracion": "Mi [target] en la universidad es la administración de empresas.", "target": "especialización", "hint": "major" },
     { "oracion": "Voy a estudiar [target] mi amigo, Tomás.", "target": "con", "hint": "with" },
     { "oracion": "El profesor está de pie [target] de los estudiantes.", "target": "delante", "hint": "in front of" },
-    { "oracion": "No me gusta caminar a la escuela porque vivo muy [target].", "target": "lejos de", "hint": "far from" },
+    { "oracion": "No me gusta caminar a la escuela porque vivo muy [target] la escuela.", "target": "lejos de", "hint": "far from" },
     { "oracion": "El reloj está [target] la pizarra.", "target": "a la derecha de", "hint": "to the right of" },
     { "oracion": "Leemos muchas novelas famosas en [target].", "target": "la literatura", "hint": "literature" },
     { "oracion": "El gimnasio está [target] la biblioteca y la cafetería.", "target": "entre", "hint": "between" },
