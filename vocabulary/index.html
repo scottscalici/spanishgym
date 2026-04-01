@@ -110,7 +110,6 @@
         // ==========================================
         // 1. DYNAMIC FOLDER FETCHING
         // ==========================================
-        // The GitHub API URL that looks inside your vocabulary folder
         const repoApiUrl = 'https://api.github.com/repos/scottscalici/spanishgym/contents/vocabulary';
 
         async function initFolder() {
@@ -119,17 +118,15 @@
                 if (!response.ok) throw new Error('Could not read GitHub folder');
                 const files = await response.json();
 
-                // Filter for JSON files and dynamically build the menu
                 availableSets = files
                     .filter(file => file.name.endsWith('.json'))
                     .map((file, index) => {
-                        // Parse "1-1-primeros_pasos.json" into "Set 1.1: Primeros pasos"
                         let cleanName = file.name.replace('.json', '');
                         let parts = cleanName.split('-');
                         let setNum = parts.length > 1 ? `${parts[0]}.${parts[1]}` : index + 1;
                         let titleRaw = parts.length > 2 ? parts.slice(2).join(' ') : cleanName;
-                        let title = titleRaw.replace(/_/g, ' '); // remove underscores
-                        title = title.charAt(0).toUpperCase() + title.slice(1); // capitalize first letter
+                        let title = titleRaw.replace(/_/g, ' '); 
+                        title = title.charAt(0).toUpperCase() + title.slice(1); 
 
                         return {
                             id: index + 1,
@@ -138,9 +135,8 @@
                         };
                     });
 
-                // Populate the Dropdown Menu
                 const selector = document.getElementById('set-selector');
-                selector.innerHTML = ''; // Clear loading text
+                selector.innerHTML = ''; 
                 availableSets.forEach(set => {
                     const option = document.createElement('option');
                     option.value = set.id;
@@ -148,7 +144,6 @@
                     selector.appendChild(option);
                 });
 
-                // Automatically load the first set
                 if (availableSets.length > 0) {
                     loadSelectedSet();
                 }
@@ -160,10 +155,8 @@
             }
         }
 
-        // Run the folder scan when the page opens
         initFolder();
 
-        // Utility Function: Shuffle Arrays
         function shuffleArray(array) {
             let shuffled = [...array];
             for (let i = shuffled.length - 1; i > 0; i--) {
@@ -184,7 +177,6 @@
             loadingText.style.display = 'block';
             document.getElementById('app').innerHTML = ''; 
 
-            // Grab the current set AND all previous sets for the Spiral Review
             const urlsToFetch = availableSets
                 .filter(set => set.id <= selectedId)
                 .map(set => set.url);
@@ -193,7 +185,6 @@
                 const responses = await Promise.all(urlsToFetch.map(url => fetch(url)));
                 const allData = await Promise.all(responses.map(res => res.json()));
                 
-                // The current set is the last one in the array
                 const currentSetData = allData[allData.length - 1];
 
                 loadingText.style.display = 'none';
@@ -251,14 +242,13 @@
 
 
             // --- PÁGINA 2: EL CALENTAMIENTO ---
-            // Safely grab up to 20 words
             const vocabSample = shuffleArray(currentData.preparate).slice(0, 20); 
             const halfLength = Math.floor(vocabSample.length / 2);
             const partA = vocabSample.slice(0, halfLength);
             const partB = vocabSample.slice(halfLength, vocabSample.length);
             
             const partA_EnglishShuffled = shuffleArray(partA);
-            const lettersA = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O']; // Extra just in case
+            const lettersA = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O']; 
 
             html += `
                 <div class="page">
@@ -417,16 +407,19 @@
 
 
             // ==========================================
-            // PÁGINA 6: PROFUNDIZA (SPIRAL REVIEW ENGINE)
+            // PÁGINA 6: PROFUNDIZA (ISOLATED SPIRAL REVIEW)
             // ==========================================
             let masterVocab = [];
             let masterCardio = [];
             let masterPesas = [];
 
+            // ONLY push data if it belongs to the EXACT SAME PROGRAM
             allHistoricalData.forEach(dataset => {
-                if(dataset.preparate) masterVocab.push(...dataset.preparate);
-                if(dataset.cardio) masterCardio.push(...dataset.cardio);
-                if(dataset.levantar_pesas) masterPesas.push(...dataset.levantar_pesas);
+                if (dataset.programa === currentData.programa) {
+                    if(dataset.preparate) masterVocab.push(...dataset.preparate);
+                    if(dataset.cardio) masterCardio.push(...dataset.cardio);
+                    if(dataset.levantar_pesas) masterPesas.push(...dataset.levantar_pesas);
+                }
             });
 
             const reviewTrans = shuffleArray(masterVocab).slice(0, 6);
