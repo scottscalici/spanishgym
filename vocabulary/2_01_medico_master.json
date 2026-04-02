@@ -2,7 +2,7 @@
   "programa": "La Salud y El Cuerpo Médico",
   "sets": [
     {
-      "set_numero": "1.1",
+      "set_numero": "10.1",
       "titulo": "El Cuerpo Humano",
       "preparate": [
         { "es": "La cabeza", "en": "Head", "contexto": "Me duele mucho la cabeza hoy.", "categoria": "El Cuerpo" },
@@ -99,7 +99,7 @@
       ]
     },
     {
-      "set_numero": "1.2",
+      "set_numero": "10.2",
       "titulo": "Enfermedades y Síntomas",
       "preparate": [
         { "es": "La salud", "en": "Health", "contexto": "Comer verduras es bueno para la salud.", "categoria": "Bienestar" },
@@ -196,7 +196,7 @@
       ]
     },
     {
-      "set_numero": "1.3",
+      "set_numero": "10.3",
       "titulo": "El Hospital y los Tratamientos",
       "preparate": [
         { "es": "El hospital", "en": "Hospital", "contexto": "La ambulancia llevó al paciente al hospital.", "categoria": "Lugares" },
@@ -293,7 +293,7 @@
       ]
     },
     {
-      "set_numero": "1.4",
+      "set_numero": "10.4",
       "titulo": "Verbos Médicos y Adverbios de Tiempo",
       "preparate": [
         { "es": "Caerse", "en": "To fall (down)", "contexto": "El niño va a caerse si corre tan rápido.", "categoria": "Verbos de Accidentes" },
