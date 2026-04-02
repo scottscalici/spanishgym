@@ -1,8 +1,8 @@
 {
-  "programa": "Programa 18: Las Bellas Artes y El Entretenimiento",
+  "programa": "Programa 20 Las Bellas Artes y El Entretenimiento",
   "sets": [
     {
-      "set_numero": "18.1",
+      "set_numero": "20.1",
       "titulo": "Las Bellas Artes y El Teatro",
       "preparate": [
         { "es": "Las bellas artes", "en": "(Fine) arts", "contexto": "Ella estudia historia de las bellas artes.", "categoria": "Conceptos Generales" },
@@ -104,7 +104,7 @@
       ]
     },
     {
-      "set_numero": "18.2",
+      "set_numero": "20.2",
       "titulo": "La Música, El Baile y Las Personas",
       "preparate": [
         { "es": "La música", "en": "Music", "contexto": "Escucho música clásica para estudiar.", "categoria": "Artes Sonoras" },
@@ -206,7 +206,7 @@
       ]
     },
     {
-      "set_numero": "18.3",
+      "set_numero": "20.3",
       "titulo": "Las Artes Escritas y Plásticas",
       "preparate": [
         { "es": "La cultura", "en": "Culture", "contexto": "El museo es el corazón de la cultura de la ciudad.", "categoria": "Conceptos Generales" },
@@ -309,7 +309,7 @@
       ]
     },
     {
-      "set_numero": "18.4",
+      "set_numero": "20.4",
       "titulo": "Televisión y Tipos de Películas",
       "preparate": [
         { "es": "El canal", "en": "Channel", "contexto": "Cambia el canal para ver las noticias.", "categoria": "Televisión" },
