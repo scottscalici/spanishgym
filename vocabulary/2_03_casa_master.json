@@ -1,8 +1,8 @@
 {
-  "programa": "Programa 12: El Hogar y Los Quehaceres",
+  "programa": "Programa 13: El Hogar y Los Quehaceres",
   "sets": [
     {
-      "set_numero": "12.1",
+      "set_numero": "13.1",
       "titulo": "La Casa y El Vecindario",
       "preparate": [
         { "es": "Las afueras", "en": "Suburbs; outskirts", "contexto": "Prefiero vivir en las afueras porque es más tranquilo.", "categoria": "Lugares" },
@@ -104,7 +104,7 @@
       ]
     },
     {
-      "set_numero": "12.2",
+      "set_numero": "13.2",
       "titulo": "Los Muebles y Electrodomésticos",
       "preparate": [
         { "es": "La alfombra", "en": "Carpet; rug", "contexto": "Compré una alfombra nueva para la sala.", "categoria": "Decoración" },
@@ -206,7 +206,7 @@
       ]
     },
     {
-      "set_numero": "12.3",
+      "set_numero": "13.3",
       "titulo": "La Mesa y Los Quehaceres Básicos",
       "preparate": [
         { "es": "La copa", "en": "Wineglass", "contexto": "Sirvió el vino tinto en una copa.", "categoria": "La Mesa" },
@@ -308,7 +308,7 @@
       ]
     },
     {
-      "set_numero": "12.4",
+      "set_numero": "13.4",
       "titulo": "Sugerencias y Tareas Adicionales",
       "preparate": [
         { "es": "Aconsejar", "en": "To advise", "contexto": "Te aconsejo que estudies más para el examen.", "categoria": "Verbos de Influencia" },
