@@ -1,8 +1,8 @@
 {
-  "programa": "Programa 16: La Salud, El Ejercicio y La Nutrición",
+  "programa": "Programa 18: La Salud, El Ejercicio y La Nutrición",
   "sets": [
     {
-      "set_numero": "16.1",
+      "set_numero": "18.1",
       "titulo": "Estilos de Vida y Bienestar",
       "preparate": [
         { "es": "El bienestar", "en": "Well-being", "contexto": "El yoga es muy bueno para el bienestar mental y físico.", "categoria": "Salud" },
@@ -104,7 +104,7 @@
       ]
     },
     {
-      "set_numero": "16.2",
+      "set_numero": "18.2",
       "titulo": "El Gimnasio y El Ejercicio",
       "preparate": [
         { "es": "Hacer ejercicio", "en": "To exercise", "contexto": "Me gusta hacer ejercicio en el parque por la tarde.", "categoria": "Acciones Físicas" },
@@ -206,7 +206,7 @@
       ]
     },
     {
-      "set_numero": "16.3",
+      "set_numero": "18.3",
       "titulo": "La Nutrición y La Dieta",
       "preparate": [
         { "es": "La nutrición", "en": "Nutrition", "contexto": "Estudiar nutrición te ayuda a comer mejor.", "categoria": "Ciencia" },
@@ -308,7 +308,7 @@
       ]
     },
     {
-      "set_numero": "16.4",
+      "set_numero": "18.4",
       "titulo": "Salud Mental y Malos Hábitos",
       "preparate": [
         { "es": "Aliviar el estrés", "en": "To reduce stress", "contexto": "La meditación es buena para aliviar el estrés.", "categoria": "Salud Mental" },
