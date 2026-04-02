@@ -1,8 +1,8 @@
 {
-  "programa": "Programa 19: Las Noticias, La Sociedad y La Política",
+  "programa": "Programa 21: Las Noticias, La Sociedad y La Política",
   "sets": [
     {
-      "set_numero": "19.1",
+      "set_numero": "21.1",
       "titulo": "Desastres y Emergencias",
       "preparate": [
         { "es": "El desastre (natural)", "en": "(Natural) disaster", "contexto": "El huracán fue un desastre natural terrible.", "categoria": "Emergencias" },
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "set_numero": "19.2",
+      "set_numero": "21.2",
       "titulo": "Los Medios de Comunicación",
       "preparate": [
         { "es": "Los medios de comunicación", "en": "Media; means of communication", "contexto": "Los medios de comunicación cubrieron la noticia del accidente.", "categoria": "Conceptos" },
@@ -192,7 +192,7 @@
       ]
     },
     {
-      "set_numero": "19.3",
+      "set_numero": "21.3",
       "titulo": "La Sociedad y Los Derechos",
       "preparate": [
         { "es": "El desempleo", "en": "Unemployment", "contexto": "El alto desempleo afecta la economía del país.", "categoria": "Problemas Económicos" },
@@ -291,7 +291,7 @@
       ]
     },
     {
-      "set_numero": "19.4",
+      "set_numero": "21.4",
       "titulo": "La Política y El Conflicto",
       "preparate": [
         { "es": "La política", "en": "Politics", "contexto": "No me gusta hablar de política en las fiestas familiares.", "categoria": "Sistemas de Gobierno" },
