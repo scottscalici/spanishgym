@@ -1,190 +1,182 @@
 {
   "worksheet": {
-    "title": "Práctica de Lectura IB: Nivel Medio",
+    "title": "Práctica de Lectura IB: Nivel Medio (Versión 40 Puntos)",
     "texts": [
       {
-        "title": "Texto A - La Semana Santa en España: Devoción y Cultura",
+        "text_id": "A",
+        "title": "Texto A — La Semana Santa en España: Devoción y Cultura",
         "paragraphs": [
-          "La Semana Santa en España es una de las celebraciones más profundas y espectaculares del país, representando una amalgama única de fervor religioso y esplendor artístico. Cada año, durante la primera luna llena de la primavera, las calles de numerosas ciudades se transforman en escenarios donde se entrelazan la devoción, el arte barroco y la tradición ancestral. Aunque su origen es estrictamente religioso, hoy en día es también un evento cultural de primer orden que atrae a millones de turistas internacionales, impactando significativamente en la economía local.",
-          "Durante esta semana, las hermandades y cofradías organizan procesiones meticulosamente preparadas durante todo el año. Los participantes, conocidos como nazarenos, caminan por las rutas establecidas vistiendo túnicas tradicionales y sombreros en forma de cono llamados capirotes. El propósito original de esta vestimenta era ocultar el rostro del penitente para mantener el anonimato durante su acto de fe, permitiendo que la atención se centrara exclusivamente en la divinidad y no en el individuo.",
-          "El elemento central de estas procesiones son los 'pasos'. Estas son enormes plataformas de madera bellamente talladas que transportan esculturas religiosas de gran valor histórico y artístico. Los pasos son llevados a hombros por los costaleros, quienes caminan debajo de la estructura. Estos hombres demuestran una impresionante resistencia física, cargando cientos de kilos durante horas al ritmo de las marchas procesionales interpretadas por bandas de música. El esfuerzo físico es visto por muchos de ellos como una forma de sacrificio personal.",
-          "La experiencia varía según la región. En Andalucía, el ambiente se llena de una emoción vibrante con la 'saeta', un canto tradicional de influencia flamenca que se interpreta a capela desde los balcones. En contraste, en las regiones de Castilla, las procesiones se caracterizan por un silencio absoluto y una sobriedad que impone un gran respeto. En 2017, la Semana Santa fue declarada Manifestación Representativa del Patrimonio Cultural Inmaterial de España, reconociendo su papel crucial en la cohesión social y la identidad nacional."
+          "La Semana Santa en España es una de las celebraciones más profundas y espectaculares del país, representando una amalgama única de fervor religioso y esplendor artístico. Cada año, durante la primera luna llena de la primavera, las calles de numerosas ciudades se transforman en escenarios donde se entrelazan la devoción, el arte barroco y la tradición ancestral. Aunque su origen es estrictamente religioso, hoy en día es también un evento cultural de primer orden que atrae a millones de turistas internacionales, impactando significativamente en la economía local a través de la hostelería y los servicios.",
+          "Durante esta semana, las hermandades y cofradías organizan procesiones meticulosamente preparadas durante todo el año. Los participantes, conocidos como nazarenos, caminan por las rutas establecidas vistiendo túnicas tradicionales y sombreros en forma de cono llamados capirotes. El propósito original de esta vestimenta era ocultar el rostro del penitente para mantener el anonimato durante su acto de fe, permitiendo que la atención se centrara exclusivamente en la divinidad y no en la identidad del individuo. Esta tradición de modestia sigue vigente hoy en día.",
+          "El elemento central de estas procesiones son los 'pasos'. Estas son enormes plataformas de madera bellamente talladas que transportan esculturas religiosas de gran valor histórico y artístico. Los pasos son llevados a hombros por los costaleros, quienes caminan debajo de la estructura ocultos por faldones. Estos hombres demuestran una impresionante resistencia física, cargando cientos de kilos durante horas al ritmo de las marchas procesionales interpretadas por bandas de música. El esfuerzo físico es visto por muchos de ellos no como una carga, sino como una forma de sacrificio personal y compromiso espiritual.",
+          "La experiencia varía según la región. En Andalucía, el ambiente se llena de una emoción vibrante con la 'saeta', un canto tradicional de influencia flamenca que se interpreta a capela desde los balcones cuando pasa la imagen. En contraste, en las regiones de Castilla, las procesiones se caracterizan por un silencio absoluto y una sobriedad que impone un gran respeto. En 2017, la Semana Santa fue declarada Manifestación Representativa del Patrimonio Cultural Inmaterial, reconociendo su papel crucial en la cohesión social y la preservación de la identidad nacional española."
         ],
         "question_sections": [
           {
+            "instructions": "Preguntas 1–4: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para cada párrafo. Hay más opciones de las necesarias.",
             "type": "matching",
-            "instructions": "Preguntas 1-4: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para cada párrafo. Hay más opciones de las necesarias.",
             "options": {
               "A": "El vestuario y el anonimato de la fe",
               "B": "Un canto que emociona a la multitud",
               "C": "El esfuerzo físico y el arte en movimiento",
-              "D": "La influencia de la economía en la religión",
+              "D": "La decadencia de la religión en el siglo XXI",
               "E": "Una tradición entre lo espiritual y lo turístico",
               "F": "Diferencias regionales y reconocimiento oficial"
             },
             "questions": [
-              { "number": 1, "prompt": "Párrafo 1", "answer": "E" },
-              { "number": 2, "prompt": "Párrafo 2", "answer": "A" },
-              { "number": 3, "prompt": "Párrafo 3", "answer": "C" },
-              { "number": 4, "prompt": "Párrafo 4", "answer": "F" }
+              { "number": 1, "prompt": "Párrafo 1", "answer": "E", "points": 1 },
+              { "number": 2, "prompt": "Párrafo 2", "answer": "A", "points": 1 },
+              { "number": 3, "prompt": "Párrafo 3", "answer": "C", "points": 1 },
+              { "number": 4, "prompt": "Párrafo 4", "answer": "F", "points": 1 }
             ]
           },
           {
+            "instructions": "Preguntas 5–7: Respuestas cortas. Contesta basándote en el texto.",
             "type": "short_answer",
-            "instructions": "Preguntas 5-7: Contesta a las siguientes preguntas basándote en el texto.",
             "questions": [
-              { "number": 5, "prompt": "¿Qué dos aspectos, además de la devoción, caracterizan los escenarios de las ciudades? (1 punto por cada uno)", "answer": "el arte y la tradición" },
-              { "number": 6, "prompt": "¿Qué factor determina la fecha exacta en la que se celebra la Semana Santa cada año?", "answer": "la primera luna llena de la primavera" },
-              { "number": 7, "prompt": "Según el texto, ¿cómo interpretan los costaleros el esfuerzo físico que realizan?", "answer": "(como una) forma de sacrificio personal" }
+              { "number": 5, "prompt": "¿Qué dos aspectos, además de la devoción, caracterizan las calles en estas fechas? (2 puntos)", "answer": "arte (barroco) y tradición (ancestral)", "points": 2 },
+              { "number": 6, "prompt": "¿Qué factor natural determina la fecha de celebración cada año?", "answer": "la primera luna llena de la primavera", "points": 1 },
+              { "number": 7, "prompt": "Según el texto, ¿cómo interpretan los costaleros el peso que cargan?", "answer": "(como una) forma de sacrificio personal / compromiso espiritual", "points": 1 }
             ]
           },
           {
+            "instructions": "Preguntas 8–10: Identificación de referencia.",
             "type": "reference",
-            "instructions": "Preguntas 8-9: ¿A quién o a qué se refieren las palabras subrayadas?",
             "questions": [
-              { "number": 8, "prompt": "...cuyo propósito original... (párrafo 2)", "answer": "capirotes" },
-              { "number": 9, "prompt": "Estos hombres demuestran... (párrafo 3)", "answer": "costaleros" }
+              { "number": 8, "prompt": "...esta vestimenta... (párrafo 2)", "answer": "túnicas (tradicionales) y capirotes", "points": 1 },
+              { "number": 9, "prompt": "Estos hombres... (párrafo 3)", "answer": "costaleros", "points": 1 },
+              { "number": 10, "prompt": "...que impone un gran respeto. (párrafo 4)", "answer": "(un) silencio absoluto y una sobriedad", "points": 1 }
             ]
           },
           {
+            "instructions": "Preguntas 11–13: Búsqueda de sinónimos.",
             "type": "synonym_search",
-            "instructions": "Preguntas 10-11: Encuentra una palabra en el texto que signifique lo siguiente.",
             "questions": [
-              { "number": 10, "prompt": "escondido / tapado (párrafo 2)", "answer": "ocultar" },
-              { "number": 11, "prompt": "aguante (párrafo 3)", "answer": "resistencia" }
+              { "number": 11, "prompt": "mezcla (párrafo 1)", "answer": "amalgama", "points": 1 },
+              { "number": 12, "prompt": "estatuas (párrafo 3)", "answer": "esculturas", "points": 1 },
+              { "number": 13, "prompt": "seriedad / carencia de adornos (párrafo 4)", "answer": "sobriedad", "points": 1 }
             ]
           }
         ]
       },
       {
-        "title": "Texto B - El tesoro de los Andes: La fibra de alpaca",
+        "text_id": "B",
+        "title": "Texto B — El tesoro de los Andes: La fibra de alpaca",
         "paragraphs": [
-          "En lo alto de los Andes peruanos, la cría de la alpaca no es simplemente una actividad económica, sino una herencia cultural milenaria que se remonta a la civilización incaica. En aquella época, la fibra de alpaca era considerada 'la fibra de los dioses' y estaba reservada exclusivamente para la realeza. Hoy, Perú alberga aproximadamente el 80% de la población mundial de estos animales, convirtiendo a este camélido en un símbolo de orgullo nacional y en el motor de vida de miles de familias en las zonas rurales más remotas.",
-          "La fibra de alpaca es altamente valorada en la industria de la alta costura por sus propiedades termodinámicas únicas. A diferencia de la lana de oveja tradicional, la fibra de alpaca no contiene lanolina, la sustancia grasa responsable de la picazón y las alergias, lo que la hace naturalmente hipoalergénica. Además, su estructura microscópica actúa como un aislante térmico perfecto: sus fibras contienen bolsas de aire microscópicas que mantienen el calor corporal en el frío invierno andino y ofrecen una transpirabilidad fresca durante los días de verano.",
-          "El proceso de recolección, conocido como 'esquila', se realiza generalmente una vez al año utilizando técnicas que priorizan el bienestar del animal. Esta práctica es un modelo de sostenibilidad ambiental. Al pastar, las alpacas no arrancan la hierba de raíz con sus dientes, sino que la cortan, y sus patas tienen almohadillas suaves que no compactan el suelo. Esto permite que la vegetación de la puna vuelva a crecer rápidamente, protegiendo un ecosistema que es extremadamente frágil ante el cambio climático.",
-          "Sin embargo, los productores locales enfrentan el desafío de competir en un mercado global dominado por grandes corporaciones. Históricamente, los pastores han dependido de intermediarios que compran la fibra a precios muy bajos. Para combatir esto, han surgido cooperativas que buscan exportar la fibra directamente a marcas de moda en Europa y Asia. Este cambio busca asegurar ingresos dignos y garantizar que los beneficios de este 'oro de los Andes' se queden en las comunidades que han protegido a la especie durante siglos."
+          "En lo alto de los Andes peruanos, la cría de la alpaca no es simplemente una actividad económica, sino una herencia cultural milenaria que se remonta a la civilización incaica. En aquella época, la fibra era considerada 'la fibra de los dioses' y estaba reservada para la realeza. Perú alberga aproximadamente el 80% de la población mundial de alpacas, convirtiendo a este camélido en un símbolo nacional y en el centro de vida de numerosas comunidades indígenas que habitan en la puna, por encima de los 3.500 metros de altitud.",
+          "La fibra de alpaca es valorada en la industria de la moda internacional por sus propiedades termodinámicas únicas. A diferencia de la lana de oveja, no contiene lanolina, la sustancia grasa responsable de la picazón, lo que la hace naturalmente hipoalergénica. Además, su estructura microscópica actúa como un aislante térmico perfecto: sus fibras contienen bolsas de aire microscópicas que mantienen el calor corporal en el frío invierno y ofrecen una transpirabilidad fresca en verano. Es, además, resistente al fuego y repelente al agua.",
+          "El proceso de recolección, conocido como 'esquila', se realiza con profundo respeto hacia el animal una vez al año. Esta práctica sostenible protege el ecosistema frágil de las montañas. A diferencia de las cabras o las ovejas, las alpacas, al pastar, no arrancan la hierba de raíz, sino que la cortan con sus dientes. Asimismo, sus patas tienen almohadillas suaves en lugar de pezuñas, lo que evita la compactación y erosión del suelo, permitiendo que la vegetación vuelva a crecer rápidamente después de la temporada de lluvias.",
+          "Hoy en día, el desafío para los productores peruanos es competir en un mercado globalizado buscando ingresos dignos. Históricamente, los pastores han dependido de intermediarios comerciales que pagaban precios injustos. Actualmente, las asociaciones locales trabajan para exportar la fibra directamente a las grandes marcas en Europa y Asia. Este cambio no solo mejora la calidad de vida de los pastores andinos, sino que también garantiza la trazabilidad del producto, asegurando que el consumidor final reciba una prenda ética y de calidad superior."
         ],
         "question_sections": [
           {
+            "instructions": "Preguntas 14–17: Verdadero o Falso con justificación. Las dos partes son necesarias para el punto.",
             "type": "true_false_justification",
-            "instructions": "Preguntas 12-15: Indica si las frases son verdaderas (V) o falsas (F) y justifica tu respuesta con palabras del texto. Se requieren ambas partes para el punto.",
             "questions": [
-              { "number": 12, "prompt": "En la antigüedad, cualquier persona podía vestir prendas de alpaca.", "answer": "F - estaba reservada exclusivamente para la realeza" },
-              { "number": 13, "prompt": "La fibra de alpaca permite que la piel respire cuando hace calor.", "answer": "V - ofreciendo una transpirabilidad fresca durante los días de verano" },
-              { "number": 14, "prompt": "La forma de caminar de las alpacas ayuda a conservar la tierra de las montañas.", "answer": "V - sus patas tienen almohadillas suaves que no compactan el suelo" },
-              { "number": 15, "prompt": "Los pastores andinos siempre han obtenido grandes beneficios económicos de su trabajo.", "answer": "F - han dependido de intermediarios que compran la fibra a precios muy bajos" }
+              { "number": 14, "prompt": "La mayoría de las alpacas del mundo se encuentran en Perú.", "answer": "V, Perú alberga aproximadamente el 80% de la población mundial de alpacas", "points": 1 },
+              { "number": 15, "prompt": "La lana de alpaca es más irritante para la piel que la de oveja.", "answer": "F, no contiene lanolina... lo que la hace naturalmente hipoalergénica", "points": 1 },
+              { "number": 16, "prompt": "Las alpacas dañan el suelo de las montañas al caminar.", "answer": "F, sus patas tienen almohadillas suaves... evita la compactación y erosión del suelo", "points": 1 },
+              { "number": 17, "prompt": "Las cooperativas quieren vender el producto sin usar mediadores.", "answer": "V, exportar la fibra directamente a las grandes marcas... evitar a los intermediarios comerciales", "points": 1 }
             ]
           },
           {
-            "type": "synonym_search",
-            "instructions": "Preguntas 16-18: Encuentra una palabra o expresión en el texto que signifique lo siguiente.",
-            "questions": [
-              { "number": 16, "prompt": "distantes / apartadas (párrafo 1)", "answer": "remotas" },
-              { "number": 17, "prompt": "vulnerables (párrafo 2)", "answer": "hipoalergénica (o sensible)" },
-              { "number": 18, "prompt": "revendedores (párrafo 4)", "answer": "intermediarios" }
-            ]
-          },
-          {
-            "type": "multiple_choice",
-            "instructions": "Preguntas 19-21: Elige la respuesta correcta.",
-            "questions": [
-              { 
-                "number": 19, 
-                "prompt": "La fibra de alpaca se diferencia de la lana de oveja porque...", 
-                "options": { "A": "es más pesada.", "B": "no causa irritaciones en la piel.", "C": "es más difícil de teñir." },
-                "answer": "B" 
-              },
-              { 
-                "number": 20, 
-                "prompt": "El pastoreo de alpacas es ecológico porque...", 
-                "options": { "A": "los animales no consumen mucha agua.", "B": "no destruyen las raíces de las plantas.", "C": "fertilizan el suelo naturalmente." },
-                "answer": "B" 
-              },
-              { 
-                "number": 21, 
-                "prompt": "El objetivo de las nuevas cooperativas es...", 
-                "options": { "A": "eliminar la competencia europea.", "B": "mejorar la calidad de la fibra.", "C": "vender el producto sin usar mediadores comerciales." },
-                "answer": "C" 
-              }
-            ]
-          },
-          {
-            "type": "reference",
-            "instructions": "Preguntas 22-23: ¿A quién o a qué se refieren las palabras subrayadas?",
-            "questions": [
-              { "number": 22, "prompt": "...que la hace naturalmente... (párrafo 2)", "answer": "la fibra de alpaca" },
-              { "number": 23, "prompt": "...que han protegido a la especie... (párrafo 4)", "answer": "comunidades" }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Texto C - El Merengue: Ritmo e Identidad Dominicana",
-        "paragraphs": [
-          "El merengue es el latido de la República Dominicana. Este género musical y baile nacional representa una parte fundamental de la identidad caribeña, sirviendo como un reflejo de su historia social. Su origen se sitúa a mediados del siglo XIX, naciendo como una expresión de las zonas rurales y la clase trabajadora. Durante mucho tiempo, fue rechazado por las élites sociales, quienes lo consideraban un ritmo inapropiado por su energía y procedencia humilde. Sin embargo, con el tiempo, logró romper las barreras de clase y unir a todos los estratos de la sociedad dominicana.",
-          "La instrumentación del merengue tradicional, conocido como 'perico ripiao', es un testimonio vivo del mestizaje cultural. Utiliza tres instrumentos que representan las raíces de la isla: la tambora (un tambor de origen africano), la güira (un cilindro de metal de procedencia indígena taína) y el acordeón (introducido por comerciantes europeos, principalmente alemanes). Esta combinación crea un ritmo acelerado y alegre que invita al baile inmediato. [ -24 - ] los años, el merengue ha evolucionado significativamente, pasando de los campos a las grandes ciudades.",
-          "A mediados del siglo XX, el sonido se modernizó con la incorporación de instrumentos de viento, [ -25 - ] el saxofón y las trompetas, dando lugar a las grandes orquestas que llenaron los salones de baile urbanos. [ -26 - ], en las últimas décadas, el género ha experimentado una nueva transformación gracias a artistas que han fusionado el merengue con el pop y la música electrónica, [ -27 - ] ha permitido que el ritmo siga vigente entre los jóvenes. Hoy en día, el merengue no solo es un símbolo dominicano, [ -28 - ] un fenómeno global escuchado en todos los continentes.",
-          "En 2016, la UNESCO otorgó al merengue el título de Patrimonio Cultural Inmaterial de la Humanidad. Este reconocimiento no solo premia la calidad musical, sino también el valor del merengue como una herramienta de convivencia social. En las festividades dominicanas, el merengue actúa como un lenguaje común que celebra la alegría de vivir y la resistencia cultural frente a la globalización. Es, en definitiva, una banda sonora que narra la evolución de un pueblo que encuentra en la música su mayor forma de unión."
-        ],
-        "question_sections": [
-          {
-            "type": "fill_in_the_blank",
-            "instructions": "Preguntas 24-28: Elige de la lista la palabra apropiada para completar el texto. Hay más opciones de las necesarias.",
+            "instructions": "Preguntas 18–20: Sinónimos. Elige de la lista.",
+            "type": "matching",
             "options": {
-              "A": "sino también", "B": "como", "C": "con el paso de", "D": "por el contrario", 
-              "E": "lo cual", "F": "donde", "G": "sin embargo", "H": "mientras"
+              "A": "revendedores", "B": "pastores", "C": "altitud", "D": "recolección", "E": "patrimonio", "F": "seguimiento"
             },
             "questions": [
-              { "number": 24, "prompt": "Espacio [-24-]", "answer": "C" },
-              { "number": 25, "prompt": "Espacio [-25-]", "answer": "B" },
-              { "number": 26, "prompt": "Espacio [-26-]", "answer": "G" },
-              { "number": 27, "prompt": "Espacio [-27-]", "answer": "E" },
-              { "number": 28, "prompt": "Espacio [-28-]", "answer": "A" }
+              { "number": 18, "prompt": "herencia (párrafo 1)", "answer": "E", "points": 1 },
+              { "number": 19, "prompt": "esquila (párrafo 3)", "answer": "D", "points": 1 },
+              { "number": 20, "prompt": "trazabilidad (párrafo 4)", "answer": "F", "points": 1 }
             ]
           },
           {
-            "type": "multiple_select",
-            "instructions": "Preguntas 29-33: Selecciona las CINCO frases que son verdaderas según el texto.",
-            "questions": [
-              { 
-                "number": 29, 
-                "prompt": "A: Las clases altas aceptaron el merengue desde sus inicios.\nB: El merengue nació en las áreas rurales en el siglo XIX.\nC: El perico ripiao utiliza instrumentos de tres culturas diferentes.\nD: El acordeón fue inventado por los indígenas dominicanos.\nE: El saxofón se añadió al merengue en el siglo XX.\nF: El merengue moderno rechaza el uso de tecnología electrónica.\nG: El merengue es considerado Patrimonio de la Humanidad por la UNESCO.\nH: El merengue es un ritmo que promueve la unión social.", 
-                "answer": "B, C, E, G, H" 
-              }
-            ]
-          },
-          {
-            "type": "short_answer",
-            "instructions": "Preguntas 34-37: Completa las oraciones basándote en la información del texto.",
-            "questions": [
-              { "number": 34, "prompt": "Originalmente, las élites sociales rechazaban el merengue por...", "answer": "su energía y procedencia humilde" },
-              { "number": 35, "prompt": "La güira es un instrumento que tiene un origen...", "answer": "indígena (taíno)" },
-              { "number": 36, "prompt": "La fusión con el pop y la música electrónica ha ayudado a que el merengue...", "answer": "siga vigente entre los jóvenes" },
-              { "number": 37, "prompt": "Además de su valor musical, la UNESCO reconoce al merengue como...", "answer": "una herramienta de convivencia social" }
-            ]
-          },
-          {
+            "instructions": "Pregunta 21–23: Opción múltiple.",
             "type": "multiple_choice",
-            "instructions": "Preguntas 38-40: Preguntas de comprensión global.",
             "questions": [
-              { 
-                "number": 38, 
-                "prompt": "El tono general de este pasaje es...", 
-                "options": { "A": "crítico y analítico.", "B": "informativo y celebratorio.", "C": "nostálgico y triste." },
-                "answer": "B" 
-              },
-              { 
-                "number": 39, 
-                "prompt": "¿Cuál es el propósito principal del autor al escribir este texto?", 
-                "options": { "A": "Explicar la historia y la importancia cultural del merengue.", "B": "Criticar la influencia de la música europea en el Caribe.", "C": "Promocionar un festival de música en la República Dominicana." },
-                "answer": "A" 
-              },
-              { 
-                "number": 40, 
-                "prompt": "Según el último párrafo, el merengue ayuda a los dominicanos a...", 
-                "options": { "A": "aprender nuevos idiomas.", "B": "combatir los efectos de la globalización.", "C": "mejorar la economía del turismo." },
-                "answer": "B" 
-              }
+              { "number": 21, "prompt": "La fibra de alpaca es ideal para todo el año porque...", "options": { "A": "es extremadamente pesada.", "B": "mantiene el equilibrio térmico según la estación.", "C": "es más barata que la seda.", "D": "contiene lanolina natural." }, "answer": "B", "points": 1 },
+              { "number": 22, "prompt": "El pastoreo de alpacas es ecológico principalmente porque...", "options": { "A": "necesitan muy poca agua.", "B": "sus patas no dañan la superficie del suelo.", "C": "viven en altitudes muy bajas.", "D": "solo comen plantas exóticas." }, "answer": "B", "points": 1 },
+              { "number": 23, "prompt": "El objetivo de exportar directamente es...", "options": { "A": "eliminar la industria de la seda.", "B": "que el dinero llegue a los criadores originales.", "C": "evitar el contacto con Europa.", "D": "cambiar el color natural de la fibra." }, "answer": "B", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Pregunta 24: Identificación de referencia.",
+            "type": "reference",
+            "questions": [
+              { "number": 24, "prompt": "...la sustancia grasa... (párrafo 2)", "answer": "lanolina", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — El Merengue: Ritmo e Identidad Dominicana",
+        "paragraphs": [
+          "El merengue es el latido de la República Dominicana. Este género musical y baile nacional representa una parte fundamental de la identidad caribeña, sirviendo como un reflejo de su compleja historia social. Su origen se sitúa a mediados del siglo XIX, surgiendo como una expresión de las zonas rurales y la clase trabajadora. Durante décadas, fue rechazado por las élites sociales, quienes lo consideraban un ritmo inapropiado por su energía y procedencia humilde. Sin embargo, tras años de lucha cultural, logró unir a todos los estratos de la sociedad dominicana.",
+          "La instrumentación del merengue tradicional, conocido como 'perico ripiao', es un testimonio vivo del mestizaje. Utiliza tres instrumentos que representan las raíces de la isla: la tambora (un tambor africano), la güira (un cilindro de metal de procedencia indígena taína) y el acordeón (introducido por comerciantes europeos). Esta combinación sonora crea un ritmo rápido y alegre. [ – 25 – ] los años, el merengue ha evolucionado, integrando nuevos sonidos para adaptarse a los gustos cambiantes de la población urbana.",
+          "A mediados del siglo XX, el sonido se modernizó con la incorporación de instrumentos de viento [ – 26 – ] el saxofón y las trompetas, creando orquestas más potentes. [ – 27 – ], en las últimas décadas, grandes artistas han fusionado el ritmo con el pop y la electrónica, [ – 28 – ] ha permitido que el baile siga vigente entre los jóvenes. Hoy en día, el merengue no solo se baila en el Caribe, [ – 29 – ] en discotecas de todo el mundo, demostrando su capacidad de globalización sin perder su esencia.",
+          "En 2016, la UNESCO reconoció al merengue como Patrimonio Cultural Inmaterial de la Humanidad. Este título premia su papel en la promoción de la convivencia y la unión social. El merengue no es solo música; es una herramienta de resistencia cultural que celebra la alegría frente a la adversidad. Es una banda sonora que narra la evolución de un pueblo que encuentra en el baile su mayor forma de libertad y cohesión comunitaria."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 25–29: Completar espacios en blanco.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "sino también", "B": "como", "C": "con el paso de", "D": "lo que", "E": "aunque", "F": "sin embargo", "G": "donde", "H": "mientras"
+            },
+            "questions": [
+              { "number": 25, "prompt": "Espacio [ – 25 – ]", "answer": "C", "points": 1 },
+              { "number": 26, "prompt": "Espacio [ – 26 – ]", "answer": "B", "points": 1 },
+              { "number": 27, "prompt": "Espacio [ – 27 – ]", "answer": "F", "points": 1 },
+              { "number": 28, "prompt": "Espacio [ – 28 – ]", "answer": "D", "points": 1 },
+              { "number": 29, "prompt": "Espacio [ – 29 – ]", "answer": "A", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Pregunta 30–34: Selecciona las CINCO frases verdaderas.",
+            "type": "multiple_select",
+            "options": {
+              "A": "Las élites dominicanas siempre apoyaron el merengue.",
+              "B": "El merengue nació en el siglo XIX en áreas rurales.",
+              "C": "El 'perico ripiao' combina influencias de tres continentes.",
+              "D": "El acordeón es un instrumento de origen indígena.",
+              "E": "El saxofón se incorporó al merengue en el siglo XX.",
+              "F": "El merengue moderno evita el uso de música electrónica.",
+              "G": "La UNESCO lo declaró Patrimonio por su valor social.",
+              "H": "El merengue es un símbolo de unión para los dominicanos.",
+              "I": "El merengue se baila exclusivamente en la República Dominicana.",
+              "J": "La güira representa la herencia europea de la isla."
+            },
+            "questions": [
+              { "number": "30-34", "prompt": "Selecciona las 5 verdaderas", "answer": ["B", "C", "E", "G", "H"], "points": 5 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 35–38: Completar la oración.",
+            "type": "matching",
+            "options": {
+              "A": "las clases populares y rurales.",
+              "B": "el acordeón desde Europa.",
+              "C": "las nuevas generaciones de jóvenes.",
+              "D": "los indígenas taínos de la isla.",
+              "E": "ser rechazado por su origen humilde.",
+              "F": "la herencia de los esclavos africanos.",
+              "G": "ser una música triste y melancólica."
+            },
+            "questions": [
+              { "number": 35, "prompt": "Originalmente, el merengue era propio de...", "answer": "A", "points": 1 },
+              { "number": 36, "prompt": "La tambora es un instrumento que recuerda...", "answer": "F", "points": 1 },
+              { "number": 37, "prompt": "Los comerciantes alemanes trajeron...", "answer": "B", "points": 1 },
+              { "number": 38, "prompt": "Las fusiones modernas atraen a...", "answer": "C", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 39–40: Comprensión global.",
+            "type": "multiple_choice",
+            "questions": [
+              { "number": 39, "prompt": "¿Cuál es el propósito principal del Texto C?", "options": { "A": "Criticar la modernización del merengue.", "B": "Explicar la historia y el valor cultural de este ritmo.", "C": "Promover la venta de instrumentos en el Caribe.", "D": "Narrar la biografía de un cantante famoso." }, "answer": "B", "points": 1 },
+              { "number": 40, "prompt": "Según el texto, el merengue ayuda a la sociedad porque...", "options": { "A": "fomenta la competitividad económica.", "B": "promueve la convivencia y la unión.", "C": "enseña historia europea a los jóvenes.", "D": "sustituye a la educación tradicional." }, "answer": "B", "points": 1 }
             ]
           }
         ]
