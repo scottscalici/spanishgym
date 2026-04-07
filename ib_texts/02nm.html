@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
     <title>Spanish Gym | Vista de Impresión IB</title>
     <style>
-        /* Global Print Reset */
+        /* Global Reset & Web View Styling */
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { background-color: white; font-family: 'Segoe UI', sans-serif; -webkit-print-color-adjust: exact; }
         
-        /* US Letter Sizing - Fixed to prevent 'smushing' */
+        /* Light grey background for the web preview so the white pages pop */
+        body { 
+            background-color: #f0f0f0; 
+            font-family: 'Segoe UI', sans-serif; 
+            -webkit-print-color-adjust: exact; 
+        }
+        
+        /* US Letter Sizing - Web View */
         .page {
             width: 8.5in;
             min-height: 11in;
-            margin: 0 auto;
-            padding: 0.7in 0.8in;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.15); /* Makes it look like a paper on screen */
+            padding: 0.5in 0.6in; /* Slightly relaxed padding for the screen */
             position: relative;
-            page-break-after: always;
             overflow: hidden;
             display: flex;
             flex-direction: column;
         }
-        .page:last-child { page-break-after: auto; }
 
         /* Grouping Logic: Keeps questions from splitting across pages */
         .question-section-wrapper, .question-row, .instruction-block, .options-box, .key-item {
@@ -43,11 +49,27 @@
         h1 { text-align: center; font-size: 1.25rem; margin-bottom: 1rem; }
         h2 { font-size: 1.1rem; border-bottom: 2px solid #000; padding-bottom: 5px; margin-bottom: 15px; margin-top: 20px;}
 
-        /* Reading Section: Vertical Rhythm for Line Numbers */
-        .reading-section { display: flex; gap: 1.5rem; position: relative; z-index: 1; }
-        .line-numbers { width: 30px; text-align: right; font-family: monospace; color: #888; }
+        /* Reading Section: Swapped to CSS Grid to prevent horizontal squeezing */
+        .reading-section { 
+            display: grid; 
+            grid-template-columns: 30px 1fr; /* 30px for numbers, the rest for text */
+            gap: 15px; /* Controlled gap instead of massive padding */
+            position: relative; 
+            z-index: 1; 
+        }
+        .line-numbers { text-align: right; font-family: monospace; color: #888; }
         .line-num-slot { height: 1.6rem; display: flex; align-items: center; justify-content: flex-end; }
-        .reading-text p { font-size: 1.05rem; line-height: 1.6rem; margin-bottom: 1.2rem; text-indent: 2rem; text-align: justify; }
+        
+        /* Reading Text formatting with widows/orphans control */
+        .reading-text p { 
+            font-size: 1.05rem; 
+            line-height: 1.6rem; 
+            margin-bottom: 1.2rem; 
+            text-indent: 2rem; 
+            text-align: justify; 
+            widows: 2;   /* Prevents single lines at top of page */
+            orphans: 2;  /* Prevents single lines at bottom of page */
+        }
 
         /* Question Layouts: Locked Grid to prevent shifting */
         .instruction-block { background: #f4f4f4; padding: 10px; margin-bottom: 15px; font-weight: bold; border-left: 4px solid #333; }
@@ -68,6 +90,32 @@
             display: inline-block; width: 100%; break-inside: avoid;
         }
         .key-ans { color: #d93025; font-weight: bold; font-family: monospace; }
+
+        /* =========================================
+           PRINT SPECIFIC STYLES 
+           (Fixes the "Double Margin Canyon" and side squeezing)
+           ========================================= */
+        @media print {
+            body { 
+                background-color: white; 
+            }
+            
+            @page {
+                margin: 0.6in; /* This sets the absolute hardware margin for the printer */
+            }
+
+            .page {
+                width: 100%; /* Let the printer dictate the width */
+                margin: 0;   /* Strip web margins */
+                padding: 0;  /* Strip web padding so the text stretches full width */
+                box-shadow: none; /* Remove web styling */
+                page-break-after: always; /* Force new page */
+            }
+            
+            .page:last-child { 
+                page-break-after: auto; 
+            }
+        }
     </style>
 </head>
 <body>
@@ -135,7 +183,7 @@
             return p;
         }
 
-function renderQRow(q, type) {
+        function renderQRow(q, type) {
             switch(type) {
                 case 'matching':
                 case 'fill_in_the_blank':
