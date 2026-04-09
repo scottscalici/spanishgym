@@ -1,0 +1,240 @@
+{
+  "worksheet": {
+    "title": "Práctica de Lectura IB: Nivel Medio (Modelo 4)",
+    "texts": [
+      {
+        "text_id": "A",
+        "title": "Texto A — El diamante de los sueños: Academias de béisbol en el Caribe",
+        "paragraphs": [
+          "En países caribeños como la República Dominicana, el béisbol es mucho más que un simple deporte nacional; es una forma de vida, una pasión que se respira en cada esquina y, para muchos jóvenes, la principal vía de escape de la pobreza. Cada año, los equipos de las Grandes Ligas invierten millones de dólares en academias locales, buscando descubrir al próximo prodigio del diamante. Estas instalaciones modernas funcionan como internados de alto rendimiento donde adolescentes de toda la región entrenan rigurosamente con la esperanza de firmar un contrato profesional.",
+          "La rutina diaria en estas academias es extremadamente exigente. Los jóvenes prospectos se levantan al amanecer para realizar intensas sesiones de bateo, fildeo y acondicionamiento físico bajo el sol caribeño. Sin embargo, la industria ha aprendido de errores pasados. Hoy en día, las academias no solo se enfocan en crear atletas perfectos, sino que también tienen la obligación de proporcionar una educación formal. Los chicos reciben clases de inglés, matemáticas y finanzas personales, preparándolos para la vida en caso de que su sueño deportivo no se materialice.",
+          "El impacto cultural y económico de estas instituciones en la comunidad local es innegable. Las academias generan cientos de empleos directos para entrenadores, cocineros, personal de limpieza y profesores. Además, los jugadores que logran el éxito en el extranjero a menudo regresan a sus pueblos natales para invertir su riqueza construyendo escuelas, hospitales y centros comunitarios, convirtiéndose en verdaderos héroes locales y modelos a seguir para las nuevas generaciones.",
+          "A pesar de los enormes beneficios, el sistema no está libre de críticas. Algunos sociólogos advierten sobre el riesgo de explotación infantil y la inmensa presión psicológica que sufren los adolescentes. Al final, el reto de estas academias es mantener un equilibrio ético: nutrir el talento deportivo excepcional sin olvidar que, antes que jugadores de béisbol, son jóvenes en pleno desarrollo humano."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 1–4: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para cada párrafo. Hay más opciones de las necesarias.",
+            "type": "matching",
+            "options": {
+              "A": "El lado oscuro y los desafíos éticos",
+              "B": "Un motor de desarrollo para el pueblo",
+              "C": "La historia del primer jugador dominicano",
+              "D": "Formación integral más allá del campo",
+              "E": "La búsqueda del talento y el escape de la pobreza",
+              "F": "El fracaso del sistema educativo local"
+            },
+            "questions": [
+              { "number": 1, "prompt": "Párrafo 1", "answer": "E", "points": 1 },
+              { "number": 2, "prompt": "Párrafo 2", "answer": "D", "points": 1 },
+              { "number": 3, "prompt": "Párrafo 3", "answer": "B", "points": 1 },
+              { "number": 4, "prompt": "Párrafo 4", "answer": "A", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 5–8: Verdadero o Falso con justificación. Marca si la afirmación es verdadera (V) o falsa (F) y justifica tu respuesta usando las palabras exactas del texto. Ambas partes son necesarias para el punto.",
+            "type": "true_false_justification",
+            "questions": [
+              { "number": 5, "prompt": "Las Grandes Ligas gastan poco dinero en la búsqueda de talento caribeño.", "answer": "F, invierten millones de dólares en academias locales", "points": 1 },
+              { "number": 6, "prompt": "En las academias actuales, el entrenamiento deportivo es lo único que importa.", "answer": "F, las academias no solo se enfocan en crear atletas perfectos, sino que también tienen la obligación de proporcionar una educación", "points": 1 },
+              { "number": 7, "prompt": "Los peloteros exitosos suelen ayudar económicamente a sus lugares de origen.", "answer": "V, regresan a sus pueblos natales para invertir su riqueza construyendo escuelas", "points": 1 },
+              { "number": 8, "prompt": "Todo el mundo piensa que el sistema de las academias de béisbol es perfecto y sin fallos.", "answer": "F, el sistema no está libre de críticas (o: advierten sobre el riesgo de explotación infantil)", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 9–11: Respuestas cortas. Contesta basándote en el texto.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 9, "prompt": "¿Qué tres materias académicas específicas estudian los jóvenes en las academias según el texto? (2 puntos, debes mencionar las tres)", "answer": "inglés, matemáticas y finanzas personales", "points": 2 },
+              { "number": 10, "prompt": "Menciona dos profesiones (no deportivas) que se benefician directamente de la existencia de las academias. (1 punto)", "answer": "cocineros, personal de limpieza, profesores (dos de tres)", "points": 1 },
+              { "number": 11, "prompt": "¿Qué tipo de presión enfrentan los adolescentes según los sociólogos?", "answer": "inmensa presión psicológica", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 12–13: Identificación de referencia. ¿A qué se refieren las siguientes palabras en el texto?",
+            "type": "reference",
+            "questions": [
+              { "number": 12, "prompt": "Estas instalaciones... (párrafo 1)", "answer": "academias locales", "points": 1 },
+              { "number": 13, "prompt": "preparándolos... (párrafo 2)", "answer": "los chicos / los jóvenes prospectos", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "B",
+        "title": "Texto B — Acordes de cambio: La música como activismo social",
+        "paragraphs": [
+          "La música siempre ha poseído la extraordinaria capacidad de traspasar fronteras y conectar corazones, pero en América Latina también se ha consolidado como una poderosa herramienta de activismo social. A través de sus letras y melodías, diversos artistas han logrado visibilizar injusticias, reclamar derechos y promover la paz en tiempos de conflicto. Las canciones dejan de ser mero entretenimiento comercial para convertirse en verdaderos himnos de resistencia y esperanza que resuenan en las calles.",
+          "Un ejemplo emblemático de este fenómeno es el cantante colombiano Juanes. Profundamente afectado por la violencia histórica en su país, Juanes ha utilizado su fama internacional para abogar activamente por la reconciliación. Su iniciativa 'Paz sin fronteras', que organizó conciertos multitudinarios y gratuitos en zonas de tensión política, demostró que la música puede tender puentes donde la diplomacia tradicional fracasa. Sus canciones frecuentemente hablan del perdón y de la necesidad de curar las heridas de la guerra.",
+          "Por otro lado, el activismo musical también puede tomar la forma de la sátira y la crítica mordaz. La banda uruguaya El Cuarteto de Nos es maestra en este arte. A través de ritmos pegadizos y letras cargadas de ironía inteligente, el grupo disecciona los problemas de la sociedad contemporánea. Canciones que a primera vista parecen cómicas, en realidad critican duramente el consumismo extremo, la apatía política de las nuevas generaciones y la pérdida de la identidad individual en el mundo moderno.",
+          "El impacto de estos músicos en la juventud es profundo y duradero. Al escuchar a sus ídolos cantar sobre realidades sociales tangibles, los jóvenes se sienten inspirados a informarse, a cuestionar la autoridad y a participar en sus comunidades. En definitiva, estos artistas nos recuerdan que una guitarra o un micrófono pueden ser tan efectivos como un discurso político a la hora de cambiar el mundo."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 14–17: Búsqueda de sinónimos. Encuentra la palabra en los párrafos [1] y [2] que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 14, "prompt": "cruzar / atravesar (párrafo 1)", "answer": "traspasar", "points": 1 },
+              { "number": 15, "prompt": "hacer visible / mostrar (párrafo 1)", "answer": "visibilizar", "points": 1 },
+              { "number": 16, "prompt": "simbólico / representativo (párrafo 2)", "answer": "emblemático", "points": 1 },
+              { "number": 17, "prompt": "defender / hablar en favor de (párrafo 2)", "answer": "abogar", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 18–20: Opción múltiple. Elige la respuesta correcta basándote en el texto.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 18,
+                "prompt": "Según el párrafo 1, la música en América Latina...",
+                "options": {
+                  "A": "ha perdido su valor de entretenimiento.",
+                  "B": "se usa solo para ganar dinero en las calles.",
+                  "C": "sirve como instrumento para luchar por causas sociales.",
+                  "D": "evita tocar temas relacionados con los conflictos."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 19,
+                "prompt": "¿Cuál fue el principal logro de la iniciativa 'Paz sin fronteras' de Juanes?",
+                "options": {
+                  "A": "Vender millones de discos en zonas de conflicto.",
+                  "B": "Unir a las personas a través de la música en lugares con problemas políticos.",
+                  "C": "Crear un nuevo partido político en Colombia.",
+                  "D": "Reemplazar completamente el trabajo de los diplomáticos."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 20,
+                "prompt": "El estilo musical de El Cuarteto de Nos se caracteriza por...",
+                "options": {
+                  "A": "usar el humor y la burla para hacer reflexionar al público.",
+                  "B": "escribir canciones tristes sobre la guerra y el perdón.",
+                  "C": "copiar los ritmos comerciales más populares de la radio.",
+                  "D": "evitar cualquier comentario sobre la sociedad moderna."
+                },
+                "answer": "A",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 21–24: Relacionar mitades de oraciones. Relaciona la primera parte de la frase con su final correcto.",
+            "type": "matching",
+            "options": {
+              "A": "...se sienten motivados a involucrarse en su sociedad.",
+              "B": "...fracasan en su intento de educar a las personas.",
+              "C": "...atacan el estilo de vida materialista y la falta de interés.",
+              "D": "...tratan sobre la sanación emocional y dejar atrás el rencor.",
+              "E": "...se utilizan exclusivamente en campañas electorales.",
+              "F": "...pueden ser herramientas poderosas para la transformación social."
+            },
+            "questions": [
+              { "number": 21, "prompt": "Las letras del cantante Juanes frecuentemente...", "answer": "D", "points": 1 },
+              { "number": 22, "prompt": "Las canciones de El Cuarteto de Nos...", "answer": "C", "points": 1 },
+              { "number": 23, "prompt": "Al escuchar música con mensaje social, los jóvenes...", "answer": "A", "points": 1 },
+              { "number": 24, "prompt": "Los instrumentos musicales y el arte en general...", "answer": "F", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Pregunta 25: Respuesta corta.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 25, "prompt": "Según el último párrafo, menciona dos acciones específicas que la música inspira a hacer a los jóvenes. (2 puntos)", "answer": "informarse, cuestionar la autoridad, participar en sus comunidades (dos de tres)", "points": 2 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — El laberinto del sobreturismo: Barcelona y Andalucía",
+        "paragraphs": [
+          "España es consistentemente uno de los países más visitados del mundo, famoso por su vibrante cultura y clima privilegiado. Sin embargo, el éxito turístico ha traído consigo un fenómeno preocupante conocido como 'sobreturismo'. Destinos icónicos como la ciudad de Barcelona o la región de Andalucía están sufriendo las consecuencias de recibir a más visitantes de los que su infraestructura y ecosistema pueden soportar. Lo que antes era una bendición económica, hoy genera tensiones considerables entre los visitantes y la población local.",
+          "En Barcelona, el principal problema es la gentrificación y la saturación urbana. Las estrechas calles del Barrio Gótico o los alrededores de la Sagrada Familia suelen estar intransitables. [ – 26 – ], la proliferación descontrolada de apartamentos turísticos de alquiler a corto plazo ha provocado que el precio de la vivienda se dispare drásticamente. Esto obliga a los residentes de toda la vida a abandonar sus barrios porque ya no pueden pagar el alquiler, [ – 27 – ] destruye el tejido social y comercial tradicional de la ciudad.",
+          "Por su parte, en Andalucía, el sobreturismo presenta desafíos adicionales relacionados con el medio ambiente. Monumentos frágiles como la Alhambra de Granada sufren el desgaste diario de miles de pisadas. [ – 28 – ], la región se enfrenta a graves períodos de sequía. La masiva llegada de turistas durante los calurosos meses de verano multiplica el consumo de agua potable, agravando una situación climática que ya es crítica para los agricultores andaluces.",
+          "Para salvar la industria sin destruir el país, las autoridades están buscando soluciones urgentes. Se están implementando medidas para limitar los alquileres turísticos y cobrar tasas medioambientales. [ – 29 – ], es fundamental promover un modelo de viaje sostenible, invitando a los visitantes a descubrir España durante la temporada baja o a explorar zonas rurales menos saturadas."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 26–29: Completar espacios en blanco. Elige de la lista el conector apropiado para rellenar los espacios en el texto.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "lo que",
+              "B": "A pesar de todo",
+              "C": "Además",
+              "D": "Por el contrario",
+              "E": "Finalmente",
+              "F": "Aunque"
+            },
+            "questions": [
+              { "number": 26, "prompt": "Espacio [ – 26 – ]", "answer": "C", "points": 1 },
+              { "number": 27, "prompt": "Espacio [ – 27 – ]", "answer": "A", "points": 1 },
+              { "number": 28, "prompt": "Espacio [ – 28 – ]", "answer": "C", "points": 1 },
+              { "number": 29, "prompt": "Espacio [ – 29 – ]", "answer": "E", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Pregunta 30–34: Selecciona las CINCO afirmaciones verdaderas basándote en el texto.",
+            "type": "multiple_select",
+            "options": {
+              "A": "El turismo en España solo ha traído beneficios económicos sin causar problemas.",
+              "B": "El sobreturismo significa que hay más turistas de los que un lugar puede manejar adecuadamente.",
+              "C": "En Barcelona, el precio de los alquileres ha bajado gracias a los pisos turísticos.",
+              "D": "Muchos habitantes de Barcelona se ven obligados a mudarse a otros lugares por causas económicas.",
+              "E": "El exceso de turistas está afectando físicamente a monumentos históricos como la Alhambra.",
+              "F": "El clima de Andalucía no se ve afectado en absoluto por la cantidad de visitantes.",
+              "G": "El turismo de verano en Andalucía consume mucha agua, lo cual perjudica a la agricultura local.",
+              "H": "El gobierno ha decidido prohibir completamente la entrada de turistas extranjeros.",
+              "I": "Se están proponiendo impuestos o tasas especiales para ayudar al medio ambiente.",
+              "J": "Viajar en temporada alta es la principal solución que proponen las autoridades."
+            },
+            "questions": [
+              { "number": "30-34", "prompt": "Selecciona las 5 verdaderas", "answer": ["B", "D", "E", "G", "I"], "points": 5 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 35–36: Respuestas cortas. Contesta usando las palabras exactas del texto.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 35, "prompt": "¿Qué dos adjetivos utiliza el autor para describir a España en la primera línea del texto? (1 punto)", "answer": "vibrante (cultura) y privilegiado (clima)", "points": 1 },
+              { "number": 36, "prompt": "¿Hacia dónde sugieren las autoridades que vayan los turistas para descongestionar las ciudades principales? (1 punto)", "answer": "a zonas rurales menos saturadas", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 37–38: Opción múltiple para comprensión general.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 37,
+                "prompt": "El término 'gentrificación' (párrafo 2) se refiere principalmente a:",
+                "options": {
+                  "A": "la limpieza de los monumentos históricos de la ciudad.",
+                  "B": "la expulsión de vecinos locales debido al encarecimiento del barrio.",
+                  "C": "la construcción de nuevas escuelas y hospitales.",
+                  "D": "la falta de agua potable durante los meses de verano."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 38,
+                "prompt": "¿Cuál es la conclusión principal del autor en el texto?",
+                "options": {
+                  "A": "El turismo debe ser eliminado para salvar a España.",
+                  "B": "Es necesario encontrar un modelo turístico que respete a los residentes y a la naturaleza.",
+                  "C": "Andalucía y Barcelona deberían dejar de promocionarse en el extranjero.",
+                  "D": "Los turistas prefieren viajar en temporada baja para ahorrar dinero."
+                },
+                "answer": "B",
+                "points": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
