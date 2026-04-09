@@ -6,57 +6,58 @@
         "text_id": "A",
         "title": "Texto A — Tradiciones en transición: La Semana Santa en Sevilla y el reto del siglo XXI",
         "paragraphs": [
-          "Para el forastero, la Semana Santa de Sevilla puede parecer un espectáculo incomprensible de fervor desmedido; sin embargo, para el sevillano, constituye el eje sobre el cual pivota el calendario emocional y económico de la ciudad. Durante siete días, la urbe se transforma en un escenario inmenso donde cofradías, pasos y nazarenos se abren camino entre multitudes apretadas. No obstante, el crecimiento exponencial del turismo en la última década ha obligado a las autoridades a replantear la logística de este fenómeno ancestral para garantizar su supervivencia y seguridad.",
-          "El principal desafío se presenta durante la célebre \"Madrugá\", la noche del Jueves al Viernes Santo, cuando las calles del casco antiguo colapsan. Para mitigar los riesgos asociados a estas inmensas aglomeraciones —conocidas localmente como \"bullas\"—, el ayuntamiento ha implementado un vanguardista sistema de seguridad. A través de cámaras con inteligencia artificial, sensores térmicos y seguimiento por GPS en las cruces de guía de las hermandades, la policía puede predecir embotellamientos humanos y desviar el flujo de peatones antes de que se produzca un incidente.",
-          "A pesar de esta invasión tecnológica, los defensores de la tradición aseguran que la esencia inmaterial de la fiesta permanece intacta. El sacrificio físico de los \"costaleros\", quienes cargan sobre sus espaldas estructuras de madera de más de mil kilos, no puede digitalizarse. Sigue siendo un acto de devoción cruda, transmitido de generación en generación. La paradoja actual radica en encontrar el equilibrio: abrazar la modernidad cibernética en la gestión del evento, sin permitir que el parpadeo incesante de los teléfonos móviles apague el misticismo y la solemnidad que definen la identidad de esta celebración centenaria."
+          "Para el forastero, la Semana Santa de Sevilla puede parecer un espectáculo incomprensible de fervor desmedido; sin embargo, para el sevillano, constituye el eje sobre el cual pivota el calendario emocional y económico de la urbe hispalense. Durante siete días, la capital andaluza se transfigura en un escenario inabarcable donde cofradías, imponentes pasos y estoicos nazarenos se abren camino entre multitudes apretadas. No obstante, el crecimiento exponencial del turismo en la última década ha obligado a las autoridades a replantear la logística de este fenómeno ancestral para garantizar su supervivencia y salvaguardar la seguridad pública.",
+          "El principal desafío logístico se manifiesta durante la célebre \"Madrugá\", la intensa noche del Jueves al Viernes Santo, cuando las estrechas callejuelas del casco antiguo colapsan bajo el peso de cientos de miles de almas. Para mitigar los riesgos inherentes a estas inmensas aglomeraciones —conocidas en el argot local como \"bullas\"—, el ayuntamiento ha implementado un vanguardista y meticuloso sistema de seguridad.",
+          "A través de una densa red de cámaras equipadas con inteligencia artificial, sensores térmicos de alta precisión y seguimiento por GPS integrado en las cruces de guía de las hermandades, la policía posee ahora la capacidad de predecir embotellamientos humanos. Este panóptico digital permite a las fuerzas del orden desviar el flujo de peatones y descongestionar arterias críticas horas antes de que se produzca cualquier incidente que pueda desembocar en pánico colectivo.",
+          "A pesar de esta irrupción tecnológica, los defensores acérrimos de la tradición aseguran que la esencia inmaterial de la fiesta permanece intacta y ajena a los algoritmos. El sacrificio físico de los \"costaleros\", quienes cargan sobre sus espaldas castigadas estructuras de madera que superan la tonelada de peso, desafía cualquier intento de digitalización. Su labor sigue siendo un acto de devoción cruda, transmitido inalterado de generación en generación bajo el anonimato de las trabajaderas.",
+          "La paradoja actual de la capital andaluza radica, por tanto, en encontrar un delicado equilibrio. Por un lado, se hace imperativo abrazar la modernidad cibernética en la gestión de un evento de masas; por otro, se debe luchar para evitar que el parpadeo incesante de las pantallas de los teléfonos móviles termine por apagar el misticismo, el recogimiento y la profunda solemnidad que definen la identidad de esta celebración milenaria."
         ],
         "question_sections": [
           {
-            "instructions": "Pregunta 1: Frases verdaderas. Selecciona las cuatro frases verdaderas según los párrafos 1 y 2. Escribe las letras correspondientes.",
+            "instructions": "Pregunta 1–4: Frases verdaderas. Selecciona las CUATRO frases verdaderas según el texto. Escribe las letras correspondientes en cualquier orden. [4 puntos]",
             "type": "multiple_select",
             "options": {
-              "A": "Los habitantes de Sevilla consideran la Semana Santa como el evento más importante del año.",
-              "B": "El turismo ha disminuido debido a las nuevas medidas de seguridad.",
-              "C": "Las hermandades se han negado a utilizar tecnología GPS en sus procesiones.",
-              "D": "La \"Madrugá\" es uno de los momentos más problemáticos en cuanto a la concentración de personas.",
-              "E": "La tecnología actual permite a las autoridades anticiparse a los problemas de tráfico peatonal.",
-              "F": "El sistema de inteligencia artificial fue creado por los propios \"costaleros\".",
-              "G": "Las \"bullas\" son incidentes violentos que ocurren durante la festividad.",
-              "H": "La logística de la celebración tuvo que modificarse por el aumento excesivo de visitantes."
+              "A": "La Semana Santa carece de impacto económico significativo en Sevilla.",
+              "B": "Las autoridades han modificado la gestión del evento debido al exceso de visitantes.",
+              "C": "La \"Madrugá\" transcurre sin mayores problemas de tráfico peatonal.",
+              "D": "El término \"bulla\" se refiere a las grandes concentraciones de personas en las calles.",
+              "E": "Los sistemas de vigilancia permiten a la policía anticiparse a las aglomeraciones peligrosas.",
+              "F": "Los costaleros utilizan tecnología GPS para aligerar el peso de los pasos.",
+              "G": "El esfuerzo físico de cargar los pasos se considera una manifestación de fe auténtica.",
+              "H": "El uso constante de dispositivos móviles favorece el ambiente místico de la procesión."
             },
             "questions": [
-              { "number": "1", "prompt": "Selecciona las 4 verdaderas", "answer": ["A", "D", "E", "H"], "points": 4 }
+              { "number": "1-4", "prompt": "Selecciona las 4 verdaderas", "answer": ["B", "D", "E", "G"], "points": 4 }
             ]
           },
           {
-            "instructions": "Preguntas 2–5: Búsqueda de palabras (Sinónimos). Busca en el texto las palabras que sean más próximas en significado a las siguientes expresiones.",
+            "instructions": "Preguntas 5–8: Búsqueda de palabras (Sinónimos). Busca en el texto las palabras que sean más próximas en significado a las siguientes expresiones. [4 puntos]",
             "type": "synonym_search",
             "questions": [
-              { "number": "2", "prompt": "Persona que viene de otro lugar (Párrafo 1)", "answer": "forastero", "points": 1 },
-              { "number": "3", "prompt": "Acción de dar o asignar un nuevo enfoque o planificación a algo (Párrafo 1)", "answer": "replantear", "points": 1 },
-              { "number": "4", "prompt": "Suavizar, reducir o hacer menos grave un problema (Párrafo 2)", "answer": "mitigar", "points": 1 },
-              { "number": "5", "prompt": "Que está a la cabeza en innovación o desarrollo (Párrafo 2)", "answer": "vanguardista", "points": 1 }
+              { "number": "5", "prompt": "Persona que viene de otro lugar (Párrafo 1)", "answer": "forastero", "points": 1 },
+              { "number": "6", "prompt": "Atenuar o suavizar una situación de riesgo (Párrafo 2)", "answer": "mitigar", "points": 1 },
+              { "number": "7", "prompt": "Pionero, innovador o moderno (Párrafo 2)", "answer": "vanguardista", "points": 1 },
+              { "number": "8", "prompt": "Obstinados o muy firmes en sus convicciones (Párrafo 4)", "answer": "acérrimos", "points": 1 }
             ]
           },
           {
-            "instructions": "Preguntas 6–10: Relacionar mitades. Basándote en el párrafo 3, une la primera parte de la frase (A–E) con su final correspondiente de la lista (I–VIII).",
+            "instructions": "Preguntas 9–13: Relacionar mitades. Une la primera parte de la frase (9–13) con su final correspondiente de la lista (A–G) basándote en el texto. [5 puntos]",
             "type": "matching",
             "options": {
-              "A": "...arruinar la atmósfera espiritual de la tradición.",
-              "B": "...no se ha visto afectado por la tecnología.",
-              "C": "...fuerza que se aprende en los gimnasios.",
-              "D": "...lograr que la tecnología y el misticismo convivan.",
-              "E": "...el alma de la festividad no ha cambiado.",
-              "F": "...solo pueden soportar los jóvenes.",
-              "G": "...fe y sufrimiento corporal genuino.",
-              "H": "...atraer a más turistas internacionales."
+              "A": "...prevenir estampidas humanas mediante la redirección preventiva del público.",
+              "B": "...realicen un acto de fe sin buscar reconocimiento individual o público.",
+              "C": "...se replantee por completo la estrategia logística y de seguridad de la fiesta.",
+              "D": "...se pierda irremediablemente a causa del uso de los teléfonos móviles.",
+              "E": "...no pueda ser cuantificada ni procesada por algoritmos digitales.",
+              "F": "...armonizar el control tecnológico con el respeto al misticismo de la tradición.",
+              "G": "...prohibir la participación de visitantes extranjeros en la procesión."
             },
             "questions": [
-              { "number": "6", "prompt": "Algunos puristas afirman que...", "answer": "E", "points": 1 },
-              { "number": "7", "prompt": "La tarea de los costaleros es una demostración de...", "answer": "G", "points": 1 },
-              { "number": "8", "prompt": "El peso de los pasos es algo que...", "answer": "B", "points": 1 },
-              { "number": "9", "prompt": "El reto principal de hoy en día es...", "answer": "D", "points": 1 },
-              { "number": "10", "prompt": "El uso excesivo de dispositivos móviles amenaza con...", "answer": "A", "points": 1 }
+              { "number": "9", "prompt": "El aumento descontrolado del turismo ha provocado que...", "answer": "C", "points": 1 },
+              { "number": "10", "prompt": "El sistema de inteligencia artificial y sensores sirve para...", "answer": "A", "points": 1 },
+              { "number": "11", "prompt": "Según los tradicionalistas, la esencia inmaterial de la Semana Santa...", "answer": "E", "points": 1 },
+              { "number": "12", "prompt": "El anonimato bajo las trabajaderas permite que los costaleros...", "answer": "B", "points": 1 },
+              { "number": "13", "prompt": "El principal objetivo de las autoridades sevillanas en la actualidad es...", "answer": "F", "points": 1 }
             ]
           }
         ]
@@ -65,37 +66,42 @@
         "text_id": "B",
         "title": "Texto B — El oro de los Andes: Sostenibilidad y futuro de la fibra de alpaca",
         "paragraphs": [
-          "En las frías y escarpadas alturas de los Andes peruanos, a más de cuatro mil metros sobre el nivel del mar, pastan pacíficamente manadas de alpacas. Perú concentra cerca del 80% de la población mundial de este camélido, <u>cuya</u> crianza, lejos de ser una simple actividad ganadera, representa la principal fuente de ingresos para más de un millón de familias altoandinas. Hoy, la fibra de alpaca, apodada \"el oro de los Andes\", ha conquistado las pasarelas internacionales de alta costura, compitiendo directamente con el cachemir y la seda.",
-          "El creciente interés de la industria textil global no solo responde a que la fibra es hipoalergénica, térmica y resistente al agua, sino a su extraordinario perfil ecológico. En un mundo asfixiado por el impacto ambiental de la \"moda rápida\", la alpaca se presenta como una alternativa sostenible. A diferencia de las ovejas o cabras, <u>cuyos</u> cascos erosionan el suelo, la alpaca posee almohadillas en sus patas que protegen los delicados pastizales andinos. Además, al alimentarse, el animal corta la hierba sin arrancar <u>su</u> raíz, permitiendo que la flora local se regenere rápidamente.",
-          "Sin embargo, el horizonte no está libre de nubes. El innegable avance del cambio climático está provocando sequías prolongadas y heladas atípicas que amenazan la supervivencia de los rebaños y empobrecen a los pastores, quienes habitualmente operan en condiciones de extrema vulnerabilidad económica. Para hacer frente a esta situación y evitar la explotación de los intermediarios, el gobierno y las cooperativas locales han impulsado la marca \"Alpaca del Perú\". Este sello garantiza la trazabilidad del producto, certificando que los animales han sido esquilados mediante prácticas éticas que no <u>les</u> causan sufrimiento, y asegurando un pago justo para el criador directo."
+          "En las frías, escarpadas y desoladas alturas de los Andes peruanos, a más de cuatro mil metros sobre el nivel del mar, pastan pacíficamente manadas de alpacas desafiando la crudeza del clima. Perú concentra cerca del 80% de la población mundial de este noble camélido, cuya crianza trasciende la mera actividad ganadera para erigirse como la piedra angular económica y cultural de más de un millón de familias altoandinas. Hoy en día, la fibra de alpaca, acertadamente apodada \"el oro de los Andes\", ha conquistado las pasarelas internacionales de alta costura, compitiendo de tú a tú con materiales de lujo como el cachemir y la seda.",
+          "El creciente e insaciable interés de la industria textil global no responde únicamente a que esta fibra sea naturalmente hipoalergénica, excepcionalmente térmica y resistente al agua. Su verdadero atractivo en el siglo XXI radica en su extraordinario perfil ecológico. En un mundo asfixiado por el impacto ambiental de la \"moda rápida\", la cría de la alpaca se presenta como una alternativa altamente sostenible.",
+          "A diferencia de las ovejas o las cabras, cuyos duros cascos erosionan implacablemente el sustrato, la alpaca posee suaves almohadillas en sus patas que protegen los delicados pastizales andinos. Sumado a esto, sus hábitos alimenticios son conservacionistas: al pastar, el animal corta la parte superior de la hierba con sus dientes sin arrancar jamás su raíz, un comportamiento instintivo que garantiza que la flora endémica se regenere con asombrosa rapidez.",
+          "Sin embargo, el horizonte no está libre de nubes oscuras. El innegable y veloz avance del cambio climático está desencadenando sequías prolongadas y heladas atípicas que diezman la supervivencia de los rebaños y empobrecen drásticamente a los pastores. Estas comunidades, que salvaguardan este patrimonio genético, operan habitualmente en condiciones de extrema vulnerabilidad económica, siendo a menudo presas de la especulación.",
+          "Para hacer frente a esta adversidad climática y evitar la voraz explotación por parte de los intermediarios comerciales, el gobierno nacional junto a diversas cooperativas locales han impulsado iniciativas como la marca sectorial \"Alpaca del Perú\". Este sello distintivo garantiza la trazabilidad absoluta del producto, certificando que los animales han sido esquilados mediante prácticas éticas que no les infligen sufrimiento alguno, y asegurando, primordialmente, una remuneración digna y justa para el criador directo."
         ],
         "question_sections": [
           {
-            "instructions": "Preguntas 11–13: Verdadero o Falso con justificación. Marca [✓] la opción correcta y luego justifícala usando exactamente las palabras del texto.",
+            "instructions": "Preguntas 14–17: Verdadero o Falso con justificación. Marca [✓] la opción correcta y luego justifícala usando exactamente las palabras del texto. Las dos partes son necesarias para obtener [1 punto].",
             "type": "true_false_justification",
             "questions": [
-              { "number": "11", "prompt": "La venta de fibra de alpaca es un ingreso económico menor para los habitantes de los Andes.", "answer": "F, (...) representa la principal fuente de ingresos para más de un millón de familias altoandinas.", "points": 2 },
-              { "number": "12", "prompt": "La manera en que las alpacas caminan y comen ayuda a conservar la naturaleza de las montañas.", "answer": "V, la alpaca posee almohadillas en sus patas que protegen los delicados pastizales / corta la hierba sin arrancar su raíz", "points": 2 },
-              { "number": "13", "prompt": "El clima extremo está beneficiando actualmente el crecimiento económico de los pastores andinos.", "answer": "F, (...) están provocando sequías prolongadas y heladas atípicas que amenazan la supervivencia de los rebaños y empobrecen a los pastores (...)", "points": 2 }
+              { "number": "14", "prompt": "La cría de alpacas es una actividad secundaria e irrelevante para los habitantes de las montañas andinas.", "answer": "F, (...) erigirse como la piedra angular económica y cultural de más de un millón de familias altoandinas.", "points": 1 },
+              { "number": "15", "prompt": "La forma en que se alimentan las alpacas evita la destrucción permanente del pasto.", "answer": "V, (...) corta la parte superior de la hierba con sus dientes sin arrancar jamás su raíz (...)", "points": 1 },
+              { "number": "16", "prompt": "Las alteraciones meteorológicas actuales benefician la proliferación y salud de las alpacas.", "answer": "F, (...) está desencadenando sequías prolongadas y heladas atípicas que diezman la supervivencia de los rebaños (...)", "points": 1 },
+              { "number": "17", "prompt": "La marca \"Alpaca del Perú\" busca proteger a los pastores eliminando los eslabones comerciales innecesarios.", "answer": "V, (...) evitar la voraz explotación por parte de los intermediarios comerciales (...)", "points": 1 }
             ]
           },
           {
-            "instructions": "Preguntas 14–17: Identificación de referencia. ¿A qué o a quién se refieren las palabras subrayadas en el texto?",
+            "instructions": "Preguntas 18–21: Identificación de referencia. ¿A qué o a quién se refieren las palabras subrayadas en el texto? [4 puntos]",
             "type": "reference",
             "questions": [
-              { "number": "14", "prompt": "\"...cuya crianza, lejos de ser...\" (Párrafo 1)", "answer": "de este camélido / de las alpacas", "points": 1 },
-              { "number": "15", "prompt": "\"...cuyos cascos erosionan el suelo...\" (Párrafo 2)", "answer": "(de) las ovejas o cabras", "points": 1 },
-              { "number": "16", "prompt": "\"...sin arrancar su raíz...\" (Párrafo 2)", "answer": "(de) la hierba / de los pastizales / de la flora", "points": 1 },
-              { "number": "17", "prompt": "\"...no les causan sufrimiento...\" (Párrafo 3)", "answer": "a los animales / a las alpacas", "points": 1 }
+              { "number": "18", "prompt": "\"...cuya crianza trasciende la mera...\" (Párrafo 1)", "answer": "de este noble camélido / de las alpacas", "points": 1 },
+              { "number": "19", "prompt": "\"...cuyos duros cascos erosionan implacablemente...\" (Párrafo 3)", "answer": "(de) las ovejas o las cabras", "points": 1 },
+              { "number": "20", "prompt": "\"...que salvaguardan este patrimonio genético...\" (Párrafo 4)", "answer": "Estas comunidades / los pastores", "points": 1 },
+              { "number": "21", "prompt": "\"...que no les infligen sufrimiento alguno...\" (Párrafo 5)", "answer": "a los animales / a las alpacas", "points": 1 }
             ]
           },
           {
-            "instructions": "Preguntas 18–20: Opción múltiple. Elige la respuesta correcta.",
+            "instructions": "Preguntas 22–26: Opción múltiple. Elige la respuesta correcta para cada pregunta. [5 puntos]",
             "type": "multiple_choice",
             "questions": [
-              { "number": "18", "prompt": "Según el segundo párrafo, la industria de la moda se interesa por la alpaca porque:", "options": { "A": "Es más barata de producir que la \"moda rápida\".", "B": "Reúne cualidades físicas excepcionales y es respetuosa con el medio ambiente.", "C": "Crece más rápido que la lana de las ovejas.", "D": "Es el único tejido que resiste las heladas." }, "answer": "B", "points": 1 },
-              { "number": "19", "prompt": "El propósito principal del sello \"Alpaca del Perú\" (párrafo 3) es:", "options": { "A": "Atraer a más turistas a las montañas.", "B": "Aumentar el número de rebaños exportados a Europa.", "C": "Dar transparencia al proceso de producción y proteger al trabajador rural.", "D": "Crear intermediarios para agilizar la venta en el extranjero." }, "answer": "C", "points": 1 },
-              { "number": "20", "prompt": "El tono general de este texto es:", "options": { "A": "Crítico y sarcástico.", "B": "Informativo y analítico.", "C": "Literario y romántico.", "D": "Pesimista y desalentador." }, "answer": "B", "points": 1 }
+              { "number": "22", "prompt": "En el primer párrafo, la expresión \"compitiendo de tú a tú\" sugiere que la fibra de alpaca:", "options": { "A": "Es mucho más económica de producir que el cachemir.", "B": "Ha alcanzado un nivel de prestigio y calidad equivalente al de la seda.", "C": "Se utiliza de forma exclusiva en Perú para la alta costura europea.", "D": "Está perdiendo valor frente a la llegada de nuevas fibras sintéticas." }, "answer": "B", "points": 1 },
+              { "number": "23", "prompt": "El rasgo más valorado de la alpaca en la moda contemporánea, según el párrafo 2, es:", "options": { "A": "Su capacidad excepcional para resistir bajas temperaturas.", "B": "Su compatibilidad estética con los productos de la \"moda rápida\".", "C": "Su mínimo impacto negativo en la conservación del medio ambiente.", "D": "Su habilidad para repeler la humedad en climas lluviosos." }, "answer": "C", "points": 1 },
+              { "number": "24", "prompt": "En el texto, la palabra \"sustrato\" (párrafo 3) se refiere a:", "options": { "A": "El pelaje que recubre a los animales.", "B": "El suelo o la tierra de la montaña.", "C": "El alimento procesado que consumen.", "D": "La flora seca durante el invierno." }, "answer": "B", "points": 1 },
+              { "number": "25", "prompt": "Los pastores andinos sufren \"extrema vulnerabilidad\" (párrafo 4) principalmente porque:", "options": { "A": "Se niegan a organizarse en cooperativas sindicales.", "B": "Venden sus animales prematuramente a la industria cárnica.", "C": "No dominan las técnicas modernas para esquilar la lana.", "D": "Enfrentan grandes pérdidas climáticas y abusos en los precios de compra." }, "answer": "D", "points": 1 },
+              { "number": "26", "prompt": "¿Cuál de las siguientes opciones resume mejor el propósito central del Texto B?", "options": { "A": "Persuadir a los lectores internacionales de comprar ropa de invierno andina.", "B": "Comparar detalladamente la anatomía de distintos animales de pastoreo.", "C": "Exponer el valor ecológico, los retos y los mecanismos de protección de la industria alpaquera.", "D": "Denunciar las prácticas corruptas del gobierno peruano en la industria textil." }, "answer": "C", "points": 1 }
             ]
           }
         ]
@@ -104,48 +110,50 @@
         "text_id": "C",
         "title": "Texto C — El latido del barrio",
         "paragraphs": [
-          "Mateo miraba las notas musicales garabateadas en la partitura como si fueran insectos muertos. Llevaba tres horas frente al piano, intentando componer un merengue para el certamen del conservatorio, pero la melodía que brotaba de <u>sus</u> dedos era vacía, plástica, sin alma. Había aplicado toda la teoría aprendida: la síncopa exacta, la progresión de acordes perfecta. Sin embargo, aquello sonaba a un frío ejercicio académico, no a la música que hacía vibrar a su isla. Frustrado, cerró la tapa del piano de un golpe y salió al balcón buscando oxígeno.",
-          "La noche de Santo Domingo <u>lo</u> recibió con un abrazo de aire húmedo y espeso, cargado con el inconfundible aroma a plátano frito y a asfalto caliente. Abajo, en la callejuela iluminada por farolas parpadeantes, la vida seguía su curso ajena a las estrictas reglas de la armonía clásica. Mateo cerró los ojos y, de pronto, dejó de mirar para empezar a escuchar de verdad.",
-          "En la esquina de enfrente, cuatro hombres mayores jugaban al dominó. El golpe seco de las fichas contra la mesa de madera no era un simple ruido; era una percusión constante, un compás de cuatro por cuatro que marcaba el pulso del barrio. De fondo, el pregón rítmico de un vendedor ambulante se entrelazaba con las risas agudas de unos niños que corrían descalzos. Y entonces, como si el cielo quisiera unirse a la orquesta, comenzó a llover. Las pesadas gotas repiqueteaban contra los viejos techos de zinc con una estridencia metálica y frenética.",
-          "Mateo abrió los ojos de golpe. Ahí estaba. El repique en el zinc era la güira furiosa; el golpe de las fichas de dominó, la tambora profunda; y las voces de la calle formaban la línea de los metales. Comprendió entonces que el merengue no se calculaba matemáticamente en una hoja pentagramada; el merengue se respiraba. <u>Era</u> la banda sonora de la supervivencia, el sudor y la alegría de su gente. Con el corazón acelerado, volvió a entrar en su habitación, abrió el piano y, olvidándose por completo de la partitura, dejó que el barrio entero hablara a través de <u>sus</u> manos."
+          "Mateo miraba las notas musicales garabateadas en la partitura como si fueran insectos muertos disecados sobre el papel. Llevaba más de tres horas postrado frente al vetusto piano del conservatorio, intentando componer un merengue inédito para el certamen nacional de fin de curso. Sin embargo, la melodía que brotaba torpemente de sus dedos se sentía vacía, plástica, desprovista de alma. Había aplicado con rigor espartano toda la teoría armónica aprendida en los últimos cinco años: la síncopa matemáticamente exacta, la progresión de acordes impecable, las resoluciones de manual.",
+          "Pese a su esfuerzo intelectual, aquello sonaba a un frío y estéril ejercicio académico, no a la vibrante música que corría por las venas de su isla caribeña. Cansado de luchar contra la partitura y abrumado por la frustración, cerró la tapa del piano de madera de un golpe seco y salió al balcón de hierro forjado buscando desesperadamente una bocanada de oxígeno.",
+          "La calurosa noche de Santo Domingo lo recibió de inmediato con un abrazo de aire húmedo y espeso, cargado con el inconfundible aroma dulzón a plátano frito y a asfalto ardiente que empezaba a enfriarse. Abajo, en la estrecha callejuela iluminada por farolas parpadeantes y amarillentas, la vida seguía su caótico curso, totalmente ajena a las estrictas e inflexibles reglas de la armonía clásica europea. Mateo cerró los ojos, apoyó la frente en la barandilla y, de pronto, dejó de mirar para empezar a escuchar de verdad su entorno.",
+          "En la bulliciosa esquina de enfrente, cuatro hombres mayores jugaban al dominó bajo un toldo descolorido. El golpe seco y rítmico de las fichas de marfil contra la mesa de madera no era un simple ruido aleatorio; era una percusión constante, un metrónomo orgánico que marcaba el pulso vital del barrio. De fondo, el pregón melódico de un vendedor ambulante de empanadas se entrelazaba a la perfección con las risas agudas y atropelladas de unos niños que corrían descalzos pateando una pelota desinflada.",
+          "Y entonces, como si el firmamento tropical quisiera unirse espontáneamente a aquella orquesta callejera, comenzó a llover a cántaros. Las pesadas gotas caribeñas repiqueteaban contra los viejos y oxidados techos de zinc con una estridencia metálica y frenética. Mateo abrió los ojos de par en par. La epifanía lo golpeó como un relámpago. El repique desordenado en el zinc era la güira furiosa rasgada con fuerza; el choque seco de las fichas de dominó emulaba el latido profundo de la tambora; y las voces disonantes de la calle formaban la brillante línea de los metales.",
+          "Comprendió en ese instante revelador que el verdadero merengue no se calculaba matemáticamente en una hoja pentagramada ni se encerraba en los muros de una academia; el merengue se respiraba en las aceras. Era la indomable banda sonora de la supervivencia, el sudor y la alegría inquebrantable de su gente. Con el corazón latiendo desbocado, volvió a irrumpir en su habitación, abrió el piano de par en par y, olvidándose por completo de las reglas teóricas y la partitura, dejó que el barrio entero hablara fluidamente a través de sus manos."
         ],
         "question_sections": [
           {
-            "instructions": "Preguntas 21–23: Búsqueda de palabras (Sinónimos). Busca en los párrafos 1 y 2 las palabras que sean más próximas en significado a las siguientes expresiones.",
+            "instructions": "Preguntas 27–29: Búsqueda de palabras (Sinónimos). Busca en el texto las palabras que sean más próximas en significado a las siguientes descripciones. [3 puntos]",
             "type": "synonym_search",
             "questions": [
-              { "number": "21", "prompt": "Dibujadas o escritas de forma rápida y descuidada (Párrafo 1)", "answer": "garabateadas", "points": 1 },
-              { "number": "22", "prompt": "Concurso o competición (Párrafo 1)", "answer": "certamen", "points": 1 },
-              { "number": "23", "prompt": "Desconectada o independiente de algo (Párrafo 2)", "answer": "ajena", "points": 1 }
+              { "number": "27", "prompt": "Sumamente antiguo o muy viejo (Párrafo 1)", "answer": "vetusto", "points": 1 },
+              { "number": "28", "prompt": "Que no ha sido publicado o es una creación original nueva (Párrafo 1)", "answer": "inédito", "points": 1 },
+              { "number": "29", "prompt": "Manifestación, comprensión o descubrimiento repentino de una gran verdad (Párrafo 5)", "answer": "epifanía", "points": 1 }
             ]
           },
           {
-            "instructions": "Preguntas 24–27: Identificación de referencia. ¿A qué o a quién se refieren las palabras subrayadas en el texto?",
+            "instructions": "Preguntas 30–33: Identificación de referencia. ¿A qué o a quién se refieren las palabras o frases subrayadas en el texto? [4 puntos]",
             "type": "reference",
             "questions": [
-              { "number": "24", "prompt": "\"...pero la melodía que brotaba de sus dedos...\" (Párrafo 1)", "answer": "(de) Mateo / (de)l protagonista", "points": 1 },
-              { "number": "25", "prompt": "\"...que lo recibió con un abrazo...\" (Párrafo 2)", "answer": "a Mateo / a él", "points": 1 },
-              { "number": "26", "prompt": "\"...Era la banda sonora...\" (Párrafo 4)", "answer": "el merengue", "points": 1 },
-              { "number": "27", "prompt": "\"...hablara a través de sus manos.\" (Párrafo 4)", "answer": "(de) Mateo / (de)l protagonista", "points": 1 }
+              { "number": "30", "prompt": "\"...que brotaba torpemente de sus dedos...\" (Párrafo 1)", "answer": "(de) Mateo", "points": 1 },
+              { "number": "31", "prompt": "\"...lo recibió de inmediato...\" (Párrafo 3)", "answer": "a Mateo / al protagonista", "points": 1 },
+              { "number": "32", "prompt": "\"...que marcaba el pulso vital del barrio.\" (Párrafo 4)", "answer": "el golpe seco y rítmico / un metrónomo orgánico", "points": 1 },
+              { "number": "33", "prompt": "\"...ni se encerraba en los muros...\" (Párrafo 6)", "answer": "el verdadero merengue", "points": 1 }
             ]
           },
           {
-            "instructions": "Preguntas 28–31: Opción múltiple. Elige la respuesta correcta para cada pregunta basándote en el texto.",
+            "instructions": "Preguntas 34–37: Opción múltiple. Elige la respuesta correcta para cada pregunta basándote en el texto. [4 puntos]",
             "type": "multiple_choice",
             "questions": [
-              { "number": "28", "prompt": "La frase \"miraba las notas musicales... como si fueran insectos muertos\" (Párrafo 1) sugiere que la composición de Mateo era...", "options": { "A": "muy difícil de leer y tocar.", "B": "técnicamente incorrecta.", "C": "estática y carente de vida.", "D": "molesta para sus oídos." }, "answer": "C", "points": 1 },
-              { "number": "29", "prompt": "Al principio del texto, el principal conflicto interno de Mateo es que...", "options": { "A": "no tiene suficiente talento para ganar el conservatorio.", "B": "su educación académica le impide capturar la verdadera esencia de su cultura.", "C": "el ruido de su barrio no le permite concentrarse en sus estudios.", "D": "no recuerda cómo tocar los instrumentos tradicionales." }, "answer": "B", "points": 1 },
-              { "number": "30", "prompt": "En el tercer párrafo, el autor utiliza la descripción del entorno urbano para...", "options": { "A": "demostrar el nivel de pobreza de la ciudad.", "B": "ilustrar la falta de educación musical de los vecinos.", "C": "mostrar que la naturaleza es impredecible.", "D": "revelar que los ritmos musicales nacen de los sonidos cotidianos." }, "answer": "D", "points": 1 },
-              { "number": "31", "prompt": "¿Cuál es el mensaje principal de la revelación de Mateo en el último párrafo?", "options": { "A": "El arte auténtico surge de la experiencia vivida, no de las fórmulas matemáticas.", "B": "Para ser un buen músico, hay que abandonar los estudios teóricos por completo.", "C": "La lluvia es el elemento más importante para la inspiración de un artista.", "D": "Solo los dominicanos pueden entender la teoría musical del merengue." }, "answer": "A", "points": 1 }
+              { "number": "34", "prompt": "Al inicio del relato, el problema principal de Mateo con su composición es que:", "options": { "A": "No domina las progresiones de acordes más complejas.", "B": "Técnicamente es perfecta, pero carece de emoción, identidad y autenticidad.", "C": "Está plagiando involuntariamente una canción tradicional del barrio.", "D": "No consigue leer las notas que garabateó anteriormente en su papel." }, "answer": "B", "points": 1 },
+              { "number": "35", "prompt": "¿Cómo se describe la vida en las calles de Santo Domingo en el párrafo 3?", "options": { "A": "Como un lugar silencioso e inspirador para el estudio de la música clásica.", "B": "Como un espacio ordenado y regido por normas urbanísticas estrictas.", "C": "Como un ambiente caótico, profundamente vivo y desconectado de las reglas académicas.", "D": "Como una zona peligrosa donde los vecinos prefieren no interactuar entre sí." }, "answer": "C", "points": 1 },
+              { "number": "36", "prompt": "La reacción de Mateo en el párrafo 5 frente a la lluvia indica que él:", "options": { "A": "Se asusta genuinamente por la intensidad repentina de la tormenta tropical.", "B": "Se frustra porque el ruido ambiental ahoga las notas de su piano.", "C": "Descubre mágicamente que los sonidos ambientales forman la estructura musical que tanto buscaba.", "D": "Decide abandonar sus estudios formales para dedicarse a tocar en la calle." }, "answer": "C", "points": 1 },
+              { "number": "37", "prompt": "¿Qué significado profundo tiene la decisión de Mateo de \"olvidarse por completo de las reglas teóricas\" al final del texto?", "options": { "A": "Que a partir de ese momento priorizará la expresión del sentimiento y su cultura sobre la técnica rígida.", "B": "Que ha llegado a la conclusión de que la música clásica no sirve para nada en la República Dominicana.", "C": "Que ha decidido reprobar el certamen del conservatorio a propósito como acto de rebeldía.", "D": "Que compondrá una pieza exclusiva de percusión sin volver a utilizar el piano." }, "answer": "A", "points": 1 }
             ]
           },
           {
-            "instructions": "Preguntas 32–34: Respuestas cortas. Basándote en el párrafo 4, relaciona los sonidos de la vida cotidiana con los instrumentos correspondientes.",
+            "instructions": "Preguntas 38–40: Respuestas cortas. Basándote en el párrafo 5, contesta a las siguientes preguntas indicando qué instrumento representa cada sonido callejero en la mente de Mateo. [3 puntos]",
             "type": "short_answer",
             "questions": [
-              { "number": "32", "prompt": "La lluvia repiqueteando contra el techo metálico representa:", "answer": "la güira (furiosa)", "points": 1 },
-              { "number": "33", "prompt": "El golpe de las piezas en el juego de mesa representa:", "answer": "la tambora (profunda)", "points": 1 },
-              { "number": "34", "prompt": "Los gritos y conversaciones de las personas en la calle representan:", "answer": "la línea de los metales / los metales", "points": 1 }
+              { "number": "38", "prompt": "El sonido de la lluvia al chocar contra los viejos techos metálicos representa:", "answer": "la güira (furiosa)", "points": 1 },
+              { "number": "39", "prompt": "El sonido que hacen las piezas del juego de dominó sobre la mesa representa:", "answer": "la tambora", "points": 1 },
+              { "number": "40", "prompt": "Los sonidos vocales de las personas conversando y gritando en la calle representan:", "answer": "la línea de los metales / los metales", "points": 1 }
             ]
           }
         ]
