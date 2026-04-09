@@ -6,37 +6,51 @@
         "text_id": "A",
         "title": "Texto A — Fuego, sátira y el dilema ecológico: Las Fallas de Valencia",
         "paragraphs": [
-          "La ciudad de Valencia experimenta cada mes de marzo una eclosión de arte efímero, pólvora y fervor popular conocida como Las Fallas. Lo que en sus albores, allá por el siglo XVIII, comenzó como una modesta costumbre del gremio de carpinteros —quienes quemaban los restos de madera y los parots (soportes de lámparas) en la víspera de la festividad de San José—, ha mutado en una industria cultural y turística que inyecta cientos de millones de euros en la economía local. Hoy, los \"ninots\", gigantescas esculturas que a menudo superan los veinte metros de altura, dominan el paisaje urbano con un propósito innegociable: la sátira mordaz. A través de la caricatura, los artistas falleros diseccionan y critican la actualidad política y los males endémicos de la sociedad contemporánea, sabiendo que su obra será consumida inexorablemente por las llamas el 19 de marzo, durante la mítica cremà.",
-          "No obstante, esta ancestral purificación por el fuego se enfrenta a un escrutinio sin precedentes en el siglo XXI. Durante décadas, la urgencia por abaratar costos y facilitar el modelado de figuras cada vez más faraónicas llevó a los constructores a sustituir la madera y el cartón piedra por el poliestireno expandido y el poliuretano. Como consecuencia, la cremà moderna genera una nube de humo negro altamente tóxica, liberando toneladas de dióxido de carbono y microplásticos a la atmósfera.",
-          "Ante la creciente presión de colectivos medioambientales y las estrictas normativas europeas, el mundo fallero se ha visto obligado a reinventarse. Un número cada vez mayor de comisiones está apostando por las llamadas \"fallas sostenibles\", retornando a los métodos tradicionales o experimentando con materiales de vanguardia, como la paja de arroz y las resinas vegetales, que garantizan una combustión limpia. El gran reto de Las Fallas ya no es solo sobrevivir a las críticas, sino demostrar que es posible preservar la monumentalidad y la herencia cultural sin comprometer el futuro del planeta."
+          "La ciudad de Valencia experimenta cada mes de marzo una eclosión de arte efímero, pólvora y fervor popular conocida como Las Fallas. Lo que en sus albores, allá por el siglo XVIII, comenzó como una modesta costumbre del gremio de carpinteros —quienes quemaban los restos de madera y los 'parots' (soportes de lámparas) en la víspera de la festividad de San José para celebrar el fin del oscuro invierno—, ha mutado en una industria cultural y turística sin parangón que inyecta cientos de millones de euros en la economía local. Hoy, los 'ninots', gigantescas y coloridas esculturas que a menudo superan los veinte metros de altura, dominan el paisaje urbano con un propósito innegociable: la sátira mordaz. A través de la caricatura, los artistas falleros diseccionan y critican la actualidad política y los males endémicos de la sociedad contemporánea, sabiendo que su intrincada obra será consumida inexorablemente por las llamas el 19 de marzo, durante la mítica 'cremà'.",
+          "No obstante, esta ancestral purificación por el fuego se enfrenta a un escrutinio sin precedentes en el siglo XXI. Durante décadas, la urgencia por abaratar costos y facilitar el modelado de figuras cada vez más faraónicas llevó a los constructores a sustituir progresivamente la madera y el cartón piedra por el poliestireno expandido y el poliuretano. Como consecuencia indeseada, la 'cremà' moderna genera una nube de humo negro altamente tóxica, liberando toneladas de dióxido de carbono y microplásticos a la atmósfera, lo que ha provocado la alarma entre los expertos en salud pública y las autoridades.",
+          "Ante la creciente presión de colectivos medioambientales y las estrictas normativas europeas contra la contaminación, el mundo fallero se ha visto en la difícil encrucijada de reinventarse o perecer. Un número cada vez mayor de comisiones está apostando decididamente por las llamadas 'fallas sostenibles', retornando a los métodos tradicionales o experimentando con materiales de vanguardia. Entre estas innovaciones destaca el uso de la paja de arroz, un residuo agrícola abundante en la región, combinado con resinas vegetales, garantizando así una combustión limpia y libre de emisiones contaminantes severas.",
+          "El debate, sin embargo, sigue polarizando a la sociedad valenciana. Los sectores más puristas de la fiesta argumentan que los nuevos biomateriales encarecen los costes de producción en más de un treinta por ciento y limitan la espectacularidad visual de los inmensos monumentos. Por su parte, los defensores acérrimos de la innovación sostienen que el verdadero espíritu de las Fallas es la renovación cíclica y que aferrarse a los plásticos industriales va en contra del propio significado purificador de la fiesta. El gran reto contemporáneo ya no es solo sobrevivir a las críticas satíricas, sino demostrar que es posible preservar la monumentalidad y la herencia cultural sin comprometer irremediablemente el futuro del planeta."
         ],
         "question_sections": [
           {
-            "instructions": "Preguntas 1–3: Verdadero o Falso con justificación. Marca [✓] la opción correcta y luego justifícala usando exactamente las palabras del texto. Las dos partes son necesarias para obtener [2 puntos].",
+            "instructions": "Preguntas 1–4: Verdadero o Falso con justificación. Las siguientes frases son verdaderas o falsas. Marca [✓] la opción correcta y luego justifícala usando las palabras tal como aparecen en el texto. Ambas partes son necesarias para obtener el punto. [4 puntos]",
             "type": "true_false_justification",
             "questions": [
-              { "number": "1", "prompt": "Las Fallas actuales generan un beneficio económico muy importante para Valencia.", "answer": "V, inyecta cientos de millones de euros en la economía local.", "points": 2 },
-              { "number": "2", "prompt": "El uso de poliestireno en las esculturas fue una decisión tomada para proteger el medioambiente.", "answer": "F, llevó a los constructores a sustituir la madera y el cartón piedra por el poliestireno expandido y el poliuretano (buscando) abaratar costos y facilitar el modelado.", "points": 2 },
-              { "number": "3", "prompt": "Todos los grupos falleros se niegan a cambiar los materiales con los que construyen sus monumentos.", "answer": "F, Un número cada vez mayor de comisiones está apostando por las llamadas 'fallas sostenibles'...", "points": 2 }
+              { "number": "1", "prompt": "Las esculturas de las Fallas tienen como meta principal embellecer de forma decorativa las calles de la ciudad.", "answer": "F, \"un propósito innegociable: la sátira mordaz.\"", "points": 1 },
+              { "number": "2", "prompt": "La utilización masiva del poliestireno se popularizó porque reducía los gastos y simplificaba el trabajo artístico.", "answer": "V, \"la urgencia por abaratar costos y facilitar el modelado de figuras\"", "points": 1 },
+              { "number": "3", "prompt": "Todos los habitantes de Valencia respaldan unánimemente la transición inmediata hacia los biomateriales.", "answer": "F, \"El debate, sin embargo, sigue polarizando a la sociedad valenciana.\"", "points": 1 },
+              { "number": "4", "prompt": "Ciertos grupos falleros están empleando restos de cultivos agrícolas de la zona para crear sus monumentos.", "answer": "V, \"el uso de la paja de arroz, un residuo agrícola abundante en la región\"", "points": 1 }
             ]
           },
           {
-            "instructions": "Preguntas 4–7: Búsqueda de palabras (Sinónimos). Busca en los párrafos 1 y 2 las palabras que sean más próximas en significado a las siguientes expresiones.",
+            "instructions": "Preguntas 5–8: Búsqueda de palabras (Sinónimos). Busca en el texto las palabras que sean más próximas en significado a las siguientes expresiones. [4 puntos]",
             "type": "synonym_search",
             "questions": [
-              { "number": "4", "prompt": "Primeros tiempos o comienzos de algo (Párrafo 1)", "answer": "albores", "points": 1 },
-              { "number": "5", "prompt": "Analizan con gran detalle y atención (Párrafo 1)", "answer": "diseccionan", "points": 1 },
-              { "number": "6", "prompt": "Que no se puede evitar, detener o eludir (Párrafo 1)", "answer": "inexorablemente", "points": 1 },
-              { "number": "7", "prompt": "Examen, análisis o investigación muy detallada y rigurosa (Párrafo 2)", "answer": "escrutinio", "points": 1 }
+              { "number": "5", "prompt": "Inicios o primeros tiempos de algo (Párrafo 1)", "answer": "albores", "points": 1 },
+              { "number": "6", "prompt": "Inevitablemente o sin posibilidad de impedirlo (Párrafo 1)", "answer": "inexorablemente", "points": 1 },
+              { "number": "7", "prompt": "Examen, análisis o investigación muy detallada y rigurosa (Párrafo 2)", "answer": "escrutinio", "points": 1 },
+              { "number": "8", "prompt": "Dividiendo a las personas en posturas muy opuestas (Párrafo 4)", "answer": "polarizando", "points": 1 }
             ]
           },
           {
-            "instructions": "Preguntas 8–10: Opción múltiple. Elige la respuesta correcta.",
-            "type": "multiple_choice",
+            "instructions": "Preguntas 9–13: Relacionar mitades. Une la primera parte de la frase (9–13) con su final correspondiente de la lista (A–H) basándote en el texto. [5 puntos]",
+            "type": "matching",
+            "options": {
+              "A": "...permite una incineración limpia y sin emanaciones tóxicas.",
+              "B": "...nació originalmente de una vieja costumbre de los carpinteros.",
+              "C": "...suponen un gravísimo riesgo para la calidad del aire y la salud.",
+              "D": "...afirman que la esencia de la festividad es la constante evolución.",
+              "E": "...tiene la intención principal de denunciar problemas sociales y políticos.",
+              "F": "...argumentan que estos elevan demasiado el precio y limitan la estética.",
+              "G": "...destruye por completo el atractivo turístico internacional de la urbe.",
+              "H": "...prohíbe estrictamente el uso de cualquier tipo de fuego en las calles."
+            },
             "questions": [
-              { "number": "8", "prompt": "Según el primer párrafo, el objetivo fundamental de los \"ninots\" es:", "options": { "A": "Honrar exclusivamente la figura de San José mediante el arte.", "B": "Burlarse y denunciar los problemas y personajes de la actualidad.", "C": "Ganar dinero en concursos internacionales de escultura.", "D": "Educar a los jóvenes sobre la historia de los carpinteros." }, "answer": "B", "points": 1 },
-              { "number": "9", "prompt": "En el texto, la palabra \"faraónicas\" (párrafo 2) se utiliza para describir esculturas que son...", "options": { "A": "de origen egipcio.", "B": "antiguas y de gran valor histórico.", "C": "extremadamente grandes y ambiciosas.", "D": "incomprensibles para el público general." }, "answer": "C", "points": 1 },
-              { "number": "10", "prompt": "La conclusión principal del tercer párrafo es que:", "options": { "A": "La fiesta desaparecerá si la Unión Europea lo prohíbe.", "B": "El uso de paja de arroz ha encarecido la festividad de forma extrema.", "C": "La tradición debe adaptarse ecológicamente para asegurar su continuidad.", "D": "Los materiales modernos son superiores visualmente al cartón piedra." }, "answer": "C", "points": 1 }
+              { "number": "9", "prompt": "La tradición de quemar estructuras de madera en el mes de marzo...", "answer": "B", "points": 1 },
+              { "number": "10", "prompt": "La imponente creación y exhibición en las calles de los 'ninots'...", "answer": "E", "points": 1 },
+              { "number": "11", "prompt": "Los derivados plásticos utilizados masivamente en las esculturas modernas...", "answer": "C", "points": 1 },
+              { "number": "12", "prompt": "El novedoso empleo experimental de la paja de arroz...", "answer": "A", "points": 1 },
+              { "number": "13", "prompt": "Los críticos conservadores respecto a los nuevos materiales ecológicos...", "answer": "F", "points": 1 }
             ]
           }
         ]
@@ -45,57 +59,48 @@
         "text_id": "B",
         "title": "Texto B — El Inti Raymi: Resistencia y renacimiento de la identidad andina",
         "paragraphs": [
-          "Cada 24 de junio, la imponente arquitectura de la ciudad de Cusco se estremece con el sonido de los pututus (caracolas andinas) y el resonar de los tambores. Es el Inti Raymi, la legendaria \"Fiesta del Sol\". Para el antiguo Imperio Inca, el solsticio de invierno austral marcaba un punto de inflexión cósmico; era el momento en el que el sol (Inti) se alejaba al máximo de la Tierra. El emperador, considerado el hijo vivo del astro, lideraba fastuosos rituales, sacrificios de llamas y ofrendas de chicha para rogarle al sol que no abandonara a su pueblo y asegurara la fertilidad de <u>sus</u> futuras cosechas. Era una ceremonia que afianzaba el poder político y la devoción religiosa del Tahuantinsuyo.",
-          "Sin embargo, tras la invasión española, la historia de esta festividad se sumió en las sombras. En 1572, el virrey Francisco de Toledo, en su celo por imponer la religión católica y erradicar lo que consideraba herejías, prohibió tajantemente el Inti Raymi. Durante siglos, la celebración sobrevivió únicamente en la clandestinidad y a través del complejo sincretismo religioso andino, donde los campesinos camuflaban sus plegarias al Sol detrás de la veneración a los santos católicos, como San Juan Bautista, <u>cuya</u> festividad coincidía en fechas.",
-          "El renacimiento oficial del Inti Raymi no ocurrió hasta 1944, impulsado por el historiador Humberto Vidal Unda y el escritor Faustino Espinoza Navarro. Basándose rigurosamente en las crónicas del Inca Garcilaso de la Vega, reconstruyeron el guion teatral en quechua. Hoy en día, la celebración congrega a cientos de actores locales en la monumental fortaleza de Sacsayhuamán. Lejos de ser un mero espectáculo coreografiado para el consumo del turismo internacional, el Inti Raymi contemporáneo representa un acto de profunda reivindicación histórica. Para las comunidades andinas, actuar en <u>él</u> no es un trabajo, sino un deber espiritual; una declaración de que, a pesar de los siglos de opresión, la sangre y la cultura incaica <u>siguen</u> latiendo con fuerza."
+          "Cada 24 de junio, la imponente arquitectura incaica y colonial de la ciudad de Cusco se estremece con el sonido de los 'pututus' (caracolas andinas) y el resonar rítmico de los tambores. Es el Inti Raymi, la legendaria 'Fiesta del Sol'. Para el antiguo Imperio Inca, el solsticio de invierno austral marcaba un punto de inflexión cósmico; era el momento exacto en el que el astro rey (Inti) se alejaba al máximo de la Tierra. El emperador, considerado el hijo vivo de la deidad, lideraba fastuosos rituales, sacrificios de llamas y copiosas ofrendas de chicha para rogarle al sol que no abandonara a su pueblo, revirtiera su alejamiento y asegurara la fertilidad de sus futuras cosechas. Era una ceremonia majestuosa que no solo cumplía una profunda función espiritual, sino que afianzaba el poder político y la cohesión territorial del vasto Tahuantinsuyo.",
+          "Sin embargo, tras la brutal invasión española y la abrupta caída del imperio, la historia de esta grandiosa festividad se sumió en las sombras de la censura. En 1572, el virrey Francisco de Toledo, en su implacable celo por imponer la religión católica y erradicar lo que consideraba flagrantes herejías, prohibió tajantemente la celebración del Inti Raymi. Durante siglos, la fiesta sobrevivió únicamente en la clandestinidad y a través del complejo sincretismo religioso andino. Los campesinos, aferrados valientemente a su cosmovisión, camuflaban astutamente sus plegarias al Sol detrás de la veneración a los santos católicos importados de Europa, como San Juan Bautista, cuya festividad cristiana coincidía sospechosamente en las mismas fechas del mes de junio.",
+          "El renacimiento oficial y documentado del Inti Raymi no ocurrió hasta el año 1944, en un loable esfuerzo impulsado por el historiador Humberto Vidal Unda y el dramaturgo y escritor quechua Faustino Espinoza Navarro. Basándose rigurosamente en las crónicas pormenorizadas del Inca Garcilaso de la Vega, ambos intelectuales reconstruyeron el intrincado guion teatral, asegurándose de que se mantuviera íntegramente en la lengua original de los Andes. Hoy en día, la magna celebración congrega a más de setecientos actores locales que desfilan solemne e ininterrumpidamente desde los jardines del antiguo templo del Coricancha hasta la monumental e imponente fortaleza de piedra de Sacsayhuamán.",
+          "Lejos de ser un mero espectáculo folclórico coreografiado exclusivamente para el consumo masivo del turismo internacional, el Inti Raymi contemporáneo representa un poderoso acto de profunda reivindicación histórica y social. Para las comunidades indígenas y mestizas andinas, actuar en él no constituye un simple trabajo remunerado, sino un inquebrantable y sagrado deber espiritual; es una rotunda declaración pública de que, a pesar de los siglos de opresión, marginalización sistemática y racismo estructural, la sangre y la herencia incaica siguen latiendo con inusitada fuerza en el corazón mismo de los Andes."
         ],
         "question_sections": [
           {
-            "instructions": "Pregunta 11: Frases verdaderas. Selecciona las cuatro frases verdaderas según el texto. Escribe las letras correspondientes en las casillas.",
+            "instructions": "Pregunta 14: Frases verdaderas. Selecciona las CUATRO frases verdaderas según el texto. Escribe las letras correspondientes en cualquier orden. [4 puntos]",
             "type": "multiple_select",
             "options": {
-              "A": "El Inti Raymi se celebraba para agradecer al Sol por las abundantes lluvias.",
-              "B": "El emperador inca utilizaba la ceremonia para consolidar su autoridad.",
-              "C": "Los conquistadores españoles permitieron la fiesta siempre que se cambiara de fecha.",
-              "D": "La celebración se mantuvo viva en secreto gracias a la mezcla con creencias católicas.",
-              "E": "La versión moderna de la fiesta fue inventada sin ningún tipo de base histórica.",
-              "F": "El idioma original de los incas se utiliza en la representación teatral moderna.",
-              "G": "El único propósito del Inti Raymi actual es atraer visitantes extranjeros a Cusco.",
-              "H": "Para los participantes de la zona, la representación es un acto de orgullo cultural."
+              "A": "El Inti Raymi se llevaba a cabo para conmemorar el momento en que el sol estaba más cerca de la Tierra.",
+              "B": "Las ceremonias antiguas servían tanto para propósitos religiosos como para consolidar el control político del imperio.",
+              "C": "Los colonizadores españoles permitieron la celebración siempre que el emperador se convirtiera al catolicismo.",
+              "D": "Los indígenas andinos utilizaban la figura de San Juan Bautista para adorar al Sol en secreto.",
+              "E": "La versión moderna del evento fue inventada desde cero en 1944 debido a la falta de textos históricos.",
+              "F": "La representación teatral contemporánea exige que los diálogos se pronuncien en lengua quechua.",
+              "G": "El principal y único propósito de la recreación moderna es generar ingresos a través del turismo extranjero.",
+              "H": "Para los participantes locales, formar parte de la ceremonia se vive como una responsabilidad cultural y espiritual."
             },
             "questions": [
-              { "number": "11", "prompt": "Selecciona las 4 verdaderas", "answer": ["B", "D", "F", "H"], "points": 4 }
+              { "number": "14-17", "prompt": "Selecciona las 4 verdaderas", "answer": ["B", "D", "F", "H"], "points": 4 }
             ]
           },
           {
-            "instructions": "Preguntas 12–15: Identificación de referencia. ¿A qué o a quién se refieren las palabras subrayadas en el texto?",
+            "instructions": "Preguntas 18–21: Identificación de referencia. ¿A qué o a quién se refieren las palabras subrayadas en el texto? [4 puntos]",
             "type": "reference",
             "questions": [
-              { "number": "12", "prompt": "\"...fertilidad de <u>sus</u> futuras cosechas.\" (Párrafo 1)", "answer": "de su pueblo / del pueblo / de los incas", "points": 1 },
-              { "number": "13", "prompt": "\"...<u>cuya</u> festividad coincidía en fechas.\" (Párrafo 2)", "answer": "de San Juan Bautista", "points": 1 },
-              { "number": "14", "prompt": "\"...actuar en <u>él</u> no es un trabajo...\" (Párrafo 3)", "answer": "en el Inti Raymi / en la celebración / en el espectáculo", "points": 1 },
-              { "number": "15", "prompt": "\"...la cultura incaica <u>siguen</u> latiendo...\" (Párrafo 3)", "answer": "la sangre y la cultura incaica", "points": 1 }
+              { "number": "18", "prompt": "\"...fertilidad de sus futuras cosechas.\" (Párrafo 1)", "answer": "de su pueblo / de los incas", "points": 1 },
+              { "number": "19", "prompt": "\"...cuya festividad cristiana coincidía...\" (Párrafo 2)", "answer": "(de) San Juan Bautista", "points": 1 },
+              { "number": "20", "prompt": "\"...actuar en él no constituye...\" (Párrafo 4)", "answer": "en el Inti Raymi (contemporáneo)", "points": 1 },
+              { "number": "21", "prompt": "\"...siguen latiendo con inusitada fuerza...\" (Párrafo 4)", "answer": "la sangre y la herencia incaica", "points": 1 }
             ]
           },
           {
-            "instructions": "Preguntas 16–20: Relacionar mitades. Basándote en el texto, une la primera parte de la frase (A–E) con su final correspondiente de la lista (I–VIII).",
-            "type": "matching",
-            "options": {
-              "I": "...el imperio Inca nunca fue derrotado militarmente.",
-              "II": "...pudieran adorar a sus propios dioses en secreto.",
-              "III": "...un momento de crisis que requería intervención divina.",
-              "IV": "...recuperar y escribir los diálogos originales de la ceremonia.",
-              "V": "...el orgullo por las raíces indígenas sigue muy vivo.",
-              "VI": "...eliminar cualquier práctica que no fuera cristiana.",
-              "VII": "...el clima extremo impedía la agricultura en las montañas.",
-              "VIII": "...educar a los turistas sobre la religión católica."
-            },
+            "instructions": "Preguntas 22–26: Opción múltiple. Elige la respuesta correcta para cada pregunta basándote en el texto. [5 puntos]",
+            "type": "multiple_choice",
             "questions": [
-              { "number": "16", "prompt": "A. Para los antiguos incas, el solsticio de invierno suponía...", "answer": "III", "points": 1 },
-              { "number": "17", "prompt": "B. La prohibición ordenada por el virrey de Toledo tenía como fin...", "answer": "VI", "points": 1 },
-              { "number": "18", "prompt": "C. La figura de San Juan Bautista sirvió para que los indígenas...", "answer": "II", "points": 1 },
-              { "number": "19", "prompt": "D. La labor de Faustino Espinoza Navarro consistió en...", "answer": "IV", "points": 1 },
-              { "number": "20", "prompt": "E. La representación teatral en Sacsayhuamán demuestra que...", "answer": "V", "points": 1 }
+              { "number": "22", "prompt": "Según el primer párrafo, los opulentos rituales y sacrificios del solsticio se llevaban a cabo primordialmente para:", "options": { "A": "Celebrar el majestuoso nacimiento del nuevo emperador inca.", "B": "Agradecer a los dioses andinos por el comienzo de las lluvias de verano.", "C": "Rogar al astro que regresara de su lejanía y garantizara así la agricultura.", "D": "Exhibir el poderío bélico y militar frente a las tribus enemigas vecinas." }, "answer": "C", "points": 1 },
+              { "number": "23", "prompt": "La estricta prohibición de la fiesta en el año 1572 por parte del virrey fue motivada directamente por:", "options": { "A": "La grave escasez de recursos económicos y alimenticios en el virreinato español.", "B": "El afán radical de erradicar cualquier creencia que se opusiera al dogma católico.", "C": "Una letal epidemia importada que castigó severamente a la población de Cusco.", "D": "Una sangrienta rebelión organizada en secreto por los sacerdotes de la nobleza." }, "answer": "B", "points": 1 },
+              { "number": "24", "prompt": "La palabra 'sincretismo', empleada en el segundo párrafo, hace referencia directa a:", "options": { "A": "La destrucción física y sistemática de los grandes templos de una cultura conquistada.", "B": "El prolongado proceso de traducir textos sagrados españoles al idioma quechua.", "C": "La inteligente fusión y ocultación de ritos indígenas bajo la apariencia de la religión católica.", "D": "El proceso de evangelización puramente pacífica de los poblados de los Andes." }, "answer": "C", "points": 1 },
+              { "number": "25", "prompt": "La contribución fundamental de Faustino Espinoza Navarro al Inti Raymi moderno consistió en:", "options": { "A": "Actuar asumiendo el rol del dios Inti durante la primera celebración del siglo XX.", "B": "Financiar el monumental evento utilizando fondos del incipiente turismo internacional.", "C": "Convencer pacíficamente a la iglesia católica para que permitiera la realización de la fiesta.", "D": "Reconstruir los diálogos originales en idioma quechua utilizando crónicas históricas." }, "answer": "D", "points": 1 },
+              { "number": "26", "prompt": "El contundente mensaje central que transmite el último párrafo es que el Inti Raymi en la actualidad:", "options": { "A": "Es un producto publicitario y una herramienta exclusiva de marketing para extranjeros.", "B": "Supone una carga laboral abusiva e injustificada para las comunidades andinas locales.", "C": "Es un enérgico acto de resistencia social y un profundo orgullo de la identidad indígena.", "D": "Ha perdido por completo su valor espiritual ancestral a causa de su inmensa comercialización." }, "answer": "C", "points": 1 }
             ]
           }
         ]
@@ -104,51 +109,52 @@
         "text_id": "C",
         "title": "Texto C — Lágrimas de chile y chocolate",
         "paragraphs": [
-          "El mortero de piedra volcánica pesaba bajo las manos de Catalina, pero ella seguía triturando los chiles anchos con una furia rítmica y desesperada. La cocina de la hacienda estaba envuelta en un vapor denso que olía a almendras tostadas, canela y cacao amargo, los cimientos del mole nupcial que debía preparar para su hermana. El problema no era el calor de los fogones de leña, sino el nudo de congoja que le apretaba la garganta. Eduardo, el hombre que le había jurado amor eterno bajo la sombra del tamarindo, era el novio de aquella boda.",
-          "Catalina intentó contenerse, pero fue inútil. Una sola lágrima, densa y cargada de una tristeza antigua, resbaló por su mejilla y aterrizó directamente en el cuenco de barro donde reposaba la espesa salsa de chocolate. El líquido oscuro burbujeó durante un segundo, como si hubiera absorbido el dolor, y luego volvió a su estado natural de aparente calma. Catalina suspiró, ignorando que acababa de alterar la química misma del platillo.",
-          "Horas más tarde, la cena transcurría con el bullicio habitual de las celebraciones adineradas. Sin embargo, en cuanto los invitados probaron el primer bocado del mole poblano, el silencio cayó sobre el comedor como una manta pesada. No fue un silencio de admiración por la receta, sino de una melancolía fulminante. El general don Pedro soltó el tenedor, recordando de golpe a la madre que no veía desde hacía treinta años; la novia comenzó a sollozar inconsolablemente, asaltada por un repentino e inexplicable arrepentimiento; y Eduardo, al sentir el regusto picante en el paladar, sintió un vacío en el pecho que lo obligó a levantarse de la mesa buscando aire.",
-          "Desde la puerta de la cocina, Catalina observaba la escena. Su tristeza ya no le pertenecía solo a ella; ahora, a través de la alquimia de sus manos, cien comensales compartían el peso de su corazón roto. Había comprendido, por fin, que los ingredientes no solo alimentan el cuerpo, sino que son vasijas dispuestas a transportar el alma de quien los cocina."
+          "El pesado mortero de piedra volcánica crujía quejumbrosamente bajo las manos curtidas de Catalina, pero ella, ajena al enorme cansancio físico, seguía triturando los chiles anchos con una furia rítmica y desesperada. La inmensa y oscura cocina de la hacienda estaba envuelta en un vapor denso que olía a almendras tostadas, canela recién molida y cacao amargo; estos ingredientes formaban los cimientos aromáticos del exuberante mole poblano que Catalina debía preparar, sin margen de error, para el inminente banquete nupcial de su hermana menor. El problema que la atormentaba no era el asfixiante calor emanado de los fogones de leña ni el abrumador volumen de trabajo doméstico, sino el doloroso e insoportable nudo de congoja que le apretaba la garganta impidiéndole respirar. Eduardo, el hombre que tan solo unos meses atrás le había jurado amor eterno bajo la romántica sombra del viejo tamarindo, era el flamante novio que aguardaba ahora en el altar principal.",
+          "Catalina intentó contenerse mordiéndose el labio inferior hasta casi hacerlo sangrar, pero la fuerza visceral de la traición y la desilusión fue muy superior a su férrea voluntad. Una sola lágrima, excepcionalmente densa y cargada de una tristeza antigua y corrosiva, resbaló velozmente por su mejilla ruborizada por el calor y aterrizó de lleno en el enorme cuenco de barro oscuro donde reposaba la espesa y brillante salsa de chocolate especiado. El líquido hirviente burbujeó durante un instante casi imperceptible, como si hubiera absorbido físicamente el desgarro más profundo de su alma, y luego volvió a su estado de aparente y engañosa calma. Catalina suspiró profundamente y continuó removiendo la mezcla con una cuchara de madera, ignorando por completo que acababa de alterar la química misma del platillo mediante un involuntario acto de alquimia emocional.",
+          "Varias horas más tarde, la lujosa cena de gala transcurría con el bullicio habitual y la frivolidad propia de las celebraciones adineradas de la alta sociedad del siglo XIX. Las copas de cristal cortado chocaban en brindis sucesivos y las risas vacías resonaban en el inmenso salón decorado con cientos de guirnaldas florales. Sin embargo, en cuanto los refinados invitados probaron el primer bocado del esperado mole poblano, el silencio cayó sobre el comedor de forma aplastante, como una losa de plomo. No fue un silencio de admiración gastronómica ante la impecable ejecución de la receta, sino el oscuro preludio de una melancolía fulminante y colectiva que se apoderó del recinto.",
+          "De manera súbita e inquietante, el severo general don Pedro soltó el tenedor de plata sobre la porcelana, recordando de golpe y con un dolor agudo a la madre enferma que no veía desde hacía treinta años; la joven novia, radiante y altiva hasta ese momento, comenzó a sollozar inconsolablemente sobre su vestido de encaje, asaltada por un repentino e inexplicable arrepentimiento sobre su prematuro matrimonio; y el propio Eduardo, al percibir el regusto intensamente amargo y picante en su paladar, experimentó un vacío glacial en el pecho que lo asfixió y lo obligó a levantarse torpemente de la larga mesa buscando el consuelo del aire frío de la noche abierta.",
+          "Escondida cautelosamente tras la gruesa puerta de roble de la cocina, Catalina observaba atónita y en silencio la devastadora escena que se desarrollaba ante sus ojos. Su abrumadora tristeza ya no le pertenecía exclusivamente a ella en la oscura soledad de los fogones; ahora, a través de la misteriosa y poderosa magia que desprendían sus manos manchadas de especias, más de cien elegantes comensales compartían íntegramente el aplastante peso de su corazón roto. Comprendió en ese instante revelador que los ingredientes culinarios no solo sirven para saciar el hambre del cuerpo físico, sino que son frágiles vasijas permeables, siempre dispuestas a transportar el alma, la pasión inextinguible y los profundos sufrimientos de la persona que los cocina."
         ],
         "question_sections": [
           {
-            "instructions": "Preguntas 21–23: Búsqueda de palabras (Sinónimos). Busca en el texto las palabras que sean más próximas en significado a las siguientes expresiones.",
+            "instructions": "Preguntas 27–29: Búsqueda de palabras (Sinónimos). Busca en el texto las palabras que sean más próximas en significado a las siguientes descripciones. [3 puntos]",
             "type": "synonym_search",
             "questions": [
-              { "number": "21", "prompt": "Angustia o tristeza muy profunda e intensa (Párrafo 1)", "answer": "congoja", "points": 1 },
-              { "number": "22", "prompt": "Ruido, agitación o alboroto causado por muchas personas (Párrafo 3)", "answer": "bullicio", "points": 1 },
-              { "number": "23", "prompt": "Sensación o sabor que queda en la boca después de comer algo (Párrafo 3)", "answer": "regusto", "points": 1 }
+              { "number": "27", "prompt": "Angustia, aflicción o pena muy profunda e intensa (Párrafo 1)", "answer": "congoja", "points": 1 },
+              { "number": "28", "prompt": "Superficialidad, ligereza o absoluta falta de seriedad (Párrafo 3)", "answer": "frivolidad", "points": 1 },
+              { "number": "29", "prompt": "Que destruye, arruina o genera un impacto desolador y trágico (Párrafo 5)", "answer": "devastadora", "points": 1 }
             ]
           },
           {
-            "instructions": "Preguntas 24–27: Opción múltiple. Elige la respuesta correcta para cada pregunta basándote en el texto.",
+            "instructions": "Preguntas 30–33: Opción múltiple. Elige la respuesta correcta para cada pregunta basándote en el texto. [4 puntos]",
             "type": "multiple_choice",
             "questions": [
-              { "number": "24", "prompt": "Según el primer párrafo, Catalina preparaba el mole con \"furia rítmica\" porque:", "options": { "A": "Se sentía ofendida por tener que cocinar para toda la familia.", "B": "Estaba preparando la comida para la boda del hombre que amaba.", "C": "El mortero de piedra era demasiado pesado para ella.", "D": "Odiaba el fuerte olor de las almendras y los chiles." }, "answer": "B", "points": 1 },
-              { "number": "25", "prompt": "En el segundo párrafo, cuando la lágrima cae en la salsa, el autor utiliza esta imagen para demostrar que:", "options": { "A": "La higiene en la cocina de la hacienda era muy deficiente.", "B": "Catalina había arruinado el sabor tradicional del platillo.", "C": "Las emociones de la protagonista se habían fusionado mágicamente con la comida.", "D": "La salsa estaba demasiado caliente y necesitaba enfriarse." }, "answer": "C", "points": 1 },
-              { "number": "26", "prompt": "¿Qué efecto produjo el primer bocado del plato en los invitados? (Párrafo 3)", "options": { "A": "Les provocó una inmensa admiración por el talento culinario de Catalina.", "B": "Les causó dolor de estómago por el exceso de picante.", "C": "Les invadió una tristeza y nostalgia incontrolables.", "D": "Les recordó el amor que sentían por los recién casados." }, "answer": "C", "points": 1 },
-              { "number": "27", "prompt": "El tema principal que se ilustra en el último párrafo es:", "options": { "A": "La venganza de una mujer traicionada por su familia.", "B": "El poder de la comida como canalizador de las emociones humanas.", "C": "El egoísmo de las clases altas en las fiestas tradicionales.", "D": "La importancia de seguir las recetas mexicanas al pie de la letra." }, "answer": "B", "points": 1 }
+              { "number": "30", "prompt": "En el primer párrafo, Catalina se encuentra triturando los chiles con 'furia rítmica' y desesperación debido a que:", "options": { "A": "Cuenta con muy poco tiempo para terminar los preparativos del extenso banquete.", "B": "Se ve obligada a cocinar para el inminente matrimonio del hombre que ella ama.", "C": "Se siente profundamente frustrada por el insoportable peso del mortero de piedra.", "D": "Los olores intensos de la cocina le resultan desagradables, asfixiantes y molestos." }, "answer": "B", "points": 1 },
+              { "number": "31", "prompt": "¿Qué nos sugiere narrativamente el sutil burbujeo de la salsa (mencionado en el párrafo 2)?", "options": { "A": "Que la olla de barro estaba expuesta a un fuego de leña excesivamente alto y peligroso.", "B": "Que la pesada lágrima de Catalina había arruinado por completo la salinidad del mole.", "C": "Que los sentimientos más profundos de la protagonista se integraron físicamente en la comida.", "D": "Que era urgente añadir mucha más cantidad de cacao para estabilizar la mezcla líquida." }, "answer": "C", "points": 1 },
+              { "number": "32", "prompt": "El dramático y repentino cambio de atmósfera entre los invitados al banquete (párrafo 3) se produjo:", "options": { "A": "Momentos antes de que los sirvientes presentaran el ansiado platillo principal.", "B": "De forma inmediata, exactamente en el momento en que degustaron el mole poblano.", "C": "Únicamente cuando Catalina irrumpió en el comedor general envuelta en lágrimas.", "D": "Porque todos descubrieron que la comida estaba exageradamente picante y amarga." }, "answer": "B", "points": 1 },
+              { "number": "33", "prompt": "¿Qué importante revelación sobre el exigente arte culinario extrae Catalina en el último párrafo?", "options": { "A": "Que la suntuosa comida de las grandes bodas tiene una tendencia natural al fracaso.", "B": "Que un buen chef debe mantener siempre la mente fría, técnica e imparcial al cocinar.", "C": "Que la comida actúa como un poderoso conducto que transmite los sentimientos de su creador.", "D": "Que una sola lágrima es capaz de intoxicar gravemente los ingredientes más caros de una receta." }, "answer": "C", "points": 1 }
             ]
           },
           {
-            "instructions": "Preguntas 28–30: Respuestas cortas. Contesta de manera breve a las siguientes preguntas (máximo 10 palabras por respuesta).",
+            "instructions": "Preguntas 34–36: Respuestas cortas. Contesta a las siguientes preguntas indicando detalles específicos. (Máximo 10 palabras por respuesta). [3 puntos]",
             "type": "short_answer",
             "questions": [
-              { "number": "28", "prompt": "¿Con qué ingredientes aromáticos principales está preparando la base del mole?", "answer": "Almendras (tostadas), canela y cacao (amargo) / chiles (anchos).", "points": 1 },
-              { "number": "29", "prompt": "¿A quién recordó de manera repentina el general don Pedro?", "answer": "A su madre / a la madre que no veía.", "points": 1 },
-              { "number": "30", "prompt": "¿Qué reacción física tuvo Eduardo al probar la comida?", "answer": "Se levantó (de la mesa) buscando aire / sintió un vacío en el pecho.", "points": 1 }
+              { "number": "34", "prompt": "¿Qué tres ingredientes aromáticos se mencionan explícitamente como la base o los cimientos del mole nupcial?", "answer": "almendras (tostadas), canela (recién molida) y cacao (amargo)", "points": 1 },
+              { "number": "35", "prompt": "¿Qué fuerte emoción o sentimiento repentino atacó de inmediato a la joven novia tras ingerir el platillo?", "answer": "(un repentino e inexplicable) arrepentimiento (sobre su prematuro matrimonio)", "points": 1 },
+              { "number": "36", "prompt": "¿Qué acción inmediata realizó Eduardo a causa de la asfixiante sensación glacial en su pecho?", "answer": "se levantó (torpemente de la mesa) buscando el aire", "points": 1 }
             ]
           },
           {
-            "instructions": "Preguntas 31–34: Completar espacios en blanco. Elige de la lista (A–J) la palabra apropiada para completar cada espacio en el resumen de la historia. Usa cada letra solo una vez.",
+            "instructions": "Preguntas 37–40: Completar espacios en blanco. Elige de la lista (A–J) la palabra apropiada para completar cada espacio en el resumen de la historia. Usa cada letra solo una vez. [4 puntos]",
             "type": "fill_in_the_blank",
             "options": {
-              "A": "realismo", "B": "receta", "C": "decepción", "D": "mole", "E": "alegría", "F": "tristeza", "G": "surrealismo", "H": "veneno", "I": "mortero", "J": "tranquilidad"
+              "A": "boda", "B": "magia", "C": "empatía", "D": "dolor", "E": "melancolía", "F": "llorar", "G": "receta", "H": "vehículo", "I": "felicidad", "J": "venganza"
             },
             "questions": [
-              { "number": "31", "prompt": "El fragmento relata cómo Catalina, sumida en una profunda [ – 31 – ] sentimental, se encarga del banquete nupcial.", "answer": "C", "points": 1 },
-              { "number": "32", "prompt": "Sin quererlo, una de sus lágrimas cae en el [ – 32 – ] que está cocinando.", "answer": "D", "points": 1 },
-              { "number": "33", "prompt": "Esto desencadena un fenómeno de [ – 33 – ] mágico...", "answer": "A", "points": 1 },
-              { "number": "34", "prompt": "...provocando que todos los invitados que comen el plato experimenten una ola de [ – 34 – ] inexplicable.", "answer": "F", "points": 1 }
+              { "number": "37", "prompt": "El texto narra cómo Catalina, profundamente desconsolada, prepara a solas el opulento banquete de [ – 37 – ].", "answer": "A", "points": 1 },
+              { "number": "38", "prompt": "Al derramar accidentalmente una pesada lágrima en la olla, su inmenso [ – 38 – ] se transfiere al tradicional platillo.", "answer": "D", "points": 1 },
+              { "number": "39", "prompt": "Cuando los sofisticados invitados consumen la comida, abandonan su actitud superficial y comienzan a sentir una inexplicable [ – 39 – ].", "answer": "E", "points": 1 },
+              { "number": "40", "prompt": "Ante la devastadora escena, Catalina comprende finalmente que el arte de la cocina actúa como un [ – 40 – ] directo para las emociones.", "answer": "H", "points": 1 }
             ]
           }
         ]
