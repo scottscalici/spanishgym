@@ -1,0 +1,265 @@
+{
+  "worksheet": {
+    "title": "Práctica de Lectura IB: Nivel Superior (Modelo 4)",
+    "texts": [
+      {
+        "text_id": "A",
+        "title": "Texto A — El laberinto del sobreturismo: Barcelona y Andalucía",
+        "paragraphs": [
+          "España se consolida año tras año como uno de los destinos más visitados del mundo, famoso por su vibrante cultura, su patrimonio milenario y un clima privilegiado. Sin embargo, el rotundo éxito de la industria turística ha traído consigo un fenómeno cada vez más preocupante conocido como 'sobreturismo'. Destinos icónicos como la ciudad de Barcelona o la comunidad de Andalucía están sufriendo las severas consecuencias de recibir a muchos más visitantes de los que su infraestructura urbana y su ecosistema natural pueden soportar de manera sostenible. Lo que en las décadas pasadas era considerado casi exclusivamente como una bendición económica, hoy genera tensiones sociales considerables.",
+          "En Barcelona, el epicentro del conflicto es la gentrificación y la saturación del espacio público. Las estrechas y pintorescas calles del Barrio Gótico o los alrededores de la Sagrada Familia suelen estar intransitables. [ – 1 – ], la proliferación descontrolada de apartamentos turísticos de alquiler a corto plazo ha provocado que el precio de la vivienda se dispare drásticamente. Esto obliga a los residentes de toda la vida a abandonar sus barrios natales porque ya no pueden pagar el alquiler mensual. [ – 2 – ], las panaderías y mercados tradicionales están siendo rápidamente sustituidos por franquicias internacionales y tiendas de recuerdos, lo que destruye el auténtico tejido comercial de la ciudad.",
+          "Por su parte, en Andalucía, el sobreturismo presenta desafíos adicionales que están íntimamente relacionados con la crisis climática. Monumentos de incalculable valor como la Alhambra de Granada sufren el desgaste físico irremediable por las miles de pisadas diarias. [ – 3 – ], la región del sur se enfrenta a graves y prolongados períodos de sequía. Diversos estudios indican que un turista durante los calurosos meses de verano puede llegar a consumir hasta cuatro veces más agua al día que un residente local, debido al uso de piscinas y campos de golf. Esto agrava una situación hídrica que ya es crítica para el sector agrícola andaluz.",
+          "Para intentar salvar la industria sin destruir el país, las autoridades locales están buscando soluciones urgentes. Se están implementando medidas legales estrictas para limitar la apertura de nuevos pisos turísticos y cobrar tasas medioambientales a los visitantes extranjeros. [ – 4 – ], es absolutamente fundamental promover un nuevo modelo de viaje ético, invitando a los viajeros a descubrir España durante la temporada baja, a consumir productos locales y a explorar zonas rurales menos masificadas."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 1–4: Completar espacios en blanco. Elige de la lista el conector apropiado para rellenar los espacios en el texto. Hay más opciones de las necesarias.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "En consecuencia",
+              "B": "A pesar de todo",
+              "C": "Por otro lado",
+              "D": "Además",
+              "E": "Finalmente",
+              "F": "Aunque",
+              "G": "En resumen"
+            },
+            "questions": [
+              { "number": 1, "prompt": "Espacio [ – 1 – ]", "answer": "A", "points": 1 },
+              { "number": 2, "prompt": "Espacio [ – 2 – ]", "answer": "D", "points": 1 },
+              { "number": 3, "prompt": "Espacio [ – 3 – ]", "answer": "C", "points": 1 },
+              { "number": 4, "prompt": "Espacio [ – 4 – ]", "answer": "E", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 5–7: Identificación de referencia. ¿A qué se refieren las siguientes palabras en el texto?",
+            "type": "reference",
+            "questions": [
+              { "number": 5, "prompt": "su (párrafo 1)", "answer": "España", "points": 1 },
+              { "number": 6, "prompt": "Esto (párrafo 2)", "answer": "que el precio de la vivienda se dispare (drásticamente)", "points": 1 },
+              { "number": 7, "prompt": "Esto (párrafo 3)", "answer": "que un turista consuma hasta cuatro veces más agua al día (que un residente)", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 8–11: Verdadero o Falso con justificación. Marca si la afirmación es verdadera (V) o falsa (F) y justifica tu respuesta usando las palabras exactas del texto. Ambas partes son necesarias para obtener el punto.",
+            "type": "true_false_justification",
+            "questions": [
+              { "number": 8, "prompt": "En el pasado, el turismo era visto casi siempre como algo muy positivo para la economía.", "answer": "V, en las décadas pasadas era considerado casi exclusivamente como una bendición económica", "points": 1 },
+              { "number": 9, "prompt": "El comercio local en Barcelona está prosperando gracias a la llegada de visitantes.", "answer": "F, las panaderías y mercados tradicionales están siendo rápidamente sustituidos por franquicias internacionales (o: destruye el auténtico tejido comercial)", "points": 1 },
+              { "number": 10, "prompt": "Los turistas en Andalucía gastan la misma cantidad de agua que la gente que vive allí todo el año.", "answer": "F, un turista... puede llegar a consumir hasta cuatro veces más agua al día que un residente local", "points": 1 },
+              { "number": 11, "prompt": "Las autoridades prefieren que los turistas viajen a España en los meses de invierno u otoño.", "answer": "V, invitando a los viajeros a descubrir España durante la temporada baja", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 12–13: Respuestas cortas. Contesta basándote en el texto con la menor cantidad de palabras posible.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 12, "prompt": "¿Qué factor natural contribuye al daño de los antiguos monumentos en Andalucía (párrafo 3)?", "answer": "el desgaste físico irremediable por las (miles de) pisadas diarias", "points": 1 },
+              { "number": 13, "prompt": "¿Qué tipo de sanción o cobro económico se está aplicando a los viajeros para ayudar a resolver el problema (párrafo 4)?", "answer": "tasas medioambientales", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "B",
+        "title": "Texto B — El diamante de los sueños: El negocio de las academias de béisbol",
+        "paragraphs": [
+          "En la cuenca del Caribe, especialmente en países como la República Dominicana y Venezuela, el béisbol trasciende la categoría de simple deporte nacional. Es una auténtica religión, una pasión febril que se respira en el polvo de cada callejón y, para la gran mayoría de los jóvenes de bajos recursos, representa la única vía realista para escapar de la pobreza estructural. Conscientes de este inagotable talento natural, los treinta equipos de las Grandes Ligas de Estados Unidos han invertido cientos de millones de dólares en la construcción de modernas academias locales, buscando con ahínco descubrir al próximo prodigio internacional.",
+          "El sistema de reclutamiento comienza a una edad alarmantemente temprana y se apoya en una figura muy polémica: el 'buscón'. Estos cazatalentos independientes peinan los barrios marginales en busca de niños de apenas doce o trece años con aptitudes físicas sobresalientes. Los buscones les ofrecen alojamiento, comida y un entrenamiento espartano durante años. A cambio, si el joven logra firmar un contrato profesional a los dieciséis años, el buscón exige un porcentaje inmenso de las ganancias, que a menudo oscila entre el treinta y el cincuenta por ciento. Es un mercado especulativo donde los niños son vistos, en muchos casos, como mercancía de exportación.",
+          "Una vez dentro de las academias oficiales de las Grandes Ligas, la rutina de los prospectos es agotadora. Se levantan antes del amanecer para someterse a extenuantes sesiones de bateo, fildeo y pesas bajo un sol implacable. Sin embargo, la industria ha tenido que evolucionar frente a las críticas internacionales. Sabiendo que menos del cinco por ciento de estos jóvenes llegará alguna vez a pisar un estadio en las ligas mayores, las academias ahora están obligadas a proporcionar educación formal. Las instalaciones funcionan como internados donde los chicos reciben clases intensivas de inglés, matemáticas y finanzas personales, preparándolos para un futuro lejos del diamante.",
+          "A pesar de las duras realidades y la alta tasa de fracaso, el impacto positivo en las comunidades es palpable cuando ocurre un milagro. Los peloteros que logran la fama y la riqueza multimillonaria casi siempre regresan a sus raíces. Figuras legendarias han transformado sus pueblos invirtiendo su capital en la construcción de hospitales, escuelas modernas y complejos habitacionales. Además, las propias academias son motores económicos que generan miles de empleos directos e indirectos, desde jardineros y cocineros hasta profesores y personal médico, consolidando al béisbol como la industria más vital de la región."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 14–17: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para cada párrafo. Hay más opciones de las necesarias.",
+            "type": "matching",
+            "options": {
+              "A": "El exigente día a día y la preparación alternativa",
+              "B": "La construcción de nuevos estadios en Estados Unidos",
+              "C": "Los intermediarios y la explotación temprana",
+              "D": "El retorno de la inversión y los héroes locales",
+              "E": "La prohibición del deporte en áreas de bajos recursos",
+              "F": "La meca del talento y la esperanza de una vida mejor"
+            },
+            "questions": [
+              { "number": 14, "prompt": "Párrafo 1", "answer": "F", "points": 1 },
+              { "number": 15, "prompt": "Párrafo 2", "answer": "C", "points": 1 },
+              { "number": 16, "prompt": "Párrafo 3", "answer": "A", "points": 1 },
+              { "number": 17, "prompt": "Párrafo 4", "answer": "D", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 18–21: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 18, "prompt": "deseo intenso / empeño fuerte (párrafo 1)", "answer": "ahínco", "points": 1 },
+              { "number": 19, "prompt": "varía / fluctúa (párrafo 2)", "answer": "oscila", "points": 1 },
+              { "number": 20, "prompt": "agotadoras / que causan gran cansancio (párrafo 3)", "answer": "extenuantes", "points": 1 },
+              { "number": 21, "prompt": "evidente / que se puede notar claramente (párrafo 4)", "answer": "palpable", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 22–24: Opción múltiple. Elige la respuesta correcta (A, B, C o D).",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 22,
+                "prompt": "Según el párrafo 2, la labor del 'buscón' puede considerarse cuestionable porque...",
+                "options": {
+                  "A": "trabajan directamente para el gobierno sin pagar impuestos.",
+                  "B": "tratan a los jóvenes talentos como productos para obtener grandes beneficios económicos.",
+                  "C": "enseñan técnicas de béisbol ilegales que causan lesiones graves.",
+                  "D": "obligan a los niños a trabajar en las calles vendiendo boletos."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 23,
+                "prompt": "¿Por qué las academias han introducido la educación académica obligatoria (párrafo 3)?",
+                "options": {
+                  "A": "Porque la inmensa mayoría de los jóvenes nunca logrará vivir del béisbol profesional.",
+                  "B": "Porque el gobierno local amenaza con cerrar las instalaciones deportivas.",
+                  "C": "Porque los jugadores que saben inglés cobran el doble en los contratos iniciales.",
+                  "D": "Porque no tienen suficientes entrenadores deportivos disponibles todo el día."
+                },
+                "answer": "A",
+                "points": 1
+              },
+              {
+                "number": 24,
+                "prompt": "De acuerdo con el párrafo 4, el impacto final del béisbol en la región caribeña es...",
+                "options": {
+                  "A": "exclusivamente negativo, destruyendo las esperanzas de los pueblos.",
+                  "B": "principalmente cultural, ya que no genera dinero para los habitantes.",
+                  "C": "un pilar económico y social indispensable gracias a las infraestructuras y el empleo.",
+                  "D": "irrelevante comparado con la agricultura o la industria manufacturera."
+                },
+                "answer": "C",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 25–26: Respuestas cortas. Contesta usando las palabras exactas del texto.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 25, "prompt": "¿A qué edad logran generalmente los jugadores firmar su primer acuerdo con los equipos? (1 punto)", "answer": "a los dieciséis años", "points": 1 },
+              { "number": 26, "prompt": "Menciona dos ejemplos de construcciones financiadas por los peloteros que vuelven a sus pueblos. (1 punto)", "answer": "hospitales, escuelas modernas (y complejos habitacionales)", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — El acorde del asfalto",
+        "paragraphs": [
+          "El atardecer caía pesado sobre la Plaza de los Mártires, tiñendo de un ocre melancólico las fachadas astilladas por los recientes disturbios. Mateo, sentado en las escaleras de la vieja catedral de piedra, sacó su guitarra de la funda desgastada. Le faltaba la cuerda más fina, la que siempre le daba ese brillo agudo a sus melodías, pero a él no le importaba. Aquella tarde no había venido a tocar canciones de fiesta para los turistas despistados, ni para buscar las monedas compasivas de los transeúntes. Había venido a cumplir una promesa silenciosa, un pacto forjado en la ausencia de los que ya no estaban.",
+          "Sus dedos, encallecidos por el trabajo diario en la fábrica, acariciaron la madera antes de atacar el primer acorde. No era un sonido limpio; era un rasgueo grave, casi un lamento rítmico que rebotó contra el asfalto caliente. Cerró los ojos y dejó que su voz rota, sin ningún tipo de entrenamiento formal, se elevara por encima del ruido del tráfico. La canción hablaba de pájaros enjaulados, de sombras largas y de amaneceres robados. Era una poesía callejera que su hermano mayor solía canturrear en la cocina, semanas antes de que una patrulla sin placas se lo llevara en mitad de la noche, dejando tras de sí un silencio insoportable en la casa familiar.",
+          "Poco a poco, la prisa de la ciudad pareció detenerse a su alrededor. El vendedor de periódicos bajó la voz, los estudiantes universitarios detuvieron su paso apresurado y una anciana de rostro surcado por las arrugas se acercó lentamente, asintiendo con la cabeza. La música de Mateo estaba actuando como un hilo invisible, tejiendo la pena individual de todos los presentes para convertirla en un manto de dolor compartido. Nadie gritaba consignas políticas, nadie ondeaba banderas; la protesta residía pura y exclusivamente en el acto de recordar aquello que el gobierno les exigía olvidar con urgencia.",
+          "Cuando Mateo llegó al estribillo, la vibración de las cinco cuerdas restantes parecía suficiente para hacer temblar los pilares de la catedral. Cantó sobre raíces que rompen el concreto y sobre la memoria que no se apaga con el viento. En la esquina de la plaza, dos policías fuertemente armados se removieron incómodos en sus puestos, intercambiando miradas nerviosas. Sus bastones y escudos no tenían utilidad frente a unas estrofas que se colaban en la conciencia colectiva. Sabían, instintivamente, que arrestar a un muchacho con una guitarra vieja sería admitir la victoria de su mensaje.",
+          "El último acorde quedó flotando en el aire denso, disolviéndose muy lentamente. Mateo abrió los ojos y se encontró con un muro de miradas cristalizadas por las lágrimas. No hubo aplausos estruendosos, sino un silencio profundo y reverencial que pesaba mucho más que cualquier ovación. En ese instante fugaz, Mateo comprendió que no había recuperado a su hermano, pero había logrado algo vital: había transformado la angustia del asfalto en un himno de resistencia inquebrantable."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 27–30: Selección múltiple. Selecciona las CUATRO frases verdaderas basándote en el texto. Escribe las letras (A-H) en las opciones.",
+            "type": "multiple_select",
+            "options": {
+              "A": "Mateo estaba tocando en la plaza con la intención de ganar dinero de los turistas.",
+              "B": "La plaza donde ocurre la historia muestra señales físicas de haber sufrido violencia reciente.",
+              "C": "La canción que interpretaba Mateo tenía un significado personal ligado a la desaparición de un familiar.",
+              "D": "La técnica musical de Mateo era profesional, producto de años de estudio en la universidad.",
+              "E": "La multitud que rodeaba a Mateo comenzó a lanzar piedras contra la policía al escuchar la letra.",
+              "F": "Los policías presentes sentían que intervenir y detener a Mateo sería contraproducente para ellos.",
+              "G": "El público reaccionó con gritos de alegría y aplausos fuertes al finalizar la canción.",
+              "H": "A través de su arte, Mateo logró crear un momento de unión y memoria entre los ciudadanos."
+            },
+            "questions": [
+              { "number": "27-30", "prompt": "Selecciona las 4 verdaderas", "answer": ["B", "C", "F", "H"], "points": 4 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 31–34: Opción múltiple literaria. Elige la respuesta correcta basándote en el significado del texto literario.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 31,
+                "prompt": "En el primer párrafo, la 'cuerda más fina' que le faltaba a la guitarra simboliza, en el contexto de la historia:",
+                "options": {
+                  "A": "la extrema pobreza de Mateo.",
+                  "B": "la falta de un tono alegre y superficial en su vida y en su mensaje.",
+                  "C": "un defecto de fábrica que la compañía no quiso arreglar.",
+                  "D": "la edad joven e inexperta del protagonista principal."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 32,
+                "prompt": "La frase 'un hilo invisible, tejiendo la pena individual de todos los presentes' (párrafo 3) sugiere que la música:",
+                "options": {
+                  "A": "les obligaba a coser banderas de protesta en la plaza.",
+                  "B": "les provocaba dolor físico al escuchar sonidos graves.",
+                  "C": "actuaba como un elemento unificador de sus sufrimientos personales.",
+                  "D": "era tan baja que apenas se podía percibir entre el ruido."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 33,
+                "prompt": "En el párrafo 4, las 'raíces que rompen el concreto' son una metáfora de:",
+                "options": {
+                  "A": "la destrucción de la infraestructura de la ciudad por los manifestantes.",
+                  "B": "el mal estado de los jardines de la vieja catedral.",
+                  "C": "la fuerza imparable de la verdad y la resistencia frente a la opresión.",
+                  "D": "la agricultura como única solución a los problemas económicos."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 34,
+                "prompt": "¿Cuál de los siguientes adjetivos describe mejor el tono general del relato?",
+                "options": {
+                  "A": "Humorístico y ligero.",
+                  "B": "Melancólico pero desafiante.",
+                  "C": "Aterrador y violento.",
+                  "D": "Puramente informativo y objetivo."
+                },
+                "answer": "B",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 35–37: Completar la oración basándose en el texto.",
+            "type": "matching",
+            "options": {
+              "A": "fueron silenciadas por la fuerza armada.",
+              "B": "estaba inspirada en las enseñanzas de un conservatorio de arte.",
+              "C": "sirvió como un medio pacífico para retar al olvido impuesto.",
+              "D": "reaccionaron con un profundo silencio y empatía emocional.",
+              "E": "hablaba sobre aves capturadas y tiempos perdidos.",
+              "F": "decidieron arrestarlo para evitar una revuelta mayor."
+            },
+            "questions": [
+              { "number": 35, "prompt": "La letra cantada por Mateo...", "answer": "E", "points": 1 },
+              { "number": 36, "prompt": "A diferencia de un discurso político agresivo, la canción...", "answer": "C", "points": 1 },
+              { "number": 37, "prompt": "Al terminar la melodía, los espectadores...", "answer": "D", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 38–40: Búsqueda de sinónimos literarios. Encuentra las palabras en el texto que coincidan con estos significados.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 38, "prompt": "personas que caminan o pasan por la calle (párrafo 1)", "answer": "transeúntes", "points": 1 },
+              { "number": 39, "prompt": "canturrear / cantar en voz baja o a medias (párrafo 2)", "answer": "canturrear", "points": 1 },
+              { "number": 40, "prompt": "fuerte / que no se puede romper o vencer (párrafo 5)", "answer": "inquebrantable", "points": 1 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
