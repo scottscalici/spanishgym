@@ -1,6 +1,6 @@
 {
   "worksheet": {
-    "title": "Práctica de Lectura IB: Nivel Medio (Modelo 3)",
+    "title": "Práctica de Lectura IB: Nivel Medio (Modelo 3 - Revisado 40 pts)",
     "texts": [
       {
         "text_id": "A",
@@ -34,12 +34,24 @@
             ]
           },
           {
-            "instructions": "Pregunta 10: Opción múltiple basándose en el párrafo [4].",
+            "instructions": "Preguntas 10–11: Opción múltiple basándose en el texto.",
             "type": "multiple_choice",
             "questions": [
               {
                 "number": 10,
-                "prompt": "La invención de la cámara fotográfica...",
+                "prompt": "¿Qué opina Sofía Castro sobre el uso de la IA en su trabajo, según el párrafo [3]?",
+                "options": {
+                  "A": "Que hace el trabajo aburrido y sin sentido.",
+                  "B": "Que le ayuda a generar ideas iniciales que ella luego mejora.",
+                  "C": "Que posee mejor creatividad que cualquier ser humano.",
+                  "D": "Que debería estar prohibida para los ilustradores profesionales."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 11,
+                "prompt": "La invención de la cámara fotográfica (párrafo 4)...",
                 "options": {
                   "A": "destruyó a los artistas clásicos.",
                   "B": "hizo que la pintura cambiara y evolucionara.",
@@ -52,12 +64,12 @@
             ]
           },
           {
-            "instructions": "Preguntas 11–13: Identificación de referencia. ¿A qué se refieren las siguientes palabras en el texto?",
+            "instructions": "Preguntas 12–14: Identificación de referencia. ¿A qué se refieren las siguientes palabras en el texto?",
             "type": "reference",
             "questions": [
-              { "number": 11, "prompt": "Esto (párrafo 1)", "answer": "que programas y algoritmos son capaces de componer música, escribir poemas y generar pinturas (la capacidad creadora de la IA)", "points": 1 },
-              { "number": 12, "prompt": "ella (párrafo 2)", "answer": "melancolía", "points": 1 },
-              { "number": 13, "prompt": "mía (párrafo 3)", "answer": "la visión final", "points": 1 }
+              { "number": 12, "prompt": "Esto (párrafo 1)", "answer": "que programas y algoritmos son capaces de componer música, escribir poemas y generar pinturas", "points": 1 },
+              { "number": 13, "prompt": "ella (párrafo 2)", "answer": "melancolía", "points": 1 },
+              { "number": 14, "prompt": "mía (párrafo 3)", "answer": "la visión final", "points": 1 }
             ]
           }
         ]
@@ -68,12 +80,12 @@
         "paragraphs": [
           "Durante décadas, la agricultura industrializada fue vista como la gran solución para alimentar a la creciente población mundial. El uso masivo de fertilizantes químicos, pesticidas potentes y sistemas de riego intensivo logró aumentar la producción de alimentos drásticamente. No obstante, hoy pagamos un alto precio por ese aparente éxito: suelos agotados, ríos contaminados y una enorme pérdida de la biodiversidad en nuestros campos. Ante esta inminente crisis, miles de agricultores están volviendo la vista hacia el pasado para encontrar métodos y soluciones sostenibles.",
           "La agricultura sostenible no busca producir más a cualquier costo, sino cultivar en armonía con la naturaleza y sus ciclos. Una de las técnicas principales para lograr esto es la rotación de cultivos. En lugar de plantar siempre maíz o trigo en el mismo campo año tras año, los agricultores cambian el tipo de planta cada temporada. Por ejemplo, plantan vegetales un año y legumbres al siguiente. Esto evita que los nutrientes de la tierra se agoten y rompe el ciclo de vida de las plagas de forma natural, reduciendo drásticamente la necesidad de usar químicos tóxicos.",
-          "Otra práctica fundamental en las granjas ecológicas es el uso responsable e inteligente del agua. En regiones secas, en lugar de inundar los campos, se utilizan sistemas de riego por goteo que entregan el agua lentamente y directamente a la raíz de la planta, evitando el desperdicio masivo por evaporación. Además, el uso de abono orgánico, hecho principalmente con restos vegetales y estiércol animal, devuelve la vitalidad a la tierra, haciéndola como una esponja que retiene la humedad y resiste mejor las sequías.",
+          "Otra práctica fundamental en las granjas ecológicas es el uso responsable e inteligente del agua. En regiones secas, en lugar de inundar los campos, se utilizan sistemas de riego por goteo que entregan el agua lentamente y directamente a la raíz de la planta, evitando el despericio masivo por evaporación. Además, el uso de abono orgánico, hecho principalmente con restos vegetales y estiércol animal, devuelve la vitalidad a la tierra, haciéndola como una esponja que retiene la humedad y resiste mejor las sequías.",
           "El consumidor también juega un papel crucial en este cambio positivo. Comprar productos orgánicos y locales en los mercados de agricultores no solo apoya a la economía de la comunidad rural, sino que también disminuye la contaminación generada por el transporte masivo de alimentos desde otros continentes. Comer de manera consciente y educarnos sobre nuestra comida es el primer paso para proteger nuestro planeta."
         ],
         "question_sections": [
           {
-            "instructions": "Preguntas 14–17: Relacionar mitades de oraciones. Relaciona la primera parte de la frase con su final correcto según el texto.",
+            "instructions": "Preguntas 15–18: Relacionar mitades de oraciones. Relaciona la primera parte de la frase con su final correcto según el texto.",
             "type": "matching",
             "options": {
               "A": "...agota rápidamente los nutrientes de la tierra.",
@@ -84,28 +96,40 @@
               "F": "...protege el suelo y controla los insectos dañinos naturalmente."
             },
             "questions": [
-              { "number": 14, "prompt": "La agricultura industrializada del pasado...", "answer": "C", "points": 1 },
-              { "number": 15, "prompt": "La técnica de rotación de cultivos...", "answer": "F", "points": 1 },
-              { "number": 16, "prompt": "El sistema de riego por goteo...", "answer": "B", "points": 1 },
-              { "number": 17, "prompt": "Adquirir productos en mercados locales...", "answer": "D", "points": 1 }
+              { "number": 15, "prompt": "La agricultura industrializada del pasado...", "answer": "C", "points": 1 },
+              { "number": 16, "prompt": "La técnica de rotación de cultivos...", "answer": "F", "points": 1 },
+              { "number": 17, "prompt": "El sistema de riego por goteo...", "answer": "B", "points": 1 },
+              { "number": 18, "prompt": "Adquirir productos en mercados locales...", "answer": "D", "points": 1 }
             ]
           },
           {
-            "instructions": "Preguntas 18–21: Respuestas cortas. Contesta basándote en los párrafos [1], [2] y [3].",
+            "instructions": "Preguntas 19–22: Respuestas cortas. Contesta basándote en los párrafos [1], [2] y [3].",
             "type": "short_answer",
             "questions": [
-              { "number": 18, "prompt": "Menciona dos consecuencias negativas de la agricultura industrializada. (2 puntos)", "answer": "suelos agotados, ríos contaminados (o pérdida de la biodiversidad)", "points": 2 },
-              { "number": 19, "prompt": "¿Cuál es el objetivo principal de la agricultura sostenible?", "answer": "cultivar en armonía con la naturaleza y sus ciclos", "points": 1 },
-              { "number": 20, "prompt": "¿Qué técnica agrícola interrumpe el desarrollo normal de las plagas?", "answer": "la rotación de cultivos", "points": 1 },
-              { "number": 21, "prompt": "¿De qué dos elementos principales se compone el abono orgánico mencionado en el texto? (2 puntos)", "answer": "restos vegetales y estiércol animal", "points": 2 }
+              { "number": 19, "prompt": "Menciona dos consecuencias negativas de la agricultura industrializada. (2 puntos)", "answer": "suelos agotados, ríos contaminados (o pérdida de la biodiversidad)", "points": 2 },
+              { "number": 20, "prompt": "¿Cuál es el objetivo principal de la agricultura sostenible?", "answer": "cultivar en armonía con la naturaleza y sus ciclos", "points": 1 },
+              { "number": 21, "prompt": "¿Qué técnica agrícola interrumpe el desarrollo normal de las plagas?", "answer": "la rotación de cultivos", "points": 1 },
+              { "number": 22, "prompt": "¿De qué dos elementos principales se compone el abono orgánico mencionado en el texto? (2 puntos)", "answer": "restos vegetales y estiércol animal", "points": 2 }
             ]
           },
           {
-            "instructions": "Preguntas 22–23: Opción múltiple.",
+            "instructions": "Preguntas 23–25: Opción múltiple.",
             "type": "multiple_choice",
             "questions": [
               {
-                "number": 22,
+                "number": 23,
+                "prompt": "En el párrafo [1], ¿qué motivó principalmente a los agricultores a buscar métodos ecológicos?",
+                "options": {
+                  "A": "El deseo de usar más maquinaria moderna.",
+                  "B": "Las graves consecuencias ambientales del éxito de la agricultura industrializada.",
+                  "C": "Una prohibición internacional de usar pesticidas químicos.",
+                  "D": "El exceso de alimentos en el mercado mundial."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 24,
                 "prompt": "Según el párrafo [4], la responsabilidad de lograr una agricultura sostenible recae en:",
                 "options": {
                   "A": "Únicamente en los agricultores.",
@@ -117,7 +141,7 @@
                 "points": 1
               },
               {
-                "number": 23,
+                "number": 25,
                 "prompt": "El propósito principal del texto es...",
                 "options": {
                   "A": "criticar a los consumidores por sus malos hábitos.",
@@ -137,14 +161,14 @@
         "title": "Texto C — La revolución del aula virtual: ¿Avance o retroceso?",
         "paragraphs": [
           "La educación en línea ha experimentado un crecimiento sin precedentes en la última década. Lo que comenzó como una medida de emergencia mundial para mantener las escuelas abiertas, se ha consolidado como una alternativa permanente en colegios y universidades de todo el mundo. Pero al observar los resultados actuales, surge un gran debate: ¿es realmente una mejora definitiva en el sistema educativo tradicional?",
-          "Por una parte, los defensores de la modalidad virtual destacan [ – 24 – ] como su mayor y más valiosa virtud. Los estudiantes modernos pueden acceder a los materiales audiovisuales y a las tareas a cualquier hora del día y desde cualquier lugar. Por ejemplo, un alumno de un área rural ahora puede tomar un avanzado curso impartido por una universidad extranjera sin salir de casa. Esta democratización de la información rompe las antiguas barreras geográficas y permite personalizar el ritmo de aprendizaje de cada individuo.",
-          "Sin embargo, los críticos y analistas educativos señalan un problema sumamente grave: [ – 25 – ]. No todos los estudiantes en el mundo tienen acceso a una conexión a Internet de alta velocidad o a una computadora propia en casa, lo que indudablemente genera una profunda desigualdad académica. Además, los profesores reportan que mantener la atención de los jóvenes a través de una fría pantalla es un desafío enorme, lo que frecuentemente resulta en [ – 26 – ] por parte de los alumnos, quienes a menudo se distraen con otras aplicaciones.",
+          "Por una parte, los defensores de la modalidad virtual destacan [ – 26 – ] como su mayor y más valiosa virtud. Los estudiantes modernos pueden acceder a los materiales audiovisuales y a las tareas a cualquier hora del día y desde cualquier lugar. Por ejemplo, un alumno de un área rural ahora puede tomar un avanzado curso impartido por una universidad extranjera sin salir de casa. Esta democratización de la información rompe las antiguas barreras geográficas y permite personalizar el ritmo de aprendizaje de cada individuo.",
+          "Sin embargo, los críticos y analistas educativos señalan un problema sumamente grave: [ – 27 – ]. No todos los estudiantes en el mundo tienen acceso a una conexión a Internet de alta velocidad o a una computadora propia en casa, lo que indudablemente genera una profunda desigualdad académica. Además, los profesores reportan que mantener la atención de los jóvenes a través de una fría pantalla es un desafío enorme, lo que frecuentemente resulta en [ – 28 – ] por parte de los alumnos, quienes a menudo se distraen con otras aplicaciones.",
           "Otro aspecto fundamental que preocupa a los expertos es la socialización. La escuela nunca ha sido solo un edificio para memorizar datos; es un espacio vital donde los jóvenes aprenden a convivir, resolver conflictos y trabajar en equipo. El aislamiento físico constante y la falta de interacción en persona pueden afectar negativamente la salud mental de los adolescentes.",
-          "En conclusión, el futuro ideal de la enseñanza parece ser un modelo híbrido. Combinar sabiamente la excelente tecnología y los recursos digitales de las aulas virtuales con la interacción humana indispensable que brinda [ – 27 – ] podría ser la clave para construir la educación del mañana."
+          "En conclusión, el futuro ideal de la enseñanza parece ser un modelo híbrido. Combinar sabiamente la excelente tecnología y los recursos digitales de las aulas virtuales con la interacción humana indispensable que brinda [ – 29 – ] podría ser la clave para construir la educación del mañana."
         ],
         "question_sections": [
           {
-            "instructions": "Preguntas 24–27: Completar espacios en blanco. Elige de la lista la frase apropiada para rellenar los espacios.",
+            "instructions": "Preguntas 26–29: Completar espacios en blanco. Elige de la lista la frase apropiada para rellenar los espacios.",
             "type": "fill_in_the_blank",
             "options": {
               "A": "la falta de motivación (o distracciones)",
@@ -155,14 +179,14 @@
               "F": "el trabajo individual"
             },
             "questions": [
-              { "number": 24, "prompt": "Espacio [ – 24 – ]", "answer": "E", "points": 1 },
-              { "number": 25, "prompt": "Espacio [ – 25 – ]", "answer": "B", "points": 1 },
-              { "number": 26, "prompt": "Espacio [ – 26 – ]", "answer": "A", "points": 1 },
-              { "number": 27, "prompt": "Espacio [ – 27 – ]", "answer": "C", "points": 1 }
+              { "number": 26, "prompt": "Espacio [ – 26 – ]", "answer": "E", "points": 1 },
+              { "number": 27, "prompt": "Espacio [ – 27 – ]", "answer": "B", "points": 1 },
+              { "number": 28, "prompt": "Espacio [ – 28 – ]", "answer": "A", "points": 1 },
+              { "number": 29, "prompt": "Espacio [ – 29 – ]", "answer": "C", "points": 1 }
             ]
           },
           {
-            "instructions": "Pregunta 28–32: Selecciona las CINCO afirmaciones verdaderas basándote en el texto.",
+            "instructions": "Pregunta 30–34: Selecciona las CINCO afirmaciones verdaderas basándote en el texto.",
             "type": "multiple_select",
             "options": {
               "A": "La educación en línea fue perdiendo popularidad después de la pandemia.",
@@ -177,23 +201,24 @@
               "J": "El modelo educativo del futuro probablemente mezclará clases presenciales y virtuales."
             },
             "questions": [
-              { "number": "28-32", "prompt": "Selecciona las 5 verdaderas", "answer": ["B", "D", "F", "H", "J"], "points": 5 }
+              { "number": "30-34", "prompt": "Selecciona las 5 verdaderas", "answer": ["B", "D", "F", "H", "J"], "points": 5 }
             ]
           },
           {
-            "instructions": "Preguntas 33–34: Respuestas cortas. Contesta con las palabras exactas del texto.",
+            "instructions": "Preguntas 35–37: Respuestas cortas. Contesta con las palabras exactas del texto.",
             "type": "short_answer",
             "questions": [
-              { "number": 33, "prompt": "¿Qué palabra del segundo párrafo significa 'extender el acceso a la información a todos'?", "answer": "democratización", "points": 1 },
-              { "number": 34, "prompt": "Según el penúltimo párrafo, ¿para qué es un 'espacio vital' la escuela además de convivir y trabajar en equipo?", "answer": "resolver conflictos", "points": 1 }
+              { "number": 35, "prompt": "¿Qué palabra del segundo párrafo significa 'extender el acceso a la información a todos'?", "answer": "democratización", "points": 1 },
+              { "number": 36, "prompt": "Según el penúltimo párrafo, ¿para qué es un 'espacio vital' la escuela además de convivir y trabajar en equipo?", "answer": "resolver conflictos", "points": 1 },
+              { "number": 37, "prompt": "¿Qué hacen a menudo los alumnos al perder la atención durante las clases en línea (párrafo 3)?", "answer": "se distraen con otras aplicaciones", "points": 1 }
             ]
           },
           {
-            "instructions": "Pregunta 35: Opción múltiple.",
+            "instructions": "Pregunta 38: Opción múltiple.",
             "type": "multiple_choice",
             "questions": [
               {
-                "number": 35,
+                "number": 38,
                 "prompt": "¿Cuál es la idea principal del último párrafo?",
                 "options": {
                   "A": "las escuelas físicas desaparecerán pronto.",
