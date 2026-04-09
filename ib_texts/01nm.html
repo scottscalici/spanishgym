@@ -20,15 +20,15 @@
             min-height: 11in;
             margin: 20px auto;
             background-color: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.15); /* Makes it look like a paper on screen */
-            padding: 0.5in 0.6in; /* Slightly relaxed padding for the screen */
+            box-shadow: 0 0 10px rgba(0,0,0,0.15);
+            padding: 0.5in 0.6in;
             position: relative;
             overflow: hidden;
             display: flex;
             flex-direction: column;
         }
 
-        /* Grouping Logic: Keeps questions from splitting across pages */
+        /* Grouping Logic: Keeps sections from splitting across pages */
         .question-section-wrapper, .question-row, .instruction-block, .options-box, .key-item {
             page-break-inside: avoid !important;
             break-inside: avoid !important;
@@ -49,29 +49,25 @@
         h1 { text-align: center; font-size: 1.25rem; margin-bottom: 1rem; }
         h2 { font-size: 1.1rem; border-bottom: 2px solid #000; padding-bottom: 5px; margin-bottom: 15px; margin-top: 20px;}
 
-        /* Reading Section: Swapped to CSS Grid to prevent horizontal squeezing */
+        /* Reading Section: Grid removed to reclaim horizontal space */
         .reading-section { 
-            display: grid; 
-            grid-template-columns: 30px 1fr; /* 30px for numbers, the rest for text */
-            gap: 15px; /* Controlled gap instead of massive padding */
             position: relative; 
             z-index: 1; 
         }
-        .line-numbers { text-align: right; font-family: monospace; color: #888; }
-        .line-num-slot { height: 1.6rem; display: flex; align-items: center; justify-content: flex-end; }
         
-        /* Reading Text formatting with widows/orphans control */
+        /* Reading Text formatting: Page break logic added here */
         .reading-text p { 
             font-size: 1.05rem; 
             line-height: 1.6rem; 
             margin-bottom: 1.2rem; 
             text-indent: 2rem; 
             text-align: justify; 
-            widows: 2;   /* Prevents single lines at top of page */
-            orphans: 2;  /* Prevents single lines at bottom of page */
+            /* Forces the browser to move the whole paragraph to the next page instead of splitting it */
+            page-break-inside: avoid;
+            break-inside: avoid;
         }
 
-        /* Question Layouts: Locked Grid to prevent shifting */
+        /* Question Layouts */
         .instruction-block { background: #f4f4f4; padding: 10px; margin-bottom: 15px; font-weight: bold; border-left: 4px solid #333; }
         .options-box { 
             border: 2px solid #ccc; padding: 15px; margin-bottom: 20px; 
@@ -82,7 +78,7 @@
         .blank-box { border: 1px solid #000; height: 30px; width: 40px; display: inline-block; flex-shrink: 0; }
         .blank-line { border-bottom: 1px dashed #000; height: 1.2rem; width: 100%; margin-top: 5px; }
 
-        /* Answer Key: Two-Column Flex Layout */
+        /* Answer Key */
         .answer-key-header { color: #d93025; text-align: center; font-weight: bold; font-size: 1.4rem; border: 2px dashed #d93025; padding: 10px; margin-bottom: 20px;}
         .key-grid { column-count: 2; column-gap: 30px; }
         .key-item { 
@@ -91,30 +87,15 @@
         }
         .key-ans { color: #d93025; font-weight: bold; font-family: monospace; }
 
-        /* =========================================
-           PRINT SPECIFIC STYLES 
-           (Fixes the "Double Margin Canyon" and side squeezing)
-           ========================================= */
+        /* Print Specifics */
         @media print {
-            body { 
-                background-color: white; 
-            }
-            
-            @page {
-                margin: 0.6in; /* This sets the absolute hardware margin for the printer */
-            }
-
+            body { background-color: white; }
+            @page { margin: 0.6in; }
             .page {
-                width: 100%; /* Let the printer dictate the width */
-                margin: 0;   /* Strip web margins */
-                padding: 0;  /* Strip web padding so the text stretches full width */
-                box-shadow: none; /* Remove web styling */
-                page-break-after: always; /* Force new page */
+                width: 100%; margin: 0; padding: 0; box-shadow: none; 
+                page-break-after: always;
             }
-            
-            .page:last-child { 
-                page-break-after: auto; 
-            }
+            .page:last-child { page-break-after: auto; }
         }
     </style>
 </head>
@@ -124,7 +105,7 @@
 
     <script>
         // Update this URL to whichever JSON set you wish to print
-        const targetJson = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/ib_texts/ib_textos1nm.json';
+        const targetJson = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/ib_texts/ib_textos1ns.json';
 
         window.onload = () => {
             fetch(targetJson)
@@ -133,7 +114,7 @@
                     const container = document.getElementById('document-container');
                     const title = data.worksheet.title;
 
-                    // 1. Reading Pages
+                    // 1. Reading Pages (Line numbers removed)
                     data.worksheet.texts.forEach(t => container.appendChild(renderReading(t, title)));
                     
                     // 2. Question Pages
@@ -141,9 +122,6 @@
                     
                     // 3. Answer Key
                     container.appendChild(renderKey(data));
-
-                    // 4. Align Line Numbers
-                    setTimeout(doLineNumbers, 400);
                 })
                 .catch(err => console.error("Error loading JSON:", err));
         };
@@ -158,7 +136,6 @@
                 </div>
                 <h1>${t.title}</h1>
                 <div class="reading-section">
-                    <div class="line-numbers"></div>
                     <div class="reading-text">${t.paragraphs.map(txt => `<p>${txt}</p>`).join('')}</div>
                 </div>`;
             return p;
@@ -194,35 +171,34 @@
                             <div style="flex-grow: 1;">${q.prompt}</div>
                         </div>`;
                 
-case 'true_false_justification':
-    return `
-        <div class="question-row" style="margin-bottom: 30px; page-break-inside: avoid;">
-            <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-                <div style="padding-right: 20px; line-height: 1.4;">
-                    <b>${q.number}.</b> ${q.prompt}
-                </div>
+                case 'true_false_justification':
+                    return `
+                        <div class="question-row" style="margin-bottom: 30px; page-break-inside: avoid;">
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                                <div style="padding-right: 20px; line-height: 1.4;">
+                                    <b>${q.number}.</b> ${q.prompt}
+                                </div>
+                                <div style="text-align: center; flex-shrink: 0;">
+                                    <div style="margin-bottom: 4px; font-size: 0.95rem;">
+                                        <span style="display: inline-block; width: 85px;">Verdadero</span>
+                                        <span style="display: inline-block; width: 60px;">Falso</span>
+                                    </div>
+                                    <div style="font-family: monospace; font-size: 1.1rem; font-weight: bold;">
+                                        <span style="display: inline-block; width: 85px;">[ &nbsp;&nbsp; ]</span>
+                                        <span style="display: inline-block; width: 60px;">[ &nbsp;&nbsp; ]</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="margin-top: 15px; display: flex; flex-direction: column; gap: 14px;">
+                                <div style="display: flex; align-items: flex-end; gap: 10px;">
+                                    <span>Justificación:</span>
+                                    <div style="border-bottom: 2px dotted #333; flex-grow: 1; height: 1rem;"></div>
+                                </div>
+                                <div style="border-bottom: 2px dotted #333; width: 100%; height: 1rem;"></div>
+                                <div style="border-bottom: 2px dotted #333; width: 100%; height: 1rem;"></div>
+                            </div>
+                        </div>`;
                 
-                <div style="text-align: center; flex-shrink: 0;">
-                    <div style="margin-bottom: 4px; font-size: 0.95rem;">
-                        <span style="display: inline-block; width: 85px;">Verdadero</span>
-                        <span style="display: inline-block; width: 60px;">Falso</span>
-                    </div>
-                    <div style="font-family: monospace; font-size: 1.1rem; font-weight: bold;">
-                        <span style="display: inline-block; width: 85px;">[ &nbsp;&nbsp; ]</span>
-                        <span style="display: inline-block; width: 60px;">[ &nbsp;&nbsp; ]</span>
-                    </div>
-                </div>
-            </div>
-
-            <div style="margin-top: 15px; display: flex; flex-direction: column; gap: 14px;">
-                <div style="display: flex; align-items: flex-end; gap: 10px;">
-                    <span>Justificación:</span>
-                    <div style="border-bottom: 2px dotted #333; flex-grow: 1; height: 1rem;"></div>
-                </div>
-                <div style="border-bottom: 2px dotted #333; width: 100%; height: 1rem;"></div>
-                <div style="border-bottom: 2px dotted #333; width: 100%; height: 1rem;"></div>
-            </div>
-        </div>`;                
                 case 'multiple_choice':
                     let optsHtml = '';
                     if(q.options) {
@@ -273,24 +249,6 @@ case 'true_false_justification':
             }).join('');
             p.innerHTML = `<div class="answer-key-header">CLAVE DE RESPUESTAS</div>${content}`;
             return p;
-        }
-
-        function doLineNumbers() {
-            document.querySelectorAll('.page').forEach(p => {
-                const txt = p.querySelector('.reading-text');
-                const num = p.querySelector('.line-numbers');
-                if (txt && num) {
-                    num.innerHTML = '';
-                    const totalHeight = txt.offsetHeight;
-                    const lines = Math.floor(totalHeight / 25.6); // Based on 1.6rem line-height
-                    for (let i = 1; i <= lines; i++) {
-                        let div = document.createElement('div');
-                        div.className = 'line-num-slot';
-                        if (i % 5 === 0) div.textContent = i;
-                        num.appendChild(div);
-                    }
-                }
-            });
         }
     </script>
 </body>
