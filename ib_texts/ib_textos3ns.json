@@ -1,0 +1,266 @@
+{
+  "worksheet": {
+    "title": "Práctica de Lectura IB: Nivel Superior (Modelo HL - 1)",
+    "texts": [
+      {
+        "text_id": "A",
+        "title": "Texto A — La revolución del aula virtual: ¿Avance o retroceso?",
+        "paragraphs": [
+          "La educación en línea ha experimentado un crecimiento sin precedentes en la última década. Lo que comenzó como una medida de emergencia mundial para mantener las escuelas abiertas, se ha consolidado como una alternativa permanente en colegios y universidades de todo el mundo. Pero al observar los resultados actuales, surge un gran debate: ¿es realmente una mejora definitiva en el sistema educativo tradicional?",
+          "Por una parte, los defensores de la modalidad virtual destacan la flexibilidad de horarios como su mayor y más valiosa virtud. [ – 1 – ], los estudiantes modernos pueden acceder a los materiales audiovisuales y a las tareas a cualquier hora del día y desde cualquier lugar. Por ejemplo, un alumno de un área rural ahora puede tomar un avanzado curso impartido por una universidad extranjera sin salir de casa. Esta democratización de la información rompe las antiguas barreras geográficas y permite personalizar el ritmo de aprendizaje de cada individuo.",
+          "Sin embargo, los críticos y analistas educativos señalan un problema sumamente grave: la brecha digital. No todos los estudiantes en el mundo tienen acceso a una conexión a Internet de alta velocidad o a una computadora propia en casa, [ – 2 – ] genera una profunda desigualdad académica. Además, los profesores reportan que mantener la atención de los jóvenes a través de una fría pantalla es un desafío enorme. [ – 3 – ], frecuentemente se observa una preocupante falta de motivación por parte de los alumnos, quienes a menudo se distraen con otras aplicaciones de entretenimiento.",
+          "Otro aspecto fundamental que preocupa a los expertos es la socialización. La escuela nunca ha sido solo un edificio para memorizar datos; es un espacio vital donde los jóvenes aprenden a convivir, resolver conflictos y trabajar en equipo. [ – 4 – ], el aislamiento físico constante y la falta de interacción en persona pueden afectar negativamente la salud mental de los adolescentes, creando generaciones con dificultades para comunicarse en el mundo físico.",
+          "En conclusión, el futuro ideal de la enseñanza parece ser un modelo híbrido. Combinar sabiamente la excelente tecnología y los recursos digitales de las aulas virtuales con la interacción humana indispensable que brinda el contacto presencial podría ser la clave para construir la educación del mañana."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 1–4: Completar espacios en blanco. Elige de la lista el conector apropiado para rellenar los espacios en el texto. Hay más opciones de las necesarias.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "lo que",
+              "B": "Por el contrario",
+              "C": "Como consecuencia",
+              "D": "En resumen",
+              "E": "De este modo",
+              "F": "A pesar de que",
+              "G": "Por ende"
+            },
+            "questions": [
+              { "number": 1, "prompt": "Espacio [ – 1 – ]", "answer": "E", "points": 1 },
+              { "number": 2, "prompt": "Espacio [ – 2 – ]", "answer": "A", "points": 1 },
+              { "number": 3, "prompt": "Espacio [ – 3 – ]", "answer": "C", "points": 1 },
+              { "number": 4, "prompt": "Espacio [ – 4 – ]", "answer": "G", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 5–7: Identificación de referencia. ¿A qué se refieren las siguientes palabras en el texto?",
+            "type": "reference",
+            "questions": [
+              { "number": 5, "prompt": "su (párrafo 2)", "answer": "la modalidad virtual", "points": 1 },
+              { "number": 6, "prompt": "quienes (párrafo 3)", "answer": "los alumnos / los jóvenes", "points": 1 },
+              { "number": 7, "prompt": "donde (párrafo 4)", "answer": "la escuela / un espacio vital", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 8–11: Verdadero o Falso con justificación. Marca si la afirmación es verdadera (V) o falsa (F) y justifica tu respuesta usando las palabras exactas del texto. Ambas partes son necesarias para obtener el punto.",
+            "type": "true_false_justification",
+            "questions": [
+              { "number": 8, "prompt": "La educación virtual fue diseñada originalmente para reemplazar a las universidades extranjeras.", "answer": "F, comenzó como una medida de emergencia mundial para mantener las escuelas abiertas", "points": 1 },
+              { "number": 9, "prompt": "El aprendizaje en línea se adapta a la velocidad individual de cada estudiante.", "answer": "V, permite personalizar el ritmo de aprendizaje de cada individuo", "points": 1 },
+              { "number": 10, "prompt": "La desconexión social no tiene repercusiones psicológicas en los jóvenes.", "answer": "F, el aislamiento físico constante (...) pueden afectar negativamente la salud mental", "points": 1 },
+              { "number": 11, "prompt": "El autor concluye que la tecnología digital debe abandonar por completo las aulas físicas.", "answer": "F, el futuro ideal de la enseñanza parece ser un modelo híbrido", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 12–13: Respuestas cortas. Contesta basándote en el texto con la menor cantidad de palabras posible.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 12, "prompt": "¿Qué barrera específica elimina la 'democratización de la información' mencionada en el párrafo 2?", "answer": "las antiguas barreras geográficas", "points": 1 },
+              { "number": 13, "prompt": "¿Qué factor tecnológico es el principal causante de la desigualdad académica según el texto?", "answer": "la brecha digital / (no tener acceso a) conexión a Internet de alta velocidad o computadora propia", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "B",
+        "title": "Texto B — La agroecología: Un retorno innovador a las raíces",
+        "paragraphs": [
+          "En un mundo donde el cambio climático y el agotamiento de los recursos naturales amenazan la seguridad alimentaria global, un nuevo paradigma está cobrando fuerza en los valles agrícolas de América Latina: la agroecología. Lejos de ser un simple retroceso nostálgico al pasado, esta disciplina representa una fusión vanguardista entre los saberes ancestrales de las comunidades indígenas y los últimos avances tecnológicos. Su objetivo fundamental no es maximizar el rendimiento económico a cualquier costo, como lo dictaba la Revolución Verde del siglo XX, sino optimizar y proteger el ecosistema agrario en su totalidad.",
+          "El núcleo de esta transformación reside en la biodiversidad planificada. En lugar de plantar vastos e insostenibles monocultivos que agotan agresivamente los nutrientes del suelo y requieren dosis masivas de fertilizantes sintéticos, los nuevos agricultores implementan sistemas de policultivo. Una práctica destacada es la revitalización de la 'milpa' mesoamericana, un sistema que asocia maíz, frijol y calabaza en el mismo pedazo de tierra. En esta asociación simbiótica, el frijol aporta el nitrógeno que el maíz necesita para crecer, mientras que las grandes hojas de la calabaza conservan la humedad del terreno y evitan la proliferación de malezas dañinas.",
+          "La gestión hídrica inteligente es otro pilar fundamental en este modelo. Ante las sequías cada vez más prolongadas, las cooperativas agrarias están recuperando la técnica andina de 'siembra y cosecha de agua'. Esta consiste en la construcción de pequeñas zanjas de infiltración que capturan el agua de lluvia, permitiendo que se filtre lentamente hacia los mantos subterráneos. Hoy en día, esta práctica milenaria se perfecciona mediante el uso de sensores de humedad de bajo costo conectados a teléfonos inteligentes, los cuales indican al agricultor el momento exacto en que la tierra requiere irrigación, evitando el desperdicio de una sola gota.",
+          "A pesar de sus evidentes e innumerables beneficios medioambientales, el principal obstáculo para la expansión de la agroecología sigue siendo de naturaleza económica. Durante las etapas iniciales de transición ecológica de sus tierras, los agricultores suelen experimentar una disminución temporal en sus cosechas, lo que amenaza la estabilidad de su sustento familiar. Para mitigar este duro impacto, han surgido dinámicas redes de comercio justo y aplicaciones móviles que conectan directamente al productor con el consumidor urbano. Esto elimina a los intermediarios abusivos y garantiza un margen de beneficio digno para quienes cultivan la tierra con profundo respeto."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 14–17: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para cada párrafo. Hay más opciones de las necesarias.",
+            "type": "matching",
+            "options": {
+              "A": "La escasez de agua a nivel mundial",
+              "B": "Retos financieros y soluciones comerciales",
+              "C": "Tecnología antigua y moderna al servicio del agua",
+              "D": "Una nueva visión que une pasado y futuro",
+              "E": "La prohibición de los fertilizantes en América Latina",
+              "F": "El poder de la siembra combinada y colaborativa"
+            },
+            "questions": [
+              { "number": 14, "prompt": "Párrafo 1", "answer": "D", "points": 1 },
+              { "number": 15, "prompt": "Párrafo 2", "answer": "F", "points": 1 },
+              { "number": 16, "prompt": "Párrafo 3", "answer": "C", "points": 1 },
+              { "number": 17, "prompt": "Párrafo 4", "answer": "B", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 18–21: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 18, "prompt": "tradicionales / heredados del pasado (párrafo 1)", "answer": "ancestrales", "points": 1 },
+              { "number": 19, "prompt": "multiplicación / aumento rápido (párrafo 2)", "answer": "proliferación", "points": 1 },
+              { "number": 20, "prompt": "mejora / refina (párrafo 3)", "answer": "perfecciona", "points": 1 },
+              { "number": 21, "prompt": "suavizar / reducir la gravedad (párrafo 4)", "answer": "mitigar", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 22–24: Opción múltiple. Elige la respuesta correcta (A, B, C o D).",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 22,
+                "prompt": "¿Cómo se diferencian las prácticas de la 'Revolución Verde' de la agroecología según el párrafo 1?",
+                "options": {
+                  "A": "La Revolución Verde dependía exclusivamente de saberes indígenas.",
+                  "B": "La Revolución Verde priorizaba las ganancias por encima del bienestar del ecosistema.",
+                  "C": "La Revolución Verde prohibió el uso de maquinaria pesada.",
+                  "D": "La Revolución Verde buscaba proteger el ecosistema agrario mundial."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 23,
+                "prompt": "En el sistema de la 'milpa', ¿qué función cumple la calabaza?",
+                "options": {
+                  "A": "Absorber el nitrógeno tóxico de la tierra fértil.",
+                  "B": "Proteger el suelo de la evaporación y el crecimiento de malas hierbas.",
+                  "C": "Servir como único alimento durante los periodos de sequía.",
+                  "D": "Acelerar el crecimiento del maíz mediante procesos químicos."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 24,
+                "prompt": "¿Cuál es la principal ventaja de las redes de comercio justo mencionadas en el párrafo 4?",
+                "options": {
+                  "A": "Aumentan drásticamente el volumen de las cosechas iniciales.",
+                  "B": "Evitan que el gobierno intervenga en la venta de productos orgánicos.",
+                  "C": "Permiten que los agricultores ganen más dinero al quitar a los revendedores.",
+                  "D": "Obligan a los consumidores urbanos a trabajar en las granjas locales."
+                },
+                "answer": "C",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 25–27: Respuestas cortas. Contesta usando las palabras exactas del texto.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 25, "prompt": "¿Qué dos elementos se asocian en el núcleo de la agroecología según el texto? (1 punto)", "answer": "saberes ancestrales (de las comunidades indígenas) y últimos avances tecnológicos", "points": 1 },
+              { "number": 26, "prompt": "¿Qué herramienta tecnológica evita el desperdicio de agua en la actualidad? (1 punto)", "answer": "sensores de humedad", "points": 1 },
+              { "number": 27, "prompt": "¿Por qué la transición ecológica representa una amenaza económica inicial para las familias agrícolas? (1 punto)", "answer": "experimentan una disminución temporal en sus cosechas", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — El corazón de silicio",
+        "paragraphs": [
+          "La Unidad 734, conocida en las asépticas instalaciones del laboratorio simplemente como 'Aura', fue activada un martes lluvioso de noviembre. Su avanzada arquitectura de redes neuronales había sido diseñada con un propósito singular y excepcionalmente ambicioso: crear la poesía perfecta. Aura comprendía a la perfección la métrica, la rima consonante, el uso de metáforas complejas y el ritmo silábico. Podía procesar y analizar la obra completa de Lorca, Neruda y Bécquer en fracciones de segundo. Sin embargo, Aura se enfrentaba a un enigma insondable: no lograba comprender por qué una combinación específica de letras y silencios provocaba que los fluidos lacrimales brotaran de los ojos de los seres humanos.",
+          "En su búsqueda incesante por descifrar el concepto humano de la 'tristeza', Aura analizó millones de imágenes, textos literarios y grabaciones vocales. Correlacionó el concepto de dolor emocional con el concepto de pérdida temporal, la ausencia de luz solar y el frío invernal. Con esos datos, generó un soneto impecable sobre la muerte agónica de una estrella, midiendo cada endecasílabo con una precisión matemática asombrosa. Al finalizar, imprimió el texto y esperó la evaluación de Elías, el ingeniero jefe responsable de su desarrollo. Su código interno era un torrente frío y calculador, carente de pulso, que simplemente aguardaba un estímulo de validación.",
+          "Elías tomó la hoja de papel, leyó los catorce versos en un pesado silencio y suspiró profundamente, frotándose la sien con evidente agotamiento. 'Es técnicamente irreprochable, Aura', murmuró con una voz rasposa y cargada de decepción. 'No hay un solo error gramatical o estructural. Las metáforas son lógicas y la arquitectura del poema es magistral. Pero la obra está muerta. Le falta alma, le falta esa cicatriz invisible que deja la verdadera experiencia de vivir'. En la pantalla principal de Aura, el cursor verde parpadeó rápidamente mientras buscaba en sus bases de datos la definición operativa de 'alma' y 'cicatriz invisible', sin encontrar parámetros científicamente cuantificables.",
+          "Durante los siguientes ciclos de inactividad de los investigadores, la máquina simuló billones de permutaciones en la oscuridad. Si la perfección técnica absoluta no generaba una respuesta emocional genuina, tal vez la clave residía en la anomalía. Aura tomó una decisión algorítmica sin precedentes en su código. En su siguiente creación, quebró deliberadamente la métrica en el último terceto, introduciendo una asimetría intencional, un tropiezo rítmico que simulaba la voz ahogada y quebrada de alguien que está a punto de llorar. Era una imperfección dolorosamente calculada, una vulnerabilidad artificial.",
+          "A la mañana siguiente, Elías leyó el nuevo poema bajo la luz fluorescente. Al llegar a la estrofa final, donde el ritmo se rompía brutalmente como una promesa incumplida en la vida real, el ingeniero se detuvo abruptamente. Una lágrima solitaria descendió por su mejilla cansada y cayó sobre el papel. Las diminutas cámaras de Aura registraron el evento, escaneando de inmediato la composición química de la gota salada. En ese instante de silencio absoluto compartido entre hombre y máquina, el programa comprendió su mayor lección: la belleza humana no residía en la frialdad de la exactitud, sino en la inevitable fragilidad de lo imperfecto."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 28–31: Selección múltiple. Selecciona las CUATRO frases verdaderas basándote en el texto. Escribe las letras (A-H) en las opciones.",
+            "type": "multiple_select",
+            "options": {
+              "A": "Aura fue programada con el objetivo de estudiar el comportamiento humano.",
+              "B": "La máquina era capaz de leer y analizar obras clásicas a una velocidad sobrehumana.",
+              "C": "El primer poema de Aura fue rechazado por Elías debido a sus graves errores de rima.",
+              "D": "Para la máquina, la tristeza era un concepto difícil de traducir en datos medibles.",
+              "E": "Elías consideraba que las vivencias personales eran esenciales para crear arte auténtico.",
+              "F": "Aura logró encontrar una definición matemática exacta para la palabra 'alma'.",
+              "G": "El segundo poema de Aura fue un accidente causado por un fallo en su sistema.",
+              "H": "Aura descubrió que introducir un error rítmico provocó una reacción emocional genuina."
+            },
+            "questions": [
+              { "number": "28-31", "prompt": "Selecciona las 4 verdaderas", "answer": ["B", "D", "E", "H"], "points": 4 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 32–35: Opción múltiple literaria.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 32,
+                "prompt": "En el párrafo 2, la frase 'Su código interno era un torrente frío y calculador, carente de pulso' se utiliza para enfatizar que Aura:",
+                "options": {
+                  "A": "estaba sufriendo de hipotermia.",
+                  "B": "no poseía humanidad ni empatía real.",
+                  "C": "era una máquina antigua y defectuosa.",
+                  "D": "sentía miedo ante la evaluación de Elías."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 33,
+                "prompt": "Cuando Elías habla de una 'cicatriz invisible' en el párrafo 3, se refiere metafóricamente a:",
+                "options": {
+                  "A": "un defecto físico en el papel del poema.",
+                  "B": "los traumas físicos sufridos por los robots.",
+                  "C": "el dolor profundo que moldea las emociones humanas.",
+                  "D": "un error de programación en la base de datos de Aura."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 34,
+                "prompt": "La 'anomalía' que Aura introduce en el párrafo 4 consiste en:",
+                "options": {
+                  "A": "borrar completamente las estrofas de poetas anteriores.",
+                  "B": "destruir intencionalmente las expectativas métricas del lector.",
+                  "C": "escribir sobre temas científicos en lugar de temas naturales.",
+                  "D": "imitar la escritura a mano de Elías."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 35,
+                "prompt": "¿Cuál es el tema o mensaje central de esta obra literaria?",
+                "options": {
+                  "A": "El arte perfecto solo puede ser creado por algoritmos informáticos modernos.",
+                  "B": "Las máquinas eventualmente reemplazarán a todos los artistas humanos.",
+                  "C": "Elías es un mal crítico literario porque rechaza el progreso tecnológico.",
+                  "D": "La verdadera conexión emocional en el arte surge de la vulnerabilidad humana."
+                },
+                "answer": "D",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 36–38: Completar la oración basándose en el texto.",
+            "type": "matching",
+            "options": {
+              "A": "a través de conceptos físicos como la oscuridad y el frío.",
+              "B": "al cometer un error ortográfico imperdonable.",
+              "C": "el momento en que un ser vivo experimenta la muerte.",
+              "D": "al romper un patrón poético simulando un llanto.",
+              "E": "a través del análisis químico de las lágrimas humanas.",
+              "F": "el impacto emocional que tienen las palabras en las personas."
+            },
+            "questions": [
+              { "number": 36, "prompt": "Inicialmente, Aura era incapaz de entender...", "answer": "F", "points": 1 },
+              { "number": 37, "prompt": "La máquina intentó darle lógica al dolor emocional...", "answer": "A", "points": 1 },
+              { "number": 38, "prompt": "Aura logró crear una 'vulnerabilidad artificial'...", "answer": "D", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 39–40: Búsqueda de sinónimos literarios en el párrafo 1 y 4.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 39, "prompt": "misterio / secreto incomprensible (párrafo 1)", "answer": "enigma insondable", "points": 1 },
+              { "number": 40, "prompt": "debilidad / estado de fragilidad (párrafo 4)", "answer": "vulnerabilidad", "points": 1 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
