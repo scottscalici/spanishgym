@@ -29,7 +29,7 @@
         }
 
         /* Grouping Logic: Keeps sections from splitting across pages */
-        .question-section-wrapper, .question-row, .instruction-block, .options-box, .key-item {
+        .question-section-wrapper, .question-row, .instruction-block, .options-box, .key-item, .key-section-wrapper {
             page-break-inside: avoid !important;
             break-inside: avoid !important;
         }
@@ -241,8 +241,10 @@
                         <span style="width: 40px; display: inline-block;"><b>${q.number}.</b></span>
                         <span class="key-ans">${q.answer}</span>
                     </div>`).join('');
+                
+                // Added the .key-section-wrapper class here to prevent page breaking inside the block
                 return `
-                    <div style="margin-bottom: 25px;">
+                    <div class="key-section-wrapper" style="margin-bottom: 25px;">
                         <div style="font-weight: bold; border-bottom: 1px solid #eee; margin-bottom: 10px; color: #b71c1c;">${t.title}</div>
                         <div class="key-grid">${ans}</div>
                     </div>`;
