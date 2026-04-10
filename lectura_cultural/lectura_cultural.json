@@ -523,5 +523,455 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "Frida Kahlo",
+    "imageFileName": "kahlo.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Frida Kahlo is one of the most famous and important Mexican artists in history. She is known around the world for her incredible self-portraits. She was born in Coyoacán, México, in a bright blue house called La Casa Azul. Many people think her art is surreal, but Frida always said she just painted her own reality and her own life.\n\nWhen she was young, she suffered a terrible bus accident that caused her a lot of dolor, or pain, throughout her entire life. Because she had to stay in bed for many months to recover, her parents gave her paints and a mirror above her bed. She started to paint to pass the time. Her pinturas often show her face, colorful traditional Mexican clothes, and native animals like monkeys, parrots, and dogs. One of her most famous paintings is called *The Two Fridas*.\n\nFrida used her art to express her deep feelings, her physical pain, and to celebrate her rich Mexican cultura. She also married another famous artist named Diego Rivera, and together they were a very famous, but complicated, couple in the art world. Frida’s life was full of difficult challenges, but she never stopped creating beautiful art. Today, La Casa Azul is a popular museum where tourists can see her workspace, her art supplies, and her peaceful gardens.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "What is Frida Kahlo known for around the world?",
+          "Where was she born in Mexico?",
+          "What terrible event caused her a lot of dolor throughout her life?",
+          "Why did she start painting when she was young?",
+          "What kind of animals often appear in her pinturas?",
+          "Who did she marry in the art world?",
+          "What can tourists see today at La Casa Azul?"
+        ],
+        "answerKey": [
+          "Her incredible self-portraits.",
+          "Coyoacán (in a house called La Casa Azul).",
+          "A terrible bus accident.",
+          "Because she had to stay in bed for many months to recover.",
+          "Monkeys, parrots, and dogs.",
+          "Diego Rivera.",
+          "Her workspace, art supplies, and gardens."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Frida Kahlo es una de las artistas mexicanas más famosas e importantes de la historia. Ella es conocida en todo el mundo por sus increíbles autorretratos. Nació en Coyoacán, México, en una casa de color azul muy brillante que se llama La Casa Azul. Muchas personas dicen que su arte es surrealista, pero Frida siempre decía que ella pintaba su propia realidad y su propia vida.\n\nCuando era joven, ella sufrió un accidente de autobús terrible que le causó mucho dolor físico durante toda su vida. Porque tenía que estar en la cama por muchos meses para recuperarse, sus padres le dieron pinturas y un espejo sobre su cama. Ella empezó a pintar para pasar el tiempo. Sus pinturas frecuentemente muestran su cara, ropa tradicional mexicana de muchos colores y animales nativos como monos, loros y perros. Su pintura famosa se llama *Las dos Fridas*.\n\nFrida usó su arte para expresar sus emociones profundas, su dolor y para celebrar su rica cultura mexicana. Ella también se casó con otro artista muy famoso que se llamaba Diego Rivera. Su relación romántica fue muy complicada pero famosa. La vida de Frida estuvo llena de problemas difíciles, pero ella nunca dejó de crear arte hermoso. Hoy en día, La Casa Azul es un museo popular donde los turistas pueden ver su estudio, su ropa y sus jardines.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Por qué tipo de arte es conocida Frida Kahlo en todo el mundo?",
+          "¿En qué lugar específico de México nació la artista famosa?",
+          "¿Qué evento terrible le causó mucho dolor físico durante su vida?",
+          "¿Qué le dieron sus padres cuando ella tenía que estar en la cama?",
+          "¿Qué cosas y animales puedes ver frecuentemente en sus pinturas?",
+          "¿Para qué usó Frida su arte durante toda su vida?",
+          "¿Qué es La Casa Azul hoy en día para los turistas?"
+        ],
+        "answerKey": [
+          "Por sus increíbles autorretratos.",
+          "En Coyoacán, México.",
+          "Un accidente de autobús terrible.",
+          "Le dieron pinturas y un espejo.",
+          "Monos, loros y perros.",
+          "Para expresar sus emociones profundas, su dolor y para celebrar su rica cultura mexicana.",
+          "Es un museo popular donde los turistas pueden ver su estudio, su ropa y sus jardines."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Frida Kahlo es, sin lugar a dudas, una de las pintoras mexicanas más icónicas y reconocidas a nivel mundial, célebre principalmente por sus autorretratos surrealistas y profundamente personales. Nacida en Coyoacán dentro de la famosa Casa Azul, a menudo rechazaba la etiqueta de surrealista, afirmando con orgullo que ella no pintaba sueños, sino su propia y cruda realidad. Su vida estuvo trágicamente marcada por un devastador accidente de autobús en su juventud que le dejó secuelas físicas severas y un dolor crónico incesante.\n\nPostrada en una cama con un dosel de espejos durante largas y tediosas convalecencias, Kahlo encontró en la pintura un refugio vital y una vía de escape para canalizar su sufrimiento físico y emocional. En sus lienzos, plasmó magistralmente su identidad mestiza, vistiendo coloridos trajes de tehuana y rodeándose de flora y fauna endémica, como monos araña y xoloitzcuintles. Obras maestras como *Las dos Fridas* reflejan el dualismo de su herencia y su dolor interior.\n\nA través de su prolífica obra, no solo desafió las rígidas convenciones estéticas de su época, sino que también reivindicó con orgullo las raíces indígenas de México. Su turbulento y apasionado matrimonio con el muralista Diego Rivera la situó en el epicentro de la vanguardia artística y política. Hoy, la Casa Azul funciona como un museo dedicado a preservar su legado inquebrantable, permitiendo a los visitantes caminar por su estudio y admirar sus objetos más íntimos.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Por qué tipo de estilo artístico es mundialmente célebre Frida Kahlo?",
+          "¿Qué impacto físico y crónico tuvo el accidente de autobús en su vida?",
+          "¿Qué representó la pintura para ella durante sus largas convalecencias en cama?",
+          "¿Cómo plasmó magistralmente su identidad mestiza en sus múltiples lienzos?",
+          "¿Qué dos cosas reivindicó o desafió a través de su prolífica obra artística?",
+          "¿Con qué famoso muralista mantuvo un turbulento y apasionado matrimonio?",
+          "¿Cuál es el propósito actual de la Casa Azul ubicada en Coyoacán?"
+        ],
+        "answerKey": [
+          "Por sus autorretratos surrealistas y profundamente personales.",
+          "Le dejó secuelas físicas severas y un dolor crónico incesante.",
+          "Un refugio vital y una vía de escape para canalizar su sufrimiento físico y emocional.",
+          "Vistiendo coloridos trajes de tehuana y rodeándose de flora y fauna endémica.",
+          "Desafió las rígidas convenciones estéticas de su época y reivindicó las raíces indígenas de México.",
+          "Con el muralista Diego Rivera.",
+          "Funciona como un museo dedicado a preservar su legado inquebrantable."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Las Llamas",
+    "imageFileName": "llama.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The llama is a fluffy and interesting animal that lives high in the Andes Mountains of South America, especially in countries like Perú and Bolivia. These animals belong to the camel family, but unlike camels in the desert, llamas do not have humps on their backs. For thousands of years, the indigenous people of the Andes have used llamas as pack animals. They are very strong and can carry heavy things up and down the steep montañas with ease.\n\nBesides carrying things, llamas also provide very warm lana (wool). People use this soft wool to make beautiful sweaters, blankets, and traditional hats to protect themselves from the freezing mountain weather. Llamas eat grass and small plants that grow in the rocky soil. They are very smart and even communicate with each other by making soft humming noises when they are happy or tired.\n\nUsually, llamas are calm, gentle, and very friendly with humans. They are actually great guard animals and often protect herds of sheep from predators. However, they have a very funny way of showing when they are angry or scared. If a llama is upset, it might spit at you! Today, many tourists travel to famous places like Machu Picchu and love taking photos with these furry creatures. Taking care of a llama is an important part of the Andean cultura and history.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where do llamas live in South America?",
+          "What animal family do llamas belong to?",
+          "Why do indigenous people use them as pack animals?",
+          "What do people make with llama lana?",
+          "What do llamas eat in the mountains?",
+          "How do llamas show that they are angry or scared?",
+          "Why do tourists like them at Machu Picchu?"
+        ],
+        "answerKey": [
+          "High in the Andes Mountains (in countries like Perú and Bolivia).",
+          "The camel family.",
+          "Because they are very strong and can carry heavy things up and down the steep montañas.",
+          "Beautiful sweaters, blankets, and traditional hats.",
+          "Grass and small plants that grow in the rocky soil.",
+          "It might spit at you.",
+          "Because they love taking photos with these furry creatures."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La llama es un animal muy peludo e interesante que vive en las montañas altas de los Andes en América del Sur, especialmente en países como Perú y Bolivia. Estos animales son parte de la familia de los camellos, pero las llamas no tienen jorobas en la espalda. Por miles de años, las personas indígenas de los Andes usan las llamas para transportar cosas. Son animales muy fuertes y pueden llevar cosas pesadas por las montañas difíciles sin problema.\n\nAdemás de llevar cosas, las llamas también dan mucha lana muy caliente. Las personas usan esta lana suave para hacer suéteres bonitos, mantas y sombreros tradicionales para el clima muy frío. Ellas comen hierba y plantas pequeñas que crecen en las rocas. Las llamas son inteligentes y hablan entre ellas. Hacen un sonido muy suave como un zumbido cuando están felices o muy cansadas.\n\nNormalmente, las llamas son animales tranquilos, buenos y muy simpáticos con los humanos. En realidad, son excelentes animales guardianes y protegen a las ovejas en las granjas. Sin embargo, tienen una manera muy cómica de mostrar sus emociones malas. Si una llama está enojada o tiene mucho miedo, ¡ella te escupe! Hoy en día, muchos turistas viajan a lugares famosos como Machu Picchu y les encanta tomar fotos con estos animales. Cuidar a las llamas es una parte importante de la cultura andina.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué montañas de América del Sur viven las llamas?",
+          "¿De qué familia de animales son las llamas?",
+          "¿Por qué usan las personas indígenas a las llamas en las montañas?",
+          "¿Qué ropa tradicional hacen las personas con la lana?",
+          "¿Qué comen las llamas todos los días?",
+          "¿Qué hace una llama cuando está enojada o tiene miedo?",
+          "¿Por qué son populares las llamas con los turistas en Machu Picchu?"
+        ],
+        "answerKey": [
+          "En las montañas altas de los Andes (en Perú y Bolivia).",
+          "De la familia de los camellos.",
+          "Porque son animales muy fuertes y pueden llevar cosas pesadas por las montañas difíciles.",
+          "Suéteres bonitos, mantas y sombreros tradicionales.",
+          "Hierba y plantas pequeñas que crecen en las rocas.",
+          "Ella te escupe.",
+          "Les encanta tomar fotos con estos animales."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La llama es un camélido sudamericano domesticado que habita principalmente en las gélidas altitudes de la cordillera de los Andes, abarcando regiones extensas de Perú, Bolivia y el norte de Argentina. Desde la época del esplendoroso Imperio Inca, estos robustos animales han sido fundamentales como bestias de carga, siendo capaces de transportar mercancías pesadas a través de terrenos sumamente escarpados donde otras especies no podrían sobrevivir. Curiosamente, a diferencia de sus primos los camellos africanos, carecen de jorobas.\n\nAdemás de su innegable fuerza física, las llamas proporcionan una lana extraordinariamente cálida y resistente. Esta fibra es indispensable para tejer prendas tradicionales que protegen a las comunidades andinas de las temperaturas bajo cero típicas de la altitud. Su dieta herbívora consiste en pastos duros y arbustos que crecen en suelos rocosos. Poseen un sistema de comunicación fascinante; se comunican constantemente mediante sutiles tarareos o zumbidos que expresan su estado de ánimo, ya sea curiosidad, cansancio o confort.\n\nAunque por lo general poseen un temperamento dócil, curioso y amigable, también destacan como excelentes guardianes de rebaños de ovejas, ahuyentando valientemente a los zorros. Sin embargo, las llamas son mundialmente conocidas por su peculiar y a veces cómico mecanismo de defensa: escupir saliva y jugos gástricos de forma agresiva cuando se sienten amenazadas o excesivamente irritadas. Hoy en día, son un símbolo inconfundible del folclore andino y una atracción principal en ruinas incaicas como Machu Picchu.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué regiones geográficas específicas habitan principalmente las llamas?",
+          "¿Para qué propósito fundamental fueron domesticadas desde la época del Imperio Inca?",
+          "¿Por qué son ideales para el transporte en la cordillera de los Andes?",
+          "¿Qué beneficios proporciona su lana a las comunidades andinas locales?",
+          "¿En qué consiste la dieta herbívora de estos camélidos sudamericanos?",
+          "¿Cuál es su peculiar mecanismo de defensa cuando se sienten amenazadas?",
+          "¿Qué representan culturalmente y turísticamente hoy en día?"
+        ],
+        "answerKey": [
+          "En las gélidas altitudes de la cordillera de los Andes (Perú, Bolivia y el norte de Argentina).",
+          "Como bestias de carga para transportar mercancías pesadas.",
+          "Por ser capaces de transportar mercancías a través de terrenos sumamente escarpados.",
+          "Fibra indispensable para tejer prendas tradicionales que protegen de las temperaturas bajo cero.",
+          "Pastos duros y arbustos que crecen en suelos rocosos.",
+          "Escupir saliva y jugos gástricos de forma agresiva.",
+          "Un símbolo inconfundible del folclore andino y una de las mayores atracciones turísticas."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Lionel Messi",
+    "imageFileName": "messi.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Lionel Messi is widely considered one of the greatest soccer players of all time. He was born in Rosario, Argentina, and started playing fútbol when he was just a very young boy. Even though his talent with the ball was absolutely undeniable, he faced a big problem. He was diagnosed with a growth hormone deficiency, meaning he was much smaller and shorter than the other kids his age.\n\nBecause his family could not afford the expensive medical treatments, when he was thirteen years old, he moved across the ocean to Spain. The famous FC Barcelona academy offered to pay for his medicine if he played for them. There, he worked very hard and eventually became a global superstar. Messi is famous for his incredible speed, his quick footwork, and his amazing ability to score goles against any team.\n\nThroughout his long career, Messi has won many important awards, including multiple Ballon d'Or trophies for being the best player in the world. But his biggest dream always remained the same: to win a championship for his home country. That dream finally came true in 2022 when he led the Argentine national team to a dramatic victory in the World Cup in Qatar. Today, he lives in the United States and plays for Inter Miami. He continues to inspire millions of young athletes everywhere.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where was Lionel Messi born?",
+          "When did he start playing fútbol?",
+          "Why did he move to Spain when he was thirteen?",
+          "What is he famous for on the soccer field?",
+          "What award has he won multiple times?",
+          "What was his biggest dream that finally came true?",
+          "Where does he live and play soccer today?"
+        ],
+        "answerKey": [
+          "Rosario, Argentina.",
+          "When he was just a very young boy.",
+          "To play for the famous FC Barcelona academy.",
+          "His incredible speed, quick footwork, and amazing ability to score goles.",
+          "The Ballon d'Or trophy.",
+          "To win a championship for his home country (the World Cup).",
+          "In the United States."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Lionel Messi es considerado uno de los mejores jugadores de fútbol de toda la historia del deporte. Él nació en Rosario, Argentina, y empezó a jugar al fútbol cuando era un niño muy pequeño. Aunque su talento con el balón era increíble, él tenía un problema médico grande. Su cuerpo no crecía normalmente, y por eso era mucho más bajo y pequeño que los otros niños de su edad.\n\nLa medicina para ayudarlo a crecer era muy cara. Por eso, cuando tenía trece años, Messi se mudó a España. La academia del famoso equipo FC Barcelona pagó su medicina para que él pudiera jugar con ellos. Allí, él practicó mucho y se convirtió en una estrella mundial brillante. Messi es muy famoso por su velocidad rápida, su control del balón y su habilidad increíble para marcar muchos goles importantes en los partidos.\n\nDurante su carrera larga, Messi ganó muchos premios grandes, incluyendo varios trofeos del Balón de Oro por ser el mejor jugador del mundo. Pero su sueño más grande siempre fue ganar con su país. Finalmente, su sueño se hizo realidad en dos mil veintidós cuando fue el capitán de Argentina y ganó la Copa del Mundo en Catar. Hoy en día, él vive en los Estados Unidos y juega para el equipo de Inter Miami, inspirando a muchos niños.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad y país nació Lionel Messi?",
+          "¿Cómo era él comparado con los otros niños de su edad?",
+          "¿Por qué se mudó a España cuando tenía trece años?",
+          "¿Cuáles son las habilidades famosas de Messi en el campo?",
+          "¿Qué premio importante ganó él varias veces en su carrera?",
+          "¿Cuál fue el sueño más grande que hizo realidad para su país?",
+          "¿Dónde vive y juega al fútbol Messi hoy en día?"
+        ],
+        "answerKey": [
+          "En Rosario, Argentina.",
+          "Era más bajo y pequeño que los otros niños.",
+          "Para jugar con la academia del famoso equipo FC Barcelona.",
+          "Su velocidad rápida, su control del balón y su habilidad para marcar muchos goles.",
+          "El trofeo del Balón de Oro.",
+          "Ganar con su país (fue capitán de Argentina y ganó la Copa del Mundo).",
+          "En los Estados Unidos."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Lionel Messi es indiscutiblemente uno de los futbolistas más legendarios y galardonados de todos los tiempos. Originario de la ciudad de Rosario, Argentina, demostró una destreza innata y mágica para el balompié desde su más tierna infancia. A pesar de su talento deslumbrante, enfrentó un grave obstáculo: fue diagnosticado con una deficiencia de la hormona del crecimiento que amenazó con truncar su futuro deportivo. Debido al alto costo de los tratamientos médicos en su país natal, su familia buscó alternativas en el extranjero.\n\nEl FC Barcelona reconoció su potencial inigualable y apostó por él, llevándolo a España a los trece años y financiando íntegramente su tratamiento médico. En el prestigioso club catalán forjó una carrera insuperable, destacando por su agilidad felina, su visión de juego milimétrica y su asombrosa capacidad goleadora. Tras coleccionar innumerables títulos europeos y romper casi todos los récords individuales, incluyendo la obtención de múltiples Balones de Oro, Messi sentía que le faltaba un logro crucial en su palmarés.\n\nAlcanzó la verdadera cúspide de su trayectoria al capitanear a la selección albiceleste hacia la gloria absoluta en la dramática final de la Copa del Mundo de la FIFA en Catar 2022, consagrándose definitivamente como un héroe nacional indiscutible. Actualmente, tras conquistar Europa y el mundo, continúa deslumbrando a los aficionados en la liga norteamericana con el Inter Miami, demostrando que su magia y pasión por el deporte siguen intactas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué problema de salud amenazó el futuro deportivo de Messi en su infancia?",
+          "¿Por qué el FC Barcelona decidió llevarlo a España a los trece años?",
+          "¿Cuáles son tres características técnicas que destacan en su estilo de juego?",
+          "¿Qué premios individuales ha ganado en múltiples ocasiones?",
+          "¿Qué logro crucial sentía que le faltaba conseguir durante muchos años?",
+          "¿Cómo se consagró definitivamente como un héroe nacional en Argentina?",
+          "¿Dónde continúa deslumbrando a los aficionados del fútbol en la actualidad?"
+        ],
+        "answerKey": [
+          "Serios problemas de crecimiento.",
+          "Para pagar su tratamiento médico.",
+          "Su agilidad felina, su visión de juego milimétrica y su asombrosa capacidad goleadora.",
+          "El Balón de Oro (múltiples Balones de Oro).",
+          "Alcanzar la gloria absoluta en la Copa del Mundo con su país.",
+          "Al capitanear a la selección albiceleste hacia la gloria absoluta en la Copa del Mundo de la FIFA.",
+          "En la liga norteamericana."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Lorena Ochoa",
+    "imageFileName": "l_ochoa.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Lorena Ochoa is a very famous professional golfer from the city of Guadalajara, México. She started playing golf when she was only five years old. Even as a young girl, she quickly showed everyone that she had a very special talent for the sport. As she grew up, she practiced every single day and won many national and international tournaments. She even played college golf at the University of Arizona, where she broke many records.\n\nWith a lot of hard work and dedication, Lorena eventually turned professional and became the number one female golfer in the entire world! This is a huge accomplishment, and she held this top title for over three years. She won twenty-seven LPGA Tour events during her amazing career. She is well known for her powerful swing, her intense focus, and her friendly personality with the fans on the golf course.\n\nEven though she was at the top of her career, she surprised many people when she decided to retire from professional golf at the age of twenty-eight. She wanted to spend more time with her familia and focus on helping others. Today, she runs a wonderful foundation that helps children in México get a good education at La Barranca school. In 2017, she was inducted into the World Golf Hall of Fame, proving she is a true sports legend.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where is the famous golfer Lorena Ochoa from?",
+          "How old was she when she started playing golf?",
+          "What happened as she practiced every day and grew up?",
+          "What amazing rank did she achieve in world golf?",
+          "How long did she hold the title of number one female golfer?",
+          "Why did she decide to retire from professional golf?",
+          "What does her wonderful foundation do today?"
+        ],
+        "answerKey": [
+          "Guadalajara, México.",
+          "Five years old.",
+          "She practiced every single day and won many tournaments.",
+          "Number one female golfer in the world.",
+          "Over three years.",
+          "To spend more time with her familia and help others.",
+          "Helps children in México get a good education."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Lorena Ochoa es una exgolfista profesional muy famosa que nació en la ciudad de Guadalajara, México. Ella empezó a jugar al golf cuando tenía solo cinco años de edad. Rápidamente, ella demostró a todas las personas que tenía un talento muy especial para este deporte. Mientras crecía, ella practicaba todos los días y ganó muchos torneos nacionales e internacionales. Ella también jugó al golf en la Universidad de Arizona, donde fue la mejor jugadora.\n\nCon mucho trabajo y dedicación, ¡Lorena se hizo profesional y se convirtió en la jugadora de golf número uno de todo el mundo! Este es un logro enorme, y ella tuvo este título prestigioso por más de tres años. Ella ganó veintisiete torneos importantes en su carrera. Ella es muy conocida por su golpe fuerte, su gran concentración y su personalidad muy simpática con los aficionados y las otras jugadoras en el campo.\n\nAunque era la mejor del mundo, ella sorprendió a muchas personas cuando decidió retirarse del golf profesional a los veintiocho años. Ella quería pasar más tiempo con su familia y ayudar a otras personas. Hoy en día, ella tiene una fundación maravillosa que ayuda a los niños pobres en México a recibir una buena educación en una escuela llamada La Barranca. Ella está en el Salón de la Fama del Golf y es una leyenda deportiva.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué ciudad de México es la golfista Lorena Ochoa?",
+          "¿A qué edad empezó Lorena a jugar al golf?",
+          "¿Qué hizo ella mientras crecía para mejorar en el deporte?",
+          "¿Qué título increíble y prestigioso ganó en el mundo del golf?",
+          "¿Por cuáles tres cosas es muy conocida en el campo de golf?",
+          "¿Por qué decidió retirarse cuando era la mejor jugadora del mundo?",
+          "¿A quiénes ayuda su fundación maravillosa hoy en día?"
+        ],
+        "answerKey": [
+          "De la ciudad de Guadalajara, México.",
+          "A los cinco años de edad.",
+          "Practicaba todos los días.",
+          "La jugadora de golf número uno de todo el mundo.",
+          "Por su golpe fuerte, gran concentración y personalidad simpática.",
+          "Quería pasar más tiempo con su familia y ayudar a otras personas.",
+          "A los niños pobres en México (a recibir una buena educación)."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Lorena Ochoa es una exgolfista profesional oriunda de Guadalajara, México, unánimemente reconocida como la mejor jugadora mexicana de todos los tiempos y una de las figuras más destacadas del deporte mundial. Inició su andadura en este exigente deporte a la temprana edad de cinco años, forjando una técnica depurada y una ética de trabajo implacable. Su talento la llevó a destacar a nivel universitario en los Estados Unidos con la Universidad de Arizona, donde batió récords impresionantes antes de dar el salto al profesionalismo.\n\nA base de perseverancia y un talento arrollador, Ochoa dominó los circuitos internacionales y alcanzó la codiciada cima del ranking mundial femenino. Defendió esta posición de privilegio tenazmente durante más de tres años consecutivos, acumulando veintisiete victorias en el LPGA Tour. Más allá de su potente e impecable swing y su inquebrantable nivel de concentración en los torneos, siempre destacó por su profunda humildad, su sonrisa contagiosa y su carisma inigualable con el público.\n\nEn el apogeo absoluto de su carrera, a los veintiocho años, tomó la sorpresiva decisión de retirarse de la competición de élite para priorizar la formación de su vida familiar y sus proyectos personales. Desde entonces, ha dedicado sus recursos a labores filantrópicas, sosteniendo el Centro Educativo La Barranca para niños marginados. En 2017, su legado fue inmortalizado al ser exaltada al codiciado Salón de la Fama del Golf Mundial.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De dónde es oriunda Lorena Ochoa y cómo es reconocida unánimemente?",
+          "¿Qué cualidades forjó desde temprana edad que la llevaron a dominar los circuitos?",
+          "¿Qué logro impresionante alcanzó y defendió durante más de tres años consecutivos?",
+          "¿Cuáles son las características técnicas y personales que más la destacaban?",
+          "¿En qué momento específico de su trayectoria tomó la decisión de retirarse?",
+          "¿Cuál fue el motivo principal de su sorpresivo retiro de la competición de élite?",
+          "¿A qué tipo de proyectos dedica gran parte de su tiempo a través de su fundación?"
+        ],
+        "answerKey": [
+          "De Guadalajara, México; reconocida como la mejor jugadora mexicana de todos los tiempos.",
+          "Una técnica depurada y una ética de trabajo implacable.",
+          "La cima del ranking mundial femenino.",
+          "Potente swing, concentración, humildad, sonrisa contagiosa y carisma.",
+          "En el apogeo de su carrera.",
+          "Para priorizar su vida familiar y sus proyectos personales.",
+          "A labores filantrópicas y proyectos integrales para niños de escasos recursos."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "La Paella",
+    "imageFileName": "paella.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "La paella is a very famous and incredibly delicious dish that originally comes from the coastal region of Valencia, España. It is widely considered the most important and traditional food in the entire country. The dish is always made with short-grain arroz, or rice, specifically the \"bomba\" variety, which perfectly absorbs all the rich flavors of the broth. Cooks also use olive oil, fresh vegetables, and a very special spice called saffron. The saffron gives the rice its beautiful yellow color and a unique, earthy flavor.\n\nTraditionally, people cook paella outdoors over an open fire using wood. They use a very large, flat metal pan with two handles, which is actually where the dish gets its name! The most authentic recipe, called paella valenciana, includes chicken, rabbit, and green beans. However, many people who live near the ocean prefer paella de mariscos, which is full of fresh shrimp, mussels, and squid. The best part of the dish is the socarrat, the crispy crust of rice at the bottom of the pan.\n\nEating this amazing meal is a wonderful social event in Spain. Families and friends usually gather around the giant pan on Sundays to share the food for lunch. Because it is a very heavy meal, Spaniards rarely eat paella for dinner. They talk for hours, enjoy each other's company, and eat directly from the pan. It is a true taste of Spanish culture and a great way to bring people together.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where does paella originally come from?",
+          "What type of arroz is used to make the dish?",
+          "What gives the rice its beautiful yellow color?",
+          "How do people traditionally cook this meal?",
+          "What three ingredients are in the authentic paella valenciana?",
+          "What do people who live near the ocean prefer to eat?",
+          "What day of the week do families usually gather to eat it?"
+        ],
+        "answerKey": [
+          "The coastal region of Valencia, España.",
+          "Short-grain arroz (rice).",
+          "A special spice called saffron.",
+          "Outdoors over an open fire using wood in a large, flat pan.",
+          "Chicken, rabbit, and green beans.",
+          "Paella de mariscos (with shrimp, mussels, squid).",
+          "Sundays."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La paella es un plato muy famoso e increíblemente delicioso que viene originalmente de la región costera de Valencia, España. Es considerada la comida más importante y tradicional de todo el país. El plato siempre se hace con arroz de grano corto, que absorbe perfectamente todos los sabores ricos del caldo. Los cocineros también usan aceite de oliva, verduras frescas y una especia muy especial que se llama azafrán. El azafrán le da al arroz un color amarillo hermoso y un sabor único.\n\nTradicionalmente, las personas cocinan la paella al aire libre sobre un fuego usando madera. Usan una sartén de metal muy grande y plana para cocinarla. La receta más auténtica, que se llama paella valenciana, incluye pollo, conejo y frijoles verdes. Sin embargo, muchas personas que viven cerca del océano prefieren la paella de mariscos, que tiene muchos camarones frescos, mejillones y calamares. A muchas personas les gusta el \"socarrat\", que es el arroz frito y crujiente en el fondo de la sartén.\n\nComer esta comida maravillosa es un gran evento social en España. Las familias y los amigos normalmente se reúnen alrededor de la sartén gigante los domingos para el almuerzo. Como es una comida muy grande, las personas casi nunca comen paella para la cena. Ellos comparten la comida deliciosa, hablan por muchas horas y disfrutan del día juntos. ¡Es una manera perfecta de experimentar la cultura española!",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué región costera de España viene la paella?",
+          "¿Qué tipo de arroz usan los cocineros para este plato?",
+          "¿Qué ingrediente especial le da al arroz un color amarillo hermoso?",
+          "¿Dónde y cómo cocinan las personas la paella tradicionalmente?",
+          "¿Cuáles son tres ingredientes principales de la paella valenciana?",
+          "¿Qué tipo de paella prefieren las personas que viven cerca del océano?",
+          "¿Por qué es la paella un gran evento social los domingos?"
+        ],
+        "answerKey": [
+          "De la región costera de Valencia, España.",
+          "Arroz de grano corto.",
+          "Una especia especial llamada azafrán.",
+          "Al aire libre sobre un fuego usando madera.",
+          "Pollo, conejo y frijoles verdes.",
+          "La paella de mariscos.",
+          "Las familias y los amigos se reúnen para compartir comida, hablar y disfrutar."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La paella es, indiscutiblemente, el plato estrella de la rica gastronomía española y el emblema culinario inconfundible de la Comunidad Valenciana. Su base fundamental es el arroz de grano corto, específicamente la apreciada variedad bomba, la cual posee la extraordinaria capacidad de absorber los intensos sabores de un buen sofrito y el caldo sin romperse. Además del aceite de oliva virgen extra, el ingrediente mágico es el codiciado azafrán, responsable de otorgarle ese característico tono dorado brillante y su aroma terroso y penetrante.\n\nLa auténtica receta valenciana se elabora tradicionalmente a leña, al aire libre, e incorpora ingredientes autóctonos de la huerta y el corral, tales como pollo, conejo, garrofón y judías verdes planas. No obstante, las versiones marineras, repletas de gambas frescas, mejillones, almejas y sepia, gozan de una inmensa popularidad en las pintorescas zonas costeras. El mayor deleite para los comensales expertos es lograr el \"socarrat\", esa capa tostada, caramelizada y crujiente de arroz que se forma magistralmente en el fondo de la paellera.\n\nMás que una simple receta culinaria, el acto de preparar y degustar una paella constituye un entrañable ritual social. Es una celebración de la convivencia donde familiares y amigos se congregan pacíficamente alrededor de la paellera al mediodía de los domingos. Debido a su contundencia, es estrictamente un plato de almuerzo y rara vez se cena. Comparten anécdotas y fortalecen lazos afectivos mientras disfrutan de este exquisito manjar directamente del recipiente.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué comunidad autónoma es emblema culinario este famoso plato?",
+          "¿Qué variedades de arroz son ideales por su capacidad de absorber sabores?",
+          "¿Qué aporta específicamente el codiciado azafrán a la preparación?",
+          "¿Qué ingredientes de la huerta y el corral lleva la auténtica receta valenciana?",
+          "¿Qué ingredientes destacan en las versiones marineras de las zonas costeras?",
+          "¿Cómo se describe el acto de preparar y degustar este plato en España?",
+          "¿Qué valores sociales se fortalecen al congregarse alrededor de la paellera?"
+        ],
+        "answerKey": [
+          "De la Comunidad Valenciana.",
+          "Las variedades bomba o senia.",
+          "Le otorga un tono dorado característico y un aroma terroso.",
+          "Pollo, conejo, garrofón y judías verdes planas.",
+          "Gambas frescas, mejillones, almejas y sepia.",
+          "Como un entrañable ritual social y una celebración de convivencia.",
+          "Se fortalecen lazos afectivos."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Perezoso",
+    "imageFileName": "sloth.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The sloth, known in Spanish as el perezoso, is a fascinating and extremely slow animal that lives in the lush tropical rainforests of Central and South America. They spend almost their entire lives hanging upside down high up in the canopy of the árboles, or trees. There are two main types of sloths: two-toed sloths and three-toed sloths. Perezosos sleep for up to fifteen hours every single day to save their energy and keep their body temperatures low.\n\nBecause they move so slowly through the branches, special green algae often grows in their thick, shaggy fur. This green color might look strange, but it is actually a great natural camouflage. It helps them blend in with the leaves and hide from dangerous predators like harpy eagles and jaguars. Interestingly, special moths also live inside their fur! They also have very long, sharp claws that help them grip the tree branches tightly so they don't fall while they sleep.\n\nPerezosos only come down to the ground about once a week to go to the bathroom. They are very clumsy on the dirt but are surprisingly excellent swimmers in the water. Their diet is very simple; they eat tough leaves, small twigs, and sweet fruits. Their stomachs work just as slowly as their bodies, taking up to a whole month to digest just one leaf. They are truly one of the most unique and peaceful animals in the jungle.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where do sloths live in the wild?",
+          "How do they spend almost their entire lives?",
+          "How many hours a day do perezosos sleep to save energy?",
+          "Why does green algae often grow in their thick fur?",
+          "What two dangerous predators does the camouflage hide them from?",
+          "How often do sloths come down to the ground?",
+          "What do they eat in the jungle?"
+        ],
+        "answerKey": [
+          "Lush tropical rainforests of Central and South America.",
+          "Hanging upside down high up in the canopy of the árboles.",
+          "Up to fifteen hours.",
+          "Because they move so slowly through the branches.",
+          "Harpy eagles and jaguars.",
+          "About once a week.",
+          "Tough leaves, small twigs, and sweet fruits."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El perezoso es un animal fascinante y extremadamente lento que vive en las hermosas selvas tropicales de América Central y América del Sur. Ellos pasan casi toda su vida colgados boca abajo en lo lo alto de las ramas de los árboles. Hay dos tipos principales de perezosos: unos tienen dos dedos y otros tienen tres dedos. Los perezosos duermen hasta quince horas todos los días para conservar su energía y porque su cuerpo funciona lentamente.\n\nPorque se mueven tan lentamente por los árboles, a veces crecen plantas verdes pequeñas, o algas, en su pelo grueso. Este color verde puede parecer extraño, pero es en realidad un camuflaje natural excelente. Les ayuda a mezclarse con las hojas y esconderse de depredadores peligrosos como las águilas grandes y los jaguares. ¡También hay insectos pequeños que viven en su pelo! Tienen garras muy largas y fuertes que les ayudan a agarrar las ramas muy bien para no caerse cuando duermen.\n\nLos perezosos solo bajan a la tierra una vez a la semana para ir al baño. Caminan muy mal en la tierra, pero curiosamente, son muy buenos nadadores en los ríos. Su dieta es muy simple; ellos comen hojas duras, frutas dulces y ramas pequeñas. Sus estómagos trabajan tan lentamente como sus cuerpos, y necesitan casi un mes entero para digerir su comida. Son verdaderamente unos de los animales más únicos y tranquilos de toda la jungla.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué tipo de ecosistema viven los perezosos?",
+          "¿Cómo pasan casi toda su vida en los árboles altos?",
+          "¿Cuántas horas duermen los perezosos todos los días?",
+          "¿Por qué crecen plantas verdes o algas en su pelo grueso?",
+          "¿Por qué es muy importante y excelente este camuflaje verde?",
+          "¿Qué usan los perezosos para agarrar las ramas y no caerse?",
+          "¿Cuántas veces a la semana bajan a la tierra?"
+        ],
+        "answerKey": [
+          "En las selvas tropicales de América Central y América del Sur.",
+          "Colgados boca abajo en lo alto de las ramas de los árboles.",
+          "Hasta quince horas todos los días.",
+          "Porque se mueven muy lentamente por los árboles.",
+          "Les ayuda a mezclarse con las hojas y esconderse de depredadores peligrosos.",
+          "Garras muy largas y fuertes.",
+          "Una vez a la semana."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El perezoso es un mamífero arborícola fascinante, mundialmente célebre por la extrema lentitud de sus movimientos, que habita en el denso dosel de las selvas tropicales de Centroamérica y Sudamérica. Divididos principalmente en familias de dos y tres dedos, estos curiosos animales pasan la inmensa mayoría de su existencia suspendidos boca abajo de las ramas más altas. Tienen la asombrosa capacidad de ralentizar su metabolismo drásticamente y su temperatura corporal fluctúa con el ambiente, características inusuales para un mamífero.\n\nSu parsimonia no es pereza, sino una brillante estrategia evolutiva para conservar energía vital. Curiosamente, su espeso y áspero pelaje actúa como un ecosistema en miniatura; alberga polillas simbióticas y algas que les otorgan un sutil tono verdoso. Este rasgo les proporciona un camuflaje perfecto para pasar desapercibidos ante depredadores letales con visión aguda, como las majestuosas águilas arpías o los sigilosos jaguares. Dotados de garras ganchudas, increíblemente largas y poderosas, se aferran con una firmeza asombrosa que mantienen incluso mientras duermen.\n\nDescienden al suelo firme apenas una vez por semana para defecar, mostrándose torpes y vulnerables en la tierra, aunque, sorprendentemente, son ágiles nadadores si caen al agua. Su dieta, basada casi exclusivamente en hojas duras y brotes fibrosos, es muy pobre en nutrientes. Requiere un proceso de digestión sumamente pesado y prolongado, tardando hasta un mes en procesar su alimento. Viven a un ritmo inalterable y pacífico que contrasta con el frenesí salvaje.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué área específica de la selva habitan estos mamíferos arborícolas?",
+          "¿Con qué frecuencia y para qué propósito descienden al suelo firme?",
+          "¿Por qué su extrema parsimonia se considera una brillante estrategia evolutiva?",
+          "¿Cómo se describe la dieta del perezoso y su proceso de digestión?",
+          "¿Qué organismo habita en su áspero pelaje otorgándoles un tono verdoso?",
+          "¿Contra qué depredadores letales les protege su camuflaje perfecto?",
+          "¿Qué característica anatómica les permite aferrarse con asombrosa firmeza a los árboles?"
+        ],
+        "answerKey": [
+          "En el denso dosel de las selvas tropicales de Centroamérica y Sudamérica.",
+          "Apenas una vez por semana para defecar.",
+          "Para conservar energía vital.",
+          "Basada en hojas duras y brotes fibrosos; requiere un proceso de digestión sumamente pesado y prolongado.",
+          "Algas simbióticas.",
+          "Las águilas arpías o los sigilosos jaguares.",
+          "Garras ganchudas, increíblemente largas y poderosas."
+        ]
+      }
+    }
   }
 ]
