@@ -1,0 +1,242 @@
+{
+  "worksheet": {
+    "title": "Práctica de Lectura IB: Nivel Medio (Modelo 5 - Opción 2)",
+    "texts": [
+      {
+        "text_id": "A",
+        "title": "Texto A — Costa Rica: El éxito verde del ecoturismo",
+        "paragraphs": [
+          "En la década de 1980, Costa Rica se enfrentaba a una crisis ambiental alarmante: poseía una de las tasas de deforestación más altas de América Latina. Los bosques desaparecían rápidamente para dar paso a la agricultura intensiva y la ganadería. Sin embargo, el país decidió dar un giro radical a su política y apostó por un modelo innovador: el ecoturismo. Hoy en día, Costa Rica es reconocida mundialmente como un ejemplo brillante de cómo revertir la destrucción ambiental y convertir la conservación de la biodiversidad en un motor económico sumamente rentable.",
+          "El ecoturismo no consiste simplemente en viajar a la naturaleza, sino en hacerlo de manera responsable. Su objetivo principal es minimizar el impacto del visitante y promover la protección de las especies. En Costa Rica, más del veinticinco por ciento del territorio nacional está clasificado como parque nacional o reserva biológica protegida. Esto permite que los turistas puedan observar tortugas marinas, perezosos y tucanes en su hábitat natural, financiando con sus entradas el cuidado continuo de estos ecosistemas frágiles.",
+          "Uno de los grandes éxitos de este modelo es la participación activa de las comunidades locales. En lugar de talar árboles para vender la madera, los habitantes han descubierto que un bosque vivo vale mucho más que uno muerto. Muchos campesinos se han capacitado para trabajar como guías naturalistas expertos, mientras que otros han abierto pequeños hoteles ecológicos, conocidos como 'eco-lodges', que funcionan con energía solar. Esto ha generado empleo digno y ha mejorado la calidad de vida en zonas rurales que antes estaban aisladas.",
+          "A pesar de estos notables logros, el país enfrenta nuevos desafíos en la actualidad. El creciente volumen de turistas internacionales amenaza con saturar algunos de los parques más populares durante la temporada alta. Por lo tanto, el reto principal de las autoridades es mantener un estricto equilibrio: seguir atrayendo ingresos vitales para la economía nacional sin destruir el mismo paraíso natural que los visitantes vienen a admirar."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 1–4: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para cada párrafo. Hay más opciones de las necesarias.",
+            "type": "matching",
+            "options": {
+              "A": "La amenaza del exceso de visitantes",
+              "B": "De la deforestación a la conservación",
+              "C": "El rescate de los animales de zoológico",
+              "D": "Nuevas oportunidades laborales para los pueblos",
+              "E": "La prohibición total del turismo extranjero",
+              "F": "Financiar el cuidado a través de visitas responsables"
+            },
+            "questions": [
+              { "number": 1, "prompt": "Párrafo 1", "answer": "B", "points": 1 },
+              { "number": 2, "prompt": "Párrafo 2", "answer": "F", "points": 1 },
+              { "number": 3, "prompt": "Párrafo 3", "answer": "D", "points": 1 },
+              { "number": 4, "prompt": "Párrafo 4", "answer": "A", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 5–8: Verdadero o Falso con justificación. Marca si la afirmación es verdadera (V) o falsa (F) y justifica tu respuesta usando las palabras exactas del texto. Ambas partes son necesarias para obtener el punto.",
+            "type": "true_false_justification",
+            "questions": [
+              { "number": 5, "prompt": "Costa Rica siempre ha protegido sus áreas forestales con gran éxito.", "answer": "F, en la década de 1980... poseía una de las tasas de deforestación más altas", "points": 1 },
+              { "number": 6, "prompt": "Más de la cuarta parte del país está protegida por el gobierno.", "answer": "V, más del veinticinco por ciento del territorio nacional está clasificado como parque nacional o reserva", "points": 1 },
+              { "number": 7, "prompt": "Los habitantes locales han vuelto a talar los bosques para construir hoteles.", "answer": "F, han descubierto que un bosque vivo vale mucho más que uno muerto", "points": 1 },
+              { "number": 8, "prompt": "El principal problema actual del país es la falta de turistas extranjeros.", "answer": "F, El creciente volumen de turistas internacionales amenaza con saturar algunos de los parques", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Pregunta 9: Respuesta corta. Contesta basándote en el párrafo 3.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 9, "prompt": "Menciona dos opciones laborales que han encontrado los habitantes locales en el ecoturismo. (2 puntos)", "answer": "guías naturalistas (expertos) / abrir pequeños hoteles ecológicos ('eco-lodges')", "points": 2 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 10–13: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 10, "prompt": "deshacer / volver al estado anterior (párrafo 1)", "answer": "revertir", "points": 1 },
+              { "number": 11, "prompt": "reducir al mínimo posible (párrafo 2)", "answer": "minimizar", "points": 1 },
+              { "number": 12, "prompt": "preparado / educado profesionalmente (párrafo 3)", "answer": "capacitado", "points": 1 },
+              { "number": 13, "prompt": "desafío / meta difícil (párrafo 4)", "answer": "reto", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "B",
+        "title": "Texto B — La evolución del trabajo moderno: Nómadas y nuevas jornadas",
+        "paragraphs": [
+          "El concepto tradicional del mundo laboral está experimentando una transformación profunda. Tras la pandemia, el teletrabajo se consolidó en muchas empresas y dio origen a la figura del 'nómada digital': profesionales que utilizan la tecnología para trabajar desde cualquier lugar del mundo. España, [ – 14 – ] su excelente clima, su rica gastronomía y su conexión a Internet de alta velocidad, se ha convertido en el destino favorito de miles de estos trabajadores internacionales que buscan una mejor calidad de vida.",
+          "La llegada de estos profesionales extranjeros está teniendo un impacto muy positivo en la llamada 'España vaciada'. Muchos pueblos pequeños y zonas rurales, que llevaban décadas perdiendo población joven, ven en los nómadas digitales una oportunidad única para sobrevivir. [ – 15 – ], la apertura de espacios de trabajo compartido ('coworking') y la llegada de nuevos consumidores revitalizan la economía local, salvando negocios familiares como panaderías o cafeterías que estaban a punto de cerrar.",
+          "Sin embargo, este fenómeno también genera importantes debates y problemas sociales en las grandes urbes. En ciudades como Málaga o Valencia, la alta demanda de viviendas por parte de extranjeros con salarios elevados ha provocado que el precio del alquiler se dispare exponencialmente. [ – 16 – ], muchos residentes locales, cuyos sueldos son considerablemente menores, se ven obligados a abandonar sus barrios de toda la vida para mudarse a las afueras, generando un proceso de gentrificación muy criticado.",
+          "Paralelamente al trabajo remoto, en España está ganando fuerza otra revolución laboral: la semana laboral de cuatro días. Diversas empresas están realizando pruebas piloto para reducir la jornada de cinco a cuatro días sin disminuir el salario de los empleados. Los primeros estudios indican que esta medida no solo reduce el estrés y mejora la salud mental de los trabajadores, [ – 17 – ] que curiosamente mantiene, e incluso aumenta, la productividad general de la empresa."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 14–17: Completar espacios en blanco. Elige de la lista el conector apropiado para rellenar los espacios en el texto.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "gracias a",
+              "B": "a pesar de",
+              "C": "Además",
+              "D": "En cambio",
+              "E": "Como consecuencia",
+              "F": "Antes de",
+              "G": "sino",
+              "H": "aunque"
+            },
+            "questions": [
+              { "number": 14, "prompt": "Espacio [ – 14 – ]", "answer": "A", "points": 1 },
+              { "number": 15, "prompt": "Espacio [ – 15 – ]", "answer": "C", "points": 1 },
+              { "number": 16, "prompt": "Espacio [ – 16 – ]", "answer": "E", "points": 1 },
+              { "number": 17, "prompt": "Espacio [ – 17 – ]", "answer": "G", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 18–20: Opción múltiple. Elige la respuesta correcta basándote en el texto.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 18,
+                "prompt": "Según el párrafo 1, España atrae a los nómadas digitales principalmente por...",
+                "options": {
+                  "A": "la falta de impuestos y leyes laborales.",
+                  "B": "el buen clima, la comida y la infraestructura tecnológica.",
+                  "C": "la necesidad urgente de aprender el idioma español.",
+                  "D": "las ofertas de trabajo presencial en las grandes empresas."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 19,
+                "prompt": "El impacto negativo de los nómadas digitales en las ciudades (párrafo 3) es que...",
+                "options": {
+                  "A": "consumen todo el internet de alta velocidad.",
+                  "B": "cierran las panaderías y negocios tradicionales.",
+                  "C": "hacen que el costo de la vivienda sea inaccesible para los locales.",
+                  "D": "se niegan a pagar sus impuestos en España."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 20,
+                "prompt": "Según los primeros estudios sobre la semana laboral de cuatro días...",
+                "options": {
+                  "A": "las empresas están perdiendo mucho dinero por la falta de horas.",
+                  "B": "los empleados prefieren trabajar cinco días para ganar más.",
+                  "C": "el nivel de trabajo de la empresa se mantiene igual o mejora.",
+                  "D": "solo se puede aplicar a los trabajadores extranjeros."
+                },
+                "answer": "C",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 21–23: Identificación de referencia. ¿A qué se refieren las siguientes palabras en el texto?",
+            "type": "reference",
+            "questions": [
+              { "number": 21, "prompt": "estos trabajadores (párrafo 1)", "answer": "nómadas digitales", "points": 1 },
+              { "number": 22, "prompt": "sus barrios (párrafo 3)", "answer": "residentes locales", "points": 1 },
+              { "number": 23, "prompt": "esta medida (párrafo 4)", "answer": "la semana laboral de cuatro días (o: reducir la jornada)", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 24–26: Relacionar mitades de oraciones. Relaciona la primera parte de la frase con su final correcto.",
+            "type": "matching",
+            "options": {
+              "A": "...tienen que mudarse por el alto costo de vida.",
+              "B": "...revitaliza la economía de los pueblos rurales.",
+              "C": "...disminuyen la calidad de vida de los trabajadores.",
+              "D": "...son una excelente oportunidad para sobrevivir económicamente.",
+              "E": "...aumentan drásticamente el salario de los empleados."
+            },
+            "questions": [
+              { "number": 24, "prompt": "La 'España vaciada' ve a los nómadas digitales como...", "answer": "D", "points": 1 },
+              { "number": 25, "prompt": "La apertura de espacios de coworking...", "answer": "B", "points": 1 },
+              { "number": 26, "prompt": "Los locales de Málaga y Valencia...", "answer": "A", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — El Refugio de Papel: La biblioteca de la memoria",
+        "paragraphs": [
+          "Escondida en una estrecha y neblinosa callejuela del centro histórico, se encuentra 'El Refugio de Papel', una biblioteca y librería antiquísima que parece detenida en el tiempo. Su fundador, el anciano librero Don Aurelio, lleva más de cuarenta años dedicado a una misión muy peculiar: rescatar libros olvidados. Mientras las grandes tiendas modernas venden miles de copias de los últimos éxitos digitales comerciales, Aurelio busca en sótanos oscuros, mercados de pulgas y casas abandonadas aquellas novelas que ya nadie lee, convencido de que la memoria de la humanidad reside en sus páginas amarillentas.",
+          "Para Don Aurelio, cada libro físico tiene un alma propia y cuenta dos historias diferentes. La primera es la trama que el autor escribió, con sus personajes y misterios. La segunda historia es la que deja cada lector en el objeto mismo: una mancha de café en la portada, una dedicatoria romántica escrita a mano en la primera página o una flor seca guardada entre dos capítulos. Según él, los libros electrónicos son útiles y prácticos para la vida moderna, pero carecen de esa conexión emocional e histórica que une a las generaciones pasadas con las futuras.",
+          "El funcionamiento de esta biblioteca es fascinante y atrae a numerosos turistas y curiosos. Los visitantes no pueden comprar los libros antiguos con dinero. En su lugar, el sistema funciona mediante un 'pacto de adopción'. Si alguien desea llevarse una obra a casa, debe prometer leerla completamente y, al terminarla, escribir una breve carta explicando qué sintió al hacerlo. Esa carta se guarda dentro del libro antes de ser devuelto a los estantes, esperando sorprender al próximo lector.",
+          "En una época donde todo es rápido, digital y efímero, 'El Refugio de Papel' nos invita a detenernos y reflexionar. Este misterioso lugar nos recuerda que la lectura no es solo consumir información de una pantalla brillante, sino una experiencia sensorial e intelectual que merece ser protegida del paso implacable del tiempo."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 27–31: Selección múltiple. Selecciona las CINCO afirmaciones verdaderas basándote en el texto. Escribe las letras (A-J) en las opciones.",
+            "type": "multiple_select",
+            "options": {
+              "A": "La librería 'El Refugio de Papel' es un edificio de construcción muy moderna.",
+              "B": "Don Aurelio se dedica a buscar libros que han perdido su popularidad.",
+              "C": "Aurelio vende los libros antiguos a precios muy altos para ganar dinero.",
+              "D": "Según el librero, las marcas dejadas por lectores anteriores le dan valor al libro.",
+              "E": "Los libros electrónicos tienen un gran valor sentimental para Don Aurelio.",
+              "F": "Para poder llevarse un libro a casa, los clientes deben dejar dinero en efectivo.",
+              "G": "El sistema de adopción exige que los lectores escriban sobre su experiencia personal.",
+              "H": "Las cartas de los lectores anteriores se guardan permanentemente dentro de los libros.",
+              "I": "La biblioteca promueve la lectura rápida y eficiente a través de pantallas.",
+              "J": "El autor del artículo sugiere que la lectura de libros físicos debe ser preservada."
+            },
+            "questions": [
+              { "number": "27-31", "prompt": "Selecciona las 5 verdaderas", "answer": ["B", "D", "G", "H", "J"], "points": 5 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 32–34: Respuestas cortas. Contesta usando las palabras exactas del texto.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 32, "prompt": "Menciona dos lugares específicos donde Aurelio busca los libros que rescata. (1 punto)", "answer": "sótanos oscuros, mercados de pulgas, casas abandonadas (dos de los tres)", "points": 1 },
+              { "number": 33, "prompt": "¿Qué dos acciones debe realizar un lector para poder llevarse un libro de la biblioteca? (1 punto)", "answer": "prometer leerla completamente / escribir una (breve) carta", "points": 1 },
+              { "number": 34, "prompt": "¿Qué opina Don Aurelio sobre el formato de los libros electrónicos? (1 punto)", "answer": "son útiles y prácticos (...), pero carecen de esa conexión emocional e histórica", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 35–37: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 35, "prompt": "extraña / singular / fuera de lo común (párrafo 1)", "answer": "peculiar", "points": 1 },
+              { "number": 36, "prompt": "les falta / no poseen (párrafo 2)", "answer": "carecen", "points": 1 },
+              { "number": 37, "prompt": "pasajero / que dura muy poco tiempo (párrafo 4)", "answer": "efímero", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 38–39: Opción múltiple para comprensión global.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 38,
+                "prompt": "La idea principal del párrafo 2 es que...",
+                "options": {
+                  "A": "los libros electrónicos son superiores a los de papel.",
+                  "B": "las manchas en los libros arruinan completamente la historia.",
+                  "C": "los libros físicos poseen un valor emocional añadido por quienes los han leído.",
+                  "D": "es necesario escribir una dedicatoria en todos los libros nuevos."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 39,
+                "prompt": "¿Cuál es el propósito principal del autor al escribir el Texto C?",
+                "options": {
+                  "A": "Explicar cómo ganar dinero abriendo una librería de libros usados.",
+                  "B": "Celebrar el valor emocional, histórico y tangible de los libros físicos.",
+                  "C": "Criticar severamente a las personas que leen mediante pantallas digitales.",
+                  "D": "Publicitar la librería de Don Aurelio para aumentar sus ventas."
+                },
+                "answer": "B",
+                "points": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
