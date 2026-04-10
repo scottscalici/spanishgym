@@ -1573,5 +1573,380 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "Rosalía",
+    "imageFileName": "rosalia.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Rosalía is a very famous, incredibly talented Spanish singer, producer, and songwriter who has completely taken the global music world by storm. She was originally born in a small town near Barcelona, España. When she was young, she dedicated her life to studying traditional flamenco music at a special university. She practiced singing and playing instruments for many hours every single day. Her deep understanding of this highly complicated and classic style is the strong foundation of all her art today.\n\nWhat makes her música so unique and popular is how she expertly mixes those classic, historical flamenco sounds with modern pop, fast reggaeton, and intense electronic beats. Her extremely powerful voice, emotional live performances, and highly creative music videos have won her millions of passionate fans all over the globe. She has released several very successful albums, like *El Mal Querer* and *Motomami*, which completely changed the pop music industry. Her songs are so popular that people from all over the world learn the lyrics in Spanish just to sing along with her.\n\nThroughout her amazing career, Rosalía has won many prestigious Grammy awards and has collaborated with other massive artists like J Balvin, The Weeknd, and Billie Eilish. Besides her undeniable musical talent, she is also well known for her bold fashion choices and her incredibly long, highly decorated fingernails, which quickly became a global trend. She is a true innovator, showing the world that you can deeply respect old traditions while creating something completely new, fresh, and exciting for a modern audience. She proves that language is never a barrier to incredible music.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where was Rosalía born?",
+          "What kind of music did she study when she was young?",
+          "What modern sounds does she mix with traditional flamenco?",
+          "What is the name of one of her successful albums?",
+          "What kind of prestigious awards has she won?",
+          "What other massive artists has she collaborated with?",
+          "What is she famous for besides her undeniable musical talent?"
+        ],
+        "answerKey": [
+          "In a small town near Barcelona, España.",
+          "Traditional flamenco music.",
+          "Modern pop, fast reggaeton, and intense electronic beats.",
+          "Motomami (or El Mal Querer).",
+          "Grammy awards.",
+          "J Balvin, The Weeknd, and Billie Eilish.",
+          "Her bold fashion choices and incredibly long, highly decorated fingernails."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Rosalía es una cantante, productora y escritora española muy famosa y talentosa que tiene un éxito increíble en todo el mundo de la música. Ella nació originalmente en un pueblo pequeño cerca de Barcelona, España. Cuando era joven, ella estudió la música tradicional del flamenco en una universidad especial. Ella practicaba el canto y tocaba instrumentos por muchas horas todos los días. Su gran conocimiento de este estilo clásico es la base importante de todo su arte.\n\nLo que hace que su música sea tan única y popular es cómo ella mezcla los sonidos clásicos del flamenco con el pop moderno, el reguetón rápido y los ritmos electrónicos. Su voz muy fuerte, sus conciertos emocionantes y sus videos musicales súper creativos le han ganado millones de aficionados apasionados en todo el mundo. Ella tiene álbumes muy exitosos y famosos, como *El Mal Querer* y *Motomami*, que son muy importantes hoy. Su música es tan buena que las personas en otros países aprenden español solo para cantar sus canciones.\n\nDurante su carrera excelente, Rosalía ha ganado muchos premios Grammy prestigiosos y canta con otros artistas masivos como J Balvin, The Weeknd y Billie Eilish. Además de su gran talento musical, ella también es muy conocida por su ropa moderna y atrevida, y por sus uñas larguísimas y muy decoradas. Ella es una artista verdaderamente innovadora. Ella muestra a todas las personas que es posible respetar las tradiciones antiguas y, al mismo tiempo, crear música completamente nueva, fresca y emocionante para los jóvenes. Su música es arte puro.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué país y cerca de qué ciudad nació Rosalía?",
+          "¿Qué tipo de música tradicional estudió ella por muchos años?",
+          "¿Con qué estilos musicales modernos mezcla ella el flamenco?",
+          "¿Cómo se llaman sus álbumes musicales más exitosos?",
+          "¿Qué premios importantes y prestigiosos ha ganado durante su carrera?",
+          "¿Con qué otros artistas masivos y famosos canta ella?",
+          "¿Por qué otra cosa es conocida Rosalía, además de su talento?"
+        ],
+        "answerKey": [
+          "En un pueblo pequeño cerca de Barcelona, España.",
+          "La música tradicional del flamenco.",
+          "El pop moderno, el reguetón rápido y los ritmos electrónicos.",
+          "El Mal Querer y Motomami.",
+          "Premios Grammy.",
+          "Con J Balvin, The Weeknd y Billie Eilish.",
+          "Por su ropa moderna y atrevida, y por sus uñas larguísimas y decoradas."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Rosalía es una aclamada y visionaria cantante, compositora y productora española que ha revolucionado por completo el panorama musical internacional con su innovadora propuesta vanguardista. Originaria de la periferia de Barcelona, dedicó su juventud al estudio riguroso y académico del cante flamenco tradicional, lo cual le proporcionó una base técnica absolutamente impecable. Pasaba horas interminables perfeccionando su destreza vocal y su conocimiento de los complejos ritmos andaluces, estableciendo así los cimientos inquebrantables de su identidad artística.\n\nSu verdadera genialidad artística radica en su audaz capacidad para fusionar orgánicamente las raíces puras y el melancólico quejío del flamenco con ritmos urbanos contemporáneos, el contagioso reguetón y la música electrónica experimental. Dotada de una capacidad vocal extraordinaria y un carisma escénico magnético, ha conquistado a un público global muy diverso. Ha lanzado álbumes conceptuales que han sido inmensamente aclamados por la crítica especializada, como *El Mal Querer* y *Motomami*, los cuales redefinieron las reglas de la música pop moderna y lograron que el idioma español dominara las listas de éxitos internacionales.\n\nDurante su brillante trayectoria, ha sido galardonada con múltiples premios Grammy y Grammy Latinos, consolidándose como una superestrella y colaborando con figuras de la talla de The Weeknd, J Balvin y Billie Eilish. Además de sus notables triunfos musicales, Rosalía se ha erigido como un auténtico ícono indiscutible de la moda y la cultura pop por su estética rompedora, sus extravagantes y larguísimas manicuras, y su estilo inconfundible. Es la viva prueba de que el folclore histórico y la hipermodernidad pueden coexistir y fusionarse para crear obras maestras verdaderamente fascinantes.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué zona de España se originó esta visionaria cantante y compositora?",
+          "¿A qué estudio académico dedicó su juventud para obtener una base técnica impecable?",
+          "¿En qué radica exactamente la genialidad artística de su propuesta musical vanguardista?",
+          "¿Cuáles son los títulos de dos de sus álbumes conceptuales más aclamados?",
+          "¿Con qué reconocimientos internacionales ha sido galardonada a lo largo de su carrera?",
+          "¿Qué figuras de talla internacional han colaborado musicalmente con Rosalía?",
+          "¿Qué aspecto estético la ha erigido como un ícono de la cultura pop moderna?"
+        ],
+        "answerKey": [
+          "De la periferia de Barcelona.",
+          "Al estudio riguroso y académico del cante flamenco tradicional.",
+          "En su audaz capacidad para fusionar el flamenco con ritmos urbanos contemporáneos, reguetón y música electrónica.",
+          "El Mal Querer y Motomami.",
+          "Múltiples premios Grammy y Grammy Latinos.",
+          "The Weeknd, J Balvin y Billie Eilish.",
+          "Su estética rompedora, estilo inconfundible y extravagantes manicuras."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "San Juan",
+    "imageFileName": "san_juan.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "San Juan is the beautiful, historic, and incredibly vibrant capital city of Puerto Rico, a lush tropical island located in the Caribbean Sea. The oldest and most famous part of the city, wonderfully called Viejo San Juan, is well known around the world for its narrow, blue cobblestone streets and its bright, colorful Spanish colonial houses decorated with black iron balconies. Walking through this part of the city feels exactly like stepping back in time.\n\nHundreds of years ago, the Spanish built a massive, imposing stone fortress called El Morro to successfully protect the important port city from dangerous pirates and enemy ships attacking from the ocean. Today, tourists and locals absolutely love to walk around the huge, ancient walls of the castillo to take photos and learn about the past. The large green fields right outside the fortress are the perfect place for families to relax, have a picnic, and fly kites high up in the strong ocean breeze.\n\nBeyond its rich, fascinating history, San Juan is also incredibly famous for its beautiful playas, or beaches, with warm, crystal-clear blue water and soft white sand. The entire city is always full of vibrant life, friendly smiles, and positive energy. You can enjoy delicious traditional food, like the famous plantain dish called mofongo, meet welcoming people, and dance to the lively, rhythmic sounds of salsa and reggaeton playing in the streets all night long. It is a true Caribbean paradise that everyone should visit.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where is the tropical island of Puerto Rico located?",
+          "What is Viejo San Juan famous for?",
+          "Why did the Spanish build the massive stone fortress called El Morro?",
+          "What do people love to do on the green fields outside the castillo?",
+          "What kind of water do the beautiful playas in San Juan have?",
+          "What is the name of a delicious traditional food you can eat there?",
+          "What two types of lively music can you hear playing in the streets?"
+        ],
+        "answerKey": [
+          "In the Caribbean Sea.",
+          "Its narrow, blue cobblestone streets and bright, colorful Spanish colonial houses.",
+          "To protect the important port city from dangerous pirates and enemy ships.",
+          "Relax, have a picnic, and fly kites in the ocean breeze.",
+          "Warm, crystal-clear blue water.",
+          "Mofongo (a plantain dish).",
+          "Salsa and reggaeton."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "San Juan es la hermosa, histórica y vibrante ciudad capital de Puerto Rico, una isla tropical que está ubicada en el Mar Caribe. La parte más antigua y famosa de la ciudad, que se llama el Viejo San Juan, es muy conocida en el mundo por sus calles estrechas de adoquines azules y sus casas coloniales pintadas de colores brillantes con balcones de hierro. Caminar por esta parte de la ciudad es como viajar al pasado.\n\nHace muchos años, los españoles construyeron un fuerte masivo de piedra llamado El Morro para proteger la ciudad portuaria de los piratas peligrosos y los enemigos del océano. Hoy en día, a los turistas y a las personas locales les encanta caminar por las paredes enormes y antiguas del castillo para tomar fotos y aprender. Los campos verdes al lado del fuerte son el lugar perfecto para relajarse en familia, comer un picnic y volar cometas en la brisa fuerte del océano.\n\nAdemás de su rica y fascinante historia, San Juan también es increíblemente famosa por sus hermosas playas con arena blanca y agua cálida y azul. Toda la ciudad siempre está llena de mucha vida, sonrisas y energía muy positiva. Puedes disfrutar de comida tradicional deliciosa, como el famoso plato de plátanos llamado mofongo, conocer a personas muy simpáticas y bailar al ritmo de la salsa y el reguetón en las calles durante toda la noche. Es un verdadero paraíso tropical.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde está ubicada la isla tropical de Puerto Rico?",
+          "¿Cómo son las casas en la parte antigua llamada el Viejo San Juan?",
+          "¿Por qué construyeron los españoles el fuerte masivo de piedra llamado El Morro?",
+          "¿Qué actividad divertida hacen las personas en los campos verdes del castillo?",
+          "¿Cómo es el agua en las hermosas playas de la ciudad de San Juan?",
+          "¿Qué plato de comida tradicional deliciosa puedes comer en la ciudad?",
+          "¿Qué tipos de música puedes escuchar y bailar en las calles por la noche?"
+        ],
+        "answerKey": [
+          "En el Mar Caribe.",
+          "Son casas coloniales pintadas de colores brillantes con balcones de hierro.",
+          "Para proteger la ciudad portuaria de los piratas peligrosos y los enemigos del océano.",
+          "Se relajan, comen un picnic y vuelan cometas en la brisa del océano.",
+          "Agua cálida y azul (con arena blanca).",
+          "El mofongo (un plato de plátanos).",
+          "La salsa y el reguetón."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "San Juan, la vibrante y cosmopolita capital de Puerto Rico, es una impresionante metrópolis caribeña que cautiva inmediatamente a los viajeros con su perfecta amalgama de encanto colonial y dinamismo moderno. El corazón histórico de la ciudad, acertadamente conocido como el Viejo San Juan, deslumbra a los visitantes internacionales con sus pintorescas y estrechas calles adoquinadas, las cuales están flanqueadas por coloridas fachadas de tonos pastel y elegantes balcones de hierro forjado adornados con flores tropicales.\n\nPresidiendo majestuosamente la bahía se erige el Castillo San Felipe del Morro, una formidable e imponente fortaleza defensiva construida estratégicamente por los españoles en el siglo dieciséis. Su objetivo principal era repeler los constantes asedios de temibles piratas y flotas de potencias navales extranjeras. Actualmente, las extensas explanadas de césped verde que rodean la imponente estructura histórica son el lugar predilecto de las familias locales para relajarse, compartir comidas al aire libre y volar chiringas, aprovechando la fuerte y constante brisa marina del Atlántico.\n\nAdemás de su innegable y vasta riqueza arquitectónica, San Juan ofrece playas verdaderamente paradisíacas de arena blanca y aguas cristalinas ideales para el esparcimiento y el descanso. La ciudad es también un efervescente epicentro cultural y culinario donde se puede degustar una gastronomía exquisita, destacando el tradicional y sabroso mofongo de plátano. Finalmente, los visitantes pueden sumergirse por completo en una bulliciosa vida nocturna que está permanentemente impregnada de los contagiosos y rítmicos sonidos de la salsa y el reguetón, haciendo de esta ciudad un destino inolvidable.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cómo se describe la amalgama o mezcla perfecta que caracteriza a la capital puertorriqueña?",
+          "¿Qué elementos arquitectónicos específicos deslumbran a los visitantes en el Viejo San Juan?",
+          "¿Con qué propósito defensivo y militar se construyó el Castillo San Felipe del Morro?",
+          "¿Para qué actividad recreativa utilizan las familias las extensas explanadas de césped actualmente?",
+          "¿Cómo se describen las zonas costeras ideales para el esparcimiento en la metrópolis?",
+          "¿Qué platillo tradicional se menciona como parte de su exquisita oferta gastronómica?",
+          "¿Qué géneros musicales impregnan permanentemente la bulliciosa vida nocturna de la ciudad?"
+        ],
+        "answerKey": [
+          "Como una amalgama de encanto colonial y dinamismo moderno.",
+          "Estrechas calles adoquinadas, coloridas fachadas de tonos pastel y elegantes balcones de hierro forjado.",
+          "Para repeler los constantes asedios de piratas y flotas de potencias navales extranjeras.",
+          "Para relajarse, compartir comidas al aire libre y volar chiringas en la brisa marina.",
+          "Playas paradisíacas de arena blanca y aguas cristalinas ideales para el esparcimiento.",
+          "El tradicional y sabroso mofongo de plátano.",
+          "Los contagiosos y rítmicos sonidos de la salsa y el reguetón."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Los Tacos",
+    "imageFileName": "los_tacos.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Tacos are undoubtedly one of the most famous, delicious, and deeply beloved foods originating in México, and they are now eaten happily by millions of people all over the world. A truly authentic and traditional Mexican taco always starts with a warm, soft tortilla made freshly from either ground corn or flour. Hard, crunchy shells are popular in other countries, but they are not traditionally used in authentic Mexican street food.\n\nInside the folded, warm tortilla, you can put many different and delicious types of juicy meat, like grilled beef, tender chicken, or spiced pork. One of the absolute most popular and famous types is called tacos al pastor. This amazing, savory dish is made with specially marinated pork that is slowly cooked on a vertical spinning spit next to a hot fire. When serving, the cook cuts the meat very fast and it is usually served with a sweet piece of roasted pineapple right on top.\n\nTo make it totally perfect, authentic Mexican tacos are always topped with fresh, healthy, and crunchy ingredients. People generously add finely chopped cebolla, or onion, green cilantro, and a big squeeze of fresh lime juice. Of course, no taco is ever truly complete without some spicy red or green salsa to give it a strong kick! People love to eat them for a quick, cheap lunch, a big family dinner, or even as a late-night snack after a fun party. Eating hot, fresh tacos standing up at a local street cart, or taquería, is an essential and wonderful cultural experience.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "What two ingredients are authentic soft tortillas usually made from?",
+          "What kind of specially marinated meat is used to make tacos al pastor?",
+          "How is the meat for tacos al pastor slowly cooked?",
+          "What sweet fruit is usually served on top of a taco al pastor?",
+          "What are three fresh, crunchy toppings you put on an authentic Mexican taco?",
+          "When do people in Mexico usually love to eat tacos?",
+          "What is the Spanish word for a local street cart or taco restaurant?"
+        ],
+        "answerKey": [
+          "Ground corn or flour.",
+          "Pork.",
+          "On a vertical spinning spit next to a hot fire.",
+          "Roasted pineapple.",
+          "Finely chopped cebolla (onion), green cilantro, and fresh lime juice.",
+          "For a quick lunch, a big family dinner, or as a late-night snack after a party.",
+          "Taquería."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Los tacos son, sin duda, una de las comidas más famosas, deliciosas y populares originarias de México, y ahora se comen felizmente en todo el mundo. Un taco verdaderamente auténtico y tradicional siempre empieza con una tortilla suave y caliente, hecha de maíz o de harina fresca. Las tortillas duras son populares en otros países, pero no son tradicionales en la auténtica comida callejera mexicana.\n\nDentro de la tortilla caliente, puedes poner muchos tipos diferentes de carne deliciosa y jugosa, como carne de res asada, pollo o cerdo. Uno de los tipos más famosos y populares se llama tacos al pastor. Este plato increíble se hace con carne de cerdo marinada que se cocina lentamente en un trompo vertical cerca del fuego. El cocinero corta la carne muy rápido y normalmente se sirve con un trozo dulce de piña asada encima de la carne.\n\nPara que sea totalmente perfecto, los tacos mexicanos auténticos siempre llevan ingredientes frescos y saludables. Las personas añaden cebolla picada finamente, cilantro verde y un poco de jugo de limón fresco. ¡Por supuesto, ningún taco está completo sin una buena salsa picante roja o verde para darle mucho más sabor! A las personas les encanta comerlos para un almuerzo rápido y barato, una cena grande en familia o por la noche después de una fiesta divertida. Comer tacos calientes de pie en una taquería local en la calle es una experiencia cultural maravillosa.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué dos ingredientes principales están hechas las tortillas suaves tradicionales?",
+          "¿Qué tipo de carne marinada tienen los famosos y populares tacos al pastor?",
+          "¿Cómo y dónde se cocina lentamente la carne para los tacos al pastor?",
+          "¿Qué fruta dulce ponen los cocineros encima de la carne al pastor?",
+          "¿Qué ingredientes frescos añaden las personas a los tacos mexicanos auténticos?",
+          "¿En qué tres momentos del día les encanta a las personas comer tacos?",
+          "¿Cómo se llama el restaurante o carrito en la calle donde compras esta comida?"
+        ],
+        "answerKey": [
+          "De maíz o de harina fresca.",
+          "Carne de cerdo.",
+          "Se cocina lentamente en un trompo vertical cerca del fuego.",
+          "Un trozo dulce de piña asada.",
+          "Cebolla picada finamente, cilantro verde y jugo de limón fresco.",
+          "Para un almuerzo rápido, una cena grande en familia o por la noche después de una fiesta.",
+          "Una taquería local."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Los tacos son, indudablemente, el pilar central de la riquísima gastronomía mexicana y un fenómeno culinario profundamente apreciado que ha conquistado paladares a nivel mundial. La base fundamental de este versátil e histórico platillo es una tortilla, preferentemente elaborada con masa de maíz nixtamalizado y recién hecha en el comal. Esta tortilla sirve como una envoltura cálida y suave para una infinidad de suculentos guisos y carnes jugosas, marcando una clara diferencia con las versiones crujientes extranjeras.\n\nEntre la inmensa y maravillosamente variada oferta existente, destacan con luz propia los emblemáticos tacos al pastor, cuya influencia proviene de la inmigración libanesa. Esta preparación magistral consiste en carne de cerdo finamente fileteada, adobada con chiles secos, especias y achiote, y asada lentamente en un trompo vertical giratorio. Al servir, el taquero corta la carne con una destreza impresionante y la corona magistralmente con un pequeño trozo de piña asada, logrando un equilibrio perfecto entre lo dulce y lo salado.\n\nLa verdadera autenticidad de un taco callejero radica siempre en su indispensable guarnición fresca. Se añade invariablemente cebolla finamente picada, fragantes hojas de cilantro, unas generosas gotas de jugo de limón y, por supuesto, una salsa picante casera, ya sea roja o verde, que realce todos los complejos perfiles de sabor. Degustar unos buenos tacos de pie en una bulliciosa taquería de barrio, rodeado del humo, las luces y los aromas, no es solo alimentarse de forma económica; es una experiencia gastronómica inigualable y un auténtico rito social nocturno en la cultura de México.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué material preferente e histórico debe estar hecha la base fundamental del platillo?",
+          "¿Con qué ingredientes principales se adoba la carne de cerdo para los tacos al pastor?",
+          "¿En qué instrumento o estructura específica se asa lentamente la carne marinada?",
+          "¿Con qué ingrediente frutal corona el taquero esta preparación magistral al servirla?",
+          "¿Cuáles son los ingredientes indispensables que conforman la guarnición fresca y auténtica?",
+          "¿Qué elemento casero es absolutamente necesario para realzar todos los perfiles de sabor?",
+          "¿Por qué se considera que degustar esta comida en una taquería es un auténtico rito social?"
+        ],
+        "answerKey": [
+          "De masa de maíz nixtamalizado y recién hecha en el comal.",
+          "Con chiles secos, especias y achiote.",
+          "En un trompo vertical giratorio.",
+          "Con un pequeño trozo de piña asada.",
+          "Cebolla finamente picada, fragantes hojas de cilantro y unas generosas gotas de jugo de limón.",
+          "Una salsa picante casera (roja o verde).",
+          "Porque es una experiencia gastronómica inigualable rodeado del humo y los aromas, no solo alimentarse."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Ángela Aguilar",
+    "imageFileName": "angela_aguilar.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Ángela Aguilar is an incredibly talented, famous, and highly successful Mexican-American singer who is capturing the hearts of audiences everywhere. She was uniquely born into a legendary and highly respected musical family. Her father is the famous singer Pepe Aguilar, and her beloved grandparents were also huge movie and music stars in México. Ángela passionately sings regional Mexican music, beautifully and proudly carrying on her family's long, historical traditions.\n\nEven though she is very young, she has a remarkably powerful and angelic voice that music critics and fans absolutely love. When she performs live on stage, Ángela frequently wears stunning, enormous traditional Mexican dresses, or vestidos. These big, colorful dresses are carefully handmade and feature beautiful embroidered flowers and intricate designs that proudly celebrate the rich culture, history, and art of her ancestors and her beloved country.\n\nÁngela has released many massive hit canciones and has even been nominated for multiple prestigious Grammy awards! She is incredibly popular among young people today because she expertly and perfectly mixes classic mariachi sounds with a fresh, vibrant, and modern style that appeals to a new generation. She absolutely loves her loyal fans and uses modern social media to share her life and connect with them every single day. Ángela Aguilar is a wonderful and inspiring example of how young artists can respectfully honor their historical heritage while creating something exciting and new for the modern world to hear.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Who is Ángela Aguilar?",
+          "Who are the famous people in her legendary musical family?",
+          "What kind of music does she sing to carry on family traditions?",
+          "What does she frequently wear when she performs on stage?",
+          "What do her colorful vestidos celebrate?",
+          "Why is she incredibly popular among young people today?",
+          "How does she connect with her fans every single day?"
+        ],
+        "answerKey": [
+          "A very talented, famous, and highly successful Mexican-American singer.",
+          "Her father is Pepe Aguilar, and her grandparents were also huge stars.",
+          "Regional Mexican music.",
+          "Stunning, enormous traditional Mexican dresses (vestidos).",
+          "The rich culture, history, and art of her ancestors and her country.",
+          "Because she perfectly mixes classic mariachi sounds with a fresh, vibrant, and modern style.",
+          "By using modern social media."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Ángela Aguilar es una cantante mexicano-estadounidense increíblemente talentosa, famosa y muy exitosa que está capturando los corazones del público. Ella nació en una familia musical verdaderamente legendaria y muy respetada. Su padre es el famoso cantante Pepe Aguilar, y sus queridos abuelos también fueron estrellas gigantes de cine y música en México. Ángela canta música regional mexicana con mucha pasión y continúa las hermosas tradiciones históricas de su familia con orgullo.\n\nAunque ella es muy joven, tiene una voz notablemente poderosa y angelical que a los críticos y a los aficionados les encanta absolutamente. Frecuentemente, cuando canta en el escenario, Ángela lleva vestidos tradicionales mexicanos muy bonitos y enormes. Estos vestidos de muchos colores están hechos a mano y tienen flores bordadas y diseños hermosos para celebrar la rica cultura, el arte y la historia de su país y de sus ancestros.\n\n¡Ángela ha cantado muchas canciones populares y masivas, y también tiene nominaciones para los prestigiosos premios Grammy! Ella es muy popular entre las personas jóvenes hoy en día porque mezcla los sonidos clásicos del mariachi con un estilo mucho más moderno, vibrante y fresco para la nueva generación. Ella quiere mucho a sus admiradores leales y usa las redes sociales modernas para compartir su vida y hablar con ellos todos los días. Ángela es un ejemplo inspirador de cómo los artistas jóvenes pueden honrar su historia y crear música emocionante.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué nacionalidades es la talentosa cantante Ángela Aguilar?",
+          "¿Quiénes son las personas musicales y muy famosas de su familia?",
+          "¿Qué tipo de música canta ella para continuar las tradiciones familiares?",
+          "¿Cómo son los vestidos que ella lleva cuando canta en el escenario?",
+          "¿Qué celebran los vestidos tradicionales de muchos colores y flores?",
+          "¿Por qué es muy popular Ángela entre las personas jóvenes hoy en día?",
+          "¿Qué usa ella para comunicarse con sus admiradores todos los días?"
+        ],
+        "answerKey": [
+          "Mexicano-estadounidense.",
+          "Su padre es el cantante Pepe Aguilar, y sus abuelos también fueron estrellas gigantes.",
+          "Música regional mexicana.",
+          "Vestidos tradicionales mexicanos muy bonitos y enormes.",
+          "Celebran la rica cultura, el arte y la historia de su país y de sus ancestros.",
+          "Porque mezcla los sonidos clásicos del mariachi con un estilo moderno, vibrante y fresco.",
+          "Usa las redes sociales modernas."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Ángela Aguilar es una brillante e inmensamente talentosa intérprete mexicano-estadounidense que ha logrado revitalizar y popularizar la música regional mexicana para una nueva generación de oyentes a nivel internacional. Perteneciente a la icónica e ilustre dinastía Aguilar, es hija del reconocido cantautor Pepe Aguilar y nieta de las aclamadas leyendas artísticas del cine de oro, Antonio Aguilar y Flor Silvestre. Asumiendo este enorme legado con gracia, ella porta con orgullo el estandarte de las tradiciones familiares.\n\nDesde su infancia, Ángela demostró poseer un talento vocal verdaderamente extraordinario, caracterizado por un timbre dulce, una afinación perfecta y una potencia impresionante que cautiva a multitudes enteras. En sus aclamadas presentaciones en vivo, suele deslumbrar al público luciendo majestuosos y voluminosos vestidos bordados a mano con flores coloridas. Estas prendas de alta costura rinden un sentido y profundo homenaje a la rica herencia artesanal y a la identidad cultural folclórica de México.\n\nA pesar de su indudable juventud, ha logrado un éxito rotundo y sostenido en la industria musical, obteniendo múltiples nominaciones a los prestigiosos premios Grammy y Grammy Latinos. Su mérito principal radica en su habilidad innata para preservar intacta la pureza y el sentimiento del mariachi tradicional, infundiéndole al mismo tiempo sutiles toques de frescura y modernidad que resuenan fuertemente con el público juvenil actual. Con su innegable carisma escénico y su presencia constante e interactiva en las redes sociales, Ángela se ha consolidado como una auténtica embajadora cultural, demostrando que es posible venerar el pasado mientras se innova para el futuro.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿A qué icónica y legendaria dinastía musical pertenece esta brillante intérprete?",
+          "¿Cómo se describe el talento vocal extraordinario que Ángela posee desde su infancia?",
+          "¿Qué tipo de prendas majestuosas luce normalmente en sus aclamadas presentaciones en vivo?",
+          "¿A qué aspecto de la cultura rinden un sentido homenaje sus vestidos bordados a mano?",
+          "¿Qué reconocimientos importantes en la industria ha obtenido a pesar de su juventud?",
+          "¿En qué radica el mérito principal de su exitosa propuesta musical tradicional?",
+          "¿A través de qué plataformas mantiene una presencia constante y un fuerte vínculo con el público?"
+        ],
+        "answerKey": [
+          "A la icónica e ilustre dinastía Aguilar.",
+          "Por un timbre dulce, afinación perfecta y una potencia impresionante que cautiva a multitudes.",
+          "Majestuosos y voluminosos vestidos bordados a mano con flores coloridas.",
+          "A la rica herencia artesanal y a la identidad cultural folclórica de México.",
+          "Múltiples nominaciones a los prestigiosos premios Grammy y Grammy Latinos.",
+          "En su habilidad innata para preservar la pureza del mariachi tradicional, infundiéndole toques de frescura y modernidad.",
+          "A través de las redes sociales."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "ChocQuibTown",
+    "imageFileName": "chocquibtown.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "ChocQuibTown is a fantastic, highly energetic, and very unique music group from the beautiful country of Colombia. The group has three extremely talented main members: Goyo, Tostao, and Slow Mike. They are originally from a special, deeply historical region in Colombia called Chocó. This unique area is located right on the Pacific coast, surrounded by lush jungle, and it has a very large and proud Afro-Colombian population.\n\nTheir upbeat música is completely different from anything else on the radio today because it expertly mixes modern hip-hop, fast reggaeton, and cool electronic beats with incredibly traditional Afro-Colombian folk rhythms played on instruments like the wooden marimba. The group passionately wants to share their rich cultura and largely unknown history with the whole world. Their catchy songs often talk about love, deep joy, and the everyday social challenges that marginalized people face in their hometown.\n\nThe members of ChocQuibTown are incredibly proud of their Afro-Latino roots and heritage, and they bravely use their loud voices and massive platform to fight against racism and discrimination in society. They have won many prestigious Latin Grammy awards for their amazing talent and original sound. If you listen to their rhythmic canciones, you will want to get up and dance immediately! They perfectly represent the beautiful, rich diversity of Latin America and show everyone that music can definitely bring all kinds of people together in peace.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where is the music group ChocQuibTown originally from?",
+          "Who are the three main members of the group?",
+          "Where is the region of Chocó located in Colombia?",
+          "What kind of modern sounds do they mix with traditional rhythms?",
+          "What do their songs usually talk about?",
+          "What are the members of the group incredibly proud of?",
+          "What prestigious award has the group won for their talent?"
+        ],
+        "answerKey": [
+          "The country of Colombia (specifically the region of Chocó).",
+          "Goyo, Tostao, and Slow Mike.",
+          "On the Pacific coast (surrounded by lush jungle).",
+          "Modern hip-hop, fast reggaeton, and cool electronic beats.",
+          "Love, deep joy, and the everyday social challenges marginalized people face in their hometown.",
+          "Their Afro-Latino roots and heritage.",
+          "Many prestigious Latin Grammy awards."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "ChocQuibTown es un grupo de música fantástico, lleno de energía y muy único del hermoso país de Colombia. El grupo tiene tres miembros principales extremadamente talentosos: Goyo, Tostao y Slow Mike. Ellos son originalmente de una región especial y muy histórica en Colombia que se llama Chocó. Esta zona única está ubicada en la costa del Pacífico, rodeada de mucha selva, y tiene una población afrocolombiana muy grande y orgullosa.\n\nSu música alegre es completamente diferente de la radio de hoy porque mezcla de forma experta el hip-hop moderno, el reguetón rápido y los ritmos electrónicos con la música tradicional y folclórica de África y Colombia, usando instrumentos como la marimba de madera. El grupo quiere compartir su rica cultura y su historia con todo el mundo con mucha pasión. Frecuentemente, sus canciones pegadizas hablan sobre el amor, la alegría profunda y los problemas sociales que las personas marginadas tienen en su pueblo todos los días.\n\nLos miembros de ChocQuibTown están increíblemente orgullosos de su herencia afrolatina y usan sus voces fuertes y su fama valientemente para luchar contra el racismo y la discriminación en la sociedad. Ellos han ganado muchos premios Latin Grammy prestigiosos por su gran talento musical y sonido original. ¡Si tú escuchas sus canciones rítmicas, vas a querer levantarte y bailar inmediatamente! Ellos representan perfectamente la diversidad hermosa de América Latina y muestran a todos que la música puede unir a todas las personas en paz.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué país hermoso es el grupo musical ChocQuibTown?",
+          "¿Cómo se llaman los tres miembros principales de la banda?",
+          "¿Cómo es la población de la región de Chocó en Colombia?",
+          "¿Qué estilos de música moderna mezclan ellos con los ritmos tradicionales?",
+          "¿Sobre qué temas cantan ellos frecuentemente en sus canciones?",
+          "¿De qué están muy orgullosos los miembros del grupo musical?",
+          "¿Qué premio importante ha ganado ChocQuibTown por su talento?"
+        ],
+        "answerKey": [
+          "De Colombia.",
+          "Goyo, Tostao y Slow Mike.",
+          "Tiene una población afrocolombiana muy grande y orgullosa.",
+          "El hip-hop moderno, el reguetón rápido y los ritmos electrónicos.",
+          "Sobre el amor, la alegría profunda y los problemas sociales que las personas marginadas tienen.",
+          "De su herencia afrolatina.",
+          "Muchos premios Latin Grammy prestigiosos."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "ChocQuibTown es una innovadora y exitosa agrupación musical originaria del departamento del Chocó, un territorio exuberante ubicado en la hermosa costa pacífica de Colombia. Integrada por los talentosos Goyo, Tostao y Slow Mike, la banda se ha destacado internacionalmente por ser pionera en una fusión musical verdaderamente única y electrizante. Ellos combinan con maestría ritmos urbanos contemporáneos, como el hip-hop, el funk y el reguetón, con potentes sonidos folclóricos afrocolombianos tradicionales, destacando instrumentos autóctonos como la vibrante marimba de chonta y la chirimía.\n\nA través de sus letras pegadizas y profundamente significativas, el grupo no solo celebra la alegría vibrante, la fiesta y el amor, sino que también visibiliza valientemente las duras realidades sociales, la pobreza y la marginación histórica que a menudo enfrenta su comunidad natal en el Pacífico. Su arte es un vehículo poderoso para la narrativa social. Por ello, ChocQuibTown se ha convertido en un poderoso y altamente respetado símbolo de identidad y orgullo afrolatino a nivel global.\n\nEllos utilizan activamente su amplia plataforma artística y su inmensa fama para promover la inclusión, celebrar la diversidad y combatir frontalmente la discriminación racial sistémica en la sociedad latinoamericana. Su indiscutible talento, originalidad y compromiso social han sido reconocidos con múltiples galardones de la industria, incluyendo prestigiosos premios Latin Grammy. Con su energía desbordante y su mensaje unificador, continúan llevando la inmensa riqueza cultural del Pacífico colombiano a escenarios de todo el mundo, demostrando que la música es una herramienta indispensable para el cambio.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué departamento específico de Colombia es originaria esta agrupación musical?",
+          "¿Quiénes son los tres talentosos integrantes que componen la banda?",
+          "¿Qué géneros urbanos y sonidos folclóricos fusionan magistralmente en sus composiciones?",
+          "¿Qué realidades sociales visibilizan a través de sus letras profundas y significativas?",
+          "¿En qué tipo de símbolo respetado se ha convertido ChocQuibTown internacionalmente?",
+          "¿Para qué utilizan activamente su amplia plataforma artística y su fama?",
+          "¿Con qué prestigiosos galardones ha sido reconocido su talento indiscutible y originalidad?"
+        ],
+        "answerKey": [
+          "Del departamento del Chocó (en la costa pacífica).",
+          "Goyo, Tostao y Slow Mike.",
+          "Ritmos urbanos (hip-hop, funk, reguetón) con sonidos folclóricos afrocolombianos (marimba de chonta y chirimía).",
+          "Las duras realidades sociales, la pobreza y la marginación histórica que a menudo enfrenta su comunidad natal.",
+          "En un poderoso y respetado símbolo de identidad y orgullo afrolatino.",
+          "Para promover la inclusión, celebrar la diversidad y combatir frontalmente la discriminación racial sistémica.",
+          "Múltiples galardones, incluyendo prestigiosos premios Latin Grammy."
+        ]
+      }
+    }
   }
 ]
