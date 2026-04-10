@@ -4873,7 +4873,684 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "Cueva de Altamira",
+    "imageFileName": "altamira.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The Cueva de Altamira is an absolutely incredible, historic cave located safely in the green, rolling hills of northern España. It is highly famous all over the entire world for proudly having some of the absolute oldest, most detailed, and most beautiful prehistoric cave paintings, formally known as arte rupestre, in all of human history! The dark, hidden cave was accidentally discovered by a local hunter in 1868, but the truly amazing, colorful paintings hiding inside were not actually found until the year 1879 by a curious Spanish scientist named Marcelino and his brave, young daughter, María.\n\nWhile carefully exploring the dark, cold cave with a small lantern, eight-year-old María suddenly looked high up at the rocky ceiling and excitedly saw massive, realistic paintings of giant red and black bisontes (bison) running across the stone! The ancient, prehistoric people brilliantly painted these large, wild animals thousands of years ago using only natural, earthy colors made directly from crushed charcoal and soft, red rocks. They even cleverly used the natural, bumpy, uneven shape of the cave walls to magically make the painted animals pop out and look 3D in the flickering firelight.\n\nBecause the ancient art is so incredibly spectacular, bright, and highly detailed, global art experts respectfully call Altamira the \"Sistine Chapel of prehistoric art.\" Amazingly, these fragile paintings are over 14,000 years old! Today, the original, historical cave is completely closed to the general public because normal human breath, moisture, and body heat can unfortunately damage and melt the fragile, ancient art. However, a massive, absolutely perfect museum replica of the cave was built nearby so curious tourists can still safely experience this ancient, breathtaking wonder.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where is the incredible Cueva de Altamira located?",
+          "What is the cave famous all over the world for having?",
+          "Who discovered the amazing paintings inside the cave in 1879?",
+          "What kind of animals did the young girl see painted on the ceiling?",
+          "What did prehistoric people use to make the natural red and black colors?",
+          "What do experts call Altamira because the art is so spectacular?",
+          "Why is the original cave closed to the public today?"
+        ],
+        "answerKey": [
+          "Northern España.",
+          "Prehistoric cave paintings (arte rupestre).",
+          "A Spanish scientist named Marcelino and his young daughter, María.",
+          "Bisontes (bison).",
+          "Crushed charcoal and soft, red rocks.",
+          "The \"Sistine Chapel of prehistoric art\".",
+          "Because human breath, moisture, and body heat can damage the fragile art."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La Cueva de Altamira es una cueva absolutamente increíble e histórica ubicada en las colinas verdes del norte de España. ¡Es muy famosa en todo el mundo por tener algunas de las pinturas prehistóricas, o arte rupestre, más antiguas, detalladas y hermosas de toda la historia humana! La cueva oscura y escondida fue descubierta por accidente por un cazador local en 1868, pero las pinturas increíbles y coloridas no fueron encontradas realmente hasta el año 1879 por un científico español curioso llamado Marcelino y su joven y valiente hija, María.\n\nMientras exploraban cuidadosamente la cueva oscura y fría con una lámpara pequeña, ¡María, de ocho años, miró hacia el techo de roca y vio pinturas masivas y realistas de bisontes gigantes de colores rojo y negro corriendo por la piedra! Las personas prehistóricas antiguas pintaron brillantemente estos animales salvajes y grandes usando solo colores naturales hechos directamente de carbón aplastado y rocas rojas y suaves. Ellos incluso usaron inteligentemente la forma natural y desigual de las paredes de la cueva para hacer que los animales parezcan en 3D bajo la luz del fuego.\n\nComo el arte antiguo es tan increíblemente espectacular, brillante y muy detallado, los expertos globales de arte llaman respetuosamente a Altamira la \"Capilla Sixtina del arte prehistórico\". ¡Asombrosamente, estas pinturas frágiles tienen más de 14.000 años! Hoy en día, la cueva original e histórica está completamente cerrada al público general porque la respiración humana normal, la humedad y el calor del cuerpo pueden destruir tristemente el arte frágil y antiguo. Sin embargo, construyeron un museo réplica masivo y absolutamente perfecto cerca para que los turistas curiosos todavía puedan experimentar esta maravilla antigua y hermosa con seguridad.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué parte de España se encuentra la famosa Cueva de Altamira?",
+          "¿Qué tipo de arte antiguo y hermoso hace famosa a esta cueva?",
+          "¿Quiénes encontraron las pinturas en el techo de la cueva en el año 1879?",
+          "¿Qué animales gigantes de colores rojo y negro estaban pintados en el techo?",
+          "¿De qué estaban hechos los colores naturales que usaron las personas prehistóricas?",
+          "¿Qué nombre famoso le dan los expertos a Altamira por su arte espectacular?",
+          "¿Por qué no pueden entrar los turistas a la cueva original hoy en día?"
+        ],
+        "answerKey": [
+          "En el norte de España.",
+          "Las pinturas prehistóricas (el arte rupestre).",
+          "Un científico español curioso llamado Marcelino y su joven hija, María.",
+          "Bisontes.",
+          "Estaban hechos de carbón aplastado y rocas rojas suaves.",
+          "La \"Capilla Sixtina del arte prehistórico\".",
+          "Porque la respiración humana normal, la humedad y el calor del cuerpo pueden destruir el arte frágil."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La legendaria Cueva de Altamira, situada estratégicamente en las ondulantes y verdes colinas de la región de Cantabria, España, es unánimemente considerada como una de las cumbres absolutas e insuperables del arte rupestre paleolítico a nivel mundial. Aunque la profunda y oscura cavidad kárstica fue descubierta fortuitamente por un humilde cazador local en el año 1868, sus inestimables e incalculables tesoros artísticos prehistóricos permanecieron ocultos en las sombras hasta 1879. Fue precisamente la inocente curiosidad de una niña de ocho años, María Sanz de Sautuola, la que llevó al monumental hallazgo de las impresionantes y vívidas pinturas policromadas en la bóveda principal, mientras acompañaba valientemente a su padre, un erudito y apasionado aficionado a la paleontología.\n\nLas magníficas representaciones pictóricas consisten predominantemente en manadas de bisontes, caballos salvajes y ciervos, ejecutados con un realismo anatómico y una expresividad verdaderamente sobrecogedores. Los brillantes artistas magdalenienses elaboraron sus duraderos pigmentos de forma natural, utilizando carbón vegetal puro para trazar los contornos negros y gruesos, y diversos minerales de ocre triturados para lograr los intensos y ricos tonos rojizos. Genialmente, estos pintores ancestrales aprovecharon al máximo las protuberancias, grietas y relieves naturales de la roca caliza para dotar de un asombroso y realista volumen tridimensional a las dinámicas figuras animales bajo la luz oscilante de las antorchas.\n\nPor su magistral ejecución técnica, su innegable belleza estética y su excelente estado de conservación a lo largo de los milenios, la cavidad ha sido reverencialmente bautizada por los historiadores del arte como la \"Capilla Sixtina del arte cuaternario\". Sin embargo, para preservar estrictamente los frágiles pigmentos milenarios de los perjudiciales cambios de temperatura, humedad y dióxido de carbono provocados por la constante presencia humana, la cueva original fue clausurada definitivamente al turismo masivo. En su lugar, se creó una réplica milimétrica y científicamente exacta, la Neocueva, para garantizar el disfrute inmersivo del público y la investigación académica continua.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué región de España se encuentra situada esta cumbre del arte rupestre?",
+          "¿Quién descubrió fortuitamente las pinturas policromadas en la bóveda de la cueva?",
+          "¿Qué tres animales están representados predominantemente con un realismo sobrecogedor?",
+          "¿Qué elementos naturales utilizaron los artistas para crear los tonos rojizos y negros?",
+          "¿Cómo lograron dotar de un asombroso volumen tridimensional a las figuras animales?",
+          "¿Con qué ilustre apodo ha sido bautizada la cavidad por su magistral ejecución?",
+          "¿Por qué se clausuró la cueva original y se creó la réplica conocida como la Neocueva?"
+        ],
+        "answerKey": [
+          "En la región de Cantabria, España.",
+          "Una niña de ocho años, María Sanz de Sautuola.",
+          "Bisontes, caballos salvajes y ciervos.",
+          "Carbón vegetal puro y diversos minerales de ocre triturados.",
+          "Aprovecharon al máximo las protuberancias, grietas y relieves naturales de la roca caliza.",
+          "Como la \"Capilla Sixtina del arte cuaternario\".",
+          "Para preservar estrictamente los frágiles pigmentos de los cambios de temperatura, humedad y dióxido de carbono."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Teotihuacán",
+    "imageFileName": "teotihuacan.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Teotihuacán is a massive, awe-inspiring, and deeply mysterious ancient city located very close to modern-day Mexico City. Long before the fierce and powerful Aztec empire ever existed in México, a completely different, unknown group of highly advanced indigenous people designed and built this incredible stone metropolis. Even today, with all our modern technology, expert scientists and archaeologists still do not know exactly who built it! When the wandering Aztecs finally found the massive, abandoned city centuries later, they were so amazed and terrified by its size that they reverently named it Teotihuacán, which beautifully translates to \"the place where the gods were created\" in their native Nahuatl language.\n\nThe ancient city is incredibly famous worldwide for its grand, perfectly straight main street, which is chillingly called the Avenue of the Dead. Walking along this massive, dusty avenue, you can easily find two of the absolute largest and most spectacular pyramids in all of Latin America: the towering Pirámide del Sol (Pyramid of the Sun) and the slightly smaller Pirámide de la Luna (Pyramid of the Moon). The massive Pyramid of the Sun is absolutely giant, and it takes hundreds of steep, exhausting stone steps for a brave person to finally reach the flat top.\n\nDuring its historical peak, Teotihuacán was undoubtedly one of the absolute largest, most crowded, and richest cities in the entire world, housing thousands of diverse people. The smart people who lived there were expert, hardworking artists and merchants who crafted and traded a highly valuable, shiny, black volcanic glass called obsidiana. They used this sharp glass to make deadly weapons and beautiful tools. Today, curious tourists from everywhere travel to México to walk down the ancient, echoing avenue and climb the magnificent, sun-baked pyramids.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where is the ancient city of Teotihuacán located?",
+          "Did the Aztecs build this incredible metropolis?",
+          "What does the name Teotihuacán mean in the Nahuatl language?",
+          "What is the grand main street of the city called?",
+          "What are the names of the two spectacular pyramids in the city?",
+          "What did the expert artists in the city trade with other people?",
+          "What do tourists from everywhere travel to México to do?"
+        ],
+        "answerKey": [
+          "Near modern-day Mexico City.",
+          "No (a completely different, unknown group built it before the Aztecs).",
+          "\"The place where the gods were created\".",
+          "The Avenue of the Dead.",
+          "The Pirámide del Sol (Sun) and the Pirámide de la Luna (Moon).",
+          "A highly valuable, shiny, black volcanic glass called obsidiana.",
+          "Walk down the ancient, echoing avenue and climb the magnificent pyramids."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Teotihuacán es una ciudad antigua gigante, impresionante y profundamente misteriosa que está ubicada muy cerca de la actual Ciudad de México. Mucho antes de que el imperio feroz y poderoso de los aztecas existiera en México, un grupo completamente diferente y desconocido de indígenas muy avanzados diseñó y construyó esta increíble metrópolis de piedra. ¡Aún hoy, con nuestra tecnología moderna, los científicos y arqueólogos expertos todavía no saben exactamente quién la construyó! Cuando los aztecas finalmente encontraron la ciudad masiva y abandonada muchos siglos después, se sorprendieron y asustaron tanto por su tamaño que la llamaron reverentemente Teotihuacán, que se traduce hermosamente como \"el lugar donde fueron creados los dioses\" en su lengua nativa náhuatl.\n\nLa ciudad antigua es increíblemente famosa en todo el mundo por su gran calle principal, perfectamente recta, que se llama escalofriantemente la Calzada de los Muertos. Caminando por esta avenida masiva y polvorienta, puedes encontrar fácilmente dos de las pirámides más grandes y espectaculares de toda América Latina: la altísima Pirámide del Sol y la Pirámide de la Luna, que es un poco más pequeña. La Pirámide del Sol es absolutamente gigante, y se necesitan cientos de escalones de piedra empinados y agotadores para que una persona valiente finalmente llegue a la cima plana.\n\nDurante sus mejores años históricos, Teotihuacán fue indudablemente una de las ciudades más grandes, más pobladas y más ricas de todo el mundo, albergando a miles de personas diversas. Las personas inteligentes que vivían allí eran artistas y comerciantes expertos y trabajadores que hacían y vendían un cristal volcánico negro, brillante y muy valioso llamado obsidiana. Ellos usaban este cristal afilado para hacer armas mortales y herramientas hermosas. Hoy, turistas curiosos de todas partes viajan a México para caminar por la avenida antigua y subir a las pirámides magníficas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cerca de qué ciudad moderna se encuentra la metrópolis de Teotihuacán?",
+          "¿Saben los científicos modernos exactamente qué grupo de personas construyó la ciudad?",
+          "¿Qué significa el nombre de la ciudad en la lengua indígena de los aztecas?",
+          "¿Cómo se llama la calle principal y muy grande que pasa por la ciudad?",
+          "¿Cuáles son las dos pirámides más espectaculares que puedes encontrar allí?",
+          "¿Qué material negro y brillante vendían los artistas expertos de la ciudad?",
+          "¿Qué les encanta hacer a los turistas cuando viajan a visitar las ruinas en México?"
+        ],
+        "answerKey": [
+          "Muy cerca de la actual Ciudad de México.",
+          "No, todavía no saben exactamente.",
+          "\"El lugar donde fueron creados los dioses\".",
+          "La Calzada de los Muertos.",
+          "La Pirámide del Sol y la Pirámide de la Luna.",
+          "Un cristal volcánico negro, brillante y muy valioso llamado obsidiana.",
+          "Caminar por la avenida antigua y subir a las pirámides magníficas."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Teotihuacán es una imponente, sobrecogedora y profundamente enigmática metrópolis precolombina situada estratégicamente en el fértil Valle de México, a escasa distancia de la bulliciosa capital actual del país. Su verdadero origen fundacional sigue siendo, indiscutiblemente, uno de los mayores y más fascinantes misterios de la arqueología mesoamericana, ya que fue planificada y erigida por una civilización altamente avanzada pero totalmente desconocida, siglos antes del violento apogeo y la expansión militar del gran Imperio mexica (azteca). Cuando los asombrados mexicas descubrieron accidentalmente la monumental ciudad en estado de ruinas durante sus peregrinaciones, quedaron tan sobrecogidos y maravillados por su escala titánica que la bautizaron reverencialmente como Teotihuacán, que en su poético idioma náhuatl se traduce literalmente como \"el lugar donde los hombres se convierten en dioses\".\n\nEl meticuloso trazado urbano y astronómico de la ciudad es de una simetría matemática y cosmológica asombrosa, estructurado rígidamente a lo largo de un eje principal inmenso denominado la Calzada de los Muertos. Flanqueando ordenadamente esta imponente y ancha avenida ceremonial se erigen con majestuosidad las estructuras arquitectónicas religiosas más emblemáticas y masivas del recinto arqueológico: la colosal e intimidante Pirámide del Sol, clasificada como una de las edificaciones pétreas más grandes y pesadas de la antigüedad global, y la estéticamente armónica Pirámide de la Luna.\n\nEn su época de mayor esplendor e influencia política, Teotihuacán fue un próspero epicentro urbano y verdaderamente cosmopolita que albergaba cómodamente a más de cien mil diversos habitantes en complejos residenciales multifamiliares. Su inmenso poderío económico y su innegable influencia cultural se cimentaron estratégicamente en el estricto monopolio comercial y la masiva exportación regional de la obsidiana. Este valioso, afilado y brillante vidrio volcánico oscuro era meticulosamente tallado por artesanos especializados y ampliamente utilizado para fabricar precisas herramientas cortantes, ornamentos religiosos y armas letales y temibles en toda la extensa región mesoamericana.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué valle y cerca de qué capital moderna se sitúa esta metrópolis precolombina?",
+          "¿Por qué el origen de la ciudad sigue siendo un gran misterio para la arqueología?",
+          "¿Qué significado le otorgaron los mexicas al nombre Teotihuacán en idioma náhuatl?",
+          "¿Cómo se denomina el eje principal sobre el cual se estructura el asombroso trazado urbano?",
+          "¿Cuáles son las dos edificaciones arquitectónicas más emblemáticas del recinto?",
+          "¿En el monopolio de qué valioso material cimentó la ciudad su poderío económico?",
+          "¿Para qué fines prácticos utilizaban las culturas antiguas este valioso vidrio volcánico?"
+        ],
+        "answerKey": [
+          "En el fértil Valle de México, a escasa distancia de la capital actual.",
+          "Porque fue planificada y erigida por una civilización altamente avanzada pero totalmente desconocida.",
+          "\"El lugar donde los hombres se convierten en dioses\".",
+          "La Calzada de los Muertos.",
+          "La colosal Pirámide del Sol y la armónica Pirámide de la Luna.",
+          "En el estricto monopolio comercial y la masiva exportación regional de la obsidiana.",
+          "Para fabricar precisas herramientas cortantes, ornamentos religiosos y armas letales."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Canal de Panamá",
+    "imageFileName": "canal_panama.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The world-famous Panama Canal is a truly amazing, massive man-made waterway strategically located in the beautiful, tropical country of Panamá in Central America. It perfectly and miraculously connects the deep waters of the Atlantic Ocean directly to the Pacific Ocean. Before this incredible canal existed, large cargo barcos (ships) were forced to travel all the way around the incredibly dangerous, stormy, and freezing southern tip of South America just to move important goods from one side of the world to the other. Building the canal was an incredibly difficult, highly dangerous engineering project because of the intensely hot tropical jungle, solid stone mountains, and deadly, dangerous diseases like yellow fever and malaria.\n\nDespite the extreme danger, thousands of brave, hardworking trabajadores (workers) from all over the world worked closely together to dig the dirt and build it, and it finally opened to the eager public in 1914. The impressive canal works exactly like a giant, powerful water elevator using a brilliant, complex system called esclusas (locks). These heavy steel locks gently lift the massive, heavy ships high up over the mountainous land using millions of gallons of fresh water, and then carefully lower them back down safely to sea level on the other side of the country!\n\nToday, the Panama Canal is absolutely one of the most important, wealthy, and busy waterways for global trade and business. Every single year, many thousands of giant cargo ships pass slowly through it, safely carrying essential food, warm clothes, fast cars, and expensive electronics to different countries around the globe. Because it saves so much valuable time, millions of dollars, and heavy fuel for everyone involved, it is widely considered a true, undeniable miracle of modern human engineering.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where is the amazing man-made waterway located?",
+          "What two oceans does the Panama Canal connect?",
+          "Where did ships have to travel before the canal existed?",
+          "What dangerous disease made building the canal incredibly difficult?",
+          "What is the brilliant system called that works like a giant water elevator?",
+          "What do the massive ships carry to different countries?",
+          "Why is the canal considered a true miracle of modern engineering?"
+        ],
+        "answerKey": [
+          "In the beautiful, tropical country of Panamá in Central America.",
+          "The Atlantic Ocean and the Pacific Ocean.",
+          "All the way around the incredibly dangerous, stormy, and freezing southern tip of South America.",
+          "Yellow fever (and malaria).",
+          "Esclusas (locks).",
+          "Essential food, warm clothes, fast cars, and expensive electronics.",
+          "Because it saves so much valuable time, millions of dollars, and heavy fuel."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El Canal de Panamá, famoso en todo el mundo, es una vía acuática masiva y verdaderamente asombrosa construida por humanos, ubicada estratégicamente en el hermoso y tropical país de Panamá en América Central. Conecta perfecta y milagrosamente las aguas profundas del Océano Atlántico directamente con el Océano Pacífico. Antes de que este canal increíble existiera, los barcos de carga grandes estaban forzados a viajar por todo el extremo sur de América del Sur, que es increíblemente peligroso, tormentoso y muy frío, solo para mover productos importantes de un lado del mundo al otro. Construir el canal fue un proyecto de ingeniería increíblemente difícil y muy peligroso por la selva tropical intensamente calurosa, las montañas de piedra sólida y las enfermedades mortales y peligrosas como la fiebre amarilla y la malaria.\n\nA pesar del peligro extremo, miles de trabajadores valientes y muy trabajadores de todo el mundo trabajaron juntos para mover la tierra y construirlo, y finalmente se abrió al público ansioso en 1914. ¡El canal impresionante funciona exactamente como un elevador de agua gigante y poderoso usando un sistema brillante y complejo llamado esclusas! ¡Estas esclusas pesadas de acero levantan suavemente los barcos masivos y pesados por encima de la tierra montañosa usando millones de galones de agua fresca, y luego los bajan cuidadosamente y con seguridad de vuelta al nivel del mar en el otro lado del país!\n\nHoy en día, el Canal de Panamá es absolutamente una de las vías acuáticas más importantes, ricas y ocupadas para el comercio y los negocios globales. Todos los años, muchos miles de barcos de carga gigantes pasan lentamente por él, transportando con seguridad comida esencial, ropa abrigada, carros rápidos y electrónicos caros a diferentes países por todo el mundo. Como el canal ahorra tanto tiempo valioso, millones de dólares y combustible pesado para todos los involucrados, es considerado ampliamente como un verdadero e innegable milagro de la ingeniería humana moderna.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué país de América Central se encuentra este famoso canal?",
+          "¿Qué dos océanos grandes conecta perfectamente esta vía acuática?",
+          "¿Por dónde tenían que viajar los barcos antes del año 1914?",
+          "¿Qué problemas difíciles encontraron los trabajadores durante el proyecto?",
+          "¿Cómo se llama el sistema especial que funciona como un elevador de agua?",
+          "¿Qué cosas importantes transportan los miles de barcos todos los años?",
+          "¿Por qué es el canal muy importante para el comercio mundial moderno?"
+        ],
+        "answerKey": [
+          "En el hermoso y tropical país de Panamá.",
+          "El Océano Atlántico y el Océano Pacífico.",
+          "Por todo el extremo sur de América del Sur (que es peligroso, tormentoso y frío).",
+          "La selva tropical intensamente calurosa, las montañas de piedra sólida y las enfermedades mortales (como la fiebre amarilla).",
+          "Un sistema brillante y complejo llamado esclusas.",
+          "Comida esencial, ropa abrigada, carros rápidos y electrónicos caros.",
+          "Porque ahorra mucho tiempo valioso, millones de dólares y combustible pesado."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El mundialmente célebre Canal de Panamá representa, sin lugar a dudas, una de las obras de ingeniería civil más colosales, impresionantes e influyentes de toda la era moderna. Ubicado estratégicamente en la parte más estrecha del istmo centroamericano, este majestuoso y vital paso marítimo, inaugurado triunfalmente en 1914, logró el hito histórico de unir directamente las profundas aguas del océano Atlántico con las del vasto océano Pacífico. Su exitosa e innovadora construcción revolucionó para siempre los patrones del comercio global al evitar drásticamente que las pesadas embarcaciones mercantes tuvieran que navegar la larga, gélida y sumamente traicionera ruta por el temido Cabo de Hornos en el extremo sur del continente americano.\n\nLa ambiciosa ejecución de este faraónico proyecto multinacional exigió un sacrificio humano inmenso para lograr superar formidables e implacables obstáculos naturales y sanitarios. Los ingenieros y obreros enfrentaron densas e impenetrables selvas tropicales, terreno rocoso y montañoso extremadamente difícil de excavar, y sobre todo, letales y devastadoras epidemias de fiebre amarilla y malaria transmitidas por implacables mosquitos. La verdadera y deslumbrante genialidad técnica del canal reside en su sofisticado y preciso sistema de esclusas monumentales de acero. Estas inmensas cámaras herméticas actúan como potentes ascensores hídricos que elevan paulatinamente las gigantescas embarcaciones por encima del nivel del mar, utilizando gravedad y agua dulce del inmenso lago Gatún, para poder atravesar sin problemas la cordillera central antes de descenderlas suavemente de nuevo al océano opuesto.\n\nEn la actualidad, el incesante canal es una arteria logística absolutamente indispensable para el buen funcionamiento de la economía internacional. Al reducir de manera drástica y eficiente los tiempos de tránsito interoceánico y los exorbitantes costos operativos de las principales compañías navieras del mundo, facilita enormemente el intercambio ágil, continuo y seguro de mercancías vitales de todo tipo, consolidando firmemente a la próspera nación de Panamá como el indiscutible y estratégico puente comercial del mundo moderno.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué hito monumental representa el Canal de Panamá a nivel mundial?",
+          "¿Qué ruta larga y traicionera evitó la construcción de esta infraestructura?",
+          "¿Qué formidables obstáculos naturales y sanitarios enfrentaron los constructores?",
+          "¿En qué año se inauguró oficialmente este majestuoso y vital paso marítimo?",
+          "¿Cómo funciona exactamente el sofisticado sistema de esclusas del canal?",
+          "¿Qué impacto directo tiene el canal en la logística del comercio internacional?",
+          "¿Qué se facilita globalmente gracias al tránsito eficiente de buques de carga?"
+        ],
+        "answerKey": [
+          "Una de las obras de ingeniería civil más colosales, impresionantes e influyentes de toda la era moderna.",
+          "La larga, gélida y sumamente traicionera ruta por el temido Cabo de Hornos en el extremo sur del continente americano.",
+          "Densas selvas tropicales, terreno rocoso/montañoso y letales epidemias de fiebre amarilla y malaria.",
+          "En 1914.",
+          "Actúan como potentes ascensores hídricos que elevan paulatinamente las embarcaciones por encima del nivel del mar (y las descienden al océano opuesto).",
+          "Reduce de manera drástica y eficiente los tiempos de tránsito interoceánico y los exorbitantes costos operativos de las navieras.",
+          "El intercambio ágil, continuo y seguro de mercancías vitales de todo tipo."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Chigüiro",
+    "imageFileName": "chiguiro.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The chigüiro, which is also commonly known as the capybara in English, is a highly fascinating, extremely gentle, and unique animal originating from the continent of South America. It proudly holds the impressive world record for being the absolute largest and heaviest living rodent on the entire planet! Even though it is closely related to very small, squeaky guinea pigs, a healthy, full-grown chigüiro can easily weigh just as much as a tall adult human. They live peacefully in beautiful, lush countries like Colombia, Venezuela, and Brasil, usually near the muddy edges of the thick rainforest.\n\nThese large, barrel-shaped, furry creatures absolutely love swimming in cool agua (water). They are specially adapted semi-aquatic animals with slightly webbed feet, which easily makes them fast, excellent swimmers. When it gets much too hot and sticky in the bright tropical sun, they lazily spend many hours relaxing, sleeping, and cooling off in deep rivers, calm lakes, and wet, muddy swamps. They can even impressively hold their breath completely underwater for up to five full minutes just to secretly hide from dangerous, hungry predators like stealthy jaguars and giant anaconda snakes!\n\nThe chigüiro is incredibly famous and highly beloved on the internet right now for its incredibly calm, relaxed, and deeply friendly personality. In the wild, they are very social, vocal animals and safely live in large, close family groups to protect each other. They are strict herbivores, which simply means they only eat fresh, green grass and wet aquatic plants near the riverbank. Because they are so incredibly peaceful and never bite, you can very often see other wild animales, like noisy birds, resting turtles, or tiny monkeys, sitting comfortably right on top of their flat heads like a furry taxi!",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "What world record does the chigüiro hold?",
+          "What small animal is the chigüiro related to?",
+          "What makes them excellent swimmers in the water?",
+          "Where do they spend hours relaxing when it gets too hot?",
+          "Why do they hold their breath underwater for up to five minutes?",
+          "What kind of personality is the animal very famous for on the internet?",
+          "What do herbivores like the chigüiro eat in the wild?"
+        ],
+        "answerKey": [
+          "It is the absolute largest and heaviest living rodent on the entire planet.",
+          "Small, squeaky guinea pigs.",
+          "They have slightly webbed feet.",
+          "In deep rivers, calm lakes, and wet, muddy swamps.",
+          "To secretly hide from dangerous, hungry predators like stealthy jaguars and giant anaconda snakes.",
+          "An incredibly calm, relaxed, and deeply friendly personality.",
+          "Fresh, green grass and wet aquatic plants."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El chigüiro, que también es comúnmente conocido como el capibara, es un animal muy fascinante, extremadamente gentil y único originario del continente de América del Sur. ¡Tiene con orgullo el récord mundial impresionante por ser el roedor vivo más grande y pesado de todo el planeta! Aunque es familia cercana de los conejillos de indias muy pequeños y ruidosos, un chigüiro adulto y sano puede pesar fácilmente lo mismo que un humano adulto y alto. Ellos viven pacíficamente en países hermosos y verdes como Colombia, Venezuela y Brasil, normalmente cerca de los bordes lodosos de la selva tropical espesa.\n\nA estas criaturas peludas, grandes y con forma de barril les encanta absolutamente nadar en el agua fresca. Son animales semiacuáticos especialmente adaptados con pies ligeramente palmeados, lo que fácilmente los hace nadadores rápidos y excelentes. Cuando hace demasiado calor y humedad bajo el sol tropical brillante, ellos pasan perezosamente muchas horas relajándose, durmiendo y refrescándose en ríos profundos, lagos tranquilos y pantanos húmedos y llenos de lodo. ¡Incluso pueden contener la respiración impresionantemente bajo el agua por hasta cinco minutos enteros solo para esconderse en secreto de depredadores peligrosos y hambrientos como los jaguares sigilosos y las serpientes anacondas gigantes!\n\nEl chigüiro es increíblemente famoso y muy querido en internet ahora mismo por su personalidad increíblemente tranquila, relajada y profundamente amigable. En la naturaleza, son animales muy sociales y vocales, y viven con seguridad en grupos familiares grandes y unidos para protegerse mutuamente. Son herbívoros estrictos, lo que simplemente significa que solo comen hierba fresca y verde, y plantas acuáticas húmedas cerca del río. Porque son tan increíblemente pacíficos y nunca muerden, ¡puedes ver muy frecuentemente a otros animales salvajes, como pájaros ruidosos, tortugas descansando o monos diminutos, sentados cómodamente justo en la parte superior de sus cabezas planas como un taxi peludo!",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué récord mundial tiene el chigüiro en el reino animal?",
+          "¿En qué países hermosos de América del Sur vive este animal?",
+          "¿Qué partes de su cuerpo lo ayudan a nadar excelentemente en el agua?",
+          "¿Dónde pasa muchas horas el animal cuando hace mucho calor en la selva?",
+          "¿Para qué puede contener la respiración bajo el agua por cinco minutos?",
+          "¿Cómo es la personalidad famosa del chigüiro en la naturaleza y en internet?",
+          "¿Qué tipo de comida comen estos animales herbívoros todos los días?"
+        ],
+        "answerKey": [
+          "Es el roedor vivo más grande y pesado de todo el planeta.",
+          "En Colombia, Venezuela y Brasil.",
+          "Sus pies ligeramente palmeados.",
+          "En ríos profundos, lagos tranquilos y pantanos húmedos y llenos de lodo.",
+          "Para esconderse en secreto de depredadores peligrosos y hambrientos como los jaguares.",
+          "Tiene una personalidad increíblemente tranquila, relajada y profundamente amigable.",
+          "Hierba fresca y verde, y plantas acuáticas húmedas."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El chigüiro, también comúnmente denominado capibara o carpincho en diversas regiones del continente, es un verdaderamente fascinante y apacible mamífero herbívoro endémico de Sudamérica. Su característica zoológica más destacada e impresionante es ostentar de manera indiscutible el curioso título del roedor viviente de mayor tamaño y peso a nivel global. A pesar de su innegable parentesco biológico con los diminutos conejillos de indias, su robusta y pesada complexión física en forma de barril le permite alcanzar fácilmente la masa corporal de un ser humano adulto promedio. Posee una profunda e innegable afinidad por los entornos acuáticos, habitando densamente y en completa armonía las exuberantes riberas y selvas de las cuencas del Amazonas y el Orinoco.\n\nSu asombrosa y milenaria adaptación evolutiva a la exigente vida semiacuática selvática es verdaderamente digna de estudio científico; cuenta con patas parcialmente palmeadas que lo convierten instantáneamente en un nadador sumamente ágil, veloz y grácil en el agua. Durante las sofocantes horas de calor abrasador del mediodía tropical, sumerge invariablemente su cuerpo peludo en ríos profundos, lagos y pantanos lodosos para termorregular efectivamente su temperatura. Además, posee la impresionante y vital capacidad pulmonar de contener la respiración por completo bajo el agua turbia durante varios minutos continuos, una elaborada táctica de supervivencia absolutamente vital para evadir sigilosa y exitosamente a letales depredadores ápice que acechan en las orillas, como los temibles jaguares y las gigantescas anacondas.\n\nDe naturaleza eminentemente gregaria, comunicativa y pacífica, los chigüiros conforman de manera natural manadas jerárquicas sumamente numerosas y protectoras. Su estricta y limitada dieta herbívora se basa casi exclusivamente en el consumo constante de pastos ribereños frescos y densa vegetación acuática. Recientemente, se han convertido de forma sorpresiva en un fenómeno viral sumamente peculiar y querido en las redes sociales modernas debido a su temperamento excepcionalmente dócil, estoico y plácido. Frecuentemente toleran con absoluta e inquebrantable paciencia que diversas especies, como ruidosas aves acuáticas, monos inquietos e incluso reptiles, descansen y duerman plácidamente sobre sus anchos lomos sin inmutarse en lo más mínimo.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Con qué otros nombres se le conoce a este fascinante mamífero sudamericano?",
+          "¿Qué característica zoológica lo distingue a nivel global de otras especies?",
+          "¿A qué se debe su innegable afinidad por los entornos acuáticos y ribereños?",
+          "¿Qué ventaja táctica le otorga su capacidad de sumergirse durante varios minutos?",
+          "¿Cómo se estructura socialmente este mamífero en su hábitat natural?",
+          "¿En qué consiste su estricta dieta herbívora en las riberas sudamericanas?",
+          "¿Por qué se han convertido en un fenómeno viral peculiar en las redes sociales?"
+        ],
+        "answerKey": [
+          "Capibara o carpincho.",
+          "Es el roedor viviente de mayor tamaño y peso a nivel global.",
+          "A su asombrosa adaptación evolutiva a la vida semiacuática (patas parcialmente palmeadas).",
+          "Una táctica vital para evadir sigilosa y exitosamente a letales depredadores ápice, como jaguares y anacondas.",
+          "Tienen una naturaleza eminentemente gregaria, conformando manadas jerárquicas sumamente numerosas y protectoras.",
+          "En el consumo constante de pastos ribereños frescos y densa vegetación acuática.",
+          "Por su temperamento excepcionalmente dócil, estoico y plácido (tolerando que otras especies descansen sobre ellos)."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "La Anaconda",
+    "imageFileName": "anaconda.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The anaconda is a massive, incredibly powerful, and highly fascinating snake that lives deep in the wet, tropical rainforests and muddy swamps of South America, especially in the massive Amazon River basin. It is globally famous and widely known by scientists for being the absolute heaviest and largest snake in the entire world! Unlike many other dangerous, scary snakes found in the wild jungle, the giant green anaconda does not have any poisonous venom in its fangs to quickly kill its prey.\n\nInstead of using deadly poison, the anaconda is known as a constrictor. This simply means it uses its incredibly strong, thick muscles to tightly wrap around large animals and strongly squeeze them until they can no longer breathe. Because they are so incredibly heavy, thick, and very slow when moving on dry land, green anacondas spend almost all their time happily swimming and relaxing in the fresh agua (water). They are absolutely fantastic, fast swimmers and cleverly use their dark green color and black spots to perfectly camouflage, or hide, in the dark, muddy rivers.\n\nThey wait very patiently and quietly just under the surface of the warm water with only their small eyes and nose sticking out to breathe. When a thirsty animal, like a furry chigüiro (capybara) or a large tropical bird, comes close to drink from the river, the hidden anaconda attacks with amazing, sudden speed! Because they can successfully eat such incredibly large, heavy meals at one time, they surprisingly only need to hunt a few times a year to survive. Despite their scary, monster-like reputation in Hollywood movies, anacondas usually avoid humans completely and strongly prefer to live peacefully in the wild, beautiful jungle.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where does the massive anaconda live in South America?",
+          "What is the anaconda famous for being?",
+          "Does the green anaconda use poisonous venom to kill its prey?",
+          "How does a constrictor snake hunt?",
+          "Why do anacondas spend almost all their time in the water?",
+          "What do they do to hide perfectly in the muddy rivers?",
+          "Why do they only need to hunt a few times a year?"
+        ],
+        "answerKey": [
+          "In the tropical rainforests and swamps (the Amazon River basin).",
+          "The heaviest snake in the entire world.",
+          "No.",
+          "It uses its strong muscles to wrap around animals and squeeze them.",
+          "Because they are heavy and slow on land.",
+          "They use their dark green color to camouflage.",
+          "Because they can eat such large meals."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La anaconda es una serpiente masiva, increíblemente poderosa y muy fascinante que vive en lo profundo de las selvas tropicales húmedas y los pantanos lodosos de América del Sur, especialmente en la gran cuenca del río Amazonas. ¡Es mundialmente famosa y muy conocida por los científicos por ser absolutamente la serpiente más pesada y grande de todo el mundo! A diferencia de muchas otras serpientes peligrosas y aterradoras que se encuentran en la jungla salvaje, la anaconda verde gigante no tiene ningún veneno mortal en sus colmillos para matar rápidamente a sus presas.\n\nEn lugar de usar un veneno mortal, la anaconda es conocida como una serpiente constrictora. Esto simplemente significa que usa sus músculos gruesos e increíblemente fuertes para abrazar fuertemente a los animales grandes y apretarlos con mucha fuerza hasta que ya no pueden respirar. Como son tan increíblemente pesadas, gruesas y muy lentas cuando se mueven en la tierra seca, las anacondas verdes pasan casi todo su tiempo nadando felizmente y relajándose en el agua fresca. Son nadadoras absolutamente fantásticas y rápidas, y usan inteligentemente su color verde oscuro y manchas negras para camuflarse perfectamente en los ríos oscuros y lodosos.\n\nEllas esperan muy paciente y silenciosamente justo bajo la superficie del agua tibia con solo sus pequeños ojos y su nariz afuera para respirar. Cuando un animal con mucha sed, como un chigüiro peludo o un pájaro tropical grande, se acerca para beber del río, ¡la anaconda escondida ataca con una velocidad asombrosa y repentina! Como pueden comer comidas increíblemente grandes y pesadas a la vez, sorprendentemente solo necesitan cazar unas pocas veces al año para sobrevivir. Aunque tienen una reputación de monstruos que da miedo en las películas, normalmente evitan a los humanos completamente y prefieren vivir en paz.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué tipo de geografía de América del Sur vive la anaconda masiva?",
+          "¿Qué récord mundial tiene la anaconda en el reino animal?",
+          "¿Qué líquido peligroso no tiene la anaconda verde para matar a sus presas?",
+          "¿Qué usa una serpiente constrictora para abrazar y apretar a los animales?",
+          "¿Por qué pasan las anacondas casi todo su tiempo relajándose en el agua?",
+          "¿Qué color usan las serpientes para camuflarse perfectamente en los ríos?",
+          "¿Por qué la anaconda solo necesita cazar unas pocas veces al año?"
+        ],
+        "answerKey": [
+          "En las selvas tropicales y los pantanos (el río Amazonas).",
+          "Es la serpiente más pesada de todo el mundo.",
+          "No tiene veneno.",
+          "Sus músculos increíblemente fuertes.",
+          "Porque son muy pesadas y lentas en la tierra.",
+          "Verde oscuro.",
+          "Porque pueden comer comidas muy grandes."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La anaconda verde es una imponente, majestuosa y colosal serpiente constrictora que habita de manera endémica en las exuberantes selvas tropicales, los densos humedales y las vastas cuencas hidrográficas de Sudamérica, concentrándose particularmente en la rica y biodiversa región del río Amazonas. Ostenta orgullosamente el récord absoluto e indiscutible de ser el ofidio más pesado y voluminoso de todo el planeta Tierra. A diferencia de las letales víboras venenosas que acechan en la maleza, la anaconda verde carece por completo de glándulas venenosas y colmillos inyectores para neutralizar y asesinar rápidamente a sus desafortunadas presas.\n\nSu letal y altamente efectivo método de caza consiste exclusivamente en la constricción mecánica: utiliza su musculatura excepcionalmente robusta, densa y poderosa para enroscarse rápidamente alrededor del cuerpo de sus víctimas, asfixiándolas con una presión implacable y constante que interrumpe el flujo sanguíneo y la respiración. Debido a su enorme masa corporal y proporciones gigantescas, su desplazamiento físico en tierra firme resulta sumamente torpe, pesado y agotador, motivo por el cual llevan una existencia predominantemente acuática. Son nadadoras verdaderamente formidables, ágiles y silenciosas, y su característica pigmentación verde oliva adornada con manchas ovaladas oscuras les proporciona un camuflaje óptico absolutamente impecable en las aguas turbias y estancadas.\n\nSe comportan como astutos depredadores de emboscada; permanecen pacientemente sumergidas casi en su totalidad, camufladas entre la vegetación flotante, acechando y esperando el momento exacto en que mamíferos de gran tamaño, como corpulentos capibaras o cautelosos caimanes, se acercan a beber a la orilla. Poseen un metabolismo basal sumamente lento y eficiente, lo que les permite subsistir tranquilamente durante varios meses continuos tras ingerir y digerir una presa muy voluminosa. Pese a su terrorífica e injusta reputación cinematográfica como monstruos devoradores, los ataques no provocados a seres humanos son eventos extremadamente raros y excepcionales en su hábitat natural.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué vasta región hidrográfica de Sudamérica habita esta imponente serpiente?",
+          "¿De qué tipo de glándulas carece por completo la anaconda verde?",
+          "¿En qué consiste exactamente su letal método de caza por constricción?",
+          "¿Por qué la anaconda lleva una existencia predominantemente acuática en lugar de terrestre?",
+          "¿Qué coloración les proporciona un camuflaje impecable en las aguas turbias?",
+          "¿A qué mamíferos de gran tamaño acechan pacientemente desde el agua?",
+          "¿Qué les permite subsistir durante meses tras ingerir una presa voluminosa?"
+        ],
+        "answerKey": [
+          "En la región del Amazonas (selvas y cuencas hidrográficas).",
+          "Carece de glándulas venenosas.",
+          "Utiliza su musculatura robusta para enroscarse y asfixiar a sus víctimas con presión.",
+          "Debido a que su enorme masa corporal hace que su desplazamiento en tierra firme sea torpe y agotador.",
+          "Su pigmentación verde oliva con manchas oscuras.",
+          "A capibaras o caimanes.",
+          "Poseen un metabolismo sumamente lento."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Cóndor Andino",
+    "imageFileName": "condor_andino.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The incredible Andean condor is a truly magnificent, beautiful, and absolutely giant bird that lives very high up in the cold, windy peaks of the massive Andes Mountains of South America. It is widely considered by experts to be the absolute largest flying bird in the entire world when you measure its combined heavy weight and its massive wingspan! Their huge, impressive wings can easily stretch over ten feet wide from tip to tip. This incredible size actually helps them smoothly glide and float through the windy, high mountains for many hours without even flapping their wings once.\n\nThe fascinating condor is known as a scavenger bird, which simply means it does not actively hunt or kill for live prey like eagles or hawks do. Instead, it expertly uses its incredibly sharp, powerful eyesight while flying high in the clouds to safely find sick animals or creatures that have already naturally died on the ground. Although this strange diet sounds a little bit gross to people, these condors are actually the highly important \"cleaning crew\" of the rocky mountains! By quickly eating dead, rotting animals, they actively help stop dangerous, invisible diseases from spreading rapidly in nature.\n\nThese majestic, enormous birds are completely black with a highly distinct, beautiful collar of fluffy white feathers wrapped cleanly around their necks, almost like a warm winter scarf. For many thousands of years, the strong condor has been a very important, sacred cultural symbol for ancient indigenous groups living in the mountains, like the famous Incas. Today, the legendary condor is proudly still the official national bird of several beautiful South American countries, including Colombia, Chile, and Ecuador. They can amazingly live to be over seventy years old, making them one of the longest-living birds on the entire planet.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where does the giant Andean condor live?",
+          "What is it considered the largest of in the world?",
+          "How do its huge wings help it fly?",
+          "What does a scavenger bird eat?",
+          "How do condors help the environment as the \"cleaning crew\"?",
+          "What kind of feathers do they have around their necks?",
+          "How old can these majestic birds live to be?"
+        ],
+        "answerKey": [
+          "High up in the Andes Mountains of South America.",
+          "The largest flying bird in the world.",
+          "They help it glide for hours without flapping.",
+          "Animals that have already died.",
+          "They help stop dangerous diseases from spreading.",
+          "A collar of fluffy white feathers.",
+          "Over seventy years old."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El increíble cóndor andino es un pájaro verdaderamente magnífico, hermoso y absolutamente gigante que vive muy alto en los picos fríos y ventosos de las montañas masivas de los Andes en América del Sur. ¡Los expertos lo consideran ampliamente como el ave voladora absolutamente más grande de todo el mundo cuando mides su peso pesado combinado y su tamaño masivo! Sus alas enormes e impresionantes pueden medir fácilmente más de diez pies de ancho de punta a punta. Este tamaño increíble realmente los ayuda a planear y flotar suavemente por las montañas altas durante muchas horas sin siquiera mover sus alas una vez.\n\nEl cóndor fascinante es conocido como un ave carroñera, lo que simplemente significa que no caza activamente ni mata presas vivas como lo hacen las águilas. En cambio, usa expertamente su vista increíblemente aguda y poderosa mientras vuela alto en las nubes para encontrar animales enfermos o criaturas que ya han muerto naturalmente en el suelo. Aunque esta dieta extraña suena un poco asquerosa para las personas, ¡estos cóndores son en realidad el \"equipo de limpieza\" muy importante de las montañas rocosas! Al comer rápidamente animales muertos y podridos, ayudan a evitar que las enfermedades peligrosas e invisibles se propaguen en la naturaleza.\n\nEstas aves majestuosas y enormes son completamente negras con un collar muy distintivo y hermoso de plumas blancas y muy suaves alrededor de sus cuellos, casi como una bufanda de invierno. Por muchos miles de años, el cóndor fuerte ha sido un símbolo cultural y sagrado muy importante para los antiguos grupos indígenas que viven en las montañas, como los famosos incas. Hoy en día, el cóndor legendario todavía es con orgullo el ave nacional oficial de varios países sudamericanos, incluyendo Colombia, Chile y Ecuador. Pueden vivir asombrosamente más de setenta años, siendo una de las aves más longevas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué famosa cordillera de América del Sur vive este pájaro magnífico?",
+          "¿Qué récord tiene el cóndor andino por su peso y tamaño masivo?",
+          "¿Qué pueden hacer en el aire por horas sin mover sus alas gigantes?",
+          "¿Qué tipo de comida busca un ave carroñera usando su excelente vista?",
+          "¿Por qué se considera a los cóndores el \"equipo de limpieza\" de la naturaleza?",
+          "¿Qué tienen estas aves negras alrededor del cuello?",
+          "¿Para qué civilización indígena antigua fue el cóndor un símbolo cultural importante?"
+        ],
+        "answerKey": [
+          "En las montañas de los Andes.",
+          "Es el ave voladora más grande del mundo.",
+          "Volar por las montañas (planear) sin esfuerzo.",
+          "Animales que ya están muertos.",
+          "Al comer animales muertos, ayudan a evitar que las enfermedades se propaguen.",
+          "Un collar de plumas blancas muy suaves.",
+          "Para los incas."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El cóndor andino es una imponente, majestuosa y emblemática ave rapaz de proporciones verdaderamente colosales que habita exclusivamente en las escarpadas, frías y ventosas cumbres de la inmensa cordillera de los Andes sudamericanos. Es catalogada unánimemente a nivel mundial como el ave voladora terrestre más grande y pesada del planeta, combinando un peso corporal muy considerable con una espectacular envergadura alar que puede superar fácilmente los tres metros de longitud. Esta imponente e inigualable morfología aerodinámica les permite aprovechar magistralmente las fuertes corrientes térmicas ascendentes de las montañas para planear majestuosamente durante incontables horas con un mínimo desgaste y esfuerzo físico.\n\nA nivel puramente ecológico, estas gigantescas aves desempeñan el rol absolutamente vital e insustituible de aves carroñeras especializadas. No son cazadores activos ni agresivos, sino que poseen una visión panorámica y excepcionalmente aguda para localizar con gran precisión cadáveres de animales de gran tamaño en avanzado estado de descomposición desde alturas vertiginosas. Su inestimable función biológica como el \"equipo de saneamiento\" natural del ecosistema es médicamente imprescindible, ya que, al consumir vorazmente la carne en descomposición, aceleran drásticamente la eliminación de restos orgánicos y previenen eficazmente la peligrosa proliferación de bacterias y focos infecciosos letales en el delicado entorno andino.\n\nEstéticamente, los cóndores adultos presentan un denso y brillante plumaje negro azabache que contrasta profundamente con un característico y llamativo collarín de plumón blanco prístino alrededor de su cuello desnudo. Histórica y culturalmente, el majestuoso cóndor ha sido reverenciado y venerado profundamente como una poderosa deidad sagrada en la antigua cosmovisión incaica y andina, representando simbólicamente el sol radiante, la fuerza inquebrrescueantable y la salud eterna. Actualmente, figura con inmenso orgullo como el ave nacional heráldica en los escudos de armas oficiales de múltiples repúblicas sudamericanas soberanas, y ostenta una de las esperanzas de vida más longevas entre todas las aves silvestres.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué entorno montañoso específico habita esta ave rapaz de proporciones colosales?",
+          "¿Qué técnica de vuelo les permite planear durante horas con un mínimo esfuerzo?",
+          "¿Qué rasgo biológico les permite localizar cadáveres de animales desde grandes alturas?",
+          "¿Por qué es imprescindible su función vital como \"equipo de saneamiento\" natural?",
+          "¿Qué elemento estético de su anatomía contrasta fuertemente con su plumaje negro azabache?",
+          "¿Qué tres conceptos representaba esta deidad sagrada en la cosmovisión incaica?",
+          "¿En qué símbolos patrios de múltiples repúblicas sudamericanas figura actualmente el cóndor?"
+        ],
+        "answerKey": [
+          "En las escarpadas cumbres de la cordillera de los Andes.",
+          "Aprovechan las corrientes térmicas ascendentes.",
+          "Una visión excepcionalmente aguda.",
+          "Porque aceleran la eliminación de restos orgánicos y previenen la proliferación de focos infecciosos.",
+          "Un característico collarín de plumón blanco prístino.",
+          "El sol, la fuerza y la salud.",
+          "En los escudos de armas (como el ave nacional)."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Ocelote",
+    "imageFileName": "ocelote.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The ocelot is a truly beautiful, sleek, medium-sized wild cat that lives safely hiding deep in the thick, dense forests and green, tropical jungles of Latin America. They are physically much smaller and lighter than massive, heavy jaguars or lions, but they are still incredibly fierce, extremely fast, and highly skilled hunters in the wild! Ocelots are globally famous and beloved for their stunning, bright golden coats that are completely covered in unique, beautiful dark spots, striking rosettes, and long black stripes from head to tail.\n\nThis beautiful, complex fur pattern is not just for looking pretty; it actually acts as perfect, natural camouflage in the wild. It actively helps them blend effortlessly into the dark, leafy shadows of the busy forest floor so they can quietly hide from larger predators and successfully sneak up on their own small prey without making a sound. Ocelots are strictly nocturnal animals, which simply means they are most awake, alert, and active late at night while the rest of the jungle is sleeping. They expertly use their excellent, glowing night vision and highly sensitive hearing to quickly hunt for small, fast rodents, jumping rabbits, slippery frogs, and even fresh fish in the rivers.\n\nIn addition to being incredibly fast and quiet runners on the ground, they are absolutely fantastic, agile climbers and surprisingly strong swimmers in the deep water. They very often rest and sleep high up in the safe, hidden branches of the tall árboles (trees) to stay cool and protected during the hot, humid tropical days. Unfortunately, because their spotted, soft fur is so beautiful and valuable, ocelots were heavily and illegally hunted by poachers in the past. Today, their absolute biggest, most dangerous threat is the sad loss of their natural forest habitat, but many dedicated wildlife organizations are working incredibly hard to protect these gorgeous wild cats forever.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where does the beautiful ocelot live?",
+          "What does its stunning golden coat look like?",
+          "Why is its beautiful spotted pattern important?",
+          "When are ocelots most active during the day?",
+          "What four small animals do they hunt for at night?",
+          "Where do they often rest during the hot days?",
+          "What is the biggest threat to ocelots today?"
+        ],
+        "answerKey": [
+          "In the dense forests and jungles of Latin America.",
+          "It is covered in dark spots, rosettes, and stripes.",
+          "It acts as perfect camouflage to hide in the shadows.",
+          "At night (they are nocturnal).",
+          "Small rodents, rabbits, frogs, and fish.",
+          "High up in the branches of the trees.",
+          "The loss of their forest habitat."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El ocelote es un gato salvaje verdaderamente hermoso, elegante y de tamaño mediano que vive escondido con seguridad en lo profundo de los bosques densos y las selvas tropicales y verdes de América Latina. ¡Físicamente son mucho más pequeños y ligeros que los jaguares o leones masivos, pero todavía son increíblemente feroces, extremadamente rápidos y cazadores muy hábiles en la naturaleza! Los ocelotes son famosos y muy queridos globalmente por sus impresionantes abrigos dorados y brillantes que están completamente cubiertos de manchas oscuras únicas, rosetas llamativas y rayas negras largas desde la cabeza hasta la cola.\n\nEste diseño de piel hermoso y complejo no es solo para verse bonito; en realidad funciona como un camuflaje perfecto y natural en la naturaleza salvaje. Les ayuda activamente a mezclarse sin esfuerzo en las sombras oscuras del bosque para que puedan esconderse silenciosamente de los depredadores más grandes y acercarse con éxito a sus propias presas pequeñas sin hacer ningún sonido. Los ocelotes son animales estrictamente nocturnos, lo que simplemente significa que están más despiertos, alertas y activos tarde en la noche mientras el resto de la selva duerme. Ellos usan expertamente su excelente visión nocturna y su audición muy sensible para cazar rápidamente roedores pequeños, conejos saltadores, ranas resbaladizas y peces frescos.\n\nAdemás de ser corredores increíblemente rápidos y silenciosos en la tierra, son trepadores absolutamente fantásticos y ágiles, y nadadores sorprendentemente fuertes en el agua profunda. Muy frecuentemente, ellos descansan y duermen en lo alto de las ramas seguras y escondidas de los árboles altos para mantenerse frescos y protegidos durante los días calurosos y húmedos. Desafortunadamente, como su piel suave y manchada es tan hermosa y valiosa, muchas personas cazaban a los ocelotes ilegalmente en el pasado. Hoy en día, su peligro y amenaza más grande es la triste pérdida de su hábitat natural en el bosque, pero muchas organizaciones trabajan duro para protegerlos.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué tipo de geografía de América Latina vive el ocelote?",
+          "¿Cómo es la piel dorada y hermosa de este gato salvaje?",
+          "¿Para qué usa el ocelote su camuflaje perfecto en el bosque?",
+          "¿En qué parte del día son más activos estos animales nocturnos?",
+          "¿Qué cuatro animales pequeños cazan los ocelotes para comer?",
+          "¿Qué lugares altos prefieren para descansar durante los días calurosos?",
+          "¿Cuál es el peligro y la amenaza más grande para los ocelotes hoy en día?"
+        ],
+        "answerKey": [
+          "En los bosques densos y las selvas.",
+          "Está cubierta con manchas oscuras, rosetas y rayas negras.",
+          "Para esconderse en las sombras oscuras (para protegerse y cazar).",
+          "Por la noche (son animales nocturnos).",
+          "Roedores pequeños, conejos, ranas y peces.",
+          "Lo alto de las ramas seguras de los árboles.",
+          "La triste pérdida (destrucción) de su hábitat en el bosque."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El ocelote es un grácil, escurridizo y verdaderamente cautivador felino silvestre de tamaño mediano, el cual es endémico de los densos bosques tropicales, las selvas húmedas y los intrincados matorrales de Centro y Sudamérica. Aunque posee una complexión física mucho más ligera, esbelta y pequeña que la del imponente y musculoso jaguar, sigue siendo indiscutiblemente un depredador formidable, sumamente ágil y un cazador letal en su entorno natural. Su característica física más deslumbrante, icónica y admirada es su bellísimo pelaje dorado y corto, el cual está profusamente adornado con complejas rosetas asimétricas, rayas alargadas y pronunciadas manchas oscuras y sólidas.\n\nEsta elaborada y evolucionada pigmentación natural no es meramente decorativa; le proporciona un camuflaje óptico absolutamente excepcional, permitiéndole mimetizarse a la perfección y desaparecer como un fantasma entre las cambiantes sombras y la densa vegetación del sotobosque selvático. De hábitos estrictamente nocturnos y crepusculares, el ocelote evita el calor opresivo del día y confía plenamente en su aguda y brillante visión nocturna y su extraordinario y sensible sentido del oído direccional para rastrear y emboscar silenciosamente a sus escurridizas presas, que incluyen ágiles y pequeños roedores, veloces lagartos, anfibios e incluso diversas aves descansando.\n\nAparte de su evidente y letal agilidad terrestre para correr y saltar con gran precisión, son también excelentes y vigorosos nadadores en ríos caudalosos y expertos trepadores arbóreos, refugiándose y durmiendo plácidamente de manera muy frecuente en el frondoso dosel forestal para evitar depredadores terrestres durante las largas horas de mayor insolación diurna. Históricamente, fueron cruel y trágicamente diezmados por la despiadada caza furtiva comercial impulsada por la alta demanda de su codiciada y lujosa piel manchada. Afortunadamente, la caza ha disminuido, pero la principal y más alarmante amenaza actual para la supervivencia a largo plazo de la especie es la incesante deforestación y la fragmentación irreversible de su hábitat natural boscoso.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ecosistemas específicos de Centro y Sudamérica es endémico el ocelote?",
+          "¿Cuál es la característica física más deslumbrante de este cazador sumamente hábil?",
+          "¿Qué ventaja táctica le proporciona esta elaborada pigmentación en el sotobosque?",
+          "¿En qué momentos específicos del día desarrolla sus hábitos de caza?",
+          "¿En qué dos sentidos confía principalmente para rastrear a sus presas en la oscuridad?",
+          "¿Dónde se refugia frecuentemente este felino durante las horas de mayor insolación?",
+          "¿Cuál es la principal amenaza actual para la supervivencia de esta especie?"
+        ],
+        "answerKey": [
+          "En los densos bosques tropicales, las selvas húmedas y los intrincados matorrales.",
+          "Su bellísimo pelaje dorado adornado con complejas rosetas, rayas y manchas oscuras.",
+          "Le proporciona un camuflaje excepcional para mimetizarse a la perfección entre las sombras.",
+          "Durante la noche y el crepúsculo (de hábitos estrictamente nocturnos y crepusculares).",
+          "En su aguda y brillante visión nocturna y su extraordinario sentido del oído direccional.",
+          "En el frondoso dosel forestal (en los árboles).",
+          "La incesante deforestación y la fragmentación irreversible de su hábitat natural boscoso."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Tapir",
+    "imageFileName": "tapir.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The tapir is a very unique, incredibly shy, and deeply fascinating wild mammal that quietly lives deep in the wet, tropical jungles and lush rainforests of Central and South America. Visually, to most surprised people, it looks exactly like a large, heavy pig crossed with a small elephant because it has a short, funny, and highly flexible trunk on its face. However, they are actually not related to common farm pigs at all! Scientists and biologists say that the tapir's absolute closest living relatives in the animal kingdom are actually fast horses and giant, heavy rhinoceroses.\n\nThe absolute most interesting and useful part of the tapir's strange body is its highly flexible, muscular snout. They use this long, grabbing nose exactly like a hand to expertly grab fresh, green leaves, sweet fruit, and tender branches from tall, prickly bushes that are otherwise too hard for them to easily reach. Tapirs absolutely love playing in the cool agua (water) to escape the hot tropical sun, and they are incredibly strong, excellent swimmers. In fact, when they bravely swim across deep, fast-moving rivers, they cleverly use their long, flexible snout sticking out of the water exactly like a plastic snorkel so they can easily breathe fresh air while staying completely hidden safely underwater!\n\nThey are very shy, peaceful, and gentle animals that strongly prefer to walk around the dark, quiet forest late at night to safely avoid dangerous, hungry predators like fast jaguars. Modern ecologists lovingly and respectfully call the amazing tapir the \"gardener of the forest.\" Because they eat so much delicious fruit every single day, they constantly walk around dropping hundreds of fruit seeds everywhere in their poop, which actively helps new, green trees grow quickly and keeps the entire jungle ecosystem perfectly healthy, balanced, and beautifully vibrant for all the other animals.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where does the unique and fascinating tapir live?",
+          "What does its short, flexible trunk make it look like visually?",
+          "What two animals are the tapir's closest relatives?",
+          "What do they use their long, flexible snout to grab?",
+          "How do they use their snout when swimming in deep rivers?",
+          "When do these shy, gentle animals prefer to walk around the forest?",
+          "What nickname do ecologists lovingly give to the tapir?"
+        ],
+        "answerKey": [
+          "In the wet, tropical jungles and lush rainforests of Central and South America.",
+          "A large, heavy pig crossed with a small elephant.",
+          "Fast horses and giant, heavy rhinoceroses.",
+          "Fresh, green leaves, sweet fruit, and tender branches.",
+          "Exactly like a plastic snorkel so they can easily breathe fresh air while staying completely hidden.",
+          "Late at night.",
+          "The \"gardener of the forest\"."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El tapir es un mamífero muy único, increíblemente tímido y profundamente fascinante que vive tranquilamente en las selvas tropicales húmedas y los bosques verdes de América Central y del Sur. Visualmente, para la mayoría de las personas sorprendidas, parece exactamente un cerdo grande y pesado cruzado con un elefante pequeño porque tiene una trompa corta, cómica y muy flexible en su cara. Sin embargo, ¡en realidad no son familia de los cerdos comunes de granja en absoluto! Los científicos y biólogos dicen que la verdadera familia viva más cercana del tapir en el reino animal son en realidad los caballos rápidos y los rinocerontes gigantes y pesados.\n\nLa parte absolutamente más interesante y útil del cuerpo extraño del tapir es su trompa muy flexible y musculosa. Ellos usan esta nariz larga para agarrar exactamente como una mano las hojas verdes y frescas, la fruta dulce y las ramas tiernas de los arbustos altos y espinosos que de otra manera son demasiado difíciles de alcanzar fácilmente. A los tapires les encanta jugar absolutamente en el agua fresca para escapar del sol tropical caliente, y son nadadores increíblemente fuertes y excelentes. De hecho, cuando nadan valientemente a través de ríos profundos y rápidos, ¡usan inteligentemente su trompa larga y flexible fuera del agua exactamente como un esnórquel de plástico para poder respirar aire fresco fácilmente mientras se mantienen completamente escondidos bajo el agua con seguridad!\n\nSon animales muy tímidos, pacíficos y gentiles que prefieren fuertemente caminar por el bosque oscuro y tranquilo tarde en la noche para evitar con seguridad a los depredadores peligrosos y hambrientos como los jaguares rápidos. Los ecologistas modernos llaman cariñosa y respetuosamente al tapir asombroso el \"jardinero del bosque\". Porque comen tanta fruta deliciosa todos los días, caminan constantemente tirando cientos de semillas de fruta por todas partes en su caca, lo que ayuda activamente a que los nuevos árboles verdes crezcan rápidamente y mantiene todo el ecosistema de la selva perfectamente sano, equilibrado y hermosamente vibrante para todos los demás animales.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué tipo de geografía viven los tapires en América Central y del Sur?",
+          "¿A qué animal grande se parece el tapir por su trompa corta y flexible?",
+          "¿Qué dos animales grandes son la verdadera familia del tapir?",
+          "¿Para qué usan ellos su nariz larga y flexible en la selva?",
+          "¿Qué usan como un esnórquel para poder respirar cuando nadan bajo el agua?",
+          "¿En qué parte del día prefieren caminar por el bosque estos animales tímidos?",
+          "¿Qué apodo o nombre cariñoso le dan los ecologistas a este animal importante?"
+        ],
+        "answerKey": [
+          "En las selvas tropicales húmedas y los bosques verdes.",
+          "A un cerdo grande y pesado cruzado con un elefante pequeño.",
+          "Los caballos rápidos y los rinocerontes gigantes y pesados.",
+          "Para agarrar las hojas verdes y frescas, la fruta dulce y las ramas tiernas.",
+          "Su trompa larga y flexible fuera del agua.",
+          "Tarde en la noche.",
+          "El \"jardinero del bosque\"."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El tapir es un mamífero herbívoro sumamente peculiar, solitario y de aspecto primitivo y arcaico, el cual es endémico de las frondosas, húmedas e impenetrables selvas neotropicales de Centro y Sudamérica. A simple vista, su robusta y maciza morfología asemeja curiosamente a la de un suido o cerdo salvaje muy corpulento, pero curiosamente provisto de una probóscide prensil y carnosa en el hocico, muy similar en apariencia y función a una trompa de elefante en miniatura. Paradójicamente, y a pesar de esta engañosa similitud visual, no guarda ningún tipo de parentesco taxonómico o genético con los cerdos comunes; los rigurosos estudios científicos modernos confirman que sus verdaderos parientes evolutivos vivos más cercanos son en realidad los veloces equinos (caballos y cebras) y los imponentes y pesados rinocerontes.\n\nEl distintivo apéndice nasal flexible y muscular del tapir es una herramienta evolutiva y anatómica verdaderamente extraordinaria y multifuncional. Funciona hábil y expertamente como un quinto miembro o mano prensil de gran fuerza que le permite arrancar selectivamente follaje fresco, brotes tiernos y frutos maduros de la espesa vegetación espinosa que de otro modo sería inaccesible. Exhiben una profunda, constante y vital afinidad por los entornos acuáticos y son nadadores y buceadores formidables, rápidos e incansables. Durante sus frecuentes y prolongadas inmersiones en ríos caudalosos para refrescarse del agobiante calor selvático o para evadir desesperadamente a letales depredadores felinos como el sigiloso jaguar, utilizan astutamente su prolongada trompa manteniéndola sobre la superficie del agua a modo de esnórquel natural invisible.\n\nDe temperamento sumamente elusivo, dócil, asustadizo y de hábitos de forrajeo primordialmente crepusculares o estrictamente nocturnos, evitan cautelosamente cualquier contacto directo con el ser humano o el ruido. La agradecida comunidad científica y los biólogos conservacionistas los han bautizado muy cariñosa y acertadamente con el ilustre apodo de los \"jardineros del bosque\". Su inmensa y masiva dieta frugívora (basada en el consumo de frutas) los convierte incidentalmente en dispersores biológicos de semillas invaluables; a través de la constante deposición de sus excrementos a lo largo de sus extensas rutas de caminata nocturna, siembran incesantemente el suelo de la vasta selva, garantizando así la rápida regeneración vegetal, la biodiversidad floreciente y la salud integral y equilibrada de todo el frágil ecosistema forestal neotropical.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Con qué dos familias de grandes mamíferos guarda parentesco evolutivo el tapir?",
+          "¿Qué herramienta evolutiva extraordinaria se asemeja a una trompa de elefante en miniatura?",
+          "¿Qué función prensil cumple este apéndice nasal flexible en la vegetación densa?",
+          "¿De qué ingeniosa manera utilizan su trompa durante las inmersiones en ríos caudalosos?",
+          "¿En qué momentos específicos del día desarrolla sus hábitos primordialmente este animal elusivo?",
+          "¿Con qué ilustre título los ha bautizado cariñosamente la comunidad científica?",
+          "¿Por qué se considera que su masiva dieta frugívora garantiza la salud del ecosistema?"
+        ],
+        "answerKey": [
+          "Con los veloces equinos (caballos y cebras) y los imponentes y pesados rinocerontes.",
+          "Su probóscide prensil y carnosa (apéndice nasal flexible y muscular).",
+          "Le permite arrancar selectivamente follaje fresco, brotes tiernos y frutos maduros (como una mano prensil).",
+          "Manteniéndola sobre la superficie del agua a modo de esnórquel natural invisible.",
+          "En el crepúsculo o por la noche (hábitos primordialmente crepusculares o estrictamente nocturnos).",
+          "Los \"jardineros del bosque\".",
+          "Porque son dispersores biológicos invaluables que siembran el suelo de la vasta selva a través de sus excrementos."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Carnaval de Barranquilla",
+    "imageFileName": "carnaval_barranquilla.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The world-famous Carnaval de Barranquilla is incredibly exciting and easily one of the absolute biggest, loudest, and most beautifully colorful traditional festivals in the entire world! It joyfully takes place every single year in the warm, bustling coastal city of Barranquilla, Colombia, exactly four days before Ash Wednesday. For four amazing, non-stop days of pure fun, the entire busy city completely stops working, completely closes its schools, and blocks off the crowded streets just to passionately dance, sing loudly, and proudly celebrate their incredibly rich, diverse cultural history together.\n\nThe massive, joyful street festival is a truly beautiful, historic, and magical mix of ancient indigenous, joyful African, and elegant Spanish cultural traditions that came together over many centuries. Happy people everywhere wear incredibly bright, elaborate, handmade costumes and highly detailed, giant masks. One of the absolute most famous and beloved silly characters you will see at the parade is the famous \"marimonda.\" This is a very funny, brightly colored mask with a long, silly nose and giant, floppy elephant ears that was originally created by poor people many years ago just to cleverly mock and make fun of corrupt, wealthy politicians and greedy rich people!\n\nLoud, fast, rhythmic music is the absolute, undeniable heartbeat of the entire massive carnaval. You can easily and happily hear the incredibly fast, highly energetic, and joyful traditional rhythm of the famous \"cumbia\" playing loudly from giant speakers on absolutely every single street corner. Smiling, talented dancers gracefully move their hips and energetically wave their incredibly long, beautiful, flowing colorful skirts to the deep, thunderous beat of the heavy wooden drums. In the year 2003, the important global organization UNESCO officially named the spectacular Carnaval de Barranquilla a precious \"Masterpiece of the Oral and Intangible Heritage of Humanity.\" It is a truly spectacular, unforgettable, and massive street party that perfectly shows the incredible, pure joy and the amazing, rich cultural diversity of the beautiful country of Colombia to the rest of the world.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where does this colorful festival take place?",
+          "How many days does the city stop working to celebrate?",
+          "What three cultural traditions does the festival mix together?",
+          "What is the \"marimonda\"?",
+          "Why was the marimonda character originally created?",
+          "What fast and energetic rhythm of music plays on every street corner?",
+          "What prestigious title did UNESCO give the festival in 2003?"
+        ],
+        "answerKey": [
+          "In the warm, bustling coastal city of Barranquilla, Colombia.",
+          "Exactly four amazing, non-stop days.",
+          "Ancient indigenous, joyful African, and elegant Spanish cultural traditions.",
+          "A very funny, brightly colored mask with a long, silly nose and giant, floppy elephant ears.",
+          "Just to cleverly mock and make fun of corrupt, wealthy politicians and greedy rich people.",
+          "The famous \"cumbia\".",
+          "A precious \"Masterpiece of the Oral and Intangible Heritage of Humanity\"."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "¡El Carnaval de Barranquilla, mundialmente famoso, es increíblemente emocionante y fácilmente uno de los festivales tradicionales más grandes, ruidosos y hermosamente coloridos del mundo entero! Ocurre alegremente todos los años en la cálida y ocupada ciudad costera de Barranquilla, Colombia, exactamente cuatro días antes del Miércoles de Ceniza. Durante cuatro días asombrosos y continuos de pura diversión, toda la ciudad ocupada deja de trabajar por completo, cierra completamente sus escuelas y bloquea las calles llenas de gente solo para bailar apasionadamente, cantar en voz alta y celebrar con orgullo su historia cultural increíblemente rica y diversa juntos.\n\nEl festival callejero masivo y alegre es una mezcla verdaderamente hermosa, histórica y mágica de las antiguas tradiciones culturales indígenas, las alegres tradiciones africanas y las elegantes tradiciones españolas que se unieron a lo largo de muchos siglos. Las personas felices en todas partes llevan disfraces increíblemente brillantes, elaborados y hechos a mano, y máscaras gigantes y muy detalladas. Uno de los personajes cómicos más famosos y queridos que verás en el desfile es la famosa \"marimonda\". ¡Esta es una máscara muy cómica y de colores brillantes con una nariz larga y tonta, y orejas de elefante gigantes y caídas que fue creada originalmente por personas pobres hace muchos años solo para burlarse inteligentemente y reírse de los políticos corruptos y las personas ricas y codiciosas!\n\nLa música fuerte, rápida y rítmica es el corazón absoluto e innegable de todo el carnaval masivo. Puedes escuchar fácil y felizmente el ritmo tradicional increíblemente rápido, muy enérgico y alegre de la famosa \"cumbia\" sonando fuertemente desde altavoces gigantes en absolutamente cada esquina de la calle. Los bailarines sonrientes y talentosos mueven con gracia sus caderas y agitan enérgicamente sus faldas increíblemente largas, hermosas, fluidas y coloridas al ritmo profundo y atronador de los pesados tambores de madera. En el año 2003, la importante organización global UNESCO nombró oficialmente al espectacular Carnaval de Barranquilla una preciosa \"Obra Maestra del Patrimonio Oral e Intangible de la Humanidad\". Es una fiesta callejera verdaderamente espectacular, inolvidable y masiva que muestra perfectamente la increíble y pura alegría y la asombrosa y rica diversidad cultural del hermoso país de Colombia al resto del mundo.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad costera de Colombia ocurre este festival colorido?",
+          "¿Cuántos días no trabaja la ciudad para poder bailar y celebrar?",
+          "¿Qué tres tradiciones mezcla este hermoso festival?",
+          "¿Cómo es la máscara cómica llamada \"marimonda\"?",
+          "¿Para qué se creó originalmente el personaje de la marimonda?",
+          "¿Qué tipo de música rápida se escucha en todas las calles?",
+          "¿Qué organización importante le dio un título especial al carnaval en 2003?"
+        ],
+        "answerKey": [
+          "En la cálida y ocupada ciudad costera de Barranquilla.",
+          "Exactamente cuatro días asombrosos y continuos.",
+          "Las antiguas tradiciones culturales indígenas, las alegres tradiciones africanas y las elegantes tradiciones españolas.",
+          "Es una máscara de colores brillantes con una nariz larga y tonta, y orejas de elefante gigantes y caídas.",
+          "Para burlarse inteligentemente y reírse de los políticos corruptos y las personas ricas y codiciosas.",
+          "El ritmo tradicional increíblemente rápido, muy enérgico y alegre de la famosa \"cumbia\".",
+          "La importante organización global UNESCO."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El deslumbrante e histórico Carnaval de Barranquilla es indiscutiblemente la fiesta folclórica, musical y cultural más importante de toda Colombia y, sin exagerar, uno de los carnavales callejeros más espectaculares, festivos y multitudinarios de todo el mundo. Esta frenética y colorida celebración popular paraliza y domina por completo la cálida ciudad costera caribeña durante cuatro días ininterrumpidos y consecutivos justo antes del solemne Miércoles de Ceniza, transformando mágicamente las aburridas avenidas pavimentadas en un inmenso y vibrante escenario abierto de gozo, algarabía, sátira social y arraigada tradición ancestral.\n\nEl magno y ruidoso evento es un crisol antropológico excepcional y verdaderamente único que fusiona de manera orgánica y magistral la antigua herencia indígena local, la potente influencia rítmica africana traída por los esclavos y el rico legado estético y religioso de los colonizadores españoles. Los interminables y sudorosos desfiles bajo el sol abrasador están repletos de comparsas deslumbrantes, elaboradas carrozas adornadas y miles de disfraces altamente satíricos y teatrales. Entre la multitud enloquecida, destaca prominentemente la figura de la icónica \"marimonda\". Esta es una peculiar y burlesca careta de tela brillante adornada con una nariz ridículamente alargada y orejas inmensas de primate, la cual fue ingeniosa y rebelmente concebida históricamente por las clases populares obreras como una aguda crítica social e irreverente hacia la pomposa clase política y la altiva élite adinerada de la época.\n\nEl pulso innegable, arrollador y vital de todo el carnaval es su embriagadora música en vivo, destacando muy especialmente la cumbia tradicional, cuyas hondas y melancólicas raíces africanas e indígenas resuenan implacablemente en el incesante repique de los tambores alegres y la aguda melodía de la flauta de millo. Las hermosas y exhaustas bailarinas, lujosamente ataviadas con pesadas polleras majestuosas de múltiples capas, ejecutan gráciles y coreografías hipnóticas bajo el ardiente sol que celebran el triunfo de la vida y el mestizaje cultural. Por su incalculable riqueza antropológica y sociológica, la prestigiosa organización de la UNESCO lo declaró oficial y merecidamente Obra Maestra del Patrimonio Oral e Intangible de la Humanidad, consagrándolo eternamente como un tesoro folclórico vivo e inestimable del pueblo colombiano.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad costera colombiana se celebra esta fiesta multitudinaria?",
+          "¿Qué tres herencias o legados fusiona este crisol cultural excepcional?",
+          "¿Qué es la icónica \"marimonda\" que destaca en los desfiles?",
+          "¿Con qué propósito histórico fue concebida la máscara de la marimonda?",
+          "¿Cuál es el pulso innegable del carnaval que resuena con los tambores?",
+          "¿Qué prenda de vestir utilizan las bailarinas para ejecutar sus coreografías hipnóticas?",
+          "¿Qué título le otorgó la UNESCO por su incalculable riqueza antropológica?"
+        ],
+        "answerKey": [
+          "En la cálida ciudad costera caribeña de Barranquilla.",
+          "La antigua herencia indígena local, la potente influencia rítmica africana y el rico legado de los españoles.",
+          "Una peculiar y burlesca careta de tela brillante adornada con una nariz ridículamente alargada y orejas inmensas.",
+          "Como una aguda crítica social e irreverente hacia la pomposa clase política y la altiva élite adinerada.",
+          "La embriagadora música en vivo (especialmente la cumbia tradicional y la flauta de millo).",
+          "Pesadas polleras majestuosas de múltiples capas.",
+          "Obra Maestra del Patrimonio Oral e Intangible de la Humanidad."
+        ]
+      }
+    }
   }
+
+
 
 
 
