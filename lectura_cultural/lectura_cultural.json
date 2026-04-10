@@ -980,7 +980,7 @@
     "levels": {
       "level_1": {
         "tier": "Level 1 (English/Beginner)",
-        "readingText": "José Andrés is a world-famous chef, restaurant owner, and amazing humanitarian. He was originally born in the country of España, but he moved to the United States when he was twenty-one years old to pursue his culinary dreams. He is famous for bringing the delicious Spanish concept of tapas, or small plates of food, to America.\n\nOver the years, he has opened dozens of highly successful restaurants all over the country and has won many prestigious awards for his incredible comida. However, José Andrés is most famous today for his massive heart and his charity work. After a terrible earthquake in Haiti, he founded an organization called World Central Kitchen.\n\nWhenever there is a massive natural disaster, like a hurricane, earthquake, or fire, José and his team of volunteer chefs travel directly to the danger zone. They quickly set up huge kitchens and cook thousands of hot, fresh meals for the victims and rescue workers who have lost everything. He strongly believes that a hot plate of food is a simple but powerful message of hope and love during the darkest times.",
+        "readingText": "José Andrés is a world-famous chef, successful restaurant owner, and an amazing humanitarian. He was originally born in the beautiful region of Asturias in the country of España, but he moved to the United States when he was twenty-one years old to pursue his culinary dreams. He is incredibly famous for bringing the delicious Spanish concept of tapas, or small plates of food, to America. Over the years, he has opened dozens of highly successful restaurants all over the country, writing bestselling cookbooks, and has won many prestigious awards for his incredible comida. He even won awards from the prestigious Michelin Guide.\n\nHowever, José Andrés is most famous today for his massive heart and his dedicated charity work. After a terrible earthquake struck Haiti in 2010, he decided he needed to help. He founded an amazing nonprofit organization called World Central Kitchen. Whenever there is a massive natural disaster, like a destructive hurricane, a dangerous earthquake, or a massive fire, José and his dedicated team of volunteer chefs travel directly to the danger zone. They do not wait for permission; they go straight to where people need them the most.\n\nThey quickly set up huge, temporary kitchens and cook thousands of hot, fresh meals for the victims and rescue workers who have lost absolutely everything. He strongly believes that a hot plate of food is not just nutrition, but a simple and powerful message of hope and love during the darkest times. His organization has served millions of meals across the globe, from Puerto Rico to Ukraine. Today, José Andrés shows the entire world that cooking can truly be a powerful tool to change lives and bring communities together.",
         "instruction": "Answer the following preguntas according to the text.",
         "questions": [
           "Where was the world-famous chef José Andrés born?",
@@ -992,7 +992,7 @@
           "What does José believe a hot plate of food represents?"
         ],
         "answerKey": [
-          "España.",
+          "España (Asturias).",
           "Twenty-one years old.",
           "Tapas (small plates of food).",
           "World Central Kitchen.",
@@ -1003,7 +1003,7 @@
       },
       "level_2": {
         "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "José Andrés es un chef mundialmente famoso, dueño de restaurantes y un ser humano increíble. Él nació originalmente en el país de España, pero se mudó a los Estados Unidos cuando tenía veintiún años para seguir sus sueños culinarios. Él es muy famoso por traer el delicioso concepto español de las tapas, o platos pequeños de comida, a Norteamérica.\n\nDurante muchos años, él ha abierto decenas de restaurantes muy exitosos por todo el país y ha ganado premios prestigiosos por su increíble comida. Sin embargo, José Andrés es más famoso hoy en día por su gran corazón y su trabajo caritativo. Después de un terrible terremoto en Haití, él fundó una organización que se llama World Central Kitchen.\n\nCuando hay un gran desastre natural, como un huracán, un terremoto o un incendio, José y su equipo de chefs voluntarios viajan directamente a la zona de peligro. Ellos preparan rápidamente cocinas gigantes y cocinan miles de comidas calientes y frescas para las víctimas y los trabajadores de rescate. Él cree firmemente que un plato caliente de comida es un mensaje poderoso de esperanza.",
+        "readingText": "José Andrés es un chef mundialmente famoso, un empresario muy exitoso y un ser humano increíble. Él nació originalmente en la hermosa región de Asturias en España, pero se mudó a los Estados Unidos cuando tenía veintiún años para seguir sus grandes sueños culinarios. Él es muy famoso por traer el delicioso concepto español de las tapas, o platos pequeños de comida para compartir, a Norteamérica. Durante muchos años, él ha abierto decenas de restaurantes muy populares por todo el país, ha escrito libros de recetas y ha ganado premios muy prestigiosos por su increíble comida. Él tiene estrellas Michelin por su talento en la cocina.\n\nSin embargo, José Andrés es mucho más famoso hoy en día por su gran corazón y su importante trabajo caritativo. Después de un terrible terremoto en Haití en el año dos mil diez, él decidió que necesitaba ayudar a las personas. Por eso, él fundó una organización fantástica que se llama World Central Kitchen. Cuando hay un gran desastre natural, como un huracán destructivo, un terremoto peligroso o un incendio enorme, José y su equipo de chefs voluntarios viajan directamente a la zona de peligro. Ellos no esperan; van adonde la gente más los necesita.\n\nEllos preparan rápidamente cocinas gigantes y temporales, y cocinan miles de comidas calientes y frescas para las víctimas y los trabajadores de rescate que no tienen nada. Él cree firmemente que un plato caliente de comida no es solo nutrición, sino un mensaje poderoso de esperanza y amor. Su organización ha servido millones de platos en todo el mundo. José demuestra que cocinar puede cambiar vidas y unir a las comunidades.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿De qué país europeo vino originalmente el famoso chef José Andrés?",
@@ -1021,12 +1021,12 @@
           "World Central Kitchen.",
           "Cuando hay un gran desastre natural, como un huracán, un terremoto o un incendio.",
           "Para las víctimas y los trabajadores de rescate.",
-          "Cree que es un mensaje poderoso de esperanza."
+          "Cree que es un mensaje poderoso de esperanza y amor."
         ]
       },
       "level_3": {
         "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "José Andrés es un chef, empresario y filántropo español de renombre internacional que ha transformado profundamente el panorama gastronómico y humanitario moderno. Originario de Asturias, emigró a los Estados Unidos a los veintiún años, donde se le atribuye el mérito de haber popularizado el concepto de las tapas españolas. A base de innovación y excelencia, construyó un vasto imperio de restaurantes galardonados con prestigiosas estrellas Michelin.\n\nSin embargo, su legado más perdurable trasciende las cocinas de alta gama. Conmovido por la devastación del terremoto de Haití en 2010, fundó World Central Kitchen, una ONG revolucionaria dedicada a proporcionar asistencia alimentaria inmediata tras desastres naturales o crisis humanitarias extremas.\n\nEn lugar de enviar comida enlatada, José y su ejército de chefs voluntarios se desplazan a la primera línea de huracanes, incendios y zonas de conflicto para establecer cocinas de emergencia. Allí, preparan decenas de miles de raciones de comida caliente, nutritiva y reconfortante utilizando ingredientes locales. Para José Andrés, alimentar a los damnificados no es solo una necesidad biológica, sino un profundo acto de empatía, dignidad y esperanza frente a la adversidad.",
+        "readingText": "José Andrés es un chef, empresario y filántropo español de inmenso renombre internacional que ha transformado profundamente tanto el panorama gastronómico como el ámbito humanitario moderno. Originario de la pintoresca región de Asturias, emigró a los Estados Unidos a los veintiún años con grandes ambiciones, donde se le atribuye el mérito histórico de haber introducido y popularizado el concepto de las tapas españolas. A base de constante innovación y excelencia culinaria, construyó un vasto imperio de restaurantes galardonados, recibiendo prestigiosas estrellas Michelin y múltiples reconocimientos de la industria gastronómica a lo largo de su prolífica carrera.\n\nSin embargo, su legado más perdurable y significativo trasciende ampliamente las exclusivas cocinas de alta gama. Profundamente conmovido por la devastación absoluta que dejó el terremoto de Haití en 2010, fundó World Central Kitchen, una organización no gubernamental verdaderamente revolucionaria dedicada a proporcionar asistencia alimentaria inmediata tras desastres naturales o crisis humanitarias extremas. En lugar de enviar comida enlatada, José y su dedicado ejército de chefs voluntarios se desplazan valientemente a la primera línea de huracanes, incendios forestales y zonas de conflicto bélico para establecer operaciones logísticas y cocinas de emergencia.\n\nAllí, trabajan incansablemente para preparar decenas de miles de raciones de comida caliente, nutritiva y reconfortante, priorizando siempre el uso de ingredientes locales para reactivar la economía de la zona afectada. Para José Andrés, alimentar a los damnificados no es simplemente satisfacer una necesidad biológica básica, sino un profundo acto de empatía, dignidad y solidaridad frente a la adversidad más cruda. Su organización ha distribuido millones de comidas a nivel global, demostrando empíricamente que el arte culinario posee el poder transformador de reconstruir comunidades y ofrecer esperanza tangible.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿De qué región de España es originario este filántropo y empresario internacional?",
@@ -1055,7 +1055,7 @@
     "levels": {
       "level_1": {
         "tier": "Level 1 (English/Beginner)",
-        "readingText": "Gabby Rivera is an incredibly talented Puerto Rican-American author and comic book writer. She was born and raised in the Bronx, a vibrant borough of New York City. Growing up, she loved reading comic books but noticed that there were not many superheroes who looked like her or shared her cultura.\n\nBecause of this, Gabby decided to write her own stories. She became very famous for writing a comic book series for Marvel Comics about America Chavez. America Chavez is a powerful, history-making character because she is Marvel's very first queer Latina superhero to have her own comic series! Gabby's stories are full of action, pride, and positive representation.\n\nBesides writing fantastic comic books, Gabby also wrote a highly praised young adult novel called Juliet Takes a Breath. The book tells a beautiful story about a young Puerto Rican woman from the Bronx who travels to Oregon to discover herself and her identity. Gabby Rivera frequently speaks at schools and universities, inspiring young people everywhere to tell their own unique stories, be proud of their diverse roots, and embrace who they truly are.",
+        "readingText": "Gabby Rivera is an incredibly talented Puerto Rican-American author, educator, and comic book writer. She was born and raised in the Bronx, a vibrant and diverse borough of New York City. Growing up in this environment, she absolutely loved reading comic books and watching superhero movies. However, she quickly noticed a big problem: there were not many superheroes who looked like her, spoke like her, or shared her rich Latin cultura.\n\nBecause she wanted to see more diversity, Gabby decided to write her own stories. She became internationally famous for writing a groundbreaking comic book series for Marvel Comics about a character named America Chavez. America Chavez is a powerful, history-making character because she is Marvel's very first queer Latina superhero to ever have her own dedicated comic series! Gabby's stories are always full of intense action, immense pride, and positive representation for young minority readers who want to feel seen and powerful.\n\nBesides writing fantastic comic books about superheroes saving the world, Gabby also wrote a highly praised young adult novel called Juliet Takes a Breath. The book tells a beautiful, emotional story about a young Puerto Rican woman from the Bronx who travels all the way to Oregon to discover herself, her family history, and her true identity. Today, Gabby Rivera frequently travels across the country to speak at schools, libraries, and universities. She is deeply passionate about inspiring young people everywhere to tell their own unique stories. She encourages students to be proud of their diverse roots, to stand up for themselves, and to fully embrace exactly who they truly are.",
         "instruction": "Answer the following preguntas according to the text.",
         "questions": [
           "Where was the author Gabby Rivera born and raised?",
@@ -1078,7 +1078,7 @@
       },
       "level_2": {
         "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "Gabby Rivera es una autora y escritora de cómics puertorriqueña-estadounidense increíblemente talentosa. Ella nació y creció en el Bronx, un barrio muy vibrante de la ciudad de Nueva York. Cuando era niña, a ella le encantaba leer cómics, pero notó que no había muchos superhéroes que compartieran su cultura.\n\nPor esta razón, Gabby decidió escribir sus propias historias. Ella se hizo muy famosa por escribir una serie de cómics para la compañía Marvel sobre América Chávez. ¡América Chávez es un personaje histórico y poderoso porque es la primera superheroína latina y queer de Marvel en tener su propia serie! Las historias de Gabby están llenas de acción y representación positiva.\n\nAdemás de escribir cómics fantásticos, Gabby también escribió una novela muy popular para jóvenes que se llama Juliet Takes a Breath. El libro cuenta la hermosa historia de una joven puertorriqueña del Bronx que viaja a Oregón para descubrir su identidad. Gabby Rivera frecuentemente habla en escuelas y universidades, inspirando a los jóvenes a contar sus propias historias, estar orgullosos de sus raíces y aceptarse a sí mismos.",
+        "readingText": "Gabby Rivera es una autora, educadora y escritora de cómics puertorriqueña-estadounidense increíblemente talentosa. Ella nació y creció en el Bronx, un barrio muy vibrante y diverso de la ciudad de Nueva York. Cuando era niña, a ella le encantaba leer cómics y ver películas de superhéroes. Sin embargo, ella notó un problema muy grande rápidamente: no había muchos superhéroes que compartieran su cultura latina, que hablaran como ella o que se parecieran a su familia.\n\nPor esta razón, Gabby decidió escribir sus propias historias. Ella se hizo internacionalmente famosa por escribir una serie de cómics muy importante para la gran compañía Marvel sobre un personaje llamado América Chávez. ¡América Chávez es un personaje histórico y poderoso porque es la primera superheroína latina y queer de Marvel en tener su propia serie de cómics! Las historias de Gabby siempre están llenas de mucha acción, gran orgullo y representación positiva para los jóvenes que quieren sentirse fuertes e importantes.\n\nAdemás de escribir cómics fantásticos sobre superhéroes que salvan el mundo, Gabby también escribió una novela muy popular para jóvenes que se llama Juliet Takes a Breath. El libro cuenta la hermosa y emocional historia de una joven puertorriqueña del Bronx que viaja muy lejos a Oregón para descubrir su identidad y la historia de su familia. Hoy en día, Gabby Rivera viaja frecuentemente por todo el país para hablar en escuelas, bibliotecas y universidades. Ella tiene mucha pasión por inspirar a los jóvenes a contar sus propias historias únicas. Ella anima a los estudiantes a estar orgullosos de sus raíces, defenderse y aceptarse a sí mismos.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿Dónde nació y creció la escritora Gabby Rivera?",
@@ -1101,7 +1101,7 @@
       },
       "level_3": {
         "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "Gabby Rivera es una destacada y galardonada escritora puertorriqueña-estadounidense originaria del Bronx, Nueva York. Durante su juventud, Rivera era una ávida lectora de historietas, pero sentía una profunda frustración ante la notable falta de representación de personajes que reflejaran su herencia cultural y su identidad.\n\nImpulsada por esta carencia, canalizó su creatividad hacia la escritura y logró un hito histórico al ser contratada por el gigante del entretenimiento Marvel Comics. Rivera fue la encargada de escribir la serie de cómics protagonizada por América Chávez, convirtiéndose en la mente maestra detrás de la primera superheroína latina y queer de la franquicia en protagonizar su propia saga. Sus narrativas inyectan una dosis vital de autenticidad, fuerza y empoderamiento.\n\nParalelamente a su éxito en el mundo de los superhéroes, Rivera aclamó a la crítica con su novela juvenil Juliet Takes a Breath. La obra explora el viaje de autodescubrimiento de una joven boricua que abandona su entorno urbano para encontrar su lugar en el mundo. Hoy en día, Rivera es una conferencista inspiradora que viaja por todo el país motivando a la juventud marginada a alzar su voz.",
+        "readingText": "Gabby Rivera es una destacada y galardonada escritora puertorriqueña-estadounidense originaria del Bronx, Nueva York, cuya obra ha impactado significativamente la literatura juvenil y el mundo de los cómics. Durante su juventud, Rivera era una ávida lectora de historietas y fanática de la cultura pop, pero sentía una profunda frustración ante la notable falta de representación. Notó que casi no existían personajes heroicos que reflejaran genuinamente su herencia cultural, su identidad o las realidades de su comunidad urbana.\n\nImpulsada por esta evidente carencia, canalizó su creatividad hacia la escritura y logró un hito histórico al ser contratada por el gigante del entretenimiento Marvel Comics. Rivera fue la encargada de escribir la serie de cómics protagonizada por América Chávez, convirtiéndose en la mente maestra detrás de la primera superheroína latina y queer de la icónica franquicia en protagonizar su propia saga. Sus narrativas vibrantes inyectan una dosis vital de autenticidad, fuerza y empoderamiento, ofreciendo referentes positivos para lectores pertenecientes a minorías que históricamente han sido marginados en estos medios.\n\nParalelamente a su rotundo éxito en el universo de los superhéroes, Rivera fue aclamada por la crítica literaria gracias a su novela juvenil Juliet Takes a Breath. La obra explora con sensibilidad y humor el complejo viaje de autodescubrimiento de una joven boricua que abandona su entorno seguro para encontrar su lugar en el mundo. En la actualidad, Rivera se desempeña como una conferencista inspiradora que recorre instituciones educativas por todo el país. Su misión principal es motivar a la juventud a alzar su voz, abrazar con orgullo su diversidad y relatar sus propias vivencias con total honestidad.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿De qué barrio neoyorquino es originaria esta destacada y galardonada escritora?",
@@ -1119,7 +1119,7 @@
           "América Chávez.",
           "Una dosis vital de autenticidad, fuerza y empoderamiento.",
           "El viaje de autodescubrimiento de una joven boricua que abandona su entorno urbano.",
-          "A la juventud marginada."
+          "A la juventud marginada (y a alzar su voz)."
         ]
       }
     }
@@ -1130,7 +1130,7 @@
     "levels": {
       "level_1": {
         "tier": "Level 1 (English/Beginner)",
-        "readingText": "Sonia Sotomayor is a brilliant judge and a true inspiration to millions of people. She was born in the Bronx, New York, but her beloved parents originally moved there from Puerto Rico. Growing up, her family did not have a lot of money, and Sonia was diagnosed with diabetes when she was just a little girl.\n\nDespite these difficult challenges, she loved reading books, especially detective stories, and she always dreamed of studying the law. Sonia worked extremely hard in school and eventually graduated from two of the best universities in the country: Princeton and Yale. She worked as a lawyer and a judge for many years, earning a great reputation for being fair, smart, and dedicated to justice.\n\nIn 2009, she made history when the President of the United States selected her to serve on the Supreme Court. She became the very first Latina Supreme Court Justice in American history! Today, she uses her powerful position to protect the rights of all people. She frequently writes books for children, encouraging them to overcome their personal challenges and work hard to achieve their grandest dreams.",
+        "readingText": "Sonia Sotomayor is a brilliant judge, a powerful leader, and a true inspiration to millions of people. She was born in the Bronx, New York, but her beloved parents originally moved there from the beautiful island of Puerto Rico. Growing up, her family did not have a lot of money, and they faced many hard times. To make things more complicated, Sonia was diagnosed with diabetes when she was just a little girl, meaning she had to take special medicine every day.\n\nDespite these difficult challenges, she absolutely loved reading books, especially exciting detective stories. Because of these stories, she always dreamed of studying the law and helping people. Sonia worked extremely hard in school, studying late into the night. Her incredible dedication paid off, and she eventually graduated with highest honors from two of the best universities in the entire country: Princeton and Yale. She worked as a lawyer and a judge for many years in New York, earning a great reputation for being fair, incredibly smart, and deeply dedicated to justice.\n\nIn 2009, she made history when the President of the United States officially selected her to serve on the Supreme Court. She became the very first Latina Supreme Court Justice in American history! This was a monumental achievement for the Hispanic community. Today, she uses her powerful position to protect the rights of all people and ensure the laws are fair. Besides her work in court, she frequently writes beautiful books for children. She encourages young readers to overcome their personal challenges, embrace their differences, and work hard to achieve their grandest dreams.",
         "instruction": "Answer the following preguntas according to the text.",
         "questions": [
           "Where did Sonia Sotomayor's parents originally move from?",
@@ -1153,7 +1153,7 @@
       },
       "level_2": {
         "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "Sonia Sotomayor es una jueza brillante y una verdadera inspiración para millones de personas. Ella nació en el Bronx, Nueva York, pero sus queridos padres eran originalmente de Puerto Rico. Cuando ella era niña, su familia no tenía mucho dinero y Sonia fue diagnosticada con la enfermedad de la diabetes.\n\nA pesar de estos problemas difíciles, a ella le encantaba leer libros de detectives y siempre soñaba con estudiar la ley. Sonia trabajó muy duro en la escuela y finalmente se graduó de dos de las mejores universidades del país: Princeton y Yale. Ella trabajó como abogada y jueza por muchos años, ganando una gran reputación por ser una persona justa, inteligente y dedicada.\n\nEn el año 2009, ella hizo historia cuando el Presidente de los Estados Unidos la seleccionó para la Corte Suprema. ¡Ella se convirtió en la primera jueza latina en la historia del país! Hoy en día, ella usa su posición poderosa para proteger los derechos de las personas. Frecuentemente, escribe libros para niños para inspirarlos a superar los problemas y seguir sus sueños.",
+        "readingText": "Sonia Sotomayor es una jueza brillante, una líder poderosa y una verdadera inspiración para millones de personas. Ella nació en el Bronx, Nueva York, pero sus queridos padres eran originalmente de la hermosa isla de Puerto Rico. Cuando ella crecía, su familia no tenía mucho dinero y pasaron por momentos muy difíciles. Para hacer las cosas más complicadas, Sonia fue diagnosticada con la enfermedad de la diabetes cuando era solo una niña pequeña, y necesitaba tomar medicina especial todos los días.\n\nA pesar de estos problemas difíciles, a ella le encantaba leer libros, especialmente historias emocionantes de detectives. Por estas historias, ella siempre soñaba con estudiar la ley y ayudar a la gente. Sonia trabajó muy duro en la escuela, estudiando hasta muy tarde en la noche. Su dedicación increíble tuvo buenos resultados, y finalmente se graduó con honores de dos de las mejores universidades de todo el país: Princeton y Yale. Ella trabajó como abogada y jueza por muchos años en Nueva York, ganando una gran reputación por ser justa, muy inteligente y dedicada a la justicia.\n\nEn el año 2009, ella hizo historia cuando el Presidente de los Estados Unidos la seleccionó oficialmente para la Corte Suprema. ¡Ella se convirtió en la primera jueza latina en la historia del país! Hoy en día, ella usa su posición poderosa para proteger los derechos de todas las personas y asegurar que las leyes sean justas. Además de su trabajo en la corte, frecuentemente escribe libros hermosos para niños. Ella anima a los jóvenes a superar sus problemas personales y seguir sus sueños más grandes.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿De dónde eran originalmente los queridos padres de Sonia Sotomayor?",
@@ -1176,7 +1176,7 @@
       },
       "level_3": {
         "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "Sonia Sotomayor es una jueza magistral cuya trayectoria vital representa la encarnación misma del sueño americano y la perseverancia inquebrantable. Criada en un humilde hogar del Bronx por padres inmigrantes puertorriqueños, enfrentó adversidades tempranas, incluyendo la pérdida de su padre y un diagnóstico infantil de diabetes tipo 1.\n\nImpulsada por una pasión insaciable por la lectura y un profundo sentido de la justicia, se destacó académicamente de manera sobresaliente. Su brillantez intelectual la llevó a graduarse con máximos honores en las prestigiosas universidades de Princeton y Yale. Tras forjar una carrera impecable como abogada y jueza federal, caracterizada siempre por su imparcialidad y rigor analítico, alcanzó la cúspide de la judicatura estadounidense en 2009.\n\nAl ser confirmada para el Tribunal Supremo, Sotomayor rompió barreras centenarias, convirtiéndose en la primera mujer de ascendencia hispana en ocupar una silla en la máxima corte del país. Desde el estrado, es una voz influyente que defiende incansablemente los derechos civiles y la igualdad ante la ley. A través de sus memorias y libros infantiles, motiva a las nuevas generaciones a transformar los obstáculos en escalones hacia el éxito.",
+        "readingText": "Sonia Sotomayor es una jueza magistral cuya trayectoria vital representa la encarnación misma del sueño americano y la perseverancia inquebrantable. Criada en un humilde hogar del Bronx por padres inmigrantes puertorriqueños, enfrentó severas adversidades tempranas, incluyendo la dolorosa pérdida de su padre a una edad muy joven y un diagnóstico infantil de diabetes tipo uno que requería inyecciones diarias de insulina. Sin embargo, ella nunca permitió que estas circunstancias dictaran su futuro.\n\nImpulsada por una pasión insaciable por la lectura, especialmente por las novelas de misterio, y un profundo sentido de la justicia, se destacó académicamente de manera sobresaliente. Su tenacidad y brillantez intelectual la llevaron a graduarse con máximos honores en dos de las instituciones más prestigiosas del mundo: las universidades de Princeton y Yale. Tras forjar una carrera impecable y extensa como abogada y jueza federal en Nueva York, caracterizada siempre por su absoluta imparcialidad, empatía y rigor analítico, alcanzó la cúspide de la judicatura estadounidense en el año 2009.\n\nAl ser nominada y confirmada para el Tribunal Supremo, Sotomayor rompió barreras centenarias, convirtiéndose en la primera mujer de ascendencia hispana en ocupar una silla en la máxima corte del país. Este nombramiento fue un hito monumental para la representación de las minorías. Desde el estrado, es una voz sumamente influyente que defiende incansablemente los derechos civiles, la equidad y la igualdad ante la ley. A través de la publicación de sus memorias y exitosos libros infantiles, motiva constantemente a las nuevas generaciones a transformar sus debilidades en fortalezas y convertir los obstáculos en escalones hacia el éxito rotundo.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿En qué entorno socioeconómico fue criada la magistrada Sotomayor durante su infancia?",
@@ -1189,12 +1189,12 @@
         ],
         "answerKey": [
           "En un humilde hogar por padres inmigrantes puertorriqueños.",
-          "La pérdida de su padre y un diagnóstico infantil de diabetes tipo 1.",
+          "La pérdida de su padre y un diagnóstico infantil de diabetes tipo uno.",
           "Las prestigiosas universidades de Princeton y Yale.",
           "Por su imparcialidad y rigor analítico.",
           "Convertirse en la primera mujer de ascendencia hispana en ocupar una silla en la máxima corte del país.",
           "Los derechos civiles y la igualdad ante la ley.",
-          "Motiva a transformar los obstáculos en escalones hacia el éxito."
+          "Motiva a transformar los obstáculos en escalones hacia el éxito rotundo."
         ]
       }
     }
@@ -1205,7 +1205,7 @@
     "levels": {
       "level_1": {
         "tier": "Level 1 (English/Beginner)",
-        "readingText": "Dr. Carlos Jaramillo is a brilliant scientist and paleontologist from the beautiful country of Colombia. Paleontologists are scientists who study ancient fossils to learn about what the Earth looked like millions of years ago. He works for the famous Smithsonian Tropical Research Institute.\n\nDr. Jaramillo and his team made a massive and shocking discovery inside a huge coal mine in Cerrejón, Colombia. While digging in the rocks, they found the fossilized bones of the largest snake to ever live on Earth! The giant snake is called the Titanoboa, and it was longer than a school bus and heavier than a car. They also discovered fossils of giant turtles and enormous crocodiles in the same area.\n\nThese incredible discoveries help Dr. Jaramillo understand what the ancient tropical selva, or rainforest, looked like right after the dinosaurs went extinct. By studying these giant fossils and ancient plants, he can learn important secrets about how the climate changed in the past. His important scientific work helps other researchers figure out how modern climate change might affect our planet in the future.",
+        "readingText": "Dr. Carlos Jaramillo is a brilliant scientist, a passionate geologist, and a famous paleontologist from the beautiful country of Colombia. Paleontologists are special scientists who study ancient fossils to learn exactly what the Earth looked like millions of years ago before humans existed. He currently works as a top researcher for the famous Smithsonian Tropical Research Institute, traveling the world to dig for clues about the past.\n\nDr. Jaramillo and his dedicated team of scientists made a massive and absolutely shocking discovery inside a huge coal mine located in Cerrejón, Colombia. While carefully digging in the rocks under the hot sun, they found the fossilized bones of the largest snake to ever live on Earth! The giant, terrifying snake is called the Titanoboa. It was much longer than a yellow school bus and heavier than a car. They also discovered fossils of giant turtles with shells the size of dining tables and enormous crocodiles in the exact same area.\n\nThese incredible and historic discoveries help Dr. Jaramillo clearly understand what the ancient tropical selva, or rainforest, looked like right after the dinosaurs went extinct. By studying these giant animal fossils and ancient plant remains, he can learn important secrets about how the Earth's climate drastically changed in the ancient past. The Titanoboa could only survive because the weather was incredibly hot. Today, his deeply important scientific work helps other modern researchers figure out how global warming and modern climate change might affect our plants, animals, and entire planet in the near future. He proves that looking at the past can help save the future.",
         "instruction": "Answer the following preguntas according to the text.",
         "questions": [
           "Where is the brilliant paleontologist Dr. Carlos Jaramillo from?",
@@ -1228,7 +1228,7 @@
       },
       "level_2": {
         "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "El doctor Carlos Jaramillo es un científico y paleontólogo muy brillante del hermoso país de Colombia. Los paleontólogos son científicos especiales que estudian los fósiles antiguos para aprender cómo era la Tierra hace millones de años. Él trabaja para el famoso Instituto Smithsonian.\n\nEl doctor Jaramillo y su equipo de científicos hicieron un descubrimiento masivo y sorprendente dentro de una enorme mina de carbón en Cerrejón, Colombia. Mientras excavaban en las rocas, ¡ellos encontraron los huesos de la serpiente más grande del mundo! La serpiente gigante se llama Titanoboa, y era más larga que un autobús escolar. Ellos también descubrieron fósiles de tortugas gigantes y cocodrilos enormes en la misma zona.\n\nEstos descubrimientos increíbles ayudan al doctor Jaramillo a comprender cómo era la antigua selva tropical inmediatamente después de los dinosaurios. Al estudiar estos grandes fósiles de animales y plantas, él puede aprender secretos muy importantes sobre el clima del pasado. Su excelente trabajo científico ayuda a otros investigadores a comprender cómo el cambio climático puede afectar nuestro planeta en el futuro.",
+        "readingText": "El doctor Carlos Jaramillo es un científico brillante, un geólogo apasionado y un paleontólogo famoso del hermoso país de Colombia. Los paleontólogos son científicos especiales que estudian los fósiles antiguos para aprender exactamente cómo era la Tierra hace millones de años, antes de los humanos. Él trabaja actualmente como investigador principal para el famoso Instituto Smithsonian, viajando por el mundo para buscar pistas sobre el pasado.\n\nEl doctor Jaramillo y su equipo dedicado de científicos hicieron un descubrimiento masivo y absolutamente sorprendente dentro de una enorme mina de carbón en Cerrejón, Colombia. Mientras excavaban con mucho cuidado en las rocas bajo el sol caliente, ¡ellos encontraron los huesos fósiles de la serpiente más grande del mundo! La serpiente gigante y aterradora se llama Titanoboa. Era mucho más larga que un autobús escolar amarillo y más pesada que un carro. Ellos también descubrieron fósiles de tortugas gigantes con caparazones del tamaño de una mesa y cocodrilos enormes en la misma zona.\n\nEstos descubrimientos increíbles e históricos ayudan al doctor Jaramillo a comprender claramente cómo era la antigua selva tropical inmediatamente después de que los dinosaurios desaparecieron. Al estudiar estos grandes fósiles de animales y restos de plantas antiguas, él puede aprender secretos muy importantes sobre cómo el clima cambió drásticamente en el pasado. La Titanoboa solo podía sobrevivir porque el clima era increíblemente caliente. Hoy en día, su importante trabajo científico ayuda a otros investigadores a comprender cómo el calentamiento global y el cambio climático moderno pueden afectar a nuestras plantas, animales y todo el planeta. Él demuestra que mirar al pasado ayuda al futuro.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿De qué país sudamericano es el científico Carlos Jaramillo?",
@@ -1251,7 +1251,7 @@
       },
       "level_3": {
         "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "El doctor Carlos Jaramillo es un eminente científico, geólogo y paleontólogo colombiano cuyas revolucionarias investigaciones han transformado nuestra comprensión de la historia natural de Sudamérica. Como investigador del prestigioso Instituto Smithsonian de Investigaciones Tropicales, Jaramillo ha dedicado su carrera a desenterrar los misterios ocultos en las formaciones geológicas del neotrópico.\n\nSu hallazgo más espectacular y mediático se produjo en las vastas excavaciones de la mina de carbón del Cerrejón, ubicada al norte de Colombia. Allí, su equipo descubrió los restos fosilizados de la Titanoboa cerrejonensis, una serpiente prehistórica colosal que medía más de trece metros de longitud y pesaba más de una tonelada. Además del monstruoso reptil, el yacimiento reveló fósiles de tortugas del tamaño de una mesa y cocodrilos gigantescos que dominaban los pantanos de la época.\n\nEste excepcional registro fósil ha permitido a Jaramillo reconstruir meticulosamente el ecosistema de la primera selva tropical lluviosa que surgió en el planeta tras la extinción masiva de los dinosaurios. Estudiar la temperatura y la flora de ese período cálido antiguo proporciona a los climatólogos datos cruciales para predecir las consecuencias del calentamiento global contemporáneo.",
+        "readingText": "El doctor Carlos Jaramillo es un eminente científico, geólogo y paleontólogo colombiano cuyas revolucionarias investigaciones han transformado por completo nuestra comprensión de la historia natural de Sudamérica. Como investigador principal del prestigioso Instituto Smithsonian de Investigaciones Tropicales, Jaramillo ha dedicado su prolífica carrera a desenterrar meticulosamente los misterios evolutivos y climáticos que se encuentran ocultos en las formaciones geológicas del neotrópico durante millones de años.\n\nSu hallazgo paleontológico más espectacular y mediático se produjo en las vastas excavaciones de la mina de carbón del Cerrejón, ubicada al norte de Colombia. Allí, tras exhaustivas jornadas de trabajo bajo condiciones extremas, su equipo descubrió los restos fosilizados de la Titanoboa cerrejonensis, una serpiente prehistórica colosal y aterradora que medía más de trece metros de longitud y pesaba más de una tonelada. Además de este monstruoso reptil sin precedentes, el rico yacimiento reveló fósiles de tortugas del tamaño de una mesa de comedor y cocodrilos gigantescos que dominaban los ecosistemas pantanosos de aquella lejana época.\n\nEste excepcional y exhaustivo registro fósil ha permitido a Jaramillo y a sus colegas reconstruir con precisión el ecosistema de la primera selva tropical lluviosa que surgió en el planeta tras la dramática extinción masiva de los dinosaurios. Dado que los reptiles de sangre fría de tal magnitud requieren temperaturas sumamente elevadas para sobrevivir, estudiar la flora y fauna de ese período cálido antiguo proporciona a los climatólogos datos absolutamente cruciales. Su trabajo empírico es fundamental para modelar y predecir las consecuencias ecológicas del calentamiento global contemporáneo, demostrando que descifrar los secretos del pasado es vital para proteger el futuro del planeta.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿A qué prestigiosa institución científica pertenece el eminente paleontólogo colombiano?",
@@ -1266,312 +1266,13 @@
           "Al Instituto Smithsonian de Investigaciones Tropicales.",
           "En las vastas excavaciones de la mina de carbón del Cerrejón, ubicada al norte de Colombia.",
           "Medía más de trece metros de longitud y pesaba más de una tonelada.",
-          "Tortugas del tamaño de una mesa y cocodrilos gigantescos.",
+          "Tortugas del tamaño de una mesa de comedor y cocodrilos gigantescos.",
           "El ecosistema de la primera selva tropical lluviosa.",
-          "Tras la extinción masiva de los dinosaurios.",
+          "Tras la dramática extinción masiva de los dinosaurios.",
           "Proporciona datos cruciales para predecir las consecuencias del calentamiento global contemporáneo."
         ]
       }
     }
-  },
-  {
-    "topicName": "Shakira",
-    "imageFileName": "shakira.png",
-    "levels": {
-      "level_1": {
-        "tier": "Level 1 (English/Beginner)",
-        "readingText": "Shakira is one of the most famous and successful Latin American singers in the world. She was born in Barranquilla, a vibrant city on the Caribbean coast of Colombia. From a very young age, she loved music and writing poetry. She wrote her first song when she was only eight years old! Shakira is famous for her unique voice and her incredible ability to belly dance, which is a tribute to her Lebanese roots.\n\nThroughout her long career, she has released many hit canciones in both English and Spanish, like \"Hips Don't Lie\" and \"Waka Waka.\" Her music mixes pop, rock, and traditional Latin rhythms perfectly. Besides being a massive pop star, Shakira is also a dedicated philanthropist.\n\nShe created a charity foundation called Pies Descalzos to help poor children in Colombia get a good education and healthy food. She truly believes that education is the best way to change the world. Millions of fans love her not only for her catchy música, but also for her big heart and her pride in her Colombian cultura. Today, she continues to break global records and inspire young artists everywhere to embrace their unique talents.",
-        "instruction": "Answer the following preguntas according to the text.",
-        "questions": [
-          "Where was Shakira born?",
-          "What did she love doing from a very young age?",
-          "What is her belly dancing a tribute to?",
-          "What are the titles of two of her hit canciones?",
-          "What is the name of her charity foundation?",
-          "Who does her foundation help in Colombia?",
-          "What does she believe is the best way to change the world?"
-        ],
-        "answerKey": [
-          "Barranquilla (Colombia).",
-          "Music and writing poetry.",
-          "Her Lebanese roots.",
-          "\"Hips Don't Lie\" and \"Waka Waka\".",
-          "Pies Descalzos.",
-          "Poor children in Colombia.",
-          "Education."
-        ]
-      },
-      "level_2": {
-        "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "Shakira es una de las cantantes latinoamericanas más famosas y exitosas de todo el mundo. Ella nació en Barranquilla, una ciudad vibrante en la costa caribeña de Colombia. Desde una edad muy joven, a ella le encantaba la música y escribir poesía. ¡Ella escribió su primera canción cuando tenía solo ocho años! Shakira es muy famosa por su voz única y su habilidad increíble para bailar la danza del vientre, que es un tributo a su familia libanesa.\n\nDurante su larga carrera, ella ha cantado muchas canciones populares en inglés y español, como \"Hips Don't Lie\" y \"Waka Waka\". Su música mezcla el pop, el rock y los ritmos latinos tradicionales perfectamente. Además de ser una estrella gigante, Shakira es una persona muy generosa.\n\nElla creó una fundación caritativa que se llama Pies Descalzos para ayudar a los niños pobres en Colombia a recibir una buena educación y comida saludable. Ella cree que la educación es la mejor manera de cambiar el mundo. A millones de aficionados les encanta Shakira por su buena música, su gran corazón y su cultura colombiana. Hoy, ella continúa rompiendo récords globales e inspirando a jóvenes artistas en todas partes a usar sus talentos.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿En qué ciudad de Colombia nació la cantante Shakira?",
-          "¿A qué edad escribió ella su primera canción?",
-          "¿Qué tipo de baile especial hace ella como tributo a su familia?",
-          "¿En qué dos idiomas canta Shakira sus canciones populares?",
-          "¿Cómo se llama la fundación caritativa que ella creó?",
-          "¿A quiénes ayuda su fundación con educación y comida?",
-          "¿Por qué les encanta Shakira a millones de aficionados?"
-        ],
-        "answerKey": [
-          "En Barranquilla.",
-          "A los ocho años.",
-          "La danza del vientre.",
-          "En inglés y español.",
-          "Pies Descalzos.",
-          "A los niños pobres en Colombia.",
-          "Por su buena música, su gran corazón y su cultura colombiana."
-        ]
-      },
-      "level_3": {
-        "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "Shakira es indiscutiblemente una de las artistas latinoamericanas más influyentes y galardonadas a nivel mundial. Oriunda de Barranquilla, una ciudad bulliciosa en la costa caribeña de Colombia, demostró una afinidad innata por las artes desde su infancia. Compuso su primera canción a la asombrosa edad de ocho años y rápidamente desarrolló un estilo distintivo. Es mundialmente célebre por su inconfundible tono vocal y su dominio de la danza del vientre, una destreza que rinde homenaje a su herencia libanesa.\n\nA lo largo de su prolífica trayectoria, ha fusionado magistralmente elementos del pop, el rock en español y diversos ritmos folclóricos latinos. Temas icónicos como \"Hips Don't Lie\" y el himno mundialista \"Waka Waka\" han cimentado su estatus como superestrella global. Más allá de sus innumerables éxitos en las listas de popularidad, Shakira se destaca por su incansable labor filantrópica.\n\nFundó la organización Pies Descalzos, dedicada a proveer educación de calidad y nutrición a niños en situación de vulnerabilidad en Colombia. Con una convicción firme de que la educación es el motor del cambio social, sigue rompiendo récords y sirviendo como un faro de inspiración para las nuevas generaciones de artistas iberoamericanos.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿De qué ciudad costera de Colombia es oriunda esta influyente artista?",
-          "¿A qué herencia cultural rinde homenaje con su dominio de la danza del vientre?",
-          "¿Qué géneros musicales ha fusionado magistralmente a lo largo de su trayectoria?",
-          "¿Cuáles son dos de los temas icónicos mencionados que cimentaron su estatus global?",
-          "¿Cuál es el propósito principal de la organización filantrópica Pies Descalzos?",
-          "¿De qué está firmemente convencida Shakira respecto al cambio social?",
-          "¿Qué impacto sigue teniendo ella en las nuevas generaciones de artistas iberoamericanos?"
-        ],
-        "answerKey": [
-          "De Barranquilla.",
-          "A su herencia libanesa.",
-          "Pop, rock en español y diversos ritmos folclóricos latinos.",
-          "\"Hips Don't Lie\" y \"Waka Waka\".",
-          "Proveer educación de calidad y nutrición a niños en situación de vulnerabilidad en Colombia.",
-          "Que la educación es el motor del cambio social.",
-          "Sirve como un faro de inspiración."
-        ]
-      }
-    }
-  },
-  {
-    "topicName": "Juanes",
-    "imageFileName": "juanes.png",
-    "levels": {
-      "level_1": {
-        "tier": "Level 1 (English/Beginner)",
-        "readingText": "Juanes is a highly successful Colombian musician and singer who is famous all over the world for his catchy rock and pop songs. He was born in the beautiful city of Medellín, Colombia. When he was just seven years old, his family taught him how to play the guitarra. He fell in love with the instrument and practiced every single day.\n\nHis music is very special because it perfectly mixes classic rock and roll sounds with traditional Colombian folk rhythms, like vallenato and cumbia. One of his most famous canciones is called \"La Camisa Negra,\" which was a massive hit in many different countries. But Juanes is not just a talented rock star; he is also a passionate activist for peace.\n\nHe created an organization called Paz Sin Fronteras, which means Peace Without Borders. He organizes giant, free concerts to bring people together and protest against violence in Latin America. Juanes uses his powerful voice and his guitar to spread messages of love, unity, and hope. Millions of fans respect him for his amazing musical talent and his deep dedication to making the world a safer and much better place. He continues to win important awards while staying true to his roots.",
-        "instruction": "Answer the following preguntas according to the text.",
-        "questions": [
-          "Where was the musician Juanes born?",
-          "How old was he when his family taught him to play the guitarra?",
-          "What kind of traditional Colombian rhythms does he mix with rock?",
-          "What is the title of one of his most famous canciones?",
-          "What is the name of the peace organization he created?",
-          "What does he organize to protest against violence in Latin America?",
-          "What messages does he spread with his voice and his guitar?"
-        ],
-        "answerKey": [
-          "Medellín, Colombia.",
-          "Seven years old.",
-          "Vallenato and cumbia.",
-          "\"La Camisa Negra\".",
-          "Paz Sin Fronteras (Peace Without Borders).",
-          "Giant, free concerts.",
-          "Messages of love, unity, and hope."
-        ]
-      },
-      "level_2": {
-        "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "Juanes es un músico y cantante colombiano muy exitoso que es famoso en todo el mundo por sus canciones de rock y pop. Él nació en la hermosa ciudad de Medellín, Colombia. Cuando tenía solo siete años, su familia le enseñó a tocar la guitarra. Él se enamóro del instrumento y practicó todos los días.\n\nSu música es muy especial porque mezcla perfectamente los sonidos del rock clásico con los ritmos tradicionales de Colombia, como el vallenato y la cumbia. Una de sus canciones más famosas se llama \"La Camisa Negra\", que fue un éxito gigante en muchos países diferentes. Pero Juanes no es solo una estrella de rock; él también es un activista muy apasionado por la paz.\n\nÉl creó una organización que se llama Paz Sin Fronteras. Él organiza conciertos gigantes y gratis para unir a las personas y protestar contra la violencia en América Latina. Juanes usa su voz poderosa y su guitarra para compartir mensajes de amor, unidad y esperanza. Millones de aficionados lo respetan por su gran talento musical y su dedicación para hacer del mundo un lugar mucho mejor. Él continúa ganando premios importantes mientras recuerda sus raíces colombianas.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿En qué ciudad de Colombia nació el exitoso músico Juanes?",
-          "¿Qué instrumento aprendió a tocar cuando tenía solo siete años?",
-          "¿Qué ritmos tradicionales colombianos mezcla Juanes con la música rock?",
-          "¿Cómo se llama una de sus canciones más populares y famosas?",
-          "¿Cómo se llama la organización que él creó para ayudar a la sociedad?",
-          "¿Para qué organiza él conciertos gigantes y gratis en América Latina?",
-          "¿Qué mensajes importantes comparte Juanes usando su voz y su guitarra?"
-        ],
-        "answerKey": [
-          "En Medellín, Colombia.",
-          "La guitarra.",
-          "El vallenato y la cumbia.",
-          "\"La Camisa Negra\".",
-          "Paz Sin Fronteras.",
-          "Para unir a las personas y protestar contra la violencia.",
-          "Mensajes de amor, unidad y esperanza."
-        ]
-      },
-      "level_3": {
-        "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "Juanes es un cantautor y guitarrista colombiano de inmenso prestigio internacional, reconocido por revitalizar el panorama del rock y el pop en español. Nacido en Medellín, descubrió su vocación musical a la temprana edad de siete años cuando sus familiares le enseñaron a tocar la guitarra, instrumento que se convertiría en su compañero inseparable.\n\nLa genialidad de su propuesta artística radica en la fusión magistral de potentes acordes de rock con ritmos folclóricos autóctonos de Colombia, tales como la cumbia y el vallenato. Temas emblemáticos como \"La Camisa Negra\" lo catapultaron a la fama global, encabezando las listas de éxitos en múltiples continentes. Sin embargo, su impacto trasciende los escenarios musicales; Juanes es un ferviente y comprometido activista social.\n\nEs el principal impulsor de la iniciativa Paz Sin Fronteras, mediante la cual organiza multitudinarios conciertos gratuitos con el propósito de conciliar naciones y alzar la voz contra los conflictos armados en la región. Armado con su inconfundible talento y su guitarra, se ha consolidado como un auténtico embajador de la reconciliación y la hermandad, utilizando su vasta plataforma para promover un mensaje inquebrantable de esperanza, justicia y paz duradera. Su perdurable legado inspira a incontables jóvenes a emplear el arte como herramienta de transformación social.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿En qué ciudad descubrió Juanes su vocación musical a temprana edad?",
-          "¿En qué radica exactamente la genialidad de su propuesta artística y musical?",
-          "¿Qué ritmos folclóricos autóctonos incorpora frecuentemente en sus composiciones de rock?",
-          "¿Qué tema emblemático lo catapultó a la fama global en múltiples continentes?",
-          "¿Cuál es el propósito principal de la iniciativa social Paz Sin Fronteras?",
-          "¿Qué herramienta utiliza para conciliar naciones y alzar la voz contra los conflictos?",
-          "¿A qué inspira su perdurable legado a incontables jóvenes de la actualidad?"
-        ],
-        "answerKey": [
-          "En Medellín.",
-          "En la fusión magistral de potentes acordes de rock con ritmos folclóricos autóctonos.",
-          "La cumbia y el vallenato.",
-          "\"La Camisa Negra\".",
-          "Conciliar naciones y alzar la voz contra los conflictos armados en la región.",
-          "Organiza multitudinarios conciertos gratuitos (su talento y su guitarra).",
-          "A emplear el arte como herramienta de transformación social."
-        ]
-      }
-    }
-  },
-  {
-    "topicName": "Bad Bunny",
-    "imageFileName": "bad_bunny.png",
-    "levels": {
-      "level_1": {
-        "tier": "Level 1 (English/Beginner)",
-        "readingText": "Bad Bunny is a massive global superstar and one of the most famous musicians in the world today. He was born in Puerto Rico, and his real name is Benito Antonio Martínez Ocasio. Before he became a superstar, he actually worked at a local grocery store while uploading his original songs to the internet.\n\nHis unique música is a mix of Latin trap and reggaeton. He quickly became incredibly popular because of his deep voice, catchy beats, and highly emotional lyrics. Bad Bunny has broken countless streaming records. In fact, he was the most streamed artist on the entire planet for several years in a row! He has collaborated with giant stars like Drake, Cardi B, and J Balvin.\n\nBesides his amazing music, fans love him for his bold and colorful fashion. He wears whatever he wants and ignores traditional rules about how men should dress. He also uses his massive platform to speak out about important social and political issues in Puerto Rico. Bad Bunny proves that you can be completely authentic, express your true self, and still reach the absolute top of the global music industry. His proud Puerto Rican energy is impossible to ignore.",
-        "instruction": "Answer the following preguntas according to the text.",
-        "questions": [
-          "Where was the global superstar Bad Bunny born?",
-          "What was he doing for work before he became a famous musician?",
-          "What two types of music does he mix to create his unique sound?",
-          "What incredible streaming record did he hold for several years in a row?",
-          "Who are two giant stars that he has collaborated with?",
-          "What do fans love about his bold and colorful fashion?",
-          "What does he use his massive platform to speak out about?"
-        ],
-        "answerKey": [
-          "Puerto Rico.",
-          "He worked at a local grocery store.",
-          "Latin trap and reggaeton.",
-          "He was the most streamed artist on the entire planet.",
-          "Drake, Cardi B, and J Balvin (any two).",
-          "He wears whatever he wants and ignores traditional rules about how men should dress.",
-          "Important social and political issues in Puerto Rico."
-        ]
-      },
-      "level_2": {
-        "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "Bad Bunny es una súper estrella global y uno de los músicos más famosos del mundo hoy en día. Él nació en Puerto Rico, y su nombre real es Benito Antonio Martínez Ocasio. Antes de ser muy famoso, él trabajó en un supermercado local mientras publicaba sus canciones originales en internet.\n\nSu música única es una mezcla de trap latino y reguetón. Él se hizo popular muy rápidamente por su voz profunda, sus ritmos divertidos y sus letras emocionales. ¡Bad Bunny ha roto muchos récords en internet y fue el artista más escuchado de todo el planeta por varios años consecutivos! Él ha cantado con estrellas gigantes como Drake, Cardi B y J Balvin.\n\nAdemás de su música increíble, a los aficionados les encanta su ropa de muchos colores. Él lleva la ropa que quiere y no escucha las reglas tradicionales sobre la moda de los hombres. También usa su fama masiva para hablar sobre problemas sociales y políticos muy importantes en Puerto Rico. Bad Bunny demuestra a los jóvenes que es posible ser completamente auténtico y llegar a la cima. Su energía puertorriqueña es muy positiva y totalmente imposible de ignorar.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿En qué isla caribeña nació la súper estrella global Bad Bunny?",
-          "¿Dónde trabajaba Benito antes de publicar sus canciones originales y ser famoso?",
-          "¿Qué dos estilos de música urbana mezcla para crear sus ritmos únicos?",
-          "¿Qué récord impresionante tuvo él en internet por varios años consecutivos?",
-          "¿Con qué otros artistas famosos y gigantes ha cantado durante su carrera?",
-          "¿Por qué es muy diferente y especial la ropa que lleva Bad Bunny?",
-          "¿Para qué usa él su fama masiva en su país de Puerto Rico?"
-        ],
-        "answerKey": [
-          "En Puerto Rico.",
-          "En un supermercado local.",
-          "Trap latino y reguetón.",
-          "Fue el artista más escuchado de todo el planeta.",
-          "Drake, Cardi B y J Balvin.",
-          "Lleva la ropa que quiere y no escucha las reglas tradicionales sobre la moda.",
-          "Para hablar sobre problemas sociales y políticos muy importantes en Puerto Rico."
-        ]
-      },
-      "level_3": {
-        "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "Bad Bunny, cuyo nombre de pila es Benito Antonio Martínez Ocasio, es un fenómeno cultural indiscutible y uno de los exponentes más influyentes de la música urbana contemporánea. Originario de Puerto Rico, sus inicios fueron humildes; empacaba compras en un supermercado local mientras subía sus composiciones independientes a plataformas digitales.\n\nCon un estilo inconfundible que fusiona el trap latino y el reguetón, cautivó a las masas gracias a su inusual tono de voz barítono y sus letras desinhibidas. Su impacto en la industria es monumental, habiéndose coronado como el artista más reproducido a nivel mundial en las plataformas de streaming durante varios años consecutivos. Ha protagonizado colaboraciones históricas con figuras de talla internacional como Drake y Cardi B, llevando el idioma español a la cima de las listas globales.\n\nParalelamente a su éxito musical, Bad Bunny ha revolucionado la moda masculina, desafiando las normas de género establecidas con su indumentaria extravagante y vanguardista. Además, ejerce un activismo vocal, utilizando su colosal influencia mediática para denunciar la corrupción política y visibilizar las problemáticas sociales que aquejan a Puerto Rico. Es el epítome de la autenticidad en la era digital moderna. Su legado demuestra que mantenerse fiel a sus raíces caribeñas es la clave del éxito internacional.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Cuál es el nombre de pila de este indiscutible fenómeno cultural puertorriqueño?",
-          "¿Cómo fueron sus inicios laborales antes de alcanzar la fama en plataformas digitales?",
-          "¿Qué géneros urbanos fusiona magistralmente para crear su estilo inconfundible?",
-          "¿Qué hito monumental logró en las plataformas de streaming a nivel mundial?",
-          "¿Qué aspecto de las normas sociales ha desafiado a través de su indumentaria extravagante?",
-          "¿Qué problemáticas denuncia utilizando su colosal influencia mediática en su país natal?",
-          "¿Qué demuestra su rotundo éxito internacional respecto a sus raíces caribeñas y su autenticidad?"
-        ],
-        "answerKey": [
-          "Benito Antonio Martínez Ocasio.",
-          "Empacaba compras en un supermercado local.",
-          "El trap latino y el reguetón.",
-          "Se coronó como el artista más reproducido a nivel mundial en las plataformas de streaming.",
-          "Las normas de género establecidas.",
-          "La corrupción política y las problemáticas sociales que aquejan a Puerto Rico.",
-          "Que mantenerse fiel a sus raíces caribeñas es la clave del éxito internacional."
-        ]
-      }
-    }
-  },
-  {
-    "topicName": "Textiles Peruanos",
-    "imageFileName": "textiles_peruanos.png",
-    "levels": {
-      "level_1": {
-        "tier": "Level 1 (English/Beginner)",
-        "readingText": "Peruvian textiles are famous all around the world for their bright colors, beautiful patterns, and rich cultural history. For thousands of years, indigenous people living in Perú have woven intricate fabrics using the lana, or wool, of alpacas and llamas. These animals live very high in the freezing Andes mountains, so their wool is incredibly warm, durable, and soft.\n\nThe skilled weavers, who are mostly women, do not use modern chemicals to color the yarn. Instead, they use natural dyes made from local plants, special minerals, and even tiny insects to create vibrant shades of red, blue, green, and yellow. Every single pattern and geometric design tells a special story. The shapes represent things like the local agriculture, beautiful nature, and ancient myths from their ancestors.\n\nMaking these textiles takes a massive amount of time, hard work, and extreme patience. The weavers use traditional wooden looms just like their grandmothers did. Today, tourists from all over the globe love to buy these traditional ponchos, heavy blankets, and colorful bags in the local markets to take a piece of authentic Peruvian art home with them.",
-        "instruction": "Answer the following preguntas according to the text.",
-        "questions": [
-          "What are Peruvian textiles famous for around the world?",
-          "What two animals provide the lana for the fabrics?",
-          "Why is the wool from these animals so incredibly warm?",
-          "What do the weavers use to make the natural dyes?",
-          "What do the geometric designs and patterns represent?",
-          "What kind of tools do the weavers use to make the textiles?",
-          "What are three things tourists love to buy in the local markets?"
-        ],
-        "answerKey": [
-          "Bright colors, beautiful patterns, and rich cultural history.",
-          "Alpacas and llamas.",
-          "Because the animals live very high in the freezing Andes mountains.",
-          "Local plants, special minerals, and tiny insects.",
-          "Local agriculture, beautiful nature, and ancient myths.",
-          "Traditional wooden looms.",
-          "Traditional ponchos, heavy blankets, and colorful bags."
-        ]
-      },
-      "level_2": {
-        "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "Los textiles peruanos son muy famosos en todo el mundo por sus colores brillantes, diseños hermosos y su historia cultural muy rica. Por miles de años, las personas indígenas que viven en Perú han hecho estas telas complicadas usando la lana de las alpacas y las llamas. Estos animales viven en lo alto de las montañas frías de los Andes, y su lana es muy caliente, fuerte y suave.\n\nLas tejedoras expertas, que son principalmente mujeres, no usan químicos modernos para dar color a la lana. En cambio, usan colores naturales de plantas locales, minerales y pequeños insectos para crear tonos vibrantes de rojo, azul, verde y amarillo. Cada diseño geométrico cuenta una historia especial. Las formas representan cosas como la agricultura local, la naturaleza hermosa y los mitos antiguos de sus ancestros.\n\nHacer estos textiles toma mucho tiempo, trabajo duro y paciencia extrema. Las mujeres usan herramientas tradicionales de madera exactamente como lo hacían sus abuelas. Hoy, a los turistas de todo el mundo les encanta comprar ponchos tradicionales y mantas en los mercados locales para llevar arte peruano auténtico a sus casas.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Por qué son famosos los textiles peruanos en todo el mundo?",
-          "¿De qué animales andinos viene la lana para las telas?",
-          "¿Por qué no usan químicos modernos las tejedoras expertas?",
-          "¿De dónde sacan los colores naturales para teñir la lana?",
-          "¿Qué historias especiales cuentan los diferentes diseños geométricos?",
-          "¿Cómo es el proceso de hacer estos textiles tradicionales?",
-          "¿Adónde van los turistas para comprar los ponchos y las mantas?"
-        ],
-        "answerKey": [
-          "Por sus colores brillantes, diseños hermosos y su historia cultural.",
-          "De las alpacas y las llamas.",
-          "En lugar de químicos, usan colores naturales de plantas, minerales e insectos.",
-          "De plantas locales, minerales y pequeños insectos.",
-          "La agricultura local, la naturaleza hermosa y los mitos antiguos de sus ancestros.",
-          "Toma mucho tiempo, paciencia, y usan herramientas tradicionales de madera.",
-          "A los mercados locales."
-        ]
-      },
-      "level_3": {
-        "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "Los textiles peruanos son una manifestación artística de renombre mundial, profundamente admirados por su deslumbrante paleta de colores, su innegable complejidad técnica y su profundo arraigo histórico. Desde tiempos precolombinos, las hábiles tejedoras andinas han confeccionado estas valiosas prendas utilizando la preciada y abrigadora fibra de camélidos como las alpacas y las vicuñas, animales perfectamente adaptados a las gélidas altitudes de la cordillera.\n\nPara teñir los finos hilos, las artesanas rechazan los químicos industriales y emplean exclusivamente tintes cien por cien naturales. Estos pigmentos se extraen laboriosamente de raíces, hojas y de un insecto llamado cochinilla, logrando tonalidades de una intensidad asombrosa. Lejos de ser meramente decorativos, los elaborados patrones geométricos y motivos iconográficos funcionan como un lenguaje visual complejo que narra la cosmovisión andina, los ciclos agrícolas y las leyendas ancestrales.\n\nLa confección meticulosa de cada tapiz, chullo o poncho en telares de cintura requiere una dedicación y una paciencia inagotables, transmitidas de generación en generación. Hoy en día, esta milenaria tradición textil sigue más viva que nunca, maravillando a quienes visitan los pintorescos mercados artesanales.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Por qué características son admirados mundialmente los textiles peruanos?",
-          "¿Qué tipo de fibra animal utilizan las hábiles tejedoras andinas?",
-          "¿De dónde se extraen laboriosamente los tintes cien por cien naturales?",
-          "¿Qué tipo de insecto se utiliza específicamente para lograr ciertas tonalidades?",
-          "¿Qué narra el lenguaje visual complejo de los motivos iconográficos?",
-          "¿Qué instrumento tradicional utilizan las artesanas para confeccionar las prendas?",
-          "¿Qué valores personales requiere la confección meticulosa de cada tapiz o poncho?"
-        ],
-        "answerKey": [
-          "Por su deslumbrante paleta de colores, innegable complejidad técnica y profundo arraigo histórico.",
-          "La fibra de camélidos como las alpacas y las vicuñas.",
-          "De raíces, hojas y un insecto.",
-          "Un insecto llamado cochinilla.",
-          "La cosmovisión andina, los ciclos agrícolas y las leyendas ancestrales.",
-          "Telares de cintura.",
-          "Una dedicación y una paciencia inagotables."
-        ]
-      }
-    }
   }
+]
 ]
