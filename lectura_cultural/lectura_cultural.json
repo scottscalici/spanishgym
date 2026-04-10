@@ -2248,5 +2248,306 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "Gleyber Torres",
+    "imageFileName": "gleyber_torres.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Gleyber Torres is a very famous, incredibly talented, and highly respected professional baseball player from the country of Venezuela. He was originally born in the busy, vibrant capital city of Caracas. Ever since he was just a little boy growing up in his hometown, he absolutely loved playing béisbol with his close friends and family members in the local parks. He practiced hitting and throwing every single day with great passion and focus because his biggest, grandest dream was to travel to the United States and play in the major leagues.\n\nWhen he was just a young teenager, international professional teams quickly saw his amazing, natural athletic talent and immediately signed him to a sports contract. Eventually, after years of hard work in the minor leagues, Gleyber finally made his big, historic debut playing for the most famous team in the world: the New York Yankees. He plays in the infield, usually defending the team at second base or acting as a quick shortstop. Baseball fans absolutely love watching him play in the huge stadium because he hits the ball incredibly hard, hits many home runs, and scores many carreras, or runs, to help his team win important games.\n\nBecause of his amazing talent, he has even been specially selected to play in the famous All-Star Game multiple times for his excellent, consistent work on the field! Even though he is now a massive, wealthy superstar living in the United States, Gleyber never forgets where he comes from. He is deeply proud of his Venezuelan culture and often helps young, struggling athletes in his home country by generously donating expensive sports equipment. He clearly shows all kids that with hard work and dedication, big dreams really do come true.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where is professional baseball player Gleyber Torres from?",
+          "What was his biggest dream when he was a little boy?",
+          "When did professional teams sign him to a contract?",
+          "What famous team did he make his big debut with?",
+          "What positions does he usually play in the infield?",
+          "Why do fans absolutely love watching him play?",
+          "How does he help young athletes in his home country?"
+        ],
+        "answerKey": [
+          "Caracas, Venezuela.",
+          "To play in the major leagues.",
+          "When he was just a teenager.",
+          "The New York Yankees.",
+          "Second base or shortstop.",
+          "Because he hits the ball incredibly hard and scores many carreras (runs).",
+          "By donating sports equipment."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Gleyber Torres es un jugador de béisbol profesional muy famoso, increíblemente talentoso y muy respetado de Venezuela. Él nació originalmente en Caracas, la capital vibrante y ocupada del país. Desde que era solo un niño pequeño en su pueblo, a él le encantaba absolutamente jugar al béisbol con sus buenos amigos y su familia en los parques locales. Él practicaba batear y tirar la pelota todos los días con gran pasión y concentración porque su sueño más grande era viajar a los Estados Unidos y jugar en las ligas mayores.\n\nCuando era solo un adolescente joven, los equipos profesionales internacionales vieron su talento atlético natural y lo firmaron inmediatamente con un contrato deportivo. Finalmente, después de años de trabajo duro en las ligas menores, Gleyber hizo su gran debut histórico jugando para el equipo más famoso del mundo: los Yankees de Nueva York. Él juega en el cuadro interior, normalmente defendiendo al equipo en la segunda base o como un campocorto rápido. A los aficionados les encanta mirarlo jugar en el estadio gigante porque batea la pelota muy fuerte, batea jonrones y anota muchas carreras para ayudar a su equipo a ganar partidos importantes.\n\n¡Por su talento asombroso, él ha participado en el famoso Juego de Estrellas varias veces por su trabajo excelente y consistente en el campo! Aunque ahora es una súper estrella masiva y rica que vive en los Estados Unidos, Gleyber nunca olvida su país original. Él está muy orgulloso de su cultura venezolana y frecuentemente ayuda a los atletas jóvenes y pobres en Venezuela donando equipo deportivo caro. Él demuestra claramente a todos los niños que con mucho trabajo y dedicación, los sueños grandes se hacen realidad.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué país y de qué ciudad es el beisbolista Gleyber Torres?",
+          "¿Qué hacía él todos los días con gran pasión cuando era niño?",
+          "¿Cuándo vieron los equipos profesionales su talento increíble?",
+          "¿Para qué equipo famoso de Nueva York empezó a jugar él?",
+          "¿En qué posiciones del cuadro interior juega normalmente?",
+          "¿Por qué ha participado en el Juego de Estrellas varias veces?",
+          "¿Qué hace Gleyber para ayudar a los atletas jóvenes en Venezuela?"
+        ],
+        "answerKey": [
+          "De Caracas, Venezuela.",
+          "Practicaba al béisbol (batear y tirar la pelota).",
+          "Cuando era solo un adolescente joven.",
+          "Los Yankees de Nueva York.",
+          "En la segunda base o como campocorto.",
+          "Por su talento asombroso y su trabajo excelente y consistente en el campo.",
+          "Dona equipo deportivo caro."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Gleyber Torres es un destacado, sumamente talentoso y respetado beisbolista profesional originario de Caracas, la bulliciosa capital de Venezuela. Desde su más tierna infancia, demostró una habilidad atlética innata y una pasión desbordante por el béisbol, dedicando incontables horas de su juventud a perfeccionar rigurosamente su técnica de bateo y fildeo en los humildes campos locales. Impulsado por una disciplina inquebrantable, su mayor anhelo siempre fue emigrar a los Estados Unidos para competir en el máximo nivel del deporte mundial.\n\nSu innegable y precoz talento llamó rápidamente la atención de los experimentados cazatalentos internacionales, logrando firmar su primer y lucrativo contrato profesional siendo apenas un adolescente. Tras forjar su carácter en las ligas menores, su anhelado y mediático debut en las Grandes Ligas se materializó vistiendo la icónica camiseta a rayas de los legendarios Yankees de Nueva York, donde rápidamente se consolidó como una pieza fundamental y carismática del equipo. Desempeñándose con agilidad felina como segunda base y campocorto, Torres es ampliamente admirado por la exigente afición neoyorquina gracias a su temible poder al bate, su prodigiosa defensa y su capacidad innata para impulsar carreras decisivas en los momentos más críticos de los partidos de postemporada.\n\nGracias a su sobresaliente y consistente rendimiento ofensivo, ha sido merecidamente convocado en múltiples ocasiones al prestigioso Juego de Estrellas de las Grandes Ligas. A pesar de haber alcanzado el estrellato absoluto y la riqueza en el extranjero, Torres mantiene un vínculo inquebrantable y humilde con sus raíces sudamericanas. Constantemente expresa su profundo orgullo venezolano y participa activamente en diversas iniciativas filantrópicas para apoyar el desarrollo integral de jóvenes deportistas de escasos recursos en su país natal, sirviendo como un modelo intachable de perseverancia, generosidad y disciplina.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué ciudad venezolana es originario este talentoso beisbolista profesional?",
+          "¿A qué dedicó incontables horas en los campos locales durante su infancia?",
+          "¿Con qué legendaria franquicia materializó su anhelado debut en las Grandes Ligas?",
+          "¿En qué posiciones defensivas se desempeña con gran agilidad?",
+          "¿Por qué características ofensivas es ampliamente admirado por los aficionados?",
+          "¿A qué prestigioso evento deportivo ha sido convocado en múltiples ocasiones?",
+          "¿Cómo mantiene un vínculo inquebrantable con sus raíces venezolanas?"
+        ],
+        "answerKey": [
+          "De Caracas.",
+          "A perfeccionar su técnica de bateo y fildeo (jugar béisbol).",
+          "Con los legendarios Yankees de Nueva York.",
+          "Como segunda base y campocorto.",
+          "Por su temible poder al bate y su capacidad para impulsar carreras decisivas.",
+          "Al prestigioso Juego de Estrellas de las Grandes Ligas.",
+          "Participando activamente en diversas iniciativas filantrópicas para apoyar el desarrollo de jóvenes deportistas."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Zoe Saldaña",
+    "imageFileName": "zoe_saldana.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Zoe Saldaña is a famous, beautiful, and incredibly talented Afro-Latina actress who is known and respected all over the world. She was originally born in the state of New Jersey, but her loving familia proudly comes from the Dominican Republic and Puerto Rico. When she was a young girl, her family experienced a tragedy, and she moved to the Dominican Republic. There, she studied classical ballet and other challenging types of dance in a formal academy.\n\nHer intense passion and love for dancing gave her incredible physical discipline and eventually helped her become a truly great, expressive performer on the theater stage and on the giant movie screen. Today, she is officially one of the absolute most successful and famous actrices in the entire history of Hollywood. You probably know her face from some of the biggest, most expensive blockbuster movies ever made! She plays the brave alien Neytiri in the Avatar movies, the dangerous green-skinned warrior Gamora in Guardians of the Galaxy, and the very smart officer Uhura in Star Trek. Because she plays so many strong alien characters from deep outer space, people often joke that she is the absolute, undisputed queen of modern science fiction movies.\n\nZoe is deeply proud of her rich herencia latina, or Latin heritage, and she speaks both English and Spanish perfectly with her family at home. She often uses her powerful voice and massive public platform to strongly support other women and Afro-Latinos in the difficult entertainment industry. She is a wonderful, hardworking, and inspiring role model for young people everywhere who want to act, perform, and follow their biggest dreams.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Who is Zoe Saldaña?",
+          "Where does her familia come from?",
+          "What did she study when she moved to the Dominican Republic?",
+          "What color is the skin of her character Gamora?",
+          "Why do people joke that she is the queen of science fiction?",
+          "What two languages does she speak perfectly?",
+          "Who does she support in the entertainment industry?"
+        ],
+        "answerKey": [
+          "A famous, beautiful, and incredibly talented Afro-Latina actress.",
+          "The Dominican Republic and Puerto Rico.",
+          "Classical ballet and other challenging types of dance.",
+          "Green.",
+          "Because she plays so many alien characters from deep outer space.",
+          "English and Spanish.",
+          "Other women and Afro-Latinos."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Zoe Saldaña es una actriz afrolatina muy famosa, hermosa y sumamente exitosa que es conocida en todo el mundo. Ella nació originalmente en el estado de Nueva Jersey, pero su familia querida es de la República Dominicana y Puerto Rico. Cuando era una niña joven, su familia experimentó una tragedia y ella se mudó a la República Dominicana. Allí, ella estudió el ballet clásico y otros tipos de baile muy difíciles en una academia formal.\n\nSu pasión inmensa y su amor por el baile le dieron mucha disciplina física y finalmente la ayudaron a ser una artista excelente en el teatro y en la pantalla grande del cine. Hoy en día, ella es oficialmente una de las actrices más importantes y famosas en toda la historia de Hollywood. ¡Probablemente conoces su cara por sus películas de acción gigantes y muy caras! Ella interpreta a la valiente extraterrestre Neytiri en las películas de Avatar, a la peligrosa guerrera verde Gamora en Guardianes de la Galaxia, y a la oficial muy inteligente Uhura en Star Trek. Porque ella interpreta a muchos personajes fuertes del espacio exterior, las personas dicen que ella es la reina absoluta de la ciencia ficción moderna.\n\nZoe está profundamente orgullosa de su rica herencia latina y habla inglés y español perfectamente con su familia en casa. Ella frecuentemente usa su voz poderosa y su fama masiva para ayudar y apoyar a otras mujeres y afrolatinos en la difícil industria del cine. Ella es un ejemplo maravilloso, trabajador e inspirador para los jóvenes en todas partes que tienen grandes sueños de actuar y participar en películas increíbles.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué estado nació la actriz Zoe Saldaña?",
+          "¿Adónde se mudó Zoe cuando era una niña joven?",
+          "¿Qué estudió ella que la ayudó a tener mucha disciplina?",
+          "¿Cuáles son dos películas de acción gigantes donde ella actúa?",
+          "¿Por qué dicen las personas que ella es la reina de la ciencia ficción?",
+          "¿Con quiénes habla ella inglés y español perfectamente?",
+          "¿A quiénes ayuda y apoya ella con su fama en el cine?"
+        ],
+        "answerKey": [
+          "En Nueva Jersey.",
+          "A la República Dominicana.",
+          "El ballet clásico (y otros tipos de baile muy difíciles).",
+          "Avatar, Guardianes de la Galaxia, o Star Trek (dos de estas).",
+          "Porque interpreta a muchos personajes fuertes del espacio exterior.",
+          "Con su familia.",
+          "A otras mujeres y afrolatinos en la difícil industria del cine."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Zoe Saldaña es una aclamada, versátil y sumamente talentosa actriz afrolatina que ha logrado consolidarse de manera indiscutible como una de las figuras femeninas más taquilleras y exitosas en toda la vasta historia de la industria de Hollywood. Aunque nació en el estado de Nueva Jersey, sus profundas raíces culturales provienen directamente de la República Dominicana y Puerto Rico. Durante su niñez, tras el inesperado y trágico fallecimiento de su padre, se trasladó permanentemente con su familia a la República Dominicana, donde descubrió su profunda e inquebrantable pasión por la danza contemporánea y el ballet clásico.\n\nEsta rigurosa y exigente formación artística le otorgó una disciplina física y mental inquebrantable que, años más tarde, aplicaría magistralmente al mundo de la actuación profesional. Su vertiginoso salto a la fama internacional se debe principalmente a sus impecables roles protagónicos en franquicias cinematográficas verdaderamente monumentales. Es mundialmente reconocida y admirada por interpretar a la valiente Na'vi Neytiri en el revolucionario universo visual de Avatar, a la letal y compleja guerrera Gamora en Guardianes de la Galaxia, y a la brillante oficial de comunicaciones Uhura en la icónica saga de Star Trek. Al haber encarnado de manera tan convincente a tantos personajes extraterrestres memorables, la prensa y los admiradores a menudo la coronan como la reina indiscutible de la ciencia ficción moderna.\n\nMás allá de su prolífica y envidiable carrera actoral, Zoe es una ferviente y elocuente defensora de la representación afrolatina equitativa y del empoderamiento femenino en la sumamente exigente industria del entretenimiento estadounidense. Bilingüe perfecta en inglés y español, utiliza constantemente su enorme plataforma mediática para derribar estereotipos dañinos, abriendo así invaluables puertas para las futuras generaciones de artistas que anhelan triunfar en la gran pantalla sin comprometer su auténtica identidad cultural.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cómo se consolidó Zoe Saldaña en la historia de Hollywood?",
+          "¿A qué país caribeño se trasladó su familia tras el fallecimiento de su padre?",
+          "¿Qué tipo de formación artística le otorgó una disciplina inquebrantable?",
+          "¿Qué papeles protagónicos la catapultaron a la fama internacional?",
+          "¿Por qué a menudo se la corona como la reina indiscutible de la ciencia ficción moderna?",
+          "¿Qué idiomas domina a la perfección según su ascendencia familiar?",
+          "¿De qué causas sociales es una ferviente defensora en la industria del entretenimiento?"
+        ],
+        "answerKey": [
+          "Como una de las figuras femeninas más taquilleras y exitosas.",
+          "A la República Dominicana.",
+          "La danza contemporánea y el ballet clásico.",
+          "Neytiri en Avatar, Gamora en Guardianes de la Galaxia y Uhura en Star Trek.",
+          "Por haber encarnado de manera tan convincente a tantos personajes extraterrestres memorables.",
+          "Inglés y español.",
+          "De la representación afrolatina equitativa y del empoderamiento femenino."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Alejandro González Iñárritu",
+    "imageFileName": "alejandro_inarritu.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Alejandro González Iñárritu is an incredibly famous, highly respected, and deeply talented film director from the beautiful country of México. He was born in the massive, bustling capital of Mexico City and always had a deep, burning passion for telling interesting, complicated stories about human life. Before he ever made movies for Hollywood, he actually worked for many years as a popular radio host and even composed original música for other artists and television commercials!\n\nLater in his life, he finally started directing his own films and quickly became one of the absolute most important and famous directors in the entire world. His incredible movies are globally known for being very emotional, visually beautiful, and sometimes a little bit complicated for audiences to understand because they mix dreams with reality. He has masterfully directed huge, expensive Hollywood blockbuster movies like *Birdman* and *The Revenant*, working with some of the most famous actors on the planet. Because of his amazing, unique artistic vision and his relentless hard work on set, Alejandro has won many prestigious Academy Awards, also known around the world as the premios Óscar.\n\nIn fact, he made incredible international history by becoming the very first Mexican director to ever be nominated for and win the Academy Award for Best Director! He even won this ultimate prize two years in a row, which is an incredibly rare and difficult achievement in the movie business. Alejandro frequently works with other talented Mexican filmmakers, writers, and actors to bring his visions to life. He is a true, undisputed master of the cine, and his wonderful movies inspire new, young directors all over the world to confidently tell their own unique stories through the magic of film.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where was film director Alejandro González Iñárritu born?",
+          "What did he do for work before he made movies?",
+          "What are his movies generally known for being?",
+          "What are two huge Hollywood movies that he directed?",
+          "What prestigious award did he make history by winning?",
+          "How many years in a row did he win Best Director?",
+          "Who does Alejandro frequently work with?"
+        ],
+        "answerKey": [
+          "Mexico City.",
+          "He worked as a popular radio host and composed original música.",
+          "Very emotional, visually beautiful, and sometimes a little bit complicated.",
+          "Birdman and The Revenant.",
+          "The Academy Award for Best Director (premios Óscar).",
+          "Two years in a row.",
+          "Other talented Mexican filmmakers, writers, and actors."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Alejandro González Iñárritu es un director de cine muy famoso, muy respetado y profundamente talentoso del hermoso país de México. Él nació en la capital masiva y vibrante de la Ciudad de México y siempre tuvo una pasión profunda por contar historias interesantes y complicadas sobre la vida humana. Antes de hacer películas para Hollywood, ¡él trabajó por muchos años como un locutor de radio popular e incluso compuso música original para otros artistas y comerciales de televisión!\n\nMás tarde en su vida, él finalmente empezó a dirigir sus propias películas y rápidamente se convirtió en uno de los directores más importantes y famosos de todo el mundo. Sus películas increíbles son conocidas globalmente por ser muy emocionales, visualmente hermosas y a veces un poco complicadas de entender para el público porque mezclan los sueños con la realidad. Él ha dirigido películas gigantes y muy caras de Hollywood como *Birdman* y *El Renacido* (*The Revenant*), trabajando con los actores más famosos del planeta. Por su visión artística única y su trabajo duro en el estudio, Alejandro ha ganado muchos Premios Óscar muy prestigiosos.\n\nDe hecho, ¡él hizo una historia internacional increíble como el primer director mexicano en ganar el Premio Óscar al Mejor Director! Él ganó este premio máximo dos años consecutivos, lo cual es un logro increíblemente raro y difícil en el negocio del cine. Alejandro frecuentemente trabaja con otros cineastas, escritores y actores mexicanos talentosos para crear sus visiones. Él es un verdadero maestro indiscutible del cine, y sus maravillosas películas inspiran a los directores nuevos y jóvenes en todo el mundo a contar sus propias historias únicas a través de la magia del cine.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad de México nació el director Alejandro González Iñárritu?",
+          "¿En qué trabajó y qué compuso antes de hacer películas?",
+          "¿Cómo son conocidas y descritas sus maravillosas películas?",
+          "¿Qué dos películas gigantes de Hollywood dirigió Alejandro?",
+          "¿Qué premio prestigioso ganó él por su visión y trabajo duro?",
+          "¿Qué récord histórico hizo él para los directores mexicanos?",
+          "¿A quiénes inspiran las películas maravillosas de Alejandro en el mundo?"
+        ],
+        "answerKey": [
+          "En la Ciudad de México.",
+          "Trabajó como locutor de radio y compuso música original.",
+          "Son muy emocionales, visualmente hermosas y a veces un poco complicadas de entender.",
+          "Birdman y El Renacido (The Revenant).",
+          "El Premio Óscar al Mejor Director.",
+          "Fue el primer director mexicano en ganar el Premio Óscar al Mejor Director (y lo ganó dos años consecutivos).",
+          "A los directores nuevos y jóvenes en todo el mundo."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Alejandro González Iñárritu es un aclamado, extraordinario y visionario cineasta, productor y guionista mexicano que ha dejado una marca verdaderamente indeleble en la exigente industria cinematográfica internacional. Nacido en la efervescente y culturalmente rica Ciudad de México, Iñárritu poseía una insaciable sed de narrativa desde joven. Curiosamente, comenzó su multifacética trayectoria profesional como un popular locutor de radio y un talentoso compositor musical para comerciales televisivos antes de decidirse a incursionar definitivamente en el séptimo arte, donde encontraría su verdadera e inigualable vocación.\n\nSus magistrales obras cinematográficas se caracterizan universalmente por una narrativa visualmente deslumbrante, exploraciones psicológicas sumamente profundas de la compleja condición humana y tramas no lineales que desafían intelectualmente al espectador al difuminar constantemente la línea entre la cruda realidad y la fantasía. Su genialidad absoluta detrás de la cámara y su perfeccionismo obsesivo lo llevaron a dirigir obras maestras galardonadas internacionalmente, tales como las aclamadas cintas *Birdman* y *El Renacido* (*The Revenant*). Gracias a su impecable e innovadora dirección, Iñárritu rompió barreras históricas al convertirse oficialmente en el primer cineasta mexicano en ser nominado y galardonado con el codiciado y prestigioso Premio Óscar al Mejor Director de la Academia.\n\nAún más asombroso y legendario es el hecho de que logró ganar esta codiciada estatuilla dorada en dos años consecutivos, una hazaña rarísima y casi inaudita en la larga historia de la Academia de Hollywood. Frecuentemente colaborando con su compatriota, el virtuoso director de fotografía Emmanuel Lubezki, Iñárritu ha forjado una era dorada indiscutible para el inmenso talento mexicano en el extranjero, inspirando poderosamente a futuras generaciones de cineastas hispanos a romper moldes tradicionales, cruzar fronteras y contar sus historias más auténticas al mundo.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué efervescente ciudad nació este visionario cineasta y productor mexicano?",
+          "¿Cuáles fueron sus primeras incursiones profesionales antes de dedicarse al séptimo arte?",
+          "¿Cuáles son tres características principales de sus obras cinematográficas?",
+          "¿Cuáles son dos de sus obras maestras galardonadas internacionalmente?",
+          "¿Qué barrera histórica rompió en los prestigiosos Premios Óscar?",
+          "¿Qué hazaña rarísima y asombrosa logró conseguir en dos años consecutivos?",
+          "¿Qué impacto ha forjado su éxito para las futuras generaciones de cineastas?"
+        ],
+        "answerKey": [
+          "En la efervescente y culturalmente rica Ciudad de México.",
+          "Como un popular locutor de radio y un talentoso compositor musical.",
+          "Narrativa visualmente deslumbrante, exploraciones psicológicas profundas de la condición humana y tramas no lineales.",
+          "Birdman y El Renacido (The Revenant).",
+          "Ser el primer cineasta mexicano en ser nominado y galardonado con el Premio Óscar al Mejor Director.",
+          "Ganar esta codiciada estatuilla dorada en dos años consecutivos.",
+          "Inspirar a futuras generaciones de cineastas hispanos a romper moldes tradicionales y contar sus historias más auténticas."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Cuarteto de Nos",
+    "imageFileName": "cuarteto_nos.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "El Cuarteto de Nos is an incredibly famous and highly unique alternative rock band originating from Montevideo, the beautiful capital city of Uruguay. The musical group was originally formed many years ago by a group of close friends and quickly became one of the absolute most important, influential bands in Latin American rock history. What genuinely makes their loud, energetic música so incredibly special is that they absolutely refuse to write typical, boring love songs like everyone else on the radio. Instead, they cleverly write songs with very fast, complicated lyrics, extremely clever jokes, and a massive amount of biting sarcasm.\n\nThe lead singer, guitarist, and main songwriter for the group is named Roberto Musso. He brilliantly uses his loud guitar and his totally unique, fast-talking voice to tell funny, weird, and complicated stories about everyday life. One of their absolute most famous and popular canciones across the entire world is called \"Ya no sé qué hacer conmigo.\" The rapid, fast-paced lyrics of this amazing song talk about an anxious person who has tried doing absolutely everything possible in life and is now completely bored with the world!\n\nBecause of their unmatched talent, El Cuarteto de Nos has won several prestigious Latin Grammy awards for their amazing musical creativity and excellent songwriting. They expertly mix traditional rock and roll instruments, like electric guitars and heavy drums, with modern electronic beats and fast hip-hop vocal styles. Their massive, sold-out concerts are always full of intense energy, and fans of all ages absolutely love to jump, dance, and sing along at the top of their lungs to their brilliant, rapid-fire lyrics.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where is the alternative rock band El Cuarteto de Nos from?",
+          "What do they write instead of typical love songs?",
+          "Who is the lead singer and songwriter of the band?",
+          "What is the title of one of their most famous canciones?",
+          "What is the song \"Ya no sé qué hacer conmigo\" about?",
+          "What prestigious awards have they won for their creativity?",
+          "What kind of instruments do they mix together?"
+        ],
+        "answerKey": [
+          "Montevideo, Uruguay.",
+          "Songs with very fast, complicated lyrics, extremely clever jokes, and a massive amount of biting sarcasm.",
+          "Roberto Musso.",
+          "\"Ya no sé qué hacer conmigo\".",
+          "An anxious person who has tried doing absolutely everything possible in life and is now completely bored.",
+          "Several prestigious Latin Grammy awards.",
+          "Traditional rock and roll instruments with modern electronic beats and fast hip-hop vocal styles."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El Cuarteto de Nos es una banda de rock alternativo increíblemente famosa y muy única de Montevideo, la hermosa ciudad capital de Uruguay. El grupo musical se formó originalmente hace muchos años por unos buenos amigos y rápidamente se convirtió en una de las bandas más importantes en toda la historia del rock latinoamericano. Lo que hace que su música ruidosa sea genuinamente tan especial es que ellos se niegan absolutamente a escribir canciones de amor típicas y aburridas. En cambio, ellos escriben canciones inteligentes con letras muy rápidas, bromas extremadamente cómicas y una cantidad masiva de sarcasmo fuerte.\n\nEl cantante principal, el guitarrista y el compositor principal del grupo se llama Roberto Musso. Él usa brillantemente su guitarra eléctrica y su voz única y muy rápida para contar historias cómicas, extrañas y complicadas sobre la vida diaria. Una de sus canciones más famosas y populares en todo el mundo se llama \"Ya no sé qué hacer conmigo\". ¡Las letras muy rápidas de esta canción asombrosa hablan sobre una persona ansiosa que ha intentado hacer absolutamente todo lo posible en la vida y ahora está completamente aburrida del mundo!\n\nPor su talento inigualable, El Cuarteto de Nos ha ganado varios premios Latin Grammy muy prestigiosos por su gran creatividad musical y sus excelentes composiciones. Ellos mezclan expertamente los instrumentos tradicionales de rock, como guitarras eléctricas y tambores fuertes, con ritmos electrónicos modernos y estilos de hip-hop rápidos. Sus conciertos masivos siempre están llenos de energía intensa, y a los aficionados de todas las edades les encanta saltar, bailar y cantar con mucha fuerza sus letras brillantes y súper rápidas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué ciudad y país es la banda El Cuarteto de Nos?",
+          "¿Qué escriben ellos en lugar de canciones típicas de amor?",
+          "¿Cómo se llama el cantante principal y compositor del grupo?",
+          "¿Cuál es el título de una de sus canciones más famosas?",
+          "¿De qué trata exactamente la canción \"Ya no sé qué hacer conmigo\"?",
+          "¿Qué premios importantes ha ganado el grupo por su creatividad?",
+          "¿Qué tipos de ritmos mezclan con los instrumentos tradicionales?"
+        ],
+        "answerKey": [
+          "De Montevideo, Uruguay.",
+          "Canciones inteligentes con letras muy rápidas, bromas extremadamente cómicas y una cantidad masiva de sarcasmo fuerte.",
+          "Roberto Musso.",
+          "\"Ya no sé qué hacer conmigo\".",
+          "De una persona ansiosa que ha intentado hacer absolutamente todo lo posible en la vida y ahora está completamente aburrida.",
+          "Varios premios Latin Grammy muy prestigiosos.",
+          "Mezclan los instrumentos tradicionales de rock con ritmos electrónicos modernos y estilos de hip-hop rápidos."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El Cuarteto de Nos es una legendaria, irreverente y sumamente exitosa agrupación uruguaya de rock alternativo originaria de la hermosa ciudad de Montevideo. A lo largo de su extensa y sumamente prolífica trayectoria, se han consolidado indiscutiblemente como una de las bandas más influyentes, originales e innovadoras de toda la escena musical hispanohablante contemporánea. A diferencia de casi todos los demás grupos comerciales, destacan brillantemente por su estilo lírico inconfundible, el cual se caracteriza fuertemente por rimas sumamente complejas, un afilado y oscuro sentido del humor, ironía constante y una profunda e inteligente crítica social hacia la vida moderna.\n\nBajo el liderazgo creativo de su carismático vocalista y compositor principal, Roberto Musso, la experimentada banda crea narrativas psicológicas fascinantes que desafían abiertamente todas las convenciones musicales tradicionales y aburridas. Un ejemplo magistral y globalmente reconocido de su genialidad compositiva es el éxito rotundo \"Ya no sé qué hacer conmigo\". Esta icónica pieza, con su ritmo frenético, instrumentación pesada y verbo sumamente acelerado, explora de manera humorística y brillante la inevitable crisis existencial y el aburrimiento absoluto de un individuo ansioso que ya ha experimentado todas las facetas y lujos posibles de la vida humana.\n\nGalardonados merecidamente con múltiples y prestigiosos premios Grammy Latinos por su excelencia artística, El Cuarteto de Nos demuestra una versatilidad asombrosa al fusionar expertamente el rock pesado con elementos rítmicos del rap acelerado, el pop melódico y la música electrónica experimental. Sus multitudinarios espectáculos en vivo son auténticas e inolvidables celebraciones de energía desbordante, donde miles de seguidores fanáticos de múltiples generaciones corean apasionadamente y a todo pulmón sus ingeniosos, sarcásticos y vertiginosos versos poéticos.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué ciudad es originaria esta legendaria agrupación de rock alternativo?",
+          "¿Cuáles son las características principales de su inconfundible estilo lírico?",
+          "¿Quién es el vocalista y compositor principal de la banda?",
+          "¿Qué canción es un ejemplo magistral de su genialidad y éxito rotundo?",
+          "¿Qué tema profundo explora esta pieza musical de manera humorística?",
+          "¿Qué galardones prestigiosos han ganado por su asombrosa versatilidad?",
+          "¿Qué géneros musicales fusionan de manera magistral con el rock pesado?"
+        ],
+        "answerKey": [
+          "De Montevideo, Uruguay.",
+          "Rimas sumamente complejas, un afilado y oscuro sentido del humor, ironía constante y una profunda crítica social.",
+          "Roberto Musso.",
+          "\"Ya no sé qué hacer conmigo\".",
+          "La inevitable crisis existencial y el aburrimiento absoluto de un individuo ansioso que ya ha experimentado todas las facetas posibles de la vida humana.",
+          "Múltiples y prestigiosos premios Grammy Latinos.",
+          "Elementos rítmicos del rap acelerado, el pop melódico y la música electrónica experimental."
+        ]
+      }
+    }
   }
+]
 ]
