@@ -35,10 +35,35 @@
             overflow: hidden;
         }
 
+/* Print Rules - Fixed to prevent blank pages */
+        @page {
+            size: 8.5in 11in;
+            margin: 0; /* This kills the browser's default printer margins */
+        }
+
         @media print {
-            body { background-color: white; padding: 0; margin: 0; }
-            .page { box-shadow: none; margin: 0; break-after: page; }
-            .no-print { display: none; }
+            body { 
+                background-color: white; 
+                padding: 0; 
+                margin: 0; 
+                -webkit-print-color-adjust: exact; /* Ensures colors print perfectly */
+            }
+            .page { 
+                box-shadow: none; 
+                margin: 0; 
+                width: 8.5in;
+                height: 11in;
+                break-after: page; 
+                page-break-after: always;
+            }
+            .no-print { 
+                display: none; 
+            }
+            /* Prevents a blank page at the very end of the whole document */
+            .page:last-child {
+                break-after: auto;
+                page-break-after: auto;
+            }
         }
 
         /* Watermark - Moved down just under the Fecha line */
