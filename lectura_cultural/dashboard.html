@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Spanish Gym - TPT Dashboard</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;0,900;1,700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+    <style>
+        /* --- DASHBOARD UI STYLES (Hidden during print) --- */
+        body {
+            font-family: 'Nunito', sans-serif;
+            background-color: #e2e8f0;
+            margin: 0;
+            padding: 20px;
+            color: #2d3748;
+        }
+        
+        .dashboard-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        h1 { color: #1a365d; text-align: center; font-weight: 900; }
+        
+        .section-title {
+            border-bottom: 3px solid #ecc94b;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        /* Checkbox Grid */
+        .topic-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .topic-item {
+            background: #f7fafc;
+            padding: 10px 15px;
+            border-radius: 6px;
+            border: 1px solid #cbd5e0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .topic-item:hover { background: #edf2f7; }
+
+        /* Inputs & Buttons */
+        .input-group { margin-bottom: 20px; }
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            border: 2px solid #cbd5e0;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-family: 'Nunito', sans-serif;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 12px 20px;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 900;
+            font-size: 14px;
+            font-family: 'Nunito', sans-serif;
+            transition: 0.2s;
+            flex-grow: 1;
+        }
+        .btn-pdf { background-color: #2b6cb0; }
+        .btn-pdf:hover { background-color: #2c5282; }
+        .btn-png { background-color: #c53030; }
+        .btn-png:hover { background-color: #9b2c2c; }
+        .btn-bundle { background-color: #276749; }
+        .btn-bundle:hover { background-color: #22543d; }
+
+        /* --- PDF PRINT STYLES --- */
+        #render-container { display: none; } /* Hidden normally */
+        
+        @page { size: 8.5in 11in; margin: 0; }
+        @media print {
+            body { background: white; padding: 0; margin: 0; -webkit-print-color-adjust: exact; }
+            .dashboard-container { display: none !important; } /* Hide UI when printing */
+            #render-container { display: block; }
+            
+            /* The 6-Page Canvas */
+            .page {
+                width: 8.5in; height: 11in;
+                padding: 0.5in 0.6in;
+                box-sizing: border-box;
+                position: relative;
+                page-break-after: always;
+                break-after: page;
+                overflow: hidden;
+            }
+            .page:last-child { page-break-after: auto; break-after: auto; }
+            
+            /* Standard Worksheet Styles (From Previous Steps) */
+            .watermark { position: absolute; top: 0.65in; left: 0.5in; width: 220px; opacity: 0.12; z-index: 1; }
+            .content-layer { position: relative; z-index: 2; }
+            .topic-image { float: right; width: 170px; height: auto; border-radius: 12px; border: 4px solid white; box-shadow: 3px 3px 10px rgba(0,0,0,0.2); transform: rotate(3deg); margin: 0 0 15px 25px; position: relative; z-index: 3; }
+            .header-container { margin-bottom: 15px; font-size: 15px; font-weight: bold; }
+            .header-row { display: flex; align-items: flex-end; margin-bottom: 12px; }
+            .header-label { white-space: nowrap; margin-right: 8px; }
+            .header-line { flex-grow: 1; border-bottom: 1.5px solid #333; height: 18px; }
+            .topic-title-pdf { text-align: left; text-transform: uppercase; font-size: 24px; letter-spacing: 1px; margin: 0 0 10px 0; font-weight: 700; }
+            .reading-text { font-size: 14px; line-height: 1.5; text-align: justify; margin-bottom: 10px; }
+            .reading-text p { margin: 0 0 8px 0; }
+            .instruction { font-weight: 700; font-style: italic; margin-left: 20px; margin-bottom: 6px; font-size: 14px; }
+            .question-block { margin-bottom: 12px; font-size: 14px; clear: left; }
+            .question-text { margin-bottom: 2px; }
+            .answer-line { border-bottom: 1.5px solid #333; height: 20px; position: relative; margin-left: 20px; }
+            .answer-text { position: absolute; bottom: 2px; left: 10px; color: #1a365d; font-weight: 700; font-style: italic; font-size: 14px; }
+
+            /* Bundle Index Page Styles */
+            .index-title { text-align: center; font-size: 40px; color: #1a365d; text-transform: uppercase; margin-top: 1in; font-weight: 900;}
+            .index-subtitle { text-align: center; font-size: 20px; margin-bottom: 40px; font-style: italic; color: #4a5568;}
+            .index-list { list-style-type: none; padding: 0 1in; font-size: 20px; line-height: 2; font-weight: bold; }
+            .index-list li { border-bottom: 1px dashed #cbd5e0; margin-bottom: 10px; }
+        }
+
+        /* --- PNG PREVIEW GENERATOR STYLES (Rendered off-screen) --- */
+        #png-staging {
+            position: absolute; left: -9999px; top: 0; /* Keep it invisible to user */
+        }
+        
+        .tpt-preview {
+            width: 800px; height: 800px;
+            background: linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%);
+            position: relative; box-sizing: border-box; padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        .bundle-preview { background: linear-gradient(135deg, #276749 0%, #38a169 100%); } /* Green for bundles */
+
+        .category-tag { background-color: #ecc94b; color: #1a365d; font-size: 20px; font-weight: 900; text-transform: uppercase; padding: 8px 20px; border-radius: 30px; display: inline-block; margin-bottom: 15px; }
+        .preview-title { color: white; font-size: 50px; font-weight: 900; text-transform: uppercase; margin: 0 0 30px 0; line-height: 1.1; text-shadow: 2px 4px 8px rgba(0,0,0,0.3); width: 90%; }
+        
+        .badge-container { position: absolute; top: 250px; left: 40px; display: flex; flex-direction: column; gap: 20px; z-index: 3; }
+        .badge { background: white; color: #1a365d; padding: 15px 25px; border-radius: 12px; font-size: 22px; font-weight: 900; box-shadow: 0 8px 20px rgba(0,0,0,0.2); border-left: 8px solid #ecc94b; }
+        
+        .logo { position: absolute; bottom: 30px; left: 40px; width: 250px; background: rgba(255, 255, 255, 0.9); padding: 10px 20px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+
+        /* Single Image Style */
+        .main-image { width: 380px; height: 380px; object-fit: cover; border: 8px solid white; border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.4); transform: rotate(-3deg); position: absolute; right: 50px; top: 220px; z-index: 2; }
+        
+        /* Bundle Image Grid Style */
+        .bundle-grid { position: absolute; right: 40px; top: 200px; width: 400px; display: grid; grid-template-columns: 1fr 1fr; gap: 15px; transform: rotate(-2deg); z-index: 2; }
+        .bundle-img { width: 100%; aspect-ratio: 1; object-fit: cover; border: 5px solid white; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.3); }
+
+    </style>
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <h1>🏋️‍♂️ The Spanish Gym Dashboard</h1>
+        
+        <div class="input-group">
+            <label class="section-title" style="display:block; margin-bottom:10px;">Título del Bundle (Opcional)</label>
+            <input type="text" id="bundle-title" placeholder="Ej. Culturas de Latinoamérica Bundle">
+        </div>
+
+        <h2 class="section-title">Seleccionar Temas</h2>
+        <div class="topic-grid" id="topic-list">
+            </div>
+
+        <h2 class="section-title">Generar Recursos Individuales</h2>
+        <div class="button-group">
+            <button class="btn-pdf" onclick="generateSelectedPDFs()">📄 Imprimir PDFs Seleccionados</button>
+            <button class="btn-png" onclick="generateSelectedPNGs()">🖼️ Descargar Portadas (PNG)</button>
+        </div>
+
+        <h2 class="section-title">Generar Bundles (Requiere Título)</h2>
+        <div class="button-group">
+            <button class="btn-bundle" onclick="generateBundlePDF()">📚 Imprimir Bundle (PDF con Índice)</button>
+            <button class="btn-bundle" onclick="generateBundlePNG()">🎨 Descargar Portada de Bundle (PNG)</button>
+        </div>
+    </div>
+
+    <div id="render-container"></div>
+    <div id="png-staging"></div>
+
+    <script>
+        const jsonUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/lectura_cultural/lectura_cultural.json';
+        const imageBaseUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/lectura_cultural/foto/';
+        const watermarkUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/images/spanishgymbw.png'; 
+        const colorLogoUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/images/spanishgym.png';
+
+        let globalData = [];
+
+        // 1. BOOT UP: Fetch Data and Build Checkboxes
+        async function init() {
+            try {
+                const response = await fetch(jsonUrl);
+                globalData = await response.json();
+                
+                const grid = document.getElementById('topic-list');
+                globalData.forEach((topic, index) => {
+                    const label = document.createElement('label');
+                    label.className = 'topic-item';
+                    label.innerHTML = `<input type="checkbox" value="${index}" checked> ${topic.topicName}`;
+                    grid.appendChild(label);
+                });
+            } catch (error) {
+                document.getElementById('topic-list').innerHTML = "<p style='color:red;'>Error loading JSON from GitHub.</p>";
+            }
+        }
+
+        // Helper to get checked items
+        function getSelectedTopics() {
+            const checkboxes = document.querySelectorAll('#topic-list input:checked');
+            return Array.from(checkboxes).map(cb => globalData[cb.value]);
+        }
+
+        // 2. INDIVIDUAL PDFS
+        function generateSelectedPDFs() {
+            const selected = getSelectedTopics();
+            if(selected.length === 0) return alert("Selecciona al menos un tema.");
+            
+            const container = document.getElementById('render-container');
+            container.innerHTML = ''; 
+            
+            selected.forEach(topic => {
+                const imageUrl = imageBaseUrl + topic.imageFileName;
+                ['level_1', 'level_2', 'level_3'].forEach(level => {
+                    container.innerHTML += buildPDFPage(topic.topicName, imageUrl, topic.levels[level], false);
+                    container.innerHTML += buildPDFPage(topic.topicName, imageUrl, topic.levels[level], true);
+                });
+            });
+            window.print();
+        }
+
+        // 3. BUNDLE PDF (Includes Index)
+        function generateBundlePDF() {
+            const selected = getSelectedTopics();
+            const bundleTitle = document.getElementById('bundle-title').value || "Spanish Cultural Readings Bundle";
+            if(selected.length === 0) return alert("Selecciona temas para el bundle.");
+
+            const container = document.getElementById('render-container');
+            container.innerHTML = ''; 
+
+            // Build Index Page
+            let indexHtml = `
+                <div class="page">
+                    <img src="${watermarkUrl}" class="watermark" style="top:40%; width:400px; left:2.5in; opacity:0.05;">
+                    <h1 class="index-title">${bundleTitle}</h1>
+                    <p class="index-subtitle">Índice de Temas Incluidos</p>
+                    <ul class="index-list">
+            `;
+            selected.forEach(topic => { indexHtml += `<li>✔ ${topic.topicName}</li>`; });
+            indexHtml += `</ul></div>`;
+            container.innerHTML += indexHtml;
+
+            // Append all readings
+            selected.forEach(topic => {
+                const imageUrl = imageBaseUrl + topic.imageFileName;
+                ['level_1', 'level_2', 'level_3'].forEach(level => {
+                    container.innerHTML += buildPDFPage(topic.topicName, imageUrl, topic.levels[level], false);
+                    container.innerHTML += buildPDFPage(topic.topicName, imageUrl, topic.levels[level], true);
+                });
+            });
+            window.print();
+        }
+
+        // Core HTML Builder for a single PDF page
+        function buildPDFPage(title, imageUrl, levelData, isAnswerKey) {
+            const paragraphs = levelData.readingText.split('\n').filter(p => p.trim() !== '');
+            const formattedText = paragraphs.map(p => `<p>${p.trim()}</p>`).join('');
+
+            let html = `
+                <div class="page">
+                    <img src="${watermarkUrl}" class="watermark" onerror="this.style.display='none'">
+                    <div class="content-layer">
+                        <img src="${imageUrl}" class="topic-image">
+                        <div class="header-container">
+                            <div class="header-row"><span class="header-label">Nombre:</span><span class="header-line"></span></div>
+                            <div class="header-row"><span class="header-label">Fecha:</span><span class="header-line" style="margin-right:20px;"></span><span class="header-label">Clase:</span><span class="header-line"></span></div>
+                        </div>
+                        <h1 class="topic-title-pdf">${title}</h1>
+                        <div class="reading-text">${formattedText}</div>
+                        <div class="instruction">${levelData.instruction}</div>
+            `;
+
+            levelData.questions.forEach((q, i) => {
+                let ans = isAnswerKey ? `<div class="answer-text">${levelData.answerKey[i]}</div>` : '';
+                html += `<div class="question-block"><div class="question-text">${q}</div><div class="answer-line">${ans}</div></div>`;
+            });
+            return html + `</div></div>`;
+        }
+
+        // 4. INDIVIDUAL PNG PREVIEWS
+        async function generateSelectedPNGs() {
+            const selected = getSelectedTopics();
+            if(selected.length === 0) return alert("Selecciona al menos un tema.");
+            
+            const staging = document.getElementById('png-staging');
+            
+            // Loop through selected and download sequentially
+            for (let topic of selected) {
+                staging.innerHTML = buildPreviewHTML(topic.topicName, imageBaseUrl + topic.imageFileName, false);
+                await triggerDownload(document.querySelector('.tpt-preview'), `${topic.topicName}_Cover.png`);
+            }
+            staging.innerHTML = ''; // Clean up
+        }
+
+        // 5. BUNDLE PNG PREVIEW
+        async function generateBundlePNG() {
+            const selected = getSelectedTopics();
+            const bundleTitle = document.getElementById('bundle-title').value;
+            
+            if(selected.length < 2) return alert("Un bundle necesita al menos 2 temas.");
+            if(!bundleTitle) return alert("Por favor, escribe un Título para el Bundle arriba.");
+
+            const staging = document.getElementById('png-staging');
+            
+            // Get up to 4 images for the grid
+            const images = selected.slice(0, 4).map(t => imageBaseUrl + t.imageFileName);
+            
+            staging.innerHTML = buildPreviewHTML(bundleTitle, images, true);
+            await triggerDownload(document.querySelector('.tpt-preview'), `${bundleTitle}_Bundle_Cover.png`);
+            staging.innerHTML = ''; 
+        }
+
+        // HTML Builder for the TPT Previews
+        function buildPreviewHTML(title, images, isBundle) {
+            const extraClass = isBundle ? "bundle-preview" : "";
+            const tagText = isBundle ? "Gran Bundle Cultural" : "Lectura Diferenciada";
+            
+            let imageHtml = '';
+            if(isBundle) {
+                imageHtml = `<div class="bundle-grid">`;
+                images.forEach(img => imageHtml += `<img src="${img}" class="bundle-img" crossorigin="anonymous">`);
+                imageHtml += `</div>`;
+            } else {
+                imageHtml = `<img src="${images}" class="main-image" crossorigin="anonymous">`;
+            }
+
+            return `
+                <div class="tpt-preview ${extraClass}">
+                    <div class="category-tag">${tagText}</div>
+                    <h1 class="preview-title">${title}</h1>
+                    <div class="badge-container">
+                        <div class="badge">📚 3 Niveles de Lectura</div>
+                        <div class="badge">✅ Claves de Respuestas</div>
+                        <div class="badge">🌎 Cultura Auténtica</div>
+                    </div>
+                    ${imageHtml}
+                    <img src="${colorLogoUrl}" class="logo" crossorigin="anonymous">
+                </div>
+            `;
+        }
+
+        // html2canvas execution
+        async function triggerDownload(element, filename) {
+            const canvas = await html2canvas(element, { scale: 2, useCORS: true, backgroundColor: null });
+            const link = document.createElement('a');
+            link.download = filename;
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+            // Small pause to let the browser process multiple downloads safely
+            await new Promise(r => setTimeout(r, 500)); 
+        }
+
+        init();
+    </script>
+</body>
+</html>
