@@ -2923,5 +2923,305 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "Diego Maradona",
+    "imageFileName": "maradona.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Diego Armando Maradona is universally considered one of the absolute greatest, most exciting, and most fascinating professional fútbol players in the entire history of the sports world. He was born in a very poor, humble neighborhood called Villa Fiorito, located in the busy suburbs of Buenos Aires, Argentina. Ever since he was just a little boy playing in the dusty streets, he had a truly magical and undeniable connection with the soccer ball. He could easily dribble past multiple strong defenders with his incredible speed, brilliant creativity, and absolutely perfect ball control. He quickly became a massive sensation in Argentina before moving to Europe to play against the best teams.\n\nHis absolute most famous and legendary moments happened during the thrilling 1986 World Cup tournament held in México. In a highly emotional and legendary game against England, Maradona famously scored two of the most unforgettable goles in soccer history. The very first goal was extremely controversial because he actually used his hand to hit the ball into the net, and people everywhere called it the \"Hand of God.\" Just a few minutes later, he dribbled past five different English players, running from the middle of the field, to score the spectacular \"Goal of the Century.\" He proudly led Argentina to win the entire championship and instantly became a permanent national hero.\n\nLater in his amazing career, he moved to Italy to play for the Napoli soccer club. He miraculously transformed Napoli from a struggling, underdog team into champions, completely defeating the wealthy teams from the north. The passionate city of Napoli still treats him like a king today. Although his personal life had many complicated struggles and sad moments, his incredible passion, massive heart, and jaw-dropping talent on the field made him an eternal legend.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where was Diego Maradona born?",
+          "What could he do with incredible speed and perfect control?",
+          "In what year and country did his most famous World Cup moments happen?",
+          "What do people call the controversial goal where he used his hand?",
+          "How many English players did he dribble past for the \"Goal of the Century\"?",
+          "What Italian club did he transform into champions?",
+          "How does the city of Napoli still treat him today?"
+        ],
+        "answerKey": [
+          "Buenos Aires, Argentina (in a neighborhood called Villa Fiorito).",
+          "Dribble past multiple strong defenders.",
+          "1986 in México.",
+          "The \"Hand of God\".",
+          "Five different English players.",
+          "The Napoli soccer club.",
+          "Like a king."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Diego Armando Maradona es considerado universalmente uno de los mejores, más emocionantes y más fascinantes jugadores de fútbol en toda la historia del mundo deportivo. Él nació en un barrio muy pobre y humilde llamado Villa Fiorito, ubicado en los suburbios ocupados de Buenos Aires, Argentina. Desde que era un niño pequeño jugando en las calles, él tenía una conexión verdaderamente mágica e innegable con el balón de fútbol. Él podía correr y pasar a múltiples defensores fuertes con su velocidad increíble, su creatividad brillante y un control del balón absolutamente perfecto. Él se convirtió rápidamente en una sensación masiva en Argentina antes de viajar a Europa.\n\nSus momentos más famosos y legendarios ocurrieron durante el emocionante torneo de la Copa Mundial de 1986 en México. En un partido muy emocional y legendario contra Inglaterra, Maradona marcó dos de los goles más inolvidables en la historia del fútbol. El primer gol fue extremadamente controvertido porque en realidad usó su mano para golpear el balón, y la gente en todas partes lo llamó \"La Mano de Dios\". Solo unos minutos después, él pasó a cinco jugadores ingleses diferentes, corriendo desde el medio del campo, para marcar el espectacular \"Gol del Siglo\". Él ayudó con orgullo a Argentina a ganar todo el campeonato y se convirtió en un héroe nacional permanente.\n\nMás tarde en su carrera asombrosa, viajó a Italia para jugar con el equipo de fútbol Napoli. Él transformó milagrosamente a Napoli de un equipo con problemas a un equipo campeón, derrotando a los equipos ricos del norte. La ciudad apasionada de Nápoles todavía lo trata como a un rey hoy en día. Aunque tuvo muchos problemas personales y momentos tristes, su pasión increíble, su gran corazón y su talento en la cancha lo hacen una leyenda eterna.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad de Argentina nació el futbolista Diego Maradona?",
+          "¿Qué podía hacer él con el balón con una velocidad increíble?",
+          "¿En qué país y en qué año ocurrieron sus momentos más famosos?",
+          "¿Cómo llamó la gente al gol controvertido donde él usó su mano?",
+          "¿Qué hizo para marcar el increíble \"Gol del Siglo\"?",
+          "¿A qué equipo italiano transformó Maradona en un equipo campeón?",
+          "¿Cómo lo trata todavía hoy la ciudad italiana de Nápoles?"
+        ],
+        "answerKey": [
+          "En Buenos Aires, Argentina (en el barrio de Villa Fiorito).",
+          "Correr y pasar a múltiples defensores fuertes con un control perfecto.",
+          "En México, en 1986.",
+          "\"La Mano de Dios\".",
+          "Pasó a cinco jugadores ingleses diferentes corriendo desde el medio del campo.",
+          "Al equipo de fútbol Napoli.",
+          "Como a un rey."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Diego Armando Maradona es universalmente venerado como uno de los futbolistas más extraordinarios, polémicos y fascinantes de todos los tiempos, dejando una huella imborrable en la cultura global. Nacido en la extrema pobreza de Villa Fiorito, un asentamiento precario en los suburbios de Buenos Aires, Maradona forjó su indudable genio futbolístico en la adversidad. Desde su más tierna infancia, desarrolló una zurda prodigiosa, una visión de juego periférica y una capacidad de regate inigualable que desafiaba las leyes de la física. Rápidamente deslumbró a la afición argentina antes de dar el salto al competitivo fútbol europeo, donde se mediría contra los mejores del mundo.\n\nLa consagración definitiva y épica de su inmenso talento se produjo durante la Copa Mundial de la FIFA de 1986 celebrada en México. En el emblemático y tenso partido de cuartos de final contra la selección de Inglaterra, Maradona protagonizó dos jugadas consecutivas que definieron su carrera para siempre. Primero, anotó el astuto y controversial gol bautizado mundialmente como \"La Mano de Dios\". Apenas cuatro minutos después, ejecutó el deslumbrante \"Gol del Siglo\", una proeza atlética donde eludió a más de la mitad del equipo rival arrancando a toda velocidad desde el mediocampo. Al capitanear a la selección albiceleste hacia la gloria mundial, se elevó al estatus de deidad indiscutible en su país natal.\n\nA nivel de clubes, su histórico traspaso al Napoli en Italia revolucionó por completo la liga. Cargó estoicamente con el equipo sobre sus hombros, desafiando y venciendo la hegemonía de los poderosos y ricos clubes del norte, regalándole al marginado sur de Italia una época dorada de campeonatos inéditos. A pesar de sus públicas turbulencias personales y sus batallas contra la adicción, su profundo legado como el eterno \"D10S\" del balompié perdura absolutamente intacto en la memoria colectiva.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué humilde barrio de los suburbios de Buenos Aires nació Maradona?",
+          "¿Qué habilidades técnicas desarrolló desde su precaria infancia?",
+          "¿En qué evento y año se produjo la consagración definitiva de su genialidad?",
+          "¿Cómo se bautizó al astuto y controversial gol que anotó contra Inglaterra?",
+          "¿Qué hazaña física realizó para anotar el deslumbrante \"Gol del Siglo\"?",
+          "¿Qué impacto revolucionario tuvo su traspaso al equipo del Napoli en Italia?",
+          "¿A pesar de qué situaciones perdura intacto su legado como el \"D10S\" del fútbol?"
+        ],
+        "answerKey": [
+          "En la extrema pobreza de Villa Fiorito.",
+          "Una zurda prodigiosa, una visión de juego periférica y una capacidad de regate inigualable.",
+          "Durante la Copa Mundial de la FIFA de 1986 celebrada en México.",
+          "\"La Mano de Dios\".",
+          "Eludió a más de la mitad del equipo rival arrancando a toda velocidad desde el mediocampo.",
+          "Venció la hegemonía de los poderosos clubes del norte y le regaló al marginado sur de Italia una época dorada de campeonatos inéditos.",
+          "A pesar de sus públicas turbulencias personales y sus batallas contra la adicción."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Roberto Clemente",
+    "imageFileName": "clemente.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Roberto Clemente was a truly legendary professional baseball player, a proud Puerto Rican icon, and a deeply wonderful, generous humanitarian. He was born in Puerto Rico and absolutely loved playing béisbol from a very young age. With incredible dedication and intense hard work, he played his entire eighteen-year professional career as a star right fielder for the Pittsburgh Pirates in the major leagues. He was widely famous for his incredibly strong, accurate throwing arm and his amazing, consistent ability to hit the baseball.\n\nDuring his outstanding athletic career, he bravely led his team to win two massive World Series championships. He also achieved exactly 3,000 hits during his final regular-season game, which is a massive and extremely rare milestone in all of baseball history! However, his long journey to success was certainly not easy. When he played sports in the United States, he faced a lot of terrible racism and very difficult language barriers. Despite this unfair treatment, he proudly spoke Spanish on national television and fiercely demanded equal respect for all Latino and Black players in the league.\n\nOff the baseball field, Roberto was a true, selfless hero who constantly spent his own money and precious free time helping poor, struggling communities across Latin America and the Caribbean. In December 1972, a terrible, destructive earthquake completely destroyed large parts of Nicaragua. Roberto quickly organized a cargo flight full of essential food, warm clothes, and medicine to help the desperate victims. Tragically, his heavy airplane crashed into the dark ocean right after takeoff, and he died at the age of 38. Because of his amazing athletic talent and his incredibly big heart, he was the very first Latino player elected to the Baseball Hall of Fame.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where was the legendary baseball player Roberto Clemente born?",
+          "What team did he play his entire professional career for?",
+          "What was he famous for doing on the baseball field?",
+          "How many hits did he achieve in his career?",
+          "What challenges did he face while playing in the United States?",
+          "Where was he trying to take food and medicine in 1972?",
+          "What prestigious honor did he receive after he died?"
+        ],
+        "answerKey": [
+          "Puerto Rico.",
+          "The Pittsburgh Pirates.",
+          "His incredibly strong, accurate throwing arm and amazing ability to hit the baseball.",
+          "Exactly 3,000 hits.",
+          "Terrible racism and very difficult language barriers.",
+          "Nicaragua.",
+          "He was the very first Latino player elected to the Baseball Hall of Fame."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Roberto Clemente fue un jugador de béisbol profesional verdaderamente legendario, un ícono puertorriqueño orgulloso y un humanitario profundamente maravilloso y generoso. Él nació en Puerto Rico y le encantaba absolutamente jugar al béisbol desde una edad muy joven. Con una dedicación increíble y mucho trabajo duro, él jugó toda su carrera profesional de dieciocho años como el jardinero derecho estrella para los Pittsburgh Pirates en las ligas mayores. Era muy famoso por su brazo increíblemente fuerte y preciso, y su gran habilidad para batear la pelota consistentemente.\n\nDurante su carrera atlética sobresaliente, él lideró valientemente a su equipo para ganar dos campeonatos masivos de la Serie Mundial. ¡También logró exactamente 3.000 hits durante su último partido, que es un récord gigante y extremadamente raro en toda la historia del béisbol! Sin embargo, su largo viaje hacia el éxito ciertamente no fue fácil. Cuando jugaba deportes en los Estados Unidos, él experimentó un racismo terrible y problemas muy difíciles con el idioma. A pesar de este trato injusto, él hablaba español con orgullo en la televisión nacional y exigía ferozmente respeto igualitario para todos los jugadores latinos y negros de la liga.\n\nFuera del campo de béisbol, Roberto era un héroe verdadero y desinteresado que constantemente gastaba su propio dinero y su precioso tiempo libre ayudando a las comunidades pobres en América Latina y el Caribe. En diciembre de 1972, un terremoto terrible y destructivo destruyó grandes partes de Nicaragua. Roberto organizó rápidamente un vuelo lleno de comida esencial, ropa y medicina para ayudar a las víctimas desesperadas. Trágicamente, su avión pesado se estrelló en el océano oscuro, y él murió a los 38 años. Por su gran talento atlético y su corazón increíblemente grande, fue el primer jugador latino elegido para el Salón de la Fama del Béisbol.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué isla del Caribe nació el jugador legendario Roberto Clemente?",
+          "¿Para qué equipo jugó él durante toda su carrera profesional?",
+          "¿Por qué características atléticas era muy famoso en el campo de béisbol?",
+          "¿Cuántos hits logró él en su carrera, marcando un récord gigante?",
+          "¿Qué problemas y dificultades experimentó él en los Estados Unidos?",
+          "¿Qué llevaba él en su avión para ayudar a las víctimas en Nicaragua?",
+          "¿Qué honor histórico e importante recibió él por su gran talento y corazón?"
+        ],
+        "answerKey": [
+          "En Puerto Rico.",
+          "Para los Pittsburgh Pirates.",
+          "Por su brazo increíblemente fuerte y preciso, y su gran habilidad para batear.",
+          "Exactamente 3.000 hits.",
+          "Un racismo terrible y problemas muy difíciles con el idioma.",
+          "Comida esencial, ropa y medicina.",
+          "Fue el primer jugador latino elegido para el Salón de la Fama del Béisbol."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Roberto Clemente no solo fue un beisbolista extraordinario dotado de un talento deslumbrante, sino también un pionero incansable de los derechos civiles y un verdadero mártir de la filantropía internacional. Originario del municipio de Carolina, Puerto Rico, Clemente superó innumerables obstáculos para consolidarse como la estrella indiscutible de los Pittsburgh Pirates, equipo con el que disputó dieciocho exitosas temporadas en las Grandes Ligas. Custodiando magistralmente el jardín derecho, poseía uno de los brazos más potentes, certeros y temidos en toda la historia del deporte, ganando doce premios Guante de Oro consecutivos.\n\nA nivel ofensivo, su consistencia era legendaria. Alcanzó la mítica y codiciada cifra de 3.000 imparables (hits) exactamente en su último turno al bate de la temporada regular, y lideró valientemente a su franquicia hacia la conquista de dos campeonatos de la Serie Mundial. Más allá del diamante, Clemente enfrentó con admirable estoicismo y dignidad la severa discriminación racial y las injustas barreras idiomáticas imperantes en la sociedad estadounidense de la época. Se convirtió en un férreo y elocuente defensor de la igualdad, exigiendo respeto absoluto y equidad de condiciones para todos los peloteros hispanohablantes y afroamericanos.\n\nSu profunda e inquebrantable vocación de servicio lo impulsaba a realizar constantes y silenciosas obras de caridad en beneficio de las poblaciones más vulnerables del Caribe y Centroamérica. Lamentablemente, su inspiradora vida llegó a un final trágico y prematuro en la víspera de Año Nuevo de 1972. Mientras transportaba personalmente toneladas de suministros de emergencia para socorrer a las víctimas de un devastador terremoto en Managua, Nicaragua, su avión sobrecargado se precipitó fatalmente a las turbulentas aguas del océano Atlántico. Meses después, fue exaltado póstumamente al Salón de la Fama, inmortalizando su imponente legado deportivo y humanitario para la posteridad.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué municipio puertorriqueño era originario este extraordinario beisbolista?",
+          "¿Con qué franquicia disputó dieciocho temporadas como estrella indiscutible?",
+          "¿Qué cifra mítica alcanzó a nivel ofensivo durante su carrera?",
+          "¿Qué problemáticas sociales enfrentó con valentía durante su época en Estados Unidos?",
+          "¿Para quiénes exigía constantemente dignidad y equidad en el deporte?",
+          "¿Qué tragedia provocó su muerte prematura en la víspera de Año Nuevo de 1972?",
+          "¿Por qué se considera a Roberto Clemente un mártir de la filantropía?"
+        ],
+        "answerKey": [
+          "Del municipio de Carolina, Puerto Rico.",
+          "Los Pittsburgh Pirates.",
+          "La mítica y codiciada cifra de 3.000 imparables (hits).",
+          "La severa discriminación racial y las injustas barreras idiomáticas imperantes.",
+          "Para todos los peloteros hispanohablantes y afroamericanos.",
+          "Su avión sobrecargado se precipitó fatalmente al océano Atlántico mientras transportaba suministros de emergencia.",
+          "Porque murió realizando obras de caridad (socorriendo a las víctimas de un terremoto en Nicaragua)."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Juan Soto",
+    "imageFileName": "juan_soto.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Juan Soto is a brilliant, powerful, and incredibly famous young professional baseball player originally from the Dominican Republic. He is widely considered by sports experts to be a true superstar and undoubtedly one of the absolute best hitters of his entire generation. Since he was just a little kid playing sports in his hometown, he deeply dreamed of moving to the United States and playing in the major leagues. He worked extremely hard every single day, and his enormous dream finally came true when he was only nineteen years old!\n\nHe made his big, historic professional debut playing the outfield for the Washington Nationals team. In the year 2019, when he was still just a teenager, his amazing hitting skills and intense focus helped the Nationals win the massive World Series championship! Fans absolutely love watching Juan Soto play in the stadium because he is very confident, smiles a lot, and has a truly great eye for the baseball. He is so disciplined that he almost never swings his bat at bad pitches, which means he gets to walk to first base very often and helps his team win games.\n\nHe is also highly famous on the internet for a unique, entertaining move called the \"Soto Shuffle.\" When the pitcher throws a bad pitch outside the strike zone, Soto does a funny little dance, slides his feet, and confidently stares directly at the pitcher to intimidate him! Today, he is one of the highest-paid, most talented, and most respected players in the entire world of béisbol. He constantly inspires young kids in Latin America to practice hard, believe in themselves, and play the game with intense passion and extreme confidence.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where is the young baseball superstar Juan Soto from?",
+          "How old was he when his dream of playing in the major leagues came true?",
+          "What team did he make his big debut with?",
+          "What huge championship did his team win in 2019?",
+          "Why does he get to walk to first base very often?",
+          "What is the \"Soto Shuffle\"?",
+          "What does he do to intimidate the pitcher?"
+        ],
+        "answerKey": [
+          "The Dominican Republic.",
+          "Nineteen years old.",
+          "The Washington Nationals.",
+          "The World Series.",
+          "Because he has a truly great eye for the baseball and almost never swings at bad pitches.",
+          "A unique, entertaining move or funny little dance he does when the pitcher throws a bad pitch.",
+          "He confidently stares directly at the pitcher."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Juan Soto es un jugador de béisbol profesional joven, poderoso e increíblemente famoso originalmente de la República Dominicana. Los expertos deportivos lo consideran ampliamente como una verdadera súper estrella y sin duda uno de los mejores bateadores absolutos de toda su generación. Desde que era solo un niño pequeño jugando deportes en su pueblo, él soñaba profundamente con mudarse a los Estados Unidos y jugar en las ligas mayores. Él trabajó extremadamente duro todos los días, ¡y su enorme sueño finalmente se hizo realidad cuando tenía solo diecinueve años!\n\nÉl hizo su gran e histórico debut profesional jugando en los jardines para el equipo de los Washington Nationals. En el año 2019, cuando todavía era solo un adolescente, ¡sus increíbles habilidades para batear y su concentración intensa ayudaron a los Nationals a ganar el campeonato masivo de la Serie Mundial! A los aficionados les encanta absolutamente mirar a Juan Soto jugar en el estadio porque tiene mucha confianza, sonríe mucho y tiene un ojo verdaderamente excelente para la pelota de béisbol. Él es tan disciplinado que casi nunca hace swing con su bate a los malos lanzamientos, lo que significa que camina a la primera base muy frecuentemente y ayuda a su equipo a ganar partidos.\n\nÉl también es muy famoso en internet por un movimiento único y entretenido llamado el \"Soto Shuffle\". Cuando el lanzador tira una pelota mala, ¡Soto hace un pequeño baile cómico, desliza sus pies y mira directamente al lanzador con confianza para intimidarlo! Hoy en día, es uno de los jugadores mejor pagados, más talentosos y más respetados en todo el mundo del béisbol. Él inspira a los niños en América Latina a practicar, creer en sí mismos y jugar con pasión.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué país caribeño es el joven jugador de béisbol Juan Soto?",
+          "¿A qué edad se hizo realidad su sueño de jugar en las ligas mayores?",
+          "¿Con qué equipo de béisbol hizo su gran debut profesional?",
+          "¿Qué campeonato gigante e importante ganó su equipo en el año 2019?",
+          "¿Por qué recibe Juan Soto muchas bases por bolas durante los partidos?",
+          "¿Cómo se llama el famoso y único movimiento de baile que él hace?",
+          "¿A quién mira Soto para intimidarlo cuando hace su pequeño baile?"
+        ],
+        "answerKey": [
+          "De la República Dominicana.",
+          "A los diecinueve años.",
+          "Los Washington Nationals.",
+          "El campeonato masivo de la Serie Mundial.",
+          "Porque tiene un ojo verdaderamente excelente y casi nunca hace swing a los malos lanzamientos.",
+          "El \"Soto Shuffle\".",
+          "Al lanzador (lo mira directamente con confianza)."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Juan Soto es un auténtico prodigio dominicano del béisbol moderno, ampliamente catalogado por analistas y veteranos del deporte como uno de los bateadores más completos, temidos y talentosos de su generación a nivel mundial. Nacido en la ciudad de Santo Domingo, su ascenso meteórico y espectacular a las Grandes Ligas es verdaderamente digno de admiración. Tras firmar como prospecto internacional, debutó en la máxima categoría con los Washington Nationals a la prematura edad de diecinueve años, deslumbrando inmediatamente a los aficionados con su madurez.\n\nLejos de dejarse intimidar por su inexperiencia o la inmensa presión de los estadios repletos, Soto demostró un aplomo asombroso en el plato. Se convirtió rápidamente en el motor ofensivo indispensable que impulsó a la franquicia capitalina a conquistar su histórico campeonato de la Serie Mundial en la temporada de 2019. Lo que distingue verdaderamente a Soto de otros toleteros corpulentos no es solo su descomunal poder para batear cuadrangulares, sino su disciplina de hierro, su paciencia táctica y su extraordinaria agudeza visual. Posee una capacidad casi robótica para discernir bolas de strikes en fracciones de segundo, lo que le permite liderar constantemente la liga en bases por bolas recibidas.\n\nAdemás de su excelencia técnica, Soto ha popularizado el infame e icónico \"Soto Shuffle\", un peculiar, provocativo y desafiante baile de pies que realiza meticulosamente en la caja de bateo tras dejar pasar un mal lanzamiento. Este elaborado ritual funciona como una efectiva táctica de guerra psicológica diseñada para frustrar, desconcentrar e intimidar a los lanzadores rivales más experimentados. Su carisma desbordante, su confianza inquebrantable y su impresionante consistencia ofensiva lo han consolidado indiscutiblemente como la cara brillante del futuro del béisbol profesional.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad nació este prodigio dominicano del béisbol moderno?",
+          "¿Con qué franquicia y a qué prematura edad debutó en las Grandes Ligas?",
+          "¿De qué logro colectivo fue el motor ofensivo durante la temporada de 2019?",
+          "¿Qué cualidad élite distingue a Soto de otros bateadores poderosos?",
+          "¿Qué habilidad específica le permite liderar constantemente la liga en bases por bolas?",
+          "¿Qué táctica de guerra psicológica realiza en la caja de bateo para intimidar al rival?",
+          "¿Cómo ha sido consolidado en el deporte gracias a su carisma y consistencia?"
+        ],
+        "answerKey": [
+          "En Santo Domingo.",
+          "Con los Washington Nationals a la prematura edad de diecinueve años.",
+          "La conquista del histórico campeonato de la Serie Mundial en 2019.",
+          "Su disciplina de hierro, su paciencia táctica y su extraordinaria agudeza visual.",
+          "Una capacidad casi robótica para discernir bolas de strikes en fracciones de segundo.",
+          "El infame e icónico \"Soto Shuffle\" (un peculiar, provocativo y desafiante baile de pies).",
+          "Como la cara brillante del futuro del béisbol profesional."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Pedro Almodóvar",
+    "imageFileName": "almodovar.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Pedro Almodóvar is undoubtedly one of the most famous, creative, and globally important film directors originating from España. He was born in a very small, quiet, and traditional rural town, but he decided to move to the vibrant, busy capital city of Madrid when he was a young man. In Madrid, during a time of massive cultural changes in the 1980s, he finally discovered his true, deep passion for writing fascinating stories and making completely original movies.\n\nHis creative movies are very unique, deeply emotional, and incredibly easy to recognize instantly. He absolutely loves to use very bright, bold, and intense colors in his movie sets and costumes, especially the bright color red, which represents strong passion. Instead of focusing on typical, boring action heroes, Pedro usually makes deep movies about strong, complex, emotional, and very funny women. His leading actresses are so internationally famous and respected that fans and journalists everywhere affectionately call them the \"Chicas Almodóvar\" (Almodóvar Girls). Two of his absolute most famous actors are Penélope Cruz and Antonio Banderas, who successfully started their Hollywood careers with him!\n\nOver his long, impressive, and highly successful career, he has directed many incredible, beautiful films and has proudly won two highly prestigious Academy Awards, also known as Oscars! People all over the entire world deeply love watching his Spanish movies because they honestly talk about deep human emotions, dark family secrets, heartbreak, and pure love. Pedro Almodóvar completely changed Spanish cinema forever by proudly showing the entire world a highly modern, open, artistic, and deeply colorful version of Spain that nobody had ever seen before on the big screen.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where is the famous film director Pedro Almodóvar from?",
+          "What vibrant city did he move to when he was young?",
+          "What bright color does he love to use in his movies?",
+          "Who are usually the main characters in his unique films?",
+          "What special nickname do fans give to his famous actresses?",
+          "What two famous actors started their careers with him?",
+          "How many Academy Awards has he won?"
+        ],
+        "answerKey": [
+          "España.",
+          "Madrid.",
+          "The bright color red.",
+          "Strong, complex, emotional, and very funny women.",
+          "\"Chicas Almodóvar\" (Almodóvar Girls).",
+          "Penélope Cruz and Antonio Banderas.",
+          "Two."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Pedro Almodóvar es, sin duda, uno de los directores de cine más famosos, creativos y globalmente importantes originarios de España. Él nació en un pueblo rural muy pequeño, tranquilo y tradicional, pero decidió mudarse a la vibrante y ocupada ciudad capital de Madrid cuando era un hombre joven. En Madrid, durante un tiempo de cambios culturales masivos en la década de los ochenta, él finalmente descubrió su verdadera y profunda pasión por escribir historias fascinantes y hacer películas completamente originales.\n\nSus películas creativas son muy únicas, profundamente emocionales e increíblemente fáciles de reconocer al instante. A él le encanta absolutamente usar colores muy brillantes, intensos y fuertes en sus estudios de cine y en la ropa, especialmente el color rojo brillante, que representa la pasión fuerte. En lugar de enfocarse en los héroes de acción típicos y aburridos, Pedro normalmente hace películas profundas sobre mujeres fuertes, complejas, emocionales y muy cómicas. ¡Sus actrices principales son tan famosas y respetadas internacionalmente que los aficionados y periodistas en todas partes las llaman cariñosamente las \"Chicas Almodóvar\"! Dos de sus actores más famosos son Penélope Cruz y Antonio Banderas, quienes empezaron sus carreras exitosas de Hollywood con él.\n\nDurante su carrera larga, impresionante y muy exitosa, ¡él ha dirigido muchas películas increíbles y hermosas, y ha ganado con orgullo dos Premios Óscar muy prestigiosos! A las personas de todo el mundo les encanta mirar sus películas españolas porque hablan honestamente sobre emociones humanas profundas, secretos oscuros de familia, el dolor y el amor puro. Pedro Almodóvar cambió completamente el cine español para siempre al mostrar con orgullo al mundo entero una versión de España muy moderna, abierta, artística y profundamente colorida.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué país europeo es el famoso director Pedro Almodóvar?",
+          "¿A qué ciudad vibrante se mudó él cuando era joven?",
+          "¿Qué color brillante le encanta usar en sus películas únicas?",
+          "¿Sobre quiénes hace películas Pedro normalmente?",
+          "¿Cómo llaman los aficionados a las famosas actrices de sus películas?",
+          "¿Qué dos actores famosos empezaron sus carreras con él?",
+          "¿Cuántos Premios Óscar ha ganado Pedro durante su larga carrera?"
+        ],
+        "answerKey": [
+          "De España.",
+          "A la ciudad capital de Madrid.",
+          "El color rojo brillante.",
+          "Sobre mujeres fuertes, complejas, emocionales y muy cómicas.",
+          "Las \"Chicas Almodóvar\".",
+          "Penélope Cruz y Antonio Banderas.",
+          "Dos Premios Óscar muy prestigiosos."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Pedro Almodóvar es un aclamado director, prolífico guionista y productor español, reconocido internacional y unánimemente como una de las figuras más trascendentales, innovadoras e influyentes del cine contemporáneo mundial. Tras abandonar su pequeño y conservador pueblo natal para mudarse a Madrid durante su agitada juventud, se convirtió rápidamente en un pionero fundamental de la célebre \"movida madrileña\". Este explosivo movimiento cultural, musical y contracultural surgió con fuerza avasalladora en las calles de la capital justo tras el fin de la dictadura y la estricta censura en España, brindándole a Almodóvar un lienzo de libertad absoluta para crear.\n\nSu inconfundible y magistral estilo cinematográfico se caracteriza visualmente por una paleta de colores sumamente saturados y vibrantes, donde el rojo pasión domina cada encuadre. Sus guiones entrelazan hábilmente un humor negro muy agudo, diálogos rápidos y fascinantes narrativas melodramáticas. Sus obras maestras se centran frecuentemente en explorar sin tapujos la profunda complejidad de la psicología femenina, otorgando un protagonismo absoluto a mujeres fuertes, ferozmente independientes, pasionales y, a menudo, marginadas de la sociedad tradicional. Sus actrices y musas recurrentes, conocidas popularmente en el gremio como las icónicas \"Chicas Almodóvar\", incluyen a estrellas internacionales de la talla de Penélope Cruz, Carmen Maura y el afamado actor Antonio Banderas.\n\nGalardonado merecidamente con dos codiciados Premios Óscar de la Academia de Hollywood, Almodóvar ha logrado un éxito rotundo e innegable tanto en la exigente crítica especializada como en la taquilla global. Al atreverse audazmente a romper tabúes sociales arraigados y explorar temas complejos de identidad, sexualidad y secretos familiares oscuros, su revolucionaria filmografía logró proyectar una imagen moderna, vanguardista y profundamente humana de la sociedad española hacia el resto del mundo.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué movimiento cultural madrileño fue pionero durante su juventud?",
+          "¿Qué evento histórico en España precedió el surgimiento de este movimiento contracultural?",
+          "¿Cuáles son tres características de su inconfundible estilo cinematográfico?",
+          "¿En qué temática profunda se centran frecuentemente sus obras maestras?",
+          "¿Qué nombre popular reciben las actrices que trabajan recurrentemente con él?",
+          "¿Qué dos prestigiosos galardones cinematográficos ha ganado a nivel internacional?",
+          "¿Qué imagen de la sociedad española proyectó su filmografía hacia el resto del mundo?"
+        ],
+        "answerKey": [
+          "De la célebre \"movida madrileña\".",
+          "El fin de la dictadura y la estricta censura en España.",
+          "Una paleta de colores sumamente saturados y vibrantes, humor negro muy agudo y fascinantes narrativas melodramáticas.",
+          "En explorar sin tapujos la profunda complejidad de la psicología femenina.",
+          "Las icónicas \"Chicas Almodóvar\".",
+          "Dos codiciados Premios Óscar de la Academia de Hollywood.",
+          "Una imagen moderna, vanguardista y profundamente humana."
+        ]
+      }
+    }
   }
 ]
