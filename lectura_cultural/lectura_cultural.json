@@ -76,7 +76,7 @@
   },
   {
     "topicName": "El Día de Muertos",
-    "imageFileName": "diademuertos.jpg",
+    "imageFileName": "diademuertos.png",
     "levels": {
       "level_1": {
         "tier": "Level 1 (English/Beginner)",
@@ -151,7 +151,7 @@
   },
   {
     "topicName": "La Tomatina",
-    "imageFileName": "tomatina.jpg",
+    "imageFileName": "tomatina.png",
     "levels": {
       "level_1": {
         "tier": "Level 1 (English/Beginner)",
