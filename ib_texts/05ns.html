@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Spanish Gym | Vista de Impresión IB</title>
+    <style>
+        /* Global Reset & Web View Styling */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        /* Light grey background for the web preview so the white pages pop */
+        body { 
+            background-color: #f0f0f0; 
+            font-family: 'Segoe UI', sans-serif; 
+            -webkit-print-color-adjust: exact; 
+        }
+        
+        /* US Letter Sizing - Web View */
+        .page {
+            width: 8.5in;
+            min-height: 11in;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.15);
+            padding: 0.5in 0.6in;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Grouping Logic: Keeps sections from splitting across pages */
+        .question-section-wrapper, .question-row, .instruction-block, .options-box, .key-item, .key-section-wrapper {
+            page-break-inside: avoid !important;
+            break-inside: avoid !important;
+        }
+
+        /* Watermark: Applied to Reading Pages */
+        .has-watermark::before {
+            content: ""; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            width: 80%; height: 80%;
+            background-image: url('https://raw.githubusercontent.com/scottscalici/spanishgym/main/images/spanishgymbw.png'); 
+            background-repeat: no-repeat; background-position: center; background-size: contain;
+            opacity: 0.05; z-index: 0;
+        }
+
+        /* Header & Typography */
+        .header { display: flex; justify-content: space-between; font-size: 0.9rem; font-weight: bold; margin-bottom: 1.5rem; }
+        .name-line { width: 220px; border-bottom: 1px solid #000; display: inline-block; margin-left: 8px; }
+        h1 { text-align: center; font-size: 1.25rem; margin-bottom: 1rem; }
+        h2 { font-size: 1.1rem; border-bottom: 2px solid #000; padding-bottom: 5px; margin-bottom: 15px; margin-top: 20px;}
+
+        /* Reading Section: Grid removed to reclaim horizontal space */
+        .reading-section { 
+            position: relative; 
+            z-index: 1; 
+        }
+        
+        /* Reading Text formatting: Page break logic added here */
+        .reading-text p { 
+            font-size: 1.05rem; 
+            line-height: 1.6rem; 
+            margin-bottom: 1.2rem; 
+            text-indent: 2rem; 
+            text-align: justify; 
+            /* Forces the browser to move the whole paragraph to the next page instead of splitting it */
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+
+        /* Question Layouts */
+        .instruction-block { background: #f4f4f4; padding: 10px; margin-bottom: 15px; font-weight: bold; border-left: 4px solid #333; }
+        .options-box { 
+            border: 2px solid #ccc; padding: 15px; margin-bottom: 20px; 
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; 
+            background-color: #fafafa;
+        }
+        .question-row { margin-bottom: 15px; }
+        .blank-box { border: 1px solid #000; height: 30px; width: 40px; display: inline-block; flex-shrink: 0; }
+        .blank-line { border-bottom: 1px dashed #000; height: 1.2rem; width: 100%; margin-top: 5px; }
+
+        /* Answer Key */
+        .answer-key-header { color: #d93025; text-align: center; font-weight: bold; font-size: 1.4rem; border: 2px dashed #d93025; padding: 10px; margin-bottom: 20px;}
+        .key-grid { column-count: 2; column-gap: 30px; }
+        .key-item { 
+            background: #fdfdfd; padding: 8px; border-left: 3px solid #d93025; margin-bottom: 10px; 
+            display: inline-block; width: 100%; break-inside: avoid;
+        }
+        .key-ans { color: #d93025; font-weight: bold; font-family: monospace; }
+
+        /* Print Specifics */
+        @media print {
+            body { background-color: white; }
+            @page { margin: 0.6in; }
+            .page {
+                width: 100%; margin: 0; padding: 0; box-shadow: none; 
+                page-break-after: always;
+            }
+            .page:last-child { page-break-after: auto; }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="document-container"></div>
+
+    <script>
+        // Update this URL to whichever JSON set you wish to print
+        const targetJson = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/ib_texts/ib_textos5ns.json';
+
+        window.onload = () => {
+            fetch(targetJson)
+                .then(res => res.json())
+                .then(data => {
+                    const container = document.getElementById('document-container');
+                    const title = data.worksheet.title;
+
+                    // 1. Reading Pages (Line numbers removed)
+                    data.worksheet.texts.forEach(t => container.appendChild(renderReading(t, title)));
+                    
+                    // 2. Question Pages
+                    data.worksheet.texts.forEach(t => container.appendChild(renderQuestions(t, title)));
+                    
+                    // 3. Answer Key
+                    container.appendChild(renderKey(data));
+                })
+                .catch(err => console.error("Error loading JSON:", err));
+        };
+
+        function renderReading(t, title) {
+            const p = document.createElement('div');
+            p.className = 'page has-watermark';
+            p.innerHTML = `
+                <div class="header">
+                    <div>NOMBRE: <span class="name-line"></span></div>
+                    <div>${title}</div>
+                </div>
+                <h1>${t.title}</h1>
+                <div class="reading-section">
+                    <div class="reading-text">${t.paragraphs.map(txt => `<p>${txt}</p>`).join('')}</div>
+                </div>`;
+            return p;
+        }
+
+        function renderQuestions(t, title) {
+            const p = document.createElement('div');
+            p.className = 'page';
+            let content = t.question_sections.map(s => {
+                let opts = s.options ? `<div class="options-box">${Object.entries(s.options).map(([k,v])=>`<div><strong>${k}:</strong> ${v}</div>`).join('')}</div>` : '';
+                let qs = s.questions.map(q => renderQRow(q, s.type)).join('');
+                return `<div class="question-section-wrapper"><div class="instruction-block">${s.instructions}</div>${opts}${qs}</div>`;
+            }).join('');
+            
+            p.innerHTML = `
+                <div class="header">
+                    <div>NOMBRE: <span class="name-line"></span></div>
+                    <div>${title}</div>
+                </div>
+                <h2>Preguntas: ${t.title}</h2>
+                ${content}`;
+            return p;
+        }
+
+        function renderQRow(q, type) {
+            switch(type) {
+                case 'matching':
+                case 'fill_in_the_blank':
+                    return `
+                        <div class="question-row" style="display: flex; align-items: center; gap: 12px; margin-bottom: 15px; page-break-inside: avoid;">
+                            <div class="blank-box"></div>
+                            <div style="width: 30px;"><b>${q.number}.</b></div>
+                            <div style="flex-grow: 1;">${q.prompt}</div>
+                        </div>`;
+                
+                case 'true_false_justification':
+                    return `
+                        <div class="question-row" style="margin-bottom: 30px; page-break-inside: avoid;">
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                                <div style="padding-right: 20px; line-height: 1.4;">
+                                    <b>${q.number}.</b> ${q.prompt}
+                                </div>
+                                <div style="text-align: center; flex-shrink: 0;">
+                                    <div style="margin-bottom: 4px; font-size: 0.95rem;">
+                                        <span style="display: inline-block; width: 85px;">Verdadero</span>
+                                        <span style="display: inline-block; width: 60px;">Falso</span>
+                                    </div>
+                                    <div style="font-family: monospace; font-size: 1.1rem; font-weight: bold;">
+                                        <span style="display: inline-block; width: 85px;">[ &nbsp;&nbsp; ]</span>
+                                        <span style="display: inline-block; width: 60px;">[ &nbsp;&nbsp; ]</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="margin-top: 15px; display: flex; flex-direction: column; gap: 14px;">
+                                <div style="display: flex; align-items: flex-end; gap: 10px;">
+                                    <span>Justificación:</span>
+                                    <div style="border-bottom: 2px dotted #333; flex-grow: 1; height: 1rem;"></div>
+                                </div>
+                                <div style="border-bottom: 2px dotted #333; width: 100%; height: 1rem;"></div>
+                                <div style="border-bottom: 2px dotted #333; width: 100%; height: 1rem;"></div>
+                            </div>
+                        </div>`;
+                
+                case 'multiple_choice':
+                    let optsHtml = '';
+                    if(q.options) {
+                        optsHtml = Object.entries(q.options).map(([key, val]) => 
+                            `<div style="margin-left: 30px; margin-top: 6px;"><span>${key}. ${val}</span></div>`
+                        ).join('');
+                    }
+                    return `
+                        <div class="question-row" style="margin-bottom: 20px; page-break-inside: avoid;">
+                            <div><b>${q.number}.</b> ${q.prompt}</div>
+                            <div class="mcq-options">${optsHtml}</div>
+                        </div>`;
+
+                case 'multiple_select':
+                    let multiBoxes = `<div class="blank-box" style="margin-right: 15px;"></div>`.repeat(5);
+                    return `
+                        <div class="question-row" style="margin-bottom: 20px; page-break-inside: avoid;">
+                            <div><b>${q.number}.</b> ${q.prompt}</div>
+                            <div style="margin-top: 15px; margin-left: 30px;">${multiBoxes}</div>
+                        </div>`;
+
+                case 'short_answer':
+                case 'reference':
+                case 'synonym_search':
+                default:
+                    return `
+                        <div class="question-row" style="margin-bottom: 20px; page-break-inside: avoid;">
+                            <div><b>${q.number}.</b> ${q.prompt}</div>
+                            <div class="blank-line"></div>
+                        </div>`;
+            }
+        }
+
+        function renderKey(data) {
+            const p = document.createElement('div');
+            p.className = 'page';
+            let content = data.worksheet.texts.map(t => {
+                let ans = t.question_sections.flatMap(s => s.questions).map(q => `
+                    <div class="key-item">
+                        <span style="width: 40px; display: inline-block;"><b>${q.number}.</b></span>
+                        <span class="key-ans">${q.answer}</span>
+                    </div>`).join('');
+                
+                // Added the .key-section-wrapper class here to prevent page breaking inside the block
+                return `
+                    <div class="key-section-wrapper" style="margin-bottom: 25px;">
+                        <div style="font-weight: bold; border-bottom: 1px solid #eee; margin-bottom: 10px; color: #b71c1c;">${t.title}</div>
+                        <div class="key-grid">${ans}</div>
+                    </div>`;
+            }).join('');
+            p.innerHTML = `<div class="answer-key-header">CLAVE DE RESPUESTAS</div>${content}`;
+            return p;
+        }
+    </script>
+</body>
+</html>
