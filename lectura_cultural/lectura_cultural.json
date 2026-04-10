@@ -1273,5 +1273,305 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "Shakira",
+    "imageFileName": "shakira.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Shakira is undeniably one of the most famous, influential, and successful Latin American singers in the entire world. She was born in Barranquilla, a vibrant and bustling city located on the beautiful Caribbean coast of Colombia. From a very young age, she absolutely loved music, art, and writing her own poetry. In fact, she wrote her very first original song when she was only eight years old! Shakira is incredibly famous for her unique, powerful voice and her amazing ability to belly dance. Her beautiful dancing is actually a special and proud tribute to her family's Lebanese roots and heritage.\n\nThroughout her long and highly impressive career, she has released many massive hit canciones in both English and Spanish, like the catchy songs \"Hips Don't Lie\" and \"Waka Waka.\" Her unique music mixes modern pop, classic rock, and traditional Latin rhythms perfectly, creating a sound that everyone loves. She has performed at enormous global events, including the World Cup and the Super Bowl halftime show. Shakira has won multiple Grammy awards and has sold millions of albums to her dedicated fans all over the globe.\n\nBesides being a massive pop star and a talented dancer, Shakira is also a deeply dedicated philanthropist who wants to improve the world. She created a wonderful charity foundation called Pies Descalzos to specifically help poor and vulnerable children in Colombia get a high-quality education and healthy, nutritious food every day. She truly believes that education is the absolute best way to fight poverty and change the world. Millions of fans love her not only for her catchy música, but also for her enormous heart and her deep pride in her Colombian cultura.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where was Shakira born?",
+          "What did she love doing from a very young age?",
+          "What is her belly dancing a tribute to?",
+          "What are the titles of two of her hit canciones?",
+          "What is the name of her charity foundation?",
+          "Who does her foundation help in Colombia?",
+          "What does she believe is the best way to change the world?"
+        ],
+        "answerKey": [
+          "Barranquilla (Colombia).",
+          "Music, art, and writing her own poetry.",
+          "Her family's Lebanese roots and heritage.",
+          "\"Hips Don't Lie\" and \"Waka Waka\".",
+          "Pies Descalzos.",
+          "Poor and vulnerable children in Colombia.",
+          "Education."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Shakira es indiscutiblemente una de las cantantes latinoamericanas más famosas, influyentes y exitosas de todo el mundo. Ella nació en Barranquilla, una ciudad muy vibrante y ocupada que está ubicada en la hermosa costa caribeña de Colombia. Desde una edad muy joven, a ella le encantaba la música, el arte y escribir su propia poesía. ¡De hecho, ella escribió su primera canción original cuando tenía solo ocho años! Shakira es muy famosa por su voz única y fuerte, y por su habilidad increíble para bailar la danza del vientre. Su baile hermoso es en realidad un tributo especial y orgulloso a las raíces libanesas de su familia.\n\nDurante su larga e impresionante carrera, ella ha cantado muchas canciones populares y exitosas en inglés y español, como \"Hips Don't Lie\" y \"Waka Waka\". Su música única mezcla el pop moderno, el rock clásico y los ritmos latinos tradicionales perfectamente, creando un sonido que a todos les encanta. Ella ha cantado en eventos globales enormes, como la Copa del Mundo y el medio tiempo del Super Bowl. Shakira ha ganado múltiples premios Grammy y ha vendido millones de álbumes a sus aficionados dedicados por todo el mundo.\n\nAdemás de ser una estrella de pop gigante y una bailarina talentosa, Shakira es una persona muy generosa que quiere mejorar el mundo. Ella creó una fundación caritativa maravillosa que se llama Pies Descalzos para ayudar específicamente a los niños pobres y vulnerables en Colombia a recibir una buena educación y comida saludable todos los días. Ella cree firmemente que la educación es la mejor manera de combatir la pobreza y cambiar el mundo. A millones de aficionados les encanta Shakira por su gran corazón.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad de Colombia nació la cantante Shakira?",
+          "¿A qué edad escribió ella su primera canción original?",
+          "¿Qué tipo de baile especial hace ella como tributo a su familia?",
+          "¿En qué dos idiomas canta Shakira sus canciones exitosas?",
+          "¿Cómo se llama la fundación caritativa maravillosa que ella creó?",
+          "¿A quiénes ayuda su fundación con educación y comida saludable?",
+          "¿Por qué les encanta Shakira a millones de aficionados?"
+        ],
+        "answerKey": [
+          "En Barranquilla.",
+          "A los ocho años.",
+          "La danza del vientre.",
+          "En inglés y español.",
+          "Pies Descalzos.",
+          "A los niños pobres y vulnerables en Colombia.",
+          "Por su música, su gran corazón y su orgullo por su cultura colombiana."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Shakira es indiscutiblemente una de las artistas latinoamericanas más influyentes, icónicas y galardonadas a nivel mundial, habiendo dejado una huella imborrable en la industria musical. Oriunda de Barranquilla, una ciudad bulliciosa y pintoresca situada en la costa caribeña de Colombia, demostró una afinidad innata por las artes y la literatura desde su más tierna infancia. Compuso su primera canción original a la asombrosa edad de ocho años y rápidamente desarrolló un estilo sumamente distintivo. Es mundialmente célebre por su inconfundible tono vocal, su versatilidad compositiva y su magistral dominio de la danza del vientre, una destreza cautivadora que rinde un profundo homenaje a su herencia libanesa.\n\nA lo largo de su prolífica y extraordinaria trayectoria, ha fusionado magistralmente elementos del pop contemporáneo, el rock en español y diversos ritmos folclóricos latinos para crear un sonido verdaderamente universal. Temas icónicos y contagiosos como \"Hips Don't Lie\" y el himno oficial mundialista \"Waka Waka\" han cimentado definitivamente su estatus como una superestrella global sin fronteras. Ha deslumbrado a multitudes en escenarios colosales, desde múltiples Copas del Mundo hasta el aclamado espectáculo de medio tiempo del Super Bowl, acumulando innumerables premios Grammy y rompiendo récords de ventas en todos los continentes.\n\nMás allá de sus innumerables éxitos en las listas de popularidad y su innegable talento artístico, Shakira se destaca admirablemente por su incansable labor filantrópica. Fundó la prestigiosa organización Pies Descalzos, una iniciativa noble dedicada a proveer educación de alta calidad, infraestructura escolar y nutrición adecuada a niños en situación de extrema vulnerabilidad en Colombia. Con una convicción firme de que la educación es el motor fundamental del cambio social, Shakira sigue sirviendo como un faro de inspiración y esperanza.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué ciudad costera de Colombia es oriunda esta influyente artista?",
+          "¿A qué herencia cultural rinde homenaje con su dominio de la danza del vientre?",
+          "¿Qué géneros musicales ha fusionado magistralmente a lo largo de su trayectoria?",
+          "¿Cuáles son dos de los temas icónicos mencionados que cimentaron su estatus global?",
+          "¿Cuál es el propósito principal de la prestigiosa organización Pies Descalzos?",
+          "¿De qué está firmemente convencida Shakira respecto al cambio social?",
+          "¿Qué impacto sigue teniendo ella en las nuevas generaciones de artistas y personas vulnerables?"
+        ],
+        "answerKey": [
+          "De Barranquilla.",
+          "A su herencia libanesa.",
+          "El pop contemporáneo, el rock en español y diversos ritmos folclóricos latinos.",
+          "\"Hips Don't Lie\" y \"Waka Waka\".",
+          "Proveer educación de alta calidad, infraestructura escolar y nutrición a niños en situación de extrema vulnerabilidad en Colombia.",
+          "Que la educación es el motor fundamental del cambio social.",
+          "Sirve como un faro de inspiración y esperanza."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Juanes",
+    "imageFileName": "juanes.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Juanes is a highly successful and incredibly talented Colombian musician, singer, and songwriter who is famous all over the world for his catchy rock and pop songs. He was born in the beautiful, mountainous city of Medellín, Colombia. When he was just seven years old, his father and older brothers taught him how to play the guitarra. He instantly fell in love with the acoustic instrument and practiced every single day, eventually deciding that music was his true passion in life.\n\nHis music is very special and completely unique because it perfectly mixes classic rock and roll sounds with traditional Colombian folk rhythms, like vallenato and cumbia. This creative mix makes people want to dance immediately. One of his most famous canciones is called \"La Camisa Negra,\" which became a massive, chart-topping hit in many different countries across the globe. He has sold millions of albums and has won more than twenty Latin Grammy Awards, making him one of the most decorated Latin artists in history. But Juanes is not just a talented rock star; he is also a deeply passionate activist.\n\nHe created a powerful organization called Paz Sin Fronteras, which translates to Peace Without Borders. He frequently organizes giant, free outdoor concerts to bring thousands of people together and safely protest against violence and political conflicts in Latin America. Juanes strongly believes that music is a universal language. He uses his powerful voice and his guitar to spread important messages of love, unity, and hope to young people. Millions of loyal fans deeply respect him for his amazing musical talent and his deep dedication to making the world a safer, better place.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where was the musician Juanes born?",
+          "How old was he when his family taught him to play the guitarra?",
+          "What kind of traditional Colombian rhythms does he mix with rock?",
+          "What is the title of one of his most famous canciones?",
+          "What is the name of the peace organization he created?",
+          "What does he organize to protest against violence in Latin America?",
+          "What messages does he spread with his voice and his guitar?"
+        ],
+        "answerKey": [
+          "Medellín, Colombia.",
+          "Seven years old.",
+          "Vallenato and cumbia.",
+          "\"La Camisa Negra\".",
+          "Paz Sin Fronteras (Peace Without Borders).",
+          "Giant, free outdoor concerts.",
+          "Messages of love, unity, and hope."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Juanes es un músico, cantante y compositor colombiano muy exitoso e increíblemente talentoso que es famoso en todo el mundo por sus canciones de rock y pop. Él nació en la hermosa y montañosa ciudad de Medellín, Colombia. Cuando tenía solo siete años, su padre y sus hermanos mayores le enseñaron a tocar la guitarra. Él se enamoró instantáneamente del instrumento acústico y practicó todos los días, decidiendo finalmente que la música era su verdadera pasión en la vida.\n\nSu música es muy especial y completamente única porque mezcla perfectamente los sonidos del rock clásico con los ritmos tradicionales y folclóricos de Colombia, como el vallenato y la cumbia. Esta mezcla creativa hace que las personas quieran bailar inmediatamente. Una de sus canciones más famosas se llama \"La Camisa Negra\", que fue un éxito gigante y masivo en muchos países diferentes por todo el mundo. Él ha vendido millones de álbumes y ha ganado más de veinte premios Latin Grammy, siendo uno de los artistas latinos más premiados de la historia.\n\nPero Juanes no es solo una estrella de rock talentosa; él también es un activista muy apasionado. Él creó una organización poderosa que se llama Paz Sin Fronteras. Frecuentemente, él organiza conciertos gigantes y gratis al aire libre para unir a miles de personas y protestar pacíficamente contra la violencia en América Latina. Juanes cree firmemente que la música es un idioma universal. Él usa su voz poderosa y su guitarra para compartir mensajes importantes de amor, unidad y esperanza. Millones de aficionados leales lo respetan mucho por su gran talento musical y su dedicación para hacer del mundo un lugar más seguro y mejor.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad de Colombia nació el exitoso músico Juanes?",
+          "¿Qué instrumento aprendió a tocar cuando tenía solo siete años?",
+          "¿Qué ritmos tradicionales colombianos mezcla Juanes con la música rock?",
+          "¿Cómo se llama una de sus canciones más populares y famosas?",
+          "¿Cómo se llama la organización que él creó para ayudar a la sociedad?",
+          "¿Para qué organiza él conciertos gigantes y gratis en América Latina?",
+          "¿Qué mensajes importantes comparte Juanes usando su voz y su guitarra?"
+        ],
+        "answerKey": [
+          "En Medellín, Colombia.",
+          "La guitarra.",
+          "El vallenato y la cumbia.",
+          "\"La Camisa Negra\".",
+          "Paz Sin Fronteras.",
+          "Para unir a miles de personas y protestar pacíficamente contra la violencia.",
+          "Mensajes de amor, unidad y esperanza."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Juanes es un cantautor y guitarrista colombiano de inmenso prestigio internacional, ampliamente reconocido por revitalizar y transformar el panorama del rock y el pop en español. Nacido en la pintoresca y montañosa ciudad de Medellín, descubrió su innegable vocación musical a la temprana edad de siete años cuando sus familiares le enseñaron a tocar la guitarra. Este instrumento acústico se convertiría rápidamente en su compañero inseparable, impulsándolo a dedicar su vida entera a la composición y la expresión artística.\n\nLa verdadera genialidad de su propuesta musical radica en la fusión magistral e innovadora de potentes acordes de rock contemporáneo con ritmos folclóricos autóctonos de Colombia, tales como la cumbia y el vallenato. Temas emblemáticos y sumamente pegadizos como \"La Camisa Negra\" o \"A Dios le Pido\" lo catapultaron a la fama global, encabezando las listas de éxitos en múltiples continentes. Su destreza le ha valido el reconocimiento de la crítica, acumulando más de dos decenas de premios Grammy Latinos, consolidando su envidiable posición como uno de los artistas hispanohablantes más galardonados de todos los tiempos.\n\nSin embargo, su profundo impacto trasciende ampliamente los escenarios musicales; Juanes es un ferviente y comprometido activista social por la paz. Es el principal impulsor de la iniciativa filantrópica Paz Sin Fronteras, mediante la cual organiza multitudinarios conciertos gratuitos al aire libre con el noble propósito de conciliar naciones fracturadas y alzar la voz contra los conflictos armados en la región. Armado únicamente con su inconfundible talento y su guitarra, se ha consolidado como un auténtico embajador de la reconciliación y la hermandad, utilizando su vasta plataforma mediática para promover un mensaje inquebrantable de esperanza, justicia y paz duradera.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad descubrió Juanes su vocación musical a temprana edad?",
+          "¿En qué radica exactamente la genialidad de su propuesta artística y musical?",
+          "¿Qué ritmos folclóricos autóctonos incorpora frecuentemente en sus composiciones de rock?",
+          "¿Qué tema emblemático lo catapultó a la fama global en múltiples continentes?",
+          "¿Cuál es el propósito principal de la iniciativa social Paz Sin Fronteras?",
+          "¿Qué herramienta utiliza para conciliar naciones y alzar la voz contra los conflictos?",
+          "¿A qué inspira su perdurable legado y su plataforma mediática a incontables jóvenes?"
+        ],
+        "answerKey": [
+          "En Medellín.",
+          "En la fusión magistral e innovadora de potentes acordes de rock contemporáneo con ritmos folclóricos autóctonos.",
+          "La cumbia y el vallenato.",
+          "\"La Camisa Negra\" (o \"A Dios le Pido\").",
+          "Conciliar naciones fracturadas y alzar la voz contra los conflictos armados en la región.",
+          "Organiza multitudinarios conciertos gratuitos al aire libre (armado con su talento y su guitarra).",
+          "Promueve un mensaje inquebrantable de esperanza, justicia y paz duradera."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Bad Bunny",
+    "imageFileName": "bad_bunny.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Bad Bunny is a massive global superstar, a cultural icon, and undoubtedly one of the most famous and successful musicians in the entire world today. He was born on the beautiful Caribbean island of Puerto Rico, and his real name is Benito Antonio Martínez Ocasio. Before he became a wealthy and famous superstar, his life was very normal. He actually worked bagging groceries at a local supermarket while studying at a university and uploading his original songs to the internet in his free time.\n\nHis totally unique música is a fascinating mix of Latin trap and rhythmic reggaeton. He quickly became incredibly popular because of his deep, instantly recognizable voice, his extremely catchy beats, and his highly emotional lyrics that connect with young people. Bad Bunny has broken countless streaming records during his amazing career. In fact, he achieved something truly historic: he was the absolute most streamed artist on the entire planet on Spotify for three several years in a row! He has collaborated with giant global stars like Drake, Cardi B, and J Balvin, bringing Spanish-language music to the absolute top of the worldwide charts.\n\nBesides his amazing and energetic music, millions of fans deeply love him for his bold, creative, and highly colorful fashion choices. He wears whatever he wants and confidently ignores traditional, old-fashioned rules about how men should dress. He also actively uses his massive global platform to bravely speak out about important social issues, political corruption, and human rights in Puerto Rico. Bad Bunny proves to his fans that you can be completely authentic, proudly express your true self, and still reach the absolute highest level of the global music industry.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where was the global superstar Bad Bunny born?",
+          "What was he doing for work before he became a famous musician?",
+          "What two types of music does he mix to create his unique sound?",
+          "What incredible streaming record did he hold for several years in a row?",
+          "Who are two giant stars that he has collaborated with?",
+          "What do fans love about his bold and colorful fashion?",
+          "What does he use his massive platform to speak out about?"
+        ],
+        "answerKey": [
+          "Puerto Rico.",
+          "He worked bagging groceries at a local supermarket.",
+          "Latin trap and reggaeton.",
+          "He was the most streamed artist on the entire planet on Spotify.",
+          "Drake, Cardi B, and J Balvin (any two).",
+          "He wears whatever he wants and confidently ignores traditional rules about how men should dress.",
+          "Important social issues, political corruption, and human rights in Puerto Rico."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Bad Bunny es una súper estrella global masiva, un ícono cultural y, sin duda, uno de los músicos más famosos y exitosos de todo el mundo hoy en día. Él nació en la hermosa isla caribeña de Puerto Rico, y su nombre real es Benito Antonio Martínez Ocasio. Antes de ser una súper estrella rica y famosa, su vida era muy normal. En realidad, él trabajó empacando comida en un supermercado local mientras estudiaba en la universidad y publicaba sus canciones originales en internet durante su tiempo libre.\n\nSu música totalmente única es una mezcla fascinante de trap latino y reguetón rítmico. Él se hizo increíblemente popular muy rápidamente por su voz profunda y reconocible, sus ritmos divertidos y sus letras muy emocionales que conectan con los jóvenes. Bad Bunny ha roto muchísimos récords en internet durante su carrera increíble. De hecho, logró algo verdaderamente histórico: ¡fue el artista más escuchado de todo el planeta en Spotify por tres años consecutivos! Él ha cantado con estrellas globales gigantes como Drake, Cardi B y J Balvin, llevando la música en español a la cima del mundo.\n\nAdemás de su música increíble y llena de energía, a millones de aficionados les encanta su ropa creativa, atrevida y de muchos colores. Él lleva la ropa que quiere e ignora con confianza las reglas tradicionales y antiguas sobre la moda de los hombres. También usa activamente su fama masiva para hablar con valentía sobre problemas sociales importantes, la corrupción política y los derechos humanos en Puerto Rico. Bad Bunny demuestra a sus admiradores que puedes ser completamente auténtico, expresar tu verdadera personalidad y llegar al nivel más alto de la industria musical.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué isla caribeña nació la súper estrella global Bad Bunny?",
+          "¿Dónde trabajaba Benito antes de publicar sus canciones originales y ser famoso?",
+          "¿Qué dos estilos de música urbana mezcla para crear sus ritmos únicos?",
+          "¿Qué récord impresionante tuvo él en internet por varios años consecutivos?",
+          "¿Con qué otros artistas famosos y gigantes ha cantado durante su carrera?",
+          "¿Por qué es muy diferente y especial la ropa que lleva Bad Bunny?",
+          "¿Para qué usa él su fama masiva en su país de Puerto Rico?"
+        ],
+        "answerKey": [
+          "En Puerto Rico.",
+          "En un supermercado local (empacando comida).",
+          "Trap latino y reguetón.",
+          "Fue el artista más escuchado de todo el planeta en Spotify.",
+          "Drake, Cardi B y J Balvin.",
+          "Lleva la ropa que quiere e ignora con confianza las reglas tradicionales sobre la moda.",
+          "Para hablar con valentía sobre problemas sociales importantes, la corrupción política y los derechos humanos."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Bad Bunny, cuyo verdadero nombre de pila es Benito Antonio Martínez Ocasio, es un fenómeno cultural indiscutible y uno de los exponentes más influyentes, revolucionarios y exitosos de la música urbana contemporánea a nivel global. Originario de la vibrante isla de Puerto Rico, sus inicios fueron sumamente humildes y terrenales; empacaba compras en un supermercado local y asistía a la universidad mientras subía apasionadamente sus composiciones independientes a plataformas digitales como SoundCloud, esperando su gran oportunidad.\n\nCon un estilo musical inconfundible y vanguardista que fusiona magistralmente el trap latino pesado y el reguetón clásico, cautivó rápidamente a las masas. Su éxito arrollador se debe a su inusual tono de voz barítono, sus ritmos sumamente contagiosos y sus letras desinhibidas que abordan la vulnerabilidad emocional. Su impacto cuantitativo en la industria es monumental y sin precedentes, habiéndose coronado históricamente como el artista más reproducido a nivel mundial en Spotify durante tres años consecutivos. Ha protagonizado colaboraciones estelares con figuras anglosajonas de talla internacional como Drake y Cardi B, derribando barreras idiomáticas y llevando el español a la cúspide indiscutible de las listas globales.\n\nParalelamente a su arrollador éxito musical, Bad Bunny ha revolucionado audazmente la moda masculina, desafiando constantemente las rígidas normas de género establecidas con su indumentaria extravagante, faldas, uñas pintadas y accesorios llamativos. Además, ejerce un activismo vocal y valiente, utilizando su colosal influencia mediática para denunciar la corrupción política sistémica y visibilizar las problemáticas sociales que aquejan a su amado Puerto Rico. Es el epítome absoluto de la autenticidad en la era digital moderna. Su perdurable legado demuestra que mantenerse fiel a sus raíces caribeñas es la clave principal del éxito internacional.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cuál es el nombre de pila de este indiscutible fenómeno cultural puertorriqueño?",
+          "¿Cómo fueron sus inicios laborales antes de alcanzar la fama en plataformas digitales?",
+          "¿Qué géneros urbanos fusiona magistralmente para crear su estilo inconfundible?",
+          "¿Qué hito monumental logró en las plataformas de streaming a nivel mundial?",
+          "¿Qué aspecto de las normas sociales ha desafiado a través de su indumentaria extravagante?",
+          "¿Qué problemáticas denuncia utilizando su colosal influencia mediática en su país natal?",
+          "¿Qué demuestra su rotundo éxito internacional respecto a sus raíces caribeñas y su autenticidad?"
+        ],
+        "answerKey": [
+          "Benito Antonio Martínez Ocasio.",
+          "Empacaba compras en un supermercado local.",
+          "El trap latino pesado y el reguetón clásico.",
+          "Se coronó históricamente como el artista más reproducido a nivel mundial en Spotify durante tres años consecutivos.",
+          "Las rígidas normas de género establecidas.",
+          "La corrupción política sistémica y las problemáticas sociales que aquejan a su amado Puerto Rico.",
+          "Que mantenerse fiel a sus raíces caribeñas es la clave principal del éxito internacional."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Textiles Peruanos",
+    "imageFileName": "textiles_peruanos.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Authentic Peruvian textiles are incredibly famous all around the entire world for their stunningly bright colors, beautiful geometric patterns, and rich cultural history. For thousands of years, indigenous people living in the high mountains of Perú have woven these intricate and gorgeous fabrics using the lana, or wool, of local alpacas, llamas, and vicuñas. These special Andean animals live very high up in the freezing, windy mountains, which means that their thick wool is naturally incredibly warm, highly durable, and luxuriously soft to the touch.\n\nThe highly skilled weavers, who are mostly dedicated women, strongly prefer not to use modern, artificial chemicals to color their soft yarn. Instead, they carefully use natural dyes made directly from the earth. They collect local plants, special colorful minerals, and even tiny bugs called cochineal insects to create deeply vibrant shades of brilliant red, deep blue, forest green, and sunny yellow. Every single geometric design and woven pattern tells a very special and important story. The woven shapes represent meaningful things like the local agriculture, the beautiful surrounding nature, and ancient, powerful myths passed down from their historical ancestors.\n\nMaking these beautiful textiles takes a massive amount of physical time, incredibly hard work, and extreme personal patience. The talented weavers use traditional wooden strap looms, tying the strings to their bodies just like their grandmothers and great-grandmothers did centuries ago. Today, lucky tourists traveling from all over the globe absolutely love to buy these traditional ponchos, heavy winter blankets, and colorful woven bags in the lively local markets so they can take a beautiful piece of authentic Peruvian art home with them to remember their amazing trip.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "What are Peruvian textiles famous for around the world?",
+          "What animals provide the lana for the fabrics?",
+          "Why is the wool from these animals so incredibly warm?",
+          "What do the weavers use to make the natural dyes?",
+          "What do the geometric designs and patterns represent?",
+          "What kind of tools do the weavers use to make the textiles?",
+          "What are three things tourists love to buy in the local markets?"
+        ],
+        "answerKey": [
+          "Stunningly bright colors, beautiful geometric patterns, and rich cultural history.",
+          "Local alpacas, llamas, and vicuñas.",
+          "Because the animals live very high up in the freezing, windy mountains.",
+          "Local plants, special colorful minerals, and tiny bugs called cochineal insects.",
+          "Meaningful things like the local agriculture, surrounding nature, and ancient myths.",
+          "Traditional wooden strap looms.",
+          "Traditional ponchos, heavy winter blankets, and colorful woven bags."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Los textiles peruanos auténticos son increíblemente famosos en todo el mundo por sus colores impresionantes y brillantes, sus hermosos diseños geométricos y su rica historia cultural. Por miles de años, las personas indígenas que viven en las altas montañas de Perú han tejido estas telas complicadas y preciosas usando la lana de las alpacas, llamas y vicuñas locales. Estos animales andinos especiales viven muy alto en las montañas frías y ventosas, lo que significa que su lana gruesa es naturalmente muy caliente, muy duradera y lujosamente suave al tacto.\n\nLas tejedoras muy expertas, que son principalmente mujeres dedicadas, prefieren no usar químicos modernos y artificiales para dar color a su lana suave. En cambio, ellas usan cuidadosamente tintes naturales hechos directamente de la tierra. Ellas recogen plantas locales, minerales especiales de colores e incluso insectos diminutos llamados cochinillas para crear tonos muy vibrantes de rojo brillante, azul profundo, verde bosque y amarillo soleado. Cada diseño geométrico y patrón tejido cuenta una historia muy especial e importante. Las formas tejidas representan cosas significativas como la agricultura local, la hermosa naturaleza que las rodea y los mitos antiguos y poderosos de sus ancestros históricos.\n\nHacer estos hermosos textiles toma una cantidad masiva de tiempo físico, trabajo increíblemente duro y paciencia personal extrema. Las tejedoras talentosas usan telares tradicionales de madera, atando las cuerdas a sus cuerpos exactamente como lo hacían sus abuelas y bisabuelas hace muchos siglos. Hoy en día, a los turistas afortunados que viajan de todo el mundo les encanta comprar estos ponchos tradicionales, mantas pesadas de invierno y bolsas tejidas de muchos colores en los mercados locales llenos de vida para llevar una hermosa obra de arte a casa.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Por qué son famosos los textiles peruanos en todo el mundo?",
+          "¿De qué animales andinos viene la lana para las telas?",
+          "¿Por qué no usan químicos modernos y artificiales las tejedoras expertas?",
+          "¿De dónde sacan los colores naturales para teñir la lana?",
+          "¿Qué historias especiales cuentan los diferentes diseños geométricos?",
+          "¿Cómo es el proceso de hacer estos textiles tradicionales?",
+          "¿Adónde van los turistas afortunados para comprar los ponchos y las mantas?"
+        ],
+        "answerKey": [
+          "Por sus colores impresionantes y brillantes, hermosos diseños geométricos y rica historia cultural.",
+          "De las alpacas, llamas y vicuñas locales.",
+          "Porque usan cuidadosamente tintes naturales hechos directamente de la tierra.",
+          "De plantas locales, minerales especiales e insectos diminutos llamados cochinillas.",
+          "Cosas significativas como la agricultura local, la naturaleza y los mitos antiguos de sus ancestros.",
+          "Toma mucho tiempo, trabajo increíblemente duro, paciencia extrema, y usan telares tradicionales de madera.",
+          "A los mercados locales llenos de vida."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Los textiles peruanos constituyen una majestuosa manifestación artística de renombre mundial, profundamente admirados por su deslumbrante y viva paleta de colores, su innegable complejidad técnica y su profundo arraigo histórico e identitario. Desde tiempos precolombinos, las hábiles y dedicadas tejedoras andinas han confeccionado estas valiosas y elaboradas prendas utilizando la preciada y abrigadora fibra de camélidos nativos como las alpacas, las llamas y las vicuñas. Dado que estos resilientes animales están perfectamente adaptados a las gélidas altitudes y los vientos cortantes de la cordillera, su lana resulta ser extraordinariamente cálida, resistente y de una suavidad incomparable.\n\nPara teñir los finos hilos, las artesanas rechazan categóricamente los químicos industriales modernos y emplean exclusivamente tintes cien por cien naturales extraídos directamente de su entorno. Estos pigmentos orgánicos se procesan laboriosamente a partir de raíces, hojas secas, minerales molidos y de un insecto parasitario llamado cochinilla, logrando tonalidades vibrantes de una intensidad cromática asombrosa. Lejos de ser meramente decorativos, los elaborados patrones geométricos y motivos iconográficos funcionan como un lenguaje visual sumamente complejo que narra con orgullo la cosmovisión andina, los intrincados ciclos agrícolas y las ricas leyendas de sus antepasados.\n\nLa confección meticulosa de cada tapiz, chullo o poncho tradicional en rudimentarios telares de cintura requiere un nivel de destreza, dedicación y paciencia inagotables, conocimientos sagrados que han sido celosamente transmitidos de generación en generación. Hoy en día, esta milenaria y admirable tradición textil sigue más viva y vibrante que nunca. Los textiles no solo sostienen la economía de innumerables comunidades rurales, sino que maravillan constantemente a los turistas internacionales que visitan los pintorescos mercados artesanales en busca de adquirir un pedazo auténtico del patrimonio vivo del Perú.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Por qué características son admirados mundialmente los textiles peruanos?",
+          "¿Qué tipo de fibra animal utilizan las hábiles tejedoras andinas?",
+          "¿De dónde se extraen laboriosamente los tintes cien por cien naturales?",
+          "¿Qué tipo de insecto se utiliza específicamente para lograr ciertas tonalidades?",
+          "¿Qué narra el lenguaje visual complejo de los motivos iconográficos?",
+          "¿Qué instrumento tradicional utilizan las artesanas para confeccionar las prendas?",
+          "¿Qué beneficios económicos y culturales aportan estos textiles en la actualidad?"
+        ],
+        "answerKey": [
+          "Por su deslumbrante paleta de colores, innegable complejidad técnica y profundo arraigo histórico e identitario.",
+          "La preciada y abrigadora fibra de camélidos nativos como las alpacas, las llamas y las vicuñas.",
+          "Se extraen directamente de su entorno (a partir de raíces, hojas secas, minerales molidos y cochinilla).",
+          "Un insecto parasitario llamado cochinilla.",
+          "La cosmovisión andina, los intrincados ciclos agrícolas y las ricas leyendas de sus antepasados.",
+          "Rudimentarios telares de cintura.",
+          "Sostienen la economía de comunidades rurales y maravillan a los turistas que buscan el patrimonio vivo del Perú."
+        ]
+      }
+    }
   }
 ]
