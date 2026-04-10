@@ -1,0 +1,265 @@
+{
+  "worksheet": {
+    "title": "Práctica de Lectura IB: Nivel Superior (Modelo 5)",
+    "texts": [
+      {
+        "text_id": "A",
+        "title": "Texto A — La evolución del trabajo moderno: Nómadas y nuevas jornadas",
+        "paragraphs": [
+          "El concepto tradicional del mundo laboral, anclado durante más de un siglo a la oficina física y al horario estricto, está experimentando una transformación estructural sin precedentes. Tras el catalizador que supuso la pandemia global, el teletrabajo se consolidó en numerosas corporaciones multinacionales y dio origen a la figura del 'nómada digital': profesionales altamente cualificados que utilizan la tecnología para trabajar desde cualquier rincón del planeta. España, [ – 1 – ] su excelente clima, su rica y variada gastronomía, y su robusta infraestructura de fibra óptica, se ha convertido en el destino predilecto de miles de estos trabajadores internacionales que buscan maximizar su calidad de vida.",
+          "La llegada de estos profesionales extranjeros está teniendo un impacto profundamente dual. Por un lado, representa un balón de oxígeno para la llamada 'España vaciada'. Numerosos pueblos pequeños y zonas rurales, que llevaban décadas sufriendo una dolorosa fuga de cerebros y perdiendo población joven, ven en los nómadas digitales una oportunidad única de supervivencia demográfica. [ – 2 – ], la apertura de espacios de trabajo compartido o 'coworking', junto con la llegada de estos nuevos consumidores, está revitalizando la economía local, salvando de la quiebra a negocios familiares como panaderías, cafeterías y pequeños talleres artesanales.",
+          "Sin embargo, en la otra cara de la moneda, este fenómeno genera intensos debates y fracturas sociales en las grandes urbes costeras. En ciudades como Málaga, Valencia o Barcelona, la altísima demanda de viviendas por parte de trabajadores extranjeros con un poder adquisitivo muy superior al promedio nacional ha provocado que el mercado inmobiliario colapse y el precio del alquiler se dispare exponencialmente. [ – 3 – ], miles de residentes locales, cuyos sueldos se mantienen estancados, se ven forzados a abandonar los barrios céntricos donde crecieron para exiliarse a la periferia urbana, sufriendo un agresivo proceso de gentrificación.",
+          "Paralelamente a esta revolución geográfica, en el panorama empresarial español está cobrando fuerza otro gran experimento laboral: la implementación de la semana laboral de cuatro días. Apoyadas por subsidios gubernamentales, diversas empresas pioneras están realizando pruebas piloto para reducir la jornada de cuarenta a treinta y dos horas semanales, sin disminuir en absoluto el salario de sus empleados. Los primeros estudios sociológicos indican que esta audaz medida no solo reduce el agotamiento crónico (burnout) y mejora la salud mental, [ – 4 – ] que, sorprendentemente, optimiza los procesos internos y aumenta la productividad neta de la compañía."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 1–4: Completar espacios en blanco. Elige de la lista el conector apropiado para rellenar los espacios en el texto. Hay más opciones de las necesarias.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "Como consecuencia",
+              "B": "sino",
+              "C": "A pesar de",
+              "D": "gracias a",
+              "E": "En cambio",
+              "F": "Además",
+              "G": "Por lo tanto"
+            },
+            "questions": [
+              { "number": 1, "prompt": "Espacio [ – 1 – ]", "answer": "D", "points": 1 },
+              { "number": 2, "prompt": "Espacio [ – 2 – ]", "answer": "F", "points": 1 },
+              { "number": 3, "prompt": "Espacio [ – 3 – ]", "answer": "A", "points": 1 },
+              { "number": 4, "prompt": "Espacio [ – 4 – ]", "answer": "B", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 5–7: Identificación de referencia. ¿A qué se refieren las siguientes palabras en el texto?",
+            "type": "reference",
+            "questions": [
+              { "number": 5, "prompt": "estos trabajadores (párrafo 1)", "answer": "nómadas digitales", "points": 1 },
+              { "number": 6, "prompt": "cuyos (párrafo 3)", "answer": "residentes locales", "points": 1 },
+              { "number": 7, "prompt": "esta audaz medida (párrafo 4)", "answer": "la semana laboral de cuatro días (o: reducir la jornada a treinta y dos horas)", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 8–11: Verdadero o Falso con justificación. Marca si la afirmación es verdadera (V) o falsa (F) y justifica tu respuesta usando las palabras exactas del texto. Ambas partes son necesarias para obtener el punto.",
+            "type": "true_false_justification",
+            "questions": [
+              { "number": 8, "prompt": "Las áreas rurales de España han estado ganando mucha población joven durante las últimas décadas.", "answer": "F, llevaban décadas sufriendo una dolorosa fuga de cerebros y perdiendo población joven", "points": 1 },
+              { "number": 9, "prompt": "El poder económico de los nómadas digitales suele ser mayor que el de un ciudadano español común.", "answer": "V, con un poder adquisitivo muy superior al promedio nacional", "points": 1 },
+              { "number": 10, "prompt": "Las personas que trabajan cuatro días a la semana reciben menos dinero en sus nóminas.", "answer": "F, sin disminuir en absoluto el salario de sus empleados", "points": 1 },
+              { "number": 11, "prompt": "Trabajar menos horas a la semana perjudica el rendimiento y las ganancias de las empresas.", "answer": "F, optimiza los procesos internos y aumenta la productividad neta de la compañía", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 12–13: Respuestas cortas. Contesta basándote en el texto con la menor cantidad de palabras posible.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 12, "prompt": "Según el primer párrafo, ¿a qué dos cosas estuvo atado el trabajo tradicional durante mucho tiempo? (1 punto)", "answer": "a la oficina física y al horario estricto", "points": 1 },
+              { "number": 13, "prompt": "¿Quién proporciona ayuda económica a las empresas que prueban el nuevo horario de cuatro días? (1 punto)", "answer": "subsidios gubernamentales (el gobierno)", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "B",
+        "title": "Texto B — Costa Rica: El triunfo del paradigma verde",
+        "paragraphs": [
+          "Durante la turbulenta década de 1980, Costa Rica se encontraba al borde de una catástrofe ecológica irreversible: ostentaba una de las tasas de deforestación más alarmantes de toda América Latina. Cientos de miles de hectáreas de bosque tropical virgen desaparecían anualmente, devoradas por la maquinaria pesada para dar paso a la agricultura intensiva de exportación y a la ganadería extensiva. Sin embargo, en un momento crítico, la nación centroamericana decidió dar un volantazo legislativo sin precedentes y apostó su futuro a un modelo económico completamente innovador: el ecoturismo sostenible. Hoy, Costa Rica es aclamada mundialmente como el estándar de oro en la conservación ambiental.",
+          "El ecoturismo, a diferencia del turismo tradicional de sol y playa, no consiste simplemente en viajar a un entorno natural para fotografiarlo, sino en hacerlo con un profundo sentido de responsabilidad ética. Su misión principal es minimizar drásticamente la huella de carbono del visitante y canalizar directamente los ingresos hacia la protección activa de la flora y fauna endémicas. En la actualidad, más del veinticinco por ciento del territorio costarricense goza del estatus legal de parque nacional o reserva biológica. Este escudo protector permite que millones de turistas observen jaguares, perezosos y tortugas baulas en libertad, financiando con el pago de sus entradas las patrullas forestales que combaten la caza furtiva.",
+          "El engranaje más brillante de este modelo ha sido la reinserción económica de las comunidades rurales. Históricamente, las familias locales dependían de la tala ilegal de árboles finos para subsistir. A través de agresivos programas de educación estatal, los antiguos madereros comprendieron una nueva realidad financiera: un árbol en pie y un tucán vivo generan muchas más divisas a lo largo de los años que si son destruidos y vendidos una sola vez. En consecuencia, miles de campesinos se han recapacitado como guías naturalistas bilingües de élite, y las aldeas han prosperado estableciendo pequeños complejos de hospedaje, conocidos como 'eco-lodges', que funcionan casi exclusivamente con paneles solares y sistemas de recolección de agua de lluvia.",
+          "No obstante, el éxito masivo nunca está exento de ironías y peligros. El volumen desmesurado de vuelos internacionales y la llegada masiva de ecoturistas amenazan ahora con saturar la capacidad de carga biológica de los parques más icónicos, como Manuel Antonio o Monteverde, perturbando los ciclos de apareamiento de los animales silvestres. El reto titánico para el gobierno en la próxima década será imponer límites estrictos de aforo y diversificar las rutas de viaje, garantizando que el afán por admirar el paraíso natural no termine, paradójicamente, por destruirlo."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 14–17: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para cada párrafo. Hay más opciones de las necesarias.",
+            "type": "matching",
+            "options": {
+              "A": "La amenaza oculta de la sobreexposición",
+              "B": "El fin definitivo de la pobreza centroamericana",
+              "C": "Una filosofía de viaje basada en el respeto y el financiamiento",
+              "D": "Reentrenamiento laboral y la nueva visión del valor del bosque",
+              "E": "La prohibición gubernamental de poseer animales domésticos",
+              "F": "El dramático giro de un país al borde del colapso natural"
+            },
+            "questions": [
+              { "number": 14, "prompt": "Párrafo 1", "answer": "F", "points": 1 },
+              { "number": 15, "prompt": "Párrafo 2", "answer": "C", "points": 1 },
+              { "number": 16, "prompt": "Párrafo 3", "answer": "D", "points": 1 },
+              { "number": 17, "prompt": "Párrafo 4", "answer": "A", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 18–21: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 18, "prompt": "elogiada / reconocida con entusiasmo (párrafo 1)", "answer": "aclamada", "points": 1 },
+              { "number": 19, "prompt": "propias y exclusivas de una región (párrafo 2)", "answer": "endémicas", "points": 1 },
+              { "number": 20, "prompt": "monedas extranjeras / ingresos económicos (párrafo 3)", "answer": "divisas", "points": 1 },
+              { "number": 21, "prompt": "exagerado / sin medida (párrafo 4)", "answer": "desmesurado", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 22–24: Opción múltiple. Elige la respuesta correcta (A, B, C o D).",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 22,
+                "prompt": "Según el párrafo 2, ¿cuál es uno de los usos directos del dinero que pagan los turistas al entrar a los parques?",
+                "options": {
+                  "A": "Construir aeropuertos en medio de la selva.",
+                  "B": "Pagar a los guardias que protegen a los animales de los cazadores ilegales.",
+                  "C": "Alimentar a los jaguares y perezosos con comida importada.",
+                  "D": "Subvencionar los hoteles de cinco estrellas en la capital."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 23,
+                "prompt": "¿Qué aprendieron los antiguos taladores de árboles gracias a la educación estatal (párrafo 3)?",
+                "options": {
+                  "A": "Que la madera fina ya no tenía ningún valor en el mercado europeo.",
+                  "B": "Que mantener la naturaleza intacta les proporciona ingresos constantes a largo plazo.",
+                  "C": "Que debían mudarse a las ciudades para encontrar trabajos en la construcción.",
+                  "D": "Que la recolección de agua de lluvia es la única forma de agricultura posible."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 24,
+                "prompt": "¿Cuál es la 'ironía' que se menciona en el párrafo 4 respecto al éxito de Costa Rica?",
+                "options": {
+                  "A": "Que los turistas ahora prefieren visitar la ciudad en lugar de la selva.",
+                  "B": "Que las personas que cuidaron la naturaleza están siendo expulsadas del país.",
+                  "C": "Que el exceso de turistas atraídos por la ecología podría terminar arruinando el ecosistema.",
+                  "D": "Que los animales silvestres se están acostumbrando a vivir en los hoteles modernos."
+                },
+                "answer": "C",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 25–26: Respuestas cortas. Contesta usando las palabras exactas del texto.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 25, "prompt": "¿Qué dos grandes industrias causaron la destrucción de los bosques en los años 80? (1 punto)", "answer": "la agricultura intensiva (de exportación) y la ganadería extensiva", "points": 1 },
+              { "number": 26, "prompt": "Menciona dos fuentes de energía o recursos sostenibles que utilizan los 'eco-lodges'. (1 punto)", "answer": "paneles solares y sistemas de recolección de agua (de lluvia)", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — El guardián de los olvidados",
+        "paragraphs": [
+          "La ciudad vieja estaba sepultada bajo un manto de niebla tan espesa que las farolas de gas parecían espectros flotando en la oscuridad. Julián caminaba encogiéndose dentro de su abrigo, huyendo del viento helado que se colaba por las callejuelas adoquinadas. Fue entonces cuando la vio. La fachada de madera de roble oscuro casi se camuflaba con las sombras del callejón. Sobre la puerta, un letrero de latón oxidado rezaba con caligrafía gótica: 'Librería Sempere: El Refugio de las Almas'. Sin saber muy bien por qué, empujó la pesada puerta, haciendo tintinear una campanilla de bronce que rompió el silencio de la madrugada.",
+          "El interior olía a vainilla seca, a polvo mágico y a siglos de secretos. Los estantes se elevaban como rascacielos de papel hasta un techo que se perdía en la penumbra, atestados de volúmenes en idiomas que Julián no sabía siquiera que existían. En el centro de aquel laberinto literario, iluminado por la débil luz de un candelabro, se encontraba un anciano de rostro surcado por profundas arrugas, cuyos ojos brillaban con una lucidez inquietante. 'Llegas tarde, muchacho', murmuró el viejo, sin apartar la mirada de un enorme tomo encuadernado en cuero escarlata. 'Este ejemplar te ha estado esperando durante setenta años'.",
+          "Julián se acercó, paralizado por una mezcla de terror y fascinación. El anciano deslizó el libro por la mesa de madera tallada. Al abrirlo, Julián descubrió que las páginas no estaban impresas con tinta de imprenta, sino cubiertas de una letra manuscrita, nerviosa y apresurada. Era un diario. Pero lo que hizo que la sangre se le helara en las venas fue la primera frase, escrita con tinta azul desteñida: 'A mi querido nieto Julián, para que recuerdes la verdad cuando la niebla intente borrar nuestra historia'. Su abuelo había desaparecido misteriosamente antes de que él naciera, dejando tras de sí un vacío devorador en la familia.",
+          "'Esta no es una tienda, hijo mío', susurró el librero, levantándose con la lentitud propia de los monumentos antiguos. 'Las personas creen que los libros se escriben para contar historias a los vivos. Se equivocan. Los libros son trampas de papel. Cada vez que alguien lee una página con verdadera pasión, deja atrapado un fragmento de su propia alma entre las líneas. Yo no vendo palabras; yo custodio los ecos de quienes ya no tienen voz'. El anciano cerró los ojos, como si estuviera escuchando un coro de susurros provenientes de las estanterías.",
+          "Julián apretó el libro contra su pecho. De repente, sintió una calidez impropia de un objeto inanimado, como si un corazón latiera tímidamente debajo del cuero escarlata. Comprendió que aquel no era simplemente un relato sobre su abuelo, sino que su abuelo *estaba* allí, esperándolo en la prisión de la memoria. Cuando salió del refugio y volvió a pisar el frío asfalto de la calle, se dio la vuelta para observar la fachada una última vez. Pero allí no había más que un muro ciego de ladrillos húmedos. La librería se había desvanecido en la niebla, entregándole el único tesoro que justificaba su existencia."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 27–30: Selección múltiple. Selecciona las CUATRO frases verdaderas basándote en el texto literario. Escribe las letras (A-H) en las opciones.",
+            "type": "multiple_select",
+            "options": {
+              "A": "Julián estaba buscando la librería específicamente porque tenía la dirección exacta.",
+              "B": "El clima en el exterior era extremadamente frío y con muy poca visibilidad.",
+              "C": "El anciano librero parecía conocer a Julián antes de que este se presentara.",
+              "D": "El libro de cuero escarlata era una novela de ciencia ficción muy famosa.",
+              "E": "La dedicatoria del libro estaba dirigida a Julián de parte de un familiar desaparecido.",
+              "F": "El librero afirma que su negocio genera mucho dinero vendiendo antigüedades.",
+              "G": "Según el anciano, los lectores depositan una parte de su esencia espiritual en los libros.",
+              "H": "Al final del relato, Julián regresa a la tienda al día siguiente para devolver el libro."
+            },
+            "questions": [
+              { "number": "27-30", "prompt": "Selecciona las 4 verdaderas", "answer": ["B", "C", "E", "G"], "points": 4 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 31–34: Opción múltiple literaria. Elige la respuesta correcta basándote en el significado del texto.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 31,
+                "prompt": "En el párrafo 1, la descripción 'las farolas de gas parecían espectros flotando en la oscuridad' sirve para crear una atmósfera que es principalmente:",
+                "options": {
+                  "A": "Romántica y nostálgica.",
+                  "B": "Fantasmal y misteriosa.",
+                  "C": "Peligrosa y sumamente violenta.",
+                  "D": "Moderna y tecnológicamente avanzada."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 32,
+                "prompt": "La reacción física de Julián ('la sangre se le helara en las venas') en el párrafo 3 demuestra que:",
+                "options": {
+                  "A": "el sistema de calefacción de la librería estaba estropeado.",
+                  "B": "se sintió profundamente impactado e indispuesto por su descubrimiento.",
+                  "C": "tenía mucho miedo de que el anciano le cobrara demasiado por el libro.",
+                  "D": "recordó de repente un terrible accidente de su infancia."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 33,
+                "prompt": "En el párrafo 4, la frase 'levantándose con la lentitud propia de los monumentos antiguos' es una metáfora que enfatiza:",
+                "options": {
+                  "A": "que el anciano estaba hecho de piedra.",
+                  "B": "la pereza y falta de energía del librero.",
+                  "C": "la venerabilidad, antigüedad y solemnidad del librero.",
+                  "D": "que el edificio estaba a punto de derrumbarse sobre ellos."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 34,
+                "prompt": "El final del relato (párrafo 5) sugiere fuertemente que la librería Sempere:",
+                "options": {
+                  "A": "es un negocio ambulante que cambia de calle todos los días.",
+                  "B": "fue destruida por un incendio justo cuando Julián salía.",
+                  "C": "es un lugar mágico que solo aparece para quienes necesitan encontrarla.",
+                  "D": "es una tapadera para un grupo de criminales organizados."
+                },
+                "answer": "C",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 35–37: Completar la oración basándose en el texto.",
+            "type": "matching",
+            "options": {
+              "A": "tenía páginas impresas en un idioma completamente desconocido.",
+              "B": "funcionaba como una cárcel emocional para preservar a los muertos.",
+              "C": "transmitía un calor similar al de un ser vivo latiendo.",
+              "D": "era una ilusión provocada por el cansancio y el viento gélido.",
+              "E": "se leía exclusivamente para pasar el rato en las tardes de invierno.",
+              "F": "buscaba proteger a su familia de las mentiras o el olvido."
+            },
+            "questions": [
+              { "number": 35, "prompt": "El mensaje dejado por el abuelo indica que él...", "answer": "F", "points": 1 },
+              { "number": 36, "prompt": "Según la filosofía del anciano librero, la lectura...", "answer": "B", "points": 1 },
+              { "number": 37, "prompt": "Julián se dio cuenta de que el libro de cuero escarlata...", "answer": "C", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 38–40: Búsqueda de sinónimos literarios. Encuentra las palabras en el texto que coincidan con estos significados.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 38, "prompt": "llenos por completo / abarrotados (párrafo 2)", "answer": "atestados", "points": 1 },
+              { "number": 39, "prompt": "libro grande y de mucho peso (párrafo 2)", "answer": "tomo", "points": 1 },
+              { "number": 40, "prompt": "desaparecido poco a poco en el aire (párrafo 5)", "answer": "desvanecido", "points": 1 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
