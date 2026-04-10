@@ -229,8 +229,8 @@
             return Array.from(checkboxes).map(cb => globalData[cb.value]);
         }
 
-        // --- PDF GENERATION ---
-        function generateSelectedPDFs() {
+// --- PDF GENERATION ---
+        async function generateSelectedPDFs() {
             const selected = getSelectedTopics();
             if(selected.length === 0) return alert("Selecciona al menos un tema.");
             
@@ -244,10 +244,13 @@
                     container.innerHTML += buildPDFPage(topic.topicName, imageUrl, topic.levels[level], true);
                 });
             });
+
+            // FIX: Wait for images to download before opening the print dialog
+            await waitForImages(container);
             window.print();
         }
 
-        function generateBundlePDF() {
+        async function generateBundlePDF() {
             const selected = getSelectedTopics();
             const bundleTitle = document.getElementById('bundle-title').value || "Spanish Cultural Readings Bundle";
             if(selected.length === 0) return alert("Selecciona temas para el bundle.");
@@ -273,9 +276,12 @@
                     container.innerHTML += buildPDFPage(topic.topicName, imageUrl, topic.levels[level], true);
                 });
             });
+
+            // FIX: Wait for images to download before opening the print dialog
+            await waitForImages(container);
             window.print();
         }
-
+    
         function buildPDFPage(title, imageUrl, levelData, isAnswerKey) {
             const paragraphs = levelData.readingText.split('\n').filter(p => p.trim() !== '');
             const formattedText = paragraphs.map(p => `<p>${p.trim()}</p>`).join('');
