@@ -1,1 +1,227 @@
-
+[
+  {
+    "topicName": "Los Moáis de la Isla de Pascua",
+    "imageFileName": "moais.jpg",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Easter Island, known in Spanish as la Isla de Pascua, is home to the famous Moai statues. This isolated isla belongs to Chile and sits far out in the Pacific Ocean. Hundreds of years ago, the indigenous people, called the Rapa Nui, carved these massive stone figures. The estatuas are incredibly heavy, featuring large heads and strong bodies. Some of them even have large red hats made of a different type of stone, called pukao. Almost all of the moai were carved in a special volcano crater called Rano Raraku. You can still see many unfinished estatuas there today. The statues were placed on stone platforms called ahu, facing inland to protect the villages. Today, their history remains a massive mystery. Scientists still do not fully understand how the Rapa Nui managed to move these heavy stones across the island without modern machines. Some legends say the statues walked to their places by magic. Many tourists travel to la isla every year to see the estatuas, explore the beautiful beaches, and learn about the fascinating cultura of the Rapa Nui. It is truly an amazing place to visit and explore. People must protect this special island so future generations can enjoy it.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where are the Moai located?",
+          "What country does la Isla de Pascua belong to?",
+          "Who carved the estatuas?",
+          "What are the large red hats called?",
+          "Where were almost all of the moai carved?",
+          "Why is it a mystery how they moved them?",
+          "Why do people travel to la isla?"
+        ],
+        "answerKey": [
+          "Easter Island / la Isla de Pascua.",
+          "Chile.",
+          "The Rapa Nui.",
+          "Pukao.",
+          "Rano Raraku (a volcano crater).",
+          "Scientists do not fully understand how they moved them without modern machines.",
+          "To see the statues, explore the beaches, and learn about the Rapa Nui culture."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Los moáis son estatuas gigantes y muy famosas que están en la Isla de Pascua. Esta isla especial es parte de Chile, pero está muy lejos de la costa, en el medio del océano Pacífico. Las personas indígenas de la isla se llaman los Rapa Nui. Hace muchos años, los Rapa Nui hicieron estas enormes estatuas de piedra volcánica. Los moáis son muy grandes y pesan muchísimo. Tienen cabezas grandes y cuerpos fuertes. Algunas estatuas también tienen sombreros rojos grandes en la cabeza. Casi todos los moáis se hicieron en un volcán especial llamado Rano Raraku. Hoy, los turistas pueden visitar el volcán y ver muchas estatuas incompletas allí. Los Rapa Nui pusieron las estatuas en plataformas de piedra para proteger sus pueblos. Hoy en día, la historia de los moáis es un gran misterio. Las personas y los científicos no saben exactamente cómo los Rapa Nui movieron estas estatuas tan pesadas por toda la isla sin usar máquinas modernas. Algunas leyendas locales dicen que las estatuas caminaron por arte de magia. Muchos turistas viajan a la Isla de Pascua todos los años para mirar las fascinantes estatuas y aprender sobre la cultura. Es muy importante proteger la isla.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde están los moáis y a qué país pertenece la isla?",
+          "¿Cómo se llaman las personas indígenas que hicieron las estatuas?",
+          "¿Cómo son físicamente las estatuas de los moáis?",
+          "¿Qué tienen algunas estatuas en la cabeza?",
+          "¿Dónde hicieron los Rapa Nui casi todas las estatuas?",
+          "¿Por qué es un gran misterio la historia de las estatuas hoy en día?",
+          "¿Por qué viajan muchas personas a la Isla de Pascua todos los años?"
+        ],
+        "answerKey": [
+          "Están en la Isla de Pascua, que pertenece a Chile.",
+          "Los Rapa Nui.",
+          "Son muy grandes, pesan muchísimo, tienen cabezas grandes y cuerpos fuertes.",
+          "Sombreros rojos grandes.",
+          "En un volcán especial llamado Rano Raraku.",
+          "Porque no saben cómo movieron estas estatuas tan pesadas sin usar máquinas modernas.",
+          "Para mirar las fascinantes estatuas y aprender sobre la cultura."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Los moáis son imponentes estatuas monolíticas que se encuentran esparcidas por la Isla de Pascua, un territorio chileno ubicado en la vasta inmensidad del océano Pacífico. Fueron talladas por los antiguos habitantes polinesios, los Rapa Nui, principalmente entre los siglos XIII y XVI. Estas gigantescas figuras de piedra volcánica, que a menudo superan los varios metros de altura, representan a los antepasados deificados y se colocaban sobre plataformas ceremoniales de piedra llamadas 'ahu'. Se creía que los moáis proyectaban 'mana', o poder espiritual, para proteger a las aldeas circundantes. La gran mayoría de estas esculturas fueron talladas en la cantera del volcán Rano Raraku, donde aún hoy yacen cientos de figuras inacabadas. Algunas estatuas incluso portan cilindros de escoria roja sobre sus cabezas, conocidos como 'pukao'. Aún hoy en día, el método exacto que utilizaron los nativos para transportar estos bloques colosales desde las canteras hasta la costa sigue siendo un enigma que fascina a arqueólogos de todo el mundo. A pesar de las numerosas teorías que sugieren el uso de cuerdas y troncos de madera para hacerlos 'caminar', el misterio perdura, atrayendo a miles de visitantes ansiosos por presenciar este legado ancestral invaluable.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde se encuentra ubicada la Isla de Pascua y a qué país pertenece?",
+          "¿Quiénes tallaron los moáis y en qué época histórica lo hicieron?",
+          "¿Qué es el 'mana' y cuál era el propósito de proyectarlo?",
+          "¿En qué lugar específico fueron talladas la gran mayoría de estas esculturas?",
+          "¿Qué nombre reciben los cilindros de escoria roja que portan algunas estatuas?",
+          "¿Cuál es el principal enigma arqueológico que sigue sin resolverse sobre los moáis?",
+          "¿Qué sugieren algunas de las numerosas teorías sobre cómo transportaron los bloques colosales?"
+        ],
+        "answerKey": [
+          "En el océano Pacífico; pertenece a Chile.",
+          "Los Rapa Nui, principalmente entre los siglos XIII y XVI.",
+          "Es poder espiritual; se proyectaba para proteger a las aldeas circundantes.",
+          "En la cantera del volcán Rano Raraku.",
+          "Pukao.",
+          "El método exacto que utilizaron para transportar los bloques colosales desde las canteras hasta la costa.",
+          "Sugieren el uso de cuerdas y troncos de madera para hacerlos 'caminar'."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Día de Muertos",
+    "imageFileName": "diademuertos.jpg",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The Day of the Dead, or el Día de Muertos, is a deeply meaningful celebration in México. It happens every year on November 1st and 2nd. On the first day, people remember the children, and on the second day, they honor the adults. During this special time, families remember their passed loved ones with love and joy. They build an ofrenda, or altar, inside their homes. They decorate the ofrenda with old photos, bright candles, traditional orange flores called cempasúchil, and colorful paper called papel picado. Families also prepare delicious food and the favorite drinks of the deceased. A very popular treat is el pan de muerto, a sweet traditional bread, and sugar skulls known as calaveras de azúcar. Families even go to the cemetery to clean the tombs, play guitar, and sing songs all night long. This holiday is not a sad event; instead, it is a colorful fiesta where people believe spirits return to visit. Monarch butterflies also arrive in Mexico during this time, and some believe they carry the souls of the departed. It is a beautiful way to honor memory, celebrate family history, and show that love continues.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "When is el Día de Muertos celebrated?",
+          "Who is remembered on the first day?",
+          "What is an ofrenda?",
+          "What is papel picado?",
+          "What are calaveras de azúcar?",
+          "What do families do at the cemetery at night?",
+          "Why do some believe monarch butterflies are important during this time?"
+        ],
+        "answerKey": [
+          "November 1st and 2nd.",
+          "The children.",
+          "An altar built inside homes to remember passed loved ones.",
+          "Colorful paper used for decoration.",
+          "Sugar skulls.",
+          "They clean the tombs, play guitar, and sing songs all night long.",
+          "Some believe they carry the souls of the departed."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El Día de Muertos es una celebración tradicional muy importante y bonita en México y en otros países latinoamericanos. Ocurre todos los años los días 1 y 2 de noviembre. El primer día es para recordar a los niños y el segundo día es para los adultos. Durante esta celebración especial, las familias recuerdan con mucho amor a las personas muertas. Ellos hacen un altar, o una ofrenda, en sus casas. Ponen muchas cosas especiales en la ofrenda para recordar a sus familiares, como fotos antiguas, velas brillantes, papel picado de muchos colores y unas flores anaranjadas tradicionales que se llaman cempasúchil. También preparan comida deliciosa, como tamales, y sirven la bebida favorita de la persona muerta. A muchas personas les gusta comer el pan de muerto, un pan dulce tradicional, y calaveras de azúcar. Por la noche, las familias van al cementerio para limpiar las tumbas y cantar canciones. Esta celebración no es un evento triste; al contrario, es una fiesta alegre con muchos colores, donde la gente cree que los espíritus regresan para visitar. Las personas se pintan la cara como esqueletos bonitos para celebrar la vida y la memoria de su familia.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cuándo celebran las personas el Día de Muertos en México?",
+          "¿Para quién es el primer día de la celebración?",
+          "¿Qué construyen las familias en sus casas para recordar a las personas muertas?",
+          "¿Qué cosas ponen en los altares o las ofrendas?",
+          "¿Qué hacen las familias en el cementerio por la noche?",
+          "¿Cómo se pintan la cara muchas personas durante la fiesta?",
+          "¿Por qué el Día de Muertos no es una celebración triste?"
+        ],
+        "answerKey": [
+          "Los días 1 y 2 de noviembre.",
+          "Para recordar a los niños.",
+          "Un altar, o una ofrenda.",
+          "Fotos antiguas, velas brillantes, papel picado y flores de cempasúchil.",
+          "Van para limpiar las tumbas y cantar canciones.",
+          "Como esqueletos bonitos.",
+          "Porque es una fiesta alegre con muchos colores donde la gente cree que los espíritus regresan para visitar."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El Día de Muertos es una festividad emblemática y profundamente arraigada en la cultura mexicana que rinde un emotivo homenaje a los difuntos. Celebrada el primero y el dos de noviembre, esta hermosa tradición fusiona armónicamente creencias indígenas prehispánicas con el catolicismo español impuesto durante la época colonial. Las familias construyen altares u ofrendas domésticas adornadas con papel picado que representa el viento, vibrantes flores de cempasúchil que guían a los espíritus con su aroma, veladoras y fotografías de sus seres queridos fallecidos. Un elemento gastronómico imprescindible es el pan de muerto, un bollo dulce cuyo intrincado diseño simboliza el ciclo ineludible de la vida y la muerte, acompañado de calaveritas de azúcar. Además de los altares en casa, las familias suelen visitar los panteones durante la noche para limpiar las tumbas, adornarlas y velar a sus muertos acompañados de música de mariachi y anécdotas compartidas. Lejos de ser una fecha caracterizada por el luto o la tristeza paralizante, es una conmemoración festiva y colorida. Según la creencia popular ancestral, durante estas noches mágicas las almas regresan temporalmente del más allá para convivir alegremente con sus familiares. Esta celebración ha sido reconocida internacionalmente por la UNESCO.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué dos tradiciones culturales se fusionaron para crear la actual celebración del Día de Muertos?",
+          "¿Qué elemento de la ofrenda representa el viento?",
+          "¿Cuál es el propósito del aroma de las flores de cempasúchil en los altares?",
+          "¿Qué significado simbólico encierra el diseño del pan de muerto?",
+          "¿Qué actividades realizan las familias cuando visitan los panteones durante la noche?",
+          "¿Qué sucede durante estas noches según las antiguas creencias populares?",
+          "¿Qué prestigioso reconocimiento internacional ha recibido esta festividad por parte de la UNESCO?"
+        ],
+        "answerKey": [
+          "Creencias indígenas prehispánicas y el catolicismo español.",
+          "El papel picado.",
+          "Guiar a los espíritus con su aroma.",
+          "Simboliza el ciclo ineludible de la vida y la muerte.",
+          "Limpian las tumbas, las adornan y velan a sus muertos con música y anécdotas.",
+          "Las almas regresan temporalmente del más allá para convivir alegremente con sus familiares.",
+          "Ha sido reconocida internacionalmente por la UNESCO (Patrimonio de la Humanidad)."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "La Tomatina",
+    "imageFileName": "tomatina.jpg",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "La Tomatina is a crazy and super fun summer festival in España. It takes place every year in a small town called Buñol during the month of August. Thousands of people from all over the world travel to the town to participate in this unique tradition. During the fiesta, people throw lots of ripe tomates in the street. It is basically a giant food fight between friends and strangers. There are very important rules to play safely: you must squash the tomates with your hand before throwing them so you don't hurt anyone. Also, you cannot rip other people's shirts or bring glass bottles. The giant red battle starts when a water cannon fires and lasts for exactly one hora. After an hour, the cannon fires again, the fiesta ends, and the streets are completely red with jugo de tomate. Then, fire trucks quickly arrive with a lot of agua to clean the town. The acid from the tomatoes actually makes the cobblestone streets look very clean and shiny! People also wash themselves in the local river. It is a messy but unforgettable celebration of summer.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where does La Tomatina take place?",
+          "When is the festival celebrated?",
+          "What do people throw in the street?",
+          "Why must you squash the tomates before throwing them?",
+          "What are two things you cannot do during the battle?",
+          "How long does the giant food fight last?",
+          "What makes the streets look clean and shiny after the fire trucks wash them?"
+        ],
+        "answerKey": [
+          "In a small town called Buñol, España.",
+          "During the month of August.",
+          "Lots of ripe tomates.",
+          "So you don't hurt anyone.",
+          "Rip other people's shirts or bring glass bottles.",
+          "Exactly one hora (hour).",
+          "The acid from the tomatoes."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La Tomatina es un festival de verano muy loco y súper divertido en España. Ocurre cada año en un pueblo pequeño que se llama Buñol durante el mes de agosto. Miles de turistas de todo el mundo viajan al pueblo para participar en la tradición. Durante la fiesta enorme, las personas tiran muchos tomates maduros en la calle. Es básicamente una batalla de comida gigante entre amigos y personas desconocidas. Hay reglas muy importantes para jugar bien y estar seguros: tienes que aplastar los tomates con la mano antes de tirarlos para no lastimar a nadie. También, no puedes romper la camisa de otras personas ni llevar botellas de vidrio. La gran batalla roja empieza con el sonido de un cañón de agua y dura exactamente una hora. Después de una hora, el cañón suena otra vez, la fiesta termina y las calles están completamente rojas con jugo de tomate. Luego, los camiones de bomberos vienen rápidamente con mucha agua para limpiar el pueblo. ¡El ácido del tomate hace que las calles estén muy limpias y brillantes! Los participantes van al río local para lavarse. Es una celebración increíble.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué pueblo y país ocurre el festival de La Tomatina?",
+          "¿En qué mes celebran las personas esta gran batalla de comida?",
+          "¿Qué tiran las personas en la calle durante la fiesta?",
+          "¿Cuál es la regla más importante antes de tirar un tomate?",
+          "¿Cuáles son dos cosas que no puedes hacer durante el evento?",
+          "¿Cómo empieza y cómo termina la batalla de una hora?",
+          "¿Adónde van los participantes para lavarse después de la fiesta?"
+        ],
+        "answerKey": [
+          "En Buñol, España.",
+          "En el mes de agosto.",
+          "Muchos tomates maduros.",
+          "Tienes que aplastar los tomates con la mano.",
+          "Romper la camisa de otras personas y llevar botellas de vidrio.",
+          "Empieza y termina con el sonido de un cañón de agua.",
+          "Al río local."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La Tomatina de Buñol es indudablemente una de las festividades más insólitas, caóticas y conocidas de España a nivel internacional. Se celebra el último miércoles de agosto, cuando decenas de miles de turistas entusiastas acuden a este pequeño municipio valenciano para enfrascarse en una masiva batalla campal utilizando tomates maduros como única munición. Aunque parezca un descontrol total, la dinámica es intensa pero rigurosamente regulada para garantizar la seguridad de todos. Las reglas del evento estipulan que los participantes deben aplastar los tomates antes de arrojarlos para evitar contusiones graves. Además, está estrictamente prohibido rasgar las camisetas de los demás competidores o introducir objetos peligrosos como botellas de vidrio. El estruendo de una carcasa marca el inicio de la contienda. Durante sesenta minutos exactos de euforia colectiva, la plaza principal y sus calles aledañas se tiñen de un rojo brillante bajo una lluvia torrencial de hortalizas. Tras el segundo disparo que marca el final, cesa el lanzamiento y entran en acción los camiones de bomberos locales. Al manguerear las vías, la acidez natural del tomate actúa como un desinfectante, dejando los adoquines impecables. Mientras tanto, la multitud se dirige al río Buñol o a duchas públicas para quitarse los restos de pulpa.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cuándo se lleva a cabo y en qué municipio se celebra La Tomatina?",
+          "¿Cuál es la única munición permitida durante esta masiva batalla campal?",
+          "¿Por qué es obligatorio aplastar los tomates antes de arrojarlos?",
+          "¿Qué objetos o acciones están rigurosamente prohibidos durante el evento?",
+          "¿Qué señal auditiva marca tanto el inicio como el final de la euforia colectiva?",
+          "¿Qué efecto tiene la acidez natural del tomate sobre los adoquines del pueblo?",
+          "¿Adónde se dirige la multitud para asearse tras finalizar la batalla?"
+        ],
+        "answerKey": [
+          "El último miércoles de agosto en el municipio valenciano de Buñol.",
+          "Tomates maduros.",
+          "Para evitar contusiones graves.",
+          "Rasgar las camisetas de los demás o introducir objetos peligrosos como botellas de vidrio.",
+          "El estruendo de una carcasa (o disparo).",
+          "Actúa como un desinfectante, dejando los adoquines impecables.",
+          "Al río Buñol o a duchas públicas."
+        ]
+      }
+    }
+  }
+]
