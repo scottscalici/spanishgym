@@ -14,7 +14,7 @@
     <style>
         body {
             font-family: 'Nunito', sans-serif;
-            background-color: #333; /* Dark background so the preview pops */
+            background-color: #333; 
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -46,7 +46,6 @@
         }
         button:hover { background-color: #2c5282; }
 
-        /* The TPT Square Thumbnail Canvas */
         .tpt-preview {
             width: 800px;
             height: 800px;
@@ -60,7 +59,7 @@
 
         /* Top Banner */
         .category-tag {
-            background-color: #ecc94b; /* Vibrant Yellow */
+            background-color: #ecc94b; 
             color: #1a365d;
             font-size: 20px;
             font-weight: 900;
@@ -164,12 +163,11 @@
         const jsonUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/lectura_cultural/lectura_cultural.json';
         const imageBaseUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/lectura_cultural/foto/';
         
-        // Load the first topic into the preview generator
         async function init() {
             try {
                 const response = await fetch(jsonUrl);
                 const data = await response.json();
-                const topic = data[0]; // Currently testing with Los Moáis
+                const topic = data[0]; 
                 
                 document.getElementById('preview-title').innerText = topic.topicName;
                 document.getElementById('preview-image').src = imageBaseUrl + topic.imageFileName;
@@ -179,17 +177,14 @@
             }
         }
 
-        // The magic function that turns HTML into a PNG download
         function downloadPNG() {
             const captureElement = document.getElementById('capture-area');
             
-            // html2canvas takes a snapshot of the element
             html2canvas(captureElement, {
-                scale: 2, // Doubles the resolution for a crisp 1600x1600 TPT upload
-                useCORS: true, // Crucial for loading images from GitHub without security errors
+                scale: 2, 
+                useCORS: true, 
                 backgroundColor: null
             }).then(canvas => {
-                // Create a temporary link to download the image
                 const link = document.createElement('a');
                 link.download = document.getElementById('preview-title').innerText + '_TPT_Cover.png';
                 link.href = canvas.toDataURL('image/png');
