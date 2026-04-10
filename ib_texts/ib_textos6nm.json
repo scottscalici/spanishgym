@@ -1,0 +1,251 @@
+{
+  "worksheet": {
+    "title": "Práctica de Lectura IB: Nivel Medio (Modelo 6)",
+    "texts": [
+      {
+        "text_id": "A",
+        "title": "Texto A — La batalla en nuestro plato: Dieta mediterránea frente a la comida rápida",
+        "paragraphs": [
+          "La dieta mediterránea es famosa en todo el mundo y fue declarada Patrimonio Inmaterial de la Humanidad por la UNESCO. Este modelo de alimentación se basa en el consumo abundante de aceite de oliva, vegetales frescos, legumbres, frutas y pescado, dejando la carne roja para ocasiones especiales. Sin embargo, en países tradicionalmente mediterráneos como España, las nuevas generaciones están abandonando rápidamente esta valiosa tradición cultural para rendirse ante la comodidad y el atractivo de la comida rápida.",
+          "Los beneficios de la dieta tradicional son enormes y están respaldados por la ciencia. Los nutricionistas afirman que este estilo de alimentación protege el corazón, aporta vitaminas naturales esenciales y ayuda a mantener un peso corporal saludable durante toda la vida. Además, este modelo fomenta activamente el consumo de productos locales y de temporada. Comprar ingredientes frescos en los mercados del barrio no solo apoya a los agricultores de la región, sino que también es muy beneficioso para proteger el medio ambiente, ya que reduce la contaminación generada por el transporte de alimentos.",
+          "Por el contrario, la comida rápida o 'comida chatarra' está llena de ingredientes dañinos como azúcares refinados, grasas saturadas y cantidades excesivas de sal. El estilo de vida moderno, donde ambos padres trabajan muchas horas y tienen muy poco tiempo o energía para cocinar en casa, ha hecho que estas opciones ultraprocesadas y congeladas sean la solución más fácil y rápida. Esta alarmante dependencia de la comida rápida ha provocado un aumento sin precedentes de la obesidad infantil y de enfermedades cardiovasculares en los jóvenes.",
+          "Para intentar revertir esta grave situación, es fundamental apostar por la educación. Muchas escuelas públicas ya están implementando talleres obligatorios de cocina saludable y prohibiendo totalmente las máquinas expendedoras de dulces y refrescos en sus pasillos. Aprender a comer bien y a valorar los ingredientes frescos desde la primera infancia es, sin duda, la mejor medicina preventiva para asegurar un futuro saludable."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 1–4: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para cada párrafo. Hay más opciones de las necesarias.",
+            "type": "matching",
+            "options": {
+              "A": "El valor de la educación alimentaria escolar",
+              "B": "Los peligros silenciosos de los productos ultraprocesados",
+              "C": "Un preocupante cambio de hábitos en los jóvenes",
+              "D": "Ventajas físicas y ecológicas de la comida tradicional",
+              "E": "La prohibición gubernamental de la carne roja",
+              "F": "El aumento constante de los precios del aceite de oliva"
+            },
+            "questions": [
+              { "number": 1, "prompt": "Párrafo 1", "answer": "C", "points": 1 },
+              { "number": 2, "prompt": "Párrafo 2", "answer": "D", "points": 1 },
+              { "number": 3, "prompt": "Párrafo 3", "answer": "B", "points": 1 },
+              { "number": 4, "prompt": "Párrafo 4", "answer": "A", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 5–8: Verdadero o Falso con justificación. Marca si la afirmación es verdadera (V) o falsa (F) y justifica tu respuesta usando las palabras exactas del texto. Ambas partes son necesarias para obtener el punto.",
+            "type": "true_false_justification",
+            "questions": [
+              { "number": 5, "prompt": "La dieta mediterránea recomienda comer carne roja todos los días de la semana.", "answer": "F, dejando la carne roja para ocasiones especiales", "points": 1 },
+              { "number": 6, "prompt": "Consumir alimentos locales y de temporada es positivo para la naturaleza.", "answer": "V, es muy beneficioso para proteger el medio ambiente", "points": 1 },
+              { "number": 7, "prompt": "La falta de tiempo libre en las familias fomenta el consumo de alimentos ultraprocesados.", "answer": "V, padres trabajan muchas horas y tienen muy poco tiempo... ha hecho que estas opciones ultraprocesadas (...) sean la solución más fácil", "points": 1 },
+              { "number": 8, "prompt": "Los colegios están permitiendo que los niños compren más refrescos en los recreos.", "answer": "F, prohibiendo totalmente las máquinas expendedoras de dulces y refrescos", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Pregunta 9: Respuesta corta. Contesta basándote en el párrafo 3.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 9, "prompt": "Menciona DOS ingredientes perjudiciales presentes en grandes cantidades en la comida rápida. (2 puntos)", "answer": "azúcares refinados / grasas saturadas / (cantidades excesivas de) sal (dos de tres)", "points": 2 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 10–12: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 10, "prompt": "dejando / renunciando a (párrafo 1)", "answer": "abandonando", "points": 1 },
+              { "number": 11, "prompt": "apoyados / justificados (párrafo 2)", "answer": "respaldados", "points": 1 },
+              { "number": 12, "prompt": "volver atrás / cambiar al estado anterior (párrafo 4)", "answer": "revertir", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "B",
+        "title": "Texto B — El teléfono inteligente: ¿Nos une o nos separa familiarmente?",
+        "paragraphs": [
+          "El teléfono inteligente ha revolucionado por completo nuestra forma de vivir. Hoy en día, llevamos una potente computadora en el bolsillo que nos permite estar conectados con el mundo las veinticuatro horas del día. Sin embargo, en el ámbito íntimo del hogar, este enorme avance tecnológico está generando un fenómeno social bastante preocupante: estamos cada vez más conectados y pendientes de los que están muy lejos, pero peligrosamente aislados de los familiares que tenemos sentados a nuestro lado.",
+          "Una escena cada vez más común y triste en los hogares modernos es la cena en absoluto silencio. Los padres revisan constantemente los correos electrónicos del trabajo mientras mastican, y los hijos miran videos o chatean con sus amigos sin levantar la vista del plato. Esta práctica, conocida mundialmente como 'phubbing' (ignorar a la persona que tienes enfrente por prestar atención al móvil), daña profundamente la calidad de la comunicación familiar. Como resultado, los adolescentes sienten que no son escuchados, lo que afecta negativamente su desarrollo emocional y su autoestima.",
+          "[ – 13 – ], sería injusto decir que la tecnología es un enemigo absoluto, ya que también tiene aspectos muy positivos para las familias. Para aquellos parientes que viven en diferentes ciudades, o incluso en distintos continentes, las videollamadas y los grupos familiares de chat son herramientas verdaderamente maravillosas. [ – 14 – ], estas aplicaciones permiten compartir fotografías del día a día, organizar eventos importantes y, sobre todo, mantener vivo el afecto y el vínculo familiar a pesar de la distancia física que los separa.",
+          "Para solucionar el problema del aislamiento en casa, los expertos en psicología recomiendan encontrar un equilibrio saludable y establecer normas claras. [ – 15 – ], sugieren crear 'zonas libres de pantallas' dentro de la casa, como el comedor durante la hora de la cena o los dormitorios por la noche. [ – 16 – ], invitan a las familias a apagar los dispositivos digitales durante un día completo el fin de semana para redescubrir el inmenso placer de una simple conversación cara a cara."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 13–16: Completar espacios en blanco. Elige de la lista el conector apropiado para rellenar los espacios en el texto. Hay más opciones de las necesarias.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "Sin embargo",
+              "B": "Además",
+              "C": "Por ejemplo",
+              "D": "Finalmente",
+              "E": "En resumen",
+              "F": "Aunque"
+            },
+            "questions": [
+              { "number": 13, "prompt": "Espacio [ – 13 – ]", "answer": "A", "points": 1 },
+              { "number": 14, "prompt": "Espacio [ – 14 – ]", "answer": "B", "points": 1 },
+              { "number": 15, "prompt": "Espacio [ – 15 – ]", "answer": "C", "points": 1 },
+              { "number": 16, "prompt": "Espacio [ – 16 – ]", "answer": "D", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 17–19: Opción múltiple. Elige la respuesta correcta basándote en el texto.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 17,
+                "prompt": "En el párrafo 1, el autor afirma que los teléfonos inteligentes nos han convertido en personas que...",
+                "options": {
+                  "A": "no tienen amigos fuera del hogar.",
+                  "B": "prestan más atención al mundo exterior que a su propia familia.",
+                  "C": "trabajan exclusivamente desde sus teléfonos móviles.",
+                  "D": "solo se preocupan por comprar tecnología muy cara."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 18,
+                "prompt": "Según el párrafo 2, la práctica conocida como 'phubbing'...",
+                "options": {
+                  "A": "mejora las relaciones entre padres e hijos adolescentes.",
+                  "B": "consiste en usar el móvil en secreto en la habitación.",
+                  "C": "perjudica el bienestar emocional de los jóvenes al sentirse ignorados.",
+                  "D": "ayuda a que las cenas familiares terminen mucho más rápido."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 19,
+                "prompt": "¿Cuál es la función principal de los grupos de chat familiares mencionados en el párrafo 3?",
+                "options": {
+                  "A": "Controlar estrictamente el comportamiento de los hijos.",
+                  "B": "Mantener la conexión y el cariño con familiares que viven lejos.",
+                  "C": "Evitar tener que hablar en persona durante las cenas.",
+                  "D": "Compartir noticias sobre política y economía internacional."
+                },
+                "answer": "B",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 20–23: Relacionar mitades de oraciones. Relaciona la primera parte de la frase con su final correcto.",
+            "type": "matching",
+            "options": {
+              "A": "...sienten que sus padres no les prestan atención.",
+              "B": "...es necesario apagar el internet en toda la ciudad.",
+              "C": "...ayudan a organizar eventos familiares a distancia.",
+              "D": "...deben ser lugares de la casa donde no se usen teléfonos.",
+              "E": "...solo deben usarse en caso de emergencia médica."
+            },
+            "questions": [
+              { "number": 20, "prompt": "Cuando los adultos leen correos durante la cena, los adolescentes...", "answer": "A", "points": 1 },
+              { "number": 21, "prompt": "Las aplicaciones tecnológicas y videollamadas...", "answer": "C", "points": 1 },
+              { "number": 22, "prompt": "Los comedores y los dormitorios, según los psicólogos,...", "answer": "D", "points": 1 },
+              { "number": 23, "prompt": "Para lograr una comunicación familiar saludable...", "answer": "D", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 24–25: Identificación de referencia. ¿A qué se refieren las siguientes palabras en el texto?",
+            "type": "reference",
+            "questions": [
+              { "number": 24, "prompt": "su (párrafo 2)", "answer": "los adolescentes", "points": 1 },
+              { "number": 25, "prompt": "los (párrafo 3)", "answer": "parientes (familiares)", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — La herencia en la cocina: Recetas que cuentan historias",
+        "paragraphs": [
+          "En casi todas las culturas hispanohablantes, la cocina representa mucho más que una simple habitación donde se preparan los alimentos; es el corazón absoluto del hogar. Cuando una familia se reúne un domingo para preparar juntos platos tradicionales como los tamales mesoamericanos, la paella española o las empanadas sudamericanas, no solo están mezclando ingredientes al azar. En realidad, están compartiendo una experiencia cultural profunda y transmitiendo la historia viva de sus antepasados a las nuevas generaciones de una forma interactiva.",
+          "Cada receta familiar esconde en su interior un complejo mapa histórico. Un simple plato puede mostrar claramente la fusión de civilizaciones antiguas. Por ejemplo, muchos de los guisos tradicionales latinoamericanos combinan magistralmente el maíz autóctono y los chiles de las milenarias culturas indígenas con la carne de cerdo, la cebolla y el ajo que trajeron los barcos europeos hace siglos. De este modo, preparar y saborear estas comidas tradicionales es una forma deliciosa de estudiar historia y geografía sin la necesidad de abrir un solo libro.",
+          "Además de la importancia cultural, cocinar junto a los abuelos ofrece enormes beneficios psicológicos para los jóvenes. En un mundo moderno dominado por la gratificación instantánea, la comida rápida y las pantallas digitales luminosas, la cocina tradicional exige paciencia, atención sostenida y trabajo en equipo. Los niños y adolescentes que aprenden a cocinar recetas lentas con sus mayores desarrollan un fuerte sentido de pertenencia familiar, mejoran significativamente su autoestima al ver el resultado final y descubren el gran valor del esfuerzo prolongado.",
+          "Lamentablemente, el ritmo acelerado y estresante de la vida en las grandes ciudades amenaza constantemente con borrar estas hermosas tradiciones de nuestra memoria. Sin embargo, para evitar que las recetas secretas de las abuelas desaparezcan para siempre en el olvido, muchos jóvenes han tomado la iniciativa de documentarlas. Están creando atractivos blogs gastronómicos, diseñando libros de recetas digitales y grabando videos de sus familias cocinando, demostrando que la tecnología moderna, si se usa bien, también puede servir para salvar y proteger nuestro patrimonio cultural más delicioso."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 26–30: Selección múltiple. Selecciona las CINCO afirmaciones verdaderas basándote en el texto. Escribe las letras (A-J) en las opciones.",
+            "type": "multiple_select",
+            "options": {
+              "A": "La cocina es vista como el lugar más importante y central de la casa hispana.",
+              "B": "Cocinar en familia es una actividad sin ningún tipo de significado histórico.",
+              "C": "Los guisos latinoamericanos son un ejemplo perfecto de la mezcla de culturas.",
+              "D": "El maíz y los chiles fueron ingredientes traídos a América por los europeos.",
+              "E": "La comida tradicional enseña a los niños a ser pacientes y a trabajar con otros.",
+              "F": "Los jóvenes prefieren cocinar solos porque los abuelos son muy estrictos.",
+              "G": "Terminar de cocinar un plato tradicional ayuda a los jóvenes a sentirse orgullosos de sí mismos.",
+              "H": "El estrés de la vida en la ciudad está ayudando a mantener vivas las recetas familiares.",
+              "I": "Algunos jóvenes están usando el internet y las cámaras para conservar las recetas.",
+              "J": "El autor afirma que la tecnología siempre es destructiva para la cultura."
+            },
+            "questions": [
+              { "number": "26-30", "prompt": "Selecciona las 5 verdaderas", "answer": ["A", "C", "E", "G", "I"], "points": 5 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 31–33: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 31, "prompt": "oculta / guarda sin que se vea (párrafo 2)", "answer": "esconde", "points": 1 },
+              { "number": 32, "prompt": "unión / mezcla de elementos diferentes (párrafo 2)", "answer": "fusión", "points": 1 },
+              { "number": 33, "prompt": "bienes heredados / riqueza cultural (párrafo 4)", "answer": "patrimonio", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 34–36: Respuestas cortas. Contesta usando las palabras exactas del texto.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 34, "prompt": "¿Qué tres ejemplos de platos tradicionales hispanos se mencionan en el primer párrafo? (1 punto)", "answer": "los tamales, la paella, las empanadas", "points": 1 },
+              { "number": 35, "prompt": "¿Qué nos enseña el saborear comidas que mezclan diferentes ingredientes históricos (párrafo 2)? (1 punto)", "answer": "es una forma deliciosa de estudiar historia y geografía", "points": 1 },
+              { "number": 36, "prompt": "Según el párrafo 4, ¿qué amenaza con hacer desaparecer las tradiciones culinarias? (1 punto)", "answer": "el ritmo acelerado y estresante de la vida (en las grandes ciudades)", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 37–39: Opción múltiple para comprensión global.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 37,
+                "prompt": "El mensaje principal del párrafo 3 es que...",
+                "options": {
+                  "A": "los abuelos cocinan mucho mejor que los jóvenes de hoy en día.",
+                  "B": "cocinar con tiempo y dedicación aporta valores emocionales muy positivos.",
+                  "C": "la gratificación instantánea es la mejor forma de educar a un niño.",
+                  "D": "es preferible comprar comida rápida para evitar que los niños se estresen."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 38,
+                "prompt": "En el contexto del párrafo 4, la frase 'han tomado la iniciativa de documentarlas' significa que los jóvenes...",
+                "options": {
+                  "A": "están pidiendo documentos oficiales al gobierno para abrir restaurantes.",
+                  "B": "están registrando y guardando las recetas en diversos formatos para que no se pierdan.",
+                  "C": "quieren vender los libros de recetas antiguos a museos internacionales.",
+                  "D": "han dejado de cocinar para dedicarse únicamente a la fotografía digital."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 39,
+                "prompt": "¿Cuál es el propósito principal de este artículo?",
+                "options": {
+                  "A": "Vender un nuevo libro de cocina publicado por blogueros jóvenes.",
+                  "B": "Explicar los peligros de la comida rápida en los países hispanohablantes.",
+                  "C": "Resaltar cómo la cocina une a las familias, educa y preserva la herencia cultural.",
+                  "D": "Criticar a los europeos por haber modificado las recetas indígenas originales."
+                },
+                "answer": "C",
+                "points": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
