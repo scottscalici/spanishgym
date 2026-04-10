@@ -223,5 +223,305 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "Las Fallas",
+    "imageFileName": "fallas.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Las Fallas is a spectacular traditional festival that happens in the city of Valencia, España. People celebrate this massive fiesta every March to welcome la primavera, or spring. For almost a whole year, local artists and neighborhoods work together to build giant, beautiful statues. The artists spend millions of euros and work every single day to make sure their statues are perfect. These statues are called ninots and are made of wood, cardboard, and paper.\n\nOften, the statues are very funny and make fun of famous people, politicians, or pop culture. They paint them with very bright colors and add funny signs. People walk for hours just to look at the different neighborhoods and vote for their favorites. During the festival days, the city completely transforms. There is loud música everywhere, beautiful traditional clothes, and delicious comida in the streets like churros and buñuelos. Every day at 2:00 PM, there is an incredible firework show called the mascletà that makes the ground shake!\n\nThe most important and exciting night is called La Cremà, which happens on March 19th. On this special night, people burn all the statues with fire! They burn the old art to celebrate the end of the cold winter and the beginning of a new season. The firefighters have to spray water on the buildings so the city stays safe. It is loud, hot, and an amazing party. Only one small ninot is saved from the flames each year and put in a museum.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Why is the festival of Las Fallas celebrated in March?",
+          "What materials do artists use to build the ninots?",
+          "What do the funny statues usually make fun of?",
+          "What is the loud firework show at 2:00 PM called?",
+          "What sweet foods can you eat in the streets during the festival?",
+          "What happens on the night called La Cremà?",
+          "How many statues are saved from the fire each year?"
+        ],
+        "answerKey": [
+          "To welcome la primavera (spring).",
+          "Wood, cardboard, and paper.",
+          "Famous people, politicians, or pop culture.",
+          "The mascletà.",
+          "Churros and buñuelos.",
+          "People burn all the statues with fire.",
+          "Only one small ninot."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Las Fallas es una fiesta tradicional y espectacular que ocurre en la ciudad de Valencia, España. Las personas celebran esta enorme fiesta cada mes de marzo para dar la bienvenida a la primavera. Durante casi un año entero, muchos artistas locales y vecinos trabajan juntos para construir estatuas gigantes y muy bonitas. Los artistas trabajan en equipos grandes y gastan mucho dinero en los materiales. Es un trabajo muy difícil pero importante para la ciudad. Las estatuas se llaman «ninots» y son de madera, cartón y papel.\n\nMuchas veces, las estatuas son cómicas y se burlan de personas famosas, políticos o eventos del año. La gente camina por las calles todo el día para mirar las estatuas y tomar muchas fotos con sus amigos. Hay concursos para elegir el ninot más bonito del año. Durante los días del festival, la ciudad se transforma completamente. Hay mucha música alta, personas con ropa tradicional y comida deliciosa en las calles, como churros y buñuelos de chocolate. Todos los días a las dos de la tarde, hay un espectáculo increíble de ruidos fuertes llamado la «mascletà». ¡Hace temblar la tierra!\n\nLa noche más importante y emocionante es «La Cremà», el 19 de marzo. En esta noche especial, ¡las personas queman todas las estatuas con fuego! Queman el arte antiguo para celebrar el fin del frío invierno y el principio de una temporada nueva. Los bomberos tienen que estar allí para proteger los edificios del fuego. Es una noche de emociones muy fuertes y la gente llora de felicidad. Solo salvan un ninot del fuego cada año para ponerlo en un museo local.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad de España y en qué mes celebran las Fallas?",
+          "¿De qué materiales están hechos principalmente los ninots?",
+          "¿A quiénes representan frecuentemente estas estatuas gigantes y cómicas?",
+          "¿Qué tipo de comida dulce venden en las calles durante la fiesta?",
+          "¿Qué es la «mascletà» y a qué hora ocurre todos los días?",
+          "¿Qué hacen los ciudadanos con las estatuas durante la noche de La Cremà?",
+          "¿Por qué queman las estatuas las personas de Valencia?"
+        ],
+        "answerKey": [
+          "En la ciudad de Valencia, España, en el mes de marzo.",
+          "De madera, cartón y papel.",
+          "A personas famosas, políticos o eventos del año.",
+          "Churros y buñuelos de chocolate.",
+          "Es un espectáculo increíble de ruidos fuertes a las dos de la tarde.",
+          "Queman todas las estatuas con fuego.",
+          "Para celebrar el fin del frío invierno y el principio de una temporada nueva."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Las Fallas de Valencia constituyen, sin lugar a duda, una de las celebraciones primaverales más deslumbrantes y ruidosas de toda la península ibérica. Esta arraigada tradición valenciana gira en torno a la creación meticulosa de los «ninots», gigantescos e intrincados monumentos satíricos elaborados principalmente de cartón piedra, madera y poliuretano que se instalan estratégicamente por toda la urbe. Las comisiones falleras invierten fortunas y dedican innumerables horas de trabajo artesanal para erigir estos colosos. Es una competición feroz por el prestigio y el honor del barrio, ya que estas imponentes obras de arte efímero suelen criticar con un agudo y sarcástico sentido del humor la actualidad política, la sociedad o la farándula.\n\nDurante la semana fallera, el ambiente festivo se respira intensamente en cada rincón. Multitudes de turistas y lugareños deambulan por las calles cortadas al tráfico, maravillándose ante el ingenio de los artistas y participando en las verbenas nocturnas que se alargan hasta el amanecer. Las calles se llenan de luces, impresionantes desfiles con indumentaria tradicional y puestos de buñuelos de calabaza. Además, el evento está acompañado diariamente por el ensordecedor estruendo de las «mascletás», un espectáculo pirotécnico diurno que hace vibrar el suelo con un ritmo vertiginoso.\n\nLa culminación dramática de la festividad llega el 19 de marzo con «La Cremà», la anhelada noche en que la ciudad entera arde de forma controlada. Bajo la atenta mirada de los bomberos, las llamas consumen meses de trabajo en cuestión de minutos, un acto catártico que simboliza la renovación primaveral. Las lágrimas de las falleras mayores reflejan la intensa emotividad del momento. Al prender fuego a casi todos los monumentos, los valencianos realizan un acto de purificación, dejando atrás lo viejo. Únicamente se indulta un ninot, el cual pasa a enriquecer la colección del Museo Fallero.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cómo describirías el tono o el propósito satírico de las monumentales obras de arte efímero?",
+          "¿Qué materiales se utilizan modernamente para la construcción meticulosa de los ninots?",
+          "¿Qué elementos gastronómicos y visuales acompañan a las celebraciones diarias en las calles valencianas?",
+          "¿En qué consiste el espectáculo pirotécnico conocido como la «mascletà»?",
+          "¿Qué simboliza culturalmente el acto de prender fuego a los monumentos durante La Cremà?",
+          "¿Qué fecha marca la culminación dramática de la festividad con la quema controlada?",
+          "¿Cuál es el destino final del único monumento que logra salvarse de las llamas?"
+        ],
+        "answerKey": [
+          "Suelen criticar con un agudo y sarcástico sentido del humor la actualidad política, la sociedad o la farándula.",
+          "Cartón piedra, madera y poliuretano.",
+          "Luces, impresionantes desfiles con indumentaria tradicional y puestos de buñuelos de calabaza.",
+          "Es un espectáculo pirotécnico diurno que hace vibrar el suelo con un ritmo vertiginoso.",
+          "Es un acto de purificación, dejando atrás lo viejo.",
+          "El 19 de marzo.",
+          "Pasa a enriquecer la colección del Museo Fallero."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Chichén Itzá",
+    "imageFileName": "chichen_itza.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Chichén Itzá is an incredible ancient city located in México, on the Yucatán Peninsula. Hundreds of years ago, the Maya people built this massive city deep in the selva, or jungle. The most famous structure is a giant pyramid called El Castillo. This pyramid is actually a huge calendar made of stone! It has exactly 365 steps, representing one step for every day of the año. The architecture is so perfectly designed that if you clap your hands at the bottom of the stairs, the echo sounds exactly like the chirp of a quetzal bird.\n\nThe Maya were very smart astronomers and mathematicians. They designed El Castillo perfectly. During the spring and fall, the sun creates a special shadow on the stairs. The shadow looks exactly like a giant snake sliding down from the top of the pyramid to the bottom. Thousands of people gather around the pyramid to watch this magical moment happen. This snake represents the important god Kukulkán, who was believed to bring rain and good crops.\n\nBesides the pyramid, Chichén Itzá has a large ball court where the Maya played a difficult sport, and a cenote, which is a deep natural pool of fresh water. The cenote was very sacred, and the Maya threw gold and other treasures into the water as gifts to the gods. Millions of tourists travel to this ciudad every year to take photos and learn about the smart Maya cultura. Today, Chichén Itzá is officially considered one of the New Seven Wonders of the World.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where is the ancient city of Chichén Itzá located?",
+          "Who built this massive city in the selva?",
+          "How many steps does the pyramid El Castillo have, and what do they represent?",
+          "What does the special shadow on the stairs look like during the spring and fall?",
+          "Who does the giant snake shadow represent?",
+          "What did the Maya do in the large ball court?",
+          "What official title does Chichén Itzá hold today?"
+        ],
+        "answerKey": [
+          "In México, on the Yucatán Peninsula.",
+          "The Maya people.",
+          "It has exactly 365 steps, representing one step for every day of the año.",
+          "Exactly like a giant snake sliding down from the top of the pyramid.",
+          "The important god Kukulkán.",
+          "They played a difficult sport.",
+          "One of the New Seven Wonders of the World."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Chichén Itzá es una ciudad antigua increíble que está en México, en la hermosa península de Yucatán. Hace muchos años, las personas mayas construyeron esta ciudad enorme en el medio de la selva. La estructura más famosa e importante es una pirámide gigante que se llama El Castillo. ¡Esta pirámide es en realidad un calendario enorme de piedra! Tiene exactamente trescientos sesenta y cinco escalones, uno para cada día del año. La arquitectura es tan perfecta que, si aplaudes en la base, el eco suena exactamente como un pájaro quetzal.\n\nLos mayas eran astrónomos y matemáticos muy inteligentes. Ellos diseñaron El Castillo perfectamente. Durante la primavera y el otoño, el sol hace una sombra especial en las escaleras. La sombra parece una serpiente gigante que baja por la pirámide. Miles de personas viajan para mirar este momento mágico en la piedra. Esta serpiente representa a un dios muy importante llamado Kukulkán, que traía la lluvia y la comida a las personas.\n\nAdemás de la pirámide, Chichén Itzá tiene una cancha de pelota muy grande donde los mayas jugaban un deporte difícil. También hay un cenote, que es una piscina natural muy profunda de agua fresca. El cenote era un lugar sagrado, y los mayas tiraban oro y joyas al agua como regalos para los dioses. Millones de turistas viajan a esta ciudad todos los años para tomar fotos y aprender sobre la cultura maya. Hoy en día, Chichén Itzá es considerada una de las Nuevas Siete Maravillas del Mundo.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde está ubicada exactamente la ciudad antigua de Chichén Itzá?",
+          "¿Por qué dicen que la pirámide gigante es en realidad un calendario de piedra?",
+          "¿Qué ciencias comprendían muy bien las personas mayas para diseñar la ciudad?",
+          "¿Qué parece la sombra en la pirámide durante los días de primavera y otoño?",
+          "¿A qué dios importante representa la sombra de la pirámide?",
+          "¿Qué es un cenote y dónde puedes encontrar uno en la ciudad?",
+          "¿Qué título prestigioso tiene Chichén Itzá hoy en día en el mundo?"
+        ],
+        "answerKey": [
+          "En la hermosa península de Yucatán, México.",
+          "Porque tiene exactamente 365 escalones, uno para cada día del año.",
+          "Eran astrónomos y matemáticos muy inteligentes.",
+          "Parece una serpiente gigante que baja por la pirámide.",
+          "A un dios muy importante llamado Kukulkán.",
+          "Es una piscina natural muy profunda de agua fresca.",
+          "Es considerada una de las Nuevas Siete Maravillas del Mundo."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Chichén Itzá es una majestuosa ciudad prehispánica situada en el corazón de la península de Yucatán, México, y representa uno de los vestigios arqueológicos más impresionantes de la civilización maya. La estructura más emblemática del complejo es la Pirámide de Kukulkán, también conocida como El Castillo. Esta imponente edificación no es solo un templo, sino que funciona como un colosal calendario astronómico de piedra, contando con trescientos sesenta y cinco escalones que representan meticulosamente los días del año solar. Su acústica es tan asombrosa que el eco de un aplauso en su base imita a la perfección el canto del quetzal.\n\nEl profundo conocimiento matemático y astronómico de los mayas queda evidenciado en el diseño de esta obra maestra. Durante los equinoccios de primavera y otoño, el declive del sol proyecta un intrincado juego de luces y sombras sobre las escalinatas principales. Este fenómeno óptico crea la espectacular ilusión de una serpiente emplumada descendiendo paulatinamente desde la cima hasta la base, honrando a la deidad Kukulkán. Miles de personas se congregan pacientemente para ser testigos de este evento deslumbrante.\n\nEl extenso recinto también alberga el imponente Juego de Pelota más grande de Mesoamérica y el Cenote Sagrado, un pozo natural de aguas profundas utilizado para ceremonias rituales. En este pozo místico, se realizaban ofrendas de oro, jade e incienso para apaciguar al dios de la lluvia, Chaac. En la actualidad, este sitio patrimonial atrae a millones de visitantes internacionales y ostenta el prestigioso título de ser una de las Nuevas Siete Maravillas del Mundo Moderno.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué región geográfica de México se encuentra esta majestuosa ciudad prehispánica?",
+          "¿Qué doble función cumple la imponente edificación conocida como El Castillo?",
+          "¿Qué ciencias dominaban los mayas para poder diseñar y construir este complejo arqueológico?",
+          "¿Qué fenómeno visual asombroso ocurre en la pirámide exclusivamente durante los equinoccios?",
+          "¿A qué deidad honra la espectacular ilusión óptica creada por el sol y las sombras?",
+          "¿Para qué utilizaban los mayas el pozo natural conocido como el Cenote Sagrado?",
+          "¿Cuáles son tres de las estructuras más importantes mencionadas que componen este recinto histórico?"
+        ],
+        "answerKey": [
+          "En el corazón de la península de Yucatán, México.",
+          "Funciona como un templo y como un colosal calendario astronómico de piedra.",
+          "Un profundo conocimiento matemático y astronómico.",
+          "El declive del sol proyecta un juego de luces y sombras que crea la ilusión de una serpiente emplumada descendiendo.",
+          "A la deidad Kukulkán.",
+          "Para ceremonias rituales.",
+          "La Pirámide de Kukulkán (El Castillo), el Juego de Pelota y el Cenote Sagrado."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Guacamayo",
+    "imageFileName": "guacamayo.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The macaw, known in Spanish as el guacamayo, is a beautiful and extremely colorful bird. These intelligent birds live in the tropical rainforests, or selvas tropicales, of Central and South America. They have strong wings and bright feathers that can be red, blue, yellow, and green. When they fly together in the sky, they look like a flying rainbow above the green trees.\n\nLos guacamayos eat a lot of fresh fruits, seeds, and nuts. They have a very strong, curved beak that helps them break open hard shells easily. They also use their beak like a third foot to climb the tall árboles in the jungle. Interestingly, they often eat clay from the riverbanks to help digest their food and protect their stomachs from natural poisons in the seeds.\n\nThese birds are very social and love to live in large groups called flocks. They mate for life and share food with their families. They are also very loud and make big noises to talk to each other across the dense selva. You can hear them from very far away! Sadly, many guacamayos are in danger today. People destroy their forest homes to build farms and roads. Also, some people catch them illegally to sell them as pets because they are so beautiful. It is very important to protect the selva so these amazing birds can survive in the wild.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "What are the tropical rainforests called in Spanish?",
+          "What colors can the feathers of a macaw be?",
+          "What do the birds use their strong, curved beak for?",
+          "How do macaws use their beak to help them move in the jungle?",
+          "What is a large group of macaws called?",
+          "Why do they make loud noises in the selva?",
+          "What are two reasons why many macaws are in danger today?"
+        ],
+        "answerKey": [
+          "Selvas tropicales.",
+          "Red, blue, yellow, and green.",
+          "To break open hard shells easily.",
+          "Like a third foot to climb the tall árboles.",
+          "A flock.",
+          "To talk to each other across the dense selva.",
+          "People destroy their forest homes to build farms/roads, and people catch them illegally to sell as pets."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El guacamayo es un pájaro hermoso y de muchos colores vibrantes. Estos pájaros muy inteligentes viven en las selvas tropicales de América Central y América del Sur. Tienen alas fuertes y plumas de colores brillantes como rojo, azul, amarillo y verde. Cuando vuelan juntos en el cielo abierto, parecen un arcoíris volador encima de los árboles verdes.\n\nLos guacamayos comen muchas frutas frescas, semillas y nueces todos los días. Tienen un pico muy fuerte y curvo que les ayuda a romper las cáscaras duras fácilmente. También usan su pico grande como un tercer pie para subir a los árboles altos en la jungla. Curiosamente, a veces comen barro de los ríos porque les ayuda a digerir la comida y calmar sus estómagos después de comer semillas venenosas.\n\nEstos pájaros son muy sociables y les encanta vivir en grupos grandes con sus familias y amigos. Ellos pasan toda su vida con la misma pareja. También son muy ruidosos y hacen sonidos fuertes para hablar con otros pájaros en la selva. ¡Tú puedes escucharlos desde muy lejos! Tristemente, hoy en día muchos guacamayos están en gran peligro. Las personas destruyen sus casas en los bosques para construir granjas. Además, algunas personas los atrapan ilegalmente para venderlos como mascotas porque son muy bonitos. Es muy importante proteger la selva tropical para que estos animales fantásticos puedan vivir libres.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué parte del mundo viven los guacamayos?",
+          "¿De qué colores son las plumas brillantes de estos pájaros?",
+          "¿Qué comen los guacamayos en la selva todos los días?",
+          "¿Para qué usan los pájaros su pico fuerte y curvo?",
+          "¿Cómo son los guacamayos con sus familias y otros pájaros?",
+          "¿Por qué hacen ruidos tan fuertes en los árboles altos?",
+          "¿Cuáles son dos razones por las que están en peligro hoy?"
+        ],
+        "answerKey": [
+          "En las selvas tropicales de América Central y América del Sur.",
+          "Rojo, azul, amarillo y verde.",
+          "Frutas frescas, semillas y nueces.",
+          "Para romper las cáscaras duras fácilmente y como un tercer pie para subir a los árboles.",
+          "Son muy sociables, viven en grupos grandes y pasan toda su vida con la misma pareja.",
+          "Para hablar con otros pájaros en la selva.",
+          "Las personas destruyen sus casas en los bosques y algunas personas los atrapan ilegalmente."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El guacamayo es un ave exótica de plumaje vibrante y extraordinariamente colorido que habita principalmente en las frondosas selvas tropicales de Centroamérica y Sudamérica. Estas aves, conocidas por su notable inteligencia, lucen plumas en tonos intensos de rojo, azul, amarillo y verde, creando un espectáculo visual inigualable en el dosel forestal. Cuando alzan el vuelo en grupo, iluminan el cielo esmeralda como un arcoíris en pleno movimiento.\n\nSu dieta se basa en el consumo de frutas frescas, semillas y nueces, las cuales logran abrir con gran facilidad gracias a la fuerza de su robusto pico curvo. Curiosamente, este pico también funciona como un apéndice adicional que les facilita trepar por las ramas más altas. Es común observarlos lamiendo arcilla en las riberas de los ríos, una práctica instintiva que les ayuda a neutralizar las toxinas presentes en algunas de las semillas que ingieren.\n\nLos guacamayos son criaturas sumamente sociables y monógamas que tienden a congregarse en grandes bandadas. Se comunican entre sí mediante potentes vocalizaciones y graznidos que resuenan por toda la selva, lo que les permite mantenerse en contacto a grandes distancias. Lamentablemente, diversas especies de guacamayos se encuentran actualmente en peligro de extinción. Las principales amenazas son la deforestación masiva que destruye sus hábitats naturales para la agricultura y el tráfico ilegal de fauna silvestre, impulsado por la demanda de mascotas exóticas. La conservación de los bosques es vital para su supervivencia.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ecosistema específico habitan estas aves exóticas?",
+          "¿Cómo contribuye su robusto pico curvo a su alimentación diaria?",
+          "¿Qué función física adicional tiene el pico al moverse por los árboles?",
+          "¿Cómo se describiría el comportamiento social y reproductivo de los guacamayos?",
+          "¿De qué manera logran comunicarse a grandes distancias en el bosque?",
+          "¿Qué impacto tiene la deforestación masiva en la vida de estas aves?",
+          "¿Por qué el tráfico ilegal representa una amenaza grave para la especie?"
+        ],
+        "answerKey": [
+          "En las frondosas selvas tropicales de Centroamérica y Sudamérica.",
+          "Les permite abrir con gran facilidad frutas, semillas y nueces.",
+          "Funciona como un apéndice adicional que les facilita trepar por las ramas más altas.",
+          "Son criaturas sumamente sociables y monógamas que tienden a congregarse en grandes bandadas.",
+          "Mediante potentes vocalizaciones y graznidos que resuenan por toda la selva.",
+          "Destruye sus hábitats naturales para la agricultura.",
+          "Por la demanda de mascotas exóticas."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Las Cataratas del Iguazú",
+    "imageFileName": "iguazu.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The Iguazú Falls, known as las cataratas del Iguazú, are some of the largest and most spectacular waterfalls in the entire world. They are located in South America, right on the border between Argentina and Brasil. The waterfalls are surrounded by a huge, green tropical selva full of amazing plants and wild animals. Because the area is so massive, visitors can ride an ecological train through the forest to get around.\n\nIf you visit, you might see playful monkeys, colorful toucans, and thousands of beautiful butterflies. The water falls from very high up, creating a loud, roaring noise and bright rainbows in the sky everywhere you look. There are hundreds of individual waterfalls, but the most famous and powerful part is called the Devil's Throat, or la Garganta del Diablo. The sound of the water crashing down there is absolutely deafening.\n\nTourists can walk on special wooden paths that go right over the water to get spectacular views. Adventurous visitors can even take a small boat ride that goes directly under the falling agua! You will definitely get very wet, but it is incredibly fun. Seeing so much powerful nature in one place is an unforgettable experience. It is recognized as a UNESCO World Heritage site and a true natural wonder.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "What countries share the border where the Iguazú Falls are located?",
+          "What kind of environment surrounds the waterfalls?",
+          "What wild animals might you see in the tropical selva?",
+          "What creates the bright rainbows in the sky?",
+          "What is the name of the most famous and powerful waterfall there?",
+          "How can tourists walk over the water to get spectacular views?",
+          "What can adventurous visitors do to get very close to the agua?"
+        ],
+        "answerKey": [
+          "Argentina and Brasil.",
+          "A huge, green tropical selva.",
+          "Playful monkeys, colorful toucans, and thousands of beautiful butterflies.",
+          "The water falling from very high up.",
+          "The Devil's Throat, or la Garganta del Diablo.",
+          "On special wooden paths that go right over the water.",
+          "Take a small boat ride that goes directly under the falling agua."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Las cataratas del Iguazú son unas de las cascadas más grandes y espectaculares de todo el mundo. Están ubicadas en América del Sur, exactamente en la frontera entre los países de Argentina y Brasil. Las cataratas están rodeadas por una selva tropical muy grande y verde, llena de plantas increíbles y animales salvajes. Como el parque es inmenso, los turistas pueden usar un tren ecológico especial para viajar por el bosque.\n\nSi tú visitas este lugar, puedes ver monos divertidos, tucanes de muchos colores y miles de mariposas hermosas. El agua cae desde muy alto, creando un ruido muy fuerte y arcoíris brillantes en el cielo por todas partes. Hay cientos de cascadas diferentes, pero la parte más famosa y poderosa se llama la Garganta del Diablo. El sonido del agua cayendo allí es súper intenso y emocionante.\n\nLos turistas pueden caminar por caminos de madera especiales para tener vistas maravillosas del agua. ¡Los visitantes más aventureros también pueden tomar un barco pequeño que va directamente debajo del agua! Es seguro que te vas a mojar mucho, pero es una actividad súper divertida. Ver tanta naturaleza poderosa es una experiencia inolvidable. Es un sitio muy importante y una verdadera maravilla natural del mundo.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué países sudamericanos están ubicadas las cataratas del Iguazú?",
+          "¿Qué tipo de animales salvajes viven en la selva tropical?",
+          "¿Qué cosas hermosas crea el agua cuando cae desde muy alto?",
+          "¿Cómo se llama la cascada más famosa y poderosa del parque?",
+          "¿Por dónde pueden caminar los turistas para ver el agua?",
+          "¿Qué actividad emocionante pueden hacer los visitantes aventureros en el río?",
+          "¿Por qué es una experiencia inolvidable visitar este lugar?"
+        ],
+        "answerKey": [
+          "En Argentina y Brasil.",
+          "Monos divertidos, tucanes de muchos colores y miles de mariposas hermosas.",
+          "Crea un ruido muy fuerte y arcoíris brillantes en el cielo.",
+          "La Garganta del Diablo.",
+          "Por caminos de madera especiales.",
+          "Tomar un barco pequeño que va directamente debajo del agua.",
+          "Porque puedes ver tanta naturaleza poderosa en un solo lugar."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Las cataratas del Iguazú constituyen uno de los espectáculos naturales más majestuosos y sobrecogedores del planeta, ubicándose estratégicamente en la frontera natural que divide Argentina y Brasil. Este vasto sistema, compuesto por más de doscientos setenta saltos de agua, se encuentra inmerso en el corazón de una exuberante selva subtropical. Para preservar la inmensidad del parque, los viajeros se desplazan a bordo de un pintoresco tren ecológico impulsado a gas que atraviesa la densa vegetación. Este ecosistema protegido alberga una riquísima biodiversidad que incluye monos capuchinos, coloridos tucanes, jaguares y miles de especies de mariposas.\n\nEl inmenso caudal de agua se precipita desde alturas vertiginosas, generando un estruendo ensordecedor y una bruma constante que forma perpetuos arcoíris. El salto de agua más imponente y caudaloso de todo el conjunto es, sin duda, la célebre Garganta del Diablo, un abismo en forma de herradura que fascina a todos los espectadores. El impacto acústico al asomarse a esta falla geológica es absolutamente asombroso e intimidante.\n\nLos visitantes tienen la oportunidad de explorar la zona a través de una extensa red de pasarelas suspendidas que ofrecen vistas panorámicas inigualables. Los más intrépidos pueden aventurarse en lanchas rápidas que navegan a contra corriente y se acercan desafiantemente a las cortinas de agua, asegurando un empapamiento total. Declarado Patrimonio de la Humanidad por la UNESCO, este destino es una maravilla imprescindible.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué dos naciones sudamericanas comparten este majestuoso sistema de cascadas?",
+          "¿Cuántos saltos de agua componen aproximadamente este vasto sistema natural?",
+          "¿Qué especies de fauna destacan en la riquísima biodiversidad del ecosistema subtropical?",
+          "¿Qué fenómenos sensoriales y visuales produce la caída del inmenso caudal?",
+          "¿Cómo se describe la forma geométrica de la célebre Garganta del Diablo?",
+          "¿Através de qué infraestructura pueden los visitantes obtener vistas panorámicas inigualables?",
+          "¿Qué experiencia acuática se ofrece a los turistas más intrépidos del parque?"
+        ],
+        "answerKey": [
+          "Argentina y Brasil.",
+          "Más de doscientos setenta saltos de agua.",
+          "Monos capuchinos, coloridos tucanes, jaguares y miles de especies de mariposas.",
+          "Genera un estruendo ensordecedor y una bruma constante que forma perpetuos arcoíris.",
+          "Tiene forma de herradura (un abismo en forma de herradura).",
+          "A través de una extensa red de pasarelas suspendidas.",
+          "Aventurarse en lanchas rápidas que navegan a contra corriente hacia las cortinas de agua."
+        ]
+      }
+    }
   }
 ]
