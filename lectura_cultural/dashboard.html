@@ -199,7 +199,7 @@
     <div id="render-container"></div>
     <div id="png-staging"></div>
 
-    <script>
+<script>
         const jsonUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/lectura_cultural/lectura_cultural.json';
         const imageBaseUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/lectura_cultural/foto/';
         const watermarkUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/images/spanishgymbw.png'; 
@@ -207,7 +207,6 @@
 
         let globalData = [];
 
-        // 1. BOOT UP: Fetch Data and Build Checkboxes
         async function init() {
             try {
                 const response = await fetch(jsonUrl);
@@ -225,13 +224,13 @@
             }
         }
 
-        // Helper to get checked items
         function getSelectedTopics() {
             const checkboxes = document.querySelectorAll('#topic-list input:checked');
             return Array.from(checkboxes).map(cb => globalData[cb.value]);
         }
 
-        // 2. INDIVIDUAL PDFS
+        // --- PDF GENERATION ---
+        
         function generateSelectedPDFs() {
             const selected = getSelectedTopics();
             if(selected.length === 0) return alert("Selecciona al menos un tema.");
@@ -249,7 +248,6 @@
             window.print();
         }
 
-        // 3. BUNDLE PDF (Includes Index)
         function generateBundlePDF() {
             const selected = getSelectedTopics();
             const bundleTitle = document.getElementById('bundle-title').value || "Spanish Cultural Readings Bundle";
@@ -258,7 +256,6 @@
             const container = document.getElementById('render-container');
             container.innerHTML = ''; 
 
-            // Build Index Page
             let indexHtml = `
                 <div class="page">
                     <img src="${watermarkUrl}" class="watermark" style="top:40%; width:400px; left:2.5in; opacity:0.05;">
@@ -270,7 +267,6 @@
             indexHtml += `</ul></div>`;
             container.innerHTML += indexHtml;
 
-            // Append all readings
             selected.forEach(topic => {
                 const imageUrl = imageBaseUrl + topic.imageFileName;
                 ['level_1', 'level_2', 'level_3'].forEach(level => {
@@ -281,7 +277,6 @@
             window.print();
         }
 
-        // Core HTML Builder for a single PDF page
         function buildPDFPage(title, imageUrl, levelData, isAnswerKey) {
             const paragraphs = levelData.readingText.split('\n').filter(p => p.trim() !== '');
             const formattedText = paragraphs.map(p => `<p>${p.trim()}</p>`).join('');
@@ -307,22 +302,40 @@
             return html + `</div></div>`;
         }
 
-        // 4. INDIVIDUAL PNG PREVIEWS
+        // --- PNG PREVIEW GENERATION ---
+
+        // NEW HELPER: Waits for all images to fully load before taking the screenshot
+        async function waitForImages(element) {
+            const images = element.querySelectorAll('img');
+            const promises = Array.from(images).map(img => {
+                if (img.complete) return Promise.resolve();
+                return new Promise(resolve => {
+                    img.onload = resolve;
+                    img.onerror = resolve; // Resolve on error too so it doesn't freeze
+                });
+            });
+            await Promise.all(promises);
+            // Give the browser 100ms extra to render the visuals onto the screen
+            await new Promise(r => setTimeout(r, 100)); 
+        }
+
         async function generateSelectedPNGs() {
             const selected = getSelectedTopics();
             if(selected.length === 0) return alert("Selecciona al menos un tema.");
             
             const staging = document.getElementById('png-staging');
             
-            // Loop through selected and download sequentially
             for (let topic of selected) {
                 staging.innerHTML = buildPreviewHTML(topic.topicName, imageBaseUrl + topic.imageFileName, false);
+                
+                // WAIT FOR IMAGES TO LOAD
+                await waitForImages(staging);
+                
                 await triggerDownload(document.querySelector('.tpt-preview'), `${topic.topicName}_Cover.png`);
             }
-            staging.innerHTML = ''; // Clean up
+            staging.innerHTML = ''; 
         }
 
-        // 5. BUNDLE PNG PREVIEW
         async function generateBundlePNG() {
             const selected = getSelectedTopics();
             const bundleTitle = document.getElementById('bundle-title').value;
@@ -331,16 +344,17 @@
             if(!bundleTitle) return alert("Por favor, escribe un Título para el Bundle arriba.");
 
             const staging = document.getElementById('png-staging');
-            
-            // Get up to 4 images for the grid
             const images = selected.slice(0, 4).map(t => imageBaseUrl + t.imageFileName);
             
             staging.innerHTML = buildPreviewHTML(bundleTitle, images, true);
+            
+            // WAIT FOR IMAGES TO LOAD
+            await waitForImages(staging);
+            
             await triggerDownload(document.querySelector('.tpt-preview'), `${bundleTitle}_Bundle_Cover.png`);
             staging.innerHTML = ''; 
         }
 
-        // HTML Builder for the TPT Previews
         function buildPreviewHTML(title, images, isBundle) {
             const extraClass = isBundle ? "bundle-preview" : "";
             const tagText = isBundle ? "Gran Bundle Cultural" : "Lectura Diferenciada";
@@ -369,14 +383,12 @@
             `;
         }
 
-        // html2canvas execution
         async function triggerDownload(element, filename) {
             const canvas = await html2canvas(element, { scale: 2, useCORS: true, backgroundColor: null });
             const link = document.createElement('a');
             link.download = filename;
             link.href = canvas.toDataURL('image/png');
             link.click();
-            // Small pause to let the browser process multiple downloads safely
             await new Promise(r => setTimeout(r, 500)); 
         }
 
