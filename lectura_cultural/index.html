@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     
     <style>
-        /* Base Styling with New Font */
+        /* Base Styling */
         body {
             font-family: 'Nunito', sans-serif;
             background-color: #f0f0f0;
@@ -22,12 +22,12 @@
             color: #333;
         }
 
-        /* The Page Canvas */
+        /* The Page Canvas - Expanded margins for more text */
         .page {
             background-color: white;
             width: 8.5in;
             height: 11in;
-            padding: 0.8in;
+            padding: 0.5in 0.6in; /* Reduced from 0.8in to give more room */
             box-sizing: border-box;
             position: relative;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -35,20 +35,20 @@
             overflow: hidden;
         }
 
-        /* Print Rules - Slices document into pages */
+        /* Print Rules */
         @media print {
             body { background-color: white; padding: 0; margin: 0; }
             .page { box-shadow: none; margin: 0; break-after: page; }
             .no-print { display: none; }
         }
 
-        /* Watermark */
+        /* Official Watermark */
         .watermark {
             position: absolute;
             top: 1in;
             left: 0.5in;
             width: 250px;
-            opacity: 0.15; 
+            opacity: 0.12; /* Slightly softer so text remains readable over it */
             z-index: 1;
         }
 
@@ -58,45 +58,46 @@
             z-index: 2;
         }
 
-        /* FIXED HEADER LAYOUT */
+        /* HEADER LAYOUT - Tightened vertical spacing */
         .header-container {
-            width: 65%; /* Leaves room for image on right */
-            margin-bottom: 25px;
-            font-size: 16px;
+            width: 68%; /* Leaves room for image */
+            margin-bottom: 15px; /* Reduced space */
+            font-size: 15px;
             font-weight: bold;
         }
         .header-row {
             display: flex;
             align-items: flex-end;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
         }
         .header-label {
             white-space: nowrap;
-            margin-right: 10px;
+            margin-right: 8px;
         }
         .header-line {
             flex-grow: 1;
             border-bottom: 1.5px solid #333;
-            height: 20px;
+            height: 18px;
         }
 
         /* Topic Title */
         .topic-title {
             text-align: center;
             text-transform: uppercase;
-            font-size: 26px;
+            font-size: 24px; /* Slightly smaller to save space */
             letter-spacing: 1px;
-            margin-bottom: 15px;
-            width: 65%;
+            margin-bottom: 10px;
+            margin-top: 0;
+            width: 68%;
             font-weight: 700;
         }
 
-        /* Right-Side Image */
+        /* Right-Side Image - Adjusted to match new margins */
         .topic-image {
             position: absolute;
-            top: 0.8in;
-            right: 0.8in;
-            width: 180px;
+            top: 0.5in;
+            right: 0.6in;
+            width: 170px; /* Slightly smaller */
             height: auto;
             border-radius: 12px;
             border: 4px solid white;
@@ -105,16 +106,16 @@
             z-index: 3;
         }
 
-        /* Reading Text - Now supports paragraphs */
+        /* Reading Text - Optimized for 230 words and paragraphs */
         .reading-text {
-            font-size: 15px;
-            line-height: 1.6;
+            font-size: 14px;
+            line-height: 1.5;
             text-align: justify;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
         }
         .reading-text p {
             margin-top: 0;
-            margin-bottom: 12px;
+            margin-bottom: 8px; /* Tightened space between paragraphs */
         }
 
         /* Instruction Line */
@@ -122,21 +123,21 @@
             font-weight: 700;
             font-style: italic;
             margin-left: 20px;
-            margin-bottom: 8px; 
-            font-size: 15px;
+            margin-bottom: 6px; 
+            font-size: 14px;
         }
 
-        /* Questions & Lines */
+        /* Questions & Lines - Tightened vertical space */
         .question-block {
-            margin-bottom: 16px;
-            font-size: 15px;
+            margin-bottom: 12px; /* Reduced from 16px */
+            font-size: 14px;
         }
         .question-text {
-            margin-bottom: 3px;
+            margin-bottom: 2px;
         }
         .answer-line {
             border-bottom: 1.5px solid #333;
-            height: 22px;
+            height: 20px; /* Reduced from 22px */
             position: relative;
             margin-left: 20px;
         }
@@ -149,7 +150,7 @@
             color: #1a365d; /* Dark Blue */
             font-weight: 700;
             font-style: italic;
-            font-size: 15px;
+            font-size: 14px;
         }
         
         /* UI Controls */
@@ -178,7 +179,7 @@
 
     <div class="controls no-print">
         <button onclick="window.print()">Guardar como PDF (Print)</button>
-        <p style="font-size: 12px; color: gray;">Generando el primer tema de prueba...</p>
+        <p style="font-size: 12px; color: gray;">Generando con marca de agua y formato ajustado...</p>
     </div>
 
     <div id="document-container"></div>
@@ -186,7 +187,9 @@
     <script>
         const jsonUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/lectura_cultural/lectura_cultural.json';
         const imageBaseUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/lectura_cultural/foto/';
-        const watermarkUrl = imageBaseUrl + 'watermark.png'; 
+        
+        // Official Grayscale Watermark
+        const watermarkUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/images/spanishgymbw.png'; 
 
         async function init() {
             try {
@@ -217,12 +220,12 @@
             const pageDiv = document.createElement('div');
             pageDiv.className = 'page';
 
-            // PARAGRAPH FIX: Split text by newlines and wrap in <p> tags
+            // Split text by newlines and wrap in <p> tags
             const paragraphs = levelData.readingText.split('\n').filter(p => p.trim() !== '');
             const formattedText = paragraphs.map(p => `<p>${p.trim()}</p>`).join('');
 
             let html = `
-                <img src="${watermarkUrl}" class="watermark" alt="" onerror="this.style.display='none'">
+                <img src="${watermarkUrl}" class="watermark" alt="The Spanish Gym" onerror="this.style.display='none'">
                 <img src="${imageUrl}" class="topic-image" alt="${title}">
                 
                 <div class="content-layer">
