@@ -22,12 +22,12 @@
             color: #333;
         }
 
-        /* The Page Canvas - Expanded margins for more text */
+        /* The Page Canvas */
         .page {
             background-color: white;
             width: 8.5in;
             height: 11in;
-            padding: 0.5in 0.6in; /* Reduced from 0.8in to give more room */
+            padding: 0.5in 0.6in; 
             box-sizing: border-box;
             position: relative;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -35,33 +35,44 @@
             overflow: hidden;
         }
 
-        /* Print Rules */
         @media print {
             body { background-color: white; padding: 0; margin: 0; }
             .page { box-shadow: none; margin: 0; break-after: page; }
             .no-print { display: none; }
         }
 
-        /* Official Watermark */
+        /* Watermark - Moved up and made smaller */
         .watermark {
             position: absolute;
-            top: 1in;
+            top: 0.4in; /* Moved up behind Nombre/Fecha/Title */
             left: 0.5in;
-            width: 250px;
-            opacity: 0.12; /* Slightly softer so text remains readable over it */
+            width: 220px; /* Reduced from 250px */
+            opacity: 0.12; 
             z-index: 1;
         }
 
-        /* Content Layer */
         .content-layer {
             position: relative;
             z-index: 2;
         }
 
-        /* HEADER LAYOUT - Tightened vertical spacing */
+        /* Right-Side Image - Now uses float for natural text wrapping */
+        .topic-image {
+            float: right;
+            width: 170px; 
+            height: auto;
+            border-radius: 12px;
+            border: 4px solid white;
+            box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+            transform: rotate(3deg); 
+            margin: 0 0 15px 25px; /* Adds a nice buffer so text doesn't touch */
+            position: relative;
+            z-index: 3;
+        }
+
+        /* HEADER LAYOUT */
         .header-container {
-            width: 68%; /* Leaves room for image */
-            margin-bottom: 15px; /* Reduced space */
+            margin-bottom: 15px; 
             font-size: 15px;
             font-weight: bold;
         }
@@ -82,31 +93,16 @@
 
         /* Topic Title */
         .topic-title {
-            text-align: center;
+            text-align: left; /* Left align looks cleaner next to the floated image */
             text-transform: uppercase;
-            font-size: 24px; /* Slightly smaller to save space */
+            font-size: 24px; 
             letter-spacing: 1px;
             margin-bottom: 10px;
             margin-top: 0;
-            width: 68%;
             font-weight: 700;
         }
 
-        /* Right-Side Image - Adjusted to match new margins */
-        .topic-image {
-            position: absolute;
-            top: 0.5in;
-            right: 0.6in;
-            width: 170px; /* Slightly smaller */
-            height: auto;
-            border-radius: 12px;
-            border: 4px solid white;
-            box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
-            transform: rotate(3deg); 
-            z-index: 3;
-        }
-
-        /* Reading Text - Optimized for 230 words and paragraphs */
+        /* Reading Text */
         .reading-text {
             font-size: 14px;
             line-height: 1.5;
@@ -115,7 +111,7 @@
         }
         .reading-text p {
             margin-top: 0;
-            margin-bottom: 8px; /* Tightened space between paragraphs */
+            margin-bottom: 8px; 
         }
 
         /* Instruction Line */
@@ -127,17 +123,18 @@
             font-size: 14px;
         }
 
-        /* Questions & Lines - Tightened vertical space */
+        /* Questions & Lines */
         .question-block {
-            margin-bottom: 12px; /* Reduced from 16px */
+            margin-bottom: 12px; 
             font-size: 14px;
+            clear: left; /* Ensures lines don't get messy if text is short */
         }
         .question-text {
             margin-bottom: 2px;
         }
         .answer-line {
             border-bottom: 1.5px solid #333;
-            height: 20px; /* Reduced from 22px */
+            height: 20px; 
             position: relative;
             margin-left: 20px;
         }
@@ -147,7 +144,7 @@
             position: absolute;
             bottom: 2px;
             left: 10px;
-            color: #1a365d; /* Dark Blue */
+            color: #1a365d; 
             font-weight: 700;
             font-style: italic;
             font-size: 14px;
@@ -187,8 +184,6 @@
     <script>
         const jsonUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/lectura_cultural/lectura_cultural.json';
         const imageBaseUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/lectura_cultural/foto/';
-        
-        // Official Grayscale Watermark
         const watermarkUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/images/spanishgymbw.png'; 
 
         async function init() {
@@ -220,15 +215,15 @@
             const pageDiv = document.createElement('div');
             pageDiv.className = 'page';
 
-            // Split text by newlines and wrap in <p> tags
             const paragraphs = levelData.readingText.split('\n').filter(p => p.trim() !== '');
             const formattedText = paragraphs.map(p => `<p>${p.trim()}</p>`).join('');
 
             let html = `
                 <img src="${watermarkUrl}" class="watermark" alt="The Spanish Gym" onerror="this.style.display='none'">
-                <img src="${imageUrl}" class="topic-image" alt="${title}">
                 
                 <div class="content-layer">
+                    
+                    <img src="${imageUrl}" class="topic-image" alt="${title}">
                     
                     <div class="header-container">
                         <div class="header-row">
