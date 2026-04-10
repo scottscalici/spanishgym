@@ -230,7 +230,6 @@
         }
 
         // --- PDF GENERATION ---
-        
         function generateSelectedPDFs() {
             const selected = getSelectedTopics();
             if(selected.length === 0) return alert("Selecciona al menos un tema.");
@@ -303,19 +302,16 @@
         }
 
         // --- PNG PREVIEW GENERATION ---
-
-        // NEW HELPER: Waits for all images to fully load before taking the screenshot
         async function waitForImages(element) {
             const images = element.querySelectorAll('img');
             const promises = Array.from(images).map(img => {
                 if (img.complete) return Promise.resolve();
                 return new Promise(resolve => {
                     img.onload = resolve;
-                    img.onerror = resolve; // Resolve on error too so it doesn't freeze
+                    img.onerror = resolve;
                 });
             });
             await Promise.all(promises);
-            // Give the browser 100ms extra to render the visuals onto the screen
             await new Promise(r => setTimeout(r, 100)); 
         }
 
@@ -327,10 +323,7 @@
             
             for (let topic of selected) {
                 staging.innerHTML = buildPreviewHTML(topic.topicName, imageBaseUrl + topic.imageFileName, false);
-                
-                // WAIT FOR IMAGES TO LOAD
                 await waitForImages(staging);
-                
                 await triggerDownload(document.querySelector('.tpt-preview'), `${topic.topicName}_Cover.png`);
             }
             staging.innerHTML = ''; 
@@ -347,17 +340,16 @@
             const images = selected.slice(0, 4).map(t => imageBaseUrl + t.imageFileName);
             
             staging.innerHTML = buildPreviewHTML(bundleTitle, images, true);
-            
-            // WAIT FOR IMAGES TO LOAD
             await waitForImages(staging);
-            
             await triggerDownload(document.querySelector('.tpt-preview'), `${bundleTitle}_Bundle_Cover.png`);
             staging.innerHTML = ''; 
         }
 
+        // --- UPDATED HTML BUILDER WITH CORRECTED TEXT AND BADGE ---
         function buildPreviewHTML(title, images, isBundle) {
             const extraClass = isBundle ? "bundle-preview" : "";
-            const tagText = isBundle ? "Gran Bundle Cultural" : "Lectura Diferenciada";
+            // FIX 1: Corrected Tag Text
+            const tagText = isBundle ? "Gran Bundle Cultural" : "Lectura Cultural Diferenciada";
             
             let imageHtml = '';
             if(isBundle) {
@@ -375,6 +367,7 @@
                     <div class="badge-container">
                         <div class="badge">📚 3 Niveles de Lectura</div>
                         <div class="badge">✅ Claves de Respuestas</div>
+                        <div class="badge">🧠 Comprensión Crítica</div>
                         <div class="badge">🌎 Cultura Auténtica</div>
                     </div>
                     ${imageHtml}
