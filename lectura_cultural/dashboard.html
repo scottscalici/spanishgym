@@ -106,7 +106,13 @@
             <input type="text" id="bundle-title" placeholder="Ej. Culturas de Latinoamérica Bundle">
         </div>
 
-        <h2 class="section-title">Seleccionar Temas</h2>
+<h2 class="section-title">Seleccionar Temas</h2>
+        
+        <div style="margin-bottom: 15px; display: flex; gap: 10px;">
+            <button onclick="toggleAll(true)" style="background-color: #4a5568; padding: 6px 12px; font-size: 12px; flex-grow: 0;">Seleccionar Todos</button>
+            <button onclick="toggleAll(false)" style="background-color: #a0aec0; padding: 6px 12px; font-size: 12px; flex-grow: 0; color: #1a202c;">Deseleccionar Todos</button>
+        </div>
+
         <div class="topic-grid" id="topic-list"></div>
 
         <h2 class="section-title">Generar Recursos Individuales</h2>
@@ -133,7 +139,7 @@
 
         let globalData = [];
 
-        async function init() {
+async function init() {
             try {
                 const response = await fetch(jsonUrl);
                 globalData = await response.json();
@@ -142,12 +148,21 @@
                 globalData.forEach((topic, index) => {
                     const label = document.createElement('label');
                     label.className = 'topic-item';
-                    label.innerHTML = `<input type="checkbox" value="${index}" checked> ${topic.topicName}`;
+                    
+                    // FIXED: Removed the "checked" attribute from the input tag below
+                    label.innerHTML = `<input type="checkbox" value="${index}"> ${topic.topicName}`;
+                    
                     grid.appendChild(label);
                 });
             } catch (error) {
                 document.getElementById('topic-list').innerHTML = "<p style='color:red;'>Error loading JSON from GitHub.</p>";
             }
+        }
+
+        // NEW HELPER: Select or deselect all checkboxes at once
+        function toggleAll(selectAll) {
+            const checkboxes = document.querySelectorAll('#topic-list input[type="checkbox"]');
+            checkboxes.forEach(cb => cb.checked = selectAll);
         }
 
         function getSelectedTopics() {
