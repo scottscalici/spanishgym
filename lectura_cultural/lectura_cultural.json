@@ -3523,5 +3523,1100 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "La Casa de Papel",
+    "imageFileName": "casa_de_papel.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "La Casa de Papel, which is famously known in English as Money Heist, is an incredibly thrilling, suspenseful, and famous television show originally from the country of España. When it was released on Netflix, it quickly became a massive global phenomenon and one of the absolute most-watched non-English series in the entire world! The exciting story closely follows a very smart, mysterious, and quiet man who is simply named \"The Professor.\"\n\nHe carefully gathers a diverse group of highly talented criminals to expertly perform the absolute biggest and most complicated robbery in all of European history. To safely protect their true identities from the police during the dangerous heist, the criminals creatively use the names of famous global cities as their secret code names, like Tokyo, Denver, Rio, and Nairobi. During the massive robbery inside the Royal Mint of Spain, the entire team wears bright red jumpsuits and plastic masks that perfectly match the face of the famous, eccentric Spanish artist Salvador Dalí.\n\nThese unique, striking costumes eventually left the television screen and became a massive global symbol of political rebellion and resistance, often worn by real people at protests around the world. Throughout the show, the passionate characters often sing a beautiful, old Italian folk song called \"Bella Ciao,\" which instantly became a massive hit song on the internet. Fans all over the world absolutely loved the intense action, the clever, unpredictable plans, and the deeply complicated romantic relationships between the characters. Because the show was so incredibly popular, millions of dedicated people actually used it to creatively practice and learn how to speak Spanish by listening closely to the fast-paced dialogue!",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where is the thrilling television show La Casa de Papel from?",
+          "What is the English title of the famous series?",
+          "What is the name of the very smart man who gathers the group of criminals?",
+          "What do the criminals use to protect their true identities?",
+          "What color are the jumpsuits that the team wears?",
+          "Whose face is on the masks that the criminals wear?",
+          "Why did millions of people use the show to learn how to speak Spanish?"
+        ],
+        "answerKey": [
+          "España.",
+          "Money Heist.",
+          "\"The Professor\".",
+          "The names of famous global cities (like Tokyo, Denver).",
+          "Bright red.",
+          "The famous Spanish artist Salvador Dalí.",
+          "They listened to the fast-paced dialogue to practice the language."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La Casa de Papel es un programa de televisión muy emocionante, lleno de suspenso y muy famoso originalmente del país de España. Cuando salió en Netflix, ¡rápidamente fue un fenómeno global masivo y una de las series más populares en todo el mundo! La historia emocionante sigue a un hombre muy inteligente, misterioso y tranquilo que simplemente se llama \"El Profesor\".\n\nÉl reúne cuidadosamente a un grupo diverso de criminales muy talentosos para hacer el robo más grande y complicado de toda la historia de Europa. Para proteger sus identidades verdaderas de la policía de manera segura durante el robo peligroso, los criminales usan creativamente los nombres de ciudades famosas del mundo como sus nombres secretos, como Tokio, Denver, Río y Nairobi. Durante el gran robo dentro de la Casa de la Moneda de España, todo el equipo lleva trajes rojos muy brillantes y máscaras de plástico con la cara del famoso y excéntrico artista español Salvador Dalí.\n\nEstos disfraces únicos e impresionantes finalmente salieron de la pantalla de televisión y se convirtieron en un símbolo global masivo de rebelión política y resistencia, usados por personas reales en las protestas de todo el mundo. Durante la serie, los personajes apasionados frecuentemente cantan una hermosa y vieja canción italiana llamada \"Bella Ciao\", que fue un gran éxito en internet al instante. A los aficionados de todo el mundo les encantó absolutamente la acción intensa, los planes inteligentes e impredecibles, y las relaciones románticas muy complicadas entre los personajes. ¡Como el programa fue tan increíblemente popular, millones de personas dedicadas en realidad lo usaron para practicar creativamente y aprender a hablar español escuchando los diálogos rápidos!",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué país europeo es el emocionante programa de televisión La Casa de Papel?",
+          "¿Cómo se llama el hombre muy inteligente que hace el plan del robo?",
+          "¿Qué usan los criminales para proteger sus identidades verdaderas en la historia?",
+          "¿De qué color brillante son los trajes que lleva el equipo criminal?",
+          "¿Qué famoso artista español está en las máscaras de los criminales?",
+          "¿Cómo se llama la vieja canción italiana que cantan los personajes?",
+          "¿Para qué usaron millones de personas este programa en la plataforma Netflix?"
+        ],
+        "answerKey": [
+          "De España.",
+          "\"El Profesor\".",
+          "Los nombres de ciudades famosas (como Tokio, Denver).",
+          "De color rojo brillante.",
+          "El excéntrico artista español Salvador Dalí.",
+          "\"Bella Ciao\".",
+          "Para practicar creativamente y aprender a hablar español escuchando los diálogos rápidos."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La Casa de Papel es un trepidante, adictivo y absorbente fenómeno televisivo originario de España que logró trascender exitosamente las barreras idiomáticas para convertirse en una de las series de habla no inglesa más exitosas y aclamadas a nivel global en la plataforma Netflix. La intrincada y meticulosa trama sigue de cerca a un brillante, calculador y sumamente enigmático estratega conocido únicamente bajo el seudónimo de \"El Profesor\".\n\nEste genio criminal recluta estratégicamente a un variopinto y diverso grupo de delincuentes marginados para perpetrar el atraco más audaz y perfecto de la historia en la inexpugnable Fábrica Nacional de Moneda y Timbre de Madrid. Para preservar rigurosamente su anonimato absoluto frente a las autoridades, los asaltantes adoptan ingeniosamente seudónimos basados en metrópolis internacionales, tales como Tokio, Berlín, Río y Nairobi. El impecable diseño de producción visual de la serie dejó rápidamente una huella verdaderamente indeleble en la cultura pop mundial: los icónicos monos de trabajo color rojo brillante y las inconfundibles caretas inspiradas en el rostro del excéntrico pintor surrealista Salvador Dalí.\n\nEstos elementos visuales se transformaron rápidamente en poderosos símbolos mundiales de resistencia antisistema, siendo utilizados en manifestaciones políticas reales. Asimismo, la banda sonora revitalizó magistralmente \"Bella Ciao\", un histórico y emotivo himno partisano italiano de la Segunda Guerra Mundial que volvió a resonar con fuerza en protestas sociales. El vertiginoso suspenso, los múltiples e impredecibles giros de guion, y la profunda y fascinante ambigüedad moral de los complejos protagonistas cautivaron por completo a la audiencia internacional. Notablemente, la inmensa popularidad de la serie no solo impulsó la industria audiovisual española, sino que sirvió como una excelente herramienta inmersiva para millones de espectadores que deseaban perfeccionar fervientemente su comprensión del idioma español.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué país originó este trepidante fenómeno televisivo de éxito global?",
+          "¿Cómo se le conoce al enigmático estratega que planea el atraco perfecto?",
+          "¿Qué táctica adoptan los asaltantes marginados para preservar su anonimato?",
+          "¿En qué pintor surrealista están inspiradas las caretas que utilizan en el atraco?",
+          "¿En qué se transformaron rápidamente los monos rojos y las caretas en la cultura pop?",
+          "¿Qué histórico himno partisano italiano revitalizó la banda sonora de la serie?",
+          "¿Para qué sirvió la inmensa popularidad de la serie entre muchos espectadores internacionales?"
+        ],
+        "answerKey": [
+          "España.",
+          "\"El Profesor\".",
+          "Adoptan ingeniosamente seudónimos basados en metrópolis internacionales (ciudades).",
+          "En el excéntrico pintor surrealista Salvador Dalí.",
+          "En poderosos símbolos mundiales de resistencia antisistema.",
+          "\"Bella Ciao\".",
+          "Como una excelente herramienta inmersiva para perfeccionar su comprensión del idioma español."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Marvel en Español",
+    "imageFileName": "marvel_espanol.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The massive, action-packed Marvel Cinematic Universe is incredibly popular and highly successful in Spanish-speaking countries all over the world. But bringing these famous, heroic superheroes to loyal fans in Latin America and España requires so much more than just directly translating English words into Spanish; it requires a highly special process called cultural localization! The difficult process of translating comic book movies using real people's voices is called el doblaje, or dubbing.\n\nHighly talented voice actors work very hard in dark recording studios to perfectly match the intense emotions, sadness, and clever humor of famous American actors like Robert Downey Jr. or Chris Evans. Sometimes, the classic names of the heroes must change completely to sound better in Spanish! For example, the superhero team The Avengers is famously known as \"Los Vengadores,\" and Spider-Man translates exactly to \"El Hombre Araña.\" However, the translation is not exactly the same in every single Spanish-speaking country.\n\nA very famous and funny example is the angry X-Men character Wolverine. In Spain, he is traditionally called \"Lobezno,\" which literally means a little wolf. But in Latin America, older translated comics originally called him \"Guepardo\" (which means cheetah) before finally switching back to the English name Wolverine! Professional translators must also be extremely careful with the funny, fast-paced jokes and the deep pop culture references in Marvel movies. They actually have to change the American jokes into totally new jokes that make clear sense to a Mexican, Colombian, or Spanish audience. Thanks to these amazing, hardworking translators and voice actors, millions of dedicated Spanish-speaking fans can fully enjoy the awesome magic of Marvel in their own beautiful language.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "What is translating comic book movies using voice actors called?",
+          "What is the Spanish name for the Avengers?",
+          "What does Spider-Man translate to in Spanish?",
+          "What do they call Wolverine in España?",
+          "What animal does \"Guepardo\" mean in Latin America?",
+          "What else must translators change besides the names?",
+          "Who makes it possible for fans to enjoy the magic of Marvel?"
+        ],
+        "answerKey": [
+          "El doblaje (dubbing).",
+          "\"Los Vengadores\".",
+          "\"El Hombre Araña\".",
+          "\"Lobezno\".",
+          "Cheetah.",
+          "Funny, fast-paced jokes and deep pop culture references.",
+          "Amazing, hardworking translators and voice actors."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El Universo Cinematográfico de Marvel, masivo y lleno de acción, es increíblemente popular y muy exitoso en los países donde se habla español en todo el mundo. Pero llevar a estos famosos superhéroes a los aficionados leales en América Latina y España requiere mucho más que solo traducir directamente las palabras; ¡requiere un proceso muy especial llamado localización cultural! El proceso difícil de traducir películas con actores de voz reales se llama el doblaje.\n\nLos actores de voz muy talentosos trabajan muy duro en estudios oscuros para imitar perfectamente las emociones intensas, la tristeza y el humor inteligente de los actores estadounidenses famosos. ¡A veces, los nombres clásicos de los héroes tienen que cambiar completamente para sonar mejor en español! Por ejemplo, el equipo de superhéroes The Avengers es famosamente conocido como \"Los Vengadores\" y Spider-Man se traduce exactamente como \"El Hombre Araña\". Sin embargo, la traducción no es igual en todos los países donde se habla español.\n\nUn ejemplo muy famoso y cómico es el personaje enojado de los X-Men, Wolverine. En España, las personas lo llaman tradicionalmente \"Lobezno\", que literalmente significa un lobo pequeño. ¡Pero en América Latina, los cómics antiguos y traducidos lo llamaban originalmente \"Guepardo\" antes de cambiar finalmente al nombre en inglés Wolverine! Los traductores profesionales también tienen que tener mucho cuidado con los chistes rápidos y las referencias a la cultura pop en las películas de Marvel. Ellos tienen que cambiar las bromas estadounidenses a bromas totalmente nuevas que las personas de México, Colombia o España puedan comprender claramente. Gracias a estos traductores brillantes y actores de doblaje, millones de aficionados pueden disfrutar de la magia de Marvel en su propio idioma.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cómo se llama el proceso de traducir películas con actores de voz?",
+          "¿Cómo se llaman The Avengers en español?",
+          "¿Qué héroe famoso es conocido como \"El Hombre Araña\"?",
+          "¿Qué nombre diferente usan en España para el personaje Wolverine?",
+          "¿Qué animal usaban los cómics antiguos en América Latina para Wolverine?",
+          "¿Qué tienen que cambiar los traductores para que las personas comprendan mejor?",
+          "¿A quiénes debemos agradecer para disfrutar de la acción en nuestro idioma?"
+        ],
+        "answerKey": [
+          "El doblaje.",
+          "\"Los Vengadores\".",
+          "Spider-Man.",
+          "\"Lobezno\".",
+          "\"Guepardo\" (un cheetah).",
+          "Los chistes rápidos y las referencias a la cultura pop.",
+          "A los traductores brillantes y actores de doblaje trabajadores."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El Universo Cinematográfico de Marvel es un fenómeno de taquilla absolutamente indiscutible en el mundo hispanohablante, pero su éxito verdaderamente arrollador depende en gran medida de un meticuloso, complejo y exhaustivo proceso de localización y doblaje. La traducción profesional de estas superproducciones cinematográficas no consiste simplemente en transcribir literalmente las palabras de un idioma a otro. Más bien, se basa fundamentalmente en adaptar cuidadosamente los referentes culturales, los modismos y el sentido del humor particular para que resuenen de manera auténtica y natural con la audiencia local.\n\nLos altamente capacitados actores de doblaje hispanos se convierten en leyendas anónimas del estudio de grabación al infundir un enorme carisma, intensidad y profunda emoción en íconos globales como Iron Man o el noble Capitán América. Históricamente, la nomenclatura oficial de los superhéroes ha presentado fascinantes y a veces cómicas variaciones regionales que divierten a los fanáticos. Mientras que la franquicia The Avengers se tradujo universal y exitosamente como \"Los Vengadores\" y Spider-Man como el clásico \"El Hombre Araña\", otros personajes generaron marcadas diferencias léxicas entre España y Latinoamérica.\n\nEl caso histórico más notorio y debatido es el del feroz mutante Wolverine: el público español lo conoce y adora cariñosamente como \"Lobezno\", mientras que en Latinoamérica fue bautizado inicialmente de manera curiosa como \"Guepardo\" o \"Aguja Dinámica\" en las primeras ediciones de los cómics clásicos, antes de estandarizarse mundialmente su nombre original en inglés. Estos dedicados traductores y expertos adaptadores lingüísticos enfrentan constantemente el desafío monumental de reinterpretar chistes sumamente ingeniosos y diálogos rápidos para garantizar firmemente que la espectacular magia visual y emocional de Marvel jamás se pierda en la traducción.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué proceso depende en gran medida el éxito arrollador de Marvel en el mundo hispanohablante?",
+          "¿En qué consiste realmente la traducción de estas superproducciones cinematográficas?",
+          "¿Cómo se traducen universalmente los títulos The Avengers y Spider-Man?",
+          "¿Qué caso notorio generó marcadas diferencias de traducción entre España y Latinoamérica?",
+          "¿Cómo conoce cariñosamente el público español a este famoso mutante?",
+          "¿Con qué dos nombres fue bautizado inicialmente este personaje en Latinoamérica?",
+          "¿Qué desafío monumental enfrentan los traductores y adaptadores lingüísticos?"
+        ],
+        "answerKey": [
+          "De un meticuloso, complejo y exhaustivo proceso de localización y doblaje.",
+          "En adaptar cuidadosamente los referentes culturales, los modismos y el sentido del humor a la audiencia local.",
+          "Como \"Los Vengadores\" y \"El Hombre Araña\".",
+          "El caso histórico del feroz mutante Wolverine.",
+          "Como \"Lobezno\".",
+          "Como \"Guepardo\" o \"Aguja Dinámica\".",
+          "Reinterpretar chistes sumamente ingeniosos y diálogos rápidos para garantizar que no se pierda la magia en la traducción."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Las Arepas",
+    "imageFileName": "arepas.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Arepas are delicious, round, and incredibly comforting cornmeal cakes that are extremely popular throughout South America. They are officially the absolute most famous and beloved traditional food in both the beautiful countries of Colombia and Venezuela! Authentic arepas are handmade every single day from a very simple masa, or dough, mixed carefully with just warm water and a little bit of salt.\n\nYou can easily cook arepas in many different and creative ways depending on your personal taste. People absolutely love to grill them slowly over an open fire, bake them warmly in the oven, or even fry them in hot oil until they are perfectly golden and crispy on the outside. They are a very flexible and versatile type of food, which simply means that you can happily eat them for a hearty desayuno (breakfast), a quick lunch, or a large family dinner! A plain, freshly cooked arepa is incredibly tasty when served hot with just a little bit of melting butter, but the absolute best part of the meal is what you put inside.\n\nPeople carefully slice the warm arepa open with a knife, creating a little pocket, and then completely fill it to the top with many different delicious and savory ingredients. You can easily fill them with melted queso (cheese), juicy grilled carne (meat), healthy black beans, or scrambled eggs. One of the most famous, classic Venezuelan arepas in the world is playfully called the \"Reina Pepiada,\" which is a rich arepa completely filled with creamy avocado and shredded chicken. Arepas are not just ordinary food; they are a beautiful, tasty symbol of loving family, rich culture, and deep national pride for millions of people.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "What two South American countries are most famous for arepas?",
+          "What are arepas made from?",
+          "What are three different ways that people cook arepas?",
+          "When can you eat arepas during the day?",
+          "How do people usually prepare the arepa to put ingredients inside?",
+          "What is inside the famous Venezuelan \"Reina Pepiada\"?",
+          "What are arepas a beautiful symbol of?"
+        ],
+        "answerKey": [
+          "Colombia and Venezuela.",
+          "A very simple masa, or dough (cornmeal, water, and salt).",
+          "Grill them slowly, bake them warmly, or fry them in hot oil.",
+          "For desayuno (breakfast), a quick lunch, or a large family dinner.",
+          "They carefully slice the warm arepa open with a knife, creating a little pocket.",
+          "Creamy avocado and shredded chicken.",
+          "Loving family, rich culture, and deep national pride."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Las arepas son pasteles redondos, deliciosos e increíblemente reconfortantes que son extremadamente populares en toda América del Sur. ¡Son oficialmente la comida tradicional más famosa y querida en los hermosos países de Colombia y Venezuela! Las arepas auténticas están hechas a mano todos los días de una masa muy simple de maíz, mezclada cuidadosamente con solo agua tibia y un poco de sal.\n\nPuedes cocinar las arepas fácilmente de muchas maneras diferentes y creativas dependiendo de tu gusto personal. A las personas les encanta asarlas lentamente sobre un fuego, hornearlas en el horno o incluso freírlas en aceite caliente hasta que estén perfectamente doradas y crujientes por fuera. Son un tipo de comida muy flexible y versátil, lo que significa que puedes comerlas felizmente para un gran desayuno, un almuerzo rápido o una cena familiar. Una arepa simple recién cocinada es increíblemente rica solo con un poco de mantequilla derretida, pero la mejor parte de la comida es el relleno.\n\nLas personas cortan la arepa caliente cuidadosamente con un cuchillo para hacer un bolsillo y la llenan completamente con muchos ingredientes deliciosos. Puedes rellenarlas fácilmente con queso derretido, carne asada muy jugosa, frijoles negros saludables o huevos revueltos. Una de las arepas venezolanas clásicas y más famosas del mundo se llama cómicamente la \"Reina Pepiada\", que es una arepa rica completamente rellena de aguacate cremoso y pollo desmenuzado. Las arepas no son solo comida ordinaria; son un símbolo hermoso y sabroso de la familia cariñosa, la rica cultura y el profundo orgullo nacional para millones de personas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué dos países sudamericanos son increíblemente populares las arepas?",
+          "¿De qué ingredientes está hecha la masa simple de las arepas?",
+          "¿Cuáles son tres maneras diferentes de cocinar esta comida?",
+          "¿Cuándo se pueden comer las arepas durante el día?",
+          "¿Qué hacen las personas con la arepa para poner ingredientes dentro?",
+          "¿Cómo se llama la arepa venezolana famosa con pollo y aguacate?",
+          "¿De qué son un hermoso símbolo las arepas para las personas?"
+        ],
+        "answerKey": [
+          "En Colombia y Venezuela.",
+          "De una masa muy simple de maíz, agua tibia y un poco de sal.",
+          "Asarlas lentamente sobre un fuego, hornearlas en el horno o freírlas en aceite caliente.",
+          "Para un gran desayuno, un almuerzo rápido o una cena familiar.",
+          "Cortan la arepa caliente cuidadosamente con un cuchillo para hacer un bolsillo.",
+          "La \"Reina Pepiada\".",
+          "Son un símbolo hermoso de la familia cariñosa, la rica cultura y el profundo orgullo nacional."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Las arepas constituyen, sin lugar a duda, un emblema gastronómico indiscutible y entrañable que hermana histórica y culturalmente a las naciones vecinas de Colombia y Venezuela. Estos versátiles, reconfortantes y populares panes redondos se elaboran artesanalmente a partir de una masa sencilla pero fundamental de harina de maíz precocida, agua tibia y una pizca de sal. Su preparación diaria en los hogares es un arte culinario cotidiano que admite pacientemente múltiples técnicas de cocción tradicionales.\n\nDependiendo exclusivamente de la región geográfica y de la preferencia personal del comensal, las arepas pueden asarse lentamente a la parrilla sobre brasas de carbón, hornearse pacientemente a fuego lento, o freírse sumergidas en aceite hirviendo para lograr un exterior exquisitamente dorado y crujiente. Su verdadera y mayor brillantez culinaria reside en el hecho de que actúan perfectamente como un lienzo en blanco o un bolsillo comestible sumamente maleable que admite una infinidad de jugosos y creativos rellenos. Se pueden degustar felizmente en cualquier momento del día, repletas de abundante queso guayanés derretido, jugosa carne mechada, o caraotas negras (frijoles) bien sazonadas.\n\nUna de las extraordinarias creaciones venezolanas más icónicas y demandadas a nivel internacional es, sin duda, la famosa \"Reina Pepiada\", un suculento y cremoso relleno que combina magistralmente pollo finamente desmenuzado con aguacate maduro y mayonesa. Más allá de su innegable y alto valor nutricional y su sabor absolutamente exquisito, las arepas representan un profundo, nostálgico e invaluable símbolo de identidad compartida, rica tradición familiar y enorme orgullo nacional para millones de sudamericanos esparcidos por todo el mundo.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué dos naciones sudamericanas están hermanadas culturalmente por este emblema gastronómico?",
+          "¿A partir de qué ingredientes básicos se elaboran estos panes redondos?",
+          "¿Cuáles son tres técnicas de cocción mencionadas para preparar las arepas?",
+          "¿De qué manera actúan las arepas gracias a su brillantez culinaria?",
+          "¿Qué ingredientes tiene el suculento relleno de la icónica \"Reina Pepiada\"?",
+          "¿En qué momentos del día se pueden degustar normalmente las arepas?",
+          "¿Qué representan profundamente las arepas más allá de su valor nutricional?"
+        ],
+        "answerKey": [
+          "Colombia y Venezuela.",
+          "De una masa sencilla de harina de maíz precocida, agua tibia y una pizca de sal.",
+          "Asarse lentamente a la parrilla, hornearse pacientemente a fuego lento, o freírse en aceite hirviendo.",
+          "Como un lienzo en blanco o un bolsillo comestible sumamente maleable para rellenar.",
+          "Pollo finamente desmenuzado combinado magistralmente con aguacate maduro y mayonesa.",
+          "En cualquier momento del día.",
+          "Un profundo, nostálgico e invaluable símbolo de identidad compartida, rica tradición familiar y enorme orgullo nacional."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Como agua para chocolate",
+    "imageFileName": "agua_chocolate.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Como agua para chocolate is a very famous, critically acclaimed, and widely read Mexican novel masterfully written by the talented author Laura Esquivel. The highly engaging book is considered a completely perfect example of magical realism in literature, which is a unique storytelling style where incredible, unexplainable magic casually happens in normal, everyday life. The romantic and tragic story takes place long ago during the dangerous Mexican Revolution and closely follows a passionate young woman named Tita.\n\nBecause of a very strict and incredibly old-fashioned family tradition, Tita is unfortunately born as the youngest daughter in the house, which tragically means she is absolutely not allowed to ever get married. Instead, she is strictly forced to stay home and take care of her demanding mother forever. Because of this cruel rule, she sadly cannot marry Pedro, the handsome young man she truly loves with all her heart. To deal with her intense heartbreak and massive sadness, Tita frustratingly spends all her precious time cooking amazing, elaborate comida (food) in the family kitchen.\n\nMagically, Tita's deep, powerful emotions transfer directly into her delicious, homemade recipes! When she cooks a massive, beautiful wedding cake while crying heavily, everyone who eats the sweet cake suddenly feels incredibly sad, thinks about their own lost loves, and starts crying uncontrollably too. The interesting title of the famous book refers directly to hot water that is boiling rapidly and ready to quickly make traditional hot chocolate. In México, saying someone is \"like water for chocolate\" is a common phrase that means a person's intense emotions are boiling over with intense anger or uncontrollable romantic passion.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Who wrote the famous Mexican novel Como agua para chocolate?",
+          "What literary style is the book a perfect example of?",
+          "Why is Tita not allowed to get married?",
+          "Who is the man that Tita truly loves?",
+          "What does Tita magically transfer directly into her food recipes?",
+          "What happens to the people who eat her sad wedding cake?",
+          "What does the phrase \"como agua para chocolate\" mean in México?"
+        ],
+        "answerKey": [
+          "The talented author Laura Esquivel.",
+          "Magical realism.",
+          "Because she is the youngest daughter and is strictly forced to take care of her demanding mother forever.",
+          "Pedro.",
+          "Her deep, powerful emotions (like her intense heartbreak and massive sadness).",
+          "They suddenly feel incredibly sad, think about their own lost loves, and start crying uncontrollably.",
+          "That a person's intense emotions are boiling over with intense anger or uncontrollable romantic passion."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Como agua para chocolate es una novela mexicana muy famosa y aclamada por la crítica, escrita magistralmente por la talentosa autora Laura Esquivel. El libro muy interesante es considerado un ejemplo completamente perfecto del realismo mágico en la literatura, que es un estilo único donde una magia increíble e inexplicable ocurre casualmente en la vida normal y diaria. La historia romántica y trágica ocurre hace mucho tiempo durante la peligrosa Revolución Mexicana y sigue de cerca a una joven apasionada llamada Tita.\n\nPor una tradición familiar muy estricta y antigua, Tita nace desafortunadamente como la hija menor en la casa, lo que trágicamente significa que ella no tiene absolutamente ningún permiso para casarse nunca. En cambio, ella está forzada a quedarse en casa y cuidar a su madre exigente para siempre. Por esta regla cruel, ella tristemente no puede casarse con Pedro, el joven guapo que realmente ama con todo su corazón. Para sobrevivir a su gran tristeza y dolor intenso, Tita pasa todo su tiempo precioso cocinando comida increíble y elaborada en la cocina de la familia.\n\n¡Mágicamente, las emociones profundas y poderosas de Tita se transfieren directamente a sus recetas deliciosas y caseras! Cuando ella cocina un pastel de bodas gigante y hermoso mientras llora mucho, todas las personas que comen el pastel dulce sienten de repente mucha tristeza, piensan en sus propios amores perdidos y empiezan a llorar incontrolablemente también. El título interesante del libro famoso significa que el agua está hirviendo rápidamente y lista para hacer chocolate caliente tradicional. En México, esta frase común significa que una persona siente una pasión incontrolable o está hirviendo de furia.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Quién es la autora de la famosa novela mexicana Como agua para chocolate?",
+          "¿De qué estilo literario es la novela un ejemplo completamente perfecto?",
+          "¿Por qué la joven Tita no tiene permiso para casarse en la historia?",
+          "¿Qué hace Tita todo el tiempo precioso para sobrevivir a su gran tristeza?",
+          "¿Qué se transfiere mágicamente a las recetas cuando Tita cocina en la cocina?",
+          "¿Qué les pasa a las personas cuando comen su pastel de bodas triste?",
+          "¿Qué significa la frase común \"como agua para chocolate\" en México?"
+        ],
+        "answerKey": [
+          "La talentosa autora Laura Esquivel.",
+          "Es un ejemplo completamente perfecto del realismo mágico.",
+          "Por una tradición familiar muy estricta y antigua (debe cuidar a su madre exigente para siempre).",
+          "Pasa todo su tiempo cocinando comida increíble y elaborada.",
+          "Sus emociones profundas y poderosas.",
+          "Sienten de repente mucha tristeza, piensan en sus propios amores perdidos y empiezan a llorar incontrolablemente.",
+          "Significa que una persona siente una pasión incontrolable o está hirviendo de furia."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Como agua para chocolate es una aclamada, trascendental y poética novela de la reconocida escritora mexicana Laura Esquivel que entrelaza magistral e impecablemente el delicado arte culinario con los vibrantes elementos del realismo mágico latinoamericano. Ambientada detalladamente en la turbulenta y violenta época de la Revolución Mexicana, la cautivadora obra narrativa narra la trágica, intensa y prohibida historia de amor de Tita de la Garza.\n\nCruelmente oprimida por una arcaica, absurda y estrictamente inquebrantable tradición familiar, Tita, por el simple hecho de ser la hija menor, tiene terminantemente prohibido contraer santo matrimonio, ya que su destino ineludible y forzado es cuidar de su demandante y autoritaria madre hasta el lecho de su muerte. Al verse absolutamente imposibilitada de casarse legalmente con Pedro, el gran y verdadero amor de su vida, Tita se refugia en los fogones y canaliza su inmensa pasión contenida y su profunda frustración emocional a través de la rica cocina tradicional mexicana.\n\nSorprendentemente, dentro del universo mágico de la obra, sus intensas y crudas emociones se transfieren literalmente y de forma sobrenatural a los desprevenidos comensales que degustan sus exquisitos y elaborados platillos caseros. Si Tita amasa un pastel derramando amargas lágrimas de dolor por su amor imposible, quienes consumen ávidamente su banquete experimentan súbitamente una melancolía abrumadora, incontrolable y contagiosa. El sugerente, brillante y memorable título de la obra literaria hace referencia directa a una popular y colorida expresión coloquial en México que describe el estado exacto de ebullición del agua caliente justo antes de preparar el chocolate tradicional, simbolizando poéticamente un estado humano de furia desatada o de pasión ardiente a punto de estallar violentamente.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué escritora mexicana es la aclamada autora de Como agua para chocolate?",
+          "¿Qué dos elementos entrelaza magistral e impecablemente la novela en su narrativa?",
+          "¿Durante qué época histórica de México está ambientada la trama principal?",
+          "¿Por qué motivo tradicional tiene Tita terminantemente prohibido contraer matrimonio?",
+          "¿A través de qué actividad canaliza ella su inmensa pasión contenida y profunda frustración?",
+          "¿Qué experimentan los comensales si consumen un banquete cocinado con lágrimas de dolor?",
+          "¿Qué simboliza el sugerente título de la obra basado en la expresión coloquial mexicana?"
+        ],
+        "answerKey": [
+          "La reconocida escritora Laura Esquivel.",
+          "El delicado arte culinario con los vibrantes elementos del realismo mágico latinoamericano.",
+          "En la turbulenta y violenta época de la Revolución Mexicana.",
+          "Porque es la hija menor y su destino ineludible es cuidar de su autoritaria madre hasta su muerte.",
+          "A través de la rica cocina tradicional mexicana.",
+          "Experimentan súbitamente una melancolía abrumadora, incontrolable y contagiosa.",
+          "Simboliza poéticamente un estado humano de furia desatada o de pasión ardiente a punto de estallar violentamente."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Ceviche",
+    "imageFileName": "ceviche.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Ceviche is a very famous, incredibly fresh, and absolutely delicious seafood dish that is loved all over the world. It is proudly considered the official national dish of the beautiful country of Perú, but hungry people happily eat it all along the sunny coast of Latin America. The absolute most surprising and interesting thing about authentic ceviche is exactly how it is carefully made. The traditional recipe uses very fresh, completely raw pescado, or fish, straight from the cold ocean. However, the raw fish is not cooked with a hot fire, a frying pan, or a warm oven!\n\nInstead, the raw fish is actually \"cooked\" using a very cool scientific process by soaking it in a bowl of fresh, highly acidic lime or lemon juice. The strong, natural acid in the citrus juice actually changes the soft fish meat completely, making it perfectly safe, firm, and incredibly delicious to eat. After the fish soaks in the sour citrus juice for a little while, talented chefs mix it with crunchy red onions, fresh green cilantro, and very spicy local peppers called ají. This perfect combination of ingredients creates a bright, colorful, and very healthy meal.\n\nBecause the dish is completely cold and very refreshing, people absolutely love to eat ceviche outdoors on hot summer days while relaxing near the beautiful beach. In Perú, it is traditionally served on a plate with soft, sweet potatoes, called camote, and large, chewy kernels of corn, called choclo, to perfectly balance the spicy and sour flavors. The leftover spicy, milky juice at the bottom of the plate is also very popular. People excitedly call it \"leche de tigre,\" or tiger's milk, and they drink it straight from a glass for extra energy!",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "What South American country is ceviche the national dish of?",
+          "What is the main ingredient used to make ceviche?",
+          "How is the raw fish \"cooked\" without using a hot fire or an oven?",
+          "What are three ingredients mixed with the fish after it soaks?",
+          "Where do people love to eat ceviche on hot summer days?",
+          "What two traditional side dishes are served with ceviche in Perú?",
+          "What do people call the leftover spicy juice at the bottom of the plate?"
+        ],
+        "answerKey": [
+          "Perú.",
+          "Fresh, raw pescado (fish).",
+          "By soaking it in fresh, acidic lime or lemon juice.",
+          "Red onions, cilantro, and spicy peppers (ají).",
+          "Near the beach.",
+          "Sweet potatoes (camote) and large kernels of corn (choclo).",
+          "\"Leche de tigre\" (tiger's milk)."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El ceviche es un plato de mariscos muy famoso, increíblemente fresco y absolutamente delicioso que a muchas personas les encanta. Es orgullosamente el plato nacional del hermoso país de Perú, pero las personas felices lo comen en toda la costa soleada de América Latina. Lo más sorprendente y fascinante del ceviche auténtico es exactamente cómo se prepara en la cocina. La receta tradicional usa pescado crudo y muy fresco directamente del océano frío. ¡Pero el pescado crudo no se cocina con un fuego caliente, una sartén o un horno!\n\nEn lugar de usar fuego, el pescado crudo se \"cocina\" usando un proceso científico muy interesante: marinándolo en un tazón con mucho jugo fresco y ácido de limón. El ácido fuerte y natural del jugo cítrico realmente cambia la carne suave del pescado por completo, haciéndolo muy seguro, firme y delicioso para comer. Después de que el pescado descansa en el jugo por un tiempo, los chefs talentosos lo mezclan con cebollas rojas crujientes, cilantro verde y fresco, y pimientos locales muy picantes que se llaman ají. Esta combinación perfecta de ingredientes frescos crea una comida brillante, colorida y muy saludable.\n\nComo el plato es completamente frío y muy refrescante, a la gente le encanta absolutamente comer ceviche al aire libre en los días calurosos de verano mientras descansan cerca de la hermosa playa. En Perú, el ceviche se sirve tradicionalmente en un plato con batatas dulces y suaves (llamadas camote) y maíz de granos grandes (llamado choclo) para equilibrar perfectamente los sabores picantes y ácidos. El jugo picante que queda en el fondo del plato también es muy popular. ¡Las personas lo llaman emocionadas la \"leche de tigre\" y lo beben directamente de un vaso para tener más energía!",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué país sudamericano es el ceviche el plato nacional?",
+          "¿Qué tipo de carne se usa como ingrediente principal para hacer el ceviche?",
+          "¿En qué líquido fresco se \"cocina\" o se marina el pescado crudo?",
+          "¿Cómo se llaman los pimientos muy picantes que se mezclan en el plato?",
+          "¿Cuándo y dónde le encanta a la gente comer este plato refrescante?",
+          "¿Con qué dos cosas se sirve tradicionalmente para equilibrar los sabores en Perú?",
+          "¿Cómo llaman las personas al jugo picante que queda en el plato?"
+        ],
+        "answerKey": [
+          "De Perú.",
+          "Pescado crudo y fresco.",
+          "En jugo fresco de limón.",
+          "Ají.",
+          "En los días calurosos de verano cerca de la playa.",
+          "Con batatas dulces (camote) y maíz grande (choclo).",
+          "La \"leche de tigre\"."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El ceviche es, indiscutiblemente, la joya absoluta de la corona de la riquísima gastronomía peruana y ha sido declarado oficialmente como Patrimonio Cultural de la Nación. Este exquisito, vibrante y sumamente refrescante plato costero se prepara meticulosamente utilizando como base principal generosos trozos de pescado blanco sumamente fresco y completamente crudo, recién extraído de las frías aguas del océano Pacífico. La técnica culinaria ancestral detrás de esta receta es verdaderamente fascinante para los expertos: el pescado no se somete a ningún tipo de calor tradicional, sino que se \"cuece\" en frío mediante un asombroso proceso químico natural.\n\nAl macerar pacientemente la carne cruda en el jugo recién exprimido de limones sutiles, la altísima acidez del cítrico desnaturaliza rápidamente las proteínas del pescado, transformando radicalmente su textura suave y cambiando su color a un tono blanco opaco. Una vez que la carne está curada, esta delicada base marina se condimenta magistralmente con finas plumas de cebolla morada crujiente, abundantes hojas aromáticas de cilantro fresco, una pizca de sal y el toque picante e inconfundible del ají limo finamente picado. Esta mezcla audaz crea una explosión de sabores cítricos y ardientes en el paladar de los comensales.\n\nPara lograr equilibrar a la perfección la intensa acidez del limón y el picor penetrante del ají, el ceviche se sirve tradicionalmente acompañado de generosas rodajas de camote dulce y granos tiernos de choclo andino. El sabroso, espeso y estimulante caldo residual que queda reposando en el fondo del plato, una emulsión perfecta de los jugos naturales del pescado y el cítrico, es venerado popularmente como la famosa \"leche de tigre\". Los comensales y turistas suelen beber este elixir picante con gran entusiasmo al final de la comida, ya que es legendario por sus supuestas propiedades revitalizantes, curativas y profundamente energéticas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué título honorífico nacional ha recibido el ceviche en el país de Perú?",
+          "¿Qué tipo de proteína se utiliza como base para este exquisito plato costero?",
+          "¿Qué proceso químico provoca la alta acidez del jugo de limón en el pescado crudo?",
+          "¿Con qué ingredientes aromáticos y picantes se condimenta magistralmente la base?",
+          "¿Por qué se acompaña tradicionalmente el ceviche con camote dulce y choclo andino?",
+          "¿De qué está compuesto el sabroso caldo residual que queda en el fondo del plato?",
+          "¿Por qué los comensales suelen beber la \"leche de tigre\" con tanto entusiasmo?"
+        ],
+        "answerKey": [
+          "Patrimonio Cultural de la Nación.",
+          "Trozos de pescado blanco sumamente fresco y crudo.",
+          "Desnaturaliza las proteínas del pescado, transformando su textura y color (\"cuece\" en frío).",
+          "Cebolla morada crujiente, cilantro fresco y ají limo.",
+          "Para equilibrar la intensa acidez y el picor.",
+          "Es una mezcla de los jugos del pescado y el limón.",
+          "Por sus supuestas propiedades revitalizantes y energéticas."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Las Tapas",
+    "imageFileName": "las_tapas.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Las Tapas are a fun, incredibly social, and highly delicious eating tradition originating from the beautiful country of España. Instead of ordering one giant, heavy meal to eat all by themselves, people in Spain excitedly order many small, different plates of tasty food to share with their close friends and family members. The Spanish word \"tapa\" literally means a small lid or physical cover. Hundreds of years ago, smart, hardworking bartenders in the dusty taverns of Spain would carefully place a small, flat piece of fresh bread, salty cheese, or cured meat directly over a customer's glass of sweet wine to keep the annoying summer flies and bugs away from the drink!\n\nToday, tapas are considered a highly famous and deeply beloved symbol of authentic Spanish culture all over the entire world. When you go to a traditional, noisy tapas restaurant in a busy city like Madrid or Sevilla, you might actually eat your entire meal happily standing up at a crowded wooden bar instead of sitting at a normal table. Some of the absolute most popular, classic tapas you can order include \"patatas bravas\" (crispy fried potatoes covered with a delicious, creamy, spicy red sauce), \"tortilla española\" (a very thick, savory omelet made with fresh eggs, soft potatoes, and sweet onions), and thin slices of salty, highly expensive \"jamón ibérico\" (cured ham).\n\nHowever, eating traditional tapas is not just about the delicious food; it is actually a highly social, fun community activity. Large groups of happy friends absolutely love to go \"de tapas\" on the weekends. This popular Spanish phrase means that they actively hop from one busy bar to another, eating a little bit of hot food and talking loudly at each fun stop along the street. It is a truly wonderful, culturally rich way to spend an entire evening socializing, laughing loudly, and happily trying many different, mouth-watering flavors!",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where does the eating tradition of tapas come from?",
+          "What does the Spanish word \"tapa\" literally mean?",
+          "Why did bartenders place bread over a customer's drink hundreds of years ago?",
+          "How might you eat when you go to a traditional tapas restaurant?",
+          "What are three of the most popular tapas mentioned in the text?",
+          "What does the phrase \"ir de tapas\" mean for groups of friends?",
+          "What is eating tapas a wonderful way to spend an entire evening doing?"
+        ],
+        "answerKey": [
+          "España.",
+          "A small lid or physical cover.",
+          "To keep the annoying summer flies and bugs away from the drink.",
+          "Happily standing up at a crowded wooden bar.",
+          "\"Patatas bravas\", \"tortilla española\", and \"jamón ibérico\".",
+          "Hopping from one busy bar to another, eating a little bit and talking loudly.",
+          "Socializing, laughing loudly, and happily trying many different flavors."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Las tapas son una tradición de comida muy divertida, increíblemente social y deliciosa originaria del hermoso país de España. En lugar de pedir una comida gigante y pesada solo para ellos, las personas en España piden muchos platos pequeños y diferentes de comida sabrosa para compartir con sus buenos amigos y su familia. La palabra española \"tapa\" significa literalmente una cubierta pequeña. ¡Hace cientos de años, los camareros inteligentes y trabajadores en las tabernas de España ponían un pedazo pequeño y plano de pan fresco, queso salado o carne directamente sobre el vaso de vino del cliente para proteger la bebida de los insectos y las moscas molestos del verano!\n\nHoy en día, las tapas son consideradas un símbolo famoso y muy querido de la auténtica cultura española en todo el mundo. Cuando vas a un restaurante tradicional y ruidoso de tapas en una ciudad ocupada como Madrid o Sevilla, es muy normal comer toda tu comida felizmente de pie en un bar lleno de gente en lugar de sentarte en una mesa normal. Algunas de las tapas clásicas y más populares que puedes pedir incluyen las \"patatas bravas\" (papas fritas crujientes con una salsa roja, cremosa y picante), la \"tortilla española\" (una tortilla muy gruesa hecha con huevos frescos, papas suaves y cebollas dulces) y rebanadas finas de \"jamón ibérico\" salado y muy caro.\n\nSin embargo, comer tapas tradicionales no es solo sobre la comida deliciosa; en realidad, es una actividad comunitaria muy social y divertida. A los grupos grandes de amigos felices les encanta absolutamente ir \"de tapas\" los fines de semana. Esta frase popular española significa que ellos caminan activamente de un bar ocupado a otro, comiendo un poco de comida caliente y hablando en voz alta en cada parada divertida de la calle. ¡Es una manera verdaderamente maravillosa y rica de pasar una noche entera socializando, riendo a carcajadas y probando felizmente muchos sabores deliciosos diferentes!",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué país europeo son las tapas una tradición de comida deliciosa?",
+          "¿Qué piden las personas en lugar de pedir una comida gigante?",
+          "¿Para qué ponían los camareros pan o carne sobre la bebida hace muchos años?",
+          "¿Cómo es normal comer cuando vas a un restaurante de tapas tradicional?",
+          "¿Cuáles son tres ejemplos de las tapas españolas más populares?",
+          "¿Qué significa exactamente la frase popular de ir \"de tapas\" en España?",
+          "¿Qué les encanta hacer a los grupos de amigos mientras comen en cada lugar?"
+        ],
+        "answerKey": [
+          "De España.",
+          "Muchos platos pequeños y diferentes de comida sabrosa para compartir.",
+          "Para proteger la bebida de los insectos y las moscas molestos del verano.",
+          "Felizmente de pie en un bar lleno de gente.",
+          "Las \"patatas bravas\", la \"tortilla española\" y el \"jamón ibérico\".",
+          "Caminar de un bar ocupado a otro, comiendo y hablando en cada parada de la calle.",
+          "Hablar en voz alta y socializar (probando felizmente muchos sabores)."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Las tapas representan indiscutiblemente una de las costumbres culinarias, lúdicas y sociales más emblemáticas y arraigadas de toda la geografía de España. Esta fascinante tradición gastronómica consiste esencialmente en degustar una variada selección de pequeñas y exquisitas raciones de comida, diseñadas específicamente para ser compartidas en grupo de manera informal. Etimológicamente, la peculiar palabra proviene de la antigua y práctica costumbre de los ingeniosos taberneros andaluces de siglos pasados. Ellos amablemente \"tapaban\" las copas de vino dulce de sus clientes utilizando una fina rebanada de pan rústico, queso curado o embutido con el único propósito de evitar que entraran moscas, insectos o el polvo del camino en la preciada bebida.\n\nEn la actualidad, el noble arte del tapeo ha evolucionado significativamente hasta convertirse en una exquisita, diversa y sofisticada forma de alta gastronomía en miniatura, atrayendo a millones de turistas culinarios. En las bulliciosas y vibrantes tabernas españolas, es sumamente común e incluso esperado consumir estas deliciosas creaciones culinarias de pie, apoyados casualmente en la barra de madera mientras se conversa animadamente. El menú clásico y tradicional de cualquier bar respetable incluye invariablemente manjares icónicos como las crujientes patatas bravas generosamente bañadas en una salsa alioli picante, la infaltable y jugosa tortilla de patatas con cebolla pochada, y finísimas lonchas del codiciado y costoso jamón ibérico de bellota cortado a cuchillo.\n\nSin embargo, el verdadero y más profundo valor de las tapas trasciende con creces lo estrictamente culinario; es, en su esencia, un rito fundamental e irremplazable de pura sociabilidad humana. La popular y extendida práctica de salir \"de tapas\" o \"tapear\" implica realizar una alegre ruta itinerante, saltando enérgicamente de un establecimiento a otro a lo largo de toda la noche de fin de semana. Es una excusa culturalmente perfecta para fomentar la convivencia pacífica, debatir apasionadamente sobre la vida y disfrutar plenamente de la innegable vitalidad y alegría de las calles españolas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué consiste específicamente esta emblemática tradición gastronómica española?",
+          "¿Cuál es el origen etimológico y práctico de la palabra \"tapa\" en las tabernas?",
+          "¿En qué se ha convertido el tapeo en la actualidad gastronómica?",
+          "¿Dónde y en qué posición es sumamente común consumir estas delicias en España?",
+          "¿Cuáles son tres manjares que incluye el menú clásico del tapeo?",
+          "¿Qué implica exactamente la práctica social de ir \"de tapas\" o \"tapear\"?",
+          "¿Qué fomenta esta ruta itinerante además de disfrutar de la vitalidad de las calles?"
+        ],
+        "answerKey": [
+          "En degustar una variada selección de pequeñas y exquisitas raciones de comida para ser compartidas en grupo.",
+          "Los taberneros andaluces \"tapaban\" las copas para evitar que entraran moscas, insectos o polvo.",
+          "En una exquisita, diversa y sofisticada forma de alta gastronomía en miniatura.",
+          "De pie, apoyados casualmente en la barra de madera de las bulliciosas tabernas.",
+          "Crujientes patatas bravas, la jugosa tortilla de patatas y finísimas lonchas de jamón ibérico de bellota.",
+          "Realizar una alegre ruta itinerante, saltando enérgicamente de un establecimiento a otro a lo largo de la noche.",
+          "La convivencia pacífica y debatir apasionadamente sobre la vida."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Café",
+    "imageFileName": "cafe.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "El Café, or coffee, is undeniably one of the absolute most important, popular, and heavily consumed delicious drinks in the entire world. Although the fascinating, magical coffee plant originally comes from the distant continent of Africa, the lush region of Latin America is now universally famous for growing some of the absolute best, highest-quality coffee on the planet. Beautiful, mountainous countries like Colombia, Costa Rica, and Brazil proudly export millions of heavy bags of roasted coffee beans every single year to coffee shops all across the globe.\n\nHowever, the delicate, leafy coffee plant strongly needs a very specific, perfect climate to grow properly. It absolutely needs the warm, wet, and highly tropical weather, alongside the incredibly rich, dark volcanic soil found exclusively high up in the steep mountains. Because of this difficult environment, growing and harvesting coffee is very hard, physical work. Dedicated, hardworking farmers must carefully hand-pick the small, bright red coffee cherries one by one when they are perfectly sweet and ripe, instead of using big, fast machines that could ruin the harvest. After the fresh beans are picked, they are washed in clean water, dried slowly in the hot sun, and finally roasted in hot ovens until they magically turn a beautiful dark brown color and smell amazing.\n\nIn beautiful Latin American culture, rich coffee is much more than just a simple, hot morning drink to give you quick, extra energy before work. It is a truly wonderful, powerful cultural reason to successfully bring family and friends closely together. Families and good friends often sit closely around the dining room table long after eating a big, heavy meal just to drink hot coffee and talk happily for hours. This beautiful, relaxing social tradition of talking and digesting after dinner is affectionately called the \"sobremesa,\" and a freshly brewed cup of coffee is always the absolute star of the conversation.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where does the coffee plant originally come from?",
+          "What three Latin American countries export millions of bags of coffee?",
+          "What specific climate does the coffee plant need to grow perfectly?",
+          "How do farmers pick the red coffee cherries instead of using machines?",
+          "What three things happen to the beans after they are picked?",
+          "Why do families and friends often sit around the table after a big meal?",
+          "What is the beautiful tradition of talking after dinner called?"
+        ],
+        "answerKey": [
+          "The distant continent of Africa.",
+          "Colombia, Costa Rica, and Brazil.",
+          "Warm, wet, and highly tropical weather alongside rich volcanic soil high up in the steep mountains.",
+          "They carefully hand-pick them one by one when they are perfectly sweet and ripe.",
+          "They are washed in clean water, dried slowly in the hot sun, and roasted in hot ovens.",
+          "To drink hot coffee and talk happily for hours.",
+          "The \"sobremesa\"."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El café es, innegablemente, una de las bebidas más importantes, populares y más consumidas de todo el mundo. Aunque la planta de café fascinante viene originalmente del continente lejano de África, la región hermosa de América Latina es ahora muy famosa universalmente por cultivar el mejor café de alta calidad del planeta. Países montañosos y hermosos como Colombia, Costa Rica y Brasil exportan con orgullo millones de bolsas pesadas de granos de café tostado todos los años a las cafeterías de todo el mundo.\n\nSin embargo, la planta de café delicada necesita fuertemente un clima muy específico y perfecto para crecer bien. Necesita absolutamente el clima cálido, húmedo y muy tropical, junto con la tierra volcánica increíblemente rica y oscura que se encuentra exclusivamente en lo alto de las montañas empinadas. Por este ambiente difícil, cultivar y cosechar café es un trabajo físico muy duro. Los agricultores dedicados y trabajadores deben recolectar cuidadosamente las pequeñas cerezas rojas y brillantes de café una por una con las manos cuando están perfectamente dulces y maduras, en lugar de usar máquinas grandes y rápidas que podrían arruinar la cosecha. Después de recolectar los granos frescos, se lavan en agua limpia, se secan lentamente bajo el sol caliente y finalmente se tuestan en hornos calientes hasta que se vuelven mágicamente de un hermoso color marrón oscuro y huelen increíble.\n\nEn la hermosa cultura latinoamericana, el café rico es mucho más que una simple bebida caliente por la mañana para darte energía extra y rápida antes del trabajo. Es una razón cultural verdaderamente maravillosa y poderosa para unir a la familia y a los amigos. Las familias y los buenos amigos frecuentemente se sientan juntos alrededor de la mesa del comedor mucho después de comer una comida grande y pesada, solo para beber café caliente y hablar felizmente por horas. Esta hermosa y relajante tradición social de hablar y digerir después de la cena se llama cariñosamente la \"sobremesa\", y una taza de café fresco siempre es la estrella absoluta de la conversación.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué continente viene originalmente la planta de café?",
+          "¿Qué tres países latinoamericanos son muy famosos por exportar granos de café?",
+          "¿Qué tipo de clima y geografía necesita la planta para crecer perfectamente?",
+          "¿Cómo recolectan los agricultores las cerezas rojas en lugar de usar máquinas?",
+          "¿Qué tres cosas les hacen a los granos de café antes de que sean de color marrón?",
+          "¿Para qué sirve el café en la cultura latinoamericana, además de dar energía?",
+          "¿Cómo se llama la hermosa tradición de hablar por horas después de comer?"
+        ],
+        "answerKey": [
+          "Del continente lejano de África.",
+          "Colombia, Costa Rica y Brasil.",
+          "Un clima cálido, húmedo y muy tropical junto con la tierra volcánica rica en lo alto de las montañas empinadas.",
+          "Cuidadosamente una por una con las manos cuando están perfectamente dulces y maduras.",
+          "Se lavan en agua limpia, se secan lentamente bajo el sol caliente y se tuestan en hornos calientes.",
+          "Es una razón cultural para unir a la familia y a los amigos (y hablar felizmente por horas).",
+          "La \"sobremesa\"."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El café es indiscutiblemente una de las bebidas más universalmente consumidas a nivel mundial y un motor económico absolutamente vital para numerosas naciones en desarrollo. Si bien la delicada planta del cafeto es históricamente originaria del vasto continente africano, específicamente de Etiopía, la exuberante región de Latinoamérica se ha consolidado magistralmente como el indiscutible epicentro global de la producción del café arábica de la más alta calidad. Naciones con topografías privilegiadas como Colombia, Costa Rica y Brasil lideran orgullosamente las inmensas exportaciones globales de este preciado y aromático grano.\n\nEl cultivo meticuloso del café es sumamente exigente y desafiante; requiere forzosamente un microclima muy específico y riguroso caracterizado por altitudes montañosas sumamente elevadas, suelos de origen volcánico profundamente ricos en minerales y nutrientes, y un clima tropical húmedo con lluvias constantes. El tradicional proceso de recolección es una labor intensamente ardua, física y meticulosa. En las laderas vertiginosamente escarpadas de los imponentes Andes, los experimentados caficultores deben cosechar artesanal y manualmente cada pequeña \"cereza\" roja en su punto exacto y perfecto de maduración dulce, descartando categóricamente la recolección mecanizada que dañaría la frágil planta. Posteriormente, los valiosos granos extraídos son cuidadosamente lavados, secados lentamente al sol radiante en extensos patios, y finalmente sometidos al crucial proceso de tueste, el cual libera sus complejos aceites esenciales y profundos sabores.\n\nMás allá de su innegable impacto económico y agrícola, el café posee un profundo, hermoso e irremplazable valor sociocultural en el mundo hispano. Lejos de ser un simple estimulante matutino consumido apresuradamente por sus altos niveles de cafeína, el café es el hilo conductor cálido de las relaciones interpersonales y sociales. Es el protagonista absoluto e indiscutible de la \"sobremesa\", esa entrañable, relajante y sagrada costumbre familiar de prolongar la íntima conversación en la mesa del comedor largo tiempo después de haber terminado de degustar los alimentos.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué continente es originaria la planta del cafeto?",
+          "¿Qué tres naciones latinoamericanas lideran las exportaciones globales de este grano?",
+          "¿Cuáles son las tres características del microclima específico que exige el cultivo?",
+          "¿Por qué la recolección se realiza manualmente en las laderas escarpadas?",
+          "¿Qué procesos sufren los granos extraídos antes de estar listos para el consumo?",
+          "¿De qué costumbre social es el café el hilo conductor y protagonista absoluto?",
+          "¿En qué consiste exactamente la entrañable costumbre de la \"sobremesa\"?"
+        ],
+        "answerKey": [
+          "Del vasto continente africano (específicamente de Etiopía).",
+          "Colombia, Costa Rica y Brasil.",
+          "Altitudes montañosas sumamente elevadas, suelos volcánicos profundamente ricos y un clima tropical húmedo.",
+          "Para cosechar artesanalmente cada \"cereza\" roja en su punto exacto y perfecto de maduración dulce.",
+          "Son cuidadosamente lavados, secados lentamente al sol radiante y sometidos al crucial proceso de tueste.",
+          "De la \"sobremesa\".",
+          "En prolongar la íntima conversación en la mesa del comedor largo tiempo después de haber terminado de degustar los alimentos."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Chocolate",
+    "imageFileName": "chocolate.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "El Chocolate is a deeply delicious, sweet treat loved passionately by people of all ages all over the entire world, but its highly fascinating and magical history actually begins long ago in ancient Latin America. Thousands of years before European explorers ever arrived, the brilliant Maya and Aztec indigenous people successfully grew wild cacao trees deep in the incredibly hot, lush tropical rainforests of ancient México and Central America. The delicate cacao tree produces very large, colorful, and strange-looking football-shaped pods that are completely filled with incredibly bitter, dark seeds inside.\n\nFor the ancient indigenous people, these bitter cacao seeds were extremely important and highly valuable in their daily society. In fact, they were considered so incredibly precious and sacred that people actually used the small seeds exactly like money to buy important things like clothes and food in the busy, crowded local markets! The fierce Aztecs definitely did not eat sweet, solid chocolate bars for dessert like we happily do today. Instead, they carefully crushed the bitter seeds by hand with heavy stones to expertly make a very dark, bitter, and highly spicy energy drink called \"xocolatl.\"\n\nWhen curious Spanish explorers eventually arrived, they quickly took the strange cacao seeds across the ocean back to Europe. In Europe, wealthy people cleverly added sweet sugar, fragrant vanilla, and creamy milk to magically make the delicious, sweet chocolate we all know and love eating today. However, despite this huge change, traditional, unsweetened chocolate is still very important in authentic Mexican cooking today. A highly famous example is \"mole poblano,\" a very rich, dark, and complex savory sauce made carefully with hot chili peppers, warm spices, and dark chocolate, which is usually served warm over tender chicken. Chocolate is truly a massive, wonderful, and historic gift from ancient Latin America to the rest of the hungry world.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where does the fascinating history of chocolate begin?",
+          "Who grew cacao trees in the tropical rainforests before Europeans arrived?",
+          "What did the ancient indigenous people use the valuable cacao seeds as?",
+          "What was \"xocolatl\" in the ancient Aztec culture?",
+          "Where did the Spanish explorers take the cacao seeds?",
+          "What three things did people add to make the sweet chocolate we know today?",
+          "What is \"mole\" in traditional Mexican cooking?"
+        ],
+        "answerKey": [
+          "Ancient Latin America (ancient México and Central America).",
+          "The brilliant Maya and Aztec indigenous people.",
+          "Exactly like money to buy important things in the busy local markets.",
+          "A very dark, bitter, and highly spicy energy drink.",
+          "Across the ocean back to Europe.",
+          "Sweet sugar, fragrant vanilla, and creamy milk.",
+          "A very rich, dark, and complex savory sauce made with hot chili peppers, warm spices, and dark chocolate."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El chocolate es un dulce profundamente delicioso que a las personas de todas las edades en todo el mundo les encanta apasionadamente, pero su historia muy fascinante y mágica en realidad empieza hace mucho tiempo en la antigua América Latina. Miles de años antes de que llegaran los exploradores europeos, los brillantes indígenas mayas y aztecas cultivaban árboles de cacao salvajes en el fondo de las selvas tropicales muy calientes de México antiguo y Centroamérica. El árbol de cacao delicado produce frutas muy grandes, de muchos colores y con formas extrañas que están completamente llenas de semillas amargas y oscuras por dentro.\n\nPara los antiguos indígenas, estas semillas amargas de cacao eran extremadamente importantes y muy valiosas en su sociedad diaria. De hecho, ¡eran consideradas tan increíblemente preciosas y sagradas que las personas realmente usaban las semillas pequeñas exactamente como dinero para comprar cosas importantes como ropa y comida en los mercados locales llenos de gente! Los feroces aztecas definitivamente no comían barras de chocolate dulce y sólido de postre como lo hacemos felizmente hoy en día. En lugar de eso, ellos aplastaban cuidadosamente las semillas amargas a mano con piedras pesadas para hacer expertamente una bebida de energía muy oscura, amarga y muy picante llamada \"xocolatl\".\n\nCuando los exploradores españoles curiosos finalmente llegaron, rápidamente llevaron las extrañas semillas de cacao a través del océano de regreso a Europa. En Europa, las personas ricas añadieron inteligentemente azúcar dulce, vainilla fragante y leche cremosa para hacer mágicamente el chocolate delicioso y dulce que todos conocemos y nos encanta comer hoy. Sin embargo, a pesar de este cambio enorme, el chocolate tradicional y sin azúcar todavía es muy importante en la auténtica cocina mexicana hoy en día. Un ejemplo muy famoso es el \"mole poblano\", una salsa rica, oscura y compleja hecha cuidadosamente con chiles picantes, especias calientes y chocolate oscuro, que normalmente se sirve caliente sobre pollo suave. El chocolate es verdaderamente un regalo masivo, maravilloso e histórico de la antigua América Latina para el resto del mundo hambriento.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué región del mundo empieza la historia fascinante del chocolate?",
+          "¿Qué dos grupos indígenas cultivaban árboles de cacao en las selvas?",
+          "¿Para qué usaban las personas las semillas de cacao en los mercados antiguos?",
+          "¿Qué era el \"xocolatl\" que preparaban los aztecas con las semillas?",
+          "¿A qué continente llevaron los exploradores españoles las semillas de cacao?",
+          "¿Qué tres ingredientes dulces añadieron las personas para cambiar el sabor?",
+          "¿Qué comida tradicional mexicana usa chocolate oscuro y chiles en su salsa?"
+        ],
+        "answerKey": [
+          "En la antigua América Latina (México antiguo y Centroamérica).",
+          "Los brillantes indígenas mayas y aztecas.",
+          "Exactamente como dinero para comprar cosas importantes en los mercados locales.",
+          "Una bebida de energía muy oscura, amarga y muy picante.",
+          "A través del océano de regreso a Europa.",
+          "Azúcar dulce, vainilla fragante y leche cremosa.",
+          "El \"mole poblano\"."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El chocolate, actualmente adorado y consumido insaciablemente como un codiciado, reconfortante y accesible manjar dulce a nivel global, tiene sus más profundas, mágicas y fascinantes raíces históricas ancladas en las imponentes civilizaciones precolombinas de Mesoamérica. Milenios antes de la brutal conquista europea, brillantes y avanzadas culturas originarias como los mayas y los imponentes aztecas ya habían domesticado con gran éxito el frágil árbol del cacao, cultivándolo expertamente en las húmedas y exuberantes selvas tropicales del sur de México y la vasta región de Centroamérica. Este peculiar árbol produce unas enormes y coloridas vainas estriadas que albergan en su interior las preciadas semillas crudas.\n\nEl enorme valor cultural y comercial atribuido a las semillas amargas y secas del cacao era tan absolutamente extraordinario que funcionaban legal y literalmente como una valiosa moneda de cambio oficial en las vastas y concurridas redes comerciales del imperio azteca. El consumo ritual del cacao en esa época difería drásticamente y por completo de nuestro dulce consumo actual; los antiguos aztecas lo trituraban meticulosamente a mano sobre metates de piedra volcánica y lo mezclaban hábilmente con agua fría, chiles ardientes, flores y especias locales para crear el \"xocolatl\". Este era un brebaje sumamente oscuro, intensamente espumoso y sumamente amargo que estaba estrictamente reservado para la alta nobleza, los sacerdotes y los guerreros más letales.\n\nTras la inevitable y conflictiva llegada de los ambiciosos colonizadores españoles, el exótico cacao fue exportado apresuradamente al viejo continente. Fue precisamente en las ricas cortes de Europa donde el cacao se transformó radicalmente al ser endulzado por primera vez con la valiosa azúcar de caña, la fragante vainilla y la suave leche. A pesar de esta innegable y masiva evolución global, el uso culinario del cacao en su forma salada, pura y sumamente compleja aún perdura viva e intacta en la alta gastronomía mexicana. El famoso \"mole poblano\", una sofisticada y laboriosa salsa oscura que baña jugosas carnes de ave, es el exquisito y perfecto testimonio vivo de esta herencia ancestral, fusionando brillantemente chiles picantes asados con el profundo y terroso sabor del chocolate oscuro.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué civilizaciones y región tiene sus fascinantes raíces el chocolate?",
+          "¿Qué valor extraordinario le atribuían a las semillas amargas en el imperio?",
+          "¿Qué ingredientes mezclaban los aztecas para crear el histórico \"xocolatl\"?",
+          "¿Para qué clases sociales estaba reservado este brebaje oscuro y espumoso?",
+          "¿Con qué tres ingredientes se transformó radicalmente el cacao al llegar a Europa?",
+          "¿Qué sofisticada salsa mexicana es el testimonio vivo de esta herencia ancestral?",
+          "¿Qué sabores contrastantes fusiona principalmente esta salsa de alta gastronomía?"
+        ],
+        "answerKey": [
+          "En las civilizaciones precolombinas de Mesoamérica (los mayas y los imponentes aztecas).",
+          "Funcionaban legal y literalmente como una valiosa moneda de cambio oficial.",
+          "Agua fría, chiles ardientes, flores y especias locales (y semillas trituradas).",
+          "Para la alta nobleza, los sacerdotes y los guerreros más letales.",
+          "Con la valiosa azúcar de caña, la fragante vainilla y la suave leche.",
+          "El famoso \"mole poblano\".",
+          "Fusiona brillantemente chiles picantes asados con el profundo y terroso sabor del chocolate oscuro."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Las Pupusas",
+    "imageFileName": "pupusas.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Pupusas are the incredibly delicious, highly famous, and deeply beloved national dish of El Salvador, a beautiful, tropical country located in Central America. They are essentially very thick, warm, handmade corn tortillas that are generously stuffed completely full with a wide variety of savory, mouth-watering ingredients. Long before the Spanish explorers ever arrived in the Americas, the brilliant indigenous Pipil people were already masterfully cooking early, historical versions of this amazing, filling food using very basic ingredients over hot, open fires!\n\nTo perfectly make a traditional pupusa by hand today, talented cooks take a small, soft ball of fresh corn dough, widely known as masa, and carefully press a deep hole straight into the center with their thumbs. They quickly fill the hole to the absolute top with delicious, savory ingredients like hot, melted queso (cheese), creamy refried beans, or a highly flavorful, finely ground pork meat called chicharrón. Then, they quickly flatten the stuffed ball back into a perfectly smooth circle and cook it carefully on a very hot, flat clay or metal griddle called a comal until both sides are perfectly toasted, hot, and golden brown.\n\nWhen you happily order hot pupusas in a lively local restaurant, they are absolutely always served alongside two very important, traditional side dishes that perfectly balance the heavy flavors. The very first is a cold, crunchy, and highly spicy cabbage slaw called curtido, which is carefully made by mixing vinegar, shredded carrots, and fragrant oregano. The second side dish is a very mild, refreshing, and completely smooth red tomato salsa. The absolute best, most fun, and most authentic traditional way to eat a hot pupusa is to happily put down your fork and knife, ignore the mess, and eat it entirely with your bare hands!",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "What country are pupusas the national dish of?",
+          "What kind of tortillas are pupusas?",
+          "Who cooked early versions of this food before the Spanish arrived?",
+          "What is chicharrón?",
+          "What is the hot griddle called where the pupusas are toasted?",
+          "What is the spicy cabbage slaw called curtido made with?",
+          "What is the best and most traditional way to eat a pupusa?"
+        ],
+        "answerKey": [
+          "El Salvador.",
+          "Very thick, warm, handmade corn tortillas.",
+          "The brilliant indigenous Pipil people.",
+          "A highly flavorful, finely ground pork meat.",
+          "A flat clay or metal griddle called a comal.",
+          "Vinegar, shredded carrots, and fragrant oregano.",
+          "To happily put down your fork and knife, ignore the mess, and eat it entirely with your bare hands."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Las pupusas son el plato nacional increíblemente delicioso, muy famoso y profundamente querido de El Salvador, un país hermoso y tropical ubicado en Centroamérica. Son esencialmente tortillas de maíz muy gruesas, calientes y hechas a mano que están rellenas generosamente con una gran variedad de ingredientes sabrosos. ¡Mucho antes de que los exploradores españoles llegaran a las Américas, los brillantes indígenas pipiles ya cocinaban versiones históricas de esta comida increíble y llenadora usando ingredientes muy básicos sobre fuegos calientes y abiertos!\n\nPara hacer perfectamente una pupusa tradicional a mano hoy en día, los cocineros talentosos toman una bola suave y pequeña de masa fresca de maíz, conocida como masa, y hacen un agujero profundo en el centro con sus dedos. Ellos rellenan rápidamente el agujero hasta arriba con ingredientes deliciosos y sabrosos como queso caliente y derretido, frijoles fritos y cremosos, o una carne de cerdo muy sabrosa y finamente molida llamada chicharrón. Luego, ellos aplanan rápidamente la bola rellena para hacer un círculo perfectamente suave y la cocinan con cuidado en una plancha de metal o barro muy caliente que se llama comal hasta que ambos lados están perfectamente tostados, calientes y dorados.\n\nCuando pides pupusas calientes felizmente en un restaurante local animado, siempre se sirven absolutamente con dos guarniciones tradicionales y muy importantes que equilibran perfectamente los sabores pesados. La primera es una ensalada de repollo fría, crujiente y muy picante que se llama curtido, que se hace cuidadosamente mezclando vinagre, zanahorias ralladas y orégano fragante. La segunda guarnición es una salsa de tomate rojo muy suave, refrescante y completamente líquida. ¡La mejor manera, la más divertida y la más auténtica de comer una pupusa caliente es dejar felizmente el tenedor y el cuchillo, ignorar el desorden y comerla completamente solo con tus manos!",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué país centroamericano son las pupusas el plato nacional?",
+          "¿De qué están hechas estas tortillas gruesas?",
+          "¿Qué carne de cerdo se usa frecuentemente como relleno?",
+          "¿Dónde se cocina la bola de masa hasta que está dorada?",
+          "¿Con qué dos cosas importantes se sirven siempre las pupusas?",
+          "¿De qué está hecha la ensalada picante llamada curtido?",
+          "¿Cómo debes comer este plato de manera tradicional?"
+        ],
+        "answerKey": [
+          "De El Salvador.",
+          "De masa fresca de maíz.",
+          "Una carne de cerdo muy sabrosa y finamente molida llamada chicharrón.",
+          "En una plancha de metal o barro muy caliente que se llama comal.",
+          "Con curtido y una salsa de tomate rojo muy suave.",
+          "De repollo, vinagre, zanahorias ralladas y orégano fragante.",
+          "Dejar felizmente el tenedor y el cuchillo, e ignorar el desorden y comerla completamente solo con tus manos."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Las pupusas son indiscutiblemente el plato nacional absoluto, el pilar culinario fundamental y el símbolo gastronómico más querido y entrañable de todo El Salvador. Sus milenarias y fascinantes raíces precolombinas se remontan directamente a la ingeniosa y avanzada tribu indígena de los pipiles, quienes habitaban pacíficamente el exuberante territorio mesoamericano mucho antes de la traumática conquista española. Estas sumamente gruesas y reconfortantes tortillas artesanales se elaboran meticulosamente a partir de una masa suave de maíz nixtamalizado y se rellenan abundante y generosamente en su interior antes de ser sometidas al fuego.\n\nLa preparación manual de este manjar es un proceso sumamente meticuloso y casi coreográfico. Las excepcionalmente hábiles y veloces cocineras, honrosamente conocidas en el país como pupuseras, forman ágilmente un cuenco profundo con la bola de masa y lo rellenan rápidamente con exquisitos ingredientes tradicionales como el sabroso quesillo fundido, cremosos frijoles refritos o un suculento chicharrón de cerdo finamente molido y sazonado. Una vez que el relleno está sellado y la masa es hábilmente palmeada con las manos desnudas hasta obtener un disco perfecto y uniforme, la pupusa se tuesta pacientemente sobre un amplio comal de barro o metal ardiente, creando una apetitosa e irresistible costra dorada en ambas superficies.\n\nPara equilibrar magistralmente la extrema riqueza de la masa pesada y la grasa del queso fundido, las pupusas recién salidas del fuego se acompañan siempre e invariablemente de dos guarniciones sumamente esenciales y refrescantes: una salsa roja y suave de tomate fresco licuado y el inconfundible curtido. Este último es un encurtido crujiente y ligeramente fermentado de repollo picado, zanahoria y orégano, sumergido en vinagre ácido y chiles picantes. Como dicta la sagrada e inquebrantable tradición salvadoreña, probar adecuadamente esta maravilla culinaria exige categóricamente abandonar por completo los cubiertos occidentales y saborearla exclusivamente con las manos desnudas para disfrutar plenamente de la experiencia cultural completa y táctil.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿A qué tribu indígena se remontan las raíces precolombinas de este plato?",
+          "¿Qué tipo de masa específica se utiliza en la elaboración de estas tortillas?",
+          "¿Cómo se llama tradicionalmente a las hábiles cocineras de este plato?",
+          "¿Cuáles son tres rellenos tradicionales mencionados para el interior de la masa?",
+          "¿Sobre qué superficie ardiente se tuesta el disco perfecto?",
+          "¿Qué ingredientes fermentados componen la guarnición esencial del curtido?",
+          "¿Qué exige la tradición salvadoreña al momento de degustar esta delicia?"
+        ],
+        "answerKey": [
+          "A la ingeniosa y avanzada tribu indígena de los pipiles.",
+          "Una masa suave de maíz nixtamalizado.",
+          "Pupuseras.",
+          "El sabroso quesillo fundido, cremosos frijoles refritos o un suculento chicharrón de cerdo finamente molido.",
+          "Sobre un amplio comal de barro o metal ardiente.",
+          "Repollo picado, zanahoria y orégano, sumergido en vinagre ácido y chiles picantes.",
+          "Abandonar por completo los cubiertos occidentales y saborearla exclusivamente con las manos desnudas."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "La Ropa Vieja",
+    "imageFileName": "ropa_vieja.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Ropa Vieja is the incredibly famous, deeply beloved, and historical national dish of Cuba, a beautiful, tropical island nation located in the bright blue Caribbean Sea. The unique name of the delicious dish literally translates to the phrase \"old clothes\" in English! This very funny and strange name actually comes directly from a very old, magical Spanish legend. According to the emotional story, a very poor man had absolutely no money at all to buy fresh food to feed his starving family. He was so incredibly desperate and sad that he ripped and shredded his very own old, dirty clothes and cooked them in a hot pot of boiling water. Magically, his deep, powerful love for his family instantly turned the old clothes into a rich, delicious, and savory meat stew.\n\nIn reality, authentic Ropa Vieja is carefully made using long strings of shredded beef, usually a tough cut of meat called flank steak. After the heavy beef is boiled slowly for a very long time until it is incredibly soft and tender, it is pulled apart by hand into long, thin strings that actually look exactly like ripped fabric or shredded clothing. The tender, shredded meat is then cooked very slowly in a highly flavorful, rich tomato sauce mixed beautifully with sweet white onions, crushed garlic, and colorful, sweet bell peppers.\n\nIn traditional homes and restaurants in Cuba, this incredibly savory, comforting dish is almost always served generously with a huge, hot scoop of plain white rice, thick black beans, and perfectly fried, caramelized sweet plantains famously called maduros. The wonderful, sticky sweetness of the fried plantains perfectly and magically balances the rich, salty flavors of the shredded beef stew. It is a warm, deeply comforting, and highly historical meal that always brings happy Cuban families closely together around the dinner table.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "What country is Ropa Vieja the national dish of?",
+          "What does the name of the dish literally translate to in English?",
+          "What did the poor man in the legend cook in a pot?",
+          "What type of meat is actually used to make this dish?",
+          "What three vegetables are mixed into the flavorful tomato sauce?",
+          "What are \"maduros\"?",
+          "What balances the salty flavors of the shredded beef?"
+        ],
+        "answerKey": [
+          "Cuba.",
+          "\"Old clothes\".",
+          "His very own old, dirty clothes.",
+          "Shredded beef (usually a tough cut of meat called flank steak).",
+          "Sweet white onions, crushed garlic, and colorful, sweet bell peppers.",
+          "Perfectly fried, caramelized sweet plantains.",
+          "The wonderful, sticky sweetness of the fried plantains."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La Ropa Vieja es el plato nacional increíblemente famoso, profundamente querido e histórico de Cuba, una hermosa nación insular tropical ubicada en el brillante y azul Mar Caribe. ¡El nombre único del delicioso plato literalmente significa la frase \"ropa vieja\" en inglés! Este nombre tan cómico y extraño en realidad viene directamente de una leyenda española muy antigua y mágica. Según la historia emocional, un hombre muy pobre no tenía absolutamente nada de dinero para comprar comida fresca para alimentar a su familia hambrienta. Él estaba tan increíblemente desesperado y triste que rompió y desmenuzó su propia ropa vieja y sucia, y la cocinó en una olla caliente de agua hirviendo. Mágicamente, su amor profundo y poderoso por su familia transformó instantáneamente la ropa vieja en un estofado de carne rico, delicioso y sabroso.\n\nEn la realidad, la auténtica Ropa Vieja se prepara cuidadosamente con tiras largas de carne de res desmenuzada, normalmente un corte de carne duro que se llama falda. Después de hervir la carne pesada lentamente por mucho tiempo hasta que está increíblemente suave y tierna, se separa a mano en tiras largas y finas que realmente se ven exactamente como tela rota o ropa desmenuzada. Luego, la carne tierna y desmenuzada se cocina muy lentamente en una salsa de tomate rica y muy sabrosa mezclada maravillosamente con cebollas blancas dulces, ajo triturado y coloridos pimientos dulces.\n\nEn las casas y restaurantes tradicionales de Cuba, este plato increíblemente sabroso y reconfortante casi siempre se sirve generosamente con una porción grande y caliente de arroz blanco simple, frijoles negros espesos y plátanos dulces fritos y caramelizados famosamente llamados maduros. La dulzura maravillosa y pegajosa de los plátanos fritos equilibra perfecta y mágicamente los sabores ricos y salados del estofado de carne desmenuzada. Es una comida caliente, profundamente reconfortante y muy histórica que siempre une a las familias cubanas felices alrededor de la mesa del comedor.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué isla del Caribe es la Ropa Vieja el plato nacional?",
+          "¿Qué significa literalmente el nombre de este plato sabroso?",
+          "Según la leyenda, ¿qué transformó mágicamente la ropa en un estofado?",
+          "¿Cómo se ve la carne después de separarla en tiras largas?",
+          "¿En qué tipo de salsa rica se cocina la carne lentamente?",
+          "¿Cuáles son las tres guarniciones que casi siempre se sirven con la carne?",
+          "¿Qué hace esta comida reconfortante para los cubanos?"
+        ],
+        "answerKey": [
+          "De Cuba.",
+          "Ropa vieja (\"old clothes\").",
+          "Su amor profundo y poderoso por su familia.",
+          "Se ve exactamente como tela rota o ropa desmenuzada.",
+          "En una salsa de tomate rica y muy sabrosa mezclada con cebollas blancas, ajo triturado y pimientos dulces.",
+          "Arroz blanco simple, frijoles negros espesos y plátanos dulces fritos (maduros).",
+          "Siempre une a las familias cubanas felices alrededor de la mesa del comedor."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La Ropa Vieja es el plato nacional por excelencia de la vibrante isla de Cuba y un tesoro culinario verdaderamente entrañable de todo el Caribe hispanohablante. Aunque sus rústicos orígenes históricos se remontan directamente a las humildes Islas Canarias en España, la compleja receta fue adoptada, perfeccionada y transformada innegablemente por la colorida y vibrante cultura afrocubana. Su peculiar y llamativo nombre proviene de una antigua y folclórica leyenda sobre un anciano indigente que, al no tener absolutamente nada de dinero ni recursos para alimentar a su numerosa y hambrienta familia, cocinó desesperadamente sus propios harapos deshilachados en una olla de hierro. Milagrosa y poéticamente, su incondicional y profundo amor paternal transformó las sucias y rotas prendas en un suculento, nutritivo y abundante guiso de carne.\n\nPara preparar meticulosamente este tradicional manjar hoy en día, se utiliza casi exclusivamente la falda de res, un corte de carne fibroso y duro, la cual se hierve a fuego extremadamente lento con finas hierbas hasta alcanzar una textura sumamente tierna y dócil. Posteriormente, la carne enfriada se deshebra cuidadosamente a mano en finísimas tiras longitudinales que asemejan asombrosamente a rústicos jirones de tela desgarrada por el tiempo. Finalmente, esta carne finamente desmenuzada se sofríe y se integra pacientemente en un aromático y espeso guiso a base de puré de tomate fresco, cebolla en julianas, abundante ajo machacado, especias aromáticas y tiras de pimientos morrones de colores brillantes.\n\nEl suntuoso banquete caribeño no está de ninguna manera completo sin sus indispensables guarniciones clásicas. La Ropa Vieja se sirve invariablemente y de forma tradicional sobre una generosa cama de arroz blanco humeante, sutilmente acompañado de un espeso potaje de frijoles negros cubanos y crujientes y caramelizadas tajadas de plátano maduro frito. El exquisito contraste palatal entre la dulzura almibarada del plátano y el intenso y concentrado sabor salado del jugoso sofrito de carne crea una experiencia gastronómica absolutamente inigualable, nostálgica y profundamente reconfortante que une a las familias alrededor de la mesa dominical.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué región de España se remontan los orígenes históricos del plato?",
+          "Según la leyenda, ¿quién cocinó sus propios harapos milagrosamente?",
+          "¿Qué tipo de corte específico de carne se utiliza para preparar este manjar?",
+          "¿A qué se asemejan las finas tiras de carne deshebrada a mano?",
+          "¿Cuáles son los cuatro ingredientes principales del aromático sofrito?",
+          "¿Qué es el potaje que tradicionalmente acompaña a la cama de arroz blanco?",
+          "¿Qué contraste de sabores crea una experiencia gastronómica inigualable?"
+        ],
+        "answerKey": [
+          "En las humildes Islas Canarias.",
+          "Un anciano indigente.",
+          "La falda de res (un corte de carne fibroso y duro).",
+          "A rústicos jirones de tela desgarrada por el tiempo.",
+          "Puré de tomate fresco, cebolla en julianas, abundante ajo machacado y tiras de pimientos morrones de colores brillantes.",
+          "Un espeso potaje de frijoles negros cubanos.",
+          "El contraste entre la dulzura almibarada del plátano maduro frito y el intenso y concentrado sabor salado del jugoso sofrito de carne."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Machu Picchu",
+    "imageFileName": "machu_picchu.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Machu Picchu is an incredibly famous, deeply mysterious, and ancient Incan city located extremely high up in the green Andes Mountains of the beautiful country of Perú. Because it was hidden from the world for so long, it is very often and famously called the \"Lost City of the Incas.\" Hundreds of years ago, during the powerful height of their large empire, the highly intelligent and hardworking Inca people carefully built this beautiful, massive stone city in the clouds. What is truly amazing is that they did not use wheeled carts, modern machines, or heavy metal tools to build it, but the giant stones fit together so perfectly that you cannot even put a piece of paper between them!\n\nFor a very long time after the Spanish explorers arrived in South America, the secret city was completely hidden and slowly swallowed up by the thick, green jungle. It remained a quiet secret until an adventurous American explorer named Hiram Bingham finally found it and showed it to the modern world in the year 1911. Today, millions of excited tourists travel to Perú every single year to hike the very famous, difficult, and beautiful Inca Trail (known in Spanish as el Camino Inca) just to see the ancient ruins at sunrise.\n\nThe stunning view from the very top of the steep montaña is absolutely breathtaking and unforgettable for anyone who visits. You can easily see deep green valleys, incredibly steep, dangerous cliffs, and sometimes even groups of fluffy, friendly llamas walking slowly around the ancient grey stones. Because of its amazing, unique architecture and rich, fascinating history, Machu Picchu is officially considered one of the New Seven Wonders of the World and is fiercely protected by the government.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where is Machu Picchu located?",
+          "What is it often called?",
+          "What did the Inca people use to build the city?",
+          "Who found the hidden city in 1911?",
+          "What famous trail do tourists walk to see the ruins?",
+          "What animals can you sometimes see walking around the stones?",
+          "Why is it considered one of the New Seven Wonders of the World?"
+        ],
+        "answerKey": [
+          "The Andes Mountains of Perú.",
+          "The \"Lost City of the Incas\".",
+          "Massive stones.",
+          "Hiram Bingham.",
+          "The Inca Trail / el Camino Inca.",
+          "Fluffy, friendly llamas.",
+          "Because of its amazing architecture and history."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Machu Picchu es una ciudad antigua, profundamente misteriosa e increíblemente famosa de los incas en las altas montañas verdes de los Andes en el hermoso país de Perú. Porque estuvo escondida del mundo por mucho tiempo, muchas personas la llaman famosamente la \"Ciudad Perdida de los Incas\". Hace cientos de años, durante el tiempo más poderoso de su imperio, los incas muy inteligentes y trabajadores construyeron cuidadosamente esta hermosa y masiva ciudad de piedra en las nubes. ¡Lo que es verdaderamente asombroso es que ellos no usaron carros con ruedas, máquinas modernas ni herramientas de metal para construirla, pero las piedras gigantes encajan tan perfectamente que no puedes poner un papel entre ellas!\n\nPor muchísimo tiempo después de que los exploradores españoles llegaron a América del Sur, la ciudad secreta estuvo completamente escondida y lentamente cubierta por la selva verde y espesa. Se mantuvo como un secreto tranquilo hasta que un explorador estadounidense y aventurero llamado Hiram Bingham finalmente la encontró y la mostró al mundo moderno en el año 1911. Hoy en día, millones de turistas emocionados viajan a Perú todos los años para caminar por el famoso, difícil y hermoso Camino Inca solo para ver las ruinas antiguas al amanecer.\n\nLa vista impresionante desde la cima de la montaña empinada es absolutamente inolvidable para cualquier persona que la visita. Puedes ver fácilmente valles verdes muy profundos, precipicios peligrosos y empinados, y a veces grupos de llamas peludas y simpáticas caminando lentamente entre las piedras grises y antiguas. Por su arquitectura asombrosa y única, y su historia rica y fascinante, Machu Picchu es considerada oficialmente una de las Nuevas Siete Maravillas del Mundo y es protegida ferozmente por el gobierno.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué montañas famosas de Perú está Machu Picchu?",
+          "¿Cómo llaman muchas personas a esta ciudad antigua?",
+          "¿Qué usaron los incas inteligentes para construir la ciudad?",
+          "¿Quién encontró la ciudad escondida en la selva en 1911?",
+          "¿Por dónde caminan millones de turistas para ver las ruinas?",
+          "¿Qué animales bonitos puedes ver caminando entre las piedras?",
+          "¿Por qué es considerada una de las Nuevas Siete Maravillas del Mundo?"
+        ],
+        "answerKey": [
+          "En las altas montañas de los Andes en Perú.",
+          "La \"Ciudad Perdida de los Incas\".",
+          "Piedras gigantes.",
+          "El explorador estadounidense Hiram Bingham.",
+          "Por el famoso Camino Inca.",
+          "Llamas peludas y simpáticas.",
+          "Por su arquitectura asombrosa y única, y su historia rica y fascinante."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Machu Picchu es una majestuosa, imponente y enigmática ciudadela incaica enclavada estratégicamente en lo más alto de la escarpada cordillera de los Andes peruanos, rodeada de exuberante vegetación nubosa. Conocida mundialmente en la cultura popular como la \"Ciudad Perdida de los Incas\", este vasto complejo urbano y religioso fue erigido en el apogeo del siglo XV bajo el estricto mandato del gran emperador Pachacútec. Su construcción es universalmente considerada una verdadera obra maestra de la ingeniería civil y la arquitectura paisajística precolombina; los macizos e irregulares bloques de piedra granítica fueron tallados, pulidos y ensamblados con tal asombrosa precisión milimétrica que encajan a la perfección sin la más mínima necesidad de argamasa, logrando resistir intactos siglos de violenta actividad sísmica en la región.\n\nTras la brutal y destructiva conquista española del imperio incaico, el sitio sagrado fue misteriosa y repentinamente abandonado por sus habitantes originales, y la densa, húmeda y voraz vegetación selvática lo ocultó y protegió celosamente durante casi cuatrocientos años de aislamiento. No fue sino hasta el año 1911 que el audaz explorador y profesor estadounidense Hiram Bingham, guiado por agricultores locales, reveló finalmente su asombrosa existencia al mundo exterior a través de la revista National Geographic. En la actualidad, este santuario histórico es indiscutiblemente el destino turístico más visitado y reverenciado de todo el Perú, y exige a los más aventureros recorrer arduamente a pie el escarpado y exigente Camino Inca durante varios días para lograr llegar al amanecer a sus impresionantes terrazas agrícolas.\n\nDeclarada orgullosamente Patrimonio de la Humanidad por la UNESCO y votada masivamente como una de las Nuevas Siete Maravillas del Mundo Moderno, Machu Picchu sigue siendo un enigma fascinante para arqueólogos y viajeros. Caminar entre sus templos solares, plazas ceremoniales y observar a las pacíficas llamas pastar entre las ruinas graníticas ofrece una conexión profundamente mística y espiritual con una civilización ancestral extraordinariamente avanzada.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué cordillera montañosa está enclavada esta majestuosa ciudadela incaica?",
+          "¿Bajo el mandato de qué emperador fue erigida en el siglo XV?",
+          "¿Por qué se considera su construcción una obra maestra de la ingeniería?",
+          "¿Qué ocultó el sitio arqueológico durante casi cuatrocientos años?",
+          "¿Quién reveló su existencia al mundo exterior en el año 1911?",
+          "¿Qué sendero escarpado exige recorrer para llegar a sus terrazas agrícolas?",
+          "¿Qué dos prestigiosos títulos internacionales ostenta este enigma fascinante hoy en día?"
+        ],
+        "answerKey": [
+          "En la escarpada cordillera de los Andes peruanos.",
+          "El emperador Pachacútec.",
+          "Porque los bloques de piedra encajan a la perfección sin necesidad de argamasa, resistiendo siglos de sismos.",
+          "La densa, húmeda y voraz vegetación selvática.",
+          "El audaz explorador estadounidense Hiram Bingham.",
+          "El escarpado y exigente Camino Inca.",
+          "Patrimonio de la Humanidad (por la UNESCO) y una de las Nuevas Siete Maravillas del Mundo Moderno."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Salar de Uyuni",
+    "imageFileName": "salar_uyuni.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The breathtaking Salar de Uyuni is officially the absolute largest salt flat in the entire world. It is located in the beautiful, mountainous country of Bolivia, very high up in the cold Andes mountains of South America. Many thousands of years ago, this massive, flat area was actually a giant, deep prehistoric lake full of water. When the ancient lake completely dried up over time under the hot sun, it left behind a massive, bright white crust of hard sal (salt) that incredibly stretches as far as the human eye can possibly see!\n\nDuring the long, hot dry season, the hard ground looks exactly like an endless, bright white desert covered with very cool, natural hexagonal patterns made of cracked salt. But during the short rainy season, something truly magical and beautiful happens to the landscape. A very thin layer of clear agua (water) slowly covers the flat salt, instantly turning the entire endless desert into the world's absolute largest natural mirror! \n\nThis massive, wet mirror perfectly and clearly reflects the bright blue sky, the shining sun, and the fluffy white clouds, making it look exactly like people are magically walking on thin air or floating in the sky. Because the ground is so incredibly flat, white, and endless, excited tourists from all over the globe absolutely love taking very funny, creative perspective photos with toy dinosaurs and small props. It is also a very important, protected natural habitat for thousands of beautiful, bright pink flamingos who visit the shallow, salty water every year to eat and raise their babies.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "What is the Salar de Uyuni the largest of in the entire world?",
+          "What South American country is it located in?",
+          "What was this area thousands of years ago?",
+          "What does the ground look like during the dry season?",
+          "What does the thin layer of water turn the salt flat into during the rainy season?",
+          "Why do tourists love taking funny perspective photos there?",
+          "What beautiful pink bird uses the salt flat as an important habitat?"
+        ],
+        "answerKey": [
+          "The absolute largest salt flat.",
+          "Bolivia.",
+          "A giant, deep prehistoric lake.",
+          "An endless, bright white desert covered with hexagonal patterns.",
+          "The world's absolute largest natural mirror.",
+          "Because the ground is so incredibly flat, white, and endless.",
+          "Bright pink flamingos."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El impresionante Salar de Uyuni es oficialmente el desierto de sal más grande del mundo entero. Está ubicado en el hermoso y montañoso país de Bolivia, muy alto en las frías montañas de los Andes en América del Sur. Hace muchos miles de años, esta área masiva y plana era en realidad un lago prehistórico gigante y profundo lleno de agua. ¡Cuando el lago antiguo se secó completamente con el tiempo bajo el sol caliente, dejó una costra masiva y muy blanca de sal dura que se extiende hasta donde los ojos humanos pueden ver!\n\nDurante la larga y calurosa temporada seca, el suelo duro se ve exactamente como un desierto infinito y muy blanco cubierto con patrones hexagonales muy interesantes y naturales hechos de sal rota. Pero durante la corta temporada de lluvias, ocurre algo verdaderamente mágico y hermoso en el paisaje. Una capa muy fina de agua clara cubre lentamente la sal plana, ¡transformando instantáneamente todo el desierto infinito en el espejo natural más grande del mundo!\n\nEste espejo masivo y mojado refleja perfecta y claramente el cielo azul brillante, el sol y las nubes blancas y suaves, haciendo que parezca exactamente que las personas están caminando mágicamente por el aire o flotando en el cielo. Porque el suelo es tan increíblemente plano, blanco e infinito, a los turistas emocionados de todo el mundo les encanta absolutamente tomar fotos de perspectiva muy cómicas y creativas con dinosaurios de juguete. También es un hábitat natural muy importante y protegido para miles de hermosos flamencos rosados que visitan el agua salada y poco profunda todos los años para comer y criar a sus bebés.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué es exactamente el famoso Salar de Uyuni en Bolivia?",
+          "¿Qué era esta área gigante hace miles de años?",
+          "¿Qué color brillante tiene el desierto masivo que dejó el lago?",
+          "¿Qué ocurre mágicamente durante la temporada de lluvias?",
+          "¿Qué dos cosas refleja perfectamente el espejo natural gigante?",
+          "¿Qué les encanta tomar a los turistas porque el lugar es muy plano?",
+          "¿Qué animales rosados viven en este hábitat natural hermoso?"
+        ],
+        "answerKey": [
+          "El desierto de sal más grande del mundo entero.",
+          "Un lago prehistórico gigante y profundo lleno de agua.",
+          "Muy blanco.",
+          "Una capa muy fina de agua transforma todo el desierto en el espejo natural más grande del mundo.",
+          "El cielo azul brillante (el sol) y las nubes blancas y suaves.",
+          "Fotos de perspectiva muy cómicas y creativas.",
+          "Miles de hermosos flamencos rosados."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El deslumbrante y sobrecogedor Salar de Uyuni, estratégicamente ubicado en el árido suroeste del altiplano de Bolivia, es oficialmente la planicie de sal continua y más extensa de todo el planeta Tierra. Este inmenso, cegador e infinito paisaje blanco es el fascinante legado geológico de varios lagos prehistóricos gigantescos que, tras drásticos cambios climáticos, se evaporaron progresivamente hace miles de años. Al secarse por completo, dejaron tras de sí una espesa, sólida y brillante costra salina de varios metros de profundidad. Durante la dura y extrema temporada seca, la superficie árida y agrietada del salar presenta un asombroso, repetitivo y casi hipnótico patrón de polígonos hexagonales perfectos que se extienden ininterrumpidamente hasta perderse en la línea del horizonte.\n\nSin embargo, su transformación visual más espectacular, famosa y deslumbrante ocurre anualmente durante la breve época de lluvias amazónicas. Una fina y delicada película de agua de apenas unos centímetros inunda suavemente la planicie salina, convirtiéndola instantáneamente en el espejo natural más inmenso, prístino y perfecto del mundo entero. Este fenómeno óptico verdaderamente surrealista borra por completo la división entre la tierra y el firmamento, creando la impactante ilusión óptica de que los asombrados visitantes están caminando o levitando literalmente sobre el cielo estrellado o flotando entre las suaves nubes del atardecer.\n\nEl majestuoso salar no solo es un imán turístico irresistible para creativos fotógrafos internacionales que juegan hábil y cómicamente con la perspectiva y la profundidad de campo, sino que también es un ecosistema crucial. Alberga bajo su blanca corteza una de las reservas de litio más grandes y codiciadas del mundo moderno. Además, sus lagunas minerales poco profundas sirven como el sitio de cría vital y protegido para miles de aves endémicas, especialmente para tres raras y hermosas especies de flamencos andinos de plumaje intensamente rosado que migran allí cada verano.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué país sudamericano se encuentra la planicie de sal continua más extensa de la Tierra?",
+          "¿De qué fenómeno geológico es el legado este deslumbrante paisaje blanco?",
+          "¿Qué patrón geométrico asombroso presenta la superficie árida durante la temporada seca?",
+          "¿En qué se convierte la planicie cuando una fina película de agua la inunda en época de lluvias?",
+          "¿Qué ilusión óptica crea este fenómeno al borrar la línea del horizonte?",
+          "¿Qué valioso recurso natural esconde el salar en una de las reservas más grandes del mundo?",
+          "¿Para qué aves andinas es este sitio un lugar de cría vital?"
+        ],
+        "answerKey": [
+          "En el árido suroeste del altiplano de Bolivia.",
+          "De varios lagos prehistóricos gigantescos que se evaporaron progresivamente hace miles de años.",
+          "Un asombroso, repetitivo e hipnótico patrón de polígonos hexagonales perfectos.",
+          "En el espejo natural más inmenso, prístino y perfecto del mundo entero.",
+          "La impactante ilusión de que los visitantes están caminando o levitando sobre el cielo estrellado o flotando entre nubes.",
+          "El litio (una de las reservas de litio más grandes y codiciadas del mundo).",
+          "Para tres raras y hermosas especies de flamencos andinos de plumaje intensamente rosado."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Yunque",
+    "imageFileName": "el_yunque.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "El Yunque National Forest is an incredibly magical, lush, and protected natural place located on the beautiful, warm island of Puerto Rico. It is a very famous and important park because it is officially the only tropical rainforest located in the entire United States National Forest System! Because the weather is extremely humid and it rains heavily almost every single day of the year, the thick forest is constantly filled with incredibly green, towering árboles (trees), giant, prehistoric-looking ferns, and bright, colorful tropical flowers.\n\nIf you bravely hike through the muddy, twisting trails deep into the mountain, you can easily find hidden, beautiful waterfalls crashing down the rocks and safely swim in cold, crystal-clear natural rivers. One of the absolute most important, famous, and beloved animals living freely in El Yunque is a tiny, bright green tree frog called the coquí. The musical coquí is a deeply beloved and proud symbol of Puerto Rico for all the people who live there. At night, millions of these little hidden frogs wake up and loudly sing a beautiful, rhythmic song together in the dark that sounds exactly like their name: \"co-quí, co-quí!\"\n\nLuckily for adventurous tourists and happy families hiking in the park, there are absolutely no dangerous, scary bears, poisonous snakes, or wild monkeys hiding in this thick forest. Instead, the trees are completely full of peaceful, colorful singing parrots, slow-moving snails, and fast green lizards. El Yunque is a wonderfully peaceful, safe, and vibrant Caribbean jungle that proudly shows off the amazing, unique natural beauty and rich ecology of the tropical island.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "What island is El Yunque National Forest located on?",
+          "What makes it unique in the United States National Forest System?",
+          "Why is the forest filled with green trees and giant ferns?",
+          "What can you find and swim in if you hike through the trails?",
+          "What is the tiny, green tree frog called?",
+          "What do the millions of little frogs do at night?",
+          "What colorful animals can you find instead of bears or monkeys?"
+        ],
+        "answerKey": [
+          "Puerto Rico.",
+          "It is officially the only tropical rainforest.",
+          "Because the weather is extremely humid and it rains heavily almost every single day.",
+          "Hidden, beautiful waterfalls and cold, crystal-clear natural rivers.",
+          "The coquí.",
+          "They loudly sing a beautiful, rhythmic song together in the dark that sounds exactly like their name.",
+          "Peaceful, colorful singing parrots, slow-moving snails, and fast green lizards."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El Bosque Nacional El Yunque es un lugar natural increíblemente mágico, verde y protegido que está ubicado en la hermosa y cálida isla de Puerto Rico. ¡Es un parque muy famoso e importante porque es oficialmente el único bosque tropical lluvioso en todo el sistema de bosques nacionales de los Estados Unidos! Como el clima es extremadamente húmedo y llueve mucho casi todos los días del año, el bosque espeso está constantemente lleno de árboles muy verdes y altos, helechos gigantes que parecen prehistóricos, y flores tropicales muy brillantes y coloridas.\n\nSi caminas valientemente por los senderos de barro y curvas en lo profundo de la montaña, puedes encontrar fácilmente cascadas hermosas y escondidas cayendo por las rocas, y nadar con seguridad en ríos naturales de agua fría y muy clara. Uno de los animales más importantes, famosos y queridos que viven libremente en El Yunque es una rana de árbol muy pequeña y de color verde brillante que se llama el coquí. El coquí musical es un símbolo profundamente querido y orgulloso de Puerto Rico para todas las personas que viven allí. Por la noche, millones de estas pequeñas ranas escondidas se despiertan y cantan una canción hermosa y rítmica juntas en la oscuridad que suena exactamente como su nombre: \"¡co-quí, co-quí!\".\n\nAfortunadamente para los turistas aventureros y las familias felices que caminan por el parque, no hay absolutamente ningún oso peligroso, serpiente venenosa o mono salvaje escondido en este bosque espeso. En cambio, los árboles están completamente llenos de loros coloridos y pacíficos que cantan, caracoles lentos y lagartos verdes y rápidos. El Yunque es una selva caribeña maravillosamente pacífica, segura y vibrante que muestra con orgullo la gran belleza natural de la isla.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué isla caribeña está el Bosque Nacional El Yunque?",
+          "¿Por qué es un lugar único en el sistema de bosques de los Estados Unidos?",
+          "¿Por qué el bosque está siempre lleno de árboles verdes y plantas gigantes?",
+          "¿Qué puedes encontrar y hacer si caminas por los senderos del bosque?",
+          "¿Cómo se llama la rana pequeña y verde que es un símbolo especial de la isla?",
+          "¿Qué hacen estas ranas especiales durante la noche en el bosque?",
+          "¿Qué animales coloridos hay en el bosque en lugar de osos peligrosos?"
+        ],
+        "answerKey": [
+          "En la hermosa y cálida isla de Puerto Rico.",
+          "Porque es oficialmente el único bosque tropical lluvioso.",
+          "Como el clima es extremadamente húmedo y llueve mucho casi todos los días del año.",
+          "Encontrar cascadas hermosas y nadar con seguridad en ríos naturales de agua fría y clara.",
+          "El coquí.",
+          "Se despiertan y cantan una canción hermosa y rítmica juntas en la oscuridad que suena como su nombre.",
+          "Loros coloridos y pacíficos, caracoles lentos y lagartos verdes y rápidos."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El Bosque Nacional El Yunque, majestuosamente situado en la escarpada región nororiental de la isla de Puerto Rico, es una verdadera, invaluable e irremplazable joya ecológica del Caribe. Ostenta orgullosamente el título histórico de ser el único bosque pluvial tropical protegido que existe dentro de todo el extenso Sistema de Bosques Nacionales del gobierno de los Estados Unidos. Su exuberante, espesa y vibrante vegetación, sumada a su constante y copiosa precipitación anual, crean un ecosistema montañoso sumamente denso y húmedo. Este paraíso verde se caracteriza por la presencia dominante de helechos arbóreos gigantes, raras orquídeas vibrantes que florecen en la sombra, lianas entrelazadas y majestuosas cascadas de agua pura y cristalina que descienden velozmente por las laderas rocosas.\n\nAl aventurarse y recorrer pacientemente sus empinados y resbaladizos senderos de excursionismo, los maravillados visitantes quedan rápidamente envueltos en la espesa y fresca bruma de la alta montaña y en el incesante, hipnótico y relajante sonido de la naturaleza virgen. El habitante más emblemático, famoso y venerado de todo el denso bosque es, sin duda, el coquí, una diminuta rana arborícola endémica de la isla que se ha convertido en el símbolo cultural inconfundible del profundo orgullo puertorriqueño. Al caer el anochecer, el bosque oscuro cobra una intensa vida acústica con el ensordecedor, agudo y rítmico canto nocturno de millones de coquíes machos que buscan atraer a sus parejas.\n\nAfortunadamente, a diferencia de otras grandes y peligrosas selvas tropicales en el mundo, El Yunque carece por completo de grandes y temibles mamíferos depredadores o serpientes altamente venenosas. En su lugar, este seguro paraíso natural alberga y protege una inmensa y colorida biodiversidad de reptiles exóticos y aves endémicas. Destaca especialmente la hermosa y rara cotorra puertorriqueña, una especie severamente amenazada y en peligro crítico de extinción, convirtiendo a este bosque nuboso en un santuario y refugio absolutamente vital para la conservación y el estudio científico de la frágil fauna caribeña.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué región específica de la isla de Puerto Rico está situado El Yunque?",
+          "¿Qué título exclusivo ostenta dentro del Sistema de Bosques Nacionales estadounidense?",
+          "¿Qué ecosistema denso se crea por su exuberante vegetación y constante precipitación?",
+          "¿Quién es el habitante endémico más emblemático que simboliza el orgullo puertorriqueño?",
+          "¿Qué ocurre en el bosque al anochecer gracias a estos pequeños anfibios?",
+          "¿De qué tipo de animales salvajes carece esta selva en comparación con otras?",
+          "¿Qué ave endémica en peligro de extinción encuentra un refugio vital en este bosque?"
+        ],
+        "answerKey": [
+          "En la escarpada región nororiental de la isla.",
+          "Es el único bosque pluvial tropical protegido.",
+          "Un ecosistema montañoso sumamente denso y húmedo, caracterizado por helechos arbóreos gigantes, raras orquídeas y cascadas.",
+          "El coquí, una diminuta rana arborícola endémica.",
+          "El bosque cobra vida con el ensordecedor, agudo y rítmico canto nocturno de millones de coquíes.",
+          "Carece por completo de grandes y temibles mamíferos depredadores o serpientes altamente venenosas.",
+          "La hermosa y rara cotorra puertorriqueña."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Tierra del Fuego",
+    "imageFileName": "tierra_del_fuego.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Tierra del Fuego is a breathtaking, incredibly wild, and famously cold group of islands located at the very extreme southern tip of the massive continent of South America. This huge, icy territory is peacefully shared by two neighboring countries: Argentina and Chile. The dramatic Spanish name literally translates to the phrase \"Land of Fire\" in English. The interesting story behind this name is that when the famous European explorer Ferdinand Magellan carefully sailed his wooden ships past the dark islands in the year 1520, he nervously saw hundreds of mysterious fires burning brightly along the distant coast in the night.\n\nThese warm fires were actually made on the freezing beaches by the strong, resilient indigenous Selk'nam and Yaghan people just to stay warm and safely survive in the harsh, snowy weather. The wild geography of Tierra del Fuego is extreme, dangerous, and incredibly beautiful. It is globally famous for its towering, jagged snowy montañas (mountains), freezing deep blue lakes, thick green forests, and massive, slow-moving glaciers made of solid blue ice. The freezing islands are also home to incredible, unique wildlife, including thousands of playful pingüinos (penguins) walking on the rocky beaches, fat seals resting on the ice, and giant whales swimming in the dark ocean waters.\n\nThe absolute most famous and busy city in the entire icy region is called Ushuaia, located in Argentina. People all over the world affectionately call Ushuaia the \"End of the World\" because it is officially the southernmost, populated city on the entire planet! Today, many brave, adventurous tourists eagerly travel to Ushuaia to hike the beautiful, empty trails in the quiet national parks or to nervously catch a large, strong boat going all the way to explore the freezing, white continent of Antarctica.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where is Tierra del Fuego located?",
+          "What two South American countries share these islands?",
+          "What does the name Tierra del Fuego literally translate to?",
+          "Who saw the fires burning along the coast in 1520?",
+          "Why did the indigenous people make those fires?",
+          "What kind of birds can you find playing in the wildlife there?",
+          "Why do people call the city of Ushuaia the \"End of the World\"?"
+        ],
+        "answerKey": [
+          "At the very extreme southern tip of the massive continent of South America.",
+          "Argentina and Chile.",
+          "\"Land of Fire\".",
+          "The famous European explorer Ferdinand Magellan.",
+          "To stay warm and safely survive in the harsh, snowy weather.",
+          "Playful pingüinos (penguins).",
+          "Because it is officially the southernmost, populated city on the entire planet!"
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Tierra del Fuego es un grupo de islas impresionantes, increíblemente salvajes y famosamente frías ubicadas en el extremo sur masivo del continente de América del Sur. Este territorio enorme y helado es compartido pacíficamente por dos países vecinos: Argentina y Chile. El nombre dramático en español significa literalmente la frase \"Land of Fire\" en inglés. La historia interesante detrás de este nombre es que cuando el famoso explorador europeo Fernando de Magallanes navegó cuidadosamente sus barcos de madera cerca de las islas oscuras en el año 1520, él vio cientos de fuegos misteriosos ardiendo brillantemente en la costa lejana durante la noche.\n\nEstos fuegos calientes fueron hechos realmente en las playas heladas por los indígenas fuertes y resistentes selk'nam y yámanas solo para mantenerse calientes y sobrevivir con seguridad en el clima duro y nevado. La geografía salvaje de Tierra del Fuego es extrema, peligrosa y muy hermosa. Es famosa globalmente por sus montañas altas y nevadas, sus lagos congelados de color azul profundo, bosques verdes y espesos, y glaciares masivos y lentos hechos de hielo azul sólido. Las islas frías también son el hogar de vida silvestre increíble y única, incluyendo miles de pingüinos divertidos que caminan por las playas de piedra, focas gordas descansando en el hielo y ballenas gigantes nadando en las aguas oscuras del océano.\n\nLa ciudad más famosa y ocupada en toda la región helada se llama Ushuaia, ubicada en Argentina. ¡Las personas en todo el mundo llaman cariñosamente a Ushuaia la ciudad del \"Fin del Mundo\" porque es oficialmente la ciudad poblada más al sur de todo el planeta! Hoy en día, muchos turistas valientes y aventureros viajan emocionados a Ushuaia para caminar por los senderos hermosos y vacíos en los parques nacionales tranquilos o para tomar un barco grande y fuerte que va hasta el continente blanco y helado de la Antártida.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué parte del continente sudamericano está Tierra del Fuego?",
+          "¿Qué dos países comparten este grupo de islas hermosas?",
+          "¿Qué famoso explorador navegó cerca de las islas en el año 1520?",
+          "¿Para qué crearon fuegos en la costa los indígenas selk'nam y yámanas?",
+          "¿Cuáles son tres características de la geografía extrema de la región?",
+          "¿Qué ciudad argentina es conocida como la ciudad del \"Fin del Mundo\"?",
+          "¿Adónde viajan en barco los turistas aventureros que visitan Ushuaia?"
+        ],
+        "answerKey": [
+          "En el extremo sur masivo del continente de América del Sur.",
+          "Argentina y Chile.",
+          "El famoso explorador europeo Fernando de Magallanes.",
+          "Para mantenerse calientes y sobrevivir con seguridad en el clima duro y nevado.",
+          "Montañas altas y nevadas, lagos congelados de color azul profundo, y glaciares masivos hechos de hielo.",
+          "Ushuaia.",
+          "Al continente blanco y helado de la Antártida."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Tierra del Fuego es un majestuoso, remoto y fascinante archipiélago situado en el inhóspito extremo austral de Sudamérica, un vasto territorio de belleza indómita y brutal que es pacíficamente compartido por las repúblicas soberanas de Argentina y Chile. Su peculiar, dramática y poética nomenclatura, \"Tierra del Fuego\", fue acuñada directamente por la famosa e histórica expedición marítima del explorador europeo Fernando de Magallanes en el turbulento año de 1520. Al navegar cuidadosamente y con temor por el peligroso y desconocido estrecho, los asombrados exploradores europeos divisaron a lo lejos una multitud de grandes fogatas perpetuas que ardían misteriosamente en las oscuras y brumosas costas durante la noche helada.\n\nEstas enormes hogueras eran mantenidas incesantemente y con gran esfuerzo por las valientes y resilientes tribus nómadas originarias de la isla, como los robustos selk'nam y los navegantes yámanas. Para ellos, el fuego constante era un método absolutamente vital de supervivencia contra el implacable, traicionero y gélido clima subpolar de la región patagónica. Geográficamente, la salvaje región insular se caracteriza por una topografía dramática, hostil y visualmente contrastante: escarpadas y dentadas cordilleras andinas siempre coronadas de nieve eterna, densos e impenetrables bosques subantárticos de lengas, turberas milenarias y pantanosas, y enormes glaciares milenarios imponentes que se precipitan lentamente hacia los canales de agua gélida. La rica y protegida biodiversidad marina es igualmente fascinante y vital, albergando en sus costas vastas e inmensas colonias de cómicos pingüinos de Magallanes, robustos lobos marinos de un pelo y colosales cetáceos migratorios.\n\nLa agitada y pintoresca capital de la provincia argentina, Ushuaia, ostenta con gran orgullo turístico el prestigioso título oficial de ser la ciudad habitada más austral de todo el planeta, ganándose el famoso y romántico apodo global del \"Fin del Mundo\". En la actualidad, esta remota ciudad fronteriza funciona intensamente como un pujante epicentro turístico internacional de aventura y, sobre todo, como el puerto logístico de partida principal y obligatorio para las complejas expediciones científicas y los lujosos cruceros rompehielos que se dirigen a explorar el continente blanco de la Antártida.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué parte geográfica se sitúa este majestuoso archipiélago sudamericano?",
+          "¿Qué dos repúblicas sudamericanas comparten este territorio de belleza indómita?",
+          "¿Por qué la expedición de Magallanes bautizó a la región como \"Tierra del Fuego\"?",
+          "¿Por qué motivo vital mantenían incesantemente estas hogueras las tribus nómadas?",
+          "¿Qué elementos caracterizan la topografía dramática de esta región subpolar?",
+          "¿Qué título ostenta la capital provincial argentina de Ushuaia a nivel global?",
+          "¿Para qué tipo de expediciones funciona Ushuaia como puerto de partida principal?"
+        ],
+        "answerKey": [
+          "En el inhóspito extremo austral de Sudamérica.",
+          "Las repúblicas de Argentina y Chile.",
+          "Porque divisaron a lo lejos una multitud de grandes fogatas perpetuas que ardían en las oscuras costas.",
+          "Como un método absolutamente vital de supervivencia contra el implacable y gélido clima subpolar.",
+          "Escarpadas cordilleras andinas coronadas de nieve, densos bosques subantárticos, turberas milenarias y enormes glaciares.",
+          "El título oficial de ser la ciudad habitada más austral de todo el planeta (el \"Fin del Mundo\").",
+          "Para las complejas expediciones científicas y los lujosos cruceros rompehielos que se dirigen a explorar la Antártida."
+        ]
+      }
+    }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 ]
