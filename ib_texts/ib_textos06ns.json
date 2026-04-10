@@ -1,0 +1,264 @@
+{
+  "worksheet": {
+    "title": "Práctica de Lectura IB: Nivel Superior (Modelo 6)",
+    "texts": [
+      {
+        "text_id": "A",
+        "title": "Texto A — El ocaso de una tradición: La dieta mediterránea en jaque",
+        "paragraphs": [
+          "La dieta mediterránea, reconocida globalmente y declarada Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO en 2010, es mucho más que una simple pauta nutricional. Representa un milenario estilo de vida que entrelaza la agricultura sostenible, las celebraciones colectivas y un profundo respeto por los ciclos de la naturaleza. Caracterizada por el consumo abundante de aceite de oliva virgen extra, legumbres, pescado azul y una gran variedad de vegetales de temporada, esta dieta ha demostrado ser un escudo protector contra enfermedades cardiovasculares. Sin embargo, en la actualidad, este valioso paradigma se enfrenta a una crisis sin precedentes en su propia cuna geográfica.",
+          "La globalización y la aceleración del ritmo de vida urbano han provocado una transformación radical en los hábitos de consumo de las nuevas generaciones en países como España, Italia y Grecia. [ – 1 – ], la tradicional comida casera, que requería tiempo de preparación y fomentaba el diálogo familiar alrededor de la mesa, está siendo rápidamente sustituida por el consumo masivo de alimentos ultraprocesados y la omnipresente comida rápida. Esta alarmante transición nutricional es impulsada por la industria alimentaria, que invierte millones en agresivas campañas de marketing dirigidas específicamente a la población infantil y adolescente.",
+          "Las repercusiones de este abandono cultural son profundamente preocupantes, tanto a nivel de salud pública como a nivel ecológico. En términos médicos, el drástico aumento en el consumo de grasas saturadas y azúcares refinados ha desatado una epidemia de obesidad infantil y diabetes tipo 2 en la región mediterránea. [ – 2 – ], desde una perspectiva medioambiental, el rechazo a los productos locales de temporada en favor de alimentos envasados y transportados desde miles de kilómetros de distancia está multiplicando la huella de carbono y asfixiando económicamente a los pequeños agricultores locales.",
+          "Para frenar esta peligrosa deriva, diversos expertos en salud pública y sociología exigen una intervención gubernamental decidida. [ – 3 – ], proponen la implementación de impuestos severos a las bebidas azucaradas y la regulación estricta de la publicidad de comida chatarra. [ – 4 – ], consideran absolutamente vital reintroducir la educación culinaria en las escuelas públicas. Solo enseñando a los niños a valorar, cultivar y cocinar sus propios alimentos frescos será posible rescatar un patrimonio que no solo nutre el cuerpo, sino también la identidad cultural de toda una región."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 1–4: Completar espacios en blanco. Elige de la lista el conector apropiado para rellenar los espacios en el texto. Hay más opciones de las necesarias.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "Por consiguiente",
+              "B": "En primer lugar",
+              "C": "Como resultado",
+              "D": "Por otro lado",
+              "E": "Además",
+              "F": "A pesar de",
+              "G": "En consecuencia"
+            },
+            "questions": [
+              { "number": 1, "prompt": "Espacio [ – 1 – ]", "answer": "C", "points": 1 },
+              { "number": 2, "prompt": "Espacio [ – 2 – ]", "answer": "D", "points": 1 },
+              { "number": 3, "prompt": "Espacio [ – 3 – ]", "answer": "B", "points": 1 },
+              { "number": 4, "prompt": "Espacio [ – 4 – ]", "answer": "E", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 5–7: Identificación de referencia. ¿A qué se refieren las siguientes palabras en el texto?",
+            "type": "reference",
+            "questions": [
+              { "number": 5, "prompt": "este valioso paradigma (párrafo 1)", "answer": "La dieta mediterránea", "points": 1 },
+              { "number": 6, "prompt": "su (párrafo 1)", "answer": "de la dieta mediterránea", "points": 1 },
+              { "number": 7, "prompt": "que (párrafo 2)", "answer": "la tradicional comida casera", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 8–11: Verdadero o Falso con justificación. Marca si la afirmación es verdadera (V) o falsa (F) y justifica tu respuesta usando las palabras exactas del texto. Ambas partes son necesarias para obtener el punto.",
+            "type": "true_false_justification",
+            "questions": [
+              { "number": 8, "prompt": "La dieta mediterránea es un concepto reciente inventado por médicos modernos.", "answer": "F, Representa un milenario estilo de vida", "points": 1 },
+              { "number": 9, "prompt": "La industria alimentaria gasta mucho dinero en publicidad para atraer a los más jóvenes.", "answer": "V, invierte millones en agresivas campañas de marketing dirigidas específicamente a la población infantil y adolescente", "points": 1 },
+              { "number": 10, "prompt": "Comprar alimentos procesados y empaquetados ayuda a la economía de los agricultores de la región.", "answer": "F, asfixiando económicamente a los pequeños agricultores locales", "points": 1 },
+              { "number": 11, "prompt": "Los expertos creen que aprender a cocinar en los colegios es una medida esencial para salvar esta tradición.", "answer": "V, consideran absolutamente vital reintroducir la educación culinaria en las escuelas públicas", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 12–13: Respuestas cortas. Contesta basándote en el texto con la menor cantidad de palabras posible.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 12, "prompt": "¿Qué institución internacional otorgó un reconocimiento cultural a este tipo de alimentación en 2010 (párrafo 1)?", "answer": "la UNESCO", "points": 1 },
+              { "number": 13, "prompt": "Menciona dos enfermedades graves que han aumentado en la región debido a la mala alimentación (párrafo 3).", "answer": "obesidad infantil y diabetes tipo 2", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "B",
+        "title": "Texto B — La hiperconectividad en el hogar: El fenómeno del 'phubbing'",
+        "paragraphs": [
+          "El teléfono inteligente ha revolucionado indudablemente las telecomunicaciones, convirtiéndose en una prótesis indispensable de la vida moderna. Albergamos en el bolsillo una ventana al mundo entero, capaz de transmitir información en tiempo real. Sin embargo, en el ámbito íntimo del hogar, esta maravilla tecnológica ha engendrado una profunda paradoja social: vivimos en una era de hiperconectividad global, pero sufrimos una alarmante alienación en nuestro entorno más cercano. Estamos perpetuamente pendientes de aquellos que se encuentran a miles de kilómetros, pero ignoramos sistemáticamente a los familiares que comparten nuestra propia mesa.",
+          "Esta dinámica destructiva ha sido bautizada por los sociólogos como 'phubbing', un neologismo anglosajón que describe el acto de ignorar a la persona que tienes enfrente por prestar atención exclusiva a un dispositivo móvil. Las cenas familiares, que históricamente funcionaban como un espacio sagrado para la cohesión, el debate y el desahogo emocional, se han transformado en reuniones silenciosas. Los padres revisan obsesivamente los correos laborales, mientras los adolescentes buscan la validación efímera de las redes sociales. Este aislamiento físico-digital merma la calidad de la comunicación y afecta severamente la autoestima de los jóvenes, quienes interiorizan el mensaje de que son menos importantes que una notificación virtual.",
+          "A pesar de este sombrío panorama, sería un error demonizar la tecnología en su totalidad, ya que su papel es ambivalente. Para las familias transnacionales, separadas por la migración o las exigencias laborales, las aplicaciones de mensajería y las videollamadas son herramientas vitales que mitigan el dolor del exilio. Estas plataformas permiten a los abuelos ver crecer a sus nietos al otro lado del océano, facilitando una cercanía emocional que la distancia física haría imposible de otro modo. En estos contextos, el dispositivo móvil no separa, sino que actúa como un puente imprescindible para la supervivencia del núcleo familiar.",
+          "Para paliar los efectos negativos en los hogares que sí conviven físicamente, los expertos en psicología familiar recomiendan establecer una 'dieta digital' rigurosa. Esto no implica renunciar a la tecnología, sino crear un equilibrio consciente. Se sugiere designar 'santuarios libres de pantallas', como el comedor o las habitaciones durante la noche, donde el uso del móvil esté estrictamente prohibido. Al imponer estos límites saludables, las familias pueden redescubrir el valor incalculable de la atención plena, el contacto visual y la conversación ininterrumpida."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 14–17: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para cada párrafo. Hay más opciones de las necesarias.",
+            "type": "matching",
+            "options": {
+              "A": "El teléfono como salvavidas emocional en la distancia",
+              "B": "Estrategias prácticas para recuperar la convivencia",
+              "C": "La prohibición gubernamental de los teléfonos móviles",
+              "D": "El impacto psicológico de ser ignorado por una pantalla",
+              "E": "La paradoja de estar lejos de quienes tenemos cerca",
+              "F": "Los beneficios educativos de las redes sociales"
+            },
+            "questions": [
+              { "number": 14, "prompt": "Párrafo 1", "answer": "E", "points": 1 },
+              { "number": 15, "prompt": "Párrafo 2", "answer": "D", "points": 1 },
+              { "number": 16, "prompt": "Párrafo 3", "answer": "A", "points": 1 },
+              { "number": 17, "prompt": "Párrafo 4", "answer": "B", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 18–21: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 18, "prompt": "creado / producido / dado vida a (párrafo 1)", "answer": "engendrado", "points": 1 },
+              { "number": 19, "prompt": "palabra nueva o inventada recientemente (párrafo 2)", "answer": "neologismo", "points": 1 },
+              { "number": 20, "prompt": "reducen / suavizan / hacen menos duro (párrafo 3)", "answer": "mitigan", "points": 1 },
+              { "number": 21, "prompt": "aliviar / disminuir la intensidad de un problema (párrafo 4)", "answer": "paliar", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 22–24: Opción múltiple. Elige la respuesta correcta (A, B, C o D).",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 22,
+                "prompt": "Según el párrafo 2, ¿cuál es una de las consecuencias directas del 'phubbing' en los jóvenes?",
+                "options": {
+                  "A": "Mejoran su capacidad para comunicarse por escrito.",
+                  "B": "Se vuelven más independientes de sus padres.",
+                  "C": "Sienten que tienen menos valor que los avisos del teléfono.",
+                  "D": "Dejan de comer durante las cenas familiares."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 23,
+                "prompt": "En el párrafo 3, el autor usa el adjetivo 'ambivalente' para explicar que la tecnología...",
+                "options": {
+                  "A": "solo causa problemas en las familias modernas.",
+                  "B": "tiene tanto aspectos muy perjudiciales como aspectos muy beneficiosos.",
+                  "C": "es demasiado cara para la mayoría de las familias inmigrantes.",
+                  "D": "funciona de manera intermitente y poco confiable."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 24,
+                "prompt": "¿Qué proponen los psicólogos como 'dieta digital' en el último párrafo?",
+                "options": {
+                  "A": "Vender los teléfonos inteligentes y comprar teléfonos antiguos.",
+                  "B": "Leer información sobre dietas y nutrición a través del móvil.",
+                  "C": "Usar la tecnología de manera controlada y prohibirla en ciertas zonas de la casa.",
+                  "D": "Limitar el uso del internet exclusivamente para hacer tareas escolares."
+                },
+                "answer": "C",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 25–26: Respuestas cortas. Contesta usando las palabras exactas del texto.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 25, "prompt": "¿Qué buscan obtener los jóvenes cuando usan obsesivamente las redes sociales (párrafo 2)? (1 punto)", "answer": "la validación efímera", "points": 1 },
+              { "number": 26, "prompt": "Menciona dos beneficios de la comunicación en persona que se recuperan al limitar el uso de pantallas (párrafo 4). (1 punto)", "answer": "la atención plena, el contacto visual (y la conversación ininterrumpida) (dos de los tres)", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — El sabor del exilio",
+        "paragraphs": [
+          "La cocina de la abuela Leonor era un pequeño santuario de baldosas ajedrezadas donde el tiempo parecía suspenderse. A sus ochenta años, sus manos, surcadas por un mapa de venas azules y manchas de la edad, se movían con la precisión de un director de orquesta. Sobre la vieja mesa de madera de nogal, los ingredientes reposaban como piezas de un antiguo engranaje: tomates maduros, ajos de piel violácea, comino en grano y un mortero de piedra volcánica que había sobrevivido a tres mudanzas internacionales. Valeria, sentada en un taburete bajo la ventana, observaba en silencio la alquimia diaria, hipnotizada por el ritmo acompasado con el que su abuela machacaba las especias.",
+          "Aquel guiso denso y aromático no era simplemente la cena del domingo; era un testamento no escrito. Leonor nunca había necesitado un libro de recetas. Las medidas —'un puñado', 'una pizca', 'hasta que lo pida la masa'— residían en su memoria muscular, heredadas a través de generaciones de mujeres que cocinaban a la luz de las velas en un país que Valeria solo conocía por fotografías en sepia. Cada vez que la cebolla comenzaba a dorarse en el aceite caliente, el aroma actuaba como un barco trasatlántico invisible, transportando a la anciana de vuelta a las calles empedradas de su juventud antes de que la guerra la obligara a cruzar el océano.",
+          "Cuando Leonor llegó a América del Sur en 1952, con una maleta de cartón y el corazón encogido por el exilio, intentó recrear los sabores de su tierra para mitigar la nostalgia. Sin embargo, los mercados locales no ofrecían los mismos ingredientes. Con el paso de los años, se vio obligada a sustituir el azafrán por achiote y a incorporar los tubérculos andinos al estofado de sus ancestros. El resultado fue un plato mestizo, una obra maestra de la supervivencia y la adaptación. La comida se convirtió en la metáfora perfecta de su propia vida: mantener la esencia del origen mientras se abrazan los dones del nuevo mundo.",
+          "Valeria se acercó a los fogones cuando la olla comenzó a burbujear. Leonor, sin pronunciar palabra, hundió una cuchara de palo en el espeso líquido cobrizo, la sopló suavemente y se la ofreció a su nieta. La joven cerró los ojos al probarlo. El sabor era complejo, melancólico y profundamente reconfortante. En ese preciso instante, Valeria comprendió que aprender a preparar aquel guiso era una responsabilidad ineludible. El día que las manos de su abuela ya no pudieran sostener el mortero, sería ella la encargada de mantener vivos a los fantasmas familiares, asegurándose de que la memoria de los suyos nunca se desvaneciera en el frío abismo del olvido."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 27–30: Selección múltiple. Selecciona las CUATRO frases verdaderas basándote en el texto literario. Escribe las letras (A-H) en las opciones.",
+            "type": "multiple_select",
+            "options": {
+              "A": "Leonor cocinaba de manera caótica e inexperta debido a su avanzada edad.",
+              "B": "El mortero que utilizaba la abuela era un objeto muy antiguo que la había acompañado en sus viajes.",
+              "C": "Leonor siempre consultaba un viejo libro de recetas para no equivocarse con las medidas.",
+              "D": "El olor de la comida cocinándose evocaba en la anciana recuerdos fuertes de su país de origen.",
+              "E": "Al llegar al nuevo continente, Leonor pudo encontrar exactamente los mismos ingredientes que usaba en Europa.",
+              "F": "El plato que preparaba Leonor era una mezcla de su cultura natal y los ingredientes de su país de acogida.",
+              "G": "Valeria consideraba que aprender esa receta era una carga pesada y aburrida.",
+              "H": "A través de la degustación del plato, la nieta reconoció la importancia de preservar el legado familiar."
+            },
+            "questions": [
+              { "number": "27-30", "prompt": "Selecciona las 4 verdaderas", "answer": ["B", "D", "F", "H"], "points": 4 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 31–34: Opción múltiple literaria. Elige la respuesta correcta basándote en el significado del texto.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 31,
+                "prompt": "En el primer párrafo, la expresión 'la alquimia diaria' se utiliza metafóricamente para describir:",
+                "options": {
+                  "A": "La búsqueda de oro que hacía la abuela en el jardín.",
+                  "B": "La magia transformadora del proceso de cocinar los ingredientes.",
+                  "C": "Los medicamentos que la anciana tomaba para sus manos.",
+                  "D": "El silencio absoluto que había en la cocina."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 32,
+                "prompt": "La frase 'residían en su memoria muscular' (párrafo 2) implica que Leonor:",
+                "options": {
+                  "A": "tenía una enfermedad que afectaba sus músculos.",
+                  "B": "necesitaba hacer mucho ejercicio para poder cocinar.",
+                  "C": "cocinaba de forma intuitiva por la práctica acumulada durante años.",
+                  "D": "solo podía recordar las cosas si las escribía previamente."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 33,
+                "prompt": "El plato preparado por Leonor se describe como 'una metáfora perfecta de su propia vida' (párrafo 3) porque:",
+                "options": {
+                  "A": "representaba cómo ella combinó su identidad original con su nueva vida como inmigrante.",
+                  "B": "era una receta muy costosa, igual que el billete de barco que pagó para viajar.",
+                  "C": "nadie más en su familia sabía cómo prepararlo correctamente.",
+                  "D": "era un plato frío y amargo, reflejando su tristeza eterna."
+                },
+                "answer": "A",
+                "points": 1
+              },
+              {
+                "number": 34,
+                "prompt": "La conclusión del relato (párrafo 4) destaca que, para Valeria, la cocina es principalmente:",
+                "options": {
+                  "A": "una oportunidad para abrir un restaurante exitoso en el futuro.",
+                  "B": "un acto de resistencia contra la pérdida de la historia y la memoria familiar.",
+                  "C": "una forma de pasar el tiempo los domingos cuando está aburrida.",
+                  "D": "la única manera de convencer a su abuela para que le dé dinero."
+                },
+                "answer": "B",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 35–37: Completar la oración basándose en el texto.",
+            "type": "matching",
+            "options": {
+              "A": "funcionaba como una máquina del tiempo hacia su pasado.",
+              "B": "obligó a Leonor a usar especias como el azafrán.",
+              "C": "significaba garantizar la inmortalidad de los antepasados.",
+              "D": "estuvo motivado por los horrores de un conflicto armado.",
+              "E": "se realizaba con movimientos torpes y desordenados.",
+              "F": "demostró la capacidad de adaptación de la inmigrante."
+            },
+            "questions": [
+              { "number": 35, "prompt": "El viaje de la abuela hacia el continente americano...", "answer": "D", "points": 1 },
+              { "number": 36, "prompt": "La sustitución de ingredientes europeos por productos andinos...", "answer": "F", "points": 1 },
+              { "number": 37, "prompt": "Para Valeria, aprender a usar el mortero de piedra...", "answer": "C", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 38–40: Búsqueda de sinónimos literarios. Encuentra las palabras en el texto que coincidan con estos significados.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 38, "prompt": "medida muy pequeña que se coge con dos dedos (párrafo 2)", "answer": "pizca", "points": 1 },
+              { "number": 39, "prompt": "calmar / suavizar un sentimiento doloroso (párrafo 3)", "answer": "mitigar", "points": 1 },
+              { "number": 40, "prompt": "inevitable / que no se puede evitar o escapar (párrafo 4)", "answer": "ineludible", "points": 1 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
