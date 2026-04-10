@@ -41,12 +41,12 @@
             .no-print { display: none; }
         }
 
-        /* Watermark - Moved up and made smaller */
+        /* Watermark - Moved down just under the Fecha line */
         .watermark {
             position: absolute;
-            top: 0.4in; /* Moved up behind Nombre/Fecha/Title */
+            top: 0.65in; /* Adjusted from 0.4in to sit under the line */
             left: 0.5in;
-            width: 220px; /* Reduced from 250px */
+            width: 220px; 
             opacity: 0.12; 
             z-index: 1;
         }
@@ -56,7 +56,7 @@
             z-index: 2;
         }
 
-        /* Right-Side Image - Now uses float for natural text wrapping */
+        /* Right-Side Image */
         .topic-image {
             float: right;
             width: 170px; 
@@ -65,7 +65,7 @@
             border: 4px solid white;
             box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
             transform: rotate(3deg); 
-            margin: 0 0 15px 25px; /* Adds a nice buffer so text doesn't touch */
+            margin: 0 0 15px 25px; 
             position: relative;
             z-index: 3;
         }
@@ -93,7 +93,7 @@
 
         /* Topic Title */
         .topic-title {
-            text-align: left; /* Left align looks cleaner next to the floated image */
+            text-align: left; 
             text-transform: uppercase;
             font-size: 24px; 
             letter-spacing: 1px;
@@ -127,7 +127,7 @@
         .question-block {
             margin-bottom: 12px; 
             font-size: 14px;
-            clear: left; /* Ensures lines don't get messy if text is short */
+            clear: left; 
         }
         .question-text {
             margin-bottom: 2px;
