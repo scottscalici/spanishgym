@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generador de Lecturas Culturales</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
     <style>
-        /* Base Styling */
+        /* Base Styling with New Font */
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Nunito', sans-serif;
             background-color: #f0f0f0;
             margin: 0;
             padding: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
+            color: #333;
         }
 
         /* The Page Canvas */
@@ -29,21 +35,11 @@
             overflow: hidden;
         }
 
-        /* Print Rules - This slices the document into 6 pages */
+        /* Print Rules - Slices document into pages */
         @media print {
-            body {
-                background-color: white;
-                padding: 0;
-                margin: 0;
-            }
-            .page {
-                box-shadow: none;
-                margin: 0;
-                break-after: page;
-            }
-            .no-print {
-                display: none;
-            }
+            body { background-color: white; padding: 0; margin: 0; }
+            .page { box-shadow: none; margin: 0; break-after: page; }
+            .no-print { display: none; }
         }
 
         /* Watermark */
@@ -52,100 +48,108 @@
             top: 1in;
             left: 0.5in;
             width: 250px;
-            opacity: 0.15; /* Subtle branding */
+            opacity: 0.15; 
             z-index: 1;
         }
 
-        /* Content Z-Index so it sits above watermark */
+        /* Content Layer */
         .content-layer {
             position: relative;
             z-index: 2;
         }
 
-        /* Header Layout */
-        .header-lines {
-            display: flex;
-            justify-content: space-between;
+        /* FIXED HEADER LAYOUT */
+        .header-container {
+            width: 65%; /* Leaves room for image on right */
+            margin-bottom: 25px;
             font-size: 16px;
-            margin-bottom: 30px;
-            width: 70%; /* Leaves room for the image on the right */
+            font-weight: bold;
         }
-        .header-lines span {
-            border-bottom: 1px solid black;
-            display: inline-block;
-            flex-grow: 1;
-            margin-left: 10px;
-        }
-        .header-item {
+        .header-row {
             display: flex;
-            width: 48%;
+            align-items: flex-end;
+            margin-bottom: 15px;
+        }
+        .header-label {
+            white-space: nowrap;
+            margin-right: 10px;
+        }
+        .header-line {
+            flex-grow: 1;
+            border-bottom: 1.5px solid #333;
+            height: 20px;
         }
 
         /* Topic Title */
         .topic-title {
             text-align: center;
             text-transform: uppercase;
-            font-size: 24px;
-            letter-spacing: 2px;
-            margin-bottom: 20px;
-            width: 70%;
+            font-size: 26px;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+            width: 65%;
+            font-weight: 700;
         }
 
-        /* Right-Side Image with Rotation */
+        /* Right-Side Image */
         .topic-image {
             position: absolute;
             top: 0.8in;
             right: 0.8in;
             width: 180px;
             height: auto;
-            border-radius: 10px;
-            border: 3px solid white;
-            box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
-            transform: rotate(3deg); /* Slight tilt */
+            border-radius: 12px;
+            border: 4px solid white;
+            box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+            transform: rotate(3deg); 
             z-index: 3;
         }
 
-        /* Reading Text */
+        /* Reading Text - Now supports paragraphs */
         .reading-text {
-            font-size: 14px;
-            line-height: 1.5;
+            font-size: 15px;
+            line-height: 1.6;
             text-align: justify;
             margin-bottom: 15px;
+        }
+        .reading-text p {
+            margin-top: 0;
+            margin-bottom: 12px;
         }
 
         /* Instruction Line */
         .instruction {
-            font-weight: bold;
+            font-weight: 700;
             font-style: italic;
             margin-left: 20px;
-            margin-bottom: 5px; /* Tight to the first question */
-            font-size: 14px;
+            margin-bottom: 8px; 
+            font-size: 15px;
         }
 
         /* Questions & Lines */
         .question-block {
-            margin-bottom: 15px;
-            font-size: 14px;
+            margin-bottom: 16px;
+            font-size: 15px;
         }
         .question-text {
-            margin-bottom: 5px;
+            margin-bottom: 3px;
         }
         .answer-line {
-            border-bottom: 1px solid black;
+            border-bottom: 1.5px solid #333;
             height: 22px;
             position: relative;
             margin-left: 20px;
         }
 
-        /* The Answer Key Text */
+        /* Answer Key Text */
         .answer-text {
             position: absolute;
             bottom: 2px;
-            left: 5px;
+            left: 10px;
             color: #1a365d; /* Dark Blue */
-            font-weight: bold;
+            font-weight: 700;
             font-style: italic;
-            font-size: 14px;
+            font-size: 15px;
         }
         
         /* UI Controls */
@@ -161,9 +165,11 @@
             background-color: #1a365d;
             color: white;
             border: none;
-            border-radius: 5px;
+            border-radius: 6px;
             cursor: pointer;
             font-weight: bold;
+            font-family: 'Nunito', sans-serif;
+            font-size: 14px;
         }
         button:hover { background-color: #2c5282; }
     </style>
@@ -172,47 +178,37 @@
 
     <div class="controls no-print">
         <button onclick="window.print()">Guardar como PDF (Print)</button>
-        <p style="font-size: 12px; color: gray;">Currently fetching the first topic from GitHub for testing...</p>
+        <p style="font-size: 12px; color: gray;">Generando el primer tema de prueba...</p>
     </div>
 
     <div id="document-container"></div>
 
     <script>
-        // Your live GitHub Data Sources
         const jsonUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/lectura_cultural/lectura_cultural.json';
         const imageBaseUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/lectura_cultural/foto/';
-        
-        // Ensure you have a watermark.png in your /foto/ folder, or update this filename!
         const watermarkUrl = imageBaseUrl + 'watermark.png'; 
 
         async function init() {
             try {
                 const response = await fetch(jsonUrl);
                 const data = await response.json();
-                
-                // For the initial test, we will just render the first topic in the array (Los Moáis)
-                // Later, we will wrap this in a loop to generate bundles based on checkboxes
                 generateWorksheetPack(data[0]); 
             } catch (error) {
                 console.error("Error fetching data:", error);
-                document.getElementById('document-container').innerHTML = "<p>Error loading JSON. Check console.</p>";
+                document.getElementById('document-container').innerHTML = "<p>Error loading JSON. Did you push your updates to GitHub?</p>";
             }
         }
 
         function generateWorksheetPack(topic) {
             const container = document.getElementById('document-container');
-            container.innerHTML = ''; // Clear container
+            container.innerHTML = ''; 
             
             const imageUrl = imageBaseUrl + topic.imageFileName;
             const levels = ['level_1', 'level_2', 'level_3'];
 
             levels.forEach(levelKey => {
                 const levelData = topic.levels[levelKey];
-                
-                // 1. Generate Student Page (No Answers)
                 container.appendChild(createPage(topic.topicName, imageUrl, levelData, false));
-                
-                // 2. Generate Teacher Page (With Answers)
                 container.appendChild(createPage(topic.topicName, imageUrl, levelData, true));
             });
         }
@@ -221,28 +217,36 @@
             const pageDiv = document.createElement('div');
             pageDiv.className = 'page';
 
-            // HTML Skeleton
+            // PARAGRAPH FIX: Split text by newlines and wrap in <p> tags
+            const paragraphs = levelData.readingText.split('\n').filter(p => p.trim() !== '');
+            const formattedText = paragraphs.map(p => `<p>${p.trim()}</p>`).join('');
+
             let html = `
-                <img src="${watermarkUrl}" class="watermark" alt="The Spanish Gym Watermark" onerror="this.style.display='none'">
+                <img src="${watermarkUrl}" class="watermark" alt="" onerror="this.style.display='none'">
                 <img src="${imageUrl}" class="topic-image" alt="${title}">
                 
                 <div class="content-layer">
-                    <div class="header-lines">
-                        <div class="header-item">Nombre: <span></span></div>
-                        <div class="header-item">Clase: <span></span></div>
-                    </div>
-                    <div class="header-lines" style="width: 40%;">
-                        <div class="header-item">Fecha: <span></span></div>
+                    
+                    <div class="header-container">
+                        <div class="header-row">
+                            <span class="header-label">Nombre:</span>
+                            <span class="header-line"></span>
+                        </div>
+                        <div class="header-row">
+                            <span class="header-label">Fecha:</span>
+                            <span class="header-line" style="margin-right: 20px;"></span>
+                            <span class="header-label">Clase:</span>
+                            <span class="header-line"></span>
+                        </div>
                     </div>
                     
                     <h1 class="topic-title">${title}</h1>
                     
-                    <div class="reading-text">${levelData.readingText}</div>
+                    <div class="reading-text">${formattedText}</div>
                     
                     <div class="instruction">${levelData.instruction}</div>
             `;
 
-            // Loop through the 7 questions
             levelData.questions.forEach((question, index) => {
                 let answerHtml = '';
                 if (isAnswerKey) {
@@ -259,12 +263,11 @@
                 `;
             });
 
-            html += `</div>`; // Close content-layer
+            html += `</div>`; 
             pageDiv.innerHTML = html;
             return pageDiv;
         }
 
-        // Boot up the engine
         init();
     </script>
 </body>
