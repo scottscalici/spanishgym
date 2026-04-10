@@ -4875,306 +4875,6 @@
     }
   },
   {
-    "topicName": "Cueva de Altamira",
-    "imageFileName": "altamira.png",
-    "levels": {
-      "level_1": {
-        "tier": "Level 1 (English/Beginner)",
-        "readingText": "The Cueva de Altamira is an absolutely incredible, historic cave located safely in the green, rolling hills of northern España. It is highly famous all over the entire world for proudly having some of the absolute oldest, most detailed, and most beautiful prehistoric cave paintings, formally known as arte rupestre, in all of human history! The dark, hidden cave was accidentally discovered by a local hunter in 1868, but the truly amazing, colorful paintings hiding inside were not actually found until the year 1879 by a curious Spanish scientist named Marcelino and his brave, young daughter, María.\n\nWhile carefully exploring the dark, cold cave with a small lantern, eight-year-old María suddenly looked high up at the rocky ceiling and excitedly saw massive, realistic paintings of giant red and black bisontes (bison) running across the stone! The ancient, prehistoric people brilliantly painted these large, wild animals thousands of years ago using only natural, earthy colors made directly from crushed charcoal and soft, red rocks. They even cleverly used the natural, bumpy, uneven shape of the cave walls to magically make the painted animals pop out and look 3D in the flickering firelight.\n\nBecause the ancient art is so incredibly spectacular, bright, and highly detailed, global art experts respectfully call Altamira the \"Sistine Chapel of prehistoric art.\" Amazingly, these fragile paintings are over 14,000 years old! Today, the original, historical cave is completely closed to the general public because normal human breath, moisture, and body heat can unfortunately damage and melt the fragile, ancient art. However, a massive, absolutely perfect museum replica of the cave was built nearby so curious tourists can still safely experience this ancient, breathtaking wonder.",
-        "instruction": "Answer the following preguntas according to the text.",
-        "questions": [
-          "Where is the incredible Cueva de Altamira located?",
-          "What is the cave famous all over the world for having?",
-          "Who discovered the amazing paintings inside the cave in 1879?",
-          "What kind of animals did the young girl see painted on the ceiling?",
-          "What did prehistoric people use to make the natural red and black colors?",
-          "What do experts call Altamira because the art is so spectacular?",
-          "Why is the original cave closed to the public today?"
-        ],
-        "answerKey": [
-          "Northern España.",
-          "Prehistoric cave paintings (arte rupestre).",
-          "A Spanish scientist named Marcelino and his young daughter, María.",
-          "Bisontes (bison).",
-          "Crushed charcoal and soft, red rocks.",
-          "The \"Sistine Chapel of prehistoric art\".",
-          "Because human breath, moisture, and body heat can damage the fragile art."
-        ]
-      },
-      "level_2": {
-        "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "La Cueva de Altamira es una cueva absolutamente increíble e histórica ubicada en las colinas verdes del norte de España. ¡Es muy famosa en todo el mundo por tener algunas de las pinturas prehistóricas, o arte rupestre, más antiguas, detalladas y hermosas de toda la historia humana! La cueva oscura y escondida fue descubierta por accidente por un cazador local en 1868, pero las pinturas increíbles y coloridas no fueron encontradas realmente hasta el año 1879 por un científico español curioso llamado Marcelino y su joven y valiente hija, María.\n\nMientras exploraban cuidadosamente la cueva oscura y fría con una lámpara pequeña, ¡María, de ocho años, miró hacia el techo de roca y vio pinturas masivas y realistas de bisontes gigantes de colores rojo y negro corriendo por la piedra! Las personas prehistóricas antiguas pintaron brillantemente estos animales salvajes y grandes usando solo colores naturales hechos directamente de carbón aplastado y rocas rojas y suaves. Ellos incluso usaron inteligentemente la forma natural y desigual de las paredes de la cueva para hacer que los animales parezcan en 3D bajo la luz del fuego.\n\nComo el arte antiguo es tan increíblemente espectacular, brillante y muy detallado, los expertos globales de arte llaman respetuosamente a Altamira la \"Capilla Sixtina del arte prehistórico\". ¡Asombrosamente, estas pinturas frágiles tienen más de 14.000 años! Hoy en día, la cueva original e histórica está completamente cerrada al público general porque la respiración humana normal, la humedad y el calor del cuerpo pueden destruir tristemente el arte frágil y antiguo. Sin embargo, construyeron un museo réplica masivo y absolutamente perfecto cerca para que los turistas curiosos todavía puedan experimentar esta maravilla antigua y hermosa con seguridad.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿En qué parte de España se encuentra la famosa Cueva de Altamira?",
-          "¿Qué tipo de arte antiguo y hermoso hace famosa a esta cueva?",
-          "¿Quiénes encontraron las pinturas en el techo de la cueva en el año 1879?",
-          "¿Qué animales gigantes de colores rojo y negro estaban pintados en el techo?",
-          "¿De qué estaban hechos los colores naturales que usaron las personas prehistóricas?",
-          "¿Qué nombre famoso le dan los expertos a Altamira por su arte espectacular?",
-          "¿Por qué no pueden entrar los turistas a la cueva original hoy en día?"
-        ],
-        "answerKey": [
-          "En el norte de España.",
-          "Las pinturas prehistóricas (el arte rupestre).",
-          "Un científico español curioso llamado Marcelino y su joven hija, María.",
-          "Bisontes.",
-          "Estaban hechos de carbón aplastado y rocas rojas suaves.",
-          "La \"Capilla Sixtina del arte prehistórico\".",
-          "Porque la respiración humana normal, la humedad y el calor del cuerpo pueden destruir el arte frágil."
-        ]
-      },
-      "level_3": {
-        "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "La legendaria Cueva de Altamira, situada estratégicamente en las ondulantes y verdes colinas de la región de Cantabria, España, es unánimemente considerada como una de las cumbres absolutas e insuperables del arte rupestre paleolítico a nivel mundial. Aunque la profunda y oscura cavidad kárstica fue descubierta fortuitamente por un humilde cazador local en el año 1868, sus inestimables e incalculables tesoros artísticos prehistóricos permanecieron ocultos en las sombras hasta 1879. Fue precisamente la inocente curiosidad de una niña de ocho años, María Sanz de Sautuola, la que llevó al monumental hallazgo de las impresionantes y vívidas pinturas policromadas en la bóveda principal, mientras acompañaba valientemente a su padre, un erudito y apasionado aficionado a la paleontología.\n\nLas magníficas representaciones pictóricas consisten predominantemente en manadas de bisontes, caballos salvajes y ciervos, ejecutados con un realismo anatómico y una expresividad verdaderamente sobrecogedores. Los brillantes artistas magdalenienses elaboraron sus duraderos pigmentos de forma natural, utilizando carbón vegetal puro para trazar los contornos negros y gruesos, y diversos minerales de ocre triturados para lograr los intensos y ricos tonos rojizos. Genialmente, estos pintores ancestrales aprovecharon al máximo las protuberancias, grietas y relieves naturales de la roca caliza para dotar de un asombroso y realista volumen tridimensional a las dinámicas figuras animales bajo la luz oscilante de las antorchas.\n\nPor su magistral ejecución técnica, su innegable belleza estética y su excelente estado de conservación a lo largo de los milenios, la cavidad ha sido reverencialmente bautizada por los historiadores del arte como la \"Capilla Sixtina del arte cuaternario\". Sin embargo, para preservar estrictamente los frágiles pigmentos milenarios de los perjudiciales cambios de temperatura, humedad y dióxido de carbono provocados por la constante presencia humana, la cueva original fue clausurada definitivamente al turismo masivo. En su lugar, se creó una réplica milimétrica y científicamente exacta, la Neocueva, para garantizar el disfrute inmersivo del público y la investigación académica continua.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿En qué región de España se encuentra situada esta cumbre del arte rupestre?",
-          "¿Quién descubrió fortuitamente las pinturas policromadas en la bóveda de la cueva?",
-          "¿Qué tres animales están representados predominantemente con un realismo sobrecogedor?",
-          "¿Qué elementos naturales utilizaron los artistas para crear los tonos rojizos y negros?",
-          "¿Cómo lograron dotar de un asombroso volumen tridimensional a las figuras animales?",
-          "¿Con qué ilustre apodo ha sido bautizada la cavidad por su magistral ejecución?",
-          "¿Por qué se clausuró la cueva original y se creó la réplica conocida como la Neocueva?"
-        ],
-        "answerKey": [
-          "En la región de Cantabria, España.",
-          "Una niña de ocho años, María Sanz de Sautuola.",
-          "Bisontes, caballos salvajes y ciervos.",
-          "Carbón vegetal puro y diversos minerales de ocre triturados.",
-          "Aprovecharon al máximo las protuberancias, grietas y relieves naturales de la roca caliza.",
-          "Como la \"Capilla Sixtina del arte cuaternario\".",
-          "Para preservar estrictamente los frágiles pigmentos de los cambios de temperatura, humedad y dióxido de carbono."
-        ]
-      }
-    }
-  },
-  {
-    "topicName": "Teotihuacán",
-    "imageFileName": "teotihuacan.png",
-    "levels": {
-      "level_1": {
-        "tier": "Level 1 (English/Beginner)",
-        "readingText": "Teotihuacán is a massive, awe-inspiring, and deeply mysterious ancient city located very close to modern-day Mexico City. Long before the fierce and powerful Aztec empire ever existed in México, a completely different, unknown group of highly advanced indigenous people designed and built this incredible stone metropolis. Even today, with all our modern technology, expert scientists and archaeologists still do not know exactly who built it! When the wandering Aztecs finally found the massive, abandoned city centuries later, they were so amazed and terrified by its size that they reverently named it Teotihuacán, which beautifully translates to \"the place where the gods were created\" in their native Nahuatl language.\n\nThe ancient city is incredibly famous worldwide for its grand, perfectly straight main street, which is chillingly called the Avenue of the Dead. Walking along this massive, dusty avenue, you can easily find two of the absolute largest and most spectacular pyramids in all of Latin America: the towering Pirámide del Sol (Pyramid of the Sun) and the slightly smaller Pirámide de la Luna (Pyramid of the Moon). The massive Pyramid of the Sun is absolutely giant, and it takes hundreds of steep, exhausting stone steps for a brave person to finally reach the flat top.\n\nDuring its historical peak, Teotihuacán was undoubtedly one of the absolute largest, most crowded, and richest cities in the entire world, housing thousands of diverse people. The smart people who lived there were expert, hardworking artists and merchants who crafted and traded a highly valuable, shiny, black volcanic glass called obsidiana. They used this sharp glass to make deadly weapons and beautiful tools. Today, curious tourists from everywhere travel to México to walk down the ancient, echoing avenue and climb the magnificent, sun-baked pyramids.",
-        "instruction": "Answer the following preguntas according to the text.",
-        "questions": [
-          "Where is the ancient city of Teotihuacán located?",
-          "Did the Aztecs build this incredible metropolis?",
-          "What does the name Teotihuacán mean in the Nahuatl language?",
-          "What is the grand main street of the city called?",
-          "What are the names of the two spectacular pyramids in the city?",
-          "What did the expert artists in the city trade with other people?",
-          "What do tourists from everywhere travel to México to do?"
-        ],
-        "answerKey": [
-          "Near modern-day Mexico City.",
-          "No (a completely different, unknown group built it before the Aztecs).",
-          "\"The place where the gods were created\".",
-          "The Avenue of the Dead.",
-          "The Pirámide del Sol (Sun) and the Pirámide de la Luna (Moon).",
-          "A highly valuable, shiny, black volcanic glass called obsidiana.",
-          "Walk down the ancient, echoing avenue and climb the magnificent pyramids."
-        ]
-      },
-      "level_2": {
-        "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "Teotihuacán es una ciudad antigua gigante, impresionante y profundamente misteriosa que está ubicada muy cerca de la actual Ciudad de México. Mucho antes de que el imperio feroz y poderoso de los aztecas existiera en México, un grupo completamente diferente y desconocido de indígenas muy avanzados diseñó y construyó esta increíble metrópolis de piedra. ¡Aún hoy, con nuestra tecnología moderna, los científicos y arqueólogos expertos todavía no saben exactamente quién la construyó! Cuando los aztecas finalmente encontraron la ciudad masiva y abandonada muchos siglos después, se sorprendieron y asustaron tanto por su tamaño que la llamaron reverentemente Teotihuacán, que se traduce hermosamente como \"el lugar donde fueron creados los dioses\" en su lengua nativa náhuatl.\n\nLa ciudad antigua es increíblemente famosa en todo el mundo por su gran calle principal, perfectamente recta, que se llama escalofriantemente la Calzada de los Muertos. Caminando por esta avenida masiva y polvorienta, puedes encontrar fácilmente dos de las pirámides más grandes y espectaculares de toda América Latina: la altísima Pirámide del Sol y la Pirámide de la Luna, que es un poco más pequeña. La Pirámide del Sol es absolutamente gigante, y se necesitan cientos de escalones de piedra empinados y agotadores para que una persona valiente finalmente llegue a la cima plana.\n\nDurante sus mejores años históricos, Teotihuacán fue indudablemente una de las ciudades más grandes, más pobladas y más ricas de todo el mundo, albergando a miles de personas diversas. Las personas inteligentes que vivían allí eran artistas y comerciantes expertos y trabajadores que hacían y vendían un cristal volcánico negro, brillante y muy valioso llamado obsidiana. Ellos usaban este cristal afilado para hacer armas mortales y herramientas hermosas. Hoy, turistas curiosos de todas partes viajan a México para caminar por la avenida antigua y subir a las pirámides magníficas.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Cerca de qué ciudad moderna se encuentra la metrópolis de Teotihuacán?",
-          "¿Saben los científicos modernos exactamente qué grupo de personas construyó la ciudad?",
-          "¿Qué significa el nombre de la ciudad en la lengua indígena de los aztecas?",
-          "¿Cómo se llama la calle principal y muy grande que pasa por la ciudad?",
-          "¿Cuáles son las dos pirámides más espectaculares que puedes encontrar allí?",
-          "¿Qué material negro y brillante vendían los artistas expertos de la ciudad?",
-          "¿Qué les encanta hacer a los turistas cuando viajan a visitar las ruinas en México?"
-        ],
-        "answerKey": [
-          "Muy cerca de la actual Ciudad de México.",
-          "No, todavía no saben exactamente.",
-          "\"El lugar donde fueron creados los dioses\".",
-          "La Calzada de los Muertos.",
-          "La Pirámide del Sol y la Pirámide de la Luna.",
-          "Un cristal volcánico negro, brillante y muy valioso llamado obsidiana.",
-          "Caminar por la avenida antigua y subir a las pirámides magníficas."
-        ]
-      },
-      "level_3": {
-        "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "Teotihuacán es una imponente, sobrecogedora y profundamente enigmática metrópolis precolombina situada estratégicamente en el fértil Valle de México, a escasa distancia de la bulliciosa capital actual del país. Su verdadero origen fundacional sigue siendo, indiscutiblemente, uno de los mayores y más fascinantes misterios de la arqueología mesoamericana, ya que fue planificada y erigida por una civilización altamente avanzada pero totalmente desconocida, siglos antes del violento apogeo y la expansión militar del gran Imperio mexica (azteca). Cuando los asombrados mexicas descubrieron accidentalmente la monumental ciudad en estado de ruinas durante sus peregrinaciones, quedaron tan sobrecogidos y maravillados por su escala titánica que la bautizaron reverencialmente como Teotihuacán, que en su poético idioma náhuatl se traduce literalmente como \"el lugar donde los hombres se convierten en dioses\".\n\nEl meticuloso trazado urbano y astronómico de la ciudad es de una simetría matemática y cosmológica asombrosa, estructurado rígidamente a lo largo de un eje principal inmenso denominado la Calzada de los Muertos. Flanqueando ordenadamente esta imponente y ancha avenida ceremonial se erigen con majestuosidad las estructuras arquitectónicas religiosas más emblemáticas y masivas del recinto arqueológico: la colosal e intimidante Pirámide del Sol, clasificada como una de las edificaciones pétreas más grandes y pesadas de la antigüedad global, y la estéticamente armónica Pirámide de la Luna.\n\nEn su época de mayor esplendor e influencia política, Teotihuacán fue un próspero epicentro urbano y verdaderamente cosmopolita que albergaba cómodamente a más de cien mil diversos habitantes en complejos residenciales multifamiliares. Su inmenso poderío económico y su innegable influencia cultural se cimentaron estratégicamente en el estricto monopolio comercial y la masiva exportación regional de la obsidiana. Este valioso, afilado y brillante vidrio volcánico oscuro era meticulosamente tallado por artesanos especializados y ampliamente utilizado para fabricar precisas herramientas cortantes, ornamentos religiosos y armas letales y temibles en toda la extensa región mesoamericana.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿En qué valle y cerca de qué capital moderna se sitúa esta metrópolis precolombina?",
-          "¿Por qué el origen de la ciudad sigue siendo un gran misterio para la arqueología?",
-          "¿Qué significado le otorgaron los mexicas al nombre Teotihuacán en idioma náhuatl?",
-          "¿Cómo se denomina el eje principal sobre el cual se estructura el asombroso trazado urbano?",
-          "¿Cuáles son las dos edificaciones arquitectónicas más emblemáticas del recinto?",
-          "¿En el monopolio de qué valioso material cimentó la ciudad su poderío económico?",
-          "¿Para qué fines prácticos utilizaban las culturas antiguas este valioso vidrio volcánico?"
-        ],
-        "answerKey": [
-          "En el fértil Valle de México, a escasa distancia de la capital actual.",
-          "Porque fue planificada y erigida por una civilización altamente avanzada pero totalmente desconocida.",
-          "\"El lugar donde los hombres se convierten en dioses\".",
-          "La Calzada de los Muertos.",
-          "La colosal Pirámide del Sol y la armónica Pirámide de la Luna.",
-          "En el estricto monopolio comercial y la masiva exportación regional de la obsidiana.",
-          "Para fabricar precisas herramientas cortantes, ornamentos religiosos y armas letales."
-        ]
-      }
-    }
-  },
-  {
-    "topicName": "El Canal de Panamá",
-    "imageFileName": "canal_panama.png",
-    "levels": {
-      "level_1": {
-        "tier": "Level 1 (English/Beginner)",
-        "readingText": "The world-famous Panama Canal is a truly amazing, massive man-made waterway strategically located in the beautiful, tropical country of Panamá in Central America. It perfectly and miraculously connects the deep waters of the Atlantic Ocean directly to the Pacific Ocean. Before this incredible canal existed, large cargo barcos (ships) were forced to travel all the way around the incredibly dangerous, stormy, and freezing southern tip of South America just to move important goods from one side of the world to the other. Building the canal was an incredibly difficult, highly dangerous engineering project because of the intensely hot tropical jungle, solid stone mountains, and deadly, dangerous diseases like yellow fever and malaria.\n\nDespite the extreme danger, thousands of brave, hardworking trabajadores (workers) from all over the world worked closely together to dig the dirt and build it, and it finally opened to the eager public in 1914. The impressive canal works exactly like a giant, powerful water elevator using a brilliant, complex system called esclusas (locks). These heavy steel locks gently lift the massive, heavy ships high up over the mountainous land using millions of gallons of fresh water, and then carefully lower them back down safely to sea level on the other side of the country!\n\nToday, the Panama Canal is absolutely one of the most important, wealthy, and busy waterways for global trade and business. Every single year, many thousands of giant cargo ships pass slowly through it, safely carrying essential food, warm clothes, fast cars, and expensive electronics to different countries around the globe. Because it saves so much valuable time, millions of dollars, and heavy fuel for everyone involved, it is widely considered a true, undeniable miracle of modern human engineering.",
-        "instruction": "Answer the following preguntas according to the text.",
-        "questions": [
-          "Where is the amazing man-made waterway located?",
-          "What two oceans does the Panama Canal connect?",
-          "Where did ships have to travel before the canal existed?",
-          "What dangerous disease made building the canal incredibly difficult?",
-          "What is the brilliant system called that works like a giant water elevator?",
-          "What do the massive ships carry to different countries?",
-          "Why is the canal considered a true miracle of modern engineering?"
-        ],
-        "answerKey": [
-          "In the beautiful, tropical country of Panamá in Central America.",
-          "The Atlantic Ocean and the Pacific Ocean.",
-          "All the way around the incredibly dangerous, stormy, and freezing southern tip of South America.",
-          "Yellow fever (and malaria).",
-          "Esclusas (locks).",
-          "Essential food, warm clothes, fast cars, and expensive electronics.",
-          "Because it saves so much valuable time, millions of dollars, and heavy fuel."
-        ]
-      },
-      "level_2": {
-        "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "El Canal de Panamá, famoso en todo el mundo, es una vía acuática masiva y verdaderamente asombrosa construida por humanos, ubicada estratégicamente en el hermoso y tropical país de Panamá en América Central. Conecta perfecta y milagrosamente las aguas profundas del Océano Atlántico directamente con el Océano Pacífico. Antes de que este canal increíble existiera, los barcos de carga grandes estaban forzados a viajar por todo el extremo sur de América del Sur, que es increíblemente peligroso, tormentoso y muy frío, solo para mover productos importantes de un lado del mundo al otro. Construir el canal fue un proyecto de ingeniería increíblemente difícil y muy peligroso por la selva tropical intensamente calurosa, las montañas de piedra sólida y las enfermedades mortales y peligrosas como la fiebre amarilla y la malaria.\n\nA pesar del peligro extremo, miles de trabajadores valientes y muy trabajadores de todo el mundo trabajaron juntos para mover la tierra y construirlo, y finalmente se abrió al público ansioso en 1914. ¡El canal impresionante funciona exactamente como un elevador de agua gigante y poderoso usando un sistema brillante y complejo llamado esclusas! ¡Estas esclusas pesadas de acero levantan suavemente los barcos masivos y pesados por encima de la tierra montañosa usando millones de galones de agua fresca, y luego los bajan cuidadosamente y con seguridad de vuelta al nivel del mar en el otro lado del país!\n\nHoy en día, el Canal de Panamá es absolutamente una de las vías acuáticas más importantes, ricas y ocupadas para el comercio y los negocios globales. Todos los años, muchos miles de barcos de carga gigantes pasan lentamente por él, transportando con seguridad comida esencial, ropa abrigada, carros rápidos y electrónicos caros a diferentes países por todo el mundo. Como el canal ahorra tanto tiempo valioso, millones de dólares y combustible pesado para todos los involucrados, es considerado ampliamente como un verdadero e innegable milagro de la ingeniería humana moderna.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿En qué país de América Central se encuentra este famoso canal?",
-          "¿Qué dos océanos grandes conecta perfectamente esta vía acuática?",
-          "¿Por dónde tenían que viajar los barcos antes del año 1914?",
-          "¿Qué problemas difíciles encontraron los trabajadores durante el proyecto?",
-          "¿Cómo se llama el sistema especial que funciona como un elevador de agua?",
-          "¿Qué cosas importantes transportan los miles de barcos todos los años?",
-          "¿Por qué es el canal muy importante para el comercio mundial moderno?"
-        ],
-        "answerKey": [
-          "En el hermoso y tropical país de Panamá.",
-          "El Océano Atlántico y el Océano Pacífico.",
-          "Por todo el extremo sur de América del Sur (que es peligroso, tormentoso y frío).",
-          "La selva tropical intensamente calurosa, las montañas de piedra sólida y las enfermedades mortales (como la fiebre amarilla).",
-          "Un sistema brillante y complejo llamado esclusas.",
-          "Comida esencial, ropa abrigada, carros rápidos y electrónicos caros.",
-          "Porque ahorra mucho tiempo valioso, millones de dólares y combustible pesado."
-        ]
-      },
-      "level_3": {
-        "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "El mundialmente célebre Canal de Panamá representa, sin lugar a dudas, una de las obras de ingeniería civil más colosales, impresionantes e influyentes de toda la era moderna. Ubicado estratégicamente en la parte más estrecha del istmo centroamericano, este majestuoso y vital paso marítimo, inaugurado triunfalmente en 1914, logró el hito histórico de unir directamente las profundas aguas del océano Atlántico con las del vasto océano Pacífico. Su exitosa e innovadora construcción revolucionó para siempre los patrones del comercio global al evitar drásticamente que las pesadas embarcaciones mercantes tuvieran que navegar la larga, gélida y sumamente traicionera ruta por el temido Cabo de Hornos en el extremo sur del continente americano.\n\nLa ambiciosa ejecución de este faraónico proyecto multinacional exigió un sacrificio humano inmenso para lograr superar formidables e implacables obstáculos naturales y sanitarios. Los ingenieros y obreros enfrentaron densas e impenetrables selvas tropicales, terreno rocoso y montañoso extremadamente difícil de excavar, y sobre todo, letales y devastadoras epidemias de fiebre amarilla y malaria transmitidas por implacables mosquitos. La verdadera y deslumbrante genialidad técnica del canal reside en su sofisticado y preciso sistema de esclusas monumentales de acero. Estas inmensas cámaras herméticas actúan como potentes ascensores hídricos que elevan paulatinamente las gigantescas embarcaciones por encima del nivel del mar, utilizando gravedad y agua dulce del inmenso lago Gatún, para poder atravesar sin problemas la cordillera central antes de descenderlas suavemente de nuevo al océano opuesto.\n\nEn la actualidad, el incesante canal es una arteria logística absolutamente indispensable para el buen funcionamiento de la economía internacional. Al reducir de manera drástica y eficiente los tiempos de tránsito interoceánico y los exorbitantes costos operativos de las principales compañías navieras del mundo, facilita enormemente el intercambio ágil, continuo y seguro de mercancías vitales de todo tipo, consolidando firmemente a la próspera nación de Panamá como el indiscutible y estratégico puente comercial del mundo moderno.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Qué hito monumental representa el Canal de Panamá a nivel mundial?",
-          "¿Qué ruta larga y traicionera evitó la construcción de esta infraestructura?",
-          "¿Qué formidables obstáculos naturales y sanitarios enfrentaron los constructores?",
-          "¿En qué año se inauguró oficialmente este majestuoso y vital paso marítimo?",
-          "¿Cómo funciona exactamente el sofisticado sistema de esclusas del canal?",
-          "¿Qué impacto directo tiene el canal en la logística del comercio internacional?",
-          "¿Qué se facilita globalmente gracias al tránsito eficiente de buques de carga?"
-        ],
-        "answerKey": [
-          "Una de las obras de ingeniería civil más colosales, impresionantes e influyentes de toda la era moderna.",
-          "La larga, gélida y sumamente traicionera ruta por el temido Cabo de Hornos en el extremo sur del continente americano.",
-          "Densas selvas tropicales, terreno rocoso/montañoso y letales epidemias de fiebre amarilla y malaria.",
-          "En 1914.",
-          "Actúan como potentes ascensores hídricos que elevan paulatinamente las embarcaciones por encima del nivel del mar (y las descienden al océano opuesto).",
-          "Reduce de manera drástica y eficiente los tiempos de tránsito interoceánico y los exorbitantes costos operativos de las navieras.",
-          "El intercambio ágil, continuo y seguro de mercancías vitales de todo tipo."
-        ]
-      }
-    }
-  },
-  {
-    "topicName": "El Chigüiro",
-    "imageFileName": "chiguiro.png",
-    "levels": {
-      "level_1": {
-        "tier": "Level 1 (English/Beginner)",
-        "readingText": "The chigüiro, which is also commonly known as the capybara in English, is a highly fascinating, extremely gentle, and unique animal originating from the continent of South America. It proudly holds the impressive world record for being the absolute largest and heaviest living rodent on the entire planet! Even though it is closely related to very small, squeaky guinea pigs, a healthy, full-grown chigüiro can easily weigh just as much as a tall adult human. They live peacefully in beautiful, lush countries like Colombia, Venezuela, and Brasil, usually near the muddy edges of the thick rainforest.\n\nThese large, barrel-shaped, furry creatures absolutely love swimming in cool agua (water). They are specially adapted semi-aquatic animals with slightly webbed feet, which easily makes them fast, excellent swimmers. When it gets much too hot and sticky in the bright tropical sun, they lazily spend many hours relaxing, sleeping, and cooling off in deep rivers, calm lakes, and wet, muddy swamps. They can even impressively hold their breath completely underwater for up to five full minutes just to secretly hide from dangerous, hungry predators like stealthy jaguars and giant anaconda snakes!\n\nThe chigüiro is incredibly famous and highly beloved on the internet right now for its incredibly calm, relaxed, and deeply friendly personality. In the wild, they are very social, vocal animals and safely live in large, close family groups to protect each other. They are strict herbivores, which simply means they only eat fresh, green grass and wet aquatic plants near the riverbank. Because they are so incredibly peaceful and never bite, you can very often see other wild animales, like noisy birds, resting turtles, or tiny monkeys, sitting comfortably right on top of their flat heads like a furry taxi!",
-        "instruction": "Answer the following preguntas according to the text.",
-        "questions": [
-          "What world record does the chigüiro hold?",
-          "What small animal is the chigüiro related to?",
-          "What makes them excellent swimmers in the water?",
-          "Where do they spend hours relaxing when it gets too hot?",
-          "Why do they hold their breath underwater for up to five minutes?",
-          "What kind of personality is the animal very famous for on the internet?",
-          "What do herbivores like the chigüiro eat in the wild?"
-        ],
-        "answerKey": [
-          "It is the absolute largest and heaviest living rodent on the entire planet.",
-          "Small, squeaky guinea pigs.",
-          "They have slightly webbed feet.",
-          "In deep rivers, calm lakes, and wet, muddy swamps.",
-          "To secretly hide from dangerous, hungry predators like stealthy jaguars and giant anaconda snakes.",
-          "An incredibly calm, relaxed, and deeply friendly personality.",
-          "Fresh, green grass and wet aquatic plants."
-        ]
-      },
-      "level_2": {
-        "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "El chigüiro, que también es comúnmente conocido como el capibara, es un animal muy fascinante, extremadamente gentil y único originario del continente de América del Sur. ¡Tiene con orgullo el récord mundial impresionante por ser el roedor vivo más grande y pesado de todo el planeta! Aunque es familia cercana de los conejillos de indias muy pequeños y ruidosos, un chigüiro adulto y sano puede pesar fácilmente lo mismo que un humano adulto y alto. Ellos viven pacíficamente en países hermosos y verdes como Colombia, Venezuela y Brasil, normalmente cerca de los bordes lodosos de la selva tropical espesa.\n\nA estas criaturas peludas, grandes y con forma de barril les encanta absolutamente nadar en el agua fresca. Son animales semiacuáticos especialmente adaptados con pies ligeramente palmeados, lo que fácilmente los hace nadadores rápidos y excelentes. Cuando hace demasiado calor y humedad bajo el sol tropical brillante, ellos pasan perezosamente muchas horas relajándose, durmiendo y refrescándose en ríos profundos, lagos tranquilos y pantanos húmedos y llenos de lodo. ¡Incluso pueden contener la respiración impresionantemente bajo el agua por hasta cinco minutos enteros solo para esconderse en secreto de depredadores peligrosos y hambrientos como los jaguares sigilosos y las serpientes anacondas gigantes!\n\nEl chigüiro es increíblemente famoso y muy querido en internet ahora mismo por su personalidad increíblemente tranquila, relajada y profundamente amigable. En la naturaleza, son animales muy sociales y vocales, y viven con seguridad en grupos familiares grandes y unidos para protegerse mutuamente. Son herbívoros estrictos, lo que simplemente significa que solo comen hierba fresca y verde, y plantas acuáticas húmedas cerca del río. Porque son tan increíblemente pacíficos y nunca muerden, ¡puedes ver muy frecuentemente a otros animales salvajes, como pájaros ruidosos, tortugas descansando o monos diminutos, sentados cómodamente justo en la parte superior de sus cabezas planas como un taxi peludo!",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Qué récord mundial tiene el chigüiro en el reino animal?",
-          "¿En qué países hermosos de América del Sur vive este animal?",
-          "¿Qué partes de su cuerpo lo ayudan a nadar excelentemente en el agua?",
-          "¿Dónde pasa muchas horas el animal cuando hace mucho calor en la selva?",
-          "¿Para qué puede contener la respiración bajo el agua por cinco minutos?",
-          "¿Cómo es la personalidad famosa del chigüiro en la naturaleza y en internet?",
-          "¿Qué tipo de comida comen estos animales herbívoros todos los días?"
-        ],
-        "answerKey": [
-          "Es el roedor vivo más grande y pesado de todo el planeta.",
-          "En Colombia, Venezuela y Brasil.",
-          "Sus pies ligeramente palmeados.",
-          "En ríos profundos, lagos tranquilos y pantanos húmedos y llenos de lodo.",
-          "Para esconderse en secreto de depredadores peligrosos y hambrientos como los jaguares.",
-          "Tiene una personalidad increíblemente tranquila, relajada y profundamente amigable.",
-          "Hierba fresca y verde, y plantas acuáticas húmedas."
-        ]
-      },
-      "level_3": {
-        "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "El chigüiro, también comúnmente denominado capibara o carpincho en diversas regiones del continente, es un verdaderamente fascinante y apacible mamífero herbívoro endémico de Sudamérica. Su característica zoológica más destacada e impresionante es ostentar de manera indiscutible el curioso título del roedor viviente de mayor tamaño y peso a nivel global. A pesar de su innegable parentesco biológico con los diminutos conejillos de indias, su robusta y pesada complexión física en forma de barril le permite alcanzar fácilmente la masa corporal de un ser humano adulto promedio. Posee una profunda e innegable afinidad por los entornos acuáticos, habitando densamente y en completa armonía las exuberantes riberas y selvas de las cuencas del Amazonas y el Orinoco.\n\nSu asombrosa y milenaria adaptación evolutiva a la exigente vida semiacuática selvática es verdaderamente digna de estudio científico; cuenta con patas parcialmente palmeadas que lo convierten instantáneamente en un nadador sumamente ágil, veloz y grácil en el agua. Durante las sofocantes horas de calor abrasador del mediodía tropical, sumerge invariablemente su cuerpo peludo en ríos profundos, lagos y pantanos lodosos para termorregular efectivamente su temperatura. Además, posee la impresionante y vital capacidad pulmonar de contener la respiración por completo bajo el agua turbia durante varios minutos continuos, una elaborada táctica de supervivencia absolutamente vital para evadir sigilosa y exitosamente a letales depredadores ápice que acechan en las orillas, como los temibles jaguares y las gigantescas anacondas.\n\nDe naturaleza eminentemente gregaria, comunicativa y pacífica, los chigüiros conforman de manera natural manadas jerárquicas sumamente numerosas y protectoras. Su estricta y limitada dieta herbívora se basa casi exclusivamente en el consumo constante de pastos ribereños frescos y densa vegetación acuática. Recientemente, se han convertido de forma sorpresiva en un fenómeno viral sumamente peculiar y querido en las redes sociales modernas debido a su temperamento excepcionalmente dócil, estoico y plácido. Frecuentemente toleran con absoluta e inquebrantable paciencia que diversas especies, como ruidosas aves acuáticas, monos inquietos e incluso reptiles, descansen y duerman plácidamente sobre sus anchos lomos sin inmutarse en lo más mínimo.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Con qué otros nombres se le conoce a este fascinante mamífero sudamericano?",
-          "¿Qué característica zoológica lo distingue a nivel global de otras especies?",
-          "¿A qué se debe su innegable afinidad por los entornos acuáticos y ribereños?",
-          "¿Qué ventaja táctica le otorga su capacidad de sumergirse durante varios minutos?",
-          "¿Cómo se estructura socialmente este mamífero en su hábitat natural?",
-          "¿En qué consiste su estricta dieta herbívora en las riberas sudamericanas?",
-          "¿Por qué se han convertido en un fenómeno viral peculiar en las redes sociales?"
-        ],
-        "answerKey": [
-          "Capibara o carpincho.",
-          "Es el roedor viviente de mayor tamaño y peso a nivel global.",
-          "A su asombrosa adaptación evolutiva a la vida semiacuática (patas parcialmente palmeadas).",
-          "Una táctica vital para evadir sigilosa y exitosamente a letales depredadores ápice, como jaguares y anacondas.",
-          "Tienen una naturaleza eminentemente gregaria, conformando manadas jerárquicas sumamente numerosas y protectoras.",
-          "En el consumo constante de pastos ribereños frescos y densa vegetación acuática.",
-          "Por su temperamento excepcionalmente dócil, estoico y plácido (tolerando que otras especies descansen sobre ellos)."
-        ]
-      }
-    }
-  },
-  {
     "topicName": "La Anaconda",
     "imageFileName": "anaconda.png",
     "levels": {
@@ -6523,7 +6223,232 @@
       ]
     }
   }
-}
+},
+{
+    "topicName": "La Quinceañera",
+    "imageFileName": "quinceanera.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "La Quinceañera is definitely one of the most important, joyful, and deeply beautiful traditional celebrations in all of Latin American culture. It is an absolutely massive, expensive party that happily celebrates a young girl's highly anticipated fifteenth birthday with all her family and friends. However, it is very important to know that it is so much more than just a regular, fun birthday party with cake and presents! Culturally, it proudly and publicly represents the very important, serious life transition from innocent childhood into responsible, mature womanhood.\n\nDuring the long, exciting day of the celebration, the lucky birthday girl (called the quinceañera) proudly wears a spectacular, custom-made, and incredibly elegant long dress that looks exactly like a royal princess gown from a fairy tale. The busy day usually begins formally with a very special, quiet religious ceremony in a beautiful church to give thanks for her life. Afterwards, all her excited family and loud friends happily gather together in a decorated hall for a truly huge, expensive reception party completely filled with delicious hot food, live music, and endless, energetic dancing.\n\nOne of the absolute most emotional, traditional, and meaningful moments of the entire long night is the famous changing of the shoes. During this quiet moment, the proud father of the girl carefully takes off her simple, flat childhood shoes and gently puts elegant, grown-up high heels on her feet for the very first time. This sweet action clearly symbolizes to everyone that she is quickly growing up. Right after this, the father and daughter cry and smile as they slowly dance a beautiful, traditional waltz (el vals) together in front of all the clapping guests. It is a truly unforgettable, magical night completely filled with deep love, old tradition, and immense family pride.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "What does the Quinceañera celebration represent?",
+          "What kind of dress does the girl wear?",
+          "Where does the party usually begin?",
+          "What is the emotional tradition involving footwear?",
+          "What do the high heels symbolize?",
+          "Who does the girl dance the waltz with?",
+          "What is the unforgettable night filled with?"
+        ],
+        "answerKey": [
+          "The important, serious life transition from innocent childhood into responsible, mature womanhood.",
+          "A spectacular, custom-made, and incredibly elegant long dress that looks exactly like a royal princess gown.",
+          "With a very special, quiet religious ceremony in a beautiful church.",
+          "The famous changing of the shoes.",
+          "That she is quickly growing up.",
+          "Her proud father.",
+          "Deep love, old tradition, and immense family pride."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La Quinceañera es definitivamente una de las celebraciones tradicionales más importantes, alegres y profundamente hermosas de toda la cultura latinoamericana. Es una fiesta absolutamente masiva y muy cara que celebra felizmente el muy esperado cumpleaños número quince de una joven con toda su familia y amigos. Sin embargo, ¡es muy importante saber que es mucho más que una fiesta de cumpleaños normal y divertida con pastel y regalos! Culturalmente, representa con orgullo y públicamente la transición de vida muy importante y seria de la niñez inocente a la condición de mujer responsable y madura.\n\nDurante el día largo y emocionante de la celebración, la afortunada cumpleañera (llamada la quinceañera) lleva con orgullo un vestido largo espectacular, hecho a medida y sorprendentemente elegante que se ve exactamente como un vestido de princesa real de un cuento de hadas. El día ocupado normalmente empieza formalmente con una ceremonia religiosa muy especial y tranquila en una hermosa iglesia para dar gracias por su vida. Después, toda su familia emocionada y sus amigos ruidosos se reúnen felizmente en un salón decorado para una recepción verdaderamente enorme y cara, completamente llena de deliciosa comida caliente, música en vivo y baile enérgico y sin fin.\n\nUno de los momentos absolutamente más emocionales, tradicionales y significativos de toda la larga noche es el famoso cambio de zapatos. Durante este momento tranquilo, el padre orgulloso de la chica le quita cuidadosamente sus zapatos planos y sencillos de la niñez y le pone suavemente zapatos elegantes de tacón alto en los pies por primera vez. Esta dulce acción simboliza claramente a todos que ella está creciendo rápidamente. Justo después de esto, el padre y la hija lloran y sonríen mientras bailan lentamente un hermoso vals tradicional juntos frente a todos los invitados que aplauden. Es una noche verdaderamente inolvidable y mágica completamente llena de amor profundo, tradición antigua y un inmenso orgullo familiar.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué representa la celebración de la Quinceañera en la cultura latinoamericana?",
+          "¿Qué tipo de ropa espectacular lleva la chica durante la celebración?",
+          "¿En qué lugar empieza normalmente la fiesta antes de la recepción?",
+          "¿Cuál es la tradición emocional que incluye el calzado de la chica?",
+          "¿Qué simboliza exactamente ponerle zapatos de tacón alto a la chica?",
+          "¿Con quién baila ella un hermoso vals frente a todos los invitados?",
+          "¿De qué tres cosas está llena esta noche inolvidable para la chica?"
+        ],
+        "answerKey": [
+          "La transición de vida muy importante y seria de la niñez inocente a la condición de mujer madura.",
+          "Un vestido largo espectacular y elegante que se ve como un vestido de princesa real.",
+          "En una hermosa iglesia (con una ceremonia religiosa muy especial).",
+          "El famoso cambio de zapatos.",
+          "Simboliza claramente que ella está creciendo rápidamente.",
+          "Con su padre orgulloso.",
+          "De amor profundo, tradición antigua y un inmenso orgullo familiar."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La Quinceañera es, sin lugar a dudas, un rito de paso social y cultural profundamente arraigado, emotivo y significativo en la rica cultura hispana y latinoamericana que marca públicamente la trascendental y simbólica transición de la inocente niñez a la madurez y feminidad adulta. Esta fastuosa, elaborada y a menudo costosa celebración familiar se lleva a cabo con gran anticipación cuando una joven cumple exactamente sus quince primaveras, reuniendo con inmensa alegría a toda la extensa comunidad, parientes y amigos en un magno evento que combina armoniosamente una profunda devoción espiritual y un festejo lúdico verdaderamente multitudinario.\n\nLa larga y emocionante festividad suele inaugurarse formalmente por la mañana con una solemne, hermosa y emotiva misa católica de acción de gracias en la iglesia local. Allí, la joven homenajeada, elegantemente ataviada con un deslumbrante, voluminoso y llamativo vestido de gala digno de la realeza, reafirma públicamente su fe y sus compromisos morales ante su familia. Posteriormente, tras la ceremonia religiosa, el inmenso banquete nocturno en el salón de eventos se transforma rápidamente en un vibrante y ruidoso despliegue de alegría desbordante, abundante banquete culinario, música en vivo incesante y coreografías modernas y tradicionales meticulosamente ensayadas durante meses previos junto a sus amigos cercanos, quienes conforman su leal corte de honor.\n\nEl momento cumbre, más fotográfico y profundamente conmovedor de toda la velada es, indiscutiblemente, la tradicional y esperada ceremonia del cambio de zapatillas frente a todos los invitados. En un acto cargado de simbolismo, el orgulloso y nostálgico padre sustituye delicadamente el calzado plano e infantil de su querida hija por unos elegantes e incómodos tacones altos, un acto que escenifica visual y metafóricamente su entrada oficial a la compleja feminidad adulta. Inmediatamente después de este rito, padre e hija inauguran juntos y entre lágrimas de felicidad la pista de baile ejecutando un emotivo, clásico y melodioso vals, sellando de esta manera una noche mágica que quedará grabada indeleblemente en la memoria familiar por el resto de sus vidas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué marca simbólicamente este rito de paso profundamente arraigado en la cultura hispana?",
+          "¿Con qué evento solemne y devoto suele inaugurarse la festividad?",
+          "¿Qué atuendo deslumbrante lleva la joven durante la misa de acción de gracias?",
+          "¿Con quiénes ejecuta coreografías meticulosamente ensayadas durante el banquete?",
+          "¿Cuál es el momento cumbre y más conmovedor de toda la velada?",
+          "¿Qué escenifica el acto de sustituir el calzado plano por unos elegantes tacones?",
+          "¿Qué baile emotivo inaugura la pista e involucra al padre y a la hija?"
+        ],
+        "answerKey": [
+          "La trascendental y simbólica transición de la inocente niñez a la madurez y feminidad adulta.",
+          "Con una solemne, hermosa y emotiva misa católica de acción de gracias.",
+          "Un deslumbrante, voluminoso y llamativo vestido de gala.",
+          "Con sus amigos cercanos, quienes conforman su leal corte de honor.",
+          "La tradicional y esperada ceremonia del cambio de zapatillas.",
+          "Su entrada oficial a la compleja feminidad adulta.",
+          "Un emotivo, clásico y melodioso vals."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Penélope Cruz",
+    "imageFileName": "penelope_cruz.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Penélope Cruz is an incredibly famous, deeply respected, and highly beautiful Spanish actress and fashion model who is globally known and loved all over the world for her amazing, natural acting talent. She was originally born in the busy, historic city of Madrid, Spain, and she eagerly started acting professionally on television when she was just a very young teenager. Over the many busy years of her amazing career, she has frequently and successfully worked with the incredibly famous, eccentric Spanish film director Pedro Almodóvar, starring proudly as the main character in some of his absolute most emotional, heartbreaking, and complex movies.\n\nIn the amazing year of 2009, Penélope made incredible, unforgettable international history when she officially became the very first Spanish actriz (actress) to ever be nominated for and win a highly prestigious Academy Award (an Oscar) for her truly amazing, fiery, and funny role in the popular romantic movie *Vicky Cristina Barcelona*. Because she is very smart and speaks both Spanish and English perfectly fluently, she has the rare, unique ability to act successfully in massive, highly expensive Hollywood blockbusters as well as much smaller, artistic, and independent European películas (films). She is especially known by film critics for brilliantly playing very strong, loud, and deeply passionate women on the big screen.\n\nOutside of her busy, demanding acting career, she is also a highly successful, glamorous fashion model and constantly works with many famous, expensive, and luxurious clothing brands around the globe. Penélope is happily married to another incredibly famous, award-winning Spanish actor named Javier Bardem, and they lovingly raise their two beautiful children together in private. She is also deeply passionate about generously helping others and frequently donates her own money and time to work with medical charities around the world. Her stunning beauty, incredible acting talent, and very kind heart make her one of the absolute most beloved, respected actresses in the massive entertainment industry today.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was Penélope Cruz born?",
+          "When did she start acting?",
+          "Which famous Spanish director does she work with frequently?",
+          "What historic achievement did she reach in 2009?",
+          "For which movie did she win the Oscar?",
+          "Who is her husband?",
+          "What does she do besides acting?"
+        ],
+        "answerKey": [
+          "Madrid, Spain.",
+          "When she was just a very young teenager.",
+          "Pedro Almodóvar.",
+          "First Spanish actress to win an Academy Award (an Oscar).",
+          "Vicky Cristina Barcelona.",
+          "Javier Bardem.",
+          "Modeling and working with charities."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Penélope Cruz es una actriz y modelo de moda española increíblemente famosa, profundamente respetada y muy hermosa que es conocida y amada mundialmente en todo el mundo por su talento actoral asombroso y natural. Ella nació originalmente en la ciudad histórica y ocupada de Madrid, España, y comenzó a actuar profesionalmente con mucho entusiasmo en la televisión cuando era solo una adolescente muy joven. A lo largo de los muchos años ocupados de su carrera asombrosa, ha trabajado frecuente y exitosamente con el director de cine español increíblemente famoso y excéntrico Pedro Almodóvar, protagonizando con orgullo como el personaje principal en algunas de sus películas absolutamente más emocionales, desgarradoras y complejas.\n\nEn el asombroso año de 2009, Penélope hizo una historia internacional increíble e inolvidable cuando se convirtió oficialmente en la primera actriz española en ser nominada y ganar un Premio de la Academia (un Óscar) muy prestigioso por su papel verdaderamente asombroso, apasionado y cómico en la popular película romántica *Vicky Cristina Barcelona*. Como es muy inteligente y habla español e inglés con fluidez perfecta, tiene la habilidad rara y única de actuar con éxito en películas gigantescas y muy caras de Hollywood, así como en películas europeas mucho más pequeñas, artísticas e independientes. Es especialmente conocida por los críticos de cine por interpretar brillantemente a mujeres muy fuertes, ruidosas y profundamente apasionadas en la pantalla grande.\n\nFuera de su ocupada y exigente carrera de actuación, también es una modelo de moda glamorosa y muy exitosa y trabaja constantemente con muchas marcas de ropa famosas, caras y lujosas en todo el mundo. Penélope está felizmente casada con otro actor español increíblemente famoso y premiado llamado Javier Bardem, y crían amorosamente a sus dos hermosos hijos juntos en privado. Ella también siente mucha pasión por ayudar generosamente a los demás y frecuentemente dona su propio dinero y tiempo para trabajar con organizaciones de caridad médicas en todo el mundo. Su belleza impresionante, su increíble talento actoral y su corazón muy amable la hacen una de las actrices absolutamente más queridas y respetadas en la enorme industria del entretenimiento hoy en día.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De dónde es Penélope Cruz?",
+          "¿Cuándo comenzó su carrera de actuación?",
+          "¿Con qué director famoso trabaja mucho?",
+          "¿Qué premio importante ganó en el año 2009?",
+          "¿En qué película actuó para ganar el Óscar?",
+          "¿Con quién está casada Penélope?",
+          "¿Qué otras cosas hace además de actuar en el cine?"
+        ],
+        "answerKey": [
+          "De Madrid, España.",
+          "Cuando era solo una adolescente muy joven.",
+          "Pedro Almodóvar.",
+          "El prestigioso premio Óscar (Premio de la Academia).",
+          "Vicky Cristina Barcelona.",
+          "Con el actor Javier Bardem.",
+          "Trabaja como modelo y con organizaciones de caridad."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Penélope Cruz es, indiscutiblemente, una actriz, productora y modelo española de inmenso y merecido renombre internacional cuya indudable versatilidad actoral, belleza exótica y magnetismo escénico la han llevado a coronar la cima absoluta de la competitiva y exigente industria de Hollywood. Nacida y criada en la vibrante capital de Madrid, comenzó su apasionante trayectoria artística en la televisión local durante su temprana adolescencia y rápidamente demostró ante las cámaras un talento visceral y excepcional que cautivó a la crítica. Con el imparable paso del tiempo, se convirtió casi orgánicamente en la gran musa inspiradora e irremplazable del aclamado y extravagante director manchego Pedro Almodóvar, protagonizando magistralmente algunas de sus obras cinematográficas más icónicas, emotivas, desgarradoras y psicológicamente complejas, como *Volver* y *Todo sobre mi madre*.\n\nEn el histórico y glorioso año 2009, Cruz hizo historia imborrable en la industria cinematográfica al romper barreras y convertirse oficialmente en la primera actriz española en ser galardonada con un codiciado premio Óscar de la Academia, gracias a su deslumbrante, volcánica y apasionada interpretación de reparto en la cinta *Vicky Cristina Barcelona* de Woody Allen. Su absoluto y envidiable dominio bilingüe de múltiples idiomas le permite a esta estrella transitar fluida y exitosamente entre los proyectos íntimos del cine independiente europeo y las espectaculares y multimillonarias superproducciones comerciales de los estudios de los Estados Unidos. En la gran pantalla, es universalmente célebre por dar vida, voz y alma a mujeres de carácter sumamente fuerte, emocionalmente profundo, temperamental y admirablemente resiliente frente a la tragedia.\n\nFuera de los brillantes y bulliciosos platós de grabación, es una destacada, influyente y glamurosa figura de la alta moda europea y colabora frecuentemente como embajadora de marca con prestigiosas y lujosas casas de alta costura parisinas. Felizmente casada con el también internacional y oscarizado actor español Javier Bardem, con quien forma una de las parejas más estables del medio, Cruz es además una filántropa sumamente comprometida, discreta y solidaria que apoya activamente diversas causas humanitarias y médicas globales, invirtiendo su tiempo y fortuna. Su impresionante, extenso y multifacético legado artístico la consolida indiscutiblemente como un verdadero e intemporal ícono cultural contemporáneo para toda España.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad nació Penélope Cruz?",
+          "¿De qué aclamado director se convirtió en la musa irremplazable?",
+          "¿Qué hito logró en la historia de los premios Óscar en 2009?",
+          "¿Por qué película fue galardonada con el Óscar?",
+          "¿Qué habilidad le permite actuar en Hollywood y Europa?",
+          "¿Qué tipo de personajes suele representar en la pantalla?",
+          "¿Qué tipo de causas apoya activamente fuera del cine?"
+        ],
+        "answerKey": [
+          "Madrid.",
+          "Pedro Almodóvar.",
+          "Fue la primera actriz española en ganar un codiciado premio Óscar de la Academia.",
+          "Vicky Cristina Barcelona.",
+          "Su absoluto y envidiable dominio bilingüe de múltiples idiomas.",
+          "Mujeres de carácter sumamente fuerte, emocionalmente profundo, temperamental y resiliente.",
+          "Diversas causas humanitarias y médicas globales."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "La Sagrada Familia",
+    "imageFileName": "sagrada_familia.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "La Sagrada Familia is an incredibly massive, absolutely breathtaking, and world-famous basilica located right in the middle of the beautiful, sunny city of Barcelona, Spain. It was beautifully and uniquely designed by the brilliantly creative and globally famous Spanish architect Antoni Gaudí. Construction on this giant, towering stone building started a very long time ago, way back in the year 1882, and incredibly, the complicated, detailed iglesia (church) is still not completely finished today, even after more than a hundred years of hard work!\n\nGaudí deeply loved and respected the natural, outdoor world, so he cleverly designed the quiet, peaceful inside of the magnificent building to look exactly like a giant, magical forest. It features incredibly tall, colorful stone columns that literally branch out at the very top to look just like massive árboles (trees) reaching high up for the bright sky to hold the heavy ceiling. The towering outside of the massive basilica is heavily decorated with thousands of highly complex and perfectly detailed statues that tell incredibly important, historic stories directly from the Bible. The giant, beautiful stained glass windows let in stunning, colorful, and warm light that magically changes colors throughout the long day as the sun moves across the sky.\n\nMillions of excited, curious tourists from all over the entire globe happily visit this breathtaking, unfinished monument every single year just to take beautiful photos and admire the art. Today, smart builders, engineers, and expert architects are finally using advanced, modern technology and fast 3D printing to try and finally finish the incredibly difficult construction very soon. When it is completely and finally done in the future, it will officially be the absolute tallest church in the entire world! La Sagrada Familia is a true, undeniable symbol of extreme patience, incredible, unique art, and the rich, complex history of the beautiful city of Barcelona.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What is La Sagrada Familia?",
+          "Where is it located?",
+          "Who designed it?",
+          "When did construction start?",
+          "What does the inside of the building look like?",
+          "What is on the outside of the basilica?",
+          "What record will it hold when it is finished?"
+        ],
+        "answerKey": [
+          "An incredibly massive, absolutely breathtaking basilica/church.",
+          "Barcelona, Spain.",
+          "Antoni Gaudí.",
+          "1882.",
+          "Exactly like a giant, magical forest with tall columns that look like massive árboles (trees).",
+          "Thousands of highly complex and perfectly detailed statues that tell important stories from the Bible.",
+          "The absolute tallest church in the entire world."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La Sagrada Familia es una basílica increíblemente enorme, absolutamente impresionante y mundialmente famosa que está ubicada justo en medio de la hermosa y soleada ciudad de Barcelona, España. Fue diseñada hermosa y únicamente por el arquitecto español brillantemente creativo y famoso a nivel mundial Antoni Gaudí. La construcción de este edificio gigante y altísimo de piedra empezó hace mucho tiempo, en el año 1882, e increíblemente, ¡la iglesia complicada y detallada todavía no está completamente terminada hoy, incluso después de más de cien años de trabajo duro!\n\nA Gaudí le encantaba y respetaba profundamente el mundo natural al aire libre, así que diseñó inteligentemente el interior tranquilo y pacífico del magnífico edificio para que se viera exactamente como un gran bosque mágico. Presenta columnas de piedra increíblemente altas y coloridas que se ramifican literalmente en la parte superior para parecerse a árboles masivos que alcanzan lo alto del cielo brillante para sostener el techo pesado. El exterior altísimo de la basílica masiva está muy decorado con miles de estatuas altamente complejas y perfectamente detalladas que cuentan historias históricas e increíblemente importantes directamente de la Biblia. Las hermosas y gigantes ventanas de vidrio de colores permiten la entrada de una luz cálida, colorida e impresionante que cambia mágicamente de colores a lo largo del largo día a medida que el sol se mueve por el cielo.\n\nMillones de turistas emocionados y curiosos de todo el mundo entero visitan felizmente este monumento inacabado e impresionante cada año solo para tomar hermosas fotos y admirar el arte. Hoy en día, constructores inteligentes, ingenieros y arquitectos expertos finalmente están usando tecnología moderna y avanzada y la impresión 3D rápida para tratar de terminar finalmente la construcción increíblemente difícil muy pronto. Cuando esté completa y finalmente terminada en el futuro, ¡será oficialmente la iglesia absolutamente más alta de todo el mundo! La Sagrada Familia es un símbolo verdadero e innegable de paciencia extrema, arte increíble y único, y la rica y compleja historia de la hermosa ciudad de Barcelona.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué es La Sagrada Familia y dónde está?",
+          "¿Quién fue el arquitecto que la diseñó?",
+          "¿En qué año empezó la construcción?",
+          "¿Cómo es el interior del edificio?",
+          "¿A qué se parecen las columnas altas?",
+          "¿Qué cuentan las estatuas del exterior?",
+          "¿Qué usan los constructores hoy para tratar de terminarla?"
+        ],
+        "answerKey": [
+          "Es una basílica increíblemente enorme en la hermosa y soleada ciudad de Barcelona, España.",
+          "Antoni Gaudí.",
+          "En el año 1882.",
+          "Se ve exactamente como un gran bosque mágico (tranquilo y pacífico).",
+          "A árboles masivos que alcanzan lo alto del cielo brillante.",
+          "Historias históricas e increíblemente importantes directamente de la Biblia.",
+          "Tecnología moderna y avanzada y la impresión 3D rápida."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La insigne Sagrada Familia es la majestuosa, abrumadora e imponente basílica menor católica de la cosmopolita ciudad de Barcelona y, sin lugar a ninguna duda razonable, es mundialmente considerada como la obra maestra cumbre y el testamento final del genial y visionario arquitecto modernista catalán Antoni Gaudí. Su faraónica, colosal y sumamente compleja construcción en piedra viva, iniciada tímidamente en el lejano e histórico año de 1882, ha continuado lenta e ininterrumpidamente a lo largo de más de un siglo de turbulenta historia española hasta el día de hoy. Este dilatado proceso constructivo se financia única y exclusivamente de manera tradicional y expiatoria a través de donaciones privadas anónimas y, más recientemente, con la indispensable y masiva venta diaria de entradas a turistas internacionales.\n\nGaudí, un hombre devoto, logró integrar magistral y profundamente su profunda, estricta y ferviente fe religiosa católica con su inmensa, observadora e inagotable pasión por el diseño orgánico del mundo natural que lo rodeaba. El sobrecogedor, silencioso y místico interior de la enorme basílica fue ingeniosamente diseñado para imitar a la perfección un frondoso, oscuro y pacífico bosque místico de piedra. La colosal estructura es sostenida ágilmente por altísimas columnas arborescentes de pórfido y basalto que se ramifican elegante e intrincadamente hacia las altísimas bóvedas estrelladas del techo. Las impresionantes e intrincadas fachadas exteriores, repletas de esculturas, narran visual y didácticamente los episodios bíblicos fundamentales y dogmáticos del cristianismo con un nivel de detalle arquitectónico verdaderamente asombroso, recargado y abrumador. La luz divina que se filtra cuidadosamente a través de sus espectaculares, gigantescos y caleidoscópicos vitrales policromados crea una atmósfera de recogimiento espiritual inigualable, cambiante y cálida según la hora del día.\n\nAtrayendo incesantemente a millones de visitantes atónitos y maravillados de absolutamente todos los rincones del planeta anualmente, este grandioso templo inacabado es una maravilla arquitectónica y artística sin precedentes en la historia humana. Los arquitectos, ingenieros y escultores actuales que continúan el legado de Gaudí emplean frenéticamente tecnologías de vanguardia, como el sofisticado diseño asistido por ordenador y el corte láser tridimensional, para acelerar drásticamente el lento proceso constructivo. Tienen la firme esperanza de culminar finalmente la épica obra en un futuro próximo, momento histórico en el cual el majestuoso recinto religioso se coronará oficial e indiscutiblemente como la iglesia cristiana más alta, imponente y visible de todo el mundo, erigiéndose para la eternidad como un testimonio pétreo y vivo de fe, perseverancia humana y genialidad artística.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué movimiento arquitectónico es cumbre esta obra?",
+          "¿Cómo se financia exclusivamente su construcción?",
+          "¿Qué dos grandes pasiones integró Gaudí en el diseño?",
+          "¿Qué imita el diseño de las altísimas columnas interiores?",
+          "¿Qué función narrativa tienen las intrincadas fachadas exteriores?",
+          "¿Qué elemento crea una atmósfera espiritual a través de la luz?",
+          "¿Qué título ostentará el templo cuando se culmine la obra?"
+        ],
+        "answerKey": [
+          "Del movimiento modernista catalán.",
+          "Única y exclusivamente a través de donaciones privadas anónimas y la venta diaria de entradas.",
+          "Su profunda fe religiosa católica con su inmensa pasión por el diseño orgánico del mundo natural.",
+          "Imita un frondoso, oscuro y pacífico bosque místico de piedra (las columnas arborescentes).",
+          "Narran visual y didácticamente los episodios bíblicos fundamentales del cristianismo.",
+          "Los espectaculares, gigantescos y caleidoscópicos vitrales policromados.",
+          "La iglesia cristiana más alta, imponente y visible de todo el mundo."
+        ]
+      }
+    }
+  }
 
 
 
