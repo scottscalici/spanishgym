@@ -8550,35 +8550,6 @@
     }
   },
   {
-    "topicName": "Mafalda",
-    "imageFileName": "mafalda.png",
-    "levels": {
-      "level_1": {
-        "tier": "Level 1 (English/Beginner)",
-        "readingText": "Mafalda is a highly famous, deeply beloved comic strip character who originally comes from the beautiful country of Argentina. She was brilliantly created in the 1960s by a highly talented Argentine artist and writer named Joaquín Salvador Lavado, who was universally known by his popular nickname, Quino. Even though she is visually just a small, innocent six-year-old girl with wild, dark hair, Mafalda is actually incredibly smart and deeply concerned about the complex adult world. She constantly asks her tired parents very difficult questions about important global topics like world peace, politics, and the struggling economy, which usually leaves them completely speechless and confused!\n\nIn her famous, funny 'tiras cómicas' (comic strips), Mafalda has a very strong, unique personality. She absolutely loves peacefully listening to rock music from The Beatles, happily playing with her close friends in the neighborhood, and thinking about how to save humanity. However, there is one normal thing that she absolutely hates more than anything else in the entire world: eating hot 'sopa' (soup)! In the clever comics, soup actually represents all the boring, strict rules and terrible things that adults force children to accept against their will.\n\nEven though Quino officially stopped drawing new comics about her in the 1970s, her massive cultural impact has never disappeared. Today, Mafalda is widely considered an absolute cultural icon across all of Latin America and Europe. You can easily find her recognizable face printed on colorful shirts, school notebooks, and massive street murals. There is even a beautiful, life-sized statue of her sitting quietly on a park bench in the historic neighborhood of San Telmo in Buenos Aires, where excited tourists wait in long lines just to take a fun picture with the smartest little girl in Argentina.",
-        "instruction": "Answer the following questions according to the text.",
-        "questions": [
-          "Who created the famous comic strip character Mafalda?",
-          "What country is Mafalda originally from?",
-          "What topics does she ask her parents difficult questions about?",
-          "What famous music band does Mafalda absolutely love listening to?",
-          "What normal food does she absolutely hate eating more than anything else?",
-          "What does the soup represent in the comic strips?",
-          "Where can you find a life-sized statue of Mafalda sitting on a park bench?"
-        ],
-        "answerKey": [
-          "A talented Argentine artist named Joaquín Salvador Lavado (known as Quino).",
-          "Argentina.",
-          "Important global topics like world peace, politics, and the economy.",
-          "The Beatles.",
-          "Hot 'sopa' (soup).",
-          "The strict rules and terrible things that adults force children to accept.",
-          "In the historic neighborhood of San Telmo in Buenos Aires."
-        ]
-      }
-    }
-      },
-    {
     "topicName": "La Malinche",
     "imageFileName": "la_malinche.png",
     "levels": {
@@ -8649,8 +8620,39 @@
           "Con numerosos pueblos indígenas subyugados, como los feroces tlaxcaltecas.",
           "Porque facilitó activa y egoístamente la dolorosa destrucción de su propia raza y civilizaciones precolombinas.",
           "Del mestizaje, que define orgullosamente a la nación mexicana moderna."
+        ]
+      }
+    }
+  },
+  
+  {
+    "topicName": "Mafalda",
+    "imageFileName": "mafalda.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Mafalda is a highly famous, deeply beloved comic strip character who originally comes from the beautiful country of Argentina. She was brilliantly created in the 1960s by a highly talented Argentine artist and writer named Joaquín Salvador Lavado, who was universally known by his popular nickname, Quino. Even though she is visually just a small, innocent six-year-old girl with wild, dark hair, Mafalda is actually incredibly smart and deeply concerned about the complex adult world. She constantly asks her tired parents very difficult questions about important global topics like world peace, politics, and the struggling economy, which usually leaves them completely speechless and confused!\n\nIn her famous, funny 'tiras cómicas' (comic strips), Mafalda has a very strong, unique personality. She absolutely loves peacefully listening to rock music from The Beatles, happily playing with her close friends in the neighborhood, and thinking about how to save humanity. However, there is one normal thing that she absolutely hates more than anything else in the entire world: eating hot 'sopa' (soup)! In the clever comics, soup actually represents all the boring, strict rules and terrible things that adults force children to accept against their will.\n\nEven though Quino officially stopped drawing new comics about her in the 1970s, her massive cultural impact has never disappeared. Today, Mafalda is widely considered an absolute cultural icon across all of Latin America and Europe. You can easily find her recognizable face printed on colorful shirts, school notebooks, and massive street murals. There is even a beautiful, life-sized statue of her sitting quietly on a park bench in the historic neighborhood of San Telmo in Buenos Aires, where excited tourists wait in long lines just to take a fun picture with the smartest little girl in Argentina.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Who created the famous comic strip character Mafalda?",
+          "What country is Mafalda originally from?",
+          "What topics does she ask her parents difficult questions about?",
+          "What famous music band does Mafalda absolutely love listening to?",
+          "What normal food does she absolutely hate eating more than anything else?",
+          "What does the soup represent in the comic strips?",
+          "Where can you find a life-sized statue of Mafalda sitting on a park bench?"
         ],
-      "level_2": {
+        "answerKey": [
+          "A talented Argentine artist named Joaquín Salvador Lavado (known as Quino).",
+          "Argentina.",
+          "Important global topics like world peace, politics, and the economy.",
+          "The Beatles.",
+          "Hot 'sopa' (soup).",
+          "The strict rules and terrible things that adults force children to accept.",
+          "In the historic neighborhood of San Telmo in Buenos Aires."
+        ]
+        },
+        "level_2": {
         "tier": "Level 2 (Structured Spanish/Spanish II)",
         "readingText": "Mafalda es un personaje de tira cómica muy famosa y profundamente querida que viene originalmente del hermoso país de Argentina. Ella fue creada brillantemente en la década de 1960 por un artista y escritor argentino talentoso llamado Joaquín Salvador Lavado, conocido universalmente por su apodo popular, Quino. Aunque visualmente ella es solo una niña pequeña e inocente de seis años con cabello oscuro, Mafalda es en realidad increíblemente inteligente y está muy preocupada por el complejo mundo de los adultos. ¡Ella constantemente hace a sus padres cansados preguntas muy difíciles sobre temas globales importantes como la paz mundial, la política y la economía, lo que normalmente los deja completamente sin palabras y confundidos!\n\nEn sus divertidas y famosas tiras cómicas, Mafalda tiene una personalidad muy fuerte y única. A ella le encanta absolutamente escuchar música de Los Beatles de forma pacífica, jugar felizmente con sus amigos cercanos en el barrio y pensar en cómo salvar a la humanidad. Sin embargo, hay una cosa normal que ella odia absolutamente más que cualquier otra cosa en el mundo entero: ¡comer sopa caliente! En los cómics inteligentes, la sopa en realidad representa todas las reglas aburridas y estrictas, y las cosas terribles que los adultos obligan a los niños a aceptar en contra de su voluntad.\n\nAunque Quino dejó oficialmente de dibujar nuevos cómics sobre ella en la década de 1970, su impacto cultural masivo nunca ha desaparecido. Hoy en día, Mafalda es considerada ampliamente un ícono cultural absoluto en toda América Latina y Europa. Puedes encontrar fácilmente su cara reconocible impresa en camisas coloridas, cuadernos escolares y murales callejeros masivos. Incluso hay una hermosa estatua de tamaño real de ella sentada tranquilamente en un banco en el barrio histórico de San Telmo en Buenos Aires, donde los turistas emocionados esperan en largas filas solo para tomar una foto divertida con la niña más inteligente de Argentina.",
         "instruction": "Contesta las preguntas según el texto.",
