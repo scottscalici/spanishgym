@@ -6448,7 +6448,909 @@
         ]
       }
     }
+  },
+  {
+  "topicName": "Espíritu taíno",
+  "imageFileName": "espiritu_taino.png",
+  "levels": {
+    "level_1": {
+      "tier": "Level 1 (English/Beginner)",
+      "readingText": "If you are proudly from the beautiful, sunny island of Puerto Rico, you are officially Puerto Rican, but you might also very happily and proudly call yourself a Boricua. This very special, deeply meaningful word actually comes directly from the ancient word \"Borikén,\" which is the beautiful, original, and highly historic name of the tropical island. Long, long before the famous European explorer Christopher Columbus ever arrived in the Americas on his large wooden ships, the peaceful, hardworking indígenas (indigenous people) who successfully lived, farmed, and thrived on the island for many centuries were respectfully called the Taíno.\n\nThe ancient Taínos were highly intelligent, incredibly skilled farmers, expert fishermen, and highly creative artists who successfully built a very rich, peaceful, and wonderfully vibrant culture in the middle of the Caribbean Sea. Sadly, their large population quickly and tragically declined because of harsh treatment and dangerous new diseases after the Spanish explorers permanently arrived, but their deep, powerful cultural legacy never completely disappeared from the island. Today, modern Puerto Ricans deeply love, respect, and proudly honor their ancient Taíno ancestors, and they work incredibly hard to keep their beautiful, old traditions alive every single day. It is actually very surprising and interesting to learn that many common, everyday words we casually use in English today actually come directly from the ancient, historical Taíno lengua (language)! For example, famous English words like \"hurricane,\" \"barbecue,\" \"canoe,\" and the relaxing \"hammock\" all originally started with the creative Taíno people.\n\nWhen someone from Puerto Rico proudly and loudly calls themselves a Boricua today, they are happily celebrating this amazing, complex, and beautiful mixture of different historical cultures. It is an incredibly powerful, emotional word that clearly shows deep, unconditional love, immense respect, and fierce loyalty to the island's very unique, rich history. Being a true Boricua simply means you always carry the strong, brave, and deeply resilient spirit of the ancient Taíno people safely in your heart, no matter where you travel or live in the entire world.",
+      "instruction": "Answer the following questions according to the text.",
+      "questions": [
+        "What does the word \"Boricua\" mean?",
+        "What is the original name of the island of Puerto Rico?",
+        "Who were the indigenous people of the island?",
+        "What were the Taínos skilled at?",
+        "Name two English words that come from the Taíno language.",
+        "What are Boricuas celebrating when they use this word?",
+        "What spirit do Boricuas carry in their hearts?"
+      ],
+      "answerKey": [
+        "A proud Puerto Rican.",
+        "Borikén.",
+        "The Taíno.",
+        "They were intelligent farmers, expert fishermen, and creative artists.",
+        "Hurricane, barbecue, canoe, or hammock (any two).",
+        "An amazing, complex, and beautiful mixture of different historical cultures.",
+        "The strong, brave, and deeply resilient spirit of the ancient Taíno people."
+      ]
+    },
+    "level_2": {
+      "tier": "Level 2 (Structured Spanish/Spanish II)",
+      "readingText": "Si una persona nace con orgullo en la hermosa y soleada isla de Puerto Rico, es oficialmente puertorriqueña. Pero también, muchas personas prefieren usar la palabra \"Boricua\" muy felizmente y con mucho orgullo y amor. Esta palabra muy especial y profundamente significativa en realidad viene directamente de la antigua palabra \"Borikén\", que es el nombre hermoso, original y muy histórico de la isla tropical. Mucho, mucho antes de que el famoso explorador europeo Cristóbal Colón llegara a las Américas en sus grandes barcos de madera, los indígenas pacíficos y trabajadores que vivían, cultivaban y prosperaban en la isla por muchos siglos se llamaban respetuosamente los taínos.\n\nLos antiguos taínos eran agricultores muy inteligentes e increíblemente hábiles, pescadores expertos y artistas muy creativos que construyeron con éxito una cultura muy rica, pacífica y maravillosamente vibrante en el medio del Mar Caribe. Tristemente, su gran población disminuyó rápida y trágicamente debido al trato duro y las nuevas enfermedades peligrosas después de que los exploradores españoles llegaron permanentemente, pero su legado cultural profundo y poderoso nunca desapareció completamente de la isla. Hoy en día, los puertorriqueños modernos aman, respetan y honran con orgullo a sus antiguos ancestros taínos, y trabajan increíblemente duro para mantener vivas sus hermosas y antiguas tradiciones todos los días. ¡En realidad es muy sorprendente e interesante aprender que muchas palabras comunes y cotidianas que usamos casualmente en inglés y español hoy en día vienen directamente de la antigua e histórica lengua taína! Por ejemplo, palabras famosas como \"huracán\", \"barbacoa\", \"canoa\" y la relajante \"hamaca\" comenzaron originalmente con el creativo pueblo taíno.\n\nCuando una persona de Puerto Rico dice con orgullo y en voz alta que es Boricua hoy, está celebrando felizmente esta mezcla asombrosa, compleja y hermosa de diferentes culturas históricas. Es una palabra increíblemente poderosa y emocional que muestra claramente un amor profundo e incondicional, un respeto inmenso y una lealtad feroz a la historia muy única y rica de la isla. Ser un verdadero Boricua simplemente significa que siempre llevas el espíritu fuerte, valiente y profundamente resistente del antiguo pueblo taíno de manera segura en tu corazón, sin importar a dónde viajes o vivas en todo el mundo.",
+      "instruction": "Contesta las preguntas según el texto.",
+      "questions": [
+        "¿De dónde viene la palabra \"Boricua\"?",
+        "¿Quiénes vivían en la isla antes de los exploradores españoles?",
+        "¿Cómo eran las personas taínas?",
+        "¿Qué pasó con los taínos después de que llegaron los españoles?",
+        "Escribe dos palabras en español que vienen del idioma taíno.",
+        "¿Qué muestra la palabra Boricua?",
+        "¿Qué significa ser Boricua todos los días?"
+      ],
+      "answerKey": [
+        "Viene directamente de \"Borikén\", el nombre original de la hermosa isla.",
+        "Los indígenas pacíficos y trabajadores llamados los taínos.",
+        "Eran agricultores muy inteligentes, pescadores expertos y artistas muy creativos.",
+        "Su gran población disminuyó trágicamente debido al trato duro y las nuevas enfermedades.",
+        "Huracán, barbacoa, canoa o hamaca (dos de estas).",
+        "Un amor profundo, un respeto inmenso y una lealtad feroz a la historia única de la isla.",
+        "Llevar el espíritu fuerte, valiente y resistente del antiguo pueblo taíno en tu corazón."
+      ]
+    },
+    "level_3": {
+      "tier": "Level 3 (Natural Spanish/Advanced)",
+      "readingText": "La emblemática y poderosa palabra \"Boricua\" es indiscutiblemente una profunda, inquebrantable y sumamente emotiva expresión de orgullo nacional, arraigo cultural y genuina identidad histórica para absolutamente todos los puertorriqueños, tanto en la isla como en la vasta y extensa diáspora global. Este distintivo y sonoro término deriva etimológica y directamente de \"Borikén\" (o Borinquen), el poético, hermoso y originario nombre geográfico que los nobles e ingeniosos indígenas taínos le otorgaron reverencialmente a su amada isla caribeña muchísimos siglos antes de la dramática y violenta colonización española. Los laboriosos taínos constituían una sociedad agraria sumamente pacífica, altamente civilizada y perfectamente organizada de expertos agricultores, ágiles pescadores y talentosos artesanos, poseedores de una excepcionalmente rica herencia cultural, artística y espiritual que estaba en completa armonía con la exuberante naturaleza tropical que los rodeaba.\n\nAunque lamentablemente su próspera población nativa fue casi por completo y trágicamente diezmada debido a la implacable esclavitud, los crueles abusos físicos y las letales e infecciosas enfermedades europeas introducidas tras la abrupta llegada de los conquistadores occidentales, su profundo e invaluable legado antropológico sobrevive intrínseca y tenazmente en la genética, la sangre caliente, las maravillosas costumbres gastronómicas cotidianas y el rítmico vocabulario caribeño contemporáneo. De hecho, es un dato fascinante que numerosas palabras de uso global y cotidiano en múltiples idiomas, tales como \"huracán\", \"hamaca\", \"barbacoa\", \"iguana\" y \"canoa\", tienen sus verdaderas y profundas raíces lingüísticas directamente en la antigua y rica lengua taína (el arahuaco). Hoy en día, autodenominarse a viva voz como un orgulloso Boricua es un poderoso acto de justa reivindicación histórica y cultural; es una forma hermosa y constante de honrar y celebrar activamente la innegable resistencia, la fortaleza y la milagrosa supervivencia del espíritu de los amados ancestros indígenas.\n\nLa fascinante y vibrante identidad puertorriqueña moderna es, en esencia, un tapiz sociológico sumamente complejo, maravillosamente tejido y enriquecido con la mezcla inseparable de marcadas influencias taínas, africanas y españolas. Así pues, el término \"Boricua\" encapsula mágicamente un profundo, sincero e incondicional sentido de pertenencia absoluta y amor inagotable por la patria caribeña, recordando poderosamente a cada nueva generación de jóvenes que el espíritu valiente, noble e indomable de los antiguos taínos sigue latiendo vigorosa y orgullosamente en el alma inquebrantable de su vibrante pueblo, sin importar en qué rincón del planeta se encuentren.",
+      "instruction": "Contesta las preguntas según el texto.",
+      "questions": [
+        "¿De qué término originario deriva la palabra \"Boricua\"?",
+        "¿Cómo estaba organizada la sociedad de los indígenas taínos?",
+        "¿En qué elementos cotidianos sobrevive el legado taíno hoy en día?",
+        "Menciona tres palabras de uso global que tienen raíces en la lengua taína.",
+        "¿Qué acto representa el autodenominarse Boricua en la actualidad?",
+        "¿Qué tres influencias principales tejen la compleja identidad puertorriqueña?",
+        "¿Qué recuerda cada generación al usar este término?"
+      ],
+      "answerKey": [
+        "Deriva directamente de \"Borikén\" (o Borinquen).",
+        "Era una sociedad agraria pacífica y organizada de expertos agricultores, pescadores y artesanos.",
+        "En la genética, las costumbres gastronómicas cotidianas y el vocabulario caribeño contemporáneo.",
+        "Huracán, hamaca, barbacoa, iguana o canoa (tres de estas).",
+        "Un poderoso acto de justa reivindicación histórica y cultural (y de orgullo).",
+        "Marcadas influencias taínas, africanas y españolas.",
+        "Que el espíritu valiente e indomable de los antiguos taínos sigue latiendo vigorosamente en su alma."
+      ]
+    }
   }
+},
+{
+  "topicName": "Coquí",
+  "imageFileName": "coqui.png",
+  "levels": {
+    "level_1": {
+      "tier": "Level 1 (English/Beginner)",
+      "readingText": "The coquí is an incredibly tiny, totally adorable, and highly iconic tree frog that is natively found only on the beautiful, warm, and tropical island of Puerto Rico. Despite its extremely small, fragile physical size, this little green and brown frog surprisingly has an incredibly loud, powerful, and very distinct singing voice! Every single night, as soon as the hot sun goes down, millions of the little male frogs confidently sing a very special, rhythmic mating song in the dark that magically sounds exactly like their very own name: \"co-quí, co-quí!\" This beautiful, high-pitched, and continuous musical sound happily echoes throughout the lush, green rainforests, especially deep inside the famous, rainy El Yunque National Forest, creating a truly magical, peaceful, and unforgettable nighttime chorus for anyone lucky enough to listen.\n\nThis tiny, loud rana (frog) is actually a very important, deeply respected, and widely beloved cultural symbol for the entire island and all of its proud people. In fact, Puerto Ricans absolutely love the little coquí so much that there is a very famous, highly popular traditional saying in Spanish: \"Soy de aquí como el coquí\" (I am from here like the coquí). This beautiful, rhyming phrase simply means that a person is deeply, unconditionally proud of their rich Puerto Rican heritage, their strong family roots, and their beautiful island home.\n\nBiologically speaking, the amazing coquí is very unique and highly unusual compared to most other normal frogs found in lakes and ponds around the rest of the world. Unlike most typical, swimming frogs, the coquíes absolutely do not have webbed feet simply because they live their entire lives climbing high up in the leafy trees, not swimming down in the deep water! Even more fascinating and strange is their unique life cycle. Instead of hatching into the water as tiny, swimming tadpoles, the baby coquíes miraculously hatch directly from their small eggs as tiny, fully formed, and perfect little frogs. Although they are very small and often hard to find because of their excellent brown and green natural camouflage, their powerful, loud voices and massive cultural impact easily make them the undisputed, beloved mascot of Puerto Rico.",
+      "instruction": "Answer the following questions according to the text.",
+      "questions": [
+        "What kind of animal is a coquí?",
+        "Where is the coquí natively found?",
+        "Why is the frog named \"coquí\"?",
+        "Where can you hear them sing at night?",
+        "What does \"Soy de aquí como el coquí\" mean?",
+        "Why do they not have webbed feet?",
+        "How do baby coquíes hatch?"
+      ],
+      "answerKey": [
+        "An incredibly tiny, adorable tree frog.",
+        "Only on the beautiful, warm, and tropical island of Puerto Rico.",
+        "Because of the special, rhythmic mating song it sings that sounds exactly like its name.",
+        "Throughout the lush rainforests, especially deep inside El Yunque National Forest.",
+        "It means a person is deeply, unconditionally proud of their Puerto Rican heritage and roots.",
+        "Because they live their entire lives climbing high up in the leafy trees, not swimming in the water.",
+        "Directly from their eggs as tiny, fully formed, and perfect little frogs (not tadpoles)."
+      ]
+    },
+    "level_2": {
+      "tier": "Level 2 (Structured Spanish/Spanish II)",
+      "readingText": "El coquí es una rana de árbol increíblemente pequeña, totalmente adorable y muy icónica que se encuentra nativa y exclusivamente en la hermosa, cálida y tropical isla de Puerto Rico. A pesar de su tamaño físico extremadamente pequeño y frágil, ¡esta pequeña rana verde y marrón sorprendentemente tiene una voz increíblemente fuerte, poderosa y muy distintiva para cantar! Cada noche, tan pronto como el sol caliente se pone, millones de pequeñas ranas macho cantan con confianza una canción de apareamiento muy especial y rítmica en la oscuridad que mágicamente suena exactamente como su propio nombre: \"¡co-quí, co-quí!\". Este sonido hermoso, agudo y musical continuo hace eco felizmente por todas las exuberantes y verdes selvas tropicales, especialmente en lo profundo del famoso y lluvioso Bosque Nacional El Yunque, creando un coro nocturno verdaderamente mágico, pacífico e inolvidable para cualquier persona con suerte de escuchar.\n\nEsta rana diminuta y ruidosa es en realidad un símbolo cultural muy importante, profundamente respetado y muy querido para toda la isla y todas sus personas orgullosas. De hecho, a los puertorriqueños les encanta tanto el pequeño coquí que existe un dicho tradicional muy famoso y muy popular en español: \"Soy de aquí como el coquí\". Esta hermosa frase que rima simplemente significa que una persona está profunda e incondicionalmente orgullosa de su rica herencia puertorriqueña, sus fuertes raíces familiares y su hermoso hogar en la isla.\n\nBiológicamente hablando, el asombroso coquí es muy único y muy inusual comparado con la mayoría de las otras ranas normales que se encuentran en lagos y estanques en el resto del mundo. A diferencia de las ranas típicas y nadadoras, los coquíes absolutamente no tienen pies palmeados (membranas en los pies) simplemente porque viven toda su vida trepando en lo alto de los árboles frondosos, ¡no nadando en el agua profunda! Aún más fascinante y extraño es su ciclo de vida único. En lugar de nacer en el agua como pequeños renacuajos nadadores, los coquíes bebés nacen milagrosamente directamente de sus pequeños huevos como ranitas diminutas, completamente formadas y perfectas. Aunque son muy pequeños y a menudo difíciles de encontrar debido a su excelente camuflaje natural marrón y verde, sus voces poderosas y fuertes, y su impacto cultural masivo los convierten fácilmente en la mascota indiscutible y querida de Puerto Rico.",
+      "instruction": "Contesta las preguntas según el texto.",
+      "questions": [
+        "¿Qué tipo de animal es un coquí?",
+        "¿En qué lugar exclusivo vive el coquí?",
+        "¿Por qué se llama así esta rana?",
+        "¿En qué bosque famoso se escucha su canto?",
+        "¿Qué expresión popular usan los puertorriqueños?",
+        "¿Por qué los coquíes no tienen membranas en los pies?",
+        "¿Cómo nacen los coquíes bebés?"
+      ],
+      "answerKey": [
+        "Una rana de árbol increíblemente pequeña y totalmente adorable.",
+        "Exclusivamente en la hermosa, cálida y tropical isla de Puerto Rico.",
+        "Porque su canción de apareamiento suena exactamente como su propio nombre (\"co-quí\").",
+        "En lo profundo del famoso y lluvioso Bosque Nacional El Yunque (y otras selvas).",
+        "\"Soy de aquí como el coquí\".",
+        "Porque viven toda su vida trepando en lo alto de los árboles, no nadando en el agua.",
+        "Directamente de sus huevos como ranitas diminutas, completamente formadas y perfectas (sin ser renacuajos)."
+      ]
+    },
+    "level_3": {
+      "tier": "Level 3 (Natural Spanish/Advanced)",
+      "readingText": "El coquí es una minúscula, encantadora e icónica rana arborícola endémica exclusivamente de la hermosa isla de Puerto Rico y, sin lugar a la menor duda, es universal y apasionadamente reconocida como su símbolo nacional y cultural más querido, representativo e indiscutible. A pesar de su tamaño físico sumamente frágil y diminuto, los machos territoriales de esta asombrosa especie emiten cada noche un canto de apareamiento asombrosamente potente, melódico y penetrante, produciendo un inconfundible sonido agudo y perfectamente onomatopéyico que repite incesantemente su propio nombre rítmico: \"¡co-quí, co-quí!\". Este majestuoso, mágico y ensordecedor coro anfibio resuena y hace eco armoniosamente a través de la densa niebla de todas las selvas tropicales puertorriqueñas al anochecer, destacando de manera muy especial en la exuberante, lluviosa y mística vegetación del protegido Bosque Nacional El Yunque.\n\nPara los orgullosos ciudadanos puertorriqueños, tanto residentes en la isla como en la extensa diáspora global, el humilde coquí trasciende por completo la simple biología animal; representa poderosamente el calor del hogar caribeño, la profunda nostalgia por la patria y la inquebrantable, fuerte y rica identidad cultural taína e hispana. Este profundo y arraigado cariño colectivo nacional se refleja perfectamente en el famoso, pegadizo y muy utilizado refrán popular \"Soy de aquí como el coquí\", una hermosa expresión poética utilizada cotidianamente con profundo orgullo patriótico para reivindicar públicamente el sentido absoluto de pertenencia, la lealtad y el amor incondicional a su hermosa patria caribeña.\n\nDesde el estricto punto de vista biológico y científico, el coquí posee varias características evolutivas verdaderamente fascinantes y excepcionales que lo distinguen drásticamente de casi todos los demás anfibios conocidos en el resto del mundo. Al ser una especie ágilmente arborícola y estrictamente terrestre que jamás habita en lagos o ríos, carece por completo de las membranas interdigitales (pies palmeados) típicas de las ranas nadadoras. Además, su asombroso ciclo de desarrollo y reproducción es verdaderamente singular en la naturaleza: presenta un raro fenómeno llamado desarrollo directo, lo que significa que sorprendentemente nunca atraviesan una vulnerable fase de renacuajo acuático. Las pequeñas crías eclosionan de los huevos translúcidos ya como réplicas exactas, miniatura y completamente formadas de los adultos. Gracias a su camuflaje óptico casi perfecto entre las hojas húmedas y su canto nocturno maravillosamente melodioso, el pequeño coquí es el indiscutible y más valioso tesoro natural vivo de la isla del encanto.",
+      "instruction": "Contesta las preguntas según el texto.",
+      "questions": [
+        "¿De qué lugar es endémica esta rana arborícola?",
+        "¿Cómo se describe el canto del coquí macho?",
+        "¿Qué bosque se menciona como un hábitat principal?",
+        "¿Qué representa el coquí para los puertorriqueños más allá de la biología?",
+        "¿Qué frase utilizan para reivindicar su sentido de pertenencia?",
+        "¿Por qué carece de membranas interdigitales?",
+        "¿Qué significa que tengan un \"desarrollo directo\"?"
+      ],
+      "answerKey": [
+        "Exclusivamente de la hermosa isla de Puerto Rico.",
+        "Asombrosamente potente, melódico, penetrante, agudo y perfectamente onomatopéyico.",
+        "El protegido Bosque Nacional El Yunque.",
+        "El calor del hogar caribeño, la profunda nostalgia por la patria y la inquebrantable identidad cultural.",
+        "\"Soy de aquí como el coquí\".",
+        "Porque es una especie ágilmente arborícola y estrictamente terrestre que jamás habita en lagos o ríos.",
+        "Significa que eclosionan de los huevos ya como réplicas miniatura y completamente formadas de los adultos, sin fase de renacuajo acuático."
+      ]
+    }
+  }
+},
+{
+  "topicName": "Manatí",
+  "imageFileName": "manati.png",
+  "levels": {
+    "level_1": {
+      "tier": "Level 1 (English/Beginner)",
+      "readingText": "The manatí, which is also widely known in English as the Antillean manatee, is an absolutely massive, incredibly gentle, and famously slow-moving marine mammal that peacefully lives its life in the beautiful, warm, and very shallow coastal waters of the Caribbean Sea, specifically including the bright blue coasts of Puerto Rico. Because of their incredibly peaceful, calm nature, their large, heavy bodies, and the slow, relaxed way they constantly graze on green underwater plants all day long, people everywhere affectionately and jokingly call them \"sea cows\" or vacas marinas. Physically, they have very cute, round, and wrinkly faces covered with stiff, sensitive whiskers, and a very large, strong, flat paddle-like tail at the back of their bodies that perfectly helps them easily and gracefully swim through the warm ocean water.\n\nManatees are strictly herbivores, which simply means they only ever eat fresh, healthy plants and absolutely never hunt for meat or fish. In fact, they happily spend up to eight long hours every single day slowly eating thick, green seagrass from the sandy ocean floor just to survive and maintain their huge weight! Unfortunately, despite their incredibly gentle, completely harmless nature and their lack of natural predators, manatees are currently considered a highly endangered and vulnerable species in the world today. They tragically face many serious, deadly, and difficult threats in the wild ocean. Because they swim so near the surface to breathe air, they are very often accidentally struck, badly injured, or killed by fast-moving human boats and jet skis, and they also easily and sadly lose their natural, safe homes when the vast océano (ocean) becomes heavily polluted and poisoned with human trash and dangerous chemicals.\n\nBecause they are so universally loved, highly respected, and incredibly important to balancing the delicate marine ecosystem, many smart scientists, dedicated marine biologists, and passionate, hardworking volunteers in Puerto Rico work very hard every day to actively protect them and save their lives. Amazing, caring organizations like the famous Manatee Conservation Center actively rescue injured, sick, or lost orphaned baby manatees directly from the dangerous ocean, carefully and lovingly rehabilitate them with medicine and food in large, safe, clean pools, and eventually, when they are strong and healthy, release these wonderful, majestic animales safely back into the wild ocean so their struggling population can finally grow, reproduce, and happily thrive once again.",
+      "instruction": "Answer the following questions according to the text.",
+      "questions": [
+        "What is another name for the manatí?",
+        "Where do Antillean manatees live?",
+        "Why are they called \"sea cows\"?",
+        "What do manatees eat?",
+        "Why are manatees considered an endangered species?",
+        "What two major threats do they face?",
+        "What do organizations do to help them?"
+      ],
+      "answerKey": [
+        "Antillean manatee (or \"sea cow\" / vaca marina).",
+        "In the beautiful, warm, and very shallow coastal waters of the Caribbean Sea and Puerto Rico.",
+        "Because of their incredibly peaceful, calm nature, large bodies, and the way they graze on underwater plants.",
+        "They are strict herbivores and only eat fresh plants (thick, green seagrass).",
+        "Because they tragically face many serious, deadly, and difficult human threats in the wild ocean.",
+        "Fast-moving human boats and ocean pollution (trash and chemicals).",
+        "They actively rescue injured manatees, rehabilitate them in safe pools, and release them back into the wild."
+      ]
+    },
+    "level_2": {
+      "tier": "Level 2 (Structured Spanish/Spanish II)",
+      "readingText": "El manatí antillano es un mamífero marino absolutamente gigantesco, increíblemente dócil y muy lento que vive pacíficamente su vida en las aguas costeras hermosas, cálidas y poco profundas del mar Caribe, incluyendo específicamente las costas azules de Puerto Rico. Debido a su personalidad increíblemente pacífica y tranquila, sus cuerpos grandes y pesados, y la forma lenta en que constantemente pastan plantas submarinas verdes todo el día, muchas personas en todas partes los llaman cariñosamente y en broma \"vacas marinas\". Físicamente, tienen caras muy lindas, redondas y arrugadas cubiertas de bigotes duros y sensibles, y una cola muy grande, fuerte y plana en forma de remo que los ayuda perfectamente a nadar de manera fácil y con mucha gracia en el agua cálida del océano.\n\nLos manatíes son animales estrictamente herbívoros, lo que simplemente significa que solamente comen plantas frescas y saludables, y absolutamente nunca cazan carne o pescado. De hecho, ¡ellos pasan felizmente hasta ocho largas horas todos los días comiendo mucha hierba marina gruesa y verde del fondo arenoso del océano solo para poder sobrevivir y mantener su enorme peso! Desafortunadamente, a pesar de ser tan increíblemente gentiles, completamente inofensivos y no tener depredadores naturales, los manatíes son actualmente considerados una especie muy vulnerable y en grave peligro de extinción en el mundo hoy en día. Ellos enfrentan trágicamente muchos problemas y amenazas serias, mortales y difíciles en la naturaleza. Como nadan tan cerca de la superficie para respirar aire, muchas veces son golpeados accidentalmente y gravemente heridos o asesinados por los barcos y motos de agua rápidos de los humanos, y también pierden fácil y tristemente su hábitat natural y seguro cuando el inmenso océano se contamina fuertemente con basura humana y químicos peligrosos.\n\nComo son tan universalmente queridos, muy respetados e increíblemente importantes para equilibrar el delicado ecosistema marino, muchos científicos inteligentes, biólogos marinos dedicados y voluntarios apasionados y trabajadores en Puerto Rico trabajan arduamente todos los días para protegerlos activamente y salvar sus vidas. Organizaciones asombrosas y bondadosas como el famoso Centro de Conservación de Manatíes rescatan activamente a los manatíes bebés huérfanos, perdidos, enfermos o heridos directamente del océano peligroso, los rehabilitan con cuidado y mucho amor con medicina y comida en piscinas grandes, seguras y limpias, y finalmente, cuando están fuertes y sanos, liberan a estos hermosos y majestuosos animales con seguridad de vuelta en el mar salvaje para que su población en problemas pueda finalmente crecer, reproducirse y prosperar felizmente otra vez.",
+      "instruction": "Contesta las preguntas según el texto.",
+      "questions": [
+        "¿En qué tipo de aguas vive el manatí antillano?",
+        "¿Con qué otro nombre se conoce cariñosamente a los manatíes?",
+        "¿Cómo es la cola del manatí?",
+        "¿Qué comen los manatíes y cuánto tiempo pasan comiendo?",
+        "¿Cuál es el estado actual de la especie del manatí?",
+        "¿Cuáles son dos peligros graves que enfrentan?",
+        "¿Qué hacen las organizaciones especiales en Puerto Rico?"
+      ],
+      "answerKey": [
+        "En las aguas costeras hermosas, cálidas y poco profundas del mar Caribe y Puerto Rico.",
+        "Vacas marinas.",
+        "Es muy grande, fuerte y plana en forma de remo para nadar con mucha gracia.",
+        "Comen plantas/hierba marina por hasta ocho largas horas todos los días.",
+        "Son considerados una especie muy vulnerable y en grave peligro de extinción.",
+        "Los barcos/motos de agua rápidos y la contaminación del océano (con basura y químicos).",
+        "Rescatan, rehabilitan con cuidado en piscinas y liberan a los manatíes sanos de vuelta en el mar."
+      ]
+    },
+    "level_3": {
+      "tier": "Level 3 (Natural Spanish/Advanced)",
+      "readingText": "El emblemático manatí antillano es un gigantesco, extraordinariamente dócil y pacífico mamífero marino (sirenio) que habita plácidamente en las cálidas, cristalinas y poco profundas aguas costeras y estuarinas del vasto mar Caribe, incluyendo el hermoso y biodiverso litoral de la isla de Puerto Rico. Universalmente conocidos y apodados cariñosamente en la cultura popular como \"vacas marinas\" debido a su inofensiva y apacible naturaleza, su gran corpulencia y sus constantes y relajados hábitos de alimentación bentónica, estos pacíficos gigantes son herbívoros estrictos. Pasan la mayor parte de sus apacibles días pastando lentamente, sumergidos en extensas, verdes y nutritivas praderas de fanerógamas submarinas (hierbas marinas). Físicamente, se distinguen inconfundiblemente por sus macizos cuerpos en forma de huso, sus adorables y arrugados rostros adornados con sensibles vibrisas (bigotes táctiles) que les ayudan a buscar alimento en el fondo arenoso, y una robusta, poderosa y musculosa cola aplanada en forma de remo que los impulsa grácil y elegantemente a través de las corrientes acuáticas.\n\nTristemente, a pesar de carecer por completo de feroces depredadores naturales en el ecosistema marino que amenacen su existencia, los manatíes antillanos son actualmente una especie altamente vulnerable y en grave peligro crítico de extinción, enfrentando constantes, severas y letales amenazas casi exclusivamente de origen antrópico (causadas por el ser humano). Debido a que son mamíferos y necesitan emerger lenta y constantemente a la superficie del mar para respirar aire fresco, las violentas colisiones accidentales con las hélices y los cascos de las embarcaciones de motor a alta y negligente velocidad son trágicamente una de las principales y más crueles causas de mortalidad prematura y horribles mutilaciones en la especie. Además de este riesgo físico constante, la alarmante y creciente contaminación industrial, los vertidos tóxicos y la rápida degradación costera de sus frágiles hábitats naturales comprometen severamente su delicada salud, sus fuentes de alimento y su vital reproducción a largo plazo.\n\nEn respuesta directa y urgente a esta alarmante y triste crisis ecológica caribeña, diversos y modernos centros de investigación, apasionados conservacionistas y biólogos marinos altamente capacitados en Puerto Rico trabajan de manera incansable y voluntaria los 365 días del año. Prestigiosas y nobles organizaciones no gubernamentales, como el vital Centro de Conservación de Manatíes de Puerto Rico, se dedican ferviente y heroicamente a rescatar de emergencia a individuos gravemente heridos por lanchas, enfermos, o a diminutas y desamparadas crías huérfanas abandonadas en las costas. En sus instalaciones de vanguardia, les brindan un meticuloso y costoso cuidado veterinario especializado, alimentación con fórmula y una rehabilitación intensiva en piscinas seguras, con el noble, esperanzador y último objetivo de reintroducirlos exitosa y saludablemente a su majestuoso y salvaje entorno natural para repoblar el océano.",
+      "instruction": "Contesta las preguntas según el texto.",
+      "questions": [
+        "¿En qué tipo de hábitat marino reside el manatí antillano?",
+        "¿Por qué se les otorga el apodo de \"vacas marinas\"?",
+        "¿Qué rasgo físico particular tienen en sus rostros arrugados?",
+        "¿Tienen los manatíes algún depredador natural?",
+        "¿Cuál es una de las principales causas de mortalidad antrópica?",
+        "¿Qué problema ambiental compromete su supervivencia a largo plazo?",
+        "¿Cuál es el objetivo final de los centros de conservación tras rehabilitarlos?"
+      ],
+      "answerKey": [
+        "En las cálidas, cristalinas y poco profundas aguas costeras y estuarinas del vasto mar Caribe.",
+        "Por su inofensiva y apacible naturaleza, su gran corpulencia y sus constantes hábitos de pastar en praderas submarinas.",
+        "Tienen sensibles vibrisas (bigotes táctiles) que les ayudan a buscar alimento.",
+        "No, carecen por completo de feroces depredadores naturales.",
+        "Las violentas colisiones accidentales con las hélices y cascos de embarcaciones de motor a alta velocidad.",
+        "La alarmante contaminación industrial, vertidos tóxicos y la degradación costera de sus frágiles hábitats.",
+        "Reintroducirlos exitosa y saludablemente a su majestuoso y salvaje entorno natural para repoblar el océano."
+      ]
+    }
+  }
+},
+{
+  "topicName": "La Borinqueña",
+  "imageFileName": "borinquena.png",
+  "levels": {
+    "level_1": {
+      "tier": "Level 1 (English/Beginner)",
+      "readingText": "La Borinqueña is a beautifully designed, incredibly modern, and highly popular comic book superhero proudly created by the talented, passionate writer Edgardo Miranda-Rodríguez and his creative art studio, Somos Arte, in the year 2016. Her completely normal, everyday secret identity is Marisol Ríos De La Luz, a brilliant, hardworking Afro-Puerto Rican university earth science student who currently lives and studies in the busy metropolis of New York City. During a highly important, life-changing college study trip to explore the beautiful, sunny, and tropical island of Puerto Rico, her entire normal life completely changes forever.\n\nWhile bravely exploring the deep, dark, and ancient underground caves of the island, Marisol magically and unexpectedly receives incredibly powerful, breathtaking superpowers directly from the ancient, historical Taíno indigenous spirits, specifically including the powerful mother goddess Atabey. Through this magical gift, she instantly gains the amazing, superhuman ability to fly incredibly fast through the air, completely control the powerful, blowing wind, and even safely manipulate the massive, deep blue ocean! However, despite her amazing, magical gifts, La Borinqueña is very, very different from traditional, common comic book superheroes. She absolutely does not waste her precious time violently fighting silly, fictional space aliens, evil killer robots, or crazy, costumed supervillains like other heroes do.\n\nInstead of fighting monsters, she bravely uses her amazing, nature-based powers to actively help the beautiful island and its people deal directly with very real, modern, and highly dangerous life-threatening problems. She heroically protects the terrified citizens and their fragile homes from massive, deadly, and destructive hurricanes, she fights passionately against the devastating, global effects of severe climate change, and she strongly defends the delicate, precious medio ambiente (environment) from greedy pollution. Above all of this, she always stands up proudly and loudly for necessary social justice and the basic human rights of all the island's people. Wearing a brilliant, tight, and highly colorful costume directly inspired by the beautiful star and stripes of the Puerto Rican flag, La Borinqueña has quickly and undeniably become a massive, powerful, and beloved symbol of deep cultural pride, strong female empowerment, and fierce, loyal patriotism for Puerto Ricans living everywhere in the world.",
+      "instruction": "Answer the following questions according to the text.",
+      "questions": [
+        "Who created the superhero La Borinqueña?",
+        "What is the secret identity of La Borinqueña?",
+        "Where does Marisol live before visiting Puerto Rico?",
+        "How does she get her superpowers?",
+        "What elements can she control?",
+        "What kind of problems does she fight against?",
+        "What is her costume inspired by?"
+      ],
+      "answerKey": [
+        "The talented writer Edgardo Miranda-Rodríguez and his studio, Somos Arte.",
+        "Marisol Ríos De La Luz.",
+        "The busy metropolis of New York City.",
+        "From the ancient, historical Taíno indigenous spirits (including the mother goddess Atabey) while exploring ancient caves.",
+        "The powerful, blowing wind, and the massive, deep blue ocean.",
+        "Very real, modern, and dangerous problems like destructive hurricanes, climate change, and environmental pollution.",
+        "The beautiful star and stripes of the Puerto Rican flag."
+      ]
+    },
+    "level_2": {
+      "tier": "Level 2 (Structured Spanish/Spanish II)",
+      "readingText": "La Borinqueña es una superheroína de cómics bellamente diseñada, increíblemente moderna y muy popular creada con orgullo por el escritor talentoso y apasionado Edgardo Miranda-Rodríguez y su estudio de arte creativo, Somos Arte, en el año 2016. Su identidad secreta, normal y cotidiana es Marisol Ríos De La Luz. Ella es una estudiante universitaria afropuertorriqueña brillante y muy trabajadora de ciencias ambientales que vive y estudia actualmente en la metrópolis ocupada de la ciudad de Nueva York. Durante un viaje de estudios universitario muy importante que cambia su vida para explorar la hermosa, soleada y tropical isla de Puerto Rico, su vida normal entera cambia por completo y para siempre.\n\nMientras explora valientemente las cuevas subterráneas profundas, oscuras y antiguas de la isla, Marisol recibe mágica e inesperadamente superpoderes increíblemente poderosos e impresionantes directamente de los antiguos e históricos espíritus indígenas taínos, incluyendo específicamente a la poderosa diosa madre Atabey. ¡A través de este regalo mágico, ella gana instantáneamente la asombrosa habilidad sobrehumana de volar increíblemente rápido por el aire, controlar completamente el viento fuerte y soplador, ¡e incluso manipular con seguridad el océano masivo y azul profundo! Sin embargo, a pesar de sus increíbles regalos mágicos, La Borinqueña es muy, muy diferente a los superhéroes tradicionales y comunes de los cómics. Ella absolutamente no pierde su tiempo precioso peleando violentamente contra extraterrestres tontos y de ficción, robots asesinos malvados o supervillanos locos con disfraces como lo hacen otros héroes.\n\nEn lugar de pelear contra monstruos, ella usa valientemente sus asombrosos poderes basados en la naturaleza para ayudar activamente a la hermosa isla y a su gente a lidiar directamente con problemas muy reales, modernos y altamente peligrosos que amenazan la vida. Ella protege heroicamente a los ciudadanos aterrorizados y a sus hogares frágiles de huracanes masivos, mortales y destructivos, lucha apasionadamente contra los efectos devastadores y globales del severo cambio climático, y defiende fuertemente el medio ambiente delicado y precioso de la contaminación codiciosa. Sobre todo, ella siempre defiende con orgullo y en voz alta la justicia social necesaria y los derechos humanos básicos de todas las personas de la isla. Llevando un traje brillante, ajustado y muy colorido inspirado directamente en la hermosa estrella y las franjas de la bandera de Puerto Rico, La Borinqueña se ha convertido rápida e innegablemente en un símbolo masivo, poderoso y querido de orgullo cultural profundo, fuerte empoderamiento femenino y un patriotismo feroz y leal para los puertorriqueños que viven en todas partes del mundo.",
+      "instruction": "Contesta las preguntas según el texto.",
+      "questions": [
+        "¿Quién creó el cómic de La Borinqueña y en qué año?",
+        "¿Cuál es la profesión o estudio de Marisol Ríos De La Luz?",
+        "¿De dónde recibe ella sus poderes increíbles?",
+        "Menciona dos poderes sobrehumanos que tiene.",
+        "¿Contra qué tipo de villanos NO pelea La Borinqueña?",
+        "¿Cuáles son dos problemas reales contra los que ella lucha?",
+        "¿En qué está inspirado el diseño de su traje?"
+      ],
+      "answerKey": [
+        "El escritor talentoso Edgardo Miranda-Rodríguez y su estudio, Somos Arte, en 2016.",
+        "Es una estudiante universitaria brillante de ciencias ambientales.",
+        "Directamente de los antiguos e históricos espíritus indígenas taínos (en unas cuevas subterráneas).",
+        "Volar rápido por el aire, controlar el viento fuerte y manipular el océano masivo (dos de estos).",
+        "No pelea contra extraterrestres de ficción, robots asesinos malvados o supervillanos locos.",
+        "Huracanes masivos y destructivos, el severo cambio climático y la contaminación del medio ambiente (dos de estos).",
+        "En la hermosa estrella y las franjas de la bandera de Puerto Rico."
+      ]
+    },
+    "level_3": {
+      "tier": "Level 3 (Natural Spanish/Advanced)",
+      "readingText": "La Borinqueña es una emblemática, verdaderamente revolucionaria y altamente aclamada superheroína de cómic contemporánea, concebida y creada meticulosamente por el comprometido escritor, activista y filántropo nuyorican Edgardo Miranda-Rodríguez y su estudio independiente Somos Arte en el año 2016. Bajo su heroico, vistoso e imponente manto tricolor se esconde la modesta identidad de Marisol Ríos De La Luz, una dedicada, brillante y estudiosa joven afropuertorriqueña de ciencias ambientales que reside habitualmente en la bulliciosa ciudad de Nueva York. Durante una expedición y viaje académico de campo a las espectaculares maravillas subterráneas y naturales de Puerto Rico, su monótono destino da un giro drástico, mágico y absolutamente trascendental.\n\nAl adentrarse valientemente y explorar sin temor unas cuevas kársticas ancestrales y sagradas, Marisol es sorpresivamente bendecida y elegida con formidables poderes sobrehumanos, los cuales le son otorgados directamente y de forma mística por las antiguas deidades protectoras del panteón taíno, destacando la poderosa presencia de la diosa madre Atabey. Dotada divinamente con el increíble poder del vuelo hipersónico y la asombrosa capacidad elemental de manipular y controlar a voluntad los violentos fenómenos meteorológicos y las mareas oceánicas, La Borinqueña rompe audaz e intencionalmente todos los repetitivos arquetipos tradicionales del saturado género de los cómics estadounidenses. En lugar de gastar su tiempo enfrentándose absurdamente a inverosímiles invasiones alienígenas espaciales o a caricaturescos supervillanos megalómanos de ficción, su noble, valiente y urgente cruzada se centra exclusivamente en combatir crisis sociopolíticas, humanitarias y ecológicas sumamente reales y apremiantes en la isla caribeña.\n\nLa altruista heroína boricua dedica incansablemente sus formidables e imparables habilidades naturales a mitigar y sobrevivir los efectos físicos devastadores de los monstruosos huracanes caribeños (los cuales son cruelmente exacerbados por el acelerado cambio climático global), a proteger celosa y firmemente los delicados y vulnerables ecosistemas endémicos de la isla frente a la insaciable explotación corporativa, y a abogar vocal e incondicionalmente por los derechos civiles, la descolonización y la justicia social igualitaria de su sufrido pero resiliente pueblo. Ataviada orgullosamente con un icónico, ajustado y moderno traje táctico que evoca y respeta la geometría y los brillantes colores exactos de la bandera puertorriqueña (la monoestrellada), La Borinqueña se ha consolidado rápidamente en la cultura pop como un poderoso, necesario y profundamente inspirador símbolo gráfico de resiliencia diaspórica, inquebrantable orgullo patriótico y un feroz empoderamiento femenino decolonial para millones de hispanos en todo el mundo.",
+      "instruction": "Contesta las preguntas según el texto.",
+      "questions": [
+        "¿Quién concibió el personaje de La Borinqueña y en qué año?",
+        "¿Qué estudia la protagonista Marisol Ríos De La Luz?",
+        "¿Quiénes le otorgan los poderes sobrehumanos a Marisol?",
+        "¿De qué manera rompe La Borinqueña los arquetipos del género de superhéroes?",
+        "Menciona dos crisis reales en las que se centra su cruzada.",
+        "¿Qué evoca visualmente el traje de la superheroína?",
+        "¿De qué tres cosas se ha consolidado como un poderoso símbolo?"
+      ],
+      "answerKey": [
+        "El escritor, activista y filántropo nuyorican Edgardo Miranda-Rodríguez (y Somos Arte) en 2016.",
+        "Es una dedicada, brillante y estudiosa joven de ciencias ambientales.",
+        "Las antiguas deidades protectoras del panteón taíno (destacando la diosa madre Atabey).",
+        "En lugar de enfrentarse a invasiones alienígenas o supervillanos de ficción, se centra en combatir crisis sociopolíticas, humanitarias y ecológicas reales.",
+        "Los efectos devastadores de los monstruosos huracanes, el acelerado cambio climático, la explotación de ecosistemas y la justicia social (dos de estos).",
+        "Evoca y respeta la geometría y los brillantes colores exactos de la bandera puertorriqueña (la monoestrellada).",
+        "De resiliencia diaspórica, inquebrantable orgullo patriótico y un feroz empoderamiento femenino decolonial."
+      ]
+    }
+  }
+},
+  {
+    "topicName": "Carlos Ruiz Zafón",
+    "imageFileName": "carlos_ruiz_zafon.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Carlos Ruiz Zafón was an incredibly famous, highly talented Spanish author and easily one of the most widely read, beloved contemporary writers in the entire world. He was known primarily by his dedicated fans for writing fascinating, deeply mysterious, and very dark gothic novels. Originally born in the vibrant, historical city of Barcelona, Spain, he miraculously managed to perfectly capture the magical, beautiful, and gloomy essence of his hometown in his writing. In his amazing books, he completely transformed the actual city of Barcelona into the most important main character of his stories, filling the streets with thick fog, dark family secrets, and ancient, crumbling architecture.\n\nAlthough he successfully began his long writing career creating captivating, exciting young adult literature, such as the spooky and highly emotional novel *Marina*, he eventually achieved massive, undeniable international literary fame with his absolute masterpiece, *The Shadow of the Wind* (*La sombra del viento*). This beautiful, unforgettable libro (book) introduces curious readers to the enigmatic \"Cemetery of Forgotten Books.\" In the story, this magical place is a massive, secret underground labyrinth hidden deep in the heart of Barcelona that safely protects lost, forgotten works of literature from being forever destroyed by time and evil people.\n\nZafón possessed a deeply romantic, beautiful belief about the magic of reading: he constantly claimed that every single book actually has a living soul. He believed this soul is made up of the soul of the person who originally wrote it, mixed together with the souls of everyone who has ever read it and dreamed about it. With his rich, poetic, and highly melancholic writing style, his amazing books have been translated into dozens of different languages and have successfully sold millions of copies globally. Sadly, the famous escritor (writer) passed away too soon in the year 2020, but his extraordinary, beautiful literary legacy will undoubtedly live on forever in the hearts of his readers.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What was Carlos Ruiz Zafón's profession?",
+          "In what city was he born?",
+          "What did he transform into the main character of his stories?",
+          "What is the title of his famous young adult novel?",
+          "What is his international masterpiece called?",
+          "What secret place is introduced in his masterpiece?",
+          "What did Zafón believe every book possessed?"
+        ],
+        "answerKey": [
+          "Author/writer.",
+          "Barcelona, Spain.",
+          "His hometown of Barcelona.",
+          "Marina.",
+          "The Shadow of the Wind (La sombra del viento).",
+          "The Cemetery of Forgotten Books.",
+          "A living soul."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Carlos Ruiz Zafón fue un escritor español increíblemente famoso, muy talentoso y fácilmente uno de los autores contemporáneos más leídos y queridos en todo el mundo. Era conocido principalmente por sus fanáticos dedicados por escribir novelas góticas fascinantes, profundamente misteriosas y muy oscuras. Nacido originalmente en la ciudad vibrante e histórica de Barcelona, España, logró milagrosamente capturar perfectamente la esencia mágica, hermosa y sombría de su ciudad natal en su escritura. En sus libros asombrosos, transformó completamente la ciudad real de Barcelona en el personaje principal más importante de sus historias, llenando las calles con niebla espesa, oscuros secretos familiares y arquitectura antigua y en ruinas.\n\nAunque comenzó con éxito su larga carrera de escritor creando literatura cautivadora y emocionante para jóvenes, como la novela espeluznante y muy emocional *Marina*, finalmente alcanzó una fama literaria internacional masiva e innegable con su obra maestra absoluta, *La sombra del viento*. Este libro hermoso e inolvidable presenta a los lectores curiosos el enigmático \"Cementerio de los Libros Olvidados\". En la historia, este lugar mágico es un laberinto subterráneo masivo y secreto escondido en el corazón de Barcelona que protege de manera segura las obras de literatura perdidas y olvidadas para que no sean destruidas para siempre por el tiempo y las personas malas.\n\nZafón tenía una creencia profundamente romántica y hermosa sobre la magia de la lectura: constantemente afirmaba que cada libro realmente tiene un alma viva. Él creía que esta alma está formada por el alma de la persona que lo escribió originalmente, mezclada con las almas de todos los que alguna vez lo han leído y soñado con él. Con su estilo de escritura rico, poético y muy melancólico, sus libros asombrosos han sido traducidos a docenas de idiomas diferentes y han vendido con éxito millones de copias a nivel mundial. Tristemente, el famoso escritor falleció demasiado pronto en el año 2020, pero su legado literario extraordinario y hermoso sin duda vivirá para siempre en los corazones de sus lectores.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cuál era la profesión de Carlos Ruiz Zafón?",
+          "¿En qué ciudad hermosa nació el autor?",
+          "¿Qué lugar transformó en el personaje principal de sus historias?",
+          "¿Cómo se llama su novela escrita para jóvenes?",
+          "¿Cuál es su obra maestra internacional?",
+          "¿Qué es el \"Cementerio de los Libros Olvidados\"?",
+          "¿Qué creía Zafón que tenía cada libro?"
+        ],
+        "answerKey": [
+          "Escritor/autor.",
+          "En la ciudad de Barcelona, España.",
+          "La ciudad real de Barcelona.",
+          "Marina.",
+          "La sombra del viento.",
+          "Un laberinto subterráneo masivo y secreto que protege libros perdidos y olvidados.",
+          "Un alma viva."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Carlos Ruiz Zafón fue uno de los autores españoles contemporáneos más leídos, aclamados y universalmente venerados a nivel mundial, reconocido principalmente por sus fascinantes, melancólicas y sumamente atmosféricas novelas de misterio gótico. Nacido y criado en la efervescente ciudad de Barcelona, Zafón logró capturar magistralmente la esencia mágica, neblinosa y sombría de su amada ciudad natal, transformándola hábilmente en un personaje principal, omnipresente y casi asfixiante dentro de sus apasionantes relatos, los cuales siempre estaban intrincadamente plagados de niebla perpetua, oscuros secretos familiares inconfesables y una imponente arquitectura gótica en decadencia.\n\nAunque inició su prolífica y exitosa carrera escribiendo aclamada literatura juvenil, como la cautivadora, espeluznante y profundamente emotiva novela *Marina*, alcanzó la cima de la fama literaria internacional definitiva con su indiscutible e insuperable obra maestra, *La sombra del viento*. Esta brillante joya literaria contemporánea introduce fascinantemente a los lectores al enigmático y mítico \"Cementerio de los Libros Olvidados\", un vasto, polvoriento y secreto laberinto subterráneo oculto en el corazón gótico de Barcelona que protege celosamente obras literarias perdidas en el tiempo para evitar su inminente desaparición a manos de la censura y el olvido humano. Zafón poseía una convicción profundamente romántica, casi mística, sobre la literatura: afirmaba poética y firmemente que cada libro físico tiene un alma viva, compuesta simultánea e indisolublemente por el alma de quien lo escribió con pasión y las de aquellos innumerables lectores que lo han leído, amado y soñado con él a lo largo de las décadas.\n\nCon una prosa excepcionalmente rica, evocadora, poética y cargada de nostalgia, sus inmortales obras han sido traducidas a decenas de idiomas y han vendido exitosamente decenas de millones de ejemplares globalmente, convirtiéndolo en un fenómeno editorial sin precedentes en España. Lamentablemente, el célebre y querido escritor falleció de manera prematura y trágica en el año 2020 debido a una grave enfermedad, pero su extraordinario, vasto y hermoso legado literario perdura intacto, invitando constantemente a nuevas generaciones de lectores a perderse voluntariamente en sus intrincados laberintos mágicos de papel y tinta.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Por qué género literario es reconocido mundialmente Zafón?",
+          "¿Qué ciudad transformó en un personaje omnipresente en sus relatos?",
+          "¿Con qué novela cautivadora inició su éxito en la literatura juvenil?",
+          "¿Con qué obra maestra alcanzó la fama literaria internacional definitiva?",
+          "¿Qué función cumple el \"Cementerio de los Libros Olvidados\"?",
+          "¿De qué está compuesta el alma de un libro, según la convicción del autor?",
+          "¿Cómo se describe la prosa excepcional de Carlos Ruiz Zafón?"
+        ],
+        "answerKey": [
+          "Por sus fascinantes, melancólicas y sumamente atmosféricas novelas de misterio gótico.",
+          "Su amada ciudad natal, Barcelona.",
+          "La cautivadora, espeluznante y profundamente emotiva novela Marina.",
+          "La sombra del viento.",
+          "Protege celosamente obras literarias perdidas en el tiempo para evitar su inminente desaparición (en un laberinto subterráneo).",
+          "Del alma de quien lo escribió y las de aquellos innumerables lectores que lo han leído y soñado con él.",
+          "Excepcionalmente rica, evocadora, poética y cargada de nostalgia."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Fernando Botero",
+    "imageFileName": "fernando_botero.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Fernando Botero was undoubtedly one of the absolute most famous, beloved, and globally recognized artists and sculptors originally from the beautiful country of Colombia. Born in the busy, mountainous city of Medellín, he completely and forever revolutionized the modern art world by creatively inventing a highly unique, deeply personal, and instantly recognizable artistic style. Professional art critics and historians all around the world officially call this very unique, specific style \"Boterismo.\" In his many colorful pinturas (paintings) and heavy bronze sculptures, he proudly depicts ordinary humans, common animals, and even boring inanimate objects with extremely exaggerated, large, and beautifully voluptuous proportions.\n\nMany confused people who see his beautiful art in a museum for the very first time incorrectly assume that he simply likes to paint \"fat\" or overweight people for fun. However, throughout his long life, Botero constantly and patiently explained to everyone that he was absolutely not painting fatness at all, but rather he was passionately exploring \"volume\" and the pure, artistic beauty of large, round shapes taking up physical space on a flat canvas. His vibrant, incredibly colorful canvases very often depict normal, everyday scenes of common life in Latin America, including happy families eating dinner together, loud musicians playing traditional instruments, biting political satire about corrupt leaders, and very important, often tragic moments in modern Colombian history.\n\nThe massive global impact and popularity of Botero's unique art is truly monumental and undeniable. You can easily find his massive, incredibly heavy bronze esculturas (sculptures) proudly decorating prestigious, busy avenues, quiet parks, and large public plazas in major, famous cities all around the world, such as New York, Paris, Madrid, and Singapore. In his busy hometown of Medellín, the famous, crowded Plaza Botero happily features an incredible, permanent outdoor collection of exactly twenty-three giant, beautiful sculptures that were generously donated to the city by the artist himself, lovingly allowing absolutely everyone to enjoy his magnificent, historical legacy completely for free.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was Fernando Botero born?",
+          "What do critics call his unique artistic style?",
+          "How does he depict humans and animals in his art?",
+          "What do people incorrectly assume about his paintings?",
+          "What did Botero say he was actually exploring?",
+          "What do his vibrant canvases often depict?",
+          "How many giant sculptures are in the Plaza Botero in Medellín?"
+        ],
+        "answerKey": [
+          "Medellín, Colombia.",
+          "\"Boterismo.\"",
+          "With extremely exaggerated, large, and beautifully voluptuous proportions.",
+          "That he simply likes to paint \"fat\" or overweight people for fun.",
+          "\"Volume\" and the pure, artistic beauty of large, round shapes taking up physical space.",
+          "Normal, everyday scenes of common life in Latin America (families eating, musicians playing, political satire, and history).",
+          "Exactly twenty-three giant, beautiful sculptures."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Fernando Botero fue, sin duda, uno de los artistas y escultores absolutamente más famosos, queridos y mundialmente reconocidos originarios del hermoso país de Colombia. Nacido en la ocupada y montañosa ciudad de Medellín, revolucionó por completo y para siempre el mundo del arte moderno al inventar creativamente un estilo artístico muy único, profundamente personal y reconocible al instante. Los críticos de arte profesionales y los historiadores de todo el mundo llaman oficialmente a este estilo muy único y específico \"Boterismo\". En sus muchas pinturas coloridas y esculturas pesadas de bronce, representa con orgullo a humanos comunes, animales comunes e incluso objetos inanimados aburridos con proporciones extremadamente exageradas, grandes y bellamente voluptuosas.\n\nMuchas personas confundidas que ven su hermoso arte en un museo por primera vez asumen incorrectamente que a él simplemente le gusta pintar personas \"gordas\" o con sobrepeso por diversión. Sin embargo, a lo largo de su larga vida, Botero explicó constante y pacientemente a todos que él no estaba pintando la gordura en absoluto, sino que estaba explorando apasionadamente el \"volumen\" y la belleza pura y artística de las formas grandes y redondas que ocupan espacio físico en un lienzo plano. Sus lienzos vibrantes e increíblemente coloridos a menudo muestran escenas normales y cotidianas de la vida común en América Latina, incluyendo familias felices cenando juntas, músicos ruidosos tocando instrumentos tradicionales, sátira política mordaz sobre líderes corruptos y momentos muy importantes, a menudo trágicos, en la historia colombiana moderna.\n\nEl impacto global masivo y la popularidad del arte único de Botero es verdaderamente monumental e innegable. Puedes encontrar fácilmente sus esculturas de bronce masivas e increíblemente pesadas decorando con orgullo avenidas prestigiosas y concurridas, parques tranquilos y grandes plazas públicas en ciudades importantes y famosas de todo el mundo, como Nueva York, París, Madrid y Singapur. En su ocupada ciudad natal de Medellín, la famosa y concurrida Plaza Botero presenta felizmente una increíble colección permanente al aire libre de exactamente veintitrés esculturas gigantes y hermosas que fueron donadas generosamente a la ciudad por el propio artista, permitiendo cariñosamente que absolutamente todos disfruten de su magnífico legado histórico completamente gratis.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué país era el famoso artista Fernando Botero?",
+          "¿Cómo llaman los críticos de arte a su estilo único?",
+          "¿Cómo representa él a las personas y los animales?",
+          "¿Qué asumen incorrectamente muchas personas sobre su arte?",
+          "¿Qué exploraba Botero realmente en sus obras?",
+          "¿Qué escenas muestran frecuentemente sus lienzos vibrantes?",
+          "¿Dónde puedes encontrar sus enormes esculturas de bronce?"
+        ],
+        "answerKey": [
+          "De Colombia.",
+          "\"Boterismo\".",
+          "Con proporciones extremadamente exageradas, grandes y bellamente voluptuosas.",
+          "Que a él simplemente le gusta pintar personas \"gordas\" o con sobrepeso por diversión.",
+          "El \"volumen\" y la belleza pura y artística de las formas grandes y redondas que ocupan espacio físico.",
+          "Escenas normales y cotidianas de la vida común en América Latina (familias felices cenando, músicos, sátira política e historia).",
+          "En avenidas prestigiosas, parques tranquilos y grandes plazas públicas en ciudades como Nueva York, París, Madrid y Singapur."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Fernando Botero es, sin lugar a la más mínima duda, el pintor, dibujante y escultor colombiano más universalmente reconocido, prolífico y celebrado de todos los tiempos en el competitivo mercado del arte global. Nacido en la pujante e industrial ciudad de Medellín, Botero revolucionó audaz y permanentemente el elitista mundo del arte contemporáneo al desarrollar y perfeccionar un estilo estético absolutamente inconfundible, icónico y completamente propio, el cual fue rápidamente bautizado por los críticos e historiadores internacionales como \"boterismo\". Esta técnica singular y fascinante se caracteriza principal e innegablemente por representar figuras humanas, animales e incluso naturalezas muertas con proporciones exageradamente voluptuosas, expansivas y redondeadas, desafiando los cánones de belleza tradicionales.\n\nAunque el público inexperto a menudo asume erróneamente y de manera superficial que Botero simplemente se dedica a pintar personas con sobrepeso o problemas de obesidad con fines cómicos, el maestro aclaró incansablemente a lo largo de sus incontables entrevistas que su verdadera, profunda y única pasión artística era la exploración pictórica del \"volumen\" puro y la sensualidad monumental de las formas espaciales aplicadas sobre un lienzo plano. Sus vibrantes, inmensos y coloridos lienzos retratan magistralmente una amplísima y rica gama de temáticas profundamente arraigadas en su tierra, desde apacibles escenas costumbristas de la vida cotidiana latinoamericana y la controversial tauromaquia, hasta la aguda, valiente y sarcástica sátira política y la dolorosa, sangrienta y compleja historia contemporánea de su amado país.\n\nEl impacto global y la arrolladora popularidad de la obra de Botero es verdaderamente monumental y trasciende cualquier frontera lingüística o cultural. Sus imponentes, redondas y pesadas esculturas de bronce macizo adornan majestuosamente las avenidas y plazas más prestigiosas e icónicas en metrópolis cosmopolitas de primer nivel como Nueva York, París, Madrid, Venecia y Singapur. En su entrañable ciudad natal, la emblemática y sumamente concurrida Plaza Botero alberga permanentemente una magnífica e invaluable colección al aire libre de veintitrés esculturas monumentales donadas generosa y altruistamente por el propio artista, democratizando así para siempre el acceso libre y gratuito a su inmenso, maravilloso e irrepetible legado cultural para el disfrute de absolutamente todos los ciudadanos y turistas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad colombiana nació Fernando Botero?",
+          "¿Con qué nombre bautizaron los críticos internacionales a su estilo estético?",
+          "¿Cuál es la característica principal de la técnica del boterismo?",
+          "¿Qué asume erróneamente el público sobre las obras de Botero?",
+          "¿Cuál es la verdadera pasión del artista según sus propias palabras?",
+          "Menciona dos temáticas que retratan sus vibrantes lienzos.",
+          "¿Cómo ha democratizado el acceso a su legado en su ciudad natal?"
+        ],
+        "answerKey": [
+          "En la pujante e industrial ciudad de Medellín.",
+          "\"Boterismo\".",
+          "Representar figuras humanas, animales y objetos con proporciones exageradamente voluptuosas, expansivas y redondeadas.",
+          "Que simplemente se dedica a pintar personas con sobrepeso o problemas de obesidad con fines cómicos.",
+          "La exploración pictórica del \"volumen\" puro y la sensualidad monumental de las formas espaciales.",
+          "Apacibles escenas costumbristas de la vida cotidiana, tauromaquia, sátira política o la historia contemporánea de su país (dos de estas).",
+          "Donando generosa y altruistamente 23 esculturas monumentales a la emblemática Plaza Botero para el disfrute público."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Gabriel García Márquez",
+    "imageFileName": "garcia_marquez.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Gabriel García Márquez was an incredibly illustrious, highly respected Colombian author and professional journalist who is universally acclaimed today as one of the absolute most important, brilliant, and revolutionary writers of the entire 20th century. Born in the extremely hot, picturesque, and very small tropical town of Aracataca, his lonely childhood was deeply and permanently marked by the wild, fantastic tales and spooky, old superstitions constantly told by his loving grandparents. These highly unique early experiences planted the strong, healthy seed for his wildly overflowing, incredibly rich literary imagination that would later make him world-famous.\n\nHe is widely considered by literature experts around the globe to be the ultimate, undisputed master of \"Magical Realism.\" This is a deeply fascinating, extremely beautiful literary genre where totally supernatural, mythical, and truly magical elements blend perfectly and smoothly into normal, everyday reality, and the ordinary characters uniquely accept these strange things as completely normal, everyday occurrences. His absolute greatest, most beloved masterpiece, *One Hundred Years of Solitude* (*Cien años de soledad*), is an essential pillar of world literature. This massive, epic novel creatively tells the highly turbulent, deeply emotional, generations-long saga of the complicated Buendía family living in the mythical, completely fictional, and magical jungle town of Macondo.\n\nHis highly beloved, famous novels deeply and beautifully explore heavy human themes such as total isolation, political power, inescapable destiny, and pure, unconditional love, very often accompanied by stunning magical imagery like impossible rains of bright yellow butterflies and quiet, sad ghosts from the distant past. His immense, undeniable writing talent was officially and proudly crowned in the year 1982 when the strict Swedish Academy awarded him the highly prestigious Nobel Prize in Literature. Known affectionately as \"Gabo\" by his massive, loyal legion of fans and close friends, his truly extraordinary, beautiful literary legacy continues to effortlessly captivate the hearts of millions of new readers globally, long after his sad passing.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What was Gabriel García Márquez's profession?",
+          "What deeply marked his childhood in Aracataca?",
+          "What literary genre is he the ultimate master of?",
+          "How do characters react to magic in \"Magical Realism\"?",
+          "What is the title of his absolute masterpiece?",
+          "What is the name of the fictional town in his epic novel?",
+          "What prestigious award did he win in 1982?"
+        ],
+        "answerKey": [
+          "Illustrious author and professional journalist.",
+          "The wild, fantastic tales and spooky, old superstitions constantly told by his loving grandparents.",
+          "\"Magical Realism.\"",
+          "They accept these strange things as completely normal, everyday occurrences.",
+          "One Hundred Years of Solitude (Cien años de soledad).",
+          "Macondo.",
+          "The highly prestigious Nobel Prize in Literature."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Gabriel García Márquez fue un escritor y periodista colombiano increíblemente ilustre y muy respetado, que es aclamado universalmente hoy en día como uno de los autores absolutamente más importantes, brillantes y revolucionarios de todo el siglo veinte. Nacido en el pueblo tropical extremadamente caluroso, pintoresco y muy pequeño de Aracataca, su niñez solitaria estuvo profundamente y permanentemente marcada por los cuentos salvajes y fantásticos, y las viejas supersticiones espeluznantes contadas constantemente por sus queridos abuelos. Estas experiencias tempranas muy únicas plantaron la semilla fuerte y sana para su imaginación literaria increíblemente rica y salvajemente desbordante que más tarde lo haría mundialmente famoso.\n\nÉl es considerado ampliamente por los expertos en literatura de todo el mundo como el maestro definitivo e indiscutible del \"Realismo Mágico\". Este es un género literario profundamente fascinante y extremadamente hermoso donde elementos totalmente sobrenaturales, míticos y verdaderamente mágicos se mezclan perfecta y suavemente con la realidad normal y cotidiana, y los personajes ordinarios aceptan de manera única estas cosas extrañas como sucesos completamente normales de todos los días. Su obra maestra absoluta, más grande y más querida, *Cien años de soledad*, es un pilar esencial de la literatura mundial. Esta novela masiva y épica cuenta creativamente la saga altamente turbulenta, profundamente emocional y de muchas generaciones de la complicada familia Buendía que vive en el mítico pueblo selvático, completamente ficticio y mágico de Macondo.\n\nSus queridas y famosas novelas exploran profunda y hermosamente temas humanos pesados como el aislamiento total, el poder político, el destino ineludible y el amor puro e incondicional, muy a menudo acompañados de imágenes mágicas impresionantes como lluvias imposibles de mariposas de color amarillo brillante y fantasmas silenciosos y tristes del pasado distante. Su inmenso e innegable talento para escribir fue coronado oficial y orgullosamente en el año 1982 cuando la estricta Academia Sueca le otorgó el muy prestigioso Premio Nobel de Literatura. Conocido cariñosamente como \"Gabo\" por su masiva y leal legión de fanáticos y amigos cercanos, su legado literario verdaderamente extraordinario y hermoso continúa cautivando sin esfuerzo los corazones de millones de nuevos lectores a nivel mundial, mucho después de su triste fallecimiento.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué país era el famoso escritor Gabriel García Márquez?",
+          "¿Quiénes le contaban cuentos fantásticos durante su niñez?",
+          "¿De qué género literario es considerado el maestro definitivo?",
+          "¿Cómo reaccionan los personajes a la magia en el \"Realismo Mágico\"?",
+          "¿Cómo se llama su obra maestra absoluta?",
+          "¿Cuál es el nombre de la familia principal en su novela épica?",
+          "¿Qué premio importante ganó en el año 1982?"
+        ],
+        "answerKey": [
+          "De Colombia.",
+          "Sus queridos abuelos.",
+          "Del \"Realismo Mágico\".",
+          "Aceptan de manera única estas cosas extrañas como sucesos completamente normales de todos los días.",
+          "Cien años de soledad.",
+          "La complicada familia Buendía.",
+          "El muy prestigioso Premio Nobel de Literatura."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Gabriel García Márquez fue un ilustre, inmensamente prolífico y respetado escritor y periodista colombiano, universal y unánimemente aclamado por la crítica global como uno de los autores más importantes, influyentes y revolucionarios de la literatura del siglo XX. Nacido en el pintoresco, caluroso y aislado poblado caribeño de Aracataca, su solitaria infancia estuvo profundamente y permanentemente marcada por las fascinantes narraciones fantásticas, las leyendas locales y las arraigadas supersticiones populares que le relataban constantemente sus abuelos maternos. Estas invaluables e impactantes vivencias tempranas sembraron con fuerza la semilla inagotable de su desbordante, riquísima y prodigiosa imaginación literaria.\n\nGarcía Márquez es indiscutiblemente considerado el pionero y el máximo exponente mundial del \"realismo mágico\", un fascinante, hermoso y complejo género literario donde elementos puramente sobrenaturales, oníricos, míticos y mágicos se entrelazan de forma fluida, orgánica y poética con la dura realidad cotidiana, siendo aceptados e integrados por los personajes de la historia con absoluta, pasmosa e incuestionable naturalidad, sin causar sorpresa alguna. Su insuperable obra cumbre, *Cien años de soledad*, es un pilar fundamental y majestuoso de la literatura universal que relata con maestría la épica, cíclica, trágica y turbulenta saga de siete generaciones condenadas de la familia Buendía, habitando en el mítico, aislado y ficticio pueblo bananero de Macondo.\n\nSus aclamadas y premiadas novelas exploran magistral, profunda y poéticamente temas filosóficos universales como la soledad intrínseca e inevitable del ser humano, los absurdos y brutales estragos del poder político y militar, el peso aplastante del destino ineludible y la fuerza redentora del amor incondicional, a menudo acompañados e ilustrados de metáforas visuales inolvidables como imposibles lluvias torrenciales de mariposas amarillas y espectros melancólicos que se niegan a abandonar el mundo de los vivos. Su inmenso e innegable genio literario fue coronado y reconocido internacionalmente en 1982 cuando la estricta Academia Sueca le otorgó el codiciado Premio Nobel de Literatura. Conocido afectuosa y reverencialmente como \"Gabo\" por todo el continente, su extraordinario, vital e inmortal legado literario sigue cautivando, conmoviendo e inspirando corazones a nivel mundial.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué vivencias de su infancia sembraron la semilla de su imaginación literaria?",
+          "¿De qué fascinante género literario es el máximo exponente?",
+          "¿Cómo reaccionan los personajes ante los elementos sobrenaturales en sus obras?",
+          "¿Qué épica saga familiar relata su obra cumbre Cien años de soledad?",
+          "¿En qué mítico y ficticio pueblo se desarrolla su novela más famosa?",
+          "Menciona tres temas profundos que exploran magistralmente sus novelas.",
+          "¿Qué importante galardón le otorgó la Academia Sueca en 1982?"
+        ],
+        "answerKey": [
+          "Las fascinantes narraciones fantásticas, las leyendas locales y las arraigadas supersticiones populares de sus abuelos maternos.",
+          "Del \"realismo mágico\".",
+          "Los aceptan e integran con absoluta, pasmosa e incuestionable naturalidad, sin causar sorpresa alguna.",
+          "La épica, cíclica, trágica y turbulenta saga de siete generaciones condenadas de la familia Buendía.",
+          "En el mítico, aislado y ficticio pueblo bananero de Macondo.",
+          "La soledad intrínseca del ser humano, los estragos del poder político, el destino ineludible o el amor incondicional (tres de estos).",
+          "El codiciado Premio Nobel de Literatura."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Chayanne",
+    "imageFileName": "chayanne.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Chayanne is a truly legendary, incredibly talented, and deeply beloved Puerto Rican pop singer, actor, and professional dancer who has successfully captured the hearts of millions of loyal fans across Latin America and the entire world. Born Elmer Figueroa Arce on the beautiful island of Puerto Rico, he excitedly began his incredibly successful, long-lasting music career when he was just a very young boy performing in the highly popular, energetic teen music group called Los Chicos. However, he eventually achieved massive, undeniable international fame and incredible success as a solo artist during the musical booms of the 1980s and 1990s.\n\nHe is universally known and highly respected by everyone for his explosive, unstoppable physical energy on stage, his beautiful, deeply romantic ballads, and his spectacularly fast, precise dancing skills that leave audiences completely breathless. Passionate fans and music critics everywhere often refer to him respectfully as the absolute ultimate Latin pop idol of his generation. Unlike many wild, unpredictable modern artists today, Chayanne is highly famous for successfully maintaining a completely clean, extremely positive, and humble family image, along with his deep, genuine respect for his dedicated fans. His incredibly massive, catchy hit canciones (songs) like \"Torero,\" \"Dejaría Todo,\" and \"Salomé\" are absolute, timeless party classics that are still proudly played and danced to at almost every single Latin American party, romantic wedding, and family celebration today.\n\nBeyond his massive, chart-topping music, Chayanne has also successfully starred in several highly popular television telenovelas (soap operas) and feature movies, clearly proving to the world that he is a truly multi-talented, hardworking entertainer. Despite his enormous global fame, vast wealth, and many decades of constant success, he impressively remains an incredibly humble, polite man who is deeply dedicated to protecting his private family. For many millions of people, he perfectly represents the absolute ideal combination of raw talent, natural charisma, and intense hard work. Today, he amazingly continues to easily sell out massive, giant sports stadiums on his world tours, proving firmly that his incredible musical legacy will last forever.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was Chayanne born?",
+          "What group did he start in as a young boy?",
+          "What is he universally known for?",
+          "What kind of image is he famous for having?",
+          "Name one of his hit songs mentioned in the text.",
+          "What other entertainment jobs has he done besides singing?",
+          "What does he continue to do today?"
+        ],
+        "answerKey": [
+          "Puerto Rico.",
+          "The highly popular, energetic teen music group called Los Chicos.",
+          "His explosive physical energy on stage, his beautiful romantic ballads, and his spectacular dancing skills.",
+          "A completely clean, extremely positive, and humble family image.",
+          "\"Torero,\" \"Dejaría Todo,\" or \"Salomé\".",
+          "Successfully starred in several highly popular television telenovelas (soap operas) and feature movies.",
+          "Continue to easily sell out massive, giant sports stadiums on his world tours."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Chayanne es un cantante pop, actor y bailarín profesional puertorriqueño verdaderamente legendario, increíblemente talentoso y profundamente amado que ha capturado con éxito los corazones de millones de fanáticos leales en toda América Latina y el mundo entero. Nacido como Elmer Figueroa Arce en la hermosa isla de Puerto Rico, él comenzó emocionado su carrera musical increíblemente exitosa y duradera cuando era solo un niño muy joven actuando en el grupo musical de adolescentes muy popular y enérgico llamado Los Chicos. Sin embargo, finalmente alcanzó una fama internacional masiva e innegable y un éxito increíble como artista solista durante los booms musicales de los años ochenta y noventa.\n\nÉl es conocido universalmente y muy respetado por todos por su energía física explosiva e imparable en el escenario, sus baladas hermosas y profundamente románticas, y sus habilidades de baile espectacularmente rápidas y precisas que dejan al público completamente sin aliento. Los fanáticos apasionados y los críticos de música de todas partes a menudo se refieren a él respetuosamente como el ídolo del pop latino absolutamente definitivo de su generación. A diferencia de muchos artistas modernos salvajes e impredecibles de hoy, Chayanne es muy famoso por mantener con éxito una imagen familiar completamente limpia, extremadamente positiva y humilde, junto con su respeto profundo y genuino por sus fanáticos dedicados. Sus canciones increíblemente masivas y pegadizas como \"Torero\", \"Dejaría Todo\" y \"Salomé\" son clásicos de fiesta absolutos y eternos que todavía se tocan con orgullo y se bailan en casi todas las fiestas latinoamericanas, bodas románticas y celebraciones familiares hoy en día.\n\nMás allá de su música masiva que encabeza las listas, Chayanne también ha protagonizado con éxito varias telenovelas de televisión y películas muy populares, demostrando claramente al mundo que es un artista verdaderamente multitalentoso y trabajador. A pesar de su enorme fama global, gran riqueza y muchas décadas de éxito constante, él sigue siendo impresionantemente un hombre increíblemente humilde y educado que está profundamente dedicado a proteger a su familia privada. Para muchos millones de personas, él representa perfectamente la combinación ideal absoluta de talento puro, carisma natural y trabajo intenso y duro. Hoy en día, él asombrosamente continúa llenando fácilmente estadios deportivos masivos y gigantes en sus giras mundiales, demostrando firmemente que su increíble legado musical durará para siempre.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De dónde es Chayanne?",
+          "¿Cómo se llama el grupo donde comenzó de niño?",
+          "¿Por qué es universalmente conocido Chayanne?",
+          "¿Cómo es la imagen de Chayanne a diferencia de otros artistas?",
+          "Nombra una canción exitosa mencionada en el texto.",
+          "¿En qué otras cosas ha actuado además de cantar?",
+          "¿Qué sigue haciendo Chayanne hoy en día?"
+        ],
+        "answerKey": [
+          "De la hermosa isla de Puerto Rico.",
+          "El grupo musical de adolescentes muy popular y enérgico llamado Los Chicos.",
+          "Por su energía física explosiva e imparable, sus baladas profundamente románticas y sus habilidades de baile espectacularmente rápidas.",
+          "Una imagen familiar completamente limpia, extremadamente positiva y humilde.",
+          "\"Torero\", \"Dejaría Todo\" o \"Salomé\".",
+          "Ha protagonizado con éxito varias telenovelas de televisión y películas muy populares.",
+          "Continúa llenando fácilmente estadios deportivos masivos y gigantes en sus giras mundiales."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Chayanne, cuyo verdadero nombre de pila es Elmer Figueroa Arce, es un indiscutiblemente icónico, sumamente talentoso y polifacético cantante, actor y bailarín puertorriqueño que ha dejado una huella verdaderamente indeleble, profunda y perdurable en la extensa historia de la música pop latina contemporánea. Inició su prolífica y envidiable carrera artística durante su temprana infancia como integrante estrella del inmensamente popular grupo musical juvenil Los Chicos, pero fue su posterior, valiente y arriesgado lanzamiento como solista durante las competitivas décadas de los ochenta y noventa lo que lo catapultó meteórica y definitivamente al estrellato internacional y al éxito masivo de ventas.\n\nEs mundialmente reconocido y aclamado por la crítica por su inagotable y explosiva energía aeróbica en el escenario, su magistral e impecable habilidad para ejecutar complejas coreografías de baile, y su asombrosa y versátil capacidad vocal para interpretar baladas profundamente románticas y desgarradoras que conmueven almas. A lo largo de los arduos años en la industria del entretenimiento, Chayanne ha cultivado meticulosamente una imagen pública absolutamente intachable, familiar y sumamente carismática, ganándose a pulso el cariño incondicional y el profundo respeto de múltiples y diversas generaciones de seguidores. Temas rítmicos y emblemáticos como \"Torero\", \"Dejaría Todo\" y \"Salomé\" han roto barreras para convertirse en verdaderos e inmortales himnos intergeneracionales, siendo melodías absolutamente imprescindibles y obligatorias en alegres bodas, fiestas multitudinarias y celebraciones familiares a lo largo y ancho de toda Hispanoamérica e incluso en Estados Unidos.\n\nMás allá de su innegable, arrollador y sostenido éxito en la exigente industria musical global, ha incursionado triunfalmente en el mundo de la actuación, protagonizando exitosas telenovelas dramáticas y producciones cinematográficas que demuestran abiertamente su gran versatilidad artística y carisma frente a las cámaras. A pesar de gozar de una fama monumental, una fortuna inmensa durante décadas y el asedio constante de la prensa, Chayanne se caracteriza excepcionalmente por mantener una genuina, admirable y rara humildad, además de una absoluta y celosa devoción por mantener su vida familiar en estricto privado. Hoy en día, a su edad madura, sigue agotando velozmente las entradas en estadios multitudinarios a nivel mundial, demostrando con envidiable vitalidad que su vigencia escénica y su poderoso legado musical son verdaderamente inmortales.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cuál es el verdadero nombre de pila de Chayanne?",
+          "¿En qué grupo juvenil inició su prolífica carrera?",
+          "¿Qué habilidades lo han convertido en el ídolo definitivo del pop latino?",
+          "¿Cómo se describe la imagen que ha cultivado a lo largo de los años?",
+          "¿Qué tipo de eventos consideran imprescindibles sus temas emblemáticos?",
+          "¿Qué otra faceta artística demuestra su gran versatilidad?",
+          "¿Qué características personales mantiene a pesar de su fama monumental?"
+        ],
+        "answerKey": [
+          "Elmer Figueroa Arce.",
+          "El inmensamente popular grupo musical juvenil Los Chicos.",
+          "Su inagotable energía aeróbica, su magistral habilidad para el baile y su asombrosa capacidad vocal para baladas románticas.",
+          "Una imagen pública absolutamente intachable, familiar y sumamente carismática.",
+          "Alegres bodas, fiestas multitudinarias y celebraciones familiares a lo largo y ancho de toda Hispanoamérica.",
+          "Ha incursionado triunfalmente en el mundo de la actuación, protagonizando exitosas telenovelas dramáticas y producciones cinematográficas.",
+          "Una genuina y admirable humildad, además de una absoluta y celosa devoción por mantener su vida familiar en estricto privado."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Carlos Ruiz Zafón",
+    "imageFileName": "carlos_ruiz_zafon.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Carlos Ruiz Zafón was an incredibly famous, highly talented Spanish author and easily one of the most widely read, beloved contemporary writers in the entire world. He was known primarily by his dedicated fans for writing fascinating, deeply mysterious, and very dark gothic novels. Originally born in the vibrant, historical city of Barcelona, Spain, he miraculously managed to perfectly capture the magical, beautiful, and gloomy essence of his hometown in his writing. In his amazing books, he completely transformed the actual city of Barcelona into the most important main character of his stories, filling the streets with thick fog, dark family secrets, and ancient, crumbling architecture.\n\nAlthough he successfully began his long writing career creating captivating, exciting young adult literature, such as the spooky and highly emotional novel *Marina*, he eventually achieved massive, undeniable international literary fame with his absolute masterpiece, *The Shadow of the Wind* (*La sombra del viento*). This beautiful, unforgettable libro (book) introduces curious readers to the enigmatic \"Cemetery of Forgotten Books.\" In the story, this magical place is a massive, secret underground labyrinth hidden deep in the heart of Barcelona that safely protects lost, forgotten works of literature from being forever destroyed by time and evil people.\n\nZafón possessed a deeply romantic, beautiful belief about the magic of reading: he constantly claimed that every single book actually has a living soul. He believed this soul is made up of the soul of the person who originally wrote it, mixed together with the souls of everyone who has ever read it and dreamed about it. With his rich, poetic, and highly melancholic writing style, his amazing books have been translated into dozens of different languages and have successfully sold millions of copies globally. Sadly, the famous escritor (writer) passed away too soon in the year 2020, but his extraordinary, beautiful literary legacy will undoubtedly live on forever in the hearts of his readers.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What was Carlos Ruiz Zafón's profession?",
+          "In what city was he born?",
+          "What did he transform into the main character of his stories?",
+          "What is the title of his famous young adult novel?",
+          "What is his international masterpiece called?",
+          "What secret place is introduced in his masterpiece?",
+          "What did Zafón believe every book possessed?"
+        ],
+        "answerKey": [
+          "Author/writer.",
+          "Barcelona, Spain.",
+          "His hometown of Barcelona.",
+          "Marina.",
+          "The Shadow of the Wind (La sombra del viento).",
+          "The Cemetery of Forgotten Books.",
+          "A living soul."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Carlos Ruiz Zafón fue un escritor español increíblemente famoso, muy talentoso y fácilmente uno de los autores contemporáneos más leídos y queridos en todo el mundo. Era conocido principalmente por sus fanáticos dedicados por escribir novelas góticas fascinantes, profundamente misteriosas y muy oscuras. Nacido originalmente en la ciudad vibrante e histórica de Barcelona, España, logró milagrosamente capturar perfectamente la esencia mágica, hermosa y sombría de su ciudad natal en su escritura. En sus libros asombrosos, transformó completamente la ciudad real de Barcelona en el personaje principal más importante de sus historias, llenando las calles con niebla espesa, oscuros secretos familiares y arquitectura antigua y en ruinas.\n\nAunque comenzó con éxito su larga carrera de escritor creando literatura cautivadora y emocionante para jóvenes, como la novela espeluznante y muy emocional *Marina*, finalmente alcanzó una fama literaria internacional masiva e innegable con su obra maestra absoluta, *La sombra del viento*. Este libro hermoso e inolvidable presenta a los lectores curiosos el enigmático \"Cementerio de los Libros Olvidados\". En la historia, este lugar mágico es un laberinto subterráneo masivo y secreto escondido en el corazón de Barcelona que protege de manera segura las obras de literatura perdidas y olvidadas para que no sean destruidas para siempre por el tiempo y las personas malas.\n\nZafón tenía una creencia profundamente romántica y hermosa sobre la magia de la lectura: constantemente afirmaba que cada libro realmente tiene un alma viva. Él creía que esta alma está formada por el alma de la persona que lo escribió originalmente, mezclada con las almas de todos los que alguna vez lo han leído y soñado con él. Con su estilo de escritura rico, poético y muy melancólico, sus libros asombrosos han sido traducidos a docenas de idiomas diferentes y han vendido con éxito millones de copias a nivel mundial. Tristemente, el famoso escritor falleció demasiado pronto en el año 2020, pero su legado literario extraordinario y hermoso sin duda vivirá para siempre en los corazones de sus lectores.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cuál era la profesión de Carlos Ruiz Zafón?",
+          "¿En qué ciudad hermosa nació el autor?",
+          "¿Qué lugar transformó en el personaje principal de sus historias?",
+          "¿Cómo se llama su novela escrita para jóvenes?",
+          "¿Cuál es su obra maestra internacional?",
+          "¿Qué es el \"Cementerio de los Libros Olvidados\"?",
+          "¿Qué creía Zafón que tenía cada libro?"
+        ],
+        "answerKey": [
+          "Escritor/autor.",
+          "En la ciudad de Barcelona, España.",
+          "La ciudad real de Barcelona.",
+          "Marina.",
+          "La sombra del viento.",
+          "Un laberinto subterráneo masivo y secreto que protege libros perdidos y olvidados.",
+          "Un alma viva."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Carlos Ruiz Zafón fue uno de los autores españoles contemporáneos más leídos, aclamados y universalmente venerados a nivel mundial, reconocido principalmente por sus fascinantes, melancólicas y sumamente atmosféricas novelas de misterio gótico. Nacido y criado en la efervescente ciudad de Barcelona, Zafón logró capturar magistralmente la esencia mágica, neblinosa y sombría de su amada ciudad natal, transformándola hábilmente en un personaje principal, omnipresente y casi asfixiante dentro de sus apasionantes relatos, los cuales siempre estaban intrincadamente plagados de niebla perpetua, oscuros secretos familiares inconfesables y una imponente arquitectura gótica en decadencia.\n\nAunque inició su prolífica y exitosa carrera escribiendo aclamada literatura juvenil, como la cautivadora, espeluznante y profundamente emotiva novela *Marina*, alcanzó la cima de la fama literaria internacional definitiva con su indiscutible e insuperable obra maestra, *La sombra del viento*. Esta brillante joya literaria contemporánea introduce fascinantemente a los lectores al enigmático y mítico \"Cementerio de los Libros Olvidados\", un vasto, polvoriento y secreto laberinto subterráneo oculto en el corazón gótico de Barcelona que protege celosamente obras literarias perdidas en el tiempo para evitar su inminente desaparición a manos de la censura y el olvido humano. Zafón poseía una convicción profundamente romántica, casi mística, sobre la literatura: afirmaba poética y firmemente que cada libro físico tiene un alma viva, compuesta simultánea e indisolublemente por el alma de quien lo escribió con pasión y las de aquellos innumerables lectores que lo han leído, amado y soñado con él a lo largo de las décadas.\n\nCon una prosa excepcionalmente rica, evocadora, poética y cargada de nostalgia, sus inmortales obras han sido traducidas a decenas de idiomas y han vendido exitosamente decenas de millones de ejemplares globalmente, convirtiéndolo en un fenómeno editorial sin precedentes en España. Lamentablemente, el célebre y querido escritor falleció de manera prematura y trágica en el año 2020 debido a una grave enfermedad, pero su extraordinario, vasto y hermoso legado literario perdura intacto, invitando constantemente a nuevas generaciones de lectores a perderse voluntariamente en sus intrincados laberintos mágicos de papel y tinta.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Por qué género literario es reconocido mundialmente Zafón?",
+          "¿Qué ciudad transformó en un personaje omnipresente en sus relatos?",
+          "¿Con qué novela cautivadora inició su éxito en la literatura juvenil?",
+          "¿Con qué obra maestra alcanzó la fama literaria internacional definitiva?",
+          "¿Qué función cumple el \"Cementerio de los Libros Olvidados\"?",
+          "¿De qué está compuesta el alma de un libro, según la convicción del autor?",
+          "¿Cómo se describe la prosa excepcional de Carlos Ruiz Zafón?"
+        ],
+        "answerKey": [
+          "Por sus fascinantes, melancólicas y sumamente atmosféricas novelas de misterio gótico.",
+          "Su amada ciudad natal, Barcelona.",
+          "La cautivadora, espeluznante y profundamente emotiva novela Marina.",
+          "La sombra del viento.",
+          "Protege celosamente obras literarias perdidas en el tiempo para evitar su inminente desaparición (en un laberinto subterráneo).",
+          "Del alma de quien lo escribió y las de aquellos innumerables lectores que lo han leído y soñado con él.",
+          "Excepcionalmente rica, evocadora, poética y cargada de nostalgia."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Fernando Botero",
+    "imageFileName": "fernando_botero.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Fernando Botero was undoubtedly one of the absolute most famous, beloved, and globally recognized artists and sculptors originally from the beautiful country of Colombia. Born in the busy, mountainous city of Medellín, he completely and forever revolutionized the modern art world by creatively inventing a highly unique, deeply personal, and instantly recognizable artistic style. Professional art critics and historians all around the world officially call this very unique, specific style \"Boterismo.\" In his many colorful pinturas (paintings) and heavy bronze sculptures, he proudly depicts ordinary humans, common animals, and even boring inanimate objects with extremely exaggerated, large, and beautifully voluptuous proportions.\n\nMany confused people who see his beautiful art in a museum for the very first time incorrectly assume that he simply likes to paint \"fat\" or overweight people for fun. However, throughout his long life, Botero constantly and patiently explained to everyone that he was absolutely not painting fatness at all, but rather he was passionately exploring \"volume\" and the pure, artistic beauty of large, round shapes taking up physical space on a flat canvas. His vibrant, incredibly colorful canvases very often depict normal, everyday scenes of common life in Latin America, including happy families eating dinner together, loud musicians playing traditional instruments, biting political satire about corrupt leaders, and very important, often tragic moments in modern Colombian history.\n\nThe massive global impact and popularity of Botero's unique art is truly monumental and undeniable. You can easily find his massive, incredibly heavy bronze esculturas (sculptures) proudly decorating prestigious, busy avenues, quiet parks, and large public plazas in major, famous cities all around the world, such as New York, Paris, Madrid, and Singapore. In his busy hometown of Medellín, the famous, crowded Plaza Botero happily features an incredible, permanent outdoor collection of exactly twenty-three giant, beautiful sculptures that were generously donated to the city by the artist himself, lovingly allowing absolutely everyone to enjoy his magnificent, historical legacy completely for free.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was Fernando Botero born?",
+          "What do critics call his unique artistic style?",
+          "How does he depict humans and animals in his art?",
+          "What do people incorrectly assume about his paintings?",
+          "What did Botero say he was actually exploring?",
+          "What do his vibrant canvases often depict?",
+          "How many giant sculptures are in the Plaza Botero in Medellín?"
+        ],
+        "answerKey": [
+          "Medellín, Colombia.",
+          "\"Boterismo.\"",
+          "With extremely exaggerated, large, and beautifully voluptuous proportions.",
+          "That he simply likes to paint \"fat\" or overweight people for fun.",
+          "\"Volume\" and the pure, artistic beauty of large, round shapes taking up physical space.",
+          "Normal, everyday scenes of common life in Latin America (families eating, musicians playing, political satire, and history).",
+          "Exactly twenty-three giant, beautiful sculptures."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Fernando Botero fue, sin duda, uno de los artistas y escultores absolutamente más famosos, queridos y mundialmente reconocidos originarios del hermoso país de Colombia. Nacido en la ocupada y montañosa ciudad de Medellín, revolucionó por completo y para siempre el mundo del arte moderno al inventar creativamente un estilo artístico muy único, profundamente personal y reconocible al instante. Los críticos de arte profesionales y los historiadores de todo el mundo llaman oficialmente a este estilo muy único y específico \"Boterismo\". En sus muchas pinturas coloridas y esculturas pesadas de bronce, representa con orgullo a humanos comunes, animales comunes e incluso objetos inanimados aburridos con proporciones extremadamente exageradas, grandes y bellamente voluptuosas.\n\nMuchas personas confundidas que ven su hermoso arte en un museo por primera vez asumen incorrectamente que a él simplemente le gusta pintar personas \"gordas\" o con sobrepeso por diversión. Sin embargo, a lo largo de su larga vida, Botero explicó constante y pacientemente a todos que él no estaba pintando la gordura en absoluto, sino que estaba explorando apasionadamente el \"volumen\" y la belleza pura y artística de las formas grandes y redondas que ocupan espacio físico en un lienzo plano. Sus lienzos vibrantes e increíblemente coloridos a menudo muestran escenas normales y cotidianas de la vida común en América Latina, incluyendo familias felices cenando juntas, músicos ruidosos tocando instrumentos tradicionales, sátira política mordaz sobre líderes corruptos y momentos muy importantes, a menudo trágicos, en la historia colombiana moderna.\n\nEl impacto global masivo y la popularidad del arte único de Botero es verdaderamente monumental e innegable. Puedes encontrar fácilmente sus esculturas de bronce masivas e increíblemente pesadas decorando con orgullo avenidas prestigiosas y concurridas, parques tranquilos y grandes plazas públicas en ciudades importantes y famosas de todo el mundo, como Nueva York, París, Madrid y Singapur. En su ocupada ciudad natal de Medellín, la famosa y concurrida Plaza Botero presenta felizmente una increíble colección permanente al aire libre de exactamente veintitrés esculturas gigantes y hermosas que fueron donadas generosamente a la ciudad por el propio artista, permitiendo cariñosamente que absolutamente todos disfruten de su magnífico legado histórico completamente gratis.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué país era el famoso artista Fernando Botero?",
+          "¿Cómo llaman los críticos de arte a su estilo único?",
+          "¿Cómo representa él a las personas y los animales?",
+          "¿Qué asumen incorrectamente muchas personas sobre su arte?",
+          "¿Qué exploraba Botero realmente en sus obras?",
+          "¿Qué escenas muestran frecuentemente sus lienzos vibrantes?",
+          "¿Dónde puedes encontrar sus enormes esculturas de bronce?"
+        ],
+        "answerKey": [
+          "De Colombia.",
+          "\"Boterismo\".",
+          "Con proporciones extremadamente exageradas, grandes y bellamente voluptuosas.",
+          "Que a él simplemente le gusta pintar personas \"gordas\" o con sobrepeso por diversión.",
+          "El \"volumen\" y la belleza pura y artística de las formas grandes y redondas que ocupan espacio físico.",
+          "Escenas normales y cotidianas de la vida común en América Latina (familias felices cenando, músicos, sátira política e historia).",
+          "En avenidas prestigiosas, parques tranquilos y grandes plazas públicas en ciudades como Nueva York, París, Madrid y Singapur."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Fernando Botero es, sin lugar a la más mínima duda, el pintor, dibujante y escultor colombiano más universalmente reconocido, prolífico y celebrado de todos los tiempos en el competitivo mercado del arte global. Nacido en la pujante e industrial ciudad de Medellín, Botero revolucionó audaz y permanentemente el elitista mundo del arte contemporáneo al desarrollar y perfeccionar un estilo estético absolutamente inconfundible, icónico y completamente propio, el cual fue rápidamente bautizado por los críticos e historiadores internacionales como \"boterismo\". Esta técnica singular y fascinante se caracteriza principal e innegablemente por representar figuras humanas, animales e incluso naturalezas muertas con proporciones exageradamente voluptuosas, expansivas y redondeadas, desafiando los cánones de belleza tradicionales.\n\nAunque el público inexperto a menudo asume erróneamente y de manera superficial que Botero simplemente se dedica a pintar personas con sobrepeso o problemas de obesidad con fines cómicos, el maestro aclaró incansablemente a lo largo de sus incontables entrevistas que su verdadera, profunda y única pasión artística era la exploración pictórica del \"volumen\" puro y la sensualidad monumental de las formas espaciales aplicadas sobre un lienzo plano. Sus vibrantes, inmensos y coloridos lienzos retratan magistralmente una amplísima y rica gama de temáticas profundamente arraigadas en su tierra, desde apacibles escenas costumbristas de la vida cotidiana latinoamericana y la controversial tauromaquia, hasta la aguda, valiente y sarcástica sátira política y la dolorosa, sangrienta y compleja historia contemporánea de su amado país.\n\nEl impacto global y la arrolladora popularidad de la obra de Botero es verdaderamente monumental y trasciende cualquier frontera lingüística o cultural. Sus imponentes, redondas y pesadas esculturas de bronce macizo adornan majestuosamente las avenidas y plazas más prestigiosas e icónicas en metrópolis cosmopolitas de primer nivel como Nueva York, París, Madrid, Venecia y Singapur. En su entrañable ciudad natal, la emblemática y sumamente concurrida Plaza Botero alberga permanentemente una magnífica e invaluable colección al aire libre de veintitrés esculturas monumentales donadas generosa y altruistamente por el propio artista, democratizando así para siempre el acceso libre y gratuito a su inmenso, maravilloso e irrepetible legado cultural para el disfrute de absolutamente todos los ciudadanos y turistas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad colombiana nació Fernando Botero?",
+          "¿Con qué nombre bautizaron los críticos internacionales a su estilo estético?",
+          "¿Cuál es la característica principal de la técnica del boterismo?",
+          "¿Qué asume erróneamente el público sobre las obras de Botero?",
+          "¿Cuál es la verdadera pasión del artista según sus propias palabras?",
+          "Menciona dos temáticas que retratan sus vibrantes lienzos.",
+          "¿Cómo ha democratizado el acceso a su legado en su ciudad natal?"
+        ],
+        "answerKey": [
+          "En la pujante e industrial ciudad de Medellín.",
+          "\"Boterismo\".",
+          "Representar figuras humanas, animales y objetos con proporciones exageradamente voluptuosas, expansivas y redondeadas.",
+          "Que simplemente se dedica a pintar personas con sobrepeso o problemas de obesidad con fines cómicos.",
+          "La exploración pictórica del \"volumen\" puro y la sensualidad monumental de las formas espaciales.",
+          "Apacibles escenas costumbristas de la vida cotidiana, tauromaquia, sátira política o la historia contemporánea de su país (dos de estas).",
+          "Donando generosa y altruistamente 23 esculturas monumentales a la emblemática Plaza Botero para el disfrute público."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Gabriel García Márquez",
+    "imageFileName": "garcia_marquez.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Gabriel García Márquez was an incredibly illustrious, highly respected Colombian author and professional journalist who is universally acclaimed today as one of the absolute most important, brilliant, and revolutionary writers of the entire 20th century. Born in the extremely hot, picturesque, and very small tropical town of Aracataca, his lonely childhood was deeply and permanently marked by the wild, fantastic tales and spooky, old superstitions constantly told by his loving grandparents. These highly unique early experiences planted the strong, healthy seed for his wildly overflowing, incredibly rich literary imagination that would later make him world-famous.\n\nHe is widely considered by literature experts around the globe to be the ultimate, undisputed master of \"Magical Realism.\" This is a deeply fascinating, extremely beautiful literary genre where totally supernatural, mythical, and truly magical elements blend perfectly and smoothly into normal, everyday reality, and the ordinary characters uniquely accept these strange things as completely normal, everyday occurrences. His absolute greatest, most beloved masterpiece, *One Hundred Years of Solitude* (*Cien años de soledad*), is an essential pillar of world literature. This massive, epic novel creatively tells the highly turbulent, deeply emotional, generations-long saga of the complicated Buendía family living in the mythical, completely fictional, and magical jungle town of Macondo.\n\nHis highly beloved, famous novels deeply and beautifully explore heavy human themes such as total isolation, political power, inescapable destiny, and pure, unconditional love, very often accompanied by stunning magical imagery like impossible rains of bright yellow butterflies and quiet, sad ghosts from the distant past. His immense, undeniable writing talent was officially and proudly crowned in the year 1982 when the strict Swedish Academy awarded him the highly prestigious Nobel Prize in Literature. Known affectionately as \"Gabo\" by his massive, loyal legion of fans and close friends, his truly extraordinary, beautiful literary legacy continues to effortlessly captivate the hearts of millions of new readers globally, long after his sad passing.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What was Gabriel García Márquez's profession?",
+          "What deeply marked his childhood in Aracataca?",
+          "What literary genre is he the ultimate master of?",
+          "How do characters react to magic in \"Magical Realism\"?",
+          "What is the title of his absolute masterpiece?",
+          "What is the name of the fictional town in his epic novel?",
+          "What prestigious award did he win in 1982?"
+        ],
+        "answerKey": [
+          "Illustrious author and professional journalist.",
+          "The wild, fantastic tales and spooky, old superstitions constantly told by his loving grandparents.",
+          "\"Magical Realism.\"",
+          "They accept these strange things as completely normal, everyday occurrences.",
+          "One Hundred Years of Solitude (Cien años de soledad).",
+          "Macondo.",
+          "The highly prestigious Nobel Prize in Literature."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Gabriel García Márquez fue un escritor y periodista colombiano increíblemente ilustre y muy respetado, que es aclamado universalmente hoy en día como uno de los autores absolutamente más importantes, brillantes y revolucionarios de todo el siglo veinte. Nacido en el pueblo tropical extremadamente caluroso, pintoresco y muy pequeño de Aracataca, su niñez solitaria estuvo profundamente y permanentemente marcada por los cuentos salvajes y fantásticos, y las viejas supersticiones espeluznantes contadas constantemente por sus queridos abuelos. Estas experiencias tempranas muy únicas plantaron la semilla fuerte y sana para su imaginación literaria increíblemente rica y salvajemente desbordante que más tarde lo haría mundialmente famoso.\n\nÉl es considerado ampliamente por los expertos en literatura de todo el mundo como el maestro definitivo e indiscutible del \"Realismo Mágico\". Este es un género literario profundamente fascinante y extremadamente hermoso donde elementos totalmente sobrenaturales, míticos y verdaderamente mágicos se mezclan perfecta y suavemente con la realidad normal y cotidiana, y los personajes ordinarios aceptan de manera única estas cosas extrañas como sucesos completamente normales de todos los días. Su obra maestra absoluta, más grande y más querida, *Cien años de soledad*, es un pilar esencial de la literatura mundial. Esta novela masiva y épica cuenta creativamente la saga altamente turbulenta, profundamente emocional y de muchas generaciones de la complicada familia Buendía que vive en el mítico pueblo selvático, completamente ficticio y mágico de Macondo.\n\nSus queridas y famosas novelas exploran profunda y hermosamente temas humanos pesados como el aislamiento total, el poder político, el destino ineludible y el amor puro e incondicional, muy a menudo acompañados de imágenes mágicas impresionantes como lluvias imposibles de mariposas de color amarillo brillante y fantasmas silenciosos y tristes del pasado distante. Su inmenso e innegable talento para escribir fue coronado oficial y orgullosamente en el año 1982 cuando la estricta Academia Sueca le otorgó el muy prestigioso Premio Nobel de Literatura. Conocido cariñosamente como \"Gabo\" por su masiva y leal legión de fanáticos y amigos cercanos, su legado literario verdaderamente extraordinario y hermoso continúa cautivando sin esfuerzo los corazones de millones de nuevos lectores a nivel mundial, mucho después de su triste fallecimiento.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué país era el famoso escritor Gabriel García Márquez?",
+          "¿Quiénes le contaban cuentos fantásticos durante su niñez?",
+          "¿De qué género literario es considerado el maestro definitivo?",
+          "¿Cómo reaccionan los personajes a la magia en el \"Realismo Mágico\"?",
+          "¿Cómo se llama su obra maestra absoluta?",
+          "¿Cuál es el nombre de la familia principal en su novela épica?",
+          "¿Qué premio importante ganó en el año 1982?"
+        ],
+        "answerKey": [
+          "De Colombia.",
+          "Sus queridos abuelos.",
+          "Del \"Realismo Mágico\".",
+          "Aceptan de manera única estas cosas extrañas como sucesos completamente normales de todos los días.",
+          "Cien años de soledad.",
+          "La complicada familia Buendía.",
+          "El muy prestigioso Premio Nobel de Literatura."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Gabriel García Márquez fue un ilustre, inmensamente prolífico y respetado escritor y periodista colombiano, universal y unánimemente aclamado por la crítica global como uno de los autores más importantes, influyentes y revolucionarios de la literatura del siglo XX. Nacido en el pintoresco, caluroso y aislado poblado caribeño de Aracataca, su solitaria infancia estuvo profundamente y permanentemente marcada por las fascinantes narraciones fantásticas, las leyendas locales y las arraigadas supersticiones populares que le relataban constantemente sus abuelos maternos. Estas invaluables e impactantes vivencias tempranas sembraron con fuerza la semilla inagotable de su desbordante, riquísima y prodigiosa imaginación literaria.\n\nGarcía Márquez es indiscutiblemente considerado el pionero y el máximo exponente mundial del \"realismo mágico\", un fascinante, hermoso y complejo género literario donde elementos puramente sobrenaturales, oníricos, míticos y mágicos se entrelazan de forma fluida, orgánica y poética con la dura realidad cotidiana, siendo aceptados e integrados por los personajes de la historia con absoluta, pasmosa e incuestionable naturalidad, sin causar sorpresa alguna. Su insuperable obra cumbre, *Cien años de soledad*, es un pilar fundamental y majestuoso de la literatura universal que relata con maestría la épica, cíclica, trágica y turbulenta saga de siete generaciones condenadas de la familia Buendía, habitando en el mítico, aislado y ficticio pueblo bananero de Macondo.\n\nSus aclamadas y premiadas novelas exploran magistral, profunda y poéticamente temas filosóficos universales como la soledad intrínseca e inevitable del ser humano, los absurdos y brutales estragos del poder político y militar, el peso aplastante del destino ineludible y la fuerza redentora del amor incondicional, a menudo acompañados e ilustrados de metáforas visuales inolvidables como imposibles lluvias torrenciales de mariposas amarillas y espectros melancólicos que se niegan a abandonar el mundo de los vivos. Su inmenso e innegable genio literario fue coronado y reconocido internacionalmente en 1982 cuando la estricta Academia Sueca le otorgó el codiciado Premio Nobel de Literatura. Conocido afectuosa y reverencialmente como \"Gabo\" por todo el continente, su extraordinario, vital e inmortal legado literario sigue cautivando, conmoviendo e inspirando corazones a nivel mundial.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué vivencias de su infancia sembraron la semilla de su imaginación literaria?",
+          "¿De qué fascinante género literario es el máximo exponente?",
+          "¿Cómo reaccionan los personajes ante los elementos sobrenaturales en sus obras?",
+          "¿Qué épica saga familiar relata su obra cumbre Cien años de soledad?",
+          "¿En qué mítico y ficticio pueblo se desarrolla su novela más famosa?",
+          "Menciona tres temas profundos que exploran magistralmente sus novelas.",
+          "¿Qué importante galardón le otorgó la Academia Sueca en 1982?"
+        ],
+        "answerKey": [
+          "Las fascinantes narraciones fantásticas, las leyendas locales y las arraigadas supersticiones populares de sus abuelos maternos.",
+          "Del \"realismo mágico\".",
+          "Los aceptan e integran con absoluta, pasmosa e incuestionable naturalidad, sin causar sorpresa alguna.",
+          "La épica, cíclica, trágica y turbulenta saga de siete generaciones condenadas de la familia Buendía.",
+          "En el mítico, aislado y ficticio pueblo bananero de Macondo.",
+          "La soledad intrínseca del ser humano, los estragos del poder político, el destino ineludible o el amor incondicional (tres de estos).",
+          "El codiciado Premio Nobel de Literatura."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Chayanne",
+    "imageFileName": "chayanne.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Chayanne is a truly legendary, incredibly talented, and deeply beloved Puerto Rican pop singer, actor, and professional dancer who has successfully captured the hearts of millions of loyal fans across Latin America and the entire world. Born Elmer Figueroa Arce on the beautiful island of Puerto Rico, he excitedly began his incredibly successful, long-lasting music career when he was just a very young boy performing in the highly popular, energetic teen music group called Los Chicos. However, he eventually achieved massive, undeniable international fame and incredible success as a solo artist during the musical booms of the 1980s and 1990s.\n\nHe is universally known and highly respected by everyone for his explosive, unstoppable physical energy on stage, his beautiful, deeply romantic ballads, and his spectacularly fast, precise dancing skills that leave audiences completely breathless. Passionate fans and music critics everywhere often refer to him respectfully as the absolute ultimate Latin pop idol of his generation. Unlike many wild, unpredictable modern artists today, Chayanne is highly famous for successfully maintaining a completely clean, extremely positive, and humble family image, along with his deep, genuine respect for his dedicated fans. His incredibly massive, catchy hit canciones (songs) like \"Torero,\" \"Dejaría Todo,\" and \"Salomé\" are absolute, timeless party classics that are still proudly played and danced to at almost every single Latin American party, romantic wedding, and family celebration today.\n\nBeyond his massive, chart-topping music, Chayanne has also successfully starred in several highly popular television telenovelas (soap operas) and feature movies, clearly proving to the world that he is a truly multi-talented, hardworking entertainer. Despite his enormous global fame, vast wealth, and many decades of constant success, he impressively remains an incredibly humble, polite man who is deeply dedicated to protecting his private family. For many millions of people, he perfectly represents the absolute ideal combination of raw talent, natural charisma, and intense hard work. Today, he amazingly continues to easily sell out massive, giant sports stadiums on his world tours, proving firmly that his incredible musical legacy will last forever.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was Chayanne born?",
+          "What group did he start in as a young boy?",
+          "What is he universally known for?",
+          "What kind of image is he famous for having?",
+          "Name one of his hit songs mentioned in the text.",
+          "What other entertainment jobs has he done besides singing?",
+          "What does he continue to do today?"
+        ],
+        "answerKey": [
+          "Puerto Rico.",
+          "The highly popular, energetic teen music group called Los Chicos.",
+          "His explosive physical energy on stage, his beautiful romantic ballads, and his spectacular dancing skills.",
+          "A completely clean, extremely positive, and humble family image.",
+          "\"Torero,\" \"Dejaría Todo,\" or \"Salomé\".",
+          "Successfully starred in several highly popular television telenovelas (soap operas) and feature movies.",
+          "Continue to easily sell out massive, giant sports stadiums on his world tours."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Chayanne es un cantante pop, actor y bailarín profesional puertorriqueño verdaderamente legendario, increíblemente talentoso y profundamente amado que ha capturado con éxito los corazones de millones de fanáticos leales en toda América Latina y el mundo entero. Nacido como Elmer Figueroa Arce en la hermosa isla de Puerto Rico, él comenzó emocionado su carrera musical increíblemente exitosa y duradera cuando era solo un niño muy joven actuando en el grupo musical de adolescentes muy popular y enérgico llamado Los Chicos. Sin embargo, finalmente alcanzó una fama internacional masiva e innegable y un éxito increíble como artista solista durante los booms musicales de los años ochenta y noventa.\n\nÉl es conocido universalmente y muy respetado por todos por su energía física explosiva e imparable en el escenario, sus baladas hermosas y profundamente románticas, y sus habilidades de baile espectacularmente rápidas y precisas que dejan al público completamente sin aliento. Los fanáticos apasionados y los críticos de música de todas partes a menudo se refieren a él respetuosamente como el ídolo del pop latino absolutamente definitivo de su generación. A diferencia de muchos artistas modernos salvajes e impredecibles de hoy, Chayanne es muy famoso por mantener con éxito una imagen familiar completamente limpia, extremadamente positiva y humilde, junto con su respeto profundo y genuino por sus fanáticos dedicados. Sus canciones increíblemente masivas y pegadizas como \"Torero\", \"Dejaría Todo\" y \"Salomé\" son clásicos de fiesta absolutos y eternos que todavía se tocan con orgullo y se bailan en casi todas las fiestas latinoamericanas, bodas románticas y celebraciones familiares hoy en día.\n\nMás allá de su música masiva que encabeza las listas, Chayanne también ha protagonizado con éxito varias telenovelas de televisión y películas muy populares, demostrando claramente al mundo que es un artista verdaderamente multitalentoso y trabajador. A pesar de su enorme fama global, gran riqueza y muchas décadas de éxito constante, él sigue siendo impresionantemente un hombre increíblemente humilde y educado que está profundamente dedicado a proteger a su familia privada. Para muchos millones de personas, él representa perfectamente la combinación ideal absoluta de talento puro, carisma natural y trabajo intenso y duro. Hoy en día, él asombrosamente continúa llenando fácilmente estadios deportivos masivos y gigantes en sus giras mundiales, demostrando firmemente que su increíble legado musical durará para siempre.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De dónde es Chayanne?",
+          "¿Cómo se llama el grupo donde comenzó de niño?",
+          "¿Por qué es universalmente conocido Chayanne?",
+          "¿Cómo es la imagen de Chayanne a diferencia de otros artistas?",
+          "Nombra una canción exitosa mencionada en el texto.",
+          "¿En qué otras cosas ha actuado además de cantar?",
+          "¿Qué sigue haciendo Chayanne hoy en día?"
+        ],
+        "answerKey": [
+          "De la hermosa isla de Puerto Rico.",
+          "El grupo musical de adolescentes muy popular y enérgico llamado Los Chicos.",
+          "Por su energía física explosiva e imparable, sus baladas profundamente románticas y sus habilidades de baile espectacularmente rápidas.",
+          "Una imagen familiar completamente limpia, extremadamente positiva y humilde.",
+          "\"Torero\", \"Dejaría Todo\" o \"Salomé\".",
+          "Ha protagonizado con éxito varias telenovelas de televisión y películas muy populares.",
+          "Continúa llenando fácilmente estadios deportivos masivos y gigantes en sus giras mundiales."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Chayanne, cuyo verdadero nombre de pila es Elmer Figueroa Arce, es un indiscutiblemente icónico, sumamente talentoso y polifacético cantante, actor y bailarín puertorriqueño que ha dejado una huella verdaderamente indeleble, profunda y perdurable en la extensa historia de la música pop latina contemporánea. Inició su prolífica y envidiable carrera artística durante su temprana infancia como integrante estrella del inmensamente popular grupo musical juvenil Los Chicos, pero fue su posterior, valiente y arriesgado lanzamiento como solista durante las competitivas décadas de los ochenta y noventa lo que lo catapultó meteórica y definitivamente al estrellato internacional y al éxito masivo de ventas.\n\nEs mundialmente reconocido y aclamado por la crítica por su inagotable y explosiva energía aeróbica en el escenario, su magistral e impecable habilidad para ejecutar complejas coreografías de baile, y su asombrosa y versátil capacidad vocal para interpretar baladas profundamente románticas y desgarradoras que conmueven almas. A lo largo de los arduos años en la industria del entretenimiento, Chayanne ha cultivado meticulosamente una imagen pública absolutamente intachable, familiar y sumamente carismática, ganándose a pulso el cariño incondicional y el profundo respeto de múltiples y diversas generaciones de seguidores. Temas rítmicos y emblemáticos como \"Torero\", \"Dejaría Todo\" y \"Salomé\" han roto barreras para convertirse en verdaderos e inmortales himnos intergeneracionales, siendo melodías absolutamente imprescindibles y obligatorias en alegres bodas, fiestas multitudinarias y celebraciones familiares a lo largo y ancho de toda Hispanoamérica e incluso en Estados Unidos.\n\nMás allá de su innegable, arrollador y sostenido éxito en la exigente industria musical global, ha incursionado triunfalmente en el mundo de la actuación, protagonizando exitosas telenovelas dramáticas y producciones cinematográficas que demuestran abiertamente su gran versatilidad artística y carisma frente a las cámaras. A pesar de gozar de una fama monumental, una fortuna inmensa durante décadas y el asedio constante de la prensa, Chayanne se caracteriza excepcionalmente por mantener una genuina, admirable y rara humildad, además de una absoluta y celosa devoción por mantener su vida familiar en estricto privado. Hoy en día, a su edad madura, sigue agotando velozmente las entradas en estadios multitudinarios a nivel mundial, demostrando con envidiable vitalidad que su vigencia escénica y su poderoso legado musical son verdaderamente inmortales.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cuál es el verdadero nombre de pila de Chayanne?",
+          "¿En qué grupo juvenil inició su prolífica carrera?",
+          "¿Qué habilidades lo han convertido en el ídolo definitivo del pop latino?",
+          "¿Cómo se describe la imagen que ha cultivado a lo largo de los años?",
+          "¿Qué tipo de eventos consideran imprescindibles sus temas emblemáticos?",
+          "¿Qué otra faceta artística demuestra su gran versatilidad?",
+          "¿Qué características personales mantiene a pesar de su fama monumental?"
+        ],
+        "answerKey": [
+          "Elmer Figueroa Arce.",
+          "El inmensamente popular grupo musical juvenil Los Chicos.",
+          "Su inagotable energía aeróbica, su magistral habilidad para el baile y su asombrosa capacidad vocal para baladas románticas.",
+          "Una imagen pública absolutamente intachable, familiar y sumamente carismática.",
+          "Alegres bodas, fiestas multitudinarias y celebraciones familiares a lo largo y ancho de toda Hispanoamérica.",
+          "Ha incursionado triunfalmente en el mundo de la actuación, protagonizando exitosas telenovelas dramáticas y producciones cinematográficas.",
+          "Una genuina y admirable humildad, además de una absoluta y celosa devoción por mantener su vida familiar en estricto privado."
+        ]
+      }
+    }
+  }
+
+
 
 
 
