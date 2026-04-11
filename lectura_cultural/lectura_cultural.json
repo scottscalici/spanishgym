@@ -3075,6 +3075,81 @@
     }
   },
   {
+    "topicName": "Francisco Lindor",
+    "imageFileName": "francisco_lindor.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Francisco Lindor, widely known everywhere by his popular, happy nickname \"Mr. Smile,\" is a brilliant, highly talented Afro-Puerto Rican professional baseball player who brings incredible joy and electricity to Major League Baseball. Born in the city of Caguas, Puerto Rico, he bravely moved to Florida with his family when he was just twelve years old to pursue his ultimate dream of becoming a professional athlete. Today, through extreme hard work, he is widely considered one of the absolute best shortstops in the entire world.\n\nLindor is incredibly famous for his exceptional defensive skills, his powerful hitting, and his vibrant, infectious personality on the baseball field. Unlike older generations of traditional players who were very strict and quiet, Lindor proudly represents a fun, expressive, and modern era of béisbol (baseball). He constantly smiles during games, interacts playfully with the excited fanáticos (fans), dyes his hair bright colors, and wears highly expressive, colorful cleats that perfectly match his massive, energetic personality.\n\nOff the field, he is deeply proud of his Afro-Latino heritage and frequently uses his massive platform to celebrate beautiful Puerto Rican culture. Lindor works incredibly hard to inspire young kids in his community, showing them that you can be highly successful, fiercely competitive, and completely authentic all at the exact same time. His unique combination of raw athletic talent and genuine love for the game makes him an absolute fan favorite and an inspiring role model for the next generation.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What is Francisco Lindor's popular nickname?",
+          "Where was he born before moving to Florida?",
+          "What position is he widely considered one of the best at playing?",
+          "How is Lindor different from older generations of baseball players?",
+          "What does he do to his hair and shoes to express his personality?",
+          "What heritage is he deeply proud of?",
+          "What does he try to show young kids about being successful?"
+        ],
+        "answerKey": [
+          "Mr. Smile.",
+          "Caguas, Puerto Rico.",
+          "Shortstop.",
+          "He is fun, vibrant, and expressive instead of strict and quiet.",
+          "He dyes his hair bright colors and wears colorful cleats.",
+          "His Afro-Latino (or Puerto Rican) heritage.",
+          "That you can be highly successful, competitive, and completely authentic all at the same time."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Francisco Lindor es un jugador de béisbol profesional brillante y muy famoso de Puerto Rico. Las personas en todas partes lo conocen por su apodo popular y feliz, \"Mr. Smile\", porque siempre tiene una gran sonrisa. Él nació en la ciudad de Caguas, Puerto Rico, y se mudó valientemente a Florida con su familia cuando tenía doce años para seguir su gran sueño de jugar béisbol profesionalmente. Hoy en día, gracias a su trabajo duro, es considerado uno de los mejores campocortos de todo el mundo.\n\nLindor es increíblemente famoso por su defensa excepcional, sus bateos poderosos y su personalidad vibrante y contagiosa en el campo de béisbol. A diferencia de los jugadores tradicionales del pasado que eran muy serios y callados, Lindor representa con orgullo una era moderna, expresiva y divertida del béisbol. Él siempre sonríe durante los juegos, juega con los fanáticos emocionados, tiñe su cabello de colores brillantes y usa zapatos muy expresivos que muestran su gran energía.\n\nFuera del campo, él es afropuertorriqueño y está profundamente orgulloso de sus raíces latinas. Frecuentemente usa su fama masiva para celebrar la hermosa cultura de Puerto Rico. Lindor trabaja mucho para inspirar a los niños de su comunidad, demostrando que es posible ser muy exitoso, competitivo y completamente auténtico al mismo tiempo. Su gran talento atlético y su amor genuino por el deporte lo hacen un modelo a seguir fantástico e inspirador.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Por qué las personas lo conocen por el apodo \"Mr. Smile\"?",
+          "¿Para qué se mudó a Florida cuando tenía doce años?",
+          "¿En qué posición es considerado uno de los mejores del mundo?",
+          "¿Cómo eran los jugadores de béisbol del pasado en comparación con él?",
+          "¿Qué accesorios de ropa usa para mostrar su gran energía?",
+          "¿De qué raíces está profundamente orgulloso?",
+          "¿Qué demuestra Lindor a los niños sobre ser exitoso?"
+        ],
+        "answerKey": [
+          "Porque siempre tiene una gran sonrisa.",
+          "Para seguir su gran sueño de jugar béisbol profesionalmente.",
+          "Campocorto.",
+          "Eran muy serios y callados.",
+          "Usa zapatos (botines) muy expresivos y coloridos.",
+          "De sus raíces latinas y afropuertorriqueñas.",
+          "Que es posible ser muy exitoso, competitivo y auténtico al mismo tiempo."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Francisco Lindor, mundialmente reconocido por su carismático y alegre apodo \"Mr. Smile\", es un deslumbrante beisbolista afropuertorriqueño que irradia una alegría y electricidad inigualables en las Grandes Ligas. Originario de la ciudad de Caguas, Puerto Rico, se trasladó valientemente a Florida junto a su familia a la temprana edad de doce años, persiguiendo tenazmente el anhelo de convertirse en un deportista de élite. En la actualidad, gracias a su disciplina inquebrantable, es unánimemente considerado uno de los campocortos más completos y espectaculares del planeta.\n\nLindor destaca y brilla no solo por su impecable destreza defensiva y su contundente poder al bate, sino también por su personalidad vibrante y magnética en el diamante. Distanciándose rotundamente de la solemnidad y rigidez de épocas pasadas, él encarna con orgullo una era moderna, expresiva y lúdica del béisbol. Sonríe constantemente durante los partidos, interactúa con efusividad con la afición, experimenta con tintes llamativos en su cabello y calza botines coloridos que reflejan su espíritu indomable.\n\nFuera del terreno de juego, está profundamente orgulloso de su herencia afrolatina y aprovecha su inmensa plataforma mediática para enaltecer continuamente la riqueza cultural de Puerto Rico. Se esfuerza incansablemente por inspirar a la juventud, demostrando que la competitividad feroz en el deporte no está reñida con la autenticidad personal. Su excelsa combinación de talento puro y pasión genuina lo consagra como un ídolo indiscutible y un embajador excepcional.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Por qué se trasladó a Florida a la temprana edad de doce años?",
+          "¿Por qué destrezas atléticas destaca unánimemente en la actualidad?",
+          "¿De qué se distancia Lindor al encarnar una era moderna y expresiva?",
+          "¿Qué elemento de su calzado refleja su espíritu indomable?",
+          "¿Qué aprovecha para enaltecer continuamente la riqueza cultural de Puerto Rico?",
+          "¿Qué demuestra a la juventud respecto a la competitividad feroz?",
+          "¿Como qué tipo de figura lo consagra su combinación de talento y pasión?"
+        ],
+        "answerKey": [
+          "Para perseguir tenazmente el anhelo de convertirse en un deportista de élite.",
+          "Por su impecable destreza defensiva y su contundente poder al bate.",
+          "Se distancia de la solemnidad y rigidez de épocas pasadas.",
+          "Calza botines coloridos.",
+          "Su inmensa plataforma mediática.",
+          "Demuestra que no está reñida con la autenticidad personal.",
+          "Como un ídolo indiscutible y un verdadero embajador del deporte caribeño."
+        ]
+      }
+    }
+  },
+  {
     "topicName": "Juan Soto",
     "imageFileName": "juan_soto.png",
     "levels": {
@@ -5700,6 +5775,81 @@
     }
   },
   {
+    "topicName": "La Guerra Civil Española y Guernica",
+    "imageFileName": "guernica.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The Spanish Civil War (la Guerra Civil Española) was an incredibly brutal, deeply devastating military conflict that completely divided the beautiful country of Spain from 1936 to 1939. The massive, bloody war was fiercely fought between two very different political groups: the Republicans who wanted a free democracy, and the right-wing Nationalists who were strictly led by the powerful, cruel military general Francisco Franco. During these three terrible, dark years, thousands of innocent Spanish families were tragically separated, and the entire country suffered from extreme violence, poverty, and destruction. General Franco ultimately won the fierce war and quickly became a strict dictator who ruled Spain for many long decades.\n\nOne of the absolute most terrible, shocking, and unforgettable events of the entire violent war happened in the quiet, peaceful northern Basque town of Guernica. On a busy, crowded market day in April 1937, fast military airplanes from Germany and Italy suddenly dropped hundreds of heavy, deadly bombs directly on the innocent, defenseless town. They completely destroyed the small village at the specific request of General Franco, who cruelly wanted to create intense terror and fear among the local people. This terrible, cowardly attack killed hundreds of innocent men, mujeres (women), and children.\n\nTo quickly and powerfully protest this horrible tragedy, the brilliant, world-famous Spanish artist Pablo Picasso passionately painted his absolute masterpiece, famously called Guernica. This massive, terrifying, and deeply emotional black-and-white mural clearly shows the extreme pain, chaos, and absolute horror of the deadly bombing, featuring screaming people, a crying mother, and terrified animals. Today, the giant painting hangs proudly in Madrid, Spain, and it is universally recognized everywhere as the ultimate, most powerful anti-war symbol in human history.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What were the two political groups fighting in the Spanish Civil War?",
+          "Who led the right-wing Nationalists and became a dictator?",
+          "What quiet Basque town was bombed in April 1937?",
+          "Which two countries sent military airplanes to drop the bombs?",
+          "Why did General Franco request the bombing of the innocent town?",
+          "What is the name of the massive mural painted by Pablo Picasso?",
+          "What is the famous painting universally recognized as today?"
+        ],
+        "answerKey": [
+          "The Republicans and the Nationalists.",
+          "The military general Francisco Franco.",
+          "Guernica.",
+          "Germany and Italy.",
+          "To create intense terror and fear among the local people.",
+          "Guernica.",
+          "The ultimate, most powerful anti-war symbol in human history."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La Guerra Civil Española fue un conflicto militar increíblemente brutal y muy devastador que dividió por completo a España desde 1936 hasta 1939. La guerra masiva y sangrienta fue luchada ferozmente entre dos grupos políticos diferentes: los republicanos que querían una democracia libre, y los nacionalistas que eran liderados estrictamente por el poderoso y cruel general Francisco Franco. Durante estos tres años terribles y oscuros, miles de familias inocentes fueron separadas trágicamente, y todo el país sufrió de violencia extrema, pobreza y destrucción. El general Franco finalmente ganó la guerra feroz y se convirtió en un dictador estricto que gobernó España por muchas largas décadas.\n\nUno de los eventos absolutamente más terribles, impactantes e inolvidables de toda la guerra violenta ocurrió en el tranquilo y pacífico pueblo vasco del norte llamado Guernica. En un día de mercado ocupado y lleno de gente en abril de 1937, aviones militares rápidos de Alemania e Italia lanzaron cientos de bombas pesadas y mortales directamente sobre el pueblo indefenso. Ellos destruyeron por completo el pequeño pueblo por la petición específica del general Franco, quien cruelmente quería crear terror y miedo intenso entre la gente local. Este ataque terrible y cobarde mató a cientos de hombres, mujeres y niños inocentes.\n\nPara protestar rápida y poderosamente contra esta horrible tragedia, el brillante y famoso artista español Pablo Picasso pintó apasionadamente su obra maestra absoluta, famosamente llamada Guernica. Este mural masivo, aterrador y profundamente emocional en blanco y negro muestra claramente el dolor extremo, el caos y el horror absoluto del bombardeo mortal, presentando personas gritando, una madre llorando y animales aterrorizados. Hoy, la pintura gigante cuelga con orgullo en Madrid, España, y es reconocida universalmente en todas partes como el símbolo contra la guerra más poderoso de la historia humana.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cuáles eran los dos grupos políticos que lucharon en la Guerra Civil Española?",
+          "¿Quién lideraba a los nacionalistas y se convirtió en un dictador estricto?",
+          "¿Qué pueblo vasco y tranquilo fue bombardeado en abril de 1937?",
+          "¿Qué dos países enviaron aviones militares rápidos para lanzar las bombas?",
+          "¿Por qué el general Franco pidió la destrucción del pueblo inocente?",
+          "¿Cómo se llama el mural masivo pintado por Pablo Picasso?",
+          "¿Como qué símbolo es reconocida la famosa pintura en la actualidad?"
+        ],
+        "answerKey": [
+          "Los republicanos y los nacionalistas.",
+          "El general Francisco Franco.",
+          "Guernica.",
+          "Alemania e Italia.",
+          "Para crear terror y miedo intenso entre la gente local.",
+          "Guernica.",
+          "Como el símbolo contra la guerra más poderoso de la historia humana."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La Guerra Civil Española fue, sin lugar a duda, uno de los conflictos bélicos más sangrientos y desgarradores de la historia europea, el cual fracturó irremediablemente a la sociedad española desde 1936 hasta 1939. Este despiadado enfrentamiento militar se libró entre dos facciones ideológicamente opuestas: el bando republicano, que defendía el gobierno democrático, y el bando nacionalista, una facción de extrema derecha férreamente liderada por el implacable general Francisco Franco. Durante estos tres años de absoluta oscuridad, el país se sumió en un abismo de pobreza, represión y destrucción sin precedentes, culminando trágicamente con la victoria absoluta de las fuerzas franquistas y el establecimiento de una rígida y represiva dictadura que asfixiaría a España durante casi cuatro décadas.\n\nUno de los episodios más infames, crueles y mundialmente repudiados de esta atroz contienda fratricida tuvo lugar en la apacible villa vasca de Guernica. El 26 de abril de 1937, coincidiendo trágicamente con el día de mercado local, letales aviones de combate de la Alemania nazi y la Italia fascista ejecutaron un brutal e indiscriminado bombardeo aéreo sobre la indefensa población civil. Este cobarde ataque, orquestado bajo las órdenes directas del general Franco, fue un cruel experimento militar diseñado para sembrar el terror psicológico más absoluto, dejando un doloroso saldo de cientos de hombres, mujeres y niños masacrados entre las ruinas humeantes de su hogar.\n\nProfundamente horrorizado e indignado por las perturbadoras noticias de la masacre, el genial pintor andaluz Pablo Picasso canalizó toda su ira para crear rápidamente su innegable obra cumbre, el monumental mural monocromático titulado Guernica. Esta inmensa, caótica y desgarradora pintura plasmó visceralmente los horrores de la guerra moderna, ilustrando cuerpos mutilados y figuras femeninas clamando piedad al cielo en medio de la destrucción. Expuesta actualmente en Madrid, esta sobrecogedora e imponente obra maestra ha trascendido su contexto histórico para erigirse eternamente como el símbolo pacifista y antimilitarista más potente y universal de la historia del arte.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cuáles fueron las dos facciones ideológicamente opuestas que se enfrentaron en la Guerra Civil Española?",
+          "¿Quién lideraba férreamente al bando nacionalista y estableció una represiva dictadura?",
+          "¿En qué apacible villa vasca tuvo lugar uno de los episodios más infames en abril de 1937?",
+          "¿Qué dos naciones enviaron letales aviones de combate para ejecutar el bombardeo aéreo?",
+          "¿Por qué el general Franco orquestó este cobarde ataque sobre la población civil?",
+          "¿Cómo se titula el monumental mural monocromático creado por Pablo Picasso?",
+          "¿Como qué símbolo se ha erigido eternamente esta imponente obra maestra?"
+        ],
+        "answerKey": [
+          "El bando republicano y el bando nacionalista.",
+          "El general Francisco Franco.",
+          "Guernica.",
+          "La Alemania nazi y la Italia fascista.",
+          "Para sembrar el terror psicológico más absoluto.",
+          "Guernica.",
+          "Como el símbolo pacifista y antimilitarista más potente y universal de la historia del arte."
+        ]
+      }
+    }
+  },
+  {
     "topicName": "Pablo Picasso",
     "imageFileName": "picasso.png",
     "levels": {
@@ -7125,6 +7275,382 @@
     }
   },
   {
+    "topicName": "El Grito de Dolores",
+    "imageFileName": "grito_dolores.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The \"Grito de Dolores\" is the most important and famous patriotic event in Mexican history. It marks the absolute beginning of the long war for independence from the powerful country of Spain. In the early morning of September 16, 1810, a brave and highly respected Catholic priest named Miguel Hidalgo y Costilla made a historic decision. He lived in the small, quiet town of Dolores, located in the state of Guanajuato. Hidalgo was deeply tired of the unfair treatment and terrible taxes that the Spanish government forced on the local people, so he decided to lead a massive rebellion to fight for freedom and justice for all.\n\nTo call the local people to action, Father Hidalgo climbed the tall tower of his church and rang the heavy metal bell as loud as possible. When the curious crowd of farmers and workers gathered in the plaza, Hidalgo gave an incredibly powerful and emotional speech. He shouted words of encouragement, famously crying out for the end of the bad government and the beginning of a free nation. Although he did not technically shout the modern phrase \"¡Viva México!\" exactly as we hear it today, his passionate cry, or 'grito', successfully inspired thousands of ordinary citizens to grab simple tools and machetes to start a revolution against the well-trained Spanish army.\n\nToday, the \"Grito de Dolores\" is the central part of the Independence Day celebrations in every city and town across Mexico. Every year on the night of September 15th, at exactly eleven o'clock, the President of Mexico stands on the balcony of the National Palace in Mexico City. He rings the exact same historic bell that Hidalgo used and loudly shouts the names of the revolutionary heroes. Millions of excited people gathered in the massive Zócalo plaza shout \"¡Viva!\" back with intense pride. It is a spectacular night filled with bright fireworks, traditional music, and delicious Mexican food, proving that the resilient spirit of independence is still very much alive.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What is the Grito de Dolores?",
+          "What year and date did the event take place?",
+          "Who was the Catholic priest that led the rebellion?",
+          "In what town and state did the Grito happen?",
+          "How did Father Hidalgo call the people to the church?",
+          "What did the people use as weapons at the start of the revolution?",
+          "What does the President of Mexico do every September 15th at 11:00 PM?"
+        ],
+        "answerKey": [
+          "The event that marks the beginning of the war for Mexican independence from Spain.",
+          "September 16, 1810.",
+          "Miguel Hidalgo y Costilla.",
+          "Dolores, Guanajuato.",
+          "By ringing the church bell as loud as possible.",
+          "Simple tools and machetes.",
+          "He rings the historic bell on the balcony of the National Palace and shouts the names of the heroes."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El Grito de Dolores es el evento patriótico más importante en la historia de México. Este evento marca el principio de la guerra larga para la independencia del país de España. En la madrugada del 16 de septiembre de 1810, un cura católico muy respetado llamado Miguel Hidalgo y Costilla tomó una decisión histórica. Él vivía en el pequeño pueblo de Dolores, en el estado de Guanajuato. Hidalgo estaba muy cansado del tratamiento injusto y de los impuestos terribles que el gobierno español obligaba a las personas locales a pagar. Por eso, él decidió liderar una rebelión masiva para luchar por la libertad y la justicia.\n\nPara llamar a las personas a la acción, el Padre Hidalgo subió a la torre de su iglesia y tocó la campana de metal muy fuerte. Cuando las personas curiosas se reunieron en la plaza, Hidalgo dio un discurso muy poderoso y emocional. Él gritó palabras de motivación para pedir el fin del mal gobierno y el inicio de una nación libre. Aunque él no gritó exactamente la frase moderna \"¡Viva México!\", su grito apasionado inspiró a miles de ciudadanos a empezar una revolución contra el ejército de España. Los campesinos usaron herramientas simples y machetes para pelear por su país.\n\nHoy en día, el Grito de Dolores es la parte central de las celebraciones del Día de la Independencia en todo México. Cada año, en la noche del 15 de septiembre a las once de la noche, el Presidente de México está en el balcón del Palacio Nacional. Él toca la misma campana histórica que usó Hidalgo y grita los nombres de los héroes de la revolución. Millones de personas en la plaza del Zócalo gritan \"¡Viva!\" con mucho orgullo. Es una noche espectacular con muchos fuegos artificiales, música tradicional y comida deliciosa. El espíritu de la independencia todavía está muy vivo en el corazón de todos los mexicanos.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué representa el Grito de Dolores?",
+          "¿En qué fecha y año ocurrió este evento?",
+          "¿Cómo se llamaba el cura que empezó la rebelión?",
+          "¿En qué estado de México está el pueblo de Dolores?",
+          "¿Qué instrumento usó Hidalgo para llamar a las personas a la plaza?",
+          "¿Por qué quería Hidalgo empezar una revolución?",
+          "¿A qué hora grita el presidente de México cada 15 de septiembre?"
+        ],
+        "answerKey": [
+          "El inicio de la guerra de independencia de México contra España.",
+          "El 16 de septiembre de 1810.",
+          "Miguel Hidalgo y Costilla.",
+          "En el estado de Guanajuato.",
+          "La campana de la iglesia.",
+          "Por el tratamiento injusto y los impuestos terribles de los españoles.",
+          "A las once de la noche."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El Grito de Dolores constituye, indiscutiblemente, el hito fundacional de la soberanía nacional mexicana y el símbolo más potente de su identidad colectiva. La madrugada del 16 de septiembre de 1810, el cura de la parroquia de Dolores, don Miguel Hidalgo y Costilla, tras ser advertido de que la conspiración de Querétaro había sido descubierta por las autoridades virreinales, decidió precipitar el levantamiento armado. Lejos de sucumbir ante el temor a las represalias de la Corona Española, Hidalgo convocó a sus feligreses para emprender una cruzada por la justicia social, la abolición de la esclavitud y la emancipación definitiva del territorio novohispano.\n\nEl rito comenzó con el tañido incesante de la campana de la parroquia, un llamado que resonó en el silencio de la noche y congregó a una multitud diversa de indígenas, mestizos y campesinos en el atrio de la iglesia. Armado únicamente con su fe y un estandarte de la Virgen de Guadalupe, Hidalgo pronunció una arenga apasionada que instaba al pueblo a derrocar al \"mal gobierno\" que los había oprimido durante tres siglos. Aunque el contenido exacto de sus palabras sigue siendo objeto de debate historiográfico, el eco de su grito fue el detonante de una insurgencia popular que transformó herramientas de labranza en armas de guerra y cambió para siempre el destino de la nación.\n\nEn la actualidad, la ceremonia del Grito es una tradición vibrante que hermana a los mexicanos en todo el mundo. El protocolo oficial alcanza su clímax cada 15 de septiembre en el Palacio Nacional, donde el Jefe del Ejecutivo, portando la banda presidencial, tañe la campana histórica y vitorea a los padres de la patria ante una marea humana congregada en el Zócalo. Esta catarsis colectiva, acompañada por el estruendo de los fuegos artificiales y los acordes del mariachi, no es solo un recordatorio del pasado heroico, sino una reafirmación anual del compromiso de México con la libertad y la autodeterminación. Es un despliegue de orgullo cultural que demuestra que el sacrificio de los insurgentes de 1810 continúa latiendo vigorosamente en el alma del pueblo.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Por qué decidió Miguel Hidalgo precipitar el levantamiento armado en septiembre de 1810?",
+          "¿Cuáles eran los tres objetivos principales de la cruzada liderada por Hidalgo?",
+          "¿Qué imagen religiosa utilizó Hidalgo como estandarte de la lucha insurgente?",
+          "¿Qué tipo de población conformaba principalmente la multitud que se congregó en el atrio?",
+          "¿Qué se conmemora exactamente durante la ceremonia oficial en el Palacio Nacional?",
+          "¿Qué objeto histórico utiliza el Presidente de México durante la celebración actual?",
+          "¿Cómo se describe la importancia de esta ceremonia para los mexicanos en la actualidad?"
+        ],
+        "answerKey": [
+          "Porque la conspiración de Querétaro había sido descubierta por las autoridades.",
+          "La justicia social, la abolición de la esclavitud y la emancipación definitiva.",
+          "La Virgen de Guadalupe.",
+          "Indígenas, mestizos y campesinos.",
+          "El pasado heroico y la reafirmación del compromiso con la libertad.",
+          "La campana histórica que usó Hidalgo.",
+          "Como un hito fundacional y un despliegue de orgullo cultural que une a los mexicanos."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Simón Bolívar",
+    "imageFileName": "simon_bolivar.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Simón Bolívar is undoubtedly one of the absolute most famous, powerful, and deeply important historical figures in all of South American history. He is universally known and proudly celebrated across the entire continent as \"El Libertador\" (The Liberator). Born in the year 1783 into a very wealthy, aristocratic family in the vibrant city of Caracas, Venezuela, he tragically lost his parents when he was just a little boy. As a young man, he traveled across the ocean to study in Europe, where he quickly learned about powerful new ideas of political freedom, human rights, and democracy. These exciting ideas deeply inspired him to passionately fight to free his beloved homeland from the strict, unfair control of the powerful Spanish Empire.\n\nAfter returning to South America, Bolívar bravely organized and led a massive, fierce rebel army in a long, bloody, and exhausting war for independence against the well-trained Spanish soldiers. One of his absolute most famous, incredible military achievements was dangerously leading his tired, freezing soldiers directly across the towering, snow-covered peaks of the Andes Mountains to launch a surprise attack on the enemy. Through brilliant military strategy and undeniable courage, he successfully helped liberate the modern-day countries of Venezuela, Colombia, Ecuador, Peru, and newly created Bolivia, which was proudly named directly in his honor!\n\nBolívar's ultimate, beautiful political dream was to unite all of these newly freed Hispanic countries together into one massive, powerful, and peaceful nation called \"Gran Colombia.\" Unfortunately, because of deep political disagreements and bitter regional conflicts among the leaders, his grand dream of total unity eventually failed and the countries separated. Despite this sad ending, Simón Bolívar is still deeply loved and highly respected today as a brilliant, heroic symbol of freedom, brave independence, and intense patriotic pride for millions of people across Latin America.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What is Simón Bolívar universally known and celebrated as?",
+          "In what vibrant South American city was he born?",
+          "Where did he travel to study and learn about political freedom?",
+          "What towering mountain range did he dangerously lead his army across?",
+          "Name two modern-day countries that he successfully helped liberate.",
+          "What was the name of the massive, united nation he dreamed of creating?",
+          "Why did his grand dream of total unity eventually fail?"
+        ],
+        "answerKey": [
+          "\"El Libertador\" (The Liberator).",
+          "Caracas, Venezuela.",
+          "Europe.",
+          "The Andes Mountains.",
+          "Venezuela, Colombia, Ecuador, Peru, or Bolivia (any two).",
+          "\"Gran Colombia.\"",
+          "Because of deep political disagreements and bitter regional conflicts among the leaders."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Simón Bolívar es sin duda una de las figuras históricas absolutamente más famosas, poderosas y muy importantes en toda la historia de América del Sur. Él es conocido y celebrado con orgullo en todo el continente como \"El Libertador\". Nacido en el año 1783 en una familia muy rica en la vibrante ciudad de Caracas, Venezuela, perdió trágicamente a sus padres cuando era solo un niño pequeño. Cuando era un hombre joven, viajó para estudiar en Europa, donde aprendió rápidamente sobre nuevas ideas poderosas de libertad política y democracia. Estas ideas lo inspiraron profundamente a luchar apasionadamente para liberar a su amada patria del control estricto e injusto del poderoso Imperio Español.\n\nDespués de regresar a América del Sur, Bolívar organizó y lideró valientemente un ejército rebelde masivo en una guerra larga, sangrienta y agotadora por la independencia contra los soldados españoles bien entrenados. ¡Uno de sus logros militares más famosos e increíbles fue liderar peligrosamente a sus soldados cansados y congelados a través de los picos altísimos y nevados de las montañas de los Andes para lanzar un ataque sorpresa al enemigo! A través de una estrategia brillante y una valentía innegable, él ayudó con éxito a liberar los países modernos de Venezuela, Colombia, Ecuador, Perú y la recién creada Bolivia, ¡nombrada orgullosamente en su honor!\n\nEl hermoso sueño político final de Bolívar era unir a todos estos países hispanos recién liberados en una nación masiva y poderosa llamada \"Gran Colombia\". Desafortunadamente, debido a profundos desacuerdos políticos y amargos conflictos regionales entre los líderes, su gran sueño de unidad total finalmente fracasó y los países se separaron. A pesar de este triste final, Simón Bolívar todavía es muy amado y muy respetado hoy como un símbolo brillante de libertad, independencia valiente y orgullo patriótico intenso para millones de personas en América Latina.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cómo es conocido y celebrado Simón Bolívar en todo el continente?",
+          "¿En qué vibrante ciudad de América del Sur nació él en 1783?",
+          "¿A dónde viajó cuando era joven para estudiar y aprender sobre libertad?",
+          "¿Qué montañas altas y nevadas cruzó peligrosamente con sus soldados?",
+          "Nombra dos países modernos que él ayudó a liberar con éxito.",
+          "¿Cómo se llamaba la nación masiva y poderosa que él soñaba con crear?",
+          "¿Por qué fracasó finalmente su gran sueño de unidad total?"
+        ],
+        "answerKey": [
+          "Como \"El Libertador\".",
+          "En Caracas, Venezuela.",
+          "A Europa.",
+          "Las montañas de los Andes.",
+          "Venezuela, Colombia, Ecuador, Perú o Bolivia (dos de estos).",
+          "\"Gran Colombia\".",
+          "Debido a profundos desacuerdos políticos y amargos conflictos regionales entre los líderes."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Simón Bolívar es, sin lugar a ninguna duda, la figura histórica, militar y política más inmensamente influyente, venerada y trascendental de toda la historia independentista de América del Sur. Universal y unánimemente aclamado bajo el glorioso e inmortal título de \"El Libertador\", nació en 1783 en el seno de una adinerada y aristocrática familia criolla en la vibrante ciudad de Caracas, Venezuela. Tras quedar trágicamente huérfano a una edad temprana, viajó en su juventud a Europa para completar su rigurosa educación. Allí se empapó ávidamente de las revolucionarias ideas de la Ilustración, asimilando conceptos fundamentales sobre la libertad, la soberanía popular y la democracia. Estas poderosas ideologías forjaron su inquebrantable determinación de emancipar a las colonias hispanoamericanas del yugo autoritario del Imperio Español.\n\nAl regresar a su continente natal, Bolívar orquestó y comandó valientemente formidables campañas militares a lo largo de décadas de una guerra sumamente cruenta, agotadora y despiadada. Una de sus proezas tácticas más legendarias y audaces fue la histórica travesía de los Andes, donde guio a su ejército exhausto a través de las gélidas e inhóspitas cumbres nevadas para emboscar exitosamente a las tropas realistas. Gracias a su brillante e inigualable genio estratégico y su carisma innegable, logró la ansiada liberación de los actuales territorios de Venezuela, Colombia, Ecuador, Perú y la recién fundada República de Bolivia, nación bautizada directamente en su inmenso honor.\n\nEl máximo y más ambicioso sueño geopolítico de Bolívar era consolidar una inmensa, unida y poderosa confederación de naciones hispanoamericanas independientes, conocida históricamente como la \"Gran Colombia\". Lamentablemente, debido a las profundas e insalvables divisiones políticas internas, las ambiciones de los caudillos locales y las amargas disputas regionalistas, este utópico proyecto de integración continental fracasó irremediablemente, disolviéndose antes de su prematura muerte. A pesar de este melancólico desenlace, el colosal e inmortal legado de Simón Bolívar perdura intacto, erigiéndose hoy como el máximo símbolo del heroísmo y la lucha incesante por la libertad en Latinoamérica.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Bajo qué glorioso e inmortal título es aclamado universalmente Simón Bolívar?",
+          "¿En el seno de qué tipo de familia nació en la ciudad de Caracas?",
+          "¿De qué revolucionarias ideas se empapó ávidamente al viajar a Europa?",
+          "¿Qué legendaria y audaz proeza táctica realizó atravesando gélidas cumbres nevadas?",
+          "¿Qué nación sudamericana fue bautizada directamente en su inmenso honor?",
+          "¿Cómo se conocía históricamente al utópico proyecto de integración continental que soñaba consolidar?",
+          "¿Qué factores internos provocaron que este ambicioso proyecto fracasara irremediablemente?"
+        ],
+        "answerKey": [
+          "Bajo el título de \"El Libertador\".",
+          "En el seno de una adinerada y aristocrática familia criolla.",
+          "De las ideas de la Ilustración, la libertad, la soberanía popular y la democracia.",
+          "La histórica travesía de los Andes para emboscar exitosamente a las tropas realistas.",
+          "La República de Bolivia.",
+          "La \"Gran Colombia\".",
+          "Las profundas divisiones políticas internas, las ambiciones de los caudillos locales y las amargas disputas regionalistas."
+        ]
+      }
+    }
+  }
+},
+  {
+    "topicName": "La Lucha Libre",
+    "imageFileName": "lucha_libre.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "La Lucha Libre is a massively popular, incredibly entertaining, and highly dramatic style of traditional professional wrestling that originally started many years ago in the vibrant country of Mexico. Today, it is famous all over the entire world for its crazy, high-flying physical acrobatics, fast-paced action, and most importantly, the beautiful, brightly colorful masks proudly worn by the strong, athletic wrestlers, who are famously called 'luchadores'. In rich Mexican culture, Lucha Libre is actually much more than just a simple, violent physical sport; it is highly theatrical, deeply emotional, and perfectly resembles a dramatic, action-packed superhero comic book magically coming to life right inside the small, square 'cuadrilátero' (wrestling ring).\n\nThe loud, exciting wrestling matches always tell a classic, simple, and dramatic story of good versus evil to the screaming audience. The 'técnicos' are the noble, honest heroes who strictly follow the rules and use complex, elegant wrestling moves to win. On the other side are the 'rudos', the bad, rule-breaking villains who constantly use dirty, unfair tricks and cheat to win the match. The absolute most important, sacred element of Lucha Libre is the 'máscara' (mask). The tight mask completely hides the brave wrestler's true personal identity and deeply represents their family honor. If a luchador sadly loses a special, high-stakes 'mask versus mask' match, they must take it off completely in front of the huge, screaming crowd, which is the ultimate, most humiliating disgrace.\n\nThe absolute most famous, beloved, and iconic luchador in all of Mexican history was named El Santo (The Saint). Wearing his beautiful, shiny silver mask, he quickly became a massive, highly respected cultural hero for millions of people. He absolutely never took off his silver mask in public, and he even famously starred as the main hero in dozens of highly popular, action-packed movies where he bravely fought against evil vampires, scary zombies, and crazy scientists. Today, because of legendary heroes like El Santo, Lucha Libre remains a permanent, powerful pillar of Mexican pop culture.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What are the Mexican wrestlers famously called?",
+          "What does a Lucha Libre match perfectly resemble inside the ring?",
+          "What classic, simple story is always told during the matches?",
+          "Who are the 'técnicos' and the 'rudos'?",
+          "What does the tight 'máscara' completely hide and represent?",
+          "What must a wrestler do if they lose a high-stakes 'mask versus mask' match?",
+          "Who was the absolute most famous and beloved luchador in Mexican history?"
+        ],
+        "answerKey": [
+          "'Luchadores'.",
+          "A dramatic, action-packed superhero comic book magically coming to life.",
+          "A classic story of good versus evil.",
+          "The 'técnicos' are noble heroes; the 'rudos' are rule-breaking villains.",
+          "It hides their true personal identity and deeply represents their family honor.",
+          "They must take it off completely in front of the screaming crowd.",
+          "El Santo (The Saint)."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La Lucha Libre es un estilo de lucha profesional masivamente popular, increíblemente entretenido y muy dramático que comenzó originalmente hace muchos años en el vibrante país de México. Hoy en día, es famosa en todo el mundo entero por sus locas acrobacias físicas en el aire, su acción rápida y, lo más importante, las hermosas y brillantes máscaras coloridas que usan con orgullo los luchadores fuertes y atléticos. En la rica cultura mexicana, la Lucha Libre es en realidad mucho más que un simple y violento deporte físico; es muy teatral, profundamente emocional y se parece perfectamente a un cómic de superhéroes dramático y lleno de acción que cobra vida mágicamente justo dentro del pequeño y cuadrado cuadrilátero.\n\nLos combates de lucha ruidosos y emocionantes siempre cuentan una historia clásica, simple y dramática del bien contra el mal a la audiencia que grita. Los 'técnicos' son los héroes nobles y honestos que siguen estrictamente las reglas y usan movimientos de lucha complejos y elegantes para ganar. En el otro lado están los 'rudos', los villanos malos que rompen las reglas y constantemente usan trucos sucios e injustos, y hacen trampa para ganar. El elemento absoluto más importante y sagrado de la Lucha Libre es la máscara. La máscara ajustada oculta completamente la verdadera identidad personal del luchador valiente y representa profundamente el honor de su familia. Si un luchador tristemente pierde un combate especial de 'máscara contra máscara', debe quitársela completamente frente a la gran multitud, lo que es la deshonra más humillante.\n\nEl luchador absolutamente más famoso, querido e icónico de toda la historia mexicana se llamaba El Santo. Usando su hermosa y brillante máscara de plata, rápidamente se convirtió en un héroe cultural masivo y muy respetado por millones de personas. Él absolutamente nunca se quitó su máscara de plata en público, e incluso actuó como el héroe principal en docenas de películas muy populares y llenas de acción donde luchó valientemente contra vampiros malvados, zombis aterradores y científicos locos. Hoy en día, gracias a héroes legendarios como El Santo, la Lucha Libre sigue siendo un pilar permanente y poderoso de la cultura pop mexicana.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cómo se llaman los luchadores fuertes y atléticos en México?",
+          "¿A qué se parece perfectamente la Lucha Libre dentro del cuadrilátero?",
+          "¿Qué historia clásica y dramática cuentan siempre los combates?",
+          "¿Quiénes son los 'técnicos' y quiénes son los 'rudos'?",
+          "¿Qué oculta completamente y qué representa la máscara ajustada?",
+          "¿Qué debe hacer un luchador si tristemente pierde un combate de 'máscara contra máscara'?",
+          "¿Cómo se llamaba el luchador absolutamente más famoso y querido de la historia mexicana?"
+        ],
+        "answerKey": [
+          "Se llaman 'luchadores'.",
+          "A un cómic de superhéroes dramático y lleno de acción que cobra vida mágicamente.",
+          "Una historia clásica del bien contra el mal.",
+          "Los 'técnicos' son héroes nobles y honestos; los 'rudos' son villanos malos que rompen las reglas.",
+          "Oculta la verdadera identidad personal y representa profundamente el honor de su familia.",
+          "Debe quitársela completamente frente a la gran multitud.",
+          "El Santo."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La Lucha Libre es un espectacular, inmensamente popular y profundamente arraigado estilo de lucha profesional originario de México, mundialmente célebre y aclamado por sus vertiginosas y temerarias acrobacias aéreas, su trepidante acción física y su inconfundible estética folclórica. Sin embargo, en el complejo tejido de la cultura mexicana, trasciende por completo la mera y brutal competencia deportiva para convertirse en una auténtica, catártica y vibrante representación teatral. Dentro de las cuerdas del sagrado cuadrilátero, los coreografiados y apasionantes combates escenifican magistralmente la eterna y dramática lucha arquetípica entre el bien y el mal, como si se tratara de un colorido y violento cómic viviente que cautiva hipnóticamente a multitudes enardecidas de absolutamente todas las edades y clases sociales.\n\nLos carismáticos protagonistas del espectáculo se dividen estricta y tradicionalmente en dos bandos antagónicos: los 'técnicos', que encarnan la nobleza pura, la técnica refinada y el respeto absoluto por las reglas establecidas; y los 'rudos', los villanos despreciables y tramposos que recurren constantemente a la intimidación, los golpes bajos y las artimañas ilegales para lograr la victoria. El pilar fundamental, místico e insustituible de este espectáculo es, indudablemente, la enigmática máscara. Esta prenda de tela no solo oculta por completo la identidad civil y el rostro del gladiador, sino que forja un aura de misterio inquebrantable y protege celosamente su honor más sagrado. Perder una codiciada apuesta de 'máscara contra máscara' y ser despojado de ella públicamente representa la máxima, más dolorosa e irreversible humillación en la carrera de un enmascarado.\n\nLa figura más legendaria, venerada e icónica de este particular universo deportivo fue El Santo, el Enmascarado de Plata. Elevado rápidamente a la incuestionable categoría de ídolo popular e invencible superhéroe de carne y hueso, El Santo jamás reveló su verdadero rostro en público durante décadas de trayectoria. Además de sus asombrosas proezas en el ring, protagonizó taquilleras y surrealistas películas de culto combatiendo valientemente contra monstruos, momias y científicos locos, consolidando definitivamente a la Lucha Libre como un elemento inquebrantable, mágico e inmortal de la rica cultura pop mexicana.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cómo se denominan los protagonistas atléticos de este espectáculo originario de México?",
+          "¿A qué se parece este espectáculo que cautiva hipnóticamente a las multitudes?",
+          "¿Qué dramática y eterna lucha arquetípica escenifican magistralmente los combates?",
+          "¿Qué encarnan los 'técnicos' y a qué recurren constantemente los 'rudos'?",
+          "¿Qué forja y qué protege celosamente la enigmática máscara del gladiador?",
+          "¿Qué representa para un enmascarado perder una codiciada apuesta de 'máscara contra máscara'?",
+          "¿Quién fue la figura más legendaria, venerada e icónica de este universo deportivo?"
+        ],
+        "answerKey": [
+          "Luchadores.",
+          "A un colorido y violento cómic viviente.",
+          "La eterna y dramática lucha arquetípica entre el bien y el mal.",
+          "Los 'técnicos' encarnan la nobleza pura y la técnica; los 'rudos' recurren a la intimidación y artimañas ilegales.",
+          "Forja un aura de misterio inquebrantable y protege celosamente su honor más sagrado.",
+          "Representa la máxima, más dolorosa e irreversible humillación en su carrera.",
+          "El Santo, el Enmascarado de Plata."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Las Empanadas",
+    "imageFileName": "empanadas.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Las empanadas are incredibly delicious, heavily stuffed, and baked or fried pastries that are highly popular and deeply beloved all across the massive regions of Latin America and Spain. The highly unique, descriptive word 'empanada' actually comes directly from the old Spanish verb 'empanar,' which literally translates to 'to wrap or coat something safely in bread.' While these tasty, convenient meat pies originally came from the country of Spain many long centuries ago, almost every single country in modern Latin America has proudly created its own unique, mouth-watering, and highly traditional version of this famous, classic dish to perfectly reflect their own rich, local culture and native ingredients.\n\nAn authentic, traditional empanada is carefully made by folding a flat, round, and soft circle of fresh dough entirely over a savory, salty, or sweet filling, and then tightly sealing the edges closed with your fingers so the hot food does not spill out. In southern countries like Argentina and Chile, the soft dough is usually made entirely from simple wheat flour, and the heavy pastries are typically baked slowly in a hot, brick oven until they are perfectly golden brown and crispy. They are typically stuffed completely full with highly seasoned ground beef, cooked white onions, salty green olives, and chopped hard-boiled eggs.\n\nHowever, if you travel far north to tropical countries like Colombia or Venezuela, the popular empanadas look and taste very different! There, the thick dough is traditionally made from bright yellow cornmeal, which beautifully gives them a bright golden color and a very loud, crunchy texture. Instead of being baked in an oven, they are quickly deep-fried in boiling hot oil and served on a plate with very spicy green salsa or fresh, cold guacamole. Whether you quickly eat them as a cheap, easy street food snack or slowly enjoy them at a massive, festive family party, hot empanadas are an undeniable, universal symbol of a highly delicious, rich Hispanic culinary tradition.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What does the Spanish verb 'empanar' literally mean?",
+          "Where did empanadas originally come from centuries ago?",
+          "How do you physically make an authentic empanada?",
+          "What kind of flour is used for the dough in Argentina and Chile?",
+          "Name two ingredients typically found inside an Argentine empanada.",
+          "What gives Colombian and Venezuelan empanadas a bright color and crunchy texture?",
+          "How are Colombian and Venezuelan empanadas cooked instead of baked?"
+        ],
+        "answerKey": [
+          "To wrap or coat something safely in bread.",
+          "The country of Spain.",
+          "By folding a flat circle of fresh dough over a filling and tightly sealing the edges closed.",
+          "Simple wheat flour.",
+          "Highly seasoned ground beef, cooked white onions, salty green olives, or chopped hard-boiled eggs (any two).",
+          "The thick dough is traditionally made from bright yellow cornmeal.",
+          "They are quickly deep-fried in boiling hot oil."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Las empanadas son masas rellenas increíblemente deliciosas que son muy populares y profundamente amadas en todas las enormes regiones de América Latina y España. La palabra única y descriptiva 'empanada' en realidad viene directamente del antiguo verbo español 'empanar', que se traduce literalmente como 'envolver o cubrir algo con seguridad en pan'. Aunque estos pasteles de carne sabrosos y convenientes originalmente vinieron del país de España hace muchos siglos largos, casi todos los países de la América Latina moderna han creado con orgullo su propia versión única, deliciosa y muy tradicional de este famoso plato clásico para reflejar perfectamente su propia cultura rica y local, y sus ingredientes nativos.\n\nUna empanada auténtica y tradicional se hace cuidadosamente doblando un círculo plano, redondo y suave de masa fresca completamente sobre un relleno sabroso, salado o dulce, y luego cerrando los bordes fuertemente con los dedos para que la comida caliente no se caiga. En los países del sur como Argentina y Chile, la masa suave generalmente se hace completamente de harina de trigo simple, y los pasteles pesados se hornean típicamente lentamente en un horno de ladrillo caliente hasta que estén perfectamente dorados y crujientes. Normalmente están rellenos completamente de carne molida muy condimentada, cebollas blancas cocinadas, aceitunas verdes saladas y huevos duros picados.\n\nSin embargo, si viajas al norte a países tropicales como Colombia o Venezuela, ¡las empanadas populares se ven y saben muy diferente! Allí, la masa gruesa se hace tradicionalmente de harina de maíz amarillo brillante, lo que les da maravillosamente un color dorado brillante y una textura muy fuerte y crujiente. En lugar de ser horneadas en un horno, se fríen rápidamente en aceite caliente y se sirven en un plato con salsa verde muy picante o guacamole fresco y frío. Ya sea que las comas rápidamente como una comida callejera barata y fácil, o las disfrutes lentamente en una fiesta familiar masiva y festiva, las empanadas calientes son un símbolo universal e innegable de una tradición culinaria hispana rica y muy deliciosa.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué verbo español antiguo viene la palabra 'empanada'?",
+          "¿De qué país europeo son originarias las empanadas?",
+          "¿Cómo se hace físicamente la forma de una empanada auténtica?",
+          "¿De qué está hecha la masa en países como Argentina y Chile?",
+          "¿Qué ingredientes tienen normalmente las empanadas horneadas de Argentina?",
+          "¿Qué tipo de harina se usa para la masa en Colombia y Venezuela?",
+          "¿Cómo se cocinan las empanadas en Colombia y Venezuela en lugar de hornearlas?"
+        ],
+        "answerKey": [
+          "Del antiguo verbo español 'empanar'.",
+          "Del país de España.",
+          "Doblando un círculo de masa fresca sobre un relleno y cerrando los bordes fuertemente con los dedos.",
+          "Completamente de harina de trigo simple.",
+          "Carne molida, cebollas blancas, aceitunas verdes saladas y huevos duros picados.",
+          "Harina de maíz amarillo brillante.",
+          "Se fríen rápidamente en aceite caliente."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Las icónicas empanadas son exquisitas y sumamente versátiles masas rellenas que constituyen, sin lugar a la menor duda, uno de los pilares gastronómicos más populares, venerados y consumidos en la inmensa totalidad del territorio de América Latina y la península de España. El descriptivo y acertado término 'empanada' deriva etimológicamente del antiguo verbo castellano 'empanar', que significa literalmente la acción de encerrar, envolver o recubrir un alimento cuidadosamente dentro de una masa de pan para proceder a su cocción. Aunque sus profundas y antiguas raíces culinarias se remontan históricamente a la Península Ibérica hace incontables siglos, absolutamente cada nación latinoamericana ha sabido adoptar, transformar y perfeccionar magistralmente esta milenaria receta, creando innumerables, deliciosas y complejas variaciones regionales que reflejan a la perfección su propia y rica identidad cultural e ingredientes autóctonos.\n\nLa preparación básica y metódica de esta delicia consiste en doblar artísticamente un disco plano de masa elástica sobre un suculento relleno, sellando firme y herméticamente los bordes con un característico y decorativo repulgue manual para evitar que los jugos se derramen. En los países del Cono Sur, como las repúblicas de Argentina y Chile, predomina ampliamente el uso de una suave masa elaborada a base de fina harina de trigo refinada. Estas robustas empanadas, clásicamente horneadas a altas temperaturas, suelen estar generosamente rellenas de un sabroso y jugoso guiso compuesto de carne de res finamente picada, cebolla blanca pochada, aceitunas verdes, huevo duro y una selecta mezcla de especias locales.\n\nPor el contrario, en las cálidas naciones caribeñas y andinas como Colombia y Venezuela, la estricta tradición popular dicta el uso exclusivo de una masa a base de harina de maíz amarillo precocido, lo que le otorga a la empanada un hermoso color dorado y una textura inigualablemente crujiente tras ser frita por inmersión en aceite hirviendo. Acompañadas siempre de un vibrante ají picante o una fresca guasacaca, las empanadas trascienden por completo las barreras y las clases sociales; son simultáneamente una comida callejera sumamente accesible, rápida y económica, y a la vez el plato central e indispensable de grandes festividades y cálidas, bulliciosas reuniones familiares.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué significa literalmente el verbo 'empanar' del cual deriva el término?",
+          "¿A qué lugar geográfico se remontan las antiguas raíces culinarias de las empanadas?",
+          "¿Qué hacen las naciones latinoamericanas para reflejar su propia identidad cultural en la receta?",
+          "¿Qué tipo de masa predomina ampliamente en el Cono Sur (Argentina y Chile)?",
+          "¿Cómo se llama el cierre decorativo manual que sella herméticamente los bordes de la masa?",
+          "¿Qué ingrediente otorga la textura inigualablemente crujiente en Colombia y Venezuela?",
+          "¿Qué estatus social o cultural tienen las empanadas según el último párrafo?"
+        ],
+        "answerKey": [
+          "La acción de encerrar, envolver o recubrir un alimento cuidadosamente dentro de una masa de pan.",
+          "A la Península Ibérica.",
+          "Crean innumerables y complejas variaciones regionales perfeccionando la milenaria receta.",
+          "Una suave masa elaborada a base de fina harina de trigo refinada.",
+          "El repulgue (repulgue manual).",
+          "Una masa a base de harina de maíz amarillo precocido frita por inmersión en aceite hirviendo.",
+          "Trascienden las clases sociales; son comida callejera accesible y el plato central de grandes festividades."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Mate",
+    "imageFileName": "mate.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "El mate is a highly traditional, deeply symbolic, and heavily caffeinated South American infused hot drink that is incredibly popular and widely consumed daily in massive countries like Argentina, Uruguay, Paraguay, and the southern region of Brazil. However, for the millions of proud local people who passionately drink it every single day, it is much, much more than just a simple, basic hot beverage to wake you up early in the morning; it is a highly powerful, living cultural symbol of warm friendship, close community, and generous hospitality.\n\nTo properly and traditionally prepare this totally unique, earthy drink, you absolutely need a very special, small cup, which is also simply called a 'mate'. This beautiful, traditional cup is carefully made out of a dried, naturally hollowed-out gourd shell. You fill the small gourd almost to the top with dried, finely crushed green leaves and small stems from the native yerba mate plant. Then, you very carefully pour hot water—but absolutely never boiling water, because it will ruin the taste—directly over the dry leaves. Instead of drinking the hot liquid directly from the edge of the cup like regular coffee, you slowly sip the warm liquid through a very special, long metal straw called a 'bombilla'. This unique metal straw has a clever built-in filter at the very bottom to safely keep the loose, bitter leaves out of your mouth while you drink.\n\nThe absolute most beautiful, special, and unique part of drinking el mate is the long, quiet social ritual. Groups of happy people frequently gather in close, tight circles at sunny outdoor parks, university campuses, or inside family homes just to peacefully share the hot drink together. One specific, dedicated person, called the 'cebador', is fully in charge of carefully preparing the mate and passing the cup to each person in the circle, one by one. Everyone happily drinks from the exact same gourd and shares the exact same metal straw, which deeply represents absolute trust, complete equality, and unbreakable unity among good friends.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "In what region of the world is el mate popular?",
+          "What does the drink culturally symbolize to the local people?",
+          "What is the traditional cup carefully made out of?",
+          "What native plant leaves are used to make the drink?",
+          "Why do you use a 'bombilla' instead of drinking directly from the cup?",
+          "Who is the 'cebador' in the circle?",
+          "What does sharing the exact same cup and metal straw deeply represent?"
+        ],
+        "answerKey": [
+          "South America (Argentina, Uruguay, Paraguay, and southern Brazil).",
+          "Warm friendship, close community, and generous hospitality.",
+          "A dried, naturally hollowed-out gourd shell.",
+          "Leaves and stems from the native yerba mate plant.",
+          "Because it is a metal straw with a built-in filter to safely keep the loose leaves out of your mouth.",
+          "The specific person fully in charge of carefully preparing the mate and passing the cup.",
+          "Absolute trust, complete equality, and unbreakable unity among good friends."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El mate es una bebida caliente sudamericana muy tradicional, profundamente simbólica y con mucha cafeína que es increíblemente popular y consumida ampliamente a diario en países masivos como Argentina, Uruguay, Paraguay y la región sur de Brasil. Sin embargo, para los millones de personas locales orgullosas que lo beben apasionadamente todos los días, es mucho, mucho más que una simple y básica bebida caliente para despertarte temprano en la mañana; es un símbolo cultural vivo y muy poderoso de amistad cálida, comunidad cercana y hospitalidad generosa.\n\nPara preparar correcta y tradicionalmente esta bebida terrosa y totalmente única, necesitas absolutamente una taza pequeña y muy especial, que también se llama simplemente 'mate'. Esta taza hermosa y tradicional está hecha cuidadosamente de la cáscara de una calabaza seca y vaciada naturalmente. Llenas la pequeña calabaza casi hasta arriba con hojas verdes secas y finamente trituradas, y tallos pequeños de la planta nativa de yerba mate. Luego, viertes con mucho cuidado agua caliente—pero absolutamente nunca agua hirviendo, porque arruinará el sabor—directamente sobre las hojas secas. En lugar de beber el líquido caliente directamente del borde de la taza como el café normal, bebes lentamente el líquido caliente a través de una pajita de metal larga y muy especial llamada 'bombilla'. Esta pajita de metal única tiene un filtro inteligente incorporado en la parte inferior para mantener de forma segura las hojas sueltas y amargas fuera de tu boca mientras bebes.\n\nLa parte absolutamente más hermosa, especial y única de beber el mate es el largo y tranquilo ritual social. Grupos de personas felices se reúnen frecuentemente en círculos cerrados en parques soleados al aire libre, campus universitarios o dentro de las casas familiares solo para compartir pacíficamente la bebida caliente juntos. Una persona específica y dedicada, llamada el 'cebador', está a cargo de preparar cuidadosamente el mate y pasar la taza a cada persona en el círculo, una por una. Todos beben felizmente de la misma calabaza exacta y comparten la misma pajita de metal exacta, lo que representa profundamente una confianza absoluta, igualdad completa y unidad inquebrantable entre buenos amigos.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué países sudamericanos es muy popular y consumido el mate?",
+          "¿Qué simboliza culturalmente esta bebida caliente para las personas locales?",
+          "¿De qué está hecha cuidadosamente la taza tradicional llamada 'mate'?",
+          "¿Qué tipo de hojas se ponen dentro de la pequeña calabaza?",
+          "¿Qué es una 'bombilla' y para qué sirve exactamente su filtro inteligente?",
+          "¿Qué hace la persona específica y dedicada llamada el 'cebador'?",
+          "¿Qué representa profundamente beber de la misma calabaza y pajita de metal?"
+        ],
+        "answerKey": [
+          "En Argentina, Uruguay, Paraguay y la región sur de Brasil.",
+          "Es un símbolo cultural poderoso de amistad cálida, comunidad cercana y hospitalidad generosa.",
+          "De la cáscara de una calabaza seca y vaciada naturalmente.",
+          "Hojas verdes secas y finamente trituradas de la planta de yerba mate.",
+          "Es una pajita de metal larga con un filtro para mantener las hojas sueltas y amargas fuera de la boca.",
+          "Está a cargo de preparar cuidadosamente el mate y pasar la taza a cada persona.",
+          "Una confianza absoluta, igualdad completa y unidad inquebrantable entre buenos amigos."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El mate es una emblemática, profunda y estimulante infusión tradicional sudamericana, consumida masiva y apasionadamente con fervor diario en vastas naciones como Argentina, Uruguay, Paraguay y la extensa región sur de Brasil. Más allá de sus innegables propiedades energizantes y vigorizantes gracias a su alto y natural contenido de cafeína, el mate trasciende por completo lo puramente gastronómico para convertirse en un poderoso, arraigado y vital símbolo cultural que representa fielmente la hospitalidad sincera, la amistad incondicional y la fuerte cohesión comunitaria.\n\nLa meticulosa preparación de esta milenaria y terrosa bebida es un verdadero arte ritual que requiere instrumentos sumamente específicos. Se utiliza un pequeño recipiente, también denominado popularmente 'mate', tradicional y artesanalmente elaborado a partir de una calabaza curada, secada y ahuecada. Este recipiente orgánico se llena parcialmente con hojas finamente trituradas y tallos secos de la planta de yerba mate, sobre las cuales se vierte cuidadosamente agua caliente a una temperatura precisa y exacta, evitando celosa y estrictamente que hierva para no quemar la delicada hierba y arruinar su sabor amargo. El reconfortante líquido se absorbe pausadamente a través de una 'bombilla', un estilizado sorbete metálico que posee un ingenioso filtro perforado en su extremo inferior diseñado específicamente para bloquear el indeseado paso de las hojas trituradas a la boca.\n\nEl aspecto sociológico más fascinante, hermoso e irremplazable del mate es su indispensable y cálido ritual social. Las personas se congregan pacíficamente en una ronda íntima en bulliciosas plazas públicas, universidades o cálidos hogares para compartir pausadamente la infusión. Una única persona, designada respetuosamente como el 'cebador', asume la importante responsabilidad de preparar y cebar (servir) el mate con maestría, pasándolo secuencialmente a cada integrante del grupo. Compartir el mismo recipiente orgánico y la misma bombilla metálica es considerado universalmente un acto supremo y desinteresado de confianza ciega, igualdad absoluta y fraternidad inquebrantable.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué innegables propiedades físicas tiene el mate debido a su contenido natural de cafeína?",
+          "¿Qué vital símbolo cultural representa el mate más allá de lo puramente gastronómico?",
+          "¿De qué material orgánico natural está elaborado tradicional y artesanalmente el recipiente?",
+          "¿Por qué se evita celosa y estrictamente que el agua hierva durante la meticulosa preparación?",
+          "¿Cuál es la función específica del ingenioso filtro perforado en el extremo inferior de la 'bombilla'?",
+          "¿Cuál es la importante responsabilidad principal de la persona designada respetuosamente como el 'cebador'?",
+          "¿Qué acto supremo e irremplazable representa compartir pacíficamente la infusión en una ronda íntima?"
+        ],
+        "answerKey": [
+          "Propiedades energizantes y vigorizantes.",
+          "La hospitalidad sincera, la amistad incondicional y la fuerte cohesión comunitaria.",
+          "De una calabaza curada, secada y ahuecada.",
+          "Para no quemar la delicada hierba y arruinar su sabor amargo.",
+          "Bloquear el indeseado paso de las hojas trituradas a la boca.",
+          "Preparar y cebar (servir) el mate con maestría, pasándolo secuencialmente a cada integrante.",
+          "Un acto supremo y desinteresado de confianza ciega, igualdad absoluta y fraternidad inquebrantable."
+        ]
+      }
+    }
+  },
+  {
     "topicName": "Selena Quintanilla",
     "imageFileName": "selena.png",
     "levels": {
@@ -7345,6 +7871,81 @@
           "Con la emocionante conquista de la Serie Mundial frente a los Yankees.",
           "Como un héroe indiscutible, un ídolo popular y un símbolo de profunda reivindicación social.",
           "Barreras culturales invisibles (atrayendo a multitudes hispanas a los estadios y sanando viejas heridas comunitarias)."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Las hermanas Mirabal",
+    "imageFileName": "hermanas_mirabal.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The Mirabal sisters, historically consisting of Patria, Minerva, and María Teresa, were three incredibly brave and deeply passionate women from the beautiful Caribbean country of the Dominican Republic who bravely fought against the brutal, violent dictator Rafael Trujillo in the 1950s. They were famously known by their secret underground political code name, \"Las Mariposas\" (The Butterflies). Trujillo was an incredibly cruel, greedy leader who tightly controlled the entire country with intense fear and violence, but the highly intelligent, well-educated sisters secretly organized a strong, powerful political resistance group to restore peace, freedom, and democracy to their beloved country.\n\nBecause of their brave, non-violent activism against the powerful, corrupt government, the three heroic 'hermanas' (sisters) and their supportive husbands were frequently arrested, heavily harassed, and locked in dark, cold prisons. However, they absolutely refused to give up and stop fighting for basic human rights and justice. Tragically, on the dark, rainy day of November 25, 1960, the evil dictator angrily ordered his secret police to stop them forever. The three brave sisters were brutally and unfairly assassinated by the police while driving home from visiting their husbands in a mountain prison, a terrible, heartbreaking event that completely shocked and angered the entire nation.\n\nInstead of successfully silencing the growing political resistance, the cruel, cowardly murder of the beloved 'Mariposas' actually sparked a massive, unstoppable public outrage that ultimately helped lead to the swift downfall and assassination of the dictator Trujillo just six short months later. Today, the legendary Mirabal sisters are globally recognized and celebrated as incredibly powerful, beautiful symbols of female empowerment, undeniable courage, and social justice everywhere. In their deep honor, the powerful United Nations officially declared November 25th as the International Day for the Elimination of Violence against Women, successfully ensuring that their brave, beautiful legacy will safely live on forever.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Who were the Mirabal sisters historically fighting against?",
+          "What was the famous secret code name used by the sisters?",
+          "What kind of group did the intelligent sisters secretly organize?",
+          "Where were the sisters driving home from when they were assassinated?",
+          "What happened to the dictator Trujillo just six short months after the murder?",
+          "What do the legendary Mirabal sisters globally symbolize today?",
+          "What official day did the United Nations declare to honor their legacy?"
+        ],
+        "answerKey": [
+          "The brutal, violent dictator Rafael Trujillo.",
+          "\"Las Mariposas\" (The Butterflies).",
+          "A strong, powerful political resistance group.",
+          "From visiting their husbands in a mountain prison.",
+          "He suffered a swift downfall and assassination.",
+          "Female empowerment, undeniable courage, and social justice.",
+          "The International Day for the Elimination of Violence against Women."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Las hermanas Mirabal (Patria, Minerva y María Teresa) fueron tres mujeres increíblemente valientes y apasionadas de la hermosa República Dominicana que lucharon valientemente contra el dictador brutal y violento Rafael Trujillo en la década de 1950. Eran famosas por su nombre en código político y secreto, \"Las Mariposas\". Trujillo era un líder increíblemente cruel que controlaba fuertemente al país con miedo intenso y violencia, pero las hermanas muy inteligentes y educadas organizaron en secreto un grupo de resistencia política fuerte y poderoso para restaurar la paz, la libertad y la democracia en su amado país.\n\nDebido a su activismo valiente contra el gobierno poderoso y corrupto, las tres heroicas hermanas y sus esposos fueron arrestados frecuentemente y encerrados en prisiones oscuras y frías. Sin embargo, ellas se negaron absolutamente a rendirse y dejar de luchar por los derechos humanos básicos y la justicia. Trágicamente, el 25 de noviembre de 1960, el dictador malvado ordenó enojado a su policía secreta detenerlas para siempre. Las tres hermanas valientes fueron asesinadas brutal e injustamente por la policía mientras conducían a casa después de visitar a sus esposos en una prisión, un evento terrible y desgarrador que enojó completamente a toda la nación.\n\nEn lugar de silenciar con éxito a la creciente resistencia política, el asesinato cruel y cobarde de las queridas 'Mariposas' provocó una indignación pública masiva e imparable que finalmente ayudó a llevar a la rápida caída y al asesinato del dictador Trujillo solo seis meses después. Hoy en día, las legendarias hermanas Mirabal son reconocidas globalmente y celebradas como símbolos increíblemente poderosos de empoderamiento femenino, valentía innegable y justicia social. En su profundo honor, las Naciones Unidas declararon oficialmente el 25 de noviembre como el Día Internacional de la Eliminación de la Violencia contra la Mujer, asegurando que su legado vivirá para siempre.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Contra quién lucharon valientemente las hermanas Mirabal en la década de 1950?",
+          "¿Cómo se llamaba el nombre en código secreto de las hermanas?",
+          "¿Qué tipo de grupo organizaron en secreto para ayudar a su país?",
+          "¿De dónde regresaban las hermanas cuando la policía secreta las detuvo?",
+          "¿Qué provocó el asesinato cruel de las queridas hermanas en la nación?",
+          "¿Qué representan los símbolos de las hermanas Mirabal en todas partes?",
+          "¿Qué día declaró oficialmente las Naciones Unidas en su profundo honor?"
+        ],
+        "answerKey": [
+          "Contra el dictador brutal y violento Rafael Trujillo.",
+          "\"Las Mariposas\".",
+          "Un grupo de resistencia política fuerte y poderoso.",
+          "De visitar a sus esposos en una prisión.",
+          "Una indignación pública masiva e imparable.",
+          "El empoderamiento femenino, la valentía innegable y la justicia social.",
+          "El Día Internacional de la Eliminación de la Violencia contra la Mujer."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Las hermanas Mirabal, conformadas por Patria, Minerva y María Teresa, fueron tres heroínas dominicanas de inquebrantable valentía que desafiaron abiertamente la brutal y represiva dictadura de Rafael Leónidas Trujillo durante la turbulenta década de 1950. Conocidas clandestinamente bajo el inspirador seudónimo de \"Las Mariposas\", estas mujeres de excepcional intelecto y férrea voluntad se convirtieron en el pilar fundamental del Movimiento Clandestino 14 de Junio. Mientras el tiránico régimen trujillista gobernaba sembrando el terror sistemático y la censura en toda la isla caribeña, las hermanas orquestaron valientemente una poderosa resistencia organizada para intentar restaurar la anhelada democracia, la libertad y la paz en su oprimida patria.\n\nComo represalia directa por su incansable activismo político en contra del gobierno totalitario, las valerosas hermanas y sus respectivos cónyuges sufrieron constante persecución, acoso implacable y repetidos encarcelamientos en las lúgubres celdas del régimen. A pesar de las constantes amenazas de muerte, ellas jamás claudicaron ni traicionaron sus ideales de justicia social. Trágicamente, el fatídico 25 de noviembre de 1960, el déspota dictador ordenó fríamente a la policía secreta que las silenciaran para siempre. Las hermanas fueron brutalmente emboscadas y asesinadas a sangre fría mientras regresaban a casa tras visitar a sus esposos encarcelados, un crimen atroz y cobarde que conmocionó profundamente a toda la nación dominicana.\n\nContrario a los macabros cálculos del tirano, el espeluznante asesinato de las queridas \"Mariposas\" no logró extinguir la disidencia; por el contrario, encendió una incontrolable indignación pública, acelerando drásticamente el inminente declive y el posterior asesinato del propio Trujillo apenas seis meses después. En la actualidad, el legado inmortal de las hermanas Mirabal ha trascendido fronteras, consolidándose globalmente como un poderoso y eterno símbolo de empoderamiento femenino y resistencia inquebrantable. En su solemne memoria, las Naciones Unidas instauraron oficialmente el 25 de noviembre como el Día Internacional de la Eliminación de la Violencia contra la Mujer, asegurando que su sacrificio heroico jamás sea olvidado por la humanidad.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿A qué líder y tipo de gobierno desafiaron abiertamente las hermanas Mirabal?",
+          "¿Bajo qué poético e inspirador seudónimo clandestino eran conocidas?",
+          "¿De qué movimiento político se convirtieron en el pilar fundamental?",
+          "¿Qué represalias sufrieron las hermanas y sus cónyuges por su incansable activismo?",
+          "¿De dónde regresaban las hermanas cuando fueron brutalmente emboscadas el 25 de noviembre?",
+          "¿Qué efecto contrario tuvo el espeluznante asesinato en la sociedad dominicana?",
+          "¿Qué día conmemorativo instauraron las Naciones Unidas para asegurar que su sacrificio jamás sea olvidado?"
+        ],
+        "answerKey": [
+          "A la brutal y represiva dictadura de Rafael Leónidas Trujillo.",
+          "Bajo el seudónimo de \"Las Mariposas\".",
+          "Del Movimiento Clandestino 14 de Junio.",
+          "Constante persecución, acoso implacable y repetidos encarcelamientos.",
+          "Regresaban a casa tras visitar a sus esposos encarcelados.",
+          "Encendió una incontrolable indignación pública que aceleró el declive de Trujillo.",
+          "El Día Internacional de la Eliminación de la Violencia contra la Mujer."
         ]
       }
     }
@@ -7945,6 +8546,156 @@
           "Titánicos bloques de hielo azul se fracturan y colapsan estruendosamente sobre el lago, provocando un ruido ensordecedor.",
           "Un extenso, laberíntico y muy seguro sistema de pasarelas metálicas panorámicas.",
           "Afilados crampones metálicos en las botas."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Mafalda",
+    "imageFileName": "mafalda.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Mafalda is a highly famous, deeply beloved comic strip character who originally comes from the beautiful country of Argentina. She was brilliantly created in the 1960s by a highly talented Argentine artist and writer named Joaquín Salvador Lavado, who was universally known by his popular nickname, Quino. Even though she is visually just a small, innocent six-year-old girl with wild, dark hair, Mafalda is actually incredibly smart and deeply concerned about the complex adult world. She constantly asks her tired parents very difficult questions about important global topics like world peace, politics, and the struggling economy, which usually leaves them completely speechless and confused!\n\nIn her famous, funny 'tiras cómicas' (comic strips), Mafalda has a very strong, unique personality. She absolutely loves peacefully listening to rock music from The Beatles, happily playing with her close friends in the neighborhood, and thinking about how to save humanity. However, there is one normal thing that she absolutely hates more than anything else in the entire world: eating hot 'sopa' (soup)! In the clever comics, soup actually represents all the boring, strict rules and terrible things that adults force children to accept against their will.\n\nEven though Quino officially stopped drawing new comics about her in the 1970s, her massive cultural impact has never disappeared. Today, Mafalda is widely considered an absolute cultural icon across all of Latin America and Europe. You can easily find her recognizable face printed on colorful shirts, school notebooks, and massive street murals. There is even a beautiful, life-sized statue of her sitting quietly on a park bench in the historic neighborhood of San Telmo in Buenos Aires, where excited tourists wait in long lines just to take a fun picture with the smartest little girl in Argentina.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Who created the famous comic strip character Mafalda?",
+          "What country is Mafalda originally from?",
+          "What topics does she ask her parents difficult questions about?",
+          "What famous music band does Mafalda absolutely love listening to?",
+          "What normal food does she absolutely hate eating more than anything else?",
+          "What does the soup represent in the comic strips?",
+          "Where can you find a life-sized statue of Mafalda sitting on a park bench?"
+        ],
+        "answerKey": [
+          "A talented Argentine artist named Joaquín Salvador Lavado (known as Quino).",
+          "Argentina.",
+          "Important global topics like world peace, politics, and the economy.",
+          "The Beatles.",
+          "Hot 'sopa' (soup).",
+          "The strict rules and terrible things that adults force children to accept.",
+          "In the historic neighborhood of San Telmo in Buenos Aires."
+        ]
+      },
+      {
+    "topicName": "La Malinche",
+    "imageFileName": "la_malinche.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "La Malinche (also historically known as Doña Marina or Malintzin) is undoubtedly one of the most famous, incredibly complex, and highly controversial historical figures in all of Mexican history. She was originally a young, brilliant indigenous woman who was sadly and unfairly given away as a slave to the powerful, ambitious Spanish conquistador Hernán Cortés when he first arrived in the Americas in the year 1519. Because she was incredibly smart and naturally possessed a massive, unique talent for quickly learning new languages, she quickly and organically became his personal, highly trusted traductora (translator) and ultimate cultural guide.\n\nMalinche was extremely important and highly influential during the bloody, dramatic, and violent Spanish conquest of the mighty Aztec Empire. Because she could perfectly and fluently speak both the local Nahuatl language of the powerful Aztecs and the older Mayan language, she successfully helped the brave but greedy Spanish soldiers safely communicate with many different, isolated indigenous tribes. She cleverly helped Cortés make important, highly strategic military alliances with angry local tribes who deeply hated the famous, powerful Aztec emperor, Moctezuma. Without her quiet, constant daily help and her deep, intimate knowledge of the land, the massive Spanish invasion would have been almost impossible.\n\nToday, La Malinche's true, complex historical legacy is still very deeply debated and highly controversial in modern Mexico. Many angry, passionate people consider her a terrible, cruel traidora (traitor) who selfishly helped the foreign European invaders completely destroy her own native people and their beautiful, ancient culture. However, many other modern historians and writers respectfully see her as a brilliant, strong, and incredibly brave survivor who cleverly used her natural intelligence to safely stay alive in a very violent, dangerous, and male-dominated world. She is undeniably recognized as the symbolic, historical mother of the modern, mixed Mexican people, beautifully known today as the mestizos.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Who was La Malinche originally given to as a slave in 1519?",
+          "What special talent made her incredibly important?",
+          "What two indigenous languages could she speak perfectly?",
+          "Who did she cleverly help the Spanish make strategic military alliances with?",
+          "Why do many angry people consider her a terrible traitor?",
+          "How do other modern historians respectfully see her?",
+          "What modern, mixed group of people is she the symbolic mother of?"
+        ],
+        "answerKey": [
+          "The powerful, ambitious Spanish conquistador Hernán Cortés.",
+          "A massive, unique talent for quickly learning new languages (translating).",
+          "The Nahuatl language and the Mayan language.",
+          "Angry local tribes who deeply hated the Aztec emperor, Moctezuma.",
+          "Because she selfishly helped the foreign European invaders completely destroy her own native people.",
+          "As a brilliant, strong, and incredibly brave survivor who cleverly used her natural intelligence to stay alive.",
+          "The modern, mixed Mexican people, beautifully known today as the mestizos."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La Malinche (también conocida históricamente como Doña Marina o Malintzin) es sin duda una de las figuras históricas más famosas, increíblemente complejas y muy controversiales de toda la historia de México. Originalmente, ella era una mujer indígena joven y brillante que tristemente e injustamente fue dada como esclava al poderoso y ambicioso conquistador español Hernán Cortés cuando él llegó por primera vez a las Américas en el año 1519. Como ella era increíblemente inteligente y tenía un talento natural y masivo para aprender nuevos idiomas rápidamente, se convirtió de forma rápida y orgánica en su traductora personal de mucha confianza y su guía cultural absoluta.\n\nMalinche fue extremadamente importante y muy influyente durante la conquista española sangrienta, dramática y violenta del poderoso imperio azteca. Como ella podía hablar perfecta y fluidamente tanto el idioma náhuatl local de los poderosos aztecas como el idioma maya más antiguo, ayudó con éxito a los soldados españoles valientes pero codiciosos a comunicarse con muchas tribus indígenas diferentes y aisladas. Ella ayudó inteligentemente a Cortés a hacer alianzas militares estratégicas e importantes con tribus locales enojadas que odiaban profundamente al famoso y poderoso emperador azteca, Moctezuma. Sin su ayuda constante y diaria, y su conocimiento profundo e íntimo de la tierra, la invasión española masiva habría sido casi imposible.\n\nHoy en día, el legado histórico verdadero y complejo de La Malinche todavía es muy debatido y muy controversial en el México moderno. Muchas personas enojadas y apasionadas la consideran una traidora terrible y cruel que ayudó egoístamente a los invasores europeos extranjeros a destruir por completo a su propio pueblo nativo y su hermosa cultura antigua. Sin embargo, muchos otros historiadores y escritores modernos la ven respetuosamente como una sobreviviente brillante, fuerte e increíblemente valiente que usó inteligentemente su inteligencia natural para mantenerse viva de manera segura en un mundo muy violento, peligroso y dominado por hombres. Ella es innegablemente reconocida como la madre simbólica e histórica del pueblo mexicano moderno y mixto, hermosamente conocido hoy como los mestizos.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿A quién fue dada La Malinche como esclava en el año 1519?",
+          "¿Qué talento especial la hizo increíblemente importante?",
+          "¿Qué dos idiomas indígenas podía hablar ella perfectamente?",
+          "¿Con quién ayudó a hacer alianzas militares estratégicas e importantes?",
+          "¿Por qué la consideran una traidora terrible muchas personas enojadas?",
+          "¿Cómo la ven respetuosamente muchos historiadores modernos?",
+          "¿De qué grupo moderno y mixto es ella la madre simbólica?"
+        ],
+        "answerKey": [
+          "Al poderoso y ambicioso conquistador español Hernán Cortés.",
+          "Un talento natural y masivo para aprender nuevos idiomas rápidamente (traductora).",
+          "El idioma náhuatl local y el idioma maya más antiguo.",
+          "Con tribus locales enojadas que odiaban profundamente al emperador azteca, Moctezuma.",
+          "Porque ayudó egoístamente a los invasores europeos a destruir por completo a su propio pueblo nativo.",
+          "Como una sobreviviente brillante, fuerte e increíblemente valiente que usó su inteligencia natural para mantenerse viva.",
+          "Del pueblo mexicano moderno y mixto, hermosamente conocido hoy como los mestizos."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La Malinche, históricamente también conocida bajo los nombres de Doña Marina o Malintzin, es indiscutiblemente una de las figuras femeninas más célebres, enigmáticas y profundamente polarizantes de toda la compleja y sangrienta historia de México. Originalmente, era una joven y brillante mujer indígena que, tras sufrir diversas y dolorosas tragedias personales, fue trágicamente entregada como esclava tributaria al audaz y ambicioso conquistador español Hernán Cortés a su repentina llegada a las costas mesoamericanas en el histórico año de 1519. Poseedora de una aguda inteligencia analítica y una facilidad innata e inigualable para la lingüística, se convirtió velozmente en la traductora personal indispensable, la principal consejera estratégica y la guía cultural absoluta de las codiciosas tropas europeas.\n\nSu constante intervención diplomática fue un factor absolutamente crucial y determinante durante la violenta, cruenta y dramática conquista del poderoso e imponente Imperio Mexica. Gracias a su envidiable dominio y fluidez perfecta del náhuatl (el idioma dominante de los aztecas) y diversas lenguas mayenses, logró tender un vital e histórico puente de comunicación entre dos mundos completamente aislados y desconocidos. Malintzin facilitó hábilmente que Cortés forjara alianzas militares estratégicas y masivas con numerosos pueblos indígenas subyugados, como los feroces tlaxcaltecas, quienes albergaban un profundo y amargo resentimiento contra el tiránico dominio del emperador Moctezuma. Sin su astuta y constante mediación verbal, la audaz invasión española habría estado irremediablemente destinada al fracaso absoluto.\n\nEn el México contemporáneo, el complejo e imborrable legado histórico de La Malinche continúa siendo objeto de un intenso, apasionado y doloroso debate nacional. Para un sector profundamente nacionalista, ella encarna físicamente la figura de la peor traidora imaginable; una mujer desleal que facilitó activa y egoístamente la dolorosa destrucción de su propia raza y la aniquilación casi total de las grandes civilizaciones precolombinas. Sin embargo, diversos historiadores y feministas modernas reivindican firmemente su imagen hoy en día, reevaluándola con empatía como una mujer increíblemente resiliente, brillante y pragmática que utilizó astutamente su intelecto excepcional para sobrevivir y navegar un mundo patriarcal y sumamente hostil. Hoy en día, es reconocida universalmente como la madre simbólica y fundacional del mestizaje, el rico crisol cultural y racial que define orgullosamente a la nación mexicana moderna.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Con qué otros nombres es conocida históricamente esta enigmática figura femenina?",
+          "¿A quién fue entregada trágicamente como esclava tributaria en el año 1519?",
+          "¿Qué habilidades la convirtieron en la traductora personal indispensable de las tropas?",
+          "¿Qué idiomas indígenas dominaba con envidiable fluidez para tender un puente de comunicación?",
+          "¿Con quiénes facilitó hábilmente que Cortés forjara alianzas militares estratégicas?",
+          "¿Por qué un sector profundamente nacionalista la considera la peor traidora imaginable?",
+          "¿De qué rico crisol cultural y racial es reconocida como la madre simbólica y fundacional?"
+        ],
+        "answerKey": [
+          "Bajo los nombres de Doña Marina o Malintzin.",
+          "Al audaz y ambicioso conquistador español Hernán Cortés.",
+          "Una aguda inteligencia analítica y una facilidad innata e inigualable para la lingüística.",
+          "El náhuatl (el idioma dominante de los aztecas) y diversas lenguas mayenses.",
+          "Con numerosos pueblos indígenas subyugados, como los feroces tlaxcaltecas.",
+          "Porque facilitó activa y egoístamente la dolorosa destrucción de su propia raza y civilizaciones precolombinas.",
+          "Del mestizaje, que define orgullosamente a la nación mexicana moderna."
+        ]
+      }
+    }
+  },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Mafalda es un personaje de tira cómica muy famosa y profundamente querida que viene originalmente del hermoso país de Argentina. Ella fue creada brillantemente en la década de 1960 por un artista y escritor argentino talentoso llamado Joaquín Salvador Lavado, conocido universalmente por su apodo popular, Quino. Aunque visualmente ella es solo una niña pequeña e inocente de seis años con cabello oscuro, Mafalda es en realidad increíblemente inteligente y está muy preocupada por el complejo mundo de los adultos. ¡Ella constantemente hace a sus padres cansados preguntas muy difíciles sobre temas globales importantes como la paz mundial, la política y la economía, lo que normalmente los deja completamente sin palabras y confundidos!\n\nEn sus divertidas y famosas tiras cómicas, Mafalda tiene una personalidad muy fuerte y única. A ella le encanta absolutamente escuchar música de Los Beatles de forma pacífica, jugar felizmente con sus amigos cercanos en el barrio y pensar en cómo salvar a la humanidad. Sin embargo, hay una cosa normal que ella odia absolutamente más que cualquier otra cosa en el mundo entero: ¡comer sopa caliente! En los cómics inteligentes, la sopa en realidad representa todas las reglas aburridas y estrictas, y las cosas terribles que los adultos obligan a los niños a aceptar en contra de su voluntad.\n\nAunque Quino dejó oficialmente de dibujar nuevos cómics sobre ella en la década de 1970, su impacto cultural masivo nunca ha desaparecido. Hoy en día, Mafalda es considerada ampliamente un ícono cultural absoluto en toda América Latina y Europa. Puedes encontrar fácilmente su cara reconocible impresa en camisas coloridas, cuadernos escolares y murales callejeros masivos. Incluso hay una hermosa estatua de tamaño real de ella sentada tranquilamente en un banco en el barrio histórico de San Telmo en Buenos Aires, donde los turistas emocionados esperan en largas filas solo para tomar una foto divertida con la niña más inteligente de Argentina.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Quién creó al famoso personaje de tira cómica Mafalda?",
+          "¿De qué país sudamericano es originaria Mafalda?",
+          "¿Sobre qué temas difíciles le hace preguntas a sus padres?",
+          "¿Qué banda de música famosa le encanta escuchar?",
+          "¿Qué comida normal odia comer más que cualquier otra cosa en el mundo?",
+          "¿Qué representa exactamente la sopa en los cómics?",
+          "¿En qué barrio histórico de Buenos Aires hay una estatua de ella sentada en un banco?"
+        ],
+        "answerKey": [
+          "Un artista y escritor argentino talentoso llamado Joaquín Salvador Lavado (Quino).",
+          "De Argentina.",
+          "Sobre temas globales importantes como la paz mundial, la política y la economía.",
+          "Los Beatles.",
+          "La sopa caliente.",
+          "Las reglas estrictas y las cosas terribles que los adultos obligan a aceptar a los niños.",
+          "En el barrio histórico de San Telmo."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Mafalda es, indiscutiblemente, el personaje de tira cómica más emblemático, venerado e influyente de la cultura popular argentina y de toda Hispanoamérica. Fue concebida magistralmente en la agitada década de los sesenta por el brillante e ingenioso humorista gráfico Joaquín Salvador Lavado, conocido global y cariñosamente bajo el seudónimo de Quino. A pesar de ser representada visualmente como una inocente niña de apenas seis años con una rebelde y abundante cabellera oscura, Mafalda posee en realidad una madurez intelectual asombrosa y una profunda preocupación por el caótico rumbo del mundo contemporáneo. Cuestiona implacablemente a sus abnegados y exhaustos padres con interrogantes políticas, filosóficas y sociales de enorme complejidad, abordando sin tapujos temas espinosos como la paz mundial, la burocracia y la desigualdad económica, dejándolos frecuentemente atónitos y sumidos en el más absoluto silencio.\n\nDentro del genial microcosmos de sus tiras cómicas, Mafalda exhibe una personalidad sumamente definida, rebelde y cautivadora. Es una ferviente admiradora de la banda británica Los Beatles, disfruta plácidamente de los juegos infantiles con su diverso grupo de amigos del barrio y reflexiona constantemente sobre cómo redimir a la humanidad. No obstante, existe un elemento cotidiano que le provoca una aversión visceral e insuperable: la sopa. En la brillante sátira de Quino, este odiado plato caliente trasciende lo puramente culinario para erigirse hábilmente como una potente metáfora del autoritarismo opresivo y las convenciones absurdas que los adultos intentan imponer forzosamente sobre las nuevas generaciones.\n\nAunque Quino tomó la firme decisión de dejar de publicar nuevas aventuras a principios de los años setenta, su arrollador impacto cultural e ideológico jamás se ha desvanecido. En la actualidad, su inconfundible figura es un verdadero ícono atemporal de agudeza mental en toda América Latina y Europa. Como un merecido tributo a su legado eterno, existe una hermosa escultura a escala real de Mafalda sentada plácidamente en un banco del tradicional y bohemio barrio porteño de San Telmo en Buenos Aires. Allí, multitudes de turistas devotos hacen largas filas diariamente para retratarse junto a la niña más perspicaz de la historia argentina.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Quién creó al famoso personaje de tira cómica Mafalda?",
+          "¿De qué país sudamericano es originaria Mafalda?",
+          "¿Sobre qué temas difíciles le hace preguntas a sus padres?",
+          "¿Qué banda de música famosa le encanta escuchar?",
+          "¿Qué comida normal odia comer más que cualquier otra cosa en el mundo?",
+          "¿Qué representa exactamente la sopa en los cómics?",
+          "¿En qué barrio histórico de Buenos Aires hay una estatua de ella sentada en un banco?"
+        ],
+        "answerKey": [
+          "El brillante e ingenioso humorista gráfico Joaquín Salvador Lavado (Quino).",
+          "De Argentina.",
+          "Sobre temas de enorme complejidad como la paz mundial, la burocracia y la desigualdad económica.",
+          "Los Beatles.",
+          "La sopa (un odiado plato caliente).",
+          "Es una potente metáfora del autoritarismo opresivo y las convenciones absurdas que los adultos intentan imponer.",
+          "En el tradicional y bohemio barrio porteño de San Telmo."
         ]
       }
     }
@@ -8845,6 +9596,156 @@
           "Al frenético, percusivo y profundo ritmo de los tambores de la música de bomba.",
           "Encarnaban físicamente a los demonios y a los moros que debían ser simbólicamente vencidos por los cristianos.",
           "El profundo sincretismo de las fuertes raíces africanas, españolas y taínas."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Las Madres de Plaza de Mayo",
+    "imageFileName": "madres_plaza_mayo.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Las Madres de Plaza de Mayo is an incredibly brave and powerful movement of mothers in Argentina who fought for justice during a very dark time. Between 1976 and 1983, Argentina was ruled by a brutal military dictatorship (una dictadura militar). During this period, the government secretly arrested and kidnapped thousands of people who disagreed with them. These victims simply disappeared without a trace and became known as 'los desaparecidos'. The families had no idea where their children were, and the police refused to give them any information or help.\n\nIn April 1977, a small group of fourteen mothers, led by Azucena Villaflor, decided to meet in the center of Buenos Aires at the Plaza de Mayo, right in front of the presidential palace. Because the government prohibited groups from standing still in public, the mothers began to walk slowly in circles around the plaza's central monument. To recognize each other and show their peaceful intent, they wore white headscarves (pañuelos blancos) made from their children’s baby blankets. This became their iconic symbol. Every Thursday afternoon, more and more mothers joined the march, bravely defying the dangerous soldiers to demand the truth: '¿Dónde están nuestros hijos?' (Where are our children?).\n\nEven after democracy returned to Argentina, the mothers continued their fight. They eventually split into different groups, but their core mission remained the same: memory, truth, and justice. They also helped form the 'Abuelas de Plaza de Mayo' (Grandmothers), who specifically search for the babies who were stolen during the dictatorship. Today, their legacy is a global symbol of resistance and human rights. Their persistent walking for over forty years proves that the love of a mother is stronger than fear. They are a permanent reminder to the world that we must never forget the past.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Who are 'los desaparecidos' in Argentine history?",
+          "What was the main goal of the Mothers of Plaza de Mayo?",
+          "Why did the mothers have to walk in circles instead of standing still?",
+          "What did the mothers wear on their heads as a symbol?",
+          "What was the white headscarf originally made from?",
+          "On what day of the week did the mothers meet in the plaza?",
+          "Who are the 'Abuelas de Plaza de Mayo' looking for?"
+        ],
+        "answerKey": [
+          "Thousands of people who were kidnapped and disappeared by the military dictatorship.",
+          "To find their missing children and demand truth and justice.",
+          "Because the government prohibited groups from standing still in public.",
+          "White headscarves (pañuelos blancos).",
+          "Their children's baby blankets.",
+          "Every Thursday afternoon.",
+          "The babies who were stolen during the dictatorship (their grandchildren)."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Las Madres de Plaza de Mayo son un grupo de mujeres muy valientes de Argentina que lucharon por la justicia. Entre los años 1976 y 1983, Argentina tuvo una dictadura militar muy cruel. Durante este tiempo, el gobierno arrestó a miles de personas que no estaban de acuerdo con los líderes. Estas personas desaparecieron y nadie sabía dónde estaban. Por eso, se llaman 'los desaparecidos'. Las familias estaban muy tristes y desesperadas porque la policía no quería ayudar ni dar información sobre sus hijos.\n\nEn abril de 1977, un grupo de catorce madres decidió reunirse en la Plaza de Mayo en Buenos Aires. Ellas querían hablar con el presidente para preguntar por sus hijos. Como el gobierno no permitía grupos de personas paradas en la calle, las madres caminaron en círculos alrededor del monumento de la plaza. Para identificarse, las madres usaron pañuelos blancos en la cabeza. Estos pañuelos eran originalmente las mantas de tela de sus hijos cuando eran bebés. Todos los jueves, las madres regresaban a la plaza para caminar juntas y pedir la verdad.\n\nAunque la dictadura terminó hace muchos años, las madres todavía caminan cada jueves. Ellas son un símbolo mundial de los derechos humanos y la paz. También existe el grupo de las 'Abuelas de Plaza de Mayo', que busca a los nietos que fueron robados durante la guerra. Las madres enseñaron al mundo que el amor de una familia es más fuerte que el miedo. Hoy en día, hay monumentos y pañuelos pintados en el suelo de la plaza para recordar su historia y su lucha constante por la memoria y la justicia.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué país ocurrió la historia de las Madres de Plaza de Mayo?",
+          "¿Quiénes son 'los desaparecidos'?",
+          "¿Por qué caminaban las madres en círculos en la plaza?",
+          "¿Qué accesorio usaban en la cabeza para identificarse?",
+          "¿Qué eran originalmente los pañuelos blancos?",
+          "¿Qué día de la semana se reúnen las madres en la plaza?",
+          "¿Qué busca el grupo de las 'Abuelas de Plaza de Mayo'?"
+        ],
+        "answerKey": [
+          "En Argentina.",
+          "Personas que el gobierno arrestó y que desaparecieron sin dejar rastro.",
+          "Porque el gobierno no permitía que los grupos estuvieran parados en público.",
+          "Pañuelos blancos.",
+          "Las mantas de tela de sus hijos cuando eran bebés.",
+          "Todos los jueves.",
+          "A los nietos que fueron robados durante la dictadura."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Las Madres de Plaza de Mayo constituyen uno de los movimientos de resistencia civil más emblemáticos y trascendentales de la historia contemporánea. Surgieron como respuesta al terrorismo de Estado implantado por la última dictadura militar en Argentina (1976-1983), un régimen que sistemáticamente secuestró, torturó y asesinó a miles de ciudadanos. Bajo la figura de 'la desaparición forzada', el Estado negaba cualquier vínculo con las víctimas, dejando a las familias en un limbo jurídico y emocional. Ante la inacción de las instituciones y el silencio cómplice de la prensa, un grupo de madres decidió que el amor por sus hijos superaba cualquier temor a las represalias del ejército.\n\nEl 30 de abril de 1977, catorce mujeres se congregaron en la histórica Plaza de Mayo, frente a la Casa Rosada. Al ser intimadas por la policía a 'circular' debido al estado de sitio, las mujeres comenzaron a caminar de a dos, brazo con brazo, alrededor de la Pirámide de Mayo. Este acto de 'circular' se convirtió en un ritual desafiante que se repite cada jueves desde hace más de cuatro décadas. Para visibilizar su causa durante una procesión religiosa, utilizaron pañuelos blancos en la cabeza, confeccionados con los pañales de tela de sus hijos desaparecidos. Lo que comenzó como un reclamo individual por el paradero de sus seres queridos se transformó rápidamente en una organización política que denunciaba las violaciones a los derechos humanos ante la comunidad internacional.\n\nEl legado de las Madres y de las Abuelas de Plaza de Mayo ha sido fundamental para el proceso de memoria, verdad y justicia en Argentina. Gracias a su persistencia, se han logrado anular leyes de impunidad y llevar a juicio a los responsables de los crímenes de lesa humanidad. Las Abuelas, en particular, han logrado restituir la identidad de más de 130 nietos que habían sido apropiados ilegalmente. La pañuelo blanco es hoy un ícono universal de lucha pacífica y dignidad. Estas mujeres transformaron su dolor privado en una herramienta de cambio social, demostrando que la búsqueda de la verdad es una responsabilidad colectiva que no prescribe con el tiempo.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué contexto histórico surge el movimiento de las Madres?",
+          "¿Qué implicaba legal y emocionalmente la 'desaparición forzada'?",
+          "¿Cuál fue el origen del ritual de caminar en círculos cada jueves?",
+          "¿Qué simbolismo encierra el uso del pañuelo blanco?",
+          "¿Cómo reaccionó la comunidad internacional ante sus denuncias?",
+          "¿Cuál es la diferencia principal entre la misión de las Madres y las Abuelas?",
+          "¿Qué impacto legal han tenido sus décadas de protesta en la Argentina actual?"
+        ],
+        "answerKey": [
+          "Surge durante la última dictadura militar argentina (1976-1983).",
+          "Que el Estado negaba el vínculo con las víctimas, dejándolas en un limbo jurídico y emocional.",
+          "Fue una respuesta a la orden policial de 'circular', prohibiendo que estuvieran paradas en público.",
+          "Representa la identidad de sus hijos (hechos con pañales de tela) y la paz de su lucha.",
+          "Lograron visibilizar las violaciones a los derechos humanos a nivel mundial.",
+          "Las Madres buscan a sus hijos; las Abuelas buscan específicamente a sus nietos robados.",
+          "Se anularon leyes de impunidad y se juzgó a los responsables de crímenes de lesa humanidad."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Milagro de los Andes",
+    "imageFileName": "milagro_andes.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The \"Milagro de los Andes\" (Miracle of the Andes) is undoubtedly one of the most incredible, shocking, and deeply inspiring true stories of human survival in all of modern history. In the freezing month of October 1972, a small airplane carrying a young Uruguayan amateur rugby team, along with their close friends and familias (families), tragically crashed high up in the remote, snow-covered Andes Mountains. Many passengers sadly died in the initial crash, but several young men miraculously survived the terrible impact. However, they were completely lost and trapped in one of the absolute coldest, most dangerous, and unforgiving environments on the entire planet Earth.\n\nFor many long, terrifying weeks, the desperate survivors bravely faced freezing, sub-zero temperatures, deadly mountain avalanches, and extreme, painful starvation. Because they had absolutely no comida (food) left in the broken airplane and were completely surrounded by miles of solid ice and white snow, they were eventually forced to make a very difficult, heartbreaking, and shocking decision. To stay alive, they agreed to eat the frozen bodies of their dead friends. It was a deeply tragic, sad, but absolutely necessary choice for their physical survival in the freezing mountains.\n\nAfter waiting patiently for 72 long days and realizing that no rescue helicopters were coming to save them, two incredibly brave players, Nando Parrado and Roberto Canessa, heroically decided to climb the massive, freezing mountains without any special climbing gear. They walked for ten exhausting days through the deadly snow until they finally found a local man riding a horse, who quickly called the police for help. Thanks to their massive courage, sixteen thin, exhausted survivors were miraculously rescued and brought safely back home, powerfully proving the incredible, unstoppable power of the human spirit.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What year did the tragic airplane crash happen?",
+          "Who was traveling on the airplane?",
+          "Where did the airplane tragically crash?",
+          "What difficult decision were the survivors forced to make to stay alive?",
+          "How many days did the survivors wait before taking action?",
+          "Who bravely decided to climb the massive mountains to find help?",
+          "How many survivors were miraculously rescued in the end?"
+        ],
+        "answerKey": [
+          "October 1972.",
+          "A young Uruguayan amateur rugby team, along with their friends and families.",
+          "High up in the remote, snow-covered Andes Mountains.",
+          "To eat the frozen bodies of their dead friends.",
+          "72 long days.",
+          "Two incredibly brave players, Nando Parrado and Roberto Canessa.",
+          "Sixteen."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El \"Milagro de los Andes\" es sin duda una de las historias reales de supervivencia humana más increíbles, impactantes y profundamente inspiradoras de toda la historia moderna. En el mes muy frío de octubre de 1972, un avión pequeño que llevaba a un equipo joven de rugby aficionado uruguayo, junto con sus amigos cercanos y familias, se estrelló trágicamente en lo alto de las montañas nevadas y remotas de los Andes. Muchos pasajeros murieron tristemente en el accidente inicial, pero varios hombres jóvenes sobrevivieron milagrosamente al terrible impacto. Sin embargo, estaban completamente perdidos y atrapados en uno de los lugares absolutamente más fríos, peligrosos e implacables de todo el planeta Tierra.\n\nDurante muchas semanas largas y aterradoras, los sobrevivientes desesperados enfrentaron valientemente temperaturas muy frías bajo cero, avalanchas mortales en la montaña y un hambre extrema y muy dolorosa. Como no tenían absolutamente nada de comida en el avión roto y estaban completamente rodeados por millas de hielo sólido y nieve blanca, finalmente tuvieron que tomar una decisión muy difícil, desgarradora e impactante. Para mantenerse vivos, acordaron comer los cuerpos congelados de sus amigos muertos. Fue una opción profundamente trágica y triste, pero absolutamente necesaria para su supervivencia física en las montañas heladas.\n\nDespués de esperar pacientemente por 72 días largos y darse cuenta de que los helicópteros de rescate no iban a salvarlos, dos jugadores increíblemente valientes, Nando Parrado y Roberto Canessa, decidieron heroicamente escalar las montañas masivas y heladas sin ningún equipo especial de escalada. Caminaron durante diez días agotadores por la nieve mortal hasta que finalmente encontraron a un hombre local montando a caballo, quien rápidamente llamó a la policía para pedir ayuda. Gracias a su valor masivo, dieciséis sobrevivientes delgados y agotados fueron rescatados milagrosamente y llevados a casa a salvo, demostrando el poder imparable del espíritu humano.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué año y mes ocurrió el trágico accidente de avión?",
+          "¿Quiénes viajaban en el avión que se estrelló?",
+          "¿En qué lugar específico se estrelló trágicamente el avión?",
+          "¿Qué decisión muy difícil tuvieron que tomar para mantenerse vivos?",
+          "¿Por cuántos días esperaron pacientemente los sobrevivientes?",
+          "¿Quiénes decidieron heroicamente escalar las montañas para buscar ayuda?",
+          "¿Cuántos sobrevivientes fueron rescatados milagrosamente al final?"
+        ],
+        "answerKey": [
+          "En el mes muy frío de octubre de 1972.",
+          "Un equipo joven de rugby uruguayo, junto con sus amigos cercanos y familias.",
+          "En lo alto de las montañas nevadas y remotas de los Andes.",
+          "Acordaron comer los cuerpos congelados de sus amigos muertos.",
+          "Por 72 días largos.",
+          "Dos jugadores increíblemente valientes, Nando Parrado y Roberto Canessa.",
+          "Dieciséis sobrevivientes."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El evento mundialmente conocido como el \"Milagro de los Andes\" constituye, sin lugar a la menor duda, una de las crónicas de supervivencia extrema más desgarradoras, asombrosas e inspiradoras de toda la historia contemporánea de la humanidad. En el gélido mes de octubre de 1972, un avión militar fletado que transportaba al equipo amateur de rugby uruguayo Old Christians Club, acompañado de sus ilusionados familiares y amigos, se estrelló catastrófica y violentamente contra las escarpadas y desoladas cumbres de la inmensa cordillera de los Andes. Aunque el brutal impacto inicial cobró trágicamente la vida de numerosos pasajeros, un grupo de jóvenes logró sobrevivir milagrosamente al siniestro, quedando irremediablemente aislados y atrapados en uno de los entornos naturales más hostiles, gélidos e implacables del planeta Tierra.\n\nA lo largo de semanas interminables y llenas de absoluta angustia, los desesperados sobrevivientes tuvieron que soportar estoicamente condiciones climáticas infrahumanas, temperaturas nocturnas letales bajo cero, avalanchas devastadoras que sepultaron el fuselaje y una inanición severa. Al agotar rápidamente las escasas provisiones que quedaban y encontrarse rodeados por un vasto e interminable desierto de hielo y nieve, se vieron forzados a tomar la decisión moralmente más agónica, dolorosa y desgarradora de sus vidas: recurrir a la antropofagia, consumiendo los restos congelados de sus queridos compañeros fallecidos para evitar morir de inanición. Fue un pacto de vida extremo, nacido puramente de la más profunda desesperación humana.\n\nTras aguardar en vano durante 72 interminables días y aceptar con dolor que la búsqueda oficial había sido suspendida, dos valerosos y decididos jóvenes, Nando Parrado y Roberto Canessa, emprendieron una expedición heroica y casi suicida, escalando las colosales montañas sin ningún tipo de equipo de alpinismo ni ropa adecuada. Tras caminar exhaustos durante diez extenuantes días, lograron hacer contacto visual con un arriero chileno, quien cabalgó inmediatamente para alertar a las autoridades locales. Gracias a su inquebrantable heroísmo y enorme sacrificio, dieciséis demacrados sobrevivientes fueron finalmente rescatados, dejando al mundo entero un testimonio eterno e imborrable sobre la asombrosa resiliencia y el triunfo absoluto del indomable espíritu humano.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué año y mes ocurrió el accidente del equipo de rugby uruguayo?",
+          "¿En qué cordillera se estrelló catastróficamente el avión fletado?",
+          "¿Qué condiciones climáticas y desastres enfrentaron a lo largo de las semanas?",
+          "¿Qué decisión moralmente agónica y dolorosa se vieron forzados a tomar?",
+          "¿Cuántos días aguardaron en vano antes de emprender la expedición?",
+          "¿Quiénes emprendieron la heroica expedición escalando las colosales montañas?",
+          "¿Cuántos demacrados sobrevivientes fueron rescatados al final de la odisea?"
+        ],
+        "answerKey": [
+          "En el gélido mes de octubre de 1972.",
+          "En las escarpadas y desoladas cumbres de la inmensa cordillera de los Andes.",
+          "Temperaturas nocturnas letales bajo cero, avalanchas devastadoras y una inanición severa.",
+          "Recurrir a la antropofagia, consumiendo los restos congelados de sus compañeros fallecidos.",
+          "Aguardaron en vano durante 72 interminables días.",
+          "Los valerosos jóvenes Nando Parrado y Roberto Canessa.",
+          "Dieciséis demacrados sobrevivientes."
         ]
       }
     }
