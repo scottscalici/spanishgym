@@ -7423,8 +7423,7 @@
         ]
       }
     }
-  }
-},
+  },
   {
     "topicName": "La Lucha Libre",
     "imageFileName": "lucha_libre.png",
@@ -8576,8 +8575,10 @@
           "The strict rules and terrible things that adults force children to accept.",
           "In the historic neighborhood of San Telmo in Buenos Aires."
         ]
+      }
+    }
       },
-      {
+    {
     "topicName": "La Malinche",
     "imageFileName": "la_malinche.png",
     "levels": {
@@ -8648,10 +8649,7 @@
           "Con numerosos pueblos indígenas subyugados, como los feroces tlaxcaltecas.",
           "Porque facilitó activa y egoístamente la dolorosa destrucción de su propia raza y civilizaciones precolombinas.",
           "Del mestizaje, que define orgullosamente a la nación mexicana moderna."
-        ]
-      }
-    }
-  },
+        ],
       "level_2": {
         "tier": "Level 2 (Structured Spanish/Spanish II)",
         "readingText": "Mafalda es un personaje de tira cómica muy famosa y profundamente querida que viene originalmente del hermoso país de Argentina. Ella fue creada brillantemente en la década de 1960 por un artista y escritor argentino talentoso llamado Joaquín Salvador Lavado, conocido universalmente por su apodo popular, Quino. Aunque visualmente ella es solo una niña pequeña e inocente de seis años con cabello oscuro, Mafalda es en realidad increíblemente inteligente y está muy preocupada por el complejo mundo de los adultos. ¡Ella constantemente hace a sus padres cansados preguntas muy difíciles sobre temas globales importantes como la paz mundial, la política y la economía, lo que normalmente los deja completamente sin palabras y confundidos!\n\nEn sus divertidas y famosas tiras cómicas, Mafalda tiene una personalidad muy fuerte y única. A ella le encanta absolutamente escuchar música de Los Beatles de forma pacífica, jugar felizmente con sus amigos cercanos en el barrio y pensar en cómo salvar a la humanidad. Sin embargo, hay una cosa normal que ella odia absolutamente más que cualquier otra cosa en el mundo entero: ¡comer sopa caliente! En los cómics inteligentes, la sopa en realidad representa todas las reglas aburridas y estrictas, y las cosas terribles que los adultos obligan a los niños a aceptar en contra de su voluntad.\n\nAunque Quino dejó oficialmente de dibujar nuevos cómics sobre ella en la década de 1970, su impacto cultural masivo nunca ha desaparecido. Hoy en día, Mafalda es considerada ampliamente un ícono cultural absoluto en toda América Latina y Europa. Puedes encontrar fácilmente su cara reconocible impresa en camisas coloridas, cuadernos escolares y murales callejeros masivos. Incluso hay una hermosa estatua de tamaño real de ella sentada tranquilamente en un banco en el barrio histórico de San Telmo en Buenos Aires, donde los turistas emocionados esperan en largas filas solo para tomar una foto divertida con la niña más inteligente de Argentina.",
@@ -8696,81 +8694,6 @@
           "La sopa (un odiado plato caliente).",
           "Es una potente metáfora del autoritarismo opresivo y las convenciones absurdas que los adultos intentan imponer.",
           "En el tradicional y bohemio barrio porteño de San Telmo."
-        ]
-      }
-    }
-  },
-  {
-    "topicName": "El Flamenco",
-    "imageFileName": "flamenco.png",
-    "levels": {
-      "level_1": {
-        "tier": "Level 1 (English/Beginner)",
-        "readingText": "El Flamenco is an incredibly passionate, intense, loud, and deeply emotional traditional art form and musical style that originally started long ago in the beautiful, hot, and sunny southern region of Andalusia, Spain. Historically, this deeply powerful, dramatic tradition was passionately created by the poor, marginalized, and struggling Roma people, who are widely and commonly known in Spain as 'los gitanos'. They bravely used this highly expressive music and loud singing to deeply express their absolute deepest sorrows, painful struggles, and also their greatest, most passionate joys in life. A true, authentic, and complete flamenco performance is carefully composed of exactly three essential, powerful elements happily working perfectly together at the same time: 'el cante' (the loud, emotional singing), 'el toque' (the fast, beautiful acoustic guitar playing), and 'el baile' (the incredibly intense, stomping dancing).\n\nWhen you sit down to excitedly watch a live, authentic flamenco performance in a small theater, the serious, focused dancers beautifully express highly intense, deep human emotions like painful heartbreak, pure anger, deep sorrow, and fierce, fiery pride directly through their very rapid, sharp, and powerful body movements. The beautiful, elegant women performing the dance typically wear tight-fitting, gorgeous traditional dresses heavily covered with many layers of long, flowing, colorful ruffles, while the serious men usually wear sharp, elegant dark suits and highly specialized, hard-heeled black boots. One of the absolute most important, famous, and unique physical parts of any good flamenco show is the incredibly fast and highly complex rhythm, which is created very organically and naturally through 'las palmas' (loud, intricate hand-clapping) and the extremely loud, heavy, and fast rhythmic stomping of the dancers' wooden shoes directly on a hollow wooden stage.\n\nThe incredibly rapid, beautiful, and highly dramatic melody of the skilled acoustic guitar player completely controls the mood and the tense atmosphere of the entire dark room. Today, beautiful flamenco is happily celebrated, respected, and proudly danced worldwide, and it is even officially recognized and protected by the important global organization UNESCO as a highly precious, intangible cultural heritage of all humanity. It is definitely much, much more than just a simple, pretty dance to entertain tourists on vacation; it is a profound, deeply living, and intensely emotional expression of the true, raw human soul.",
-        "instruction": "Answer the following questions according to the text.",
-        "questions": [
-          "Where did Flamenco originate?",
-          "Who historically created this powerful tradition?",
-          "What are the three essential elements of true flamenco?",
-          "What emotions do the dancers express through their movements?",
-          "What do women typically wear during a performance?",
-          "How is the complex rhythm organically created?",
-          "What international organization officially recognizes flamenco today?"
-        ],
-        "answerKey": [
-          "The southern region of Andalusia, Spain.",
-          "The marginalized Roma people, known in Spain as 'los gitanos'.",
-          "'El cante', 'el toque', and 'el baile'.",
-          "Heartbreak, pure anger, deep sorrow, and fierce pride.",
-          "Tight-fitting, gorgeous traditional dresses covered with layers of flowing ruffles.",
-          "Through 'las palmas' (hand-clapping) and the loud rhythmic stomping of wooden shoes.",
-          "UNESCO."
-        ]
-      },
-      "level_2": {
-        "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "El flamenco es una forma de arte y estilo musical increíblemente apasionado, intenso, ruidoso y profundamente emocional que comenzó originalmente hace mucho tiempo en la hermosa, calurosa y soleada región sur de Andalucía, España. Históricamente, esta poderosa y dramática tradición fue creada apasionadamente por el pueblo marginado y pobre de los romaníes, que son ampliamente conocidos en España como 'los gitanos'. Ellos valientemente usaron esta música muy expresiva y su canto fuerte para expresar profundamente sus mayores tristezas, sus luchas dolorosas y también sus alegrías más grandes y apasionadas en la vida. Un espectáculo de flamenco verdadero, auténtico y completo está cuidadosamente compuesto de exactamente tres elementos esenciales y poderosos que trabajan perfectamente juntos al mismo tiempo: el cante (el canto fuerte y emocional), el toque (tocar la guitarra acústica de manera rápida y hermosa) y el baile (el baile increíblemente intenso y de zapateo).\n\nCuando te sientas a mirar emocionado un auténtico espectáculo de flamenco en vivo en un teatro pequeño, los bailarines serios y concentrados expresan maravillosamente emociones humanas muy intensas y profundas como el dolor doloroso, el enojo puro, la tristeza profunda y el orgullo feroz y ardiente directamente a través de sus movimientos corporales muy rápidos, afilados y poderosos. Las mujeres hermosas y elegantes que realizan el baile normalmente llevan vestidos hermosos y ajustados, muy cubiertos con muchas capas de volantes largos, fluidos y coloridos, mientras que los hombres serios normalmente llevan trajes oscuros elegantes y afilados, y botas negras de tacón duro muy especializadas. Una de las partes absolutamente más importantes, famosas y únicas de cualquier buen espectáculo de flamenco es el ritmo increíblemente rápido y muy complejo, que se crea de manera muy orgánica y natural a través de 'las palmas' (aplausos fuertes y complicados) y el zapateo rítmico extremadamente fuerte, pesado y rápido de los zapatos de madera de los bailarines directamente en un escenario de madera hueco.\n\nLa melodía increíblemente rápida, hermosa y muy dramática del hábil jugador de guitarra acústica controla completamente el estado de ánimo y la atmósfera tensa de toda la habitación oscura. Hoy en día, el hermoso flamenco se celebra felizmente, se respeta y se baila con orgullo en todo el mundo, e incluso es reconocido y protegido oficialmente por la importante organización global UNESCO como un precioso e intangible patrimonio cultural de toda la humanidad. Definitivamente es mucho, mucho más que un simple baile bonito para entretener a los turistas de vacaciones; es una expresión profunda, viva e intensamente emocional del alma humana verdadera.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿En qué región del sur de España se originó el flamenco?",
-          "¿Qué pueblo marginado creó históricamente esta poderosa tradición?",
-          "¿Cuáles son los tres elementos esenciales del verdadero flamenco?",
-          "¿Qué emociones intensas expresan los bailarines en vivo?",
-          "¿Qué tipo de ropa llevan las mujeres normalmente?",
-          "¿Cómo se crea de forma natural el ritmo complejo del baile?",
-          "¿Qué organización internacional reconoce oficialmente el flamenco hoy en día?"
-        ],
-        "answerKey": [
-          "En la hermosa, calurosa y soleada región sur de Andalucía.",
-          "El pueblo marginado de los romaníes ('los gitanos').",
-          "El cante, el toque y el baile.",
-          "El dolor doloroso, el enojo puro, la tristeza profunda y el orgullo feroz.",
-          "Vestidos hermosos y ajustados con capas de volantes largos y coloridos.",
-          "A través de 'las palmas' y el zapateo rítmico fuerte de los zapatos en el escenario.",
-          "La UNESCO."
-        ]
-      },
-      "level_3": {
-        "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "El apasionado flamenco es una expresión artística escénica deslumbrante, feroz y profundamente visceral que tiene sus arraigadas y oscuras raíces ancestrales sólidamente plantadas en la ardiente, soleada y diversa región de Andalucía, al extremo sur de la península de España. Históricamente, esta poderosa, dolorosa e intensa manifestación cultural y rítmica fue concebida y forjada hace muchos siglos por el sufrido y marginado pueblo nómada gitano, quienes utilizaban brillante e instintivamente este crudo arte sonoro como un vital y necesario vehículo catártico para canalizar, gritar y desahogar públicamente sus penas más hondas, su discriminación histórica y, esporádicamente, sus alegrías vitales más desbordantes y puras. El espectáculo flamenco auténtico, puro y tradicional se articula simbióticamente en torno a tres pilares expresivos fundamentales que se entrelazan de manera magistral e indisoluble sobre las tablas: el lamento del cante (la voz aguda y desgarradora), la maestría del toque (el rápido y percusivo rasgueo en la guitarra acústica española) y el ímpetu rítmico del baile.\n\nDurante un íntimo, caluroso y humeante tablao en vivo, los concentrados y serios 'bailaores' logran transmitir con una facilidad asombrosa un auténtico e inundante torrente de emociones humanas sumamente intensas a la extasiada audiencia, viajando drásticamente desde la asfixiante angustia y el amargo desamor hasta la radiante euforia y la indomable rebeldía pura, expresadas únicamente mediante movimientos corporales sumamente tensos, giros precisos, posturas altivas, rápidos contoneos y expresiones faciales dramáticas y enérgicas. Físicamente, las elegantes mujeres suelen lucir espectaculares vestidos ceñidos adornados con pesados volantes en cascada o las voluminosas e icónicas batas de cola que acentúan grácilmente su femenina figura al moverse, mientras que los adustos hombres visten con elegancia impecables trajes sobrios, chalecos cortos y ruidosas botas de tacón macizo. Un elemento acústico definitorio e inconfundible del flamenco purista es su veloz e intrincada polirritmia de fondo, generada y mantenida total y orgánicamente en vivo a través del agudo sonido de 'las palmas' compasadas y el ensordecedor, frenético e imparable zapateado de los bailarines golpeando brutalmente sobre el resonante tablado de madera hueca.\n\nEl toque guitarrístico vertiginoso, virtuoso y altamente dramático de la percusiva guitarra española es lo que invariablemente marca el exigente compás y domina dictatorialmente la cargada y silenciosa atmósfera emocional de todo el recinto iluminado. Hoy en día, esta inmensa y valorada disciplina folclórica trasciende exitosa y ruidosamente todas las fronteras geográficas, siendo fervientemente enseñada, admirada y ovacionada en inmensos teatros desde Japón hasta América, y siendo reconocida oficialmente por la prestigiosa UNESCO como intocable Patrimonio Cultural Inmaterial de la Humanidad, consagrándose en la historia mundial como un brillante, inquebrantable y desgarrador grito eterno e inmortal del alma hispana.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿En qué región se encuentran las raíces ancestrales de esta expresión artística?",
-          "¿Para qué utilizaba el marginado pueblo gitano esta manifestación cultural?",
-          "¿En torno a qué tres pilares fundamentales se articula el flamenco auténtico?",
-          "¿Qué tipo de emociones transmiten los 'bailaores' mediante sus movimientos?",
-          "¿Cómo se genera orgánicamente la intrincada polirritmia del flamenco?",
-          "¿Qué instrumento domina dramáticamente la atmósfera del recinto?",
-          "¿Cómo reconoce la UNESCO al flamenco en la actualidad?"
-        ],
-        "answerKey": [
-          "En la ardiente, soleada y diversa región de Andalucía, al extremo sur de España.",
-          "Como un vital y necesario vehículo catártico para canalizar, gritar y desahogar públicamente sus penas más hondas.",
-          "El lamento del cante (la voz), la maestría del toque (la guitarra) y el ímpetu rítmico del baile.",
-          "Emociones humanas sumamente intensas, viajando desde la asfixiante angustia y el desamor hasta la radiante euforia y rebeldía pura.",
-          "A través del agudo sonido de 'las palmas' compasadas y el ensordecedor zapateado sobre el tablado de madera.",
-          "La percusiva guitarra española (el toque guitarrístico).",
-          "Como Patrimonio Cultural Inmaterial de la Humanidad."
         ]
       }
     }
