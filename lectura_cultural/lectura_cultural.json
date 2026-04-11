@@ -8923,8 +8923,382 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "Alfonso Cuarón",
+    "imageFileName": "alfonso_cuaron.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Alfonso Cuarón is an incredibly brilliant, highly respected, and world-famous Mexican film director, screenwriter, and producer who has left a massive, unforgettable mark on global cinema history. Born in the vibrant, busy metropolis of Mexico City, he quickly developed a deep, passionate love for storytelling and creative filmmaking at a very young age. He is famous worldwide for making visually stunning, deeply emotional movies that very often use incredibly long, unbroken, continuous camera shots to pull the excited audience directly into the intense action of the story without any cuts.\n\nOne of his absolute most popular, successful, and beloved movies is the magical fantasy film Harry Potter y el prisionero de Azkaban. When he directed this amazing movie, he radically and beautifully changed the dark visual style, the serious tone, and the magical atmosphere of the entire famous fantasy series. Cuarón's immense, undeniable talent and hard work have impressively earned him the highly prestigious Academy Award for Best Director twice! He first won this massive honor for his intense, terrifying space thriller called Gravity, a breathtaking movie that pushed the absolute boundaries of modern special effects.\n\nHe proudly won again for his beautiful, highly emotional black-and-white masterpiece called Roma. The movie Roma is a deeply personal, intimate, and very special project because it beautifully tells the emotional, true story of his own childhood growing up in the busy Roma neighborhood of Mexico City. Through this incredible film, he lovingly honors the strong, hardworking mujeres (women), especially the indigenous domestic workers, who safely raised him, protected his family, and shaped his entire life. His unique, powerful ability to perfectly blend advanced technical perfection with profound, relatable human emotion makes him one of the absolute most respected and important directors working in Hollywood today.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What is his profession?",
+          "Where was he born?",
+          "What camera technique is he famous for?",
+          "Which Harry Potter movie did he direct?",
+          "How many times did he win Best Director?",
+          "What is the movie Roma about?",
+          "Who does Roma honor?"
+        ],
+        "answerKey": [
+          "Director, screenwriter, producer.",
+          "Mexico City.",
+          "Long, continuous shots.",
+          "Harry Potter y el prisionero de Azkaban.",
+          "Twice.",
+          "His childhood in Mexico City.",
+          "The women who raised him."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Alfonso Cuarón es un director, guionista y productor de cine mexicano increíblemente brillante y muy respetado que ha dejado una marca masiva e inolvidable en la historia del cine global. Nacido en la metrópolis vibrante y ocupada de la Ciudad de México, él desarrolló rápidamente un amor profundo y apasionado por contar historias y hacer películas creativas a una edad muy joven. Es famoso en todo el mundo por crear películas visualmente espectaculares y muy emocionales que frecuentemente usan tomas de cámara increíblemente largas y continuas para llevar a la audiencia emocionada directamente a la acción intensa de la historia sin cortes.\n\nUna de sus películas absolutamente más populares, exitosas y queridas es la película mágica de fantasía Harry Potter y el prisionero de Azkaban. Cuando él dirigió esta película asombrosa, él cambió radical y hermosamente el estilo visual oscuro, el tono serio y la atmósfera mágica de toda la famosa serie de fantasía. ¡El talento inmenso e innegable de Cuarón y su trabajo duro le han ganado el muy prestigioso Premio de la Academia (Óscar) al Mejor Director dos veces! Ganó este honor masivo por primera vez por su intenso y aterrador thriller espacial llamado Gravity, una película impresionante que empujó los límites absolutos de los efectos especiales modernos.\n\nÉl ganó de nuevo con orgullo por su hermosa y muy emocional obra maestra en blanco y negro llamada Roma. La película Roma es un proyecto profundamente personal, íntimo y muy especial porque cuenta maravillosamente la historia emocional y verdadera de su propia niñez creciendo en el barrio ocupado de Roma en la Ciudad de México. A través de esta película increíble, él honra con mucho amor a las mujeres fuertes y trabajadoras, especialmente a las trabajadoras domésticas indígenas, que lo criaron de manera segura y formaron su vida entera. Su habilidad única y poderosa para mezclar perfectamente la perfección técnica con la emoción humana profunda lo hace uno de los directores más respetados hoy en día.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De dónde es Cuarón?",
+          "¿Qué le gustaba hacer desde niño?",
+          "¿Qué técnica de cámara usa mucho?",
+          "¿Qué película de magia dirigió?",
+          "¿Cuántas veces ganó el Óscar a Mejor Director?",
+          "¿Por qué es especial la película Roma?",
+          "¿A quién honra en Roma?"
+        ],
+        "answerKey": [
+          "De la Ciudad de México.",
+          "Contar historias y hacer películas.",
+          "Tomas largas y continuas.",
+          "Harry Potter y el prisionero de Azkaban.",
+          "Dos veces.",
+          "Porque es en blanco y negro y cuenta su niñez.",
+          "A las mujeres que lo criaron."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Alfonso Cuarón es un aclamado, visionario y sumamente talentoso director, guionista y productor mexicano cuya extraordinaria y vanguardista visión artística ha dejado una huella verdaderamente indeleble en la cinematografía mundial contemporánea. Nacido y criado en la efervescente Ciudad de México, descubrió su inquebrantable pasión por el séptimo arte y la narrativa visual desde su temprana juventud. Cuarón es universalmente célebre por su asombrosa maestría técnica y su característico e innovador uso de prolongados e ininterrumpidos planos secuencia, una compleja técnica cinematográfica que logra sumergir profundamente al espectador directamente en el corazón palpitante de la narrativa sin cortes artificiales.\n\nSu tremenda versatilidad creativa lo ha llevado a dirigir magistralmente desde exitosísimas superproducciones comerciales, como la icónica Harry Potter y el prisionero de Azkaban—la cual redefinió por completo el tono estético y la atmósfera madura de toda la franquicia—hasta obras maestras profundamente íntimas y personales. Ha hecho historia imborrable al ganar en dos ocasiones el codiciado y prestigioso premio Óscar al Mejor Director de la Academia de Hollywood. Su primer galardón llegó con la angustiante y sobrecogedora odisea espacial Gravity, una proeza técnica inigualable que revolucionó los efectos visuales modernos.\n\nPosteriormente, triunfó de nuevo y con rotundo éxito internacional con Roma, una película filmada magistralmente en un deslumbrante y nostálgico blanco y negro. Esta última obra maestra es un retrato cinematográfico sumamente personal, honesto y conmovedor que explora los recuerdos de su propia infancia en la pintoresca colonia Roma de la capital mexicana durante los años setenta. A través de este emotivo filme autobiográfico, Cuarón rinde un sincero, doloroso y hermoso homenaje a las mujeres matriarcales, y muy especialmente a las abnegadas trabajadoras del hogar de origen indígena, que lo criaron con amor incondicional y sostuvieron a su familia. Su innegable capacidad para entrelazar armónicamente la innovación tecnológica con un profundo y genuino humanismo lo consolida firmemente como un gigante indiscutible del cine contemporáneo.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cuál es su técnica visual característica?",
+          "¿Qué película redefinió el tono de una franquicia?",
+          "¿Cuántos Óscar a Mejor Director ha ganado?",
+          "¿Por qué película espacial ganó un galardón?",
+          "¿En qué formato fue filmada Roma?",
+          "¿De qué trata principalmente Roma?",
+          "¿A quién rinde homenaje en esta obra?"
+        ],
+        "answerKey": [
+          "Planos secuencia ininterrumpidos.",
+          "Harry Potter y el prisionero de Azkaban.",
+          "Dos.",
+          "Gravity.",
+          "Blanco y negro.",
+          "Su propia infancia en la colonia Roma.",
+          "A las mujeres y trabajadoras del hogar que lo criaron."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Karol G",
+    "imageFileName": "karol_g.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Karol G is a massively famous, incredibly talented, and highly successful Colombian pop singer and songwriter who has completely taken the entire world by storm with her catchy music and incredible talent. Born in the beautiful, mountainous city of Medellín, Colombia, she is currently one of the absolute biggest and most popular global stars in both the rhythmic reggaetón and Latin pop music scenes. Her real, legal name is Carolina Giraldo Navarro, but millions of dedicated fans everywhere around the globe know and love her by her famous, short stage name.\n\nShe is internationally famous for writing and producing massive, energetic hit canciones (songs) like \"Tusa,\" \"Provenza,\" and \"TQG.\" These popular, catchy songs have billions of streams and views online, playing constantly at parties and on the radio. Karol G proudly and loudly calls herself the \"Bichota.\" In her own confident words, this popular slang term simply means a strong, fiercely empowered, and highly independent woman who is completely in charge of her own life, her career, and her destiny. She is always very proud of her vibrant, colorful Colombian culture and enthusiastically represents her beautiful home country on the massive international stage.\n\nThrough her catchy, upbeat music and her constantly positive, happy attitude, she actively tries to inspire other mujeres (women) and young girls everywhere to be highly confident, fiercely independent, and bravely unapologetic. Because of her extreme hard work, she has deservedly won multiple prestigious Latin Grammy Awards and regularly sells out massive, giant sports stadiums all around the world for her concerts. Karol G recently broke major, historic records by miraculously having a Spanish-language album reach number one on the competitive United States Billboard charts, perfectly proving to everyone that good music is truly a universal language.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was Karol G born?",
+          "What is her real name?",
+          "What genres of music does she sing?",
+          "Name one of her hit songs.",
+          "What slang term does she proudly call herself?",
+          "What does \"Bichota\" mean according to her?",
+          "What record did she break in the United States?"
+        ],
+        "answerKey": [
+          "Medellín, Colombia.",
+          "Carolina Giraldo Navarro.",
+          "Reggaetón and Latin pop.",
+          "\"Tusa\", \"Provenza\", or \"TQG\".",
+          "\"Bichota\".",
+          "A strong, empowered woman in charge of her life.",
+          "First Spanish-language album to reach number one."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Karol G es una cantante y compositora de pop colombiana masivamente famosa, increíblemente talentosa y muy exitosa que ha conquistado completamente al mundo entero con su música pegadiza y su talento increíble. Nacida en la hermosa y montañosa ciudad de Medellín, Colombia, ella es actualmente una de las estrellas globales absolutamente más grandes y populares en los géneros rítmicos del reguetón y el pop latino. Su nombre real y legal es Carolina Giraldo Navarro, pero millones de fanáticos dedicados en todo el mundo la conocen y la aman por su famoso y corto nombre artístico.\n\nElla es internacionalmente famosa por escribir y producir canciones exitosas, masivas y enérgicas como \"Tusa\", \"Provenza\" y \"TQG\". Estas canciones populares y pegadizas tienen miles de millones de reproducciones y vistas en internet, sonando constantemente en las fiestas y en la radio. Karol G se llama a sí misma la \"Bichota\" con mucho orgullo y en voz alta. En sus propias palabras seguras, esta popular palabra de jerga simplemente significa una mujer fuerte, ferozmente empoderada y muy independiente que tiene el control total de su propia vida, su carrera y su destino. Ella siempre está muy orgullosa de su cultura colombiana vibrante y colorida, y representa con entusiasmo a su hermoso país natal en el escenario internacional masivo.\n\nA través de su música pegadiza y alegre, y su actitud constantemente positiva y feliz, ella intenta activamente inspirar a otras mujeres y chicas jóvenes en todas partes a ser muy seguras de sí mismas, ferozmente independientes y valientes. Por su trabajo extremadamente duro, ella ha ganado merecidamente múltiples y prestigiosos premios Latin Grammy, y regularmente vende todas las entradas de estadios deportivos masivos y gigantes en todo el mundo para sus conciertos. Karol G recientemente rompió récords históricos y mayores al hacer milagrosamente que un álbum en español llegara al número uno en las competitivas listas de Estados Unidos, demostrando perfectamente a todos que la buena música es verdaderamente un lenguaje universal.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde nació Karol G?",
+          "¿Cuál es su nombre real?",
+          "¿Qué tipo de música canta?",
+          "Nombra una de sus canciones famosas.",
+          "¿Cómo le gusta llamarse a sí misma?",
+          "¿Qué significa \"Bichota\" para ella?",
+          "¿Qué récord rompió en los Estados Unidos?"
+        ],
+        "answerKey": [
+          "En Medellín, Colombia.",
+          "Carolina Giraldo Navarro.",
+          "Reggaetón y pop latino.",
+          "\"Tusa\", \"Provenza\" o \"TQG\".",
+          "La \"Bichota\".",
+          "Una mujer fuerte, empoderada y con control total.",
+          "Su álbum en español fue el número uno."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Karol G es una aclamada, influyente e indiscutible superestrella colombiana que ha logrado redefinir por completo el competitivo panorama de la música urbana a nivel mundial durante la última década. Nacida en la vibrante y pujante ciudad de Medellín bajo el nombre de Carolina Giraldo Navarro, ha logrado romper valientemente innumerables barreras de género en los ritmos tradicionalmente dominados por hombres, como el reguetón y el pop latino. A lo largo de su impresionante y meteórica carrera, ha lanzado éxitos globales indiscutibles y virales como \"Tusa\", \"Provenza\" y \"TQG\", acumulando asombrosamente miles de millones de reproducciones orgánicas en todas las plataformas digitales de streaming.\n\nKarol G popularizó masivamente el pegajoso y sonoro término urbano \"Bichota\", un poderoso concepto lingüístico que ella misma utiliza y promueve para representar fielmente el empoderamiento femenino radical, la autoconfianza inquebrantable y la independencia absoluta de la mujer moderna frente a las adversidades. Como una orgullosa, carismática y leal embajadora de la riquísima cultura colombiana, siempre se asegura de enaltecer y celebrar sus raíces latinas en cada escenario internacional monumental que pisa con firmeza. Su música no solo domina consistentemente las listas de popularidad radiales, sino que también sirve como un faro de inspiración vital para que una nueva generación de mujeres abrace su fuerza interior sin complejos ni remordimientos.\n\nPor su indiscutible talento y esfuerzo titánico, ha sido galardonada repetidamente con múltiples y codiciados premios Latin Grammy y actualmente agota en tiempo récord las entradas de estadios masivos globalmente durante sus multitudinarias giras mundiales. Además, hizo historia imborrable en la industria musical al convertirse oficialmente en la primera mujer latina en llevar un álbum interpretado íntegramente en español al anhelado primer puesto de las prestigiosas, dominantes y exigentes listas de éxitos de los Estados Unidos (Billboard 200), consolidando su eterno legado.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad colombiana nació Karol G?",
+          "¿Cuáles son dos de los géneros musicales en los que destaca?",
+          "¿Qué término popularizó para representar el empoderamiento?",
+          "¿Qué valores representa el concepto de \"Bichota\"?",
+          "¿Qué actitud muestra Karol G respecto a su país en el escenario?",
+          "¿Qué premios prestigiosos ha ganado?",
+          "¿Qué hito histórico logró en las listas de éxitos de Estados Unidos?"
+        ],
+        "answerKey": [
+          "En Medellín.",
+          "El reggaetón y el pop latino.",
+          "\"Bichota\".",
+          "El empoderamiento femenino, la autoconfianza y la independencia.",
+          "Es una orgullosa embajadora que enaltece sus raíces.",
+          "Múltiples premios Latin Grammy.",
+          "Llevó un álbum íntegramente en español al primer puesto."
+        ]
+      }
+    }
+  },
+{
+    "topicName": "Guillermo del Toro",
+    "imageFileName": "del_toro.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Guillermo del Toro is an incredibly famous, deeply respected, and highly imaginative Mexican film director, producer, and author who has completely transformed the modern world of fantasy cinema. Born in the busy, vibrant city of Guadalajara, México, he quickly developed a deep, passionate love for scary monsters, quiet ghosts, and creepy fairy tales when he was just a very little boy. Instead of being completely terrified of the dark like normal children, he happily filled his small notebooks with incredible, highly detailed drawings of magical, strange creatures. Today, he is globally known for creatively directing dark, beautiful, and highly emotional películas (movies) that perfectly mix scary, historical fairy tales with real, painful human history.\n\nOne of his absolute most famous, incredibly successful, and beloved movies is called Pan's Labyrinth (El laberinto del fauno). It is a breathtaking, highly emotional, and extremely spooky story about a young, brave girl actively escaping the terrifying, brutal reality of war in Spain by discovering and entering a dark, magical underground world. Guillermo's immense, undeniable talent, creative vision, and extreme hard work have proudly earned him multiple highly prestigious Academy Awards (Oscars) in Hollywood, including Best Director for his beautiful, unique movie The Shape of Water. This strange, romantic film powerfully tells the deeply emotional story of a lonely, mute woman who surprisingly falls deeply in love with a misunderstood, captured aquatic monster.\n\nUnlike many other lazy modern directors, Guillermo absolutely loves using incredible, expensive practical physical effects and highly detailed, realistic makeup to excitedly bring his scary monstruos (monsters) to life on set, rather than just relying on fake computers. He strongly and passionately believes that scary monsters are actually beautiful, innocent, and misunderstood creatures, and that the true, real villains in the world are very often normal, greedy, and cruel human beings. He is a truly wonderful, endlessly creative storyteller who proudly represents Mexican talent in Hollywood and continuously inspires millions of people to proudly embrace their own unique, weird, and wonderful imagination.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where was Guillermo del Toro born?",
+          "What did he love when he was a little boy?",
+          "What is the name of his famous movie about a young girl during a war in Spain?",
+          "What prestigious awards has he won?",
+          "What does he use to bring his monsters to life instead of just computers?",
+          "Who does he believe are the real villains in the world?",
+          "What is his unique romantic movie about a mute woman called?"
+        ],
+        "answerKey": [
+          "Guadalajara, México.",
+          "Scary monsters, quiet ghosts, and creepy fairy tales.",
+          "Pan's Labyrinth (El laberinto del fauno).",
+          "Academy Awards (Oscars).",
+          "Incredible practical physical effects and highly detailed, realistic makeup.",
+          "Normal, greedy, and cruel human beings.",
+          "The Shape of Water (La forma del agua)."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Guillermo del Toro es un director de cine, productor y autor mexicano increíblemente famoso, muy respetado y muy imaginativo que ha transformado completamente el mundo moderno del cine de fantasía. Nacido en la ciudad vibrante y ocupada de Guadalajara, México, él desarrolló rápidamente un amor profundo y apasionado por los monstruos aterradores, los fantasmas y los cuentos de hadas cuando era solo un niño muy pequeño. En lugar de estar completamente aterrorizado de la oscuridad como los niños normales, él llenaba felizmente sus cuadernos pequeños con dibujos increíbles y muy detallados de criaturas mágicas y extrañas. Hoy en día, es conocido globalmente por dirigir películas oscuras, hermosas y muy emocionales que mezclan perfectamente los cuentos de hadas aterradores con la historia humana real y dolorosa.\n\nUna de sus películas absolutamente más famosas, increíblemente exitosas y queridas se llama El laberinto del fauno. Es una historia impresionante, muy emocional y extremadamente espeluznante sobre una niña joven y valiente que escapa activamente de la realidad brutal y aterradora de la guerra en España al descubrir y entrar a un mundo subterráneo, mágico y oscuro. El talento inmenso e innegable de Guillermo, su visión creativa y su trabajo extremo le han ganado con orgullo múltiples y muy prestigiosos Premios Óscar en Hollywood, incluyendo Mejor Director por su hermosa y única película La forma del agua. Esta película extraña y romántica cuenta poderosamente la historia muy emocional de una mujer muda y solitaria que sorprendentemente se enamora profundamente de un monstruo acuático incomprendido y capturado.\n\nA diferencia de muchos otros directores modernos y perezosos, a Guillermo le encanta absolutamente usar efectos físicos prácticos, increíbles y caros, y maquillaje muy detallado y realista para dar vida emocionada a sus monstruos aterradores en el estudio, en lugar de solo depender de computadoras falsas. Él cree fuerte y apasionadamente que los monstruos aterradores son en realidad criaturas hermosas, inocentes e incomprendidas, y que los verdaderos villanos en el mundo son muy a menudo seres humanos normales, codiciosos y crueles. Él es un narrador verdaderamente maravilloso y muy creativo que representa con orgullo el talento mexicano en Hollywood y continuamente inspira a millones de personas a abrazar su propia imaginación.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde nació Guillermo del Toro?",
+          "¿Qué le encantaba cuando era niño?",
+          "¿Cómo se llama su película sobre una niña en España?",
+          "¿Qué premios prestigiosos ha ganado?",
+          "¿Qué usa para dar vida a sus monstruos en lugar de computadoras?",
+          "¿Quiénes cree que son los verdaderos villanos?",
+          "¿Cómo se llama su película romántica sobre una mujer muda?"
+        ],
+        "answerKey": [
+          "En la ciudad de Guadalajara, México.",
+          "Los monstruos aterradores, los fantasmas y los cuentos de hadas.",
+          "El laberinto del fauno.",
+          "Múltiples y muy prestigiosos Premios Óscar.",
+          "Efectos físicos prácticos y maquillaje muy detallado y realista.",
+          "Seres humanos normales, codiciosos y crueles.",
+          "La forma del agua."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Guillermo del Toro es un aclamado, visionario y sumamente imaginativo cineasta, productor y escritor mexicano que ha revolucionado y transformado por completo el estancado panorama del cine de fantasía y terror a nivel global. Originario de la efervescente y culturalmente rica ciudad de Guadalajara, Jalisco, cultivó desde su más tierna infancia una profunda, genuina y casi obsesiva fascinación por la compleja anatomía de los monstruos, lo macabro y la misteriosa literatura gótica. Lejos de temerle irracionalmente a la oscuridad como la mayoría, pasaba sus solitarios días dibujando detalladas, maravillosas y grotescas criaturas mitológicas en sus diarios personales. En la actualidad, es internacionalmente célebre por su innegable capacidad analítica y creativa para tejer magistralmente oscuros y crueles cuentos de hadas para adultos, entrelazando hábilmente elementos puramente sobrenaturales con crudos y dolorosos contextos sociopolíticos e históricos de la humanidad.\n\nUna de sus obras maestras absolutas, más aclamadas e indiscutibles es El laberinto del fauno, una deslumbrante, aterradora y desgarradora cinta cinematográfica que narra trágicamente la evasión psicológica de una inocente niña hacia un fascinante mundo subterráneo mágico durante la opresiva y brutal posguerra española. El inabarcable genio creativo y el perfeccionismo técnico y obsesivo de Del Toro le han valido merecidamente múltiples y codiciados premios de la Academia de Hollywood (los prestigiosos Óscar), destacando su histórico triunfo como Mejor Director por La forma del agua. Este inusual, poético y transgresor romance gótico narra magistralmente la conmovedora historia de amor incondicional entre una humilde empleada de limpieza muda y una majestuosa criatura anfibia humanoide mantenida cautiva en un oscuro laboratorio gubernamental durante la Guerra Fría.\n\nA diferencia de la abrumadora y a veces perezosa dependencia actual de las modernas imágenes generadas exclusivamente por computadora (CGI), Del Toro prioriza constante y celosamente el uso de costosos efectos prácticos tradicionales, compleja animatrónica y un maquillaje protésico minucioso para dotar de alma real, peso y textura tangible a sus extrañas criaturas en el set de grabación. Filosóficamente, sostiene con vehemencia que los monstruos son, de hecho, seres puros, hermosos e injustamente incomprendidos por la sociedad, mientras que los verdaderos villanos despiadados suelen ser los humanos corruptos, intolerantes y codiciosos. Su invaluable legado lo consolida como un titán del cine moderno.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde nació Guillermo del Toro?",
+          "¿Qué le encantaba cuando era niño?",
+          "¿Cómo se llama su película sobre una niña en España?",
+          "¿Qué premios prestigiosos ha ganado?",
+          "¿Qué usa para dar vida a sus monstruos en lugar de computadoras?",
+          "¿Quiénes cree que son los verdaderos villanos?",
+          "¿Cómo se llama su película romántica sobre una mujer muda?"
+        ],
+        "answerKey": [
+          "En la efervescente ciudad de Guadalajara, Jalisco (México).",
+          "La anatomía de los monstruos, lo macabro y la literatura gótica.",
+          "El laberinto del fauno.",
+          "Premios de la Academia de Hollywood (los prestigiosos Óscar).",
+          "Efectos prácticos tradicionales, compleja animatrónica y un maquillaje protésico minucioso.",
+          "Los humanos corruptos, intolerantes y codiciosos.",
+          "La forma del agua."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Salvador Dalí",
+    "imageFileName": "dali.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Salvador Dalí was an incredibly eccentric, brilliantly creative, and highly famous Spanish artist who completely changed the modern art world forever with his wild imagination. He was originally born in a small, quiet town called Figueres in the beautiful, sunny region of Catalonia, España. From a very young age, little Dalí was widely known for his wildly active imagination, his highly unusual, bizarre behavior, and his truly undeniable, amazing talent for painting and drawing. When he finally grew up and moved away, he quickly became the absolute most famous and globally recognizable leader of the Surrealist movement, which is a highly unique art style that perfectly and creatively mixes weird, impossible dreams with everyday, normal reality.\n\nHis absolute most famous, iconic, and universally recognized painting in the entire world is beautifully called The Persistence of Memory (La persistencia de la memoria). This incredibly strange, fascinating, and dream-like painting clearly shows a quiet, totally empty desert landscape completely covered with soft, melting pocket watches slowly and lazily dripping over dead tree branches and hard rocks. Dalí brilliantly and purposefully painted these weird, melting relojes (clocks) to playfully show everyone that time is not actually strict, real, or solid, especially when people are deeply sleeping and dreaming in their beds. His incredible, bizarre art magically looks exactly like a crazy, highly detailed, and perfect photograph of a very strange, impossible dream world!\n\nDalí was also incredibly famous globally for his highly eccentric, shocking personal fashion style and his extremely wild, highly theatrical public behavior. He proudly and famously grew a very long, super thin, and completely gravity-defying mustache that pointed straight up into the air, which quickly became his legendary personal trademark everywhere he went. He absolutely loved doing crazy, strange things just for public attention, like bizarrely walking his large pet anteater down the busy, crowded streets of Paris! Today, Salvador Dalí is widely considered an absolute, undeniable genius of modern arte (art), and his crazy, beautiful paintings continue to deeply fascinate and highly inspire curious people all over the world.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where was Salvador Dalí born?",
+          "What art movement is he the famous leader of?",
+          "What is his most famous painting called?",
+          "What weird, soft objects are melting in that famous painting?",
+          "What was his legendary personal trademark on his face?",
+          "What weird pet did he famously walk down the streets of Paris?",
+          "What does his art look like?"
+        ],
+        "answerKey": [
+          "Figueres (Catalonia, España).",
+          "The Surrealist movement.",
+          "The Persistence of Memory (La persistencia de la memoria).",
+          "Pocket watches (clocks).",
+          "A very long, super thin, and gravity-defying mustache.",
+          "A large pet anteater.",
+          "Exactly like a crazy, highly detailed photograph of a strange, impossible dream world."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Salvador Dalí fue un artista español increíblemente excéntrico, brillantemente creativo y muy famoso que cambió por completo el mundo del arte moderno para siempre con su imaginación salvaje. Él nació originalmente en un pueblo pequeño y tranquilo llamado Figueres en la hermosa y soleada región de Cataluña, España. Desde una edad muy joven, el pequeño Dalí era muy conocido por su imaginación muy activa, su comportamiento inusual y extraño, y su talento verdaderamente innegable y asombroso para pintar y dibujar. Cuando finalmente creció y se mudó, se convirtió rápidamente en el líder absolutamente más famoso y reconocible a nivel mundial del movimiento surrealista, que es un estilo de arte muy único que mezcla perfecta y creativamente los sueños raros e imposibles con la realidad normal y cotidiana.\n\nSu pintura absolutamente más famosa, icónica y universalmente reconocida en todo el mundo se llama maravillosamente La persistencia de la memoria. Esta pintura increíblemente extraña, fascinante y parecida a un sueño muestra claramente un paisaje de desierto tranquilo y totalmente vacío, completamente cubierto de relojes de bolsillo suaves y derretidos que gotean lenta y perezosamente sobre las ramas de árboles muertos y rocas duras. Dalí pintó brillante y deliberadamente estos relojes derretidos y raros para mostrar a todos de forma juguetona que el tiempo no es realmente estricto, real o sólido, especialmente cuando las personas están durmiendo profundamente y soñando en sus camas. ¡Su arte increíble y extraño se ve mágicamente exactamente como una fotografía loca, muy detallada y perfecta de un mundo de sueños muy extraño e imposible!\n\nDalí también era increíblemente famoso globalmente por su estilo de moda personal muy excéntrico e impactante, y su comportamiento público extremadamente salvaje y muy teatral. Él cultivó con orgullo un bigote muy largo, súper delgado y que desafiaba completamente la gravedad que apuntaba directamente hacia el aire, lo que rápidamente se convirtió en su legendaria marca personal en todos los lugares a los que iba. ¡Le encantaba absolutamente hacer cosas locas y extrañas solo para llamar la atención del público, como pasear a su gran oso hormiguero mascota por las calles ocupadas y llenas de gente de París! Hoy en día, Salvador Dalí es considerado ampliamente un genio absoluto e innegable del arte moderno, y sus pinturas locas y hermosas continúan fascinando profundamente e inspirando a personas curiosas en todo el mundo.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde nació Salvador Dalí?",
+          "¿De qué movimiento de arte es el líder famoso?",
+          "¿Cómo se llama su pintura más famosa?",
+          "¿Qué objetos raros y suaves se están derritiendo en esa pintura famosa?",
+          "¿Cuál era su legendaria marca personal en la cara?",
+          "¿Qué mascota rara paseó por las calles de París?",
+          "¿A qué se parece su arte?"
+        ],
+        "answerKey": [
+          "En un pueblo pequeño llamado Figueres en Cataluña, España.",
+          "Del movimiento surrealista.",
+          "La persistencia de la memoria.",
+          "Relojes de bolsillo.",
+          "Un bigote muy largo, delgado y que desafiaba la gravedad.",
+          "Un oso hormiguero.",
+          "A una fotografía loca y muy detallada de un mundo de sueños extraño e imposible."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Salvador Dalí fue un genial, extravagante e inmensamente célebre pintor, escultor y pensador español, reconocido indiscutible y universalmente por los historiadores como el máximo, más prolífico y más excéntrico exponente del movimiento surrealista internacional de vanguardia. Oriundo de la pintoresca y soleada localidad de Figueres, en la orgullosa región de Cataluña, manifestó desde su más tierna infancia un virtuosismo pictórico y técnico verdaderamente asombroso, el cual siempre estuvo combinado con una personalidad profundamente megalómana, histriónica y provocadora. Tras trasladarse a Madrid y posteriormente a París, se sumergió por completo en los círculos bohemios y las vanguardias artísticas, desarrollando un estilo visual inconfundible que fusionaba magistralmente el fotorrealismo académico más meticuloso con la exploración freudiana del subconsciente profundo, los delirios paranoicos y el caótico, absurdo e irracional mundo de los sueños.\n\nSu obra cumbre y absolutamente más icónica a nivel mundial es el famoso, melancólico y perturbador óleo titulado La persistencia de la memoria. Este enigmático, sombrío y desolador paisaje onírico destaca prominentemente por la presencia surrealista de varios relojes de bolsillo blandos y derretidos que escurren lánguidamente sobre las ramas secas de un olivo y formaciones rocosas costeras. A través de esta perturbadora e inolvidable imagen pictórica, Dalí buscaba cuestionar radicalmente la rigidez cósmica y científica del tiempo y el espacio tridimensional, sugiriendo poética y visualmente que el paso implacable del tiempo es, de hecho, una percepción humana totalmente relativa, maleable y subjetiva, especialmente cuando el cerebro se encuentra inmerso dentro del incomprensible y abstracto plano de los sueños dormidos.\n\nMás allá de su innegable, apabullante e inmenso talento puro frente al caballete, Dalí construyó y planificó meticulosamente un personaje público altamente teatral, sumamente narcisista y calculadamente escandaloso para acaparar y dominar constantemente la atención obsesiva de la prensa mundial a lo largo de las décadas. Su rasgo físico más icónico, hilarante y reconocible era su finísimo, hiper-engominado y afilado bigote en forma de antenas desafiando burdamente las leyes de la gravedad, fuertemente inspirado en el gran pintor clásico Diego Velázquez. Famoso internacionalmente por realizar excentricidades como pasear tranquilamente a un enorme oso hormiguero con correa por las elegantes calles parisinas o dar serias conferencias académicas vestido con pesadas escafandras de buzo para \"sumergirse en el subconsciente\", Dalí transformó genialmente su propia vida en una obra de arte surrealista continua.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde nació Salvador Dalí?",
+          "¿De qué movimiento de arte es el líder famoso?",
+          "¿Cómo se llama su pintura más famosa?",
+          "¿Qué objetos raros y suaves se están derritiendo en esa pintura famosa?",
+          "¿Cuál era su legendaria marca personal en la cara?",
+          "¿Qué mascota rara paseó por las calles de París?",
+          "¿A qué se parece su arte?"
+        ],
+        "answerKey": [
+          "En la pintoresca localidad de Figueres, en la región de Cataluña.",
+          "Del movimiento surrealista internacional de vanguardia.",
+          "La persistencia de la memoria.",
+          "Relojes de bolsillo.",
+          "Su finísimo y afilado bigote en forma de antenas desafiando la gravedad.",
+          "Un enorme oso hormiguero con correa.",
+          "A un fotorrealismo académico meticuloso que explora el subconsciente y el mundo caótico de los sueños."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Isabel Allende",
+    "imageFileName": "isabel_allende.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Isabel Allende is an incredibly famous, deeply respected, and highly successful Chilean author who is widely considered by experts to be one of the absolute most widely read Spanish-language writers in the entire world today. Although she was originally born in the neighboring country of Peru, she was raised very happily in Chile, a beautiful, long country that heavily influenced her amazing, deeply emotional, and historical stories. When she was a smart young woman, she worked incredibly hard as an investigative journalist and a passionate feminist magazine editor, but her entire normal, quiet life completely changed when a terrible, highly violent military coup happened in Chile in the dark year of 1973. Because her prominent family was heavily politically involved with the president, she was tragically and suddenly forced to leave her beloved homeland forever and safely move away to Venezuela as a lonely exile.\n\nWhile living sadly and quietly far away from her childhood home in Venezuela, Isabel passionately began writing a very long, deeply emotional letter to her sick, dying grandfather back in Chile. Miraculously, this beautiful, long personal letter slowly grew, changed, and beautifully expanded over many months until it finally became her absolute most famous, incredibly successful debut novel, boldly titled The House of the Spirits (La casa de los espíritus). This stunning, massive, and highly creative book is a brilliant, perfect example of magical realism in literature, expertly mixing real, painful historical political events in Latin America with highly magical, unexplainable supernatural occurrences like friendly family ghosts and mysterious fortune-telling! The popular, epic novel confidently tells the long, complicated, and dramatic history of the large Trueba family, heavily focusing on the very strong, brave, and complex mujeres (women) who lovingly hold the family together through hard times.\n\nThroughout her incredibly long, productive, and highly award-winning career, Isabel Allende has passionately written dozens of highly emotional, bestselling libros (books) that explore deep, powerful human themes like deep romantic love, sad political exile, rich family history, and strong female empowerment. Because of her raw, undeniable writing talent and intense, lifelong dedication to telling honest Latin American stories, she was proudly awarded the prestigious Presidential Medal of Freedom in the United States. Today, she is a true, undeniable literary legend who continuously inspires millions of young women globally to bravely tell their own unique stories.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where was Isabel Allende raised?",
+          "Why did she have to leave her homeland in 1973?",
+          "How did her famous debut novel begin?",
+          "What is the title of her absolute most famous novel?",
+          "What literary style is her famous book a perfect example of?",
+          "Who are the most important characters in her novel about the Trueba family?",
+          "What prestigious medal did she receive in the United States?"
+        ],
+        "answerKey": [
+          "Chile.",
+          "Because of a terrible, highly violent military coup.",
+          "As a very long, deeply emotional letter to her sick, dying grandfather.",
+          "The House of the Spirits (La casa de los espíritus).",
+          "Magical realism.",
+          "The very strong, brave, and complex women.",
+          "The Presidential Medal of Freedom."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Isabel Allende es una autora chilena increíblemente famosa, profundamente respetada y muy exitosa que es considerada ampliamente por los expertos como una de las escritoras en español absolutamente más leídas en todo el mundo hoy en día. Aunque ella nació originalmente en el país vecino de Perú, se crio muy felizmente en Chile, un país hermoso y largo que influyó mucho en sus historias asombrosas, profundamente emocionales e históricas. Cuando era una mujer joven e inteligente, trabajó increíblemente duro como periodista de investigación y editora de una revista feminista apasionada, pero toda su vida normal y tranquila cambió por completo cuando ocurrió un golpe militar terrible y muy violento en Chile en el año oscuro de 1973. Como su familia importante estaba muy involucrada políticamente con el presidente, ella fue trágica y repentinamente forzada a dejar su amada patria para siempre y mudarse con seguridad a Venezuela como una exiliada solitaria.\n\nMientras vivía triste y tranquilamente muy lejos de la casa de su infancia en Venezuela, Isabel comenzó apasionadamente a escribir una carta muy larga y profundamente emocional a su abuelo enfermo y moribundo en Chile. ¡Milagrosamente, esta hermosa y larga carta personal creció, cambió y se expandió maravillosamente durante muchos meses hasta que finalmente se convirtió en su novela de debut absolutamente más famosa e increíblemente exitosa, titulada audazmente La casa de los espíritus! Este libro impresionante, masivo y muy creativo es un ejemplo brillante y perfecto del realismo mágico en la literatura, mezclando expertamente eventos políticos históricos reales y dolorosos en América Latina con sucesos altamente mágicos e inexplicables sobrenaturales como fantasmas familiares amigables y predicciones misteriosas. La novela popular y épica cuenta con confianza la historia larga, complicada y dramática de la gran familia Trueba, enfocándose fuertemente en las mujeres muy fuertes, valientes y complejas que mantienen unida a la familia con amor durante los tiempos difíciles.\n\nA lo largo de su carrera increíblemente larga, productiva y muy premiada, Isabel Allende ha escrito apasionadamente docenas de libros muy emocionales y exitosos que exploran temas humanos profundos y poderosos como el amor romántico profundo, el triste exilio político, la rica historia familiar y el fuerte empoderamiento femenino. Por su talento puro e innegable para escribir y su dedicación intensa de toda la vida a contar historias latinoamericanas honestas, fue premiada con orgullo con la prestigiosa Medalla Presidencial de la Libertad en los Estados Unidos. Hoy en día, ella es una leyenda literaria verdadera e innegable que inspira continuamente a millones de mujeres jóvenes a nivel mundial a contar valientemente sus propias historias únicas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde se crio Isabel Allende?",
+          "¿Por qué tuvo que dejar su patria en 1973?",
+          "¿Cómo empezó su famosa novela de debut?",
+          "¿Cuál es el título de su novela más famosa?",
+          "¿De qué estilo literario es su libro un ejemplo perfecto?",
+          "¿Quiénes son los personajes más importantes en su novela sobre la familia Trueba?",
+          "¿Qué medalla prestigiosa recibió en los Estados Unidos?"
+        ],
+        "answerKey": [
+          "En Chile.",
+          "Por un golpe militar terrible y muy violento.",
+          "Como una carta muy larga y profundamente emocional a su abuelo enfermo y moribundo.",
+          "La casa de los espíritus.",
+          "Del realismo mágico.",
+          "Las mujeres muy fuertes, valientes y complejas.",
+          "La prestigiosa Medalla Presidencial de la Libertad."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Isabel Allende es una ilustre, inmensamente aclamada y sumamente prolífica escritora chilena contemporánea, considerada de manera unánime e indiscutible por la crítica especializada como la novelista hispanohablante más leída, traducida y comercialmente exitosa a nivel mundial. Aunque nació fortuitamente en la ciudad de Lima, Perú, debido exclusivamente a los estrictos compromisos diplomáticos internacionales de su padre, se crio felizmente y formó su profundamente arraigada identidad cultural en Chile. Durante su inquieta juventud, se desempeñó asidua y valientemente como una aguda periodista de investigación, presentadora de televisión y una ferviente editora de revistas de marcado corte feminista. Sin embargo, su prometedora trayectoria vital sufrió un quiebre dramático, violento e irreversible tras el sangriento golpe de Estado militar de 1973 liderado por Augusto Pinochet; debido al estrecho, público y conocido parentesco político de su influyente familia con el trágicamente derrocado presidente Salvador Allende, se vio obligada y forzada a huir de urgencia y exiliarse dolorosamente en Venezuela para salvaguardar su propia vida.\n\nFue precisamente durante este largo, solitario y sumamente nostálgico exilio venezolano cuando Allende comenzó a redactar una emotiva, poética y extensa carta de despedida definitiva dirigida a su abuelo moribundo que aún residía en Chile. Extraordinariamente, este íntimo y doloroso manuscrito epistolar evolucionó orgánicamente, creció y se transformó con los meses en su consagratoria, monumental y arrolladora primera novela histórica: La casa de los espíritus. Esta magistral y épica obra literaria es un exquisito y perfecto referente absoluto del aclamado realismo mágico latinoamericano, tejiendo de manera maravillosamente fluida y cautivadora la convulsa, sangrienta y compleja realidad sociopolítica chilena con fascinantes elementos puramente sobrenaturales, presagios oníricos, espíritus domésticos y habilidades clarividentes. La inmensa saga familiar relata maravillosamente los épicos triunfos y las tristes desgracias de cuatro turbulentas generaciones del adinerado clan Trueba, destacando y celebrando indudablemente el férreo estoicismo, la profunda resiliencia y la inmensa fortaleza espiritual de sus complejas protagonistas femeninas.\n\nA lo largo de su inagotable, brillante y sumamente galardonada carrera profesional de décadas, Allende ha publicado apasionadamente más de una veintena de aclamadas novelas de ficción, desgarradoras memorias personales y cuentos que abordan con exquisita sensibilidad, humor y crudeza temas universales como el amor apasionado, el doloroso desarraigo del exilio forzado, la búsqueda de justicia social y el indomable empoderamiento femenino frente a sociedades tradicionalmente patriarcales. En merecido reconocimiento a su vasta e invaluable contribución global a las letras y las humanidades, fue honrada con el prestigioso Premio Nacional de Literatura de Chile y la distinguida Medalla Presidencial de la Libertad en los Estados Unidos, afianzando permanentemente su inigualable estatus como una verdadera leyenda viva.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde se crio Isabel Allende?",
+          "¿Por qué tuvo que dejar su patria en 1973?",
+          "¿Cómo empezó su famosa novela de debut?",
+          "¿Cuál es el título de su novela más famosa?",
+          "¿De qué estilo literario es su libro un ejemplo perfecto?",
+          "¿Quiénes son los personajes más importantes en su novela sobre la familia Trueba?",
+          "¿Qué medalla prestigiosa recibió en los Estados Unidos?"
+        ],
+        "answerKey": [
+          "En Chile.",
+          "Tras el sangriento golpe de Estado militar liderado por Augusto Pinochet (por su parentesco con Salvador Allende).",
+          "Como una emotiva, poética y extensa carta de despedida a su abuelo moribundo.",
+          "La casa de los espíritus.",
+          "Del realismo mágico latinoamericano.",
+          "Sus complejas protagonistas femeninas (con profundo estoicismo y resiliencia).",
+          "La distinguida Medalla Presidencial de la Libertad."
+        ]
+      }
+    }
   }
-
 
 
 
