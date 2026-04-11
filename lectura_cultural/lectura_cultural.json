@@ -8330,7 +8330,7 @@
     "levels": {
       "level_1": {
         "tier": "Level 1 (English/Beginner)",
-        "readingText": "Daddy Yankee is a legendary, highly influential Puerto Rican singer and songwriter who is universally recognized and respected around the globe as the absolute 'King of Reggaetón'. His real name is Ramón Luis Ayala Rodríguez, and he grew up facing many difficult challenges in the poor public housing projects of San Juan, Puerto Rico. Despite his tough surroundings, he deeply loved 'música' and possessed an incredible, natural talent for singing. In the busy 1990s, he passionately helped create a completely new, energetic style of underground music by heavily mixing traditional Jamaican dancehall rhythms with fast-paced Spanish hip-hop. This highly unique, rhythmic mixture eventually became the wildly famous and popular genre of modern reggaetón.\n\nIn the unforgettable year 2004, his massive music career suddenly exploded internationally with the highly anticipated release of his iconic, catchy song 'Gasolina'. This incredibly energetic, loud track was a truly historic moment for Latin music because it finally brought reggaetón out of the small, hidden underground clubs and successfully introduced it to mainstream radio stations all across the globe. Suddenly, people of all ages and backgrounds everywhere were happily dancing to his infectious Caribbean beats. Later in his long career, he amazingly made history once again by collaborating on the massive, record-breaking global mega-hit 'Despacito'.\n\nAfter many busy decades of breaking major music records, winning countless prestigious awards, and opening important doors for an entire new generation of modern artists like Bad Bunny and Karol G, Daddy Yankee officially announced his sad retirement from secular music in the year 2022. He performed a massive, highly emotional farewell tour to personally thank his millions of loyal fans. However, to the absolute shock and intense joy of his listeners, he recently came out of retirement to excitedly release completely new, inspiring music dedicated to his deep religious faith! Today, his incredible, powerful legacy remains undeniable; he single-handedly transformed a small, local island sound into a massive global movement.",
+        "readingText": "Daddy Yankee is a legendary Puerto Rican singer and songwriter universally recognized as the absolute 'King of Reggaetón'. His real name is Ramón Luis Ayala Rodríguez, and he grew up facing difficult challenges in the poor public housing projects of San Juan, Puerto Rico. Despite his tough surroundings, he deeply loved 'música' and possessed an incredible talent for singing. In the 1990s, he passionately helped create a completely new style of underground music by mixing Jamaican dancehall rhythms with fast-paced Spanish hip-hop. This rhythmic mixture eventually became the wildly popular genre of modern reggaetón.\n\nIn the unforgettable year 2004, his music career exploded internationally with the highly anticipated release of his iconic, catchy song 'Gasolina'. This energetic track was a truly historic moment for Latin music because it finally brought reggaetón out of hidden underground clubs and successfully introduced it to mainstream radio stations across the globe. Suddenly, people everywhere were happily dancing to his infectious Caribbean beats. Later in his career, he amazingly made history once again by collaborating on the massive, record-breaking global mega-hit 'Despacito'.\n\nAfter decades of breaking major music records, winning countless awards, and opening important doors for a new generation of modern artists like Bad Bunny and Karol G, Daddy Yankee officially announced his retirement from secular music in 2022. He performed a highly emotional farewell tour to thank his millions of loyal fans. However, he recently came out of retirement to excitedly release new, inspiring music dedicated to his religious faith! Today, his powerful legacy remains undeniable.",
         "instruction": "Answer the following questions according to the text.",
         "questions": [
           "What is Daddy Yankee universally recognized as?",
@@ -8346,14 +8346,14 @@
           "In the public housing projects of San Juan.",
           "Jamaican dancehall rhythms and Spanish hip-hop.",
           "'Gasolina'.",
-          "It brought reggaetón out of underground clubs and introduced it to mainstream radio stations all across the globe.",
+          "It brought reggaetón out of underground clubs and introduced it to mainstream radio stations across the globe.",
           "'Despacito'.",
-          "He came out of retirement to excitedly release new, inspiring music dedicated to his deep religious faith."
+          "He came out of retirement to excitedly release new, inspiring music dedicated to his religious faith."
         ]
       },
       "level_2": {
         "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "Daddy Yankee es un cantante y compositor puertorriqueño legendario y muy influyente que es reconocido y respetado universalmente en todo el mundo como el 'Rey del Reggaetón' absoluto. Su nombre real es Ramón Luis Ayala Rodríguez. Él creció enfrentando muchos desafíos difíciles en los barrios pobres y residenciales públicos de San Juan, Puerto Rico. A pesar de su entorno difícil, amaba profundamente la música y tenía un talento natural increíble para cantar. En la década de los noventa, él ayudó apasionadamente a crear un estilo completamente nuevo y enérgico de música mezclando fuertemente los ritmos tradicionales de Jamaica con el rápido hip-hop en español. Esta mezcla rítmica y muy única finalmente se convirtió en el género famoso y popular del reggaetón moderno.\n\nEn el inolvidable año 2004, su carrera musical masiva explotó internacionalmente de repente con el lanzamiento muy esperado de su canción icónica y pegadiza llamada 'Gasolina'. Esta canción increíblemente enérgica y ruidosa fue un momento verdaderamente histórico para la música latina porque finalmente sacó al reggaetón de los clubes pequeños y escondidos, y lo introdujo con éxito a las estaciones de radio principales en todo el mundo. De repente, personas de todas las edades en todas partes estaban bailando felizmente sus ritmos caribeños contagiosos. Más tarde en su larga carrera, hizo historia una vez más de manera asombrosa al colaborar en el mega éxito global y masivo 'Despacito'.\n\nDespués de muchas décadas ocupadas de romper récords musicales, ganar innumerables premios prestigiosos y abrir puertas importantes para toda una nueva generación de artistas modernos como Bad Bunny y Karol G, Daddy Yankee anunció oficialmente su triste retiro de la música secular en el año 2022. Él hizo una gira de despedida masiva y muy emocional para agradecer personalmente a sus fanáticos leales. Sin embargo, ¡para la sorpresa absoluta y la alegría de todos, recientemente salió de su retiro para lanzar nueva música emocionante dedicada a su fe religiosa! Hoy, su legado increíble y poderoso sigue siendo innegable; él transformó un sonido local de la isla en un movimiento global masivo.",
+        "readingText": "Daddy Yankee es un cantante y compositor puertorriqueño legendario que es reconocido universalmente como el 'Rey del Reggaetón' absoluto. Su nombre real es Ramón Luis Ayala Rodríguez. Él creció enfrentando muchos desafíos difíciles en los barrios pobres y residenciales públicos de San Juan, Puerto Rico. A pesar de su entorno difícil, amaba la música y tenía un talento natural para cantar. En la década de los noventa, él ayudó a crear un estilo completamente nuevo de música mezclando los ritmos de Jamaica con el rápido hip-hop en español. Esta mezcla muy única finalmente se convirtió en el género popular del reggaetón moderno.\n\nEn el año 2004, su carrera musical explotó internacionalmente de repente con el lanzamiento de su canción icónica y pegadiza llamada 'Gasolina'. Esta canción increíblemente enérgica fue un momento verdaderamente histórico para la música latina. Finalmente sacó al reggaetón de los clubes pequeños y lo introdujo con éxito a las estaciones de radio principales en todo el mundo. De repente, personas en todas partes estaban bailando sus ritmos caribeños. Más tarde, hizo historia una vez más al colaborar en el mega éxito global 'Despacito'.\n\nDespués de muchas décadas de romper récords musicales, ganar innumerables premios y abrir puertas para una nueva generación de artistas como Bad Bunny y Karol G, Daddy Yankee anunció oficialmente su retiro de la música secular en el año 2022. Hizo una gira de despedida masiva para agradecer a sus fanáticos. Sin embargo, ¡recientemente salió de su retiro para lanzar nueva música dedicada a su fe religiosa! Hoy, su legado increíble sigue siendo innegable.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿Cómo es conocido universalmente el cantante Daddy Yankee?",
@@ -8366,17 +8366,17 @@
         ],
         "answerKey": [
           "Como el 'Rey del Reggaetón'.",
-          "Los ritmos tradicionales de Jamaica con el rápido hip-hop en español.",
+          "Los ritmos de Jamaica con el rápido hip-hop en español.",
           "'Gasolina'.",
-          "Porque finalmente sacó al reggaetón de los clubes pequeños y lo introdujo a las estaciones de radio principales en todo el mundo.",
+          "Porque sacó al reggaetón de los clubes pequeños y lo introdujo a las estaciones de radio en todo el mundo.",
           "'Despacito'.",
-          "Anunció oficialmente su triste retiro de la música secular.",
-          "Salió de su retiro para lanzar nueva música emocionante dedicada a su fe religiosa."
+          "Anunció oficialmente su retiro de la música secular.",
+          "Salió de su retiro para lanzar nueva música dedicada a su fe religiosa."
         ]
       },
       "level_3": {
         "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "Daddy Yankee, cuyo nombre de pila es Ramón Luis Ayala Rodríguez, es un legendario, visionario y sumamente influyente artista puertorriqueño que es aclamado universal y unánimemente por la crítica y el público como el indiscutible 'Rey del Reggaetón'. Creció enfrentando enormes adversidades socioeconómicas en los duros residenciales públicos de San Juan, donde en la vibrante década de los noventa fue pionero indiscutible en forjar y popularizar un sonido clandestino y callejero totalmente innovador. Al fusionar de manera audaz, creativa y magistral los ritmos sincopados y pesados del dancehall jamaiquino con las rápidas y afiladas rimas del hip-hop cantado en español, sentó las bases fundacionales y rítmicas de lo que hoy conocemos mundialmente como reggaetón.\n\nEl punto de inflexión definitivo e histórico de su prolífica trayectoria ocurrió en el año 2004 con el exitoso lanzamiento del himno generacional 'Gasolina'. Este explosivo, ruidoso y sumamente contagioso tema marcó un hito histórico sin precedentes, logrando sacar definitivamente al género de la marginalidad urbana para catapultarlo directamente a las principales y más exclusivas emisoras comerciales del planeta entero. Más adelante en su envidiable carrera, volvió a reescribir las reglas de la industria musical al colaborar activamente en el omnipresente fenómeno global 'Despacito', consolidando el dominio absoluto y la inmensa rentabilidad de la música latina en el exigente mundo anglosajón.\n\nTras más de tres agitadas décadas pulverizando récords de ventas y reproducciones, cosechando innumerables galardones de prestigio y allanando generosamente el camino para superestrellas contemporáneas como Bad Bunny y Karol G, Daddy Yankee anunció sorpresiva y oficialmente su retiro de la música secular en 2022, despidiéndose de su leal público con una monumental y emotiva gira mundial. No obstante, para el asombro y regocijo de sus incondicionales seguidores, recientemente ha salido de su retiro para dedicarse a lanzar nueva e inspiradora música enfocada plenamente en su profunda fe espiritual. Dejando tras de sí un legado imborrable y en constante evolución, transformó un pequeño movimiento rítmico barrial en una arrolladora y multimillonaria potencia cultural global.",
+        "readingText": "Daddy Yankee, cuyo nombre de pila es Ramón Luis Ayala Rodríguez, es un legendario y visionario artista puertorriqueño aclamado unánimemente como el indiscutible 'Rey del Reggaetón'. Creció enfrentando enormes adversidades socioeconómicas en los duros residenciales públicos de San Juan, donde en la vibrante década de los noventa fue pionero en forjar un sonido clandestino totalmente innovador. Al fusionar de manera audaz y creativa los ritmos sincopados del dancehall jamaiquino con las rápidas rimas del hip-hop cantado en español, sentó las bases fundacionales de lo que hoy conocemos mundialmente como reggaetón.\n\nEl punto de inflexión definitivo de su prolífica trayectoria ocurrió en el año 2004 con el exitoso lanzamiento del himno generacional 'Gasolina'. Este explosivo y sumamente contagioso tema marcó un hito histórico sin precedentes, logrando sacar definitivamente al género de la marginalidad urbana para catapultarlo directamente a las principales emisoras comerciales del planeta entero. Más adelante en su envidiable carrera, volvió a reescribir las reglas de la industria musical al colaborar activamente en el omnipresente fenómeno global 'Despacito', consolidando el dominio absoluto de la música latina en el exigente mundo anglosajón.\n\nTras más de tres décadas pulverizando récords de ventas, cosechando innumerables galardones y allanando generosamente el camino para superestrellas contemporáneas como Bad Bunny y Karol G, Daddy Yankee anunció oficialmente su retiro de la música secular en 2022. No obstante, para el asombro y regocijo de sus seguidores, recientemente ha salido de su retiro para lanzar nueva e inspiradora música enfocada plenamente en su profunda fe espiritual. Su legado transformó un movimiento barrial en una potencia cultural global.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿En qué lugares urbanos creció el artista puertorriqueño en San Juan?",
@@ -8389,12 +8389,87 @@
         ],
         "answerKey": [
           "En los duros residenciales públicos de San Juan.",
-          "Los ritmos sincopados y pesados del dancehall jamaiquino con las rápidas rimas del hip-hop en español.",
+          "Los ritmos sincopados del dancehall jamaiquino con las rápidas rimas del hip-hop en español.",
           "'Gasolina'.",
-          "Logró sacar definitivamente al género de la marginalidad urbana para catapultarlo a las principales emisoras comerciales del planeta.",
+          "Logró sacar definitivamente al género de la marginalidad urbana para catapultarlo a las emisoras comerciales del planeta.",
           "'Despacito'.",
-          "Para superestrellas como Bad Bunny y Karol G.",
-          "Salió de su retiro para dedicarse a lanzar nueva e inspiradora música enfocada plenamente en su profunda fe espiritual."
+          "Para superestrellas contemporáneas como Bad Bunny y Karol G.",
+          "Salió de su retiro para lanzar nueva e inspiradora música enfocada plenamente en su profunda fe espiritual."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "La Leyenda de El Dorado",
+    "imageFileName": "el_dorado.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The incredible legend of El Dorado is widely considered one of the most famous, fascinating historical mysteries in South American history. When the greedy Spanish conquistadors first arrived in the Americas centuries ago, they eagerly heard unbelievable rumors from local natives about a massive, hidden jungle city completely made out of shining, solid gold. However, the surprising truth is that El Dorado was never actually a real city; it was originally a single, living person! The amazing myth actually comes directly from the ancient, indigenous Muisca people who lived peacefully high up in the cold, misty mountains of present-day Colombia.\n\nAccording to the powerful legend, during a highly important, sacred religious ceremony, the new Muisca leader would proudly cover his naked body in sticky tree resin and coat himself completely in bright gold dust. Then, he would bravely ride a wooden raft out into the exact middle of the beautiful Laguna de Guatavita. To respectfully honor their gods, the golden leader would generously throw precious emeralds and valuable gold objects directly into the deep 'agua' (water) before diving in to wash the gold dust off. When Spanish explorers heard stories about this golden 'rey' (king), they became dangerously obsessed.\n\nFor many exhausting years, desperate European explorers selfishly organized massive, highly dangerous expeditions deep into the wild 'selva' (jungle) looking for a rich golden city that simply did not exist. Although they absolutely never found the mythical city of gold, the enduring legend of El Dorado remains a famous story about human greed and ancient Muisca culture.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What did the Spanish originally think El Dorado was?",
+          "Who did the myth actually originate from?",
+          "What did the new Muisca leader cover his body with?",
+          "Where did the sacred ceremony take place?",
+          "What did the leader throw into the deep water?",
+          "What were the European explorers dangerously obsessed with finding?",
+          "Did the Spanish ever find the city of gold?"
+        ],
+        "answerKey": [
+          "A massive, hidden jungle city completely made out of shining, solid gold.",
+          "The ancient, indigenous Muisca people.",
+          "Sticky tree resin and bright gold dust.",
+          "In the exact middle of the beautiful Laguna de Guatavita.",
+          "Precious emeralds and valuable gold objects.",
+          "The golden city (or the massive hidden treasure).",
+          "No, because the rich golden city simply did not exist."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La increíble leyenda de El Dorado es considerada uno de los misterios históricos más famosos y fascinantes de toda la historia de América del Sur. Cuando los conquistadores españoles codiciosos llegaron por primera vez a las Américas hace siglos, escucharon con entusiasmo rumores increíbles sobre una ciudad masiva y escondida en la selva hecha completamente de oro sólido. Sin embargo, la sorprendente verdad es que El Dorado nunca fue realmente una ciudad real; ¡originalmente era una sola persona viva! El mito asombroso en realidad viene directamente del antiguo pueblo indígena muisca que vivía pacíficamente en las montañas frías y brumosas de la actual Colombia.\n\nSegún la poderosa leyenda, durante una ceremonia religiosa muy importante y sagrada, el nuevo líder muisca cubría su cuerpo con resina de árbol pegajosa y luego se cubría completamente con polvo de oro brillante. Luego, él subía a una balsa de madera y navegaba hacia el centro exacto de la hermosa Laguna de Guatavita. Para honrar respetuosamente a sus dioses, el líder dorado tiraba esmeraldas preciosas y objetos valiosos de oro directamente al agua profunda antes de saltar para lavarse el polvo de oro. Cuando los exploradores españoles escucharon historias sobre este rey dorado, se obsesionaron peligrosamente.\n\nDurante muchos años largos y agotadores, los exploradores europeos desesperados organizaron expediciones masivas y muy peligrosas en la selva salvaje buscando una ciudad rica y dorada que simplemente no existía. Aunque ellos absolutamente nunca encontraron la mítica ciudad de oro, la leyenda de El Dorado sigue siendo una historia muy famosa sobre la avaricia humana y la cultura muisca.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué pensaban los españoles que era El Dorado originalmente?",
+          "¿De qué pueblo indígena viene el mito realmente?",
+          "¿Con qué cubría su cuerpo el nuevo líder durante la ceremonia?",
+          "¿En qué lugar específico ocurría esta ceremonia sagrada?",
+          "¿Qué tiraba el líder al agua profunda para honrar a los dioses?",
+          "¿Por dónde organizaron los europeos expediciones masivas durante muchos años?",
+          "¿Encontraron los exploradores la mítica ciudad de oro al final?"
+        ],
+        "answerKey": [
+          "Pensaban que era una ciudad masiva y escondida en la selva hecha completamente de oro sólido.",
+          "Directamente del antiguo pueblo indígena muisca de Colombia.",
+          "Con resina de árbol pegajosa y polvo de oro brillante.",
+          "En el centro exacto de la hermosa Laguna de Guatavita.",
+          "Esmeraldas preciosas y objetos valiosos de oro.",
+          "En la selva salvaje (buscando una ciudad de oro).",
+          "No, porque la ciudad rica y dorada simplemente no existía."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La fascinante leyenda de El Dorado constituye indiscutiblemente uno de los mitos más enigmáticos, célebres y dolorosamente persistentes de toda la época de la conquista en Sudamérica. A su repentina llegada al inexplorado Nuevo Mundo, los ambiciosos conquistadores españoles fueron rápidamente cautivados por deslumbrantes rumores locales que describían detalladamente una urbe utópica forjada íntegra y maravillosamente en oro macizo. Paradójicamente, la gran verdad histórica revela que El Dorado no era un lugar físico ni una ciudad oculta, sino una persona de carne y hueso. Esta mítica historia se origina realmente en los complejos rituales sagrados del avanzado pueblo indígena muisca, firmemente asentado en el altiplano andino de la actual Colombia.\n\nSegún relatan minuciosamente las crónicas de la época, durante la solemne ceremonia de investidura, el nuevo cacique ungía reverencialmente su cuerpo desnudo con resinas vegetales pegajosas y se recubría por completo con fino polvo de oro resplandeciente. Posteriormente, navegaba majestuosamente en una balsa ceremonial hasta el centro exacto de la mística y profunda Laguna de Guatavita. Como ofrenda de devoción suprema a sus deidades acuáticas, arrojaba valiosas esmeraldas puras y exquisitas piezas de orfebrería a las oscuras profundidades de la laguna antes de sumergirse para purificarse. La desmedida e irracional codicia de los invasores europeos transformó rápidamente la historia de este 'indio dorado' en una destructiva y obsesiva búsqueda.\n\nDurante décadas enteras, cientos de aventureros desesperados emprendieron expediciones auténticamente suicidas a través de la inhóspita y asfixiante selva sudamericana, persiguiendo inútilmente un brillante espejismo que jamás lograrían hallar. Aunque el tesoro infinito resultó ser una mera ilusión, esta obsesión dejó un terrible legado de tragedia humana y destrucción.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué describían los deslumbrantes rumores que cautivaron a los conquistadores españoles?",
+          "¿En qué cultura y región andina se origina verdaderamente este persistente mito?",
+          "¿Con qué se recubría por completo el cuerpo el nuevo cacique muisca?",
+          "¿Hacia qué lugar específico navegaba en una balsa ceremonial?",
+          "¿Qué tipo de ofrendas arrojaba a las profundidades para honrar a sus deidades?",
+          "¿En qué se transformó la historia debido a la desmedida codicia de los europeos?",
+          "¿Qué tipo de expediciones emprendieron los aventureros persiguiendo este espejismo?"
+        ],
+        "answerKey": [
+          "Una urbe utópica forjada íntegra y maravillosamente en oro macizo.",
+          "En el avanzado pueblo indígena muisca, en el altiplano andino de la actual Colombia.",
+          "Con resinas vegetales pegajosas y fino polvo de oro resplandeciente.",
+          "Hacia el centro exacto de la mística y profunda Laguna de Guatavita.",
+          "Valiosas esmeraldas puras y exquisitas piezas de orfebrería.",
+          "En una destructiva y obsesiva búsqueda (por la avaricia de los invasores).",
+          "Expediciones auténticamente suicidas a través de la inhóspita y asfixiante selva sudamericana."
         ]
       }
     }
