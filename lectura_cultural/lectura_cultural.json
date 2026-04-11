@@ -10487,6 +10487,15 @@
           "¿Forjó este sorpresivo triunfo táctico la independencia soberana de México?",
           "¿Por qué ocurre principalmente este fenómeno sociológico de confusión internacional?",
           "¿Qué elementos festivos hacen que los extranjeros deduzcan lógicamente que es la máxima festividad cívica?"
+        ],
+        "answerKey": [
+          "Asumen erróneamente que la fecha marca el aniversario en que la nación mexicana se emancipó del Imperio Español.",
+          "El 16 de septiembre.",
+          "El histórico \"Grito de Dolores\" (cuando Miguel Hidalgo incitó al pueblo a levantarse en armas).",
+          "A la célebre Batalla de Puebla de 1862.",
+          "No, la independencia ya era una realidad soberana desde hacía varias décadas.",
+          "Porque el Cinco de Mayo ha mutado hasta convertirse en la celebración más visible y popular de la herencia mexicana en el extranjero.",
+          "El despliegue de símbolos patrios tricolores, la gastronomía típica y la música del mariachi."
         ]
       }
     }
@@ -10637,6 +10646,156 @@
           "Como un pretexto lúdico y ruidoso para abarrotar bares y fomentar el consumo masivo gastronómico.",
           "La inmensa riqueza de la identidad mexicano-estadounidense.",
           "La vibrante música de mariachi."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Cultural Symbols and Traditions",
+    "imageFileName": "cinco_symbols.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "During modern Cinco de Mayo celebrations, the busy streets, sunny parks, and crowded restaurants are completely filled with beautiful, vibrant cultural symbols. The absolute most common visual symbols you will proudly see everywhere are the bright colors of the Mexican flag: verde (green), blanco (white), and rojo (red). These beautiful, meaningful colors are proudly displayed on massive banners, colorful hanging paper decorations called 'papel picado', and even in the traditional, delicious 'comida' (food) that excited people enthusiastically share with their family and close friends.\n\nLoud music and energetic dancing are also incredibly important, deeply beloved parts of the massive cultural celebration. You will constantly hear the loud, joyful sounds of traditional 'mariachi' bands playing classic Mexican songs in the streets. These highly talented musicians wear heavily decorated, elegant suits called 'trajes de charro' and expertly play acoustic guitars, shiny trumpets, and beautiful violins. Along with the loud 'música', you will very often see spectacular 'folklórico' dancers. The talented women wear incredibly wide, brightly colored dresses that gracefully swirl through the air, while the proud men wear traditional hats and loudly stomp their boots to the fast rhythm of the music.\n\nToday, these beautiful, highly expressive symbols are about much more than just remembering a historic military battle from 1862. The delicious, spicy food, loud mariachi music, and energetic traditional dancing are powerful, happy ways for people to proudly celebrate their rich, enduring Mexican-American heritage. By openly sharing these amazing, fun cultural traditions with their local communities, people can happily honor their deep family roots, celebrate their unique ethnic identity, and safely keep their beautiful history alive for the next young generation.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What are the three most common colors you will see during the celebration?",
+          "What are the colorful hanging paper decorations called?",
+          "What kind of traditional musicians wear elegant suits and play guitars, trumpets, and violins?",
+          "What is the highly decorated, elegant suit worn by the musicians called?",
+          "What do the talented women wear during the spectacular 'folklórico' dances?",
+          "What do the dancing men do to the fast rhythm of the music?",
+          "What do these beautiful symbols powerfully help people celebrate today?"
+        ],
+        "answerKey": [
+          "Verde (green), blanco (white), and rojo (red).",
+          "Papel picado.",
+          "Traditional 'mariachi' bands.",
+          "Trajes de charro.",
+          "Incredibly wide, brightly colored dresses that gracefully swirl through the air.",
+          "They loudly stomp their boots.",
+          "Their rich, enduring Mexican-American heritage."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Durante las celebraciones modernas del Cinco de Mayo, las calles ocupadas, los parques soleados y los restaurantes están completamente llenos de símbolos culturales hermosos y vibrantes. Los símbolos visuales absolutamente más comunes que verás en todas partes son los colores brillantes de la bandera mexicana: verde, blanco y rojo. Estos hermosos colores se muestran con orgullo en banderas masivas, decoraciones de papel coloridas llamadas 'papel picado', e incluso en la deliciosa comida tradicional que las personas emocionadas comparten con su familia y amigos cercanos.\n\nLa música fuerte y el baile enérgico también son partes increíblemente importantes y muy queridas de la celebración cultural masiva. Constantemente escucharás los sonidos fuertes y alegres de las bandas tradicionales de mariachi tocando canciones clásicas mexicanas en las calles. Estos músicos muy talentosos usan trajes elegantes y muy decorados llamados 'trajes de charro' y tocan expertamente guitarras acústicas, trompetas brillantes y violines hermosos. Junto con la música fuerte, muy a menudo verás espectaculares bailarines folclóricos. Las mujeres talentosas usan vestidos increíblemente anchos y de colores brillantes que giran con gracia por el aire, mientras que los hombres orgullosos usan sombreros tradicionales y pisan fuerte con sus botas al ritmo rápido de la música.\n\nHoy en día, estos hermosos y muy expresivos símbolos son mucho más que solo recordar una batalla militar histórica de 1862. La comida deliciosa y picante, la música fuerte de mariachi y el baile tradicional enérgico son formas poderosas y felices para que las personas celebren con orgullo su rica herencia mexicoamericana. Al compartir estas increíbles tradiciones culturales con sus comunidades, las personas pueden honrar sus raíces familiares, celebrar su identidad única y mantener viva su hermosa historia para la próxima generación joven.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cuáles son los tres colores brillantes de la bandera mexicana que verás en todas partes?",
+          "¿Cómo se llaman las decoraciones de papel coloridas que cuelgan en las calles?",
+          "¿Qué tipo de bandas tradicionales tocan canciones clásicas mexicanas con guitarras y trompetas?",
+          "¿Cómo se llama el traje elegante y muy decorado que usan los músicos?",
+          "¿Qué tipo de ropa usan las mujeres que bailan de forma espectacular?",
+          "¿Qué hacen los hombres con sus botas al ritmo rápido de la música?",
+          "¿Qué celebran con orgullo las personas a través de la comida, la música y el baile?"
+        ],
+        "answerKey": [
+          "Verde, blanco y rojo.",
+          "Papel picado.",
+          "Las bandas tradicionales de mariachi.",
+          "Trajes de charro.",
+          "Vestidos increíblemente anchos y de colores brillantes.",
+          "Pisan fuerte con sus botas.",
+          "Su rica herencia mexicoamericana."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Durante las festividades contemporáneas del Cinco de Mayo, las concurridas avenidas, los parques públicos y los abarrotados restaurantes se inundan por completo de hermosos, vibrantes y profundos símbolos culturales. Los elementos visuales más omnipresentes y reconocibles que adornan orgullosamente el entorno son, sin lugar a duda, los vívidos colores patrios de la bandera mexicana: verde, blanco y rojo. Estas significativas tonalidades tricolores se exhiben majestuosamente en inmensos estandartes, en los intrincados y coloridos adornos colgantes conocidos como 'papel picado', e incluso en la riquísima y variada gastronomía tradicional que las multitudes comparten con inmenso entusiasmo junto a sus seres queridos.\n\nLa música estridente y la danza folclórica constituyen pilares fundamentales, insustituibles y profundamente venerados de esta monumental celebración intercultural. El ambiente festivo es constantemente dominado por los acordes inconfundibles, potentes y jubilosos del mariachi tradicional. Estos virtuosos músicos, impecablemente ataviados con sus ornamentados y elegantes 'trajes de charro', ejecutan magistralmente guitarras, trompetas resplandecientes y violines melancólicos. Acompañando esta formidable expresión sonora, deslumbran los espectaculares ballets folclóricos regionales; las talentosas bailarinas lucen faldas increíblemente amplias y multicolores que ondean y giran hipnóticamente en el aire, mientras que los enérgicos varones, portando sombreros de ala ancha, ejecutan un ruidoso e impecable zapateado al compás vertiginoso de la melodía.\n\nEn la actualidad, este rico despliegue de simbología estética y sonora trasciende por completo la mera conmemoración de un lejano y victorioso conflicto bélico decimonónico. La exquisita culinaria, el estruendo del mariachi y la vitalidad de la danza representan formidables vehículos de expresión para que la diáspora hispana celebre, reafirme y visibilice con orgullo su inquebrantable herencia mexicoamericana. Al compartir generosamente estas ricas tradiciones ancestrales, la comunidad logra honrar sus raíces, afianzar su identidad y preservar su legado para la posteridad.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cuáles son los tres vívidos colores patrios que adornan orgullosamente el entorno?",
+          "¿Cómo se conocen los intrincados y coloridos adornos de papel que se exhiben majestuosamente?",
+          "¿Qué agrupación musical tradicional domina constantemente el ambiente festivo?",
+          "¿Cómo se denominan los ornamentados y elegantes atuendos que visten los músicos?",
+          "¿Qué lucen las talentosas bailarinas de los ballets folclóricos regionales?",
+          "¿Qué acción ruidosa y enérgica ejecutan los varones al compás vertiginoso de la melodía?",
+          "¿Qué celebra, reafirma y visibiliza con orgullo la diáspora hispana a través de estos símbolos?"
+        ],
+        "answerKey": [
+          "Verde, blanco y rojo.",
+          "Papel picado.",
+          "El mariachi tradicional.",
+          "Trajes de charro.",
+          "Faldas increíblemente amplias y multicolores que ondean hipnóticamente en el aire.",
+          "Ejecutan un ruidoso e impecable zapateado.",
+          "Su inquebrantable herencia mexicoamericana."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "The Legacy of the Battle",
+    "imageFileName": "cinco_legacy.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "When we carefully study the famous Battle of Puebla, an incredibly important, highly interesting historical question quickly arises: did the surprising Mexican victory on Cinco de Mayo actually end the bloody war? The sad, true historical answer is no. Just one short year after the famous battle in 1862, the angry, embarrassed French army returned to Mexico with many thousands of fresh, heavily armed soldiers. This time, the powerful French army successfully defeated the tired Mexican forces, easily captured the capital of Mexico City, and cruelly installed a European emperor named Maximilian to strictly rule the struggling Latin American country.\n\nSo, if Mexico eventually lost the war against France, why exactly does the brave Battle of Puebla still matter so much today? The answer is incredibly simple: it is a powerful, deeply inspiring story about deep hope and brave resistance. When the poor, poorly equipped Mexican soldiers miraculously defeated the absolute greatest, most terrifying military in the entire world, they successfully proved that nothing is impossible. This shocking, heroic victory provided a massive, deeply emotional boost of motivation and pure courage for the Mexican people, eventually helping them stay incredibly strong and successfully take their beautiful country back from the French invaders a few years later.\n\nToday, the deep, powerful legacy of the legendary battle is much, much bigger than just a single military fight in a muddy field. For millions of proud people, especially in the United States, the historic underdog victory is a permanent, deeply inspiring symbol of bravely fighting against completely impossible odds. It beautifully represents the incredible strength, unyielding courage, and fierce, loud pride of the Mexican people, boldly proving that true bravery and pure determination can successfully defeat any giant obstacle.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Did the surprising Mexican victory on Cinco de Mayo actually end the war?",
+          "What did the angry French army do just one year after the famous battle?",
+          "Who did the French army install as an emperor to rule Mexico?",
+          "If Mexico lost the war, why does the Battle of Puebla still matter today?",
+          "What did the poor Mexican soldiers prove by defeating the greatest military in the world?",
+          "What did this victory eventually help the Mexican people do a few years later?",
+          "What is the historic underdog victory a permanent, inspiring symbol of today?"
+        ],
+        "answerKey": [
+          "No, it did not actually end the war.",
+          "They returned to Mexico with thousands of fresh soldiers and captured Mexico City.",
+          "A European emperor named Maximilian.",
+          "Because it is a powerful, inspiring story about deep hope and brave resistance.",
+          "They proved that nothing is impossible.",
+          "Take their beautiful country back from the French invaders.",
+          "Bravely fighting against completely impossible odds."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Cuando estudiamos cuidadosamente la famosa Batalla de Puebla, surge rápidamente una pregunta histórica increíblemente importante y muy interesante: ¿la sorprendente victoria mexicana del Cinco de Mayo realmente terminó la guerra sangrienta? La triste y verdadera respuesta histórica es no. Solo un año corto después de la famosa batalla en 1862, el ejército francés enojado y avergonzado regresó a México con muchos miles de soldados frescos y fuertemente armados. Esta vez, el poderoso ejército francés derrotó con éxito a las fuerzas mexicanas cansadas, capturó fácilmente la capital de la Ciudad de México e instaló cruelmente a un emperador europeo llamado Maximiliano para gobernar estrictamente el país.\n\nEntonces, si México finalmente perdió la guerra contra Francia, ¿por qué exactamente importa tanto hoy la valiente Batalla de Puebla? La respuesta es increíblemente simple: es una historia poderosa y profundamente inspiradora sobre la esperanza profunda y la resistencia valiente. Cuando los soldados mexicanos pobres y mal equipados derrotaron milagrosamente al ejército más grande y aterrador de todo el mundo, demostraron con éxito que nada es imposible. Esta victoria impactante y heroica proporcionó un impulso masivo y profundamente emocional de motivación y puro coraje para el pueblo mexicano, ayudándoles finalmente a mantenerse increíblemente fuertes y a recuperar con éxito su hermoso país de los invasores franceses unos años más tarde.\n\nHoy en día, el legado profundo y poderoso de la batalla legendaria es mucho, mucho más grande que solo una pelea militar en un campo lodoso. Para millones de personas orgullosas, especialmente en los Estados Unidos, la victoria histórica del oprimido es un símbolo permanente y profundamente inspirador de luchar valientemente contra probabilidades completamente imposibles. Representa maravillosamente la fuerza increíble, el coraje inquebrantable y el orgullo feroz del pueblo mexicano, demostrando audazmente que la verdadera valentía y la pura determinación pueden derrotar con éxito cualquier obstáculo gigante.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿La sorprendente victoria mexicana del Cinco de Mayo realmente terminó la guerra?",
+          "¿Qué hizo el ejército francés enojado solo un año después de la famosa batalla?",
+          "¿A quién instaló cruelmente el ejército francés para gobernar el país latinoamericano?",
+          "Si México perdió la guerra, ¿por qué importa tanto la Batalla de Puebla hoy en día?",
+          "¿Qué demostraron los soldados mexicanos al derrotar al ejército más grande del mundo?",
+          "¿Qué les ayudó a hacer finalmente esta victoria a las personas mexicanas unos años más tarde?",
+          "¿De qué es un símbolo permanente e inspirador la victoria histórica del oprimido?"
+        ],
+        "answerKey": [
+          "No, la triste y verdadera respuesta histórica es no.",
+          "Regresó a México con muchos miles de soldados frescos y fuertemente armados.",
+          "A un emperador europeo llamado Maximiliano.",
+          "Porque es una historia poderosa e inspiradora sobre la esperanza y la resistencia valiente.",
+          "Demostraron con éxito que nada es imposible.",
+          "Recuperar con éxito su hermoso país de los invasores franceses.",
+          "De luchar valientemente contra probabilidades completamente imposibles."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Al examinar rigurosamente la célebre y épica Batalla de Puebla, emerge de inmediato una interrogante histórica sumamente crucial e ineludible: ¿logró este sorpresivo y milagroso triunfo mexicano del Cinco de Mayo poner fin definitivo al sangriento conflicto armado? La cruda y lamentable realidad histórica nos dicta que no. Apenas un año después de la heroica gesta de 1862, las humilladas y coléricas fuerzas francesas retornaron al territorio nacional con abrumadores refuerzos militares fuertemente pertrechados. En esta segunda ofensiva, el formidable y letal ejército invasor logró someter a las agotadas defensas republicanas, capturó estratégicamente la capital del país e impuso a la fuerza un régimen monárquico extranjero, coronando al aristócrata europeo Maximiliano de Habsburgo como emperador de México.\n\nAnte este adverso y oscuro desenlace bélico, surge inevitablemente la duda: ¿por qué la Batalla de Puebla sigue ostentando una relevancia histórica y simbólica tan inmensa en la actualidad? La respuesta radica en su incalculable valor como una poderosa y conmovedora narrativa de profunda esperanza y estoica resistencia anticolonial. Al derrotar de manera casi inconcebible a la maquinaria militar más temida e imbatible de la época, las precarias e inexpertas milicias mexicanas demostraron empíricamente que ninguna adversidad es insuperable. Este triunfo monumental inyectó una inagotable dosis de fervor patriótico y resiliencia psicológica en la población, fortaleciendo el espíritu nacional que, años más tarde, lograría expulsar definitivamente a los invasores europeos y restaurar la república soberana.\n\nHoy en día, el vasto y perdurable legado de esta legendaria contienda trasciende abismalmente los confines de un mero enfrentamiento táctico en un campo enlodado. Para millones de personas, especialmente dentro de la prolífica diáspora hispana en los Estados Unidos, esta épica victoria del oprimido frente al gigante opresor se erige como el símbolo supremo de la lucha estoica contra la marginación y las adversidades insalvables. Representa magistral y orgullosamente la inquebrantable fortaleza, el valor indomable y el feroz orgullo del pueblo mexicano.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Logró el sorpresivo triunfo mexicano del Cinco de Mayo poner fin definitivo al conflicto armado?",
+          "¿Qué hicieron las fuerzas francesas apenas un año después de la heroica gesta de 1862?",
+          "¿A qué aristócrata europeo coronaron e impusieron a la fuerza como emperador de México?",
+          "¿En qué radica la incalculable relevancia histórica y simbólica de la Batalla de Puebla?",
+          "¿Qué demostraron empíricamente las precarias e inexpertas milicias mexicanas al derrotar al ejército francés?",
+          "¿Qué logró hacer finalmente el fortalecido espíritu nacional mexicano años más tarde?",
+          "¿Como qué símbolo supremo se erige esta épica victoria para la diáspora hispana en los Estados Unidos?"
+        ],
+        "answerKey": [
+          "No, la cruda realidad histórica dicta que no.",
+          "Retornaron con abrumadores refuerzos, sometieron las defensas republicanas y capturaron la capital.",
+          "Al aristócrata europeo Maximiliano de Habsburgo.",
+          "En su valor como una poderosa narrativa de profunda esperanza y estoica resistencia anticolonial.",
+          "Demostraron empíricamente que ninguna adversidad es insuperable.",
+          "Expulsar definitivamente a los invasores europeos y restaurar la república soberana.",
+          "Como el símbolo de la lucha estoica contra la marginación y las adversidades insalvables."
         ]
       }
     }
