@@ -8023,7 +8023,1209 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "El Desierto de Atacama",
+    "imageFileName": "desierto_atacama.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "El Desierto de Atacama is incredibly famous around the globe for officially being the absolute driest non-polar desert in the entire world. Beautifully located in the far northern region of the long country of Chile, this massive, quiet, and highly isolated landscape is naturally bordered by the towering, snowy peaks of the Andes Mountains on one side and the cold, deep blue Pacific Ocean on the other side. Because of its very unique, extreme geography and the tall mountains blocking the clouds, some small weather stations in the deep desert have amazingly never recorded a single, tiny drop of lluvia (rain) in all of recorded human history!\n\nThe harsh, silent landscape is so incredibly rocky, dusty, dark red, and extreme that it actually looks exactly like the rough, alien surface of another planet. In fact, the dry dirt and rocky terrain are so remarkably similar to the actual planet Mars that brilliant scientists and smart engineers from NASA frequently visit the hot desert to carefully test their expensive, high-tech space rovers and robots before finally sending them far away into outer space. One of the absolute most famous, beautiful, and busy tourist destinations in the entire desert is called the Valle de la Luna (Valley of the Moon), where excited visitors can walk safely and quietly through natural, sparkling white salt caves and climb massive, ancient sand dunes to watch the beautiful sunset.\n\nBesides its very unique, rocky geology, the Atacama Desert is also completely famous for being one of the absolute best, most perfect places on Earth for the science of astronomy. Because there is almost absolutely zero wet humidity in the air and absolutely no bright light pollution from busy, modern big cities, the dark night sky is always perfectly clear and full of millions of bright, shining stars. The famous, massive ALMA observatory is safely located very high up in the cold desert mountains, where smart scientists and professional astronomers from all over the world use giant, powerful radio telescopes to deeply study distant, ancient estrellas (stars) and newly discovered galaxies.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What is El Desierto de Atacama famous for being?",
+          "Where is the massive desert located?",
+          "Why do scientists from NASA frequently visit the desert?",
+          "What is one of the most famous tourist destinations there called?",
+          "What can visitors see in the Valle de la Luna?",
+          "Why is the desert one of the absolute best places for astronomy?",
+          "What is the name of the famous observatory located in the mountains?"
+        ],
+        "answerKey": [
+          "The absolute driest non-polar desert in the entire world.",
+          "In the far northern region of Chile.",
+          "To carefully test their expensive space rovers and robots because the terrain is similar to Mars.",
+          "Valle de la Luna (Valley of the Moon).",
+          "Natural, sparkling white salt caves and massive sand dunes.",
+          "Because there is almost zero wet humidity in the air and absolutely no bright light pollution.",
+          "The ALMA observatory."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El Desierto de Atacama es increíblemente famoso en todo el mundo por ser oficialmente el desierto no polar absolutamente más seco de todo el mundo. Bellamente ubicado en la región extremo norte del largo país de Chile, este paisaje masivo, tranquilo y muy aislado está bordeado naturalmente por los picos nevados y altísimos de las Montañas de los Andes en un lado y el frío y azul oscuro Océano Pacífico en el otro lado. ¡Debido a su geografía muy única y extrema, y a las altas montañas que bloquean las nubes, algunas estaciones meteorológicas pequeñas en el desierto profundo sorprendentemente nunca han registrado una sola gota pequeña de lluvia en toda la historia humana registrada!\n\nEl paisaje duro y silencioso es tan increíblemente rocoso, polvoriento, rojo oscuro y extremo que en realidad se ve exactamente como la superficie áspera y alienígena de otro planeta. De hecho, la tierra seca y el terreno rocoso son tan notablemente similares al planeta real Marte que los científicos brillantes y los ingenieros inteligentes de la NASA visitan frecuentemente el desierto caliente para probar cuidadosamente sus vehículos espaciales y robots caros y de alta tecnología antes de finalmente enviarlos muy lejos al espacio exterior. Uno de los destinos turísticos absolutamente más famosos, hermosos y concurridos de todo el desierto se llama el Valle de la Luna, donde los visitantes emocionados pueden caminar de manera segura y tranquila a través de cuevas de sal blancas y brillantes naturales y escalar dunas de arena masivas y antiguas para ver la hermosa puesta de sol.\n\nAdemás de su geología rocosa muy única, el Desierto de Atacama también es completamente famoso por ser uno de los lugares absolutamente mejores y más perfectos de la Tierra para la ciencia de la astronomía. Como casi no hay absolutamente ninguna humedad húmeda en el aire y no hay contaminación lumínica brillante de las grandes ciudades modernas y concurridas, el cielo nocturno oscuro siempre está perfectamente claro y lleno de millones de estrellas brillantes. El famoso y masivo observatorio ALMA está ubicado de manera segura muy alto en las frías montañas del desierto, donde los científicos inteligentes y los astrónomos profesionales de todo el mundo usan telescopios de radio gigantes y poderosos para estudiar profundamente estrellas antiguas y distantes y galaxias recién descubiertas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Por qué es famoso el Desierto de Atacama en todo el mundo?",
+          "¿En qué parte de Chile está ubicado este paisaje masivo?",
+          "¿Por qué los científicos de la NASA visitan el desierto frecuentemente?",
+          "¿Cuál es uno de los destinos turísticos más populares allí?",
+          "¿Qué cosas increíbles pueden ver los visitantes en el Valle de la Luna?",
+          "¿Por qué es el desierto un lugar perfecto para la astronomía?",
+          "¿Para qué usan los telescopios gigantes los científicos de todo el mundo?"
+        ],
+        "answerKey": [
+          "Por ser oficialmente el desierto no polar absolutamente más seco de todo el mundo.",
+          "En la región extremo norte del largo país de Chile.",
+          "Para probar cuidadosamente sus vehículos espaciales porque el terreno es similar al planeta Marte.",
+          "El Valle de la Luna.",
+          "Cuevas de sal blancas y brillantes naturales y dunas de arena masivas y antiguas.",
+          "Porque casi no hay absolutamente ninguna humedad en el aire y no hay contaminación lumínica.",
+          "Para estudiar profundamente estrellas antiguas y distantes y galaxias recién descubiertas."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El sobrecogedor e imponente Desierto de Atacama, majestuosamente situado en la vasta, accidentada y despoblada región del extremo norte de Chile, ostenta con orgullo científico el asombroso título geográfico de ser el desierto no polar más extremadamente árido de todo el planeta Tierra. Flanqueado inquebrantablemente por la inmensa e imponente barrera natural de la cordillera de los Andes al este y por las frías corrientes del océano Pacífico al oeste, su extrema, casi absoluta y constante sequedad climática es el producto directo de un fenómeno geográfico sumamente singular conocido como sombra orográfica. Sorprendentemente, existen estaciones meteorológicas aisladas en esta desolada y vasta zona que literalmente jamás han registrado ni una sola y minúscula precipitación pluvial en toda la historia climática documentada.\n\nSu hostil, silencioso y agreste relieve, profundamente rocoso y teñido de intensos, oscuros y oxidados tonos rojizos, es tan extraordinariamente inhóspito, estéril y extremo que se asemeja visual e innegablemente con asombrosa precisión a la superficie muerta e inexplorada del suelo marciano. Precisamente por esta insólita y asombrosa similitud geológica, científicos de élite y brillantes ingenieros aeroespaciales de agencias como la NASA utilizan muy frecuentemente este castigado terreno extremo como un riguroso laboratorio natural inigualable para poner a prueba exhaustivamente sus sofisticados, costosos y experimentales vehículos exploradores (rovers) antes de lanzarlos finalmente al espacio exterior. Uno de los mayores, más fotográficos e indiscutibles atractivos turísticos de la vasta región es el espectacular y silencioso Valle de la Luna, donde los viajeros más intrépidos y curiosos pueden deambular libremente y maravillarse caminando entre extrañas formaciones salinas cristalizadas y dunas gigantescas esculpidas meticulosamente a lo largo de milenios por la erosión del viento constante.\n\nParalelamente a su profundamente fascinante, inhóspita y extraterrestre geología, el aislado desierto de Atacama es reverenciado y reconocido internacionalmente como un paraíso absoluto, prístino y mundialmente inigualable para la compleja observación y el estudio profundo de la astronomía moderna. Gracias a la asombrosa ausencia casi total de humedad atmosférica que nuble la visión y a la absoluta, afortunada y nula contaminación lumínica derivada del desarrollo urbano, sus cielos nocturnos son de una oscuridad profunda y una nitidez estelar verdaderamente insuperable. El revolucionario, masivo e internacional observatorio ALMA opera silenciosamente en las gélidas e inalcanzables altitudes de estas cordilleras, congregando diariamente a las mentes científicas y astrónomos más brillantes del panorama internacional que escudriñan incansablemente los oscuros, antiguos y lejanos confines del vasto universo a través del uso de potentes y gigantescos radiotelescopios de última generación.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué asombroso título ostenta el Desierto de Atacama a nivel mundial?",
+          "¿Por qué formaciones geográficas está flanqueado este desierto?",
+          "¿A qué se asemeja con asombrosa precisión el relieve agreste y rocoso de la zona?",
+          "¿Para qué utilizan los científicos de agencias espaciales este terreno inhóspito?",
+          "¿Qué pueden hacer los viajeros al visitar el espectacular Valle de la Luna?",
+          "¿Qué condiciones ambientales hacen que los cielos nocturnos tengan una nitidez insuperable?",
+          "¿Qué tecnología utilizan los astrónomos en el observatorio ALMA para escudriñar el universo?"
+        ],
+        "answerKey": [
+          "El asombroso título de ser el desierto no polar más extremadamente árido de todo el planeta.",
+          "Por la inmensa barrera natural de la cordillera de los Andes al este y por el océano Pacífico al oeste.",
+          "A la superficie muerta e inexplorada del suelo marciano (planeta Marte).",
+          "Como un riguroso laboratorio natural para poner a prueba exhaustivamente sus sofisticados vehículos exploradores (rovers).",
+          "Deambular libremente y maravillarse caminando entre extrañas formaciones salinas cristalizadas y dunas gigantescas.",
+          "La asombrosa ausencia casi total de humedad atmosférica y la nula contaminación lumínica.",
+          "Potentes y gigantescos radiotelescopios de última generación."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Lago Titicaca y los Uros",
+    "imageFileName": "lago_titicaca.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The breathtaking, historical Lake Titicaca officially holds the incredible world record for being the highest navigable lake in the entire world, resting peacefully and quietly very high up in the freezing, windy peaks of the massive Andes Mountains, located exactly on the long international border shared closely between the beautiful countries of Peru and Bolivia. The massive, incredibly deep lake is absolutely beautiful, completely filled with freezing, deep blue water and beautifully surrounded on all sides by towering, impressive snow-capped mountain peaks that touch the clouds. However, the absolute most fascinating, unique, and famous part of visiting this massive, ancient lake is meeting the proud, hardworking indigenous community widely known as the Uros people, who have incredibly and successfully lived directly on the surface of the cold water for many hundreds of long years.\n\nThe highly skilled, traditional Uros people absolutely do not live their daily lives on solid dirt or rocky land like most other people do. Instead, they cleverly live their entire lives resting on incredible, thick, man-made floating islands that they masterfully and patiently build entirely by hand out of a very special, strong, and highly useful water plant locally called 'totora' reeds. These incredibly tall, bright green, and thick reeds grow naturally and abundantly in the very shallow, muddy parts of the massive lake. The hardworking people carefully cut and weave the thick, wet roots and thousands of dry reeds closely together to magically create very large, highly stable, and bouncy floating platforms for their families. They also cleverly and expertly use the exact same green reeds to quickly build their small, warm houses, to build their large, traditional curved fishing boats, and they even use the fresh white bottoms of the plants as healthy food or natural medicine when they feel sick!\n\nSafely living on a heavy floating island definitely requires constant, extremely hard, and very tiring physical work every single day. Because the wet, submerged reeds naturally and slowly rot away in the cold lake water over time, the busy Uros people must constantly cut and carefully add fresh, thick layers of brand new, golden reeds to the very top of the sinking island every few short weeks just to keep their homes safely floating above the cold water. Today, the friendly, smiling Uros proudly and happily welcome curious, excited tourists from all over the world to their floating homes, happily sharing their totally unique, ancient culture and successfully selling their beautiful, brightly colored handmade crafts and warm textiles to friendly visitors to help support their families.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What record does Lake Titicaca hold?",
+          "On the border of which two countries is the lake located?",
+          "What is the name of the indigenous community that lives on the lake?",
+          "Where do the Uros people physically live?",
+          "What special water plant are the floating islands built from?",
+          "What happens to the reeds in the water over time?",
+          "How do the Uros people maintain their floating islands?"
+        ],
+        "answerKey": [
+          "The highest navigable lake in the entire world.",
+          "Peru and Bolivia.",
+          "The Uros people.",
+          "On incredible, thick, man-made floating islands.",
+          "A special, strong water plant called 'totora' reeds.",
+          "They naturally and slowly rot away in the cold lake water.",
+          "By constantly cutting and carefully adding fresh, thick layers of new reeds to the top of the island."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El impresionante e histórico Lago Titicaca tiene oficialmente el increíble récord mundial de ser el lago navegable más alto de todo el mundo, descansando pacífica y tranquilamente muy alto en los picos helados y ventosos de las enormes montañas de los Andes, ubicado exactamente en la larga frontera internacional compartida estrechamente entre los hermosos países de Perú y Bolivia. El lago masivo e increíblemente profundo es absolutamente hermoso, completamente lleno de agua azul oscura y helada, y bellamente rodeado por todos lados de impresionantes picos de montañas nevadas que tocan las nubes. Sin embargo, la parte absolutamente más fascinante, única y famosa de visitar este lago masivo y antiguo es conocer a la orgullosa y trabajadora comunidad indígena ampliamente conocida como el pueblo de los uros, que ha vivido de manera increíble y exitosa directamente en la superficie del agua fría durante muchos cientos de largos años.\n\nEl pueblo de los uros, muy hábil y tradicional, absolutamente no vive su vida diaria en tierra sólida o rocosa como la mayoría de las otras personas. En lugar de eso, ellos viven hábilmente toda su vida descansando en increíbles y gruesas islas flotantes hechas por el hombre que construyen magistral y pacientemente a mano con una planta acuática muy especial, fuerte y útil que localmente se llama juncos de 'totora'. Estos juncos increíblemente altos, de color verde brillante y gruesos crecen natural y abundantemente en las partes muy poco profundas y lodosas del enorme lago. Las personas trabajadoras cortan y tejen cuidadosamente las raíces húmedas y gruesas y miles de juncos secos juntos para crear mágicamente plataformas flotantes muy grandes, muy estables y rebotantes para sus familias. Ellos también usan de manera inteligente y experta los mismos juncos verdes para construir rápidamente sus casas pequeñas y cálidas, para construir sus grandes barcos de pesca curvos y tradicionales, ¡e incluso usan las partes blancas frescas de las plantas como comida saludable o medicina natural cuando se sienten enfermos!\n\nVivir con seguridad en una isla flotante y pesada definitivamente requiere un trabajo físico constante, extremadamente duro y muy agotador todos los días. Porque los juncos sumergidos y húmedos se pudren lenta y naturalmente en el agua fría del lago con el tiempo, los ocupados uros deben cortar constantemente y añadir cuidadosamente capas gruesas y frescas de juncos nuevos y dorados a la parte superior de la isla que se hunde cada pocas semanas cortas solo para mantener sus casas flotando de manera segura sobre el agua fría. Hoy en día, los uros amables y sonrientes reciben con orgullo y felicidad a los turistas curiosos y emocionados de todo el mundo en sus hogares flotantes, compartiendo felizmente su cultura antigua y totalmente única, y vendiendo con éxito sus hermosas artesanías hechas a mano de colores brillantes y cálidos textiles a los visitantes amigables para ayudar a mantener a sus familias.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué récord mundial tiene el hermoso Lago Titicaca?",
+          "¿En la frontera de qué países sudamericanos está ubicado?",
+          "¿Cómo se llama la comunidad indígena que vive en el lago?",
+          "¿De qué material están construidas las islas flotantes?",
+          "¿Para qué otras cosas usan los uros las plantas de totora?",
+          "¿Qué pasa con las plantas en el agua con el paso del tiempo?",
+          "¿Qué tienen que hacer los uros frecuentemente para mantener la isla?"
+        ],
+        "answerKey": [
+          "El increíble récord mundial de ser el lago navegable más alto de todo el mundo.",
+          "En la larga frontera internacional compartida entre Perú y Bolivia.",
+          "El pueblo de los uros.",
+          "Juncos de 'totora' (una planta acuática especial).",
+          "Para construir sus casas, sus barcos de pesca, e incluso como comida saludable o medicina natural.",
+          "Se pudren lenta y naturalmente en el agua fría.",
+          "Añadir cuidadosamente capas gruesas y frescas de juncos nuevos a la parte superior de la isla."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El majestuoso, místico y verdaderamente enigmático Lago Titicaca, enclavado estratégicamente y de manera imponente en las gélidas e inhóspitas alturas de la extensa cordillera de los Andes, ostenta orgullosamente el asombroso título geográfico de ser el inmenso cuerpo de agua navegable a mayor altitud de todo el planeta, sirviendo históricamente como una inquebrantable y cristalina frontera natural indisoluble que hermana a las vecinas repúblicas de Perú y Bolivia. Sus intensas, profundas e increíblemente oscuras aguas azules, que a menudo reflejan el inmenso y despejado cielo andino, contrastan espectacular y poéticamente con los dentados y escarpados picos nevados que lo circundan y protegen. No obstante su innegable e imponente belleza paisajística, el tesoro antropológico más asombroso, valioso y culturalmente fascinante del enorme lago es, sin duda alguna, la resiliente y ancestral comunidad indígena de los uros, un pueblo estoico y orgulloso que ha habitado y dominado pacíficamente estas frías aguas desde tiempos inmemoriales, mucho antes de la poderosa expansión del imperio incaico.\n\nRechazando rotundamente la vida tradicional y sedentaria en tierra firme, los ingeniosos uros han diseñado y perfeccionado a lo largo de los siglos una existencia verdaderamente única y admirable, habitando de forma permanente sobre extraordinarias, elásticas e impresionantes islas flotantes artificiales que se mecen suavemente con el oleaje. Estas complejas y flotantes plataformas habitables son construidas meticulosa y laboriosamente a mano, entretejiendo magistralmente las gruesas y robustas raíces fango-flotantes y los largos y resistentes tallos dorados de la 'totora', una vigorosa y versátil caña acuática endémica que prolifera abundantemente en las zonas ribereñas y pantanosas del inmenso lago. La absoluta versatilidad botánica de la totora es el pilar central y existencial de su milenaria cultura lacustre: la emplean expertamente no solo para asentar y edificar sus rústicas viviendas circulares y tejer sus veloces y emblemáticas embarcaciones de pesca (los famosos caballitos de totora), sino que también la consumen y mastican regularmente con fines medicinales, nutricionales y para prevenir el doloroso escorbuto en altitudes extremas.\n\nLa constante y necesaria preservación estructural de estas inusuales islas flotantes demanda a sus habitantes una labor física verdaderamente titánica, ardua e incesante durante todo el año. Dado que la base gruesa de las cañas húmedas y sumergidas se descompone y pudre paulatinamente debido a la acción constante del agua gélida, amenazando con hundir el hogar, los esforzados habitantes de la isla deben cortar y añadir meticulosamente capas compactas y frescas de totora verde en la superficie habitable cada escasas semanas. En la actualidad contemporánea, buscando nuevas y necesarias fuentes de ingreso para la precaria comunidad, los uros abren cálida y organizadamente las puertas de sus húmedos hogares al lucrativo ecoturismo internacional, compartiendo generosamente su milenaria cosmovisión andina, sus ricas leyendas orales y su inquebrantable e ingenioso modo de subsistencia con curiosos y maravillados viajeros provenientes de absolutamente todos los continentes del mundo.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué título geográfico ostenta el enigmático Lago Titicaca a nivel planetario?",
+          "¿Entre qué dos naciones sudamericanas sirve como frontera natural indisoluble?",
+          "¿Dónde ha diseñado su existencia única la comunidad indígena de los uros?",
+          "¿Qué material natural endémico utilizan minuciosamente para construir las plataformas?",
+          "¿Cuáles son otros usos culturales y prácticos que le dan a la 'totora'?",
+          "¿Por qué la preservación de las islas demanda una labor titánica e incesante?",
+          "¿Qué actividad económica moderna han integrado los uros para compartir su cosmovisión?"
+        ],
+        "answerKey": [
+          "Es el inmenso cuerpo de agua navegable a mayor altitud de todo el planeta.",
+          "Sirve como una frontera natural indisoluble que hermana a las repúblicas de Perú y Bolivia.",
+          "Habitando de forma permanente sobre extraordinarias, elásticas e impresionantes islas flotantes artificiales.",
+          "Las robustas raíces y los tallos dorados de la 'totora' (una vigorosa caña acuática endémica).",
+          "Para asentar viviendas, tejer embarcaciones de pesca, y con fines medicinales y nutricionales.",
+          "Dado que la base gruesa de cañas sumergidas se descompone y pudre paulatinamente, los habitantes deben añadir capas frescas cada escasas semanas.",
+          "Abren cálidamente las puertas de sus hogares al lucrativo ecoturismo internacional."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Glaciar Perito Moreno",
+    "imageFileName": "perito_moreno.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The Perito Moreno Glacier is a truly massive, absolutely breathtaking, and incredibly slow-moving river of thick, solid blue ice beautifully located deep in the protected Los Glaciares National Park in the wild, freezing Patagonia region of southern Argentina. While almost all of the other ancient glaciers around the entire world are currently rapidly melting, breaking apart, and getting dangerously smaller due to the sad, global effects of rapid global warming, the massive Perito Moreno is highly unique and deeply fascinating to scientists because it is actually completely, perfectly stable and is incredibly still slowly growing in total size every single year!\n\nThe massive, towering glacier is incredibly huge, wide, and heavy, successfully covering well over one hundred square miles of land. It slowly and powerfully pushes its huge, heavy, frozen body completely down from the freezing, snowy peaks of the tall Andes Mountains directly into the deep, freezing, dark blue waters of the massive Lake Argentino below. As the incredibly heavy, giant, jagged wall of blue ice constantly moves forward into the water, it naturally creates immense, powerful physical pressure at the bottom. Every few short years, this intense, unstoppable pressure magically causes a spectacular, wild, and highly dramatic natural event known in Spanish as 'la ruptura' (the rupture or the break). During this incredibly dramatic, unforgettable event, gigantic, heavy blocks of solid, bright blue ice suddenly break off completely from the tall front of the glacier and crash violently and wildly into the deep lake water below, naturally creating massive, dangerous tidal waves and a very loud, booming sound that echoes for miles and sounds exactly like loud thunder.\n\nBecause of its unmatched, striking physical beauty, safe, easy accessibility, and dramatic ice falls, it is incredibly one of the absolute most famous, popular, and heavily visited tourist attractions in all of the massive country of Argentina. Excited, warmly dressed visitors can comfortably and safely walk along special, raised metal pathways and wooden balconies smartly built right in front of the massive, freezing ice wall to safely take beautiful, close-up photos and wait patiently for falling ice. Truly brave, adventurous travelers visiting the cold region can even quickly put on special, sharp metal spiked shoes (crampons) and go hiking carefully and directly on top of the frozen, cracking, slippery glaciar with a local guide!",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is the Perito Moreno Glacier located?",
+          "Why is the Perito Moreno Glacier highly unique compared to other glaciers?",
+          "Where does the massive glacier slowly push its way down into?",
+          "What causes the spectacular natural event known as 'la ruptura'?",
+          "What happens during the dramatic event called 'la ruptura'?",
+          "What can visitors safely walk along to take photos of the ice wall?",
+          "What can adventurous travelers do directly on top of the frozen glacier?"
+        ],
+        "answerKey": [
+          "In the protected Los Glaciares National Park in the Patagonia region of southern Argentina.",
+          "It is completely, perfectly stable and is incredibly still slowly growing in total size.",
+          "Directly into the deep, freezing waters of the massive Lake Argentino.",
+          "The immense, powerful physical pressure from the heavy, moving ice.",
+          "Gigantic, heavy blocks of solid blue ice suddenly break off and crash violently into the deep lake water.",
+          "Special, raised metal pathways and wooden balconies.",
+          "They can put on special, sharp metal spiked shoes and go hiking directly on top of the frozen glaciar."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El Glaciar Perito Moreno es un río verdaderamente masivo, absolutamente impresionante e increíblemente lento de hielo azul grueso y sólido ubicado bellamente en el protegido Parque Nacional Los Glaciares en la región salvaje y helada de la Patagonia en el sur de Argentina. Mientras que casi todos los otros glaciares antiguos alrededor de todo el mundo se están derritiendo rápidamente, rompiéndose y haciéndose peligrosamente más pequeños debido a los efectos tristes y globales del rápido calentamiento global, el masivo Perito Moreno es muy único y profundamente fascinante para los científicos porque en realidad es completa y perfectamente estable y todavía está creciendo increíblemente lentamente en tamaño total cada año.\n\nEl glaciar masivo y altísimo es increíblemente enorme, ancho y pesado, cubriendo con éxito más de cien millas cuadradas de tierra. Empuja lenta y poderosamente su cuerpo enorme, pesado y congelado completamente hacia abajo desde los picos helados y nevados de las altas Montañas de los Andes directamente hacia las aguas frías y azules oscuras del masivo Lago Argentino de abajo. A medida que la pared gigante e increíblemente pesada de hielo azul avanza constantemente hacia el agua, crea naturalmente una inmensa y poderosa presión física en el fondo. Cada pocos años cortos, esta presión intensa e imparable causa mágicamente un evento natural espectacular, salvaje y muy dramático conocido en español como 'la ruptura'. Durante este evento increíblemente dramático e inolvidable, bloques gigantes y pesados de hielo azul brillante y sólido se rompen repentinamente del frente alto del glaciar y chocan violenta y salvajemente contra el agua profunda del lago, creando naturalmente olas masivas y peligrosas y un sonido muy fuerte que hace eco y suena exactamente como un trueno fuerte.\n\nPor su belleza física inigualable, acceso seguro y fácil, y caídas dramáticas de hielo, es increíblemente una de las atracciones turísticas absolutamente más famosas, populares y visitadas en todo el enorme país de Argentina. Los visitantes emocionados y abrigados pueden caminar cómoda y seguramente por senderos de metal especiales y elevados y balcones de madera construidos de manera inteligente justo enfrente de la masiva y helada pared de hielo para tomar de manera segura fotos hermosas y de cerca y esperar pacientemente a que caiga el hielo. ¡Los viajeros verdaderamente valientes y aventureros que visitan la región fría pueden incluso ponerse rápidamente zapatos especiales con púas de metal afiladas (crampones) e ir a caminar con cuidado y directamente en la parte superior del glaciar congelado y resbaladizo con un guía local!",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué parque nacional y región de Argentina está ubicado el glaciar?",
+          "¿Qué está pasando con casi todos los glaciares del mundo actualmente?",
+          "¿Por qué es único e interesante el Glaciar Perito Moreno?",
+          "¿Hacia dónde se mueve el glaciar desde las montañas de los Andes?",
+          "¿Qué evento natural y espectacular causa la presión inmensa del hielo?",
+          "¿Qué cosas caen violentamente al lago profundo durante 'la ruptura'?",
+          "¿Qué equipo necesitan ponerse los viajeros aventureros para caminar encima del hielo?"
+        ],
+        "answerKey": [
+          "En el Parque Nacional Los Glaciares en la región salvaje y helada de la Patagonia.",
+          "Se están derritiendo rápidamente, rompiéndose y haciéndose peligrosamente más pequeños.",
+          "Porque en realidad es completa y perfectamente estable y todavía está creciendo en tamaño total.",
+          "Directamente hacia las aguas frías y azules oscuras del masivo Lago Argentino.",
+          "Una inmensa y poderosa presión física (la ruptura).",
+          "Bloques gigantes y pesados de hielo azul brillante y sólido.",
+          "Zapatos especiales con púas de metal afiladas (crampones)."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El majestuoso, deslumbrante y sobrecogedor Glaciar Perito Moreno es una inmensa, imponente e interminable masa serpenteante de milenario hielo sólido, ventajosamente situado en el corazón gélido e inhóspito del inmenso Parque Nacional Los Glaciares, en la extrema, remota y salvaje región de la Patagonia en el sur de Argentina. En una preocupante y sombría época actual donde la inmensa mayoría de los glaciares y placas polares a nivel global se encuentran en un rápido, trágico e inexorable retroceso de deshielo debido al implacable y nocivo calentamiento global y el cambio climático, el colosal Perito Moreno constituye y representa una maravillosa, esperanzadora y verdadera anomalía glaciológica sumamente fascinante para los científicos mundiales: sorprendentemente, se mantiene en un estado de envidiable equilibrio dinámico y continúa, lenta pero incesantemente, avanzando y creciendo en masa.\n\nEsta titánica y pesada lengua fluvial de sólido hielo desciende implacable, silenciosa y aplastantemente desde las gélidas, blancas y escarpadas cumbres andinas de la cordillera hasta precipitarse frontal y dramáticamente en las turbias, gélidas y oscuras aguas del extenso Lago Argentino. El continuo, constante e imparable avance frontal de la gigantesca y afilada masa glacial genera inevitablemente una presión física descomunal, aplastante e incalculable contra la rocosa costa opuesta, formando lenta y periódicamente un enorme e inestable dique natural curvo de hielo que bloquea temporalmente el flujo natural del agua. Este acumulado y tenso fenómeno culmina irremediablemente en un espectacular, destructivo y sobrecogedor evento natural masivo mundialmente conocido como 'la ruptura'. Durante esta temible y hermosa fase, titánicos e inmensos bloques irregulares de hielo de un profundo y brillante azul iridiscente se fracturan estrepitosamente desde la altísima pared frontal y colapsan estruendosa y violentamente sobre el lago, provocando tsunamis locales y un ruido ensordecedor, retumbante y estremecedor que es sumamente similar al impacto directo de un trueno continuo.\n\nGracias a su incomparable, impactante y gélida belleza escénica y a su asombrosa, cómoda y segura accesibilidad para todo público, es innegablemente uno de los imanes y destinos turísticos más formidables, rentables y visitados de toda la República Argentina. Los extasiados y abrigados visitantes pueden detenerse a maravillarse pacientemente ante el brillante coloso de hielo desde un extenso, laberíntico y muy seguro sistema de pasarelas metálicas panorámicas, mientras que los turistas mucho más ágiles e intrépidos tienen la excitante y arriesgada oportunidad de calzarse afilados crampones metálicos en las botas y realizar guiadas caminatas directamente sobre la peligrosa, agrietada y resbaladiza superficie congelada del gigante patagónico.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué anomalía glaciológica fascinante presenta el Glaciar Perito Moreno?",
+          "¿A causa de qué fenómeno están en retroceso la mayoría de los glaciares globales?",
+          "¿Desde dónde desciende implacablemente esta colosal lengua de hielo?",
+          "¿Qué genera el continuo avance de la masa glacial contra la costa?",
+          "¿Cómo se describe el espectacular fenómeno conocido como 'la ruptura'?",
+          "¿Qué facilita que los visitantes puedan maravillarse ante el coloso de manera segura?",
+          "¿Qué herramienta deben calzarse los más intrépidos para caminar sobre la superficie agrietada?"
+        ],
+        "answerKey": [
+          "Se mantiene en un estado de equilibrio dinámico y continúa avanzando y creciendo en masa.",
+          "Debido al implacable calentamiento global y el cambio climático.",
+          "Desde las gélidas, blancas y escarpadas cumbres andinas.",
+          "Genera una presión física descomunal contra la rocosa costa, formando un enorme dique natural de hielo.",
+          "Titánicos bloques de hielo azul se fracturan y colapsan estruendosamente sobre el lago, provocando un ruido ensordecedor.",
+          "Un extenso, laberíntico y muy seguro sistema de pasarelas metálicas panorámicas.",
+          "Afilados crampones metálicos en las botas."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Flamenco",
+    "imageFileName": "flamenco.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "El Flamenco is an incredibly passionate, intense, loud, and deeply emotional traditional art form and musical style that originally started long ago in the beautiful, hot, and sunny southern region of Andalusia, Spain. Historically, this deeply powerful, dramatic tradition was passionately created by the poor, marginalized, and struggling Roma people, who are widely and commonly known in Spain as 'los gitanos'. They bravely used this highly expressive music and loud singing to deeply express their absolute deepest sorrows, painful struggles, and also their greatest, most passionate joys in life. A true, authentic, and complete flamenco performance is carefully composed of exactly three essential, powerful elements happily working perfectly together at the same time: 'el cante' (the loud, emotional singing), 'el toque' (the fast, beautiful acoustic guitar playing), and 'el baile' (the incredibly intense, stomping dancing).\n\nWhen you sit down to excitedly watch a live, authentic flamenco performance in a small theater, the serious, focused dancers beautifully express highly intense, deep human emotions like painful heartbreak, pure anger, deep sorrow, and fierce, fiery pride directly through their very rapid, sharp, and powerful body movements. The beautiful, elegant women performing the dance typically wear tight-fitting, gorgeous traditional dresses heavily covered with many layers of long, flowing, colorful ruffles, while the serious men usually wear sharp, elegant dark suits and highly specialized, hard-heeled black boots. One of the absolute most important, famous, and unique physical parts of any good flamenco show is the incredibly fast and highly complex rhythm, which is created very organically and naturally through 'las palmas' (loud, intricate hand-clapping) and the extremely loud, heavy, and fast rhythmic stomping of the dancers' wooden shoes directly on a hollow wooden stage.\n\nThe incredibly rapid, beautiful, and highly dramatic melody of the skilled acoustic guitar player completely controls the mood and the tense atmosphere of the entire dark room. Today, beautiful flamenco is happily celebrated, respected, and proudly danced worldwide, and it is even officially recognized and protected by the important global organization UNESCO as a highly precious, intangible cultural heritage of all humanity. It is definitely much, much more than just a simple, pretty dance to entertain tourists on vacation; it is a profound, deeply living, and intensely emotional expression of the true, raw human soul.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where did Flamenco originate?",
+          "Who historically created this powerful tradition?",
+          "What are the three essential elements of true flamenco?",
+          "What emotions do the dancers express through their movements?",
+          "What do women typically wear during a performance?",
+          "How is the complex rhythm organically created?",
+          "What international organization officially recognizes flamenco today?"
+        ],
+        "answerKey": [
+          "The southern region of Andalusia, Spain.",
+          "The marginalized Roma people, known in Spain as 'los gitanos'.",
+          "'El cante', 'el toque', and 'el baile'.",
+          "Heartbreak, pure anger, deep sorrow, and fierce pride.",
+          "Tight-fitting, gorgeous traditional dresses covered with layers of flowing ruffles.",
+          "Through 'las palmas' (hand-clapping) and the loud rhythmic stomping of wooden shoes.",
+          "UNESCO."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El flamenco es una forma de arte y estilo musical increíblemente apasionado, intenso, ruidoso y profundamente emocional que comenzó originalmente hace mucho tiempo en la hermosa, calurosa y soleada región sur de Andalucía, España. Históricamente, esta poderosa y dramática tradición fue creada apasionadamente por el pueblo marginado y pobre de los romaníes, que son ampliamente conocidos en España como 'los gitanos'. Ellos valientemente usaron esta música muy expresiva y su canto fuerte para expresar profundamente sus mayores tristezas, sus luchas dolorosas y también sus alegrías más grandes y apasionadas en la vida. Un espectáculo de flamenco verdadero, auténtico y completo está cuidadosamente compuesto de exactamente tres elementos esenciales y poderosos que trabajan perfectamente juntos al mismo tiempo: el cante (el canto fuerte y emocional), el toque (tocar la guitarra acústica de manera rápida y hermosa) y el baile (el baile increíblemente intenso y de zapateo).\n\nCuando te sientas a mirar emocionado un auténtico espectáculo de flamenco en vivo en un teatro pequeño, los bailarines serios y concentrados expresan maravillosamente emociones humanas muy intensas y profundas como el dolor doloroso, el enojo puro, la tristeza profunda y el orgullo feroz y ardiente directamente a través de sus movimientos corporales muy rápidos, afilados y poderosos. Las mujeres hermosas y elegantes que realizan el baile normalmente llevan vestidos hermosos y ajustados, muy cubiertos con muchas capas de volantes largos, fluidos y coloridos, mientras que los hombres serios normalmente llevan trajes oscuros elegantes y afilados, y botas negras de tacón duro muy especializadas. Una de las partes absolutamente más importantes, famosas y únicas de cualquier buen espectáculo de flamenco es el ritmo increíblemente rápido y muy complejo, que se crea de manera muy orgánica y natural a través de 'las palmas' (aplausos fuertes y complicados) y el zapateo rítmico extremadamente fuerte, pesado y rápido de los zapatos de madera de los bailarines directamente en un escenario de madera hueco.\n\nLa melodía increíblemente rápida, hermosa y muy dramática del hábil jugador de guitarra acústica controla completamente el estado de ánimo y la atmósfera tensa de toda la habitación oscura. Hoy en día, el hermoso flamenco se celebra felizmente, se respeta y se baila con orgullo en todo el mundo, e incluso es reconocido y protegido oficialmente por la importante organización global UNESCO como un precioso e intangible patrimonio cultural de toda la humanidad. Definitivamente es mucho, mucho más que un simple baile bonito para entretener a los turistas de vacaciones; es una expresión profunda, viva e intensamente emocional del alma humana verdadera.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué región del sur de España se originó el flamenco?",
+          "¿Qué pueblo marginado creó históricamente esta poderosa tradición?",
+          "¿Cuáles son los tres elementos esenciales del verdadero flamenco?",
+          "¿Qué emociones intensas expresan los bailarines en vivo?",
+          "¿Qué tipo de ropa llevan las mujeres normalmente?",
+          "¿Cómo se crea de forma natural el ritmo complejo del baile?",
+          "¿Qué organización internacional reconoce oficialmente el flamenco hoy en día?"
+        ],
+        "answerKey": [
+          "En la hermosa, calurosa y soleada región sur de Andalucía.",
+          "El pueblo marginado de los romaníes ('los gitanos').",
+          "El cante, el toque y el baile.",
+          "El dolor doloroso, el enojo puro, la tristeza profunda y el orgullo feroz.",
+          "Vestidos hermosos y ajustados con capas de volantes largos y coloridos.",
+          "A través de 'las palmas' y el zapateo rítmico fuerte de los zapatos en el escenario.",
+          "La UNESCO."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El apasionado flamenco es una expresión artística escénica deslumbrante, feroz y profundamente visceral que tiene sus arraigadas y oscuras raíces ancestrales sólidamente plantadas en la ardiente, soleada y diversa región de Andalucía, al extremo sur de la península de España. Históricamente, esta poderosa, dolorosa e intensa manifestación cultural y rítmica fue concebida y forjada hace muchos siglos por el sufrido y marginado pueblo nómada gitano, quienes utilizaban brillante e instintivamente este crudo arte sonoro como un vital y necesario vehículo catártico para canalizar, gritar y desahogar públicamente sus penas más hondas, su discriminación histórica y, esporádicamente, sus alegrías vitales más desbordantes y puras. El espectáculo flamenco auténtico, puro y tradicional se articula simbióticamente en torno a tres pilares expresivos fundamentales que se entrelazan de manera magistral e indisoluble sobre las tablas: el lamento del cante (la voz aguda y desgarradora), la maestría del toque (el rápido y percusivo rasgueo en la guitarra acústica española) y el ímpetu rítmico del baile.\n\nDurante un íntimo, caluroso y humeante tablao en vivo, los concentrados y serios 'bailaores' logran transmitir con una facilidad asombrosa un auténtico e inundante torrente de emociones humanas sumamente intensas a la extasiada audiencia, viajando drásticamente desde la asfixiante angustia y el amargo desamor hasta la radiante euforia y la indomable rebeldía pura, expresadas únicamente mediante movimientos corporales sumamente tensos, giros precisos, posturas altivas, rápidos contoneos y expresiones faciales dramáticas y enérgicas. Físicamente, las elegantes mujeres suelen lucir espectaculares vestidos ceñidos adornados con pesados volantes en cascada o las voluminosas e icónicas batas de cola que acentúan grácilmente su femenina figura al moverse, mientras que los adustos hombres visten con elegancia impecables trajes sobrios, chalecos cortos y ruidosas botas de tacón macizo. Un elemento acústico definitorio e inconfundible del flamenco purista es su veloz e intrincada polirritmia de fondo, generada y mantenida total y orgánicamente en vivo a través del agudo sonido de 'las palmas' compasadas y el ensordecedor, frenético e imparable zapateado de los bailarines golpeando brutalmente sobre el resonante tablado de madera hueca.\n\nEl toque guitarrístico vertiginoso, virtuoso y altamente dramático de la percusiva guitarra española es lo que invariablemente marca el exigente compás y domina dictatorialmente la cargada y silenciosa atmósfera emocional de todo el recinto iluminado. Hoy en día, esta inmensa y valorada disciplina folclórica trasciende exitosa y ruidosamente todas las fronteras geográficas, siendo fervientemente enseñada, admirada y ovacionada en inmensos teatros desde Japón hasta América, y siendo reconocida oficialmente por la prestigiosa UNESCO como intocable Patrimonio Cultural Inmaterial de la Humanidad, consagrándose en la historia mundial como un brillante, inquebrantable y desgarrador grito eterno e inmortal del alma hispana.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué región se encuentran las raíces ancestrales de esta expresión artística?",
+          "¿Para qué utilizaba el marginado pueblo gitano esta manifestación cultural?",
+          "¿En torno a qué tres pilares fundamentales se articula el flamenco auténtico?",
+          "¿Qué tipo de emociones transmiten los 'bailaores' mediante sus movimientos?",
+          "¿Cómo se genera orgánicamente la intrincada polirritmia del flamenco?",
+          "¿Qué instrumento domina dramáticamente la atmósfera del recinto?",
+          "¿Cómo reconoce la UNESCO al flamenco en la actualidad?"
+        ],
+        "answerKey": [
+          "En la ardiente, soleada y diversa región de Andalucía, al extremo sur de España.",
+          "Como un vital y necesario vehículo catártico para canalizar, gritar y desahogar públicamente sus penas más hondas.",
+          "El lamento del cante (la voz), la maestría del toque (la guitarra) y el ímpetu rítmico del baile.",
+          "Emociones humanas sumamente intensas, viajando desde la asfixiante angustia y el desamor hasta la radiante euforia y rebeldía pura.",
+          "A través del agudo sonido de 'las palmas' compasadas y el ensordecedor zapateado sobre el tablado de madera.",
+          "La percusiva guitarra española (el toque guitarrístico).",
+          "Como Patrimonio Cultural Inmaterial de la Humanidad."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Gallo Pinto y la Pura Vida",
+    "imageFileName": "gallo_pinto.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "El gallo pinto is the traditional, incredibly beloved national dish of the beautiful, tropical country of Costa Rica, and it is usually eaten happily by families every single morning for a healthy breakfast. This simple but absolutely delicious and comforting meal consists primarily of fluffy white rice perfectly mixed with soft black beans, which are cooked slowly together with fresh white onions, sweet bell peppers, bright green cilantro, and a very famous, tangy, and slightly sweet local sauce called 'Salsa Lizano'. The unique, funny name 'gallo pinto' literally translates to 'spotted rooster' in English because the dark, rich liquid from the black beans naturally stains the white rice, giving the entire delicious dish a cool, spotted appearance that looks just like the feathers of a farm rooster.\n\nHowever, in the peaceful country of Costa Rica, this famous, everyday food is much, much more than just a simple, tasty breakfast to give you energy; it is deeply and proudly connected to their strong national identity and their famous, positive philosophy of life, universally known as 'Pura Vida'. The beautiful Spanish phrase 'Pura Vida' literally translates to 'pure life' in English, but the friendly Costa Ricans, who affectionately and proudly call themselves 'Ticos', enthusiastically use it for absolutely everything. They happily use it to say a warm hello to friends, to say a polite goodbye, to express deep gratitude, or simply to show that everything in their day is going perfectly great.\n\nEating a warm plate of gallo pinto and actively living the relaxed 'Pura Vida' lifestyle both perfectly represent the exact same beautiful cultural values: deeply appreciating the simple, free things in life, focusing heavily on spending time with loving family, staying extremely positive during hard times, and living peacefully without any unnecessary, unhealthy stress. Because of this incredibly healthy, happy, and highly relaxed daily attitude, the gorgeous, green country of Costa Rica is frequently and consistently ranked as one of the absolute happiest, safest, and most environmentally friendly countries in the entire world today.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What is the traditional national dish of Costa Rica?",
+          "What are the two main ingredients of the dish?",
+          "What does the name 'gallo pinto' literally translate to?",
+          "What is the famous Costa Rican philosophy of life called?",
+          "What do Costa Ricans affectionately call themselves?",
+          "Name two situations where people use the phrase 'Pura Vida'.",
+          "What cultural values do the food and the lifestyle represent?"
+        ],
+        "answerKey": [
+          "El gallo pinto.",
+          "White rice and black beans.",
+          "'Spotted rooster'.",
+          "'Pura Vida'.",
+          "'Ticos'.",
+          "To say hello, goodbye, express gratitude, or show things are going great.",
+          "Appreciating simple things, focusing on family, and living without stress."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El gallo pinto es el plato tradicional e increíblemente querido de la hermosa y tropical Costa Rica, y normalmente es comido felizmente por las familias todas las mañanas para un desayuno saludable. Esta comida simple pero absolutamente deliciosa y reconfortante consiste principalmente de arroz blanco y esponjoso mezclado perfectamente con frijoles negros suaves, que se cocinan lentamente juntos con cebollas blancas frescas, pimientos dulces, cilantro verde y brillante, y una salsa local muy famosa, un poco ácida y dulce llamada 'Salsa Lizano'. El nombre único y cómico 'gallo pinto' literalmente se traduce como 'rooster con manchas' en inglés porque el líquido oscuro y rico de los frijoles negros mancha naturalmente el arroz blanco, dándole a todo el plato delicioso una apariencia genial y manchada que se parece exactamente a las plumas de un gallo de granja.\n\nSin embargo, en el país pacífico de Costa Rica, esta comida famosa y cotidiana es mucho, mucho más que un simple y sabroso desayuno para darte energía; está profunda y orgullosamente conectada a su fuerte identidad nacional y a su famosa y positiva filosofía de vida, universalmente conocida como 'Pura Vida'. La hermosa frase en español 'Pura Vida' literalmente significa vida pura, pero los amigables costarricenses, que se llaman afectuosa y orgullosamente a sí mismos 'ticos', la usan con entusiasmo para absolutamente todo. Ellos la usan felizmente para decir un cálido hola a los amigos, para decir un adiós educado, para expresar una profunda gratitud, o simplemente para mostrar que todo en su día va perfectamente muy bien.\n\nComer un plato caliente de gallo pinto y vivir activamente el estilo de vida relajado de 'Pura Vida' representan perfectamente los exactamente mismos y hermosos valores culturales: apreciar profundamente las cosas simples y gratis de la vida, enfocarse mucho en pasar tiempo con la familia cariñosa, mantenerse extremadamente positivo durante los tiempos difíciles, y vivir pacíficamente sin ningún estrés innecesario y poco saludable. Por esta actitud diaria increíblemente saludable, feliz y muy relajada, el hermoso y verde país de Costa Rica es frecuente y consistentemente considerado como uno de los países absolutamente más felices, más seguros y más ecológicos de todo el mundo hoy en día.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué es el gallo pinto y cuándo se come normalmente?",
+          "¿Cuáles son los dos ingredientes principales de esta comida?",
+          "¿Por qué el plato se llama 'gallo pinto'?",
+          "¿Cómo se llama la famosa filosofía de vida de Costa Rica?",
+          "¿Cómo se llaman a sí mismos los costarricenses?",
+          "¿Para qué usan los 'ticos' la frase famosa?",
+          "¿Por qué Costa Rica es considerado uno de los países más felices del mundo?"
+        ],
+        "answerKey": [
+          "Es el plato tradicional de Costa Rica y se come para el desayuno.",
+          "Arroz blanco y frijoles negros.",
+          "Porque los frijoles oscuros manchan el arroz blanco y parece un gallo con manchas.",
+          "'Pura Vida'.",
+          "'Ticos'.",
+          "Para decir hola, adiós, dar las gracias o decir que todo está bien.",
+          "Por su actitud saludable, relajada y sin estrés."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El emblemático e icónico gallo pinto es el plato nacional por excelencia y el pilar gastronómico más profundamente arraigado en la rica cultura de Costa Rica, siendo un elemento absolutamente indispensable en los nutritivos desayunos cotidianos de toda la población local. Su magistral, reconfortante y sabrosa preparación culinaria consiste fundamentalmente en una equilibrada mezcla de arroz blanco suelto y tiernos frijoles negros, sofritos pacientemente a fuego lento con cebolla finamente picada, chile dulce, culantro fresco y el toque indispensable, ligeramente ácido y agridulce de la famosa 'Salsa Lizano'. Su peculiar, pintoresco y muy descriptivo nombre hace una directa alusión a su atractiva apariencia visual final, ya que el oscuro y espeso caldo de los frijoles tiñe irremediablemente los granos de arroz blanco, simulando de manera muy creativa el plumaje moteado o manchado de un gallo pinto de corral.\n\nMás allá de su innegable y alto valor gastronómico y nutricional, este humilde pero delicioso plato está intrínseca e indisolublemente ligado a la identidad, la idiosincrasia y la vibrante esencia del pueblo costarricense y a su célebre, optimista y universal lema nacional: 'Pura Vida'. Aunque su traducción literal al inglés es sumamente sencilla, los acogedores y amables costarricenses, cariñosamente apodados 'ticos' en toda Centroamérica, emplean esta versátil expresión poética de manera constante y universal en su vida diaria. Sirve perfectamente como un saludo cordial y afectuoso, una cálida despedida, una muestra sincera de profundo agradecimiento, o simplemente como una rotunda y feliz afirmación de que todo fluye en perfecta paz y armonía en sus vidas cotidianas.\n\nTanto el acto de compartir un buen gallo pinto como la práctica activa de la filosofía 'Pura Vida' convergen orgánicamente en un mismo e inspirador paradigma cultural: la valoración absoluta de la simplicidad cotidiana, la centralidad inquebrantable de los afectos familiares y el rechazo frontal a las preocupaciones y ansiedades superfluas. Es precisamente esta actitud admirablemente estoica, inmensamente optimista y profundamente relajada la que ha posicionado sistemática y merecidamente a la pacífica nación de Costa Rica como uno de los lugares más felices, estables y ecológicamente sostenibles de todo el planeta Tierra.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué ingredientes fundamentales conforman la preparación del gallo pinto?",
+          "¿A qué hace alusión visual el peculiar nombre de este plato nacional?",
+          "¿A qué lema nacional está intrínsecamente ligada esta receta tradicional?",
+          "¿Con qué apodo cariñoso se identifica a los costarricenses?",
+          "¿Qué múltiples usos lingüísticos le dan los 'ticos' a su expresión universal?",
+          "¿Qué paradigma cultural comparten el plato y la filosofía de vida?",
+          "¿Qué impacto ha tenido esta actitud estoica y optimista a nivel internacional?"
+        ],
+        "answerKey": [
+          "Arroz blanco, frijoles negros, cebolla, chile dulce, culantro y 'Salsa Lizano'.",
+          "A que el caldo tiñe el arroz, simulando el plumaje moteado de un gallo.",
+          "Al lema 'Pura Vida'.",
+          "'Ticos'.",
+          "Sirve como saludo, despedida, muestra de agradecimiento o afirmación positiva.",
+          "La valoración de la simplicidad, los afectos familiares y el rechazo a preocupaciones superfluas.",
+          "Ha posicionado a Costa Rica como una de las naciones más felices y sostenibles."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Bizarrap",
+    "imageFileName": "bizarrap.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Bizarrap is an incredibly brilliant, highly successful, and very young Argentine music producer and DJ who has completely and permanently revolutionized the modern Latin music industry. His real, legal name is Gonzalo Julián Conde, but millions of dedicated, screaming fans worldwide simply and affectionately know him as 'Biza'. He became incredibly, globally famous for his massively viral YouTube videos creatively called 'Music Sessions', where he personally invites highly popular, talented musical artists into his incredibly small, neon-lit home recording studio in Buenos Aires to successfully record explosive, highly energetic, and completely original rap and electronic tracks together.\n\nWhat makes Bizarrap so incredibly unique and popular in the modern music world is his deeply mysterious and highly recognizable personal image. He absolutely always hides his true face from the flashing cameras by wearing large, dark sunglasses and a simple baseball cap pulled down very low over his eyes. He rarely ever speaks out loud in his viral videos or gives long, detailed interviews to the press, strongly preferring to let his complex, heavy electronic beats and the talented singers take the absolute full spotlight. Because of his amazing talent, his incredibly famous recording sessions have impressively broken massive international streaming records over and over again.\n\nHis absolute most famous, historic collaboration with the legendary Colombian singer Shakira quickly became a massive global phenomenon, easily gaining many hundreds of millions of views on the internet in just a few short days and rapidly reaching number one on radio charts all over the entire world. By perfectly mixing fast electronic music with heavy Latin trap and popular reggaetón beats, Bizarrap has successfully created a completely new, totally unique, and highly energetic sound. He perfectly proves to everyone that with immense natural talent, a simple computer, and a strong creative vision, a quiet, young producer from Argentina can easily conquer the entire global music scene without ever showing his full face.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What is Bizarrap's real name?",
+          "What are his viral YouTube videos called?",
+          "Where does he invite popular artists to record their tracks?",
+          "How does he always hide his face?",
+          "What does he rarely do in his videos?",
+          "Which famous Colombian singer did he collaborate with to break records?",
+          "What genres of music does he mix together to create his new sound?"
+        ],
+        "answerKey": [
+          "Gonzalo Julián Conde.",
+          "'Music Sessions'.",
+          "Into his small, neon-lit home studio.",
+          "By wearing large, dark sunglasses and a baseball cap.",
+          "He rarely speaks or gives long interviews.",
+          "Shakira.",
+          "Electronic music with Latin trap and reggaetón."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Bizarrap es un productor musical y DJ argentino increíblemente brillante, muy exitoso y muy joven que ha revolucionado completa y permanentemente la industria moderna de la música latina. Su nombre real y legal es Gonzalo Julián Conde, pero millones de fanáticos dedicados en todo el mundo simplemente lo conocen cariñosamente como 'Biza'. Él se hizo increíble y globalmente famoso por sus videos masivamente virales en YouTube llamados creativamente 'Music Sessions', donde invita personalmente a artistas musicales muy populares y talentosos a su estudio de grabación en casa, increíblemente pequeño e iluminado con luces de neón en Buenos Aires, para grabar juntos pistas explosivas, muy enérgicas y completamente originales de rap y música electrónica.\n\nLo que hace a Bizarrap tan increíblemente único y popular en el mundo de la música moderna es su imagen personal profundamente misteriosa y muy reconocible. Él oculta absolutamente siempre su verdadera cara de las cámaras usando gafas de sol grandes y oscuras y una gorra de béisbol simple tirada muy abajo sobre sus ojos. Él casi nunca habla en voz alta en sus videos virales o da entrevistas largas y detalladas a la prensa, prefiriendo fuertemente dejar que sus ritmos electrónicos complejos y pesados y los cantantes talentosos tomen la atención total y absoluta. Por su talento asombroso, sus sesiones de grabación increíblemente famosas han roto de manera impresionante récords internacionales de reproducción una y otra vez.\n\nSu colaboración absolutamente más famosa e histórica con la legendaria cantante colombiana Shakira se convirtió rápidamente en un fenómeno global masivo, ganando fácilmente muchos cientos de millones de reproducciones en internet en solo unos pocos días y llegando rápidamente al número uno en las listas de radio de todo el mundo entero. Al mezclar perfectamente la música electrónica rápida con el trap latino pesado y los ritmos populares del reguetón, Bizarrap ha creado con éxito un sonido completamente nuevo, totalmente único y muy enérgico. Él demuestra perfectamente a todos que con un talento natural inmenso, una computadora simple y una fuerte visión creativa, un productor joven y tranquilo de Argentina puede conquistar fácilmente la escena musical global sin mostrar su cara completa.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué país es el famoso productor musical Bizarrap?",
+          "¿Cómo se llaman los videos virales que publica en YouTube?",
+          "¿A dónde invita a los artistas populares para grabar la música?",
+          "¿Qué cosas usa siempre para ocultar su cara misteriosa?",
+          "¿Qué cosa casi nunca hace él en sus videos o en entrevistas?",
+          "¿Con qué cantante colombiana famosa hizo una colaboración récord?",
+          "¿Qué demuestra Bizarrap a los jóvenes productores con talento?"
+        ],
+        "answerKey": [
+          "De Argentina.",
+          "'Music Sessions'.",
+          "A su pequeño estudio en casa iluminado con luces de neón.",
+          "Usa gafas de sol grandes y una gorra de béisbol.",
+          "Casi nunca habla o da entrevistas largas.",
+          "Con Shakira.",
+          "Que se puede conquistar el mundo de la música con una computadora y visión creativa sin mostrar la cara."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Bizarrap, cuyo verdadero nombre de pila es Gonzalo Julián Conde, es un sumamente joven, brillante y prodigioso productor musical y DJ argentino que ha logrado redefinir y revolucionar por completo los estrictos paradigmas de la industria discográfica contemporánea y el mercado de la música urbana a nivel mundial. Su meteórico y asombroso ascenso a la fama global se debe indudablemente a sus aclamadas y masivamente virales 'Music Sessions' en la plataforma YouTube. Este es un formato sumamente innovador y deliberadamente minimalista donde invita a artistas de renombre consagrados, así como a nuevos talentos emergentes, a su modesto, pequeño y ya icónico estudio casero en Buenos Aires, escasamente iluminado con llamativas luces de neón, para improvisar magistralmente y grabar pistas vocales y rítmicas sumamente explosivas y pegadizas.\n\nEl innegable e irresistible magnetismo internacional de Bizarrap radica no solo en su comprobada y aguda genialidad compositiva en el teclado, sino en el profundamente enigmático, calculado y cautivador aura que proyecta ante las multitudes. Protege celosa e intencionalmente su identidad visual ocultando siempre su verdadero rostro tras unas características, gigantescas gafas oscuras y una gorra deportiva muy calada. Su marcado y constante mutismo mediático es cien por ciento intencional; él prefiere humildemente ceder el absoluto y total protagonismo vocal a sus carismáticos invitados, comunicándose con sus millones de fanáticos de forma exclusiva a través de sus vanguardistas, pesadas e hipnóticas bases rítmicas. Con esta impecable estrategia, sus sesiones han pulverizado repetidamente innumerables récords de streaming a nivel global.\n\nSu legendaria y emblemática colaboración con la superestrella colombiana Shakira generó un impacto social y mediático sin ningún tipo de precedentes, dominando indiscutiblemente las listas musicales mundiales en cuestión de muy pocas horas. Al fusionar magistralmente los vibrantes sintetizadores de la música electrónica con los crudos, pesados y callejeros ritmos del trap latino y el reggaetón, ha logrado forjar un sonido fresco, inconfundible y sumamente distintivo. Bizarrap es hoy en día el testimonio moderno y viviente de que la más pura innovación digital, impulsada desde una sencilla habitación en Buenos Aires, puede verdaderamente conquistar el panorama musical global.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué formato minimalista catapultó a Bizarrap a la fama mundial?",
+          "¿Dónde graba las explosivas pistas con artistas consagrados y emergentes?",
+          "¿De qué manera protege celosamente su identidad visual ante el público?",
+          "¿Por qué mantiene un mutismo mediático intencional en entrevistas y videos?",
+          "¿Qué colaboración emblemática generó un impacto sin precedentes en las listas mundiales?",
+          "¿Qué géneros musicales fusiona magistralmente para forjar su sonido distintivo?",
+          "¿De qué hecho es testimonio viviente este joven productor argentino?"
+        ],
+        "answerKey": [
+          "Las 'Music Sessions' en YouTube.",
+          "En su modesto estudio casero iluminado con luces de neón en Buenos Aires.",
+          "Ocultando su rostro tras unas gigantescas gafas oscuras y una gorra calada.",
+          "Para ceder el absoluto y total protagonismo vocal a sus carismáticos invitados.",
+          "Su colaboración con la superestrella colombiana Shakira.",
+          "Música electrónica, trap latino y reggaetón.",
+          "De que la innovación digital desde una habitación puede conquistar el panorama musical global."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "La Noche Triste",
+    "imageFileName": "noche_triste.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "'La Noche Triste' (The Night of Sorrows) was an incredibly dramatic, terrifying, and bloody historical event that took place during the violent Spanish conquest of the mighty Aztec Empire in México. In the year 1520, the famous Spanish conquistador Hernán Cortés and his greedy soldiers were living dangerously inside the magnificent, wealthy island city of Tenochtitlán, which was the massive, bustling capital of the powerful Aztec people. The bold Spanish invaders had actually taken the famous, respected Aztec emperor, Moctezuma, as a helpless prisoner right inside his very own royal palace! The proud indigenous people were extremely angry and deeply offended about the cruel, unfair treatment and terrible disrespect they constantly received from the foreign invaders, and a massive, bloody rebellion finally exploded violently in the crowded city streets.\n\nCompletely surrounded by thousands of furious, heavily armed Aztec warriors seeking revenge, the terrified Spanish soldiers quickly realized they were hopelessly trapped on the island. On the rainy, dark, and miserable night of June 30, Cortés desperately ordered his panicked men to secretly and quietly escape the dangerous city by running across the narrow, slippery wooden bridges that connected the island to the mainland over the deep lake. However, the alert Aztecs quickly discovered them trying to sneak away in the dark! The terrified 'soldados' (soldiers) were greedily carrying so much heavy, stolen gold and silver treasure in their pockets and armor that many of them tragically fell and drowned completely in the dark, cold water because the stolen treasure was simply too heavy to swim with.\n\nCortés suffered a massive, humiliating defeat and completely lost a huge, devastating portion of his entire army that terrible night. According to old legends, it is said that when he finally, breathlessly reached the safe shore of the mainland, he sat down heavily under a giant, ancient cypress tree and cried bitterly as he helplessly watched his men being brutally defeated and killed in the water. This highly tragic, chaotic, and action-packed event remains a deeply crucial, unforgettable moment in the complex history of Mexico.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What year did the dramatic event of 'La Noche Triste' take place?",
+          "What was the name of the magnificent Aztec capital city?",
+          "Who did the Spanish conquistadors take as a prisoner?",
+          "Why did a massive rebellion explode in the city streets?",
+          "What did Cortés order his men to do on the dark night of June 30?",
+          "Why did many Spanish soldiers drown in the dark water?",
+          "What did Cortés supposedly do when he finally reached the shore?"
+        ],
+        "answerKey": [
+          "1520.",
+          "Tenochtitlán.",
+          "The famous Aztec emperor, Moctezuma.",
+          "Because the proud indigenous people were extremely angry about the cruel, unfair treatment from the foreign invaders.",
+          "To secretly and quietly escape the dangerous city by crossing the narrow wooden bridges.",
+          "Because the stolen gold and silver treasure they were carrying was too heavy.",
+          "He sat down under a giant tree and cried bitterly."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "'La Noche Triste' fue un evento histórico increíblemente dramático, aterrador y sangriento que ocurrió durante la conquista violenta española del poderoso imperio azteca en México. En el año 1520, el famoso conquistador español Hernán Cortés y sus soldados codiciosos vivían peligrosamente dentro de la magnífica y rica ciudad isleña de Tenochtitlán, que era la capital masiva y ocupada del poderoso pueblo azteca. ¡Los invasores españoles audaces en realidad habían tomado al famoso y respetado emperador azteca, Moctezuma, como un prisionero indefenso justo dentro de su propio palacio real! Las personas indígenas orgullosas estaban extremadamente enojadas y profundamente ofendidas por el tratamiento cruel e injusto y la falta de respeto terrible que recibían constantemente de los invasores extranjeros, y una rebelión masiva y sangrienta finalmente explotó violentamente en las calles llenas de la ciudad.\n\nCompletamente rodeados por miles de guerreros aztecas furiosos y fuertemente armados que buscaban venganza, los soldados españoles aterrorizados se dieron cuenta rápidamente de que estaban atrapados sin esperanza en la isla. En la noche lluviosa, oscura y miserable del 30 de junio, Cortés ordenó desesperadamente a sus hombres en pánico que escaparan en secreto y en silencio de la ciudad peligrosa corriendo por los puentes de madera estrechos y resbaladizos que conectaban la isla con la tierra firme sobre el lago profundo. ¡Sin embargo, los aztecas alertas los descubrieron rápidamente tratando de escabullirse en la oscuridad! Los soldados aterrorizados llevaban codiciosamente tanto oro y plata robados y pesados en sus bolsillos y armaduras que muchos de ellos cayeron trágicamente y se ahogaron completamente en el agua fría y oscura porque el tesoro robado era simplemente demasiado pesado para nadar.\n\nCortés sufrió una derrota masiva y humillante, y perdió completamente una porción enorme y devastadora de todo su ejército esa noche terrible. Según las leyendas antiguas, se dice que cuando finalmente y sin aliento llegó a la orilla segura de la tierra firme, se sentó pesadamente debajo de un árbol gigante y antiguo y lloró amargamente mientras miraba impotente a sus hombres siendo brutalmente derrotados y asesinados en el agua. Este evento muy trágico, caótico y lleno de acción sigue siendo un momento profundamente crucial e inolvidable en la compleja historia de México.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué año ocurrió el dramático evento llamado 'La Noche Triste'?",
+          "¿Cómo se llamaba la magnífica ciudad capital del imperio azteca?",
+          "¿A quién tomaron los españoles como prisionero en su propio palacio?",
+          "¿Por qué explotó finalmente una rebelión masiva en las calles de la ciudad?",
+          "¿Qué ordenó hacer Hernán Cortés en la noche lluviosa del 30 de junio?",
+          "¿Por qué se ahogaron muchos soldados españoles en el agua del lago?",
+          "¿Qué hizo Cortés debajo de un árbol gigante al llegar a la orilla?"
+        ],
+        "answerKey": [
+          "En el año 1520.",
+          "Tenochtitlán.",
+          "Al famoso y respetado emperador azteca, Moctezuma.",
+          "Porque las personas indígenas estaban extremadamente enojadas por el tratamiento cruel e injusto de los invasores.",
+          "Escapar en secreto y en silencio corriendo por los puentes de madera estrechos.",
+          "Porque llevaban tanto oro y plata robados que el tesoro era demasiado pesado.",
+          "Lloró amargamente mientras miraba a sus hombres siendo brutalmente derrotados."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "'La Noche Triste' constituye, indudablemente, uno de los episodios bélicos más cruentos, dramáticos y absolutamente determinantes de la violenta y sangrienta conquista española sobre el vasto y poderoso Imperio Mexica. En el fatídico año de 1520, el astuto y ambicioso conquistador Hernán Cortés y sus codiciosas tropas europeas se encontraban peligrosamente atrincherados en el corazón mismo de la majestuosa e imponente Tenochtitlán, tras haber cometido la osadía inaudita de secuestrar y tomar como rehén al mismísimo y venerado emperador Moctezuma II dentro de sus propios aposentos reales. La justa indignación, el odio acumulado y el profundo resentimiento del altivo pueblo mexica ante las constantes atrocidades, saqueos y matanzas (como la del Templo Mayor) cometidas impunemente por los invasores europeos alcanzaron rápidamente un punto de ebullición insostenible, desatando una insurrección popular masiva y feroz en las intrincadas calles de la maravillosa ciudad lacustre.\n\nCompletamente sitiados, acorralados y ampliamente superados en número por miles de enardecidos guerreros águila y jaguar que clamaban sangrienta venganza, los aterrorizados españoles comprendieron rápidamente que su aniquilación total era inminente si permanecían en la isla. Bajo una lluvia torrencial, incesante y fría, y al amparo sigiloso de la profunda oscuridad de la madrugada del 30 de junio, Cortés ordenó desesperadamente una retirada táctica y furtiva a través de las estrechas, cortadas y resbaladizas calzadas de madera que cruzaban el extenso lago de Texcoco hacia tierra firme. Sin embargo, su escape clandestino fue rápidamente descubierto y brutalmente frustrado por los centinelas mexicas. En medio del absoluto caos, los gritos de guerra y la desesperación de la batalla nocturna, cientos de soldados españoles y aliados tlaxcaltecas perecieron ahogados miserablemente en las oscuras y gélidas aguas, lastrados inexorable y fatalmente por el insoportable peso del abundante oro saqueado que, en su desmedida avaricia, se negaban rotundamente a abandonar para salvar sus vidas.\n\nLa trágica y popular leyenda cuenta que el propio Cortés, al lograr alcanzar milagrosamente la relativa y lejana seguridad de la orilla en Popotla y constatar personalmente la devastadora, humillante y casi total masacre de sus codiciosas huestes, se desplomó exhausto y destrozado bajo las ramas de un frondoso ahuehuete milenario y lloró amargamente, con lágrimas de impotencia, su dolorosa y catastrófica derrota militar. Este trágico, épico y sangriento pasaje sigue siendo un pilar fundamental e imborrable de la memoria histórica y la identidad cultural de la nación mexicana moderna.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿A qué emperador habían tomado como rehén los tropas de Hernán Cortés en Tenochtitlán?",
+          "¿Qué desató la insurrección masiva y feroz en las calles de la ciudad lacustre?",
+          "¿Qué ordenó Cortés bajo la lluvia incesante en la oscuridad del 30 de junio?",
+          "¿Por qué perecieron ahogados cientos de soldados españoles en las oscuras aguas?",
+          "¿De qué material estaba hecho el botín que se negaban a abandonar?",
+          "¿Qué cuenta la leyenda que hizo Cortés al constatar la masacre bajo un ahuehuete milenario?",
+          "¿Cómo es considerado este trágico pasaje dentro de la memoria histórica mexicana?"
+        ],
+        "answerKey": [
+          "Al mismísimo y venerado emperador Moctezuma II.",
+          "La justa indignación y el resentimiento del pueblo mexica ante las constantes atrocidades y saqueos de los invasores.",
+          "Una retirada táctica y furtiva a través de las estrechas calzadas de madera del lago.",
+          "Estaban lastrados inexorable y fatalmente por el insoportable peso del abundante oro saqueado que se negaban a abandonar.",
+          "De oro saqueado.",
+          "Lloró amargamente, con lágrimas de impotencia, su dolorosa y catastrófica derrota militar.",
+          "Como un pilar fundamental e imborrable de la memoria histórica y la identidad cultural de la nación mexicana moderna."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Imperio Inca (El Qhapaq Ñan)",
+    "imageFileName": "qhapaq_nan.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The brilliant Inca Empire was absolutely the largest, wealthiest, and most technologically advanced civilization in the entire Americas long before the Spanish explorers ever arrived. They impressively controlled a massive, sprawling territory that stretched far down the beautiful western coast of South America, successfully covering huge parts of modern-day Peru, Ecuador, Chile, and Argentina. Because the heart of their massive empire was located extremely high up in the rugged, freezing, and very steep Andes Mountains, they constantly faced incredibly difficult physical challenges just to travel and communicate. To cleverly solve this huge problem, the hardworking Incas built an absolute engineering marvel known proudly as the 'Qhapaq Ñan', a native phrase which translates to the Great Inca Road.\n\nThis massive, highly complex stone road system was truly spectacular and completely unmatched in ancient history. It incredibly spanned over twenty-four thousand long miles of highly dangerous, narrow mountain paths, deep, scary river valleys, and intensely hot, dry coastal deserts! The absolute most impressive and shocking part of this massive project is that the intelligent Incas built this entire, giant network completely by hand, using pure physical strength without ever using the wheel, strong iron tools, or any kind of modern machinery. To safely cross huge, deep, and terrifying mountain canyons where regular roads could not go, they expertly wove incredibly strong, beautiful, and highly functional hanging 'puentes' (bridges) made entirely out of simple, twisted mountain grass and thick natural ropes.\n\nBecause the ancient Incas did not have fast horses or large riding animals to quickly travel across their vast lands, they heavily relied on highly trained, deeply dedicated, and incredibly athletic young runners called 'chasquis'. These fit, energetic young men ran extremely fast in organized, non-stop relays across the steep, difficult, and exhausting mountain roads to rapidly deliver highly important, secret messages and even fresh, delicious seafood directly to the powerful, wealthy 'rey' (king) resting comfortably in the grand capital city of Cusco. The massive, beautiful Qhapaq Ñan successfully connected millions of diverse people together and perfectly remains a lasting, undeniable testament to the incredible, advanced intelligence and sheer physical strength of the amazing ancient Inca people.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was the Inca Empire located?",
+          "What was the incredible engineering marvel known as the 'Qhapaq Ñan'?",
+          "How long was this massive mountain road system?",
+          "Name two things the Incas did NOT have when building the roads.",
+          "What did the Incas build out of mountain grass to cross huge canyons?",
+          "Who were the highly trained, athletic runners called 'chasquis'?",
+          "What did the runners deliver to the king in Cusco?"
+        ],
+        "answerKey": [
+          "Down the western coast of South America (high in the Andes Mountains).",
+          "The Great Inca Road.",
+          "Over twenty-four thousand miles.",
+          "The wheel, strong iron tools, or modern machinery (any two).",
+          "Hanging 'puentes' (bridges).",
+          "Energetic young men who ran in organized relays across the mountain roads.",
+          "Important messages and fresh food (seafood)."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El brillante Imperio Inca fue absolutamente la civilización más grande, más rica y más avanzada tecnológicamente en todas las Américas mucho antes de que los exploradores españoles llegaran. Controlaban de manera impresionante un territorio masivo y extenso que se extendía a lo largo de la hermosa costa occidental de América del Sur, cubriendo con éxito grandes partes del actual Perú, Ecuador, Chile y Argentina. Debido a que el corazón de su imperio masivo estaba ubicado extremadamente alto en las montañas escarpadas, heladas y muy empinadas de los Andes, enfrentaban constantemente desafíos físicos increíblemente difíciles solo para viajar y comunicarse. Para resolver hábilmente este enorme problema, los incas trabajadores construyeron una maravilla absoluta de la ingeniería conocida con orgullo como el 'Qhapaq Ñan', una frase nativa que se traduce como el Gran Camino Inca.\n\nEste sistema masivo y muy complejo de caminos de piedra era verdaderamente espectacular y completamente inigualable en la historia antigua. ¡Se extendió increíblemente por más de treinta y ocho mil kilómetros largos de caminos de montaña altamente peligrosos y estrechos, valles de ríos profundos y aterradores, y desiertos costeros intensamente calurosos y secos! La parte absolutamente más impresionante e impactante de este proyecto masivo es que los incas inteligentes construyeron toda esta red gigante completamente a mano, usando pura fuerza física sin usar nunca la rueda, herramientas fuertes de hierro o cualquier tipo de maquinaria moderna. Para cruzar con seguridad cañones de montaña enormes, profundos y aterradores por donde los caminos regulares no podían ir, tejían de manera experta puentes colgantes increíblemente fuertes, hermosos y muy funcionales hechos completamente de hierba de montaña simple y retorcida, y cuerdas naturales gruesas.\n\nComo los antiguos incas no tenían caballos rápidos o animales grandes para montar y viajar rápidamente a través de sus vastas tierras, dependían en gran medida de corredores jóvenes increíblemente atléticos, muy entrenados y profundamente dedicados llamados 'chasquis'. Estos jóvenes en forma y llenos de energía corrían extremadamente rápido en relevos organizados y sin parar a través de los caminos de montaña empinados, difíciles y agotadores para entregar rápidamente mensajes secretos y muy importantes, e incluso mariscos frescos y deliciosos directamente al rey poderoso y rico que descansaba cómodamente en la gran ciudad capital de Cusco. El masivo y hermoso Qhapaq Ñan conectó con éxito a millones de personas diversas y sigue siendo perfectamente un testamento duradero e innegable a la inteligencia increíble y avanzada, y a la pura fuerza física del asombroso y antiguo pueblo inca.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué países modernos cubría el territorio masivo del Imperio Inca?",
+          "¿Cómo se llamaba la maravilla de ingeniería que significa el Gran Camino Inca?",
+          "¿Cuántos kilómetros cubría este espectacular sistema de caminos?",
+          "¿Cómo construyeron los incas toda esta red de caminos sin usar maquinaria?",
+          "¿Qué tejieron con hierba de las montañas para cruzar los cañones enormes?",
+          "¿Por qué los incas tenían que usar hombres para correr en lugar de animales rápidos?",
+          "¿Qué entregaban los corredores llamados 'chasquis' al rey en Cusco?"
+        ],
+        "answerKey": [
+          "Partes del actual Perú, Ecuador, Chile y Argentina.",
+          "El 'Qhapaq Ñan'.",
+          "Más de treinta y eight mil kilómetros.",
+          "Completamente a mano, usando pura fuerza física sin usar nunca la rueda o herramientas de hierro.",
+          "Puentes colgantes increíblemente fuertes.",
+          "Porque no tenían caballos rápidos o animales grandes para montar.",
+          "Mensajes secretos e importantes, e incluso mariscos frescos (comida)."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El glorioso Imperio Incaico, también conocido históricamente como el poderoso Tahuantinsuyo, fue, sin lugar a la menor duda, la civilización prehispánica más vasta, extraordinariamente extensa y logísticamente sofisticada de todo el continente americano antes de la abrupta llegada de los conquistadores españoles. Su inmenso y vasto dominio territorial se extendía majestuosa e imponentemente a lo largo de la escarpada e inhóspita cordillera de los Andes, abarcando vastos y diversos territorios de las modernas repúblicas de Perú, Ecuador, Bolivia, Chile y Argentina. Para lograr cohesionar, comunicar y administrar eficientemente un imperio de semejante y descomunal magnitud geográfica, y lograr sortear con éxito los formidables e infranqueables obstáculos topográficos andinos, los brillantes incas diseñaron, planificaron y ejecutaron una maravilla de ingeniería civil verdaderamente sin precedentes en la historia mundial: el 'Qhapaq Ñan', conocido universalmente como el Camino Principal Andino.\n\nEsta colosal, intrincada e insuperable red vial monumental era verdaderamente una proeza arquitectónica asombrosa y abrumadora. Constaba orgánicamente de más de treinta y ocho mil kilómetros continuos de sinuosos senderos empedrados, cuidadosamente trazados y escalonados, que atravesaban audazmente cumbres nevadas y gélidas, profundos y peligrosos valles fértiles, y áridos, calurosos y desolados desiertos costeros del Pacífico. Lo más prodigioso, admirable y casi incomprensible de esta ciclópea e imponente infraestructura monumental es que fue planificada y erigida íntegra y exclusivamente con pura fuerza humana, trabajo comunal (la mita) y un profundo conocimiento geológico, careciendo por completo del auxilio de tecnología básica euroasiática como la rueda, el hierro forjado o la fuerza de animales de tiro pesados. Para lograr salvar abismos insondables y ríos turbulentos y mortales, los hábiles e ingeniosos ingenieros incas tejieron artesanalmente espectaculares, resistentes y elásticos puentes colgantes, utilizando únicamente técnicas milenarias de trenzado con gruesas fibras vegetales y paja brava andina.\n\nAnte la absoluta ausencia evolutiva de caballos o bestias de carga veloces en América del Sur, la vital, rápida y urgente comunicación imperial dependía exclusiva y totalmente del infatigable, asombroso y sobrehumano esfuerzo físico de los 'chasquis', jóvenes corredores de élite rigurosamente entrenados desde la niñez. Mediante un sistema logístico sumamente eficiente, organizado e ininterrumpido de veloces postas y relevos, estos atletas cruzaban a toda velocidad los escarpados, traicioneros y agotadores senderos de alta montaña, logrando entregar a tiempo mensajes orales vitales, información militar estratégica y valiosas provisiones frescas (como pescado del océano) directamente al mismísimo Sapa Inca en la sagrada capital imperial del Cusco. El formidable y vasto Qhapaq Ñan sigue siendo hoy un testimonio pétreo, imperecedero y silencioso del inigualable genio administrativo, la inmensa capacidad organizativa y la grandeza indomable del antiguo imperio inca.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿A lo largo de qué cadena montañosa se extendía majestuosamente el dominio del Imperio Incaico?",
+          "¿Para qué diseñaron la maravilla de ingeniería conocida como el 'Qhapaq Ñan'?",
+          "¿Cuántos kilómetros de senderos empedrados componían esta colosal red vial?",
+          "¿Qué elementos tecnológicos no existían cuando construyeron esta asombrosa infraestructura monumental?",
+          "¿Qué técnica ingeniosa utilizaban para salvar los abismos insondables de los Andes?",
+          "¿Cómo se comunicaban eficientemente ante la ausencia de caballos o animales de tiro?",
+          "¿Hacia qué importante capital entregaban los mensajes vitales y las provisiones frescas?"
+        ],
+        "answerKey": [
+          "A lo largo de la escarpada e inhóspita cordillera de los Andes.",
+          "Para lograr cohesionar, comunicar y administrar eficientemente un imperio de semejante magnitud geográfica.",
+          "Más de treinta y ocho mil kilómetros continuos.",
+          "Carecían de tecnología básica como la rueda, el hierro forjado o la fuerza de animales de tiro.",
+          "Tejieron artesanalmente espectaculares y resistentes puentes colgantes utilizando fibras vegetales y paja trenzada.",
+          "Mediante el esfuerzo físico de los 'chasquis' (corredores de élite) en un sistema eficiente de postas y relevos.",
+          "A la sagrada capital imperial del Cusco."
+        ]
+      }
+    }
   }
+],
+{
+    "topicName": "Daddy Yankee",
+    "imageFileName": "daddy_yankee.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Daddy Yankee is a legendary, highly influential Puerto Rican singer and songwriter who is universally recognized and respected around the globe as the absolute 'King of Reggaetón'. His real name is Ramón Luis Ayala Rodríguez, and he grew up facing many difficult challenges in the poor public housing projects of San Juan, Puerto Rico. Despite his tough surroundings, he deeply loved 'música' and possessed an incredible, natural talent for singing. In the busy 1990s, he passionately helped create a completely new, energetic style of underground music by heavily mixing traditional Jamaican dancehall rhythms with fast-paced Spanish hip-hop. This highly unique, rhythmic mixture eventually became the wildly famous and popular genre of modern reggaetón.\n\nIn the unforgettable year 2004, his massive music career suddenly exploded internationally with the highly anticipated release of his iconic, catchy song 'Gasolina'. This incredibly energetic, loud track was a truly historic moment for Latin music because it finally brought reggaetón out of the small, hidden underground clubs and successfully introduced it to mainstream radio stations all across the globe. Suddenly, people of all ages and backgrounds everywhere were happily dancing to his infectious Caribbean beats. Later in his long career, he amazingly made history once again by collaborating on the massive, record-breaking global mega-hit 'Despacito'.\n\nAfter many busy decades of breaking major music records, winning countless prestigious awards, and opening important doors for an entire new generation of modern artists like Bad Bunny and Karol G, Daddy Yankee officially announced his sad retirement from music in the year 2022. He performed a massive, highly emotional farewell tour to personally thank his millions of loyal fans. Today, his incredible, powerful legacy remains undeniable; he single-handedly transformed a small, local island sound into a massive global movement.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What is Daddy Yankee universally recognized as?",
+          "Where did he grow up in Puerto Rico?",
+          "What two styles of music did he mix to help create reggaetón?",
+          "What iconic song made his career explode internationally in 2004?",
+          "Why was the song 'Gasolina' a historic moment for Latin music?",
+          "What global mega-hit did he later collaborate on?",
+          "What did he officially announce in the year 2022?"
+        ],
+        "answerKey": [
+          "The 'King of Reggaetón'.",
+          "In the public housing projects of San Juan.",
+          "Jamaican dancehall rhythms and Spanish hip-hop.",
+          "'Gasolina'.",
+          "It brought reggaetón out of underground clubs and introduced it to mainstream radio stations all across the globe.",
+          "'Despacito'.",
+          "His official retirement from music."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Daddy Yankee es un cantante y compositor puertorriqueño legendario y muy influyente que es reconocido y respetado universalmente en todo el mundo como el 'Rey del Reggaetón' absoluto. Su nombre real es Ramón Luis Ayala Rodríguez. Él creció enfrentando muchos desafíos difíciles en los barrios pobres y residenciales públicos de San Juan, Puerto Rico. A pesar de su entorno difícil, amaba profundamente la música y tenía un talento natural increíble para cantar. En la década de los noventa, él ayudó apasionadamente a crear un estilo completamente nuevo y enérgico de música mezclando fuertemente los ritmos tradicionales de Jamaica con el rápido hip-hop en español. Esta mezcla rítmica y muy única finalmente se convirtió en el género famoso y popular del reggaetón moderno.\n\nEn el inolvidable año 2004, su carrera musical masiva explotó internacionalmente de repente con el lanzamiento muy esperado de su canción icónica y pegadiza llamada 'Gasolina'. Esta canción increíblemente enérgica y ruidosa fue un momento verdaderamente histórico para la música latina porque finalmente sacó al reggaetón de los clubes pequeños y escondidos, y lo introdujo con éxito a las estaciones de radio principales en todo el mundo. De repente, personas de todas las edades en todas partes estaban bailando felizmente sus ritmos caribeños contagiosos. Más tarde en su larga carrera, hizo historia una vez más de manera asombrosa al colaborar en el mega éxito global y masivo 'Despacito'.\n\nDespués de muchas décadas ocupadas de romper récords musicales, ganar innumerables premios prestigiosos y abrir puertas importantes para toda una nueva generación de artistas modernos como Bad Bunny y Karol G, Daddy Yankee anunció oficialmente su triste retiro de la música en el año 2022. Él hizo una gira de despedida masiva y muy emocional para agradecer personalmente a sus millones de fanáticos leales. Hoy, su legado increíble y poderoso sigue siendo innegable; él solo transformó un sonido local de la isla en un movimiento global masivo.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cómo es conocido universalmente el cantante Daddy Yankee?",
+          "¿Qué géneros musicales mezcló para ayudar a crear el reggaetón?",
+          "¿Qué canción icónica hizo explotar su carrera en el año 2004?",
+          "¿Por qué fue histórica esa canción para el género musical?",
+          "¿Qué famosísima canción rompió récords históricos años después?",
+          "¿Qué gran anuncio hizo Daddy Yankee en el año 2022?",
+          "¿Para qué hizo una gran gira de conciertos al final de su carrera?"
+        ],
+        "answerKey": [
+          "Como el 'Rey del Reggaetón'.",
+          "Los ritmos tradicionales de Jamaica con el rápido hip-hop en español.",
+          "'Gasolina'.",
+          "Porque finalmente sacó al reggaetón de los clubes pequeños y lo introdujo a las estaciones de radio principales en todo el mundo.",
+          "'Despacito'.",
+          "Anunció oficialmente su triste retiro de la música.",
+          "Para despedirse y agradecer personalmente a sus millones de fanáticos leales."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Daddy Yankee, cuyo nombre de pila es Ramón Luis Ayala Rodríguez, es un legendario, visionario y sumamente influyente artista puertorriqueño que es aclamado universal y unánimemente por la crítica y el público como el indiscutible 'Rey del Reggaetón'. Creció enfrentando enormes adversidades socioeconómicas en los duros residenciales públicos de San Juan, donde en la vibrante década de los noventa fue pionero indiscutible en forjar y popularizar un sonido clandestino y callejero totalmente innovador. Al fusionar de manera audaz, creativa y magistral los ritmos sincopados y pesados del dancehall jamaiquino con las rápidas y afiladas rimas del hip-hop cantado en español, sentó las bases fundacionales y rítmicas de lo que hoy conocemos mundialmente como reggaetón.\n\nEl punto de inflexión definitivo e histórico de su prolífica trayectoria ocurrió en el año 2004 con el exitoso lanzamiento del himno generacional 'Gasolina'. Este explosivo, ruidoso y sumamente contagioso tema marcó un hito histórico sin precedentes, logrando sacar definitivamente al género de la marginalidad urbana para catapultarlo directamente a las principales y más exclusivas emisoras comerciales del planeta entero. Más adelante en su envidiable carrera, volvió a reescribir las reglas de la industria musical al colaborar activamente en el omnipresente fenómeno global 'Despacito', consolidando el dominio absoluto y la inmensa rentabilidad de la música latina en el exigente mundo anglosajón.\n\nTras más de tres agitadas décadas pulverizando récords de ventas y reproducciones, cosechando innumerables galardones de prestigio y allanando generosamente el camino para superestrellas contemporáneas como Bad Bunny y Karol G, Daddy Yankee anunció sorpresiva y oficialmente su retiro definitivo de los escenarios en 2022. Se despidió de su leal público con una monumental, emotiva y muy lucrativa gira mundial, dejando tras de sí un legado imborrable: transformó un pequeño movimiento rítmico barrial en una arrolladora y multimillonaria potencia cultural global.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué lugares urbanos creció el artista puertorriqueño en San Juan?",
+          "¿Qué dos ritmos fusionó de manera audaz para forjar el reggaetón?",
+          "¿Qué himno generacional marcó un punto de inflexión definitivo en 2004?",
+          "¿Qué logró históricamente este contagioso tema musical a nivel global?",
+          "¿Qué fenómeno global consolidó el dominio de la música latina en el mundo anglosajón?",
+          "¿Para qué nuevas superestrellas contemporáneas allanó el camino?",
+          "¿Qué legado imborrable dejó al anunciar su retiro definitivo en 2022?"
+        ],
+        "answerKey": [
+          "En los duros residenciales públicos de San Juan.",
+          "Los ritmos sincopados y pesados del dancehall jamaiquino con las rápidas rimas del hip-hop en español.",
+          "'Gasolina'.",
+          "Logró sacar definitivamente al género de la marginalidad urbana para catapultarlo a las principales emisoras comerciales del planeta.",
+          "'Despacito'.",
+          "Para superestrellas como Bad Bunny y Karol G.",
+          "Transformó un pequeño movimiento rítmico barrial en una arrolladora potencia cultural global."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "La Leyenda de El Dorado",
+    "imageFileName": "el_dorado.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The incredible legend of El Dorado is widely considered one of the absolute most famous, fascinating, and captivating historical mysteries in all of South American history. When the greedy, exploring Spanish conquistadors first arrived in the Americas many centuries ago, they eagerly heard incredible, unbelievable rumors from the local natives about a massive, hidden jungle city that was completely made out of shining, solid gold. However, the surprising truth is that El Dorado was never actually a real city or a hidden place; it was originally a single, living person! The amazing myth actually comes directly from the ancient, indigenous Muisca people who lived peacefully high up in the cold, misty mountains of present-day Colombia.\n\nAccording to the powerful legend, during a highly important, sacred religious ceremony, the brand new Muisca leader would proudly cover his entire naked body in thick, sticky tree resin and then coat himself completely in bright, shining gold dust until he looked like a golden statue. Then, he would bravely ride a flat wooden raft out into the exact middle of the beautiful, dark green Laguna de Guatavita. To respectfully honor their gods, the golden leader would generously throw precious, sparkling emeralds and heavy, valuable gold objects directly into the deep 'agua' (water) before finally diving in to wash the gold dust off his body. When the Spanish explorers heard crazy stories about this golden 'rey' (king), they quickly became dangerously obsessed with finding the massive hidden treasure.\n\nFor many long, exhausting years, desperate European explorers selfishly organized massive, highly dangerous expeditions deep into the unforgiving, wild 'selva' (jungle) desperately looking for a rich golden city that simply did not exist. Although they absolutely never found the mythical city of gold, the enduring legend of El Dorado remains a highly powerful, famous story about human greed, dark history, and the incredibly rich, beautiful culture of the ancient Muisca civilization.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What did the Spanish originally think El Dorado was?",
+          "Who did the myth actually originate from?",
+          "What did the new Muisca leader cover his body with?",
+          "Where did the sacred ceremony take place?",
+          "What did the leader throw into the deep water?",
+          "What were the European explorers dangerously obsessed with finding?",
+          "Did the Spanish ever find the city of gold?"
+        ],
+        "answerKey": [
+          "A massive, hidden jungle city that was completely made out of shining, solid gold.",
+          "The ancient, indigenous Muisca people.",
+          "Thick, sticky tree resin and bright, shining gold dust.",
+          "In the exact middle of the beautiful, dark green Laguna de Guatavita.",
+          "Precious, sparkling emeralds and heavy, valuable gold objects.",
+          "The massive hidden treasure (the golden city).",
+          "No, because the rich golden city simply did not exist."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La increíble leyenda de El Dorado es ampliamente considerada uno de los misterios históricos absolutamente más famosos, fascinantes y cautivadores de toda la historia de América del Sur. Cuando los conquistadores españoles codiciosos y exploradores llegaron por primera vez a las Américas hace muchos siglos, escucharon con entusiasmo rumores increíbles de los nativos locales sobre una ciudad masiva y escondida en la selva que estaba completamente hecha de oro sólido y brillante. Sin embargo, la sorprendente verdad es que El Dorado nunca fue realmente una ciudad real o un lugar escondido; ¡originalmente era una sola persona viva! El mito asombroso en realidad viene directamente del antiguo pueblo indígena muisca que vivía pacíficamente en lo alto de las montañas frías y brumosas de la actual Colombia.\n\nSegún la poderosa leyenda, durante una ceremonia religiosa muy importante y sagrada, el nuevo líder muisca cubría con orgullo todo su cuerpo desnudo con resina de árbol gruesa y pegajosa y luego se cubría completamente con polvo de oro brillante hasta que parecía una estatua dorada. Luego, él subía valientemente a una balsa de madera plana y navegaba hacia el centro exacto de la hermosa y verde oscura Laguna de Guatavita. Para honrar respetuosamente a sus dioses, el líder dorado tiraba generosamente esmeraldas preciosas y brillantes, y objetos pesados y valiosos de oro directamente al agua profunda antes de finalmente saltar para lavarse el polvo de oro de su cuerpo. Cuando los exploradores españoles escucharon historias locas sobre este rey dorado, rápidamente se obsesionaron peligrosamente con encontrar el enorme tesoro escondido.\n\nDurante muchos años largos y agotadores, los exploradores europeos desesperados organizaron egoístamente expediciones masivas y muy peligrosas en la selva salvaje e implacable buscando desesperadamente una ciudad rica y dorada que simplemente no existía. Aunque ellos absolutamente nunca encontraron la mítica ciudad de oro, la leyenda duradera de El Dorado sigue siendo una historia muy poderosa y famosa sobre la avaricia humana, la historia oscura y la cultura increíblemente rica y hermosa de la antigua civilización muisca.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué pensaban los españoles que era El Dorado originalmente?",
+          "¿De qué pueblo indígena viene el mito realmente?",
+          "¿Con qué cubría su cuerpo el nuevo líder durante la ceremonia?",
+          "¿En qué lugar específico ocurría esta ceremonia sagrada?",
+          "¿Qué tiraba el líder al agua profunda para honrar a los dioses?",
+          "¿Por dónde organizaron los europeos expediciones masivas durante muchos años?",
+          "¿Encontraron los exploradores la mítica ciudad de oro al final?"
+        ],
+        "answerKey": [
+          "Pensaban que era una ciudad masiva y escondida en la selva hecha completamente de oro sólido.",
+          "Directamente del antiguo pueblo indígena muisca de Colombia.",
+          "Con resina de árbol gruesa y pegajosa, y polvo de oro brillante.",
+          "En el centro exacto de la hermosa Laguna de Guatavita.",
+          "Esmeraldas preciosas y brillantes, y objetos pesados y valiosos de oro.",
+          "En la selva salvaje e implacable.",
+          "No, porque la ciudad rica y dorada simplemente no existía."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La fascinante leyenda de El Dorado constituye indiscutiblemente uno de los mitos más enigmáticos, célebres y dolorosamente persistentes de toda la brutal y caótica época de la conquista en Sudamérica. A su repentina llegada al inexplorado Nuevo Mundo, los ambiciosos y codiciosos conquistadores españoles fueron rápidamente cautivados y obsesionados por deslumbrantes y exagerados rumores locales que describían detalladamente una urbe utópica e inmensa forjada íntegra y maravillosamente en oro macizo. Paradójicamente, la gran verdad histórica revela que El Dorado no era un lugar físico ni una ciudad oculta, sino una persona de carne y hueso. Esta mítica e incomprendida historia se origina realmente en los complejos rituales sagrados del avanzado pueblo indígena muisca, firmemente asentado en el frío y brumoso altiplano andino de la actual república de Colombia.\n\nSegún relatan minuciosamente las crónicas de la época, durante la solemne ceremonia de investidura, el nuevo cacique ungía reverencialmente su cuerpo desnudo con resinas vegetales muy pegajosas y se recubría por completo con fino polvo de oro resplandeciente, adquiriendo el aspecto de una deidad viviente. Posteriormente, navegaba majestuosamente en una balsa ceremonial de juncos hasta el centro exacto de la mística, silenciosa y profunda Laguna de Guatavita. Como ofrenda de devoción suprema a sus deidades acuáticas, arrojaba valiosas esmeraldas puras y exquisitas piezas de orfebrería pesada a las oscuras profundidades de la laguna antes de sumergirse para purificarse. La desmedida, irracional y ciega codicia de los invasores europeos transformó rápidamente la historia real de este 'indio dorado' en la quimérica, destructiva y obsesiva búsqueda de un vasto imperio selvático de riquezas inagotables.\n\nDurante décadas enteras, cientos de aventureros desesperados emprendieron expediciones auténticamente suicidas a través de la inhóspita, mortal y asfixiante selva sudamericana, persiguiendo inútilmente un brillante espejismo que jamás lograrían hallar. Aunque el tesoro infinito resultó ser una mera ilusión, esta obsesión dejó tras de sí un terrible y sangriento legado de tragedia humana y destrucción, consolidando el mito de El Dorado como una fábula inmortalizada en la historia universal que ilustra a la perfección los peligros mortales de la avaricia desmedida y el choque de civilizaciones.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué describían los deslumbrantes rumores que cautivaron a los conquistadores españoles?",
+          "¿En qué cultura y región andina se origina verdaderamente este persistente mito?",
+          "¿Con qué se recubría por completo el cuerpo el nuevo cacique muisca?",
+          "¿Hacia qué lugar específico navegaba en una balsa ceremonial?",
+          "¿Qué tipo de ofrendas arrojaba a las profundidades para honrar a sus deidades?",
+          "¿En qué se transformó la historia debido a la desmedida codicia de los europeos?",
+          "¿Qué tipo de expediciones emprendieron los aventureros persiguiendo este espejismo?"
+        ],
+        "answerKey": [
+          "Una urbe utópica e inmensa forjada íntegra y maravillosamente en oro macizo.",
+          "En el avanzado pueblo indígena muisca, en el altiplano andino de la actual Colombia.",
+          "Con resinas vegetales muy pegajosas y fino polvo de oro resplandeciente.",
+          "Hacia el centro exacto de la mística y profunda Laguna de Guatavita.",
+          "Valiosas esmeraldas puras y exquisitas piezas de orfebrería pesada.",
+          "En la quimérica, destructiva y obsesiva búsqueda de un vasto imperio selvático de riquezas inagotables.",
+          "Expediciones auténticamente suicidas a través de la inhóspita, mortal y asfixiante selva sudamericana."
+        ]
+      }
+    }
+  },
+{
+    "topicName": "Pingüinos de Chile",
+    "imageFileName": "pinguinos_chile.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "When most people around the world think of pingüinos (penguins), they usually picture them living exclusively on the freezing, solid ice of Antarctica. However, the incredibly long, beautiful, and rocky coast of Chile in South America is actually home to several amazing, highly unique penguin species! The absolute most famous and commonly seen types are the adorable Humboldt penguins and the Magellanic penguins. Instead of freezing ice, they happily live on rocky, isolated islands and beautiful, warm, sandy beaches located right next to the deep, cold waters of the Pacific Ocean.\n\nUnlike normal flying birds that soar through the sky, penguins have very small, stiff wings that actually work exactly like incredibly powerful flippers. They are absolutely incredible, graceful swimmers and can bravely dive very, very deep into the dark ocean just to hunt for fresh, delicious fish and slippery squid. On dry land, they slowly walk around with a very funny, clumsy waddle, but as soon as they jump into the agua (water), they swim as incredibly fast as underwater torpedoes! Because they spend so much time swimming in the freezing ocean, they have special, waterproof feathers that safely keep their bodies very warm and perfectly dry.\n\nPenguins are incredibly social, friendly animales and love to live closely together in massive, noisy groups called colonies. They \"talk\" and communicate constantly with each other by making very loud, funny braying noises that actually sound almost exactly like farm donkeys. To safely protect their fragile eggs and young families from dangerous predators and bad weather, they carefully dig deep, hidden holes directly into the soft dirt to build their warm nests. Unfortunately, these beautiful, fascinating birds currently face very serious, deadly dangers from severe climate change and massive plastic pollution in the ocean, so many dedicated conservation groups in Chile are working incredibly hard today to protect their natural habitats forever.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where do people usually picture penguins living?",
+          "What are the two most famous penguin species in Chile?",
+          "What do their small wings work like?",
+          "What do they hunt for deep in the ocean?",
+          "What do their loud, braying noises sound like?",
+          "Where do they build their nests to protect their families?",
+          "What two dangers do these beautiful birds face today?"
+        ],
+        "answerKey": [
+          "The freezing ice of Antarctica.",
+          "The Humboldt and Magellanic penguins.",
+          "Incredibly powerful flippers.",
+          "Fresh fish and squid.",
+          "Farm donkeys.",
+          "In deep, hidden holes directly in the dirt.",
+          "Severe climate change and massive plastic pollution."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Cuando la mayoría de las personas en el mundo piensan en los pingüinos, normalmente los imaginan viviendo exclusivamente en el hielo congelado y sólido de la Antártida. Sin embargo, ¡la costa increíblemente larga, hermosa y rocosa de Chile en América del Sur es en realidad el hogar de varias especies asombrosas y muy únicas de pingüinos! Los tipos absolutamente más famosos y comunes son los adorables pingüinos de Humboldt y los pingüinos de Magallanes. En lugar de hielo congelado, ellos viven felizmente en islas rocosas y aisladas, y en playas de arena hermosas y cálidas ubicadas justo al lado de las aguas frías y profundas del Océano Pacífico.\n\nA diferencia de las aves voladoras normales que vuelan por el cielo, los pingüinos tienen alas muy pequeñas y rígidas que en realidad funcionan exactamente como aletas increíblemente poderosas. ¡Ellos son nadadores absolutamente increíbles y elegantes, y pueden bucear valientemente muy, muy profundo en el océano oscuro solo para cazar peces frescos y deliciosos, y calamares resbaladizos! En la tierra seca, ellos caminan lentamente de una manera muy cómica y torpe, pero tan pronto como saltan al agua, ¡nadan tan increíblemente rápido como torpedos submarinos! Como pasan tanto tiempo nadando en el océano helado, tienen plumas especiales e impermeables que mantienen sus cuerpos con seguridad muy calientes y perfectamente secos.\n\nLos pingüinos son animales increíblemente sociales y amigables, y les encanta vivir muy juntos en grupos masivos y ruidosos llamados colonias. Ellos \"hablan\" y se comunican constantemente entre ellos haciendo ruidos fuertes y cómicos que en realidad suenan casi exactamente como los burros de granja. Para proteger de forma segura sus huevos frágiles y sus familias jóvenes de los depredadores peligrosos y el mal clima, ellos hacen cuidadosamente hoyos profundos y escondidos directamente en la tierra suave para construir sus nidos cálidos. Desafortunadamente, estas aves hermosas y fascinantes enfrentan hoy peligros muy serios y mortales por el severo cambio climático y la contaminación masiva de plástico en el océano, por lo que muchos grupos dedicados en Chile trabajan muy duro para proteger sus hábitats naturales para siempre.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde imaginan normalmente las personas que viven los pingüinos?",
+          "¿Cuáles son las dos especies de pingüinos más famosas en Chile?",
+          "¿Cómo funcionan las alas pequeñas de estas aves acuáticas?",
+          "¿Qué cosas frescas cazan ellos cuando bucean muy profundo en el océano?",
+          "¿A qué animal suenan los ruidos fuertes que hacen los pingüinos para hablar?",
+          "¿Dónde construyen ellos sus nidos para proteger a sus familias?",
+          "¿Qué dos problemas ambientales peligrosos enfrentan estas aves hermosas hoy en día?"
+        ],
+        "answerKey": [
+          "En el hielo congelado y sólido de la Antártida.",
+          "Los pingüinos de Humboldt y los pingüinos de Magallanes.",
+          "Funcionan exactamente como aletas increíblemente poderosas.",
+          "Peces frescos y deliciosos, y calamares resbaladizos.",
+          "Suenan casi exactamente como los burros de granja.",
+          "En hoyos profundos y escondidos directamente en la tierra suave.",
+          "El severo cambio climático y la contaminación masiva de plástico en el océano."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Aunque el imaginario colectivo internacional suele asociar casi exclusivamente a los pingüinos con los gélidos, blancos y desolados parajes del continente de la Antártida, la extensa, accidentada y sumamente diversa costa del océano Pacífico en Chile alberga en realidad importantes y prósperas poblaciones de estas fascinantes aves marinas. Las especies endémicas más emblemáticas, estudiadas y reconocidas de la región sudamericana son el hermoso pingüino de Humboldt y el pingüino de Magallanes. Lejos de caminar sobre glaciares helados, estas resistentes criaturas prosperan exitosamente en las agrestes costas rocosas, los islotes aislados y las hermosas playas de arena que son constantemente bañadas por las ricas, nutritivas y sumamente frías corrientes marinas del Pacífico.\n\nSu aerodinámica y robusta anatomía está perfecta y evolutivamente adaptada a las extremas exigencias de la vida marina pelágica; sus alas, inútiles para el vuelo aéreo tradicional, han evolucionado con el paso de los milenios hasta convertirse en aletas rígidas, fuertes y aplanadas que los propulsan con una agilidad asombrosa bajo la superficie del agua. Son depredadores acuáticos sumamente eficientes y voraces, capaces de sumergirse valientemente a grandes y oscuras profundidades oceánicas para capturar ágilmente escurridizos peces pelágicos y escurridizos calamares. Mientras que en tierra firme su andar característico resulta innegablemente torpe, lento y peculiar a la vista humana, en su verdadero elemento, el medio acuático, se desplazan con la inigualable velocidad y precisión de un torpedo vivo.\n\nSon animales de naturaleza eminentemente gregaria que se congregan por miles en ruidosas y densas colonias costeras para reproducirse y socializar, excavando laboriosamente profundas madrigueras subterráneas en la tierra blanda para resguardar a sus frágiles crías de los depredadores aéreos y las inclemencias del tiempo. Para comunicarse entre sí en medio del caos de la colonia, emiten potentes, graves y agudas vocalizaciones que resultan increíblemente similares al rebuzno de un burro. Actualmente, su supervivencia se encuentra gravemente amenazada y enfrentan crisis críticas debido a la insostenible sobrepesca industrial, la mortífera contaminación por microplásticos en los mares y los devastadores efectos del cambio climático, lo que ha motivado urgentemente intensos y rigurosos esfuerzos de conservación biológica en todo el territorio chileno.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Con qué gélidos parajes suele asociar el imaginario colectivo a los pingüinos?",
+          "¿Cuáles son las dos especies más emblemáticas que prosperan en la costa de Chile?",
+          "¿En qué han evolucionado sus alas para propulsarlos con agilidad bajo el agua?",
+          "¿Qué tipo de dieta capturan cuando se sumergen a grandes profundidades?",
+          "¿Qué estrategia de construcción utilizan para resguardar a sus crías en la colonia?",
+          "¿A qué sonido animal son similares sus potentes vocalizaciones comunicativas?",
+          "¿Qué tres amenazas críticas motivan los intensos esfuerzos de conservación actuales?"
+        ],
+        "answerKey": [
+          "Con los gélidos, blancos y desolados parajes del continente de la Antártida.",
+          "El hermoso pingüino de Humboldt y el pingüino de Magallanes.",
+          "En aletas rígidas, fuertes y aplanadas.",
+          "Escurridizos peces pelágicos y calamares.",
+          "Excavan laboriosamente profundas madrigueras subterráneas en la tierra blanda.",
+          "Resultan increíblemente similares al rebuzno de un burro.",
+          "La insostenible sobrepesca industrial, la contaminación por plásticos y el cambio climático."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Jaguar",
+    "imageFileName": "jaguar.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The beautiful, mysterious jaguar is officially the absolute largest, strongest, and most incredibly powerful wild cat found anywhere in the Americas. They live proudly and primarily deep inside the incredibly dense, hot, and wet tropical rainforests of the massive Amazon basin in South America. Visually, many people mistakenly think they look exactly like African leopards, but jaguars are actually much larger, heavily muscular, and definitely have a much broader, wider head. Their incredibly beautiful, bright golden fur is completely covered in complex, dark black spots that are specifically called rosettes because they look like small roses.\n\nUnlike almost all other typical house cats or big cats that usually hate getting wet, jaguars absolutely love jumping into cold el agua (water)! They are exceptionally strong, fast, and graceful swimmers, and they very often hunt directly in the deep jungle rivers for fresh fish, slow turtles, and even small, dangerous crocodiles! As the absolute top apex predator and fearless king of the thick jungle, the massive jaguar easily has the most incredibly powerful, deadly bite of any big cat in the entire world. In fact, its sharp teeth and extremely strong jaw muscles are so incredibly powerful that it can easily and quickly pierce straight through a very hard, solid turtle shell in just one bite!\n\nJaguars are strictly solitary animals, which simply means they strongly prefer to peacefully live, travel, and hunt completely alone in the dark jungle, only meeting other jaguars to have babies. For many thousands of years, highly advanced ancient indigenous cultures, just like the brilliant Maya and the fierce Aztecs, deeply respected and intensely worshipped the stealthy jaguar. They firmly believed it was a powerful, magical god of the dark night and the scary underworld. Today, it beautifully remains a highly majestic, protected symbol of raw animal power and pure wild nature across Latin America.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "Where does the largest wild cat in the Americas primarily live?",
+          "What are the complex spots on their beautiful golden fur called?",
+          "How is a jaguar visually different from a leopard?",
+          "Do jaguars hate getting wet like most other cats?",
+          "What can the incredibly strong bite of a jaguar pierce through?",
+          "Do jaguars prefer to live in large family groups or completely alone?",
+          "What ancient cultures worshipped the jaguar as a powerful god?"
+        ],
+        "answerKey": [
+          "Deep inside the dense, hot, and wet tropical rainforests of the massive Amazon basin.",
+          "Rosettes.",
+          "They are much larger, heavily muscular, and have a much broader, wider head.",
+          "No, they absolutely love jumping into the water and swimming.",
+          "A very hard, solid turtle shell.",
+          "Completely alone (they are solitary animals).",
+          "The brilliant Maya and the fierce Aztecs."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El hermoso y misterioso jaguar es oficialmente el gato salvaje absolutamente más grande, fuerte y poderosamente increíble que se encuentra en todas las Américas. Ellos viven con orgullo y principalmente en lo profundo de las selvas tropicales increíblemente densas, calurosas y húmedas de la masiva cuenca del Amazonas en América del Sur. Comercialmente y visualmente, muchas personas piensan por error que se ven exactamente como los leopardos africanos, pero los jaguares en realidad son mucho más grandes, muy musculosos y definitivamente tienen una cabeza mucho más ancha y grande. Su increíblemente hermosa y brillante piel dorada está completamente cubierta de complejas manchas negras y oscuras que se llaman específicamente rosetas porque parecen rosas pequeñas.\n\nA diferencia de casi todos los otros gatos típicos o grandes felinos que normalmente odian mojarse, ¡a los jaguares les encanta absolutamente saltar al agua fría! Son nadadores excepcionalmente fuertes, rápidos y elegantes, ¡y muy a menudo cazan directamente en los profundos ríos de la selva peces frescos, tortugas lentas e incluso cocodrilos pequeños y peligrosos! Como el depredador principal absoluto y el rey sin miedo de la espesa jungla, el jaguar masivo tiene fácilmente la mordida más increíblemente poderosa y mortal de cualquier gran felino en todo el mundo. De hecho, sus dientes afilados y los músculos extremadamente fuertes de su mandíbula son tan increíblemente poderosos que puede perforar fácil y rápidamente a través del caparazón muy duro y sólido de una tortuga en un solo bocado.\n\nLos jaguares son animales estrictamente solitarios, lo que simplemente significa que prefieren fuertemente vivir, viajar y cazar completamente solos y en paz en la selva oscura, solo encontrándose con otros jaguares para tener bebés. Por muchos miles de años, las culturas indígenas antiguas y muy avanzadas, exactamente como los brillantes mayas y los feroces aztecas, respetaron profundamente y adoraron intensamente al sigiloso jaguar. Ellos creían firmemente que era un dios poderoso y mágico de la noche oscura y el inframundo aterrador. Hoy en día, sigue siendo hermosamente un símbolo muy majestuoso y protegido del poder animal puro y la naturaleza salvaje en América Latina.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué geografía densa viven principalmente los jaguares fuertes?",
+          "¿Cuáles son dos diferencias físicas entre un jaguar y un leopardo?",
+          "¿Cómo se llaman las manchas complejas en la hermosa piel dorada del felino?",
+          "¿Qué hacen los jaguares en los ríos porque les encanta el agua?",
+          "¿Qué parte dura del cuerpo de una tortuga puede romper la mordida del jaguar?",
+          "¿Con quién prefieren vivir y cazar estos animales solitarios?",
+          "¿Qué civilizaciones indígenas antiguas creían que el jaguar era un dios de la noche?"
+        ],
+        "answerKey": [
+          "En las selvas tropicales increíblemente densas de la cuenca del Amazonas.",
+          "Son mucho más grandes (muy musculosos) y tienen una cabeza mucho más ancha.",
+          "Rosetas.",
+          "Nadan muy bien y cazan peces frescos, tortugas lentas e incluso cocodrilos pequeños.",
+          "El caparazón muy duro y sólido.",
+          "Completamente solos (son animales solitarios).",
+          "Los brillantes mayas y los feroces aztecas."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El deslumbrante y sigiloso jaguar ostenta con gran orgullo el título indiscutible, absoluto y biológico de ser el felino silvestre más grande, musculoso y formidable de todo el inmenso continente americano. Su vasto hábitat principal se extiende históricamente por las densas, calurosas y frondosas selvas tropicales de la vasta cuenca amazónica sudamericana. Aunque su hermosa e inconfundible morfología moteada suele confundirse frecuentemente a simple vista con la del ágil leopardo africano, el jaguar posee una constitución física notablemente más robusta y pesada, extremidades mucho más cortas y fuertes, y una caja craneal excepcionalmente ancha e intimidante. Sus características manchas oscuras sobre el pelaje dorado se denominan científicamente rosetas, ya que forman pequeños y complejos anillos geométricos con puntos en el centro.\n\nContrario a la instintiva e histórica aversión al agua típica de la inmensa mayoría de los felinos alrededor del mundo, el jaguar es un nadador verdaderamente eximio, apasionado y prolífico. Acecha silenciosa y expertamente las lodosas riberas de los ríos caudalosos para cazar con rapidez peces escurridizos, tortugas fluviales e incluso peligrosos caimanes de tamaño mediano. Como el depredador ápice absoluto e indiscutible de su verde ecosistema selvático, posee evolutivamente la fuerza de mordida más letal, concentrada y devastadora de todos los grandes felinos del planeta, siendo capaz de perforar y destrozar sin la más mínima dificultad los gruesos y duros caparazones de los reptiles o perforar directamente los cráneos de sus desventuradas presas terrestres.\n\nDe hábitos estrictamente nocturnos, solitarios y extremadamente territoriales, el jaguar adulto patrulla incesantemente vastas y silenciosas extensiones de selva virgen en absoluto solitario. Histórica y antropológicamente, este bello y feroz animal fue profunda y sagradamente venerado en la compleja cosmovisión mesoamericana; civilizaciones inmensamente avanzadas como la grandiosa cultura maya y la guerrera civilización azteca lo idolatraban temerariamente como una temible deidad suprema, considerándolo el símbolo espiritual absoluto de la oscura noche, el misterioso inframundo y el poder marcial inquebrantable. Hoy en día, su protección es vital para mantener el equilibrio ecológico.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué título indiscutible ostenta el jaguar en el continente americano?",
+          "¿Cuáles son tres diferencias morfológicas notables frente al leopardo africano?",
+          "¿Qué actividad acuática realiza este felino para cazar caimanes y tortugas fluviales?",
+          "¿Qué es capaz de perforar sin dificultad gracias a su letal fuerza de mordida?",
+          "¿Cómo se describe su comportamiento respecto a vivir con otros miembros de su especie?",
+          "¿Cómo fue venerado este felino en la cosmovisión de las civilizaciones mesoamericanas?",
+          "¿De qué tres conceptos era un símbolo supremo para los mayas y aztecas?"
+        ],
+        "answerKey": [
+          "El título indiscutible de ser el felino silvestre más grande, musculoso y formidable del continente americano.",
+          "Una constitución física más robusta, extremidades mucho más cortas y fuertes, y una caja craneal excepcionalmente ancha.",
+          "Nada eximia y apasionadamente por las riberas de los ríos (es un nadador eximio).",
+          "Los gruesos y duros caparazones de los reptiles o los cráneos de sus presas.",
+          "De hábitos estrictamente nocturnos, solitarios y extremadamente territoriales (vive en absoluto solitario).",
+          "Fue venerado como una temible deidad suprema.",
+          "El símbolo espiritual de la oscura noche, el misterioso inframundo y el poder marcial inquebrantable."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Las Tortugas de Galápagos",
+    "imageFileName": "tortugas_galapagos.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The incredible Galapagos tortoise is a highly famous, deeply beloved, and absolutely giant reptile that lives freely and exclusively on the remote, volcanic Galapagos Islands, which officially belong to the beautiful South American country of Ecuador. They proudly hold the impressive world record for being the absolute largest, heaviest living tortoises on the entire planet Earth! These slow-moving, massive, and friendly creatures can easily weigh well over five hundred heavy pounds and are internationally famous for their incredible, miraculously long lifespans. In fact, it is very, very common for a healthy Galapagos tortoise to peacefully live for more than one hundred years in the wild!\n\nLong ago, in the year 1835, the famous, brilliant English scientist Charles Darwin excitedly visited the tropical islands and spent many days carefully studying these fascinating, ancient animals. During his long trip, he astutely noticed that the specific shape of the tortoises' hard, heavy shells was actually very different depending exactly on which specific island they lived on. Tortoises that happily lived on very dry, dusty islands had shells that uniquely curved up high at the neck, exactly like a leather saddle, so they could easily stretch their long heads to reach higher green bushes for food. However, tortoises that safely lived on wet, highly green islands full of low grass simply had smooth, perfectly round, dome-shaped shells.\n\nThey are incredibly gentle, peaceful herbivores, simply spending most of their warm, quiet days slowly and happily eating juicy green cactus, low grass, and broad leaves in the sun. Because they have to constantly carry such incredibly heavy, large shells on their backs and move so incredibly slowly, they absolutely love to stop and sleep. A tired Galapagos tortoise can comfortably sleep and rest for up to sixteen full hours a day! Today, they are highly protected and remain a beautiful, ancient, and peaceful symbol of nature's unique, amazing evolution.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "What country do the Galapagos Islands belong to?",
+          "What world record do these massive creatures hold?",
+          "How long is it very common for a Galapagos tortoise to live?",
+          "What famous scientist studied these fascinating animals in 1835?",
+          "What part of their body changes shape depending on the island they live on?",
+          "What do these gentle herbivores slowly eat during the day?",
+          "How many hours a day can a Galapagos tortoise sleep?"
+        ],
+        "answerKey": [
+          "Ecuador.",
+          "They are the absolute largest, heaviest living tortoises on the entire planet Earth.",
+          "More than one hundred years.",
+          "The brilliant English scientist Charles Darwin.",
+          "The specific shape of their hard, heavy shells.",
+          "Juicy green cactus, low grass, and broad leaves.",
+          "Up to sixteen full hours a day."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La increíble tortuga de Galápagos es un reptil muy famoso, profundamente amado y absolutamente gigante que vive libre y exclusivamente en las remotas y volcánicas Islas Galápagos, que pertenecen oficialmente al hermoso país sudamericano de Ecuador. ¡Ellas tienen con orgullo el impresionante récord mundial por ser las tortugas vivas absolutamente más grandes y pesadas de todo el planeta Tierra! Estas criaturas de movimiento lento, masivas y amigables pueden pesar fácilmente mucho más de quinientas libras pesadas y son famosas internacionalmente por sus vidas increíbles y milagrosamente largas. De hecho, ¡es muy, muy común que una tortuga de Galápagos sana viva pacíficamente por más de cien años en la naturaleza!\n\nHace mucho tiempo, en el año 1835, el famoso y brillante científico inglés Charles Darwin visitó emocionado las islas tropicales y pasó muchos días estudiando cuidadosamente a estos animales fascinantes y antiguos. Durante su largo viaje, notó astutamente que la forma específica de los caparazones duros y pesados de las tortugas era en realidad muy diferente dependiendo exactamente de la isla específica en la que vivían. Las tortugas que vivían felizmente en islas muy secas y polvorientas tenían caparazones que se curvaban hacia arriba en el cuello, exactamente como una silla de montar de cuero, para que pudieran estirar fácilmente sus cabezas largas para alcanzar los arbustos verdes más altos para buscar comida. Sin embargo, las tortugas que vivían seguras en islas húmedas y muy verdes llenas de hierba baja simplemente tenían caparazones lisos, perfectamente redondos y en forma de cúpula.\n\nSon herbívoros increíblemente gentiles y pacíficos, y simplemente pasan la mayor parte de sus días cálidos y tranquilos comiendo lenta y felizmente cactus verdes y jugosos, hierba baja y hojas anchas bajo el sol. Debido a que tienen que cargar constantemente caparazones tan increíblemente pesados y grandes en sus espaldas y moverse tan increíblemente lento, les encanta absolutamente detenerse a dormir. ¡Una tortuga de Galápagos cansada puede dormir y descansar cómodamente hasta por dieciséis horas completas al día! Hoy en día, están muy protegidas y siguen siendo un símbolo hermoso, antiguo y pacífico de la evolución única y asombrosa de la naturaleza.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿A qué país de América del Sur pertenecen las hermosas Islas Galápagos?",
+          "¿Qué récord mundial tienen estos animales masivos?",
+          "¿Cuántos años es muy común que viva una tortuga de Galápagos?",
+          "¿Qué científico famoso visitó las islas en 1835 para estudiar a las tortugas?",
+          "¿Qué parte del cuerpo de la tortuga cambia de forma dependiendo de la isla?",
+          "¿Qué tres cosas comen estos animales herbívoros todos los días?",
+          "¿Cuántas horas al día puede dormir esta criatura porque su caparazón es pesado?"
+        ],
+        "answerKey": [
+          "A Ecuador.",
+          "Son las tortugas vivas absolutamente más grandes y pesadas de todo el planeta Tierra.",
+          "Más de cien años en la naturaleza.",
+          "El brillante científico inglés Charles Darwin.",
+          "La forma específica de sus caparazones duros y pesados.",
+          "Cactus verdes y jugosos, hierba baja y hojas anchas.",
+          "Hasta dieciséis horas completas al día."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Las gigantescas, prehistóricas y majestuosas tortugas de Galápagos son inmensos e imponentes quelonios terrestres que habitan de forma exclusiva y endémica en el rocoso y volcánico archipiélago homónimo, un prístino territorio insular celosamente protegido y administrado por la República del Ecuador. Ostentan con gran orgullo biológico el récord científico y absoluto de ser las tortugas de mayor tamaño, volumen y peso que caminan pesadamente sobre la faz de la Tierra en la actualidad. Sin embargo, su característica fisiológica y biológica más asombrosa, estudiada y celebrada es su excepcional longevidad centenaria; es un hecho comprobado que muchos ejemplares sanos superan con gran creces y facilidad el siglo de vida pacífica en su hábitat natural, convirtiéndolas en verdaderos fósiles vivientes.\n\nDurante su famosísima, histórica y reveladora expedición marítima a bordo del barco HMS Beagle en el año 1835, el brillante e inquisitivo naturalista británico Charles Darwin realizó observaciones empíricas verdaderamente cruciales sobre la conducta y la anatomía de estos fascinantes y lentos reptiles. Documentó minuciosa y sorprendidamente que la morfología física del duro caparazón variaba drásticamente de manera evolutiva según la isla específica en la que residía la tortuga. Las poblaciones aisladas en islas particularmente áridas, secas y rocosas presentaban caparazones elevados en forma de \"silla de montar\" que les permitían extender libremente el largo cuello hacia arriba para ramonear y alcanzar las hojas de los arbustos altos, mientras que en las islas bendecidas con abundante humedad y vegetación baja a ras de suelo predominaban los caparazones convexos en forma de cúpula cerrada.\n\nDe hábitos estrictamente herbívoros, solitarios y de un temperamento increíblemente plácido y dócil, su dieta diaria e inofensiva consiste principalmente en la lenta masticación de gruesos cactus endémicos, hojas anchas y pastos silvestres. Debido al colosal, aplastante y constante peso de su dura armadura ósea protectora y a un metabolismo basal fisiológicamente diseñado para ser extremadamente lento y eficiente, llevan una existencia y un estilo de vida profundamente letárgico, inactivo y ahorrador de energía, dedicando asombrosamente hasta dieciséis horas ininterrumpidas diarias al descanso absoluto y al sueño bajo el intenso sol ecuatorial. Hoy, representan el ícono mundial indiscutible de la preservación evolutiva.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué país sudamericano administra el territorio insular donde habitan estos quelonios?",
+          "¿Cuál es la característica biológica más asombrosa de las tortugas además de su tamaño?",
+          "¿Qué naturalista británico realizó observaciones cruciales sobre la especie en 1835?",
+          "¿Qué variaba drásticamente en las tortugas dependiendo de la isla donde habitaban?",
+          "¿Para qué les servían los caparazones en forma de \"silla de montar\" en las islas áridas?",
+          "¿En qué consiste la dieta de estos animales de hábitos estrictamente herbívoros?",
+          "¿A qué se debe el estilo de vida letárgico que les permite dormir dieciséis horas diarias?"
+        ],
+        "answerKey": [
+          "La República del Ecuador.",
+          "Su excepcional longevidad centenaria (superan con facilidad el siglo de vida).",
+          "El brillante e inquisitivo naturalista británico Charles Darwin.",
+          "La morfología física del duro caparazón.",
+          "Para extender libremente el largo cuello hacia arriba para ramonear y alcanzar las hojas de los arbustos altos.",
+          "En la lenta masticación de gruesos cactus endémicos, hojas anchas y pastos silvestres.",
+          "Al colosal y aplastante peso de su dura armadura ósea protectora y a un metabolismo basal extremadamente lento."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Vejigante",
+    "imageFileName": "vejigante.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "A vejigante is an incredibly colorful, wildly energetic, and highly famous folklore character seen constantly at massive, traditional Puerto Rican cultural festivals, especially during the vibrant, loud Ponce Carnival in the south and the highly historic Fiestas in Loíza. The totally unique, somewhat funny name actually comes directly from combining two different Spanish words: \"vejiga\" (which literally means a biological bladder) and \"gigante\" (which means giant). In the distant past, these mischievous, playful, and jumping characters actually used to carry real, inflated, and brightly painted cow bladders in their hands just to playfully and gently hit laughing spectators as they walked during the long street parades!\n\nToday, the modern vejigantes are globally known for wearing incredibly bright, highly elaborate, and free-flowing costumes that cleverly feature wide, sweeping bat-like wings connected right under their long arms. However, the absolute most important, famous, and terrifying part of the entire beautiful costume is definitely the giant, scary, and highly decorated máscara (mask) that completely covers their face and is entirely covered in dozens of sharp, painted horns. In the large southern city of Ponce, these incredibly elaborate, colorful masks are traditionally and carefully made by hand out of molded, painted papier-mâché, while in the proud coastal town of Loíza, they are masterfully carved directly from hard, dried coconut shells found near the beach.\n\nDuring the incredible, massive street fiestas (parties), the lively vejigante constantly jumps and dances highly energetically to the deep, powerful, and heavy rhythm of traditional Afro-Puerto Rican bomba music. Originally, hundreds of years ago, the scary characters strictly represented evil spirits or bad demons that nervously needed to be chased away by the religious community, but over time, they thankfully evolved and transformed into a highly joyful, celebrated symbol of pure cultural resistance. Today, the proud vejigante perfectly represents a beautiful, vibrant, and powerful mixture of deep African, classic Spanish, and ancient indigenous Taíno cultures, warmly bringing harmless mischief, colorful art, and intense patriotic pride to all of the island's wonderful celebrations.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What is a vejigante?",
+          "During which two famous festivals can you see vejigantes?",
+          "What two words make up the name \"vejigante\"?",
+          "What is the most important part of the vejigante costume?",
+          "What are the masks made of in the city of Ponce?",
+          "What kind of traditional music do they dance to?",
+          "What three cultures does the vejigante represent?"
+        ],
+        "answerKey": [
+          "An incredibly colorful, wildly energetic, and famous folklore character from Puerto Rico.",
+          "The Ponce Carnival and the Fiestas in Loíza.",
+          "Vejiga (bladder) and gigante (giant).",
+          "The giant, scary, and highly decorated máscara (mask) covered in horns.",
+          "Papier-mâché.",
+          "Traditional Afro-Puerto Rican bomba music.",
+          "African, Spanish, and indigenous Taíno cultures."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Un vejigante es un personaje folclórico increíblemente colorido, salvajemente enérgico y muy famoso que se ve constantemente en festivales culturales puertorriqueños tradicionales y masivos, especialmente durante el vibrante y ruidoso Carnaval de Ponce en el sur y las Fiestas muy históricas en Loíza. El nombre totalmente único y algo cómico en realidad viene directamente de combinar dos palabras diferentes en español: \"vejiga\" (que significa una vejiga biológica) y \"gigante\". ¡En el pasado lejano, estos personajes traviesos, juguetones y saltadores realmente solían llevar vejigas de vaca reales, infladas y pintadas de colores brillantes en sus manos solo para golpear en broma y suavemente a los espectadores que reían mientras caminaban durante los largos desfiles en la calle!\n\nHoy en día, los vejigantes modernos son conocidos mundialmente por usar trajes increíblemente brillantes, muy elaborados y fluidos que presentan de manera inteligente alas anchas como de murciélago conectadas justo debajo de sus brazos largos. Sin embargo, la parte absolutamente más importante, famosa y aterradora de todo el hermoso traje es definitivamente la máscara gigante, aterradora y muy decorada que cubre completamente su cara y está cubierta de docenas de cuernos afilados y pintados. En la gran ciudad sureña de Ponce, estas máscaras increíblemente elaboradas y coloridas se hacen tradicional y cuidadosamente a mano de papel maché moldeado y pintado, mientras que en el orgulloso pueblo costero de Loíza, se tallan magistralmente directamente de cáscaras de coco duras y secas que se encuentran cerca de la playa.\n\nDurante las increíbles y masivas fiestas en la calle, el animado vejigante salta y baila constantemente con mucha energía al ritmo profundo, poderoso y pesado de la música tradicional afro-puertorriqueña de bomba. Originalmente, hace cientos de años, los personajes aterradores representaban estrictamente espíritus malignos o demonios malos que la comunidad religiosa necesitaba ahuyentar con nerviosismo, pero con el tiempo, afortunadamente evolucionaron y se transformaron en un símbolo muy alegre y celebrado de pura resistencia cultural. Hoy en día, el vejigante orgulloso representa perfectamente una mezcla hermosa, vibrante y poderosa de las profundas culturas africana, española clásica y taína antigua e indígena, trayendo travesuras inofensivas, arte colorido y un orgullo patriótico intenso a todas las maravillosas celebraciones de la isla.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué es un vejigante y dónde se ve comúnmente?",
+          "¿De qué dos palabras viene su nombre?",
+          "¿Qué usaban en el pasado para golpear cómicamente a las personas?",
+          "¿Qué parte del traje tiene alas como de murciélago?",
+          "¿De qué material se hacen las máscaras en el pueblo de Loíza?",
+          "¿A qué ritmo poderoso bailan los vejigantes?",
+          "¿Qué mezcla de culturas representa este personaje hoy en día?"
+        ],
+        "answerKey": [
+          "Un personaje folclórico colorido y enérgico que se ve en festivales culturales puertorriqueños (como el Carnaval de Ponce y Loíza).",
+          "De \"vejiga\" y \"gigante\".",
+          "Vejigas de vaca reales, infladas y pintadas de colores brillantes.",
+          "El traje brillante, elaborado y fluido.",
+          "Se tallan magistralmente de cáscaras de coco duras y secas.",
+          "Al ritmo profundo, poderoso y pesado de la música tradicional afro-puertorriqueña de bomba.",
+          "Las profundas culturas africana, española clásica y taína antigua e indígena."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El mítico e infatigable vejigante es, sin lugar a ninguna duda, una de las figuras folclóricas más vibrantes, enérgicas, coloridas y profundamente emblemáticas de los concurridos carnavales y festividades tradicionales puertorriqueñas, destacando particular y espectacularmente en el histórico Carnaval de Ponce en el sur de la isla y en las fervientes Fiestas de Santiago Apóstol en el pueblo costero de Loíza. Su peculiar, llamativa y sonora denominación es, de hecho, un acrónimo lingüístico derivado directamente de la contracción de las palabras \"vejiga\" y \"gigante\", haciendo una alusión histórica y directa a la antigua y traviesa tradición callejera en la que estos enmascarados portaban vejigas de vaca infladas, secas y pintadas de vivos colores para golpear inofensiva y juguetonamente a los asustados espectadores que se aglomeraban durante los desfiles.\n\nEn la vibrante actualidad, los modernos vejigantes se distinguen inconfundiblemente por vestir amplios y vistosos mamelucos de tela de colores estridentes y brillantes que incorporan de manera ingeniosa extensas alas de tela bajo los brazos, innegablemente similares a las de un enorme murciélago en pleno vuelo. El elemento central, definitorio y visualmente más impresionante de toda su compleja indumentaria es la imponente, diabólica y aterradora máscara artesanal, la cual siempre exhibe múltiples, agudos y coloridos cuernos amenazantes. Estas elaboradas y pesadas caretas varían significativamente en su técnica de fabricación según la región geográfica: en la ciudad de Ponce se confeccionan meticulosa y detalladamente a mano utilizando moldes de papel maché, mientras que en el bastión afrocaribeño de Loíza se tallan rústica y magistralmente aprovechando la forma natural de la dura cáscara del coco seco.\n\nBailando incansablemente al frenético, percusivo y profundo ritmo de los tambores de la música tradicional de bomba, el vejigante infunde una inagotable e hipnótica vitalidad a las cálidas celebraciones callejeras. Aunque en sus remotos y estrictos orígenes medievales católicos encarnaban físicamente a los demonios y a los moros que debían ser simbólicamente vencidos por los cristianos, con el inexorable transcurso de los siglos se han transformado y reivindicado en un poderoso símbolo festivo de arraigada resistencia cultural anticolonial. Hoy en día, representan de manera magistral, hermosa y palpable el profundo, complejo y enriquecedor sincretismo de las fuertes raíces africanas, españolas y taínas que componen el alma viva de la isla del encanto.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué dos celebraciones destacan particularmente los vejigantes?",
+          "¿De qué dos palabras deriva el acrónimo \"vejigante\"?",
+          "¿Qué elemento de la indumentaria se asemeja a las de un murciélago?",
+          "¿Cuáles son las dos técnicas principales de artesanía para crear las máscaras y de dónde son?",
+          "¿A qué ritmo percusivo bailan infundiendo vitalidad a las celebraciones?",
+          "¿Qué representaban originalmente estos personajes en sus orígenes medievales?",
+          "¿Qué tipo de sincretismo cultural representan los vejigantes hoy en día?"
+        ],
+        "answerKey": [
+          "En el histórico Carnaval de Ponce y en las fervientes Fiestas de Santiago Apóstol en Loíza.",
+          "De la contracción de las palabras \"vejiga\" y \"gigante\".",
+          "Las extensas alas de tela incorporadas bajo los brazos de los vistosos mamelucos.",
+          "Moldes de papel maché en Ponce y talladas en la dura cáscara del coco en Loíza.",
+          "Al frenético, percusivo y profundo ritmo de los tambores de la música de bomba.",
+          "Encarnaban físicamente a los demonios y a los moros que debían ser simbólicamente vencidos por los cristianos.",
+          "El profundo sincretismo de las fuertes raíces africanas, españolas y taínas."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Tango",
+    "imageFileName": "tango.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "El Tango is absolutely one of the most famous, deeply passionate, and highly elegant partner dances in the entire world, originally originating in the late 19th century in the poor, dusty streets of the busy port city of Buenos Aires, Argentina. During this difficult, changing time period, many thousands of hopeful European immigrants happily arrived in South America on large boats desperately looking for a new, better life. In the poor, heavily crowded, and busy local neighborhoods, these different, lonely immigrants naturally mixed their diverse cultures, unique musical instruments, and traditional home melodies closely together to organically and beautifully create the totally unique, deeply melancholic, and emotional sound of the famous tango.\n\nThe beautiful music is instantly and easily recognizable anywhere in the world because of a highly essential, breathing instrument called the 'bandoneón'. This very special, heavy wooden instrument looks and sounds very similar to a classic accordion, and it magically gives the tango music its signature, incredibly dramatic, and crying musical tone. The actual dance itself is incredibly intense, serious, and requires absolute, perfect physical concentration between the two people. The two trained partners must bravely dance very closely together, pressing their bodies and moving in complete, silent harmony while taking very rapid, sharp, and highly complex foot steps across the wooden dance floor.\n\nOriginally, the rich, powerful high society of Argentina cruelly rejected the loud tango completely because they strictly believed it was an inappropriate, dirty, and ugly street dance meant only for the poor lower classes. However, after the exotic dance surprisingly traveled across the ocean and became a massive, incredibly popular sensation in the fancy ballrooms of Paris, France, the wealthy, upper classes back in Argentina finally embraced and loved it. Today, the elegant tango is a deeply respected, proud, and historic symbol of strong Argentine identity, and extremely talented professional dancers continue to easily captivate huge, quiet audiences everywhere with its raw, pure emotion and strict, beautiful elegance.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "In what city did the tango originate?",
+          "Who mixed their cultures together to organically create the tango?",
+          "What is the essential instrument that gives tango its signature sound?",
+          "What does the 'bandoneón' look and sound similar to?",
+          "How must the two partners dance together?",
+          "Why did the high society of Argentina originally reject the tango?",
+          "In what European city did the tango become a massive sensation?"
+        ],
+        "answerKey": [
+          "The busy port city of Buenos Aires, Argentina.",
+          "Hopeful European immigrants.",
+          "An essential, breathing instrument called the 'bandoneón'.",
+          "Very similar to a classic accordion.",
+          "Very closely together, moving in complete harmony with rapid, sharp, and highly complex foot steps.",
+          "Because they strictly believed it was an inappropriate, dirty street dance meant only for the lower classes.",
+          "In the fancy ballrooms of Paris, France."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El tango es absolutamente uno de los bailes de pareja más famosos, profundamente apasionados y muy elegantes de todo el mundo, originado originalmente a finales del siglo XIX en las calles pobres y polvorientas de la ocupada ciudad portuaria de Buenos Aires, Argentina. Durante este período de tiempo difícil y cambiante, muchos miles de inmigrantes europeos esperanzados llegaron felizmente a América del Sur en grandes barcos buscando desesperadamente una vida nueva y mejor. En los barrios locales pobres, muy concurridos y ocupados, estos inmigrantes diferentes y solitarios mezclaron naturalmente sus diversas culturas, instrumentos musicales únicos y melodías tradicionales de casa para crear orgánica y bellamente el sonido totalmente único, profundamente melancólico y emocional del famoso tango.\n\nLa hermosa música es instantánea y fácilmente reconocible en cualquier parte del mundo debido a un instrumento de respiración muy esencial llamado el 'bandoneón'. Este instrumento de madera pesado y muy especial se ve y suena muy similar a un acordeón clásico, y mágicamente le da a la música del tango su tono musical característico, increíblemente dramático y de llanto. El baile real en sí es increíblemente intenso, serio y requiere una concentración física absoluta y perfecta entre las dos personas. Los dos compañeros entrenados deben bailar valientemente muy juntos, presionando sus cuerpos y moviéndose en completa y silenciosa armonía mientras dan pasos muy rápidos, afilados y altamente complejos por la pista de baile de madera.\n\nOriginalmente, la alta sociedad rica y poderosa de Argentina rechazó cruelmente el ruidoso tango por completo porque creían estrictamente que era un baile callejero inapropiado, sucio y feo destinado solo a las clases bajas y pobres. Sin embargo, después de que el exótico baile sorprendentemente viajó a través del océano y se convirtió en una sensación masiva e increíblemente popular en los elegantes salones de baile de París, Francia, las clases ricas y altas en Argentina finalmente lo abrazaron y lo amaron. Hoy en día, el elegante tango es un símbolo profundamente respetado, orgulloso e histórico de la fuerte identidad argentina, y los bailarines profesionales extremadamente talentosos continúan cautivando fácilmente a enormes y silenciosas audiencias en todas partes con su emoción pura y cruda, y su estricta y hermosa elegancia.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad portuaria se originó el tango?",
+          "¿Quiénes llegaron a América del Sur buscando una vida mejor?",
+          "¿Cómo se llama el instrumento esencial que le da al tango su sonido único?",
+          "¿A qué otro instrumento es muy similar el 'bandoneón'?",
+          "¿Cómo tienen que moverse las dos personas en la pista de baile?",
+          "¿Por qué la alta sociedad de Argentina rechazó originalmente el tango?",
+          "¿En qué ciudad europea tuvo un éxito masivo el baile?"
+        ],
+        "answerKey": [
+          "En la ocupada ciudad portuaria de Buenos Aires, Argentina.",
+          "Muchos miles de inmigrantes europeos esperanzados.",
+          "Un instrumento de respiración muy esencial llamado el 'bandoneón'.",
+          "Se ve y suena muy similar a un acordeón clásico.",
+          "Muy juntos, presionando sus cuerpos y moviéndose en completa y silenciosa armonía dando pasos muy rápidos y afilados.",
+          "Porque creían que era un baile callejero inapropiado, sucio y feo destinado solo a las clases bajas.",
+          "En París, Francia."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El arrabalero, nostálgico y sensual tango es, indiscutiblemente y por derecho propio, una de las danzas de pareja más pasionales, mundialmente célebres, complejas y elegantes a nivel global, habiendo sido dolorosa y poéticamente gestada a finales del siglo XIX en los oscuros, lodosos y pobres arrabales de la bulliciosa e incipiente ciudad portuaria de Buenos Aires, Argentina. En aquella turbulenta y transformadora época histórica, masivas y desesperadas oleadas de inmigrantes europeos (principalmente italianos y españoles) desembarcaron esperanzados en los puertos de Sudamérica en busca de un futuro económico próspero que su tierra natal les negaba. En aquellos abarrotados, marginados y superpoblados conventillos porteños, la ineludible y rica amalgama de sus diversas culturas, instrumentos traídos del viejo mundo y ritmos folclóricos locales originó, de manera completamente orgánica y casi mágica, el inconfundible sonido melancólico, profundo y arrabalero que define perfectamente al tango.\n\nEsta hipnótica música es instantánea y universalmente reconocible gracias al protagonismo absoluto e irreemplazable del 'bandoneón'. Este singular y pesado instrumento de fuelle respiratorio, emparentado lejanamente con el acordeón europeo, es el encargado principal de dotar al tango de su inconfundible, cortada y plañidera cadencia dramática que parece imitar el llanto humano. La compleja danza en sí es de una intensidad física y psicológica abrumadora y exige una compenetración absoluta, silenciosa y total entre los intérpretes; la concentrada pareja baila en un estrecho y tenso abrazo cerrado, deslizándose en perfecta e impecable sincronía mediante pasos sumamente rápidos, cortes afilados de piernas y figuras geométricas muy complejas trazadas suavemente sobre la pulida pista de baile.\n\nEn sus polémicos y humildes inicios, la conservadora y estirada aristocracia argentina repudió categóricamente y censuró el tango, considerándolo despectivamente como un baile excesivamente vulgar, altamente indecoroso y propio exclusivamente de los peligrosos bajos fondos, burdeles y marineros. Paradójicamente, fue solo tras su arrollador, exótico y rotundo triunfo en los más elitistas y refinados salones de la alta sociedad de París, Francia, a principios del siglo XX, cuando la esnob y altiva alta sociedad porteña finalmente sucumbió a su encanto y lo acogió con orgullo en sus salones. Hoy, el elegante tango es un pilar cultural sagrado e intocable de la identidad nacional argentina que sigue cautivando profundamente a exigentes audiencias globales con su indiscutible crudeza emocional, su impecable técnica y su inigualable sofisticación escénica.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad portuaria se gestó el tango a finales del siglo XIX?",
+          "¿Qué factor social originó de manera orgánica el sonido melancólico del tango?",
+          "¿Qué instrumento dota al tango de su inconfundible cadencia dramática?",
+          "¿Qué instrumento está directamente emparentado con el 'bandoneón'?",
+          "¿Cómo se desliza la pareja sobre la pista de baile?",
+          "¿Por qué la aristocracia argentina repudió el tango en sus inicios?",
+          "¿Qué evento paradójico provocó que la alta sociedad porteña finalmente lo acogiera?"
+        ],
+        "answerKey": [
+          "En los arrabales de la bulliciosa e incipiente ciudad portuaria de Buenos Aires, Argentina.",
+          "La amalgama de diversas culturas, instrumentos traídos del viejo mundo y ritmos folclóricos locales de las oleadas de inmigrantes.",
+          "El 'bandoneón'.",
+          "El acordeón europeo.",
+          "En un estrecho abrazo cerrado, deslizándose en perfecta sincronía mediante pasos rápidos, cortes afilados y figuras complejas.",
+          "Porque lo consideraban despectivamente como un baile excesivamente vulgar, indecoroso y propio de los bajos fondos.",
+          "Su arrollador, exótico y rotundo triunfo en los más elitistas salones de París, Francia."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Los Churros y San Ginés",
+    "imageFileName": "churros.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Los churros are an incredibly classic, mouth-watering, and highly famous Spanish pastry made simply from warm, fried dough heavily covered in sweet white sugar, and they are deeply beloved by people of all ages all over the entire world. However, if you truly want to experience the absolute best, most delicious, and most historic, authentic churros in all of human history, you absolutely must visit the legendary and historic Chocolatería San Ginés. Quietly located in a hidden, narrow, and beautiful stone alleyway right in the middle of the historic center of Madrid, Spain, this incredibly famous, elegant café has been happily serving thousands of hungry, happy customers non-stop since the year 1894.\n\nIn the country of Spain, classic churros are actually not typically or normally eaten covered with brown cinnamon like they are very often served in the Americas. Instead, the authentic, traditional Spanish way to eat them is to carefully dip the long, hot, and perfectly crispy fried pastry directly into a small, warm porcelain cup of incredibly thick, rich, dark, and hot chocolate. The beautiful, dark chocolate served at San Ginés is made so incredibly dense, heavy, and rich that it actually looks and feels much more like a warm, sweet, spoonable pudding rather than a thin, watery liquid drink!\n\nThe beautiful, historic café is incredibly famous globally not just for its amazing food, but because it is miraculously open twenty-four long hours a day, every single day of the entire year without ever closing its front doors. It has become a massive, deeply loved cultural tradition for the local people in Madrid to walk and visit San Ginés very late at night after attending a loud party, celebrating the countdown on New Year's Eve, or simply taking a quiet, romantic midnight walk through the beautiful city streets. Sitting down to eat at the small, classic green marble tables inside this beautiful, antique, mirror-filled café is a truly unforgettable, comforting, and absolutely delicious cultural experience that everyone should try.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What are churros made from?",
+          "What is the name of the legendary café in Madrid, Spain?",
+          "Since what year has this famous café been serving customers?",
+          "In Spain, what spice are churros typically NOT eaten with?",
+          "What is the traditional Spanish way to eat a churro?",
+          "What is the consistency of the hot chocolate at San Ginés?",
+          "Why is the historic café incredibly famous regarding its hours of operation?"
+        ],
+        "answerKey": [
+          "Warm, fried dough heavily covered in sweet white sugar.",
+          "Chocolatería San Ginés.",
+          "Since the year 1894.",
+          "Brown cinnamon.",
+          "To carefully dip the hot, crispy fried pastry directly into a small cup of incredibly thick, dark, hot chocolate.",
+          "It is so incredibly dense, heavy, and rich that it looks and feels much more like a warm, spoonable pudding.",
+          "It is miraculously open twenty-four long hours a day, every single day of the entire year."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Los churros son un postre español increíblemente clásico, delicioso y muy famoso hecho simplemente de masa tibia y frita cubierta fuertemente de azúcar blanco y dulce, y son profundamente amados por personas de todas las edades en todo el mundo. Sin embargo, si realmente quieres experimentar los churros absolutamente mejores, más deliciosos y más históricos y auténticos de toda la historia humana, debes visitar absolutamente la legendaria e histórica Chocolatería San Ginés. Ubicada tranquilamente en un callejón de piedra escondido, estrecho y hermoso justo en el medio del centro histórico de Madrid, España, este café increíblemente famoso y elegante ha estado sirviendo felizmente a miles de clientes hambrientos y felices sin parar desde el año 1894.\n\nEn el país de España, los churros clásicos en realidad no se comen típica o normalmente cubiertos con canela marrón como se sirven muy a menudo en las Américas. En cambio, la manera española auténtica y tradicional de comerlos es sumergir cuidadosamente el postre frito, largo, caliente y perfectamente crujiente directamente en una taza de porcelana pequeña y tibia de chocolate caliente increíblemente espeso, rico y oscuro. ¡El hermoso y oscuro chocolate servido en San Ginés se hace tan increíblemente denso, pesado y rico que en realidad se ve y se siente mucho más como un pudín tibio, dulce y para comer con cuchara en lugar de una bebida líquida y delgada!\n\nEl hermoso café histórico es increíblemente famoso a nivel mundial no solo por su increíble comida, sino porque está milagrosamente abierto veinticuatro largas horas al día, todos los días del año entero sin cerrar nunca sus puertas principales. Se ha convertido en una tradición cultural masiva y profundamente amada por la gente local en Madrid caminar y visitar San Ginés muy tarde en la noche después de asistir a una fiesta ruidosa, celebrando la cuenta regresiva en la Nochevieja, o simplemente dando un tranquilo y romántico paseo de medianoche por las hermosas calles de la ciudad. Sentarse a comer en las pequeñas mesas de mármol verde clásico dentro de este hermoso café antiguo y lleno de espejos es una experiencia cultural verdaderamente inolvidable, reconfortante y absolutamente deliciosa que todos deberían probar.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué están hechos los churros clásicos?",
+          "¿Cómo se llama el famoso y legendario café en Madrid, España?",
+          "¿Desde qué año ha servido este café a los clientes?",
+          "¿Con qué especia no se comen normalmente los churros en España?",
+          "¿Cuál es la forma tradicional de comerlos en España?",
+          "¿Cómo es la textura del chocolate caliente en San Ginés?",
+          "¿Cuándo es una gran tradición visitar el café para las personas en Madrid?"
+        ],
+        "answerKey": [
+          "De masa tibia y frita cubierta fuertemente de azúcar blanco y dulce.",
+          "La legendaria e histórica Chocolatería San Ginés.",
+          "Desde el año 1894.",
+          "Con canela marrón.",
+          "Sumergir cuidadosamente el postre frito directamente en una taza de chocolate caliente increíblemente espeso, rico y oscuro.",
+          "Se hace tan increíblemente denso, pesado y rico que se ve y se siente mucho más como un pudín tibio.",
+          "Muy tarde en la noche después de asistir a una fiesta, celebrando Nochevieja, o dando un romántico paseo de medianoche."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Los churros, esa emblemática, dorada y suculenta masa estriada frita en aceite hirviendo y profusamente espolvoreada con crujiente azúcar blanco, constituyen indiscutiblemente uno de los manjares y tesoros culinarios españoles más universales, exportados y amados en todo el planeta. No obstante, para los verdaderos puristas y para poder degustar la versión más sublime, auténtica, inalterada e histórica de este amado clásico de la repostería, es absolutamente imprescindible e ineludible peregrinar gastronómicamente a la legendaria, centenaria y venerada Chocolatería San Ginés. Enclavado discretamente en un angosto, empedrado y pintoresco callejón peatonal muy cerca de la concurrida Puerta del Sol en el mismísimo casco histórico de Madrid, este elegante establecimiento icónico, adornado con paneles de madera verde y amplios espejos biselados, lleva deleitando ininterrumpidamente a una inabarcable multitud de golosos comensales y turistas internacionales desde su majestuosa inauguración en el lejano año de 1894.\n\nA una clara, marcada y notable diferencia de muchas regiones del continente americano donde fueron exportados, en la estricta tradición culinaria de España absolutamente no se acostumbra espolvorear ni manchar los churros artesanales con aromática canela molida. La degustación tradicional, pura y canónica madrileña exige solemnemente sumergir el churro recién hecho, ardiente y perfectamente crujiente por fuera pero tierno por dentro, directamente en una fina taza de porcelana blanca rebosante de chocolate caliente intensamente oscuro, fundido y espeso. La soberbia consistencia del chocolate artesanal que preparan y sirven humeante en San Ginés es tan extraordinariamente densa, untuosa y rica en cacao puro que, a la vista y al paladar, se asemeja muchísimo más a una suntuosa, espesa y aterciopelada crema caliente para degustar a cucharadas que a una simple, aguada y ligera bebida líquida.\n\nParte integral e indivisible de la entrañable mística bohemia y el enorme atractivo mundial de este histórico local decimonónico radica asombrosamente en que permanece abierto al público de manera ininterrumpida las veinticuatro horas del día, los trescientos sesenta y cinco días del año. Es una arraigada, respetada y casi religiosa tradición madrileña de varias generaciones acudir felizmente a San Ginés en la gélida madrugada como un glorioso broche de oro culinario tras disfrutar de una agotadora noche de fiesta en los clubes locales, para desayunar tras celebrar fervientemente las doce campanadas de la Nochevieja, o simplemente para resguardarse del frío durante un pacífico y romántico paseo nocturno por la ciudad dormida. Sentarse a conversar en sus desgastadas pero elegantes mesitas de mármol clásico es, sin exagerar, saborear directamente un pedazo inolvidable, dulce y vivo de la riquísima historia culinaria de España.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué establecimiento icónico madrileño es imprescindible visitar para degustar este clásico?",
+          "¿En qué año se inauguró la legendaria Chocolatería San Ginés?",
+          "¿Qué especia, común en América, no se acostumbra usar con los churros en España?",
+          "¿Qué exige la degustación tradicional y canónica del churro?",
+          "¿A qué se asemeja la consistencia del chocolate que sirven en San Ginés?",
+          "¿En qué radica gran parte de la mística de este histórico local madrileño?",
+          "¿En qué momentos específicos es una tradición acudir a este café de madrugada?"
+        ],
+        "answerKey": [
+          "La legendaria, centenaria y venerada Chocolatería San Ginés.",
+          "En el lejano año de 1894.",
+          "La aromática canela molida.",
+          "Sumergir el churro recién hecho, ardiente y perfectamente crujiente, directamente en una fina taza de chocolate oscuro y espeso.",
+          "Se asemeja muchísimo más a una suntuosa, espesa y aterciopelada crema caliente para degustar a cucharadas.",
+          "En que permanece abierto al público de manera ininterrumpida las veinticuatro horas del día, los 365 días del año.",
+          "Tras una agotadora noche de fiesta, para celebrar las campanadas de la Nochevieja, o durante un pacífico paseo nocturno."
+        ]
+      }
+    }
+  }
+
 
 
 
