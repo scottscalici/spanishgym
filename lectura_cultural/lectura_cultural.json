@@ -10199,6 +10199,447 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "What is Cinco de Mayo?",
+    "imageFileName": "cinco_de_mayo_overview.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Cinco de Mayo is a highly famous, brightly colored, and very popular spring holiday celebrated every single year on the fifth of May. However, there is a massive, incredibly common misunderstanding about this fun holiday all over the world. Millions of people mistakenly believe that Cinco de Mayo is Mexico's official Independence Day. This is absolutely incorrect! Mexico actually celebrates its real Independence Day on September 16th. Instead, Cinco de Mayo is a very specific, historical holiday that proudly remembers a single, incredible military victory.\n\nThe real history of this holiday goes back to the dramatic, bloody year of 1862. On the fifth of May, a small, poorly equipped, and very brave Mexican army miraculously defeated the massive, powerful, and wealthy French army at the famous Batalla de Puebla (Battle of Puebla). Because the French military was widely considered the absolute best and strongest in the entire world at that time, this surprising, historic victory became a massive, highly emotional symbol of strong Mexican resistance, deep hope, and fierce national pride.\n\nToday, the modern celebrations of this historic date are actually very different depending exactly on where you live. In the country of Mexico, Cinco de Mayo is definitely not a major, massive national holiday. It is mostly just a quiet, regular day, except in the specific state of Puebla, where proud locals host beautiful military parades and historic reenactments of the famous battle. However, in the United States, the holiday has completely transformed into a massive, nationwide cultural fiesta! Millions of excited people celebrate with delicious Mexican food, loud traditional music, and colorful decorations to happily honor beautiful Mexican-American culture.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What do millions of people mistakenly believe Cinco de Mayo is?",
+          "When does Mexico celebrate its real Independence Day?",
+          "What specific historical event does Cinco de Mayo actually remember?",
+          "What country's massive, powerful army did the Mexican army defeat?",
+          "Why was the Mexican victory in 1862 so surprising?",
+          "Is Cinco de Mayo a major, massive national holiday everywhere in Mexico?",
+          "How is the holiday celebrated today in the United States?"
+        ],
+        "answerKey": [
+          "They mistakenly believe it is Mexico's official Independence Day.",
+          "On September 16th.",
+          "The Batalla de Puebla (Battle of Puebla) in 1862.",
+          "The French army.",
+          "Because the French military was considered the absolute best and strongest in the world.",
+          "No, it is mostly celebrated just in the specific state of Puebla.",
+          "As a massive cultural fiesta with delicious Mexican food, loud traditional music, and colorful decorations."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El Cinco de Mayo es un día festivo muy famoso, colorido y muy popular que se celebra todos los años el cinco de mayo. Sin embargo, hay un malentendido masivo y muy común sobre este día festivo en todo el mundo. Millones de personas creen por error que el Cinco de Mayo es el Día de la Independencia oficial de México. ¡Esto es absolutamente incorrecto! En realidad, México celebra su verdadero Día de la Independencia el 16 de septiembre. En cambio, el Cinco de Mayo es un día festivo histórico muy específico que recuerda con orgullo una sola e increíble victoria militar.\n\nLa verdadera historia de este día festivo regresa al año dramático y sangriento de 1862. El cinco de mayo, un ejército mexicano pequeño, mal equipado y muy valiente derrotó milagrosamente al ejército francés masivo, poderoso y rico en la famosa Batalla de Puebla. Porque el ejército francés era considerado el mejor y más fuerte de todo el mundo en ese tiempo, esta victoria sorprendente e histórica se convirtió en un símbolo masivo y muy emocional de fuerte resistencia mexicana, esperanza profunda y orgullo nacional.\n\nHoy en día, las celebraciones modernas de esta fecha histórica son en realidad muy diferentes dependiendo exactamente de dónde vives. En el país de México, el Cinco de Mayo definitivamente no es un día festivo nacional masivo. Es principalmente un día tranquilo y normal, excepto en el estado específico de Puebla, donde las personas locales hacen hermosos desfiles militares y recreaciones históricas de la famosa batalla. Sin embargo, en los Estados Unidos, ¡el día festivo se ha transformado completamente en una fiesta cultural masiva! Millones de personas emocionadas celebran con deliciosa comida mexicana y música tradicional.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué creen muchas personas por error sobre el Cinco de Mayo?",
+          "¿En qué fecha celebra México su verdadero Día de la Independencia?",
+          "¿Qué evento militar e histórico recuerda el Cinco de Mayo?",
+          "¿A qué ejército poderoso y rico derrotó el ejército mexicano?",
+          "¿Por qué fue tan sorprendente la victoria mexicana en el año 1862?",
+          "¿En qué estado específico de México se celebra mucho esta fecha?",
+          "¿Cómo se ha transformado este día festivo en los Estados Unidos hoy en día?"
+        ],
+        "answerKey": [
+          "Creen por error que es el Día de la Independencia oficial de México.",
+          "El 16 de septiembre.",
+          "La famosa Batalla de Puebla en 1862.",
+          "Al ejército francés masivo.",
+          "Porque el ejército francés era considerado el mejor y más fuerte de todo el mundo.",
+          "En el estado específico de Puebla.",
+          "Se ha transformado completamente en una fiesta cultural masiva con comida y música."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El Cinco de Mayo es, indudablemente, una de las festividades primaverales más reconocidas, vibrantes y celebradas a nivel internacional. No obstante, existe una profunda, generalizada y muy persistente confusión histórica alrededor de esta fecha en el extranjero. Millones de personas alrededor del mundo asumen erróneamente que esta colorida celebración conmemora el Día de la Independencia de México. ¡Esta suposición es categóricamente falsa! La verdadera y auténtica independencia mexicana se proclamó el 16 de septiembre de 1810. Por el contrario, el Cinco de Mayo conmemora de manera exclusiva un evento bélico muy singular, heroico y altamente específico: la inesperada y gloriosa victoria militar sobre una potencia invasora extranjera.\n\nEl origen histórico de esta efeméride nos remonta al turbulento, sangriento y complejo año de 1862. Durante la histórica Batalla de Puebla, un contingente militar mexicano notablemente reducido, mal armado y compuesto en gran parte por valientes civiles indígenas, logró derrotar milagrosamente a las invencibles y experimentadas tropas del Segundo Imperio Francés. Dado que el disciplinado ejército de Francia era considerado unánimemente como la fuerza bélica más letal, poderosa y avanzada del planeta en aquella época, este improbable triunfo se transformó de inmediato en un poderoso e inquebrantable símbolo de resistencia patriótica, unidad nacional y profunda esperanza frente a la adversidad extrema.\n\nEn la actualidad contemporánea, la magnitud y el significado de las celebraciones varían drásticamente según la región geográfica. En el territorio mexicano, el Cinco de Mayo no es considerado un día feriado nacional de gran relevancia; transcurre como una jornada laboral relativamente normal, con la notable excepción del estado de Puebla, donde se organizan vistosos desfiles cívico-militares y emotivas recreaciones históricas. Paradójicamente, ha sido en los Estados Unidos donde la fecha ha evolucionado y mutado hasta convertirse en una celebración cultural masiva y comercial.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué asumen erróneamente millones de personas alrededor del mundo sobre esta fecha?",
+          "¿En qué fecha se proclamó la verdadera y auténtica independencia mexicana?",
+          "¿Qué evento bélico singular y heroico conmemora exclusivamente el Cinco de Mayo?",
+          "¿Cómo se describe al contingente militar mexicano que luchó en 1862?",
+          "¿Por qué el improbable triunfo se transformó en un símbolo de resistencia patriótica?",
+          "¿En qué estado mexicano transcurre la fecha con desfiles y recreaciones históricas?",
+          "¿En qué país ha evolucionado la fecha hasta convertirse en una celebración masiva y comercial?"
+        ],
+        "answerKey": [
+          "Asumen erróneamente que la celebración conmemora el Día de la Independencia de México.",
+          "El 16 de septiembre de 1810.",
+          "La gloriosa victoria militar sobre una potencia invasora extranjera (la Batalla de Puebla).",
+          "Como reducido, mal armado y compuesto en gran parte por valientes civiles indígenas.",
+          "Porque derrotaron al ejército francés, considerado la fuerza bélica más letal y poderosa del planeta.",
+          "En el estado de Puebla.",
+          "En los Estados Unidos."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "La Batalla de Puebla",
+    "imageFileName": "batalla_puebla.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The famous Batalla de Puebla (Battle of Puebla) is the deeply historical and heroic event that the Cinco de Mayo holiday proudly celebrates today. This massive, dramatic military conflict took place on the morning of May 5, 1862, near the beautiful, historic city of Puebla, Mexico. During this very dark and difficult time period, the young country of Mexico was being violently and aggressively invaded by a massive, highly trained foreign army sent entirely across the ocean from the wealthy country of France. The arrogant French soldiers planned to quickly march directly into the capital, Mexico City, to take total control of the entire nation.\n\nHowever, to successfully reach the distant capital, the French army absolutely had to march through the city of Puebla first. Waiting bravely for them there was a much smaller, poorly equipped Mexican army beautifully led by a highly intelligent, courageous, and young military leader named General Ignacio Zaragoza. The invading French army had over six thousand professional, heavily armed soldiers, while Zaragoza only had about four thousand brave men, many of whom were just poor, local farmers armed with simple farming tools, old machetes, and pure patriotic determination.\n\nAgainst all impossible odds, the brave Mexican soldiers miraculously won the massive, bloody battle! During the fierce, loud fighting, a heavy, sudden rainstorm quickly turned the battlefield into thick, slippery mud, which made it incredibly difficult for the heavy French cannons and horses to move. General Zaragoza cleverly used the rough, muddy terrain to completely stop the powerful French attacks. Although this surprising, incredible victory did not immediately win the entire war, it successfully provided a massive, deeply emotional boost of hope, joy, and powerful national pride for the struggling Mexican people.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What historical event does the Cinco de Mayo holiday proudly celebrate?",
+          "When and where did this massive military conflict take place?",
+          "What wealthy foreign country violently invaded Mexico?",
+          "Who was the highly intelligent and courageous Mexican military leader?",
+          "What kind of weapons did many of the brave Mexican farmers use?",
+          "What sudden weather event turned the battlefield into thick, slippery mud?",
+          "What did this surprising victory provide for the struggling Mexican people?"
+        ],
+        "answerKey": [
+          "The famous Batalla de Puebla (Battle of Puebla).",
+          "On May 5, 1862, near the city of Puebla, Mexico.",
+          "France.",
+          "General Ignacio Zaragoza.",
+          "Simple farming tools and old machetes.",
+          "A heavy, sudden rainstorm.",
+          "A massive, deeply emotional boost of hope, joy, and powerful national pride."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La famosa Batalla de Puebla es el evento profundamente histórico y heroico que el día festivo del Cinco de Mayo celebra con orgullo hoy en día. Este conflicto militar masivo y dramático ocurrió en la mañana del 5 de mayo de 1862, cerca de la hermosa e histórica ciudad de Puebla, México. Durante este tiempo muy oscuro y difícil, el joven país de México estaba siendo invadido violenta y agresivamente por un ejército extranjero masivo y muy entrenado enviado desde el rico país de Francia. Los arrogantes soldados franceses planearon marchar rápidamente directamente hacia la capital, la Ciudad de México, para tomar el control total de toda la nación.\n\nSin embargo, para llegar con éxito a la capital lejana, el ejército francés tenía absolutamente que marchar primero por la ciudad de Puebla. Esperando valientemente por ellos allí había un ejército mexicano mucho más pequeño y mal equipado liderado maravillosamente por un líder militar muy inteligente, joven y valiente llamado General Ignacio Zaragoza. El ejército invasor francés tenía más de seis mil soldados profesionales y fuertemente armados, mientras que Zaragoza solo tenía alrededor de cuatro mil hombres valientes. Muchos de ellos eran solo campesinos locales y pobres armados con herramientas simples de agricultura, machetes viejos y pura determinación patriótica.\n\n¡Contra todas las probabilidades imposibles, los valientes soldados mexicanos ganaron milagrosamente la batalla masiva y sangrienta! Durante la lucha feroz y ruidosa, una tormenta de lluvia pesada y repentina convirtió rápidamente el campo de batalla en lodo espeso y resbaladizo. Esto hizo que fuera increíblemente difícil para los pesados cañones y caballos franceses moverse. El General Zaragoza usó inteligentemente el terreno lodoso para detener completamente los poderosos ataques franceses. Esta victoria proporcionó un impulso masivo de esperanza y orgullo nacional.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué evento histórico y heroico celebra el día festivo del Cinco de Mayo?",
+          "¿Cuándo y dónde ocurrió este conflicto militar masivo y dramático?",
+          "¿Qué país rico y extranjero estaba invadiendo agresivamente a México?",
+          "¿Cómo se llamaba el líder militar mexicano muy inteligente y joven?",
+          "¿Qué tipo de armas tenían muchos de los campesinos locales valientes?",
+          "¿Qué evento del clima convirtió rápidamente el campo de batalla en lodo espeso?",
+          "¿Qué proporcionó esta victoria sorprendente para las personas mexicanas?"
+        ],
+        "answerKey": [
+          "La famosa Batalla de Puebla.",
+          "El 5 de mayo de 1862, cerca de la ciudad de Puebla.",
+          "Francia.",
+          "General Ignacio Zaragoza.",
+          "Herramientas simples de agricultura y machetes viejos.",
+          "Una tormenta de lluvia pesada y repentina.",
+          "Un impulso masivo de esperanza y orgullo nacional."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La gloriosa y célebre Batalla de Puebla constituye el épico, sangriento y profundamente heroico episodio histórico que da verdadero origen y profundo significado a la festividad del Cinco de Mayo. Este cruento y decisivo choque armado tuvo lugar la lluviosa mañana del 5 de mayo de 1862 en las estratégicas inmediaciones de la ciudad de Puebla. En aquella época sumamente turbulenta, la vulnerable y endeudada república mexicana sufría una agresiva e injustificada invasión militar perpetrada por el Segundo Imperio Francés. Las arrogantes y sumamente confiadas tropas invasoras europeas tenían el claro objetivo táctico de avanzar rápidamente hacia la Ciudad de México para derrocar al gobierno legítimo y establecer un dominio imperial absoluto sobre toda la nación americana.\n\nPara alcanzar exitosamente la anhelada capital, el ejército expedicionario francés, comandado por el altivo Conde de Lorencez, debía atravesar obligatoriamente la ciudad de Puebla. En los fuertes defensivos de Guadalupe y Loreto los aguardaba valientemente un contingente militar mexicano notablemente inferior en número y en precarias condiciones armamentísticas, liderado con brillantez táctica por el joven y audaz General Ignacio Zaragoza. Mientras los invasores ostentaban más de seis mil soldados de élite fuertemente equipados, Zaragoza comandaba a unos cuatro mil hombres, incluyendo un alto porcentaje de valerosos indígenas zacapoaxtlas armados rudimentariamente con machetes, hondas y herramientas agrícolas.\n\nDesafiando todo pronóstico lógico y militar, las fuerzas mexicanas se alzaron con una milagrosa y contundente victoria táctica. Durante el feroz y ensordecedor combate, una repentina y torrencial tormenta primaveral transformó drásticamente el escarpado terreno en un lodazal intransitable, inutilizando por completo la pesada artillería y la letal caballería francesa. Zaragoza aprovechó magistralmente esta ventaja geográfica para repeler y aplastar los embates enemigos. Aunque este triunfo monumental no puso fin definitivo a la guerra, inyectó una dosis invaluable de fervor patriótico.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué episodio heroico da verdadero origen a la festividad del Cinco de Mayo?",
+          "¿Qué imperio europeo perpetraba una agresiva invasión militar contra la república mexicana?",
+          "¿Cuál era el claro objetivo táctico de las tropas invasoras europeas al avanzar hacia la capital?",
+          "¿Quién lideró con brillantez táctica al contingente militar mexicano en los fuertes defensivos?",
+          "¿Qué tipo de armas rudimentarias portaban los valerosos indígenas zacapoaxtlas?",
+          "¿Qué fenómeno meteorológico transformó drásticamente el terreno durante el feroz combate?",
+          "¿Qué inyectó este triunfo monumental en la sociedad a pesar de no poner fin a la guerra?"
+        ],
+        "answerKey": [
+          "La gloriosa y célebre Batalla de Puebla.",
+          "El Segundo Imperio Francés.",
+          "Derrocar al gobierno legítimo y establecer un dominio imperial absoluto sobre la nación.",
+          "El audaz General Ignacio Zaragoza.",
+          "Machetes, hondas y herramientas agrícolas.",
+          "Una repentina y torrencial tormenta primaveral.",
+          "Inyectó una dosis invaluable de fervor patriótico."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Why Was France in Mexico?",
+    "imageFileName": "francia_en_mexico.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "To truly understand why the famous Battle of Puebla happened on Cinco de Mayo, it is incredibly important to learn exactly why the powerful French army was fighting in Mexico in the first place. In the difficult year of 1861, Mexico was suffering from a massive, terrible financial crisis. Because the struggling country had just fought a very long, highly destructive, and exhausting civil war, the national government was completely broke and had absolutely no 'dinero' (money) left in the bank. The brave Mexican President, Benito Juárez, made a very difficult, risky decision. He officially announced that Mexico was going to completely pause paying all of its heavy foreign debts to the wealthy countries of Europe for exactly two years.\n\nThis surprising, bold decision immediately angered three very powerful European countries: Spain, Great Britain, and France. To fiercely demand their missing money back, all three angry countries aggressively sent heavily armed, intimidating military ships across the ocean to the Mexican port city of Veracruz. President Juárez quickly sent smart diplomats to calmly negotiate with the angry European leaders. After talking peacefully, Spain and Great Britain cleverly agreed to a new, fair payment plan, proudly packed up their heavy military ships, and sailed back home. \n\nHowever, the ambitious, greedy ruler of France, Emperor Napoleon III, absolutely refused to leave Mexico. He actually had a massive, hidden, and highly secret goal. Napoleon III didn't just want his missing money back; he desperately wanted to conquer the weakened Latin American country to quickly build a powerful, massive new French empire directly in the Americas! He selfishly thought that invading Mexico would be incredibly fast and perfectly easy, but he greatly underestimated the intense, powerful bravery of the proud Mexican people.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What was Mexico suffering from in the difficult year of 1861?",
+          "Who was the brave Mexican President that made a risky decision?",
+          "What did the President announce regarding Mexico's heavy foreign debts?",
+          "Which three powerful European countries were angered by this decision?",
+          "Where did the three angry countries aggressively send their military ships?",
+          "Which two countries agreed to a new plan and sailed back home?",
+          "What was Emperor Napoleon III's massive, secret goal in Mexico?"
+        ],
+        "answerKey": [
+          "A massive, terrible financial crisis.",
+          "Benito Juárez.",
+          "That Mexico was going to completely pause paying its debts for exactly two years.",
+          "Spain, Great Britain, and France.",
+          "To the Mexican port city of Veracruz.",
+          "Spain and Great Britain.",
+          "To conquer the country and build a powerful, massive new French empire in the Americas."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Para entender realmente por qué ocurrió la famosa Batalla de Puebla el Cinco de Mayo, es increíblemente importante aprender exactamente por qué el poderoso ejército francés estaba luchando en México. En el difícil año de 1861, México sufría de una crisis financiera masiva y terrible. Porque el país había luchado en una guerra civil muy larga, destructiva y agotadora, el gobierno nacional estaba completamente en la ruina y no tenía absolutamente nada de dinero en el banco. El valiente presidente mexicano, Benito Juárez, tomó una decisión muy difícil y arriesgada. Él anunció oficialmente que México iba a pausar completamente el pago de todas sus pesadas deudas extranjeras a los países ricos de Europa por exactamente dos años.\n\nEsta decisión sorprendente y audaz enojó inmediatamente a tres países europeos muy poderosos: España, Gran Bretaña y Francia. Para exigir ferozmente su dinero, los tres países enojados enviaron agresivamente barcos militares fuertemente armados a la ciudad portuaria mexicana de Veracruz. El presidente Juárez envió rápidamente diplomáticos inteligentes para negociar tranquilamente con los líderes europeos enojados. Después de hablar pacíficamente, España y Gran Bretaña aceptaron un nuevo plan de pago justo, empacaron con orgullo sus pesados barcos militares y navegaron de regreso a casa.\n\nSin embargo, el gobernante ambicioso y codicioso de Francia, el emperador Napoleón III, se negó absolutamente a salir de México. Él en realidad tenía una meta masiva, oculta y muy secreta. Napoleón III no solo quería su dinero de vuelta; ¡él quería desesperadamente conquistar el país latinoamericano debilitado para construir rápidamente un nuevo imperio francés masivo y poderoso directamente en las Américas! Pensó egoístamente que invadir México sería increíblemente rápido y fácil, pero subestimó la valentía intensa de los orgullosos mexicanos.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué problema masivo y terrible sufría México en el año 1861?",
+          "¿Qué anuncio arriesgado hizo oficialmente el presidente Benito Juárez?",
+          "¿Qué tres países europeos poderosos se enojaron inmediatamente por la decisión?",
+          "¿A qué ciudad mexicana enviaron los países sus barcos militares fuertemente armados?",
+          "¿Qué dos países aceptaron un plan pacífico y navegaron de regreso a casa?",
+          "¿Qué emperador europeo ambicioso y codicioso se negó a salir de México?",
+          "¿Cuál era la meta oculta y secreta del líder francés en las Américas?"
+        ],
+        "answerKey": [
+          "De una crisis financiera masiva y terrible.",
+          "Anunció que México iba a pausar el pago de sus deudas extranjeras por dos años.",
+          "España, Gran Bretaña y Francia.",
+          "A la ciudad portuaria de Veracruz.",
+          "España y Gran Bretaña.",
+          "El emperador Napoleón III.",
+          "Conquistar el país para construir un nuevo imperio francés masivo y poderoso."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Para comprender a cabalidad el profundo significado histórico de la Batalla de Puebla del Cinco de Mayo, resulta absolutamente imperativo analizar el complejo y turbulento contexto geopolítico que propició la injustificada invasión armada de Francia sobre el territorio mexicano. En el crítico año de 1861, la frágil república mexicana se encontraba sumida en una devastadora e insostenible crisis económica estructural, habiendo emergido recientemente de la Guerra de Reforma, un cruento y exhaustivo conflicto civil interno que dejó las arcas nacionales en la más absoluta y total bancarrota. Ante la total carencia de recursos financieros, el valiente y pragmático presidente Benito Juárez promulgó un audaz decreto que suspendía temporalmente, por un periodo estricto de dos años, el oneroso pago de la aplastante deuda externa contraída con las ricas potencias europeas.\n\nEsta drástica y unilateral resolución diplomática enfureció de manera inmediata a los principales y poderosos acreedores internacionales de México: España, el Reino Unido y el Segundo Imperio Francés. Como contundente medida de extrema presión militar y coerción política, las tres naciones enviaron intimidantes flotas armadas que fondearon agresivamente frente al estratégico puerto de Veracruz. Afortunadamente, gracias a la hábil, persuasiva e inteligente diplomacia del gobierno juarista, los representantes de España y el Reino Unido aceptaron firmar los Tratados de La Soledad, mediante los cuales negociaron amistosamente la futura reanudación de los pagos y, honrando su palabra, retiraron sus inmensos contingentes bélicos del territorio nacional.\n\nSin embargo, el expansionista, megalómano y codicioso emperador francés Napoleón III se rehusó tajantemente a retirar sus tropas expedicionarias. Su exigencia económica era, en realidad, un burdo y falso pretexto para encubrir sus verdaderas y oscuras ambiciones imperialistas. Napoleón III anhelaba fervientemente aprovechar la debilidad política de la región y la distracción bélica de los Estados Unidos (sumidos en su propia Guerra Civil) para instaurar a la fuerza una poderosa monarquía títere en México, creando así un vasto y lucrativo imperio francófono en el corazón de las Américas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué crisis estructural se encontraba sumida la frágil república mexicana en 1861?",
+          "¿Qué audaz decreto promulgó el presidente Benito Juárez por un periodo de dos años?",
+          "¿Qué tres naciones extranjeras se enfurecieron por esta drástica resolución diplomática?",
+          "¿A qué puerto estratégico enviaron las potencias europeas sus intimidantes flotas armadas?",
+          "¿Qué dos naciones firmaron los Tratados de La Soledad y retiraron sus tropas?",
+          "¿Por qué la exigencia económica del emperador francés Napoleón III era un burdo pretexto?",
+          "¿Qué anhelaba instaurar a la fuerza Napoleón III en el corazón de las Américas?"
+        ],
+        "answerKey": [
+          "En una devastadora e insostenible crisis económica estructural (y total bancarrota).",
+          "Suspendía temporalmente el oneroso pago de la aplastante deuda externa.",
+          "España, el Reino Unido y el Segundo Imperio Francés.",
+          "Frente al estratégico puerto de Veracruz.",
+          "España y el Reino Unido.",
+          "Para encubrir sus verdaderas y oscuras ambiciones imperialistas.",
+          "Una poderosa monarquía títere (un vasto y lucrativo imperio francófono)."
+        ]
+      }
+    }
+  },
+{
+    "topicName": "Cinco de Mayo vs. Mexican Independence Day",
+    "imageFileName": "independence_confusion.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "One of the biggest cultural misunderstandings in the entire world is the frequent confusion between Cinco de Mayo and Mexican Independence Day. Millions of people, especially in the United States, mistakenly believe that the fifth of May is the official day Mexico celebrates its ultimate freedom from the powerful country of Spain. However, this is completely false! Mexico actually proudly celebrates its official \"Día de la Independencia\" on September 16th. This highly important national holiday remembers the famous \"Grito de Dolores\" in 1810, when a brave Catholic priest named Miguel Hidalgo boldly called the Mexican people to fight against the Spanish empire for their freedom.\n\nOn the other hand, Cinco de Mayo remembers a completely different historical military event that happened more than fifty years later! It specifically honors the famous Batalla de Puebla (Battle of Puebla) in 1862, when a small, very brave Mexican army miraculously defeated the invading French military. While the shocking victory over France was incredibly inspiring and provided a massive boost of national pride, it did not actually create the independent nation of Mexico. The country had already been completely independent from Spain for many decades before the arrogant French soldiers ever arrived.\n\nSo, why do so many people constantly confuse these two completely different holidays? The confusion mostly happens because Cinco de Mayo has quickly become such a massive, highly popular celebration of Mexican culture outside of Mexico. Because people see the bright green, white, and red flags, eat delicious traditional food, and hear loud mariachi music on May 5th, they naturally assume it must be the biggest national holiday. Understanding the true difference between September 16th and May 5th is incredibly important for deeply respecting authentic Mexican history.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What do millions of people mistakenly believe Cinco de Mayo is?",
+          "When does Mexico actually celebrate its official Independence Day?",
+          "What famous event in 1810 does Mexican Independence Day remember?",
+          "What completely different event does Cinco de Mayo specifically honor?",
+          "Did the victory over France actually create the independent nation of Mexico?",
+          "Why do so many people constantly confuse these two holidays?",
+          "What colors of flags do people usually see during these celebrations?"
+        ],
+        "answerKey": [
+          "They mistakenly believe it is the day Mexico celebrates its freedom from Spain (Independence Day).",
+          "On September 16th.",
+          "The famous \"Grito de Dolores\" led by the priest Miguel Hidalgo.",
+          "The Batalla de Puebla (Battle of Puebla) in 1862.",
+          "No, the country had already been completely independent from Spain for many decades.",
+          "Because Cinco de Mayo has become a massive, highly popular celebration of Mexican culture outside of Mexico.",
+          "Bright green, white, and red flags."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Uno de los mayores malentendidos culturales en todo el mundo es la confusión frecuente entre el Cinco de Mayo y el Día de la Independencia de México. Millones de personas, especialmente en los Estados Unidos, creen por error que el cinco de mayo es el día oficial en que México celebra su libertad del poderoso país de España. Sin embargo, ¡esto es completamente falso! En realidad, México celebra con orgullo su \"Día de la Independencia\" oficial el 16 de septiembre. Este día festivo nacional muy importante recuerda el famoso \"Grito de Dolores\" en 1810, cuando un cura católico valiente llamado Miguel Hidalgo llamó audazmente al pueblo mexicano a luchar contra el imperio español por su libertad.\n\nPor otro lado, ¡el Cinco de Mayo recuerda un evento militar histórico completamente diferente que ocurrió más de cincuenta años después! Honra específicamente la famosa Batalla de Puebla en 1862, cuando un ejército mexicano pequeño y muy valiente derrotó milagrosamente al ejército francés invasor. Aunque la victoria sorprendente sobre Francia fue increíblemente inspiradora y dio un impulso masivo de orgullo nacional, en realidad no creó la nación independiente de México. El país ya había sido completamente independiente de España durante muchas décadas antes de que los arrogantes soldados franceses llegaran.\n\nEntonces, ¿por qué tantas personas confunden constantemente estos dos días festivos completamente diferentes? La confusión ocurre principalmente porque el Cinco de Mayo se ha convertido rápidamente en una celebración masiva y muy popular de la cultura mexicana fuera de México. Porque las personas ven las banderas verdes, blancas y rojas brillantes, comen comida tradicional deliciosa y escuchan música de mariachi fuerte el 5 de mayo, asumen naturalmente que debe ser el día festivo nacional más grande. Entender la verdadera diferencia es increíblemente importante para respetar profundamente la auténtica historia mexicana.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué creen muchas personas por error que es el Cinco de Mayo?",
+          "¿En qué fecha celebra realmente México su Día de la Independencia oficial?",
+          "¿Qué evento famoso de 1810 recuerda el Día de la Independencia?",
+          "¿Qué evento histórico completamente diferente honra el Cinco de Mayo?",
+          "¿Creó la victoria sobre Francia la nación independiente de México?",
+          "¿Por qué tantas personas confunden estos dos días festivos diferentes?",
+          "¿Qué tres colores tienen las banderas que las personas ven durante estas celebraciones?"
+        ],
+        "answerKey": [
+          "Creen por error que es el día en que México celebra su libertad de España (Día de la Independencia).",
+          "El 16 de septiembre.",
+          "El famoso \"Grito de Dolores\" liderado por el cura Miguel Hidalgo.",
+          "La Batalla de Puebla en 1862.",
+          "No, el país ya había sido completamente independiente de España por muchas décadas.",
+          "Porque el Cinco de Mayo se ha convertido en una celebración masiva y muy popular de la cultura mexicana fuera de México.",
+          "Verde, blanco y rojo."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Uno de los malentendidos culturales más generalizados y persistentes a nivel global es la constante confusión entre la festividad del Cinco de Mayo y el verdadero Día de la Independencia de México. Millones de personas, particularmente en los Estados Unidos, asumen erróneamente que el cinco de mayo marca el glorioso aniversario oficial en el que la nación mexicana se emancipó definitivamente del poderoso dominio colonial del Imperio Español. ¡Esta suposición es categóricamente falsa! La república mexicana celebra con inmenso orgullo su auténtico Día de la Independencia el 16 de septiembre. Esta efeméride de suprema importancia nacional conmemora el histórico \"Grito de Dolores\" de 1810, momento crucial en el que el valeroso cura Miguel Hidalgo y Costilla incitó audazmente al pueblo a levantarse en armas para conquistar su libertad absoluta.\n\nPor el contrario, el Cinco de Mayo rememora un episodio militar sumamente específico que tuvo lugar más de medio siglo después de iniciada la guerra de independencia. Esta fecha rinde honores exclusivamente a la célebre Batalla de Puebla de 1862, cuando las tropas mexicanas, en notable inferioridad numérica, lograron repeler milagrosamente la agresiva invasión del experimentado ejército francés. Si bien este sorpresivo triunfo táctico sobre las fuerzas europeas inyectó una dosis invaluable de fervor patriótico y esperanza en la sociedad mexicana, de ninguna manera forjó la independencia del país, la cual ya era una realidad soberana e indiscutible desde hacía varias décadas antes de la llegada francesa.\n\nEntonces, ¿a qué se debe esta profunda e incesante confusión internacional? Este fenómeno sociológico ocurre principalmente porque el Cinco de Mayo ha mutado rápidamente hasta convertirse en la celebración más visible, masiva y popular de la herencia mexicana en el extranjero. Al observar el despliegue de relucientes símbolos patrios tricolores, degustar la rica gastronomía típica y escuchar el estruendo festivo del mariachi, los extranjeros deducen lógicamente que presencian la máxima festividad cívica del país. Comprender verdaderamente esta distinción cronológica es absolutamente fundamental para valorar con genuino respeto la compleja trayectoria de la nación mexicana.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué asumen erróneamente millones de personas, particularmente en los Estados Unidos?",
+          "¿En qué fecha se celebra el auténtico y oficial Día de la Independencia de México?",
+          "¿Qué momento crucial y heroico de 1810 conmemora el 16 de septiembre?",
+          "¿A qué célebre episodio militar rinde honores exclusivamente el Cinco de Mayo?",
+          "¿Forjó este sorpresivo triunfo táctico la independencia soberana de México?",
+          "¿Por qué ocurre principalmente este fenómeno sociológico de confusión internacional?",
+          "¿Qué elementos festivos hacen que los extranjeros deduzcan lógicamente que es la máxima festividad cívica?"
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "How Cinco de Mayo Is Celebrated in Mexico",
+    "imageFileName": "cinco_de_mayo_mexico.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "When you travel across the beautiful, diverse country of Mexico on the fifth of May, you might be incredibly surprised by what you actually see. Unlike the massive, loud, and brightly colored parties thrown all across the United States, Cinco de Mayo is definitely not a major national holiday in Mexico. In most large, busy cities and quiet, small towns, local banks remain completely open, schools hold their regular daily classes, and people simply go to work exactly like any other normal day of the week. For the vast majority of the Mexican population, it is just a regular, quiet day on the calendar without any massive celebrations.\n\nHowever, there is one very special, incredibly proud place in Mexico where Cinco de Mayo is celebrated with intense passion and incredible energy: the historic state of Puebla! Because this is the exact location where the famous, bloody battle actually happened in 1862, the proud local citizens deeply honor the historic military victory every single year. The beautiful capital city of Puebla hosts massive, spectacular military parades, colorful traditional dances, and loud marching bands that completely fill the historic stone streets with deep joy and powerful national pride.\n\nThe absolute most exciting and dramatic part of the annual celebration in Puebla is the incredible, highly detailed historical reenactment of the battle. Hundreds of proud, enthusiastic locals dress up in authentic, 19th-century military uniforms to safely act out the intense fight between the brave Mexican soldiers and the invading French army. They carefully use loud, fake cannons, shiny swords, and ride fast horses to show the crowds exactly how General Zaragoza cleverly defeated the European invaders. So, while the entire country does not throw a massive party, the brave, heroic spirit of Cinco de Mayo is still beautifully and powerfully kept alive in the heart of Puebla.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Is Cinco de Mayo a major national holiday everywhere in Mexico?",
+          "What do most people in Mexico do on the fifth of May?",
+          "In what specific, historic state is the holiday celebrated with intense passion?",
+          "What kind of events fill the historic streets of Puebla during the celebration?",
+          "What is the absolute most exciting and dramatic part of the annual celebration in Puebla?",
+          "What do the enthusiastic locals dress up in for the historical reenactment?",
+          "Who cleverly defeated the European invaders during the original battle?"
+        ],
+        "answerKey": [
+          "No, it is definitely not a major national holiday in Mexico.",
+          "They simply go to work and school exactly like any other normal day.",
+          "In the historic state of Puebla.",
+          "Massive military parades, colorful traditional dances, and loud marching bands.",
+          "The incredible, highly detailed historical reenactment of the battle.",
+          "Authentic, 19th-century military uniforms.",
+          "General Zaragoza."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Cuando viajas por el hermoso y diverso país de México el cinco de mayo, podrías sorprenderte increíblemente por lo que realmente ves. A diferencia de las fiestas masivas, ruidosas y de colores brillantes que se hacen en todos los Estados Unidos, el Cinco de Mayo definitivamente no es un día festivo nacional importante en México. En la mayoría de las ciudades grandes y ocupadas, y en los pueblos tranquilos, los bancos permanecen completamente abiertos, las escuelas tienen sus clases regulares y las personas simplemente van a trabajar exactamente como cualquier otro día normal de la semana. Para la gran mayoría de la población mexicana, es solo un día regular y tranquilo en el calendario sin celebraciones masivas.\n\nSin embargo, hay un lugar muy especial y orgulloso en México donde el Cinco de Mayo se celebra con pasión intensa y energía increíble: ¡el estado histórico de Puebla! Como esta es la ubicación exacta donde ocurrió realmente la famosa y sangrienta batalla en 1862, los ciudadanos locales orgullosos honran profundamente la victoria militar histórica todos los años. La hermosa ciudad capital de Puebla organiza desfiles militares masivos y espectaculares, bailes tradicionales coloridos y bandas de música ruidosas que llenan completamente las calles históricas de piedra con alegría y un poderoso orgullo nacional.\n\nLa parte absolutamente más emocionante y dramática de la celebración anual en Puebla es la recreación histórica increíble y muy detallada de la batalla. Cientos de personas locales orgullosas y entusiastas se visten con uniformes militares auténticos del siglo diecinueve para actuar de forma segura la intensa lucha entre los valientes soldados mexicanos y el ejército francés invasor. Ellos usan cuidadosamente cañones falsos y ruidosos, espadas brillantes, y montan caballos rápidos para mostrar a la multitud exactamente cómo el General Zaragoza derrotó inteligentemente a los invasores europeos. Entonces, aunque todo el país no hace una fiesta masiva, el espíritu heroico del Cinco de Mayo se mantiene vivo en Puebla.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Es el Cinco de Mayo un día festivo nacional importante en todo México?",
+          "¿Qué hace la mayoría de las personas en México el cinco de mayo?",
+          "¿En qué estado específico e histórico se celebra la fecha con pasión intensa?",
+          "¿Qué tipo de eventos llenan las calles históricas de Puebla durante la celebración?",
+          "¿Cuál es la parte absolutamente más emocionante y dramática de la celebración anual en Puebla?",
+          "¿Qué ropa usan las personas locales entusiastas para la recreación histórica?",
+          "¿Quién derrotó inteligentemente a los invasores europeos durante la batalla original?"
+        ],
+        "answerKey": [
+          "No, definitivamente no es un día festivo nacional importante en México.",
+          "Simplemente van a trabajar y a la escuela exactamente como cualquier otro día normal.",
+          "En el estado histórico de Puebla.",
+          "Desfiles militares masivos, bailes tradicionales coloridos y bandas de música ruidosas.",
+          "La recreación histórica increíble y muy detallada de la batalla.",
+          "Uniformes militares auténticos del siglo diecinueve.",
+          "El General Zaragoza."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Si decides recorrer el vasto, diverso y culturalmente rico territorio de México durante el cinco de mayo, es muy probable que te lleves una sorpresa verdaderamente mayúscula. En marcado y absoluto contraste con las fiestas masivas, bulliciosas y de colores deslumbrantes que inundan los Estados Unidos, el Cinco de Mayo definitivamente no está catalogado como un día feriado nacional de observancia obligatoria en la república mexicana. En la inmensa mayoría de las grandes metrópolis y los tranquilos municipios del país, las instituciones financieras operan con total normalidad, los centros educativos imparten sus clases habituales y los ciudadanos acuden a sus puestos de trabajo rutinarios como en cualquier otra jornada laboral. Para el grueso de la población mexicana, esta fecha transcurre sin mayores alteraciones cívicas ni festejos generalizados.\n\nNo obstante, existe un rincón geográfico profundamente histórico y orgulloso donde el Cinco de Mayo se conmemora con un fervor patriótico inigualable y una energía desbordante: ¡el soberano estado de Puebla! Dado que este fue el epicentro geográfico exacto donde se libró el cruento y decisivo choque militar en 1862, la población local rinde un sentido, profundo y espectacular homenaje anual a sus héroes caídos. La majestuosa ciudad capital se engalana para acoger masivos desfiles cívico-militares, vibrantes exhibiciones de danzas folclóricas y bandas de música que recorren las empedradas calles coloniales desbordando un poderoso sentimiento de identidad y orgullo nacional.\n\nEl pináculo absoluto, más dramático y esperado de estas festividades poblanas es, sin lugar a duda, la meticulosa e impresionante recreación histórica escénica de la batalla. Cientos de entusiastas ciudadanos locales, ataviados rigurosamente con réplicas exactas de los uniformes militares decimonónicos, escenifican con gran realismo, cuidado y pirotecnia el encarnizado combate entre las valerosas defensas mexicanas y el regimiento invasor francés. Utilizan cañones de salva ensordecedores y veloces corceles para revivir magistralmente ante la multitud la audaz estrategia táctica del legendario General Ignacio Zaragoza. De este modo, aunque el país entero no paralice sus actividades, el heroico legado del Cinco de Mayo perdura inquebrantable en el corazón de Puebla.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Está catalogado el Cinco de Mayo como un día feriado nacional de observancia obligatoria en México?",
+          "¿Cómo transcurre esta fecha para la inmensa mayoría de la población en las metrópolis mexicanas?",
+          "¿En qué epicentro geográfico exacto se conmemora la fecha con un fervor patriótico inigualable?",
+          "¿Qué tipo de eventos majestuosos y vibrantes acoge la ciudad capital para homenajear a sus héroes?",
+          "¿Cuál es el pináculo absoluto, más dramático y esperado de las festividades poblanas?",
+          "¿Con qué prendas están rigurosamente ataviados los entusiastas ciudadanos durante la escenificación?",
+          "¿La audaz estrategia táctica de qué legendario general se revive magistralmente ante la multitud?"
+        ],
+        "answerKey": [
+          "No, definitivamente no está catalogado como un día feriado nacional de observancia obligatoria.",
+          "Transcurre sin mayores alteraciones cívicas; operan con normalidad, imparten clases y acuden al trabajo.",
+          "En el soberano e histórico estado de Puebla.",
+          "Masivos desfiles cívico-militares, vibrantes exhibiciones de danzas folclóricas y bandas de música.",
+          "La meticulosa e impresionante recreación histórica escénica de la batalla.",
+          "Con réplicas exactas de los uniformes militares decimonónicos (del siglo XIX).",
+          "La estrategia del legendario General Ignacio Zaragoza."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Cinco de Mayo in the United States",
+    "imageFileName": "cinco_de_mayo_usa.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "While Cinco de Mayo is mostly a quiet, regional holiday inside of Mexico, it has completely transformed into a massive, incredibly popular, and nationwide cultural celebration across the United States! The festive holiday first began to grow significantly in popularity in America during the 1960s, thanks entirely to the passionate Chicano Civil Rights Movement. During this deeply important historical time, proud Mexican-American activists actively used the dramatic story of the brave Battle of Puebla as a powerful, inspiring symbol of cultural resistance, deep ethnic pride, and fighting for basic civil rights against impossible odds in their new, developing communities.\n\nToday, the fifth of May is widely and enthusiastically celebrated in almost every single major city across the United States, from Los Angeles, California to New York City. However, the modern holiday has also unfortunately become highly commercialized by large businesses. For many excited Americans, the true, deeply historical meaning of the brave battle has sadly been forgotten over the years. Instead, the spring day is mostly used as a fun, loud excuse to host massive parties, wear brightly colored sombreros, and enthusiastically consume massive amounts of traditional Mexican food and drinks, like hard-shell tacos, spicy green guacamole, and cold, salty margaritas.\n\nDespite the heavy, obvious commercialization and the frequent historical confusion, Cinco de Mayo still remains a deeply important day for beautifully celebrating the rich, vibrant Mexican-American identity in the United States. It successfully provides a wonderful, happy opportunity for people of all different backgrounds to successfully come together, listen to loud, joyful mariachi music, and proudly appreciate the massive cultural contributions that Hispanic immigrants have continually made to American society. Ultimately, it is a loud, beautiful fiesta that proudly honors the strong, lasting cultural connection between two neighboring countries.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "How has Cinco de Mayo completely transformed in the United States?",
+          "What passionate movement helped the holiday grow in popularity during the 1960s?",
+          "What did proud Mexican-American activists use the story of the battle as a symbol for?",
+          "How has the modern holiday unfortunately changed because of large businesses?",
+          "What do many excited Americans use the spring day as a fun excuse to do?",
+          "What vibrant, rich identity is Cinco de Mayo a deeply important day for celebrating?",
+          "What kind of loud, joyful music do people listen to during the beautiful fiesta?"
+        ],
+        "answerKey": [
+          "It has completely transformed into a massive, incredibly popular, nationwide cultural celebration.",
+          "The Chicano Civil Rights Movement.",
+          "As a powerful, inspiring symbol of cultural resistance and deep ethnic pride.",
+          "It has become highly commercialized, and the true historical meaning has sadly been forgotten.",
+          "To host massive parties and consume massive amounts of traditional Mexican food and drinks.",
+          "The vibrant Mexican-American identity in the United States.",
+          "Loud, joyful mariachi music."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Aunque el Cinco de Mayo es principalmente un día festivo regional y tranquilo dentro de México, ¡se ha transformado completamente en una celebración cultural masiva, increíblemente popular y nacional en los Estados Unidos! El día festivo comenzó a crecer significativamente en popularidad en Estados Unidos durante la década de 1960, gracias totalmente al apasionado Movimiento por los Derechos Civiles Chicano. Durante este tiempo histórico muy importante, los activistas mexicano-estadounidenses orgullosos usaron activamente la historia dramática de la valiente Batalla de Puebla como un símbolo poderoso e inspirador de resistencia cultural, orgullo étnico profundo y lucha por los derechos civiles básicos contra probabilidades imposibles en sus nuevas comunidades.\n\nHoy en día, el cinco de mayo se celebra amplia y entusiastamente en casi todas las ciudades importantes de los Estados Unidos, desde Los Ángeles, California hasta la ciudad de Nueva York. Sin embargo, el día festivo moderno lamentablemente también se ha comercializado mucho por las grandes empresas. Para muchos estadounidenses emocionados, el significado histórico verdadero y profundo de la valiente batalla tristemente se ha olvidado a lo largo de los años. En cambio, el día de primavera se usa principalmente como una excusa divertida y ruidosa para organizar fiestas masivas, usar sombreros de colores brillantes y consumir con entusiasmo cantidades masivas de comida y bebidas tradicionales mexicanas, como tacos de concha dura, guacamole verde picante y margaritas frías y saladas.\n\nA pesar de la fuerte y evidente comercialización y la frecuente confusión histórica, el Cinco de Mayo sigue siendo un día profundamente importante para celebrar maravillosamente la rica y vibrante identidad mexicano-estadounidense en los Estados Unidos. Proporciona una oportunidad maravillosa y feliz para que personas de todos los orígenes diferentes se reúnan con éxito, escuchen música de mariachi fuerte y alegre, y aprecien con orgullo las contribuciones culturales masivas que los inmigrantes hispanos han hecho continuamente a la sociedad estadounidense. Al final, es una fiesta hermosa y ruidosa que honra con orgullo la fuerte conexión cultural entre dos países vecinos.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué se ha transformado completamente el Cinco de Mayo en los Estados Unidos?",
+          "¿Qué movimiento apasionado ayudó al día festivo a crecer en popularidad en la década de 1960?",
+          "¿Como qué símbolo usaron los activistas la historia de la valiente Batalla de Puebla?",
+          "¿Cómo ha cambiado lamentablemente el día festivo moderno debido a las grandes empresas?",
+          "¿Para qué usan el día de primavera muchos estadounidenses emocionados como una excusa divertida?",
+          "¿Qué identidad rica y vibrante es profundamente importante celebrar en este día?",
+          "¿Qué tipo de música fuerte y alegre escuchan las personas durante la hermosa fiesta?"
+        ],
+        "answerKey": [
+          "Se ha transformado completamente en una celebración cultural masiva, increíblemente popular y nacional.",
+          "El Movimiento por los Derechos Civiles Chicano.",
+          "Como un símbolo poderoso e inspirador de resistencia cultural y orgullo étnico profundo.",
+          "Se ha comercializado mucho y el verdadero significado histórico se ha olvidado.",
+          "Para organizar fiestas masivas y consumir comida y bebidas tradicionales mexicanas.",
+          "La identidad mexicano-estadounidense en los Estados Unidos.",
+          "Música de mariachi fuerte y alegre."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Mientras que en el interior de la república mexicana el Cinco de Mayo se mantiene esencialmente como una conmemoración cívica de carácter eminentemente regional y tranquilo, en los Estados Unidos ha experimentado una metamorfosis asombrosa, transformándose por completo en una colosal, mediática y ubicua celebración cultural a nivel nacional. La popularidad festiva de esta fecha en territorio estadounidense comenzó a gestarse y expandirse significativamente durante la turbulenta década de 1960, impulsada vigorosamente en su totalidad por el emergente y apasionado Movimiento por los Derechos Civiles Chicano. En aquel contexto histórico profundamente crucial, los activistas de la comunidad mexicano-estadounidense adoptaron la narrativa épica de la Batalla de Puebla como un poderoso e inspirador estandarte de resistencia anticolonial, reivindicación identitaria y lucha incesante por la igualdad de derechos frente a la marginación sistémica en sus comunidades en desarrollo.\n\nEn la actualidad contemporánea, la efervescencia del cinco de mayo inunda de manera entusiasta prácticamente todas las grandes metrópolis de los Estados Unidos, desde Los Ángeles hasta Nueva York. Sin embargo, resulta innegable y lamentable que la festividad moderna ha sufrido un agudo y evidente proceso de hipercomercialización impulsado por las grandes corporaciones. Para una vasta mayoría de la población estadounidense, el auténtico y profundo trasfondo histórico de la heroica gesta poblana ha quedado tristemente relegado al olvido. En su lugar, la jornada primaveral ha sido capitalizada como un pretexto lúdico y ruidoso para abarrotar bares, usar sombreros estridentes y fomentar el consumo masivo de productos gastronómicos vagamente asociados a México, como tacos rígidos, guacamole picante y margaritas heladas.\n\nNo obstante, a pesar de esta innegable tergiversación comercial y la persistente amnesia histórica, el Cinco de Mayo conserva un profundo, genuino y hermoso valor sociológico como vehículo fundamental para celebrar la inmensa riqueza de la identidad mexicano-estadounidense. Esta colorida festividad brinda una invaluable y alegre plataforma intercultural donde personas de muy diversos orígenes convergen pacíficamente para disfrutar de la vibrante música de mariachi y reconocer con orgullo las incalculables contribuciones que la diáspora hispana ha inyectado ininterrumpidamente en el tejido social estadounidense. En última instancia, es una deslumbrante fiesta que honra la fuerte conexión entre dos naciones vecinas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué se ha transformado asombrosamente el Cinco de Mayo en los Estados Unidos?",
+          "¿Qué movimiento apasionado impulsó vigorosamente la popularidad de esta fecha en la década de 1960?",
+          "¿Como qué poderoso estandarte adoptaron los activistas la narrativa épica de la Batalla de Puebla?",
+          "¿Qué proceso innegable y lamentable ha sufrido la festividad moderna impulsado por corporaciones?",
+          "¿Para qué ha sido capitalizada comercialmente la jornada primaveral por una vasta mayoría?",
+          "¿A pesar de la tergiversación, para celebrar qué identidad conserva la fecha un genuino valor sociológico?",
+          "¿De qué tipo de música vibrante disfrutan las personas que convergen pacíficamente en la festividad?"
+        ],
+        "answerKey": [
+          "En una colosal, mediática y ubicua celebración cultural a nivel nacional.",
+          "El emergente y apasionado Movimiento por los Derechos Civiles Chicano.",
+          "Como un estandarte de resistencia anticolonial, reivindicación identitaria y lucha por la igualdad de derechos.",
+          "Un agudo y evidente proceso de hipercomercialización.",
+          "Como un pretexto lúdico y ruidoso para abarrotar bares y fomentar el consumo masivo gastronómico.",
+          "La inmensa riqueza de la identidad mexicano-estadounidense.",
+          "La vibrante música de mariachi."
+        ]
+      }
+    }
   }
 
 
