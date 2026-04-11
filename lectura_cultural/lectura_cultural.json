@@ -7348,6 +7348,681 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "Celia Cruz",
+    "imageFileName": "celia_cruz.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Celia Cruz was a truly legendary, incredibly talented Cuban singer who is universally known and deeply respected all over the world as the undisputed \"Queen of Salsa.\" Born in the vibrant, colorful neighborhood of Santos Suárez in Havana, Cuba, she quickly discovered her incredible passion and natural talent for singing at a very young age. She began her long, amazing career by singing on popular local radio stations and eventually became the famous lead singer for the highly successful Cuban band, La Sonora Matancera. Her incredibly powerful, unique voice and her joyful, highly energetic stage presence quickly made her a massive, beloved star across all of Latin America during the golden age of Cuban music.\n\nHowever, after the historic Cuban Revolution, Celia was sadly forced to permanently leave her beloved homeland and live her life in exile in the United States. Although she was deeply heartbroken that she could absolutely never return to her beautiful country of Cuba, she bravely used her passionate music to celebrate her vibrant Afro-Cuban roots and proudly share her rich culture with the entire world. She was globally famous and widely loved for wearing incredibly bright, colorful dresses, gigantic, sparkling wigs, and towering high heels during her spectacular, high-energy live concerts.\n\nHer absolute most famous signature catchphrase was the incredibly loud, positive, and joyful shout: \"¡Azúcar!\" (Sugar!). She excitedly yelled this famous word to bring intense energy, sweetness, and pure happiness to her loyal audience. Throughout her incredibly long, successful career, she recorded dozens of hit albums, proudly won multiple prestigious Grammy Awards, and happily collaborated with the biggest names in Latin music. Celia Cruz sadly passed away in 2003, but her joyful spirit and unforgettable salsa music will definitely live on forever.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "What is Celia Cruz universally known as?",
+          "Where was she born?",
+          "What famous Cuban band was she the lead singer for?",
+          "Why did she leave Cuba and live in the United States?",
+          "What did she wear during her spectacular concerts?",
+          "What was her signature catchphrase?",
+          "Why did she yell her signature catchphrase?"
+        ],
+        "answerKey": [
+          "The \"Queen of Salsa\".",
+          "Havana, Cuba.",
+          "La Sonora Matancera.",
+          "Because of the Cuban Revolution.",
+          "Bright dresses, gigantic wigs, and towering high heels.",
+          "¡Azúcar!",
+          "To bring energy, sweetness, and happiness to her audience."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Celia Cruz fue una cantante cubana verdaderamente legendaria e increíblemente talentosa que es universalmente conocida y muy respetada en todo el mundo como la indiscutible \"Reina de la Salsa\". Nacida en el barrio vibrante y colorido de Santos Suárez en La Habana, Cuba, ella descubrió rápidamente su increíble pasión y talento natural por cantar cuando era muy joven. Comenzó su larga y asombrosa carrera cantando en estaciones de radio locales populares y finalmente fue la famosa cantante principal de la banda cubana muy exitosa, La Sonora Matancera. Su voz increíblemente poderosa y única, y su energía alegre la hicieron muy famosa rápidamente en toda América Latina durante la época dorada de la música cubana.\n\nSin embargo, después de la histórica Revolución Cubana, Celia tristemente tuvo que salir de su amado país permanentemente y vivir su vida en el exilio en los Estados Unidos. Aunque estaba muy triste y con el corazón roto porque absolutamente nunca pudo regresar a su hermoso país de Cuba, ella usó valientemente su música apasionada para celebrar sus vibrantes raíces afrocubanas y compartir su rica cultura con todo el mundo. Ella era famosa globalmente por usar vestidos increíblemente brillantes y coloridos, pelucas gigantes y brillantes, y zapatos de tacón muy altos durante sus conciertos espectaculares y llenos de energía en vivo.\n\nSu frase más famosa y personal era el grito increíblemente fuerte, positivo y alegre: \"¡Azúcar!\". Ella gritaba emocionada esta famosa palabra para traer energía intensa, dulzura y mucha felicidad pura a su audiencia leal. Durante su carrera increíblemente larga y exitosa, grabó docenas de álbumes populares, ganó con orgullo múltiples premios Grammy prestigiosos y trabajó felizmente con los músicos latinos más importantes. Celia Cruz falleció tristemente en el año 2003, pero su espíritu alegre y su música de salsa inolvidable definitivamente vivirán para siempre.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cómo es conocida universalmente Celia Cruz?",
+          "¿De qué ciudad y país era ella?",
+          "¿De qué banda famosa fue la cantante principal?",
+          "¿Por qué tuvo que salir de su amado país?",
+          "¿Qué cosas famosas usaba durante sus conciertos?",
+          "¿Cuál era su grito alegre y famoso?",
+          "¿Qué quería traer a su audiencia con este grito?"
+        ],
+        "answerKey": [
+          "Como la \"Reina de la Salsa\".",
+          "De La Habana, Cuba.",
+          "La Sonora Matancera.",
+          "Por la Revolución Cubana.",
+          "Vestidos brillantes, pelucas gigantes y zapatos altos.",
+          "¡Azúcar!",
+          "Energía, dulzura y mucha felicidad."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Celia Cruz fue una legendaria, carismática e inigualable cantante cubana, aclamada universal y unánimemente por la crítica y el público como la indiscutible \"Reina de la Salsa\". Nacida en el vibrante, humilde y musical barrio de Santos Suárez en La Habana, descubrió su prodigioso e innegable talento vocal desde su más temprana juventud. Alcanzó la notoriedad inicial y el respeto del gremio como la imponente voz principal de la prestigiosa Sonora Matancera, donde su amplísimo registro vocal, su perfecta afinación y su arrolladora presencia escénica la catapultaron meteórica y rápidamente al estrellato en toda América Latina durante la anhelada época dorada de la música tropical.\n\nTras el triunfo político de la Revolución Cubana, Celia se vio trágica y forzosamente obligada a abandonar su amada patria para siempre, emprendiendo un doloroso y prolongado exilio definitivo en los Estados Unidos. A pesar de la profunda, constante y desgarradora tristeza de saber que no podría regresar jamás a pisar su tierra natal, transformó su inmensa nostalgia en arte puro. Utilizó magistralmente la música salsa como un vehículo poderoso para celebrar, enaltecer y preservar sus ricas raíces afrocubanas a nivel mundial. Sus multitudinarias presentaciones en vivo eran verdaderos espectáculos de vitalidad desbordante, caracterizados visualmente por sus extravagantes vestidos de colores estridentes, sus monumentales e icónicas pelucas, y su inagotable energía caribeña.\n\nInmortalizó su imponente legado cultural con su emblemático, contagioso y sonoro grito de batalla: \"¡Azúcar!\", una expresión poderosa y espontánea que simbolizaba poéticamente la alegría pura, la dulzura necesaria para combatir las amarguras y la resiliencia inquebrantable de la vida latina. Galardonada merecidamente con múltiples y prestigiosos premios Grammy y reconocida mundialmente como un ícono, Celia Cruz falleció físicamente en 2003, pero su majestuoso legado rítmico sigue latiendo con inmensa fuerza en el corazón mismo de la música afrocaribeña.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Con qué título es aclamada universalmente Celia Cruz?",
+          "¿En qué vibrante barrio de La Habana nació?",
+          "¿Qué prestigiosa agrupación musical la catapultó al estrellato?",
+          "¿Qué evento histórico la obligó a emprender un doloroso exilio?",
+          "¿Cómo transformó su nostalgia en arte a nivel mundial?",
+          "¿Qué elementos visuales caracterizaban sus extravagantes espectáculos en vivo?",
+          "¿Qué simbolizaba su emblemático grito de batalla \"¡Azúcar!\"?"
+        ],
+        "answerKey": [
+          "La \"Reina de la Salsa\".",
+          "En el barrio de Santos Suárez.",
+          "La Sonora Matancera.",
+          "El triunfo de la Revolución Cubana.",
+          "Preservando y celebrando sus ricas raíces afrocubanas con la música salsa.",
+          "Vestidos de colores estridentes y monumentales pelucas (y zapatos altos).",
+          "La alegría pura, la dulzura y la resiliencia inquebrantable de la vida."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Selena Quintanilla",
+    "imageFileName": "selena.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Selena Quintanilla, widely known affectionately and simply as Selena, was a brilliant, incredibly talented Mexican-American singer and creative fashion designer who officially became the undisputed \"Queen of Tejano Music.\" Born in the southern state of Texas, she actually grew up speaking English, but she studied extremely hard and learned to sing perfectly in Spanish in order to deeply connect with her family's rich cultural roots. She passionately started singing in a local family band called Selena y Los Dinos, which was carefully managed by her strict but loving father, when she was just a very little girl performing in small restaurants.\n\nTejano music was a traditional, regional genre mostly dominated by older men, but Selena bravely and successfully broke all the difficult cultural and gender barriers. With her incredibly powerful voice, highly infectious cumbia rhythms, and spectacular, energetic dance moves, she quickly became a massive, undeniable superstar in both the United States and Mexico. Massive hit canciones (songs) like \"Como La Flor,\" \"Bidi Bidi Bom Bom,\" and \"Amor Prohibido\" quickly topped the international radio charts and proudly won her a highly prestigious Grammy Award. She was also highly famous for her dazzling, beautiful, self-designed stage outfits and sparkling bustiers.\n\nTragically, Selena’s beautiful, inspiring life was suddenly and unfairly cut short when she was terribly murdered at the incredibly young age of 23, just as she was excitedly recording her very first English-language crossover album. Her shocking, unexpected death completely broke the hearts of millions of devoted fans around the entire world. Today, Selena remains a powerful, beautiful cultural icon for Latinos everywhere. Her amazing, timeless music, her totally unique fashion style, and her deeply inspiring personal story confidently continue to influence new generations of young artists everywhere.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What is Selena Quintanilla known as?",
+          "Why did she learn to sing in Spanish?",
+          "What was the name of her family band?",
+          "Who mostly dominated the Tejano music genre before Selena?",
+          "Name one of her hit songs mentioned in the text.",
+          "What else did she design besides singing?",
+          "How old was she when her life tragically ended?"
+        ],
+        "answerKey": [
+          "The \"Queen of Tejano Music\".",
+          "To deeply connect with her cultural roots.",
+          "Selena y Los Dinos.",
+          "Older men.",
+          "\"Como La Flor,\" \"Bidi Bidi Bom Bom,\" or \"Amor Prohibido\".",
+          "Her dazzling, beautiful stage outfits.",
+          "23 years old."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Selena Quintanilla, conocida afectuosamente y simplemente como Selena, fue una brillante e increíblemente talentosa cantante y diseñadora de moda mexicoamericana que se convirtió oficialmente en la indiscutible \"Reina de la Música Tejana\". Nacida en el estado de Texas, ella en realidad creció hablando inglés, pero estudió mucho y aprendió a cantar perfectamente en español para conectar profundamente con las ricas raíces culturales de su familia. Comenzó a cantar apasionadamente en una banda familiar local llamada Selena y Los Dinos, dirigida cuidadosamente por su padre, cuando era solo una niña pequeña cantando en restaurantes pequeños.\n\nLa música tejana era un género tradicional dominado principalmente por hombres mayores, pero Selena rompió valiente y exitosamente todas las difíciles barreras culturales y de género. Con su voz increíblemente poderosa, sus ritmos de cumbia muy contagiosos y sus bailes espectaculares y llenos de energía, se convirtió rápidamente en una superestrella masiva e innegable tanto en los Estados Unidos como en México. Canciones exitosas y masivas como \"Como La Flor\", \"Bidi Bidi Bom Bom\" y \"Amor Prohibido\" llegaron rápidamente a la cima de las listas de radio internacionales y le ganaron con orgullo un prestigioso premio Grammy. Ella también era muy famosa por su ropa de escenario deslumbrante, hermosa y original que diseñaba ella misma.\n\nTrágicamente, la vida hermosa e inspiradora de Selena terminó de repente y de manera injusta cuando fue asesinada terriblemente a la increíblemente joven edad de 23 años, justo cuando estaba grabando emocionada su primer álbum en inglés. Su muerte impactante e inesperada rompió por completo los corazones de millones de fanáticos devotos en todo el mundo entero. Hoy en día, Selena sigue siendo un icono cultural poderoso y hermoso para los latinos en todas partes. Su música asombrosa y eterna, su estilo de moda totalmente único y su historia personal profundamente inspiradora continúan inspirando a nuevas generaciones de artistas jóvenes.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cómo es conocida Selena Quintanilla?",
+          "¿Por qué aprendió a cantar en español aunque creció hablando inglés?",
+          "¿Cómo se llamaba la banda familiar de Selena?",
+          "¿Quién dominaba principalmente el género de la música tejana antes de ella?",
+          "Nombra una de las canciones exitosas mencionadas.",
+          "¿Qué cosa original diseñaba ella misma?",
+          "¿Qué estaba haciendo profesionalmente cuando falleció a los 23 años?"
+        ],
+        "answerKey": [
+          "Como la \"Reina de la Música Tejana\".",
+          "Para conectar profundamente con las ricas raíces culturales de su familia.",
+          "Selena y Los Dinos.",
+          "Hombres mayores.",
+          "\"Como La Flor\", \"Bidi Bidi Bom Bom\" o \"Amor Prohibido\".",
+          "Su ropa de escenario deslumbrante (sus propios trajes).",
+          "Estaba grabando emocionada su primer álbum en inglés."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Selena Quintanilla, conocida cariñosamente en el mundo artístico simplemente como Selena, fue una deslumbrante, carismática e inmensamente talentosa cantante, compositora y diseñadora de moda mexicoamericana, coronada indiscutible y eternamente como la \"Reina de la Música Tejana\". Nacida en el sur de Texas, creció con el inglés como su lengua materna principal, pero aprendió a interpretar vocalmente de manera magistral en español fonético con el firme propósito de honrar y conectar profundamente con sus orgullosas raíces hispanas. Inició su fulgurante y ascendente carrera artística en su más tierna infancia, liderando con aplomo la banda musical familiar Selena y Los Dinos bajo la estricta pero visionaria dirección de su padre.\n\nEn una industria musical sumamente tradicional y dominada abrumadoramente por figuras masculinas mayores, Selena logró derribar valientemente enormes barreras culturales y de género. Gracias a su portentosa y emotiva voz, su carisma escénico inigualable y la contagiosa, bailable fusión de ritmos de cumbia y pop, alcanzó un nivel de estrellato sin precedentes tanto en los Estados Unidos como en México. Temas verdaderamente icónicos, memorables y románticos como \"Como La Flor\", \"Bidi Bidi Bom Bom\" y \"Amor Prohibido\" dominaron las listas de popularidad y la llevaron a ganar un prestigioso premio Grammy. Además, deslumbraba constantemente al exigente público con los vistosos, brillantes e innovadores atuendos de pedrería que ella misma diseñaba y confeccionaba.\n\nTrágicamente, su prometedora, brillante e inspiradora vida fue truncada de manera cruel y abrupta al ser asesinada a sangre fría a la temprana edad de 23 años, justo cuando estaba a punto de consolidar definitivamente su esperado y multimillonario crossover al mercado musical anglosajón. Su prematura e impactante muerte causó una profunda conmoción mundial, pero elevó inmediatamente su figura al estatus de leyenda inmortal. Hoy, el imborrable y estético legado de Selena sigue siendo un brillante faro de inspiración, empoderamiento y orgullo bicultural para la inmensa comunidad latina global.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Con qué título fue coronada indiscutiblemente Selena Quintanilla?",
+          "¿Por qué aprendió a interpretar magistralmente en español?",
+          "¿Qué tipo de barreras logró derribar en la industria musical?",
+          "¿Qué estilos musicales fusionó para alcanzar un estrellato sin precedentes?",
+          "¿Qué galardón importante la ayudaron a ganar temas icónicos como \"Amor Prohibido\"?",
+          "¿Qué otro talento artístico mostraba al deslumbrar a su público?",
+          "¿Qué proyecto estaba a punto de consolidar antes de su trágica muerte?"
+        ],
+        "answerKey": [
+          "La \"Reina de la Música Tejana\".",
+          "Para honrar y conectar profundamente con sus orgullosas raíces hispanas.",
+          "Enormes barreras culturales y de género en una industria dominada por hombres.",
+          "Una contagiosa y bailable fusión de ritmos de cumbia y pop.",
+          "Un prestigioso premio Grammy.",
+          "Era diseñadora de moda (diseñaba y confeccionaba sus propios atuendos de pedrería).",
+          "Su esperado y multimillonario crossover al mercado musical anglosajón (álbum en inglés)."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "La Serie del Caribe",
+    "imageFileName": "serie_caribe.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The Caribbean Series, which is officially known in Spanish as La Serie del Caribe, is absolutely the most prestigious, historical, and incredibly exciting professional baseball tournament in all of Latin America. Every single year during the cool month of February, the proud champion teams from the highly competitive winter baseball leagues of Mexico, Puerto Rico, the Dominican Republic, and Venezuela (along with specially invited guest countries like Panama or Colombia) happily gather together in one host city to passionately compete for the ultimate regional sports title.\n\nFor dedicated Latino sports fans, this famous, annual tournament is so much more than just a normal series of béisbol (baseball) games; it is a massive, week-long cultural celebration and an incredible, loud party. The energetic atmosphere inside the tropical stadiums is completely different from a typical, quiet professional baseball game in the United States. The colorful stadium stands are completely filled with non-stop, intense energy, loud traditional drums, blaring tropical salsa music, and passionate fanáticos (fans) proudly waving their bright national flags. Happy people constantly sing loudly, play instruments, and dance joyfully in the stadium aisles from the very first inning to the absolute last out of the final game.\n\nThe amazing tournament officially began way back in the year 1949 in Havana, Cuba, and it has a very rich, deeply respected history in the international sports world. Many incredibly famous, wealthy, and talented players from Major League Baseball happily travel back to their home countries during the winter offseason just to have the massive, patriotic honor of playing in this historic competition. Winning La Serie del Caribe brings immense, undeniable pride, intense joy, and eternal national glory to the victorious country. It is a beautiful, loud showcase of Latin American sportsmanship, incredible athletic excellence, and the vibrant, joyful spirit of the Caribbean people.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What is La Serie del Caribe?",
+          "In what month is the tournament held every year?",
+          "Which four main countries send their champion teams to compete?",
+          "How is the stadium atmosphere different from games in the United States?",
+          "What kind of music and instruments can be heard in the stands?",
+          "In what year did the tournament begin?",
+          "Why do Major League Baseball players travel back home during the winter?"
+        ],
+        "answerKey": [
+          "The most prestigious, historical, and incredibly exciting professional baseball tournament in Latin America.",
+          "February.",
+          "Mexico, Puerto Rico, the Dominican Republic, and Venezuela.",
+          "It is filled with non-stop, intense energy, loud drums, and dancing.",
+          "Loud traditional drums and blaring tropical salsa music.",
+          "1949.",
+          "To have the massive, patriotic honor of playing in this historic competition."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La Serie del Caribe es absolutamente el torneo de béisbol profesional más prestigioso, histórico e increíblemente emocionante de toda América Latina. Cada año, durante el mes fresco de febrero, los equipos campeones orgullosos de las ligas competitivas de béisbol de invierno de México, Puerto Rico, la República Dominicana y Venezuela (junto con países invitados especiales como Panamá) se reúnen felizmente en una ciudad para competir apasionadamente por el título deportivo regional más importante.\n\nPara los fanáticos deportivos latinos dedicados, este torneo anual y famoso es mucho más que una serie normal de partidos de béisbol; es una celebración cultural masiva de una semana y una fiesta increíble y ruidosa. La atmósfera enérgica dentro de los estadios tropicales es completamente diferente a la de un partido de béisbol profesional típico y tranquilo en los Estados Unidos. Las gradas coloridas del estadio están completamente llenas de energía intensa y constante, tambores tradicionales ruidosos, música de salsa tropical fuerte y fanáticos apasionados agitando con orgullo sus brillantes banderas nacionales. Las personas felices cantan en voz alta constantemente, tocan instrumentos y bailan alegremente en los pasillos del estadio desde la primera entrada hasta el último out absoluto del juego final.\n\nEl torneo asombroso comenzó oficialmente en el año 1949 en La Habana, Cuba, y tiene una historia muy rica y profundamente respetada en el mundo deportivo internacional. Muchos jugadores increíblemente famosos, ricos y talentosos de las Grandes Ligas viajan felizmente de regreso a sus países de origen durante el invierno solo para tener el honor masivo y patriótico de jugar en esta competencia histórica. Ganar La Serie del Caribe trae un orgullo inmenso e innegable, una alegría intensa y una gloria nacional eterna al país victorioso. Es una exhibición hermosa y ruidosa de la deportividad latinoamericana, la excelencia atlética y el espíritu vibrante y alegre de la gente del Caribe.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué es La Serie del Caribe?",
+          "¿En qué mes se reúnen los equipos para competir cada año?",
+          "¿Qué países participan como miembros principales del torneo?",
+          "¿Cómo es la atmósfera dentro de los estadios caribeños?",
+          "¿Qué llevan los fanáticos apasionados a los partidos?",
+          "¿Cuándo comenzó la historia de este torneo famoso?",
+          "¿Por qué regresan muchos jugadores famosos de las Grandes Ligas en invierno?"
+        ],
+        "answerKey": [
+          "El torneo de béisbol profesional más prestigioso, histórico e increíblemente emocionante de América Latina.",
+          "En el mes fresco de febrero.",
+          "México, Puerto Rico, la República Dominicana y Venezuela.",
+          "Está completamente llena de energía intensa, tambores ruidosos, música de salsa y baile alegre.",
+          "Sus brillantes banderas nacionales (y tambores tradicionales).",
+          "En el año 1949 (en La Habana, Cuba).",
+          "Porque quieren tener el honor masivo y patriótico de jugar en esta competencia histórica."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La Serie del Caribe, frecuentemente y cariñosamente denominada por la prensa deportiva como el Clásico Caribeño, es indiscutiblemente el torneo de béisbol profesional de mayor prestigio, arraigada tradición y desbordante pasión en toda América Latina. Celebrado anualmente y de forma ininterrumpida en el mes de febrero, este evento cumbre y espectacular reúne en una sola sede a los feroces equipos campeones de las exigentes ligas invernales de México, Puerto Rico, la República Dominicana y Venezuela, junto con otras naciones invitadas de la región, para disputar encarnizadamente la supremacía beisbolera absoluta del Caribe.\n\nPara la ferviente, conocedora y leal afición latina, este vibrante certamen trasciende con creces lo meramente deportivo para convertirse orgánicamente en una celebración cultural apoteósica y un carnaval caribeño. El ambiente festivo que se respira profundamente en los estadios caribeños es verdaderamente inigualable y contrasta fuertemente con la rigurosa solemnidad y el silencio de otros recintos deportivos en Norteamérica. Las coloridas gradas vibran físicamente con una energía electrizante, inundadas por el sonido incesante de tambores tradicionales, trompetas, música tropical a todo volumen y cánticos ensordecedores. Los ruidosos espectadores, orgullosamente envueltos en sus banderas nacionales, transforman cada partido reñido en una auténtica, interminable y alegre fiesta de inmenso orgullo patriótico.\n\nInaugurada históricamente en 1949 en la ciudad de La Habana, la competencia ostenta un legado histórico profundamente respetado y admirado. Numerosas superestrellas multimillonarias y consolidadas de las Grandes Ligas optan voluntariamente por regresar a sus tierras natales durante su merecido receso invernal con el único, humilde y patriótico anhelo de representar dignamente a sus naciones en esta codiciada y nostálgica justa. Coronarse campeón invicto de la Serie del Caribe otorga una gloria deportiva eterna al país vencedor, demostrando firmemente al mundo entero la inmensa riqueza cultural, el compañerismo y el talento atlético inagotable de la cuenca del Caribe.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Con qué otro nombre se denomina frecuentemente a La Serie del Caribe?",
+          "¿Qué disputan los equipos campeones al reunirse en febrero?",
+          "¿En qué se convierte este certamen deportivo para la ferviente afición latina?",
+          "¿Cómo contrasta el ambiente de los estadios caribeños con otros recintos?",
+          "¿Con qué instrumentos e inundaciones sonoras vibran las gradas?",
+          "¿Qué anhelo motiva a las superestrellas a regresar durante el receso invernal?",
+          "¿Qué otorga al país vencedor el coronarse campeón de este torneo?"
+        ],
+        "answerKey": [
+          "El Clásico Caribeño.",
+          "La supremacía beisbolera absoluta del Caribe.",
+          "En una celebración cultural apoteósica y un carnaval caribeño.",
+          "Es verdaderamente inigualable y contrasta con la rigurosa solemnidad y el silencio de otros recintos deportivos.",
+          "Con tambores tradicionales, trompetas, música tropical a todo volumen y cánticos ensordecedores.",
+          "El patriótico anhelo de representar dignamente a sus naciones en esta codiciada y nostálgica justa.",
+          "Otorga una gloria deportiva eterna al país vencedor."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Fernando Valenzuela",
+    "imageFileName": "fernando_valenzuela.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Fernando Valenzuela was an incredibly legendary, deeply beloved Mexican professional baseball pitcher who completely transformed the entire sport and successfully captured the hearts of millions of passionate fans in the 1980s. Born in a very small, humble, and quiet rural town in Sonora, Mexico, he bravely overcame many difficult early life challenges, poverty, and long odds to eventually join the famous Los Angeles Dodgers in California. In the historic baseball year of 1981, he pitched so incredibly well and with such intense passion that he single-handedly created a massive, nationwide cultural phenomenon that the sports media quickly and enthusiastically called \"Fernandomania.\"\n\nValenzuela was globally famous for his highly unique, unusual, and completely unorthodox pitching style on the field. Right before throwing the incredibly fast pelota (ball), he would dramatically look straight up into the bright sky, completely confusing and distracting the opposing batters. He was incredibly successful on the mound, making incredible baseball history by becoming the very first player to ever win both the prestigious Rookie of the Year award and the highly respected Cy Young Award for best pitcher in the exact same season. He even heroically led his amazing team to win the massive World Series championship that very same year against the Yankees.\n\nBeyond his amazing, historic athletic achievements and trophies, Fernando Valenzuela officially became a massive, undisputed hero and a deeply powerful symbol of cultural pride for Mexican-Americans and the entire Latino community living in the United States. Before him, many Latinos felt completely ignored by the professional sport, but his massive, undeniable success proudly brought entire familias (families) to the baseball stadiums for the very first time. He perfectly proved to everyone that with intense dedication, hard work, and natural talent, a humble kid from Mexico could easily become an absolute, immortal legend in American sports history.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What was Fernando Valenzuela's profession?",
+          "Where was he born?",
+          "What team did he famously play for in the 1980s?",
+          "What did the media call the cultural phenomenon he created in 1981?",
+          "What did he uniquely do before throwing the ball?",
+          "What two major awards did he win in the exact same season?",
+          "Who did he become a powerful symbol of pride for?"
+        ],
+        "answerKey": [
+          "A legendary Mexican professional baseball pitcher.",
+          "A very small, humble rural town in Sonora, Mexico.",
+          "The Los Angeles Dodgers.",
+          "\"Fernandomania.\"",
+          "He would dramatically look straight up into the bright sky.",
+          "The Rookie of the Year award and the Cy Young Award.",
+          "Mexican-Americans and the entire Latino community."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Fernando Valenzuela fue un lanzador de béisbol profesional mexicano increíblemente legendario y muy amado que transformó completamente todo el deporte y capturó con éxito los corazones de millones de fanáticos apasionados en la década de 1980. Nacido en un pueblo rural muy pequeño, humilde y tranquilo en Sonora, México, superó valientemente muchos desafíos difíciles de su vida temprana y la pobreza para finalmente unirse a los famosos Dodgers de Los Ángeles en California. En el año histórico de béisbol de 1981, lanzó tan increíblemente bien y con tanta pasión intensa que creó él solo un fenómeno cultural masivo a nivel nacional que los medios deportivos llamaron rápida y entusiastamente la \"Fernandomanía\".\n\nValenzuela era mundialmente famoso por su estilo de lanzar muy único, inusual y completamente poco ortodoxo en el campo. Justo antes de lanzar la pelota increíblemente rápida, miraba dramáticamente hacia el cielo brillante, confundiendo y distrayendo completamente a los bateadores contrarios. Tuvo un éxito increíble en el montículo, haciendo una historia increíble en el béisbol al convertirse en el primer jugador en ganar tanto el prestigioso premio al Novato del Año como el muy respetado Premio Cy Young al mejor lanzador en la misma temporada exacta. Incluso lideró heroicamente a su increíble equipo para ganar el campeonato masivo de la Serie Mundial ese mismo año contra los Yankees.\n\nMás allá de sus asombrosos e históricos logros atléticos y trofeos, Fernando Valenzuela se convirtió oficialmente en un héroe masivo e indiscutible y un símbolo profundamente poderoso de orgullo cultural para los mexicoamericanos y toda la comunidad latina que vive en los Estados Unidos. Antes de él, muchos latinos se sentían completamente ignorados por el deporte profesional, pero su éxito masivo e innegable llevó con orgullo a familias enteras a los estadios de béisbol por primera vez. Él demostró perfectamente a todos que con dedicación intensa, trabajo duro y talento natural, un chico humilde de México podría convertirse fácilmente en una leyenda absoluta e inmortal en la historia del deporte estadounidense.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué posición jugaba Fernando Valenzuela en el béisbol?",
+          "¿De qué estado y país era originario?",
+          "¿Para qué equipo famoso logró jugar con mucho trabajo duro?",
+          "¿Cómo se llamó el fenómeno cultural masivo que causó en 1981?",
+          "¿Hacia dónde miraba directamente antes de tirar la pelota?",
+          "¿Qué hizo para ayudar a su equipo ese mismo año?",
+          "¿A quiénes atrajo su éxito masivo a los estadios de béisbol?"
+        ],
+        "answerKey": [
+          "Lanzador de béisbol profesional.",
+          "De un pueblo rural muy pequeño y humilde en Sonora, México.",
+          "Los Dodgers de Los Ángeles.",
+          "La \"Fernandomanía\".",
+          "Miraba dramáticamente hacia el cielo brillante.",
+          "Lideró heroicamente a su equipo para ganar el campeonato de la Serie Mundial.",
+          "A familias enteras de latinos y mexicoamericanos (por primera vez)."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Fernando Valenzuela, cariñosamente apodado \"El Toro\" por la afición, fue un icónico, legendario e inigualable lanzador zurdo mexicano que revolucionó por completo el béisbol de las Grandes Ligas y desató un fervor sociocultural sin precedentes durante la competitiva década de 1980. Originario de Etchohuaquila, un modesto, polvoriento y remoto poblado agrícola en el estado de Sonora, México, superó innumerables adversidades económicas y barreras lingüísticas para lograr firmar y triunfar con la franquicia de los Dodgers de Los Ángeles. En la mágica temporada de 1981, su extraordinario e imbatible desempeño en el montículo desató instantáneamente un fenómeno cultural, deportivo y mediático masivo que fue bautizado mundialmente por la prensa especializada como la \"Fernandomanía\".\n\nValenzuela se distinguía marcadamente por su mecánica de pitcheo sumamente inortodoxa, dramática y cautivadora; justo una fracción de segundo antes de soltar su devastadora e indescifrable esférica (especialmente su famoso lanzamiento de tirabuzón o screwball), elevaba su mirada dramáticamente hacia el cielo estrellado, desconcertando e intimidando visualmente a los experimentados bateadores rivales. Su impacto deportivo fue tan inmediato como histórico, convirtiéndose gloriosamente en el primer y único beisbolista en galardonarse simultánea y unánimemente con los codiciados premios de Novato del Año y el codiciado trofeo Cy Young al mejor lanzador en una misma temporada regular, culminando su hazaña heroica con la emocionante conquista de la Serie Mundial frente a sus eternos rivales, los Yankees.\n\nMás allá de sus impresionantes proezas estadísticas y anillos de campeonato, Valenzuela se erigió orgánicamente como un héroe indiscutible, un ídolo popular y un símbolo de profunda reivindicación social para la históricamente marginada comunidad mexicoamericana y latina residente en Los Ángeles. Su deslumbrante éxito logró atraer a multitudes hispanas enteras a los estadios, rompiendo barreras culturales invisibles y sanando viejas heridas comunitarias vinculadas a la construcción del estadio de los Dodgers. Demostró irrefutablemente a toda una generación que, a base de talento puro, carisma y tesón inquebrantable, un joven humilde y silencioso de México podía conquistar la cima absoluta del deporte estadounidense.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Con qué cariñoso apodo era conocido Fernando Valenzuela?",
+          "¿Qué tipo de fenómeno desató su extraordinario desempeño en 1981?",
+          "¿En qué consistía su mecánica de pitcheo sumamente inortodoxa?",
+          "¿Qué logró históricamente en relación con los premios de las Grandes Ligas?",
+          "¿Cómo culminó la temporada histórica de su equipo ese año?",
+          "¿Como qué tipo de figura se erigió para la comunidad latina?",
+          "¿Qué tipo de barreras invisibles logró romper al atraer multitudes a los estadios?"
+        ],
+        "answerKey": [
+          "Cariñosamente apodado \"El Toro\".",
+          "Un fenómeno cultural, deportivo y mediático masivo bautizado como la \"Fernandomanía\".",
+          "Elevaba su mirada dramáticamente hacia el cielo justo antes de soltar la esférica.",
+          "Se galardonó simultáneamente con los premios de Novato del Año y el Cy Young en una misma temporada.",
+          "Con la emocionante conquista de la Serie Mundial frente a los Yankees.",
+          "Como un héroe indiscutible, un ídolo popular y un símbolo de profunda reivindicación social.",
+          "Barreras culturales invisibles (atrayendo a multitudes hispanas a los estadios y sanando viejas heridas comunitarias)."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "La Alhambra",
+    "imageFileName": "alhambra.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "La Alhambra is a massive, absolutely breathtaking, and world-famous palace and fortress complex proudly located high up on a hill in the historic city of Granada, in the beautiful, sunny southern region of Andalusia, Spain. The unique, beautiful name \"Alhambra\" actually comes directly from an old Arabic word meaning \"the red one.\" This interesting name carefully refers to the distinct, warm reddish color of its massive, strong outer stone walls that beautifully glow in the hot Spanish sunset. Built primarily over many busy decades during the 13th and 14th centuries by the powerful Moorish rulers of the famous Nasrid dynasty, it is universally considered one of the absolute best, most famous, and most stunning examples of historic Islamic architecture in the entire world today.\n\nInside the massive, heavy, and protective fortress walls, curious, excited visitors can easily spend an entire long day peacefully exploring a stunning, complicated network of highly decorated royal palaces, beautiful, quiet outdoor courtyards, and perfectly still, clear reflecting pools. The brilliant, hardworking architects and creative artists of La Alhambra deeply believed that fresh agua (water) was a deeply powerful, magical symbol of continuous life, immense wealth, and spiritual purity. Because of this strong, beautiful belief, you can easily and peacefully hear the quiet, relaxing sound of cool water from small fountains flowing continuously in almost every single room and sunny courtyard you visit. Furthermore, the tall, elegant walls and high ceilings of the palaces are completely covered in incredibly detailed, hand-carved geometric patterns, colorful, shiny tiles, and beautiful, flowing Arabic calligraphy carved directly into the soft stone.\n\nLocated right next to the massive main palace complex are the breathtaking, incredibly peaceful, and perfectly manicured outdoor gardens of the Generalife, which historically served as a quiet, private summer retreat for the tired kings and their royal families to escape the busy city below. After the historic Christian Reconquista finally ended in the year 1492, powerful Catholic monarchs excitedly moved in and also lived there for many years. Thankfully, they very carefully added their own new, elegant architectural touches to the massive buildings without rudely destroying the breathtaking, original Islamic beauty of the ancient palace. Today, many millions of happy tourists from all over the globe visit this incredibly historic, giant palacio (palace) every single year just to personally admire the peaceful, beautiful blending of different ancient cultures and religions.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is La Alhambra located?",
+          "What does the Arabic name \"Alhambra\" mean?",
+          "Who primarily built the complex in the 13th and 14th centuries?",
+          "What did the architects believe water was a symbol of?",
+          "What can you hear in almost every single room?",
+          "What were the gardens of the Generalife used for?",
+          "What happened after the Christian Reconquista in 1492?"
+        ],
+        "answerKey": [
+          "In the historic city of Granada, in the southern region of Andalusia, Spain.",
+          "\"The red one.\"",
+          "The powerful Moorish rulers of the Nasrid dynasty.",
+          "A deeply powerful, magical symbol of continuous life, immense wealth, and spiritual purity.",
+          "The quiet, relaxing sound of cool water from small fountains flowing.",
+          "As a quiet, private summer retreat for the kings and their royal families.",
+          "Powerful Catholic monarchs excitedly moved in and carefully added their own architectural touches without destroying the original beauty."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La Alhambra es un complejo de palacio y fortaleza masivo, absolutamente impresionante y mundialmente famoso que está ubicado con orgullo en lo alto de una colina en la ciudad histórica de Granada, en la hermosa y soleada región sur de Andalucía, España. El nombre único y hermoso \"Alhambra\" en realidad viene directamente de una antigua palabra árabe que significa \"la roja\". Este nombre interesante se refiere cuidadosamente al color rojizo distintivo y cálido de sus paredes de piedra masivas y fuertes que brillan hermosamente en la puesta de sol española. Construida principalmente durante muchas décadas ocupadas en los siglos trece y catorce por los poderosos gobernantes moros de la famosa dinastía nazarí, es considerada universalmente como uno de los mejores, más famosos y más impresionantes ejemplos de la arquitectura islámica histórica en todo el mundo hoy en día.\n\nDentro de las paredes masivas, pesadas y protectoras de la fortaleza, los visitantes curiosos y emocionados pueden pasar fácilmente un día largo y entero explorando pacíficamente una red impresionante y complicada de palacios reales muy decorados, hermosos y tranquilos patios al aire libre, y piscinas reflectantes perfectamente quietas y claras. Los arquitectos brillantes y trabajadores, y los artistas creativos de La Alhambra creían profundamente que el agua fresca era un símbolo mágico y profundamente poderoso de vida continua, riqueza inmensa y pureza espiritual. Por esta creencia fuerte y hermosa, puedes escuchar fácil y pacíficamente el sonido tranquilo y relajante del agua fría de las pequeñas fuentes fluyendo continuamente en casi todas las habitaciones y patios soleados que visitas. Además, las paredes altas y elegantes, y los techos altos de los palacios están completamente cubiertos de patrones geométricos increíblemente detallados y tallados a mano, azulejos coloridos y brillantes, y caligrafía árabe hermosa y fluida tallada directamente en la piedra suave.\n\nUbicados justo al lado del complejo del palacio principal masivo están los impresionantes, increíblemente pacíficos y perfectamente cuidados jardines al aire libre del Generalife, que históricamente sirvieron como un retiro de verano tranquilo y privado para que los reyes cansados y sus familias reales escaparan de la ciudad ocupada de abajo. Después de que la histórica Reconquista cristiana finalmente terminó en el año 1492, los poderosos monarcas católicos se mudaron emocionados y también vivieron allí por muchos años. Afortunadamente, añadieron muy cuidadosamente sus propios toques arquitectónicos nuevos y elegantes a los edificios masivos sin destruir groseramente la impresionante belleza islámica original del palacio antiguo. Hoy en día, muchos millones de turistas felices de todo el mundo visitan este palacio increíblemente histórico y gigante cada año solo para admirar personalmente la mezcla pacífica y hermosa de diferentes culturas y religiones antiguas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad de Andalucía está La Alhambra?",
+          "¿Por qué recibe el nombre de \"la roja\"?",
+          "¿Quiénes construyeron La Alhambra principalmente?",
+          "¿Qué simbolizaba el agua para los creadores del palacio?",
+          "¿Con qué están decoradas las paredes del palacio?",
+          "¿Para qué usaban los reyes los jardines del Generalife?",
+          "¿Quiénes vivieron allí después del año 1492?"
+        ],
+        "answerKey": [
+          "En la ciudad histórica de Granada.",
+          "Por el color rojizo distintivo y cálido de sus paredes de piedra masivas y fuertes.",
+          "Los poderosos gobernantes moros de la famosa dinastía nazarí.",
+          "Un símbolo mágico y profundamente poderoso de vida continua, riqueza inmensa y pureza espiritual.",
+          "Con patrones geométricos increíblemente detallados y tallados a mano, azulejos coloridos y brillantes, y caligrafía árabe hermosa.",
+          "Como un retiro de verano tranquilo y privado para escapar de la ciudad ocupada.",
+          "Los poderosos monarcas católicos (y añadieron sus propios toques arquitectónicos)."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La Alhambra es, sin la menor sombra de duda, un deslumbrante, majestuoso e inigualable complejo palaciego y militar estratégicamente situado en lo alto de la colina de la Sabika, dominando visualmente la histórica ciudad de Granada en la vibrante comunidad autónoma de Andalucía. Su hermoso e intrigante nombre, de claro y directo origen árabe (al-Qal'a al-Hamra), se traduce literal y poéticamente como \"la fortaleza roja\", haciendo una referencia directa y descriptiva al inconfundible, cálido y terroso tono rojizo de la arcilla utilizada en la construcción de las imponentes y formidables murallas defensivas que la rodean y protegen celosamente. Erigida, planificada y decorada principalmente durante el esplendor de los siglos XIII y XIV bajo el próspero y refinado dominio de los sultanes de la dinastía nazarí, esta inmensa e intimidante fortaleza es considerada unánime e internacionalmente como la joya absoluta, la cúspide indiscutible y el ejemplo más sublime y mejor conservado de la arquitectura y el arte islámico civil en el hemisferio occidental.\n\nEn el silencioso, fresco e hipnótico interior de sus recintos amurallados, los asombrados visitantes descubren paso a paso un intrincado y exquisito laberinto de palacios reales profusamente ornamentados, patios serenos bañados por la luz del sol andaluz y tranquilos estanques reflectantes que actúan como inmensos espejos arquitectónicos. Los ingeniosos y visionarios arquitectos musulmanes de la época concebían el agua cristalina no solo como un elemento puramente estético o funcional para combatir el calor del verano, sino como una representación sagrada, constante y profundamente espiritual de la vida eterna, la abundancia terrenal y la pureza del alma; por ello, el relajante e incesante murmullo de las fuentes, acequias y surtidores es absolutamente omnipresente en cada rincón del palacio. Los muros, arcos y altísimos techos de madera exhiben un nivel de detalle artesanal e intrincación visual verdaderamente insondable y casi milagroso, estando completamente recubiertos y adornados sin dejar un solo espacio vacío con intrincados arabescos en yesería, coloridos y complejos zócalos de azulejos geométricos, y una exquisita, fluida y poética caligrafía epigráfica esculpida que alaba a Alá y a los propios sultanes.\n\nJusto adyacente y conectado al complejo palaciego y militar principal, se extienden majestuosamente los exuberantes, verdes y perfectamente diseñados jardines escalonados del Generalife (Yannat al-Arif), los cuales fueron concebidos originalmente como una idílica, fresca y privada villa rural de descanso estival y retiro espiritual para la atareada realeza nazarí. Tras la culminación histórica e inevitable de la larga Reconquista cristiana con la emotiva Toma de Granada en el año 1492, los victoriosos Reyes Católicos (Isabel y Fernando) quedaron tan profundamente maravillados y cautivados por la belleza inigualable del recinto que establecieron allí temporalmente su corte real, añadiendo posteriormente elegantes intervenciones arquitectónicas de estilo renacentista (como el Palacio de Carlos V) que, afortunadamente, respetaron y conservaron profundamente la exótica esencia original del monumento. Hoy en día, este inmenso e imponente Patrimonio de la Humanidad atrae incesantemente a millones de viajeros, simbolizando de manera pétrea y eterna el profundo, complejo y enriquecedor sincretismo cultural y religioso que define la fascinante historia de la España medieval.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿A qué hace referencia el nombre árabe que se traduce como \"la roja\"?",
+          "¿Bajo el dominio de qué dinastía fue erigida esta fortaleza?",
+          "¿Cómo concebían el agua los arquitectos musulmanes?",
+          "¿Con qué elementos están adornados los muros y techos?",
+          "¿Cuál era el propósito original de los exuberantes jardines del Generalife?",
+          "¿Qué reyes establecieron allí su corte tras la Reconquista en 1492?",
+          "¿Qué simboliza hoy este Patrimonio de la Humanidad?"
+        ],
+        "answerKey": [
+          "Al inconfundible, cálido y terroso tono rojizo de la arcilla utilizada en la construcción de las imponentes murallas.",
+          "Bajo el próspero y refinado dominio de los sultanes de la dinastía nazarí.",
+          "No solo como un elemento estético o funcional, sino como una representación sagrada, espiritual de la vida eterna, la abundancia y la pureza.",
+          "Con intrincados arabescos en yesería, coloridos zócalos de azulejos geométricos, y una exquisita caligrafía poética esculpida.",
+          "Como una idílica, fresca y privada villa rural de descanso estival y retiro espiritual para la realeza nazarí.",
+          "Los victoriosos Reyes Católicos (Isabel y Fernando).",
+          "El profundo, complejo y enriquecedor sincretismo cultural y religioso que define la fascinante historia de la España medieval."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Salto Ángel",
+    "imageFileName": "salto_angel.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "El Salto Ángel, wildly famous around the globe in English simply as Angel Falls, is officially the absolute highest, tallest uninterrupted waterfall in the entire world! It is incredibly beautiful and located completely hidden deep inside the massive, lush, and highly isolated tropical jungles of the giant Canaima National Park in the beautiful, sunny South American country of Venezuela. The massive, roaring waterfall magically drops straight down from the very top of an enormous, completely flat, and towering stone mountain called Auyán-tepui. The total vertical height of the majestic, thundering waterfall is a truly staggering 3,212 feet in the air, making it incredibly more than fifteen times taller than the extremely famous Niagara Falls in North America!\n\nLong, long before brave modern explorers and pilots ever arrived in the dangerous jungle, the ancient, peaceful indigenous Pemon people lived happily in this vast, green region for many centuries. In their native, historical language, they deeply respect the towering water and beautifully call the massive waterfall \"Kerepakupai Merú,\" which poetically translates to \"waterfall of the deepest place.\" The giant waterfall actually got its popular, modern English name from a very brave, adventurous, and slightly crazy American pilot named Jimmy Angel. He famously and dangerously flew his small, loud airplane directly over the towering, misty cascada (waterfall) in the year 1933 and later miraculously landed his plane right on the very top of the flat, muddy mountain, getting stuck there for days!\n\nBecause the giant waterfall is hidden so incredibly deeply inside the thick, dense, and dangerous selva (jungle), it is actually very, very difficult and highly expensive for regular, everyday tourists to ever visit. You absolutely cannot simply drive a normal car or a comfortable bus there on a paved road. To successfully see this breathtaking, giant natural wonder in person today, adventurous, brave travelers must first take a bumpy, scary small airplane flight over the endless green trees and then travel for many wet, exhausting hours in a long, traditional wooden boat slowly paddling up the winding, dark river. It is a truly magical, unforgettable, and very difficult journey to the center of the wild jungle.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What world record does El Salto Ángel hold?",
+          "In what country and national park is it located?",
+          "What is the name of the flat mountain the water drops from?",
+          "Who are the indigenous people that live in this region?",
+          "What does the native name \"Kerepakupai Merú\" translate to?",
+          "Who is the waterfall popularly named after in English?",
+          "How do adventurous travelers have to travel to see the waterfall?"
+        ],
+        "answerKey": [
+          "The absolute highest, tallest uninterrupted waterfall in the entire world.",
+          "Canaima National Park in Venezuela.",
+          "Auyán-tepui.",
+          "The ancient, peaceful indigenous Pemon people.",
+          "\"Waterfall of the deepest place.\"",
+          "A very brave, adventurous American pilot named Jimmy Angel.",
+          "First take a bumpy small airplane flight and then travel for many wet hours in a long, traditional wooden boat."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El Salto Ángel, mundialmente famoso en inglés simplemente como Angel Falls, ¡es oficialmente la cascada ininterrumpida absolutamente más alta de todo el mundo! Es increíblemente hermosa y está ubicada completamente escondida en lo profundo de las selvas tropicales masivas, exuberantes y muy aisladas del gigantesco Parque Nacional Canaima en el hermoso y soleado país sudamericano de Venezuela. La enorme y rugiente cascada cae mágicamente directamente desde la cima de una montaña de piedra enorme, completamente plana y altísima llamada Auyán-tepui. ¡La altura vertical total de la majestuosa y atronadora cascada es de la asombrosa cifra de 979 metros (3,212 pies) en el aire, haciéndola increíblemente más de quince veces más alta que las extremadamente famosas Cataratas del Niágara en América del Norte!\n\nMucho, mucho antes de que los valientes exploradores y pilotos modernos llegaran a la peligrosa selva, el antiguo y pacífico pueblo indígena pemón vivió felizmente en esta vasta y verde región durante muchos siglos. En su idioma nativo e histórico, ellos respetan profundamente el agua altísima y llaman hermosamente a la cascada masiva \"Kerepakupai Merú\", que se traduce poéticamente como \"cascada del lugar más profundo\". La cascada gigante en realidad recibió su nombre popular y moderno en inglés por un piloto estadounidense muy valiente, aventurero y un poco loco llamado Jimmy Angel. ¡Él voló famosa y peligrosamente su pequeño y ruidoso avión directamente sobre la imponente y brumosa cascada en el año 1933 y más tarde milagrosamente aterrizó su avión justo en la cima de la montaña plana y lodosa, quedándose atrapado allí durante días!\n\nDebido a que la cascada gigante está escondida tan increíblemente profundo dentro de la selva densa y peligrosa, en realidad es muy, muy difícil y muy caro para los turistas regulares y comunes visitarla. Absolutamente no puedes simplemente conducir un auto normal o un autobús cómodo hasta allí en una carretera pavimentada. Para ver con éxito esta impresionante y gigante maravilla natural en persona hoy en día, los viajeros aventureros y valientes deben tomar primero un vuelo accidentado y aterrador en una avioneta pequeña sobre los infinitos árboles verdes y luego viajar durante muchas horas húmedas y agotadoras en un largo bote de madera tradicional remando lentamente por el río oscuro y sinuoso. Es un viaje verdaderamente mágico, inolvidable y muy difícil al centro de la selva salvaje.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué récord mundial tiene el Salto Ángel?",
+          "¿De qué montaña gigante y plana cae el agua?",
+          "¿Cuántas veces más alta es que las Cataratas del Niágara?",
+          "¿Qué grupo indígena vivía en esta región antes de los exploradores?",
+          "¿Qué significa el nombre nativo \"Kerepakupai Merú\"?",
+          "¿Por qué la cascada recibió el nombre popular de \"Salto Ángel\"?",
+          "¿Por qué no es posible conducir un coche hasta la cascada?"
+        ],
+        "answerKey": [
+          "Es la cascada ininterrumpida absolutamente más alta de todo el mundo.",
+          "Del Auyán-tepui (una montaña de piedra enorme y completamente plana).",
+          "Más de quince veces más alta.",
+          "El antiguo y pacífico pueblo indígena pemón.",
+          "\"Cascada del lugar más profundo\".",
+          "Por un piloto aventurero estadounidense llamado Jimmy Angel que voló sobre ella y aterrizó en la cima.",
+          "Porque está escondida increíblemente profundo dentro de la selva densa y peligrosa sin carreteras pavimentadas."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El sobrecogedor y espectacular Salto Ángel ostenta con gran orgullo el majestuoso, inigualable e indiscutible título geográfico de ser la cascada de caída ininterrumpida más alta y vertiginosa de todo el planeta Tierra. Este impresionante y colosal monumento natural de agua dulce se encuentra celosamente oculto y protegido en el inhóspito y verde corazón de las densas, antiguas e impenetrables selvas tropicales del vasto Parque Nacional Canaima, ubicado en el remoto sureste del territorio de Venezuela. El inmenso y ensordecedor torrente de agua cristalina se precipita dramática y libremente al vacío desde la escarpada e irregular cumbre del imponente Auyán-tepui, una colosal y misteriosa montaña de cima plana y paredes verticales que es geológicamente característica e icónica del antiquísimo macizo guayanés. Con una asombrosa, vertiginosa y oficial altura total de 979 metros (incluyendo casi 807 metros de caída ininterrumpida absoluta), este gigante de agua empequeñece absoluta y ridículamente a otras maravillas hídricas mundiales similares, siendo asombrosamente más de quince veces más alta que las populares y accesibles cataratas del Niágara.\n\nHistóricamente, los pacíficos y sabios indígenas de la etnia de los pemones han habitado continua y respetuosamente estas escarpadas tierras ancestrales durante incontables siglos, conviviendo en perfecta y sagrada armonía con la abrumadora y a veces peligrosa naturaleza que los rodea. En su hermosa y descriptiva lengua originaria, denominan reverencialmente a la rugiente cascada \"Kerepakupai Merú\", un término que se traduce literal y poéticamente como \"salto del lugar más profundo\" o \"caída de agua hasta el sitio más profundo\". El nombre occidental y globalmente popular, sin embargo, rinde un innegable y directo homenaje histórico al audaz, intrépido y aventurero aviador y buscador de oro estadounidense Jimmy Angel, quien sobrevoló asombrado la imponente y brumosa catarata en el año de 1933 y, unos años posteriormente, logró aterrizar forzosamente su frágil y pequeña avioneta metálica en la accidentada e inundada meseta superior, dando a conocer definitivamente y para siempre este paraíso aislado, prístino y prehistórico al asombrado resto del mundo civilizado.\n\nDebido a su extremo, severo y salvaje aislamiento geográfico en medio de la espesura, lograr llegar físicamente a los húmedos pies del Salto Ángel constituye una auténtica, ardua y costosa odisea logística. Careciendo por completo y absolutamente de carreteras asfaltadas de acceso terrestre, los viajeros más intrépidos, decididos y con espíritu de aventura deben obligatoriamente sobrevolar primero la inmensa, verde e interminable selva en diminutas y ruidosas avionetas hasta llegar al campamento base de Canaima, y posteriormente navegar arduamente río arriba, luchando contra la fuerte corriente durante largas y agotadoras horas, sentados en estrechas curiaras tradicionales (largas canoas de madera tallada) impulsadas por motores fuera de borda para, finalmente, poder contemplar de cerca y con humildad esta brutal, hipnótica y ensordecedora fuerza desatada de la madre naturaleza.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué tipo de montaña característica se precipita el torrente de agua?",
+          "¿Qué título majestuoso ostenta el Salto Ángel a nivel mundial?",
+          "¿Qué grupo originario ha habitado estas tierras ancestrales durante siglos?",
+          "¿Cómo se traduce poéticamente el nombre \"Kerepakupai Merú\"?",
+          "¿A quién rinde homenaje el nombre occidental de la catarata?",
+          "¿Por qué se considera que llegar al Salto Ángel es una auténtica odisea?",
+          "¿Qué embarcación tradicional utilizan los viajeros para navegar río arriba?"
+        ],
+        "answerKey": [
+          "De una colosal y misteriosa montaña de cima plana y paredes verticales (un tepuy característico del macizo guayanés).",
+          "Es la cascada de caída ininterrumpida más alta y vertiginosa de todo el planeta Tierra.",
+          "Los indígenas de la etnia de los pemones.",
+          "\"Salto del lugar más profundo\" (o \"caída de agua hasta el sitio más profundo\").",
+          "Al audaz y aventurero aviador estadounidense Jimmy Angel.",
+          "Debido a su extremo y salvaje aislamiento geográfico en medio de la espesura, careciendo por completo de carreteras asfaltadas.",
+          "En estrechas curiaras tradicionales (largas canoas de madera tallada impulsadas por motores)."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Los Cenotes de México",
+    "imageFileName": "cenotes.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "A cenote is an absolutely stunning, beautiful, and completely natural underground pool of very deep, fresh water found primarily hiding in the thick jungles of the beautiful, sunny Yucatán Peninsula of modern-day Mexico. Many millions of years ago, the flat, green land in this massive, sprawling region was slowly formed by highly porous, soft limestone rock. When the weak, thin rocky roof of a hidden, dark underground cave suddenly breaks and quickly collapses into the earth, it finally reveals a beautifully hidden, perfectly crystal-clear, and cool pool of pure agua (water) shining below. Today, there are many thousands of these magical, quiet, and breathtaking pools naturally scattered all across the dense, hot, and noisy Mexican jungle.\n\nFor the incredibly smart, deeply religious ancient Maya civilization who lived there long ago, the beautiful cenotes were so much more than just a simple, convenient, and easy place to find clean, fresh drinking water for their large cities. They were strongly and respectfully considered deeply sagrado (sacred), highly important, and extremely spiritual locations for the entire community. The brave Maya firmly and absolutely believed that these impossibly deep, dark, and endless pools were the actual, physical, and dangerous portals directly connected to the scary underworld, a terrifying, dark mythological place of the dead that they nervously called Xibalbá. Because of this powerful, deep, and serious spiritual connection to the gods, modern underwater archaeologists bravely swimming in the caves have successfully discovered many priceless, ancient, and historical offerings resting quietly at the very bottom of these deep, dark waters, carefully including fragile Mayan clay pottery, heavy gold jewelry, and even spooky human skeletal remains from ancient sacrifices!\n\nToday, the ancient, magical cenotes are incredibly famous, highly popular, and busy tourist destinations for thousands of happy, swimming people visiting the beaches of Mexico. Excited, adventurous travelers from all over the entire world absolutely love to swim, float, safely snorkel, and even deeply scuba dive far inside these breathtaking, cool underground caves to escape the hot tropical sun. Peacefully swimming in a deeply cool, perfectly refreshing, blue cenote surrounded entirely by long hanging green vines, dripping water, natural giant rock formations, and deep, mysterious ancient history is a truly unforgettable, incredibly magical, and highly unique vacation experience.",
+        "instruction": "Answer the following preguntas according to the text.",
+        "questions": [
+          "What exactly is a cenote?",
+          "In what region of Mexico are cenotes primarily found?",
+          "How is a cenote physically formed?",
+          "What did the ancient Maya civilization believe the cenotes were?",
+          "What is the name of the mythological Mayan underworld?",
+          "Name two things archaeologists have found at the bottom of cenotes.",
+          "What do adventurous travelers like to do in cenotes today?"
+        ],
+        "answerKey": [
+          "An absolutely stunning, beautiful, and completely natural underground pool of very deep, fresh water.",
+          "The beautiful, sunny Yucatán Peninsula.",
+          "When the weak, thin rocky roof of a hidden, dark underground limestone cave suddenly breaks and collapses.",
+          "Deeply sagrado (sacred) locations and actual, physical portals directly connected to the scary underworld.",
+          "Xibalbá.",
+          "Fragile Mayan clay pottery, heavy gold jewelry, or spooky human skeletal remains (two of these).",
+          "They love to swim, float, safely snorkel, and deeply scuba dive."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Un cenote es una piscina natural subterránea de agua dulce absolutamente impresionante, hermosa y muy profunda que se encuentra principalmente escondida en las selvas espesas de la hermosa y soleada Península de Yucatán en el México de hoy. Hace muchos millones de años, la tierra plana y verde en esta región masiva se formó lentamente por roca caliza suave y muy porosa. Cuando el techo rocoso, débil y delgado de una cueva subterránea, oscura y escondida se rompe de repente y se colapsa rápidamente en la tierra, revela finalmente una piscina maravillosamente escondida, perfectamente cristalina y fresca de agua pura brillando abajo. Hoy en día, hay muchos miles de estas piscinas mágicas, tranquilas e impresionantes esparcidas naturalmente por toda la selva mexicana densa, calurosa y ruidosa.\n\nPara la increíblemente inteligente y profundamente religiosa civilización maya antigua que vivía allí hace mucho tiempo, los hermosos cenotes eran mucho más que un lugar simple, conveniente y fácil para encontrar agua limpia y fresca para beber para sus grandes ciudades. Eran considerados fuerte y respetuosamente lugares profundamente sagrados, muy importantes y extremadamente espirituales para toda la comunidad. Los valientes mayas creían firme y absolutamente que estas piscinas imposiblemente profundas, oscuras e infinitas eran los portales reales, físicos y peligrosos conectados directamente con el aterrador inframundo, un lugar mitológico oscuro de los muertos que ellos llamaban nerviosamente Xibalbá. Debido a esta conexión espiritual poderosa, profunda y seria con los dioses, ¡los arqueólogos submarinos modernos que nadan valientemente en las cuevas han descubierto con éxito muchas ofrendas invaluables, antiguas e históricas descansando silenciosamente en el fondo de estas aguas profundas y oscuras, incluyendo cuidadosamente cerámica de arcilla maya frágil, joyas de oro pesadas e incluso restos óseos humanos espeluznantes de sacrificios antiguos!\n\nHoy en día, los cenotes antiguos y mágicos son destinos turísticos increíblemente famosos, muy populares y concurridos para miles de personas felices que nadan visitando las playas de México. A los viajeros emocionados y aventureros de todo el mundo entero les encanta absolutamente nadar, flotar, hacer esnórquel con seguridad e incluso bucear profundamente dentro de estas impresionantes y frescas cuevas subterráneas para escapar del caluroso sol tropical. Nadar pacíficamente en un cenote azul profundamente frío, perfectamente refrescante y rodeado completamente de largas enredaderas colgantes verdes, agua goteando, formaciones de rocas naturales gigantes y una profunda y misteriosa historia antigua es una experiencia de vacaciones verdaderamente inolvidable, increíblemente mágica y muy única.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde se encuentran principalmente los cenotes en México?",
+          "¿De qué tipo de piedra se formó la tierra en esta región?",
+          "¿Qué pasa cuando el techo de una cueva subterránea se colapsa?",
+          "¿Cómo consideraban los mayas a los cenotes?",
+          "¿Qué era el Xibalbá según la mitología maya?",
+          "¿Por qué hay ofrendas y joyas de oro en el fondo del agua?",
+          "¿Qué actividades acuáticas hacen los viajeros aventureros en los cenotes hoy?"
+        ],
+        "answerKey": [
+          "En las selvas espesas de la hermosa y soleada Península de Yucatán.",
+          "De roca caliza suave y muy porosa.",
+          "Revela finalmente una piscina maravillosamente escondida, perfectamente cristalina y fresca de agua pura.",
+          "Lugares profundamente sagrados, muy importantes y extremadamente espirituales (portales al inframundo).",
+          "El aterrador inframundo (un lugar mitológico oscuro de los muertos).",
+          "Debido a la conexión espiritual poderosa, profunda y seria con los dioses (ofrendas).",
+          "Les encanta nadar, flotar, hacer esnórquel con seguridad y bucear profundamente."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Un cenote es una espectacular, sobrecogedora y bellísima dolina o pozo natural de agua dulce sumamente profunda, completamente característico y endémico de la plana y extensa geografía kárstica de la famosa Península de Yucatán en México. Estas verdaderamente fascinantes, intrincadas y antiquísimas formaciones geológicas surgen y se crean de manera dramática cuando la fina, frágil y porosa corteza de piedra caliza superficial se debilita inexorablemente y se derrumba colapsando por completo debido a la erosión pluvial, dejando así al descubierto ante el cielo una vasta, inexplorada e intrincada red subterránea de gélidos ríos y oscuras cavernas inundadas de aguas sorprendentemente cristalinas y puras. Hoy en día, los expertos estiman con gran asombro que miles de estos ocultos, sagrados y asombrosos cuerpos de agua salpican abundantemente como joyas turquesas toda la densa, calurosa y exuberante selva yucateca.\n\nPara la brillante, altamente avanzada y profundamente mística civilización precolombina maya, los abundantes cenotes trascendían por completo y con gran respeto la mera, básica y práctica función de ser simples reservas vitales de agua potable para sostener a sus populosas ciudades durante la brutal temporada de sequía. Por el contrario, eran venerados temerosa y profundamente como recintos sagrados, absolutos e impenetrablemente enigmáticos, considerados por los sacerdotes como los portales físicos, oscuros y espirituales de acceso directo y unidireccional hacia el temido inframundo, el mítico, sombrío y despiadado reino de los muertos conocido en su religión como Xibalbá. Movidos intensamente por esta profunda reverencia cosmológica y el miedo a los dioses subterráneos, los antiguos líderes mayas realizaban constantemente elaboradas y sangrientas ceremonias rituales en sus escarpadas orillas. En las misteriosas, silenciosas y gélidas profundidades de sus aguas, los valientes y modernos arqueólogos subacuáticos han rescatado meticulosamente invaluables ofrendas rituales prehispánicas, que abarcan desde exquisita y frágil cerámica pintada y preciosos metales labrados de oro, hasta macabros y escalofriantes vestigios de sacrificios humanos, incluyendo cráneos y huesos de prisioneros y doncellas.\n\nEn la actualidad turística contemporánea, los antiguos y místicos cenotes se han transformado rápida y rentablemente en verdaderos, magnéticos y obligatorios imanes del ecoturismo de aventura a nivel mundial. Viajeros internacionales curiosos y expertos espeleólogos acuden masivamente y emocionados cada verano para nadar plácidamente, practicar esnórquel y bucear arriesgadamente en cuevas para maravillarse ante las impresionantes, gigantescas y milenarias formaciones minerales de afiladas estalactitas y pesadas estalagmitas que decoran las oscuras bóvedas submarinas. Sumergirse en estas frescas, silenciosas y casi místicas aguas color esmeralda profundo, completamente envueltos por la verde majestuosidad de las gruesas lianas de la selva colgante y el pesado, palpable e intenso misticismo del glorioso y sangriento pasado indígena, es indudablemente una experiencia vacacional genuinamente transformadora, purificadora e inolvidable para el alma.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué tipo de corteza frágil se derrumba para formar un cenote?",
+          "¿Qué revelan estas formaciones al colapsar el techo de la caverna?",
+          "¿Qué trascendían los cenotes para la civilización maya?",
+          "¿Cómo se conocía al mítico y temido reino del inframundo maya?",
+          "¿Qué han rescatado los arqueólogos submarinos en las profundidades de sus aguas?",
+          "¿En qué se han transformado los cenotes en la actualidad para el turismo?",
+          "¿Qué formaciones milenarias maravillan a los espeleólogos bajo el agua?"
+        ],
+        "answerKey": [
+          "La fina, frágil y porosa corteza de piedra caliza superficial.",
+          "Una vasta, inexplorada e intrincada red subterránea de gélidos ríos y oscuras cavernas inundadas de aguas cristalinas.",
+          "Trascendían la mera, básica y práctica función de ser simples reservas vitales de agua potable.",
+          "Xibalbá.",
+          "Invaluables ofrendas rituales (cerámica pintada, preciosos metales de oro y vestigios de sacrificios humanos).",
+          "En verdaderos, magnéticos y obligatorios imanes del ecoturismo de aventura a nivel mundial.",
+          "Las impresionantes, gigantescas y milenarias formaciones minerales de afiladas estalactitas y pesadas estalagmitas."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Los Gauchos",
+    "imageFileName": "gauchos.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The gauchos are the legendary, incredibly skilled, and brave horsemen and cowboys of South America. They are a massive, powerful symbol of fierce freedom, strong independence, and deep cultural pride, especially in the vast, flat plains of Argentina, Uruguay, and southern Brazil, a beautiful, grassy region famously known as 'las Pampas.' Historically, for many hundreds of years, these tough gauchos lived a very rugged, nomadic, and solitary lifestyle far away from busy cities. They spent almost all of their time living outside, constantly riding their beloved, fast horses across the endless, open grasslands and expertly herding massive numbers of wild cattle under the hot sun and cold stars.\n\nTheir unique, traditional clothing is highly recognizable and perfectly practical for surviving and living outside in the wild, unpredictable nature. A hardworking gaucho typically wears very loose-fitting, comfortable trousers called 'bombachas,' a wide, heavy leather belt beautifully decorated with shiny silver coins, tall, strong leather riding boots, and a thick, heavy woolen 'poncho' to safely protect them from the freezing winter wind and heavy rain. They were also absolute, undisputed masters of throwing 'las boleadoras.' This is a very clever, traditional hunting tool carefully made of heavy, round stones tightly tied to the ends of long, strong leather cords, which the gauchos expertly threw through the air to safely catch fast-running animals by tightly wrapping the cords around their moving legs.\n\nToday, while modern farming machines and large agriculture businesses have definitely changed their historic, quiet lifestyle, the proud, powerful, and independent spirit of the legendary gaucho is still very much alive and deeply respected. Their deep, lifelong connection to the land and the animals created some of South America's absolute most famous and beloved traditions. Even today, when you happily gather around a warm, crackling fire with good friends and family to share a delicious, traditional 'asado' (a slow-cooked meat barbecue) and slowly pass around a hot, bitter cup of 'mate' to drink, you are actively honoring the rich, beautiful, and enduring cultural legacy of the South American gaucho.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Who are the gauchos?",
+          "In what region do the gauchos primarily live?",
+          "What kind of lifestyle did the gauchos historically live?",
+          "What are 'bombachas'?",
+          "What did gauchos wear to protect themselves from the cold wind and rain?",
+          "What are 'las boleadoras' and how are they used?",
+          "What two famous South American traditions come from the gauchos?"
+        ],
+        "answerKey": [
+          "Legendary, incredibly skilled horsemen and cowboys of South America.",
+          "'Las Pampas' (vast plains of Argentina, Uruguay, and southern Brazil).",
+          "A rugged, nomadic, and solitary lifestyle herding massive numbers of cattle.",
+          "Very loose-fitting, comfortable trousers.",
+          "A thick, heavy woolen 'poncho'.",
+          "A traditional hunting tool made of stones and leather cords used to safely catch fast-running animals.",
+          "The traditional 'asado' (barbecue) and drinking a hot cup of 'mate'."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Los gauchos son los jinetes y vaqueros legendarios, increíblemente hábiles y valientes de América del Sur. Ellos son un símbolo masivo y poderoso de libertad feroz, fuerte independencia y profundo orgullo cultural, especialmente en las llanuras vastas y planas de Argentina, Uruguay y el sur de Brasil, una región hermosa y cubierta de hierba famosamente conocida como 'las Pampas'. Históricamente, por muchos cientos de años, estos gauchos duros vivieron un estilo de vida muy rústico, nómada y solitario muy lejos de las ciudades ocupadas. Pasaban casi todo su tiempo viviendo afuera, montando constantemente sus caballos amados y rápidos por los campos abiertos e infinitos, y cuidando expertamente grupos enormes de vacas salvajes bajo el sol caliente y las estrellas frías.\n\nSu ropa tradicional y única es muy fácil de reconocer y perfectamente práctica para sobrevivir y vivir afuera en la naturaleza salvaje e impredecible. Un gaucho trabajador normalmente lleva pantalones muy sueltos y cómodos llamados 'bombachas', un cinturón de cuero ancho y pesado bellamente decorado con monedas de plata brillantes, botas de montar altas y fuertes de cuero, y un 'poncho' de lana grueso y pesado para protegerse con seguridad del viento helado del invierno y la lluvia fuerte. También eran maestros absolutos e indiscutibles lanzando 'las boleadoras'. Esta es una herramienta de caza muy inteligente y tradicional hecha cuidadosamente de piedras pesadas y redondas fuertemente atadas a los extremos de cuerdas largas y fuertes de cuero, que los gauchos lanzaban expertamente por el aire para atrapar con seguridad a los animales que corrían rápido envolviendo fuertemente las cuerdas alrededor de sus piernas en movimiento.\n\nHoy en día, aunque las máquinas agrícolas modernas y los grandes negocios de agricultura definitivamente han cambiado su estilo de vida histórico y tranquilo, el espíritu orgulloso, poderoso e independiente del gaucho legendario todavía está muy vivo y profundamente respetado. Su conexión profunda y de toda la vida con la tierra y los animales creó algunas de las tradiciones absolutamente más famosas y queridas de América del Sur. Incluso hoy, cuando te reúnes felizmente alrededor de un fuego cálido y crepitante con buenos amigos y familiares para compartir un delicioso 'asado' tradicional (una barbacoa de carne cocinada lentamente) y pasas lentamente una taza caliente y amarga de 'mate' para beber, estás honrando activamente el legado cultural rico, hermoso y duradero del gaucho sudamericano.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Quiénes son los gauchos y qué simbolizan?",
+          "¿Cómo se llama la región de llanuras donde viven?",
+          "¿Cómo era el estilo de vida histórico de los gauchos?",
+          "¿Qué ropa llevan los gauchos para protegerse del viento y la lluvia?",
+          "¿De qué están hechas 'las boleadoras'?",
+          "¿Para qué usan los gauchos 'las boleadoras'?",
+          "¿Qué dos tradiciones famosas honran la cultura del gaucho hoy en día?"
+        ],
+        "answerKey": [
+          "Jinetes y vaqueros legendarios de América del Sur que simbolizan libertad, independencia y orgullo cultural.",
+          "'Las Pampas'.",
+          "Rústico, nómada y solitario, montando caballos y cuidando vacas.",
+          "Un 'poncho' de lana grueso y pesado.",
+          "Piedras pesadas atadas a cuerdas largas de cuero.",
+          "Para atrapar con seguridad a los animales que corren rápido por las piernas.",
+          "Compartir un 'asado' (barbacoa) y beber 'mate'."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Los emblemáticos gauchos, los intrépidos, solitarios y legendarios jinetes ecuestres de América del Sur, constituyen indiscutiblemente un poderoso e inquebrantable símbolo histórico de libertad absoluta, destreza física y arraigado orgullo nacional. Su estoica y romántica figura está indisoluble y poéticamente ligada a 'las Pampas', las inmensas, fértiles e interminables llanuras verdes que se extienden majestuosamente como un océano de hierba por los territorios de Argentina, Uruguay y el sur de Brasil. Históricamente, el rudo gaucho llevaba una vida nómada, rústica y extremadamente solitaria, cabalgando incansablemente día y noche por la vasta e inhóspita llanura, domesticando magistralmente caballos salvajes indómitos y guiando expertos enormes rebaños de ganado bovino bajo el inmenso cielo abierto, forjando un carácter taciturno y resiliente.\n\nSu pintoresca e inconfundible indumentaria tradicional está perfecta y estratégicamente adaptada a las severas inclemencias del impredecible clima pampeano y a las rudas exigencias del trabajo rural a caballo. Visten holgados y cómodos pantalones plisados denominados 'bombachas' (que facilitan la monta), un ancho cinturón de cuero rústico llamado rastra, ostentosamente adornado con pesadas monedas o apliques de plata, resistentes botas de potro, y un grueso e indispensable 'poncho' de lana tejida a mano que les sirve simultáneamente de abrigo impermeable contra la lluvia helada y de lecho improvisado en la intemperie. Eran y siguen siendo maestros indiscutibles e infalibles en el manejo acrobático de 'las boleadoras', un ingenioso y antiguo instrumento de caza indígena compuesto por tres pesadas piedras esféricas forradas en cuero y unidas por resistentes tientos trenzados, diseñado aerodinámicamente para ser arrojado girando en el aire, enredarse firmemente en las veloces patas de los ñandúes o el ganado y derribarlos instantáneamente sin causarles ningún daño letal.\n\nAunque la implacable modernización tecnológica, el cercamiento de los campos mediante alambres de púa y la explotación agrícola industrial han transformado radical y definitivamente el paisaje y las costumbres del territorio pampeano, el espíritu noble e indomable del gaucho perdura firmemente anclado en la profunda identidad folclórica sudamericana. Su profundo, místico e inalienable vínculo con la tierra cimentó tradiciones culturales inquebrantables que definen a estas naciones; el acto comunal y casi sagrado de reunirse sin prisas alrededor de un cálido fogón de leña para degustar un suculento y lento 'asado' vacuno y compartir fraternales rondas de la amarga infusión de 'mate', es, en esencia, un hermoso tributo viviente a su eterno y valioso legado cultural de hospitalidad y camaradería.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿A qué región geográfica está indisolublemente ligada la figura del gaucho?",
+          "¿Cómo se describe la vida histórica del gaucho en las llanuras?",
+          "¿Por qué la indumentaria tradicional del gaucho es inconfundible y útil?",
+          "¿Qué función múltiple cumple el grueso 'poncho' de lana para el gaucho?",
+          "¿Qué son 'las boleadoras' y cómo funcionan?",
+          "¿Qué ha transformado radicalmente el paisaje pampeano en tiempos recientes?",
+          "¿Qué actos cotidianos son considerados un tributo viviente al legado del gaucho?"
+        ],
+        "answerKey": [
+          "A 'las Pampas' (inmensas llanuras verdes en Argentina, Uruguay y el sur de Brasil).",
+          "Nómada, rústica y extremadamente solitaria, cabalgando incansablemente y guiando enormes rebaños de ganado.",
+          "Porque está perfecta y estratégicamente adaptada a las severas inclemencias del clima y al trabajo rural.",
+          "Le sirve simultáneamente de abrigo impermeable contra la lluvia y de lecho improvisado en la intemperie.",
+          "Un antiguo instrumento de caza (piedras unidas por cuerdas) que se arroja para enredarse en las patas de los animales y derribarlos.",
+          "La modernización tecnológica, el cercamiento de los campos y la explotación agrícola industrial.",
+          "Reunirse alrededor de un fogón para degustar un suculento 'asado' y compartir rondas de 'mate'."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Camino de Santiago",
+    "imageFileName": "camino_santiago.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "El Camino de Santiago, which is widely known and famous in English as The Way of Saint James, is a truly massive, incredibly ancient, and highly historical network of long pilgrimage walking routes stretching safely all across the continent of Europe. Beautifully, all of these old, historic dirt paths eventually merge together like rivers and lead millions of tired walkers to one final, glorious destination: the magnificent, towering stone cathedral perfectly located right in the center of the city of Santiago de Compostela, in the beautiful, rainy, and green northwestern region of Galicia, Spain. According to ancient, deep Catholic tradition and history, the holy physical remains of Saint James the Apostle are permanently buried safely inside a silver box within this grand, beautiful cathedral.\n\nFor well over a thousand long years, millions of dedicated 'peregrinos' (the Spanish word for pilgrims) from all walks of life have bravely walked these challenging, exhausting, but highly rewarding paths. To clearly and safely guide them on their incredibly long, confusing journey through forests and mountains, the entire massive route is carefully and constantly marked with simple, bright yellow painted arrows and the official, famous symbol of the entire Camino: the iconic scallop shell (known as 'la concha'). Proud pilgrims very often attach a real, white scallop shell dangling from their heavy travel backpacks to instantly show other walkers they are officially walking the sacred route. Instead of staying comfortably in highly expensive, fancy private hotels every night, the exhausted walkers usually sleep in very cheap, basic, and highly social shared hostels called 'albergues,' where they happily cook food and make lifelong friends with interesting people visiting from all over the entire world.\n\nToday, many different people bravely choose to walk the incredibly long Camino for many different, deeply personal reasons. While some dedicated people definitely still walk strictly for deep religious or quiet spiritual reasons, many others eagerly walk simply to enjoy the beautiful, untouched Spanish nature, purposefully disconnect their minds from modern technology and noisy cell phones, or push their bodies through a very difficult, extreme physical hiking challenge. Finally arriving tired and dirty at the grand plaza in front of the final cathedral after walking for many hundreds of miles is an incredibly emotional, powerful, and truly unforgettable human experience that often brings people to happy tears.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What is El Camino de Santiago?",
+          "What is the final destination for all the pilgrimage routes?",
+          "Who is traditionally buried inside the final cathedral?",
+          "What two symbols guide the pilgrims along the paths?",
+          "What do pilgrims often attach to their backpacks?",
+          "Where do walkers typically sleep instead of hotels?",
+          "What are three modern reasons people walk the Camino today?"
+        ],
+        "answerKey": [
+          "A truly massive, incredibly ancient network of long pilgrimage walking routes.",
+          "The magnificent cathedral in the city of Santiago de Compostela, Spain.",
+          "The holy physical remains of Saint James the Apostle.",
+          "Simple, bright yellow painted arrows and the iconic scallop shell ('la concha').",
+          "A real, white scallop shell.",
+          "In very cheap, basic, and highly social shared hostels called 'albergues'.",
+          "For spiritual reasons, to enjoy untouched Spanish nature, or to complete a difficult physical hiking challenge."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El Camino de Santiago es una red verdaderamente masiva, increíblemente antigua y muy histórica de rutas largas de peregrinación para caminar que se extienden con seguridad por todo el continente de Europa. Maravillosamente, todos estos caminos de tierra viejos e históricos eventualmente se unen como ríos y llevan a millones de caminantes cansados a un destino final y glorioso: la magnífica y altísima catedral de piedra perfectamente ubicada justo en el centro de la ciudad de Santiago de Compostela, en la hermosa, lluviosa y verde región del noroeste de Galicia, España. Según la antigua y profunda tradición e historia católica, los restos físicos y santos del apóstol Santiago están enterrados permanentemente y con seguridad dentro de una caja de plata dentro de esta gran y hermosa catedral.\n\nDurante más de mil largos años, millones de 'peregrinos' dedicados de todos los estilos de vida han caminado valientemente por estos caminos desafiantes, agotadores pero muy gratificantes. Para guiarlos clara y seguramente en su viaje increíblemente largo y confuso a través de bosques y montañas, toda la ruta masiva está marcada cuidadosa y constantemente con flechas simples pintadas de color amarillo brillante y el símbolo oficial y famoso de todo el Camino: la icónica concha de vieira (conocida como 'la concha'). Los peregrinos orgullosos muy a menudo atan una concha de vieira real y blanca que cuelga de sus pesadas mochilas de viaje para mostrar al instante a otros caminantes que están caminando oficialmente la ruta sagrada. En lugar de quedarse cómodamente en hoteles privados muy caros y lujosos cada noche, los caminantes agotados generalmente duermen en hostales compartidos muy baratos, básicos y muy sociales llamados 'albergues', donde cocinan felizmente y hacen amigos para toda la vida con personas interesantes de todo el mundo.\n\nHoy en día, muchas personas diferentes eligen valientemente caminar el increíblemente largo Camino por muchas razones diferentes y profundamente personales. Mientras que algunas personas dedicadas definitivamente todavía caminan estrictamente por razones religiosas profundas o espirituales tranquilas, muchas otras caminan ansiosamente simplemente para disfrutar de la hermosa naturaleza española intacta, desconectar a propósito sus mentes de la tecnología moderna y los teléfonos celulares ruidosos, o empujar sus cuerpos a través de un desafío físico extremo y muy difícil de senderismo. Finalmente llegar cansado y sucio a la gran plaza frente a la catedral final después de caminar por muchos cientos de millas es una experiencia humana increíblemente emocional, poderosa y verdaderamente inolvidable que a menudo hace que las personas lloren de felicidad.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde terminan todos los caminos históricos de esta ruta?",
+          "¿De quién son los restos enterrados en la catedral según la tradición?",
+          "¿Qué símbolos marcan el camino para guiar a los peregrinos?",
+          "¿Qué ponen los peregrinos en sus mochilas?",
+          "¿Dónde duermen los caminantes en lugar de hoteles caros?",
+          "¿Por qué razones caminan las personas el Camino hoy en día?",
+          "¿Cómo es la experiencia de llegar a la catedral al final?"
+        ],
+        "answerKey": [
+          "En la magnífica catedral en la ciudad de Santiago de Compostela, España.",
+          "Los restos físicos y santos del apóstol Santiago.",
+          "Flechas pintadas de amarillo brillante y la icónica concha de vieira ('la concha').",
+          "Una concha de vieira real y blanca.",
+          "En hostales compartidos muy baratos, básicos y sociales llamados 'albergues'.",
+          "Por razones espirituales, para disfrutar de la naturaleza española o para un desafío físico extremo.",
+          "Es una experiencia humana increíblemente emocional, poderosa y verdaderamente inolvidable."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El legendario Camino de Santiago es una milenaria, extensa y vasta red internacional de históricas rutas de peregrinación pedestre que se entrelazan laberínticamente a través de todo el continente de Europa, convergiendo finalmente e inexorablemente en un único y glorioso destino final: la majestuosa e imponente catedral románica y barroca de Santiago de Compostela, magistralmente situada en la frondosa, lluviosa y esmeralda región de Galicia, en el extremo noroeste de España. Según la profundamente arraigada tradición católica medieval, este monumental templo religioso de piedra custodia celosamente en una urna de plata el sepulcro sagrado con los restos mortales del apóstol Santiago el Mayor, atrayendo magnéticamente a fervientes devotos y viajeros curiosos ininterrumpidamente desde la oscura Edad Media.\n\nA lo largo de los cambiantes siglos, incontables millones de 'peregrinos' han recorrido a pie, en bicicleta o a caballo estos sumamente exigentes, agotadores y transformadores senderos montañosos. Para orientarse visualmente y no extraviarse en su ardua y solitaria travesía, se guían instintivamente por la omnipresencia de inconfundibles y rústicas flechas amarillas pintadas a mano sobre rocas y árboles, así como por el emblema universal y protector de la milenaria ruta: la estriada concha de vieira. Es una costumbre sumamente entrañable, arraigada y casi obligatoria que los exhaustos caminantes cuelguen orgullosamente una concha natural en sus pesadas mochilas como un visible y respetado distintivo internacional de su sagrado viaje. Durante la larga y penosa travesía, el espíritu humano de fraternidad y solidaridad incondicional es absolutamente palpable en el ambiente; los peregrinos pernoctan humildemente en austeros y ruidosos 'albergues' comunitarios, donde comparten generosamente sus escasos víveres, curan solidariamente sus dolorosas ampollas y forjan amistades internacionales verdaderamente inquebrantables con completos desconocidos.\n\nEn la vertiginosa y desconectada actualidad del siglo XXI, las motivaciones personales íntimas para emprender voluntariamente esta agotadora odisea física y mental son profundamente heterogéneas y complejas. Mientras que un porcentaje de caminantes indudablemente continúa buscando una profunda y silenciosa revelación espiritual o religiosa purificadora, una abrumadora mayoría recorre el demandante Camino buscando desesperadamente un espacio de introspección psicológica, un escape radical y curativo del incesante bullicio tecnológico y urbano, o bien, un formidable y extremo desafío de resistencia física personal. La ansiada y dolorosa llegada a la inmensa y empedrada plaza del Obradoiro, alzando la vista frente a la ornamentada e imponente fachada de la catedral tras haber caminado ininterrumpidamente cientos de extenuantes kilómetros, culmina invariablemente en una catarsis emocional abrumadora, lágrimas de júbilo y una sensación de logro verdaderamente indescriptible e inolvidable para el alma humana.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué destino final convergen inexorablemente todas las rutas?",
+          "¿Qué custodia celosamente el templo monumental según la tradición?",
+          "¿Por cuáles dos elementos inconfundibles se guían los caminantes para orientarse?",
+          "¿Qué costumbre entrañable realizan los caminantes con sus mochilas?",
+          "¿Dónde pernoctan los peregrinos y qué espíritu predomina allí?",
+          "¿Cuáles son algunas de las motivaciones heterogéneas modernas para hacer la ruta?",
+          "¿Qué ocurre emocionalmente al llegar a la plaza del Obradoiro frente a la catedral?"
+        ],
+        "answerKey": [
+          "En la majestuosa e imponente catedral de Santiago de Compostela, en Galicia.",
+          "Custodia celosamente en una urna de plata el sepulcro sagrado con los restos mortales del apóstol Santiago el Mayor.",
+          "Por inconfundibles flechas amarillas pintadas a mano y el emblema de la estriada concha de vieira.",
+          "Cuelgan orgullosamente una concha natural en sus pesadas mochilas como un visible distintivo de su viaje.",
+          "Pernoctan en austeros 'albergues' comunitarios donde predomina un espíritu de fraternidad y solidaridad incondicional.",
+          "Buscar una revelación espiritual, un espacio de introspección psicológica, un escape del bullicio tecnológico o un desafío de resistencia física.",
+          "Culmina invariablemente en una catarsis emocional abrumadora, lágrimas de júbilo y una sensación de logro verdaderamente indescriptible."
+        ]
+      }
+    }
   }
 
 
