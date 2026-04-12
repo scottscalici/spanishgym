@@ -10200,6 +10200,8 @@
       }
     }
   },
+
+  
   {
     "topicName": "¿Qué es el Cinco de Mayo?",
     "imageFileName": "cinco_de_mayo_overview.png",
@@ -10275,7 +10277,162 @@
       }
     }
   },
+
+  
+      {
+    "topicName": "La Batalla de Puebla",
+    "imageFileName": "batalla_puebla.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The famous Batalla de Puebla (Battle of Puebla) is the deeply historical and heroic event that the Cinco de Mayo holiday proudly celebrates today. This massive, dramatic military conflict took place on the morning of May 5, 1862, near the beautiful, historic city of Puebla, Mexico. During this very dark and difficult time period, the young country of Mexico was being violently and aggressively invaded by a massive, highly trained foreign army sent entirely across the ocean from the wealthy country of France. The arrogant French soldiers planned to quickly march directly into the capital, Mexico City, to take total control of the entire nation.\n\nHowever, to successfully reach the distant capital, the French army absolutely had to march through the city of Puebla first. Waiting bravely for them there was a much smaller, poorly equipped Mexican army beautifully led by a highly intelligent, courageous, and young military leader named General Ignacio Zaragoza. The invading French army had over six thousand professional, heavily armed soldiers, while Zaragoza only had about four thousand brave men, many of whom were just poor, local farmers armed with simple farming tools, old machetes, and pure patriotic determination.\n\nAgainst all impossible odds, the brave Mexican soldiers miraculously won the massive, bloody battle! During the fierce, loud fighting, a heavy, sudden rainstorm quickly turned the battlefield into thick, slippery mud, which made it incredibly difficult for the heavy French cannons and horses to move. General Zaragoza cleverly used the rough, muddy terrain to completely stop the powerful French attacks. Although this surprising, incredible victory did not immediately win the entire war, it successfully provided a massive, deeply emotional boost of hope, joy, and powerful national pride for the struggling Mexican people.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What historical event does the Cinco de Mayo holiday proudly celebrate?",
+          "When and where did this massive military conflict take place?",
+          "What wealthy foreign country violently invaded Mexico?",
+          "Who was the highly intelligent and courageous Mexican military leader?",
+          "What kind of weapons did many of the brave Mexican farmers use?",
+          "What sudden weather event turned the battlefield into thick, slippery mud?",
+          "What did this surprising victory provide for the struggling Mexican people?"
+        ],
+        "answerKey": [
+          "The famous Batalla de Puebla (Battle of Puebla).",
+          "On May 5, 1862, near the city of Puebla, Mexico.",
+          "France.",
+          "General Ignacio Zaragoza.",
+          "Simple farming tools and old machetes.",
+          "A heavy, sudden rainstorm.",
+          "A massive, deeply emotional boost of hope, joy, and powerful national pride."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La famosa Batalla de Puebla es el evento histórico que el día festivo del Cinco de Mayo celebra con orgullo hoy en día. Este conflicto militar ocurrió en la mañana del 5 de mayo de 1862, cerca de la hermosa ciudad de Puebla, México. Durante este tiempo difícil, el joven país de México estaba siendo invadido agresivamente por un ejército extranjero muy entrenado enviado desde Francia. Los soldados franceses planearon marchar directamente hacia la capital, la Ciudad de México, para tomar el control total de toda la nación.\n\nSin embargo, para llegar a la capital, el ejército francés tenía que marchar primero por la ciudad de Puebla. Esperando valientemente por ellos allí había un ejército mexicano mucho más pequeño y mal equipado liderado por un líder militar inteligente y joven llamado General Ignacio Zaragoza. El ejército invasor francés tenía más de seis mil soldados profesionales y armados, mientras que Zaragoza solo tenía alrededor de cuatro mil hombres valientes. Muchos de ellos eran solo campesinos locales armados con herramientas de agricultura, machetes viejos y pura determinación patriótica.\n\n¡Contra todas las probabilidades imposibles, los soldados mexicanos ganaron milagrosamente la batalla! Durante la lucha feroz, una tormenta de lluvia repentina convirtió rápidamente el campo de batalla en lodo resbaladizo. Esto hizo que fuera difícil para los cañones y caballos franceses moverse. El General Zaragoza usó inteligentemente el terreno lodoso para detener los poderosos ataques franceses. Esta victoria proporcionó un impulso masivo de esperanza y orgullo nacional.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué evento histórico y heroico celebra el día festivo del Cinco de Mayo?",
+          "¿Cuándo y dónde ocurrió este conflicto militar masivo y dramático?",
+          "¿Qué país rico y extranjero estaba invadiendo agresivamente a México?",
+          "¿Cómo se llamaba el líder militar mexicano muy inteligente y joven?",
+          "¿Qué tipo de armas tenían muchos de los campesinos locales valientes?",
+          "¿Qué evento del clima convirtió rápidamente el campo de batalla en lodo espeso?",
+          "¿Qué proporcionó esta victoria sorprendente para las personas mexicanas?"
+        ],
+        "answerKey": [
+          "La famosa Batalla de Puebla.",
+          "El 5 de mayo de 1862, cerca de la ciudad de Puebla.",
+          "Francia.",
+          "General Ignacio Zaragoza.",
+          "Herramientas simples de agricultura y machetes viejos.",
+          "Una tormenta de lluvia pesada y repentina.",
+          "Un impulso masivo de esperanza y orgullo nacional."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La gloriosa Batalla de Puebla constituye el épico episodio histórico que da verdadero origen y significado a la festividad del Cinco de Mayo. Este cruento choque armado tuvo lugar la lluviosa mañana del 5 de mayo de 1862 en las estratégicas inmediaciones de la ciudad de Puebla. En aquella época, la vulnerable república mexicana sufría una injustificada invasión militar perpetrada por el Segundo Imperio Francés. Las confiadas tropas invasoras europeas tenían el claro objetivo de avanzar rápidamente hacia la Ciudad de México para derrocar al gobierno legítimo y establecer un dominio imperial sobre la nación americana.\n\nPara alcanzar la anhelada capital, el ejército expedicionario francés, comandado por el Conde de Lorencez, debía atravesar la ciudad de Puebla. En los fuertes defensivos de Guadalupe y Loreto los aguardaba un contingente militar mexicano inferior en número, liderado con brillantez táctica por el joven General Ignacio Zaragoza. Mientras los invasores ostentaban más de seis mil soldados de élite equipados, Zaragoza comandaba a unos cuatro mil hombres, incluyendo un alto porcentaje de valerosos indígenas zacapoaxtlas armados rudimentariamente con machetes, hondas y herramientas agrícolas.\n\nDesafiando todo pronóstico lógico, las fuerzas mexicanas se alzaron con una milagrosa victoria táctica. Durante el feroz combate, una torrencial tormenta primaveral transformó drásticamente el escarpado terreno en un lodazal intransitable, inutilizando por completo la artillería y la letal caballería francesa. Zaragoza aprovechó magistralmente esta ventaja para repeler y aplastar los embates enemigos. Aunque este triunfo monumental no puso fin a la guerra, inyectó una dosis invaluable de fervor patriótico.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué episodio heroico da verdadero origen a la festividad del Cinco de Mayo?",
+          "¿Qué imperio europeo perpetraba una agresiva invasión militar contra la república mexicana?",
+          "¿Cuál era el claro objetivo táctico de las tropas invasoras europeas al avanzar hacia la capital?",
+          "¿Quién lideró con brillantez táctica al contingente militar mexicano en los fuertes defensivos?",
+          "¿Qué tipo de armas rudimentarias portaban los valerosos indígenas zacapoaxtlas?",
+          "¿Qué fenómeno meteorológico transformó drásticamente el terreno durante el feroz combate?",
+          "¿Qué inyectó este triunfo monumental en la sociedad a pesar de no poner fin a la guerra?"
+        ],
+        "answerKey": [
+          "La gloriosa y célebre Batalla de Puebla.",
+          "El Segundo Imperio Francés.",
+          "Derrocar al gobierno legítimo y establecer un dominio imperial absoluto sobre la nación.",
+          "El audaz General Ignacio Zaragoza.",
+          "Machetes, hondas y herramientas agrícolas.",
+          "Una repentina y torrencial tormenta primaveral.",
+          "Inyectó una dosis invaluable de fervor patriótico."
+        ]
+      }
+    }
+  },
+
+  
   {
+    "topicName": "¿Por qué invadió Francia a México?",
+    "imageFileName": "francia_en_mexico.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "To truly understand why the famous Battle of Puebla happened on Cinco de Mayo, it is incredibly important to learn exactly why the powerful French army was fighting in Mexico in the first place. In the difficult year of 1861, Mexico was suffering from a massive, terrible financial crisis. Because the struggling country had just fought a very long, highly destructive, and exhausting civil war, the national government was completely broke and had absolutely no 'dinero' (money) left in the bank. The brave Mexican President, Benito Juárez, made a very difficult, risky decision. He officially announced that Mexico was going to completely pause paying all of its heavy foreign debts to the wealthy countries of Europe for exactly two years.\n\nThis surprising, bold decision immediately angered three very powerful European countries: Spain, Great Britain, and France. To fiercely demand their missing money back, all three angry countries aggressively sent heavily armed, intimidating military ships across the ocean to the Mexican port city of Veracruz. President Juárez quickly sent smart diplomats to calmly negotiate with the angry European leaders. After talking peacefully, Spain and Great Britain cleverly agreed to a new, fair payment plan, proudly packed up their heavy military ships, and sailed back home. \n\nHowever, the ambitious, greedy ruler of France, Emperor Napoleon III, absolutely refused to leave Mexico. He actually had a massive, hidden, and highly secret goal. Napoleon III didn't just want his missing money back; he desperately wanted to conquer the weakened Latin American country to quickly build a powerful, massive new French empire directly in the Americas! He selfishly thought that invading Mexico would be incredibly fast and perfectly easy, but he greatly underestimated the intense, powerful bravery of the proud Mexican people.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What was Mexico suffering from in the difficult year of 1861?",
+          "Who was the brave Mexican President that made a risky decision?",
+          "What did the President announce regarding Mexico's heavy foreign debts?",
+          "Which three powerful European countries were angered by this decision?",
+          "Where did the three angry countries aggressively send their military ships?",
+          "Which two countries agreed to a new plan and sailed back home?",
+          "What was Emperor Napoleon III's massive, secret goal in Mexico?"
+        ],
+        "answerKey": [
+          "A massive, terrible financial crisis.",
+          "Benito Juárez.",
+          "That Mexico was going to completely pause paying its debts for exactly two years.",
+          "Spain, Great Britain, and France.",
+          "To the Mexican port city of Veracruz.",
+          "Spain and Great Britain.",
+          "To conquer the country and build a powerful, massive new French empire in the Americas."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Para entender realmente por qué ocurrió la famosa Batalla de Puebla el Cinco de Mayo, es increíblemente importante aprender exactamente por qué el poderoso ejército francés estaba luchando en México. En el difícil año de 1861, México sufría de una crisis financiera masiva y terrible. Porque el país había luchado en una guerra civil muy larga, destructiva y agotadora, el gobierno nacional estaba completamente en la ruina y no tenía absolutamente nada de dinero en el banco. El valiente presidente mexicano, Benito Juárez, tomó una decisión muy difícil y arriesgada. Él anunció oficialmente que México iba a pausar completamente el pago de todas sus pesadas deudas extranjeras a los países ricos de Europa por exactamente dos años.\n\nEsta decisión sorprendente y audaz enojó inmediatamente a tres países europeos muy poderosos: España, Gran Bretaña y Francia. Para exigir ferozmente su dinero, los tres países enojados enviaron agresivamente barcos militares fuertemente armados a la ciudad portuaria mexicana de Veracruz. El presidente Juárez envió rápidamente diplomáticos inteligentes para negociar tranquilamente con los líderes europeos enojados. Después de hablar pacíficamente, España y Gran Bretaña aceptaron un nuevo plan de pago justo, empacaron con orgullo sus pesados barcos militares y navegaron de regreso a casa.\n\nSin embargo, el gobernante ambicioso y codicioso de Francia, el emperador Napoleón III, se negó absolutamente a salir de México. Él en realidad tenía una meta masiva, oculta y muy secreta. Napoleón III no solo quería su dinero de vuelta; ¡él quería desesperadamente conquistar el país latinoamericano debilitado para construir rápidamente un nuevo imperio francés masivo y poderoso directamente en las Américas! Pensó egoístamente que invadir México sería increíblemente rápido y fácil, pero subestimó la valentía intensa de los orgullosos mexicanos.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué problema masivo y terrible sufría México en el año 1861?",
+          "¿Qué anuncio arriesgado hizo oficialmente el presidente Benito Juárez?",
+          "¿Qué tres países europeos poderosos se enojaron inmediatamente por la decisión?",
+          "¿A qué ciudad mexicana enviaron los países sus barcos militares fuertemente armados?",
+          "¿Qué dos países aceptaron un plan pacífico y navegaron de regreso a casa?",
+          "¿Qué emperador europeo ambicioso y codicioso se negó a salir de México?",
+          "¿Cuál era la meta oculta y secreta del líder francés en las Américas?"
+        ],
+        "answerKey": [
+          "De una crisis financiera masiva y terrible.",
+          "Anunció que México iba a pausar el pago de sus deudas extranjeras por dos años.",
+          "España, Gran Bretaña y Francia.",
+          "A la ciudad portuaria de Veracruz.",
+          "España y Gran Bretaña.",
+          "El emperador Napoleón III.",
+          "Conquistar el país para construir un nuevo imperio francés masivo y poderoso."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Para comprender a cabalidad el significado histórico de la Batalla de Puebla, resulta imperativo analizar el complejo contexto geopolítico que propició la invasión armada de Francia sobre el territorio mexicano. En 1861, la frágil república mexicana se encontraba sumida en una devastadora crisis económica, habiendo emergido recientemente de la Guerra de Reforma, un cruento conflicto civil interno que dejó las arcas nacionales en bancarrota. Ante la carencia de recursos financieros, el presidente Benito Juárez promulgó un audaz decreto que suspendía temporalmente, por un periodo de dos años, el pago de la deuda externa contraída con las potencias europeas.\n\nEsta drástica resolución diplomática enfureció de manera inmediata a los acreedores internacionales de México: España, el Reino Unido y el Segundo Imperio Francés. Como medida de presión militar, las tres naciones enviaron flotas armadas que fondearon frente al puerto de Veracruz. Afortunadamente, gracias a la hábil e inteligente diplomacia del gobierno juarista, los representantes de España y el Reino Unido aceptaron firmar los Tratados de La Soledad, mediante los cuales negociaron la futura reanudación de los pagos y retiraron sus contingentes bélicos del territorio nacional.\n\nSin embargo, el expansionista y codicioso emperador francés Napoleón III se rehusó tajantemente a retirar sus tropas. Su exigencia económica era, en realidad, un falso pretexto para encubrir sus verdaderas ambiciones imperialistas. Napoleón III anhelaba fervientemente aprovechar la debilidad política de la región y la distracción bélica de los Estados Unidos para instaurar a la fuerza una monarquía títere en México, creando así un lucrativo imperio francófono en el corazón de las Américas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué crisis estructural se encontraba sumida la frágil república mexicana en 1861?",
+          "¿Qué audaz decreto promulgó el presidente Benito Juárez por un periodo de dos años?",
+          "¿Qué tres naciones extranjeras se enfurecieron por esta drástica resolución diplomática?",
+          "¿A qué puerto estratégico enviaron las potencias europeas sus intimidantes flotas armadas?",
+          "¿Qué dos naciones firmaron los Tratados de La Soledad y retiraron sus tropas?",
+          "¿Por qué la exigencia económica del emperador francés Napoleón III era un burdo pretexto?",
+          "¿Qué anhelaba instaurar a la fuerza Napoleón III en el corazón de las Américas?"
+        ],
+        "answerKey": [
+          "En una devastadora e insostenible crisis económica estructural (y total bancarrota).",
+          "Suspendía temporalmente el oneroso pago de la aplastante deuda externa.",
+          "España, el Reino Unido y el Segundo Imperio Francés.",
+          "Frente al estratégico puerto de Veracruz.",
+          "España y el Reino Unido.",
+          "Para encubrir sus verdaderas y oscuras ambiciones imperialistas.",
+          "Una poderosa monarquía títere (un vasto y lucrativo imperio francófono)."
+        ]
+      }
+    }
+  },
+
+{
     "topicName": "El Cinco de Mayo vs. El Día de la Independencia",
     "imageFileName": "independence_confusion.png",
     "levels": {
@@ -10500,6 +10657,82 @@
       }
     }
   },
+   {
+    "topicName": "Símbolos y Tradiciones del Cinco de Mayo",
+    "imageFileName": "cinco_symbols.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "During modern Cinco de Mayo celebrations, the busy streets, sunny parks, and crowded restaurants are completely filled with beautiful, vibrant cultural symbols. The absolute most common visual symbols you will proudly see everywhere are the bright colors of the Mexican flag: verde (green), blanco (white), and rojo (red). These beautiful, meaningful colors are proudly displayed on massive banners, colorful hanging paper decorations called 'papel picado', and even in the traditional, delicious 'comida' (food) that excited people enthusiastically share with their family and close friends.\n\nLoud music and energetic dancing are also incredibly important, deeply beloved parts of the massive cultural celebration. You will constantly hear the loud, joyful sounds of traditional 'mariachi' bands playing classic Mexican songs in the streets. These highly talented musicians wear heavily decorated, elegant suits called 'trajes de charro' and expertly play acoustic guitars, shiny trumpets, and beautiful violins. Along with the loud 'música', you will very often see spectacular 'folklórico' dancers. The talented women wear incredibly wide, brightly colored dresses that gracefully swirl through the air, while the proud men wear traditional hats and loudly stomp their boots to the fast rhythm of the music.\n\nToday, these beautiful, highly expressive symbols are about much more than just remembering a historic military battle from 1862. The delicious, spicy food, loud mariachi music, and energetic traditional dancing are powerful, happy ways for people to proudly celebrate their rich, enduring Mexican-American heritage. By openly sharing these amazing, fun cultural traditions with their local communities, people can happily honor their deep family roots, celebrate their unique ethnic identity, and safely keep their beautiful history alive for the next young generation.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What are the three most common colors you will see during the celebration?",
+          "What are the colorful hanging paper decorations called?",
+          "What kind of traditional musicians wear elegant suits and play guitars, trumpets, and violins?",
+          "What is the highly decorated, elegant suit worn by the musicians called?",
+          "What do the talented women wear during the spectacular 'folklórico' dances?",
+          "What do the dancing men do to the fast rhythm of the music?",
+          "What do these beautiful symbols powerfully help people celebrate today?"
+        ],
+        "answerKey": [
+          "Verde (green), blanco (white), and rojo (red).",
+          "Papel picado.",
+          "Traditional 'mariachi' bands.",
+          "Trajes de charro.",
+          "Incredibly wide, brightly colored dresses that gracefully swirl through the air.",
+          "They loudly stomp their boots.",
+          "Their rich, enduring Mexican-American heritage."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Durante las celebraciones modernas del Cinco de Mayo, las calles ocupadas, los parques soleados y los restaurantes están completamente llenos de símbolos culturales hermosos y vibrantes. Los símbolos visuales absolutamente más comunes que verás en todas partes son los colores brillantes de la bandera mexicana: verde, blanco y rojo. Estos hermosos colores se muestran con orgullo en banderas masivas, decoraciones de papel coloridas llamadas 'papel picado', e incluso en la deliciosa comida tradicional que las personas emocionadas comparten con su familia y amigos cercanos.\n\nLa música fuerte y el baile enérgico también son partes increíblemente importantes y muy queridas de la celebración cultural masiva. Constantemente escucharás los sonidos fuertes y alegres de las bandas tradicionales de mariachi tocando canciones clásicas mexicanas en las calles. Estos músicos muy talentosos usan trajes elegantes y muy decorados llamados 'trajes de charro' y tocan expertamente guitarras acústicas, trompetas brillantes y violines hermosos. Junto con la música fuerte, muy a menudo verás espectaculares bailarines folclóricos. Las mujeres talentosas usan vestidos increíblemente anchos y de colores brillantes que giran con gracia por el aire, mientras que los hombres orgullosos usan sombreros tradicionales y pisan fuerte con sus botas al ritmo rápido de la música.\n\nHoy en día, estos hermosos y muy expresivos símbolos son mucho más que solo recordar una batalla militar histórica de 1862. La comida deliciosa y picante, la música fuerte de mariachi y el baile tradicional enérgico son formas poderosas y felices para que las personas celebren con orgullo su rica herencia mexicoamericana. Al compartir estas increíbles tradiciones culturales con sus comunidades, las personas pueden honrar sus raíces familiares, celebrar su identidad única y mantener viva su hermosa historia para la próxima generación joven.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cuáles son los tres colores brillantes de la bandera mexicana que verás en todas partes?",
+          "¿Cómo se llaman las decoraciones de papel coloridas que cuelgan en las calles?",
+          "¿Qué tipo de bandas tradicionales tocan canciones clásicas mexicanas con guitarras y trompetas?",
+          "¿Cómo se llama el traje elegante y muy decorado que usan los músicos?",
+          "¿Qué tipo de ropa usan las mujeres que bailan de forma espectacular?",
+          "¿Qué hacen los hombres con sus botas al ritmo rápido de la música?",
+          "¿Qué celebran con orgullo las personas a través de la comida, la música y el baile?"
+        ],
+        "answerKey": [
+          "Verde, blanco y rojo.",
+          "Papel picado.",
+          "Las bandas tradicionales de mariachi.",
+          "Trajes de charro.",
+          "Vestidos increíblemente anchos y de colores brillantes.",
+          "Pisan fuerte con sus botas.",
+          "Su rica herencia mexicoamericana."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Durante las festividades del Cinco de Mayo, avenidas, parques públicos y restaurantes se inundan de vibrantes símbolos culturales. Los elementos visuales más reconocibles que adornan el entorno son, sin duda, los vívidos colores patrios de la bandera mexicana: verde, blanco y rojo. Estas tonalidades tricolores se exhiben majestuosamente en estandartes, en los intrincados adornos colgantes conocidos como 'papel picado', e incluso en la riquísima gastronomía tradicional que las multitudes comparten con entusiasmo junto a sus seres queridos.\n\nLa música estridente y la danza folclórica constituyen pilares fundamentales de esta celebración intercultural. El ambiente festivo es dominado por los acordes jubilosos del mariachi tradicional. Estos virtuosos músicos, impecablemente ataviados con sus ornamentados y elegantes 'trajes de charro', ejecutan magistralmente guitarras, trompetas y violines. Acompañando esta expresión sonora, deslumbran los ballets folclóricos regionales; las talentosas bailarinas lucen faldas increíblemente amplias y multicolores que ondean y giran hipnóticamente en el aire, mientras que los enérgicos varones, portando sombreros de ala ancha, ejecutan un impecable zapateado al compás vertiginoso de la melodía.\n\nEn la actualidad, este rico despliegue de simbología estética y sonora trasciende la mera conmemoración de un lejano conflicto bélico decimonónico. La culinaria, el estruendo del mariachi y la vitalidad de la danza representan vehículos de expresión para que la diáspora hispana celebre, reafirme y visibilice con orgullo su inquebrantable herencia mexicoamericana. Al compartir estas tradiciones ancestrales, la comunidad logra honrar sus raíces, afianzar su identidad y preservar su legado para la posteridad.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cuáles son los tres vívidos colores patrios que adornan orgullosamente el entorno?",
+          "¿Cómo se conocen los intrincados y coloridos adornos de papel que se exhiben majestuosamente?",
+          "¿Qué agrupación musical tradicional domina constantemente el ambiente festivo?",
+          "¿Cómo se denominan los ornamentados y elegantes atuendos que visten los músicos?",
+          "¿Qué lucen las talentosas bailarinas de los ballets folclóricos regionales?",
+          "¿Qué acción ruidosa y enérgica ejecutan los varones al compás vertiginoso de la melodía?",
+          "¿Qué celebra, reafirma y visibiliza con orgullo la diáspora hispana a través de estos símbolos?"
+        ],
+        "answerKey": [
+          "Verde, blanco y rojo.",
+          "Papel picado.",
+          "El mariachi tradicional.",
+          "Trajes de charro.",
+          "Faldas increíblemente amplias y multicolores que ondean hipnóticamente en el aire.",
+          "Ejecutan un impecable zapateado.",
+          "Su inquebrantable herencia mexicoamericana."
+        ]
+      }
+    }
+  },
+ 
   {
     "topicName": "El Legado de la Batalla de Puebla",
     "imageFileName": "cinco_legacy.png",
@@ -10575,8 +10808,6 @@
       }
     }
   }
-
-
 
 
   
