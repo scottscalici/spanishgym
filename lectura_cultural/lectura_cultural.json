@@ -11038,6 +11038,81 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "Enrique Iglesias",
+    "imageFileName": "enrique_iglesias.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Enrique Iglesias is an incredibly famous, talented, and successful cantante (singer) from Madrid, Spain. He was born into a very musical family because his father, Julio Iglesias, is also a legendary, world-famous Spanish musician. Even though he was born in Europe, Enrique actually moved to the sunny city of Miami, Florida, when he was just a young boy. Growing up in Miami, he was constantly surrounded by many different, vibrant Latin American cultures.\n\nWhen he first started making música (music), Enrique secretly used a fake name because he wanted to become famous for his own pure talent, not just because of his famous father. His plan worked perfectly! Today, Enrique is widely known all over the world as the \"King of Latin Pop.\" He has sold over one hundred million records and won many important awards for his catchy, energetic canciones (songs).\n\nOne of the biggest reasons for his massive, international éxito (success) is his amazing ability to sing perfectly in both English and Spanish. He helped make Latin pop music incredibly popular in the United States with massive, record-breaking hit songs like \"Bailamos,\" \"Hero,\" and \"Bailando.\" People absolutely love his romantic ballads and his fast, fun dance music. Today, Enrique Iglesias is considered one of the most important, beloved, and influential pop artists in the entire history of Latin music.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was Enrique Iglesias born?",
+          "Who is his legendary, world-famous father?",
+          "Where did he move when he was just a young boy?",
+          "Why did he secretly use a fake name when he first started making music?",
+          "What title is he widely known by all over the world today?",
+          "What are two languages that he sings perfectly in?",
+          "What are the names of some of his massive, record-breaking hit songs?"
+        ],
+        "answerKey": [
+          "Madrid, Spain.",
+          "Julio Iglesias.",
+          "To the sunny city of Miami, Florida.",
+          "Because he wanted to become famous for his own pure talent, not just because of his famous father.",
+          "The \"King of Latin Pop.\"",
+          "English and Spanish.",
+          "\"Bailamos,\" \"Hero,\" and \"Bailando.\""
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Enrique Iglesias es un cantante increíblemente famoso, talentoso y exitoso de Madrid, España. Él nació en una familia muy musical porque su padre, Julio Iglesias, también es un músico español legendario y mundialmente famoso. Aunque nació en Europa, Enrique en realidad se mudó a la soleada ciudad de Miami, Florida, cuando era solo un niño. Al crecer en Miami, él estuvo constantemente rodeado de muchas culturas latinoamericanas diferentes y vibrantes.\n\nCuando empezó a hacer música por primera vez, Enrique usó secretamente un nombre falso porque quería ser famoso por su propio talento, no solo por su padre famoso. ¡Su plan funcionó perfectamente! Hoy en día, Enrique es muy conocido en todo el mundo como el \"Rey del Pop Latino\". Él ha vendido más de cien millones de discos y ha ganado muchos premios importantes por sus canciones pegadizas y enérgicas.\n\nUna de las razones más grandes de su éxito internacional y masivo es su habilidad increíble para cantar perfectamente en inglés y en español. Él ayudó a hacer que la música pop latina fuera increíblemente popular en los Estados Unidos con canciones de éxito masivas como \"Bailamos\", \"Hero\" y \"Bailando\". A las personas les encantan absolutamente sus baladas románticas y su música de baile rápida y divertida. Hoy en día, Enrique Iglesias es considerado uno de los artistas pop más importantes e influyentes en la historia de la música latina.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De dónde es Enrique Iglesias?",
+          "¿Quién es su padre legendario y mundialmente famoso?",
+          "¿A qué ciudad se mudó cuando era solo un niño?",
+          "¿Por qué usó secretamente un nombre falso cuando empezó a hacer música?",
+          "¿Cómo es conocido Enrique en todo el mundo hoy en día?",
+          "¿En qué dos idiomas tiene la habilidad increíble de cantar perfectamente?",
+          "¿Cuáles son algunas de sus canciones de éxito masivas?"
+        ],
+        "answerKey": [
+          "De Madrid, España.",
+          "Julio Iglesias.",
+          "A la soleada ciudad de Miami, Florida.",
+          "Porque quería ser famoso por su propio talento, no solo por su padre famoso.",
+          "Como el \"Rey del Pop Latino\".",
+          "En inglés y en español.",
+          "\"Bailamos\", \"Hero\" y \"Bailando\"."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Enrique Iglesias es, indiscutiblemente, uno de los cantantes y compositores más exitosos, galardonados e influyentes de la música contemporánea. Nacido en Madrid, España, proviene de un linaje inmensamente musical, ya que es hijo del legendario y mundialmente célebre cantante Julio Iglesias. A pesar de sus profundas raíces europeas, Enrique se trasladó a la vibrante ciudad de Miami, Florida, durante su infancia. Crecer en esta metrópolis multicultural lo expuso constantemente a una rica y diversa mezcla de ritmos latinoamericanos y caribeños que moldearían su futuro sonido.\n\nAl iniciar su carrera artística, Enrique utilizó estratégicamente un seudónimo ocultando su verdadero apellido. Él anhelaba fervientemente triunfar por su propio talento vocal y mérito personal, rechazando depender de la inmensa fama de su padre. ¡Su audaz estrategia funcionó a la perfección! En la actualidad, es coronado globalmente como el \"Rey del Pop Latino\", habiendo vendido más de cien millones de discos y acumulado innumerables galardones prestigiosos a lo largo de su impresionante trayectoria.\n\nSu rotundo y fenomenal éxito internacional se debe, en gran parte, a su magistral capacidad para interpretar éxitos tanto en inglés como en español. Enrique fue una figura absolutamente clave en el fenómeno del \"crossover\", popularizando masivamente el pop latino en el mercado anglosajón con himnos inolvidables como \"Bailamos\", \"Hero\" y el fenómeno global \"Bailando\". Gracias a su versatilidad para fusionar baladas románticas con ritmos urbanos y bailables, Enrique Iglesias ha dejado una huella imborrable e histórica en la industria musical.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde nació Enrique Iglesias?",
+          "¿Quién es su padre, el legendario y mundialmente célebre cantante?",
+          "¿A qué metrópolis multicultural se trasladó durante su infancia?",
+          "¿Por qué utilizó estratégicamente un seudónimo ocultando su verdadero apellido?",
+          "¿Con qué título es coronado globalmente en la actualidad?",
+          "¿En qué dos idiomas tiene la magistral capacidad para interpretar éxitos?",
+          "¿Cuáles son algunos de sus himnos inolvidables y fenómenos globales?"
+        ],
+        "answerKey": [
+          "En Madrid, España.",
+          "Julio Iglesias.",
+          "A la vibrante ciudad de Miami, Florida.",
+          "Porque anhelaba triunfar por su propio talento vocal y mérito personal, rechazando depender de la inmensa fama de su padre.",
+          "Como el \"Rey del Pop Latino\".",
+          "En inglés y en español.",
+          "\"Bailamos\", \"Hero\" y \"Bailando\"."
+        ]
+      }
+    }
   }
 
 
