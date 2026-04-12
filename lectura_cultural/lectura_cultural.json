@@ -10888,7 +10888,84 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "Eva Perón",
+    "imageFileName": "eva_peron.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Eva Perón, affectionately known as Evita by her millions of supporters, is one of the most famous and powerful women in the history of Argentina. Born into a very poor family in a small rural village, she bravely moved to the busy capital of Buenos Aires to become a successful actress. However, her life completely changed when she met and married a powerful politician named Juan Perón. When he became the President of Argentina in 1946, Eva proudly became the beloved Primera Dama (First Lady) of the country.\n\nInstead of staying quietly in the background, Eva actively used her massive political power to fiercely fight for the poor and working-class people, whom she lovingly called \"los descamisados\" (the shirtless ones). She created a massive foundation to quickly build modern hospitals, safe schools, and beautiful homes for families in need. Additionally, she was a fierce champion for women's rights and successfully helped Argentine women win the legal right to vote in 1947.\n\nTragically, Eva Perón became very sick and died of cancer when she was only thirty-three years old. Her sudden death broke the hearts of millions of working-class Argentines, who cried in the streets and started calling her the spiritual leader of the nation. Today, her dramatic, incredible life story is permanently immortalized in the famous Broadway musical *Evita*. She remains a deeply powerful, enduring symbol of hope, fierce political passion, and fighting for the poor in Latin America.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What was Eva Perón affectionately known as?",
+          "Where did she move to become an actress?",
+          "What role did she take on when her husband became president?",
+          "Who were \"los descamisados\"?",
+          "What right did she help Argentine women win in 1947?",
+          "At what age did she tragically die?",
+          "What famous Broadway musical immortalized her life story?"
+        ],
+        "answerKey": [
+          "Evita.",
+          "Buenos Aires.",
+          "The beloved Primera Dama (First Lady) of Argentina.",
+          "The poor and working-class people (the shirtless ones).",
+          "The legal right to vote.",
+          "Thirty-three years old.",
+          "*Evita*."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Eva Perón, conocida cariñosamente como Evita por sus seguidores, es una de las mujeres más famosas y poderosas en la historia de Argentina. Ella nació en una familia muy pobre en un pequeño pueblo y se mudó valientemente a la capital de Buenos Aires para ser una actriz exitosa. Sin embargo, su vida cambió por completo cuando conoció y se casó con un político poderoso llamado Juan Perón. Cuando él se convirtió en el presidente de Argentina en 1946, Eva se convirtió con orgullo en la querida Primera Dama del país.\n\nEn lugar de quedarse callada en el fondo, Eva usó activamente su poder político para luchar ferozmente por las personas pobres y de la clase trabajadora. Ella los llamaba con amor \"los descamisados\". Ella creó una gran fundación para construir rápidamente hospitales modernos, escuelas seguras y casas hermosas para las familias necesitadas. Además, fue una gran defensora de los derechos de las mujeres y ayudó con éxito a las mujeres argentinas a ganar el derecho legal de votar en 1947.\n\nTrágicamente, Eva Perón se enfermó mucho y murió de cáncer cuando tenía solo treinta y tres años. Su muerte repentina rompió los corazones de millones de argentinos trabajadores, quienes lloraron en las calles y comenzaron a llamarla la líder espiritual de la nación. Hoy en día, su historia de vida dramática está inmortalizada permanentemente en el famoso musical de Broadway *Evita*. Ella sigue siendo un símbolo profundamente poderoso de esperanza, pasión política y la lucha por los pobres.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cómo era conocida cariñosamente Eva Perón?",
+          "¿A qué ciudad se mudó para ser una actriz exitosa?",
+          "¿En qué se convirtió cuando su esposo fue presidente en 1946?",
+          "¿Cómo llamaba ella con amor a las personas pobres y trabajadoras?",
+          "¿Qué derecho legal ganaron las mujeres argentinas en 1947 gracias a ella?",
+          "¿De qué enfermedad murió a los treinta y tres años?",
+          "¿En qué musical famoso está inmortalizada su historia de vida?"
+        ],
+        "answerKey": [
+          "Como Evita.",
+          "A Buenos Aires.",
+          "En la querida Primera Dama del país.",
+          "\"Los descamisados\".",
+          "El derecho legal de votar.",
+          "De cáncer.",
+          "En el famoso musical de Broadway *Evita*."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Eva Perón, venerada popularmente como Evita, es indiscutiblemente una de las figuras políticas más icónicas, influyentes y polarizadoras de la historia argentina y latinoamericana. Nacida en la pobreza en un modesto pueblo rural, emigró audazmente a la cosmopolita Buenos Aires durante su juventud para forjarse una exitosa carrera como actriz. Su destino dio un giro radical al contraer matrimonio con el carismático líder político Juan Domingo Perón. Tras la arrolladora victoria electoral de este en 1946, Eva asumió el crucial papel de Primera Dama, transformando para siempre esa posición pasiva en un cargo de inmenso activismo social.\n\nCon una pasión inquebrantable, Evita se erigió como la máxima defensora de las clases trabajadoras y los sectores marginados, a quienes bautizó afectuosamente como \"los descamisados\". A través de la monumental Fundación Eva Perón, canalizó vastos recursos estatales para construir modernos hospitales, orfanatos, escuelas y viviendas para los más desfavorecidos. Asimismo, lideró una intensa y exitosa campaña política que culminó con la histórica promulgación de la ley del sufragio femenino en 1947, otorgando finalmente el derecho al voto a las mujeres argentinas.\n\nTrágicamente, su meteórica carrera se vio truncada por un devastador cáncer que acabó con su vida a la temprana edad de treinta y tres años. Su prematuro fallecimiento provocó una manifestación de duelo nacional sin precedentes; millones de acérrimos seguidores tomaron las calles llorando su pérdida y la elevaron al estatus de \"Jefa Espiritual de la Nación\". Hoy en día, su apasionante y dramática biografía sigue fascinando al mundo, inmortalizada en el célebre musical de Broadway *Evita*, perdurando como un símbolo eterno de justicia social.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cómo se transformó el papel de Primera Dama tras la victoria electoral de Juan Perón en 1946?",
+          "¿A quiénes bautizó afectuosamente Evita como \"los descamisados\"?",
+          "¿Qué tipo de obras sociales financió y construyó a través de su monumental fundación?",
+          "¿Qué histórica ley impulsó y logró que se promulgara en 1947?",
+          "¿A qué edad y a causa de qué enfermedad falleció trágicamente?",
+          "¿Qué estatus honorífico le otorgaron sus millones de acérrimos seguidores tras su muerte?",
+          "¿En qué célebre obra teatral de fama mundial está inmortalizada su dramática biografía?"
+        ],
+        "answerKey": [
+          "Transformó esa posición pasiva en un cargo de inmenso activismo social.",
+          "A las clases trabajadoras y los sectores marginados.",
+          "Construyó modernos hospitales, orfanatos, escuelas y viviendas para los más desfavorecidos.",
+          "La ley del sufragio femenino (el derecho al voto para las mujeres argentinas).",
+          "Falleció a los treinta y tres años a causa de un cáncer.",
+          "La elevaron al estatus de \"Jefa Espiritual de la Nación\".",
+          "En el célebre musical de Broadway *Evita*."
+        ]
+      }
+    }
   }
+
+
 
 
   
