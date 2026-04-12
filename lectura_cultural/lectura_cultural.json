@@ -12087,6 +12087,306 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "Inti Raymi",
+    "imageFileName": "inti_raymi.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Inti Raymi is a famous, ancient festival celebrated in the beautiful Andes mountains of Peru. The name means \"Festival of the Sun\" in the traditional Quechua language. It was originally created by the powerful Inca Empire in the fifteenth century to honor Inti, the most important dios (god) of the sun. The massive celebration always takes place in the historic city of Cusco on June 24th, which is the winter solstice in the Southern Hemisphere. For the ancient Incas, this was the shortest day of the year, and they wanted to ask the sun to return and bless their crops.\n\nDuring the traditional festival, thousands of people gathered in the main plaza to watch the Sapa Inca (the great emperor) perform special ceremonies, offer sacrifices, and express deep gratitude to the sun god. Unfortunately, when the Spanish conquistadors arrived in the sixteenth century, they aggressively banned the celebration because it was not Catholic. The festival was strictly prohibited for hundreds of years, but indigenous people secretly kept their cultural traditions alive.\n\nToday, Inti Raymi has been beautifully restored and is the second largest traditional festival in South America. Every year, hundreds of talented actors dress in incredibly colorful, traditional clothing to completely recreate the historical ceremonies at the ancient stone ruins of Sacsayhuamán. Thousands of excited tourists and proud locals travel to Cusco to watch the spectacular traditional dances, listen to traditional Andean música (music), and celebrate their rich, indigenous heritage. It is a deeply emotional, vibrant event that beautifully honors the magnificent history of the incredible Inca Empire.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What does the name Inti Raymi mean in the Quechua language?",
+          "Who originally created the massive celebration in the fifteenth century?",
+          "In what historic city does the festival always take place?",
+          "What did the Spanish conquistadors aggressively do when they arrived?",
+          "Where do talented actors recreate the historical ceremonies today?",
+          "What do tourists and proud locals travel to Cusco to watch?",
+          "What does this deeply emotional, vibrant event beautifully honor?"
+        ],
+        "answerKey": [
+          "\"Festival of the Sun.\"",
+          "The powerful Inca Empire.",
+          "The historic city of Cusco.",
+          "They aggressively banned the celebration.",
+          "At the ancient stone ruins of Sacsayhuamán.",
+          "Spectacular traditional dances (and traditional Andean music).",
+          "The magnificent history of the incredible Inca Empire."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Inti Raymi es un festival famoso y antiguo que se celebra en las hermosas montañas de los Andes en Perú. El nombre significa \"Fiesta del Sol\" en el idioma tradicional quechua. Originalmente, fue creado por el poderoso Imperio Inca en el siglo quince para honrar a Inti, el dios más importante del sol. La celebración masiva siempre ocurre en la ciudad histórica de Cusco el 24 de junio, que es el solsticio de invierno en el hemisferio sur. Para los incas antiguos, este era el día más corto del año, y ellos querían pedirle al sol que regresara y bendijera sus cultivos.\n\nDurante el festival tradicional, miles de personas se reunían en la plaza principal para mirar al Sapa Inca (el gran emperador) hacer ceremonias especiales, ofrecer sacrificios y expresar gratitud profunda al dios del sol. Desafortunadamente, cuando los conquistadores españoles llegaron en el siglo dieciséis, ellos prohibieron agresivamente la celebración porque no era católica. El festival fue prohibido estrictamente por cientos de años, pero las personas indígenas mantuvieron vivas sus tradiciones en secreto.\n\nHoy en día, el Inti Raymi ha sido restaurado hermosamente y es el segundo festival tradicional más grande de Sudamérica. Cada año, cientos de actores talentosos usan ropa tradicional y muy colorida para recrear completamente las ceremonias históricas en las antiguas ruinas de piedra de Sacsayhuamán. Miles de turistas emocionados y locales orgullosos viajan a Cusco para mirar los bailes tradicionales espectaculares, escuchar música andina y celebrar su rica herencia indígena. Es un evento vibrante que honra hermosamente la historia magnífica del increíble Imperio Inca.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué significa el nombre Inti Raymi en el idioma quechua?",
+          "¿Quién creó originalmente la celebración masiva en el siglo quince?",
+          "¿En qué ciudad histórica ocurre siempre el festival?",
+          "¿Qué hicieron agresivamente los conquistadores españoles cuando llegaron?",
+          "¿Dónde recrean los actores talentosos las ceremonias históricas hoy en día?",
+          "¿Qué viajan a mirar los turistas emocionados y locales orgullosos en Cusco?",
+          "¿Qué honra hermosamente este evento vibrante?"
+        ],
+        "answerKey": [
+          "\"Fiesta del Sol\".",
+          "El poderoso Imperio Inca.",
+          "En la ciudad histórica de Cusco.",
+          "Ellos prohibieron agresivamente la celebración.",
+          "En las antiguas ruinas de piedra de Sacsayhuamán.",
+          "Los bailes tradicionales espectaculares (y música andina).",
+          "La historia magnífica del increíble Imperio Inca."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El Inti Raymi es, indiscutiblemente, una de las celebraciones indígenas más espectaculares, antiguas y culturalmente significativas de toda América del Sur. Su nombre, que se traduce como \"Fiesta del Sol\" en quechua, refleja perfectamente su propósito sagrado. Instituido originalmente por el poderoso Imperio Inca durante el siglo quince, este majestuoso festival fue creado para rendir homenaje a Inti, el venerado dios del sol. La celebración se lleva a cabo anualmente en la histórica ciudad imperial de Cusco cada 24 de junio, coincidiendo exactamente con el solsticio de invierno en el hemisferio sur. Para la civilización incaica, esta fecha marcaba el día más corto y frío del año, por lo que realizaban rituales para rogarle al sol que regresara y garantizara una cosecha abundante.\n\nDurante su época de esplendor, el Sapa Inca lideraba ceremonias multitudinarias en la plaza principal, ofreciendo sacrificios para agradecer la generosidad divina. Sin embargo, tras la dramática llegada de los conquistadores españoles y la imposición del catolicismo en el siglo dieciséis, la festividad fue brutalmente prohibida y reprimida. A pesar de esta estricta censura colonial que duró siglos, las comunidades andinas lograron preservar valientemente sus costumbres ancestrales en la clandestinidad.\n\nEn la actualidad, el Inti Raymi ha sido magníficamente restaurado como una gigantesca representación teatral. Cientos de actores locales, ataviados con vestimentas vibrantes y tradicionalmente precisas, recrean los antiguos rituales en la imponente fortaleza de piedra de Sacsayhuamán. Miles de turistas internacionales y peruanos orgullosos se congregan para presenciar las impresionantes danzas folclóricas, disfrutar de la música andina y celebrar apasionadamente la rica y resiliente herencia cultural del majestuoso Imperio Inca.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué refleja perfectamente el nombre Inti Raymi en quechua?",
+          "¿Para qué fue creado originalmente este majestuoso festival en el siglo quince?",
+          "¿Con qué evento astronómico coincide exactamente la celebración el 24 de junio?",
+          "¿Qué ocurrió con la festividad tras la dramática llegada de los conquistadores españoles?",
+          "¿Qué lograron preservar valientemente las comunidades andinas en la clandestinidad?",
+          "¿Dónde recrean los antiguos rituales cientos de actores locales en la actualidad?",
+          "¿Qué se congregan para celebrar apasionadamente los turistas y peruanos orgullosos?"
+        ],
+        "answerKey": [
+          "Refleja perfectamente su propósito sagrado (\"Fiesta del Sol\").",
+          "Para rendir homenaje a Inti, el venerado dios del sol.",
+          "Con el solsticio de invierno en el hemisferio sur.",
+          "Fue brutalmente prohibida y reprimida.",
+          "Sus costumbres ancestrales.",
+          "En la imponente fortaleza de piedra de Sacsayhuamán.",
+          "La rica y resiliente herencia cultural del majestuoso Imperio Inca."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Salvador Allende",
+    "imageFileName": "salvador_allende.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Salvador Allende is a highly famous, deeply historical, and controversial político (politician) from the beautiful South American country of Chile. In 1970, he made history by becoming the very first Marxist to ever be democratically elected as the president of a Latin American country. Before entering politics, he was actually a caring doctor who wanted to help poor citizens. He strongly believed that a peaceful transition to socialism was the best way to improve the lives of the working class.\n\nOnce he took power, Allende quickly started changing the country's economía (economy). He proudly nationalized major industries, including the massive copper mines, taking control away from foreign companies. He also created new social programs to give free milk to children and improve public health. However, his radical, strict policies caused severe problems. The country soon suffered from massive inflation, and basic food became very difficult to find in stores. Furthermore, the United States government strongly disliked his communist ideas and secretly worked to hurt his government.\n\nTragically, his historic presidency ended in massive violence. On September 11, 1973, a brutal military coup led by General Augusto Pinochet completely overthrew the government. During this dramatic attack, the military aggressively bombed the famous presidential palace, known as La Moneda. Salvador Allende bravely gave a final, emotional speech on the radio to the citizens of Chile before dying inside the burning building. Today, his complicated legacy completely divides the world. Many people proudly view him as a legendary hero of social justice, while others blame his extreme economic policies for nearly destroying the nation.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "In 1970, what did Salvador Allende make history by becoming?",
+          "What was his actual profession before he entered politics?",
+          "What massive industry did he proudly nationalize to take control from foreign companies?",
+          "What did his new social programs give to children?",
+          "What happened to the country's economy because of his radical policies?",
+          "What dramatic, violent event completely overthrew the government on September 11, 1973?",
+          "Where did Salvador Allende die after giving a final, emotional speech?"
+        ],
+        "answerKey": [
+          "The very first Marxist to be democratically elected as president of a Latin American country.",
+          "A caring doctor.",
+          "The massive copper mines.",
+          "Free milk.",
+          "It suffered from massive inflation (and basic food became difficult to find).",
+          "A brutal military coup led by General Augusto Pinochet.",
+          "Inside the burning presidential palace (La Moneda)."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Salvador Allende es un político muy famoso, profundamente histórico y controversial del hermoso país sudamericano de Chile. En 1970, él hizo historia al convertirse en el primer marxista en ser elegido democráticamente como presidente de un país latinoamericano. Antes de entrar a la política, él era un médico compasivo que quería ayudar a los ciudadanos pobres. Él creía firmemente que una transición pacífica al socialismo era la mejor manera de mejorar las vidas de la clase trabajadora.\n\nUna vez que tomó el poder, Allende empezó a cambiar rápidamente la economía del país. Él nacionalizó con orgullo las industrias principales, incluyendo las enormes minas de cobre, quitando el control a las compañías extranjeras. Él también creó programas sociales nuevos para dar leche gratis a los niños y mejorar la salud pública. Sin embargo, sus políticas radicales y estrictas causaron problemas severos. El país pronto sufrió de una inflación masiva, y la comida básica fue muy difícil de encontrar en las tiendas. Además, al gobierno de los Estados Unidos no le gustaron sus ideas comunistas y trabajó en secreto para dañar a su gobierno.\n\nTrágicamente, su presidencia histórica terminó en violencia masiva. El 11 de septiembre de 1973, un golpe militar brutal liderado por el General Augusto Pinochet derrocó completamente al gobierno. Durante este ataque dramático, los militares bombardearon agresivamente el famoso palacio presidencial, conocido como La Moneda. Salvador Allende dio valientemente un discurso final y emocional en la radio antes de morir dentro del edificio en llamas. Hoy en día, su legado complicado divide completamente al mundo. Muchas personas lo ven como un héroe legendario, mientras otros culpan sus políticas económicas extremas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué historia hizo Salvador Allende al ser elegido en 1970?",
+          "¿Cuál era su profesión antes de entrar a la política?",
+          "¿Qué industria enorme nacionalizó él con orgullo?",
+          "¿Qué daban sus programas sociales nuevos a los niños?",
+          "¿Qué le pasó a la economía del país pronto por sus políticas radicales?",
+          "¿Qué evento violento derrocó completamente al gobierno el 11 de septiembre de 1973?",
+          "¿Dónde murió Salvador Allende después de dar un discurso final en la radio?"
+        ],
+        "answerKey": [
+          "Fue el primer marxista en ser elegido democráticamente como presidente en Latinoamérica.",
+          "Era un médico compasivo.",
+          "Las enormes minas de cobre.",
+          "Leche gratis.",
+          "Sufrió de una inflación masiva (y la comida básica fue difícil de encontrar).",
+          "Un golpe militar brutal liderado por el General Augusto Pinochet.",
+          "Dentro del palacio presidencial en llamas (La Moneda)."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Salvador Allende es, indiscutiblemente, una de las figuras políticas más emblemáticas, trágicas y profundamente polarizadoras de la historia contemporánea de América Latina. En 1970, marcó un hito histórico al convertirse en el primer marxista del mundo en ser elegido democráticamente como presidente de una nación. Antes de dedicarse a la política, este compasivo médico forjó una profunda vocación de servicio hacia las clases más desfavorecidas. Él estaba firmemente convencido de que la transición pacífica e institucional hacia el socialismo era el único camino viable para erradicar la desigualdad.\n\nAl asumir la presidencia, Allende impulsó radicales transformaciones económicas. Su gobierno nacionalizó estratégicamente la gran minería del cobre, recuperando el control de los recursos frente a las corporaciones extranjeras. Asimismo, implementó programas sociales vitales, como la distribución de medio litro de leche diario a los niños. No obstante, sus políticas marxistas provocaron una profunda crisis. La economía sufrió una hiperinflación devastadora, y el acaparamiento generó una grave escasez de alimentos básicos. Simultáneamente, el gobierno de los Estados Unidos intervino clandestinamente para desestabilizar su mandato y asfixiar la economía chilena.\n\nEl desenlace de su gobierno fue sumamente sangriento. El 11 de septiembre de 1973, las fuerzas armadas, bajo el mando del general Augusto Pinochet, ejecutaron un brutal golpe de estado. El icónico palacio de La Moneda fue bombardeado implacablemente por aviones de combate. Momentos antes del asalto final, Allende pronunció un conmovedor y legendario discurso de despedida por radio, negándose a rendirse antes de quitarse la vida en su despacho. Hoy, su memoria divide a la sociedad: algunos lo idolatran como un mártir de la democracia social, mientras otros lo condenan por casi arruinar al país.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué hito histórico marcó Salvador Allende al ser elegido en 1970?",
+          "¿Cuál era su vocación antes de dedicarse a la política?",
+          "¿Qué industria estratégica nacionalizó su gobierno para recuperar el control de los recursos?",
+          "¿Qué programa social vital implementó para ayudar a los niños?",
+          "¿Qué provocaron sus políticas marxistas en la economía del país?",
+          "¿Qué ejecutaron las fuerzas armadas bajo el mando de Augusto Pinochet el 11 de septiembre de 1973?",
+          "¿Qué hizo Allende momentos antes del asalto final al palacio de La Moneda?"
+        ],
+        "answerKey": [
+          "Se convirtió en el primer marxista del mundo en ser elegido democráticamente como presidente.",
+          "Era un compasivo médico con vocación de servicio.",
+          "La gran minería del cobre.",
+          "La distribución de medio litro de leche diario a los niños.",
+          "Una profunda crisis, con hiperinflación devastadora y grave escasez de alimentos básicos.",
+          "Un brutal golpe de estado.",
+          "Pronunció un conmovedor discurso de despedida por radio (y se negó a rendirse)."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Francisco Franco",
+    "imageFileName": "francisco_franco.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Francisco Franco was a highly famous, powerful, and deeply controversial militar (military) general who ruled the beautiful country of Spain as a strict dictator from 1939 until his death in 1975. Before he took absolute control, Spain suffered through a brutal, bloody conflict called the Spanish Civil War. Franco led the nationalist military forces and received heavy, critical support from fascist governments in Germany and Italy to successfully defeat the democratic republic.\n\nOnce in power, Franco quickly established a very strict, authoritarian government. His long rule is strongly remembered for severe censorship and intense political repression. He aggressively banned all opposing political parties and completely prohibited citizens from speaking regional languages like Catalan and Basque in public. Tragically, tens of thousands of his political enemies were imprisoned, tortured, or executed during his harsh regime.\n\nDuring the later years of his long dictatorship, Spain did experience significant economic growth and modernization, which some of his loyal supporters still proudly praise. However, the country remained completely isolated from democratic Europe because of his absolute lack of basic human rights. After his death in 1975, Spain peacefully and successfully transitioned back into a modern democracy. Today, his complicated legacy still deeply divides the country. Until recently, he was buried in a massive, controversial monument called the Valley of the Fallen, but the government officially moved his body to help the nation heal. Most people strongly remember Franco as a brutal dictator who oppressed his citizens for nearly four decades.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "From what year until what year did Francisco Franco rule Spain as a strict dictator?",
+          "What brutal, bloody conflict did Spain suffer through before he took absolute control?",
+          "Who gave Franco heavy, critical support to successfully defeat the democratic republic?",
+          "What two regional languages did he completely prohibit citizens from speaking in public?",
+          "What did Spain experience during the later years of his long dictatorship?",
+          "What successfully happened to the country after his death in 1975?",
+          "Where was he buried until the government recently moved his body to help the nation heal?"
+        ],
+        "answerKey": [
+          "From 1939 until his death in 1975.",
+          "The Spanish Civil War.",
+          "Fascist governments in Germany and Italy.",
+          "Catalan and Basque.",
+          "Significant economic growth and modernization.",
+          "It peacefully transitioned back into a modern democracy.",
+          "In a massive, controversial monument called the Valley of the Fallen."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Francisco Franco fue un general militar muy famoso, poderoso y profundamente controversial que gobernó el hermoso país de España como un dictador estricto desde 1939 hasta su muerte en 1975. Antes de tomar el control absoluto, España sufrió un conflicto brutal y sangriento llamado la Guerra Civil Española. Franco lideró las fuerzas militares nacionalistas y recibió un apoyo fuerte y crítico de los gobiernos fascistas de Alemania e Italia para derrotar con éxito a la república democrática.\n\nUna vez en el poder, Franco estableció rápidamente un gobierno autoritario y muy estricto. Su largo gobierno es recordado fuertemente por la censura severa y la represión política intensa. Él prohibió agresivamente todos los partidos políticos opuestos y prohibió completamente a los ciudadanos hablar idiomas regionales como el catalán y el vasco en público. Trágicamente, decenas de miles de sus enemigos políticos fueron encarcelados, torturados o ejecutados durante su régimen duro.\n\nDurante los últimos años de su larga dictadura, España experimentó un crecimiento económico y una modernización significativos, que algunos de sus partidarios leales todavía elogian con orgullo. Sin embargo, el país permaneció completamente aislado de la Europa democrática debido a su falta absoluta de derechos humanos básicos. Después de su muerte en 1975, España hizo una transición pacífica y exitosa a una democracia moderna. Hoy en día, su legado complicado todavía divide profundamente al país. Hasta hace poco, él estaba enterrado en un monumento masivo y controversial llamado el Valle de los Caídos, pero el gobierno movió oficialmente su cuerpo para ayudar a sanar a la nación. La mayoría de las personas lo recuerdan fuertemente como un dictador brutal.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Desde qué año hasta qué año gobernó Francisco Franco a España como un dictador estricto?",
+          "¿Qué conflicto brutal y sangriento sufrió España antes de que tomara el control absoluto?",
+          "¿De quién recibió un apoyo fuerte y crítico para derrotar a la república democrática?",
+          "¿Qué dos idiomas regionales prohibió completamente a los ciudadanos hablar en público?",
+          "¿Qué experimentó España durante los últimos años de su larga dictadura?",
+          "¿Qué le pasó pacíficamente al país después de su muerte en 1975?",
+          "¿Dónde estaba enterrado hasta que el gobierno movió oficialmente su cuerpo?"
+        ],
+        "answerKey": [
+          "Desde 1939 hasta su muerte en 1975.",
+          "La Guerra Civil Española.",
+          "De los gobiernos fascistas de Alemania e Italia.",
+          "El catalán y el vasco.",
+          "Un crecimiento económico y una modernización significativos.",
+          "Hizo una transición a una democracia moderna.",
+          "En un monumento masivo y controversial llamado el Valle de los Caídos."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Francisco Franco fue, indiscutiblemente, una de las figuras históricas más poderosas, represivas y profundamente polarizadoras de Europa en el siglo veinte. Gobernó España con mano de hierro como dictador absoluto desde el final de la Guerra Civil en 1939 hasta su muerte en 1975. Durante este conflicto armado brutal y sangriento, Franco lideró al bando sublevado nacionalista, recibiendo un apoyo militar crucial y decisivo de los regímenes fascistas de la Alemania nazi y la Italia de Mussolini para lograr derrocar a la Segunda República democrática.\n\nTras consolidar su poder absoluto, Franco instauró una dictadura totalitaria caracterizada por el nacionalismo extremo y el conservadurismo católico. Su prolongado régimen se destacó por una censura implacable y una brutal represión sistemática. Prohibió tajantemente la existencia de partidos políticos opositores y suprimió violentamente las identidades regionales, castigando severamente el uso público de idiomas como el catalán, el gallego y el euskera. Trágicamente, decenas de miles de disidentes políticos fueron encarcelados, torturados o ejecutados durante la posguerra.\n\nEn las últimas décadas de su mandato, España experimentó un notable milagro económico y una rápida modernización industrial, un logro que sus defensores aún justifican con orgullo. Sin embargo, el país permaneció marginado de la comunidad internacional democrática debido a la sistemática violación de los derechos humanos. Tras su muerte en 1975, España protagonizó una exitosa y pacífica Transición a la democracia. En la actualidad, su oscura sombra aún divide a la sociedad española, evidenciado por la reciente y polémica exhumación de sus restos del monumental Valle de los Caídos, un esfuerzo del gobierno moderno por cerrar las heridas históricas y consolidar la memoria democrática de la nación.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Desde qué año hasta qué año gobernó Francisco Franco a España con mano de hierro?",
+          "¿Durante qué conflicto armado brutal y sangriento lideró Franco al bando nacionalista?",
+          "¿De quiénes recibió un apoyo militar crucial y decisivo para lograr derrocar a la república?",
+          "¿El uso público de qué tres idiomas castigó severamente su régimen para suprimir identidades regionales?",
+          "¿Qué experimentó España en las últimas décadas de su mandato, según sus defensores?",
+          "¿Qué protagonizó exitosa y pacíficamente España tras la muerte del dictador en 1975?",
+          "¿De qué monumental lugar fueron exhumados recientemente sus restos por el gobierno moderno?"
+        ],
+        "answerKey": [
+          "Desde el final de la Guerra Civil en 1939 hasta su muerte en 1975.",
+          "Durante la Guerra Civil (Española).",
+          "De los regímenes fascistas de la Alemania nazi y la Italia de Mussolini.",
+          "El catalán, el gallego y el euskera.",
+          "Un notable milagro económico y una rápida modernización industrial.",
+          "Una exitosa y pacífica Transición a la democracia.",
+          "Del monumental Valle de los Caídos."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Spanish Civil War",
+    "imageFileName": "spanish_civil_war.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The Spanish Civil War was a brutal, devastating military conflict that completely tore the beautiful country of Spain apart from 1936 to 1939. The war officially started when a group of conservative military generals, led by the famous Francisco Franco, violently rebelled against the democratically elected government, known as the Second Spanish Republic. This dramatic, bloody rebellion quickly divided the entire nation into two very angry, passionate sides: the Nationalists and the Republicans.\n\nThe Nationalists were conservative groups, wealthy landowners, and the Catholic Church who strongly supported General Franco. They received massive, critical military help, including powerful weapons and airplanes, from the fascist governments of Nazi Germany and Italy. On the other hand, the Republicans included workers, peasants, and people who strongly wanted to protect the democratic government. They received some limited help from the Soviet Union and thousands of brave, passionate foreign volunteers called the International Brigades.\n\nThe war was incredibly destructive and caused massive suffering across the entire country. One of the most famous, tragic events happened when German airplanes completely bombed the peaceful town of Guernica. This terrible tragedy inspired Pablo Picasso to paint his most famous, heartbreaking masterpiece. After three terrible, exhausting years of fighting, the Nationalists finally won the war in 1939. General Francisco Franco took absolute control of the country and immediately established a strict, harsh dictatorship that lasted for almost forty years. Today, the deep emotional wounds of the Spanish Civil War still strongly affect modern Spanish politics, society, and culture.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "From what year until what year did the brutal Spanish Civil War completely tear Spain apart?",
+          "Who led the conservative military generals in the violent rebellion against the government?",
+          "What two fascist governments gave massive, critical military help to the Nationalists?",
+          "What were the thousands of brave, passionate foreign volunteers who helped the Republicans called?",
+          "What peaceful town was completely bombed by German airplanes, causing a terrible tragedy?",
+          "Who was inspired by this terrible tragedy to paint his most famous, heartbreaking masterpiece?",
+          "How long did the strict, harsh dictatorship established by General Francisco Franco last?"
+        ],
+        "answerKey": [
+          "From 1936 to 1939.",
+          "The famous Francisco Franco.",
+          "Nazi Germany and Italy.",
+          "The International Brigades.",
+          "The town of Guernica.",
+          "Pablo Picasso.",
+          "For almost forty years."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La Guerra Civil Española fue un conflicto militar brutal y devastador que rompió completamente al hermoso país de España desde 1936 hasta 1939. La guerra empezó oficialmente cuando un grupo de generales militares conservadores, liderados por el famoso Francisco Franco, se rebeló violentamente contra el gobierno elegido democráticamente, conocido como la Segunda República Española. Esta rebelión dramática y sangrienta dividió rápidamente a toda la nación en dos lados muy enojados y apasionados: los nacionalistas y los republicanos.\n\nLos nacionalistas eran grupos conservadores, dueños de tierras ricos y la Iglesia Católica que apoyaban fuertemente al General Franco. Ellos recibieron una ayuda militar masiva y crítica, incluyendo armas poderosas y aviones, de los gobiernos fascistas de la Alemania nazi e Italia. Por otro lado, los republicanos incluían trabajadores, campesinos y personas que querían proteger fuertemente al gobierno democrático. Ellos recibieron una ayuda limitada de la Unión Soviética y de miles de voluntarios extranjeros valientes y apasionados llamados las Brigadas Internacionales.\n\nLa guerra fue increíblemente destructiva y causó un sufrimiento masivo en todo el país. Uno de los eventos más famosos y trágicos ocurrió cuando aviones alemanes bombardearon completamente el pueblo pacífico de Guernica. Esta tragedia terrible inspiró a Pablo Picasso a pintar su obra maestra más famosa y triste. Después de tres años terribles y agotadores de lucha, los nacionalistas finalmente ganaron la guerra en 1939. El General Francisco Franco tomó el control absoluto del país e inmediatamente estableció una dictadura estricta y dura que duró por casi cuarenta años. Hoy, las heridas emocionales de la guerra todavía afectan fuertemente a España.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Desde qué año hasta qué año rompió completamente la Guerra Civil Española a España?",
+          "¿Quién lideró a los generales militares conservadores en la rebelión violenta contra el gobierno?",
+          "¿Qué dos gobiernos fascistas dieron una ayuda militar masiva y crítica a los nacionalistas?",
+          "¿Cómo se llamaban los miles de voluntarios extranjeros valientes que ayudaron a los republicanos?",
+          "¿Qué pueblo pacífico fue bombardeado completamente por aviones alemanes, causando una tragedia?",
+          "¿Quién se inspiró por esta tragedia terrible para pintar su obra maestra más famosa?",
+          "¿Por cuánto tiempo duró la dictadura estricta y dura establecida por Francisco Franco?"
+        ],
+        "answerKey": [
+          "Desde 1936 hasta 1939.",
+          "El famoso Francisco Franco.",
+          "La Alemania nazi e Italia.",
+          "Las Brigadas Internacionales.",
+          "El pueblo de Guernica.",
+          "Pablo Picasso.",
+          "Por casi cuarenta años."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La Guerra Civil Española fue un conflicto militar sumamente sangriento, brutal y devastador que fracturó trágicamente al país ibérico desde 1936 hasta 1939. La contienda estalló oficialmente cuando una facción de generales militares conservadores, liderada por Francisco Franco, se sublevó violentamente contra el gobierno democráticamente elegido de la Segunda República Española. Esta dramática y violenta insurrección dividió rápidamente a la nación entera en dos bandos ferozmente enfrentados y apasionados: el bando sublevado nacionalista y el bando leal republicano.\n\nLos nacionalistas estaban compuestos por sectores conservadores, terratenientes acaudalados y la Iglesia Católica, quienes respaldaban incondicionalmente al general Franco. Este bando recibió un apoyo militar masivo y decisivo, incluyendo armamento pesado y aviación moderna, de los regímenes fascistas de la Alemania nazi y la Italia de Mussolini. Por el contrario, los republicanos agrupaban a obreros, campesinos y defensores acérrimos de la democracia. Ellos recibieron apoyo logístico limitado de la Unión Soviética y la ayuda invaluable de miles de voluntarios extranjeros idealistas que conformaron las heroicas Brigadas Internacionales.\n\nLa contienda bélica fue increíblemente destructiva y sembró la desolación en todo el territorio nacional. Uno de los episodios más infames y desgarradores ocurrió cuando la aviación alemana bombardeó despiadadamente la pacífica villa de Guernica. Esta atrocidad inspiró a Pablo Picasso a crear su obra maestra más conmovedora y universal. Tras tres años de combates atroces y agotadores, las fuerzas nacionalistas lograron la victoria definitiva en 1939. Francisco Franco asumió el poder absoluto e instauró inmediatamente una dictadura implacable que perduró casi cuatro décadas. Hoy en día, las profundas cicatrices históricas de esta guerra civil continúan polarizando a la sociedad española.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Desde qué año hasta qué año fracturó trágicamente al país ibérico este conflicto militar?",
+          "¿Quién lideró la facción de generales militares conservadores que se sublevó violentamente?",
+          "¿De qué dos regímenes fascistas recibió apoyo militar masivo y decisivo el bando nacionalista?",
+          "¿Cómo se llamaron los miles de voluntarios extranjeros idealistas que ayudaron a los republicanos?",
+          "¿Qué pacífica villa fue bombardeada despiadadamente por la aviación alemana?",
+          "¿A quién inspiró esta atrocidad para crear su obra maestra más conmovedora y universal?",
+          "¿Por cuántas décadas perduró la dictadura implacable instaurada por Francisco Franco?"
+        ],
+        "answerKey": [
+          "Desde 1936 hasta 1939.",
+          "Francisco Franco.",
+          "De la Alemania nazi y la Italia de Mussolini.",
+          "Las heroicas Brigadas Internacionales.",
+          "La pacífica villa de Guernica.",
+          "A Pablo Picasso.",
+          "Perduró casi cuatro décadas."
+        ]
+      }
+    }
   }
   
 
