@@ -11038,14 +11038,13 @@
         ]
       }
     }
-  },
-  {
+  },{
     "topicName": "Enrique Iglesias",
     "imageFileName": "enrique_iglesias.png",
     "levels": {
       "level_1": {
         "tier": "Level 1 (English/Beginner)",
-        "readingText": "Enrique Iglesias is an incredibly famous, talented, and successful cantante (singer) from Madrid, Spain. He was born into a very musical family because his father, Julio Iglesias, is also a legendary, world-famous Spanish musician. Even though he was born in Europe, Enrique actually moved to the sunny city of Miami, Florida, when he was just a young boy. Growing up in Miami, he was constantly surrounded by many different, vibrant Latin American cultures.\n\nWhen he first started making música (music), Enrique secretly used a fake name because he wanted to become famous for his own pure talent, not just because of his famous father. His plan worked perfectly! Today, Enrique is widely known all over the world as the \"King of Latin Pop.\" He has sold over one hundred million records and won many important awards for his catchy, energetic canciones (songs).\n\nOne of the biggest reasons for his massive, international éxito (success) is his amazing ability to sing perfectly in both English and Spanish. He helped make Latin pop music incredibly popular in the United States with massive, record-breaking hit songs like \"Bailamos,\" \"Hero,\" and \"Bailando.\" People absolutely love his romantic ballads and his fast, fun dance music. Today, Enrique Iglesias is considered one of the most important, beloved, and influential pop artists in the entire history of Latin music.",
+        "readingText": "Enrique Iglesias is an incredibly famous, talented, and highly successful cantante (singer) from Madrid, Spain. He was born into a very musical and prominent family because his father, Julio Iglesias, is also a legendary, world-famous Spanish musician. Even though he was born in Europe, Enrique actually moved to the sunny city of Miami, Florida, when he was just a young boy. Growing up in Miami, he was constantly surrounded by many different, vibrant Latin American cultures, which deeply influenced his unique musical style.\n\nWhen he first started making música (music), Enrique secretly used a fake name to hide his true identity. He did this because he desperately wanted to become famous for his own pure talent and hard work, not just because of his famous father. His clever plan worked perfectly! Today, Enrique is widely known all over the world as the undisputed \"King of Latin Pop.\" He has successfully sold over one hundred million records globally and won many important awards, including prestigious Grammys, for his catchy, energetic canciones (songs).\n\nOne of the biggest reasons for his massive, international éxito (success) is his amazing ability to sing perfectly in both English and Spanish. He actively helped make Latin pop music incredibly popular in the United States with massive, record-breaking hit songs like \"Bailamos,\" \"Hero,\" and \"Bailando.\" Millions of loyal fans absolutely love his beautiful romantic ballads and his fast, fun dance music. Today, Enrique Iglesias is widely considered one of the most important, beloved, and influential pop artists in the entire history of Latin music.",
         "instruction": "Answer the following questions according to the text.",
         "questions": [
           "Where was Enrique Iglesias born?",
@@ -11053,22 +11052,22 @@
           "Where did he move when he was just a young boy?",
           "Why did he secretly use a fake name when he first started making music?",
           "What title is he widely known by all over the world today?",
-          "What are two languages that he sings perfectly in?",
+          "What are two languages that he has the amazing ability to sing perfectly in?",
           "What are the names of some of his massive, record-breaking hit songs?"
         ],
         "answerKey": [
           "Madrid, Spain.",
           "Julio Iglesias.",
           "To the sunny city of Miami, Florida.",
-          "Because he wanted to become famous for his own pure talent, not just because of his famous father.",
-          "The \"King of Latin Pop.\"",
+          "Because he desperately wanted to become famous for his own pure talent and hard work.",
+          "The undisputed \"King of Latin Pop.\"",
           "English and Spanish.",
           "\"Bailamos,\" \"Hero,\" and \"Bailando.\""
         ]
       },
       "level_2": {
         "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "Enrique Iglesias es un cantante increíblemente famoso, talentoso y exitoso de Madrid, España. Él nació en una familia muy musical porque su padre, Julio Iglesias, también es un músico español legendario y mundialmente famoso. Aunque nació en Europa, Enrique en realidad se mudó a la soleada ciudad de Miami, Florida, cuando era solo un niño. Al crecer en Miami, él estuvo constantemente rodeado de muchas culturas latinoamericanas diferentes y vibrantes.\n\nCuando empezó a hacer música por primera vez, Enrique usó secretamente un nombre falso porque quería ser famoso por su propio talento, no solo por su padre famoso. ¡Su plan funcionó perfectamente! Hoy en día, Enrique es muy conocido en todo el mundo como el \"Rey del Pop Latino\". Él ha vendido más de cien millones de discos y ha ganado muchos premios importantes por sus canciones pegadizas y enérgicas.\n\nUna de las razones más grandes de su éxito internacional y masivo es su habilidad increíble para cantar perfectamente en inglés y en español. Él ayudó a hacer que la música pop latina fuera increíblemente popular en los Estados Unidos con canciones de éxito masivas como \"Bailamos\", \"Hero\" y \"Bailando\". A las personas les encantan absolutamente sus baladas románticas y su música de baile rápida y divertida. Hoy en día, Enrique Iglesias es considerado uno de los artistas pop más importantes e influyentes en la historia de la música latina.",
+        "readingText": "Enrique Iglesias es un cantante increíblemente famoso, talentoso y muy exitoso de Madrid, España. Él nació en una familia muy musical y prominente porque su padre, Julio Iglesias, también es un músico español legendario y mundialmente famoso. Aunque nació en Europa, Enrique en realidad se mudó a la soleada ciudad de Miami, Florida, cuando era solo un niño. Al crecer en Miami, él estuvo constantemente rodeado de muchas culturas latinoamericanas diferentes y vibrantes, lo que influyó profundamente en su estilo musical único.\n\nCuando empezó a hacer música por primera vez, Enrique usó secretamente un nombre falso para ocultar su verdadera identidad. Hizo esto porque quería desesperadamente ser famoso por su propio talento puro y trabajo duro, no solo por su padre famoso. ¡Su plan inteligente funcionó perfectamente! Hoy en día, Enrique es muy conocido en todo el mundo como el indiscutible \"Rey del Pop Latino\". Él ha vendido con éxito más de cien millones de discos a nivel mundial y ha ganado muchos premios importantes, incluyendo prestigiosos Grammys, por sus canciones pegadizas y enérgicas.\n\nUna de las razones más grandes de su éxito internacional y masivo es su habilidad increíble para cantar perfectamente tanto en inglés como en español. Él ayudó activamente a hacer que la música pop latina fuera increíblemente popular en los Estados Unidos con canciones de éxito masivas como \"Bailamos\", \"Hero\" y \"Bailando\". A millones de fans leales les encantan absolutamente sus hermosas baladas románticas y su música de baile rápida y divertida. Hoy en día, Enrique Iglesias es considerado uno de los artistas pop más importantes e influyentes en la historia.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿De dónde es Enrique Iglesias?",
@@ -11083,37 +11082,1013 @@
           "De Madrid, España.",
           "Julio Iglesias.",
           "A la soleada ciudad de Miami, Florida.",
-          "Porque quería ser famoso por su propio talento, no solo por su padre famoso.",
-          "Como el \"Rey del Pop Latino\".",
+          "Porque quería desesperadamente ser famoso por su propio talento puro y trabajo duro.",
+          "Como el indiscutible \"Rey del Pop Latino\".",
           "En inglés y en español.",
           "\"Bailamos\", \"Hero\" y \"Bailando\"."
         ]
       },
       "level_3": {
         "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "Enrique Iglesias es, indiscutiblemente, uno de los cantantes y compositores más exitosos, galardonados e influyentes de la música contemporánea. Nacido en Madrid, España, proviene de un linaje inmensamente musical, ya que es hijo del legendario y mundialmente célebre cantante Julio Iglesias. A pesar de sus profundas raíces europeas, Enrique se trasladó a la vibrante ciudad de Miami, Florida, durante su infancia. Crecer en esta metrópolis multicultural lo expuso constantemente a una rica y diversa mezcla de ritmos latinoamericanos y caribeños que moldearían su futuro sonido.\n\nAl iniciar su carrera artística, Enrique utilizó estratégicamente un seudónimo ocultando su verdadero apellido. Él anhelaba fervientemente triunfar por su propio talento vocal y mérito personal, rechazando depender de la inmensa fama de su padre. ¡Su audaz estrategia funcionó a la perfección! En la actualidad, es coronado globalmente como el \"Rey del Pop Latino\", habiendo vendido más de cien millones de discos y acumulado innumerables galardones prestigiosos a lo largo de su impresionante trayectoria.\n\nSu rotundo y fenomenal éxito internacional se debe, en gran parte, a su magistral capacidad para interpretar éxitos tanto en inglés como en español. Enrique fue una figura absolutamente clave en el fenómeno del \"crossover\", popularizando masivamente el pop latino en el mercado anglosajón con himnos inolvidables como \"Bailamos\", \"Hero\" y el fenómeno global \"Bailando\". Gracias a su versatilidad para fusionar baladas románticas con ritmos urbanos y bailables, Enrique Iglesias ha dejado una huella imborrable e histórica en la industria musical.",
+        "readingText": "Enrique Iglesias es, indiscutiblemente, uno de los cantantes y compositores más exitosos, galardonados e influyentes de la música pop contemporánea. Nacido en Madrid, España, proviene de un linaje inmensamente musical y privilegiado, ya que es hijo del legendario y mundialmente célebre cantante Julio Iglesias. A pesar de sus profundas raíces europeas, Enrique se trasladó a la vibrante ciudad de Miami, Florida, durante su temprana infancia. Crecer en esta metrópolis multicultural lo expuso constantemente a una rica y diversa mezcla de ritmos latinoamericanos y caribeños que moldearían profundamente su futuro sonido característico.\n\nAl iniciar su carrera artística profesional, Enrique utilizó estratégicamente un seudónimo, ocultando deliberadamente su verdadero apellido. Él anhelaba fervientemente triunfar por su propio talento vocal y mérito personal, rechazando depender de la inmensa fama de su reconocido padre. ¡Su audaz estrategia funcionó a la perfección! En la actualidad, es coronado globalmente como el indiscutible \"Rey del Pop Latino\", habiendo vendido más de cien millones de discos y acumulado innumerables galardones prestigiosos, incluyendo codiciados premios Grammy, a lo largo de su impresionante trayectoria.\n\nSu rotundo y fenomenal éxito internacional se debe, en gran medida, a su magistral capacidad para interpretar deslumbrantes éxitos tanto en inglés como en español. Enrique fue una figura absolutamente clave e indispensable en el fenómeno del \"crossover\", popularizando masivamente el pop latino en el exigente mercado anglosajón con himnos inolvidables como \"Bailamos\", \"Hero\" y el fenómeno global \"Bailando\". Gracias a su extraordinaria versatilidad para fusionar románticas baladas tradicionales con ritmos urbanos y sumamente bailables, Enrique Iglesias ha dejado una huella imborrable e histórica en la industria musical mundial.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿Dónde nació Enrique Iglesias?",
           "¿Quién es su padre, el legendario y mundialmente célebre cantante?",
-          "¿A qué metrópolis multicultural se trasladó durante su infancia?",
+          "¿A qué metrópolis multicultural se trasladó durante su temprana infancia?",
           "¿Por qué utilizó estratégicamente un seudónimo ocultando su verdadero apellido?",
           "¿Con qué título es coronado globalmente en la actualidad?",
-          "¿En qué dos idiomas tiene la magistral capacidad para interpretar éxitos?",
+          "¿En qué dos idiomas tiene la magistral capacidad para interpretar deslumbrantes éxitos?",
           "¿Cuáles son algunos de sus himnos inolvidables y fenómenos globales?"
         ],
         "answerKey": [
           "En Madrid, España.",
           "Julio Iglesias.",
           "A la vibrante ciudad de Miami, Florida.",
-          "Porque anhelaba triunfar por su propio talento vocal y mérito personal, rechazando depender de la inmensa fama de su padre.",
-          "Como el \"Rey del Pop Latino\".",
+          "Porque anhelaba fervientemente triunfar por su propio talento vocal y mérito personal.",
+          "Como el indiscutible \"Rey del Pop Latino\".",
           "En inglés y en español.",
           "\"Bailamos\", \"Hero\" y \"Bailando\"."
         ]
       }
     }
+  },
+  {
+    "topicName": "Álvaro Soler",
+    "imageFileName": "alvaro_soler.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Álvaro Soler is an incredibly talented, famous, and charismatic cantante (singer) from the beautiful coastal city of Barcelona, Spain. He is very unique because he has a Spanish mother and a German father, making him completely bilingual from a very young age. When he was just ten years old, his family bravely moved across the world to Tokyo, Japan, where he lived for seven fascinating years. Growing up in these different countries helped him appreciate many different vibrant culturas (cultures) and musical styles before returning to Europe.\n\nToday, Álvaro is internationally famous for creating happy, energetic, and positive pop música (music). Even though he speaks multiple languages perfectly, he proudly chooses to write and sing his biggest hit songs in Spanish. His catchy songs are famous for having a sunny, optimistic summer vibe that makes everyone want to dance. His first massive international hit was the fun, upbeat song \"El Mismo Sol.\" The song became so incredibly popular around the world that the legendary superstar Jennifer Lopez personally asked to sing a special duet version with him!\n\nÁlvaro is truly a massive superstar in European countries like Italy, Switzerland, and Germany, where thousands of fans loudly sing his Spanish lyrics at huge concerts. Some of his other wildly successful canciones (songs) include \"Sofía\" and \"La Cintura,\" which feature fun acoustic guitars and fast rhythms. Millions of loyal fans absolutely love Álvaro Soler because his bright, cheerful music always brings people together and makes them smile. He perfectly proves that catchy Latin pop music can easily cross borders and unite the entire world.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is the talented singer Álvaro Soler from?",
+          "What makes his family heritage very unique?",
+          "Where did his family bravely move when he was ten years old?",
+          "What language does he proudly choose to write and sing his biggest hits in?",
+          "What legendary superstar asked to sing a special duet version of \"El Mismo Sol\" with him?",
+          "In which European countries is he truly a massive superstar?",
+          "What are the names of some of his other wildly successful songs?"
+        ],
+        "answerKey": [
+          "The beautiful coastal city of Barcelona, Spain.",
+          "He has a Spanish mother and a German father.",
+          "Across the world to Tokyo, Japan.",
+          "Spanish.",
+          "The legendary superstar Jennifer Lopez.",
+          "Italy, Switzerland, and Germany.",
+          "\"Sofía\" and \"La Cintura.\""
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Álvaro Soler es un cantante increíblemente talentoso, famoso y carismático de la hermosa ciudad costera de Barcelona, España. Él es muy único porque tiene una madre española y un padre alemán, por lo que es completamente bilingüe desde que era muy joven. Cuando tenía solo diez años, su familia se mudó valientemente al otro lado del mundo a Tokio, Japón, donde él vivió durante siete años fascinantes. Crecer en estos países diferentes lo ayudó a apreciar muchas culturas vibrantes y estilos musicales antes de regresar a Europa.\n\nHoy en día, Álvaro es internacionalmente famoso por crear música pop feliz, enérgica y positiva. Aunque habla varios idiomas perfectamente, él elige con orgullo escribir y cantar sus canciones de éxito más grandes en español. Sus canciones pegadizas son famosas por tener una vibra de verano soleada y optimista que hace que todos quieran bailar. Su primer éxito internacional masivo fue la canción divertida y alegre \"El Mismo Sol\". ¡La canción se volvió tan increíblemente popular en todo el mundo que la superestrella legendaria Jennifer Lopez le pidió personalmente cantar una versión especial a dúo con él!\n\nÁlvaro es verdaderamente una superestrella masiva en países europeos como Italia, Suiza y Alemania, donde miles de fans cantan fuertemente sus letras en español en grandes conciertos. Algunas de sus otras canciones muy exitosas incluyen \"Sofía\" y \"La Cintura\", que tienen guitarras acústicas divertidas y ritmos rápidos. A millones de fans leales les encanta Álvaro Soler porque su música brillante y alegre siempre une a las personas y las hace sonreír. Él prueba perfectamente que la música pop latina puede cruzar fronteras fácilmente.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué hermosa ciudad costera es el cantante Álvaro Soler?",
+          "¿Por qué es muy única la herencia de su familia?",
+          "¿A qué ciudad se mudó valientemente su familia cuando él tenía diez años?",
+          "¿En qué idioma elige con orgullo escribir y cantar sus grandes éxitos?",
+          "¿Qué superestrella legendaria le pidió cantar una versión a dúo de \"El Mismo Sol\"?",
+          "¿En qué países europeos es Álvaro verdaderamente una superestrella masiva?",
+          "¿Cuáles son algunas de sus otras canciones muy exitosas?"
+        ],
+        "answerKey": [
+          "De Barcelona, España.",
+          "Porque tiene una madre española y un padre alemán.",
+          "A Tokio, Japón.",
+          "En español.",
+          "La superestrella legendaria Jennifer Lopez.",
+          "En Italia, Suiza y Alemania.",
+          "\"Sofía\" y \"La Cintura\"."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Álvaro Soler es, sin duda alguna, uno de los cantantes y compositores más carismáticos, refrescantes y exitosos del panorama pop actual. Nacido en la hermosa ciudad costera de Barcelona, posee una fascinante herencia multicultural al ser hijo de madre española y padre alemán. Esta particular mezcla le otorgó un bilingüismo natural desde su infancia. Cuando apenas tenía diez años, su familia tomó la audaz decisión de trasladarse a Tokio, Japón, donde residió durante siete enriquecedores años. Crecer inmerso en culturas tan diversas y contrastantes moldeó profundamente su visión artística y su apreciación por una amplia variedad de ritmos globales antes de su eventual regreso a Europa.\n\nEn la actualidad, Álvaro es aclamado internacionalmente por componer música pop rebosante de energía, optimismo y contagiosa alegría. A pesar de dominar múltiples idiomas a la perfección, él elige orgullosamente el español como el vehículo principal para sus grandes éxitos. Sus canciones se caracterizan por transmitir una perpetua y soleada esencia veraniega que incita inevitablemente al baile. Su gran salto a la fama mundial llegó con el vibrante sencillo \"El Mismo Sol\". ¡Este pegadizo himno alcanzó tal magnitud global que la icónica superestrella Jennifer López lo contactó personalmente para grabar un espectacular dueto bilingüe!\n\nSorprendentemente, Álvaro es un auténtico fenómeno de masas en naciones europeas no hispanohablantes como Italia, Suiza y Alemania, donde multitudes eufóricas corean sus letras en español durante sus multitudinarios conciertos. Otros de sus rutilantes triunfos musicales incluyen temas como \"Sofía\" y \"La Cintura\", impulsados por alegres guitarras acústicas y ritmos trepidantes. Álvaro Soler demuestra magistralmente que el pop latino posee el poder universal de trascender fronteras y unir al mundo entero.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué hermosa ciudad costera proviene Álvaro Soler?",
+          "¿Qué le otorgó su fascinante herencia de madre española y padre alemán?",
+          "¿A qué ciudad se trasladó su familia cuando él apenas tenía diez años?",
+          "¿Qué idioma elige orgullosamente como el vehículo principal para sus grandes éxitos?",
+          "¿Qué icónica superestrella lo contactó para grabar un espectacular dueto de \"El Mismo Sol\"?",
+          "¿En qué naciones europeas no hispanohablantes es un auténtico fenómeno de masas?",
+          "¿Cuáles son otros de sus rutilantes triunfos musicales?"
+        ],
+        "answerKey": [
+          "De Barcelona, España.",
+          "Le otorgó un bilingüismo natural desde su infancia.",
+          "A Tokio, Japón.",
+          "El español.",
+          "La icónica superestrella Jennifer López.",
+          "En Italia, Suiza y Alemania.",
+          "\"Sofía\" y \"La Cintura\"."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Ricky Martin",
+    "imageFileName": "ricky_martin.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Ricky Martin is a legendary, charismatic, and internationally famous cantante (singer) who was born in the beautiful, tropical island of Puerto Rico. His incredible musical journey actually began when he was just twelve years old. He joined the wildly popular Latin American boy band named Menudo, where he quickly learned how to perform in front of thousands of screaming fans. After five exhausting years touring with the band, he bravely decided to leave and start a solo career to create his own unique música (music).\n\nHis massive, worldwide fame truly exploded in the late 1990s. In 1999, Ricky gave an unforgettable, spectacular performance of his song \"The Cup of Life\" at the Grammy Awards. This incredible moment officially started what people call the \"Latin Pop Explosion\" in the United States. Shortly after, he released his massive English hit song \"Livin' la Vida Loca.\" This catchy, energetic song was so incredibly successful that it quickly opened the doors for many other Latin artists to become famous around the world.\n\nToday, Ricky Martin is not just known for his fast, fun dance songs and romantic ballads. He is also a very passionate and dedicated humanitarian. He proudly created the Ricky Martin Foundation to constantly fight for children's rights and aggressively stop human trafficking all over the world. Millions of loyal fans absolutely love his energetic, positive music, but they also deeply respect his kind heart. Ricky Martin is undeniably one of the most important, beloved, and influential Latin artists in history, proving that music can truly change the world.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was the legendary singer Ricky Martin born?",
+          "How old was he when his incredible musical journey began?",
+          "What was the name of the wildly popular Latin American boy band he joined?",
+          "What spectacular performance did he give at the 1999 Grammy Awards?",
+          "What massive English hit song opened the doors for many other Latin artists?",
+          "What is the name of the foundation he proudly created?",
+          "What does his foundation constantly fight for all over the world?"
+        ],
+        "answerKey": [
+          "The beautiful, tropical island of Puerto Rico.",
+          "He was just twelve years old.",
+          "Menudo.",
+          "\"The Cup of Life.\"",
+          "\"Livin' la Vida Loca.\"",
+          "The Ricky Martin Foundation.",
+          "Children's rights (and aggressively stopping human trafficking)."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Ricky Martin es un cantante legendario, carismático e internacionalmente famoso que nació en la hermosa isla tropical de Puerto Rico. Su viaje musical increíble en realidad comenzó cuando tenía solo doce años. Él se unió a la banda de chicos latinoamericana muy popular llamada Menudo, donde aprendió rápidamente cómo cantar frente a miles de fans emocionados. Después de cinco años agotadores de gira con la banda, él decidió valientemente salir y empezar una carrera como solista para crear su propia música única.\n\nSu fama masiva y mundial verdaderamente explotó al final de la década de 1990. En 1999, Ricky dio una presentación inolvidable y espectacular de su canción \"La Copa de la Vida\" en los Premios Grammy. Este momento increíble comenzó oficialmente lo que las personas llaman la \"Explosión del Pop Latino\" en los Estados Unidos. Poco tiempo después, él lanzó su éxito masivo en inglés \"Livin' la Vida Loca\". Esta canción pegadiza y enérgica fue tan increíblemente exitosa que abrió las puertas rápidamente para que muchos otros artistas latinos fueran famosos en todo el mundo.\n\nHoy en día, Ricky Martin no solo es conocido por sus canciones de baile rápidas y baladas románticas. Él también es un humanitario muy apasionado y dedicado. Él creó con orgullo la Fundación Ricky Martin para luchar constantemente por los derechos de los niños y detener agresivamente la trata de personas en todo el mundo. A millones de fans leales les encanta absolutamente su música enérgica y positiva, pero también respetan profundamente su corazón amable. Ricky Martin es uno de los artistas latinos más importantes y queridos.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde nació el cantante legendario Ricky Martin?",
+          "¿Cuántos años tenía cuando comenzó su viaje musical increíble?",
+          "¿Cómo se llamaba la banda de chicos muy popular a la que se unió?",
+          "¿Qué presentación espectacular dio en los Premios Grammy en 1999?",
+          "¿Qué éxito masivo en inglés abrió las puertas para otros artistas latinos?",
+          "¿Qué fundación creó él con mucho orgullo?",
+          "¿Por qué lucha constantemente esta fundación en todo el mundo?"
+        ],
+        "answerKey": [
+          "En la hermosa isla tropical de Puerto Rico.",
+          "Tenía solo doce años.",
+          "Menudo.",
+          "\"La Copa de la Vida\".",
+          "\"Livin' la Vida Loca\".",
+          "La Fundación Ricky Martin.",
+          "Por los derechos de los niños (y para detener agresivamente la trata de personas)."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Ricky Martin es, indiscutiblemente, un ícono legendario, carismático e internacionalmente aclamado de la música pop, originario de la hermosa isla tropical de Puerto Rico. Su prolífica y extraordinaria trayectoria musical comenzó a la temprana edad de doce años cuando se integró al fenómeno juvenil Menudo. Durante esta intensa etapa, aprendió a dominar los escenarios frente a multitudes eufóricas. Tras cinco agotadores años de giras incesantes, tomó la audaz decisión de abandonar la agrupación para forjar su propio camino como solista y explorar su auténtica identidad musical.\n\nSu meteórico y deslumbrante ascenso a la fama mundial estalló a finales de la década de los noventa. En 1999, Ricky ofreció una deslumbrante e histórica interpretación de su himno \"La Copa de la Vida\" durante la ceremonia de los prestigiosos Premios Grammy. Esta electrizante actuación desencadenó oficialmente el fenómeno cultural conocido como la \"Explosión del Pop Latino\" en el mercado anglosajón. Poco después, lanzó su megaéxito mundial \"Livin' la Vida Loca\". Esta contagiosa y vibrante canción rompió innumerables récords y pavimentó rápidamente el camino para que otros artistas hispanos triunfaran globalmente.\n\nEn la actualidad, Ricky Martin no solo es venerado por sus irresistibles ritmos bailables y emotivas baladas románticas, sino también por su inquebrantable compromiso humanitario. Fundó la Fundación Ricky Martin con el noble propósito de defender incansablemente los derechos infantiles y combatir tenazmente la trata de personas a nivel mundial. Sus millones de admiradores no solo celebran su indiscutible genialidad artística y su inagotable energía, sino que también admiran profundamente su inmensa calidad humana, consolidándolo como una figura verdaderamente transformadora.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De dónde es originario este ícono legendario y carismático de la música pop?",
+          "¿A qué edad se integró al fenómeno juvenil Menudo?",
+          "¿Qué audaz decisión tomó tras cinco agotadores años de giras incesantes?",
+          "¿Qué histórica interpretación desencadenó la \"Explosión del Pop Latino\" en 1999?",
+          "¿Qué megaéxito mundial pavimentó el camino para que otros artistas hispanos triunfaran?",
+          "¿Con qué noble propósito fundó la Fundación Ricky Martin?",
+          "¿Además de su genialidad artística, qué otra cualidad admiran profundamente sus admiradores?"
+        ],
+        "answerKey": [
+          "De la hermosa isla tropical de Puerto Rico.",
+          "A la temprana edad de doce años.",
+          "Abandonar la agrupación para forjar su propio camino como solista.",
+          "Su interpretación del himno \"La Copa de la Vida\" (en los Premios Grammy).",
+          "\"Livin' la Vida Loca\".",
+          "Para defender incansablemente los derechos infantiles y combatir tenazmente la trata de personas.",
+          "Admiran profundamente su inmensa calidad humana."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Grupo Frontera",
+    "imageFileName": "grupo_frontera.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Grupo Frontera is an incredibly popular and rapidly rising musical group that plays Regional Mexican music. Interestingly, the six talented band members are not originally from Mexico. They actually formed the band in 2022 in the sunny city of Edinburg, Texas, located right near the Mexican border. At first, they just played music together as a fun hobby on the weekends while working normal, everyday jobs. However, their lives completely changed when they recorded a catchy, rhythmic cover of the pop song \"No Se Va.\" The song quickly exploded on the internet and became a massive viral trend on TikTok, making them famous overnight.\n\nThe band specializes in a fun, energetic style of music called música norteña and cumbia. They use traditional instruments like the accordion and the bajo quinto (a special Mexican guitar) to create romantic music that makes people want to dance. Even though their music has traditional, deeply cultural roots, they successfully mix it with modern styles to attract younger fans all over the world.\n\nTheir biggest and most surprising éxito (success) happened when they collaborated with the global superstar Bad Bunny. Together, they released the massive hit song \"un x100to.\" This emotional, beautiful song broke streaming records worldwide and officially brought Regional Mexican music to the very top of the international pop charts. Today, Grupo Frontera continues to proudly represent Mexican-American culture everywhere they go. They have won many important awards, play at huge festivals, and prove that authentic, traditional music can successfully cross borders and connect millions of loyal fans.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where did the six talented band members form the group in 2022?",
+          "What catchy song did they cover that became a massive viral trend on TikTok?",
+          "What fun, energetic style of music does the band specialize in?",
+          "What are two traditional instruments they use to create their music?",
+          "What global superstar did they famously collaborate with?",
+          "What is the name of the massive hit song they released together?",
+          "What culture does the group proudly continue to represent today?"
+        ],
+        "answerKey": [
+          "In the sunny city of Edinburg, Texas (near the Mexican border).",
+          "The pop song \"No Se Va.\"",
+          "Música norteña and cumbia.",
+          "The accordion and the bajo quinto (a special Mexican guitar).",
+          "The global superstar Bad Bunny.",
+          "\"un x100to.\"",
+          "Mexican-American culture."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Grupo Frontera es un grupo musical increíblemente popular que toca música regional mexicana. Curiosamente, los seis miembros talentosos de la banda no son de México. Ellos en realidad formaron la banda en 2022 en la soleada ciudad de Edinburg, Texas, ubicada muy cerca de la frontera mexicana. Al principio, ellos solo tocaban música juntos como un pasatiempo divertido los fines de semana mientras trabajaban en empleos normales. Sin embargo, sus vidas cambiaron por completo cuando grabaron una versión pegadiza y rítmica de la canción pop \"No Se Va\". La canción explotó rápidamente en el internet y se convirtió en una tendencia viral masiva en TikTok, haciéndolos famosos de la noche a la mañana.\n\nLa banda se especializa en un estilo de música divertido y enérgico llamado música norteña y cumbia. Ellos usan instrumentos tradicionales como el acordeón y el bajo quinto (una guitarra mexicana especial) para crear música romántica que hace que las personas quieran bailar. Aunque su música tiene raíces tradicionales y muy culturales, ellos la mezclan con éxito con estilos modernos para atraer a fans más jóvenes en todo el mundo.\n\nSu éxito más grande y sorprendente ocurrió cuando colaboraron con la superestrella global Bad Bunny. Juntos, lanzaron la exitosa canción masiva \"un x100to\". Esta canción hermosa y emocional rompió récords en todo el mundo y llevó la música regional mexicana a la cima de las listas pop internacionales. Hoy en día, Grupo Frontera continúa representando con orgullo la cultura mexicano-americana. Han ganado muchos premios importantes, tocan en festivales enormes y prueban que la música tradicional y auténtica puede cruzar fronteras y conectar a millones de fans leales.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde formaron el grupo los seis miembros talentosos en 2022?",
+          "¿Qué canción pegadiza grabaron que se convirtió en una tendencia viral en TikTok?",
+          "¿En qué estilo de música divertido y enérgico se especializa la banda?",
+          "¿Cuáles son dos instrumentos tradicionales que usan para crear su música?",
+          "¿Con qué superestrella global colaboraron de manera sorprendente?",
+          "¿Cómo se llama la exitosa canción masiva que lanzaron juntos?",
+          "¿Qué cultura continúa representando con orgullo el grupo hoy en día?"
+        ],
+        "answerKey": [
+          "En la soleada ciudad de Edinburg, Texas.",
+          "La canción pop \"No Se Va\".",
+          "En la música norteña y cumbia.",
+          "El acordeón y el bajo quinto.",
+          "Con la superestrella global Bad Bunny.",
+          "\"un x100to\".",
+          "La cultura mexicano-americana."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Grupo Frontera es, indiscutiblemente, uno de los fenómenos musicales más impresionantes y exitosos de la música regional mexicana contemporánea. Curiosamente, los seis talentosos integrantes de la agrupación no nacieron en México, sino que formaron la banda a principios de 2022 en la ciudad de Edinburg, Texas, muy cerca de la frontera. En sus inicios, la música era simplemente un pasatiempo de fin de semana mientras todos mantenían sus trabajos cotidianos regulares. Sin embargo, su trayectoria dio un giro radical e inesperado cuando grabaron una contagiosa versión en estilo cumbia del tema pop \"No Se Va\". La canción se viralizó explosivamente en la plataforma TikTok, catapultándolos a la fama internacional casi de la noche a la mañana.\n\nLa agrupación se distingue por revitalizar la música norteña y la cumbia tejana, dotándolas de una energía fresca y moderna. Utilizando instrumentos profundamente tradicionales, como el acordeón y el emblemático bajo quinto, crean melodías románticas y bailables que resuenan con audiencias de todas las edades. Al fusionar sus raíces culturales con sensibilidades modernas, han logrado cautivar a una nueva generación de oyentes a nivel global.\n\nSu consagración definitiva y su éxito más mediático llegó con la histórica colaboración junto a la superestrella puertorriqueña Bad Bunny. Juntos lanzaron el megaéxito \"un x100to\", una emotiva cumbia que rompió récords de reproducción a nivel mundial y posicionó la música regional mexicana en la codiciada cima de las listas pop globales. Hoy en día, Grupo Frontera es un inmenso orgullo para la comunidad mexicoamericana. Ellos continúan ganando prestigiosos galardones, abarrotando estadios y demostrando que la música auténtica puede trascender cualquier frontera cultural y conectar al mundo entero.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde formaron la banda los seis talentosos integrantes a principios de 2022?",
+          "¿Qué tema pop grabaron en estilo cumbia que se viralizó explosivamente en TikTok?",
+          "¿Qué estilos musicales se distingue por revitalizar la agrupación?",
+          "¿Qué instrumentos profundamente tradicionales utilizan para crear sus melodías?",
+          "¿Con qué superestrella puertorriqueña realizaron una histórica colaboración?",
+          "¿Cómo se llama la emotiva cumbia que posicionó la música regional mexicana en la cima?",
+          "¿Para qué comunidad es Grupo Frontera un inmenso orgullo hoy en día?"
+        ],
+        "answerKey": [
+          "En la ciudad de Edinburg, Texas (muy cerca de la frontera).",
+          "El tema pop \"No Se Va\".",
+          "La música norteña y la cumbia tejana.",
+          "El acordeón y el emblemático bajo quinto.",
+          "Con la superestrella puertorriqueña Bad Bunny.",
+          "El megaéxito \"un x100to\".",
+          "Para la comunidad mexicoamericana."
+        ]
+      }
+    }
+  },
+{
+    "topicName": "J Balvin",
+    "imageFileName": "j_balvin.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "J Balvin is an incredibly famous, energetic, and colorful cantante (singer) from Medellín, Colombia. His real name is José Álvaro Osorio Balvín, but millions of loyal fans around the world proudly call him the \"Prince of Reggaeton.\" When he was just a teenager, he bravely moved to the United States to learn English, living in both Oklahoma and New York. While living there, he listened to many different styles of música (music), from heavy rock bands like Metallica to famous New York rappers, which deeply influenced his future musical style.\n\nToday, J Balvin is known globally for making fun, rhythmic reggaeton and Latin pop music. Even though he speaks English perfectly, he proudly chooses to write and sing his biggest hit songs almost exclusively in Spanish. He strongly believes that authentic Latin music can easily connect everyone, no matter what language they speak. His amazing plan worked perfectly! He has released massive, record-breaking global hits like \"Mi Gente\" and \"Ay Vamos,\" and famously collaborated with huge global superstars like Beyoncé, Cardi B, and his good friend Bad Bunny.\n\nBeyond his incredible music, J Balvin is also very famous for his bold, vibrant fashion. He loves wearing brightly colored clothes, changing his hair color constantly, and even became the very first Latin artist to design an official shoe with the famous Jordan Brand. Furthermore, he is a dedicated advocate for mental health, openly talking to his fans about his personal anxiety to help break the stigma. J Balvin truly brings bright colors, deep cultural pride, and incredibly catchy rhythms to the entire world.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is the energetic and colorful singer J Balvin from?",
+          "What title do millions of loyal fans proudly call him?",
+          "Where did he bravely move as a teenager to learn English?",
+          "What language does he proudly choose to write and sing his biggest hit songs in?",
+          "What are the names of some of his record-breaking global hits?",
+          "What iconic brand did he make history with by designing an official shoe?",
+          "What important issue is he a dedicated advocate for, speaking openly with his fans?"
+        ],
+        "answerKey": [
+          "Medellín, Colombia.",
+          "The \"Prince of Reggaeton.\"",
+          "To the United States (living in Oklahoma and New York).",
+          "Almost exclusively in Spanish.",
+          "\"Mi Gente\" and \"Ay Vamos.\"",
+          "The famous Jordan Brand.",
+          "Mental health (and breaking the stigma around anxiety)."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "J Balvin es un cantante increíblemente famoso, enérgico y colorido de Medellín, Colombia. Su nombre real es José Álvaro Osorio Balvín, pero millones de fans leales en todo el mundo lo llaman con orgullo el \"Príncipe del Reguetón\". Cuando era solo un adolescente, él se mudó valientemente a los Estados Unidos para aprender inglés, viviendo en Oklahoma y en Nueva York. Mientras vivía allí, él escuchó muchos estilos diferentes de música, desde bandas de rock pesado como Metallica hasta raperos famosos de Nueva York, lo que influyó profundamente en su futuro estilo musical.\n\nHoy en día, J Balvin es conocido globalmente por hacer música pop latina y reguetón divertido y rítmico. Aunque habla inglés perfectamente, él elige con orgullo escribir y cantar sus canciones de éxito más grandes casi exclusivamente en español. Él cree firmemente que la música latina auténtica puede conectar a todos fácilmente, sin importar el idioma. ¡Su plan increíble funcionó perfectamente! Él ha lanzado éxitos globales masivos como \"Mi Gente\" y \"Ay Vamos\", y ha colaborado con enormes superestrellas como Beyoncé, Cardi B y su buen amigo Bad Bunny.\n\nMás allá de su música increíble, J Balvin también es muy famoso por su moda audaz y vibrante. A él le encanta usar ropa de colores brillantes, cambiar constantemente el color de su cabello, y recientemente se convirtió en el primer artista latino en diseñar unos zapatos oficiales con la icónica marca Jordan. Además, él es un gran defensor de la salud mental, hablando abiertamente con sus fans sobre su ansiedad para ayudar a romper el estigma social. J Balvin verdaderamente trae colores brillantes, profundo orgullo cultural y ritmos increíblemente pegadizos a todo el mundo.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De dónde es el cantante enérgico y colorido J Balvin?",
+          "¿Con qué título lo llaman con orgullo sus millones de fans leales?",
+          "¿A dónde se mudó valientemente cuando era adolescente para aprender inglés?",
+          "¿En qué idioma elige con orgullo escribir y cantar sus canciones de éxito más grandes?",
+          "¿Cuáles son los títulos de algunos de sus éxitos globales masivos?",
+          "¿Con qué marca icónica hizo historia al diseñar unos zapatos oficiales?",
+          "¿De qué tema importante es un gran defensor, hablando abiertamente sobre su ansiedad?"
+        ],
+        "answerKey": [
+          "De Medellín, Colombia.",
+          "El \"Príncipe del Reguetón\".",
+          "A los Estados Unidos (viviendo en Oklahoma y Nueva York).",
+          "Casi exclusivamente en español.",
+          "\"Mi Gente\" y \"Ay Vamos\".",
+          "Con la icónica marca Jordan.",
+          "De la salud mental (para ayudar a romper el estigma social)."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "J Balvin es, sin lugar a dudas, uno de los artistas urbanos más influyentes y globalmente reconocidos de la actualidad. Nacido como José Álvaro Osorio Balvín en Medellín, Colombia, es aclamado internacionalmente por sus millones de seguidores como el indiscutible \"Príncipe del Reguetón\". Durante su adolescencia, tomó la audaz decisión de mudarse a Estados Unidos para perfeccionar su inglés, estableciéndose en Oklahoma y Nueva York. En esa etapa formativa, se nutrió de una ecléctica variedad de géneros musicales, absorbiendo influencias desde el rock de Metallica hasta el rap neoyorquino, lo que enriqueció profundamente su propuesta artística.\n\nHoy en día, J Balvin es mundialmente célebre por revolucionar el reguetón y el pop latino. A pesar de dominar el inglés, él ha optado orgullosamente por componer e interpretar sus mayores éxitos de manera exclusiva en español. Su inquebrantable convicción de que la música latina auténtica puede trascender barreras lingüísticas ha sido un triunfo rotundo. Ha lanzado megaéxitos virales que han roto récords de reproducción, como \"Mi Gente\" y \"Ay Vamos\", logrando colaboraciones históricas con superestrellas de la talla de Beyoncé, Cardi B y Bad Bunny.\n\nAdemás de su innegable impacto musical, Balvin se distingue por su extravagante y audaz sentido de la moda. Amante de los colores neón y los constantes cambios de cabello, hizo historia al convertirse en el primer latino en diseñar zapatillas exclusivas para la icónica marca Jordan. Paralelamente, se ha consolidado como un valiente portavoz de la salud mental, compartiendo abiertamente sus luchas personales contra la ansiedad para desestigmatizar estos problemas. J Balvin es un verdadero embajador que eleva la cultura latinoamericana a nivel mundial.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué ciudad colombiana es originario este influyente artista urbano?",
+          "¿Con qué título es aclamado internacionalmente por sus millones de seguidores?",
+          "¿A qué país se mudó durante su adolescencia para perfeccionar su inglés?",
+          "¿En qué idioma ha optado orgullosamente por componer e interpretar sus mayores éxitos?",
+          "¿Cuáles son algunos de sus megaéxitos virales que han roto récords de reproducción?",
+          "¿Para qué icónica marca de zapatillas hizo historia al ser el primer latino en diseñar un modelo?",
+          "¿De qué tema se ha consolidado como un valiente portavoz al compartir sus luchas personales?"
+        ],
+        "answerKey": [
+          "De Medellín, Colombia.",
+          "Como el \"Príncipe del Reguetón\".",
+          "A Estados Unidos.",
+          "De manera exclusiva en español.",
+          "\"Mi Gente\" y \"Ay Vamos\".",
+          "Para la icónica marca Jordan.",
+          "De la salud mental (para desestigmatizar los problemas de ansiedad)."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Romeo Santos",
+    "imageFileName": "romeo_santos.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Romeo Santos is a wildly famous and incredibly talented cantante (singer) from the Bronx, New York. Even though he was born in the United States, his father is from the Dominican Republic and his mother is from Puerto Rico. Growing up in New York, he listened to many different styles of música (music), but he fell completely in love with a traditional, romantic Dominican style called bachata. When he was just a teenager, he formed a music group named Aventura with his cousins. They quickly became massive superstars because they mixed traditional bachata with modern American R&B and hip-hop.\n\nAventura's biggest and most famous hit song was \"Obsesión,\" which became incredibly popular all over the world. After many years of massive éxito (success) with the band, Romeo bravely decided to start a solo career in 2011. His plan worked perfectly, and today millions of loyal fans proudly call him the undisputed \"King of Bachata.\" He writes beautiful, emotional songs about love and heartbreak, usually singing in both English and Spanish.\n\nAs a solo artist, Romeo has achieved incredible things. He has released massive global hits like \"Propuesta Indecente\" and collaborated with huge superstars like Drake and Marc Anthony. He is so incredibly popular that he even sold out two consecutive concerts at the massive Yankee Stadium! Romeo Santos is widely respected because he proudly took traditional Dominican bachata, modernized it, and made it a massive, international phenomenon. Thanks to his immense talent and hard work, people all over the world now love to dance to this beautiful tropical rhythm.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is the wildly famous singer Romeo Santos from?",
+          "Where are his parents originally from?",
+          "What is the name of the music group he formed with his cousins?",
+          "What two musical styles did his group mix with traditional bachata?",
+          "What is the title he is proudly called by millions of loyal fans?",
+          "What massive New York venue did he sell out for two consecutive concerts?",
+          "What is Romeo Santos widely respected for doing to traditional Dominican bachata?"
+        ],
+        "answerKey": [
+          "The Bronx, New York.",
+          "His father is from the Dominican Republic and his mother is from Puerto Rico.",
+          "Aventura.",
+          "Modern American R&B and hip-hop.",
+          "The undisputed \"King of Bachata.\"",
+          "The massive Yankee Stadium.",
+          "Modernizing it and making it a massive, international phenomenon."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Romeo Santos es un cantante increíblemente famoso y muy talentoso del Bronx, Nueva York. Aunque nació en los Estados Unidos, su padre es de la República Dominicana y su madre es de Puerto Rico. Al crecer en Nueva York, él escuchó muchos estilos diferentes de música, pero se enamoró completamente de un estilo tradicional y romántico llamado bachata. Cuando era solo un adolescente, formó un grupo musical llamado Aventura con sus primos. Ellos rápidamente se convirtieron en superestrellas masivas porque mezclaron la bachata tradicional con el R&B moderno y el hip-hop americano.\n\nLa canción de éxito más grande y famosa de Aventura fue \"Obsesión\", que se volvió increíblemente popular en todo el mundo. Después de muchos años de éxito masivo con la banda, Romeo decidió valientemente empezar una carrera como solista en 2011. Su plan funcionó perfectamente, y hoy millones de fans leales lo llaman con orgullo el indiscutible \"Rey de la Bachata\". Él escribe canciones hermosas y emocionales sobre el amor y la tristeza, cantando frecuentemente en inglés y en español.\n\nComo artista solista, Romeo ha logrado cosas increíbles. Él ha lanzado éxitos globales masivos como \"Propuesta Indecente\" y ha colaborado con superestrellas enormes como Drake y Marc Anthony. ¡Él es tan popular que incluso vendió todas las entradas para dos conciertos consecutivos en el enorme Yankee Stadium! Romeo Santos es muy respetado porque tomó la bachata dominicana con orgullo, la modernizó y la convirtió en un fenómeno internacional masivo. Gracias a su inmenso talento, personas en todo el mundo ahora bailan este ritmo hermoso.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De dónde es el cantante increíblemente famoso Romeo Santos?",
+          "¿De dónde son originalmente sus padres?",
+          "¿Cómo se llamaba el grupo musical que formó con sus primos?",
+          "¿Qué estilos musicales mezclaron ellos con la bachata tradicional?",
+          "¿Con qué título lo llaman con orgullo sus millones de fans leales?",
+          "¿En qué lugar enorme vendió él todas las entradas para dos conciertos?",
+          "¿Por qué es muy respetado Romeo Santos en el mundo de la música?"
+        ],
+        "answerKey": [
+          "Del Bronx, Nueva York.",
+          "Su padre es de la República Dominicana y su madre es de Puerto Rico.",
+          "Aventura.",
+          "El R&B moderno y el hip-hop americano.",
+          "El indiscutible \"Rey de la Bachata\".",
+          "En el enorme Yankee Stadium.",
+          "Porque tomó la bachata dominicana, la modernizó y la convirtió en un fenómeno internacional."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Romeo Santos es, indiscutiblemente, uno de los cantantes y compositores más exitosos e influyentes de la música latina contemporánea. Nacido en el Bronx, Nueva York, posee una rica herencia cultural, ya que su padre es dominicano y su madre es puertorriqueña. Durante su juventud en esta vibrante metrópolis, se nutrió de diversos géneros musicales, pero desarrolló una profunda y apasionada conexión con la bachata, un ritmo tradicional y melancólico de la República Dominicana. En su adolescencia, fundó la innovadora agrupación Aventura junto a sus primos. Ellos revolucionaron la industria musical al fusionar audazmente la bachata clásica con elementos urbanos modernos como el R&B y el hip-hop.\n\nEl meteórico ascenso a la fama de Aventura se consolidó con el megaéxito mundial \"Obsesión\", el cual dominó las listas de popularidad internacionalmente. Tras alcanzar la cima del éxito grupal, Romeo tomó la valiente decisión de emprender su carrera como solista en 2011. Su audaz transición fue un triunfo rotundo, y en la actualidad, sus millones de fervientes seguidores lo coronan como el indiscutible \"Rey de la Bachata\". Sus composiciones bilingües exploran profundamente temas de amor, pasión y desamor.\n\nA lo largo de su brillante trayectoria en solitario, ha lanzado himnos inolvidables como \"Propuesta Indecente\" y ha realizado históricas colaboraciones con superestrellas mundiales como Drake. Su fenomenal poder de convocatoria es tan inmenso que logró agotar las entradas para dos conciertos consecutivos en el icónico Yankee Stadium. Romeo Santos es universalmente admirado por modernizar la bachata tradicional y elevar este hermoso género caribeño a un fenómeno global, logrando que el mundo entero baile al ritmo de sus cautivadoras melodías.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué vibrante metrópolis es originario este exitoso cantante y compositor?",
+          "¿De dónde provienen las raíces de su rica herencia cultural?",
+          "¿Qué agrupación innovadora fundó junto a sus primos durante su adolescencia?",
+          "¿Con qué elementos urbanos modernos fusionaron audazmente la bachata clásica?",
+          "¿Con qué título honorífico lo coronan sus millones de fervientes seguidores en la actualidad?",
+          "¿En qué icónico lugar logró agotar las entradas para dos conciertos consecutivos?",
+          "¿Por qué hito musical es universalmente admirado Romeo Santos?"
+        ],
+        "answerKey": [
+          "Del Bronx, Nueva York.",
+          "Su padre es dominicano y su madre es puertorriqueña.",
+          "La agrupación Aventura.",
+          "Con elementos urbanos como el R&B y el hip-hop.",
+          "Como el indiscutible \"Rey de la Bachata\".",
+          "En el icónico Yankee Stadium.",
+          "Por modernizar la bachata tradicional y elevar este género a un fenómeno global."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Maná",
+    "imageFileName": "mana.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Maná is an incredibly famous, legendary, and highly successful banda de rock (rock band) from the beautiful city of Guadalajara, Mexico. They originally formed in the 1980s and quickly became one of the absolute most popular and beloved Latin music groups in the entire world. The band features the passionate, talented lead singer Fher Olvera, along with his amazing musicians who play the guitar, bass, and drums. Together, they create a unique, catchy style of música (music) that perfectly mixes classic rock and roll with traditional Latin, Caribbean, and pop rhythms.\n\nManá is widely famous for writing beautiful, emotional canciones (songs) about love, heartbreak, and sometimes even important social issues. Some of their biggest, record-breaking international hit songs include \"Rayando el Sol,\" \"Oye Mi Amor,\" and the very sad but beautiful ballad \"En el Muelle de San Blas.\" Millions of loyal fans absolutely love to loudly sing these famous songs at their massive, sold-out stadium concerts all over the world.\n\nBeyond their incredible musical éxito (success), the members of Maná are also very passionate and dedicated environmental activists. They proudly created a special organization called the Selva Negra Foundation to actively protect endangered sea turtles, plant thousands of new trees, and constantly fight against global climate change. Maná has won many prestigious Grammy Awards and sold millions of records during their long career. Today, they are undeniably considered true legends of Latin rock, proving that great music can beautifully unite people and strongly help protect our precious planet.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is the famous rock band Maná from?",
+          "Who is the passionate, talented lead singer of the band?",
+          "What musical styles do they perfectly mix together?",
+          "What are some of their biggest international hit songs?",
+          "What is the name of the special organization they proudly created?",
+          "What animals does their foundation actively protect?",
+          "What are they undeniably considered today?"
+        ],
+        "answerKey": [
+          "Guadalajara, Mexico.",
+          "Fher Olvera.",
+          "Classic rock and roll with traditional Latin, Caribbean, and pop rhythms.",
+          "\"Rayando el Sol,\" \"Oye Mi Amor,\" and \"En el Muelle de San Blas.\"",
+          "The Selva Negra Foundation.",
+          "Endangered sea turtles.",
+          "True legends of Latin rock."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Maná es una banda de rock increíblemente famosa, legendaria y muy exitosa de la hermosa ciudad de Guadalajara, México. Ellos se formaron originalmente en los años ochenta y rápidamente se convirtieron en uno de los grupos de música latina más populares y queridos en todo el mundo. La banda tiene al cantante apasionado y talentoso Fher Olvera, junto con sus músicos increíbles que tocan la guitarra, el bajo y la batería. Juntos, ellos crean un estilo de música único y pegadizo que mezcla perfectamente el rock clásico con ritmos latinos, caribeños y pop.\n\nManá es muy famoso por escribir canciones hermosas y emocionales sobre el amor, la tristeza y a veces problemas sociales importantes. Algunas de sus canciones de éxito internacional más grandes incluyen \"Rayando el Sol\", \"Oye Mi Amor\", y la balada muy triste pero hermosa \"En el Muelle de San Blas\". A millones de fans leales les encanta cantar fuertemente estas canciones famosas en sus conciertos enormes y llenos en todo el mundo.\n\nMás allá de su increíble éxito musical, los miembros de Maná también son activistas ambientales muy apasionados y dedicados. Ellos crearon con orgullo una organización especial llamada la Fundación Selva Negra para proteger activamente a las tortugas marinas, plantar miles de árboles nuevos y luchar constantemente contra el cambio climático global. Maná ha ganado muchos premios Grammy prestigiosos y ha vendido millones de discos durante su larga carrera. Hoy en día, son considerados verdaderas leyendas del rock latino, probando que la buena música puede unir a las personas y ayudar a proteger nuestro planeta.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué hermosa ciudad es la famosa banda de rock Maná?",
+          "¿Quién es el cantante apasionado y talentoso de la banda?",
+          "¿Qué estilos musicales mezclan ellos perfectamente en sus canciones?",
+          "¿Cuáles son algunas de sus canciones de éxito internacional más grandes?",
+          "¿Cómo se llama la organización especial que ellos crearon con orgullo?",
+          "¿Qué animales marinos protege activamente su fundación?",
+          "¿Qué han ganado ellos durante su larga y exitosa carrera?"
+        ],
+        "answerKey": [
+          "De Guadalajara, México.",
+          "Fher Olvera.",
+          "El rock clásico con ritmos latinos, caribeños y pop.",
+          "\"Rayando el Sol\", \"Oye Mi Amor\" y \"En el Muelle de San Blas\".",
+          "La Fundación Selva Negra.",
+          "Las tortugas marinas.",
+          "Muchos premios Grammy prestigiosos (y han vendido millones de discos)."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Maná es, indiscutiblemente, la banda de rock en español más aclamada, influyente y exitosa de todos los tiempos. Originaria de la vibrante ciudad de Guadalajara, México, la agrupación se formó en la década de los ochenta y rápidamente alcanzó el estrellato internacional. Liderada por la inconfundible y apasionada voz de Fher Olvera, la banda ha forjado un sonido característico y sumamente contagioso que fusiona magistralmente las potentes guitarras del rock clásico con irresistibles ritmos latinos, caribeños y melodías pop.\n\nA lo largo de su impresionante y prolífica trayectoria, Maná ha compuesto himnos inolvidables que exploran profundamente temas de amor, desamor y justicia social. Megaéxitos mundiales como \"Rayando el Sol\", la enérgica \"Oye Mi Amor\" y la melancólica balada \"En el Muelle de San Blas\" han roto récords de ventas y son coreados por multitudes eufóricas en estadios abarrotados de todo el planeta. Su inmenso éxito comercial les ha otorgado innumerables galardones prestigiosos, incluyendo múltiples premios Grammy.\n\nSin embargo, el impacto de Maná trasciende ampliamente la industria musical. Los integrantes de la banda son activistas ecológicos profundamente comprometidos y fundaron la organización Selva Negra para liderar la conservación del medio ambiente. A través de esta fundación, financian proyectos cruciales para proteger especies marinas en peligro de extinción, promover la reforestación y combatir activamente el cambio climático. Maná ha demostrado de manera ejemplar que el poder del rock puede utilizarse no solo para conectar culturas y emocionar a millones de seguidores, sino también para crear conciencia global y proteger incansablemente nuestro frágil planeta.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué vibrante ciudad es originaria esta aclamada e influyente banda de rock?",
+          "¿Quién lidera la agrupación con su inconfundible y apasionada voz?",
+          "¿Qué géneros fusionan magistralmente en su sonido característico y contagioso?",
+          "¿Cuáles son algunos de los megaéxitos mundiales que han roto récords de ventas?",
+          "¿Qué organización fundaron para liderar la conservación del medio ambiente?",
+          "¿Qué tipo de proyectos financian a través de su fundación ecológica?",
+          "¿Qué ha demostrado Maná de manera ejemplar que puede hacer el poder del rock?"
+        ],
+        "answerKey": [
+          "De Guadalajara, México.",
+          "Fher Olvera.",
+          "Las potentes guitarras del rock clásico con irresistibles ritmos latinos, caribeños y pop.",
+          "\"Rayando el Sol\", \"Oye Mi Amor\" y \"En el Muelle de San Blas\".",
+          "La organización Selva Negra.",
+          "Proyectos para proteger especies marinas, promover la reforestación y combatir el cambio climático.",
+          "Puede conectar culturas, emocionar a millones y crear conciencia global para proteger nuestro planeta."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Pitbull",
+    "imageFileName": "pitbull.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Pitbull is a famous, energetic, and incredibly successful cantante (singer) and rapper from the sunny city of Miami, Florida. His real name is Armando Christian Pérez, but millions of loyal fans around the world proudly call him \"Mr. Worldwide.\" His parents originally came from the beautiful island of Cuba, and growing up in Miami helped him appreciate many different vibrant Latin American cultures. When he was young, his life was very difficult, but he used his deep love for música (music) to stay positive and completely change his future.\n\nToday, Pitbull is internationally famous for making fast, rhythmic, and incredibly fun dance music. He is a massive superstar because he perfectly mixes American rap with traditional Latin beats and pop music. He loves to write and sing catchy canciones (songs) in both English and Spanish. People all over the world absolutely love to dance to his massive, record-breaking global hits like \"Give Me Everything,\" \"Timber,\" and \"Fireball.\" He frequently collaborates with other huge global superstars like Jennifer Lopez and Enrique Iglesias to create unforgettable party anthems.\n\nBeyond his amazing music, Pitbull is also a very passionate and dedicated humanitarian who cares deeply about education. He proudly helped build special public schools in his hometown of Miami to help poor students get a great education. He wants children to know that hard work can make their biggest dreams come true. With his sharp suits, cool sunglasses, and very positive attitude, Pitbull undeniably proves that energetic Latin music can successfully cross borders, break rules, and unite people from every country on the planet.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is the energetic and successful singer Pitbull from?",
+          "What title do millions of loyal fans around the world proudly call him?",
+          "Where did his parents originally come from?",
+          "What styles of music does he perfectly mix together to create his songs?",
+          "What are the names of some of his massive, record-breaking global hits?",
+          "Who does he frequently collaborate with to create unforgettable party anthems?",
+          "What did he proudly help build in his hometown of Miami?"
+        ],
+        "answerKey": [
+          "The sunny city of Miami, Florida.",
+          "\"Mr. Worldwide.\"",
+          "The beautiful island of Cuba.",
+          "American rap with traditional Latin beats and pop music.",
+          "\"Give Me Everything,\" \"Timber,\" and \"Fireball.\"",
+          "Huge global superstars like Jennifer Lopez and Enrique Iglesias.",
+          "Special public schools (to help poor students get a great education)."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Pitbull es un cantante y rapero famoso, enérgico e increíblemente exitoso de la soleada ciudad de Miami, Florida. Su nombre real es Armando Christian Pérez, pero millones de fans leales en todo el mundo lo llaman con orgullo \"Mr. Worldwide\" (El Señor Mundial). Sus padres vinieron originalmente de la hermosa isla de Cuba, y crecer en Miami lo ayudó a apreciar muchas culturas latinoamericanas diferentes y vibrantes. Cuando era joven, su vida fue muy difícil, pero él usó su profundo amor por la música para mantenerse positivo y cambiar completamente su futuro.\n\nHoy en día, Pitbull es internacionalmente famoso por hacer música de baile rápida, rítmica y muy divertida. Él es una superestrella masiva porque mezcla perfectamente el rap americano con los ritmos latinos tradicionales y la música pop. A él le encanta escribir y cantar canciones pegadizas tanto en inglés como en español. A personas de todo el mundo les encanta bailar sus éxitos globales masivos y populares como \"Give Me Everything\", \"Timber\" y \"Fireball\". Además, él colabora frecuentemente con otras grandes superestrellas globales como Jennifer Lopez y Enrique Iglesias para crear himnos de fiesta inolvidables.\n\nMás allá de su música increíble, Pitbull también es un humanitario muy apasionado y dedicado que se preocupa profundamente por la educación de los niños. Él ayudó con orgullo a construir escuelas públicas chárter especiales en su ciudad de Miami para ayudar a los estudiantes a recibir una gran educación. Con sus trajes elegantes, gafas de sol geniales y actitud muy positiva, Pitbull prueba indudablemente que la música enérgica puede cruzar fronteras y unir a personas de todos los países.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué soleada ciudad es el cantante y rapero famoso Pitbull?",
+          "¿Con qué título lo llaman con orgullo millones de fans en todo el mundo?",
+          "¿De qué isla hermosa vinieron originalmente sus padres?",
+          "¿Qué estilos de música mezcla él perfectamente para crear sus canciones?",
+          "¿Cuáles son los nombres de algunos de sus éxitos globales masivos?",
+          "¿Con quién colabora él frecuentemente para crear himnos de fiesta inolvidables?",
+          "¿Qué ayudó a construir con orgullo en su ciudad de Miami?"
+        ],
+        "answerKey": [
+          "De la soleada ciudad de Miami, Florida.",
+          "\"Mr. Worldwide\" (El Señor Mundial).",
+          "De la hermosa isla de Cuba.",
+          "El rap americano con los ritmos latinos tradicionales y la música pop.",
+          "\"Give Me Everything\", \"Timber\" y \"Fireball\".",
+          "Con otras grandes superestrellas globales como Jennifer Lopez y Enrique Iglesias.",
+          "Escuelas públicas chárter especiales (para ayudar a los estudiantes a recibir una gran educación)."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Pitbull, cuyo verdadero nombre es Armando Christian Pérez, es indiscutiblemente uno de los artistas y empresarios más dinámicos, versátiles y globalmente reconocidos de la música contemporánea. Nacido en Miami, Florida, de padres inmigrantes cubanos, creció inmerso en un entorno urbano sumamente multicultural que forjó su inquebrantable ética de trabajo. Aunque enfrentó innumerables adversidades y un entorno difícil durante su juventud, canalizó su inmensa pasión por la música para escapar de las calles y transformar radicalmente su destino, ganándose a pulso el célebre apodo de \"Mr. Worldwide\".\n\nA lo largo de su meteórica carrera, Pitbull ha revolucionado por completo la industria musical al fusionar magistralmente el hip-hop estadounidense con ritmos afrocubanos, reguetón y melodías pop internacionales. Es mundialmente famoso por interpretar himnos de fiesta bilingües y sumamente contagiosos, tales como \"Give Me Everything\", \"Timber\" y el fenómeno global \"Fireball\". Gracias a su innegable carisma, colabora frecuentemente con superestrellas de la talla de Jennifer López y Marc Anthony, rompiendo récords de ventas y llenando estadios en todo el planeta.\n\nSin embargo, el impacto de Pitbull trasciende los escenarios. Es un filántropo profundamente comprometido con el desarrollo comunitario y la equidad educativa. Fundó la red de escuelas públicas chárter SLAM en vecindarios marginados de Miami para ofrecer oportunidades académicas a jóvenes desfavorecidos, demostrando que la educación es la verdadera clave del éxito. Con sus impecables trajes a la medida, icónicas gafas oscuras y su inagotable optimismo, Pitbull es un embajador cultural que utiliza su inmensa plataforma para empoderar a la comunidad latina y unir al mundo entero a través del ritmo.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad nació este dinámico y versátil artista de la música contemporánea?",
+          "¿Qué célebre apodo se ganó a pulso tras transformar radicalmente su destino?",
+          "¿Qué géneros musicales ha fusionado magistralmente para revolucionar la industria?",
+          "¿Cuáles son algunos de los himnos de fiesta bilingües y contagiosos que ha interpretado?",
+          "¿Con qué superestrellas colabora frecuentemente gracias a su innegable carisma?",
+          "¿Qué fundó en vecindarios marginados de Miami para ofrecer oportunidades académicas?",
+          "¿Cómo utiliza su inmensa plataforma este embajador cultural?"
+        ],
+        "answerKey": [
+          "En Miami, Florida.",
+          "El apodo de \"Mr. Worldwide\".",
+          "El hip-hop estadounidense con ritmos afrocubanos, reguetón y melodías pop internacionales.",
+          "\"Give Me Everything\", \"Timber\" y \"Fireball\".",
+          "Con superestrellas de la talla de Jennifer López y Marc Anthony.",
+          "La red de escuelas públicas chárter SLAM.",
+          "Para empoderar a la comunidad latina y unir al mundo entero a través del ritmo."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Héctor Lavoe",
+    "imageFileName": "hector_lavoe.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Héctor Lavoe is an incredibly famous and legendary cantante (singer) from the beautiful tropical island of Puerto Rico. When he was just a teenager, he bravely moved to the busy, crowded streets of New York City to follow his big dreams. He wanted to share his amazing voice with the world. Soon, he met another talented musician named Willie Colón. Together, they started making a vibrant, exciting new style of música (music) called salsa. This energetic tropical music mixed traditional Caribbean rhythms with the fast, modern sounds of the big city.\n\nDuring the 1970s, Héctor became a massive superstar and the lead singer for a famous group called the Fania All-Stars. His voice was so unique, powerful, and emotional that millions of loyal fans proudly called him \"El Cantante de los Cantantes\" (The Singer of Singers). He sang beautiful, catchy canciones (songs) about love, sadness, and the daily struggles of regular working people in Latin American neighborhoods. His most famous song, \"El Cantante,\" was actually written for him by his good friend Rubén Blades.\n\nEven though he achieved incredible global éxito (success) and fame, Héctor’s personal life was very difficult and filled with deep sadness. He suffered through many tragic events and struggled with severe health problems. Sadly, he died at a young age, but his incredible legacy lives on forever. Today, Héctor Lavoe is still considered one of the most important, beloved, and influential salsa artists in history. People all over the world absolutely love to dance to his unforgettable music and celebrate his profound cultural impact.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is the legendary singer Héctor Lavoe from?",
+          "Where did he bravely move when he was just a teenager?",
+          "Who was the talented musician he met and started making salsa with?",
+          "What famous group was he the lead singer for during the 1970s?",
+          "What title did his millions of loyal fans proudly call him?",
+          "Who wrote his most famous song, \"El Cantante\"?",
+          "Even though he had incredible success, what was his personal life filled with?"
+        ],
+        "answerKey": [
+          "The beautiful tropical island of Puerto Rico.",
+          "To the busy, crowded streets of New York City.",
+          "Willie Colón.",
+          "The Fania All-Stars.",
+          "\"El Cantante de los Cantantes\" (The Singer of Singers).",
+          "His good friend Rubén Blades.",
+          "Deep sadness (and many tragic events)."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Héctor Lavoe es un cantante increíblemente famoso y legendario de la hermosa isla tropical de Puerto Rico. Cuando era solo un adolescente, él se mudó valientemente a las calles ocupadas de la ciudad de Nueva York para seguir sus grandes sueños. Él quería compartir su voz increíble con el mundo. Pronto, él conoció a otro músico talentoso llamado Willie Colón. Juntos, ellos empezaron a hacer un estilo de música nuevo y emocionante llamado salsa. Esta música tropical y enérgica mezclaba los ritmos caribeños tradicionales con los sonidos modernos de la ciudad.\n\nDurante la década de 1970, Héctor se convirtió en una superestrella masiva y el cantante principal de un grupo famoso llamado la Fania All-Stars. Su voz era tan única, poderosa y emocional que millones de fans leales lo llamaban con orgullo \"El Cantante de los Cantantes\". Él cantaba canciones hermosas y pegadizas sobre el amor, la tristeza y los problemas diarios de las personas trabajadoras en los vecindarios latinoamericanos. Su canción más famosa, \"El Cantante\", fue escrita para él por su buen amigo Rubén Blades.\n\nAunque logró un éxito global increíble y mucha fama, la vida personal de Héctor fue muy difícil y llena de tristeza profunda. Él sufrió muchos eventos trágicos y luchó contra problemas de salud graves. Tristemente, él murió a una edad temprana, pero su legado increíble vive para siempre. Hoy en día, Héctor Lavoe todavía es considerado uno de los artistas de salsa más importantes y queridos en la historia. A personas de todo el mundo les encanta bailar su música inolvidable y celebrar su impacto cultural.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De dónde es el legendario cantante Héctor Lavoe?",
+          "¿A dónde se mudó valientemente cuando era solo un adolescente?",
+          "¿Quién era el músico talentoso con quien empezó a hacer salsa?",
+          "¿De qué grupo famoso fue él el cantante principal durante los años 70?",
+          "¿Con qué título lo llamaban con orgullo sus millones de fans leales?",
+          "¿Quién escribió su canción más famosa, \"El Cantante\"?",
+          "Aunque tuvo un éxito increíble, ¿de qué estuvo llena su vida personal?"
+        ],
+        "answerKey": [
+          "De la hermosa isla tropical de Puerto Rico.",
+          "A las calles ocupadas de la ciudad de Nueva York.",
+          "Willie Colón.",
+          "De la Fania All-Stars.",
+          "\"El Cantante de los Cantantes\".",
+          "Su buen amigo Rubén Blades.",
+          "Estuvo llena de tristeza profunda (y muchos eventos trágicos)."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Héctor Lavoe es, indiscutiblemente, una de las figuras más legendarias, carismáticas y trágicas en la historia de la música tropical. Nacido en Ponce, Puerto Rico, tomó la audaz decisión de emigrar a la bulliciosa ciudad de Nueva York durante su adolescencia para perseguir sus aspiraciones artísticas. En las vibrantes calles neoyorquinas, unió fuerzas con el brillante trombonista Willie Colón. Juntos, fueron pioneros en el desarrollo y la explosión mundial de la salsa, un electrizante género que fusionaba magistralmente los ritmos afrocubanos tradicionales con el sonido urbano y vanguardista de la metrópolis.\n\nDurante la efervescente década de los setenta, Lavoe alcanzó el estatus de superestrella como la voz principal de la mítica orquesta Fania All-Stars. Su capacidad para improvisar y su voz inconfundiblemente nasal y llena de sentimiento le otorgaron el prestigioso título de \"El Cantante de los Cantantes\". Sus inolvidables composiciones narraban con profunda autenticidad las alegrías, los desamores y las luchas cotidianas de la clase trabajadora latina. Su obra maestra, la emblemática canción \"El Cantante\" (escrita especialmente para él por Rubén Blades), capturó perfectamente la esencia de su vida pública.\n\nA pesar de disfrutar de una fama internacional abrumadora y un éxito rotundo, la vida personal de Héctor estuvo plagada de tragedias desgarradoras, adicciones y serios problemas de salud. Aunque falleció prematuramente, su impacto cultural es absolutamente imborrable. Hoy en día, Héctor Lavoe es venerado como el ícono supremo de la salsa, un símbolo perdurable del orgullo latinoamericano, y su música apasionada sigue inspirando a nuevas generaciones de salseros que bailan al ritmo de su inmenso legado.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad nació esta legendaria y carismática figura de la música tropical?",
+          "¿A qué bulliciosa ciudad emigró durante su adolescencia para perseguir sus aspiraciones?",
+          "¿Con qué brillante trombonista unió fuerzas en las vibrantes calles neoyorquinas?",
+          "¿De qué mítica orquesta fue la voz principal durante la efervescente década de los setenta?",
+          "¿Qué prestigioso título le otorgó su voz inconfundible y llena de sentimiento?",
+          "¿Quién escribió especialmente para él su obra maestra y emblemática canción \"El Cantante\"?",
+          "A pesar de su fama internacional, ¿de qué estuvo plagada su vida personal?"
+        ],
+        "answerKey": [
+          "En Ponce, Puerto Rico.",
+          "A la ciudad de Nueva York.",
+          "Con Willie Colón.",
+          "De la orquesta Fania All-Stars.",
+          "El título de \"El Cantante de los Cantantes\".",
+          "Rubén Blades.",
+          "Estuvo plagada de tragedias desgarradoras, adicciones y serios problemas de salud."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Don Omar",
+    "imageFileName": "don_omar.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Don Omar is a legendary, powerful, and incredibly famous cantante (singer) from the beautiful tropical island of Puerto Rico. His real name is William Omar Landrón Rivera, but millions of loyal fans around the world proudly call him \"El Rey del Reggaetón\" (The King of Reggaeton). Before he became a massive superstar, he actually started his musical journey by singing in his local church. However, his life completely changed when he discovered his deep passion for rhythmic urban música (music). During the early 2000s, he bravely helped take a local, underground musical style and transformed it into a massive global phenomenon.\n\nToday, Don Omar is internationally famous for his strong, commanding voice and his fast, energetic dance songs. He perfectly mixes traditional Caribbean rhythms with modern electronic beats. Millions of people all over the world absolutely love to dance to his massive, record-breaking hit canciones (songs) like \"Dale Don Dale\" and the unforgettable, energetic global anthem \"Danza Kuduro.\" That specific song became so incredibly popular that it reached number one in multiple different countries and quickly broke international streaming records.\n\nBeyond his amazing music, Don Omar is also a very talented and successful actor. He famously played the cool, confident character Rico Santos in the action-packed *Fast and Furious* movie franchise, acting alongside huge Hollywood superstars. Don Omar is undeniably considered one of the most important, respected, and influential artists in the entire history of Latin music. Thanks to his immense talent, hard work, and unique style, he successfully brought exciting Puerto Rican street music to the very top of the international pop charts.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is the legendary singer Don Omar from?",
+          "What title do millions of loyal fans proudly call him?",
+          "Where did he actually start his musical journey before becoming a superstar?",
+          "What styles of music does he perfectly mix together today?",
+          "What is the name of his unforgettable, energetic global anthem?",
+          "What action-packed movie franchise did he famously act in?",
+          "What is the name of the confident character he played in those movies?"
+        ],
+        "answerKey": [
+          "The beautiful tropical island of Puerto Rico.",
+          "\"El Rey del Reggaetón\" (The King of Reggaeton).",
+          "By singing in his local church.",
+          "Traditional Caribbean rhythms with modern electronic beats.",
+          "\"Danza Kuduro.\"",
+          "The *Fast and Furious* movie franchise.",
+          "Rico Santos."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Don Omar es un cantante legendario, poderoso e increíblemente famoso de la hermosa isla tropical de Puerto Rico. Su nombre real es William Omar Landrón Rivera, pero millones de fans leales en todo el mundo lo llaman con orgullo \"El Rey del Reggaetón\". Antes de ser una superestrella masiva, él en realidad empezó su viaje musical cantando en su iglesia local. Sin embargo, su vida cambió completamente cuando descubrió su pasión profunda por la música urbana y rítmica. Durante los primeros años de los 2000, él ayudó valientemente a tomar un estilo musical local y lo transformó en un fenómeno global masivo.\n\nHoy en día, Don Omar es internacionalmente famoso por su voz fuerte y sus canciones de baile rápidas y enérgicas. Él mezcla perfectamente los ritmos caribeños tradicionales con ritmos electrónicos modernos. A millones de personas en todo el mundo les encanta bailar sus canciones de éxito masivas y populares como \"Dale Don Dale\" y el himno global inolvidable y enérgico \"Danza Kuduro\". Esa canción específica se volvió tan increíblemente popular que llegó al número uno en muchos países diferentes y rompió récords internacionales rápidamente.\n\nMás allá de su música increíble, Don Omar también es un actor muy talentoso y exitoso. Él interpretó al personaje genial y seguro Rico Santos en las famosas películas de acción de *Fast and Furious*, actuando con grandes superestrellas de Hollywood. Don Omar es indudablemente considerado uno de los artistas más importantes, respetados e influyentes en la historia de la música latina. Gracias a su inmenso talento y trabajo duro, él llevó la emocionante música de las calles puertorriqueñas a la cima de las listas internacionales.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De dónde es el cantante legendario y poderoso Don Omar?",
+          "¿Con qué título lo llaman con orgullo sus fans leales?",
+          "¿Dónde empezó su viaje musical antes de ser una superestrella masiva?",
+          "¿Qué estilos de música mezcla él perfectamente hoy en día?",
+          "¿Cómo se llama su himno global inolvidable y enérgico?",
+          "¿En qué famosas películas de acción actuó él?",
+          "¿Cómo se llama el personaje que interpretó en esas películas?"
+        ],
+        "answerKey": [
+          "De la hermosa isla tropical de Puerto Rico.",
+          "\"El Rey del Reggaetón\".",
+          "Cantando en su iglesia local.",
+          "Los ritmos caribeños tradicionales con ritmos electrónicos modernos.",
+          "\"Danza Kuduro\".",
+          "En las películas de *Fast and Furious*.",
+          "Rico Santos."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Don Omar es, indiscutiblemente, una de las figuras más legendarias, pioneras y trascendentales en la historia del género urbano. Nacido como William Omar Landrón Rivera en la hermosa isla de Puerto Rico, es aclamado mundialmente por sus millones de fervientes seguidores como el indiscutible \"Rey del Reggaetón\". Aunque sus raíces musicales se formaron cantando en una iglesia evangélica durante su juventud, su destino cambió radicalmente cuando se sumergió en el vibrante mundo de la música urbana underground. A principios de la década de los 2000, fue absolutamente fundamental para elevar este contagioso ritmo callejero desde los barrios puertorriqueños hasta convertirlo en un fenómeno comercial a nivel mundial.\n\nEn la actualidad, Don Omar es célebre por su inconfundible y potente tono vocal, así como por su extraordinaria habilidad para fusionar la cadencia del reguetón clásico con ritmos electrónicos, tropicales y pop. Sus eufóricos seguidores en todo el planeta no dejan de bailar al ritmo de sus megaéxitos históricos, tales como el pionero \"Dale Don Dale\" y el explosivo himno global \"Danza Kuduro\". Este último tema alcanzó niveles de popularidad tan asombrosos que dominó las listas de éxitos en múltiples continentes y rompió asombrosos récords de reproducción internacionalmente.\n\nMás allá de su dominio en la industria musical, Don Omar ha incursionado exitosamente en el mundo del cine de Hollywood. Se destacó interpretando al carismático y astuto personaje Rico Santos en la taquillera franquicia de acción *Rápidos y Furiosos* (Fast and Furious). Gracias a su innegable visión artística, su inagotable energía y su profundo orgullo boricua, Don Omar ha dejado una huella imborrable, consolidándose como un pilar fundamental de la música latina contemporánea.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De dónde es originaria esta figura legendaria y pionera del género urbano?",
+          "¿Con qué título es aclamado mundialmente por sus fervientes seguidores?",
+          "¿Dónde se formaron sus raíces musicales durante su juventud?",
+          "¿Qué ritmos fusiona magistralmente con la cadencia del reguetón clásico?",
+          "¿Cómo se llama su explosivo himno global que dominó las listas de éxitos?",
+          "¿En qué taquillera franquicia de acción de Hollywood se destacó actuando?",
+          "¿Cómo se llama el carismático personaje que interpretó en la franquicia?"
+        ],
+        "answerKey": [
+          "De la hermosa isla de Puerto Rico.",
+          "Como el \"Rey del Reggaetón\".",
+          "Cantando en una iglesia evangélica.",
+          "Ritmos electrónicos, tropicales y pop.",
+          "\"Danza Kuduro\".",
+          "En la franquicia *Rápidos y Furiosos* (*Fast and Furious*).",
+          "Rico Santos."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Hugo Chávez",
+    "imageFileName": "hugo_chavez.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Hugo Chávez was a highly famous, powerful, and deeply controversial político (politician) who served as the president of Venezuela from 1999 until his death in 2013. Before becoming president, he was a military officer who actually spent time in prison for leading a failed rebellion against the government. Once elected, Chávez quickly started a massive political movement called the \"Bolivarian Revolution.\" He promised to use the country's incredible wealth from selling petróleo (oil) to directly help poor and working-class citizens.\n\nAt first, Chávez was incredibly popular among the poor. He proudly created special social programs called \"misiones\" to provide free healthcare, education, and cheap food to millions of people. However, his long presidency was also filled with intense, massive controversies. As he gained more power, many critics accused him of acting like a dictator. He aggressively closed independent television stations, heavily censored the press, and frequently arrested people who openly disagreed with his strong government.\n\nFurthermore, his strict economic policies eventually caused massive problems for Venezuela. Even though the country had massive oil reserves, the economía (economy) eventually collapsed. Today, his complicated legacy completely divides the country. Some loyal followers still view him as a legendary hero who bravely fought for the poor against rich elites. On the other hand, many others strongly blame his extreme, authoritarian policies for destroying the country's economy and causing millions of citizens to flee their homes. Hugo Chávez remains one of the most polarizing and complex leaders in modern Latin American history.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "How long did Hugo Chávez serve as the president of Venezuela?",
+          "What was the name of his massive political movement?",
+          "What did he create to provide free healthcare and education to the poor?",
+          "Why did many critics accuse him of acting like a dictator?",
+          "What happened to the economy despite the country having massive oil reserves?",
+          "How do his loyal followers still view him today?",
+          "What do his critics strongly blame his extreme policies for doing?"
+        ],
+        "answerKey": [
+          "From 1999 until his death in 2013.",
+          "The \"Bolivarian Revolution.\"",
+          "Special social programs called \"misiones.\"",
+          "Because he closed independent television stations, censored the press, and arrested people who disagreed with him.",
+          "The economy eventually collapsed.",
+          "As a legendary hero who bravely fought for the poor (against rich elites).",
+          "Destroying the country's economy and causing millions of citizens to flee their homes."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Hugo Chávez fue un político muy famoso, poderoso y profundamente controversial que fue presidente de Venezuela desde 1999 hasta su muerte en 2013. Antes de ser presidente, él fue un oficial militar que pasó tiempo en prisión por liderar una rebelión fallida contra el gobierno. Una vez elegido, Chávez comenzó rápidamente un gran movimiento político llamado la \"Revolución Bolivariana\". Él prometió usar la increíble riqueza del país por vender petróleo para ayudar directamente a los ciudadanos pobres y de la clase trabajadora.\n\nAl principio, Chávez era increíblemente popular entre los pobres. Él creó con orgullo programas sociales especiales llamados \"misiones\" para dar atención médica gratis, educación y comida barata a millones de personas. Sin embargo, su larga presidencia también estuvo llena de controversias intensas y masivas. Mientras ganaba más poder, muchos críticos lo acusaron de actuar como un dictador. Él cerró agresivamente estaciones de televisión independientes, censuró fuertemente a la prensa y arrestó frecuentemente a personas que no estaban de acuerdo con su gobierno fuerte.\n\nAdemás, sus estrictas políticas económicas finalmente causaron problemas masivos para Venezuela. Aunque el país tenía enormes reservas de petróleo, la economía colapsó con el tiempo. Hoy en día, su legado complicado divide completamente al país. Algunos seguidores leales todavía lo ven como un héroe legendario que luchó valientemente por los pobres contra los ricos. Por otro lado, muchas otras personas culpan fuertemente a sus políticas extremas y autoritarias por destruir la economía del país y causar que millones de ciudadanos abandonen sus hogares. Hugo Chávez sigue siendo uno de los líderes más polarizadores de la historia.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Durante qué años fue Hugo Chávez el presidente de Venezuela?",
+          "¿Cómo se llamaba el gran movimiento político que él comenzó?",
+          "¿Qué creó con orgullo para dar atención médica gratis y educación?",
+          "¿Por qué lo acusaron muchos críticos de actuar como un dictador?",
+          "¿Qué le pasó a la economía de Venezuela con el tiempo?",
+          "¿Cómo lo ven todavía algunos de sus seguidores leales?",
+          "¿De qué culpan muchas otras personas a sus políticas extremas y autoritarias?"
+        ],
+        "answerKey": [
+          "Desde 1999 hasta su muerte en 2013.",
+          "La \"Revolución Bolivariana\".",
+          "Programas sociales especiales llamados \"misiones\".",
+          "Porque cerró estaciones de televisión, censuró a la prensa y arrestó a personas que no estaban de acuerdo.",
+          "La economía colapsó.",
+          "Como un héroe legendario que luchó valientemente por los pobres.",
+          "De destruir la economía del país y causar que millones de ciudadanos abandonen sus hogares."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Hugo Chávez fue, sin lugar a dudas, uno de los líderes políticos más influyentes, polarizadores y profundamente controversiales de la historia latinoamericana moderna. Sirvió como presidente de Venezuela desde 1999 hasta su fallecimiento en 2013. Antes de alcanzar la presidencia, este exmilitar saltó a la fama tras liderar un fallido golpe de estado que lo llevó a prisión. Una vez en el poder, Chávez impulsó agresivamente su denominada \"Revolución Bolivariana\", prometiendo utilizar los inmensos ingresos petroleros de la nación para erradicar la desigualdad y empoderar a las clases marginadas.\n\nEn sus primeros años, Chávez gozó de una popularidad abrumadora. Implementó exitosas \"misiones\" sociales que proporcionaron educación, alimentos subsidiados y atención médica gratuita a millones de venezolanos en situación de pobreza. No obstante, su prolongado mandato estuvo plagado de severas y alarmantes controversias. A medida que consolidaba su poder absoluto, sus críticos lo denunciaron por adoptar posturas claramente dictatoriales. Su gobierno clausuró arbitrariamente medios de comunicación independientes, censuró brutalmente la libertad de prensa y persiguió políticamente a los líderes de la oposición ciudadana.\n\nSimultáneamente, sus radicales políticas de expropiación y el mal manejo de la industria petrolera provocaron el eventual colapso catastrófico de la economía venezolana. En la actualidad, su complejo legado fractura profundamente al país. Sus acérrimos seguidores aún lo idolatran como un campeón de la justicia social que desafió al imperialismo. En contraste, sus detractores lo responsabilizan directamente por destruir la democracia, hundir al país en la hiperinflación y provocar el éxodo masivo de millones de refugiados que se vieron obligados a huir de la miseria.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Desde qué año hasta qué año sirvió Hugo Chávez como presidente de Venezuela?",
+          "¿Qué impulsó agresivamente una vez en el poder para empoderar a las clases marginadas?",
+          "¿Qué proporcionaron sus exitosas \"misiones\" sociales a millones de venezolanos?",
+          "¿Por qué acciones denunciaron sus críticos que estaba adoptando posturas dictatoriales?",
+          "¿Qué provocaron sus radicales políticas de expropiación y el mal manejo de la industria petrolera?",
+          "¿Cómo lo idolatran aún sus acérrimos seguidores en la actualidad?",
+          "¿De qué lo responsabilizan directamente sus detractores?"
+        ],
+        "answerKey": [
+          "Desde 1999 hasta su fallecimiento en 2013.",
+          "Su denominada \"Revolución Bolivariana\".",
+          "Educación, alimentos subsidiados y atención médica gratuita.",
+          "Por clausurar medios de comunicación independientes, censurar la libertad de prensa y perseguir políticamente a la oposición.",
+          "El eventual colapso catastrófico de la economía venezolana.",
+          "Como un campeón de la justicia social que desafió al imperialismo.",
+          "De destruir la democracia, hundir al país en la hiperinflación y provocar el éxodo masivo de refugiados."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Augusto Pinochet",
+    "imageFileName": "augusto_pinochet.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Augusto Pinochet was a highly famous, powerful, and deeply controversial militar (military) general who ruled the beautiful South American country of Chile as a dictator from 1973 to 1990. Before taking control, the country was led by a democratically elected socialist president named Salvador Allende. However, in 1973, Pinochet led a violent, dramatic military coup to completely overthrow the government. During this attack, the presidential palace was bombed, and Pinochet quickly took absolute power over the entire nation.\n\nOnce in control, Pinochet established a very strict, authoritarian government. His long rule was filled with massive human rights abuses and intense controversies. He aggressively banned all opposing political parties, heavily censored the press, and frequently arrested anyone who openly disagreed with his new laws. Tragically, thousands of innocent citizens were tortured, killed, or simply became \"desaparecidos\" (missing people) who were never seen again by their families.\n\nAt the same time, Pinochet completely changed the country's economía (economy). He worked with American economists to create a free-market system that eventually made Chile one of the wealthiest countries in South America. Today, his complicated legacy completely divides the country. Some supporters believe his strict economic policies successfully saved Chile from massive poverty and ruin. However, most people around the world strongly remember him as a brutal, violent dictator who committed terrible crimes against humanity. He finally left power in 1990 after the citizens bravely voted against him, but he remains one of the most polarizing figures in modern history.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "How long did Augusto Pinochet rule Chile as a dictator?",
+          "Who was the democratically elected president before Pinochet took control?",
+          "What happened to the presidential palace during the violent military coup in 1973?",
+          "What tragically happened to thousands of innocent citizens who disagreed with his laws?",
+          "What did he completely change to eventually make Chile one of the wealthiest countries in South America?",
+          "How does the majority of the world strongly remember him today?",
+          "Why did he finally leave power in 1990?"
+        ],
+        "answerKey": [
+          "From 1973 to 1990.",
+          "Salvador Allende.",
+          "It was bombed (and Pinochet quickly took absolute power).",
+          "They were tortured, killed, or became \"desaparecidos\" (missing people).",
+          "The country's economy (by creating a free-market system).",
+          "As a brutal, violent dictator who committed terrible crimes against humanity.",
+          "Because the citizens bravely voted against him."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Augusto Pinochet fue un general militar muy famoso, poderoso y profundamente controversial que gobernó el hermoso país sudamericano de Chile como un dictador desde 1973 hasta 1990. Antes de tomar el control, el país era liderado por un presidente socialista elegido democráticamente llamado Salvador Allende. Sin embargo, en 1973, Pinochet lideró un golpe de estado militar violento y dramático para derrocar completamente al gobierno. Durante este ataque, el palacio presidencial fue bombardeado y Pinochet tomó rápidamente el poder absoluto de toda la nación.\n\nUna vez en control, Pinochet estableció un gobierno autoritario y muy estricto. Su largo gobierno estuvo lleno de abusos masivos a los derechos humanos y controversias intensas. Él prohibió agresivamente todos los partidos políticos opuestos, censuró fuertemente a la prensa y arrestó frecuentemente a cualquier persona que no estuviera de acuerdo con sus leyes nuevas. Trágicamente, miles de ciudadanos inocentes fueron torturados, asesinados o simplemente se convirtieron en \"desaparecidos\" que nunca más fueron vistos por sus familias.\n\nAl mismo tiempo, Pinochet cambió completamente la economía del país. Trabajó con economistas americanos para crear un sistema de libre mercado que finalmente hizo de Chile uno de los países más ricos de Sudamérica. Hoy en día, su legado complicado divide completamente al país. Algunos partidarios creen que sus estrictas políticas económicas salvaron con éxito a Chile de la pobreza masiva. Sin embargo, la mayoría de las personas en todo el mundo lo recuerdan fuertemente como un dictador brutal y violento que cometió crímenes terribles. Él finalmente dejó el poder en 1990 después de que los ciudadanos votaron valientemente contra él.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Desde qué año hasta qué año gobernó Augusto Pinochet a Chile como dictador?",
+          "¿Quién era el presidente elegido democráticamente antes de que Pinochet tomara el control?",
+          "¿Qué le pasó al palacio presidencial durante el violento golpe de estado en 1973?",
+          "¿Qué les pasó trágicamente a miles de ciudadanos inocentes que no estaban de acuerdo con él?",
+          "¿Qué cambió él completamente para hacer de Chile un país rico?",
+          "¿Cómo lo recuerda fuertemente la mayoría de las personas en el mundo hoy en día?",
+          "¿Por qué dejó él finalmente el poder en 1990?"
+        ],
+        "answerKey": [
+          "Desde 1973 hasta 1990.",
+          "Salvador Allende.",
+          "Fue bombardeado (y Pinochet tomó el poder absoluto).",
+          "Fueron torturados, asesinados o se convirtieron en \"desaparecidos\".",
+          "La economía del país (creando un sistema de libre mercado).",
+          "Como un dictador brutal y violento que cometió crímenes terribles.",
+          "Porque los ciudadanos votaron valientemente contra él."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Augusto Pinochet fue, indiscutiblemente, una de las figuras políticas más polarizadoras, poderosas y profundamente controversiales de la historia moderna de América Latina. Sirvió como el líder absoluto y dictador militar de Chile desde 1973 hasta 1990. Antes de su violento ascenso al poder, la nación era gobernada por Salvador Allende, un presidente socialista elegido democráticamente. No obstante, el 11 de septiembre de 1973, Pinochet encabezó un golpe de estado sumamente brutal para derrocar al gobierno constitucional. Durante el asedio, el icónico palacio presidencial fue bombardeado implacablemente, marcando el inicio de una oscura dictadura militar.\n\nTras tomar el control, Pinochet instauró un régimen autoritario caracterizado por la represión extrema y la supresión absoluta de las libertades civiles. Su prolongado mandato estuvo manchado por violaciones sistemáticas y masivas de los derechos humanos. Prohibió despiadadamente los partidos políticos de la oposición, censuró a los medios de comunicación y persiguió sistemáticamente a los disidentes. Trágicamente, decenas de miles de ciudadanos fueron encarcelados, torturados, asesinados o convertidos en \"desaparecidos\", dejando una herida profunda e imborrable en la sociedad chilena.\n\nSimultáneamente, el régimen de Pinochet reestructuró radicalmente la economía nacional. Implementó políticas de libre mercado diseñadas por economistas estadounidenses, lo que generó un notable crecimiento macroeconómico que convirtió a Chile en una de las naciones más prósperas de la región. Hoy en día, su complejo legado sigue fracturando al país. Mientras una minoría lo defiende por supuestamente salvar a la nación del colapso económico, la gran mayoría lo condena internacionalmente como un tirano despiadado. Finalmente abandonó el poder tras perder un histórico plebiscito nacional, abriendo el camino hacia la democracia.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Desde qué año hasta qué año sirvió Augusto Pinochet como líder absoluto de Chile?",
+          "¿Quién era el presidente socialista elegido democráticamente antes de su ascenso al poder?",
+          "¿Qué ocurrió con el icónico palacio presidencial durante el golpe de estado de 1973?",
+          "¿Qué les sucedió trágicamente a decenas de miles de ciudadanos durante su régimen?",
+          "¿Qué reestructuró radicalmente su gobierno implementando políticas de libre mercado?",
+          "¿Cómo lo condena internacionalmente la gran mayoría de las personas en la actualidad?",
+          "¿Qué evento histórico provocó que finalmente abandonara el poder y abriera el camino a la democracia?"
+        ],
+        "answerKey": [
+          "Desde 1973 hasta 1990.",
+          "Salvador Allende.",
+          "Fue bombardeado implacablemente.",
+          "Fueron encarcelados, torturados, asesinados o convertidos en \"desaparecidos\".",
+          "La economía nacional.",
+          "Como un tirano despiadado que violó los derechos humanos.",
+          "Perder un histórico plebiscito nacional (una votación)."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Fidel Castro",
+    "imageFileName": "fidel_castro.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Fidel Castro was a highly famous, powerful, and deeply controversial líder (leader) who ruled the beautiful island of Cuba for nearly fifty years. In 1959, he led a dramatic, violent military revolution to overthrow the previous government led by Fulgencio Batista. Once he took control, Castro quickly established the first communist state in the Western Hemisphere. He proudly allied his country with the Soviet Union, which caused massive, intense conflicts with the United States, including the famous Cuban Missile Crisis.\n\nAt first, many people supported his bold revolution. He created new social programs that provided free healthcare and free education to millions of poor citizens. However, his long government was also filled with severe, massive controversies. As he gained absolute power, he aggressively acted like a strict dictator. He completely banned opposing political parties, heavily censored the press, and frequently arrested or killed people who openly disagreed with his new communist laws.\n\nFurthermore, Castro’s strict economic policies and the lack of basic freedoms caused incredible suffering for many families. Because of his harsh rules, hundreds of thousands of Cubans bravely fled the island, often traveling on small, dangerous boats to find freedom in Miami, Florida. Today, his complicated legacy completely divides the world. Some loyal supporters still view him as a legendary hero who fought against American imperialism. However, most people strongly remember him as a brutal dictator who destroyed the country's economía (economy) and denied basic human rights to his own citizens.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "How long did Fidel Castro rule the beautiful island of Cuba?",
+          "What did he quickly establish once he took control in 1959?",
+          "What did he create to provide free healthcare and free education?",
+          "Why did people accuse him of acting like a strict dictator?",
+          "Where did hundreds of thousands of Cubans bravely flee to find freedom?",
+          "How do his loyal supporters still view him today?",
+          "How do most people strongly remember him?"
+        ],
+        "answerKey": [
+          "Nearly fifty years.",
+          "The first communist state in the Western Hemisphere.",
+          "New social programs.",
+          "Because he banned opposing parties, censored the press, and arrested or killed people who disagreed with his laws.",
+          "Miami, Florida.",
+          "As a legendary hero who fought against American imperialism.",
+          "As a brutal dictator who destroyed the economy and denied basic human rights."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Fidel Castro fue un líder muy famoso, poderoso y profundamente controversial que gobernó la hermosa isla de Cuba por casi cincuenta años. En 1959, él lideró una revolución militar dramática y violenta para derrocar al gobierno anterior de Fulgencio Batista. Una vez que tomó el control, Castro estableció rápidamente el primer estado comunista en el hemisferio occidental. Él alió a su país con orgullo con la Unión Soviética, lo que causó conflictos masivos e intensos con los Estados Unidos, incluyendo la famosa Crisis de los Misiles Cubanos.\n\nAl principio, muchas personas apoyaron su revolución valiente. Él creó programas sociales nuevos que dieron atención médica gratis y educación gratis a millones de ciudadanos pobres. Sin embargo, su largo gobierno también estuvo lleno de controversias severas y masivas. Mientras ganaba poder absoluto, él actuó agresivamente como un dictador estricto. Él prohibió completamente los partidos políticos opuestos, censuró fuertemente a la prensa y arrestó o mató frecuentemente a las personas que no estaban de acuerdo con sus leyes comunistas.\n\nAdemás, las políticas económicas estrictas de Castro y la falta de libertades básicas causaron un sufrimiento increíble para muchas familias. Debido a sus reglas duras, cientos de miles de cubanos huyeron valientemente de la isla, frecuentemente viajando en botes pequeños y peligrosos para buscar la libertad en Miami, Florida. Hoy en día, su legado complicado divide completamente al mundo. Algunos partidarios leales todavía lo ven como un héroe legendario que luchó contra el imperialismo. Sin embargo, la mayoría lo recuerda fuertemente como un dictador brutal que destruyó la economía y negó los derechos humanos.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Por cuánto tiempo gobernó Fidel Castro la isla de Cuba?",
+          "¿Qué estableció rápidamente una vez que tomó el control en 1959?",
+          "¿Qué creó él para dar atención médica gratis y educación gratis?",
+          "¿Por qué lo acusaron de actuar como un dictador estricto?",
+          "¿A dónde huyeron valientemente cientos de miles de cubanos para buscar la libertad?",
+          "¿Cómo lo ven todavía algunos de sus partidarios leales?",
+          "¿Cómo lo recuerda fuertemente la mayoría de las personas?"
+        ],
+        "answerKey": [
+          "Por casi cincuenta años.",
+          "El primer estado comunista en el hemisferio occidental.",
+          "Programas sociales nuevos.",
+          "Porque prohibió los partidos políticos, censuró a la prensa y arrestó o mató a personas que no estaban de acuerdo.",
+          "A Miami, Florida.",
+          "Como un héroe legendario que luchó contra el imperialismo.",
+          "Como un dictador brutal que destruyó la economía y negó los derechos humanos."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Fidel Castro fue, indiscutiblemente, una de las figuras políticas más polarizadoras, poderosas y profundamente controversiales del siglo veinte. Gobernó la nación caribeña de Cuba con mano de hierro durante casi cinco décadas. En 1959, lideró una exitosa y violenta revolución armada para derrocar la dictadura de Fulgencio Batista. Tras asumir el poder, Castro transformó radicalmente el país al establecer el primer estado comunista del hemisferio occidental. Forjó una estrecha y estratégica alianza con la Unión Soviética, lo que desató intensos conflictos geopolíticos con Estados Unidos, culminando en la histórica Crisis de los Misiles de 1962.\n\nInicialmente, su movimiento revolucionario gozó de un inmenso apoyo popular. Implementó amplias reformas sociales que garantizaron educación pública gratuita y acceso universal a la atención médica para las clases marginadas. No obstante, su prolongado régimen estuvo oscurecido por el autoritarismo extremo y la sistemática violación de los derechos humanos. Consolidó su poder absoluto suprimiendo despiadadamente cualquier forma de oposición política, censurando brutalmente a los medios de comunicación y encarcelando o ejecutando a miles de disidentes.\n\nSimultáneamente, sus radicales políticas económicas centralizadas provocaron un estancamiento severo, sumiendo al país en la pobreza. La severa represión y la falta de libertades civiles impulsaron un éxodo masivo y desesperado. Cientos de miles de cubanos arriesgaron sus vidas cruzando el mar en frágiles embarcaciones para buscar refugio y libertad en Miami. En la actualidad, su complejo legado sigue fracturando a la sociedad. Mientras sus admiradores lo idolatran como un símbolo del antiimperialismo, sus innumerables víctimas lo condenan implacablemente como un tirano despiadado que destruyó la prosperidad y la libertad de Cuba.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Por cuántas décadas gobernó Fidel Castro la nación caribeña de Cuba?",
+          "¿Qué desató su estratégica alianza con la Unión Soviética?",
+          "¿Qué garantizaron las amplias reformas sociales de su movimiento revolucionario?",
+          "¿Cómo consolidó su poder absoluto durante su prolongado régimen?",
+          "¿Qué impulsaron la severa represión y la falta de libertades civiles?",
+          "¿A dónde cruzaron el mar en frágiles embarcaciones para buscar refugio?",
+          "¿Cómo condenan implacablemente a Castro sus innumerables víctimas en la actualidad?"
+        ],
+        "answerKey": [
+          "Por casi cinco décadas.",
+          "Intensos conflictos geopolíticos con Estados Unidos, culminando en la Crisis de los Misiles.",
+          "Educación pública gratuita y acceso universal a la atención médica.",
+          "Suprimiendo a la oposición, censurando a los medios y encarcelando o ejecutando a miles de disidentes.",
+          "Un éxodo masivo y desesperado de cientos de miles de cubanos.",
+          "A Miami.",
+          "Como un tirano despiadado que destruyó la prosperidad y la libertad de Cuba."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Che Guevara",
+    "imageFileName": "che_guevara.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Ernesto \"Che\" Guevara is one of the most famous, recognizable, and deeply controversial historical figures in the entire world. He was originally born in Argentina and studied to become a doctor. However, after taking a famous motorcycle trip across South America, he saw terrible poverty and decided to become a communist revolutionary. He strongly believed that violent revolution was the only way to help poor people and completely change society.\n\nIn the 1950s, Che Guevara met Fidel Castro and played a massive, critical role in the Cuban Revolution. Together, they successfully overthrew the Cuban government. After their victory, Che became a very powerful líder (leader) in the new communist government. However, his actions during this time are incredibly controversial. He was directly in charge of the infamous La Cabaña prison, where he brutally ordered the execution of hundreds of people who disagreed with the new political system without giving them a fair trial.\n\nFurthermore, Che's extreme economic plans for Cuba completely failed and caused severe problems for the country's economía (economy). He eventually left Cuba to start new, violent revolutions in other countries, but he was captured and executed in Bolivia in 1967. Today, his complicated legacy completely divides the world. Because of a famous, iconic photograph, millions of young people romantically view him as a legendary hero and a symbol of rebellion against capitalism. However, many other people, especially Cuban exiles, strongly remember him as a ruthless, violent murderer who destroyed basic human rights and helped create a harsh, oppressive dictatorship. His face is famous everywhere, but his true history is incredibly dark and complex.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was Ernesto \"Che\" Guevara originally born?",
+          "What did he see on his motorcycle trip that made him become a communist revolutionary?",
+          "Who did he meet and work with to overthrow the Cuban government?",
+          "What controversial and brutal action did he order at the La Cabaña prison?",
+          "What happened to his extreme economic plans for Cuba?",
+          "Where was he eventually captured and executed in 1967?",
+          "How do his critics and Cuban exiles strongly remember him today?"
+        ],
+        "answerKey": [
+          "Argentina.",
+          "He saw terrible poverty.",
+          "Fidel Castro.",
+          "He brutally ordered the execution of hundreds of people without giving them a fair trial.",
+          "They completely failed (and caused severe problems for the economy).",
+          "In Bolivia.",
+          "As a ruthless, violent murderer who destroyed basic human rights."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Ernesto \"Che\" Guevara es una de las figuras históricas más famosas, reconocibles y profundamente controversiales en todo el mundo. Él nació originalmente en Argentina y estudió para ser médico. Sin embargo, después de hacer un viaje famoso en motocicleta por Sudamérica, él vio una pobreza terrible y decidió ser un revolucionario comunista. Él creía firmemente que la revolución violenta era la única manera de ayudar a las personas pobres y cambiar la sociedad por completo.\n\nEn la década de 1950, el Che Guevara conoció a Fidel Castro y jugó un papel masivo y crítico en la Revolución Cubana. Juntos, ellos derrocaron con éxito al gobierno cubano. Después de su victoria, el Che se convirtió en un líder muy poderoso en el nuevo gobierno comunista. Sin embargo, sus acciones durante este tiempo son increíblemente controversiales. Él estuvo directamente a cargo de la infame prisión de La Cabaña, donde ordenó brutalmente la ejecución de cientos de personas que no estaban de acuerdo con el nuevo sistema político sin darles un juicio justo.\n\nAdemás, los planes económicos extremos del Che para Cuba fracasaron por completo y causaron problemas severos para la economía del país. Él finalmente salió de Cuba para empezar nuevas revoluciones violentas en otros países, pero fue capturado y ejecutado en Bolivia en 1967. Hoy en día, su legado complicado divide completamente al mundo. Debido a una fotografía famosa e icónica, millones de jóvenes lo ven románticamente como un héroe legendario y un símbolo de rebelión. Sin embargo, muchas otras personas lo recuerdan fuertemente como un asesino violento y despiadado que destruyó los derechos humanos básicos en Cuba.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde nació originalmente Ernesto \"Che\" Guevara?",
+          "¿Qué vio en su viaje en motocicleta que lo hizo ser un revolucionario comunista?",
+          "¿A quién conoció para trabajar juntos y derrocar al gobierno cubano?",
+          "¿Qué acción controversial y brutal ordenó en la prisión de La Cabaña?",
+          "¿Qué les pasó a sus planes económicos extremos para Cuba?",
+          "¿Dónde fue capturado y ejecutado finalmente en 1967?",
+          "¿Cómo lo recuerdan fuertemente sus críticos y otras personas hoy en día?"
+        ],
+        "answerKey": [
+          "En Argentina.",
+          "Vio una pobreza terrible.",
+          "A Fidel Castro.",
+          "Ordenó brutalmente la ejecución de cientos de personas sin darles un juicio justo.",
+          "Fracasaron por completo (y causaron problemas severos para la economía).",
+          "En Bolivia.",
+          "Como un asesino violento y despiadado que destruyó los derechos humanos básicos."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Ernesto \"Che\" Guevara es, indiscutiblemente, una de las figuras históricas más reconocidas, icónicas y profundamente controversiales del siglo veinte. Nacido en una familia acomodada en Argentina, Guevara estudió medicina antes de emprender un viaje transformador en motocicleta por toda Sudamérica. Durante esta travesía, fue testigo de una profunda desigualdad social, lo que lo motivó a convertirse en un guerrillero marxista. Estaba firmemente convencido de que la lucha armada y la violencia eran los únicos métodos efectivos para erradicar la pobreza y derrocar el imperialismo.\n\nEn la década de los cincuenta, se alió con Fidel Castro y desempeñó un papel absolutamente decisivo en el triunfo de la Revolución Cubana. Tras tomar el poder, Guevara ocupó altos cargos en el nuevo régimen, pero sus acciones fueron sumamente implacables y oscuras. Como comandante de la fortaleza y prisión de La Cabaña, supervisó y ordenó personalmente la ejecución por fusilamiento de cientos de disidentes políticos sin concederles un juicio previo ni garantías legales.\n\nAdicionalmente, sus radicales políticas económicas como ministro fracasaron estrepitosamente, paralizando la incipiente economía cubana. Insatisfecho con el trabajo burocrático, abandonó Cuba para fomentar nuevas guerrillas internacionales. Finalmente, fue capturado y ejecutado por el ejército boliviano en 1967. En la actualidad, su complejo legado fractura a la sociedad mundial. Gracias a una famosa fotografía, ha sido mercantilizado y romantizado como un símbolo universal de rebeldía juvenil y justicia social. No obstante, sus numerosos detractores y las víctimas del régimen lo condenan implacablemente como un fanático autoritario y un asesino despiadado que instrumentalizó el terrorismo de estado y ayudó a consolidar una dictadura opresiva que perdura hasta hoy.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde nació originalmente esta figura histórica profundamente controversial?",
+          "¿Qué presenció durante su travesía en motocicleta que lo motivó a ser guerrillero?",
+          "¿Con quién se alió para desempeñar un papel decisivo en la Revolución Cubana?",
+          "¿Qué acción implacable y oscura supervisó y ordenó en la prisión de La Cabaña?",
+          "¿Qué ocurrió con sus radicales políticas económicas cuando fue ministro en Cuba?",
+          "¿En qué país fue finalmente capturado y ejecutado por el ejército en 1967?",
+          "¿Cómo lo condenan implacablemente sus numerosos detractores y las víctimas del régimen?"
+        ],
+        "answerKey": [
+          "En Argentina.",
+          "Fue testigo de una profunda desigualdad social.",
+          "Con Fidel Castro.",
+          "Supervisó y ordenó personalmente la ejecución por fusilamiento de cientos de disidentes políticos sin juicio previo.",
+          "Fracasaron estrepitosamente, paralizando la incipiente economía cubana.",
+          "En Bolivia.",
+          "Como un fanático autoritario y un asesino despiadado."
+        ]
+      }
+    }
   }
+  
 
 
 
