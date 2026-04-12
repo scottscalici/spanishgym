@@ -10964,27 +10964,27 @@
       }
     }
   },
-  {
+{
     "topicName": "El laberinto del fauno",
     "imageFileName": "laberinto_fauno.png",
     "levels": {
       "level_1": {
         "tier": "Level 1 (English/Beginner)",
-        "readingText": "El laberinto del fauno (Pan's Labyrinth) is a dark, magical, and incredibly famous movie directed by the brilliant Mexican filmmaker Guillermo del Toro. Released in 2006, this beautiful película (movie) is not a normal, happy fairy tale for children. Instead, it is a very serious, scary, and deeply emotional story that perfectly mixes dark fantasy with the real, violent history of Spain. The story takes place in the year 1944, just a few years after the bloody Spanish Civil War finally ended. The main character is a brave, imaginative young girl named Ofelia who travels to a remote military camp with her sick mother. Her new stepfather is a cruel, evil captain in the Spanish army who hunts down people fighting against the government.\n\nTo escape her terrifying, sad reality, Ofelia discovers a hidden, magical laberinto (labyrinth) in the dark forest. Inside, she meets a mysterious, ancient fauno (faun) who tells her she is secretly a magical princess. To return to her true underground kingdom, Ofelia must carefully complete three dangerous, terrifying tasks before the full moon shines.\n\nGuillermo del Toro famously uses scary monstruos (monsters) and dark magic to show how terrible war and violence truly are. The powerful movie won three Academy Awards and is widely considered one of the absolute best fantasy films ever made in the history of cinema.",
+        "readingText": "El laberinto del fauno (Pan's Labyrinth) is a dark, magical, and incredibly famous movie directed by the brilliant Mexican filmmaker Guillermo del Toro. Released to the world in 2006, this beautiful película (movie) is definitely not a normal, happy fairy tale for small children. Instead, it is a very serious, scary, and deeply emotional story that perfectly mixes dark fantasy with the real, violent history of Spain. The dramatic story takes place in the year 1944, just a few years after the bloody Spanish Civil War finally ended. The main character is a brave, imaginative young girl named Ofelia who sadly travels to a remote, cold military camp in the mountains with her sick, pregnant mother, Carmen. Her new stepfather is a cruel, evil captain in the Spanish army who aggressively hunts down brave people fighting against the strict government.\n\nTo escape her terrifying, sad reality, Ofelia discovers a hidden, magical laberinto (labyrinth) in the dark forest behind their house. Inside, she meets a mysterious, ancient fauno (faun) who tells her she is secretly a magical princess. To successfully return to her true underground kingdom and see her real father, Ofelia must carefully complete three dangerous, terrifying tasks before the bright full moon shines in the sky. During these quests, she meets horrible creatures, like the famous, scary Pale Man.\n\nGuillermo del Toro famously uses these scary monstruos (monsters) and dark magic to powerfully show how terrible war and violence truly are. The powerful, heartbreaking movie won three prestigious Academy Awards and is widely considered one of the absolute best fantasy films ever made in the history of modern cinema.",
         "instruction": "Answer the following questions according to the text.",
         "questions": [
           "Who directed the famous movie El laberinto del fauno?",
-          "When does the serious, scary story take place?",
+          "When does the dramatic story take place?",
           "Who is the brave, imaginative young main character?",
           "What is her new stepfather's job?",
-          "What does the ancient faun tell the young girl she secretly is?",
-          "How many dangerous tasks must she carefully complete?",
-          "What does the director use scary monsters to show?"
+          "What does the mysterious, ancient faun tell her?",
+          "What must Ofelia carefully complete to return to her true underground kingdom?",
+          "What does Guillermo del Toro powerfully use scary monsters to show?"
         ],
         "answerKey": [
           "The brilliant Mexican filmmaker Guillermo del Toro.",
-          "In the year 1944 (just after the Spanish Civil War).",
-          "A young girl named Ofelia.",
+          "In the year 1944 (just a few years after the bloody Spanish Civil War finally ended).",
+          "A brave, imaginative young girl named Ofelia.",
           "A cruel, evil captain in the Spanish army.",
           "That she is secretly a magical princess.",
           "Three dangerous, terrifying tasks.",
@@ -10993,47 +10993,47 @@
       },
       "level_2": {
         "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "El laberinto del fauno es una película oscura, mágica y muy famosa dirigida por el brillante cineasta mexicano Guillermo del Toro. Esta película hermosa de 2006 no es un cuento de hadas normal y feliz para niños. En cambio, es una historia muy seria, aterradora y emocional que mezcla perfectamente la fantasía oscura con la historia real y violenta de España. La historia ocurre en el año 1944, pocos años después de la sangrienta Guerra Civil Española. El personaje principal es una niña valiente e imaginativa llamada Ofelia. Ella viaja a un campamento militar remoto con su madre enferma. Su nuevo padrastro es un capitán cruel y malo en el ejército español que busca a las personas que luchan contra el gobierno.\n\nPara escapar de su realidad triste y terrible, Ofelia descubre un laberinto mágico y escondido en el bosque oscuro. Adentro, ella conoce a un fauno misterioso y antiguo que le dice que ella es secretamente una princesa mágica. Para regresar a su verdadero reino subterráneo, Ofelia tiene que completar cuidadosamente tres tareas peligrosas antes de la luna llena.\n\nGuillermo del Toro usa monstruos aterradores y magia oscura para mostrar lo terrible que son la guerra y la violencia. La película poderosa ganó tres Premios Óscar y es considerada una de las mejores películas de fantasía en la historia del cine.",
+        "readingText": "El laberinto del fauno es una película oscura, mágica y muy famosa dirigida por el brillante cineasta mexicano Guillermo del Toro. Lanzada al mundo en 2006, esta película hermosa definitivamente no es un cuento de hadas normal y feliz para niños pequeños. En cambio, es una historia muy seria, aterradora y profundamente emocional que mezcla perfectamente la fantasía oscura con la historia real y violenta de España. La historia dramática ocurre en el año 1944, pocos años después de que la sangrienta Guerra Civil Española finalmente terminara. El personaje principal es una niña valiente e imaginativa llamada Ofelia. Ella viaja tristemente a un campamento militar remoto y frío en las montañas con su madre enferma y embarazada, Carmen. Su nuevo padrastro es un capitán cruel y malo en el ejército español que busca agresivamente a las personas valientes que luchan contra el gobierno estricto.\n\nPara escapar de su realidad triste y terrible, Ofelia descubre un laberinto mágico y escondido en el bosque oscuro detrás de su casa. Adentro, ella conoce a un fauno misterioso y antiguo que le dice que ella es secretamente una princesa mágica. Para regresar con éxito a su verdadero reino subterráneo y ver a su padre real, Ofelia tiene que completar cuidadosamente tres tareas peligrosas y aterradoras antes de que la luna llena brille en el cielo. Durante estas misiones, ella conoce criaturas horribles, como el famoso y aterrador Hombre Pálido.\n\nGuillermo del Toro usa famosamente estos monstruos aterradores y la magia oscura para mostrar poderosamente lo terrible que son la guerra y la violencia en realidad. La película poderosa y conmovedora ganó tres prestigiosos Premios Óscar y es considerada una de las mejores películas de fantasía en la historia del cine moderno.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿Quién dirigió la famosa película El laberinto del fauno?",
-          "¿En qué año ocurre la historia seria y aterradora de la película?",
+          "¿En qué año ocurre la historia dramática de la película?",
           "¿Cómo se llama la niña valiente e imaginativa?",
           "¿Cuál es el trabajo de su nuevo padrastro malo?",
           "¿Qué le dice el fauno misterioso a la niña?",
-          "¿Cuántas tareas peligrosas tiene que completar ella?",
-          "¿Qué usa el director para mostrar lo terrible que es la guerra?"
+          "¿Qué tiene que completar Ofelia para regresar a su verdadero reino subterráneo?",
+          "¿Para qué usa el director los monstruos aterradores y la magia oscura?"
         ],
         "answerKey": [
           "El brillante cineasta mexicano Guillermo del Toro.",
           "En el año 1944.",
           "Ofelia.",
-          "Es un capitán cruel en el ejército español.",
+          "Es un capitán cruel y malo en el ejército español.",
           "Le dice que ella es secretamente una princesa mágica.",
-          "Tiene que completar tres tareas peligrosas.",
-          "Usa monstruos aterradores y magia oscura."
+          "Tres tareas peligrosas y aterradoras.",
+          "Para mostrar poderosamente lo terrible que son la guerra y la violencia en realidad."
         ]
       },
       "level_3": {
         "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "El laberinto del fauno es una aclamada e inolvidable obra maestra cinematográfica dirigida por el visionario cineasta mexicano Guillermo del Toro en 2006. Lejos de ser un inocente cuento infantil, esta película es una oscura, trágica y profunda alegoría que entrelaza magistralmente la fantasía gótica con la cruda y violenta realidad de la posguerra española. La trama se desarrolla en 1944, durante los primeros y opresivos años de la dictadura franquista. La protagonista es Ofelia, una niña soñadora que se muda a un campamento militar rural junto a su frágil madre embarazada. Su nuevo padrastro es el Capitán Vidal, un oficial sádico y despiadado encargado de aniquilar a los guerrilleros rebeldes escondidos en las montañas.\n\nBuscando un refugio de la crueldad humana que la rodea, Ofelia descubre un antiguo y misterioso laberinto de piedra en el bosque. Allí se encuentra con un fauno inquietante que le revela que ella es la reencarnación de la legendaria princesa Moanna del reino subterráneo. Para reclamar su trono inmortal y demostrar que su esencia humana no la ha corrompido, la joven debe superar tres pruebas sumamente peligrosas y aterradoras.\n\nA través de este deslumbrante relato, Del Toro utiliza criaturas monstruosas para ilustrar que los verdaderos monstruos son los seres humanos consumidos por el fascismo y la guerra. La cinta ganó tres prestigiosos Premios Óscar.",
+        "readingText": "El laberinto del fauno es una aclamada e inolvidable obra maestra cinematográfica dirigida por el visionario cineasta mexicano Guillermo del Toro en 2006. Lejos de ser un inocente cuento de hadas infantil, esta aclamada película es una oscura, trágica y profunda alegoría que entrelaza magistralmente la fantasía gótica con la cruda y violenta realidad de la posguerra española. La compleja trama se desarrolla en 1944, durante los primeros y más opresivos años de la dictadura franquista. La protagonista indiscutible es Ofelia, una niña soñadora y ávida lectora que se muda a un remoto campamento militar rural junto a su frágil madre embarazada, Carmen. Su nuevo padrastro es el despiadado Capitán Vidal, un oficial sádico y autoritario encargado de aniquilar por completo a los guerrilleros rebeldes que permanecen escondidos en las montañas circundantes.\n\nBuscando desesperadamente un refugio emocional de la crueldad humana que la rodea constantemente, Ofelia descubre un antiguo y misterioso laberinto de piedra en la profundidad del bosque. Allí se encuentra con un fauno inquietante y ambiguo que le revela una verdad asombrosa: ella es la reencarnación perdida de la legendaria princesa Moanna del místico reino subterráneo. Para reclamar legítimamente su trono inmortal y demostrar que su esencia humana no la ha corrompido, la joven debe superar valientemente tres pruebas sumamente peligrosas y aterradoras antes de la próxima luna llena, enfrentándose a seres espeluznantes como el infame Hombre Pálido.\n\nA través de este deslumbrante relato visual, Del Toro utiliza criaturas monstruosas para ilustrar poéticamente que los verdaderos monstruos de este mundo son los seres humanos consumidos por el fascismo, la ceguera moral y la guerra. Esta cinta indispensable ganó tres prestigiosos Premios Óscar y redefinió el género fantástico a nivel mundial.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿Qué entrelaza magistralmente esta oscura y trágica obra maestra cinematográfica?",
-          "¿En qué año y contexto histórico se desarrolla la trama de la película?",
-          "¿Cuál es la misión del sádico y despiadado Capitán Vidal en las montañas?",
-          "¿Qué le revela el fauno inquietante a la protagonista en el laberinto?",
-          "¿Qué debe superar la joven para reclamar su trono inmortal?",
-          "¿Qué ilustra el director al utilizar criaturas monstruosas en el relato?",
-          "¿Cuántos prestigiosos Premios Óscar ganó la cinta?"
+          "¿En qué año y contexto histórico se desarrolla la compleja trama?",
+          "¿Cuál es la misión del despiadado Capitán Vidal en las montañas circundantes?",
+          "¿Qué verdad asombrosa le revela el fauno inquietante a la protagonista?",
+          "¿Qué debe superar valientemente la joven para reclamar legítimamente su trono inmortal?",
+          "¿Qué ilustra poéticamente el director al utilizar criaturas monstruosas en el relato visual?",
+          "¿Cuántos prestigiosos Premios Óscar ganó esta cinta indispensable?"
         ],
         "answerKey": [
           "Entrelaza magistralmente la fantasía gótica con la cruda y violenta realidad de la posguerra española.",
-          "En 1944, durante los primeros y opresivos años de la dictadura franquista.",
-          "Aniquilar a los guerrilleros rebeldes escondidos en las montañas.",
-          "Le revela que ella es la reencarnación de la legendaria princesa Moanna del reino subterráneo.",
-          "Debe superar tres pruebas sumamente peligrosas y aterradoras.",
-          "Ilustra que los verdaderos monstruos son los seres humanos consumidos por el fascismo y la guerra.",
+          "En 1944, durante los primeros y más opresivos años de la dictadura franquista.",
+          "Aniquilar por completo a los guerrilleros rebeldes que permanecen escondidos.",
+          "Le revela que ella es la reencarnación perdida de la legendaria princesa Moanna del místico reino subterráneo.",
+          "Tres pruebas sumamente peligrosas y aterradoras antes de la próxima luna llena.",
+          "Ilustra poéticamente que los verdaderos monstruos de este mundo son los seres humanos consumidos por el fascismo.",
           "Ganó tres prestigiosos Premios Óscar."
         ]
       }
