@@ -21,7 +21,8 @@
         .topic-item { background: #f7fafc; padding: 10px 15px; border-radius: 6px; border: 1px solid #cbd5e0; display: flex; align-items: center; gap: 10px; cursor: pointer; font-weight: bold; }
         .topic-item:hover { background: #edf2f7; }
 
-        .input-group { margin-bottom: 20px; }
+        .input-group { margin-bottom: 20px; display: flex; gap: 15px; flex-wrap: wrap; }
+        .input-wrapper { flex: 1; min-width: 250px; }
         input[type="text"] { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #cbd5e0; border-radius: 6px; box-sizing: border-box; font-family: 'Nunito', sans-serif; }
         
         .button-group { display: flex; gap: 15px; flex-wrap: wrap; margin-bottom: 20px; }
@@ -29,6 +30,8 @@
         .btn-pdf { background-color: #2b6cb0; } .btn-pdf:hover { background-color: #2c5282; }
         .btn-png { background-color: #c53030; } .btn-png:hover { background-color: #9b2c2c; }
         .btn-bundle { background-color: #276749; } .btn-bundle:hover { background-color: #22543d; }
+        
+        .btn-copy { background-color: #4a5568; position: absolute; top: 15px; right: 15px; width: auto; padding: 8px 15px; } .btn-copy:hover { background-color: #2d3748; }
 
         /* --- PDF PRINT STYLES --- */
         #render-container { display: none; } 
@@ -75,10 +78,8 @@
         
         .logo { position: absolute; bottom: 30px; left: 40px; width: 250px; background: rgba(255, 255, 255, 0.9); padding: 10px 20px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
 
-        /* Single Image Style */
         .main-image { width: 380px; height: 380px; object-fit: cover; border: 8px solid white; border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.4); transform: rotate(-3deg); position: absolute; right: 50px; top: 220px; z-index: 2; }
         
-        /* NEW: Bundle Scattered Stack Style */
         .bundle-stack { position: absolute; top: 200px; right: 70px; width: 350px; height: 350px; z-index: 2; }
         .bundle-stack img { position: absolute; width: 240px; height: 240px; object-fit: cover; border: 6px solid white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.4); }
         .bundle-stack img:nth-child(1) { top: 0; right: 0; transform: rotate(6deg); z-index: 1; }
@@ -86,13 +87,14 @@
         .bundle-stack img:nth-child(3) { top: 110px; right: 10px; transform: rotate(12deg); z-index: 3; }
         .bundle-stack img:nth-child(4) { top: 140px; right: 110px; transform: rotate(-4deg); z-index: 4; }
 
-        /* NEW: Bundle Index Box */
         .bundle-index { position: absolute; bottom: 30px; right: 40px; background: rgba(255, 255, 255, 0.95); padding: 20px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.3); width: 280px; z-index: 4; border-left: 8px solid #ecc94b; }
         .bundle-index h3 { margin: 0 0 10px 0; color: #1a365d; font-weight: 900; font-size: 18px; text-transform: uppercase; }
         .bundle-index ul { margin: 0; padding-left: 20px; color: #333; font-weight: bold; font-size: 16px; line-height: 1.4; }
         .bundle-index li { margin-bottom: 5px; }
         .bundle-more { margin-top: 10px; font-style: italic; color: #c53030; font-weight: 900; font-size: 16px;}
 
+        /* Generator Box Styling */
+        #description-box { background: #f7fafc; padding: 25px; border: 2px solid #cbd5e0; border-radius: 8px; white-space: pre-wrap; font-family: 'Nunito', sans-serif; font-size: 15px; line-height: 1.6; color: #2d3748; position: relative; margin-bottom: 20px;}
     </style>
 </head>
 <body>
@@ -101,11 +103,17 @@
         <h1>🏋️‍♂️ The Spanish Gym Dashboard</h1>
         
         <div class="input-group">
-            <label class="section-title" style="display:block; margin-bottom:10px;">Título del Bundle (Opcional)</label>
-            <input type="text" id="bundle-title" placeholder="Ej. Culturas de Latinoamérica Bundle">
+            <div class="input-wrapper">
+                <label class="section-title" style="display:block; margin-bottom:10px;">Título del Bundle (Para Portada e Índice)</label>
+                <input type="text" id="bundle-title" placeholder="Ej. Culturas de Latinoamérica Bundle">
+            </div>
+            <div class="input-wrapper">
+                <label class="section-title" style="display:block; margin-bottom:10px;">Categoría del Tema (Para Descripción)</label>
+                <input type="text" id="bundle-category" placeholder="Ej. El cine y entretenimiento">
+            </div>
         </div>
 
-<h2 class="section-title">Seleccionar Temas</h2>
+        <h2 class="section-title">Seleccionar Temas</h2>
         
         <div style="margin-bottom: 15px; display: flex; gap: 10px;">
             <button onclick="toggleAll(true)" style="background-color: #4a5568; padding: 6px 12px; font-size: 12px; flex-grow: 0;">Seleccionar Todos</button>
@@ -125,6 +133,13 @@
             <button class="btn-bundle" onclick="generateBundlePDF()">📚 Imprimir Bundle (PDF con Índice)</button>
             <button class="btn-bundle" onclick="generateBundlePNG()">🎨 Descargar Portada de Bundle (PNG)</button>
         </div>
+
+        <h2 class="section-title">Generador de Descripción (Para TPT)</h2>
+        <div id="description-box">
+            <button class="btn-copy" onclick="copyDescription()">📋 Copiar Texto</button>
+            <div id="generated-description">Selecciona algunos temas y escribe una categoría arriba para generar tu descripción automática...</div>
+        </div>
+
     </div>
 
     <div id="render-container"></div>
@@ -138,7 +153,7 @@
 
         let globalData = [];
 
-async function init() {
+        async function init() {
             try {
                 const response = await fetch(jsonUrl);
                 globalData = await response.json();
@@ -147,26 +162,71 @@ async function init() {
                 globalData.forEach((topic, index) => {
                     const label = document.createElement('label');
                     label.className = 'topic-item';
-                    
-                    // FIXED: Removed the "checked" attribute from the input tag below
                     label.innerHTML = `<input type="checkbox" value="${index}"> ${topic.topicName}`;
-                    
                     grid.appendChild(label);
                 });
+
+                // Attach event listener to grid so description updates when checkboxes are clicked
+                grid.addEventListener('change', updateDescription);
+                document.getElementById('bundle-category').addEventListener('input', updateDescription);
+
             } catch (error) {
                 document.getElementById('topic-list').innerHTML = "<p style='color:red;'>Error loading JSON from GitHub.</p>";
             }
         }
 
-        // NEW HELPER: Select or deselect all checkboxes at once
         function toggleAll(selectAll) {
             const checkboxes = document.querySelectorAll('#topic-list input[type="checkbox"]');
             checkboxes.forEach(cb => cb.checked = selectAll);
+            updateDescription(); // Update the text after toggling
         }
 
         function getSelectedTopics() {
             const checkboxes = document.querySelectorAll('#topic-list input:checked');
             return Array.from(checkboxes).map(cb => globalData[cb.value]);
+        }
+
+        // --- NEW: Dynamic Description Generator ---
+        function updateDescription() {
+            const category = document.getElementById('bundle-category').value.trim() || "[Topic Category]";
+            const selected = getSelectedTopics();
+
+            if (selected.length === 0) {
+                document.getElementById('generated-description').innerHTML = "Selecciona algunos temas y escribe una categoría arriba para generar tu descripción automática...";
+                return;
+            }
+
+            let text = `Need a high-interest cultural reading activity that works for all your Spanish levels without spending hours differentiating text?\n\n`;
+            text += `This ready-to-use bundle of reading passages about **${category}** is the perfect no-prep solution for mixed-ability classrooms, sub plans, or quick cultural deep-dives. I’ve done the heavy lifting for you by taking a fascinating cultural topic and writing it at three distinct levels so every student can succeed!\n\n`;
+            
+            text += `**What's Included:**\n`;
+            selected.forEach((topic, index) => {
+                text += `${index + 1}. ${topic.topicName}\n`;
+            });
+
+            text += `\n**Each Title includes:**\n`;
+            text += `- **Level 1 (Novice/English):** Written primarily in English with key Spanish vocabulary and cultural concepts naturally woven in. Perfect for Spanish I or exploratory classes!\n`;
+            text += `- **Level 2 (Intermediate/Spanish II):** Written entirely in structured, comprehensible Spanish. Focuses on high-frequency vocabulary and limits complex grammar to keep your Spanish II students confident and engaged.\n`;
+            text += `- **Level 3 (Advanced):** Written in natural, authentic Spanish using rich vocabulary, varied tenses, and native phrasing for your upper-level students or heritage speakers.\n`;
+            text += `- **Comprehension Questions:** 7 targeted reading comprehension questions for each specific level.\n`;
+            text += `- **Complete Teacher Answer Key:** Included for all three levels, making grading an absolute breeze.\n\n`;
+
+            text += `**Why You'll Love It:**\n`;
+            text += `- **Zero Prep:** Just print and go, or assign digitally!\n`;
+            text += `- **Total Flexibility:** Teach the same cultural topic to your freshmen and your seniors on the exact same day.\n`;
+            text += `- **Easy Grading:** The included answer keys mean you won't be taking grading home with you.\n`;
+            text += `- **Build Your Cultural Library!** Love this format? Check out my store for dozens of other 3-tiered reading passages covering Hispanic Music, Sports Legends, Geography, Gastronomy, and Pop Culture!`;
+
+            document.getElementById('generated-description').innerText = text;
+        }
+
+        function copyDescription() {
+            const textToCopy = document.getElementById('generated-description').innerText;
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                alert("¡Descripción copiada al portapapeles!");
+            }).catch(err => {
+                alert("Error al copiar: ", err);
+            });
         }
 
         async function waitForImages(element) {
@@ -266,14 +326,12 @@ async function init() {
             const staging = document.getElementById('png-staging');
             const images = selected.map(t => imageBaseUrl + t.imageFileName);
             
-            // Pass the entire selected array to build the index
             staging.innerHTML = buildPreviewHTML(bundleTitle, images, true, selected);
             await waitForImages(staging);
             await triggerDownload(document.querySelector('.tpt-preview'), `${bundleTitle}_Bundle_Cover.png`);
             staging.innerHTML = ''; 
         }
 
-        // --- UPDATED PREVIEW BUILDER WITH INDEX LOGIC ---
         function buildPreviewHTML(title, images, isBundle, selectedTopics) {
             const extraClass = isBundle ? "bundle-preview" : "";
             const tagText = isBundle ? "Gran Bundle Cultural" : "Lectura Cultural Diferenciada";
@@ -281,18 +339,15 @@ async function init() {
             let visualContent = '';
             
             if(isBundle) {
-                // 1. Scattered Image Stack
                 visualContent += `<div class="bundle-stack">`;
                 images.slice(0, 4).forEach(img => visualContent += `<img src="${img}" crossorigin="anonymous">`);
                 visualContent += `</div>`;
 
-                // 2. Dynamic Topic Index
                 visualContent += `<div class="bundle-index"><h3>Temas Incluidos:</h3><ul>`;
-                const topicsToShow = selectedTopics.slice(0, 5); // Show up to 5
+                const topicsToShow = selectedTopics.slice(0, 5);
                 topicsToShow.forEach(t => visualContent += `<li>• ${t.topicName}</li>`);
                 visualContent += `</ul>`;
                 
-                // 3. "Y Unos Más" Logic
                 if(selectedTopics.length > 5) {
                     const leftover = selectedTopics.length - 5;
                     visualContent += `<div class="bundle-more">+ ¡${leftover} temas más!</div>`;
@@ -300,7 +355,6 @@ async function init() {
                 visualContent += `</div>`;
 
             } else {
-                // Single Image
                 visualContent = `<img src="${images[0]}" class="main-image" crossorigin="anonymous">`;
             }
 
