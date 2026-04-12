@@ -5324,13 +5324,13 @@
       }
     }
   },
-  {
+{
     "topicName": "La Feria de Abril",
     "imageFileName": "feria_abril.png",
     "levels": {
       "level_1": {
         "tier": "Level 1 (English/Beginner)",
-        "readingText": "La Feria de Abril is an incredibly famous, deeply traditional, and completely joyful spring festival held every year in the beautiful, sunny city of Sevilla, España. It usually begins exactly two weeks after the religious holiday of Easter and always lasts for one full, exhausting, and wonderful week. During this special, magical time, a massive, empty area of the bustling city is miraculously transformed into a giant, temporary town completely filled with over a thousand colorful, striped tents called \"casetas.\"\n\nThese festive casetas are beautifully decorated inside with bright, colorful paper lanterns and comfortable chairs. They usually belong proudly to prominent local families, large groups of close friends, or important local businesses in the city. Inside these crowded, happy tents, people eat many delicious, traditional tapas, eagerly drink a very special, refreshing beverage called \"rebujito\" (which is a mix of white wine and lemon soda), and happily socialize with each other from the warm afternoon until the very early hours of the morning!\n\nThe massive festival is also globally famous for its stunning, elegant traditional clothing. Women proudly wear beautiful, tight-fitting, and highly colorful flamenco dresses that are completely covered in bright polka dots and heavy ruffles. Meanwhile, the men wear very classic, sharp suits or traditional Spanish riding outfits with wide hats. Throughout the busy day, incredibly elegant, well-groomed horses and beautifully decorated wooden carriages parade slowly down the dirt streets of the festival. La Feria de Abril is absolutely the perfect, most joyful celebration of rich Andalusian culture, loud traditional music, and deep, lifelong friendship.",
+        "readingText": "La Feria de Abril is a famous, joyful spring festival held every year in the sunny city of Sevilla, España. It usually begins exactly two weeks after Easter and lasts for one full week. During this magical time, an empty area of the city is miraculously transformed into a giant, temporary town filled with over a thousand colorful, striped tents called \"casetas.\"\n\nThese festive casetas are beautifully decorated inside with bright paper lanterns and comfortable chairs. They usually belong to prominent local families, large groups of friends, or important businesses in the city. Inside these crowded tents, people eat delicious, traditional tapas, eagerly drink a special, refreshing beverage called \"rebujito\" (which is a mix of white wine and lemon soda), and happily socialize from the warm afternoon until the early hours of the morning!\n\nThe festival is also famous for its stunning traditional clothing. Women proudly wear beautiful, tight-fitting flamenco dresses covered in bright polka dots and heavy ruffles. Meanwhile, the men wear classic suits or traditional Spanish riding outfits with wide hats. Throughout the day, elegant, well-groomed horses and beautifully decorated wooden carriages parade slowly down the dirt streets of the festival. La Feria de Abril is absolutely the perfect celebration of rich Andalusian culture, traditional music, and deep, lifelong friendship.",
         "instruction": "Answer the following preguntas according to the text.",
         "questions": [
           "Where is the famous spring festival La Feria de Abril held?",
@@ -5347,13 +5347,13 @@
           "\"Casetas\".",
           "\"Rebujito\" (a mix of white wine and lemon soda).",
           "Beautiful, tight-fitting flamenco dresses covered in bright polka dots and heavy ruffles.",
-          "Incredibly elegant, well-groomed horses.",
-          "Rich Andalusian culture, loud traditional music, and deep, lifelong friendship."
+          "Elegant, well-groomed horses.",
+          "Rich Andalusian culture, traditional music, and deep, lifelong friendship."
         ]
       },
       "level_2": {
         "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "La Feria de Abril es un festival de primavera increíblemente famoso, profundamente tradicional y completamente alegre en la hermosa y soleada ciudad de Sevilla, España. Normalmente empieza exactamente dos semanas después de la fiesta religiosa de la Pascua y siempre dura una semana entera, maravillosa y agotadora. Durante este tiempo especial y mágico, una zona gigante y vacía de la ciudad ocupada se transforma milagrosamente en un pueblo temporal y gigante, completamente lleno de más de mil tiendas coloridas y de rayas llamadas \"casetas\".\n\nEstas casetas festivas están hermosamente decoradas por dentro con linternas de papel brillantes y coloridas, y sillas muy cómodas. Ellas normalmente son orgullosamente de familias locales prominentes, grupos grandes de buenos amigos o negocios locales importantes en la ciudad. ¡Adentro de estas tiendas llenas y felices, las personas comen muchas tapas tradicionales y deliciosas, beben con entusiasmo una bebida muy especial y refrescante llamada \"rebujito\" (que es una mezcla de vino blanco y refresco de limón) y socializan felizmente entre ellos desde la tarde cálida hasta las primeras horas de la mañana!\n\nEl festival masivo también es mundialmente famoso por su ropa tradicional impresionante y muy elegante. Las mujeres llevan con orgullo vestidos de flamenco hermosos, ajustados y muy coloridos que están completamente cubiertos de lunares brillantes y volantes pesados. Mientras tanto, los hombres llevan trajes muy clásicos y elegantes o ropa tradicional de montar española con sombreros anchos. Durante el día ocupado, caballos increíblemente elegantes y bien cuidados, y carruajes de madera bellamente decorados caminan lentamente por las calles de tierra del festival. La Feria de Abril es absolutamente la celebración perfecta y más alegre de la rica cultura, la música tradicional y la amistad.",
+        "readingText": "La Feria de Abril es un festival de primavera muy famoso y alegre en la soleada ciudad de Sevilla, España. Normalmente empieza exactamente dos semanas después de la Pascua y siempre dura una semana entera. Durante este tiempo mágico, una zona vacía de la ciudad se transforma milagrosamente en un pueblo temporal gigante, lleno de más de mil tiendas coloridas y de rayas llamadas \"casetas\".\n\nEstas casetas festivas están hermosamente decoradas por dentro con linternas de papel brillantes y sillas cómodas. Ellas normalmente son de familias locales prominentes, grupos grandes de amigos o negocios locales importantes. ¡Adentro de estas tiendas, las personas comen tapas tradicionales y deliciosas, beben con entusiasmo una bebida especial llamada \"rebujito\" (una mezcla de vino blanco y refresco de limón) y socializan felizmente desde la tarde hasta las primeras horas de la mañana!\n\nEl festival también es famoso por su ropa tradicional muy elegante. Las mujeres llevan vestidos de flamenco hermosos y ajustados, cubiertos de lunares y volantes pesados. Mientras tanto, los hombres llevan trajes clásicos o ropa tradicional de montar española con sombreros anchos. Durante el día, caballos elegantes y carruajes de madera bellamente decorados caminan lentamente por las calles de tierra del festival. La Feria de Abril es la celebración perfecta de la rica cultura andaluza, la música tradicional y la amistad profunda.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿En qué hermosa ciudad de España se celebra la Feria de Abril?",
@@ -5365,18 +5365,18 @@
           "¿De qué es una celebración perfecta la Feria de Abril?"
         ],
         "answerKey": [
-          "En la hermosa y soleada ciudad de Sevilla, España.",
-          "Exactamente dos semanas después de la fiesta religiosa de la Pascua.",
+          "En la soleada ciudad de Sevilla, España.",
+          "Exactamente dos semanas después de la Pascua.",
           "\"Casetas\".",
           "Comen tapas tradicionales y deliciosas, y beben una bebida especial llamada \"rebujito\".",
-          "Vestidos de flamenco hermosos, ajustados y muy coloridos (cubiertos de lunares y volantes).",
-          "Caballos increíblemente elegantes y carruajes de madera bellamente decorados.",
+          "Vestidos de flamenco hermosos y ajustados (cubiertos de lunares y volantes pesados).",
+          "Caballos elegantes y carruajes de madera bellamente decorados.",
           "De la rica cultura andaluza, la música tradicional y la amistad profunda."
         ]
       },
       "level_3": {
         "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "La Feria de Abril es indiscutiblemente la celebración primaveral más emblemática, multitudinaria y jubilosa de la ciudad de Sevilla, arraigada profundamente en la rica identidad cultural e histórica de la región de Andalucía. Este magno, colorido y exhaustivo evento, que tradicionalmente e invariablemente comienza exactamente dos semanas después de las solemnes procesiones de la Semana Santa, transforma mágicamente el enorme recinto ferial de la ciudad (conocido como el Real de la Feria) en una vibrante metrópolis efímera. Este poblado temporal está minuciosamente compuesto por más de mil coloridas y pintorescas \"casetas\" de lona rayada, alineadas ordenadamente en calles de albero que son espectacularmente engalanadas y bautizadas con nombres de ilustres toreros locales.\n\nEstas acogedoras casetas, profusamente iluminadas en su interior por miles de farolillos de papel maché, funcionan esencialmente como cálidas y exclusivas extensiones de los propios hogares sevillanos. En su bullicioso interior, familias enteras, socios de negocios y grupos íntimos de amigos se congregan felizmente para degustar sin prisa exquisitas e interminables rondas de tapas tradicionales (como el jamón ibérico y el pescaíto frito), brindar continuamente con jarras heladas del dulce y refrescante \"rebujito\", y entonar o bailar sevillanas ininterrumpidamente, a menudo hasta que despunta el brillante amanecer. La feria es, en su más pura esencia, un inmenso y ruidoso homenaje a la legendaria hospitalidad del sur y a la convivencia social inquebrantable.\n\nEl evento también sirve como un deslumbrante y envidiable despliegue mundial de la alta moda folclórica española. Las mujeres asistentes deslumbran a todos ataviadas con ceñidos, pesados y vibrantes trajes de flamenca, profusamente adornados con alegres volantes, flecos y clásicos lunares, mientras que los caballeros lucen impecablemente el elegante y tradicional traje de corto andaluz o impecables trajes de chaqueta. Durante las soleadas horas del día, el recinto ferial de tierra se convierte en un majestuoso escaparate viviente de la orgullosa cultura ecuestre local, con impresionantes desfiles continuos de hábiles jinetes y lujosos carruajes tirados por caballos de pura raza bellamente engalanados.",
+        "readingText": "La Feria de Abril es la celebración primaveral más emblemática de Sevilla, arraigada profundamente en la identidad cultural de la región de Andalucía. Este magno evento, que comienza exactamente dos semanas después de la Semana Santa, transforma el recinto ferial (conocido como el Real de la Feria) en una vibrante metrópolis efímera. Este poblado temporal está compuesto por más de mil coloridas \"casetas\" de lona rayada, alineadas en calles engalanadas y bautizadas con nombres de ilustres toreros locales.\n\nEstas acogedoras casetas, iluminadas por miles de farolillos de papel, funcionan esencialmente como exclusivas extensiones de los hogares sevillanos para la convivencia social. En su bullicioso interior, familias y amigos se congregan para degustar tapas tradicionales, brindar con jarras heladas del dulce y refrescante \"rebujito\", y bailar sevillanas ininterrumpidamente, a menudo hasta que despunta el amanecer. La feria es, en esencia, un homenaje a la legendaria hospitalidad del sur.\n\nEl evento también sirve como un deslumbrante despliegue de la moda folclórica. Las mujeres asisten ataviadas con ceñidos y vibrantes trajes de flamenca, adornados con volantes y clásicos lunares. Por su parte, los caballeros lucen el tradicional traje de corto andaluz o impecables trajes de chaqueta. Durante el día, el recinto ferial se convierte en un majestuoso escaparate de la orgullosa cultura ecuestre local, con impresionantes desfiles de hábiles jinetes y lujosos carruajes tirados por caballos bellamente engalanados.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿En la identidad cultural de qué región española está arraigada la Feria de Abril?",
@@ -5390,10 +5390,10 @@
         "answerKey": [
           "De la región de Andalucía (específicamente en Sevilla).",
           "En una vibrante metrópolis efímera compuesta por más de mil coloridas \"casetas\".",
-          "Funcionan esencialmente como cálidas y exclusivas extensiones de los propios hogares sevillanos para la convivencia social.",
+          "Funcionan esencialmente como exclusivas extensiones de los hogares sevillanos para la convivencia social.",
           "Con jarras heladas del dulce y refrescante \"rebujito\".",
-          "Los ceñidos, pesados y vibrantes trajes de flamenca (adornados con volantes y clásicos lunares).",
-          "El elegante y tradicional traje de corto andaluz (o impecables trajes de chaqueta).",
+          "Los ceñidos y vibrantes trajes de flamenca (adornados con volantes y clásicos lunares).",
+          "El tradicional traje de corto andaluz (o impecables trajes de chaqueta).",
           "De la orgullosa cultura ecuestre local (con impresionantes desfiles de jinetes y lujosos carruajes)."
         ]
       }
