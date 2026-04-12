@@ -23,7 +23,7 @@
 
         .input-group { margin-bottom: 20px; display: flex; gap: 15px; flex-wrap: wrap; }
         .input-wrapper { flex: 1; min-width: 250px; }
-        input[type="text"] { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #cbd5e0; border-radius: 6px; box-sizing: border-box; font-family: 'Nunito', sans-serif; }
+        input[type="text"], select { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #cbd5e0; border-radius: 6px; box-sizing: border-box; font-family: 'Nunito', sans-serif; background-color: white; }
         
         .button-group { display: flex; gap: 15px; flex-wrap: wrap; margin-bottom: 20px; }
         button { padding: 12px 20px; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: 900; font-size: 14px; font-family: 'Nunito', sans-serif; transition: 0.2s; flex-grow: 1; }
@@ -33,7 +33,10 @@
         
         .btn-copy { background-color: #4a5568; position: absolute; top: 15px; right: 15px; width: auto; padding: 8px 15px; } .btn-copy:hover { background-color: #2d3748; }
 
-/* --- PDF PRINT STYLES --- */
+        /* Generator Box Styling */
+        .description-box { background: #f7fafc; padding: 25px; border: 2px solid #cbd5e0; border-radius: 8px; white-space: pre-wrap; font-family: 'Nunito', sans-serif; font-size: 15px; line-height: 1.6; color: #2d3748; position: relative; margin-bottom: 20px;}
+
+        /* --- PDF PRINT STYLES --- */
         #render-container { display: none; } 
         @page { size: 8.5in 11in; margin: 0; }
         
@@ -66,7 +69,7 @@
             /* Force the render container back to normal positioning for the actual print */
             #render-container { display: block !important; position: static !important; left: auto !important; } 
         }
-        
+
         /* --- PNG PREVIEW GENERATOR STYLES --- */
         #png-staging { position: absolute; left: -9999px; top: 0; }
         
@@ -95,9 +98,6 @@
         .bundle-index ul { margin: 0; padding-left: 20px; color: #333; font-weight: bold; font-size: 16px; line-height: 1.4; }
         .bundle-index li { margin-bottom: 5px; }
         .bundle-more { margin-top: 10px; font-style: italic; color: #c53030; font-weight: 900; font-size: 16px;}
-
-        /* Generator Box Styling */
-        #description-box { background: #f7fafc; padding: 25px; border: 2px solid #cbd5e0; border-radius: 8px; white-space: pre-wrap; font-family: 'Nunito', sans-serif; font-size: 15px; line-height: 1.6; color: #2d3748; position: relative; margin-bottom: 20px;}
     </style>
 </head>
 <body>
@@ -137,10 +137,22 @@
             <button class="btn-bundle" onclick="generateBundlePNG()">🎨 Descargar Portada de Bundle (PNG)</button>
         </div>
 
-        <h2 class="section-title">Generador de Descripción (Para TPT)</h2>
-        <div id="description-box">
-            <button class="btn-copy" onclick="copyDescription()">📋 Copiar Texto</button>
+        <h2 class="section-title">Generador de Descripción BUNDLE (Para TPT)</h2>
+        <div class="description-box" id="description-box">
+            <button class="btn-copy" onclick="copyDescription('generated-description')">📋 Copiar Texto</button>
             <div id="generated-description">Selecciona algunos temas y escribe una categoría arriba para generar tu descripción automática...</div>
+        </div>
+
+        <h2 class="section-title">Generador de Descripción INDIVIDUAL (Para TPT)</h2>
+        <div style="margin-bottom: 15px;">
+            <label style="display:block; margin-bottom:10px; font-weight:bold;">Selecciona un tema específico para generar su descripción:</label>
+            <select id="individual-topic-select">
+                <option value="">Selecciona un tema...</option>
+                </select>
+        </div>
+        <div class="description-box" id="individual-description-box">
+            <button class="btn-copy" onclick="copyDescription('generated-individual-description')">📋 Copiar Texto</button>
+            <div id="generated-individual-description">Selecciona un tema arriba para generar su descripción automática...</div>
         </div>
 
     </div>
@@ -162,16 +174,26 @@
                 globalData = await response.json();
                 
                 const grid = document.getElementById('topic-list');
+                const individualSelect = document.getElementById('individual-topic-select');
+
                 globalData.forEach((topic, index) => {
+                    // Populate Checklist
                     const label = document.createElement('label');
                     label.className = 'topic-item';
                     label.innerHTML = `<input type="checkbox" value="${index}"> ${topic.topicName}`;
                     grid.appendChild(label);
+
+                    // Populate Dropdown for Individual Descriptions
+                    const option = document.createElement('option');
+                    option.value = index;
+                    option.textContent = topic.topicName;
+                    individualSelect.appendChild(option);
                 });
 
-                // Attach event listener to grid so description updates when checkboxes are clicked
-                grid.addEventListener('change', updateDescription);
-                document.getElementById('bundle-category').addEventListener('input', updateDescription);
+                // Attach event listeners
+                grid.addEventListener('change', updateBundleDescription);
+                document.getElementById('bundle-category').addEventListener('input', updateBundleDescription);
+                individualSelect.addEventListener('change', updateIndividualDescription);
 
             } catch (error) {
                 document.getElementById('topic-list').innerHTML = "<p style='color:red;'>Error loading JSON from GitHub.</p>";
@@ -181,7 +203,7 @@
         function toggleAll(selectAll) {
             const checkboxes = document.querySelectorAll('#topic-list input[type="checkbox"]');
             checkboxes.forEach(cb => cb.checked = selectAll);
-            updateDescription(); // Update the text after toggling
+            updateBundleDescription(); 
         }
 
         function getSelectedTopics() {
@@ -189,8 +211,8 @@
             return Array.from(checkboxes).map(cb => globalData[cb.value]);
         }
 
-        // --- NEW: Dynamic Description Generator ---
-        function updateDescription() {
+        // --- BUNDLE Description Generator ---
+        function updateBundleDescription() {
             const category = document.getElementById('bundle-category').value.trim() || "[Topic Category]";
             const selected = getSelectedTopics();
 
@@ -208,23 +230,47 @@
             });
 
             text += `\n**Each Title includes:**\n`;
-            text += `- **Level 1 (Novice/English):** Written primarily in English with key Spanish vocabulary and cultural concepts naturally woven in. Perfect for Spanish I or exploratory classes!\n`;
-            text += `- **Level 2 (Intermediate/Spanish II):** Written entirely in structured, comprehensible Spanish. Focuses on high-frequency vocabulary and limits complex grammar to keep your Spanish II students confident and engaged.\n`;
-            text += `- **Level 3 (Advanced):** Written in natural, authentic Spanish using rich vocabulary, varied tenses, and native phrasing for your upper-level students or heritage speakers.\n`;
-            text += `- **Comprehension Questions:** 7 targeted reading comprehension questions for each specific level.\n`;
-            text += `- **Complete Teacher Answer Key:** Included for all three levels, making grading an absolute breeze.\n\n`;
+            text += `- **Level 1 (English/Beginner):** Written mostly in English with key Spanish vocabulary and cultural concepts sprinkled in. Perfect for Spanish I or exploratory classes.\n`;
+            text += `- **Level 2 (Structured Spanish / Spanish II):** Written entirely in beginner-friendly Spanish. Focuses on high-frequency vocabulary and limits complex grammar. Perfect for Spanish II students building their reading stamina.\n`;
+            text += `- **Level 3 (Natural Spanish / Advanced):** Written in natural, authentic Spanish using advanced vocabulary, varied tenses, and native phrasing. Perfect for Spanish III, IV, or AP students.\n`;
+            text += `- **Comprehension Questions:** 7 targeted reading comprehension questions that align perfectly with all three levels of the text.\n`;
+            text += `- **Answer Key:** Full answer key provided for quick and easy grading.\n\n`;
 
             text += `**Why You'll Love It:**\n`;
-            text += `- **Zero Prep:** Just print and go, or assign digitally!\n`;
-            text += `- **Total Flexibility:** Teach the same cultural topic to your freshmen and your seniors on the exact same day.\n`;
-            text += `- **Easy Grading:** The included answer keys mean you won't be taking grading home with you.\n`;
-            text += `- **Build Your Cultural Library!** Love this format? Check out my store for dozens of other 3-tiered reading passages covering Hispanic Music, Sports Legends, Geography, Gastronomy, and Pop Culture!`;
+            text += `This tiered approach takes the stress out of differentiation. Whether you have a mixed-level classroom or you want to use the same cultural topic across your Spanish 1 and Spanish 4 periods, this resource guarantees that every student can access and understand the material.`;
 
             document.getElementById('generated-description').innerText = text;
         }
 
-        function copyDescription() {
-            const textToCopy = document.getElementById('generated-description').innerText;
+        // --- INDIVIDUAL Description Generator ---
+        function updateIndividualDescription() {
+            const select = document.getElementById('individual-topic-select');
+            const topicIndex = select.value;
+
+            if (topicIndex === "") {
+                document.getElementById('generated-individual-description').innerHTML = "Selecciona un tema arriba para generar su descripción automática...";
+                return;
+            }
+
+            const topicName = globalData[topicIndex].topicName;
+
+            let text = `Transport your students to the fascinating world of **${topicName}** with this high-interest cultural reading activity!\n\n`;
+            text += `Stop spending hours rewriting texts for different proficiency levels! This resource includes three perfectly differentiated versions of a reading passage about **${topicName}**, allowing you to seamlessly teach the exact same rich cultural content to your beginners, intermediate, and advanced students simultaneously.\n\n`;
+            text += `**What’s Included in this Resource:**\n`;
+            text += `- **Level 1 (English/Beginner):** Written mostly in English with key Spanish vocabulary and cultural concepts sprinkled in. Perfect for Spanish I or exploratory classes.\n`;
+            text += `- **Level 2 (Structured Spanish / Spanish II):** Written entirely in beginner-friendly Spanish. Focuses on high-frequency vocabulary and limits complex grammar. Perfect for Spanish II students building their reading stamina.\n`;
+            text += `- **Level 3 (Natural Spanish / Advanced):** Written in natural, authentic Spanish using advanced vocabulary, varied tenses, and native phrasing. Perfect for Spanish III, IV, or AP students.\n`;
+            text += `- **Comprehension Questions:** 7 targeted reading comprehension questions that align perfectly with all three levels of the text.\n`;
+            text += `- **Answer Key:** Full answer key provided for quick and easy grading.\n\n`;
+            text += `**Why You’ll Love It:**\n`;
+            text += `This tiered approach takes the stress out of differentiation. Whether you have a mixed-level classroom or you want to use the same cultural topic across your Spanish 1 and Spanish 4 periods, this resource guarantees that every student can access and understand the material while learning about **${topicName}**!`;
+
+            document.getElementById('generated-individual-description').innerText = text;
+        }
+
+        // --- COPY TO CLIPBOARD FUNCTION ---
+        function copyDescription(elementId) {
+            const textToCopy = document.getElementById(elementId).innerText;
             navigator.clipboard.writeText(textToCopy).then(() => {
                 alert("¡Descripción copiada al portapapeles!");
             }).catch(err => {
@@ -388,10 +434,10 @@
             await new Promise(r => setTimeout(r, 500)); 
         }
 
-async function autoFitPages() {
+        async function autoFitPages() {
             const container = document.getElementById('render-container');
             
-            // 1. Temporarily make the container visible (but off-screen) so the browser can calculate heights
+            // Temporarily make the container visible (but off-screen) so the browser can calculate heights
             container.style.display = 'block';
             container.style.position = 'absolute';
             container.style.left = '-9999px'; 
@@ -443,7 +489,7 @@ async function autoFitPages() {
                 }
             });
 
-            // 2. Clean up our temporary styles so the print dialog takes over cleanly
+            // Clean up our temporary styles so the print dialog takes over cleanly
             container.style.display = '';
             container.style.position = '';
             container.style.left = '';
