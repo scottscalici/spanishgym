@@ -10813,6 +10813,81 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "Diego Rivera",
+    "imageFileName": "diego_rivera.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Diego Rivera is an incredibly famous and highly influential Mexican artist. He was born in Guanajuato, Mexico, and is best known around the world as a master of el muralismo (muralism). Instead of painting on small canvases, he proudly painted massive, brightly colored murals directly on the walls of large public buildings. He is also very famous for his passionate, dramatic marriage to another legendary Mexican painter, the brilliant Frida Kahlo. Together, they became the most famous artistic couple in Mexican history.\n\nRivera strongly believed that el arte (art) should not be hidden inside expensive museums for only rich people to see. Instead, he painted his massive murals in public spaces so that everyone, including poor workers, could easily enjoy them. His beautiful, highly detailed paintings proudly showed the rich, complex historia (history) of Mexico. He painted brave indigenous people, hardworking farmers, and important political events to celebrate the true, authentic spirit of the proud Mexican people.\n\nToday, you can still easily find Rivera's massive, breathtaking murals in many important places. He painted incredibly famous walls in the Palacio Nacional in Mexico City, and he even traveled to the United States to paint the famous Detroit Industry Murals. Even though his strong political ideas were sometimes very controversial, his beautiful artwork successfully changed the world. Diego Rivera completely transformed how people see public art and proudly helped the Mexican people celebrate their deep, beautiful cultural roots.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was Diego Rivera born?",
+          "What type of art is he best known for?",
+          "Who was he famously married to?",
+          "Where did he believe art should be located?",
+          "What did his beautiful, highly detailed paintings show?",
+          "Where can you find his famous murals in Mexico City?",
+          "What famous murals did he paint in the United States?"
+        ],
+        "answerKey": [
+          "Guanajuato, Mexico.",
+          "El muralismo (muralism).",
+          "The brilliant Frida Kahlo.",
+          "In public spaces so everyone, including poor workers, could easily enjoy it.",
+          "The rich, complex history of Mexico.",
+          "In the Palacio Nacional.",
+          "The Detroit Industry Murals."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Diego Rivera es un artista mexicano increíblemente famoso y muy importante. Él nació en Guanajuato, México, y es conocido en todo el mundo como un maestro del muralismo. En lugar de pintar en lienzos pequeños, él pintaba con orgullo murales masivos y de colores brillantes directamente en las paredes de edificios públicos. Él también es muy famoso por su matrimonio dramático con otra pintora mexicana legendaria, la brillante Frida Kahlo. Juntos, se convirtieron en la pareja artística más famosa de la historia mexicana.\n\nRivera creía firmemente que el arte no debía estar escondido en museos caros solo para personas ricas. En cambio, él pintó sus murales masivos en espacios públicos para que todas las personas, incluyendo los trabajadores pobres, pudieran disfrutarlos fácilmente. Sus pinturas hermosas y muy detalladas mostraban con orgullo la historia rica y compleja de México. Él pintó a indígenas valientes, campesinos trabajadores y eventos políticos importantes para celebrar el espíritu verdadero y auténtico del orgulloso pueblo mexicano.\n\nHoy en día, todavía puedes encontrar fácilmente los murales impresionantes de Rivera en muchos lugares importantes. Él pintó paredes muy famosas en el Palacio Nacional en la Ciudad de México, e incluso viajó a los Estados Unidos para pintar los famosos Murales de la Industria de Detroit. Aunque sus ideas políticas fuertes a veces eran muy controversiales, su arte hermoso cambió el mundo con éxito. Diego Rivera transformó completamente cómo las personas ven el arte público y ayudó al pueblo mexicano a celebrar sus raíces culturales profundas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde nació Diego Rivera?",
+          "¿De qué estilo de arte es considerado un maestro?",
+          "¿Con quién tuvo un matrimonio muy famoso y dramático?",
+          "¿Por qué pintaba él sus murales en espacios públicos?",
+          "¿Qué mostraban las pinturas hermosas de Rivera?",
+          "¿Dónde están sus murales famosos en la Ciudad de México?",
+          "¿Qué murales famosos pintó en los Estados Unidos?"
+        ],
+        "answerKey": [
+          "En Guanajuato, México.",
+          "Del muralismo.",
+          "Con la brillante Frida Kahlo.",
+          "Para que todas las personas (incluyendo los trabajadores pobres) pudieran disfrutarlos fácilmente.",
+          "La historia rica y compleja de México.",
+          "En el Palacio Nacional.",
+          "Los Murales de la Industria de Detroit."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Diego Rivera es, indiscutiblemente, uno de los artistas plásticos más influyentes, venerados y prolíficos de la historia mexicana. Nacido en la ciudad de Guanajuato, Rivera se consagró mundialmente como la figura central del movimiento del muralismo mexicano. En lugar de limitarse a pintar sobre lienzos tradicionales, él plasmó obras monumentales y sumamente coloridas directamente sobre los muros de importantes edificios públicos. Además de su innegable genio artístico, es mundialmente célebre por su apasionado y turbulento matrimonio con la icónica pintora surrealista Frida Kahlo, formando la pareja más legendaria del arte latinoamericano.\n\nRivera poseía la firme convicción ideológica de que el arte no debía estar recluido en galerías elitistas para el disfrute exclusivo de la burguesía. Por el contrario, democratizó el arte creando imponentes frescos en espacios públicos para que la clase obrera pudiera admirarlos libremente. Sus vastas y detalladas composiciones narran visualmente la compleja y rica historia de México, reivindicando con orgullo las raíces indígenas, ensalzando la dignidad de los campesinos y plasmando sus profundos ideales políticos para celebrar el espíritu indomable del pueblo.\n\nEn la actualidad, el inmenso legado muralista de Rivera sigue asombrando a millones de espectadores. Sus obras maestras decoran los majestuosos muros del Palacio Nacional en la Ciudad de México, y su prestigio lo llevó a realizar proyectos internacionales, como los imponentes Murales de la Industria de Detroit en Estados Unidos. A pesar de las constantes controversias que suscitaron sus radicales posturas políticas, su obra logró transformar permanentemente la concepción del arte público. Rivera ayudó decisivamente a forjar la identidad cultural moderna de México ante el mundo.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué movimiento artístico se consagró Rivera como la figura central?",
+          "¿Con quién formó la pareja más legendaria del arte latinoamericano?",
+          "¿Por qué democratizó el arte creando imponentes frescos en espacios públicos?",
+          "¿Qué narran visualmente sus vastas y detalladas composiciones?",
+          "¿Qué tipo de ideales plasmaba en su arte para celebrar el espíritu del pueblo?",
+          "¿Qué edificio en la Ciudad de México está decorado con sus obras maestras?",
+          "¿Qué proyecto internacional importante realizó en los Estados Unidos?"
+        ],
+        "answerKey": [
+          "Del movimiento del muralismo mexicano.",
+          "Con la icónica pintora surrealista Frida Kahlo.",
+          "Para que la clase obrera pudiera admirarlos libremente (no solo la burguesía).",
+          "La compleja y rica historia de México.",
+          "Sus profundos ideales políticos.",
+          "El Palacio Nacional.",
+          "Los imponentes Murales de la Industria de Detroit."
+        ]
+      }
+    }
   }
 
 
