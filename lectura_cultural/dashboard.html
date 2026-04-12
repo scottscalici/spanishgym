@@ -385,7 +385,14 @@
             await new Promise(r => setTimeout(r, 500)); 
         }
 
-    async function autoFitPages() {
+async function autoFitPages() {
+            const container = document.getElementById('render-container');
+            
+            // 1. Temporarily make the container visible (but off-screen) so the browser can calculate heights
+            container.style.display = 'block';
+            container.style.position = 'absolute';
+            container.style.left = '-9999px'; 
+            
             const pages = document.querySelectorAll('.page');
             
             pages.forEach(page => {
@@ -432,6 +439,11 @@
                     });
                 }
             });
+
+            // 2. Clean up our temporary styles so the print dialog takes over cleanly
+            container.style.display = '';
+            container.style.position = '';
+            container.style.left = '';
         }
         
         init();
