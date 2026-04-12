@@ -254,6 +254,7 @@
                 });
             });
             await waitForImages(container);
+            await autoFitPages();
             window.print();
         }
 
@@ -278,6 +279,7 @@
                 });
             });
             await waitForImages(container);
+            await autoFitPages();
             window.print();
         }
 
@@ -383,6 +385,55 @@
             await new Promise(r => setTimeout(r, 500)); 
         }
 
+    async function autoFitPages() {
+            const pages = document.querySelectorAll('.page');
+            
+            pages.forEach(page => {
+                const contentLayer = page.querySelector('.content-layer');
+                if (!contentLayer) return;
+
+                // An 11-inch page minus 0.5in top and bottom padding gives us exactly 10 inches of printable space.
+                // 10 inches is exactly 960 pixels at standard screen resolution.
+                const maxAllowedHeight = 960; 
+
+                // Get the text elements we want to shrink
+                let readingText = page.querySelector('.reading-text');
+                let questions = page.querySelectorAll('.question-block');
+                let instruction = page.querySelector('.instruction');
+                let answers = page.querySelectorAll('.answer-text');
+
+                // Set our starting font sizes (matches your CSS)
+                let textSize = 14; 
+                let qSize = 14;
+                let spacing = 10; 
+
+                // If content is too tall, shrink it incrementally until it fits perfectly
+                while (contentLayer.scrollHeight > maxAllowedHeight && textSize > 10.5) {
+                    textSize -= 0.2; 
+                    qSize -= 0.2;
+                    spacing -= 0.2;
+
+                    // Apply the shrunken sizes
+                    if (readingText) {
+                        readingText.style.fontSize = textSize + 'px';
+                        readingText.style.marginBottom = spacing + 'px';
+                        readingText.style.lineHeight = '1.35'; // Tighten line-height slightly
+                    }
+                    if (instruction) {
+                        instruction.style.fontSize = qSize + 'px';
+                        instruction.style.marginBottom = (spacing / 2) + 'px';
+                    }
+                    questions.forEach(q => {
+                        q.style.fontSize = qSize + 'px';
+                        q.style.marginBottom = (spacing - 2) + 'px';
+                    });
+                    answers.forEach(a => {
+                        a.style.fontSize = (qSize - 0.5) + 'px'; // Keep answers slightly smaller
+                    });
+                }
+            });
+        }
+        
         init();
     </script>
 </body>
