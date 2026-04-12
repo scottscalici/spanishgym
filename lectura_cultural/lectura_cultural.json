@@ -5930,8 +5930,8 @@
     "levels": {
       "level_1": {
         "tier": "Level 1 (English/Beginner)",
-        "readingText": "The extremely famous Feria de Abril is a massive, incredibly joyful, and beautiful spring celebration held every year in the sunny city of Seville, Spain. However, its deeply interesting historia (history) definitely didn't just start magically as a massive, colorful party full of dancing and loud music. Long ago, in the year 1846, two smart, business-minded city councilmen politely proposed organizing a large, practical annual feria (fair) primarily to simply buy and sell farm livestock and animals. The powerful Queen Isabel II officially agreed to their smart idea, and the very first fair successfully took place in the busy month of April in 1847.\n\nAt first, the brand-new fair was extremely traditional, quiet, and completely focused only on serious agricultural business. Hardworking local farmers proudly brought their large, heavy cows, fast horses, and fluffy sheep to the city to trade and make money for their families. However, the happy Andalusian people historically absolutely love a good, loud celebration and spending time together. Soon, the small, simple casetas (tents) that were originally built just to provide cool shade and rest for the tired animal traders slowly became busy, popular places to happily socialize, eat delicious food, drink wine, and dance traditional music together late into the warm night.\n\nOver the many changing years, the serious business and farming aspect of the event slowly faded away almost completely. By the roaring 1920s, the lively Feria de Abril had successfully transformed completely into a massive, purely cultural festival celebrating the vibrant spirit of the city. Today, it is an exhausting, wonderful week-long celebration of proud Sevillian culture, completely filled with loud music, beautiful dancing, and stunning, colorful traditional clothing. Instead of trading noisy farm animals, millions of happy people now gather every single year simply to enjoy life, eat great food, and celebrate with their beloved family and friends.",
-        "instruction": "Answer the following preguntas according to the text.",
+        "readingText": "The extremely famous Feria de Abril is a massive, joyful spring celebration held every year in the sunny city of Seville, Spain. However, its deeply interesting historia (history) didn't start magically as a massive party full of dancing and music. Long ago, in 1846, two smart, business-minded city councilmen politely proposed organizing a large, practical annual feria (fair) primarily to simply buy and sell farm livestock and animals. Queen Isabel II officially agreed to their smart idea, and the first fair successfully took place in the busy month of April in 1847.\n\nAt first, the brand-new fair was completely focused only on serious agricultural business. Hardworking local farmers proudly brought their heavy cows, fast horses, and fluffy sheep to the city to trade and make money. However, the happy Andalusian people historically love a good celebration and spending time together. Soon, the small, simple casetas (tents) that were originally built just to provide cool shade and rest for the tired animal traders slowly became popular places to socialize, eat delicious food, drink wine, and dance traditional music late into the night.\n\nOver the changing years, the serious farming aspect of the event slowly faded away almost completely. By the roaring 1920s, the lively Feria de Abril had transformed into a massive, purely cultural festival celebrating the vibrant spirit of the city. Today, it is a wonderful week-long celebration of proud Sevillian culture, completely filled with loud music and beautiful dancing. Instead of trading farm animals, millions of happy people gather to enjoy life, eat great food, and celebrate with family and friends.",
+        "instruction": "Answer the following questions according to the text.",
         "questions": [
           "Where does the Feria de Abril take place?",
           "What was the original purpose of the fair?",
@@ -5953,7 +5953,7 @@
       },
       "level_2": {
         "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "La Feria de Abril extremadamente famosa es una celebración de primavera masiva, increíblemente alegre y hermosa que se celebra todos los años en la soleada ciudad de Sevilla, España. Sin embargo, su historia muy interesante definitivamente no empezó por arte de magia como una fiesta masiva y colorida llena de bailes y música fuerte. Hace mucho tiempo, en el año 1846, dos concejales inteligentes y con mentalidad de negocios propusieron educadamente organizar una gran feria anual práctica principalmente para simplemente comprar y vender ganado y animales de granja. La poderosa reina Isabel II estuvo de acuerdo oficialmente con su idea inteligente, y la primera feria tuvo lugar con éxito en el ocupado mes de abril de 1847.\n\nAl principio, la nueva feria era extremadamente tradicional, tranquila y estaba completamente enfocada solo en los negocios agrícolas serios. Los agricultores locales muy trabajadores traían con orgullo sus vacas grandes y pesadas, caballos rápidos y ovejas peludas a la ciudad para intercambiar y ganar dinero para sus familias. Sin embargo, a las personas felices de Andalucía históricamente les encanta absolutamente una buena celebración ruidosa y pasar tiempo juntos. Pronto, las casetas (carpas) pequeñas y simples que fueron construidas originalmente solo para dar sombra fresca y descanso a los comerciantes de animales cansados, se convirtieron lentamente en lugares ocupados y populares para socializar felizmente, comer comida deliciosa, beber vino y bailar música tradicional juntos hasta tarde en la noche cálida.\n\nCon el paso de los años cambiantes, el aspecto de los negocios serios y la agricultura del evento desapareció lentamente casi por completo. Para la década de los maravillosos años 1920, la animada Feria de Abril se había transformado con éxito por completo en un festival masivo puramente cultural que celebraba el espíritu vibrante de la ciudad. Hoy en día, es una celebración maravillosa y agotadora de una semana de la orgullosa cultura sevillana, completamente llena de música fuerte, bailes hermosos y ropa tradicional impresionante y colorida. En lugar de intercambiar animales de granja ruidosos, millones de personas felices ahora se reúnen todos los años simplemente para disfrutar de la vida, comer buena comida y celebrar con su familia y amigos queridos.",
+        "readingText": "La famosa Feria de Abril es una celebración de primavera masiva y muy alegre que se celebra todos los años en la soleada ciudad de Sevilla, España. Sin embargo, su historia interesante no empezó por arte de magia como una fiesta llena de bailes. Hace mucho tiempo, en 1846, dos concejales con mentalidad de negocios propusieron organizar una gran feria anual práctica principalmente para comprar y vender ganado y animales de granja. La poderosa reina Isabel II estuvo de acuerdo oficialmente con la idea, y la primera feria tuvo lugar con éxito en el mes de abril de 1847.\n\nAl principio, la nueva feria era muy tradicional y estaba enfocada solo en los negocios agrícolas serios. Los agricultores locales traían con orgullo sus vacas pesadas, caballos rápidos y ovejas a la ciudad para intercambiar y ganar dinero. Sin embargo, a las personas de Andalucía históricamente les encanta una buena celebración. Pronto, las casetas (carpas) pequeñas que fueron construidas originalmente para dar sombra fresca y descanso a los comerciantes de animales cansados, se convirtieron en lugares populares para socializar, comer, beber vino y bailar música tradicional hasta tarde en la noche.\n\nCon el paso de los años, el aspecto de los negocios serios y la agricultura desapareció lentamente casi por completo. Para la década de 1920, la animada feria se había transformado por completo en un festival masivo puramente cultural. Hoy en día, es una celebración de una semana llena de música, bailes y ropa tradicional colorida. En lugar de intercambiar animales, millones de personas se reúnen simplemente para disfrutar de la vida, comer buena comida y celebrar con su familia y amigos.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿Dónde está la Feria de Abril?",
@@ -5968,15 +5968,15 @@
           "En la soleada ciudad de Sevilla, España.",
           "Querían organizar una gran feria anual práctica para comprar y vender ganado y animales de granja.",
           "La poderosa reina Isabel II.",
-          "En el ocupado mes de abril de 1847.",
-          "Vacas grandes y pesadas, caballos rápidos y ovejas peludas.",
+          "En el mes de abril de 1847.",
+          "Vacas pesadas, caballos rápidos y ovejas.",
           "Para dar sombra fresca y descanso a los comerciantes de animales cansados.",
           "Se reúnen simplemente para disfrutar de la vida, comer buena comida y celebrar con su familia y amigos."
         ]
       },
       "level_3": {
         "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "La Feria de Abril, indiscutiblemente el evento primaveral más emblemático, festivo y multitudinario de la ciudad de Sevilla, tiene un origen histórico sorprendentemente pragmático y estrictamente mercantil. Lejos de las deslumbrantes luces de colores, los trajes de volantes y el flamenco apasionado actual, la feria fue concebida originalmente en el año 1846 por iniciativa directa de dos concejales visionarios, el emprendedor vasco José María Ybarra y el catalán Narciso Bonaplata. Su propuesta formal y comercial era establecer y organizar una gran feria ganadera anual de tres días de duración para estimular la economía local. Tras recibir la esperada aprobación oficial mediante un decreto de la reina Isabel II, la exitosa primera edición se inauguró formalmente en abril de 1847 en el Prado de San Sebastián.\n\nInicialmente, el ambiente general del recinto era puramente rústico y comercial. Los cansados ganaderos, campesinos y tratantes de toda la región se congregaban masivamente en la explanada para inspeccionar e intercambiar reses pesadas, ágiles caballos de pura raza y grandes rebaños de ovejas. No obstante, el innegable e inherente carácter festivo, alegre y sociable del pueblo andaluz no tardó mucho tiempo en manifestarse orgánicamente. Las modestas y sencillas casetas de lona, que habían sido erigidas apresuradamente con el único propósito de cobijar a los acalorados tratantes del inclemente y sofocante sol primaveral, se transformaron rápida y naturalmente en bulliciosos epicentros de convivencia social, donde abundaba el cante jondo, el baile improvisado y el vino generoso al final de la larga jornada laboral.\n\nA medida que avanzaba inexorablemente el siglo, el pragmático componente ganadero original fue perdiendo relevancia y espacio de manera paulatina frente al abrumador y creciente aspecto lúdico y festivo de la celebración ciudadana. Para la próspera década de 1920, la Feria había mutado definitiva e irreversiblemente en un acontecimiento puramente cultural, folclórico y social de gran magnitud. Hoy en día, el inmenso Real de la Feria es una deslumbrante ciudad efímera y temporal donde los orgullosos sevillanos celebran apasionadamente su identidad única, totalmente despojados de cualquier propósito comercial o agrícola, dedicándose plenamente y durante una semana entera a disfrutar de la rica gastronomía local, la música tradicional incesante y la invaluable compañía de sus seres queridos.",
+        "readingText": "La Feria de Abril, el evento primaveral más emblemático de Sevilla, tiene un origen históricamente pragmático y mercantil. Lejos de las luces y el flamenco actual, la feria fue concebida en 1846 por dos concejales visionarios, José María Ybarra y Narciso Bonaplata. Su propuesta formal era organizar una gran feria ganadera anual para estimular la economía local. Tras recibir la aprobación oficial de la reina Isabel II, la primera edición se inauguró en abril de 1847.\n\nInicialmente, el ambiente era puramente rústico y comercial. Los ganaderos y tratantes se congregaban masivamente para inspeccionar e intercambiar reses pesadas, ágiles caballos de pura raza y grandes rebaños de ovejas. No obstante, el carácter festivo del pueblo andaluz no tardó en manifestarse. Las modestas casetas de lona, erigidas con el único propósito de cobijar a los tratantes del inclemente sol primaveral, se transformaron rápidamente en bulliciosos epicentros de convivencia, donde abundaba el baile improvisado y el vino al final de la jornada.\n\nCon el paso de los años, el componente ganadero original fue perdiendo relevancia paulatinamente frente al creciente aspecto lúdico y festivo. Para la próspera década de 1920, la Feria había mutado en un acontecimiento puramente cultural y social. Hoy en día, el inmenso Real de la Feria es una deslumbrante ciudad efímera totalmente despojada de cualquier propósito comercial o agrícola, donde los sevillanos celebran su identidad dedicándose plenamente a disfrutar de la rica gastronomía local, la música y la invaluable compañía de sus seres queridos.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿Cuál fue el origen principal de la Feria de Abril?",
@@ -5988,13 +5988,13 @@
           "¿Cómo se describe el Real de la Feria en la actualidad?"
         ],
         "answerKey": [
-          "Tenía un origen histórico sorprendentemente pragmático y estrictamente mercantil (una feria ganadera).",
-          "Dos concejales visionarios, el emprendedor vasco José María Ybarra y el catalán Narciso Bonaplata.",
+          "Tenía un origen históricamente pragmático y mercantil (una feria ganadera).",
+          "Dos concejales visionarios, José María Ybarra y Narciso Bonaplata.",
           "Reses pesadas, ágiles caballos de pura raza y grandes rebaños de ovejas.",
-          "Cobijar a los acalorados tratantes del inclemente y sofocante sol primaveral.",
-          "Fue perdiendo relevancia y espacio de manera paulatina frente al abrumador aspecto lúdico y festivo.",
+          "Cobijar a los tratantes del inclemente sol primaveral.",
+          "Fue perdiendo relevancia paulatinamente frente al creciente aspecto lúdico y festivo.",
           "En la próspera década de 1920.",
-          "Como una deslumbrante ciudad efímera y temporal totalmente despojada de cualquier propósito comercial o agrícola."
+          "Como una deslumbrante ciudad efímera totalmente despojada de cualquier propósito comercial o agrícola."
         ]
       }
     }
@@ -6005,8 +6005,8 @@
     "levels": {
       "level_1": {
         "tier": "Level 1 (English/Beginner)",
-        "readingText": "When you finally visit the beautiful, sunny city of Seville for the world-famous Feria de Abril, the very first thing you will immediately see is hundreds of colorful, striped casetas completely lining the sandy dirt streets. A caseta is essentially a large, decorated temporary tent or a special open-air pavilion built just for the festival. During the incredibly busy, exciting, and exhausting week of the massive feria, these small, lively casetas magically become a warm, welcoming second home for all the happy people of Seville who want to celebrate.\n\nEvery single one of the casetas is beautifully and carefully decorated inside and out with hundreds of bright, glowing farolillos (round paper lanterns) and very bright, cheerful colors. Usually, the outside of the tents is covered in classic green and white stripes, or bright red and white stripes. Inside every single tent, no matter the size, there is absolutely always a busy kitchen cooking hot food, a crowded wooden bar serving cold drinks, and plenty of open floor space specifically cleared for dancing sevillanas, which is the beautiful, traditional, and fast-paced local flamenco dance of the region.\n\nHowever, one very important detail for tourists to know before visiting is that the vast majority of the casetas in Seville are strictly private. They proudly belong only to specific local families, private groups of close friends, or large city businesses, and you usually need a special, personal invitation from a member just to enter the door. However, please do not worry if you are just a visiting tourist! There are also several large, highly welcoming public casetas scattered around the fairgrounds that are completely open and free to absolutely everyone. In these fun, crowded public tents, you can easily buy delicious hot food, safely enjoy the loud traditional music, and happily experience the true, authentic joy of the famous feria exactly like a real local.",
-        "instruction": "Answer the following preguntas according to the text.",
+        "readingText": "When you visit the sunny city of Seville for the world-famous Feria de Abril, the first thing you will immediately see is hundreds of colorful, striped casetas completely lining the sandy streets. A caseta is essentially a large, decorated temporary tent or open-air pavilion built just for the festival. During the incredibly busy week of the feria, these lively casetas magically become a warm, welcoming second home for all the happy people of Seville who want to celebrate.\n\nEvery single one of the casetas is carefully decorated inside and out with bright, glowing farolillos (round paper lanterns) and cheerful colors. Usually, the outside of the tents is covered in classic green and white stripes, or bright red and white stripes. Inside every tent, there is absolutely always a busy kitchen cooking hot food, a crowded wooden bar serving cold drinks, and plenty of open floor space specifically cleared for dancing sevillanas, which is the beautiful, fast-paced local flamenco dance of the region.\n\nOne very important detail for tourists to know is that the vast majority of the casetas in Seville are strictly private. They belong only to specific local families, private groups of friends, or city businesses, and you usually need a special invitation from a member just to enter. However, please do not worry if you are just a tourist! There are also several large, highly welcoming public casetas scattered around the fairgrounds that are completely open and free to everyone. In these fun public tents, you can easily buy delicious food, enjoy the loud traditional music, and experience the authentic joy of the famous feria exactly like a real local.",
+        "instruction": "Answer the following questions according to the text.",
         "questions": [
           "What is a caseta?",
           "What becomes a second home during the fair?",
@@ -6017,18 +6017,18 @@
           "Can tourists enter public casetas?"
         ],
         "answerKey": [
-          "A large, decorated temporary tent or pavilion.",
+          "A large, decorated temporary tent or open-air pavilion.",
           "The casetas.",
           "Round paper lanterns.",
           "Classic green and white stripes, or bright red and white stripes.",
-          "Sevillanas (the traditional local flamenco dance).",
+          "Sevillanas (the fast-paced local flamenco dance).",
           "Strictly private.",
           "Yes."
         ]
       },
       "level_2": {
         "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "Cuando finalmente visitas la hermosa y soleada ciudad de Sevilla para la mundialmente famosa Feria de Abril, la primera cosa que verás inmediatamente son cientos de casetas coloridas y de rayas alineadas en las calles de arena y tierra. Una caseta es esencialmente una carpa temporal grande y decorada o un pabellón especial al aire libre construido solo para el festival. Durante la semana increíblemente ocupada, emocionante y agotadora de la enorme feria, estas casetas pequeñas y animadas se convierten mágicamente en una segunda casa cálida y acogedora para todas las personas felices de Sevilla que quieren celebrar.\n\nCada una de las casetas está hermosa y cuidadosamente decorada por dentro y por fuera con cientos de farolillos brillantes (linternas redondas de papel) y colores muy brillantes y alegres. Normalmente, el exterior de las carpas está cubierto de rayas clásicas verdes y blancas, o rayas rojas y blancas brillantes. Adentro de cada carpa, sin importar el tamaño, siempre hay absolutamente una cocina ocupada cocinando comida caliente, un bar de madera lleno de gente sirviendo bebidas frías y mucho espacio abierto en el piso limpiado específicamente para bailar sevillanas, que es el hermoso, tradicional y rápido baile flamenco local de la región.\n\nSin embargo, un detalle muy importante que los turistas deben saber antes de visitar es que la gran mayoría de las casetas en Sevilla son estrictamente privadas. Pertenecen con orgullo solo a familias locales específicas, grupos privados de amigos cercanos o grandes negocios de la ciudad, y normalmente necesitas una invitación personal y especial de un miembro solo para entrar por la puerta. Sin embargo, ¡por favor no te preocupes si solo eres un turista visitante! También hay varias casetas públicas grandes y muy acogedoras alrededor del recinto ferial que están completamente abiertas y son gratis para absolutamente todos. En estas carpas públicas divertidas y llenas de gente, puedes comprar fácilmente comida caliente y deliciosa, disfrutar con seguridad de la música tradicional fuerte y experimentar felizmente la alegría verdadera y auténtica de la famosa feria exactamente como una persona local.",
+        "readingText": "Cuando visitas la soleada ciudad de Sevilla para la famosa Feria de Abril, la primera cosa que verás son cientos de casetas coloridas y de rayas alineadas en las calles de arena. Una caseta es esencialmente una carpa temporal grande y decorada o un pabellón construido solo para el festival. Durante la semana ocupada de la feria, estas casetas animadas se convierten mágicamente en una segunda casa cálida y acogedora para todas las personas felices de Sevilla que quieren celebrar.\n\nCada una de las casetas está decorada cuidadosamente por dentro y por fuera con cientos de farolillos brillantes (linternas redondas de papel) y colores alegres. Normalmente, el exterior de las carpas está cubierto de rayas clásicas verdes y blancas, o rayas rojas y blancas. Adentro de cada carpa, siempre hay una cocina ocupada cocinando comida caliente, un bar lleno de gente sirviendo bebidas frías y mucho espacio en el piso limpiado específicamente para bailar sevillanas, que es el rápido baile flamenco local de la región.\n\nUn detalle muy importante que los turistas deben saber es que la gran mayoría de las casetas en Sevilla son estrictamente privadas. Pertenecen solo a familias locales, grupos privados de amigos o negocios, y normalmente necesitas una invitación especial de un miembro solo para entrar. Sin embargo, ¡no te preocupes si eres un turista! También hay varias casetas públicas grandes y muy acogedoras alrededor del recinto que están completamente abiertas para todos. En estas carpas públicas divertidas, puedes comprar comida deliciosa, disfrutar de la música y experimentar la alegría auténtica de la feria como una persona local.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿Qué es una caseta?",
@@ -6040,18 +6040,18 @@
           "¿Qué puedes hacer en una caseta pública?"
         ],
         "answerKey": [
-          "Una carpa temporal grande y decorada (o un pabellón especial).",
+          "Una carpa temporal grande y decorada (o un pabellón).",
           "Una segunda casa cálida y acogedora.",
-          "Con cientos de farolillos brillantes (linternas redondas de papel) y colores muy brillantes.",
-          "Rayas clásicas verdes y blancas, o rojas y blancas brillantes.",
-          "Una cocina ocupada, un bar de madera lleno de gente y mucho espacio para bailar sevillanas.",
-          "De familias locales específicas, grupos privados de amigos o grandes negocios.",
+          "Con cientos de farolillos brillantes (linternas redondas de papel) y colores alegres.",
+          "Rayas clásicas verdes y blancas, o rojas y blancas.",
+          "Una cocina ocupada, un bar lleno de gente y mucho espacio para bailar sevillanas.",
+          "De familias locales, grupos privados de amigos o negocios.",
           "Comprar comida deliciosa, disfrutar de la música y experimentar la feria como un local."
         ]
       },
       "level_3": {
         "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "El vasto y arenoso recinto ferial de Sevilla, popular y cariñosamente conocido por los lugareños simplemente como el Real, alberga majestuosamente a más de mil casetas individuales que actúan ininterrumpidamente como el bullicioso, vibrante y exclusivo epicentro de toda la agitada vida social durante la célebre Feria de Abril. Estas coloridas y pintorescas estructuras efímeras, montadas y desmontadas laboriosamente de manera exclusiva para la ocasión anual, se convierten esencialmente en una cálida y lujosa extensión temporal de los propios hogares sevillanos. Es precisamente en este íntimo espacio donde los orgullosos anfitriones y sus afortunados invitados comparten generosamente abundante comida tradicional, bebida refrescante y largas, agotadoras pero felices horas de convivencia ininterrumpida.\n\nLa llamativa y clásica estética exterior e interior de las miles de casetas está rigurosa y estrictamente regulada por antiguas ordenanzas municipales para mantener la uniformidad visual del evento. Todas deben estar obligatoriamente cubiertas por pesadas lonas a rayas verticales, tradicional y exclusivamente rojiblancas o verdiblancas, y profundamente adornadas con intrincados encajes, hermosas pañoletas bordadas y los absolutamente imprescindibles y luminosos farolillos de papel esféricos. El concurrido interior siempre se divide funcionalmente en una zona frontal abierta y festiva, diseñada para recibir cómodamente a las visitas y bailar apasionadas sevillanas al ritmo de las guitarras, y una trastienda privada más oculta que alberga estratégicamente la atareada cocina y los aseos básicos.\n\nA clara y notable diferencia de muchas otras ferias andaluzas abiertas al público, el exclusivo modelo sevillano es predominantemente y estrictamente privado. La inmensa y abrumadora mayoría de las codiciadas casetas pertenecen a grupos cerrados de socios que pagan una alta cuota anual de mantenimiento, y el codiciado acceso está celosamente restringido únicamente a ellos y a sus invitados personales. No obstante, para mantener el espíritu inclusivo de la celebración, existen afortunadamente varias casetas de acceso libre y gratuito, gestionadas amablemente por los diferentes distritos municipales, partidos políticos o sindicatos. Estas carpas públicas y populares garantizan que absolutamente cualquier visitante o turista extranjero pueda sumergirse de lleno en la contagiosa algarabía, la excelente gastronomía y la legendaria hospitalidad de la inigualable fiesta andaluza.",
+        "readingText": "El vasto recinto ferial de Sevilla, conocido por los lugareños como el Real, alberga majestuosamente a más de mil casetas individuales que actúan como el vibrante epicentro de la vida social durante la Feria de Abril. Estas pintorescas estructuras efímeras, montadas exclusivamente para la ocasión, se convierten en una lujosa extensión temporal de los hogares sevillanos. Es en este íntimo espacio donde los anfitriones y sus invitados comparten abundante comida tradicional, bebida refrescante y largas horas de convivencia.\n\nLa clásica estética exterior e interior de las casetas está estrictamente regulada por antiguas ordenanzas municipales. Todas deben estar cubiertas por pesadas lonas a rayas, exclusivamente rojiblancas o verdiblancas, y adornadas con intrincados encajes, hermosas pañoletas bordadas y los imprescindibles farolillos de papel esféricos. El concurrido interior se divide en una zona frontal festiva para bailar sevillanas, y una trastienda privada que alberga estratégicamente la atareada cocina y los aseos básicos.\n\nA diferencia de otras ferias andaluzas, el exclusivo modelo sevillano es predominantemente y estrictamente privado. La inmensa mayoría de las casetas pertenecen a grupos cerrados de socios, y el acceso está restringido únicamente a ellos y sus invitados. No obstante, para mantener el espíritu inclusivo, existen varias casetas de acceso libre y gratuito, gestionadas por los diferentes distritos municipales, partidos políticos o sindicatos. Estas carpas públicas garantizan que cualquier visitante pueda sumergirse en la algarabía, la gastronomía y la legendaria hospitalidad de la inigualable fiesta andaluza.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿Cuántas casetas alberga aproximadamente el Real?",
@@ -6066,7 +6066,7 @@
           "Más de mil casetas individuales.",
           "Abundante comida tradicional, bebida refrescante y largas horas de convivencia.",
           "Antiguas ordenanzas municipales.",
-          "Intrincados encajes, hermosas pañoletas bordadas y luminosos farolillos de papel esféricos.",
+          "Intrincados encajes, hermosas pañoletas bordadas y los imprescindibles farolillos de papel esféricos.",
           "Alberga estratégicamente la atareada cocina y los aseos básicos.",
           "El exclusivo modelo sevillano es predominantemente y estrictamente privado.",
           "Diferentes distritos municipales, partidos políticos o sindicatos."
@@ -6080,8 +6080,8 @@
     "levels": {
       "level_1": {
         "tier": "Level 1 (English/Beginner)",
-        "readingText": "Sharing delicious, traditional food and refreshing drink are absolutely essential, joyful parts of celebrating the famous Feria de Abril in Seville. The absolute most famous, popular, and widely consumed drink at the entire massive fair is called the rebujito. It is a highly refreshing, simple, and cold mix of dry manzanilla (a special, crisp white wine from southern Spain) and sweet, bubbly lemon-lime soda. It is almost always served in a very large glass pitcher completely filled with cold ice and fresh, green mint leaves. It is the absolute perfect, thirst-quenching drink to survive the long, incredibly hot, and sunny Spanish spring days.\n\nWhen it comes to enjoying delicious, authentic Spanish comida (food), the entire week-long fair officially starts with a very special, deeply beloved local tradition affectionately called the \"noche del pescaíto\" (night of the fried fish) on the very first, exciting evening. Before the thousands of bright fair lights are officially turned on at midnight, people sit down together to happily eat huge, greasy plates of crispy, salty, and perfectly fried mixed seafood. Throughout the rest of the busy week, hungry people also constantly share small, traditional plates, or tapas, of incredibly high-quality, expensive jamón ibérico (cured, salty ham), rich local cheeses, and warm, comforting Spanish omelets made with eggs and soft potatoes.\n\nSince the loud, energetic, and massive party literally lasts all night long without stopping, people definitely need a lot of extra, sweet energy to stay awake! It is a very common, highly popular, and beloved tradition for groups of tired friends to finally leave the loud feria just as the bright sun comes up in the morning and quickly stop at a small food stand to happily buy fresh churros con chocolate. Dipping the long, warm, and sweet fried churros into a thick, dark, and hot cup of melted chocolate is undoubtedly the absolute best, most comforting way to peacefully end a very long, fun, and exhausting night of endless dancing.",
-        "instruction": "Answer the following preguntas according to the text.",
+        "readingText": "Sharing delicious, traditional food and refreshing drink are absolutely essential parts of celebrating the famous Feria de Abril in Seville. The most popular and widely consumed drink at the entire massive fair is called the rebujito. It is a highly refreshing, simple, and cold mix of dry manzanilla (a crisp white wine from southern Spain) and sweet lemon-lime soda. It is almost always served in a large glass pitcher filled with cold ice and fresh, green mint leaves. It is the perfect, thirst-quenching drink to survive the long, incredibly hot Spanish spring days.\n\nWhen it comes to enjoying authentic Spanish comida (food), the week-long fair officially starts with a very special local tradition affectionately called the \"noche del pescaíto\" (night of the fried fish) on the very first evening. Before the thousands of bright fair lights are turned on at midnight, people sit down together to happily eat huge plates of crispy, salty, and perfectly fried mixed seafood. Throughout the rest of the busy week, hungry people also constantly share small, traditional plates, or tapas, of incredibly high-quality jamón ibérico (cured, salty ham), rich local cheeses, and warm Spanish omelets.\n\nSince the loud, energetic party literally lasts all night long without stopping, people definitely need extra, sweet energy to stay awake! It is a beloved tradition for groups of tired friends to leave the loud feria just as the sun comes up and stop at a small food stand to buy fresh churros con chocolate. Dipping the warm, sweet fried churros into a thick, hot cup of melted chocolate is undoubtedly the absolute best way to peacefully end a very long, fun night of endless dancing.",
+        "instruction": "Answer the following questions according to the text.",
         "questions": [
           "What is the most famous drink at the fair?",
           "What is rebujito made of?",
@@ -6095,7 +6095,7 @@
           "The rebujito.",
           "Dry manzanilla (white wine) and sweet lemon-lime soda.",
           "The \"noche del pescaíto\" (night of the fried fish).",
-          "Huge, greasy plates of crispy, salty, and perfectly fried mixed seafood.",
+          "Huge plates of crispy, salty, and perfectly fried mixed seafood.",
           "Cured, salty ham.",
           "Because the loud, energetic party literally lasts all night long without stopping.",
           "Fresh churros con chocolate."
@@ -6103,7 +6103,7 @@
       },
       "level_2": {
         "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "Compartir comida deliciosa y tradicional, y bebidas refrescantes son partes absolutamente esenciales y alegres de celebrar la famosa Feria de Abril en Sevilla. La bebida absolutamente más famosa, popular y consumida en toda la feria masiva se llama rebujito. Es una mezcla muy refrescante, simple y fría de manzanilla seca (un vino blanco especial y crujiente del sur de España) y refresco dulce de limón. Casi siempre se sirve en una jarra de vidrio muy grande completamente llena de hielo frío y hojas de menta verde y fresca. Es la bebida perfecta y absoluta para quitar la sed y sobrevivir a los días largos, increíblemente calurosos y soleados de la primavera española.\n\nCuando se trata de disfrutar de deliciosa y auténtica comida española, toda la feria de una semana comienza oficialmente con una tradición local muy especial y profundamente querida llamada cariñosamente la \"noche del pescaíto\" (noche del pescado frito) en la primera noche emocionante. Antes de que los miles de luces brillantes de la feria se enciendan oficialmente a la medianoche, las personas se sientan juntas para comer felizmente platos enormes y grasosos de mariscos mixtos crujientes, salados y perfectamente fritos. Durante el resto de la semana ocupada, las personas hambrientas también comparten constantemente platos pequeños y tradicionales, o tapas, de jamón ibérico (jamón curado y salado) increíblemente caro y de alta calidad, quesos locales ricos y tortillas españolas cálidas y reconfortantes hechas con huevos y papas suaves.\n\nComo la fiesta fuerte, enérgica y masiva dura literalmente toda la noche sin parar, ¡las personas definitivamente necesitan mucha energía extra y dulce para mantenerse despiertas! Es una tradición muy común, muy popular y querida que los grupos de amigos cansados finalmente salgan de la ruidosa feria justo cuando sale el sol brillante por la mañana y se detengan rápidamente en un pequeño puesto de comida para comprar felizmente churros frescos con chocolate. Mojar los churros largos, calientes y dulces fritos en una taza espesa, oscura y caliente de chocolate derretido es sin duda la mejor y más reconfortante manera absoluta de terminar pacíficamente una noche muy larga, divertida y agotadora de baile sin fin.",
+        "readingText": "Compartir comida deliciosa y bebidas refrescantes son partes absolutamente esenciales de celebrar la famosa Feria de Abril en Sevilla. La bebida más popular y consumida en toda la feria se llama rebujito. Es una mezcla muy refrescante y fría de manzanilla seca (un vino blanco del sur de España) y refresco dulce de limón. Casi siempre se sirve en una jarra de vidrio grande llena de hielo frío y hojas de menta fresca. Es la bebida perfecta para quitar la sed y sobrevivir a los días increíblemente calurosos de la primavera española.\n\nCuando se trata de disfrutar de auténtica comida española, toda la feria comienza oficialmente con una tradición local muy especial llamada cariñosamente la \"noche del pescaíto\" (noche del pescado frito) en la primera noche. Antes de que las miles de luces brillantes se enciendan a la medianoche, las personas se sientan para comer felizmente platos enormes de mariscos mixtos crujientes y perfectamente fritos. Durante el resto de la semana ocupada, las personas también comparten constantemente platos pequeños, o tapas, de jamón ibérico (jamón curado y salado) de alta calidad, quesos locales y tortillas españolas cálidas.\n\nComo la fiesta enérgica y masiva dura literalmente toda la noche sin parar, ¡las personas necesitan mucha energía dulce para mantenerse despiertas! Es una tradición muy querida que los grupos de amigos cansados salgan de la feria justo cuando sale el sol y se detengan rápidamente en un pequeño puesto para comprar churros frescos con chocolate. Mojar los churros calientes y dulces en una taza de chocolate derretido es sin duda la mejor manera de terminar pacíficamente una noche divertida de baile.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿Cuál es la bebida más famosa?",
@@ -6116,17 +6116,17 @@
         ],
         "answerKey": [
           "El rebujito.",
-          "Con mucho hielo frío y hojas de menta verde y fresca.",
+          "Con mucho hielo frío y hojas de menta fresca.",
           "La \"noche del pescaíto\".",
-          "Platos enormes y grasosos de mariscos mixtos crujientes, salados y perfectamente fritos.",
-          "Jamón ibérico, quesos locales ricos y tortillas españolas.",
-          "Porque la fiesta fuerte, enérgica y masiva dura literalmente toda la noche sin parar.",
+          "Platos enormes de mariscos mixtos crujientes y perfectamente fritos.",
+          "Jamón ibérico, quesos locales y tortillas españolas.",
+          "Porque la fiesta enérgica y masiva dura literalmente toda la noche sin parar.",
           "Churros frescos con chocolate."
         ]
       },
       "level_3": {
         "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "La inigualable y exquisita gastronomía andaluza es un pilar absolutamente fundamental e insustituible de la Feria de Abril, ofreciendo a los visitantes un festín continuo e ininterrumpido para todos los sentidos durante toda la semana. La bebida reina indiscutible y universalmente aclamada del polvoriento recinto ferial es el refrescante rebujito. Este popular, ligero y engañosamente suave cóctel local se elabora mezclando generosamente vino fino o manzanilla seca (típica de la región de Sanlúcar de Barrameda) con abundante refresco dulce de lima-limón, grandes cantidades de hielo picado y unas fragantes hojas de hierbabuena fresca. Es la poción helada ideal y perfecta para combatir eficazmente las elevadas y sofocantes temperaturas primaverales del sur de España y mantenerse constantemente hidratado durante las largas, agotadoras y alegres jornadas de baile y celebración al sol.\n\nEl magno y esperado evento se inaugura oficiosamente y con gran apetito con la tradicional y entrañable \"cena del pescaíto\", un abundante banquete nocturno exclusivo y previo al espectacular encendido oficial de las millones de luces de la portada (el popular «Alumbrao»). En esta mágica primera noche, los afortunados socios de las casetas privadas se reúnen íntimamente para degustar crujientes y humeantes frituras de pescado y marisco tradicional andaluz. A lo largo de la frenética y agitada semana, las mesas de madera plegables de las casetas se llenan incesantemente de exquisitas, variadas y costosas raciones diseñadas especialmente para compartir en grupo: finísimas y sudadas lonchas del codiciado jamón ibérico de bellota, jugosa caña de lomo curada, sabrosos quesos de oveja muy curados y la clásica, esponjosa e insuperable tortilla de patatas con cebolla.\n\nLa bulliciosa y agotadora jornada festiva en el Real de la Feria suele extenderse natural e irremediablemente hasta muy altas horas de la fría madrugada. Como dulce y reconfortante colofón de oro a una intensa, ruidosa y maratoniana noche de incesante cante jondo y baile flamenco, es un ritual casi obligatorio, religioso e ineludible degustar unos largos y crujientes churros o dorados buñuelos de viento acompañados de una espesa y humeante taza de chocolate caliente. Es una costumbre sumamente arraigada y necesaria que los grupos de amigos se detengan en los puestos ambulantes antes de regresar lentamente a casa al amanecer, buscando reponer urgentemente las fuerzas físicas tras el masivo derroche de energía.",
+        "readingText": "La inigualable gastronomía andaluza es un pilar fundamental de la Feria de Abril, ofreciendo un festín ininterrumpido durante toda la semana. La bebida reina indiscutible del recinto ferial es el refrescante rebujito. Este popular cóctel local se elabora mezclando generosamente vino fino o manzanilla seca con abundante refresco de lima-limón, hielo picado y fragantes hojas de hierbabuena fresca. Es la bebida ideal para combatir eficazmente las elevadas y sofocantes temperaturas primaverales y mantenerse hidratado durante las agotadoras jornadas de baile al sol.\n\nEl esperado evento se inaugura oficiosamente con la entrañable \"cena del pescaíto\", un abundante banquete nocturno previo al espectacular encendido oficial de las luces (el «Alumbrao»). En esta mágica primera noche, los socios de las casetas se reúnen para degustar frituras de pescado y marisco tradicional. A lo largo de la semana, las mesas se llenan incesantemente de exquisitas raciones diseñadas para compartir: finísimas lonchas del codiciado jamón ibérico de bellota, jugosa caña de lomo curada, sabrosos quesos muy curados y la clásica e insuperable tortilla de patatas.\n\nLa bulliciosa jornada festiva en el Real suele extenderse hasta muy altas horas de la fría madrugada. Como reconfortante colofón a una intensa noche de incesante baile flamenco, es un ritual casi obligatorio degustar unos largos y crujientes churros o dorados buñuelos de viento acompañados de chocolate caliente. Es una costumbre sumamente arraigada que los grupos de amigos se detengan en los puestos ambulantes al amanecer, buscando reponer urgentemente las fuerzas físicas tras el derroche de energía.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿Cuál es la función del rebujito durante las jornadas primaverales?",
@@ -6155,8 +6155,8 @@
     "levels": {
       "level_1": {
         "tier": "Level 1 (English/Beginner)",
-        "readingText": "The traditional, colorful clothing worn by the thousands of people at the famous Feria de Abril in Seville is absolutely stunning, elegant, and incredibly beautiful to see in person. Throughout the busy week, women proudly and happily wear the very traditional, famous, and highly recognizable traje de flamenca (flamenco dress). This beautiful, heavy, and extremely well-made dress famously fits very tightly and perfectly on the woman's top and waist, and then dramatically flares out very wide with many layers of heavy, bouncing volantes (ruffles) at the very bottom of the skirt and also on the ends of the long sleeves. The custom dresses are very often brightly colored and almost completely covered in classic, contrasting lunares (polka dots). To finish the beautiful, traditional look, women gracefully wear a very large, bright flower pinned high in their hair, large, heavy, dangling earrings, and a beautiful embroidered shawl over their tired shoulders.\n\nThe proud men also thoughtfully dress up for the elegant, formal occasion. Many modern men simply wear sharp, clean, and highly elegant dark suits with a nice, colorful tie to look very handsome in the tents. However, if a traditional man is proudly riding a beautiful, tall horse or carefully driving a wooden carriage through the busy dirt streets, he is strictly required by old rules to wear the classic, historical traje de corto. This very specific, traditional Spanish riding outfit includes very tight, dark trousers, a very short, tailored jacket, a stiff, wide-brimmed flat hat to block the hot sun, and tall, shiny brown leather boots.\n\nThe famous, beautiful traje de flamenca is actually very unique and culturally special because it is officially the only traditional, historical regional costume in all of Spain that actively and constantly follows modern fashion trends. The specific, popular styles, the bright colors, and the exact cuts of the heavy dresses literally change every single year, and famous clothing designers actually host massive, expensive, and crowded fashion shows in the city just for creating new, exciting feria clothing!",
-        "instruction": "Answer the following preguntas according to the text.",
+        "readingText": "The traditional, colorful clothing worn by thousands of people at the famous Feria de Abril in Seville is stunning, elegant, and beautiful to see in person. Throughout the busy week, women proudly wear the highly recognizable traje de flamenca (flamenco dress). This beautiful, extremely well-made dress famously fits very tightly on the woman's top and waist, and then dramatically flares out wide with many layers of heavy, bouncing volantes (ruffles) at the bottom of the skirt and on the ends of the long sleeves. The dresses are very often brightly colored and covered in classic lunares (polka dots). To finish the traditional look, women gracefully wear a large, bright flower pinned high in their hair, large, dangling earrings, and a beautiful embroidered shawl.\n\nThe proud men also thoughtfully dress up for the formal occasion. Many modern men simply wear sharp, highly elegant dark suits with a colorful tie to look handsome in the tents. However, if a traditional man is proudly riding a tall horse or driving a wooden carriage through the busy dirt streets, he is strictly required by old rules to wear the classic, historical traje de corto. This traditional Spanish riding outfit includes tight, dark trousers, a short, tailored jacket, a stiff, wide-brimmed flat hat to block the hot sun, and tall leather boots.\n\nThe famous traje de flamenca is culturally special because it is officially the only traditional regional costume in all of Spain that actively follows modern fashion trends. The popular styles, bright colors, and exact cuts of the dresses literally change every single year, and famous designers actually host massive fashion shows in the city just for creating new feria clothing!",
+        "instruction": "Answer the following questions according to the text.",
         "questions": [
           "What is the traditional dress for women called?",
           "What are the ruffles on the dress called?",
@@ -6169,39 +6169,39 @@
         "answerKey": [
           "Traje de flamenca.",
           "Volantes.",
-          "A very large, bright flower.",
+          "A large, bright flower.",
           "The classic, historical traje de corto.",
-          "Very tight, dark trousers, a very short, tailored jacket, a stiff, wide-brimmed flat hat, and tall leather boots.",
-          "It is officially the only traditional, historical regional costume in all of Spain that actively follows modern fashion trends.",
+          "Tight, dark trousers, a short, tailored jacket, a stiff, wide-brimmed flat hat, and tall leather boots.",
+          "It is officially the only traditional regional costume in all of Spain that actively follows modern fashion trends.",
           "Every single year."
         ]
       },
       "level_2": {
         "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "La ropa tradicional y colorida que llevan las miles de personas en la famosa Feria de Abril en Sevilla es absolutamente impresionante, elegante e increíblemente hermosa de ver en persona. Durante la semana ocupada, las mujeres llevan con orgullo y felicidad el traje de flamenca, que es muy tradicional, famoso y fácil de reconocer. Este vestido hermoso, pesado y extremadamente bien hecho se ajusta famosa y perfectamente en la parte superior y la cintura de la mujer, y luego se abre dramáticamente muy ancho con muchas capas de volantes pesados y rebotantes en la parte inferior de la falda y también en los extremos de las mangas largas. Los vestidos personalizados son muy frecuentemente de colores brillantes y están casi completamente cubiertos de lunares clásicos y contrastantes. Para terminar el aspecto hermoso y tradicional, las mujeres llevan con gracia una flor muy grande y brillante en su cabello, pendientes grandes, pesados y colgantes, y un hermoso chal bordado sobre sus hombros cansados.\n\nLos hombres orgullosos también se visten cuidadosamente para la ocasión elegante y formal. Muchos hombres modernos simplemente llevan trajes oscuros limpios, afilados y muy elegantes con una bonita corbata colorida para verse muy guapos en las carpas. Sin embargo, si un hombre tradicional está montando con orgullo un caballo hermoso y alto o conduciendo cuidadosamente un carruaje de madera por las calles de tierra ocupadas, las reglas antiguas le exigen estrictamente que lleve el clásico e histórico traje de corto. Este atuendo de montar español muy específico y tradicional incluye pantalones oscuros y muy ajustados, una chaqueta muy corta y a medida, un sombrero plano, rígido y de ala ancha para bloquear el sol caliente, y botas altas y brillantes de cuero marrón.\n\nEl famoso y hermoso traje de flamenca es en realidad muy único y culturalmente especial porque es oficialmente el único traje regional tradicional e histórico en toda España que sigue activa y constantemente las tendencias de la moda moderna. Los estilos específicos y populares, los colores brillantes y los cortes exactos de los vestidos pesados cambian literalmente cada año, ¡y los diseñadores de ropa famosos realmente organizan desfiles de moda masivos, caros y llenos de gente en la ciudad solo para crear ropa nueva y emocionante para la feria!",
+        "readingText": "La ropa tradicional y colorida que llevan miles de personas en la famosa Feria de Abril en Sevilla es absolutamente impresionante y elegante de ver. Durante la semana ocupada, las mujeres llevan con orgullo el traje de flamenca, que es muy tradicional y fácil de reconocer. Este vestido hermoso y bien hecho se ajusta perfectamente en la parte superior y la cintura de la mujer, y luego se abre dramáticamente con muchas capas de volantes pesados en la parte inferior de la falda y en las mangas largas. Los vestidos son frecuentemente de colores brillantes y están cubiertos de lunares clásicos. Para terminar el aspecto tradicional, las mujeres llevan una flor muy grande y brillante en su cabello, pendientes grandes y colgantes, y un hermoso chal bordado.\n\nLos hombres orgullosos también se visten cuidadosamente para la ocasión formal. Muchos hombres modernos simplemente llevan trajes oscuros, limpios y muy elegantes con una corbata colorida en las carpas. Sin embargo, si un hombre está montando con orgullo un caballo o conduciendo un carruaje de madera por las calles, las reglas antiguas le exigen estrictamente que lleve el clásico e histórico traje de corto. Este atuendo de montar español tradicional incluye pantalones oscuros y muy ajustados, una chaqueta corta, un sombrero plano y rígido para bloquear el sol caliente, y botas altas de cuero.\n\nEl hermoso traje de flamenca es culturalmente especial porque es oficialmente el único traje regional tradicional en toda España que sigue activamente las tendencias de la moda moderna. Los estilos populares y los colores brillantes de los vestidos cambian literalmente cada año, ¡y los diseñadores famosos organizan desfiles de moda masivos en la ciudad solo para crear ropa nueva para la feria!",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿Qué ropa llevan las mujeres en la feria?",
           "¿Qué tienen los vestidos en la falda y en las mangas?",
           "¿Qué tienen muchos vestidos?",
-          "¿Qué ropa llevan muchos hombres?",
+          "¿Qué ropa llevan muchos hombres modernos?",
           "¿Cuándo lleva un hombre el traje de corto?",
           "¿Qué pasa con los colores y estilos del traje de flamenca?",
           "¿Qué tipo de eventos hay solo para los vestidos de la feria?"
         ],
         "answerKey": [
           "El traje de flamenca.",
-          "Muchas capas de volantes pesados y rebotantes.",
-          "Colores brillantes y lunares clásicos y contrastantes.",
-          "Trajes oscuros limpios, afilados y muy elegantes con una corbata colorida.",
+          "Muchas capas de volantes pesados.",
+          "Colores brillantes y lunares clásicos.",
+          "Trajes oscuros, limpios y muy elegantes con una corbata colorida.",
           "Si está montando un caballo o conduciendo un carruaje de madera.",
           "Cambian literalmente cada año.",
-          "Desfiles de moda masivos, caros y llenos de gente."
+          "Desfiles de moda masivos."
         ]
       },
       "level_3": {
         "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "La celebérrima Feria de Abril es una deslumbrante, colorida e inmensa pasarela viviente de elegancia clásica y tradición andaluza, donde la cuidada indumentaria local juega un papel absolutamente crucial, identitario y protagónico. La prenda estrella indiscutible, icónica y mundialmente admirada de la festividad es, sin duda alguna, el espectacular traje de flamenca. Este complejo, pesado y favorecedor atuendo, caracterizado principalmente por su estrecho talle sumamente ceñido que moldea el cuerpo y sus amplias faldas y mangas profusamente adornadas con incontables y pesadas capas de volantes, realza majestuosamente la figura y el movimiento femenino al caminar o bailar. Las coquetas mujeres sevillanas complementan meticulosa y tradicionalmente su vistosa vestimenta con ricos mantoncillos de Manila intrincadamente bordados, altas peinas de carey incrustadas en el cabello, pendientes llamativos de coral o argollas, y una infaltable y gran flor brillante coronando elegantemente lo alto del recogido peinado.\n\nPor su parte, la estricta y antigua etiqueta masculina exige una impecable formalidad clásica en todo momento dentro del recinto. La gran mayoría de los hombres que pasean a pie por el Real optan sobria y elegantemente por un traje de chaqueta oscuro y perfectamente entallado, acompañado de una colorida corbata. No obstante, el rígido y respetado protocolo ecuestre dicta obligatoriamente que absolutamente todos aquellos caballeros que pasean a caballo o manejan los hermosos enganches de carruajes tradicionales deben lucir impecablemente el clásico e histórico traje de corto. Esta indumentaria campera sumamente específica está rígidamente compuesta por un pantalón cairelado muy ajustado, una blanca guayabera o camisa rizada, una chaquetilla recortada que no cubre la cintura, un inconfundible sombrero cordobés de ala ancha y rígida para el sol, y altos botines camperos de cuero repujado.\n\nUna peculiaridad fascinante, única y económicamente importante del vistoso traje de flamenca es que, asombrosamente, es el único traje regional tradicional y folclórico de toda España que está vivo y sujeto directamente a los constantes, veloces y cambiantes caprichos de la industria de la alta moda. Cada nueva temporada primaveral, la potente e innovadora industria especializada de la moda flamenca dicta audazmente nuevas tendencias vanguardistas en cuanto a la ligereza de los tejidos, los atrevidos estampados florales, los dramáticos volúmenes de las faldas y las paletas de colores llamativos, renovando y refrescando así constante, dinámica y lucrativamente la estética visual general del Real a través de glamurosos desfiles previos a la feria.",
+        "readingText": "La celebérrima Feria de Abril es una deslumbrante pasarela viviente de elegancia clásica, donde la indumentaria local juega un papel protagónico. La prenda estrella indiscutible de la festividad es el espectacular traje de flamenca. Este complejo y favorecedor atuendo, caracterizado por su estrecho talle ceñido y sus amplias faldas adornadas con pesadas capas de volantes, realza majestuosamente la figura y el movimiento femenino al caminar o bailar. Las sevillanas complementan su vistosa vestimenta con ricos mantoncillos de Manila, altas peinas de carey, pendientes llamativos y una gran flor brillante coronando elegantemente el peinado.\n\nPor su parte, la estricta etiqueta masculina exige una impecable formalidad clásica en todo momento. La gran mayoría de los hombres que pasean a pie optan por un traje de chaqueta oscuro y entallado. No obstante, el rígido protocolo ecuestre dicta obligatoriamente que quienes pasean a caballo o manejan los carruajes tradicionales deben lucir impecablemente el clásico e histórico traje de corto. Esta indumentaria campera está compuesta por un pantalón cairelado, guayabera, chaquetilla recortada, un inconfundible sombrero cordobés de ala ancha, y altos botines camperos de cuero.\n\nUna peculiaridad fascinante del traje de flamenca es que es el único traje regional tradicional de toda España que está vivo y sujeto a los caprichos de la alta moda. Cada temporada, la industria especializada de la moda flamenca dicta audazmente nuevas tendencias en tejidos, estampados, volúmenes y colores, renovando constante y lucrativamente la estética visual del Real mediante glamurosos desfiles previos a la feria.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿Qué efecto tiene el traje de flamenca en la figura femenina?",
@@ -6230,8 +6230,8 @@
     "levels": {
       "level_1": {
         "tier": "Level 1 (English/Beginner)",
-        "readingText": "Located right next to the thousands of beautiful, traditional striped tents, elegant horses, and joyful flamenco dancing of the main fairgrounds is a completely different, wild, and incredibly loud world popularly called the Calle del Infierno (which literally translates to Hell's Street). Despite its very scary, intimidating, and intense name, it is actually not a dangerous place at all; it is simply a massive, incredibly fun, and highly energetic temporary amusement park built right on the dirt! It is absolutely the favorite, most exciting spot in the entire huge city for energetic teenagers, laughing children, and brave adults looking for a quick thrill.\n\nThis gigantic, dusty, and completely packed area is completely filled with well over a hundred different, spinning, dropping, and flying cacharros (which is the local Spanish word for carnival rides). If you are brave enough, you can easily find terrifying, fast roller coasters, crashing, sparking bumper cars, huge, slow Ferris wheels that show the whole city, and very dark, spooky haunted houses. It is an extremely bright place at night, completely filled from end to end with blinding, flashing neon lights of every color, and it is incredibly, almost deafeningly loud. Fast pop music heavily pumps from giant speakers on absolutely every single ride, and the energetic carnival workers constantly shout loudly over crackling microphones to quickly attract walking customers to their specific machines.\n\nBesides the many dizzying, fast rides, there are also many bright, crowded carnival game booths where you can play games of skill to easily win giant, fluffy stuffed animals for your friends. You can also quickly buy many incredibly sweet, sugary, and sticky treats here to eat while walking, like huge pink clouds of cotton candy, shiny red candied apples on sticks, and warm, crispy waffles covered in thick, dark chocolate. After spending many quiet, traditional hours eating tapas and politely talking in the small, crowded tents of the formal part of the fair, many tired families happily walk over to the loud, chaotic Calle del Infierno so the excited kids can finally run around freely, scream, and have loud, messy fun.",
-        "instruction": "Answer the following preguntas according to the text.",
+        "readingText": "Located next to the thousands of striped tents, elegant horses, and joyful flamenco dancing is a wild, incredibly loud world popularly called the Calle del Infierno (Hell's Street). Despite its intimidating name, it is not a dangerous place; it is simply a massive, highly energetic temporary amusement park built on the dirt! It is the favorite, most exciting spot for teenagers, laughing children, and brave adults looking for a quick thrill.\n\nThis gigantic, dusty area is filled with well over a hundred different, spinning, dropping, and flying cacharros (carnival rides). If you are brave, you can find fast roller coasters, crashing bumper cars, huge Ferris wheels, and dark, spooky haunted houses. It is extremely bright at night, filled with flashing neon lights, and almost deafeningly loud. Fast pop music pumps from giant speakers, and carnival workers shout loudly over microphones to attract customers to their machines.\n\nBesides the fast rides, there are crowded carnival game booths to win giant, fluffy stuffed animals. You can also buy sweet, sugary treats while walking, like pink cotton candy, shiny red candied apples on sticks, and warm, crispy waffles covered in dark chocolate. After spending quiet hours eating tapas in the formal part of the fair, many tired families happily walk to the chaotic Calle del Infierno so the excited kids can run freely, scream, and have loud, messy fun.",
+        "instruction": "Answer the following questions according to the text.",
         "questions": [
           "What is the Calle del Infierno?",
           "Who especially loves this part of the fair?",
@@ -6242,8 +6242,8 @@
           "What sweet treats can you buy there?"
         ],
         "answerKey": [
-          "A massive, incredibly fun, and highly energetic temporary amusement park.",
-          "Energetic teenagers, laughing children, and brave adults.",
+          "A massive, highly energetic temporary amusement park.",
+          "Teenagers, laughing children, and brave adults.",
           "Well over a hundred different cacharros.",
           "Roller coasters, bumper cars, Ferris wheels, and haunted houses.",
           "Fast pop music pumping from giant speakers and carnival workers shouting loudly over microphones.",
@@ -6253,30 +6253,30 @@
       },
       "level_2": {
         "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "Ubicado justo al lado de las miles de hermosas y tradicionales carpas de rayas, los caballos elegantes y el alegre baile flamenco del recinto ferial principal, hay un mundo completamente diferente, salvaje e increíblemente ruidoso llamado popularmente la Calle del Infierno. A pesar de su nombre muy aterrador, intimidante e intenso, en realidad no es un lugar peligroso en absoluto; ¡es simplemente un parque de atracciones temporal masivo, increíblemente divertido y muy enérgico construido directamente sobre la tierra! Es absolutamente el lugar favorito y más emocionante de toda la enorme ciudad para los adolescentes enérgicos, los niños que ríen y los adultos valientes que buscan una emoción rápida.\n\nEsta área gigantesca, polvorienta y completamente llena de gente está completamente llena de más de cien cacharros diferentes (que es la palabra local en español para las atracciones de feria) que giran, caen y vuelan. Si eres lo suficientemente valiente, puedes encontrar fácilmente montañas rusas aterradoras y rápidas, coches de choque que chocan y sacan chispas, norias enormes y lentas que muestran toda la ciudad, y casas embrujadas muy oscuras y espeluznantes. Es un lugar extremadamente brillante por la noche, completamente lleno de un extremo a otro con luces de neón cegadoras e intermitentes de todos los colores, y es increíblemente, casi ensordecedoramente ruidoso. La música pop rápida suena fuertemente desde altavoces gigantes en absolutamente cada atracción, y los enérgicos trabajadores de la feria gritan constantemente y en voz alta por micrófonos crujientes para atraer rápidamente a los clientes que caminan a sus máquinas específicas.\n\nAdemás de las muchas atracciones mareantes y rápidas, también hay muchos puestos de juegos de feria brillantes y concurridos donde puedes jugar juegos de habilidad para ganar fácilmente peluches gigantes y peludos para tus amigos. También puedes comprar rápidamente muchas golosinas increíblemente dulces, azucaradas y pegajosas aquí para comer mientras caminas, como enormes nubes rosadas de algodón de azúcar, brillantes manzanas de caramelo rojas en palitos y gofres calientes y crujientes cubiertos de chocolate oscuro y espeso. Después de pasar muchas horas tranquilas y tradicionales comiendo tapas y hablando educadamente en las pequeñas y concurridas carpas de la parte formal de la feria, muchas familias cansadas caminan felizmente a la ruidosa y caótica Calle del Infierno para que los niños emocionados finalmente puedan correr libremente, gritar y tener diversión ruidosa y desordenada.",
+        "readingText": "Ubicado justo al lado de las carpas de rayas, los caballos y el alegre baile flamenco del recinto ferial principal, hay un mundo completamente diferente y ruidoso llamado popularmente la Calle del Infierno. A pesar de su nombre aterrador, en realidad no es un lugar peligroso; ¡es simplemente un parque de atracciones temporal masivo y muy divertido construido sobre la tierra! Es absolutamente el lugar favorito de toda la enorme ciudad para los adolescentes enérgicos, los niños y los adultos valientes que buscan una emoción rápida.\n\nEsta área gigantesca y polvorienta está completamente llena de más de cien cacharros diferentes (que es la palabra local para las atracciones de feria) que giran y vuelan. Si eres valiente, puedes encontrar fácilmente montañas rusas rápidas, coches de choque, norias enormes y casas embrujadas muy oscuras. Es un lugar extremadamente brillante por la noche, lleno de luces de neón intermitentes de todos los colores, y es casi ensordecedoramente ruidoso. La música pop rápida suena fuertemente desde altavoces gigantes, y los trabajadores de la feria gritan constantemente por micrófonos para atraer a los clientes.\n\nAdemás de las atracciones rápidas, también hay muchos puestos de juegos de feria concurridos donde puedes ganar peluches gigantes y peludos para tus amigos. También puedes comprar muchas golosinas increíblemente dulces y azucaradas aquí, como nubes rosadas de algodón de azúcar, manzanas de caramelo rojas y gofres calientes cubiertos de chocolate oscuro. Después de pasar muchas horas tranquilas comiendo tapas en la parte formal de la feria, muchas familias caminan felizmente a la caótica Calle del Infierno para que los niños puedan correr, gritar y tener diversión ruidosa.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿Dónde está la Calle del Infierno?",
           "¿Qué es la Calle del Infierno?",
           "¿Cuántos cacharros hay en la zona?",
-          "¿Cómo es la calle?",
+          "¿Cómo es la calle por la noche?",
           "¿Qué puedes ganar en los juegos?",
           "¿Qué dulces puedes comprar?",
           "¿Por qué van las familias a esta calle?"
         ],
         "answerKey": [
-          "Justo al lado de las carpas, los caballos y el baile del recinto ferial principal.",
-          "Un parque de atracciones temporal masivo, increíblemente divertido y muy enérgico.",
+          "Justo al lado de las carpas, los caballos y el baile flamenco del recinto ferial principal.",
+          "Un parque de atracciones temporal masivo y muy divertido.",
           "Más de cien cacharros diferentes.",
-          "Es extremadamente brillante, llena de luces de neón, y casi ensordecedoramente ruidosa.",
+          "Es extremadamente brillante, llena de luces de neón intermitentes, y casi ensordecedoramente ruidosa.",
           "Peluches gigantes y peludos.",
           "Nubes rosadas de algodón de azúcar, manzanas de caramelo rojas y gofres calientes cubiertos de chocolate.",
-          "Para que los niños emocionados finalmente puedan correr libremente, gritar y tener diversión ruidosa."
+          "Para que los niños emocionados finalmente puedan correr, gritar y tener diversión ruidosa."
         ]
       },
       "level_3": {
         "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "Ubicada estratégicamente y en marcado, estridente y caótico contraste visual y sonoro con la cuidada estética tradicional, la formalidad y el estricto protocolo de vestimenta del Real de la Feria, se erige imponente la gigantesca y polvorienta Calle del Infierno. Este es el nombre popular y temible con el que los lugareños conocen al trepidante, masivo y agotador parque de atracciones mecánico adjunto temporalmente a la feria. Su peculiar, infernal y descriptivo nombre no indica peligro, sino que hace perfecto y justo honor al constante, abrumador y ensordecedor bullicio acústico que reina implacablemente en la inmensa zona, creando una auténtica e ineludible cacofonía nocturna compuesta por el agudo sonido de estridentes sirenas de emergencia, música pop y electrónica a todo y distorsionado volumen, y los persuasivos, rápidos e incesantes reclamos vocales de los astutos feriantes a través de la mala megafonía para captar la atención de los transeúntes distraídos.\n\nEste gigantesco, brillante y agotador recinto lúdico de tierra y asfalto alberga temporalmente a decenas de coloridos y mecánicos \"cacharros\", el entrañable y sonoro término coloquial sevillano utilizado para referirse a las diversas y variadas atracciones mecánicas de feria. La oferta de entretenimiento disponible es prácticamente inabarcable y mareante para el visitante casual: desde enormes e imponentes norias iluminadas con luces led que ofrecen hermosas y románticas vistas panorámicas aéreas de la ciudad iluminada de Sevilla, hasta vertiginosas, peligrosas y rápidas montañas rusas de acero, además de los siempre abarrotados y clásicos coches de choque que sueltan chispas y los inocentes y musicales carruseles infantiles de caballos de madera.\n\nLa inmensa, ruidosa y parpadeante Calle del Infierno es, indiscutiblemente y por derecho propio, el paraíso terrenal favorito de miles de enérgicos niños y rebeldes adolescentes locales, aunque su variada oferta también atrae hipnóticamente a multitud de adultos valientes con inmensas e irracionales ganas de quemar pura adrenalina en las alturas. Entre el laberinto de altas atracciones mecánicas, se intercalan estratégicamente decenas de ruidosas y engañosas tómbolas y casetas de tiro de escopeta donde se sortean atractivos y gigantescos peluches de colores neón, junto a pequeños, humeantes y grasientos puestos ambulantes de comida rápida que despachan incesantemente enormes nubes pegajosas de algodón de azúcar rosa, dulces y empalagosos buñuelos fritos y enormes y saladas patatas asadas rellenas. Visitar este caótico submundo de luces y sonido es una agotadora, pero absolutamente parada obligatoria, ritual y final para todas las familias sevillanas antes de dar por feliz y exitosamente concluida su extenuante jornada ferial anual.",
+        "readingText": "Ubicada en marcado contraste con la formalidad del Real de la Feria, se erige la gigantesca Calle del Infierno. Este es el nombre con el que los lugareños conocen al trepidante parque de atracciones mecánico adjunto a la feria. Su peculiar nombre hace honor al constante, abrumador y ensordecedor bullicio acústico que reina en la inmensa zona, creando una auténtica cacofonía nocturna compuesta por el agudo sonido de estridentes sirenas, música a todo volumen, y los incesantes reclamos vocales de los feriantes a través de la megafonía.\n\nEste brillante recinto alberga temporalmente a decenas de coloridos \"cacharros\", el término coloquial utilizado para referirse a las atracciones mecánicas. La oferta de entretenimiento es inabarcable: desde enormes norias iluminadas que ofrecen hermosas y románticas vistas panorámicas aéreas de la ciudad iluminada de Sevilla, hasta vertiginosas montañas rusas de acero, además de los clásicos coches de choque que sueltan chispas y carruseles infantiles.\n\nLa ruidosa Calle del Infierno es el paraíso favorito de miles de niños, adolescentes locales y multitud de adultos valientes con ganas de quemar adrenalina. Entre las atracciones, se intercalan tómbolas donde se sortean atractivos y gigantescos peluches de colores neón, junto a puestos de comida rápida que despachan algodón de azúcar, buñuelos fritos y enormes patatas asadas. Visitar este caótico submundo de luces es una parada obligatoria para las familias sevillanas antes de dar por exitosamente concluida su extenuante jornada ferial anual.",
         "instruction": "Contesta las preguntas según el texto.",
         "questions": [
           "¿A qué hace honor el peculiar nombre de la \"Calle del Infierno\"?",
@@ -6288,93 +6288,99 @@
           "¿Cuándo es una parada obligatoria para las familias?"
         ],
         "answerKey": [
-          "Al constante, abrumador y ensordecedor bullicio acústico que reina implacablemente en la inmensa zona.",
+          "Al constante, abrumador y ensordecedor bullicio acústico que reina en la inmensa zona.",
           "El agudo sonido de estridentes sirenas, música a todo volumen, y los incesantes reclamos de los feriantes a través de la megafonía.",
           "\"Cacharros\".",
           "Hermosas y románticas vistas panorámicas aéreas de la ciudad iluminada de Sevilla.",
           "Miles de niños, adolescentes locales y multitud de adultos valientes con ganas de quemar adrenalina.",
           "Atractivos y gigantescos peluches de colores neón.",
-          "Antes de dar por feliz y exitosamente concluida su extenuante jornada ferial anual."
+          "Antes de dar por exitosamente concluida su extenuante jornada ferial anual."
         ]
       }
     }
   },
   {
-  "topicName": "La Noche (Feria de Abril)",
-  "imageFileName": "noche_feria.png",
-  "levels": {
-    "level_1": {
-      "tier": "Level 1 (English/Beginner)",
-      "readingText": "The famous Feria de Abril changes completely, becoming even more magical and exciting, when the hot sun finally goes down in Seville. The true magic of la noche (the night) officially begins on the very first Monday of the festival at exactly midnight with a massive, highly anticipated event called the Alumbrado. During this unforgettable, breathtaking moment, the massive, towering main gate of the fair and hundreds of thousands of bright, colorful light bulbs strung all over the enormous fairgrounds are suddenly turned on at the exact same time, lighting up the dark sky!\n\nAt night, the huge fair actually becomes even more crowded, loud, and energetic than during the day. The heavy, exhausting heat of the bright afternoon sun is finally gone, making the cool evening air absolutely perfect for dancing inside the small, crowded, and busy casetas. The traditional flamenco music gets a little louder, the people sing happier songs, and the overall energy goes way up. Excited people happily drink cold, refreshing glasses of their sweet rebujito and passionately dance fast sevillanas for many long hours without ever stopping to rest.\n\nSpaniards are already very famous around the world for staying up incredibly late, and the massive feria is definitely the ultimate test of their energy! The incredibly loud, joyful party simply does not stop until the very early hours of the cool morning. It is very common for many happy, tired people to stay awake at the fair dancing and singing until 6:00 or 7:00 AM, finally walking slowly back home through the quiet city streets just as the warm sun begins to rise again for a new day.",
-      "instruction": "Answer the following preguntas according to the text.",
-      "questions": [
-        "When does the Feria change completely?",
-        "What is the event called where they turn on the lights?",
-        "What day does the Alumbrado happen?",
-        "Why is it perfect for dancing at night?",
-        "What do people drink while dancing sevillanas?",
-        "Until what time does the party usually last?",
-        "When do many people walk home?"
-      ],
-      "answerKey": [
-        "When the hot sun finally goes down.",
-        "The Alumbrado.",
-        "On the very first Monday of the festival at exactly midnight.",
-        "The heavy, exhausting heat of the bright afternoon sun is finally gone.",
-        "Cold, refreshing glasses of sweet rebujito.",
-        "The very early hours of the cool morning.",
-        "Just as the warm sun begins to rise again (until 6:00 or 7:00 AM)."
-      ]
-    },
-    "level_2": {
-      "tier": "Level 2 (Structured Spanish/Spanish II)",
-      "readingText": "La famosa Feria de Abril cambia completamente, haciéndose aún más mágica y emocionante, cuando el sol caliente finalmente baja en Sevilla. La verdadera magia de la noche empieza oficialmente el primer lunes del festival exactamente a la medianoche con un evento masivo y muy esperado que se llama el Alumbrado. ¡Durante este momento inolvidable e impresionante, la puerta principal masiva y altísima de la feria y cientos de miles de luces brillantes y coloridas colgadas por todo el enorme recinto ferial se encienden de repente al mismo tiempo, iluminando el cielo oscuro!\n\nPor la noche, la enorme feria en realidad se vuelve aún más llena de gente, ruidosa y enérgica que durante el día. El calor pesado y agotador del brillante sol de la tarde finalmente desaparece, haciendo que el aire fresco de la noche sea absolutamente perfecto para bailar dentro de las casetas pequeñas, llenas y ocupadas. La música flamenca tradicional se vuelve un poco más alta, las personas cantan canciones más felices y la energía general sube mucho. Las personas emocionadas beben felizmente vasos fríos y refrescantes de su dulce rebujito y bailan apasionadamente sevillanas rápidas por muchas horas largas sin parar a descansar nunca.\n\nLos españoles ya son muy famosos en todo el mundo por quedarse despiertos increíblemente tarde, ¡y la feria masiva es definitivamente la prueba máxima de su energía! La fiesta increíblemente ruidosa y alegre simplemente no se detiene hasta las primeras horas de la mañana fresca. Es muy común que muchas personas felices y cansadas se queden despiertas en la feria bailando y cantando hasta las 6:00 o 7:00 de la mañana, finalmente caminando lentamente a casa por las calles tranquilas de la ciudad justo cuando el sol cálido comienza a salir de nuevo para un nuevo día.",
-      "instruction": "Contesta las preguntas según el texto.",
-      "questions": [
-        "¿Cuándo empieza la magia de la noche?",
-        "¿A qué hora es el Alumbrado?",
-        "¿Qué se enciende durante el Alumbrado?",
-        "¿Por qué es el clima perfecto por la noche?",
-        "¿Qué hacen las personas por muchas horas sin parar?",
-        "¿Cuándo termina la celebración?",
-        "¿A qué hora caminan a casa las personas?"
-      ],
-      "answerKey": [
-        "El primer lunes del festival exactamente a la medianoche.",
-        "A la medianoche.",
-        "La puerta principal masiva y cientos de miles de luces brillantes y coloridas.",
-        "Porque el calor pesado y agotador del brillante sol de la tarde desaparece.",
-        "Beben vasos fríos de rebujito y bailan apasionadamente sevillanas rápidas.",
-        "No se detiene hasta las primeras horas de la mañana fresca.",
-        "Justo cuando el sol cálido comienza a salir de nuevo (hasta las 6:00 o 7:00 de la mañana)."
-      ]
-    },
-    "level_3": {
-      "tier": "Level 3 (Natural Spanish/Advanced)",
-      "readingText": "La fisonomía visual y la atmósfera general de la multitudinaria Feria de Abril experimentan una transformación absolutamente mágica, radical y deslumbrante con la inevitable caída del sol sobre la ciudad de Sevilla. El brillante y esperado preludio oficial de estas intensas, largas y agotadoras jornadas nocturnas es el famoso e icónico Alumbrado, un rito multitudinario que se celebra solemnemente la noche del primer lunes ferial. Al dar exactamente la medianoche en el reloj, el alcalde de la ciudad acciona un mecanismo especial que ilumina simultánea y repentinamente la monumental, elaborada y gigantesca portada principal, junto con los cientos de miles de pequeñas y coloridas bombillas que engalanan simétricamente todas las calles del recinto, desatando instantáneamente la incontrolable euforia colectiva de los presentes.\n\nCon la ansiada llegada de la noche cerrada y el pronunciado y refrescante descenso de las elevadas temperaturas primaverales, el inmenso Real de la Feria adquiere rápidamente un ambiente aún más efervescente, festivo y caótico. El opresivo calor diurno cede amablemente su lugar a una suave y agradable brisa nocturna, invitando a los incansables feriantes a prolongar su animada estancia. En el abarrotado y ruidoso interior de las miles de casetas de lona, el ritmo musical se acelera notablemente; el cante flamenco apasionado, las palmas rítmicas y el constante e hipnótico repiqueteo de los pesados tacones bailando animadas sevillanas resuenan con mucha mayor intensidad y volumen, creando una contagiosa atmósfera de jolgorio y hermandad inigualable en todo el país.\n\nLa increíble resistencia física y la energía inagotable de los dedicados feriantes andaluces es verdaderamente digna de admiración y estudio. Lejos de decaer o mostrar signos de fatiga, el ensordecedor bullicio general, los cánticos grupales y el tintineo de las jarras de rebujito helado se mantienen intactos y vigorosos durante toda la fría madrugada ininterrumpidamente. El denso flujo de personas elegantes es constante y fluido hasta que despuntan tímidamente los primeros rayos luminosos del alba en el cielo, momento exacto en el que los más valientes y trasnochadores inician lentamente el silencioso camino de regreso a sus hogares por las calles vacías de la ciudad, físicamente exhaustos pero con el espíritu plenamente satisfecho tras una noche épica.",
-      "instruction": "Contesta las preguntas según el texto.",
-      "questions": [
-        "¿Qué transformación experimenta la fisonomía de la Feria?",
-        "¿Cuál es el preludio de las jornadas nocturnas?",
-        "¿Qué desata la euforia colectiva a la medianoche?",
-        "¿Qué reemplaza al calor en el recinto ferial por la noche?",
-        "¿Qué ruidos resuenan con mayor intensidad en el interior de las casetas?",
-        "¿Durante cuánto tiempo se mantiene intacto el bullicio?",
-        "¿En qué estado inician el camino de regreso los más trasnochadores?"
-      ],
-      "answerKey": [
-        "Una transformación absolutamente mágica, radical y deslumbrante con la inevitable caída del sol.",
-        "El famoso e icónico rito del Alumbrado.",
-        "La iluminación simultánea y repentina de la monumental portada principal y cientos de miles de bombillas.",
-        "Una suave y agradable brisa nocturna (y un refrescante descenso de las temperaturas).",
-        "El cante flamenco apasionado, las palmas rítmicas y el constante repiqueteo de los tacones bailando sevillanas.",
-        "Durante toda la fría madrugada ininterrumpidamente.",
-        "Físicamente exhaustos pero con el espíritu plenamente satisfecho."
-      ]
+    "topicName": "La Noche (Feria de Abril)",
+    "imageFileName": "noche_feria.png",
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The famous Feria de Abril changes completely, becoming even more magical and exciting, when the hot sun finally goes down in Seville. The true magic of la noche (the night) officially begins on the very first Monday of the festival at exactly midnight with a massive, highly anticipated event called the Alumbrado. During this unforgettable moment, the massive main gate of the fair and hundreds of thousands of bright, colorful light bulbs strung all over the fairgrounds are suddenly turned on at the exact same time, lighting up the dark sky!\n\nAt night, the huge fair actually becomes even more crowded, loud, and energetic than during the day. The exhausting heat of the bright afternoon sun is finally gone, making the cool evening air perfect for dancing inside the small, crowded casetas. The traditional flamenco music gets louder, the people sing happier songs, and the overall energy goes up. Excited people happily drink cold, refreshing glasses of sweet rebujito and passionately dance fast sevillanas for many hours without stopping to rest.\n\nSpaniards are already very famous around the world for staying up incredibly late, and the massive feria is definitely the ultimate test of their energy! The loud, joyful party simply does not stop until the early hours of the cool morning. It is very common for many happy, tired people to stay awake at the fair dancing and singing until 6:00 or 7:00 AM, finally walking slowly back home just as the warm sun begins to rise again for a new day.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "When does the Feria change completely?",
+          "What is the event called where they turn on the lights?",
+          "What day does the Alumbrado happen?",
+          "Why is it perfect for dancing at night?",
+          "What do people drink while dancing sevillanas?",
+          "Until what time does the party usually last?",
+          "When do many people walk home?"
+        ],
+        "answerKey": [
+          "When the hot sun finally goes down.",
+          "The Alumbrado.",
+          "On the very first Monday of the festival at exactly midnight.",
+          "The exhausting heat of the bright afternoon sun is finally gone.",
+          "Cold, refreshing glasses of sweet rebujito.",
+          "The early hours of the cool morning.",
+          "Just as the warm sun begins to rise again (until 6:00 or 7:00 AM)."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La famosa Feria de Abril cambia completamente, haciéndose aún más mágica y emocionante, cuando el sol caliente finalmente baja en Sevilla. La verdadera magia de la noche empieza oficialmente el primer lunes del festival a la medianoche con un evento masivo y muy esperado que se llama el Alumbrado. ¡Durante este momento inolvidable, la puerta principal masiva de la feria y cientos de miles de luces brillantes y coloridas colgadas por todo el recinto ferial se encienden de repente al mismo tiempo, iluminando el cielo oscuro!\n\nPor la noche, la enorme feria se vuelve aún más llena de gente, ruidosa y enérgica que durante el día. El calor agotador del brillante sol de la tarde finalmente desaparece, haciendo que el aire fresco de la noche sea perfecto para bailar dentro de las casetas pequeñas y llenas. La música flamenca tradicional se vuelve más alta, las personas cantan canciones más felices y la energía general sube mucho. Las personas emocionadas beben vasos fríos y refrescantes de dulce rebujito y bailan apasionadamente sevillanas rápidas por muchas horas sin parar a descansar.\n\nLos españoles ya son famosos en todo el mundo por quedarse despiertos increíblemente tarde, ¡y la feria masiva es definitivamente la prueba máxima de su energía! La fiesta ruidosa y alegre simplemente no se detiene hasta las primeras horas de la mañana fresca. Es muy común que muchas personas felices y cansadas se queden despiertas en la feria bailando y cantando hasta las 6:00 o 7:00 de la mañana, finalmente caminando lentamente a casa justo cuando el sol cálido comienza a salir de nuevo.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cuándo empieza la magia de la noche?",
+          "¿A qué hora es el Alumbrado?",
+          "¿Qué se enciende durante el Alumbrado?",
+          "¿Por qué es el clima perfecto por la noche?",
+          "¿Qué hacen las personas por muchas horas sin parar?",
+          "¿Cuándo termina la celebración?",
+          "¿A qué hora caminan a casa las personas?"
+        ],
+        "answerKey": [
+          "El primer lunes del festival a la medianoche.",
+          "A la medianoche.",
+          "La puerta principal masiva y cientos de miles de luces brillantes y coloridas.",
+          "Porque el calor agotador del brillante sol de la tarde desaparece.",
+          "Beben vasos fríos de dulce rebujito y bailan apasionadamente sevillanas rápidas.",
+          "No se detiene hasta las primeras horas de la mañana fresca.",
+          "Justo cuando el sol cálido comienza a salir de nuevo (hasta las 6:00 o 7:00 de la mañana)."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La fisonomía visual y la atmósfera de la Feria de Abril experimentan una transformación absolutamente mágica, radical y deslumbrante con la inevitable caída del sol. El esperado preludio de estas jornadas nocturnas es el famoso e icónico rito del Alumbrado, celebrado la noche del primer lunes ferial. Al dar la medianoche, se produce la iluminación simultánea y repentina de la monumental portada principal y cientos de miles de bombillas que engalanan el recinto, desatando la incontrolable euforia colectiva.\n\nCon la llegada de la noche y una suave y agradable brisa nocturna, el inmenso Real adquiere un ambiente aún más efervescente. El opresivo calor diurno cede su lugar, invitando a los feriantes a prolongar su estancia. En el abarrotado interior de las casetas, el ritmo se acelera; el cante flamenco apasionado, las palmas rítmicas y el constante repiqueteo de los tacones bailando sevillanas resuenan con mucha mayor intensidad, creando una contagiosa atmósfera de jolgorio.\n\nLa increíble energía de los feriantes andaluces es digna de admiración. Lejos de mostrar fatiga, el ensordecedor bullicio y el consumo de rebujito helado se mantienen intactos durante toda la fría madrugada ininterrumpidamente. El flujo de personas es constante hasta que despuntan los rayos del alba, momento en el que los más trasnochadores inician el camino de regreso a sus hogares, físicamente exhaustos pero con el espíritu plenamente satisfecho tras una noche épica.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué transformación experimenta la fisonomía de la Feria?",
+          "¿Cuál es el preludio de las jornadas nocturnas?",
+          "¿Qué desata la euforia colectiva a la medianoche?",
+          "¿Qué reemplaza al calor en el recinto ferial por la noche?",
+          "¿Qué ruidos resuenan con mayor intensidad en el interior de las casetas?",
+          "¿Durante cuánto tiempo se mantiene intacto el bullicio?",
+          "¿En qué estado inician el camino de regreso los más trasnochadores?"
+        ],
+        "answerKey": [
+          "Una transformación absolutamente mágica, radical y deslumbrante con la inevitable caída del sol.",
+          "El famoso e icónico rito del Alumbrado.",
+          "La iluminación simultánea y repentina de la monumental portada principal y cientos de miles de bombillas.",
+          "Una suave y agradable brisa nocturna.",
+          "El cante flamenco apasionado, las palmas rítmicas y el constante repiqueteo de los tacones bailando sevillanas.",
+          "Durante toda la fría madrugada ininterrumpidamente.",
+          "Físicamente exhaustos pero con el espíritu plenamente satisfecho."
+        ]
+      }
     }
-  }
-},
-{
+  },
+
+  
+  
+  
+  
+  
+  {
     "topicName": "La Quinceañera",
     "imageFileName": "quinceanera.png",
     "levels": {
