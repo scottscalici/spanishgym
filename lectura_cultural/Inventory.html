@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIP Reading Vault - Master Index</title>
+    <style>
+        :root {
+            --primary-color: #E31837; /* Spanish Red */
+            --bg-color: #fcfcfc;
+            --card-bg: #ffffff;
+            --text-dark: #222222;
+            --text-light: #555555;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-dark);
+            line-height: 1.4;
+            margin: 0;
+            padding: 20px 40px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid var(--primary-color);
+        }
+
+        .logo-placeholder {
+            width: 120px;
+            margin: 0 auto 10px auto;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            margin: 0 0 10px 0;
+            color: #111;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .header h2 {
+            font-size: 20px;
+            color: var(--primary-color);
+            margin: 0 0 10px 0;
+        }
+
+        .header p {
+            font-size: 14px;
+            color: var(--text-light);
+            font-style: italic;
+            margin: 0;
+        }
+
+        /* 3-Column Masonry Layout */
+        .index-grid {
+            column-count: 3;
+            column-gap: 25px;
+        }
+
+        .category-card {
+            background: var(--card-bg);
+            border: 1px solid #eeeeee;
+            border-top: 5px solid var(--primary-color);
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            break-inside: avoid; /* Prevents card from splitting across printed pages */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .category-card h3 {
+            font-size: 14px;
+            margin: 0 0 12px 0;
+            color: var(--text-dark);
+            border-bottom: 1px dashed #ccc;
+            padding-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .category-card ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .category-card li {
+            font-size: 12px;
+            color: var(--text-light);
+            margin-bottom: 6px;
+            position: relative;
+            padding-left: 14px;
+        }
+
+        .category-card li::before {
+            content: '•';
+            color: var(--primary-color);
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        /* Print Specific Adjustments */
+        @media print {
+            body {
+                padding: 0;
+                background-color: #fff;
+            }
+            .category-card {
+                box-shadow: none;
+                border: 1px solid #ddd;
+                border-top: 5px solid var(--primary-color) !important;
+            }
+            /* Force background colors to print */
+            * {
+                -webkit-print-color-adjust: exact !important;
+                color-adjust: exact !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="spanish_gym_logo.png" alt="The Spanish Gym Logo" class="logo-placeholder" onerror="this.style.display='none'">
+        
+        <h1>The VIP Reading Vault</h1>
+        <h2>Stop hunting for readings. Cover your entire curriculum con un solo clic.</h2>
+        <p>Over 150+ meticulously leveled, 3-tiered readings included instantly. Plus, this library continues to grow with frequent new additions!</p>
+    </div>
+
+    <div class="index-grid">
+        
+        <div class="category-card">
+            <h3>🌎 Geografía y Maravillas</h3>
+            <ul>
+                <li>Cueva de Altamira</li>
+                <li>El Camino de Santiago</li>
+                <li>El Canal de Panamá</li>
+                <li>El Desierto de Atacama</li>
+                <li>El Glaciar Perito Moreno</li>
+                <li>El Lago Titicaca y los Uros</li>
+                <li>El Salto Ángel</li>
+                <li>El Yunque</li>
+                <li>La Alhambra</li>
+                <li>La Sagrada Familia</li>
+                <li>Las Cataratas del Iguazú</li>
+                <li>Las Líneas de Nazca</li>
+                <li>Los Cenotes de México</li>
+                <li>Los Moáis de la Isla de Pascua</li>
+                <li>Machu Picchu</li>
+                <li>Salar de Uyuni</li>
+                <li>Teotihuacán</li>
+                <li>Tierra del Fuego</li>
+                <li>San Juan</li>
+            </ul>
+        </div>
+
+        <div class="category-card">
+            <h3>👑 Historia y Líderes</h3>
+            <ul>
+                <li>Augusto Pinochet</li>
+                <li>Che Guevara</li>
+                <li>El Grito de Dolores</li>
+                <li>El Imperio Inca (El Qhapaq Ñan)</li>
+                <li>El Milagro de los Andes</li>
+                <li>Espíritu taíno</li>
+                <li>Eva Perón</li>
+                <li>Fidel Castro</li>
+                <li>Francisco Franco</li>
+                <li>Hugo Chávez</li>
+                <li>La Guerra Civil Española y Guernica</li>
+                <li>La Leyenda de El Dorado</li>
+                <li>La Llorona</li>
+                <li>La Malinche</li>
+                <li>La Noche Triste</li>
+                <li>Las hermanas Mirabal</li>
+                <li>Las Madres de Plaza de Mayo</li>
+                <li>Los Alebrijes</li>
+                <li>Salvador Allende</li>
+                <li>Simón Bolívar</li>
+                <li>Sonia Sotomayor</li>
+                <li>Ellen Ochoa</li>
+            </ul>
+        </div>
+
+        <div class="category-card">
+            <h3>🎨 Arte, Literatura y Cine</h3>
+            <ul>
+                <li>Alfonso Cuarón</li>
+                <li>Alejandro González Iñárritu</li>
+                <li>Antoni Gaudí</li>
+                <li>Carlos Ruiz Zafón</li>
+                <li>Como agua para chocolate</li>
+                <li>Diego Luna</li>
+                <li>Diego Rivera</li>
+                <li>El laberinto del fauno</li>
+                <li>Fernando Botero</li>
+                <li>Frida Kahlo</li>
+                <li>Gabriel García Márquez</li>
+                <li>Gael García Bernal</li>
+                <li>Guillermo del Toro</li>
+                <li>Isabel Allende</li>
+                <li>La Casa de Papel</li>
+                <li>Lin-Manuel Miranda</li>
+                <li>Mafalda</li>
+                <li>Marvel en Español</li>
+                <li>Pablo Picasso</li>
+                <li>Pedro Almodóvar</li>
+                <li>Pedro Pascal</li>
+                <li>Penélope Cruz</li>
+                <li>Salvador Dalí</li>
+                <li>Zoe Saldaña</li>
+            </ul>
+        </div>
+
+        <div class="category-card">
+            <h3>🎵 Música y Cultura Pop</h3>
+            <ul>
+                <li>Álvaro Soler</li>
+                <li>Ángela Aguilar</li>
+                <li>Bad Bunny</li>
+                <li>Bizarrap</li>
+                <li>Celia Cruz</li>
+                <li>Chayanne</li>
+                <li>ChocQuibTown</li>
+                <li>Daddy Yankee</li>
+                <li>Don Omar</li>
+                <li>El Cuarteto de Nos</li>
+                <li>Enrique Iglesias</li>
+                <li>Grupo Frontera</li>
+                <li>Héctor Lavoe</li>
+                <li>Hombres G</li>
+                <li>J Balvin</li>
+                <li>Juanes</li>
+                <li>Karol G</li>
+                <li>Maná</li>
+                <li>Pitbull</li>
+                <li>Reik</li>
+                <li>Ricky Martin</li>
+                <li>Romeo Santos</li>
+                <li>Rosalía</li>
+                <li>Selena Quintanilla</li>
+                <li>Shakira</li>
+                <li>Ventino</li>
+            </ul>
+        </div>
+
+        <div class="category-card">
+            <h3>🌮 Comida y Tradiciones</h3>
+            <ul>
+                <li>El Café</li>
+                <li>El Carnaval de Barranquilla</li>
+                <li>El Ceviche</li>
+                <li>El Chocolate</li>
+                <li>El Día de Muertos</li>
+                <li>El Gallo Pinto y la Pura Vida</li>
+                <li>El Mate</li>
+                <li>El Tango</li>
+                <li>Inti Raymi</li>
+                <li>La Lucha Libre</li>
+                <li>La Paella</li>
+                <li>La Quinceañera</li>
+                <li>La Ropa Vieja</li>
+                <li>La Tomatina</li>
+                <li>Las Arepas</li>
+                <li>Las Empanadas</li>
+                <li>Las Fallas</li>
+                <li>Las Pupusas</li>
+                <li>Los Churros y San Ginés</li>
+                <li>Los Gauchos</li>
+                <li>Los Tacos</li>
+                <li>Textiles Peruanos</li>
+                <li>Vejigante</li>
+            </ul>
+        </div>
+
+        <div class="category-card">
+            <h3>⚽ Deportes y Atletas</h3>
+            <ul>
+                <li>Anthony Muñoz</li>
+                <li>Diego Maradona</li>
+                <li>Fernando Valenzuela</li>
+                <li>Francisco Lindor</li>
+                <li>Gleyber Torres</li>
+                <li>Juan Soto</li>
+                <li>La Serie del Caribe</li>
+                <li>Laurie Hernández</li>
+                <li>Lionel Messi</li>
+                <li>Lorena Ochoa</li>
+                <li>Manu Ginóbili</li>
+                <li>Pau Gasol</li>
+                <li>Rafael Nadal</li>
+                <li>Roberto Clemente</li>
+            </ul>
+        </div>
+
+        <div class="category-card">
+            <h3>🦥 Naturaleza y Animales</h3>
+            <ul>
+                <li>Coquí</li>
+                <li>El Chigüiro</li>
+                <li>El Cóndor Andino</li>
+                <li>El Guacamayo</li>
+                <li>El Jaguar</li>
+                <li>El Ocelote</li>
+                <li>El Perezoso</li>
+                <li>El Tapir</li>
+                <li>La Anaconda</li>
+                <li>Las Llamas</li>
+                <li>Las Tortugas de Galápagos</li>
+                <li>Manatí</li>
+                <li>Pingüinos de Chile</li>
+            </ul>
+        </div>
+
+        <div class="category-card">
+            <h3>🇲🇽 Unidad Especial: Cinco de Mayo</h3>
+            <ul>
+                <li>¿Qué es el Cinco de Mayo?</li>
+                <li>La Batalla de Puebla</li>
+                <li>¿Por qué invadió Francia a México?</li>
+                <li>El Cinco de Mayo vs. El Día de la Independencia</li>
+                <li>Cómo se celebra el Cinco de Mayo en México</li>
+                <li>El Cinco de Mayo en Estados Unidos</li>
+                <li>Símbolos y Tradiciones del Cinco de Mayo</li>
+                <li>El Legado de la Batalla de Puebla</li>
+            </ul>
+        </div>
+
+        <div class="category-card">
+            <h3>🇪🇸 Unidad Especial: Feria de Abril</h3>
+            <ul>
+                <li>Historia de la Feria de Abril</li>
+                <li>Casetas</li>
+                <li>Comida y bebida</li>
+                <li>Trajes</li>
+                <li>Calle del Infierno</li>
+                <li>La Noche</li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+</html>
