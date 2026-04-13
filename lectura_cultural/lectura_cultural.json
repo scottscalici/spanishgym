@@ -12463,9 +12463,311 @@
         ]
       }
     }
-  }  
-
-
+  },
+  {
+    "topicName": "Albert Pujols",
+    "imageFileName": "albert_pujols.png",
+    "bundles": ["deportes_y_atletas", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Albert Pujols is one of the greatest baseball players in the history of the sport. He was born in 1980 in Santo Domingo, the vibrant capital of the Dominican Republic. Growing up, he loved baseball but lived in deep poverty. He practiced hitting using limes instead of baseballs and used an old milk carton as a baseball glove.\n\nWhen Albert was a teenager, his family immigrated to the United States and settled in Missouri. He worked incredibly hard to learn English and played baseball for his high school and college teams. In 2001, he made his Major League Baseball debut with the St. Louis Cardinals. He quickly proved that he was an absolute superstar. He won the 'Novato del Año' (Rookie of the Year) award and helped his team win two World Series championships.\n\nThroughout his amazing career, Albert was famous for his powerful swing. He is one of the very few players in history to hit over 700 home runs. Because he was so reliable and incredibly strong, fans lovingly called him 'La Máquina' (The Machine).\n\nHowever, Albert is not just a sports hero; he is also a hero in his community. In 2005, he created the Pujols Family Foundation to help families who have children with Down syndrome and to support poor families in the Dominican Republic. After playing for 22 incredible seasons, Albert officially retired in 2022. Today, he is remembered not only as a legendary baseball player, but also as a generous, kind-hearted person who uses his massive success to make the world a much better place.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was Albert Pujols born?",
+          "What did he use instead of baseballs to practice hitting when he was a child?",
+          "What team did he make his Major League Baseball debut with in 2001?",
+          "How many home runs did he hit during his amazing career?",
+          "What did the fans call him because he was so reliable and strong?",
+          "What does the Pujols Family Foundation help with?",
+          "In what year did Albert officially retire from playing baseball?"
+        ],
+        "answerKey": [
+          "In Santo Domingo, Dominican Republic.",
+          "He used limes.",
+          "The St. Louis Cardinals.",
+          "Over 700 home runs.",
+          "'La Máquina' (The Machine).",
+          "Families with Down syndrome and poor families in the Dominican Republic.",
+          "In 2022."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Albert Pujols es uno de los mejores jugadores de béisbol en la historia del deporte. Él nació en el año 1980 en Santo Domingo, la capital de la República Dominicana. Durante su niñez, él amaba el béisbol pero su familia vivía en la pobreza. Él practicaba el béisbol usando limones en vez de pelotas reales y usaba un cartón de leche vacio como su guante de béisbol.\n\nCuando Albert era un adolescente, su familia inmigró a los Estados Unidos y vivió en el estado de Missouri. Él trabajó muy duro para aprender inglés y jugó al béisbol para su escuela secundaria y su universidad. En el año 2001, él empezó a jugar profesionalmente con los Cardenales de San Luis. Rápidamente, él demostró que era una superestrella. Él ganó el premio de 'Novato del Año' y ayudó a su equipo a ganar dos campeonatos de la Serie Mundial.\n\nDurante su increíble carrera, Albert era famoso por su poder. Él es uno de los pocos jugadores en la historia que bateó más de setecientos jonrones. Porque él era tan fuerte y muy consistente, los aficionados lo llamaban 'La Máquina'.\n\nSin embargo, Albert no es solo un héroe de los deportes; también es un héroe en su comunidad. En 2005, él creó la Fundación Familia Pujols para ayudar a familias con niños que tienen síndrome de Down y para ayudar a personas pobres en la República Dominicana. Después de jugar por 22 temporadas increíbles, Albert se retiró en 2022. Hoy en día, es recordado como una leyenda del béisbol y una persona generosa.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde nació Albert Pujols en el año 1980?",
+          "¿Qué usaba él como su guante de béisbol cuando era un niño?",
+          "¿A qué país inmigró su familia cuando Albert era un adolescente?",
+          "¿Qué premio importante ganó él en su primer año con los Cardenales?",
+          "¿Cómo lo llamaban los aficionados porque era muy fuerte y consistente?",
+          "¿Por qué creó él la Fundación Familia Pujols en el año 2005?",
+          "¿Cuántas temporadas increíbles jugó Albert antes de retirarse?"
+        ],
+        "answerKey": [
+          "En Santo Domingo, República Dominicana.",
+          "Usaba un cartón de leche.",
+          "A los Estados Unidos.",
+          "El premio de 'Novato del Año'.",
+          "Lo llamaban 'La Máquina'.",
+          "Para ayudar a familias con síndrome de Down y personas pobres.",
+          "Jugó 22 temporadas."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Albert Pujols es indiscutiblemente uno de los beisbolistas más excepcionales y prolíficos en la historia de las Grandes Ligas. Nacido en 1980 en Santo Domingo, la vibrante capital de la República Dominicana, Pujols enfrentó la pobreza extrema durante su infancia. Su pasión por el béisbol era tan profunda que, a falta de recursos, practicaba su bateo golpeando limones y utilizaba envases de leche vacíos como improvisados guantes de béisbol.\n\nEn su adolescencia, su familia emigró a los Estados Unidos y se estableció en el estado de Missouri. Tras superar la barrera del idioma y destacarse en el béisbol colegial, Pujols debutó en las Grandes Ligas en 2001 con los Cardenales de San Luis. Su impacto fue inmediato y abrumador, ganando unánimemente el premio al Novato del Año y liderando a su equipo hacia la conquista de dos campeonatos de la Serie Mundial.\n\nA lo largo de su trayectoria, Pujols se consagró como un bateador temible. Su consistencia y fuerza sobrenatural le valieron el célebre apodo de 'La Máquina'. Es uno de los pocos miembros del exclusivo club de jugadores que han superado la asombrosa marca de los setecientos cuadrangulares en su carrera.\n\nMás allá de sus impresionantes logros en el diamante, Pujols es un filántropo extraordinario. En 2005, fundó la Pujols Family Foundation, una organización benéfica dedicada a mejorar la vida de personas con síndrome de Down y a brindar asistencia humanitaria en la República Dominicana. Tras veintidós gloriosas temporadas, se retiró en 2022. Hoy, su legado trasciende el ámbito deportivo, perdurando como un verdadero ícono de excelencia atlética y un modelo a seguir.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde nació Albert Pujols y qué situación enfrentó durante su infancia?",
+          "¿Qué objetos utilizaba en su niñez como improvisados guantes de béisbol?",
+          "¿Con qué equipo debutó en las Grandes Ligas y en qué año?",
+          "¿Qué exclusivo club alcanzó gracias a su consistencia y fuerza sobrenatural?",
+          "¿Cuál era el apodo que le dieron debido a sus habilidades extraordinarias?",
+          "¿Cuál es el propósito principal de la organización benéfica que él fundó?",
+          "¿En qué año se retiró después de una trayectoria de veintidós gloriosas temporadas?"
+        ],
+        "answerKey": [
+          "Nació en Santo Domingo y enfrentó la pobreza extrema.",
+          "Utilizaba envases de leche vacíos.",
+          "Con los Cardenales de San Luis en el año 2001.",
+          "El club de jugadores que han superado la asombrosa marca de los setecientos cuadrangulares.",
+          "El célebre apodo de 'La Máquina'.",
+          "Mejorar la vida de personas con síndrome de Down y brindar asistencia humanitaria.",
+          "Se retiró en el año 2022."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Yoryi Morel",
+    "imageFileName": "yoryi_morel.png",
+    "bundles": ["arte_literatura_y_cine", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Yoryi Morel is one of the most famous and important painters in the history of the beautiful Dominican Republic. He was born in the vibrant city of Santiago de los Caballeros in the year 1906. From a very young age, he loved to draw and paint the world around him. Amazingly, he was a self-taught artist, which means he never went to a formal art school or had professional teachers. Instead, he learned by practicing every single day.\n\nYoryi is famous for a special style of art called 'Costumbrismo.' This means he loved to paint the everyday, normal life of regular people. While other artists painted rich, powerful people or historical events, Yoryi preferred to paint the simple, authentic beauty of his country. He painted colorful rural landscapes, farmers working hard in the fields, traditional dances, and people walking in the bright Caribbean sun.\n\nHis paintings are famous because they perfectly capture the true spirit, culture, and vibrant colors of the Dominican people. He used bright yellows, warm oranges, and deep greens to make his canvases feel alive and full of energy. Throughout his long career, he had many successful art exhibitions in his country and also in other places around the world.\n\nToday, Yoryi Morel is considered a national treasure in the Dominican Republic. When people look at his beautiful paintings in museums, they can feel the warmth and joy of Dominican culture. He proved that you do not need expensive art schools to create incredible masterpieces; you only need passion, talent, and a deep love for your home country.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was the famous painter Yoryi Morel born in the year 1906?",
+          "How did he learn to paint if he never went to a formal art school?",
+          "What is the special style of art he is famous for called?",
+          "What types of things did he prefer to paint in his artwork?",
+          "What specific colors did he use to make his canvases feel alive?",
+          "Where did he have successful art exhibitions during his long career?",
+          "What did he prove you need to create incredible masterpieces instead of expensive art schools?"
+        ],
+        "answerKey": [
+          "In Santiago de los Caballeros, Dominican Republic.",
+          "He was self-taught and learned by practicing every single day.",
+          "It is called 'Costumbrismo.'",
+          "Everyday life, rural landscapes, farmers, traditional dances, and regular people.",
+          "Bright yellows, warm oranges, and deep greens.",
+          "In his country and in other places around the world.",
+          "Passion, talent, and a deep love for your home country."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Yoryi Morel es uno de los pintores más famosos e importantes en la historia de la hermosa República Dominicana. Él nació en la vibrante ciudad de Santiago de los Caballeros en el año 1906. Desde una edad muy joven, a él le encantaba dibujar y pintar el mundo a su alrededor. Sorprendentemente, él fue un artista autodidacta, lo que significa que nunca fue a una escuela de arte formal ni tuvo profesores profesionales. En vez de eso, él aprendió practicando todos los días.\n\nYoryi es muy famoso por un estilo de arte especial llamado 'Costumbrismo'. Esto significa que a él le encantaba pintar la vida normal y diaria de las personas regulares. Mientras otros artistas pintaban a personas ricas o eventos históricos, Yoryi prefería pintar la belleza simple y auténtica de su país. Él pintó paisajes rurales coloridos, campesinos trabajando duro en el campo, bailes tradicionales y personas caminando bajo el sol brillante del Caribe.\n\nSus pinturas son famosas porque capturan perfectamente el verdadero espíritu, la cultura y los colores vibrantes del pueblo dominicano. Él usaba amarillos brillantes, naranjas cálidos y verdes profundos para hacer que sus obras tuvieran mucha energía. Durante su larga carrera, él tuvo muchas exhibiciones de arte exitosas en su país y en otros lugares del mundo.\n\nHoy en día, Yoryi Morel es considerado un tesoro nacional en la República Dominicana. Cuando las personas miran sus hermosas pinturas en los museos, pueden sentir el calor y la alegría de la cultura dominicana. Él demostró que no necesitas escuelas caras para crear obras maestras; solo necesitas pasión, talento y amor por tu país.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde nació el famoso pintor Yoryi Morel en el año 1906?",
+          "¿Cómo aprendió él a pintar si nunca fue a una escuela de arte formal?",
+          "¿Cómo se llama el estilo de arte especial por el que él es muy famoso?",
+          "¿Qué tipo de cosas prefería pintar él en sus obras de arte?",
+          "¿Qué colores específicos usaba él para darle mucha energía a sus obras?",
+          "¿Dónde tuvo él muchas exhibiciones de arte exitosas durante su carrera?",
+          "¿Qué necesitas para crear obras maestras en vez de escuelas caras?"
+        ],
+        "answerKey": [
+          "En Santiago de los Caballeros, República Dominicana.",
+          "Él fue autodidacta y aprendió practicando todos los días.",
+          "Se llama 'Costumbrismo'.",
+          "La vida diaria, paisajes rurales, campesinos, bailes tradicionales y personas regulares.",
+          "Amarillos brillantes, naranjas cálidos y verdes profundos.",
+          "En su país y en otros lugares del mundo.",
+          "Solo necesitas pasión, talento y amor por tu país."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Yoryi Morel es indiscutiblemente uno de los pintores más eminentes y representativos en la historia de las artes plásticas de la República Dominicana. Nacido en la histórica ciudad de Santiago de los Caballeros en 1906, Morel desarrolló una pasión inquebrantable por el arte desde su infancia. Sorprendentemente, fue un artista completamente autodidacta; nunca asistió a una academia de bellas artes formal, sino que forjó su extraordinario talento a través de la observación meticulosa y la práctica constante.\n\nMorel es mundialmente reconocido como uno de los máximos exponentes del 'Costumbrismo' dominicano. En lugar de enfocarse en retratos de la aristocracia o temas históricos épicos, él dedicó su vida a plasmar la esencia pura y la vida cotidiana de su pueblo. Sus lienzos capturan magistralmente los vibrantes paisajes rurales del Cibao, los campesinos trabajando arduamente en las plantaciones, las coloridas fiestas tradicionales y los rostros auténticos de la gente común bajo el resplandeciente sol caribeño.\n\nSu inconfundible estilo se caracteriza por una pincelada suelta y una paleta de colores sumamente cálida y luminosa, dominada por amarillos intensos y verdes exuberantes, que reflejan fielmente el alma tropical de la isla. A lo largo de su prolífica carrera, Morel exhibió sus majestuosas obras tanto a nivel nacional como internacional, ganando el respeto y la admiración profunda de los críticos de arte.\n\nHoy en día, el inmenso legado de Yoryi Morel es atesorado como patrimonio cultural de la nación. Sus obras maestras se exhiben con orgullo en los museos más prestigiosos del país, donde continúan evocando la profunda identidad, la alegría inagotable y la riqueza folclórica que definen a la sociedad dominicana.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué histórica ciudad dominicana nació este eminente pintor en 1906?",
+          "¿Cómo forjó su extraordinario talento sin asistir a una academia formal?",
+          "¿De qué movimiento artístico es reconocido como uno de los máximos exponentes?",
+          "¿Qué elementos capturan magistralmente sus lienzos costumbristas?",
+          "¿Qué colores dominan su paleta cálida y luminosa para reflejar el alma tropical?",
+          "¿Qué reconocimiento obtuvo tras exhibir sus obras a nivel nacional e internacional?",
+          "¿Qué continúan evocando sus obras maestras exhibidas en los museos prestigiosos?"
+        ],
+        "answerKey": [
+          "En Santiago de los Caballeros.",
+          "A través de la observación meticulosa y la práctica constante (fue autodidacta).",
+          "Del 'Costumbrismo' dominicano.",
+          "Los paisajes rurales del Cibao, campesinos trabajando, fiestas tradicionales y rostros auténticos.",
+          "Amarillos intensos y verdes exuberantes.",
+          "Ganó el respeto y la admiración profunda de los críticos de arte.",
+          "La profunda identidad, la alegría inagotable y la riqueza folclórica dominicana."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Carlos Alcaraz",
+    "imageFileName": "carlos_alcaraz.png",
+    "bundles": ["deportes_y_atletas", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Carlos Alcaraz is an incredibly talented and famous professional tennis player from the beautiful country of Spain. He was born on May 5, 2003, in a small town called El Palmar, located in the sunny region of Murcia. From a very young age, he showed a massive, natural passion for tennis. His father was a tennis director, so Carlos basically grew up with a 'raqueta' (racket) in his hand. He practiced for hours every single day, dreaming of becoming a world champion.\n\nAs a teenager, Carlos quickly shocked the entire sports world with his incredible speed, intense power, and smart strategy on the 'cancha' (court). In 2022, at only nineteen years old, he won the famous US Open tournament. Because of this amazing victory, he became the youngest male player in the history of tennis to reach the number one ranking in the world. He proved that he was not just a lucky teenager, but a true global superstar.\n\nCarlos continued to amaze millions of fans by winning other massive, legendary tournaments, including Wimbledon and the French Open. People love to watch him play because he always smiles, shows incredible sportsmanship, and never gives up during difficult matches. Many sports experts confidently say he is the future of tennis and compare him to the legendary Rafael Nadal. Today, Carlos Alcaraz is a massive inspiration for young athletes everywhere. He proves that with extreme dedication, hard work, and a positive attitude, you can achieve your biggest dreams.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was the famous professional tennis player Carlos Alcaraz born?",
+          "What did he basically grow up with in his hand?",
+          "What famous tournament did he win in 2022 at only nineteen years old?",
+          "What historical record did he break after winning that tournament?",
+          "What other massive, legendary tournaments has he won?",
+          "Why do people love to watch him play?",
+          "Who do many sports experts compare Carlos to?"
+        ],
+        "answerKey": [
+          "In El Palmar, Murcia, Spain.",
+          "A racket (una raqueta).",
+          "The US Open.",
+          "He became the youngest male player to reach the number one ranking in the world.",
+          "Wimbledon and the French Open.",
+          "Because he always smiles, shows incredible sportsmanship, and never gives up.",
+          "The legendary Rafael Nadal."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Carlos Alcaraz es un jugador de tenis profesional increíblemente talentoso y muy famoso del hermoso país de España. Él nació el 5 de mayo del año 2003 en un pueblo pequeño llamado El Palmar, en la región soleada de Murcia. Desde una edad muy joven, él mostró una gran pasión natural por el tenis. Su padre era un director de tenis, así que Carlos literalmente creció con una raqueta en la mano. Él practicaba por muchas horas todos los días, soñando con ser un campeón mundial.\n\nCuando era un adolescente, Carlos sorprendió rápidamente a todo el mundo de los deportes con su increíble velocidad, su gran poder y su estrategia inteligente en la cancha. En el año 2022, con solamente diecinueve años, él ganó el famoso torneo del Abierto de los Estados Unidos. Por esta victoria increíble, él se convirtió en el jugador masculino más joven en la historia en alcanzar el puesto número uno del mundo. Él demostró que no era solo un joven con suerte, sino una verdadera superestrella.\n\nCarlos continuó sorprendiendo a millones de aficionados al ganar otros torneos masivos y legendarios, incluyendo Wimbledon y el Abierto de Francia (Roland Garros). A las personas les encanta verlo jugar porque él siempre sonríe, muestra un buen espíritu deportivo y nunca se rinde durante los partidos difíciles. Muchos expertos de los deportes dicen que él es el futuro del tenis y lo comparan con el legendario Rafael Nadal. Hoy en día, Carlos es una gran inspiración para los jóvenes atletas. Él demuestra que con dedicación, trabajo duro y una actitud positiva, puedes alcanzar tus sueños.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde nació el famoso jugador de tenis Carlos Alcaraz en el año 2003?",
+          "¿Con qué creció literalmente Carlos en la mano?",
+          "¿Qué torneo famoso ganó él cuando tenía solamente diecinueve años?",
+          "¿Qué récord histórico rompió él por esa victoria increíble?",
+          "¿Qué otros torneos masivos y legendarios ganó Carlos?",
+          "¿Por qué le encanta a las personas ver a Carlos jugar al tenis?",
+          "¿Con qué jugador legendario lo comparan muchos expertos de los deportes?"
+        ],
+        "answerKey": [
+          "En El Palmar, Murcia, España.",
+          "Con una raqueta.",
+          "El Abierto de los Estados Unidos.",
+          "Se convirtió en el jugador masculino más joven en alcanzar el puesto número uno del mundo.",
+          "Wimbledon y el Abierto de Francia (Roland Garros).",
+          "Porque siempre sonríe, muestra un buen espíritu deportivo y nunca se rinde.",
+          "Con Rafael Nadal."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Carlos Alcaraz es indiscutiblemente uno de los tenistas profesionales más prodigiosos y deslumbrantes en la historia reciente del deporte mundial. Nacido el 5 de mayo de 2003 en la pintoresca localidad de El Palmar, en la cálida región de Murcia, España, Alcaraz desarrolló una afinidad innata por la raqueta desde su más tierna infancia. Criado en un entorno tenístico gracias a la influencia de su padre, quien dirigía un club local, el joven murciano dedicó incontables horas al perfeccionamiento de su técnica, forjando la mentalidad competitiva de un verdadero campeón.\n\nDurante su adolescencia, Alcaraz irrumpió en el circuito profesional con una fuerza arrolladora, asombrando a los expertos con su explosiva velocidad, su potencia física y su madurez táctica en la pista. En 2022, con apenas diecinueve años, se coronó campeón del Abierto de los Estados Unidos. Esta hazaña monumental lo catapultó a la cima del ranking, convirtiéndolo en el tenista masculino más joven de la historia en alcanzar el codiciado puesto número uno del mundo, consolidando su estatus como una auténtica superestrella global.\n\nLejos de conformarse, Alcaraz continuó su impresionante trayectoria conquistando otros torneos de Grand Slam de enorme prestigio, como Wimbledon y Roland Garros. El público lo adora no solo por su tenis espectacular, sino también por su carisma desbordante, su inquebrantable espíritu deportivo y su eterna sonrisa frente a la adversidad. Frecuentemente comparado con la leyenda viva Rafael Nadal, Alcaraz ha demostrado tener su propia identidad brillante. Hoy en día, es un verdadero ícono deportivo que inspira a las nuevas generaciones, demostrando que el talento excepcional, combinado con la perseverancia, no tiene límites.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué cálida región española nació el deslumbrante tenista Carlos Alcaraz?",
+          "¿Gracias a qué influencia se crio en un entorno tenístico desde su infancia?",
+          "¿Qué torneo de Grand Slam ganó en 2022 con apenas diecinueve años?",
+          "¿Qué récord histórico alcanzó tras esa hazaña monumental?",
+          "¿Qué otros torneos de enorme prestigio ha conquistado durante su impresionante trayectoria?",
+          "¿Por qué lo adora el público más allá de su espectacular estilo de juego?",
+          "¿Con qué leyenda viva del tenis es frecuentemente comparado Carlos Alcaraz?"
+        ],
+        "answerKey": [
+          "En la región de Murcia, España.",
+          "Gracias a la influencia de su padre, quien dirigía un club local.",
+          "El Abierto de los Estados Unidos.",
+          "Se convirtió en el tenista masculino más joven en alcanzar el codiciado puesto número uno del mundo.",
+          "Wimbledon y Roland Garros.",
+          "Por su carisma desbordante, su inquebrantable espíritu deportivo y su eterna sonrisa.",
+          "Con Rafael Nadal."
+        ]
+      }
+    }
+  },
+{
+    "topicName": "Roberto Matta",
+    "imageFileName": "roberto_matta.png",
+    "bundles": ["arte_literatura_y_cine", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Roberto Matta is one of the most famous and important painters in the history of Chile and the entire world. He was born in the beautiful city of Santiago, Chile, in the year 1911. When he was a young man, he originally studied to become an architect, but he quickly realized that his true passion was painting and creating incredible art.\n\nIn the 1930s, Roberto moved to the famous city of Paris, France. There, he met famous artists like Salvador Dalí and joined an amazing artistic group called the Surrealists. Surrealism is a special type of art that focuses on dreams, the human mind, and imagination. Instead of painting normal landscapes with trees and mountains, Roberto loved to paint what he called 'inscapes' or 'paisajes interiores' (interior landscapes). These were massive, colorful paintings that showed the complex emotions and thoughts inside the human brain.\n\nDuring World War II, Roberto moved to New York City. He was very important there because he shared his amazing surrealist ideas with young American artists. He helped inspire a brand-new movement of art called Abstract Expressionism. His massive canvases were full of floating shapes, bright colors, and intense energy that looked like science fiction or deep outer space.\n\nRoberto Matta lived a very long, exciting life and continued to paint until he died in 2002. Today, his incredible masterpieces are proudly displayed in the biggest and best museums all over the world. He is remembered as a creative genius who used his paintbrush to explore the hidden universe inside the human mind.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was the famous painter Roberto Matta born in 1911?",
+          "What profession did he originally study for when he was a young man?",
+          "What special type of art focuses on dreams, the human mind, and imagination?",
+          "What did Roberto call the massive paintings that showed emotions inside the brain?",
+          "Where did Roberto move during World War II?",
+          "What brand-new movement of art did he help inspire in America?",
+          "What did his canvases full of floating shapes and bright colors look like?"
+        ],
+        "answerKey": [
+          "In Santiago, Chile.",
+          "He originally studied to become an architect.",
+          "Surrealism.",
+          "'Inscapes' or 'paisajes interiores' (interior landscapes).",
+          "He moved to New York City.",
+          "Abstract Expressionism.",
+          "Science fiction or deep outer space."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Roberto Matta es uno de los pintores más famosos e importantes en la historia de Chile y de todo el mundo. Él nació en la hermosa ciudad de Santiago, Chile, en el año 1911. Cuando era joven, él estudió originalmente para ser arquitecto, pero rápidamente comprendió que su verdadera pasión era la pintura y el arte.\n\nEn la década de 1930, Roberto viajó a la famosa ciudad de París, Francia. Allí, él conoció a artistas famosos como Salvador Dalí y entró a un grupo artístico increíble llamado los surrealistas. El surrealismo es un tipo de arte especial que se enfoca en los sueños, la mente humana y la imaginación. En vez de pintar paisajes normales con árboles y montañas, a Roberto le encantaba pintar 'paisajes interiores'. Estas eran pinturas masivas y coloridas que mostraban las emociones y los pensamientos dentro del cerebro humano.\n\nDurante la Segunda Guerra Mundial, Roberto se mudó a la ciudad de Nueva York. Él fue muy importante allí porque compartió sus ideas surrealistas con los jóvenes artistas americanos. Él ayudó a inspirar un movimiento de arte nuevo llamado Expresionismo Abstracto. Sus lienzos masivos estaban llenos de formas flotantes, colores brillantes y mucha energía que parecía ciencia ficción o el espacio exterior.\n\nRoberto Matta vivió una vida muy larga y emocionante. Él continuó pintando hasta que murió en el año 2002. Hoy en día, sus obras maestras increíbles están en los mejores museos de todo el mundo. Él es recordado como un genio creativo que usó su arte para explorar el universo secreto y misterioso de la mente humana.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde nació el famoso pintor Roberto Matta en el año 1911?",
+          "¿Qué profesión estudió él originalmente cuando era joven?",
+          "¿En qué se enfoca el tipo de arte especial llamado surrealismo?",
+          "¿Qué le encantaba pintar a Roberto en vez de paisajes normales con árboles?",
+          "¿A qué ciudad se mudó Roberto durante la Segunda Guerra Mundial?",
+          "¿Qué movimiento de arte nuevo ayudó a inspirar Roberto en América?",
+          "¿Qué parecían sus lienzos masivos con formas flotantes y colores brillantes?"
+        ],
+        "answerKey": [
+          "En Santiago, Chile.",
+          "Estudió originalmente para ser arquitecto.",
+          "En los sueños, la mente humana y la imaginación.",
+          "Le encantaba pintar 'paisajes interiores'.",
+          "Se mudó a la ciudad de Nueva York.",
+          "El Expresionismo Abstracto.",
+          "Parecían ciencia ficción o el espacio exterior."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Roberto Matta es indiscutiblemente uno de los artistas plásticos más trascendentales y visionarios en la historia de Chile y del arte contemporáneo mundial. Nacido en la vibrante ciudad de Santiago en 1911, Matta se formó inicialmente como arquitecto. Sin embargo, su espíritu inquieto lo llevó a abandonar esa profesión para dedicarse por completo a su verdadera vocación: la pintura y la exploración visual.\n\nEn la década de 1930, el joven artista se trasladó a París, el epicentro cultural de la época. Allí forjó amistades con figuras icónicas como Salvador Dalí y André Breton, integrándose rápidamente al influyente movimiento surrealista. A diferencia de otros pintores que retrataban el mundo físico, Matta se especializó en plasmar lo que él mismo denominaba 'paisajes interiores'. Estas obras monumentales no representaban lugares reales, sino que eran proyecciones fascinantes del subconsciente, llenas de emociones complejas y misterios psicológicos.\n\nCon el estallido de la Segunda Guerra Mundial, Matta se exilió en la ciudad de Nueva York. Su llegada a Estados Unidos fue crucial, ya que actuó como un puente intelectual entre el surrealismo europeo y los jóvenes creadores estadounidenses. Su estilo innovador inspiró profundamente el desarrollo del Expresionismo Abstracto. Sus inmensos lienzos, caracterizados por formas cósmicas flotantes, colores vibrantes y una energía caótica, parecían visiones futuristas de galaxias lejanas.\n\nRoberto Matta disfrutó de una vida longeva y extraordinariamente prolífica, pintando incesantemente hasta su fallecimiento en 2002. Hoy en día, sus majestuosas obras maestras adornan los museos más prestigiosos del planeta. Su legado perdura eternamente como el de un genio inigualable que logró cartografiar los rincones más profundos de la mente humana.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué vibrante ciudad nació este artista trascendental y visionario en 1911?",
+          "¿Qué profesión abandonó para dedicarse por completo a la pintura y la exploración visual?",
+          "¿Qué representaban las obras monumentales que él denominaba 'paisajes interiores'?",
+          "¿Hacia dónde se exilió Matta con el estallido de la Segunda Guerra Mundial?",
+          "¿Entre quiénes actuó como un puente intelectual tras su llegada a Estados Unidos?",
+          "¿Qué movimiento artístico inspiró profundamente su estilo innovador?",
+          "¿A qué se asemejaban sus inmensos lienzos llenos de formas cósmicas y energía caótica?"
+        ],
+        "answerKey": [
+          "En la ciudad de Santiago, Chile.",
+          "Abandonó la profesión de arquitecto.",
+          "Eran proyecciones fascinantes del subconsciente y emociones complejas.",
+          "Se exilió en la ciudad de Nueva York.",
+          "Entre el surrealismo europeo y los jóvenes creadores estadounidenses.",
+          "El Expresionismo Abstracto.",
+          "Parecían visiones futuristas de galaxias lejanas."
+        ]
+      }
+    }
+  }
 
 
   
