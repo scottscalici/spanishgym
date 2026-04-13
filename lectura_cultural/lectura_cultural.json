@@ -12387,6 +12387,76 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "Rigoberta Menchú",
+    "imageFileName": "rigoberta_menchu.png",
+    "bundles": ["historia_y_lideres", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Rigoberta Menchú is a famous activist from Guatemala. She belongs to the Maya K'iche' indigenous group. For many years, her country suffered a terrible civil war, and her family experienced great tragedy. Rigoberta decided to fight peacefully for the 'derechos humanos' (human rights) of indigenous people. Because of her bravery and hard work sharing her story with the world, she won the 'Premio Nobel de la Paz' (Nobel Peace Prize) in 1992. Today, she continues to be a powerful symbol of justice and equality in Latin America.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is the famous activist Rigoberta Menchú from?",
+          "What indigenous group does she belong to?",
+          "What did her country suffer for many years?",
+          "What did Rigoberta decide to fight peacefully for?",
+          "What important prize did she win in 1992?",
+          "What does she continue to be a powerful symbol of today?"
+        ],
+        "answerKey": [
+          "She is from Guatemala.",
+          "The Maya K'iche' indigenous group.",
+          "A terrible civil war.",
+          "The human rights (derechos humanos) of indigenous people.",
+          "The Nobel Peace Prize (Premio Nobel de la Paz).",
+          "Justice and equality in Latin America."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Rigoberta Menchú es una mujer indígena de Guatemala. Ella es parte del grupo Maya K'iche'. Cuando ella era joven, hubo una guerra civil muy terrible en su país y su familia sufrió mucho. Rigoberta decidió luchar por los derechos humanos de las personas indígenas, pero de una manera pacífica. Ella habló con el mundo sobre los problemas en Guatemala. Por su trabajo importante y su valentía, Rigoberta ganó el Premio Nobel de la Paz en 1992. Hoy en día, ella todavía trabaja para ayudar a su comunidad y defender la justicia.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De dónde es la mujer indígena Rigoberta Menchú?",
+          "¿De qué grupo es parte ella?",
+          "¿Qué hubo en su país cuando ella era joven?",
+          "¿Por qué decidió luchar Rigoberta de una manera pacífica?",
+          "¿Qué premio importante ganó Rigoberta en el año 1992?",
+          "¿Para qué trabaja ella todavía hoy en día?"
+        ],
+        "answerKey": [
+          "Es de Guatemala.",
+          "Es parte del grupo Maya K'iche'.",
+          "Hubo una guerra civil muy terrible.",
+          "Por los derechos humanos de las personas indígenas.",
+          "Ganó el Premio Nobel de la Paz.",
+          "Para ayudar a su comunidad y defender la justicia."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Rigoberta Menchú es una destacada líder indígena y activista guatemalteca, perteneciente a la etnia maya k'iche'. Durante la cruenta guerra civil que asoló Guatemala, su familia fue víctima de una brutal represión. Ante esta injusticia, Menchú dedicó su vida a denunciar pacíficamente las atrocidades cometidas por el ejército y a defender los derechos humanos de los pueblos originarios. En 1992, su incansable labor fue reconocida internacionalmente cuando fue galardonada con el Premio Nobel de la Paz, convirtiéndose en la primera mujer indígena en recibir este honor. Su testimonio y activismo siguen inspirando la lucha por la igualdad y la justicia social.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿A qué etnia pertenece la destacada líder indígena y activista guatemalteca?",
+          "¿De qué fue víctima su familia durante la cruenta guerra civil?",
+          "¿A qué dedicó su vida Menchú ante esta injusticia?",
+          "¿Cuándo fue galardonada con el Premio Nobel de la Paz?",
+          "¿En qué se convirtió al recibir este prestigioso honor internacional?",
+          "¿Qué siguen inspirando su testimonio y activismo en la actualidad?"
+        ],
+        "answerKey": [
+          "Pertenece a la etnia maya k'iche'.",
+          "Fue víctima de una brutal represión.",
+          "A denunciar pacíficamente las atrocidades y defender los derechos humanos.",
+          "En 1992.",
+          "En la primera mujer indígena en recibir este honor.",
+          "La lucha por la igualdad y la justicia social."
+        ]
+      }
+    }
   }
   
 
