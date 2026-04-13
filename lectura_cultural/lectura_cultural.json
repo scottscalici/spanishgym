@@ -12767,6 +12767,310 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "Santiago Ramón y Cajal",
+    "imageFileName": "santiago_ramon_cajal.png",
+    "bundles": ["historia_y_lideres", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Santiago Ramón y Cajal is one of the most brilliant and famous scientists in history. He was born in 1852 in a very small town called Petilla de Aragón in Spain. As a young boy, he was extremely rebellious and had a massive passion for art and drawing. However, his father was a doctor and strongly pressured him to study medicine. Santiago eventually agreed, and he became a doctor too, but he never lost his incredible talent for 'el dibujo' (drawing).\n\nIn the late 1800s, Santiago started to study the human brain using a very old microscope. At that time, most scientists believed that the brain was one single, giant connected web. Santiago used his artistic skills and a special staining technique to look closer than anyone else. He made a revolutionary discovery: he proved that the brain is actually made of billions of individual, separate cells. He called these cells 'neuronas' (neurons). This discovery is known as the 'doctrina de la neurona' (neuron doctrine).\n\nHis drawings of the brain were so detailed and beautiful that they looked like professional masterpieces. Because of his amazing work and his dedication to science, he is now known worldwide as the 'padre de la neurociencia' (father of neuroscience). In 1906, he won the highly prestigious 'Premio Nobel de Medicina' (Nobel Prize in Medicine). This was a massive honor for him and for the country of Spain.\n\nSantiago Ramón y Cajal proved that science and art can work together to change the world. Today, his detailed drawings are still used by students and doctors to understand how the brain works. He remains a powerful symbol of curiosity, hard work, and Spanish scientific excellence.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where and when was Santiago Ramón y Cajal born?",
+          "What was his true passion when he was a young boy?",
+          "What did most scientists believe about the brain before Santiago's discovery?",
+          "What did Santiago discover that the brain is actually made of?",
+          "What is the name of the revolutionary discovery he made?",
+          "What prestigious prize did he win in the year 1906?",
+          "What is he known as worldwide today?"
+        ],
+        "answerKey": [
+          "He was born in 1852 in Petilla de Aragón, Spain.",
+          "His passion was art and drawing.",
+          "They believed the brain was one single, giant connected web.",
+          "He discovered it is made of individual, separate cells called neurons.",
+          "The 'doctrina de la neurona' (neuron doctrine).",
+          "The Nobel Prize in Medicine (Premio Nobel de Medicina).",
+          "The 'padre de la neurociencia' (father of neuroscience)."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Santiago Ramón y Cajal es uno de los científicos más brillantes y famosos de la historia. Él nació en el año 1852 en un pueblo muy pequeño llamado Petilla de Aragón, en España. Cuando era un niño, él era muy rebelde y tenía una gran pasión por el arte y el dibujo. Sin embargo, su padre era médico y lo presionó mucho para estudiar medicina. Santiago finalmente aceptó y se convirtió en médico también, pero él nunca perdió su talento increíble para el dibujo.\n\nA finales del siglo diecinueve, Santiago empezó a estudiar el cerebro humano usando un microscopio muy viejo. En ese tiempo, la mayoría de los científicos creían que el cerebro era una red gigante y conectada. Santiago usó sus habilidades artísticas y una técnica especial para mirar el cerebro más cerca que otras personas. Él hizo un descubrimiento revolucionario: él demostró que el cerebro está formado por billones de células individuales y separadas. Él llamó a estas células 'neuronas'. Este descubrimiento es conocido como la 'doctrina de la neurona'.\n\nSus dibujos del cerebro eran tan detallados y hermosos que parecían obras maestras profesionales. Por su trabajo increíble y su dedicación a la ciencia, él es conocido hoy en todo el mundo como el 'padre de la neurociencia'. En el año 1906, él ganó el prestigioso Premio Nobel de Medicina. Este fue un honor masivo para él y para su país, España.\n\nSantiago Ramón y Cajal demostró que la ciencia y el arte pueden trabajar juntos para cambiar el mundo. Hoy en día, sus dibujos detallados todavía son usados por estudiantes y doctores para comprender el cerebro. Él sigue siendo un símbolo de curiosidad, trabajo duro y excelencia científica española.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué año nació Santiago Ramón y Cajal y en qué país?",
+          "¿Qué pasión tenía él cuando era niño antes de ser médico?",
+          "¿Qué instrumento viejo usó él para estudiar el cerebro humano?",
+          "¿Qué creían los otros científicos sobre el cerebro en esa época?",
+          "¿Cómo llamó Santiago a las células individuales que descubrió?",
+          "¿Qué premio muy importante ganó él en el año 1906?",
+          "¿Cómo es conocido él en todo el mundo hoy en día?"
+        ],
+        "answerKey": [
+          "Nació en 1852 en España.",
+          "Tenía una gran pasión por el arte y el dibujo.",
+          "Usó un microscopio muy viejo.",
+          "Creían que el cerebro era una red gigante y conectada.",
+          "Llamó a las células 'neuronas'.",
+          "Ganó el Premio Nobel de Medicina.",
+          "Es conocido como el 'padre de la neurociencia'."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Santiago Ramón y Cajal es indiscutiblemente la figura más trascendental en la historia de la medicina española y un pilar fundamental de la ciencia universal. Nacido en 1852 en Petilla de Aragón, Cajal poseía un espíritu indomable y una inclinación artística innata que lo llevó a destacar en el dibujo y la pintura desde su infancia. Pese a su deseo de dedicarse al arte, la influencia de su padre lo encaminó hacia la medicina, carrera en la que eventualmente lograría fusionar sus dos grandes pasiones.\n\nA finales del siglo XIX, Cajal se sumergió en el estudio del sistema nervioso central utilizando un microscopio rudimentario. En aquel entonces, la teoría predominante sostenía que el cerebro era una red continua de fibras conectadas. Mediante la aplicación de una técnica de tinción de plata, Cajal pudo observar con una claridad sin precedentes la arquitectura cerebral. Fue así como postuló la revolucionaria 'doctrina de la neurona', demostrando que el tejido nervioso no era una estructura unitaria, sino un conjunto de células individuales e independientes que se comunican entre sí.\n\nSu labor no solo fue científica, sino también estética; sus ilustraciones de las estructuras neuronales son consideradas auténticas joyas del dibujo técnico por su precisión y belleza. Gracias a este hallazgo monumental, Cajal fue galardonado con el Premio Nobel de Fisiología o Medicina en 1906, convirtiéndose en el primer español en recibir un Nobel en ciencias. Hoy es aclamado mundialmente como el 'padre de la neurociencia'.\n\nEl legado de Cajal trasciende sus descubrimientos; representa la victoria de la voluntad y la observación sobre los prejuicios científicos de su época. Sus minuciosos dibujos continúan siendo referentes esenciales en las facultades de medicina de todo el planeta, consolidándolo como un genio que descifró los misterios más profundos del pensamiento humano.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cuál es el origen de Santiago Ramón y Cajal y qué vocación artística poseía?",
+          "¿Qué profesión terminó estudiando debido a la fuerte influencia de su padre?",
+          "¿Cuál era la teoría predominante sobre la estructura del cerebro antes de Cajal?",
+          "¿En qué consiste la revolucionaria 'doctrina de la neurona' que él postuló?",
+          "¿Qué cualidad especial poseen sus ilustraciones de las estructuras neuronales?",
+          "¿Qué distinción internacional recibió en 1906 por sus hallazgos monumentales?",
+          "¿Por qué se le considera el 'padre de la neurociencia' en la actualidad?"
+        ],
+        "answerKey": [
+          "Nació en Petilla de Aragón en 1852 y poseía una inclinación por el dibujo y la pintura.",
+          "Estudió la carrera de medicina.",
+          "Se creía que el cerebro era una red continua de fibras conectadas.",
+          "Demostró que el cerebro está formado por células individuales e independientes.",
+          "Son consideradas auténticas joyas por su precisión técnica y belleza estética.",
+          "Recibió el Premio Nobel de Fisiología o Medicina.",
+          "Porque descifró los misterios de la estructura del sistema nervioso y sus descubrimientos son fundamentales."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Córdoba",
+    "imageFileName": "cordoba_espana.png",
+    "bundles": ["geografia_y_maravillas", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Córdoba is a beautiful and historic city located in the sunny southern region of Andalusia, Spain. More than a thousand years ago, during the time of Islamic rule known as Al-Andalus, Córdoba was the largest, richest, and most advanced city in all of Europe. It was a massive center for education, science, and art where Muslims, Christians, and Jews lived together and shared their cultures.\n\nThe most famous landmark in the city is a spectacular building called 'La Mezquita-Catedral' (The Mosque-Cathedral). Originally built as a massive, beautiful mosque for Muslim worshippers, it is famous all over the world for its giant forest of columns and its iconic red and white striped arches. Hundreds of years later, when Christian kings conquered the city, they built a towering Catholic cathedral right in the middle of the original mosque. Today, it stands as a fascinating, unique symbol of the city's complex religious history.\n\nBesides its incredible history, Córdoba is also very famous for its colorful, vibrant culture. Every month of May, the city celebrates the 'Festival de los Patios' (Festival of the Courtyards). During this joyful celebration, local people open the private courtyards of their homes to the public. These beautiful spaces are completely covered from top to bottom with hundreds of bright, colorful flowers in blue pots.\n\nWalking through the narrow, winding streets of the old Jewish quarter feels like traveling back in time. Today, Córdoba is a peaceful, welcoming city that proudly protects its incredible history. Because of its massive cultural importance, it has been recognized as a World Heritage site, attracting millions of amazed visitors every single year.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is the historic city of Córdoba located?",
+          "What was the city like during the time of Islamic rule known as Al-Andalus?",
+          "What is the most famous landmark in the city called?",
+          "What is the original mosque famous all over the world for?",
+          "What did Christian kings build right in the middle of the original mosque?",
+          "What joyful celebration does the city host every month of May?",
+          "What are the private courtyards completely covered with during the festival?"
+        ],
+        "answerKey": [
+          "In the sunny southern region of Andalusia, Spain.",
+          "It was the largest, richest, and most advanced city in all of Europe.",
+          "It is called 'La Mezquita-Catedral' (The Mosque-Cathedral).",
+          "Its giant forest of columns and its iconic red and white striped arches.",
+          "A towering Catholic cathedral.",
+          "The 'Festival de los Patios' (Festival of the Courtyards).",
+          "Hundreds of bright, colorful flowers in blue pots."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Córdoba es una ciudad muy hermosa e histórica situada en la región soleada de Andalucía, en el sur de España. Hace más de mil años, durante el tiempo de los musulmanes en España (llamado Al-Ándalus), Córdoba era la ciudad más grande, rica y avanzada de toda Europa. Era un centro muy importante para la educación, la ciencia y el arte, donde musulmanes, cristianos y judíos vivían y compartían sus culturas.\n\nEl monumento más famoso de la ciudad es un edificio espectacular llamado la Mezquita-Catedral. Originalmente, fue construida como una mezquita masiva y hermosa para los musulmanes. Es muy famosa en todo el mundo por su gran bosque de columnas y sus arcos icónicos con rayas rojas y blancas. Cientos de años después, cuando los reyes cristianos conquistaron la ciudad, ellos construyeron una catedral católica gigante en el centro de la mezquita original. Hoy en día, es un símbolo fascinante de la historia religiosa de la ciudad.\n\nAdemás de su increíble historia, Córdoba también es muy famosa por su cultura colorida. Cada mes de mayo, la ciudad celebra el Festival de los Patios. Durante esta celebración feliz, las personas locales abren los patios privados de sus casas al público. Estos espacios hermosos están completamente cubiertos con cientos de flores brillantes y coloridas en macetas azules.\n\nCaminar por las calles estrechas del viejo barrio judío es como viajar en el tiempo. Hoy, Córdoba es una ciudad tranquila y simpática que protege su historia con orgullo. Por su gran importancia cultural, atrae a millones de visitantes sorprendidos todos los años.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde está situada la ciudad hermosa e histórica de Córdoba?",
+          "¿Cómo era Córdoba durante el tiempo de los musulmanes llamado Al-Ándalus?",
+          "¿Cómo se llama el edificio espectacular y más famoso de la ciudad?",
+          "¿Por qué es muy famosa la mezquita original en todo el mundo?",
+          "¿Qué construyeron los reyes cristianos en el centro de la mezquita original?",
+          "¿Qué celebración feliz ocurre en la ciudad cada mes de mayo?",
+          "¿Con qué están completamente cubiertos los patios privados durante esta celebración?"
+        ],
+        "answerKey": [
+          "En la región soleada de Andalucía, en el sur de España.",
+          "Era la ciudad más grande, rica y avanzada de toda Europa.",
+          "Se llama la Mezquita-Catedral.",
+          "Por su gran bosque de columnas y sus arcos icónicos con rayas rojas y blancas.",
+          "Construyeron una catedral católica gigante.",
+          "El Festival de los Patios.",
+          "Con cientos de flores brillantes y coloridas en macetas azules."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Córdoba es una ciudad monumental e inigualable ubicada en el corazón de Andalucía, en el sur de España. Durante la época de máximo esplendor del dominio islámico en la península ibérica, conocido como Al-Ándalus, Córdoba llegó a ser la metrópoli más poblada, próspera y culta de toda Europa occidental. Funcionaba como un faro de conocimiento y tolerancia donde eruditos musulmanes, cristianos y judíos convivían y fomentaban grandes avances en disciplinas como la medicina, la astronomía y la filosofía.\n\nLa joya arquitectónica indiscutible de la ciudad es la majestuosa Mezquita-Catedral. Erigida originalmente como un colosal templo islámico, es mundialmente aclamada por su interminable bosque de columnas y sus distintivos arcos de herradura bicolores, alternando franjas rojas y blancas. Siglos más tarde, tras la reconquista cristiana, se incrustó una imponente catedral renacentista en las entrañas mismas del edificio musulmán. Hoy en día, este asombroso sincretismo arquitectónico es un testimonio visual fascinante de la compleja historia religiosa de España.\n\nMás allá de su asombroso legado monumental, Córdoba deslumbra por sus arraigadas tradiciones primaverales. Cada mes de mayo, la ciudad estalla en color durante el célebre Festival de los Patios Cordobeses, declarado Patrimonio Inmaterial de la Humanidad. En esta festividad, los vecinos abren celosamente las puertas de sus floridos patios interiores, exhibiendo paredes enteras adornadas con deslumbrantes geranios y claveles en macetas azules.\n\nPasear por el laberinto de callejuelas empedradas de la antigua Judería es una experiencia verdaderamente inmersiva. En la actualidad, Córdoba ha sabido preservar su vasta herencia cultural de manera magistral, atrayendo anualmente a millones de turistas que buscan maravillarse con la grandeza perdurable de su deslumbrante pasado histórico.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué región se ubica esta ciudad monumental e inigualable?",
+          "¿En qué disciplinas fomentaban avances los eruditos durante la época de Al-Ándalus?",
+          "¿Cuál es la joya arquitectónica indiscutible de la ciudad de Córdoba?",
+          "¿Por qué elementos específicos es mundialmente aclamada la mezquita original?",
+          "¿Qué estructura se incrustó en las entrañas del edificio musulmán tras la reconquista?",
+          "¿Qué célebre festival primaveral ha sido declarado Patrimonio Inmaterial de la Humanidad?",
+          "¿Con qué flores deslumbrantes adornan los vecinos sus patios interiores durante la festividad?"
+        ],
+        "answerKey": [
+          "En el corazón de Andalucía, en el sur de España.",
+          "En disciplinas como la medicina, la astronomía y la filosofía.",
+          "La majestuosa Mezquita-Catedral.",
+          "Por su interminable bosque de columnas y sus distintivos arcos de herradura bicolores.",
+          "Una imponente catedral renacentista.",
+          "El Festival de los Patios Cordobeses.",
+          "Con deslumbrantes geranios y claveles en macetas azules."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "La Mezquita de Córdoba",
+    "imageFileName": "la_mezquita.png",
+    "bundles": ["geografia_y_maravillas", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "La Mezquita-Catedral de Córdoba is one of the most unique and spectacular buildings in the entire world. Located in the beautiful southern region of Andalusia, Spain, this massive structure tells the complicated and fascinating history of the country.\n\nConstruction of the 'mezquita' (mosque) originally began in the year 784 when Islamic leaders ruled the Iberian Peninsula. Over several centuries, different Muslim rulers expanded the building, making it the second-largest mosque in the entire Islamic world. It was designed to show the incredible power, wealth, and artistic brilliance of Al-Andalus. The most famous feature of the mosque is its massive main hall. It is filled with a breathtaking forest of over 800 stone columns. These columns support beautiful, iconic double arches decorated with distinct red and white stripes.\n\nIn the year 1236, Christian forces conquered the city of Córdoba. Instead of destroying this beautiful Islamic masterpiece, the new Christian leaders decided to keep it and use it as a 'catedral' (cathedral). Several hundred years later, they built a towering Catholic cathedral right in the exact center of the original mosque. Because of this, the building is an incredible mixture of two completely different religions and architectural styles.\n\nToday, millions of tourists visit La Mezquita every single year to walk through its peaceful, shaded halls and admire its history. It is recognized globally as a UNESCO World Heritage site. It stands as a powerful, permanent reminder of a time when different cultures and religions existed together, leaving a beautiful and lasting mark on the vibrant history of modern Spain.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is La Mezquita-Catedral located?",
+          "In what year did the construction of the mosque originally begin?",
+          "What is the most famous feature inside the main hall of the mosque?",
+          "What colors are the stripes on the iconic double arches?",
+          "What did the new Christian leaders decide to do with the building in 1236?",
+          "What was built in the exact center of the original mosque several hundred years later?",
+          "What global recognition does the building have today?"
+        ],
+        "answerKey": [
+          "In the southern region of Andalusia, Spain.",
+          "In the year 784.",
+          "A breathtaking forest of over 800 stone columns.",
+          "Distinct red and white stripes.",
+          "They kept it and used it as a Catholic cathedral.",
+          "A towering Catholic cathedral.",
+          "It is recognized as a UNESCO World Heritage site."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "La Mezquita-Catedral de Córdoba es uno de los edificios más únicos y espectaculares de todo el mundo. Situada en la hermosa región de Andalucía, en el sur de España, esta estructura masiva cuenta la historia complicada y fascinante del país.\n\nLa construcción de la mezquita empezó originalmente en el año 784, cuando los líderes islámicos controlaban la Península Ibérica. Durante varios siglos, diferentes líderes musulmanes expandieron el edificio, convirtiéndolo en la segunda mezquita más grande de todo el mundo islámico. Fue diseñada para mostrar el increíble poder, la riqueza y el brillo artístico de Al-Ándalus. La característica más famosa de la mezquita es su salón principal masivo. Está lleno de un bosque impresionante de más de ochocientas columnas de piedra. Estas columnas soportan arcos dobles muy hermosos e icónicos que están decorados con rayas rojas y blancas.\n\nEn el año 1236, las fuerzas cristianas conquistaron la ciudad de Córdoba. En vez de destruir esta hermosa obra maestra islámica, los nuevos líderes cristianos decidieron conservarla y usarla como una catedral. Varios cientos de años después, ellos construyeron una catedral católica gigante en el centro exacto de la mezquita original. Por esta razón, el edificio es una mezcla increíble de dos religiones y estilos arquitectónicos completamente diferentes.\n\nHoy en día, millones de turistas visitan la Mezquita todos los años para caminar por sus pasillos tranquilos y admirar su gran historia. Es reconocida globalmente como un sitio de Patrimonio de la Humanidad. Es un recordatorio poderoso y permanente de un tiempo cuando diferentes culturas y religiones dejaron una marca hermosa en la historia vibrante de España.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde está situada la Mezquita-Catedral?",
+          "¿En qué año empezó originalmente la construcción de la mezquita?",
+          "¿Cuál es la característica más famosa dentro del salón principal de la mezquita?",
+          "¿De qué colores son las rayas en los hermosos arcos dobles?",
+          "¿Qué decidieron hacer los líderes cristianos con el edificio en el año 1236?",
+          "¿Qué construyeron en el centro exacto de la mezquita original varios cientos de años después?",
+          "¿Qué reconocimiento global tiene el edificio hoy en día?"
+        ],
+        "answerKey": [
+          "En la región de Andalucía, en el sur de España.",
+          "Empezó en el año 784.",
+          "Un bosque impresionante de más de ochocientas columnas de piedra.",
+          "Son rayas rojas y blancas.",
+          "Decidieron conservarla y usarla como una catedral.",
+          "Construyeron una catedral católica gigante.",
+          "Es reconocida como un sitio de Patrimonio de la Humanidad."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La Mezquita-Catedral de Córdoba es, sin lugar a duda, uno de los monumentos arquitectónicos más deslumbrantes y singulares del mundo entero. Ubicada en la soleada región de Andalucía, esta imponente edificación es un testimonio visual extraordinario que narra la compleja y fascinante historia de la Península Ibérica.\n\nLa construcción de la mezquita original comenzó en el año 784 bajo el dominio del emirato omeya. A lo largo de varios siglos, sucesivos califas musulmanes ampliaron majestuosamente el recinto, transformándolo en la segunda mezquita más grande del mundo islámico de su época. Su diseño buscaba reflejar el inmenso poder, la opulencia y el esplendor cultural de Al-Ándalus. El elemento más emblemático y cautivador del edificio es su inmensa sala de oración, la cual alberga un hipnótico bosque compuesto por más de ochocientas columnas de mármol y granito. Estas columnas sostienen una impresionante red de arcos dobles de herradura, inconfundibles por sus características dovelas alternas en tonos rojos y blancos.\n\nEn el año 1236, las tropas cristianas reconquistaron la ciudad de Córdoba. En lugar de demoler esta joya del arte islámico, las autoridades cristianas decidieron consagrarla y adaptarla para el culto católico. Siglos más tarde, se erigió una colosal catedral de estilo renacentista en el mismísimo centro del antiguo oratorio musulmán. El resultado es un fascinante y atrevido sincretismo arquitectónico que fusiona dos cosmovisiones diametralmente opuestas.\n\nActualmente, la Mezquita-Catedral atrae a millones de visitantes maravillados cada año y ostenta el prestigioso título de Patrimonio de la Humanidad. Este monumento perdura como un símbolo majestuoso de la convergencia cultural que moldeó profundamente la identidad histórica de la España moderna.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde se ubica este monumento arquitectónico deslumbrante y singular?",
+          "¿Bajo qué dominio comenzó la construcción de la mezquita original en el año 784?",
+          "¿Qué alberga la inmensa sala de oración que es tan cautivadora?",
+          "¿Qué colores alternan las inconfundibles dovelas de la impresionante red de arcos dobles?",
+          "¿Qué decidieron hacer las autoridades tras la reconquista en lugar de demoler el edificio?",
+          "¿Qué estructura se erigió en el mismísimo centro del antiguo oratorio musulmán siglos más tarde?",
+          "¿Qué prestigioso título ostenta actualmente este fascinante monumento?"
+        ],
+        "answerKey": [
+          "En la soleada región de Andalucía.",
+          "Bajo el dominio del emirato omeya.",
+          "Un hipnótico bosque compuesto por más de ochocientas columnas de mármol y granito.",
+          "Tonos rojos y blancos.",
+          "Decidieron consagrarla y adaptarla para el culto católico.",
+          "Una colosal catedral de estilo renacentista.",
+          "El título de Patrimonio de la Humanidad."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Park Güell",
+    "imageFileName": "park_guell.png",
+    "bundles": ["geografia_y_maravillas", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Park Güell is a breathtaking and magical public park filled with gardens and unique architectural elements located on Carmel Hill in Barcelona, Spain. It was designed by the world-famous architect Antoni Gaudí, the greatest figure of Catalan Modernism. The park was built between 1900 and 1914 at the request of Eusebi Güell, a wealthy businessman who wanted to create a high-quality residential estate for rich families.\n\nGaudí’s design is truly incredible because he wanted to integrate the buildings perfectly with the natural environment. Instead of using straight lines, he used organic shapes that look like trees, caves, and mountains. One of the most famous techniques Gaudí used here is called 'trencadís.' This involves creating colorful 'mosaicos' (mosaics) by joining together small, broken pieces of ceramic and glass. You can see this beautiful style on the giant, winding bench that looks like a colorful snake.\n\nAt the main entrance, visitors are greeted by two 'casas' (houses) that look like they belong in a gingerbread fairy tale. As you walk up the grand staircase, you will find the most famous symbol of the park: a huge, colorful lizard or dragon covered in bright mosaics. This friendly 'salamandra' (salamander) is a popular spot for photos. \n\nToday, Park Güell is a UNESCO World Heritage site and one of the most visited places in Barcelona. It offers spectacular, panoramic views of the entire city and the Mediterranean Sea. It remains a powerful symbol of Gaudí's genius and a masterpiece that shows how human creativity and the beauty of nature can exist together in perfect harmony.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "In what Spanish city is the famous Park Güell located?",
+          "Who was the world-famous architect who designed the park?",
+          "What is the name of the technique using broken ceramic pieces to make mosaics?",
+          "What does the giant winding bench in the park look like?",
+          "What two things do the houses at the main entrance look like?",
+          "What animal is the most famous symbol of the park?",
+          "What can visitors see from the park besides the city of Barcelona?"
+        ],
+        "answerKey": [
+          "Barcelona, Spain.",
+          "Antoni Gaudí.",
+          "Trencadís.",
+          "It looks like a colorful snake.",
+          "A gingerbread fairy tale.",
+          "A huge, colorful lizard or dragon (salamander).",
+          "The Mediterranean Sea."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El Park Güell es un parque público impresionante y mágico lleno de jardines y elementos arquitectónicos únicos situado en la ciudad de Barcelona, España. Fue diseñado por el arquitecto mundialmente famoso Antoni Gaudí, la figura más importante del modernismo catalán. El parque fue construido entre 1900 y 1914 por encargo de Eusebi Güell, un empresario rico que quería crear una urbanización de lujo para familias exclusivas.\n\nEl diseño de Gaudí es verdaderamente increíble porque él quería integrar los edificios perfectamente con la naturaleza. En vez de usar líneas rectas, él usó formas orgánicas que parecen árboles, cuevas y montañas. Una de las técnicas más famosas que Gaudí usó aquí se llama 'trencadís'. Esta técnica consiste en crear mosaicos coloridos uniendo piezas pequeñas y rotas de cerámica y vidrio. Puedes ver este estilo hermoso en el banco largo que tiene forma de serpiente.\n\nEn la entrada principal, hay dos casas que parecen de un cuento de hadas. Al subir la gran escalera, los visitantes encuentran el símbolo más famoso del parque: una salamandra grande y colorida cubierta de mosaicos brillantes. Esta salamandra es el lugar favorito de los turistas para sacar fotos. Es un ejemplo perfecto de la creatividad de Gaudí.\n\nHoy en día, el Park Güell es un sitio de Patrimonio de la Humanidad por la UNESCO y uno de los lugares más visitados de Barcelona. Ofrece vistas panorámicas espectaculares de toda la ciudad y del Mar Mediterráneo. Sigue siendo un símbolo del genio de Gaudí y una obra maestra que demuestra cómo la creatividad humana y la belleza de la naturaleza pueden vivir juntas en armonía perfecta.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad española está situado el impresionante Park Güell?",
+          "¿Quién fue el arquitecto famoso que diseñó este parque mágico?",
+          "¿Para qué tipo de familias quería Eusebi Güell crear una urbanización?",
+          "¿Qué tipo de formas usó Gaudí en vez de usar líneas rectas?",
+          "¿En qué consiste la técnica famosa llamada 'trencadís'?",
+          "¿Qué forma tiene el banco largo decorado con mosaicos?",
+          "¿Cuál es el símbolo más famoso que está en la gran escalera del parque?"
+        ],
+        "answerKey": [
+          "En Barcelona, España.",
+          "Antoni Gaudí.",
+          "Para familias ricas y exclusivas.",
+          "Usó formas orgánicas (que parecen árboles, cuevas y montañas).",
+          "Consiste en crear mosaicos con piezas pequeñas y rotas de cerámica.",
+          "Tiene forma de serpiente.",
+          "Una salamandra grande y colorida."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El Park Güell es, sin duda, una de las obras más emblemáticas y fascinantes de Barcelona, representando la culminación del genio creativo de Antoni Gaudí. Situado en la vertiente que mira al mar de la montaña del Carmelo, este parque fue concebido inicialmente como un proyecto residencial de lujo encargado por el mecenas Eusebi Güell. Aunque el proyecto comercial fracasó, el espacio se transformó en un jardín público que constituye un manifiesto inigualable del modernismo catalán y del naturalismo arquitectónico.\n\nLa genialidad de Gaudí en el Park Güell reside en su capacidad para mimetizar la arquitectura con el entorno natural circundante. El arquitecto evitó las rigideces de la geometría clásica, optando por estructuras sinuosas y columnas inclinadas que emulan formas pétreas, troncos de árboles y grutas naturales. En este recinto, Gaudí perfeccionó la técnica del 'trencadís', una modalidad de mosaico realizada con fragmentos cerámicos de desecho, la cual alcanza su máxima expresión en el sinuoso banco de la Plaza de la Naturaleza, que serpentea ofreciendo una explosión de color.\n\nAl franquear la entrada, flanqueada por pabellones que evocan la estética de los cuentos de los hermanos Grimm, el visitante se encuentra con la monumental escalinata presidida por la emblemática salamandra de mosaico, símbolo indiscutible del parque. Este espacio desemboca en la Sala Hipóstila, un bosque de ochenta y seis columnas de orden dórico que originalmente debía albergar el mercado de la urbanización.\n\nDeclarado Patrimonio de la Humanidad por la UNESCO en 1984, el Park Güell no es solo un destino turístico masivo, sino un santuario donde la piedra parece cobrar vida. Desde sus terrazas, se obtienen algunas de las vistas más espectaculares de la Ciudad Condal, consolidando el parque como un legado eterno de la simbiosis perfecta entre la inventiva humana y el paisaje mediterráneo.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué representa el Park Güell respecto a la trayectoria de Antoni Gaudí?",
+          "¿Cuál era el propósito comercial inicial de Eusebi Güell para este espacio?",
+          "¿De qué manera logró Gaudí mimetizar la arquitectura con el entorno?",
+          "¿Qué estructuras sinuosas emulan elementos de la naturaleza en el parque?",
+          "¿En qué consiste la técnica del 'trencadís' perfeccionada por Gaudí?",
+          "¿Qué edificios evocan la estética de los cuentos de los hermanos Grimm?",
+          "¿Qué estructura estaba destinada originalmente a albergar el mercado de la urbanización?"
+        ],
+        "answerKey": [
+          "Representa la culminación de su genio creativo y el naturalismo arquitectónico.",
+          "Crear un proyecto residencial (urbanización) de lujo.",
+          "Evitando la geometría clásica y usando estructuras que emulan formas naturales.",
+          "Las columnas inclinadas y el banco que serpentea.",
+          "Es un mosaico realizado con fragmentos cerámicos de desecho.",
+          "Los pabellones de la entrada principal.",
+          "La Sala Hipóstila (el bosque de ochenta y seis columnas)."
+        ]
+      }
+    }
   }
 
 
