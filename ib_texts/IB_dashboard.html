@@ -65,14 +65,14 @@
         .blank-line { border-bottom: 1px dashed #000; height: 1.2rem; width: 100%; margin-top: 5px; }
         .mcq-options { margin-left: 30px; margin-top: 6px; }
 
-        /* Index Page Styles */
-        .index-page-content { padding-top: 1in; }
-        .index-main-title { font-size: 2.5rem; color: #1a365d; text-align: center; text-transform: uppercase; margin-bottom: 40px; border-bottom: 4px solid #ecc94b; padding-bottom: 15px; font-weight: 900;}
-        .index-worksheet-group { margin-bottom: 30px; }
-        .index-worksheet-title { font-size: 1.4rem; font-weight: bold; color: #b71c1c; margin-bottom: 12px; background-color: #f7fafc; padding: 8px 15px; border-radius: 6px; border-left: 5px solid #b71c1c;}
-        .index-text-list { list-style-type: none; padding-left: 20px; font-size: 1.1rem; line-height: 1.6; color: black; }
-        .index-text-list li { margin-bottom: 10px; border-bottom: 1px dashed #cbd5e0; padding-bottom: 5px; }
-
+     /* Index Page Styles - COMPACT VERSION */
+        .index-page-content { padding-top: 0.5in; } 
+        .index-main-title { font-size: 2rem; color: #1a365d; text-align: center; text-transform: uppercase; margin-bottom: 25px; border-bottom: 4px solid #ecc94b; padding-bottom: 10px; font-weight: 900;}
+        .index-worksheet-group { margin-bottom: 15px; } 
+        .index-worksheet-title { font-size: 1.1rem; font-weight: bold; color: #b71c1c; margin-bottom: 6px; background-color: #f7fafc; padding: 6px 12px; border-radius: 6px; border-left: 5px solid #b71c1c;}
+        .index-text-list { list-style-type: none; padding-left: 20px; font-size: 0.95rem; line-height: 1.4; color: black; }
+        .index-text-list li { margin-bottom: 5px; border-bottom: 1px dashed #cbd5e0; padding-bottom: 4px; }
+        
         /* Answer Key Styles */
         .answer-key-main-header { color: #d93025; text-align: center; font-weight: bold; font-size: 1.8rem; border: 3px solid #d93025; padding: 15px; margin-bottom: 30px; text-transform: uppercase;}
         .key-grid { column-count: 2; column-gap: 30px; }
@@ -207,7 +207,7 @@
 function renderIndex(allWorksheetsData) {
             // Using a DocumentFragment allows us to return multiple pages at once
             const fragment = document.createDocumentFragment();
-            const itemsPerPage = 3;
+            const itemsPerPage = 6;
 
             // Loop through the data in chunks of 3
             for (let i = 0; i < allWorksheetsData.length; i += itemsPerPage) {
