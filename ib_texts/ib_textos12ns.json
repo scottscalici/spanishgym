@@ -1,0 +1,272 @@
+{
+  "worksheet": {
+    "title": "Práctica de Lectura IB: Nivel Superior (Modelo 12)",
+    "texts": [
+      {
+        "text_id": "A",
+        "title": "Texto A — Ecofeminismo: Las guardianas de la Amazonía",
+        "paragraphs": [
+          "La cuenca amazónica, un ecosistema de incalculable valor biológico que regula los ciclos climáticos del planeta entero, se encuentra sometida a un asedio extractivista sin precedentes. La deforestación descontrolada, la minería ilegal y la expansión de la frontera petrolera han fracturado un equilibrio natural de milenios. [ – 1 – ], de las profundidades de esta catástrofe medioambiental ha emergido una formidable vanguardia de resistencia: el movimiento de las mujeres indígenas amazónicas. Estas lideresas, provenientes de nacionalidades como la Waorani en Ecuador o la Kichwa en la selva peruana, han asumido la defensa frontal de sus territorios ancestrales, demostrando que la lucha ecológica es inseparable de la reivindicación de género.",
+          "Para estas comunidades, el bosque tropical trasciende la noción occidental de 'recurso natural' mercantilizable. La selva es concebida como un ente vivo, una entidad sagrada que provee sustento físico, medicinas botánicas y cohesión espiritual. [ – 2 – ] las industrias transnacionales derraman crudo en los ríos o talan extensiones masivas de bosque, el impacto recae de forma desproporcionada sobre las mujeres. Son ellas las principales garantes de la seguridad alimentaria familiar y las herederas del conocimiento etnobotánico, por lo que la destrucción de su entorno equivale a un asalto directo contra su supervivencia y su identidad cultural.",
+          "La metodología de resistencia de estas 'guardianas' ha evolucionado drásticamente. [ – 3 – ] recurrir exclusivamente a las protestas locales, han sofisticado su activismo articulando campañas globales y emprendiendo batallas jurídicas de alto nivel. Armadas con sistemas de posicionamiento global (GPS), drones y teléfonos inteligentes, patrullan sus territorios para documentar en tiempo real las infracciones ambientales. Posteriormente, utilizan estas pruebas irrefutables para demandar a corporaciones multinacionales y a sus propios gobiernos ante las cortes constitucionales, logrando sentencias históricas que prohíben la explotación en cientos de miles de hectáreas protegidas.",
+          "A pesar de sus victorias jurídicas sin precedentes, el escenario sobre el terreno sigue siendo estremecedor. América Latina se mantiene trágicamente como la región más letal del mundo para los defensores del medio ambiente. [ – 4 – ] este hostigamiento sistemático, las amenazas de muerte y la impunidad estructural, la determinación de estas mujeres permanece inquebrantable. Su estoica lucha nos interpela directamente, recordándonos que la preservación de la biósfera no es un asunto regional, sino un imperativo ético universal del cual depende la viabilidad de nuestra propia especie."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 1–4: Completar espacios en blanco. Elige de la lista el conector apropiado para rellenar los espacios en el texto. Hay más opciones de las necesarias.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "Sin embargo",
+              "B": "En lugar de",
+              "C": "Cuando",
+              "D": "A pesar de",
+              "E": "Por lo tanto",
+              "F": "Además",
+              "G": "Mientras que"
+            },
+            "questions": [
+              { "number": 1, "prompt": "Espacio [ – 1 – ]", "answer": "A", "points": 1 },
+              { "number": 2, "prompt": "Espacio [ – 2 – ]", "answer": "C", "points": 1 },
+              { "number": 3, "prompt": "Espacio [ – 3 – ]", "answer": "B", "points": 1 },
+              { "number": 4, "prompt": "Espacio [ – 4 – ]", "answer": "D", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 5–7: Identificación de referencia. ¿A qué se refieren las siguientes palabras en el texto?",
+            "type": "reference",
+            "questions": [
+              { "number": 5, "prompt": "Estas lideresas (párrafo 1)", "answer": "las mujeres indígenas amazónicas", "points": 1 },
+              { "number": 6, "prompt": "su entorno (párrafo 2)", "answer": "de las mujeres (o de estas comunidades)", "points": 1 },
+              { "number": 7, "prompt": "estas pruebas irrefutables (párrafo 3)", "answer": "las infracciones ambientales (documentadas con tecnología/drones/GPS)", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 8–11: Verdadero o Falso con justificación. Marca si la afirmación es verdadera (V) o falsa (F) y justifica tu respuesta usando las palabras exactas del texto. Ambas partes son necesarias para obtener el punto.",
+            "type": "true_false_justification",
+            "questions": [
+              { "number": 8, "prompt": "Para las mujeres indígenas, la selva es vista como un simple producto comercial que se puede comprar y vender.", "answer": "F, trasciende la noción occidental de 'recurso natural' mercantilizable (o: La selva es concebida como un ente vivo)", "points": 1 },
+              { "number": 9, "prompt": "Las mujeres son las que más sufren las consecuencias de la contaminación porque ellas son las responsables de alimentar y curar a la familia.", "answer": "V, Son ellas las principales garantes de la seguridad alimentaria familiar y las herederas del conocimiento etnobotánico", "points": 1 },
+              { "number": 10, "prompt": "Las guardianas utilizan únicamente lanzas y flechas tradicionales para enfrentarse a las empresas.", "answer": "F, Armadas con sistemas de posicionamiento global (GPS), drones y teléfonos inteligentes", "points": 1 },
+              { "number": 11, "prompt": "A pesar del peligro de muerte, el coraje de las activistas no ha disminuido en absoluto.", "answer": "V, la determinación de estas mujeres permanece inquebrantable", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 12–13: Respuestas cortas. Contesta basándote en el texto con la menor cantidad de palabras posible.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 12, "prompt": "Menciona una de las tres industrias o actividades humanas destructivas que amenazan la selva según el primer párrafo.", "answer": "La deforestación descontrolada / la minería ilegal / la expansión de la frontera petrolera (cualquiera de las tres)", "points": 1 },
+              { "number": 13, "prompt": "¿Ante qué entidades presentan las mujeres indígenas sus denuncias legales formales (párrafo 3)?", "answer": "(ante las) cortes constitucionales", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "B",
+        "title": "Texto B — Emancipación en la cumbre: Las cooperativas textiles andinas",
+        "paragraphs": [
+          "En las escarpadas e inhóspitas cumbres de la cordillera de los Andes, una revolución silenciosa y tejida a mano está reescribiendo el destino de miles de mujeres rurales. Históricamente, las campesinas indígenas de Perú, Bolivia y Ecuador han padecido una marginación interseccional, excluidas del sistema educativo formal y relegadas exclusivamente a las exhaustivas labores domésticas no remuneradas. Sin embargo, en las últimas décadas, el dominio de técnicas textiles ancestrales, transmitidas matrilinealmente, ha dejado de ser una simple tarea de supervivencia invernal para metamorfosearse en una poderosa herramienta de emancipación económica y empoderamiento sociopolítico.",
+          "El catalizador de este profundo cambio estructural ha sido la formación de cooperativas de base comunitaria. Antes, las tejedoras operaban en un aislamiento vulnerable, obligadas a malvender sus prendas de lana de alpaca y vicuña a intermediarios explotadores que acaparaban casi la totalidad del margen de beneficio. Al agruparse en cooperativas sólidamente organizadas, las artesanas han eliminado la figura del intermediario rapaz. Conjuntamente, logran acceder a microcréditos para adquirir esquiladoras mecánicas, estandarizar los procesos de teñido natural y comercializar sus diseños de alta costura directamente en el competitivo mercado internacional.",
+          "Las repercusiones socioeconómicas de esta independencia financiera en el núcleo familiar andino son extraordinarias. Proveídas de sus propios ingresos, las mujeres han comenzado a desmantelar la arraigada jerarquía patriarcal de sus hogares. Ahora participan activamente en las decisiones financieras, priorizando la inversión en nutrición infantil y garantizando la escolarización de sus hijas. Este último aspecto es crucial, ya que al observar a sus madres convertidas en lideresas empresariales, las niñas andinas crecen bajo un nuevo paradigma psicológico, rompiendo definitivamente la cadena intergeneracional de pobreza y sumisión.",
+          "El fulgurante éxito de estas prendas en Europa y Norteamérica no se debe exclusivamente a su impecable calidad estética y abrigo natural, sino a su perfecta alineación con los principios del 'comercio justo' (Fair Trade). El consumidor moderno del hemisferio norte, cada vez más crítico y consciente, rechaza la explotación inherente a la moda industrializada y busca activamente la trazabilidad ética de sus compras. Así, al adquirir una prenda cooperativa, el cliente no solo viste un fragmento del patrimonio andino, sino que financia directamente la dignidad y los derechos fundamentales de sus creadoras."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 14–17: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para cada párrafo. Hay más opciones de las necesarias.",
+            "type": "matching",
+            "options": {
+              "A": "La alteración de los roles de género y el futuro de las niñas",
+              "B": "La caída de las ventas textiles en el mercado extranjero",
+              "C": "La organización colectiva frente a la explotación comercial",
+              "D": "El fin del trabajo en el campo por falta de tecnología",
+              "E": "La transformación de un legado familiar en libertad financiera",
+              "F": "El valor añadido de la moda ética para el comprador global"
+            },
+            "questions": [
+              { "number": 14, "prompt": "Párrafo 1", "answer": "E", "points": 1 },
+              { "number": 15, "prompt": "Párrafo 2", "answer": "C", "points": 1 },
+              { "number": 16, "prompt": "Párrafo 3", "answer": "A", "points": 1 },
+              { "number": 17, "prompt": "Párrafo 4", "answer": "F", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 18–21: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 18, "prompt": "difíciles de habitar / crueles o severas (párrafo 1)", "answer": "inhóspitas", "points": 1 },
+              { "number": 19, "prompt": "transformarse / cambiar de forma radical (párrafo 1)", "answer": "metamorfosearse", "points": 1 },
+              { "number": 20, "prompt": "abusador / que se apodera de las cosas con codicia (párrafo 2)", "answer": "rapaz", "points": 1 },
+              { "number": 21, "prompt": "destruir / deshacer una estructura organizativa (párrafo 3)", "answer": "desmantelar", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 22–24: Opción múltiple. Elige la respuesta correcta (A, B, C o D).",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 22,
+                "prompt": "En el pasado, las mujeres andinas vendían sus productos muy baratos porque (párrafo 2)...",
+                "options": {
+                  "A": "las alpacas producían una lana de muy mala calidad.",
+                  "B": "el gobierno les obligaba a pagar impuestos excesivos.",
+                  "C": "trabajaban aisladas y dependían de comerciantes que se quedaban con las ganancias.",
+                  "D": "sus diseños no gustaban en absoluto a los turistas europeos."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 23,
+                "prompt": "Según el párrafo 3, ¿cuál es uno de los efectos más duraderos del empoderamiento económico de estas mujeres?",
+                "options": {
+                  "A": "Las niñas abandonan los estudios para ponerse a tejer y ganar dinero.",
+                  "B": "Inspiran a la siguiente generación de niñas a no aceptar una vida de sumisión.",
+                  "C": "Los hombres de la comunidad tienen que buscar trabajo en las grandes ciudades.",
+                  "D": "Las familias andinas se mudan a Estados Unidos para vender su ropa directamente."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 24,
+                "prompt": "De acuerdo con el párrafo 4, el 'consumidor moderno' compra estos productos porque...",
+                "options": {
+                  "A": "son la opción más barata disponible en las tiendas europeas.",
+                  "B": "quiere vestir con el estilo de los antiguos líderes incas.",
+                  "C": "valora que el proceso de fabricación respete los derechos humanos y la ética.",
+                  "D": "las fábricas industriales han dejado de producir ropa de invierno."
+                },
+                "answer": "C",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 25–27: Relacionar mitades de oraciones. Relaciona la primera parte de la frase con su final correcto.",
+            "type": "matching",
+            "options": {
+              "A": "...eran exclusivas de los hombres de la comunidad andina.",
+              "B": "...restringieron las oportunidades educativas y laborales de las campesinas.",
+              "C": "...ayudan a financiar la compra de maquinaria y la mejora de los procesos.",
+              "D": "...son un obstáculo para la creatividad de las diseñadoras locales.",
+              "E": "...se aseguran de que sus hijas reciban una educación formal y adecuada."
+            },
+            "questions": [
+              { "number": 25, "prompt": "Las marginaciones históricas sufridas por motivos de raza y género...", "answer": "B", "points": 1 },
+              { "number": 26, "prompt": "Los pequeños préstamos económicos obtenidos por la cooperativa...", "answer": "C", "points": 1 },
+              { "number": 27, "prompt": "Con sus nuevas ganancias financieras, las madres andinas...", "answer": "E", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — El telar de los silencios",
+        "paragraphs": [
+          "El sótano de climatización controlada del Museo Nacional de Arqueología estaba envuelto en un silencio casi sepulcral, interrumpido únicamente por el zumbido constante de los deshumidificadores. Elena, iluminada por la pálida luz de su lámpara de aumento, se inclinó sobre la vasta mesa de acero quirúrgico. Frente a ella reposaba el Manto de Paria, una pieza textil precolombina de proporciones inusitadas que acababa de ser desenterrada de una tumba en el desierto costero. El tejido, elaborado con finísimos hilos de algodón y lana de vicuña, resplandecía con tintes de grana y lapislázuli que desafiaban arrogantemente los estragos de mil años de enterramiento.",
+          "Con la delicadeza propia de una cirujana, Elena recorrió con sus dedos enguantados los intrincados 'tocapus', aquellos cuadrados geométricos que los antiguos imperios utilizaban a modo de lenguaje codificado. La historiografía oficial sostenía que estos símbolos eran meras representaciones heráldicas de la nobleza o registros de tributos agrícolas. Sin embargo, al examinar la orla inferior del manto, Elena detectó una anomalía perturbadora. Los patrones carmesíes no seguían la simetría repetitiva y monótona habitual; estaban interrumpidos por hilos de oro que trazaban ángulos agudos y líneas zigzagueantes, desafiando toda lógica textil ceremonial.",
+          "El corazón de la joven investigadora comenzó a latir con una fuerza que le retumbaba en las sienes. Tomó sus calibradores y un cuaderno de bocetos, copiando obsesivamente la disposición de los hilos dorados. Cuando terminó el esquema, la respiración se le atascó en la garganta. Aquello no era un adorno, ni un poema, ni un rezo a las deidades del sol. Era una cartografía de precisión escalofriante. Las líneas de oro trazaban la compleja red de los 'puquios', los acueductos subterráneos secretos que alimentaban una mítica ciudad del desierto que los conquistadores jamás lograron encontrar. El tejedor anónimo de hace diez siglos le estaba hablando directamente a ella, entregándole el mapa de la supervivencia de su pueblo cosido en un trozo de tela.",
+          "El chirrido de las pesadas puertas de seguridad la devolvió bruscamente a la realidad. Era el director del museo, un burócrata de traje gris conocido por vender hallazgos valiosos a coleccionistas extranjeros. 'Es una pieza estándar, doctora', dijo el hombre con desdén, ojeando el manto sin verdadero interés. 'Empaquétela. Se enviará a la exposición de París mañana a primera hora'.",
+          "Elena bajó la mirada hacia los hilos de oro, sintiendo el peso aplastante de la historia sobre sus hombros. Si revelaba su descubrimiento, la ciudad subterránea sería invadida, saqueada y destruida por corporaciones mineras en cuestión de meses. La arqueóloga asintió lentamente, deslizó con disimulo su cuaderno de bocetos dentro del bolsillo de su bata blanca y cubrió el manto sagrado con un plástico protector. 'Como usted ordene, señor director', mintió con voz firme. Había decidido convertirse en la nueva y solitaria guardiana de aquel antiguo secreto, protegiendo el legado del tejedor del mundo moderno y su infinita codicia."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 28–31: Selección múltiple. Selecciona las CUATRO frases verdaderas basándote en el texto literario. Escribe las letras (A-H) en las opciones.",
+            "type": "multiple_select",
+            "options": {
+              "A": "El Manto de Paria había perdido todo su color debido a los mil años que pasó enterrado.",
+              "B": "Elena descubrió que algunos hilos del manto no seguían el diseño geométrico tradicional.",
+              "C": "La teoría aceptada por los historiadores era que los tocapus servían como mapas de tesoros ocultos.",
+              "D": "El diseño de hilos dorados resultó ser un plano que mostraba la ubicación de agua subterránea.",
+              "E": "Elena creyó escuchar la voz de un fantasma antiguo hablándole dentro del museo.",
+              "F": "El director del museo menospreció el valor del manto y ordenó que fuera enviado a Francia.",
+              "G": "Elena informó inmediatamente al director sobre su descubrimiento arqueológico sin precedentes.",
+              "H": "La protagonista prefirió ocultar la verdad para proteger la ciudad antigua de posibles saqueadores."
+            },
+            "questions": [
+              { "number": "28-31", "prompt": "Selecciona las 4 verdaderas", "answer": ["B", "D", "F", "H"], "points": 4 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 32–35: Opción múltiple literaria. Elige la respuesta correcta basándote en el significado del texto.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 32,
+                "prompt": "En el párrafo 1, la frase 'desafiaban arrogantemente los estragos de mil años' se utiliza para destacar...",
+                "options": {
+                  "A": "la mala educación y actitud desafiante de Elena frente a sus superiores.",
+                  "B": "la agresividad con la que los antiguos guerreros pintaban sus uniformes.",
+                  "C": "la increíble resistencia y conservación del color en un tejido tan antiguo.",
+                  "D": "el poder de las máquinas deshumidificadoras del museo moderno."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 33,
+                "prompt": "La reacción física de Elena en el párrafo 3 (corazón latiendo fuerte, respiración atascada) indica que...",
+                "options": {
+                  "A": "estaba sufriendo un ataque de asma debido al polvo del sótano.",
+                  "B": "sentía una intensa conmoción y asombro al descifrar el verdadero propósito del tejido.",
+                  "C": "estaba aterrorizada de que el museo se derrumbara por un terremoto.",
+                  "D": "se dio cuenta de que había dañado el manto con sus instrumentos afilados."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 34,
+                "prompt": "La descripción del director como un 'burócrata de traje gris' (párrafo 4) sirve literariamente para oponerlo a...",
+                "options": {
+                  "A": "la pasión científica, el respeto y la curiosidad vibrante de Elena.",
+                  "B": "los políticos de París que valoran mucho el arte antiguo.",
+                  "C": "los antiguos dioses del sol que vestían ropas de colores apagados.",
+                  "D": "las corporaciones mineras que estaban construyendo túneles bajo el museo."
+                },
+                "answer": "A",
+                "points": 1
+              },
+              {
+                "number": 35,
+                "prompt": "La decisión final de Elena (párrafo 5) de mentir y guardar el boceto revela que su mayor motivación es...",
+                "options": {
+                  "A": "vender el mapa del tesoro en el mercado negro europeo para hacerse millonaria.",
+                  "B": "publicar un libro ella misma y robarle la fama al director del museo.",
+                  "C": "proteger la integridad del patrimonio histórico y evitar su explotación capitalista.",
+                  "D": "viajar sola al desierto para beber del agua de los acueductos subterráneos."
+                },
+                "answer": "C",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 36–38: Completar la oración basándose en el texto literario.",
+            "type": "matching",
+            "options": {
+              "A": "evitó la destrucción inminente de un valioso yacimiento oculto.",
+              "B": "pensaban que los tejidos solo indicaban estatus social o contabilidad agraria.",
+              "C": "resultó ser un sofisticado sistema de abastecimiento de agua.",
+              "D": "ocultaban maleficios o hechizos religiosos contra los invasores.",
+              "E": "fue confeccionado de forma aleatoria por un artista inexperto.",
+              "F": "se realizaba con un cuidado extremo y profesionalismo."
+            },
+            "questions": [
+              { "number": 36, "prompt": "El examen táctil que Elena realizó sobre la prenda antigua...", "answer": "F", "points": 1 },
+              { "number": 37, "prompt": "Antes de este descubrimiento, los círculos académicos...", "answer": "B", "points": 1 },
+              { "number": 38, "prompt": "El secreto trazado por las anomalías de los hilos de oro...", "answer": "C", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 39–40: Búsqueda de sinónimos literarios. Encuentra las palabras en el texto que coincidan con estos significados.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 39, "prompt": "poco comunes / muy extrañas o raras (párrafo 1)", "answer": "inusitadas", "points": 1 },
+              { "number": 40, "prompt": "desprecio / falta de respeto y consideración (párrafo 4)", "answer": "desdén", "points": 1 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
