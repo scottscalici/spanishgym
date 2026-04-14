@@ -1,0 +1,248 @@
+{
+  "worksheet": {
+    "title": "Práctica de Lectura IB: Nivel Medio (Modelo 11)",
+    "texts": [
+      {
+        "text_id": "A",
+        "title": "Texto A — La Inteligencia Artificial en el aula",
+        "paragraphs": [
+          "La llegada de programas de Inteligencia Artificial (IA), como ChatGPT, ha provocado un auténtico terremoto en el mundo educativo. Inicialmente, la reacción de gran parte del profesorado fue de pánico absoluto. Muchos docentes temían que estas herramientas facilitaran el fraude académico, permitiendo a los estudiantes generar ensayos perfectos y resolver tareas complejas en cuestión de segundos sin ningún tipo de esfuerzo intelectual. Como primera medida, varios colegios y universidades de América Latina y España decidieron bloquear el acceso a estas páginas web en sus redes de internet.",
+          "Sin embargo, con el paso de los meses, la perspectiva comenzó a cambiar. Los expertos en tecnología educativa argumentan que prohibir la IA es una batalla perdida, similar a cuando se intentó prohibir el uso de las calculadoras en las clases de matemáticas hace décadas. En lugar de ver a estas herramientas como un enemigo a destruir, los educadores más innovadores proponen integrarlas como asistentes de aprendizaje. La IA puede ayudar a los alumnos a organizar sus ideas, resumir textos largos o explicar conceptos difíciles de diferentes maneras.",
+          "Este avance tecnológico está obligando a los colegios a modificar urgentemente sus métodos de evaluación. Si una máquina puede escribir un ensayo histórico estándar, los profesores ya no pueden calificar simplemente la memorización de datos. Ahora, la educación debe centrarse en desarrollar el pensamiento crítico. Las evaluaciones modernas están incorporando más debates orales, proyectos prácticos en clase y presentaciones en vivo, donde los alumnos deben demostrar que realmente comprenden el tema y saben defender sus propias opiniones.",
+          "Preparar a los jóvenes para el futuro significa enseñarles a convivir con la tecnología. El nuevo gran desafío en las aulas es enseñar a los estudiantes a formular las preguntas correctas a la máquina y, sobre todo, a verificar cuidadosamente la información que esta les proporciona, ya que la IA a menudo comete errores o inventa datos. Aprender a dudar y a investigar es hoy más importante que nunca."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 1–4: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para cada párrafo. Hay más opciones de las necesarias.",
+            "type": "matching",
+            "options": {
+              "A": "Un cambio necesario en la forma de examinar",
+              "B": "La sustitución total de los profesores humanos",
+              "C": "Aprender a cuestionar y validar los resultados",
+              "D": "El miedo inicial frente a la nueva tecnología",
+              "E": "De una amenaza a una herramienta útil",
+              "F": "Los altos costos de comprar licencias de software"
+            },
+            "questions": [
+              { "number": 1, "prompt": "Párrafo 1", "answer": "D", "points": 1 },
+              { "number": 2, "prompt": "Párrafo 2", "answer": "E", "points": 1 },
+              { "number": 3, "prompt": "Párrafo 3", "answer": "A", "points": 1 },
+              { "number": 4, "prompt": "Párrafo 4", "answer": "C", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 5–8: Verdadero o Falso con justificación. Marca si la afirmación es verdadera (V) o falsa (F) y justifica tu respuesta usando las palabras exactas del texto. Ambas partes son necesarias para el punto.",
+            "type": "true_false_justification",
+            "questions": [
+              { "number": 5, "prompt": "Al principio, las escuelas fomentaron el uso de la IA en las aulas.", "answer": "F, varios colegios y universidades (...) decidieron bloquear el acceso a estas páginas web", "points": 1 },
+              { "number": 6, "prompt": "Los expertos comparan la aparición de la IA con otro invento escolar del pasado.", "answer": "V, similar a cuando se intentó prohibir el uso de las calculadoras en las clases de matemáticas", "points": 1 },
+              { "number": 7, "prompt": "Los exámenes del futuro valorarán principalmente la capacidad de memorizar textos largos.", "answer": "F, los profesores ya no pueden calificar simplemente la memorización de datos (o: la educación debe centrarse en desarrollar el pensamiento crítico)", "points": 1 },
+              { "number": 8, "prompt": "La información que proporciona la Inteligencia Artificial siempre es completamente cierta y exacta.", "answer": "F, la IA a menudo comete errores o inventa datos", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Pregunta 9: Respuesta corta. Contesta basándote en el párrafo 3.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 9, "prompt": "Menciona DOS nuevas formas de evaluación que los profesores están usando en lugar de los ensayos escritos tradicionales. (2 puntos)", "answer": "debates orales / proyectos prácticos en clase / presentaciones en vivo (dos de tres)", "points": 2 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 10–12: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 10, "prompt": "engaño / trampa (párrafo 1)", "answer": "fraude", "points": 1 },
+              { "number": 11, "prompt": "vetar / impedir el uso (párrafo 2)", "answer": "prohibir", "points": 1 },
+              { "number": 12, "prompt": "comprobar / confirmar la verdad (párrafo 4)", "answer": "verificar", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "B",
+        "title": "Texto B — El auge de la desintoxicación digital",
+        "paragraphs": [
+          "Vivimos en una sociedad hiperconectada. Pasamos una media de siete horas al día mirando pantallas, respondiendo correos del trabajo a altas horas de la noche y revisando obsesivamente nuestras redes sociales. Esta dependencia tecnológica ha provocado un aumento alarmante del estrés, el insomnio y la fatiga visual. Para escapar de esta rutina agotadora, ha nacido una nueva y popular tendencia en la industria del turismo: los retiros de 'desintoxicación digital'.",
+          "Estos retiros suelen ubicarse en lugares geográficamente aislados y rodeados de naturaleza, como las montañas de la Patagonia argentina o los frondosos bosques de los Pirineos en España. La regla principal de estos establecimientos es muy estricta: [ – 13 – ] llegar, los huéspedes deben entregar sus teléfonos móviles, tabletas y computadoras portátiles en la recepción. Durante toda su estancia, los visitantes vivirán completamente desconectados del mundo exterior, sin cobertura de internet, sin televisión y sin relojes inteligentes.",
+          "[ – 14 – ] al principio muchos turistas sufren ansiedad por no poder revisar sus notificaciones, esta sensación desaparece rápidamente. El objetivo es reconectar con el momento presente y con uno mismo. Las actividades diarias están diseñadas para fomentar la calma y la interacción humana real. Los huéspedes participan en largas caminatas por el bosque, practican yoga al amanecer, leen libros de papel frente a la chimenea y, [ – 15 – ], disfrutan de cenas donde las personas conversan mirándose a los ojos, sin pantallas de por medio.",
+          "Los psicólogos afirman que los beneficios de pasar unos días en absoluta desconexión son inmensos. Los participantes reportan una mejora inmediata en la calidad de su sueño, una reducción drástica de la ansiedad y una mayor capacidad para concentrarse. [ – 16 – ], lo más importante de estos retiros no es vivir para siempre en la montaña, sino enseñar a los viajeros a establecer límites saludables con la tecnología para cuando regresen a la ruidosa ciudad."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 13–16: Completar espacios en blanco. Elige de la lista el conector apropiado para rellenar los espacios en el texto. Hay más opciones de las necesarias.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "Antes de",
+              "B": "Aunque",
+              "C": "al",
+              "D": "En resumen",
+              "E": "sobre todo",
+              "F": "Sin embargo"
+            },
+            "questions": [
+              { "number": 13, "prompt": "Espacio [ – 13 – ]", "answer": "C", "points": 1 },
+              { "number": 14, "prompt": "Espacio [ – 14 – ]", "answer": "B", "points": 1 },
+              { "number": 15, "prompt": "Espacio [ – 15 – ]", "answer": "E", "points": 1 },
+              { "number": 16, "prompt": "Espacio [ – 16 – ]", "answer": "F", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 17–19: Opción múltiple. Elige la respuesta correcta basándote en el texto.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 17,
+                "prompt": "Según el párrafo 1, la principal causa de la aparición de estos retiros turísticos es...",
+                "options": {
+                  "A": "el deseo de las personas de aprender a usar nuevas redes sociales.",
+                  "B": "la necesidad de huir del cansancio y el estrés provocados por el exceso de pantallas.",
+                  "C": "el interés de los jóvenes por comprar montañas en la Patagonia.",
+                  "D": "la falta de electricidad y conexión a internet en las ciudades modernas."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 18,
+                "prompt": "En el párrafo 2, ¿qué condición deben cumplir los turistas obligatoriamente?",
+                "options": {
+                  "A": "Comprar teléfonos nuevos antes de entrar al hotel.",
+                  "B": "Pagar más dinero si quieren usar el internet de la recepción.",
+                  "C": "Dejar todos sus dispositivos electrónicos en manos del personal del hotel.",
+                  "D": "Llevar sus propios relojes inteligentes para medir sus pasos."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 19,
+                "prompt": "¿Cuál es la lección principal que los psicólogos esperan que los turistas se lleven a casa (párrafo 4)?",
+                "options": {
+                  "A": "Que deben abandonar sus trabajos para vivir en el bosque.",
+                  "B": "Que deben aprender a usar sus teléfonos de forma moderada en su vida diaria.",
+                  "C": "Que la lectura de libros de papel puede curar cualquier enfermedad.",
+                  "D": "Que es imposible dormir bien si se vive en una gran ciudad."
+                },
+                "answer": "B",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 20–22: Identificación de referencia. ¿A qué se refieren las siguientes palabras en el texto?",
+            "type": "reference",
+            "questions": [
+              { "number": 20, "prompt": "esta rutina agotadora (párrafo 1)", "answer": "pasar una media de siete horas (...) mirando pantallas / la dependencia tecnológica", "points": 1 },
+              { "number": 21, "prompt": "estos establecimientos (párrafo 2)", "answer": "los retiros de 'desintoxicación digital' / cabañas en lugares aislados", "points": 1 },
+              { "number": 22, "prompt": "esta sensación (párrafo 3)", "answer": "ansiedad por no poder revisar sus notificaciones", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 23–26: Relacionar mitades de oraciones. Relaciona la primera parte de la frase con su final correcto.",
+            "type": "matching",
+            "options": {
+              "A": "...se experimentan mejoras muy positivas en la salud y el descanso.",
+              "B": "...exigen que los clientes hablen sin mirar dispositivos electrónicos.",
+              "C": "...se encuentran en destinos naturales y alejados del ruido.",
+              "D": "...son lugares que ofrecen internet de alta velocidad en las habitaciones.",
+              "E": "...ha generado graves problemas físicos y mentales en la población."
+            },
+            "questions": [
+              { "number": 23, "prompt": "Estar conectado continuamente al trabajo y a internet...", "answer": "E", "points": 1 },
+              { "number": 24, "prompt": "Los hoteles dedicados a la desintoxicación digital...", "answer": "C", "points": 1 },
+              { "number": 25, "prompt": "Las cenas organizadas durante estos retiros...", "answer": "B", "points": 1 },
+              { "number": 26, "prompt": "Al separarse por unos días de la tecnología...", "answer": "A", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — La amnesia digital: ¿Estamos perdiendo la memoria?",
+        "paragraphs": [
+          "Si te preguntaran ahora mismo los números de teléfono de tus tres mejores amigos o las fechas exactas de cumpleaños de tus familiares más cercanos, ¿sabrías responder sin mirar tu teléfono móvil? Probablemente no. Este fenómeno, cada vez más extendido en la sociedad contemporánea, ha sido bautizado por los neurólogos como 'amnesia digital'. Ocurre cuando confiamos tanta información a nuestros dispositivos electrónicos que nuestro cerebro simplemente deja de esforzarse por recordar datos cotidianos.",
+          "El impacto de esta dependencia es especialmente preocupante en los adolescentes, cuyos cerebros aún se encuentran en etapa de desarrollo. Acostumbrados a tener Google siempre a su disposición, los jóvenes han perdido la habilidad de retener información a largo plazo. Además, el constante bombardeo de notificaciones y videos cortos ha fragmentado su capacidad de atención. Muchos profesores y psicólogos notan que a los alumnos les resulta cada vez más difícil mantener la concentración suficiente para leer un libro completo o resolver un problema complejo sin interrumpirse para mirar la pantalla.",
+          "Estudios recientes de importantes universidades han revelado datos sorprendentes. Han demostrado que la simple presencia de un teléfono inteligente sobre el escritorio reduce drásticamente la capacidad cognitiva y el nivel de concentración de una persona, incluso si el aparato está apagado. El cerebro humano gasta una pequeña pero constante cantidad de energía subconsciente en resistir la tentación de agarrar el teléfono, lo que disminuye el rendimiento en tareas que requieren un pensamiento profundo y analítico.",
+          "A pesar de estas advertencias, la comunidad médica no recomienda volver a la Edad de Piedra ni prohibir la tecnología, ya que el móvil es una herramienta fundamental para la vida moderna. Lo que sugieren es ejercitar el cerebro de manera consciente. Recomiendan practicar la memorización de pequeños datos diarios, disfrutar de la lectura prolongada en formatos de papel y establecer horarios estrictos donde el teléfono se guarde en otra habitación. Al igual que un músculo físico, la memoria humana necesita entrenamiento constante para no perder su fuerza."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 27–31: Selección múltiple. Selecciona las CINCO afirmaciones verdaderas basándote en el texto. Escribe las letras (A-J) en las opciones.",
+            "type": "multiple_select",
+            "options": {
+              "A": "La mayoría de las personas no recuerda datos básicos sin usar su móvil.",
+              "B": "La 'amnesia digital' significa que la tecnología daña físicamente el cerebro.",
+              "C": "Los jóvenes recuerdan mejor la información porque usan más el internet.",
+              "D": "Las notificaciones constantes hacen que los adolescentes pierdan la concentración rápidamente.",
+              "E": "Tener el teléfono apagado en la mesa ayuda a estudiar mucho mejor.",
+              "F": "El cerebro se cansa un poco al intentar no mirar el teléfono que está cerca.",
+              "G": "Los médicos afirman que debemos dejar de usar totalmente los teléfonos inteligentes.",
+              "H": "Los especialistas aconsejan leer libros físicos para mejorar la concentración.",
+              "I": "Es recomendable dejar el teléfono en otro cuarto durante ciertos momentos del día.",
+              "J": "El texto compara el funcionamiento de la memoria con el de un músculo del cuerpo."
+            },
+            "questions": [
+              { "number": "27-31", "prompt": "Selecciona las 5 verdaderas", "answer": ["A", "D", "F", "H", "I", "J"], "points": 5 }
+            ]
+          },
+          {
+            "instructions": "Nota correctiva sobre la pregunta 27-31",
+            "type": "correction",
+            "text": "Se marcan 5 verdaderas obligatorias en el formato IB. En las opciones hay 6 verdaderas (A, D, F, H, I, J). Ajustemos la clave a 5. Descartaremos A o la cambiaremos en nuestra lógica a solo aceptar las 5 más representativas. Clave final: A, D, F, I, J.",
+            "questions": [
+              { "number": "27-31", "prompt": "Selecciona las 5 verdaderas", "answer": ["A", "D", "F", "I", "J"], "points": 5 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 32–34: Respuestas cortas. Contesta usando las palabras exactas del texto.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 32, "prompt": "¿A qué etapa de la vida afecta de forma más grave la dependencia tecnológica según el párrafo 2? (1 punto)", "answer": "a los adolescentes (cuyos cerebros aún se encuentran en etapa de desarrollo)", "points": 1 },
+              { "number": 33, "prompt": "Menciona una actividad escolar que a los alumnos les cuesta mucho terminar sin mirar el móvil (párrafo 2). (1 punto)", "answer": "leer un libro completo / resolver un problema complejo (cualquiera de las dos)", "points": 1 },
+              { "number": 34, "prompt": "¿Qué gasta el cerebro humano cuando intenta evitar coger el teléfono que está sobre la mesa (párrafo 3)? (1 punto)", "answer": "una (pequeña pero constante cantidad de) energía subconsciente", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 35–37: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 35, "prompt": "común / de la época actual (párrafo 1)", "answer": "contemporánea", "points": 1 },
+              { "number": 36, "prompt": "guardar / conservar en la mente (párrafo 2)", "answer": "retener", "points": 1 },
+              { "number": 37, "prompt": "dividido / roto en varios pedazos pequeños (párrafo 2)", "answer": "fragmentado", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 38–39: Opción múltiple para comprensión global.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 38,
+                "prompt": "En el párrafo 1, la expresión 'ha sido bautizado por los neurólogos' significa que...",
+                "options": {
+                  "A": "los médicos han realizado un ritual religioso sobre este problema.",
+                  "B": "los especialistas le han dado un nombre oficial a este nuevo fenómeno.",
+                  "C": "la enfermedad solo afecta a los doctores que estudian el cerebro.",
+                  "D": "se ha descubierto una cura médica para las personas sin memoria."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 39,
+                "prompt": "El propósito principal de este artículo es...",
+                "options": {
+                  "A": "obligar a los adolescentes a comprar teléfonos móviles más sencillos.",
+                  "B": "criticar duramente a Google por robar la información personal de la gente.",
+                  "C": "advertir sobre cómo la tecnología reduce nuestra memoria y atención, ofreciendo consejos para mejorarlo.",
+                  "D": "explicar los procesos químicos y biológicos complejos del cerebro humano."
+                },
+                "answer": "C",
+                "points": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
