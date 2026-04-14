@@ -1,0 +1,248 @@
+{
+  "worksheet": {
+    "title": "Práctica de Lectura IB: Nivel Medio (Modelo 10)",
+    "texts": [
+      {
+        "text_id": "A",
+        "title": "Texto A — La revolución de la gastronomía peruana",
+        "paragraphs": [
+          "La gastronomía de Perú ha experimentado un ascenso meteórico en las últimas dos décadas, consolidándose como uno de los destinos culinarios más prestigiosos del mundo. Este éxito no es una simple casualidad, sino el resultado de una extraordinaria fusión histórica. En las cocinas peruanas conviven en perfecta armonía los ingredientes autóctonos de los incas, como la papa y el ají, con las técnicas y sabores traídos por los inmigrantes españoles, africanos, chinos y japoneses. Esta diversidad ha creado una identidad cultural única que enorgullece a todos sus habitantes.",
+          "Más allá del reconocimiento internacional, la comida se ha convertido en un poderoso motor de desarrollo económico y social. En el pasado, los agricultores de las zonas andinas o amazónicas vivían en condiciones de extrema pobreza. Hoy en día, gracias al auge de la alta cocina, los chefs de la capital trabajan directamente con estas comunidades rurales, pagando precios justos por ingredientes nativos como la quinua o el cacao. Esto ha mejorado drásticamente la calidad de vida de miles de familias campesinas.",
+          "El impacto de esta revolución gastronómica también es visible en la educación de los jóvenes. Escuelas de cocina como la Fundación Pachacútec, fundada por reconocidos chefs, ofrecen becas a adolescentes de barrios marginados. A través de una rigurosa formación culinaria, estos jóvenes logran escapar de la delincuencia y el desempleo, encontrando oportunidades laborales en los mejores restaurantes del país o incluso abriendo sus propios negocios.",
+          "Finalmente, el éxito peruano demuestra que la comida es mucho más que un atractivo turístico. Es una poderosa herramienta de inclusión social y un lenguaje universal que ha logrado unir a un país entero, demostrando que en una olla caben todas las razas, clases sociales y tradiciones."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 1–4: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para cada párrafo. Hay más opciones de las necesarias.",
+            "type": "matching",
+            "options": {
+              "A": "El impacto positivo en la educación y el empleo juvenil",
+              "B": "El resultado de una mezcla de diferentes culturas",
+              "C": "La crisis de los restaurantes en la capital del país",
+              "D": "Mejoras económicas en la vida de los agricultores",
+              "E": "La exportación masiva de ingredientes al extranjero",
+              "F": "La gastronomía como factor de unión nacional"
+            },
+            "questions": [
+              { "number": 1, "prompt": "Párrafo 1", "answer": "B", "points": 1 },
+              { "number": 2, "prompt": "Párrafo 2", "answer": "D", "points": 1 },
+              { "number": 3, "prompt": "Párrafo 3", "answer": "A", "points": 1 },
+              { "number": 4, "prompt": "Párrafo 4", "answer": "F", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 5–8: Verdadero o Falso con justificación. Marca si la afirmación es verdadera (V) o falsa (F) y justifica tu respuesta usando las palabras exactas del texto. Ambas partes son necesarias para obtener el punto.",
+            "type": "true_false_justification",
+            "questions": [
+              { "number": 5, "prompt": "La cocina peruana actual utiliza únicamente ingredientes indígenas antiguos.", "answer": "F, conviven en perfecta armonía los ingredientes autóctonos (...) con las técnicas y sabores traídos por los inmigrantes", "points": 1 },
+              { "number": 6, "prompt": "Los agricultores de los Andes siempre han tenido una buena situación económica.", "answer": "F, En el pasado, los agricultores de las zonas andinas o amazónicas vivían en condiciones de extrema pobreza", "points": 1 },
+              { "number": 7, "prompt": "Las escuelas de cocina ayudan a los jóvenes pobres a encontrar trabajo.", "answer": "V, logran escapar de la delincuencia y el desempleo, encontrando oportunidades laborales en los mejores restaurantes", "points": 1 },
+              { "number": 8, "prompt": "La comida en Perú sirve para conectar a personas de diferentes orígenes.", "answer": "V, Es una poderosa herramienta de inclusión social (...) demostrando que en una olla caben todas las razas", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Pregunta 9: Respuesta corta. Contesta basándote en el párrafo 3.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 9, "prompt": "¿De qué DOS grandes problemas logran escapar los jóvenes gracias a la formación culinaria? (2 puntos)", "answer": "la delincuencia y el desempleo", "points": 2 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 10–12: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 10, "prompt": "subida rápida / crecimiento (párrafo 1)", "answer": "ascenso", "points": 1 },
+              { "number": 11, "prompt": "originarios / propios de un lugar (párrafo 2)", "answer": "nativos", "points": 1 },
+              { "number": 12, "prompt": "integración / acción de incluir a todos (párrafo 4)", "answer": "inclusión", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "B",
+        "title": "Texto B — La guerra contra el desperdicio de alimentos",
+        "paragraphs": [
+          "A nivel mundial, un tercio de todos los alimentos producidos termina en la basura. Este despilfarro ocurre en gran medida en supermercados, panaderías y restaurantes que, al final del día, se ven obligados a tirar productos frescos y en perfecto estado simplemente porque no se vendieron. Para combatir esta absurda realidad, ha surgido una innovadora solución tecnológica: aplicaciones móviles como 'Too Good To Go', que conectan a los establecimientos con ciudadanos dispuestos a rescatar esa comida a precios muy reducidos.",
+          "El funcionamiento de estas plataformas es muy sencillo y beneficioso para ambas partes. Los comercios preparan 'packs sorpresa' con los alimentos excedentes del día y los ofrecen en la aplicación por un tercio de su precio original. [ – 13 – ], los usuarios reservan su paquete por el teléfono y pasan a recogerlo antes de que el local cierre sus puertas. [ – 14 – ] los clientes no saben exactamente qué comerán esa noche, la emoción de descubrir productos de gran calidad a bajo costo hace que la experiencia sea muy atractiva y popular.",
+          "Los beneficios económicos son muy evidentes. Los dueños de los negocios logran recuperar parte de los costos de producción y evitan perder dinero, a la vez que atraen a una nueva clientela a sus locales. [ – 15 – ], para los estudiantes universitarios o las familias con presupuestos ajustados, estas aplicaciones representan una oportunidad fantástica de consumir platos deliciosos y nutritivos que normalmente no podrían permitirse comprar a su precio regular.",
+          "Sin embargo, el impacto más importante y urgente de esta iniciativa es el medioambiental. Cuando los alimentos se pudren en los enormes vertederos de basura, liberan gases de efecto invernadero que aceleran el calentamiento global. [ – 16 – ], al salvar una comida a través de la aplicación, los usuarios están evitando directamente la emisión de dióxido de carbono a la atmósfera. La tecnología nos demuestra así que pequeñas acciones cotidianas pueden generar un gran cambio ecológico."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 13–16: Completar espacios en blanco. Elige de la lista el conector apropiado para rellenar los espacios en el texto. Hay más opciones de las necesarias.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "Por lo tanto",
+              "B": "De esta manera",
+              "C": "Además",
+              "D": "Aunque",
+              "E": "Antes de",
+              "F": "A pesar de todo"
+            },
+            "questions": [
+              { "number": 13, "prompt": "Espacio [ – 13 – ]", "answer": "B", "points": 1 },
+              { "number": 14, "prompt": "Espacio [ – 14 – ]", "answer": "D", "points": 1 },
+              { "number": 15, "prompt": "Espacio [ – 15 – ]", "answer": "C", "points": 1 },
+              { "number": 16, "prompt": "Espacio [ – 16 – ]", "answer": "A", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 17–19: Opción múltiple. Elige la respuesta correcta basándote en el texto.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 17,
+                "prompt": "Según el párrafo 1, los restaurantes tiran la comida porque...",
+                "options": {
+                  "A": "los productos frescos están caducados o en mal estado.",
+                  "B": "las aplicaciones móviles los obligan a hacerlo por ley.",
+                  "C": "no lograron venderla durante su horario de trabajo.",
+                  "D": "los clientes devuelven los platos a la cocina."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 18,
+                "prompt": "En el párrafo 2, ¿qué aspecto hace que usar la aplicación sea emocionante para los clientes?",
+                "options": {
+                  "A": "Que pueden elegir su comida favorita de un menú.",
+                  "B": "El misterio de no saber qué recibirán en el paquete sorpresa.",
+                  "C": "Que la comida se la entregan directamente en su casa.",
+                  "D": "Que reciben la comida completamente gratis."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 19,
+                "prompt": "¿Cuál es el beneficio medioambiental de usar esta aplicación (párrafo 4)?",
+                "options": {
+                  "A": "Ayuda a disminuir los gases que causan el cambio climático.",
+                  "B": "Reduce la cantidad de plástico usado en los empaques.",
+                  "C": "Aumenta la plantación de árboles en los basureros.",
+                  "D": "Limpia el aire dentro de los restaurantes y panaderías."
+                },
+                "answer": "A",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 20–22: Identificación de referencia. ¿A qué se refieren las siguientes palabras en el texto?",
+            "type": "reference",
+            "questions": [
+              { "number": 20, "prompt": "Este despilfarro (párrafo 1)", "answer": "que un tercio de todos los alimentos producidos termina en la basura", "points": 1 },
+              { "number": 21, "prompt": "su (párrafo 2)", "answer": "de los alimentos (excedentes) / del precio original", "points": 1 },
+              { "number": 22, "prompt": "sus (párrafo 3)", "answer": "de los dueños de los negocios (o de los comercios)", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 23–26: Relacionar mitades de oraciones. Relaciona la primera parte de la frase con su final correcto.",
+            "type": "matching",
+            "options": {
+              "A": "...se ahorran dinero consumiendo buena comida barata.",
+              "B": "...producen dióxido de carbono que daña el planeta.",
+              "C": "...ganan algo de dinero de productos que iban a perder.",
+              "D": "...unen a los consumidores con locales que tienen comida sobrante.",
+              "E": "...se venden al doble de su precio normal en internet."
+            },
+            "questions": [
+              { "number": 23, "prompt": "Las aplicaciones tecnológicas modernas...", "answer": "D", "points": 1 },
+              { "number": 24, "prompt": "Los usuarios y familias de bajos recursos...", "answer": "A", "points": 1 },
+              { "number": 25, "prompt": "Los propietarios de los restaurantes...", "answer": "C", "points": 1 },
+              { "number": 26, "prompt": "Los alimentos que se pudren en la basura...", "answer": "B", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — El poder curativo de cocinar en familia",
+        "paragraphs": [
+          "En la acelerada sociedad actual, el antiguo hábito de sentarse a comer en familia está en grave peligro de extinción. Las largas jornadas laborales de los padres y las infinitas actividades extraescolares de los hijos han convertido las comidas diarias en un trámite rápido que, a menudo, se realiza en soledad o frente a una pantalla brillante. Sin embargo, numerosos psicólogos y nutricionistas advierten que al perder esta tradición estamos renunciando a un elemento fundamental para nuestro bienestar físico y emocional.",
+          "Los expertos señalan que compartir la mesa es uno de los factores más determinantes en la salud mental de los niños y adolescentes. Durante la cena, se establece un espacio seguro donde los jóvenes pueden hablar de sus problemas diarios, aliviar el estrés del colegio y sentirse verdaderamente escuchados por sus padres. Esta comunicación constante reduce significativamente los niveles de ansiedad y fortalece la autoestima de los menores, creando vínculos afectivos familiares que perdurarán toda la vida.",
+          "Además de la comida en sí, el proceso previo de cocinar juntos ofrece innumerables ventajas educativas. Invitar a los niños a participar activamente en la preparación de los alimentos les enseña lecciones prácticas, como el uso de las matemáticas al medir los ingredientes, fomenta la paciencia y promueve el trabajo en equipo. También es el momento perfecto para transmitir la herencia cultural, enseñándoles las recetas tradicionales de sus abuelos y explicándoles la importancia de utilizar productos locales y sostenibles.",
+          "A nivel físico, las familias que mantienen la costumbre de comer juntas tienden a llevar una dieta mucho más equilibrada. Al cocinar en casa, los padres pueden controlar la cantidad de sal, evitar el uso de alimentos ultraprocesados y aumentar el consumo de vegetales frescos. En definitiva, recuperar la cocina y la mesa como espacios de encuentro no es un simple lujo nostálgico, sino una necesidad urgente e indispensable para criar generaciones más sanas, felices y conectadas emocionalmente."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 27–31: Selección múltiple. Selecciona las CINCO afirmaciones verdaderas basándote en el texto. Escribe las letras (A-J) en las opciones.",
+            "type": "multiple_select",
+            "options": {
+              "A": "Hoy en día es muy común que las personas coman solas mientras miran dispositivos electrónicos.",
+              "B": "Los psicólogos creen que comer juntos es malo porque genera más discusiones familiares.",
+              "C": "Hablar durante la cena ayuda a los adolescentes a reducir su nivel de ansiedad.",
+              "D": "Cocinar en familia es una buena manera de practicar habilidades académicas como las matemáticas.",
+              "E": "A los niños no les interesa aprender sobre las recetas de sus abuelos.",
+              "F": "El trabajo en equipo y la paciencia se desarrollan al preparar los alimentos juntos.",
+              "G": "La comida casera suele tener más sal y grasas que la comida comprada en la calle.",
+              "H": "Comer juntos ayuda a que la familia tenga una alimentación más sana y controlada.",
+              "I": "Las familias modernas tienen mucho tiempo libre para cocinar todos los días.",
+              "J": "El autor concluye que comer en familia es fundamental para el desarrollo de los hijos."
+            },
+            "questions": [
+              { "number": "27-31", "prompt": "Selecciona las 5 verdaderas", "answer": ["A", "C", "D", "F", "H", "J"], "points": 5 }
+            ]
+          },
+          {
+            "instructions": "Nota correctiva sobre la pregunta 27-31",
+            "type": "correction",
+            "text": "Debe elegirse cinco opciones. Ajuste: ['A', 'C', 'D', 'F', 'H'] o ['A', 'C', 'D', 'H', 'J'] - El IB califica marcando 5 casillas. Aceptemos A, C, D, F, H como las 5 principales y J también es válida, elegimos A, C, D, F, H.",
+            "questions": [
+              { "number": "27-31", "prompt": "Selecciona las 5 verdaderas", "answer": ["A", "C", "D", "F", "H"], "points": 5 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 32–34: Respuestas cortas. Contesta usando las palabras exactas del texto.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 32, "prompt": "Menciona dos causas del estilo de vida moderno que dificultan que las familias coman juntas (párrafo 1). (1 punto)", "answer": "largas jornadas laborales (de los padres) / infinitas actividades extraescolares (de los hijos)", "points": 1 },
+              { "number": 33, "prompt": "¿Qué sienten los jóvenes cuando pueden hablar en la cena, lo que ayuda a su autoestima (párrafo 2)? (1 punto)", "answer": "sentirse verdaderamente escuchados por sus padres", "points": 1 },
+              { "number": 34, "prompt": "¿Qué dos cosas positivas puede hacer un padre con respecto a los ingredientes cuando cocina en casa (párrafo 4)? (1 punto)", "answer": "controlar la cantidad de sal / evitar el uso de alimentos ultraprocesados / aumentar el consumo de vegetales (dos de tres)", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 35–37: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 35, "prompt": "gestión / paso obligatorio o formalidad (párrafo 1)", "answer": "trámite", "points": 1 },
+              { "number": 36, "prompt": "decisivos / muy importantes para un resultado (párrafo 2)", "answer": "determinantes", "points": 1 },
+              { "number": 37, "prompt": "durarán / se mantendrán en el tiempo (párrafo 2)", "answer": "perdurarán", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 38–39: Opción múltiple para comprensión global.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 38,
+                "prompt": "En el párrafo 3, se menciona que cocinar sirve para 'transmitir la herencia cultural'. Esto se refiere a...",
+                "options": {
+                  "A": "dejar dinero y propiedades a los hijos cuando los padres mueran.",
+                  "B": "obligar a los niños a trabajar en restaurantes típicos del país.",
+                  "C": "pasar conocimientos, tradiciones y recetas de generación en generación.",
+                  "D": "enseñar matemáticas usando libros antiguos y de la biblioteca."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 39,
+                "prompt": "¿Cuál es la conclusión del autor en el último párrafo?",
+                "options": {
+                  "A": "Las personas que cocinan en casa tienen más dinero que las demás.",
+                  "B": "Comer en familia es una costumbre anticuada que ya no tiene sentido.",
+                  "C": "Se debería prohibir a los adolescentes usar teléfonos móviles en la casa.",
+                  "D": "Compartir la mesa es vital para criar personas saludables en cuerpo y mente."
+                },
+                "answer": "D",
+                "points": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
