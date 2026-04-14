@@ -1,0 +1,241 @@
+{
+  "worksheet": {
+    "title": "Práctica de Lectura IB: Nivel Medio (Modelo 8 - Opción 5)",
+    "texts": [
+      {
+        "text_id": "A",
+        "title": "Texto A — El renacer de las lenguas originarias en TikTok",
+        "paragraphs": [
+          "En América Latina, decenas de lenguas originarias se encuentran en grave peligro de extinción debido a la falta de uso entre las nuevas generaciones. Durante décadas, el sistema educativo y la discriminación social empujaron a los jóvenes a abandonar los idiomas de sus abuelos para adoptar exclusivamente el español. Sin embargo, en los últimos años ha surgido un aliado completamente inesperado en la lucha por la conservación cultural: las redes sociales, y muy específicamente, la plataforma de videos TikTok.",
+          "Jóvenes creadores de contenido de países como México, Perú y Bolivia están utilizando la viralidad de internet para enseñar náhuatl, quechua o aimara a millones de usuarios. A través de videos cortos, divertidos y dinámicos, estos 'influencers' indígenas enseñan vocabulario básico, explican curiosidades gramaticales y traducen las canciones de pop y hip-hop más populares del momento a sus idiomas nativos. De esta forma, logran captar la atención de los adolescentes y demuestran que estas lenguas no son reliquias del pasado, sino herramientas vivas y modernas.",
+          "El impacto psicológico e identitario de este movimiento digital es inmenso. Históricamente, hablar una lengua indígena en las grandes ciudades era motivo de burla o vergüenza. Hoy en día, gracias a la exposición positiva en internet, se está rompiendo ese antiguo estigma social. Los jóvenes de origen indígena sienten un nuevo y profundo orgullo por sus raíces, y muchos usuarios que no pertenecen a estas comunidades se muestran genuinamente interesados en aprender y respetar la diversidad lingüística del continente.",
+          "No obstante, los expertos advierten que el activismo digital no es suficiente por sí solo. Aunque TikTok es una excelente herramienta para despertar la curiosidad y visibilizar el problema, la supervivencia real de un idioma requiere políticas gubernamentales sólidas. Es fundamental introducir la enseñanza bilingüe en las escuelas públicas y garantizar que los servicios médicos y legales estén disponibles en lenguas originarias para proteger verdaderamente a sus hablantes."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 1–4: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para cada párrafo. Hay más opciones de las necesarias.",
+            "type": "matching",
+            "options": {
+              "A": "Vencer la vergüenza y recuperar el orgullo",
+              "B": "La tecnología como salvavidas cultural inesperado",
+              "C": "La prohibición del español en las escuelas",
+              "D": "Métodos modernos para atraer a la juventud",
+              "E": "La necesidad de apoyo oficial más allá de internet",
+              "F": "Los peligros de usar las redes sociales en exceso"
+            },
+            "questions": [
+              { "number": 1, "prompt": "Párrafo 1", "answer": "B", "points": 1 },
+              { "number": 2, "prompt": "Párrafo 2", "answer": "D", "points": 1 },
+              { "number": 3, "prompt": "Párrafo 3", "answer": "A", "points": 1 },
+              { "number": 4, "prompt": "Párrafo 4", "answer": "E", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 5–8: Verdadero o Falso con justificación. Marca si la afirmación es verdadera (V) o falsa (F) y justifica tu respuesta usando las palabras exactas del texto. Ambas partes son necesarias para el punto.",
+            "type": "true_false_justification",
+            "questions": [
+              { "number": 5, "prompt": "En el pasado, la sociedad motivaba a los jóvenes a hablar sus idiomas tradicionales.", "answer": "F, el sistema educativo y la discriminación social empujaron a los jóvenes a abandonar los idiomas", "points": 1 },
+              { "number": 6, "prompt": "Los creadores de contenido utilizan música moderna para enseñar sus idiomas.", "answer": "V, traducen las canciones de pop y hip-hop más populares del momento a sus idiomas nativos", "points": 1 },
+              { "number": 7, "prompt": "Solo las personas indígenas están interesadas en los videos de estos creadores.", "answer": "F, muchos usuarios que no pertenecen a estas comunidades se muestran genuinamente interesados", "points": 1 },
+              { "number": 8, "prompt": "Hacer videos en internet garantizará por sí solo que los idiomas no desaparezcan.", "answer": "F, el activismo digital no es suficiente por sí solo (o: requiere políticas gubernamentales sólidas)", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Pregunta 9: Respuesta corta. Contesta basándote en el párrafo 4.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 9, "prompt": "Menciona DOS lugares o instituciones oficiales donde se deberían usar las lenguas originarias para proteger a los hablantes. (2 puntos)", "answer": "las escuelas públicas / los servicios médicos / (los servicios) legales (dos de tres)", "points": 2 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 10–13: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 10, "prompt": "desaparición definitiva / muerte de una especie (párrafo 1)", "answer": "extinción", "points": 1 },
+              { "number": 11, "prompt": "objetos muy antiguos / restos del pasado (párrafo 2)", "answer": "reliquias", "points": 1 },
+              { "number": 12, "prompt": "marca negativa / deshonra social (párrafo 3)", "answer": "estigma", "points": 1 },
+              { "number": 13, "prompt": "hacer que algo se vea / mostrar al público (párrafo 4)", "answer": "visibilizar", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "B",
+        "title": "Texto B — Los ojos del mundo en el desierto de Atacama",
+        "paragraphs": [
+          "El desierto de Atacama, ubicado en el norte de Chile, es mundialmente conocido por ser el lugar más seco del planeta Tierra. [ – 14 – ] sus extremas condiciones climáticas, la ausencia casi total de nubes y la nula contaminación lumínica, este vasto paisaje rojizo se ha convertido en el paraíso indiscutible de los astrónomos. En esta región se encuentra ALMA, el observatorio radioastronómico más grande y potente jamás construido por la humanidad, diseñado para estudiar los orígenes del universo y la formación de las estrellas.",
+          "El complejo ALMA no utiliza telescopios tradicionales de lentes y espejos. [ – 15 – ], emplea una red de 66 antenas gigantes de alta precisión que trabajan juntas como si fueran un solo telescopio del tamaño de una ciudad. Estas antenas no captan la luz visible, sino que detectan ondas de radio invisibles emitidas por las nubes de gas más frías y lejanas del cosmos. Esta tecnología revolucionaria permite a los científicos observar galaxias que están a miles de millones de años luz de distancia, revelando secretos que antes estaban ocultos por el polvo espacial.",
+          "Curiosamente, esta ciencia de vanguardia convive en el mismo espacio geográfico con la cosmovisión ancestral del pueblo Likan Antai (o atacameños), quienes habitan el desierto desde hace miles de años. [ – 16 – ] los astrónomos modernos usan máquinas para buscar respuestas en las estrellas, los antiguos indígenas miraban el mismo cielo nocturno para guiar sus cosechas y entender su lugar en el mundo. Para los atacameños, el cielo no solo estaba formado por las estrellas brillantes, sino también por las 'constelaciones oscuras', formas creadas por las sombras en la Vía Láctea, como la famosa Yacana (la Llama negra).",
+          "Hoy en día, se está fomentando un diálogo muy valioso entre ambas formas de conocimiento. Los científicos de ALMA han comenzado a trabajar junto a los líderes indígenas para aprender sobre la historia astronómica local y compartir sus descubrimientos de forma respetuosa. [ – 17 – ], el desierto de Atacama sirve como un puente mágico donde la tecnología más avanzada del futuro se encuentra pacíficamente con la sabiduría más antigua de América."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 14–17: Completar espacios en blanco. Elige de la lista el conector apropiado para rellenar los espacios en el texto.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "Mientras que",
+              "B": "En su lugar",
+              "C": "De esta manera",
+              "D": "Gracias a",
+              "E": "A pesar de",
+              "F": "Antes de",
+              "G": "Por el contrario"
+            },
+            "questions": [
+              { "number": 14, "prompt": "Espacio [ – 14 – ]", "answer": "D", "points": 1 },
+              { "number": 15, "prompt": "Espacio [ – 15 – ]", "answer": "B", "points": 1 },
+              { "number": 16, "prompt": "Espacio [ – 16 – ]", "answer": "A", "points": 1 },
+              { "number": 17, "prompt": "Espacio [ – 17 – ]", "answer": "C", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 18–20: Opción múltiple. Elige la respuesta correcta basándote en el texto.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 18,
+                "prompt": "Según el párrafo 1, el desierto de Atacama es ideal para la astronomía porque...",
+                "options": {
+                  "A": "hay mucha agua subterránea para enfriar las máquinas.",
+                  "B": "los cielos están siempre despejados y muy oscuros de noche.",
+                  "C": "está muy cerca de las principales ciudades de Chile.",
+                  "D": "es el lugar más frío y lluvioso del continente."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 19,
+                "prompt": "¿Cómo funciona el observatorio ALMA según el párrafo 2?",
+                "options": {
+                  "A": "Usa espejos gigantes para reflejar la luz del sol.",
+                  "B": "Utiliza múltiples antenas para captar señales de radio del espacio.",
+                  "C": "Envía astronautas a investigar las nubes de gas lejanas.",
+                  "D": "Toma fotografías tradicionales con cámaras muy grandes."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 20,
+                "prompt": "¿Qué eran las 'constelaciones oscuras' para los atacameños (párrafo 3)?",
+                "options": {
+                  "A": "Estrellas que se habían apagado y caído al desierto.",
+                  "B": "Nubes de tormenta que tapaban la luna por la noche.",
+                  "C": "Figuras imaginadas a partir de las zonas sin luz en el cielo estrellado.",
+                  "D": "Agujeros negros descubiertos con sus propios telescopios de madera."
+                },
+                "answer": "C",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 21–23: Identificación de referencia. ¿A qué se refieren las siguientes palabras en el texto?",
+            "type": "reference",
+            "questions": [
+              { "number": 21, "prompt": "esta región (párrafo 1)", "answer": "El desierto de Atacama (o el norte de Chile)", "points": 1 },
+              { "number": 22, "prompt": "quienes (párrafo 3)", "answer": "el pueblo Likan Antai (o atacameños)", "points": 1 },
+              { "number": 23, "prompt": "sus (párrafo 4)", "answer": "Los científicos de ALMA", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 24–26: Relacionar mitades de oraciones. Relaciona la primera parte de la frase con su final correcto.",
+            "type": "matching",
+            "options": {
+              "A": "...descubrir los misterios del inicio del universo.",
+              "B": "...está formado por 66 antenas que trabajan unidas.",
+              "C": "...ayudaba a las comunidades a organizar su agricultura.",
+              "D": "...exigen que los astrónomos abandonen el desierto.",
+              "E": "...se unen para compartir conocimientos sobre el cielo."
+            },
+            "questions": [
+              { "number": 24, "prompt": "El objetivo principal del proyecto ALMA es...", "answer": "A", "points": 1 },
+              { "number": 25, "prompt": "El estudio de las estrellas por parte de los indígenas...", "answer": "C", "points": 1 },
+              { "number": 26, "prompt": "Actualmente, la ciencia moderna y los saberes ancestrales...", "answer": "E", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — La carrera contra el tiempo para salvar idiomas olvidados",
+        "paragraphs": [
+          "Según los datos de la Organización de las Naciones Unidas, la diversidad lingüística del planeta atraviesa una crisis dramática: un idioma desaparece en el mundo aproximadamente cada dos semanas. Cuando muere el último hablante nativo de una lengua, no solo se pierden palabras o reglas gramaticales, sino que desaparece toda una forma de entender la realidad, incluyendo conocimientos vitales sobre botánica, historia, geografía y resolución de conflictos que no existen en ningún otro idioma.",
+          "El impacto psicológico de la pérdida de una lengua materna es profundo para las comunidades indígenas. Muchos jóvenes experimentan una dolorosa desconexión con sus abuelos, ya que no pueden comunicarse fluidamente con ellos ni comprender las leyendas tradicionales de su pueblo. Esta interrupción en la transmisión oral genera una crisis de identidad severa, dejando a las nuevas generaciones atrapadas entre una cultura globalizada que no los representa del todo y una herencia ancestral que no logran descifrar.",
+          "Ante esta emergencia, diversos grupos comunitarios están desarrollando estrategias creativas para revitalizar sus idiomas. Uno de los métodos más exitosos son los llamados 'Nidos de Lenguas'. Inspirados en programas creados originalmente en Nueva Zelanda, estos nidos son guarderías infantiles donde las personas mayores de la comunidad cuidan a los niños preescolares y les hablan única y exclusivamente en la lengua indígena. Al estar inmersos en el idioma de forma natural y afectiva desde muy pequeños, los niños lo aprenden como su primera lengua.",
+          "Simultáneamente, la tecnología digital está jugando un papel de apoyo crucial. Los lingüistas están colaborando con programadores para crear diccionarios en línea y aplicaciones móviles de aprendizaje. Sin embargo, los expertos advierten que grabar palabras en un ordenador no es suficiente para salvar un idioma. Una lengua es un organismo vivo, y su verdadera salvación depende de que haya personas dispuestas a hablarla diariamente en sus casas, en las calles y en sus corazones."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 27–31: Selección múltiple. Selecciona las CINCO afirmaciones verdaderas basándote en el texto. Escribe las letras (A-J) en las opciones.",
+            "type": "multiple_select",
+            "options": {
+              "A": "Las lenguas desaparecen en el mundo a un ritmo de dos al año.",
+              "B": "La muerte de un idioma implica la pérdida de conocimientos científicos e históricos únicos.",
+              "C": "Los jóvenes sufren problemas de identidad al no poder hablar con sus mayores.",
+              "D": "La transmisión oral de historias familiares se mantiene intacta aunque se pierda el idioma.",
+              "E": "Los 'Nidos de Lenguas' son escuelas secundarias donde se enseña gramática tradicional.",
+              "F": "En los nidos, los abuelos interactúan con los niños usando solamente el idioma originario.",
+              "G": "El método de las guarderías inmersivas fue inventado por primera vez en Nueva Zelanda.",
+              "H": "La tecnología digital está dificultando el aprendizaje de las lenguas indígenas.",
+              "I": "Las aplicaciones móviles pueden ayudar, pero no pueden mantener vivo un idioma por sí solas.",
+              "J": "Guardar un idioma en una base de datos es la única forma efectiva de salvarlo."
+            },
+            "questions": [
+              { "number": "27-31", "prompt": "Selecciona las 5 verdaderas", "answer": ["B", "C", "F", "G", "I"], "points": 5 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 32–34: Respuestas cortas. Contesta usando las palabras exactas del texto.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 32, "prompt": "Además de la historia y la geografía, ¿sobre qué otros dos temas se pierde información vital cuando un idioma muere? (párrafo 1) (1 punto)", "answer": "botánica (y) resolución de conflictos", "points": 1 },
+              { "number": 33, "prompt": "¿Qué experimentan los jóvenes al no poder comprender las leyendas de su pueblo? (párrafo 2) (1 punto)", "answer": "una dolorosa desconexión con sus abuelos (o: una crisis de identidad severa)", "points": 1 },
+              { "number": 34, "prompt": "¿Qué dos grupos de profesionales trabajan juntos para crear aplicaciones y diccionarios digitales? (párrafo 4) (1 punto)", "answer": "Los lingüistas (colaborando) con programadores", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 35–37: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 35, "prompt": "muy grave / que causa una gran emoción triste (párrafo 1)", "answer": "dramática", "points": 1 },
+              { "number": 36, "prompt": "dar nueva vida / devolver la energía (párrafo 3)", "answer": "revitalizar", "points": 1 },
+              { "number": 37, "prompt": "metidos completamente / sumergidos (párrafo 3)", "answer": "inmersos", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 38–39: Opción múltiple para comprensión global.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 38,
+                "prompt": "En el párrafo 2, la frase 'atrapadas entre una cultura globalizada que no los representa del todo y una herencia ancestral que no logran descifrar' significa que los jóvenes...",
+                "options": {
+                  "A": "quieren irse a vivir a otros países más globales.",
+                  "B": "sienten que no pertenecen completamente a ninguno de los dos mundos.",
+                  "C": "prefieren la cultura moderna porque es más fácil de entender.",
+                  "D": "odian la tecnología global porque destruye a sus abuelos."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 39,
+                "prompt": "¿Cuál es la conclusión principal del autor en el último párrafo?",
+                "options": {
+                  "A": "La tecnología reemplazará a los hablantes nativos en el futuro.",
+                  "B": "Es imposible salvar un idioma una vez que empieza a desaparecer.",
+                  "C": "Los diccionarios físicos son mejores que las aplicaciones móviles.",
+                  "D": "Para que un idioma sobreviva, debe usarse activamente en la vida cotidiana."
+                },
+                "answer": "D",
+                "points": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
