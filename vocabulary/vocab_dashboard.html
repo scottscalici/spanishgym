@@ -18,7 +18,7 @@
         /* Controls */
         .controls-panel { background: #edf2f7; padding: 20px; border-radius: 10px; border: 1px solid #cbd5e0; }
         label { display: block; font-weight: 700; margin-bottom: 8px; color: #4a5568; }
-        select, input { width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 6px; border: 2px solid #cbd5e0; font-family: inherit; }
+        select, input { width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 6px; border: 2px solid #cbd5e0; font-family: inherit; box-sizing: border-box;}
         
         .btn { width: 100%; padding: 12px; border: none; border-radius: 6px; cursor: pointer; font-weight: 900; color: white; margin-bottom: 10px; transition: 0.2s; }
         .btn-png { background: #e53e3e; } .btn-png:hover { background: #c53030; }
@@ -32,13 +32,13 @@
         #preview-staging { position: fixed; left: -9999px; }
         .tpt-preview-card { width: 800px; height: 800px; background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%); position: relative; padding: 50px; box-sizing: border-box; overflow: hidden; }
         .red-accent { position: absolute; top: 0; left: 0; width: 100%; height: 15px; background: #e53e3e; }
-        .preview-header { color: #ecc94b; font-size: 28px; font-weight: 900; text-transform: uppercase; margin-bottom: 10px; }
-        .preview-title { color: white; font-size: 60px; font-weight: 900; text-transform: uppercase; line-height: 1.1; margin-bottom: 30px; }
+        .preview-header { color: #ecc94b; font-size: 24px; font-weight: 900; text-transform: uppercase; margin-bottom: 10px; }
+        .preview-title { color: white; font-size: 55px; font-weight: 900; text-transform: uppercase; line-height: 1.1; margin-bottom: 30px; text-shadow: 2px 2px 8px rgba(0,0,0,0.5);}
         .badge-grid { display: flex; flex-wrap: wrap; gap: 15px; }
-        .badge { background: white; color: #1a202c; padding: 12px 20px; border-radius: 8px; font-size: 22px; font-weight: 900; border-left: 8px solid #e53e3e; }
-        .word-list-box { margin-top: 40px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); border-radius: 12px; padding: 25px; color: white; }
-        .word-list-box h3 { margin-top: 0; color: #ecc94b; text-transform: uppercase; font-size: 22px; }
-        .word-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; font-size: 18px; font-weight: 700; }
+        .badge { background: white; color: #1a202c; padding: 12px 18px; border-radius: 8px; font-size: 20px; font-weight: 900; border-left: 8px solid #e53e3e; box-shadow: 0 4px 10px rgba(0,0,0,0.3);}
+        .word-list-box { margin-top: 35px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); border-radius: 12px; padding: 25px; color: white; }
+        .word-list-box h3 { margin-top: 0; color: #ecc94b; text-transform: uppercase; font-size: 22px; margin-bottom: 15px;}
+        .word-grid { display: grid; grid-template-columns: 1fr; gap: 12px; font-size: 20px; font-weight: 700; }
         .logo-box { position: absolute; bottom: 40px; right: 40px; width: 220px; background: white; padding: 10px; border-radius: 10px; }
 
         .tag-box { margin-top: 20px; background: #fffaf0; border: 1px solid #feebc8; padding: 15px; border-radius: 8px; }
@@ -54,30 +54,30 @@
 
     <div class="dashboard-grid">
         <div class="controls-panel">
-            <label>1. Select Program</label>
-            <select id="program-select" onchange="loadSets()">
+            <label>1. Select Full Program Bundle</label>
+            <select id="program-select" onchange="loadProgram()">
                 <option value="01_primeros_pasos_master.json">Primeros Pasos (Level 1)</option>
                 <option value="02_resistencia_master.json">Resistencia (Level 2)</option>
                 <option value="03_alto_rendimiento_master.json">Alto Rendimiento (Level 3/4)</option>
             </select>
 
-            <label>2. Select Vocabulary Set</label>
-            <select id="set-select" onchange="updatePreview()"></select>
-
-            <label>3. Branding Accent</label>
-            <select id="level-accent">
+            <label>2. Branding Accent</label>
+            <select id="level-accent" onchange="updatePreview()">
                 <option value="Level 1: Beginner">Level 1: Beginner</option>
                 <option value="Level 2: Intermediate">Level 2: Intermediate</option>
                 <option value="Level 3: Advanced">Level 3: Advanced</option>
             </select>
+            
+            <label>3. Bundle Page Count</label>
+            <input type="number" id="page-count" value="69" onchange="updatePreview()">
 
-            <button class="btn btn-png" onclick="downloadPNG()">🖼️ Download Portada (PNG)</button>
-            <button class="btn btn-desc" onclick="generateDescription()">📝 Generate Description</button>
+            <button class="btn btn-png" onclick="downloadPNG()">🖼️ Download Portada Bundle (PNG)</button>
+            <button class="btn btn-desc" onclick="generateDescription()">📝 Generate Bundle Description</button>
             
             <div class="tag-box">
                 <h4>🏷️ SEO Tags to Use:</h4>
                 <div id="seo-tags" style="font-size: 13px; color: #7b341e; line-height: 1.4;">
-                    Spanish Vocabulary, High Frequency, Differentiated Reading, The Spanish Gym, Worksheets, No Prep...
+                    Spanish Vocabulary, High Frequency, The Spanish Gym, Worksheets, No Prep, Curriculum Bundle, Substitute Plans...
                 </div>
             </div>
         </div>
@@ -86,7 +86,7 @@
             <h2 style="margin-top:0;">TpT Listing Description</h2>
             <div class="description-output" id="desc-output">
                 <button class="copy-btn" onclick="copyDesc()">Copy</button>
-                <div id="desc-content">Select a set and click "Generate Description" to build your marketing text...</div>
+                <div id="desc-content">Select a program bundle and click "Generate Bundle Description" to build your marketing text...</div>
             </div>
         </div>
     </div>
@@ -95,18 +95,19 @@
 <div id="preview-staging">
     <div id="capture-target" class="tpt-preview-card">
         <div class="red-accent"></div>
-        <div class="preview-header" id="p-header">LEVEL 1: PRIMEROS PASOS</div>
-        <div class="preview-title" id="p-title">SALUDOS Y CORTESÍA</div>
+        <div class="preview-header" id="p-header">LEVEL 1: BEGINNER</div>
+        <div class="preview-title" id="p-title">PRIMEROS PASOS BUNDLE</div>
         
         <div class="badge-grid">
-            <div class="badge">🔥 Versión A y B</div>
-            <div class="badge">✅ Incluye Claves</div>
-            <div class="badge" id="p-wordcount">22 Palabras Clave</div>
+            <div class="badge" id="p-pages">69 Páginas</div>
+            <div class="badge">🔥 4 Sets Completos</div>
+            <div class="badge">✅ Versiones A y B</div>
+            <div class="badge" id="p-wordcount">80+ Palabras Clave</div>
         </div>
 
         <div class="word-list-box">
-            <h3>Sneak Peek:</h3>
-            <div class="word-grid" id="p-words"></div>
+            <h3>Textos / Sets Incluidos:</h3>
+            <div class="word-grid" id="p-sets"></div>
         </div>
 
         <div class="logo-box">
@@ -119,67 +120,92 @@
     const baseUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/vocabulary/';
     let currentMaster = null;
 
-    async function loadSets() {
+    async function loadProgram() {
         const file = document.getElementById('program-select').value;
-        const response = await fetch(baseUrl + file);
-        currentMaster = await response.json();
-        
-        const setSelect = document.getElementById('set-select');
-        setSelect.innerHTML = '';
-        currentMaster.sets.forEach((set, index) => {
-            const opt = document.createElement('option');
-            opt.value = index;
-            opt.textContent = `Set ${set.set_numero}: ${set.titulo}`;
-            setSelect.appendChild(opt);
-        });
-        updatePreview();
+        try {
+            const response = await fetch(baseUrl + file);
+            currentMaster = await response.json();
+            updatePreview();
+        } catch (error) {
+            console.error("Error loading JSON. Make sure the file exists on GitHub.", error);
+        }
     }
 
     function updatePreview() {
         if (!currentMaster) return;
-        const setIndex = document.getElementById('set-select').value;
-        const set = currentMaster.sets[setIndex];
         const accent = document.getElementById('level-accent').value;
+        const pages = document.getElementById('page-count').value;
 
-        document.getElementById('p-header').textContent = accent + " | " + currentMaster.programa;
-        document.getElementById('p-title').textContent = set.titulo;
-        document.getElementById('p-wordcount').textContent = set.preparate.length + " Palabras Clave";
+        document.getElementById('p-header').textContent = accent;
+        document.getElementById('p-title').textContent = currentMaster.programa + " BUNDLE";
+        document.getElementById('p-pages').textContent = pages + " Páginas";
+        
+        let totalWords = 0;
+        currentMaster.sets.forEach(s => totalWords += s.preparate.length);
+        document.getElementById('p-wordcount').textContent = totalWords + " Palabras Clave";
 
-        const wordGrid = document.getElementById('p-words');
-        wordGrid.innerHTML = '';
-        set.preparate.slice(0, 10).forEach(w => {
-            wordGrid.innerHTML += `<div>• ${w.es}</div>`;
+        const setGrid = document.getElementById('p-sets');
+        setGrid.innerHTML = '';
+        currentMaster.sets.forEach((set, index) => {
+            setGrid.innerHTML += `<div>✔ Set ${set.set_numero}: ${set.titulo}</div>`;
         });
     }
 
     async function downloadPNG() {
+        if (!currentMaster) return alert("Please load a program first.");
         const target = document.getElementById('capture-target');
+        
+        // Wait for logo to load
+        const images = target.querySelectorAll('img');
+        const promises = Array.from(images).map(img => {
+            if (img.complete) return Promise.resolve();
+            return new Promise(resolve => { img.onload = resolve; img.onerror = resolve; });
+        });
+        await Promise.all(promises);
+
         const canvas = await html2canvas(target, { scale: 2, useCORS: true });
         const link = document.createElement('a');
-        const title = document.getElementById('p-title').textContent.replace(/ /g, '_');
-        link.download = `SpanishGym_Vocab_${title}.png`;
+        const title = currentMaster.programa.replace(/ /g, '_');
+        link.download = `SpanishGym_Bundle_${title}.png`;
         link.href = canvas.toDataURL('image/png');
         link.click();
     }
 
     function generateDescription() {
-        const setIndex = document.getElementById('set-select').value;
-        const set = currentMaster.sets[setIndex];
+        if (!currentMaster) return alert("Please load a program first.");
         const prog = currentMaster.programa;
         const accent = document.getElementById('level-accent').value;
+        const pages = document.getElementById('page-count').value;
 
-        let text = `Ditch the boring vocab lists. Welcome to **The Spanish Gym**! 🏋️‍♂️\n\n`;
-        text += `The **${prog}** series is the ultimate workout for student vocabulary. This set focuses on **${set.titulo}** and is designed specifically for **${accent}** students.\n\n`;
-        text += `🔥 **THE SECRET WEAPON: VERSIONS A & B**\nEvery set in this bundle includes a Versión A and a Versión B. The question pools are shuffled and varied—perfect for preventing "wandering eyes" or using one as a classwork packet and the other as a Friday quiz!\n\n`;
-        text += `📚 **WHAT'S INCLUDED?**\nThis ${set.preparate.length}-word unit is a massive 8-page packet (per version) featuring:\n\n`;
-        text += `📋 **Prepárate:** Master list with Spanish, English, and context sentences.\n`;
-        text += `🏃 **El Calentamiento:** Low-stakes matching and translation warm-ups.\n`;
-        text += `🚴 **El Cardio (2 Pages):** Descriptive clues (English & Spanish) to build recall without a word bank.\n`;
-        text += `🏋️ **Levantar Pesas (2 Pages):** Heavy lifting! Fill-in-the-blank context sentences (Includes 'Con Pistas' and 'Sin Pistas' versions).\n`;
-        text += `🧘 **El Estiramiento:** A "Cool-down" self-assessment with "I can..." statements.\n`;
-        text += `🔄 **Profundiza:** Spiral review that pulls in vocabulary from previous sets to ensure long-term memory.\n\n`;
-        text += `✅ **TEACHER-FRIENDLY:** Zero prep, print-and-go, with comprehensive answer keys included.\n\n`;
-        text += `**Vocabulary Covered:** ${set.preparate.map(w => w.es).join(', ')}.`;
+        let totalWords = 0;
+        currentMaster.sets.forEach(s => totalWords += s.preparate.length);
+
+        let text = `Ditch the boring vocab lists and translation apps. Welcome to **The Spanish Gym**! 🏋️‍♂️\n\n`;
+        text += `The **${prog} Bundle** is the ultimate way to train your students' vocabulary. Instead of standard, repetitive worksheets, this massive ${pages}-page resource treats vocabulary acquisition like a mental workout. Students move through carefully scaffolded "exercises"—from light warm-ups to heavy-lifting context clues—ensuring deep retention and true comprehension.\n\n`;
+        
+        text += `📚 **WHAT’S INCLUDED IN THIS BUNDLE?**\n`;
+        text += `This comprehensive bundle includes ${currentMaster.sets.length} complete, highly focused vocabulary sets (covering ${totalWords} target words total to prevent student burnout):\n`;
+        currentMaster.sets.forEach(set => {
+            text += `• **Set ${set.set_numero}:** ${set.titulo}\n`;
+        });
+        text += `\n`;
+
+        text += `🔥 **THE SECRET WEAPON: VERSIONS A & B**\n`;
+        text += `Tired of wandering eyes during independent practice? Every single vocabulary set in this bundle includes a Versión A and a Versión B. The question pools are completely shuffled, swapped, and varied. Hand out Version A to row one and Version B to row two, or use Version A for classwork and Version B for a Friday quiz!\n\n`;
+
+        text += `💪 **THE "WORKOUT" STRUCTURE (Included in EVERY Set):**\n`;
+        text += `Each vocabulary topic includes an 8-page packet per version, featuring:\n\n`;
+        text += `📋 **Prepárate:** A clean master list featuring the Spanish word, English translation, and a real-world context sentence.\n`;
+        text += `🏃 **El Calentamiento:** Low-stakes matching and direct translation to build initial recognition.\n`;
+        text += `🚴 **El Cardio (2 Pages):** Students read descriptive clues—one page in English, one page in Spanish—to produce the target word without a word bank.\n`;
+        text += `🏋️ **Levantar Pesas (2 Pages):** The heavy lifting! Context-based, fill-in-the-blank sentences. Includes a Con Pistas page (with hints) and a Sin Pistas page for instant differentiation.\n`;
+        text += `🧘 **El Estiramiento:** A quick self-assessment where students check off "I can..." statements and write a Spanish phrase to prove it.\n`;
+        text += `🔄 **Profundiza (Repaso en Espiral):** The ultimate retention tool. Older vocabulary from previous sets is continually brought back to force spaced repetition and long-term memory.\n\n`;
+        
+        text += `✅ **TEACHER-FRIENDLY FEATURES:**\n`;
+        text += `- **Zero Prep:** Print and go.\n`;
+        text += `- **Comprehensive Answer Keys:** All answer keys are compiled in a clean, easy-to-read appendix at the end of the document.\n\n`;
+        text += `Give your ${accent} students the foundation they need to succeed, and reclaim your planning period!`;
 
         document.getElementById('desc-content').textContent = text;
     }
@@ -190,7 +216,7 @@
         alert("Description copied!");
     }
 
-    loadSets();
+    loadProgram();
 </script>
 
 </body>
