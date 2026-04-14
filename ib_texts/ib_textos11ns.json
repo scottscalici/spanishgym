@@ -1,0 +1,264 @@
+{
+  "worksheet": {
+    "title": "Práctica de Lectura IB: Nivel Superior (Modelo 11)",
+    "texts": [
+      {
+        "text_id": "A",
+        "title": "Texto A — El tsunami de la Inteligencia Artificial en las aulas",
+        "paragraphs": [
+          "La irrupción abrupta de la Inteligencia Artificial (IA) generativa en el panorama educativo ha provocado un auténtico sismo en las metodologías de enseñanza tradicionales. En sus inicios, la respuesta predominante de las instituciones académicas fue el pánico generalizado. Anticipando una epidemia incontrolable de fraude académico, donde los estudiantes podrían generar ensayos sofisticados y resolver ecuaciones complejas en cuestión de milisegundos, numerosas universidades y distritos escolares de América Latina y España optaron por la censura tecnológica. [ – 1 – ], bloquearon el acceso a estos modelos lingüísticos en todas las redes de internet de sus campus, creyendo ilusamente que podrían contener el avance de la marea digital.",
+          "Sin embargo, a medida que la tecnología se ha ido arraigando en la vida cotidiana, la perspectiva pedagógica ha comenzado a evolucionar hacia el pragmatismo. Los especialistas en tecnología educativa coinciden en que prohibir la IA es una batalla tan estéril como lo fue en su momento intentar vetar el uso de calculadoras. [ – 2 – ] demonizar estas plataformas, la vanguardia docente propone integrarlas como 'prótesis cognitivas'. Bajo este nuevo paradigma, la IA no sustituye el intelecto del alumno, sino que actúa como un tutor personalizado capaz de estructurar esquemas de investigación, decodificar conceptos abstractos y ofrecer retroalimentación instantánea.",
+          "Esta revolución ineludible está forzando una reestructuración profunda de los instrumentos de evaluación. Si una máquina puede redactar una monografía histórica de calidad estándar, el profesorado ya no puede limitarse a calificar la mera retención de datos o la corrección sintáctica. [ – 3 – ], el eje central de la educación debe trasladarse hacia el desarrollo del pensamiento crítico y la validación de fuentes. Las nuevas rúbricas de evaluación priorizan las defensas orales, los diálogos socráticos en tiempo real y los proyectos prácticos, formatos donde el estudiante debe demostrar una asimilación genuina del conocimiento que una máquina no puede replicar.",
+          "Preparar a las nuevas generaciones para este horizonte incierto exige una rigurosa alfabetización algorítmica. El mayor desafío actual no es enseñar a los jóvenes a encontrar respuestas, sino a formular las preguntas correctas y a auditar críticamente los resultados obtenidos. [ – 4 – ], es imperativo que los alumnos comprendan que la IA carece de comprensión semántica real, que frecuentemente sufre de 'alucinaciones' (inventa datos con total seguridad) y que sus respuestas pueden perpetuar sesgos discriminatorios. En definitiva, en la era de las respuestas automáticas, la duda metódica se ha convertido en la habilidad humana más valiosa."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 1–4: Completar espacios en blanco. Elige de la lista el conector apropiado para rellenar los espacios en el texto. Hay más opciones de las necesarias.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "Por lo tanto",
+              "B": "En lugar de",
+              "C": "Sin embargo",
+              "D": "Por consiguiente",
+              "E": "Además",
+              "F": "A pesar de"
+            },
+            "questions": [
+              { "number": 1, "prompt": "Espacio [ – 1 – ]", "answer": "D", "points": 1 },
+              { "number": 2, "prompt": "Espacio [ – 2 – ]", "answer": "B", "points": 1 },
+              { "number": 3, "prompt": "Espacio [ – 3 – ]", "answer": "A", "points": 1 },
+              { "number": 4, "prompt": "Espacio [ – 4 – ]", "answer": "E", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 5–7: Identificación de referencia. ¿A qué se refieren las siguientes palabras en el texto?",
+            "type": "reference",
+            "questions": [
+              { "number": 5, "prompt": "estos modelos lingüísticos (párrafo 1)", "answer": "la Inteligencia Artificial (IA) generativa", "points": 1 },
+              { "number": 6, "prompt": "estas plataformas (párrafo 2)", "answer": "la Inteligencia Artificial / IA", "points": 1 },
+              { "number": 7, "prompt": "esta revolución ineludible (párrafo 3)", "answer": "la irrupción de la IA (en la educación)", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 8–11: Verdadero o Falso con justificación. Marca si la afirmación es verdadera (V) o falsa (F) y justifica tu respuesta usando las palabras exactas del texto. Ambas partes son necesarias para obtener el punto.",
+            "type": "true_false_justification",
+            "questions": [
+              { "number": 8, "prompt": "Inicialmente, las escuelas aceptaron con entusiasmo la Inteligencia Artificial en sus aulas.", "answer": "F, la respuesta predominante de las instituciones académicas fue el pánico generalizado (o: optaron por la censura tecnológica)", "points": 1 },
+              { "number": 9, "prompt": "Los educadores modernos creen que la IA sirve para pensar en nombre del estudiante.", "answer": "F, la IA no sustituye el intelecto del alumno, sino que actúa como un tutor personalizado", "points": 1 },
+              { "number": 10, "prompt": "La forma tradicional de examinar mediante ensayos escritos ha perdido su efectividad original.", "answer": "V, el profesorado ya no puede limitarse a calificar la mera retención de datos o la corrección sintáctica", "points": 1 },
+              { "number": 11, "prompt": "Las respuestas proporcionadas por la Inteligencia Artificial son siempre completamente fiables y objetivas.", "answer": "F, frecuentemente sufre de 'alucinaciones' (inventa datos con total seguridad) y que sus respuestas pueden perpetuar sesgos", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 12–13: Respuestas cortas. Contesta basándote en el texto con la menor cantidad de palabras posible.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 12, "prompt": "Según el párrafo 3, ¿qué formato de evaluación permite verificar de forma más segura el aprendizaje de un estudiante?", "answer": "defensas orales, (los) diálogos socráticos en tiempo real y (los) proyectos prácticos", "points": 1 },
+              { "number": 13, "prompt": "En el contexto educativo actual dominado por las máquinas, ¿qué actitud se considera la más valiosa para los humanos (párrafo 4)?", "answer": "la duda metódica", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "B",
+        "title": "Texto B — El espejismo del silencio: La desintoxicación digital",
+        "paragraphs": [
+          "En la era contemporánea, la hiperconectividad ha mutado de ser una maravilla tecnológica a convertirse en una patología social paralizante. El ciudadano promedio revisa la pantalla de su teléfono inteligente más de ciento cincuenta veces al día, sometiendo a su cerebro a un incesante bombardeo de notificaciones, correos laborales y estímulos audiovisuales. Este ecosistema digital, diseñado intencionalmente por grandes corporaciones para monopolizar nuestra atención, ha desencadenado una epidemia de fatiga cognitiva, insomnio crónico y un profundo síndrome de desgaste profesional conocido como 'burnout'. En respuesta a esta asfixiante realidad, la industria del turismo ha ingeniado un nuevo producto altamente lucrativo: los retiros de desintoxicación digital.",
+          "Estos exclusivos santuarios se erigen en enclaves geográficos de difícil acceso y belleza sobrecogedora, como los refugios glaciares de la Patagonia o los valles remotos de los Pirineos. La premisa comercial es radical y absoluta: al cruzar el umbral del hotel, los huéspedes se ven obligados a entregar cualquier dispositivo electrónico al personal de recepción. Durante su estadía, se sumergen en un aislamiento digital total, careciendo de señal wifi, pantallas de televisión e incluso de relojes. Las jornadas se estructuran en torno a la lentitud analógica, priorizando caminatas contemplativas, la lectura en papel y la meditación guiada.",
+          "Sin embargo, prestigiosos sociólogos advierten sobre la profunda paradoja que esconde este fenómeno. La desconexión voluntaria se ha transformado rápidamente en un bien de consumo exclusivo, un lujo mercantilizado al alcance de unos pocos. Mientras que las élites económicas pueden permitirse el altísimo costo de pagar por el derecho a desaparecer temporalmente y recuperar su paz mental, la clase trabajadora está sometida a una tiranía de disponibilidad perpetua, obligada a responder mensajes de sus superiores a cualquier hora para no poner en riesgo su estabilidad laboral.",
+          "Más allá del debate sobre el elitismo, los expertos en psicología conductual coinciden en que los retiros, por sí solos, son insuficientes si no generan un cambio estructural en los hábitos del individuo. El verdadero desafío no consiste en huir a las montañas para experimentar el silencio durante una semana, sino en cultivar la disciplina emocional necesaria para establecer límites digitales inquebrantables dentro del caos diario de la metrópolis."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 14–17: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para cada párrafo. Hay más opciones de las necesarias.",
+            "type": "matching",
+            "options": {
+              "A": "El privilegio de clase en la búsqueda de la desconexión",
+              "B": "La necesidad de aplicar la moderación en la vida diaria",
+              "C": "Los graves peligros de la radiación electrónica",
+              "D": "El diseño de unas vacaciones basadas en la desconexión total",
+              "E": "La prohibición gubernamental del uso de redes sociales",
+              "F": "Las consecuencias de vivir en un estado de alerta constante"
+            },
+            "questions": [
+              { "number": 14, "prompt": "Párrafo 1", "answer": "F", "points": 1 },
+              { "number": 15, "prompt": "Párrafo 2", "answer": "D", "points": 1 },
+              { "number": 16, "prompt": "Párrafo 3", "answer": "A", "points": 1 },
+              { "number": 17, "prompt": "Párrafo 4", "answer": "B", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 18–21: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 18, "prompt": "cambiado / transformado (párrafo 1)", "answer": "mutado", "points": 1 },
+              { "number": 19, "prompt": "lugares / ubicaciones aisladas (párrafo 2)", "answer": "enclaves", "points": 1 },
+              { "number": 20, "prompt": "contradicción / hecho contrario a la lógica (párrafo 3)", "answer": "paradoja", "points": 1 },
+              { "number": 21, "prompt": "comercializado / convertido en producto de venta (párrafo 3)", "answer": "mercantilizado", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 22–24: Opción múltiple. Elige la respuesta correcta (A, B, C o D).",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 22,
+                "prompt": "Según el párrafo 1, la hiperconectividad moderna es peligrosa porque...",
+                "options": {
+                  "A": "cuesta demasiado dinero mantener los dispositivos actualizados.",
+                  "B": "está diseñada para secuestrar nuestra atención y agotar nuestra mente.",
+                  "C": "las empresas de turismo nos obligan a comprar paquetes vacacionales.",
+                  "D": "impide que los ciudadanos viajen a la Patagonia de forma segura."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 23,
+                "prompt": "En el párrafo 3, ¿por qué se dice que la desconexión digital es un 'privilegio'?",
+                "options": {
+                  "A": "Porque solo las personas ricas tienen el poder y el dinero para desconectarse sin perder su empleo.",
+                  "B": "Porque los gobiernos prohíben a la clase trabajadora salir de vacaciones.",
+                  "C": "Porque las élites económicas no usan teléfonos en su vida cotidiana.",
+                  "D": "Porque las montañas y reservas naturales son propiedad privada de los millonarios."
+                },
+                "answer": "A",
+                "points": 1
+              },
+              {
+                "number": 24,
+                "prompt": "Según el último párrafo, los beneficios de estos retiros turísticos solo perdurarán si...",
+                "options": {
+                  "A": "los turistas deciden quedarse a vivir permanentemente en el campo.",
+                  "B": "las personas tiran a la basura sus ordenadores al llegar a casa.",
+                  "C": "el viajero aprende a poner límites al uso de la tecnología en su entorno cotidiano.",
+                  "D": "los empleadores deciden dejar de enviar correos electrónicos por completo."
+                },
+                "answer": "C",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 25–26: Respuestas cortas. Contesta usando las palabras exactas del texto.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 25, "prompt": "Menciona dos actividades específicas y 'analógicas' que realizan los huéspedes en los retiros (párrafo 2).", "answer": "caminatas contemplativas, la lectura en papel (y la meditación guiada)", "points": 1 },
+              { "number": 26, "prompt": "¿Qué consecuencia sufren los trabajadores comunes si deciden apagar sus teléfonos o no responder (párrafo 3)?", "answer": "poner en riesgo su estabilidad laboral", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — El Instituto Leteo",
+        "paragraphs": [
+          "La sala de espera del Instituto Leteo era de un blanco tan prístino e inmaculado que lastimaba las retinas. No había ventanas, ni revistas, ni relojes en las paredes; el entorno estaba diseñado milimétricamente para aislar a los pacientes de la noción del tiempo y del espacio. Alma estaba sentada en una silla ergonómica de polímero, apretando los puños sobre su regazo con tanta fuerza que los nudillos se le habían tornado traslúcidos. Escuchaba el zumbido aséptico y monótono de los servidores neuronales proveniente del pasillo, un sonido que le recordaba al latido frío de una máquina despiadada.",
+          "Había ahorrado durante tres años enteros para poder permitirse aquel procedimiento clandestino. La publicidad de la clínica era una promesa embriagadora para las almas fracturadas: 'Extracción focalizada del trauma. Vuelva a ser usted mismo, sin el peso del ayer'. Alma había venido a borrar la noche del accidente, a arrancar de su corteza cerebral el agudo sonido del metal retorciéndose y la imagen imborrable de su hermana menor exhalando el último aliento en el asfalto helado. El peso aplastante de aquella culpa la había transformado en un fantasma que deambulaba por su propia vida, incapaz de amar o de mirar hacia el futuro.",
+          "La puerta de cristal esmerilado se deslizó con un siseo imperceptible y el doctor Vargas emergió, sosteniendo una tableta holográfica. 'Señorita Alma, el mapeo de sus sinapsis está completo', anunció con un tono profesional y desprovisto de cualquier empatía. 'Hemos aislado el núcleo exacto de la memoria traumática. El procedimiento dura apenas veinte minutos. No borramos el hecho biográfico de que su hermana falleció, eso crearía una disonancia cognitiva. Simplemente cauterizamos la resonancia emocional. Recordará el evento como si hubiera leído una noticia lejana sobre un desconocido en el periódico'.",
+          "Alma asintió lentamente y se puso en pie. Sin embargo, justo cuando iba a cruzar el umbral del quirófano, un destello invadió su mente. Recordó a su hermana sonriendo bajo la lluvia, abrazándola con fuerza el mismo día del accidente, diciéndole lo mucho que la admiraba. La tristeza que Alma sentía no era un virus extraño que había invadido su cuerpo; era la forma exacta y profunda que tomaba el amor cuando la persona amada ya no estaba. Si eliminaba la agonía, también extinguiría la intensidad de ese amor, convirtiendo a su hermana en una mera nota a pie de página en el libro de su existencia.",
+          "El doctor Vargas frunció el ceño, impacientándose ante la inmovilidad de la paciente. '¿Está lista para anestesiar el dolor?', preguntó, sosteniendo la mascarilla neuronal. Alma retrocedió un paso, sintiendo que la sangre volvía a fluir con fuerza por sus venas, llenándola de una vitalidad desgarradora pero auténtica. 'No', susurró con la voz temblorosa pero firme. 'Me ha costado demasiado construir estas cicatrices como para dejar que ustedes me las roben'. Se dio la media vuelta y salió corriendo de la clínica blanca, abrazando fuertemente el dolor que, al fin y al cabo, era la única prueba irrefutable de que seguía viva."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 27–30: Selección múltiple. Selecciona las CUATRO frases verdaderas basándote en el texto literario. Escribe las letras (A-H) en las opciones.",
+            "type": "multiple_select",
+            "options": {
+              "A": "La clínica estaba decorada con colores alegres para tranquilizar a los pacientes.",
+              "B": "Alma buscaba el procedimiento médico porque sentía una profunda culpa por la muerte de su hermana.",
+              "C": "El doctor explicó que el proceso eliminaría totalmente a la hermana de los recuerdos de Alma.",
+              "D": "La extracción del recuerdo implicaba separar el suceso de las emociones que este provocaba.",
+              "E": "La protagonista se dio cuenta de que su dolor estaba estrechamente vinculado al amor que sentía.",
+              "F": "El doctor Vargas se mostró muy comprensivo y consoló a Alma antes de la operación.",
+              "G": "El procedimiento tenía un alto costo económico para la protagonista de la historia.",
+              "H": "Al final, Alma decidió someterse a la cirugía para dejar de sufrir definitivamente."
+            },
+            "questions": [
+              { "number": "27-30", "prompt": "Selecciona las 4 verdaderas", "answer": ["B", "D", "E", "G"], "points": 4 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 31–34: Opción múltiple literaria. Elige la respuesta correcta basándote en el significado del texto.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 31,
+                "prompt": "En el primer párrafo, la descripción de la sala de espera sin ventanas ni relojes pretende transmitir una sensación de...",
+                "options": {
+                  "A": "lujo extremo y confort inigualable.",
+                  "B": "aislamiento total, desorientación y frialdad artificial.",
+                  "C": "seguridad, confianza y tranquilidad hospitalaria.",
+                  "D": "pobreza, abandono y falta de recursos médicos."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 32,
+                "prompt": "La metáfora 'transformado en un fantasma que deambulaba por su propia vida' (párrafo 2) sugiere que Alma...",
+                "options": {
+                  "A": "había muerto físicamente durante el accidente automovilístico.",
+                  "B": "había adquirido el poder de hacerse invisible a voluntad.",
+                  "C": "vivía vacía de emociones positivas y sin conexión con el presente.",
+                  "D": "asustaba constantemente a los médicos que intentaban curarla."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 33,
+                "prompt": "En el párrafo 4, Alma concluye que la tristeza profunda que siente es, en realidad,...",
+                "options": {
+                  "A": "una ilusión creada por los servidores neuronales.",
+                  "B": "la continuación lógica y el testimonio del amor hacia su hermana.",
+                  "C": "una enfermedad mortal que debe ser erradicada a toda costa.",
+                  "D": "la causa directa del accidente de tráfico."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 34,
+                "prompt": "El mensaje central que transmite la decisión final de la protagonista es que...",
+                "options": {
+                  "A": "la tecnología nunca será capaz de curar enfermedades del cerebro.",
+                  "B": "los doctores modernos solo quieren engañar a los pacientes para ganar dinero.",
+                  "C": "las experiencias dolorosas y las cicatrices emocionales son parte esencial de la identidad humana.",
+                  "D": "es preferible borrar los recuerdos de las personas que no nos trataron bien en el pasado."
+                },
+                "answer": "C",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 35–37: Completar la oración basándose en el texto literario.",
+            "type": "matching",
+            "options": {
+              "A": "provocó que la protagonista dudara y cambiara su perspectiva del duelo.",
+              "B": "prometía curar el sufrimiento extirpando recuerdos del cerebro.",
+              "C": "exigía que las autoridades cerraran definitivamente el Instituto Leteo.",
+              "D": "se realizaba mediante un proceso aséptico que quitaba la resonancia afectiva.",
+              "E": "eran una señal de cobardía frente a los problemas del mundo moderno.",
+              "F": "demostró que ella valoraba su historia completa, incluyendo sus heridas."
+            },
+            "questions": [
+              { "number": 35, "prompt": "El anuncio publicitario de la clínica clandestina...", "answer": "B", "points": 1 },
+              { "number": 36, "prompt": "El repentino recuerdo de la sonrisa bajo la lluvia...", "answer": "A", "points": 1 },
+              { "number": 37, "prompt": "La negativa final de Alma ante el doctor Vargas...", "answer": "F", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 38–40: Búsqueda de sinónimos literarios. Encuentra las palabras en el texto que coincidan con estos significados.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 38, "prompt": "puro / libre de manchas o suciedad (párrafo 1)", "answer": "inmaculado", "points": 1 },
+              { "number": 39, "prompt": "secreta / oculta por estar fuera de la ley (párrafo 2)", "answer": "clandestino", "points": 1 },
+              { "number": 40, "prompt": "falta de armonía / desacuerdo profundo (párrafo 3)", "answer": "disonancia", "points": 1 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
