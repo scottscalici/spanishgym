@@ -232,21 +232,13 @@ function renderIndex(allWorksheetsData) {
                             <ul class="index-text-list">
                     `;
 
-                    chunk.forEach(wsItem => {
-                        const wsTitle = wsItem.data.worksheet.title;
-                        htmlContent += `
-                            <div class="index-worksheet-group">
-                                <div class="index-worksheet-title">${wsItem.label}: ${wsTitle}</div>
-                                <ul class="index-text-list">
-                        `;
-
-                        // Loop through the 3 texts inside each worksheet
-                        wsItem.data.worksheet.texts.forEach(t => {
-                            htmlContent += `<li><strong>${t.text_id}:</strong> ${t.title.replace(`Texto ${t.text_id} — `, '')}</li>`;
-                        });
-
-                        htmlContent += `</ul></div>`;
+                    // Loop through the 3 texts inside each worksheet
+                    wsItem.data.worksheet.texts.forEach(t => {
+                        htmlContent += `<li><strong>${t.text_id}:</strong> ${t.title.replace(`Texto ${t.text_id} — `, '')}</li>`;
                     });
+
+                    htmlContent += `</ul></div>`;
+                });
 
                 htmlContent += `</div>`;
                 p.innerHTML = htmlContent;
@@ -255,7 +247,9 @@ function renderIndex(allWorksheetsData) {
             
             return fragment;
         }
-    
+
+
+        
         function renderReading(t, title) {
             const p = document.createElement('div');
             p.className = 'page has-watermark';
