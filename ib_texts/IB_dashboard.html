@@ -32,12 +32,17 @@
         .btn-pdf { background-color: #2b6cb0; } .btn-pdf:hover { background-color: #2c5282; }
         .btn-png-single { background-color: #c53030; } .btn-png-single:hover { background-color: #9b2c2c; }
         .btn-png-bundle { background-color: #276749; } .btn-png-bundle:hover { background-color: #22543d; }
+        .btn-desc { background-color: #805ad5; } .btn-desc:hover { background-color: #6b46c1; }
         
         .controls { margin-bottom: 15px; display: flex; gap: 10px; }
         .btn-small { background-color: #4a5568; padding: 6px 12px; font-size: 12px; border-radius: 4px; color: white; border: none; cursor: pointer; flex-grow: 0;}
         .btn-small.outline { background-color: #a0aec0; color: #1a202c; }
 
         #loading-indicator { display: none; text-align: center; font-size: 1.2em; font-weight: bold; color: #c53030; margin-top: 20px; }
+
+        /* Description Generator Styles */
+        .description-box { background: #f7fafc; padding: 25px; border: 2px solid #cbd5e0; border-radius: 8px; white-space: pre-wrap; font-family: 'Nunito', sans-serif; font-size: 15px; line-height: 1.6; color: #2d3748; position: relative; margin-top: 15px;}
+        .btn-copy { background-color: #4a5568; position: absolute; top: 15px; right: 15px; width: auto; padding: 8px 15px; font-size: 13px;} .btn-copy:hover { background-color: #2d3748; }
 
         /* --- PDF PRINT STYLES (Hidden on Screen) --- */
         #render-container { display: none; }
@@ -49,18 +54,22 @@
             @page { margin: 0.6in; size: 8.5in 11in; }
         }
 
+        /* IB Layout specific classes (Applied inside #render-container) */
         .page { width: 100%; box-sizing: border-box; position: relative; page-break-after: always; break-after: page; background: white; display: flex; flex-direction: column; }
         .page:last-child { page-break-after: auto; break-after: auto; }
+        
         .question-section-wrapper, .question-row, .instruction-block, .options-box, .key-item, .key-section-wrapper { page-break-inside: avoid !important; break-inside: avoid !important; }
+
         .has-watermark::before { content: ""; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80%; height: 80%; background-image: url('https://raw.githubusercontent.com/scottscalici/spanishgym/main/images/spanishgymbw.png'); background-repeat: no-repeat; background-position: center; background-size: contain; opacity: 0.05; z-index: 0; pointer-events: none; }
 
-        /* Print Layout Formatting */
         .print-header { display: flex; justify-content: space-between; font-size: 0.9rem; font-weight: bold; margin-bottom: 1.5rem; color: black; }
         .name-line { width: 220px; border-bottom: 1px solid #000; display: inline-block; margin-left: 8px; }
         .print-title { text-align: center; font-size: 1.25rem; margin-bottom: 1rem; color: black; font-weight: bold; }
         .print-subtitle { font-size: 1.1rem; border-bottom: 2px solid #000; padding-bottom: 5px; margin-bottom: 15px; margin-top: 20px; color: black; font-weight: bold; }
+
         .reading-section { position: relative; z-index: 1; color: black; }
         .reading-text p { font-size: 1.05rem; line-height: 1.6rem; margin-bottom: 1.2rem; text-indent: 2rem; text-align: justify; page-break-inside: avoid; break-inside: avoid; }
+
         .instruction-block { background: #f4f4f4; padding: 10px; margin-bottom: 15px; font-weight: bold; border-left: 4px solid #333; color: black;}
         .options-box { border: 2px solid #ccc; padding: 15px; margin-bottom: 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; background-color: #fafafa; color: black;}
         .question-row { margin-bottom: 15px; color: black; }
@@ -134,16 +143,22 @@
             <button class="btn-pdf" onclick="generateBundlePDF()">📄 Print PDF (Exámenes)</button>
         </div>
 
-        <h2 class="section-title">Portadas para TpT (PNG)</h2>
+        <h2 class="section-title">Generadores para TpT</h2>
         
         <div class="input-group">
-            <label style="display:block; margin-bottom:10px; font-weight:bold; color: #2d3748;">Título Personalizado para el Bundle (Solo aplica si seleccionas múltiples exámenes):</label>
+            <label style="display:block; margin-bottom:10px; font-weight:bold; color: #2d3748;">Título Personalizado para el Bundle (Opcional):</label>
             <input type="text" id="bundle-title" placeholder="Ej. Gran Bundle de Lecturas IB - Semestre 1">
         </div>
 
         <div class="button-group">
-            <button class="btn-png-single" onclick="generateSinglePNG()">🖼️ Descargar Portada Individual</button>
-            <button class="btn-png-bundle" onclick="generateBundlePNG()">📚 Descargar Portada BUNDLE</button>
+            <button class="btn-png-single" onclick="generateSinglePNG()">🖼️ Portada Individual (PNG)</button>
+            <button class="btn-png-bundle" onclick="generateBundlePNG()">📚 Portada BUNDLE (PNG)</button>
+            <button class="btn-desc" onclick="generateTpTDescription()">📝 Generar Descripción TpT</button>
+        </div>
+
+        <div class="description-box">
+            <button class="btn-copy" onclick="copyDescription()">📋 Copiar Texto</button>
+            <div id="generated-description">Selecciona uno o más modelos y haz clic en "Generar Descripción TpT"...</div>
         </div>
 
     </div>
@@ -242,6 +257,66 @@
             setTimeout(() => { window.print(); }, 500);
         }
 
+        // --- TpT DESCRIPTION GENERATOR ---
+        async function generateTpTDescription() {
+            const allWorksheetsData = await fetchSelectedData();
+            if (!allWorksheetsData) return;
+
+            const isBundle = allWorksheetsData.length > 1;
+            let bundleTitle = document.getElementById('bundle-title').value.trim() || "IB Spanish Reading Practice Bundle";
+            
+            let text = "";
+
+            if (isBundle) {
+                text += `Are you looking for authentic, high-quality reading comprehension practice for your IB Spanish students? Stop spending hours searching for articles and formatting questions! This **${bundleTitle}** is the perfect no-prep solution, giving you multiple complete Paper 1 style reading assessments designed specifically for the IB Spanish exam.\n\n`;
+                text += `**What's Included in this Bundle:**\n`;
+                text += `This bundle includes ${allWorksheetsData.length} complete practice exams. Each exam contains 3 authentic texts with official IB-style question formats.\n\n`;
+                
+                allWorksheetsData.forEach(wsItem => {
+                    text += `📌 **${wsItem.data.worksheet.title}**\n`;
+                    wsItem.data.worksheet.texts.forEach(t => {
+                        text += `  • ${t.title}\n`;
+                    });
+                    text += `\n`;
+                });
+
+            } else {
+                const wsItem = allWorksheetsData[0];
+                const title = wsItem.data.worksheet.title;
+                const isHL = title.includes("Nivel Superior") || title.includes("NS");
+                const levelText = isHL ? "Nivel Superior (HL)" : "Nivel Medio (SL)";
+
+                text += `Prepare your IB Spanish students for the Paper 1 reading exam with this authentic, perfectly formatted practice assessment! Designed specifically for **${levelText}**, this ready-to-use resource takes the stress out of exam prep.\n\n`;
+                text += `**What's Included:**\n`;
+                text += `A complete practice exam featuring 3 high-interest, authentic texts:\n`;
+                wsItem.data.worksheet.texts.forEach(t => {
+                    text += `- ${t.title}\n`;
+                });
+                text += `\n`;
+            }
+
+            text += `**Key Features:**\n`;
+            text += `- **Authentic Format:** Questions are meticulously modeled after the official IB Spanish Paper 1 exam (matching, true/false with justification, multiple choice, synonym search, etc.).\n`;
+            text += `- **No Prep Needed:** Ready to print and hand straight to your students.\n`;
+            text += `- **Answer Key Included:** A complete, easy-to-read answer key is attached at the end of the document for quick grading.\n\n`;
+            text += `Perfect for end-of-unit assessments, mock exams, sub plans, or targeted reading practice!`;
+
+            document.getElementById('generated-description').innerText = text;
+        }
+
+        function copyDescription() {
+            const textToCopy = document.getElementById('generated-description').innerText;
+            if (textToCopy.includes("Selecciona uno o más modelos")) {
+                alert("Primero debes generar una descripción.");
+                return;
+            }
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                alert("¡Descripción copiada al portapapeles!");
+            }).catch(err => {
+                alert("Error al copiar: ", err);
+            });
+        }
+
         // --- PNG GENERATION LOGIC (TpT) ---
         
         async function generateSinglePNG() {
@@ -313,7 +388,7 @@
                     <div class="preview-content-box" style="border-left-color: #ecc94b;">
                         <h3>Exámenes Incluidos:</h3>
                         <ul>
-                            ${includedModels.slice(0, 8).map(model => `<li>✔ ${model} (3 textos)</li>`).join('')}
+                            ${includedModels.slice(0, 8).map(model => `<li>✔ ${model} (3 textos c/u)</li>`).join('')}
                             ${includedModels.length > 8 ? `<li style="color:#c53030; font-style:italic;">+ ${includedModels.length - 8} modelos adicionales...</li>` : ''}
                         </ul>
                     </div>
@@ -359,14 +434,24 @@
                 p.className = 'page has-watermark'; 
                 
                 const titleSuffix = i > 0 ? ' (Cont.)' : '';
-                let htmlContent = `<div class="index-page-content"><div class="index-main-title">Índice de Textos Incluidos${titleSuffix}</div>`;
+                let htmlContent = `
+                    <div class="index-page-content">
+                        <div class="index-main-title">Índice de Textos Incluidos${titleSuffix}</div>
+                `;
 
                 chunk.forEach(wsItem => {
                     const wsTitle = wsItem.data.worksheet.title;
-                    htmlContent += `<div class="index-worksheet-group"><div class="index-worksheet-title">${wsItem.label}: ${wsTitle}</div><ul class="index-text-list">`;
+                    htmlContent += `
+                        <div class="index-worksheet-group">
+                            <div class="index-worksheet-title">${wsItem.label}: ${wsTitle}</div>
+                            <ul class="index-text-list">
+                    `;
+
+                    // Loop through the 3 texts inside each worksheet
                     wsItem.data.worksheet.texts.forEach(t => {
                         htmlContent += `<li><strong>${t.text_id}:</strong> ${t.title.replace(`Texto ${t.text_id} — `, '')}</li>`;
                     });
+
                     htmlContent += `</ul></div>`;
                 });
 
@@ -374,6 +459,7 @@
                 p.innerHTML = htmlContent;
                 fragment.appendChild(p);
             }
+            
             return fragment;
         }
 
