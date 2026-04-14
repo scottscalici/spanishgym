@@ -1,0 +1,240 @@
+{
+  "worksheet": {
+    "title": "Práctica de Lectura IB: Nivel Medio (Modelo 12)",
+    "texts": [
+      {
+        "text_id": "A",
+        "title": "Texto A — Las guardianas de la selva",
+        "paragraphs": [
+          "La Amazonía, conocida mundialmente como el gran pulmón del planeta, enfrenta constantes amenazas por la deforestación masiva y la extracción intensiva de petróleo. En medio de esta profunda crisis ecológica, ha surgido un movimiento de resistencia pacífica muy poderoso, liderado exclusivamente por mujeres indígenas de Ecuador y Colombia. Conocidas con orgullo como las 'guardianas de la selva', estas mujeres han dejado temporalmente sus tareas tradicionales en las comunidades para convertirse en las principales defensoras de sus territorios ancestrales.",
+          "El motor que impulsa a estas mujeres no es el dinero, sino la profunda conexión espiritual y práctica que tienen con la naturaleza. Para ellas, la selva no es simplemente un recurso económico o un montón de árboles para talar; es su farmacia natural, su supermercado y su hogar sagrado. Cuando las grandes compañías petroleras contaminan los ríos cercanos, son las madres quienes sufren directamente porque no pueden alimentar a sus hijos con pescado limpio ni encontrar las plantas medicinales que han curado a sus familias durante generaciones.",
+          "La estrategia de lucha de las guardianas ha sido sumamente innovadora. En lugar de usar la violencia, organizan marchas pacíficas y coloridas en las capitales de sus países. Además, utilizan las redes sociales modernas para grabar y denunciar los derrames de petróleo, y presentan demandas legales formales ante tribunales internacionales. Sorprendentemente, su voz unida ha logrado detener temporalmente varios proyectos mineros, demostrando que la organización comunitaria puede vencer a los grandes intereses económicos.",
+          "A pesar de sus importantes victorias en los juzgados, el peligro está muy lejos de terminar. Estas activistas ecologistas sufren amenazas constantes y arriesgan sus vidas a diario por proteger su entorno. Su valiente lucha nos recuerda que salvar la Amazonía no es solo un deber de los gobiernos locales, sino una responsabilidad moral de toda la humanidad, porque sin la selva, nuestro planeta simplemente no podría respirar."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 1–4: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para cada párrafo. Hay más opciones de las necesarias.",
+            "type": "matching",
+            "options": {
+              "A": "Una motivación nacida de la conexión y necesidad vital",
+              "B": "Riesgos actuales y un mensaje para el mundo entero",
+              "C": "El abandono definitivo de sus familias",
+              "D": "Métodos de protesta modernos, legales y sin violencia",
+              "E": "La creación de nuevas empresas de turismo",
+              "F": "El nacimiento de un nuevo liderazgo ecológico femenino"
+            },
+            "questions": [
+              { "number": 1, "prompt": "Párrafo 1", "answer": "F", "points": 1 },
+              { "number": 2, "prompt": "Párrafo 2", "answer": "A", "points": 1 },
+              { "number": 3, "prompt": "Párrafo 3", "answer": "D", "points": 1 },
+              { "number": 4, "prompt": "Párrafo 4", "answer": "B", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 5–8: Verdadero o Falso con justificación. Marca si la afirmación es verdadera (V) o falsa (F) y justifica tu respuesta usando las palabras exactas del texto. Ambas partes son necesarias para el punto.",
+            "type": "true_false_justification",
+            "questions": [
+              { "number": 5, "prompt": "El movimiento ecologista amazónico está formado por hombres y mujeres a partes iguales.", "answer": "F, liderado exclusivamente por mujeres indígenas (de Ecuador y Colombia)", "points": 1 },
+              { "number": 6, "prompt": "Las mujeres ven la selva principalmente como un lugar para enriquecerse económicamente.", "answer": "F, la selva no es simplemente un recurso económico", "points": 1 },
+              { "number": 7, "prompt": "Las activistas han utilizado la ley para conseguir que se paralicen operaciones destructivas en la selva.", "answer": "V, presentan demandas legales (...) ha logrado detener temporalmente varios proyectos mineros", "points": 1 },
+              { "number": 8, "prompt": "Tras ganar sus batallas legales, las guardianas viven completamente seguras y tranquilas.", "answer": "F, sufren amenazas constantes y arriesgan sus vidas a diario", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Pregunta 9: Respuesta corta. Contesta basándote en el párrafo 3.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 9, "prompt": "Menciona DOS acciones pacíficas y específicas que realizan estas mujeres para defender su territorio. (2 puntos)", "answer": "organizan marchas pacíficas / utilizan las redes sociales (para grabar y denunciar) / presentan demandas legales (dos de tres)", "points": 2 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 10–12: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 10, "prompt": "sacar recursos de la tierra / sacar minerales (párrafo 1)", "answer": "extracción", "points": 1 },
+              { "number": 11, "prompt": "sanado / tratado de una enfermedad (párrafo 2)", "answer": "curado", "points": 1 },
+              { "number": 12, "prompt": "parar / poner fin a una acción temporalmente (párrafo 3)", "answer": "detener", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "B",
+        "title": "Texto B — Tejiendo el futuro: Cooperativas en los Andes",
+        "paragraphs": [
+          "En las frías y majestuosas montañas de los Andes, una revolución silenciosa está transformando la vida de miles de mujeres rurales. Históricamente, las campesinas de estas regiones tenían muy pocas oportunidades de asistir a la escuela o de conseguir un trabajo remunerado. Sin embargo, en la actualidad, el antiguo arte de tejer a mano con lana de alpaca y oveja se ha convertido en su llave maestra para alcanzar la tan deseada independencia económica, [ – 13 – ] la creación comunitaria de cooperativas textiles.",
+          "Una cooperativa es una organización solidaria donde las trabajadoras son, al mismo tiempo, las dueñas democráticas de su propio negocio. [ – 14 – ] competir entre ellas, las mujeres de diferentes pueblos pequeños deciden unirse para comprar la lana en grandes cantidades, mejorar la calidad de sus coloridos tejidos y vender sus prendas directamente en ferias o mercados internacionales. A través del acceso a microcréditos (pequeños préstamos de dinero), estas asociaciones pueden comprar máquinas de coser modernas o pagar cursos de diseño, [ – 15 – ] aumenta enormemente el valor final de sus productos artesanales.",
+          "El impacto de gestionar su propio dinero ha cambiado por completo la dinámica social tradicional de las familias andinas. Por primera vez, muchas madres pueden tomar decisiones importantes en el hogar, pagar la educación de sus hijas y comprar alimentos más nutritivos. [ – 16 – ], al ver a sus madres convertidas en empresarias y líderes exitosas, las niñas crecen con una nueva mentalidad, sabiendo que su futuro ya no está limitado únicamente a las labores domésticas.",
+          "La moda producida por estas cooperativas tiene un gran éxito en Europa y Estados Unidos porque sigue estrictamente los principios del comercio justo. Los compradores extranjeros valoran saber que al comprar un suéter o una bufanda andina no están apoyando la explotación laboral de las fábricas masivas. Por el contrario, saben que están pagando un precio honesto que premia el inmenso talento artesanal y garantiza directamente el bienestar social de las mujeres tejedoras."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 13–16: Completar espacios en blanco. Elige de la lista el conector apropiado para rellenar los espacios en el texto. Hay más opciones de las necesarias.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "gracias a",
+              "B": "En lugar de",
+              "C": "lo que",
+              "D": "Además",
+              "E": "A pesar de",
+              "F": "Antes de"
+            },
+            "questions": [
+              { "number": 13, "prompt": "Espacio [ – 13 – ]", "answer": "A", "points": 1 },
+              { "number": 14, "prompt": "Espacio [ – 14 – ]", "answer": "B", "points": 1 },
+              { "number": 15, "prompt": "Espacio [ – 15 – ]", "answer": "C", "points": 1 },
+              { "number": 16, "prompt": "Espacio [ – 16 – ]", "answer": "D", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 17–19: Opción múltiple. Elige la respuesta correcta basándote en el texto.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 17,
+                "prompt": "Según el párrafo 1, la técnica tradicional de tejer ha servido recientemente para que las mujeres...",
+                "options": {
+                  "A": "puedan competir en concursos de arte a nivel nacional.",
+                  "B": "logren ganar su propio dinero y ser independientes.",
+                  "C": "abandonen sus pueblos para vivir en grandes ciudades europeas.",
+                  "D": "dejen de trabajar en la agricultura por completo."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 18,
+                "prompt": "En el párrafo 2, se explica que las mujeres utilizan los microcréditos principalmente para...",
+                "options": {
+                  "A": "invertir en mejores equipos y en educación para mejorar sus diseños.",
+                  "B": "comprar terrenos agrícolas en otras zonas del país.",
+                  "C": "pagar las deudas que tienen con los bancos tradicionales.",
+                  "D": "viajar de vacaciones a ferias textiles en Estados Unidos."
+                },
+                "answer": "A",
+                "points": 1
+              },
+              {
+                "number": 19,
+                "prompt": "El impacto en las niñas de la región (párrafo 3) es que ahora...",
+                "options": {
+                  "A": "tienen que trabajar tejiendo desde muy pequeñas.",
+                  "B": "no quieren ayudar a sus madres en el negocio cooperativo.",
+                  "C": "ven nuevas posibilidades para su futuro al tener a sus madres como modelo.",
+                  "D": "prefieren dedicarse solo a las tareas del hogar."
+                },
+                "answer": "C",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 20–22: Identificación de referencia. ¿A qué se refieren las siguientes palabras en el texto?",
+            "type": "reference",
+            "questions": [
+              { "number": 20, "prompt": "su (párrafo 1)", "answer": "de las campesinas / de las mujeres rurales", "points": 1 },
+              { "number": 21, "prompt": "ellas (párrafo 2)", "answer": "las mujeres (de diferentes pueblos)", "points": 1 },
+              { "number": 22, "prompt": "sus (párrafo 3)", "answer": "de las madres", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 23–26: Relacionar mitades de oraciones. Relaciona la primera parte de la frase con su final correcto.",
+            "type": "matching",
+            "options": {
+              "A": "...valoran que la ropa sea fabricada de forma ética y sin abusos.",
+              "B": "...los artesanos reciban un pago económico correcto y honesto por su trabajo.",
+              "C": "...trabajen juntas como grupo y mejoren sus ventas al exterior.",
+              "D": "...son dueños de fábricas textiles masivas en los Andes.",
+              "E": "...puedan tomar decisiones importantes y pagar los estudios de sus hijos."
+            },
+            "questions": [
+              { "number": 23, "prompt": "El modelo de cooperativas permite que las tejedoras...", "answer": "C", "points": 1 },
+              { "number": 24, "prompt": "El dinero ganado ayuda directamente a que las madres...", "answer": "E", "points": 1 },
+              { "number": 25, "prompt": "Los clientes europeos y norteamericanos...", "answer": "A", "points": 1 },
+              { "number": 26, "prompt": "El sistema del comercio justo asegura siempre que...", "answer": "B", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — El lenguaje oculto de los Andes",
+        "paragraphs": [
+          "Cuando visitamos un museo de historia precolombina y observamos los coloridos y elaborados tejidos andinos, solemos pensar rápidamente que sus hermosos dibujos son simples decoraciones estéticas. Sin embargo, para civilizaciones antiguas como los incas, los textiles no eran solo una forma de protegerse del frío o una pieza de arte visual; eran verdaderos 'libros de tela'. Como no poseían un sistema de escritura con letras o alfabetos de papel como el nuestro, utilizaban los gruesos hilos, los contrastes de colores y las formas geométricas para registrar fielmente su historia y enviar mensajes secretos a lo largo del imperio.",
+          "Uno de los elementos más fascinantes y estudiados de esta comunicación textil son los llamados 'tocapus'. Estos son pequeños cuadrados con diseños geométricos muy complejos que se tejían pacientemente en las túnicas de los líderes, los guerreros y los sacerdotes. Los arqueólogos han descubierto que cada cuadrado funcionaba exactamente como un símbolo visual que representaba una palabra, una familia noble específica o un evento histórico de gran importancia. Por lo tanto, usar una prenda llena de tocapus era como llevar puesto un documento público que mostraba todo el poder político y la historia familiar de la persona.",
+          "El color de la lana también jugaba un papel fundamental y muy delicado en este lenguaje secreto. Los tintes naturales se obtenían mediante procesos complejos a partir de plantas y pequeños insectos del ecosistema andino. Por ejemplo, el color rojo intenso, que era extraído de un pequeño insecto llamado cochinilla, representaba la fuerza, el poder político y la sangre victoriosa de los guerreros. En cambio, el color amarillo estaba íntimamente asociado con la energía del sol y la fertilidad de las cosechas. Un pequeño error al teñir la lana podía cambiar completamente el significado final del mensaje enviado.",
+          "Hoy en día, diversos grupos de historiadores e investigadores siguen trabajando con computadoras modernas e inteligencia artificial para intentar descifrar todos los códigos que aún permanecen ocultos en las mantas sobrevivientes. Este gran esfuerzo nos recuerda que la inteligencia y la comunicación humana tienen muchísimas formas de expresarse. Los impresionantes tejidos andinos son la prueba viva de que, a veces, las historias más complejas del mundo no se escriben con tinta negra y papel, sino que se tejen pacientemente con lana colorida y agujas de madera."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 27–31: Selección múltiple. Selecciona las CINCO afirmaciones verdaderas basándote en el texto. Escribe las letras (A-J) en las opciones.",
+            "type": "multiple_select",
+            "options": {
+              "A": "Los turistas a menudo creen erróneamente que los tejidos antiguos son solo objetos decorativos.",
+              "B": "Los incas usaban un alfabeto idéntico al español pero lo bordaban en la ropa.",
+              "C": "Los colores y formas de la tela servían para comunicar información y datos históricos importantes.",
+              "D": "Los tocapus eran cuadrados simples que podía usar cualquier persona del pueblo sin distinción.",
+              "E": "La cantidad y el diseño de los tocapus indicaban el nivel de poder de quien los usaba.",
+              "F": "Obtener los colores exactos para pintar la lana era un proceso extremadamente fácil y rápido.",
+              "G": "El color rojo en la vestimenta andina estaba relacionado con el liderazgo y las batallas.",
+              "H": "El amarillo era considerado un símbolo de tristeza, oscuridad y muerte en las guerras.",
+              "I": "Un color equivocado o mal preparado podía alterar la información que transmitía la tela.",
+              "J": "Los científicos ya han logrado comprender el significado del cien por ciento de los tejidos antiguos."
+            },
+            "questions": [
+              { "number": "27-31", "prompt": "Selecciona las 5 verdaderas", "answer": ["A", "C", "E", "G", "I"], "points": 5 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 32–34: Respuestas cortas. Contesta usando las palabras exactas del texto.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 32, "prompt": "Según los arqueólogos, ¿qué tres cosas representaban los símbolos de los cuadrados llamados tocapus? (párrafo 2) (1 punto)", "answer": "una palabra, una familia noble (específica) o un evento histórico (de gran importancia)", "points": 1 },
+              { "number": 33, "prompt": "¿De dónde sacaban los incas los materiales para crear los tintes de sus tejidos? (párrafo 3) (1 punto)", "answer": "de plantas y (pequeños) insectos", "points": 1 },
+              { "number": 34, "prompt": "¿Qué tecnología están usando los investigadores actuales para ayudarles a entender mejor estos códigos textiles? (párrafo 4) (1 punto)", "answer": "computadoras modernas e inteligencia artificial", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 35–37: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 35, "prompt": "atractivas visualmente / relacionadas con la belleza (párrafo 1)", "answer": "estéticas", "points": 1 },
+              { "number": 36, "prompt": "escondido / que nadie conoce (párrafo 3)", "answer": "secreto", "points": 1 },
+              { "number": 37, "prompt": "entender un código / revelar un mensaje (párrafo 4)", "answer": "descifrar", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 38–39: Opción múltiple para comprensión global.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 38,
+                "prompt": "El propósito principal del párrafo 2 es...",
+                "options": {
+                  "A": "criticar la moda de los sacerdotes incas.",
+                  "B": "explicar el funcionamiento y el significado político de los diseños geométricos cuadrados.",
+                  "C": "enseñar a los lectores a tejer su propia ropa para el invierno.",
+                  "D": "demostrar que los incas no sabían dibujar círculos en su ropa."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 39,
+                "prompt": "¿Qué gran lección nos enseñan los tejidos andinos según el último párrafo?",
+                "options": {
+                  "A": "Que la tecnología de las computadoras es mala para la historia antigua.",
+                  "B": "Que las lanas antiguas eran mucho más cálidas que las telas actuales.",
+                  "C": "Que la escritura tradicional no es la única forma inteligente y avanzada de guardar la historia.",
+                  "D": "Que todos los libros de papel del mundo terminarán desapareciendo pronto."
+                },
+                "answer": "C",
+                "points": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
