@@ -1,0 +1,265 @@
+{
+  "worksheet": {
+    "title": "Práctica de Lectura IB: Nivel Superior (Modelo 9)",
+    "texts": [
+      {
+        "text_id": "A",
+        "title": "Texto A — El cementerio de la vanidad: La crisis del 'fast fashion'",
+        "paragraphs": [
+          "El inmenso desierto de Atacama, en el norte de Chile, es reverenciado globalmente por albergar los cielos más prístinos para la observación astronómica y por su incomparable belleza árida. [ – 1 – ], este paraje de majestuosidad natural oculta una herida ecológica de proporciones dantescas: se ha transformado progresivamente en el vertedero textil clandestino más grande del hemisferio sur. En la actualidad, dunas que alguna vez fueron el hogar de flora endémica se encuentran sepultadas bajo montañas interminables de camisetas, pantalones de mezclilla y calzado sintético, acumulando cerca de 39.000 toneladas anuales de ropa desechada.",
+          "La génesis de esta catástrofe medioambiental se encuentra en la voracidad del modelo de negocio conocido como 'moda rápida' o 'fast fashion'. [ – 2 – ] confeccionar prendas duraderas y atemporales, las grandes corporaciones textiles han instaurado un sistema basado en la obsolescencia programada y la hiperproducción. Lanzan al mercado hasta cincuenta microcolecciones anuales a precios irrisorios, induciendo en el consumidor una necesidad psicológica constante de renovación estética. Esta ropa, fabricada habitualmente con materiales de ínfima calidad en fábricas asiáticas bajo condiciones laborales cuestionables, está diseñada para desgastarse o pasar de moda tras un par de usos.",
+          "La trayectoria geopolítica de estos desechos evidencia una profunda desigualdad estructural. Gran parte de esta ropa es adquirida frenéticamente en Estados Unidos y Europa. Cuando las prendas son descartadas, se empaquetan en inmensos fardos y se exportan hacia puertos sudamericanos bajo la falsa premisa de la donación o la reventa de segunda mano. Sin embargo, más del sesenta por ciento de esta mercancía llega irremediablemente manchada, rasgada o inservible. [ – 3 – ], la descomposición de estas prendas sintéticas bajo el implacable sol del desierto libera microplásticos letales y tintes químicos altamente tóxicos que se filtran lentamente, envenenando las escasas reservas de aguas subterráneas de la región.",
+          "Frente a este sombrío panorama, han comenzado a germinar focos de resistencia ciudadana impulsados por la economía circular. Jóvenes diseñadores chilenos y organizaciones no gubernamentales rescatan toneladas de estos residuos textiles para someterlos a procesos de 'upcycling' (suprareciclaje). Con maquinaria especializada, trituran las prendas inservibles y las transforman en paneles de aislamiento térmico de alta calidad para viviendas sociales. [ – 4 – ] erradicar el problema de raíz, los expertos coinciden en que el reciclaje es insuficiente: se requiere un cambio de paradigma urgente que penalice la sobreproducción y obligue a las marcas multinacionales a responsabilizarse del ciclo de vida completo de sus productos."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 1–4: Completar espacios en blanco. Elige de la lista el conector apropiado para rellenar los espacios en el texto. Hay más opciones de las necesarias.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "En lugar de",
+              "B": "Para",
+              "C": "Sin embargo",
+              "D": "Por consiguiente",
+              "E": "Además",
+              "F": "A pesar de",
+              "G": "Gracias a"
+            },
+            "questions": [
+              { "number": 1, "prompt": "Espacio [ – 1 – ]", "answer": "C", "points": 1 },
+              { "number": 2, "prompt": "Espacio [ – 2 – ]", "answer": "A", "points": 1 },
+              { "number": 3, "prompt": "Espacio [ – 3 – ]", "answer": "E", "points": 1 },
+              { "number": 4, "prompt": "Espacio [ – 4 – ]", "answer": "B", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 5–7: Identificación de referencia. ¿A qué se refieren las siguientes palabras en el texto?",
+            "type": "reference",
+            "questions": [
+              { "number": 5, "prompt": "su (párrafo 1)", "answer": "El (inmenso) desierto de Atacama", "points": 1 },
+              { "number": 6, "prompt": "donde (párrafo 2 - implícito en 'fábricas asiáticas donde...') / 'estas prendas' (párrafo 3)", "answer": "la ropa desechada (o mercancía inservible)", "points": 1 },
+              { "number": 7, "prompt": "las (párrafo 4)", "answer": "las prendas inservibles (o toneladas de residuos textiles)", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 8–11: Verdadero o Falso con justificación. Marca si la afirmación es verdadera (V) o falsa (F) y justifica tu respuesta usando las palabras exactas del texto. Ambas partes son necesarias para obtener el punto.",
+            "type": "true_false_justification",
+            "questions": [
+              { "number": 8, "prompt": "Las empresas de moda rápida buscan que la ropa dure muchos años en el armario del consumidor.", "answer": "F, está diseñada para desgastarse o pasar de moda tras un par de usos (o: sistema basado en la obsolescencia programada)", "points": 1 },
+              { "number": 9, "prompt": "Toda la ropa que llega en los barcos a Sudamérica se puede vender perfectamente en las tiendas locales.", "answer": "F, más del sesenta por ciento de esta mercancía llega irremediablemente manchada, rasgada o inservible", "points": 1 },
+              { "number": 10, "prompt": "La basura textil abandonada en Atacama está contaminando los recursos hídricos que están bajo la tierra.", "answer": "V, liberan microplásticos letales y tintes químicos (...) envenenando las escasas reservas de aguas subterráneas", "points": 1 },
+              { "number": 11, "prompt": "Los especialistas afirman que reciclar será la única solución necesaria para arreglar este problema mundial.", "answer": "F, los expertos coinciden en que el reciclaje es insuficiente", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 12–13: Respuestas cortas. Contesta basándote en el texto con la menor cantidad de palabras posible.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 12, "prompt": "¿Qué técnica psicológica emplean las marcas multinacionales para que los clientes compren sin parar? (párrafo 2)", "answer": "induciendo (...) una necesidad (psicológica constante) de renovación estética", "points": 1 },
+              { "number": 13, "prompt": "¿En qué objeto útil para la construcción se transforman las prendas trituradas en Chile? (párrafo 4)", "answer": "(en) paneles de aislamiento térmico (de alta calidad)", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "B",
+        "title": "Texto B — La rebelión climática: Ecoansiedad y la Generación Z",
+        "paragraphs": [
+          "A lo largo de la historia, las revoluciones sociales han sido catalizadas por ideologías políticas o crisis económicas agudas. Sin embargo, en el siglo XXI, una nueva vanguardia ha irrumpido con una fuerza arrolladora en el escenario global: la Generación Z. Estos adolescentes y adultos jóvenes han comprendido, con una lucidez aterradora, que son los herederos involuntarios de un planeta ecológicamente fracturado. Profundamente desilusionados por la ineficacia de las cumbres climáticas tradicionales y la inacción gubernamental, han decidido abandonar la pasividad para exigir, mediante huelgas escolares y movilizaciones masivas, una justicia climática inmediata e innegociable.",
+          "La metodología de movilización de esta cohorte demográfica ha redefinido por completo el concepto de activismo. Mientras que las generaciones anteriores dependían de organizaciones formales y panfletos impresos, los jóvenes de hoy utilizan la arquitectura de las redes sociales como su principal cuartel de operaciones. Plataformas como Instagram o TikTok no solo sirven para el entretenimiento fugaz; son herramientas tácticas sumamente sofisticadas. A través de algoritmos y contenido viral, logran convocar a cientos de miles de manifestantes simultáneamente en Madrid, Bogotá o Ciudad de México, descentralizando el liderazgo y desmantelando las campañas de desinformación financiadas por las corporaciones de combustibles fósiles.",
+          "No obstante, vivir bajo la sombra constante de la extinción masiva tiene un costo psicológico devastador. Los profesionales de la salud mental han acuñado un término para describir esta nueva patología: la 'ecoansiedad' (o solastalgia). Se trata de un miedo crónico, paralizante y profundamente angustioso a sufrir un cataclismo ambiental. Los jóvenes que la padecen reportan insomnio, ataques de pánico y un sentimiento de impotencia extrema al observar, a través del bombardeo diario de noticias en sus teléfonos, la destrucción sistemática de los ecosistemas, los incendios forestales y el derretimiento acelerado de los glaciares.",
+          "Para contrarrestar esta abrumadora sensación de fatalismo, los psicólogos sugieren que la participación activa es el antídoto más eficaz. Integrarse en asambleas locales, plantar árboles comunitarios o presionar colectivamente a las instituciones educativas para que incluyan la sostenibilidad en sus planes de estudio transforma la desesperación paralizante en un empoderamiento proactivo. La Generación Z nos está enseñando que, aunque el miedo al futuro es una respuesta lógica ante la crisis, la acción comunitaria y la solidaridad son las únicas herramientas capaces de forjar una esperanza verdaderamente resiliente."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 14–17: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para cada párrafo. Hay más opciones de las necesarias.",
+            "type": "matching",
+            "options": {
+              "A": "El costo emocional de heredar un mundo en crisis",
+              "B": "La exigencia de leyes educativas más estrictas",
+              "C": "Estrategias digitales frente a las protestas tradicionales",
+              "D": "El fin del uso de combustibles en el continente americano",
+              "E": "La sanación psicológica a través del activismo grupal",
+              "F": "Desilusión política y el despertar de una nueva protesta"
+            },
+            "questions": [
+              { "number": 14, "prompt": "Párrafo 1", "answer": "F", "points": 1 },
+              { "number": 15, "prompt": "Párrafo 2", "answer": "C", "points": 1 },
+              { "number": 16, "prompt": "Párrafo 3", "answer": "A", "points": 1 },
+              { "number": 17, "prompt": "Párrafo 4", "answer": "E", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 18–21: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 18, "prompt": "roto / dañado estructuralmente (párrafo 1)", "answer": "fracturado", "points": 1 },
+              { "number": 19, "prompt": "grupo de personas de la misma edad o época (párrafo 2)", "answer": "cohorte", "points": 1 },
+              { "number": 20, "prompt": "creado / inventado por primera vez un término (párrafo 3)", "answer": "acuñado", "points": 1 },
+              { "number": 21, "prompt": "neutralizar / hacer frente a un efecto negativo (párrafo 4)", "answer": "contrarrestar", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 22–24: Opción múltiple. Elige la respuesta correcta (A, B, C o D).",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 22,
+                "prompt": "Según el párrafo 1, la Generación Z decidió protestar principalmente porque...",
+                "options": {
+                  "A": "desean ganar dinero creando organizaciones no gubernamentales.",
+                  "B": "están muy frustrados por la falta de resultados de los políticos y las reuniones internacionales.",
+                  "C": "quieren cambiar el sistema económico capitalista mundial de inmediato.",
+                  "D": "se aburrieron de las ideologías políticas tradicionales que estudiaron en la escuela."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 23,
+                "prompt": "En el párrafo 2, ¿qué ventaja fundamental tienen las redes sociales para el activismo actual?",
+                "options": {
+                  "A": "Permiten que los jóvenes falten a clases sin ser descubiertos por sus profesores.",
+                  "B": "Sustituyen completamente la necesidad de salir a marchar a las calles.",
+                  "C": "Sirven como instrumentos estratégicos para organizar multitudes sin necesidad de un líder único.",
+                  "D": "Son financiadas directamente por corporaciones de energía limpia y sostenible."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 24,
+                "prompt": "De acuerdo con el párrafo 4, el 'antídoto' psicológico para la ecoansiedad consiste en...",
+                "options": {
+                  "A": "apagar los teléfonos móviles permanentemente para no ver las malas noticias.",
+                  "B": "tomar medicamentos recetados por profesionales de la salud mental.",
+                  "C": "aceptar la destrucción del planeta como un destino completamente inevitable.",
+                  "D": "involucrarse en acciones colectivas y trabajar junto a otras personas por el medio ambiente."
+                },
+                "answer": "D",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 25–26: Respuestas cortas. Contesta usando las palabras exactas del texto.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 25, "prompt": "Además del insomnio y la impotencia, ¿qué otro síntoma grave provoca la ecoansiedad? (párrafo 3)", "answer": "ataques de pánico", "points": 1 },
+              { "number": 26, "prompt": "¿Qué transformación emocional positiva logran los jóvenes cuando participan en asambleas locales? (párrafo 4)", "answer": "transforma la desesperación paralizante en un empoderamiento proactivo", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — El secreto del paño de lana",
+        "paragraphs": [
+          "El pequeño taller de restauración de Lucía olía permanentemente a una mezcla nostálgica de lavanda, naftalina y polvo antiguo. A sus veintiséis años, había desarrollado una habilidad casi quirúrgica para devolverle la vida a prendas olvidadas. Aquella tarde de otoño, un pesado abrigo de lana color verde esmeralda reposaba sobre su mesa de trabajo. Lo había adquirido en un lúgubre mercado de antigüedades en las afueras de la ciudad. Su corte entallado y los recios botones de bronce indicaban, sin lugar a duda, que la prenda había sido confeccionada a medida por un sastre experto durante la convulsa década de los años cuarenta.",
+          "Mientras examinaba minuciosamente el interior buscando daños, Lucía notó un desgarro irregular en el forro de seda negra, justo a la altura del pecho izquierdo. Al introducir sus dedos para remendar la costura, rozó algo rígido e inusual oculto en la entretela. Con el corazón palpitando aceleradamente, utilizó unas pequeñas tijeras para ampliar el agujero y extrajo un sobre de papel amarillento, cuyos bordes estaban desgastados por la fricción de incontables inviernos. El papel estaba sellado, celosamente custodiado por el abrigo durante más de ochenta años.",
+          "Lucía dudó un instante, sintiendo el pudor instintivo de quien está a punto de profanar un sepulcro sagrado. Sin embargo, la curiosidad fue más fuerte. Abrió el sobre con extrema delicadeza y desdobló una carta escrita con una pluma estilográfica. La caligrafía era elegante, pero sus trazos temblorosos delataban una urgencia desesperada. *'Mi adorada Clara',* rezaba la primera línea. *'Si lees esto, significa que el barco en el puerto de Valparaíso ha tenido que zarpar sin mí. Las patrullas cerraron las fronteras al amanecer. Te ruego que no me esperes; huye tú que aún puedes. Lleva este abrigo para protegerte del frío en el exilio, y recuerda que mi alma siempre viajará envuelta en él'.*",
+          "Un escalofrío recorrió la espalda de Lucía. Comprendió de golpe la magnitud de la tragedia silenciosa que sostenía entre sus manos. Aquella carta nunca había sido leída por su destinataria. Clara, la mujer que había usado ese abrigo durante décadas, seguramente envejeció pensando que había sido cruelmente abandonada en el puerto, o peor aún, ignorando el destino fatal de su amado. Había caminado por el mundo entero llevando el consuelo y la explicación literal de su abandono cosidos a escasos centímetros de su propio corazón, sin saberlo jamás.",
+          "Una lágrima solitaria cayó sobre la mesa de madera mientras Lucía contemplaba la tela verde esmeralda. Ahora entendía que la ropa que usamos no es un simple conjunto de hilos y botones, sino una bóveda hermética que absorbe y resguarda los ecos de nuestras alegrías y nuestras desgracias. Con un respeto reverencial, volvió a doblar la carta, la introdujo cuidadosamente en el sobre amarillento y la deslizó de nuevo en el agujero del pecho. Tomó hilo negro y una aguja fina, y cerró la costura con puntadas perfectas. Había secretos que pertenecían eternamente a la tela del tiempo."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 27–30: Selección múltiple. Selecciona las CUATRO frases verdaderas basándote en el texto literario. Escribe las letras (A-H) en las opciones.",
+            "type": "multiple_select",
+            "options": {
+              "A": "El abrigo que Lucía estaba reparando había sido comprado directamente a su dueña original.",
+              "B": "La prenda de vestir mostraba señales de haber sido creada con gran calidad en el pasado.",
+              "C": "Lucía descubrió el sobre de manera completamente accidental mientras intentaba arreglar un roto.",
+              "D": "La persona que escribió la carta logró escapar finalmente en el barco hacia el exilio.",
+              "E": "La letra del mensaje mostraba que el autor había escrito en un estado de calma absoluta.",
+              "F": "Lucía dedujo trágicamente que Clara jamás llegó a descubrir el mensaje oculto en su abrigo.",
+              "G": "El autor de la carta le pedía a Clara que se quedara en el país y lo esperara sin importar el riesgo.",
+              "H": "Al final de la historia, Lucía decidió dejar la carta exactamente donde la había encontrado."
+            },
+            "questions": [
+              { "number": "27-30", "prompt": "Selecciona las 4 verdaderas", "answer": ["B", "C", "F", "H"], "points": 4 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 31–34: Opción múltiple literaria. Elige la respuesta correcta basándote en el significado del texto.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 31,
+                "prompt": "En el párrafo 2, el hecho de que el sobre estuviera 'celosamente custodiado por el abrigo' sugiere metafóricamente que la prenda...",
+                "options": {
+                  "A": "actuaba como un guardián fiel que protegía un secreto muy valioso.",
+                  "B": "era tan dura y gruesa que resultaba imposible cortarla con tijeras.",
+                  "C": "había sido robada de un banco durante la década de los cuarenta.",
+                  "D": "estaba bajo el cuidado de un guardia de seguridad en el mercado."
+                },
+                "answer": "A",
+                "points": 1
+              },
+              {
+                "number": 32,
+                "prompt": "El sentimiento de Lucía de 'profanar un sepulcro sagrado' (párrafo 3) indica que sentía...",
+                "options": {
+                  "A": "mucho asco y repulsión al tocar el papel sucio.",
+                  "B": "terror ante la posibilidad de encontrar un fantasma real.",
+                  "C": "un inmenso respeto y temor por invadir la intimidad dolorosa de alguien más.",
+                  "D": "miedo de destruir accidentalmente una antigüedad que valía mucho dinero."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 33,
+                "prompt": "La mayor ironía dramática de la vida de Clara, según se infiere en el párrafo 4, es que...",
+                "options": {
+                  "A": "se compró un abrigo verde cuando su color favorito era el negro.",
+                  "B": "buscó la verdad por todo el mundo cuando la respuesta estuvo siempre pegada a su pecho.",
+                  "C": "viajó en un barco de lujo mientras su prometido sufría en una cárcel.",
+                  "D": "perdió la carta intencionalmente porque no quería saber nada del pasado."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 34,
+                "prompt": "La conclusión del relato, donde Lucía vuelve a coser el forro (párrafo 5), demuestra su comprensión de que...",
+                "options": {
+                  "A": "el abrigo no se podría vender si le faltaba el papel original en el interior.",
+                  "B": "la historia de Clara y su amado no le pertenecía a ella y debía descansar en paz.",
+                  "C": "la carta estaba escrita en un idioma que ella jamás podría traducir.",
+                  "D": "era necesario ocultar la evidencia para no tener problemas con las autoridades."
+                },
+                "answer": "B",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 35–37: Completar la oración basándose en el texto literario.",
+            "type": "matching",
+            "options": {
+              "A": "delataban que la persona que los hizo no tenía educación básica.",
+              "B": "fue impulsado por una situación de persecución o peligro inminente.",
+              "C": "requería herramientas pesadas para poder ser abierto.",
+              "D": "guardan mucho más que calor, convirtiéndose en contenedores de memorias.",
+              "E": "mostraban la prisa, el nerviosismo o el miedo de quien los escribió.",
+              "F": "evitó que la joven costurera descubriera la verdad."
+            },
+            "questions": [
+              { "number": 35, "prompt": "Los trazos irregulares y temblorosos de la carta...", "answer": "E", "points": 1 },
+              { "number": 36, "prompt": "El intento desesperado de escape descrito en el mensaje...", "answer": "B", "points": 1 },
+              { "number": 37, "prompt": "Al final, Lucía reflexiona que las prendas de vestir...", "answer": "D", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 38–40: Búsqueda de sinónimos literarios. Encuentra las palabras en el texto que coincidan con estos significados.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 38, "prompt": "oscuro / triste / que inspira melancolía (párrafo 1)", "answer": "lúgubre", "points": 1 },
+              { "number": 39, "prompt": "coser / arreglar la rotura de una tela (párrafo 2)", "answer": "remendar", "points": 1 },
+              { "number": 40, "prompt": "abandono de la patria por motivos políticos (párrafo 3)", "answer": "exilio", "points": 1 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
