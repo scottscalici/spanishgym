@@ -1,0 +1,242 @@
+{
+  "worksheet": {
+    "title": "Práctica de Lectura IB: Nivel Medio (Modelo 9)",
+    "texts": [
+      {
+        "text_id": "A",
+        "title": "Texto A — El desierto de ropa: La cara oculta de la moda",
+        "paragraphs": [
+          "El desierto de Atacama en Chile es mundialmente famoso por ser el lugar más árido de la Tierra y un paraíso para la observación astronómica. Sin embargo, en los últimos años, este impresionante paisaje natural ha adquirido una fama mucho más oscura y preocupante: se ha convertido en el basurero textil más grande de América Latina. Enormes dunas de arena están ahora completamente cubiertas por montañas de camisetas, pantalones y zapatos que nadie quiere.",
+          "Este desastre ecológico es el resultado directo de la 'moda rápida' o 'fast fashion'. Este modelo de negocio se basa en la fabricación masiva de ropa a precios muy bajos y de muy mala calidad, diseñada para ser usada pocas veces y luego descartada. Las grandes marcas internacionales lanzan docenas de colecciones nuevas cada año, convenciendo a los consumidores de que necesitan comprar prendas constantemente para estar a la moda, lo que genera un nivel de desperdicio insostenible.",
+          "El trayecto de estas prendas es alarmante. La ropa se fabrica principalmente en Asia, se vende en Europa o Estados Unidos y, cuando pasa de moda, se envía en grandes contenedores a puertos chilenos para ser vendida como ropa de segunda mano. Sin embargo, más de la mitad de esas prendas llegan rotas o manchadas y no se pueden vender. Como los basureros municipales no aceptan desechos textiles por sus químicos tóxicos, miles de toneladas terminan siendo abandonadas ilegalmente en medio del desierto de Atacama.",
+          "A pesar de este sombrío panorama, han surgido iniciativas locales llenas de esperanza. Jóvenes diseñadores y activistas chilenos están utilizando técnicas de 'upcycling' (suprareciclaje) para transformar esta basura en ropa nueva, bolsos y aislantes para la construcción de viviendas. Aunque estas acciones no pueden limpiar todo el desierto por sí solas, son un poderoso llamado de atención para que el mundo cambie urgentemente su forma de consumir moda."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 1–4: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para cada párrafo. Hay más opciones de las necesarias.",
+            "type": "matching",
+            "options": {
+              "A": "Iniciativas creativas para mitigar el problema",
+              "B": "El viaje global de los desechos textiles",
+              "C": "La prohibición de importar ropa a Chile",
+              "D": "Un paisaje natural alterado por la basura",
+              "E": "Nuevas fábricas de ropa en el desierto",
+              "F": "El origen y funcionamiento de la moda desechable"
+            },
+            "questions": [
+              { "number": 1, "prompt": "Párrafo 1", "answer": "D", "points": 1 },
+              { "number": 2, "prompt": "Párrafo 2", "answer": "F", "points": 1 },
+              { "number": 3, "prompt": "Párrafo 3", "answer": "B", "points": 1 },
+              { "number": 4, "prompt": "Párrafo 4", "answer": "A", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 5–8: Verdadero o Falso con justificación. Marca si la afirmación es verdadera (V) o falsa (F) y justifica tu respuesta usando las palabras exactas del texto. Ambas partes son necesarias para el punto.",
+            "type": "true_false_justification",
+            "questions": [
+              { "number": 5, "prompt": "El desierto de Atacama solo es conocido por la astronomía y su clima seco.", "answer": "F, se ha convertido en el basurero textil más grande de América Latina", "points": 1 },
+              { "number": 6, "prompt": "La moda rápida se caracteriza por crear ropa duradera que se usa por muchos años.", "answer": "F, diseñada para ser usada pocas veces y luego descartada", "points": 1 },
+              { "number": 7, "prompt": "Los basureros de las ciudades chilenas rechazan la ropa usada porque contiene sustancias peligrosas.", "answer": "V, los basureros municipales no aceptan desechos textiles por sus químicos tóxicos", "points": 1 },
+              { "number": 8, "prompt": "Algunas personas en Chile están creando casas usando la ropa tirada en el desierto.", "answer": "V, transformar esta basura en (...) aislantes para la construcción de viviendas", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Pregunta 9: Respuesta corta. Contesta basándote en el párrafo 3.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 9, "prompt": "Menciona DOS razones por las cuales mucha de la ropa que llega a Chile termina en el desierto. (2 puntos)", "answer": "llegan rotas o manchadas (y no se pueden vender) / los basureros municipales no aceptan desechos textiles", "points": 2 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 10–12: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 10, "prompt": "tirada a la basura / eliminada (párrafo 2)", "answer": "descartada", "points": 1 },
+              { "number": 11, "prompt": "viaje / ruta recorrida (párrafo 3)", "answer": "trayecto", "points": 1 },
+              { "number": 12, "prompt": "triste / oscuro o negativo (párrafo 4)", "answer": "sombrío", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "B",
+        "title": "Texto B — La Generación Z y la lucha por el clima",
+        "paragraphs": [
+          "En la última década, una nueva fuerza ha irrumpido en el escenario político mundial: la Generación Z. Los adolescentes de hoy ya no están dispuestos a sentarse y esperar a que los adultos solucionen los problemas del planeta. Inspirados por movimientos globales, millones de jóvenes en países de habla hispana están liderando manifestaciones masivas, organizando huelgas escolares y exigiendo acciones inmediatas contra la crisis climática. Para ellos, proteger el medio ambiente no es simplemente una opción política, [ – 13 – ] una cuestión de supervivencia básica.",
+          "El método de protesta de esta generación es muy diferente al del pasado. [ – 14 – ] utilizar únicamente pancartas en las calles, los jóvenes dominan las redes sociales como TikTok, Instagram y Twitter para coordinar sus acciones. Una simple convocatoria en video puede reunir a miles de estudiantes en la plaza principal de Madrid o Buenos Aires en cuestión de horas. A través de internet, comparten información científica, denuncian a las empresas más contaminantes y organizan días de limpieza en playas y bosques.",
+          "Las exigencias de los jóvenes hacia sus gobiernos son muy claras y directas. No quieren más promesas vacías ni discursos inspiradores; exigen leyes estrictas que reduzcan la emisión de gases de efecto invernadero y aceleren la transición hacia energías limpias, como la solar y la eólica. [ – 15 – ], piden que la educación ambiental sea una materia obligatoria en todas las escuelas desde la educación primaria.",
+          "Este intenso activismo, [ – 16 – ] es muy positivo para la sociedad, también tiene consecuencias en la salud mental de los jóvenes. Muchos sufren de lo que los psicólogos llaman 'ecoansiedad', un miedo crónico y profundo al desastre ambiental. Sin embargo, participar activamente en grupos ecologistas les ayuda a combatir este miedo, transformando su angustia y frustración en una poderosa herramienta de empoderamiento y esperanza colectiva."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 13–16: Completar espacios en blanco. Elige de la lista el conector apropiado para rellenar los espacios en el texto.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "En lugar de",
+              "B": "sino",
+              "C": "Además",
+              "D": "aunque",
+              "E": "Como consecuencia",
+              "F": "Antes de",
+              "G": "Por lo tanto",
+              "H": "ya que"
+            },
+            "questions": [
+              { "number": 13, "prompt": "Espacio [ – 13 – ]", "answer": "B", "points": 1 },
+              { "number": 14, "prompt": "Espacio [ – 14 – ]", "answer": "A", "points": 1 },
+              { "number": 15, "prompt": "Espacio [ – 15 – ]", "answer": "C", "points": 1 },
+              { "number": 16, "prompt": "Espacio [ – 16 – ]", "answer": "D", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 17–19: Opción múltiple. Elige la respuesta correcta basándote en el texto.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 17,
+                "prompt": "Según el primer párrafo, la principal motivación de la Generación Z es que...",
+                "options": {
+                  "A": "quieren hacerse famosos rápidamente en las redes sociales.",
+                  "B": "no confían en que las generaciones mayores resuelvan la crisis climática.",
+                  "C": "desean faltar a la escuela con la excusa de las huelgas.",
+                  "D": "están en contra de todas las políticas de sus gobiernos."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 18,
+                "prompt": "En el párrafo 3, ¿qué es lo que los jóvenes rechazan de sus políticos?",
+                "options": {
+                  "A": "Las leyes estrictas sobre el medio ambiente.",
+                  "B": "El uso de energía solar y eólica.",
+                  "C": "Las palabras bonitas y promesas que no se cumplen.",
+                  "D": "La enseñanza de la ecología en las escuelas públicas."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 19,
+                "prompt": "¿Qué es la 'ecoansiedad' mencionada en el último párrafo?",
+                "options": {
+                  "A": "El miedo intenso y prolongado a un futuro arruinado por el cambio climático.",
+                  "B": "La emoción que sienten al plantar árboles en los bosques.",
+                  "C": "El estrés causado por tener que estudiar ecología en la escuela.",
+                  "D": "Una enfermedad física provocada por la contaminación del aire."
+                },
+                "answer": "A",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 20–22: Identificación de referencia. ¿A qué se refieren las siguientes palabras en el texto?",
+            "type": "reference",
+            "questions": [
+              { "number": 20, "prompt": "ellos (párrafo 1)", "answer": "millones de jóvenes (en países de habla hispana) / los adolescentes", "points": 1 },
+              { "number": 21, "prompt": "sus (párrafo 2)", "answer": "los jóvenes / esta generación", "points": 1 },
+              { "number": 22, "prompt": "este miedo (párrafo 4)", "answer": "la 'ecoansiedad' (o: un miedo crónico y profundo al desastre ambiental)", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 23–26: Relacionar mitades de oraciones. Relaciona la primera parte de la frase con su final correcto.",
+            "type": "matching",
+            "options": {
+              "A": "...se utilizan para reunir estudiantes y compartir datos ecológicos.",
+              "B": "...exigen que se enseñe desde que los niños son muy pequeños.",
+              "C": "...ayuda a los jóvenes a transformar su ansiedad en fuerza y esperanza.",
+              "D": "...es el único método que usaban las generaciones anteriores.",
+              "E": "...creen que su vida futura depende de salvar el planeta."
+            },
+            "questions": [
+              { "number": 23, "prompt": "Los adolescentes de hoy...", "answer": "E", "points": 1 },
+              { "number": 24, "prompt": "Las plataformas de internet...", "answer": "A", "points": 1 },
+              { "number": 25, "prompt": "Respecto a la educación ambiental, los activistas...", "answer": "B", "points": 1 },
+              { "number": 26, "prompt": "Trabajar junto a grupos ecologistas...", "answer": "C", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — El auge de la moda 'vintage' y de segunda mano",
+        "paragraphs": [
+          "Hasta hace muy poco tiempo, comprar ropa de segunda mano estaba rodeado de un fuerte estigma social. Se consideraba una opción exclusiva para familias con problemas económicos o personas que no podían permitirse comprar ropa nueva en los centros comerciales. Sin embargo, en los últimos cinco años, hemos sido testigos de un cambio cultural fascinante: vestir con ropa usada, ahora elegantemente rebautizada como moda 'vintage', se ha convertido en una de las mayores tendencias entre los jóvenes de la Generación Z y los 'millennials'.",
+          "Este resurgimiento se explica por dos motivos principales. El primero es la conciencia ecológica. Al comprar una chaqueta o unos pantalones de segunda mano, los jóvenes evitan que esa prenda termine en un basurero y ahorran miles de litros de agua que se habrían utilizado en fabricar una pieza nueva. El segundo motivo es la búsqueda de un estilo único. En un mundo donde las tiendas de moda rápida venden millones de camisetas exactamente iguales, rebuscar en tiendas de segunda mano permite encontrar prendas originales de los años 80 o 90 que nadie más tiene.",
+          "La tecnología ha sido el gran motor de este cambio. Las tradicionales tiendas físicas de ropa usada han sido reemplazadas o complementadas por aplicaciones móviles como Vinted, Depop o Wallapop. Estas plataformas digitales funcionan como enormes mercados virtuales donde cualquier persona puede vaciar su armario, tomar fotos a su ropa vieja y venderla a compradores de todo el país. Es un sistema fácil, rápido y que fomenta la idea de que la ropa no tiene por qué ser desechable.",
+          "El auge de la moda 'vintage' nos demuestra que es posible transitar hacia una economía circular, donde las cosas se reutilizan en lugar de tirarse. Para las nuevas generaciones, el verdadero lujo ya no consiste en llevar una prenda recién salida de la fábrica, sino en tener la creatividad de darle una segunda vida a una prenda con historia."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 27–31: Selección múltiple. Selecciona las CINCO afirmaciones verdaderas basándote en el texto. Escribe las letras (A-J) en las opciones.",
+            "type": "multiple_select",
+            "options": {
+              "A": "En el pasado, comprar ropa usada estaba muy mal visto por la sociedad.",
+              "B": "La ropa 'vintage' es rechazada por los jóvenes en la actualidad.",
+              "C": "Comprar ropa de segunda mano ayuda a ahorrar agua en el planeta.",
+              "D": "Los jóvenes compran ropa usada porque quieren vestirse igual que sus amigos.",
+              "E": "Las tiendas de moda rápida venden prendas que son únicas y diferentes.",
+              "F": "Comprar ropa de los años 80 o 90 ayuda a tener un estilo personal y original.",
+              "G": "Las aplicaciones móviles han dificultado la venta de ropa usada.",
+              "H": "Cualquier persona con un teléfono móvil puede vender su ropa usada por internet.",
+              "I": "La economía circular se basa en reutilizar los objetos en vez de convertirlos en basura.",
+              "J": "Para los jóvenes de hoy, la ropa nueva de fábrica es el mayor lujo que existe."
+            },
+            "questions": [
+              { "number": "27-31", "prompt": "Selecciona las 5 verdaderas", "answer": ["A", "C", "F", "H", "I"], "points": 5 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 32–34: Respuestas cortas. Contesta usando las palabras exactas del texto.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 32, "prompt": "¿Qué palabra inglesa se usa ahora para referirse de forma elegante a la ropa usada? (párrafo 1) (1 punto)", "answer": "(')vintage(')", "points": 1 },
+              { "number": 33, "prompt": "Menciona dos cosas que la gente puede hacer con la ropa vieja usando su teléfono y las aplicaciones. (párrafo 3) (1 punto)", "answer": "tomar fotos a su ropa vieja (y) venderla", "points": 1 },
+              { "number": 34, "prompt": "¿A qué tipo de modelo económico nos acerca la moda de segunda mano? (párrafo 4) (1 punto)", "answer": "(una) economía circular", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 35–37: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 35, "prompt": "marca negativa / vergüenza social (párrafo 1)", "answer": "estigma", "points": 1 },
+              { "number": 36, "prompt": "renacimiento / vuelta a la vida o a la fama (párrafo 2)", "answer": "resurgimiento", "points": 1 },
+              { "number": 37, "prompt": "avanzar / pasar de un estado a otro (párrafo 4)", "answer": "transitar", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 38–39: Opción múltiple para comprensión global.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 38,
+                "prompt": "El mensaje principal del párrafo 2 es que los jóvenes compran ropa de segunda mano porque...",
+                "options": {
+                  "A": "odian los centros comerciales y a las grandes marcas de lujo.",
+                  "B": "buscan cuidar el medio ambiente y destacar con prendas originales.",
+                  "C": "no tienen el dinero suficiente para comprar ropa limpia.",
+                  "D": "quieren gastar menos agua al lavar su ropa en casa."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 39,
+                "prompt": "¿Cuál es el propósito principal del autor al escribir el Texto C?",
+                "options": {
+                  "A": "Convencer a los lectores de que nunca vuelvan a comprar ropa nueva.",
+                  "B": "Informar sobre cómo y por qué ha cambiado la percepción de comprar ropa usada.",
+                  "C": "Promocionar aplicaciones móviles como Vinted y Depop para ganar dinero.",
+                  "D": "Criticar a los jóvenes de la Generación Z por su forma de vestirse."
+                },
+                "answer": "B",
+                "points": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
