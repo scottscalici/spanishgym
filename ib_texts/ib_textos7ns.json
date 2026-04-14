@@ -1,0 +1,265 @@
+{
+  "worksheet": {
+    "title": "Práctica de Lectura IB: Nivel Superior (Modelo HL - Opción 4)",
+    "texts": [
+      {
+        "text_id": "A",
+        "title": "Texto A — El grafiti y la resignificación del espacio urbano",
+        "paragraphs": [
+          "Durante gran parte del siglo XX, el grafiti fue sistemáticamente estigmatizado, concebido por las autoridades gubernamentales exclusivamente como un acto de vandalismo destructivo y un síntoma innegable de decadencia cívica. Las administraciones municipales despilfarraban presupuestos millonarios anualmente en cuadrillas de limpieza encargadas de borrar frenéticamente las firmas clandestinas que brotaban durante la madrugada. [ – 1 – ], en la última década, urbes latinoamericanas de la talla de Bogotá y Valparaíso han gestado un cambio de paradigma radical. Han abandonado la persecución punitiva e indiscriminada para abrazar el arte urbano como una expresión cultural profundamente legítima, transformando sus muros en lienzos cívicos y museos democráticos al aire libre.",
+          "En el caso particular de Bogotá, tras años de fricciones y enfrentamientos entre colectivos juveniles y fuerzas policiales, la alcaldía decidió implementar políticas públicas audaces que regulan, financian y promueven el muralismo callejero. [ – 2 – ] condenar a los artistas a la clandestinidad, la ciudad ofrece ahora enormes infraestructuras de hormigón donde creadores locales e internacionales pueden plasmar obras monumentales. Esta institucionalización no solo ha revitalizado estéticamente zonas deprimidas que antes se consideraban intransitables, [ – 3 – ] que ha convertido a la capital colombiana en un epicentro mundial del turismo alternativo, atrayendo a miles de visitantes dispuestos a pagar por los célebres 'graffiti tours'.",
+          "En una latitud diferente, la pintoresca ciudad portuaria de Valparaíso en Chile siempre ha estado intrínsecamente ligada al cromatismo vibrante de sus cerros habitados. En la actualidad, sus laberínticas escaleras y empinados callejones se encuentran tapizados de murales que narran con crudeza y belleza la idiosincrasia de sus habitantes, las leyendas marítimas y las duras jornadas de los pescadores. Para la frágil economía local, este estallido pictórico ha supuesto un auténtico salvavidas financiero. [ – 4 – ], se ha impulsado la apertura de galerías independientes, hostales boutique y cafeterías artesanales en vecindarios que históricamente sufrían un severo abandono estatal.",
+          "El arte urbano contemporáneo trasciende con creces las iniciales firmas territoriales o las letras entrelazadas de difícil lectura. Se ha erigido como una formidable herramienta visual mediante la cual las nuevas generaciones vehiculan reivindicaciones sociopolíticas urgentes, claman por la justicia climática y rinden homenaje a la marginada diversidad indígena. Si bien el debate académico y legal sobre la difusa frontera que separa el vandalismo del arte jamás se extinguirá por completo, resulta incuestionable que la explosión del color ha restituido el pulso vital y la voz disidente a las calles del continente."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 1–4: Completar espacios en blanco. Elige de la lista el conector apropiado para rellenar los espacios en el texto. Hay más opciones de las necesarias.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "Sin embargo",
+              "B": "En lugar de",
+              "C": "sino",
+              "D": "Por consiguiente",
+              "E": "A pesar de",
+              "F": "Además",
+              "G": "Debido a"
+            },
+            "questions": [
+              { "number": 1, "prompt": "Espacio [ – 1 – ]", "answer": "A", "points": 1 },
+              { "number": 2, "prompt": "Espacio [ – 2 – ]", "answer": "B", "points": 1 },
+              { "number": 3, "prompt": "Espacio [ – 3 – ]", "answer": "C", "points": 1 },
+              { "number": 4, "prompt": "Espacio [ – 4 – ]", "answer": "D", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 5–7: Identificación de referencia. ¿A qué se refieren las siguientes palabras en el texto?",
+            "type": "reference",
+            "questions": [
+              { "number": 5, "prompt": "sus (párrafo 1)", "answer": "urbes latinoamericanas (Bogotá y Valparaíso)", "points": 1 },
+              { "number": 6, "prompt": "Esta institucionalización (párrafo 2)", "answer": "la implementación de políticas públicas audaces (que regulan y promueven el muralismo)", "points": 1 },
+              { "number": 7, "prompt": "Se (párrafo 4)", "answer": "El arte urbano contemporáneo", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 8–11: Verdadero o Falso con justificación. Marca si la afirmación es verdadera (V) o falsa (F) y justifica tu respuesta usando las palabras exactas del texto. Ambas partes son necesarias para obtener el punto.",
+            "type": "true_false_justification",
+            "questions": [
+              { "number": 8, "prompt": "Las autoridades gubernamentales del siglo pasado valoraban y protegían el arte en las calles.", "answer": "F, el grafiti fue sistemáticamente estigmatizado (o: concebido... exclusivamente como un acto de vandalismo destructivo)", "points": 1 },
+              { "number": 9, "prompt": "En Bogotá existen leyes actuales que apoyan y proveen recursos económicos a los muralistas.", "answer": "V, la alcaldía decidió implementar políticas públicas audaces que regulan, financian y promueven el muralismo", "points": 1 },
+              { "number": 10, "prompt": "El turismo de murales en Valparaíso ha destruido la frágil economía de la ciudad portuaria.", "answer": "F, este estallido pictórico ha supuesto un auténtico salvavidas financiero", "points": 1 },
+              { "number": 11, "prompt": "Los expertos legales e intelectuales han llegado a un acuerdo definitivo sobre qué es arte y qué es delito.", "answer": "F, el debate académico y legal... jamás se extinguirá por completo", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 12–13: Respuestas cortas. Contesta basándote en el texto con la menor cantidad de palabras posible.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 12, "prompt": "¿Qué actividad económica genera ingresos directos gracias a los murales en la capital de Colombia? (párrafo 2)", "answer": "el turismo alternativo (o: los 'graffiti tours')", "points": 1 },
+              { "number": 13, "prompt": "Según el párrafo final, ¿qué tipo de exigencias ambientales se expresan frecuentemente a través del arte urbano moderno?", "answer": "(claman por la) justicia climática", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "B",
+        "title": "Texto B — La metrópolis fragmentada: El debate de la ciudad de 15 minutos",
+        "paragraphs": [
+          "El paradigma de la urbe moderna, estructurado en torno a una estricta zonificación que separa drásticamente los distritos residenciales de los epicentros financieros y comerciales, está mostrando síntomas inequívocos de colapso. Diariamente, millones de ciudadanos consumen horas irrecuperables de su existencia atrapados en una congestión vehicular endémica, un fenómeno que dispara las emisiones de gases de efecto invernadero y agudiza el estrés crónico. Para contrarrestar esta realidad asfixiante, prestigiosos urbanistas promueven una propuesta transformadora: la 'ciudad de 15 minutos'. Este concepto postula que las necesidades esenciales de cualquier ciudadano —educación, empleo, abastecimiento, salud y ocio— deben satisfacerse en un radio máximo de quince minutos, ya sea caminando o utilizando medios de transporte activos.",
+          "El propósito fundamental de esta reconfiguración espacial es arrebatar el monopolio del asfalto al automóvil privado y devolvérselo al peatón. En el panorama europeo, Barcelona destaca como un laboratorio pionero gracias a la implementación de las 'supermanzanas'. Este ambicioso proyecto consiste en agrupar varias manzanas tradicionales y restringir severamente el tránsito motorizado en sus intersecciones interiores. La pacificación de estas vías permite recuperar miles de metros cuadrados de espacio público, transformando antiguos cruces peligrosos en ágoras arboladas, zonas de juego infantil y lugares de encuentro vecinal, lo que fomenta una cohesión comunitaria sin precedentes.",
+          "Cruzando el Atlántico, megaciudades latinoamericanas caracterizadas por su densidad abrumadora, como Buenos Aires y Bogotá, están adaptando esta filosofía europea a su compleja realidad socioeconómica. Mediante estrategias de urbanismo táctico, han impulsado la peatonalización temporal de arterias comerciales durante los fines de semana y han descentralizado los servicios municipales instalando mercados itinerantes en barrios periféricos. Estas medidas mitigan la imperiosa necesidad de los residentes de trasladarse al saturado centro histórico para acceder a bienes básicos, democratizando así el derecho a disfrutar del espacio urbano.",
+          "A pesar de sus innegables bondades ecológicas, el modelo suscita fuertes recelos entre ciertos sectores académicos. Múltiples sociólogos advierten sobre el riesgo inminente de la 'gentrificación verde': al dotar a un vecindario de excelentes infraestructuras peatonales y áreas verdes, el valor del suelo se dispara, provocando la expulsión silenciosa de los residentes originales de bajos ingresos. Paralelamente, existe el temor fundado de que la ciudad de 15 minutos fomente la balcanización de la metrópolis, fragmentándola en enclaves autosuficientes que rara vez interactúan entre sí, debilitando la diversidad cultural y el roce social que históricamente han definido a las grandes capitales."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 14–17: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para cada párrafo. Hay más opciones de las necesarias.",
+            "type": "matching",
+            "options": {
+              "A": "El rediseño y la recuperación del espacio barrial en Europa",
+              "B": "Las posibles consecuencias sociales de la mejora urbana",
+              "C": "El nacimiento de una alternativa al modelo tradicional insostenible",
+              "D": "Soluciones urbanas temporales en metrópolis de alta densidad",
+              "E": "La prohibición definitiva y total del coche privado a nivel mundial",
+              "F": "Los beneficios económicos directos del teletrabajo"
+            },
+            "questions": [
+              { "number": 14, "prompt": "Párrafo 1", "answer": "C", "points": 1 },
+              { "number": 15, "prompt": "Párrafo 2", "answer": "A", "points": 1 },
+              { "number": 16, "prompt": "Párrafo 3", "answer": "D", "points": 1 },
+              { "number": 17, "prompt": "Párrafo 4", "answer": "B", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 18–21: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 18, "prompt": "evidentes / indudables (párrafo 1)", "answer": "inequívocos", "points": 1 },
+              { "number": 19, "prompt": "disminuyen / suavizan la intensidad (párrafo 3)", "answer": "mitigan", "points": 1 },
+              { "number": 20, "prompt": "desconfianzas / temores fundados (párrafo 4)", "answer": "recelos", "points": 1 },
+              { "number": 21, "prompt": "territorios o pequeños grupos aislados (párrafo 4)", "answer": "enclaves", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 22–24: Opción múltiple. Elige la respuesta correcta (A, B, C o D).",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 22,
+                "prompt": "Según el párrafo 1, la 'ciudad de 15 minutos' postula principalmente que...",
+                "options": {
+                  "A": "nadie debería trabajar a más de quince kilómetros de su casa.",
+                  "B": "los vehículos privados deben viajar a una velocidad máxima de quince kilómetros por hora.",
+                  "C": "las personas deben tener acceso a todos los servicios básicos a muy corta distancia de su hogar.",
+                  "D": "se debe construir una nueva línea de transporte subterráneo cada quince años."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 23,
+                "prompt": "El objetivo de las 'supermanzanas' de Barcelona (párrafo 2) es...",
+                "options": {
+                  "A": "limitar los coches en el interior de los barrios para crear espacios seguros y de convivencia.",
+                  "B": "construir enormes edificios comerciales en las intersecciones más importantes de la ciudad.",
+                  "C": "obligar a todos los residentes a utilizar únicamente bicicletas para desplazarse.",
+                  "D": "prohibir que los niños jueguen en las calles para mejorar el tráfico vehicular."
+                },
+                "answer": "A",
+                "points": 1
+              },
+              {
+                "number": 24,
+                "prompt": "¿Qué es la 'gentrificación verde' mencionada en el último párrafo?",
+                "options": {
+                  "A": "El proceso mediante el cual los residentes se niegan a plantar árboles en sus calles.",
+                  "B": "El aumento del costo de vida en un barrio ecológicamente mejorado, forzando la salida de personas de bajos recursos.",
+                  "C": "La división de la ciudad en sectores que no comparten la misma cultura ni el mismo idioma.",
+                  "D": "Una ley que obliga a todos los ciudadanos ricos a vivir en vecindarios ecológicos."
+                },
+                "answer": "B",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 25–26: Respuestas cortas. Contesta usando las palabras exactas del texto.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 25, "prompt": "Según el segundo párrafo, ¿a qué elemento o medio de transporte se le quiere arrebatar el monopolio del asfalto?", "answer": "al automóvil privado", "points": 1 },
+              { "number": 26, "prompt": "Menciona UNA medida o estrategia táctica que han tomado ciudades de América Latina para adaptar el modelo urbano europeo (párrafo 3).", "answer": "peatonalización temporal de arterias comerciales (durante los fines de semana) / instalando mercados itinerantes", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — El esqueleto de la memoria",
+        "paragraphs": [
+          "La lluvia de noviembre caía con una monotonía desoladora sobre el capó del coche de Elías. A través del parabrisas empañado, el anciano arquitecto contemplaba la silueta grisácea de la Torre Altamira, un coloso de hormigón brutalista que él mismo había diseñado hacía casi cincuenta años. El edificio, otrora un símbolo indiscutible del progreso desmedido de la década de los setenta, se alzaba ahora como un gigante herido, rodeado de grúas amarillas y vallas metálicas que presagiaban su inminente ejecución. Al amanecer del día siguiente, toneladas de explosivos estratégicamente colocados reducirían a escombros la obra cumbre de su juventud.",
+          "Ignorando deliberadamente los carteles de 'Prohibido el paso', Elías empujó una verja oxidada y se adentró en el vientre de la bestia. El vasto vestíbulo, que antaño resonaba con el eco de los tacones apresurados y el tintineo de los maletines de cuero, era ahora una caverna lúgubre, alfombrada de cristales rotos y hojas secas. Mientras caminaba, sus pasos solitarios levantaban pequeñas nubes de polvo calcáreo. Podía visualizar, con una claridad dolorosa, los trazos de tinta china sobre sus planos originales, y la febril ilusión con la que había dibujado cada columna pensando que aquel enorme edificio desafiaría la eternidad de la metrópolis.",
+          "Subió lentamente por las escaleras de emergencia hasta alcanzar la tercera planta, deteniéndose frente a lo que solía ser la recepción principal de una importante compañía aseguradora. En una de las paredes descascaradas, oculta bajo capas de pintura descolorida, Elías distinguió unas pequeñas marcas a lápiz. Eran líneas horizontales acompañadas de fechas y nombres borrosos: un registro clandestino de cómo habían ido creciendo los hijos de algún oficinista a lo largo de los años. Elías acarició la pared rugosa, sintiendo un nudo frío en la garganta. Comprendió entonces que la arquitectura no era más que un recipiente vacío; eran las rutinas, las alegrías secretas y las tragedias invisibles de las personas las que verdaderamente otorgaban un alma a las frías estructuras.",
+          "Un haz de luz de una potente linterna cortó repentinamente la penumbra, sobresaltándolo. Era el capataz responsable de la demolición, un hombre de rostro curtido y mirada pragmática, haciendo su ronda final de seguridad. Al reconocer de inmediato al viejo arquitecto por las antiguas fotografías de los periódicos, el trabajador bajó la linterna como señal de profundo respeto. 'Es una verdadera lástima, señor. Era un edificio sumamente recio', murmuró el capataz, ofreciéndole un casco de plástico amarillo. 'Pero la ciudad tiene un hambre voraz. Siempre necesita espacio libre para devorarse a sí misma y volver a nacer'. Elías asintió en riguroso silencio, aceptando la ineludible crueldad de la evolución urbana.",
+          "Salió finalmente del edificio justo cuando el cielo comenzaba a teñirse de un azul pálido y gélido. Se apoyó con fuerza en su bastón de madera y respiró hondo, dejando que el viento húmedo del amanecer le golpeara el rostro marchito. Sabía perfectamente que al día siguiente, el estruendo sordo de la dinamita borraría su legado físico del horizonte de la ciudad. Sin embargo, mientras se alejaba caminando hacia su coche, sintió una extraña e inesperada paz. La torre caería indudablemente, sí, pero los ecos vibrantes de las vidas humanas que había albergado durante medio siglo ya formaban parte del sustrato invisible e indestructible de la memoria colectiva."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 27–30: Selección múltiple. Selecciona las CUATRO frases verdaderas basándote en el texto literario. Escribe las letras (A-H) en las opciones.",
+            "type": "multiple_select",
+            "options": {
+              "A": "El edificio que Elías diseñó estaba apenas en proceso de construcción.",
+              "B": "La obra iba a ser destruida al día siguiente mediante el uso de explosivos.",
+              "C": "El vestíbulo principal del edificio conservaba todo el mobiliario y los vidrios intactos.",
+              "D": "El arquitecto encontró unas marcas en la pared que registraban el crecimiento físico de unos niños.",
+              "E": "Elías llegó a la conclusión de que las personas son las que le dan un verdadero significado a un edificio.",
+              "F": "El capataz de la obra regañó violentamente a Elías por haber entrado al lugar sin permiso.",
+              "G": "El trabajador de la demolición opinaba que la ciudad necesita destruirse constantemente para seguir evolucionando.",
+              "H": "Elías logró convencer al capataz de detener la demolición de la torre para siempre."
+            },
+            "questions": [
+              { "number": "27-30", "prompt": "Selecciona las 4 verdaderas", "answer": ["B", "D", "E", "G"], "points": 4 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 31–34: Opción múltiple literaria. Elige la respuesta correcta basándote en el significado del texto.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 31,
+                "prompt": "En el párrafo 2, la frase 'se adentró en el vientre de la bestia' es una metáfora que sugiere que el edificio...",
+                "options": {
+                  "A": "estaba lleno de animales peligrosos y abandonados.",
+                  "B": "era un lugar muy cálido y acogedor a pesar del abandono.",
+                  "C": "era visto como una criatura gigantesca, imponente e intimidante.",
+                  "D": "había sido diseñado originalmente con forma de animal salvaje."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 32,
+                "prompt": "El 'nudo frío en la garganta' que siente Elías al acariciar la pared en el párrafo 3 expresa principalmente...",
+                "options": {
+                  "A": "un repentino ataque de tos debido al polvo del edificio.",
+                  "B": "una profunda tristeza, nostalgia y conmoción emocional.",
+                  "C": "una gran indignación por el vandalismo en las paredes.",
+                  "D": "un miedo irracional a ser atrapado por la policía."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 33,
+                "prompt": "Cuando el capataz le dice a Elías que 'la ciudad tiene un hambre voraz' (párrafo 4), está haciendo referencia a...",
+                "options": {
+                  "A": "la necesidad insaciable de las urbes modernas de renovar y consumir su propio espacio.",
+                  "B": "la enorme cantidad de personas sin recursos económicos que viven en las calles.",
+                  "C": "los problemas logísticos de abastecimiento de alimentos en el centro de la ciudad.",
+                  "D": "la mala planificación de los restaurantes y tiendas en los barrios financieros."
+                },
+                "answer": "A",
+                "points": 1
+              },
+              {
+                "number": 34,
+                "prompt": "El estado de ánimo definitivo de Elías al abandonar el lugar (párrafo 5) es de...",
+                "options": {
+                  "A": "desesperación absoluta por el fracaso de su carrera profesional.",
+                  "B": "furia y venganza contra las autoridades que ordenaron la demolición.",
+                  "C": "confusión mental debido a su avanzada edad y a la falta de luz.",
+                  "D": "resignación tranquila y paz espiritual al entender que la memoria humana perdura."
+                },
+                "answer": "D",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 35–37: Completar la oración basándose en el texto.",
+            "type": "matching",
+            "options": {
+              "A": "haría desaparecer físicamente la gran torre de hormigón para siempre.",
+              "B": "revelaron el lado humano, íntimo e invisible del edificio de oficinas.",
+              "C": "el optimismo y el crecimiento acelerado propio de los años setenta.",
+              "D": "intentó arrestar al anciano arquitecto por allanamiento de morada.",
+              "E": "se construyeron utilizando exclusivamente materiales muy frágiles.",
+              "F": "simbolizaba el fracaso absoluto de las políticas gubernamentales modernas."
+            },
+            "questions": [
+              { "number": 35, "prompt": "La imponente Torre Altamira representaba en el pasado...", "answer": "C", "points": 1 },
+              { "number": 36, "prompt": "Las frágiles líneas dibujadas a lápiz en la tercera planta...", "answer": "B", "points": 1 },
+              { "number": 37, "prompt": "El inminente y ensordecedor sonido de la dinamita...", "answer": "A", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 38–40: Búsqueda de sinónimos literarios. Encuentra las palabras en el texto que coincidan con estos significados.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 38, "prompt": "sombría / oscura e infunde tristeza (párrafo 2)", "answer": "lúgubre", "points": 1 },
+              { "number": 39, "prompt": "práctico / enfocado en la realidad útil sin idealismos (párrafo 4)", "answer": "pragmático", "points": 1 },
+              { "number": 40, "prompt": "ruido muy grande / sonido fuerte y ensordecedor (párrafo 5)", "answer": "estruendo", "points": 1 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
