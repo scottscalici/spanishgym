@@ -1,0 +1,264 @@
+{
+  "worksheet": {
+    "title": "Práctica de Lectura IB: Nivel Superior (Modelo HL - Opción 5)",
+    "texts": [
+      {
+        "text_id": "A",
+        "title": "Texto A — El renacer digital: La resistencia de las lenguas originarias",
+        "paragraphs": [
+          "El panorama lingüístico de América Latina se encuentra en una encrucijada crítica. Sometidas durante siglos a políticas sistemáticas de 'castellanización' forzada y a un profundo racismo estructural, docenas de lenguas originarias se tambalean al borde de la extinción. En los centros urbanos, el uso del quechua, el náhuatl o el mapudungun fue históricamente estigmatizado, empujando a las familias indígenas a interrumpir la transmisión intergeneracional de su idioma materno para proteger a sus hijos de la discriminación escolar y laboral. [ – 1 – ], en medio de esta inminente tragedia cultural, ha surgido un catalizador de revitalización completamente insospechado: el ecosistema de las redes sociales.",
+          "Plataformas globales como TikTok e Instagram, frecuentemente criticadas por fomentar la frivolidad, se han metamorfoseado en poderosos bastiones de activismo digital. Una nueva ola de creadores de contenido indígenas está aprovechando hábilmente la arquitectura de los algoritmos virales para democratizar el aprendizaje de sus idiomas ancestrales. [ – 2 – ] limitarse a la gramática académica tradicional, estos jóvenes 'influencers' optan por la hibridación cultural. Traducen éxitos globales de hip-hop y reguetón a sus lenguas nativas, exponen mitos milenarios mediante tendencias de comedia y enseñan vocabulario cotidiano utilizando formatos dinámicos y visualmente atractivos.",
+          "El impacto psicológico e identitario de esta disrupción digital es formidable. [ – 3 – ], el alcance masivo de estas plataformas está erosionando el estigma histórico asociado a la identidad indígena. Los jóvenes hablantes, al ver sus culturas validadas y celebradas por millones de usuarios en la red, experimentan un profundo proceso de descolonización mental y recuperan el orgullo por sus raíces. Simultáneamente, este fenómeno ha despertado un interés genuino entre la población hispanohablante no indígena, creando una comunidad virtual panamericana fundamentada en el respeto a la diversidad epistémica.",
+          "Sin embargo, prestigiosos sociolingüistas advierten sobre el peligro de caer en un optimismo ingenuo. El activismo en internet, aunque excepcionalmente eficaz para visibilizar la urgencia del problema, posee una naturaleza efímera que no puede sustituir la acción del Estado. [ – 4 – ] garantizar la verdadera supervivencia de un idioma, es imperativo que los gobiernos implementen políticas estructurales sólidas: la institucionalización de la educación bilingüe de calidad, la oficialización del idioma en los tribunales de justicia y la garantía de atención médica en lenguas originarias."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 1–4: Completar espacios en blanco. Elige de la lista el conector apropiado para rellenar los espacios en el texto. Hay más opciones de las necesarias.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "Sin embargo",
+              "B": "En lugar de",
+              "C": "Por consiguiente",
+              "D": "Para",
+              "E": "Por otro lado",
+              "F": "A pesar de",
+              "G": "En consecuencia"
+            },
+            "questions": [
+              { "number": 1, "prompt": "Espacio [ – 1 – ]", "answer": "A", "points": 1 },
+              { "number": 2, "prompt": "Espacio [ – 2 – ]", "answer": "B", "points": 1 },
+              { "number": 3, "prompt": "Espacio [ – 3 – ]", "answer": "C", "points": 1 },
+              { "number": 4, "prompt": "Espacio [ – 4 – ]", "answer": "D", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 5–7: Identificación de referencia. ¿A qué se refieren las siguientes palabras en el texto?",
+            "type": "reference",
+            "questions": [
+              { "number": 5, "prompt": "sus (párrafo 1)", "answer": "las familias indígenas", "points": 1 },
+              { "number": 6, "prompt": "estas plataformas (párrafo 3)", "answer": "redes sociales (TikTok e Instagram)", "points": 1 },
+              { "number": 7, "prompt": "su (párrafo 4)", "answer": "un idioma (originario)", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 8–11: Verdadero o Falso con justificación. Marca si la afirmación es verdadera (V) o falsa (F) y justifica tu respuesta usando las palabras exactas del texto. Ambas partes son necesarias para obtener el punto.",
+            "type": "true_false_justification",
+            "questions": [
+              { "number": 8, "prompt": "Muchos padres indígenas dejaron de enseñar su idioma a sus hijos intencionalmente para evitar que sufrieran maltratos.", "answer": "V, para proteger a sus hijos de la discriminación escolar y laboral", "points": 1 },
+              { "number": 9, "prompt": "Los creadores de contenido utilizan métodos anticuados y estrictamente formales para enseñar las lenguas en internet.", "answer": "F, optan por la hibridación cultural (o: enseñan vocabulario cotidiano utilizando formatos dinámicos)", "points": 1 },
+              { "number": 10, "prompt": "El éxito en las redes sociales ha ayudado a eliminar la vergüenza social de ser indígena.", "answer": "V, está erosionando el estigma histórico asociado a la identidad indígena", "points": 1 },
+              { "number": 11, "prompt": "Los expertos creen que el internet será suficiente para salvar todos estos idiomas de forma permanente.", "answer": "F, no puede sustituir la acción del Estado (o: advierten sobre el peligro de caer en un optimismo ingenuo)", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 12–13: Respuestas cortas. Contesta basándote en el texto con la menor cantidad de palabras posible.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 12, "prompt": "¿Qué proceso psicológico liberador experimentan los jóvenes al recuperar el orgullo por su origen? (párrafo 3)", "answer": "(un profundo proceso de) descolonización mental", "points": 1 },
+              { "number": 13, "prompt": "Menciona una de las tres acciones que el Estado debe realizar para proteger estas lenguas de manera oficial. (párrafo 4)", "answer": "institucionalización de la educación bilingüe / oficialización del idioma en los tribunales / garantía de atención médica (en lenguas originarias) (cualquiera de las tres)", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "B",
+        "title": "Texto B — Atacama: La convergencia entre la ciencia y el mito",
+        "paragraphs": [
+          "El desierto de Atacama, una vasta extensión de aridez extrema esculpida en el norte de Chile, alberga el cielo más nítido y prístino del globo terráqueo. Sus excepcionales condiciones atmosféricas —humedad prácticamente inexistente, altitud superlativa y aislamiento de la contaminación lumínica— lo han coronado como la meca indiscutible de la astronomía moderna. En este inhóspito paraje se asienta ALMA (Atacama Large Millimeter/submillimeter Array), el observatorio radioastronómico más colosal y sofisticado de la historia, cuya misión principal es descifrar la génesis del universo y observar el nacimiento de sistemas estelares ubicados a miles de millones de años luz.",
+          "La proeza tecnológica de ALMA reside en la técnica de la interferometría. En lugar de utilizar lentes o espejos tradicionales para captar luz óptica, el observatorio emplea una intrincada red sincronizada de 66 antenas parabólicas gigantes. Estos receptores actúan al unísono como un único y titánico telescopio virtual, captando ondas milimétricas y submilimétricas. Esta revolucionaria capacidad de observación permite a los astrofísicos penetrar las densas y oscuras nubes de polvo cósmico que bloquean la luz visible, revelando galaxias antiguas y estructuras planetarias que hasta hace pocos años permanecían irremediablemente ocultas al escrutinio humano.",
+          "Sin embargo, la ciencia occidental contemporánea no es la primera en interrogar a estos cielos. Atacama es también el hogar milenario del pueblo Likan Antai (o atacameños), poseedores de una rica y profunda cosmovisión astronómica. Mientras los científicos actuales escudriñan el espacio buscando exoplanetas, las culturas precolombinas leían en el firmamento los ciclos agrícolas, el comportamiento de la fauna y su propia conexión espiritual con la tierra. La etnoastronomía andina posee una particularidad fascinante: no solo formaban constelaciones uniendo puntos de luz (estrellas), sino que otorgaban un enorme significado mitológico a las 'constelaciones oscuras', aquellas siluetas formadas por la acumulación de polvo interestelar que contrasta contra el resplandor de la Vía Láctea, como la legendaria Yacana (la llama celestial).",
+          "Afortunadamente, el antiguo paradigma que consideraba el conocimiento indígena como simple folklore primitivo está colapsando. Hoy presenciamos una convergencia epistemológica sin precedentes en Atacama. Los investigadores internacionales de ALMA colaboran activamente con sabios Likan Antai, documentando y respetando la toponimia ancestral de los astros. En este árido desierto, el avance tecnológico más asombroso del siglo XXI y la milenaria sabiduría originaria de América han aprendido a convivir, demostrando que existen múltiples lenguajes válidos para comprender la inmensidad del cosmos."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 14–17: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para cada párrafo. Hay más opciones de las necesarias.",
+            "type": "matching",
+            "options": {
+              "A": "Una forma diferente de leer e interpretar el firmamento",
+              "B": "Las limitaciones tecnológicas de los telescopios antiguos",
+              "C": "El punto de encuentro entre dos formas de entender el universo",
+              "D": "El escenario geográfico perfecto para mirar más allá de nuestro mundo",
+              "E": "La prohibición gubernamental de usar los terrenos sagrados",
+              "F": "Mecanismos avanzados para ver a través de lo invisible"
+            },
+            "questions": [
+              { "number": 14, "prompt": "Párrafo 1", "answer": "D", "points": 1 },
+              { "number": 15, "prompt": "Párrafo 2", "answer": "F", "points": 1 },
+              { "number": 16, "prompt": "Párrafo 3", "answer": "A", "points": 1 },
+              { "number": 17, "prompt": "Párrafo 4", "answer": "C", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 18–21: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 18, "prompt": "puro / inmaculado / sin alteraciones (párrafo 1)", "answer": "prístino", "points": 1 },
+              { "number": 19, "prompt": "compleja / enredada o muy elaborada (párrafo 2)", "answer": "intrincada", "points": 1 },
+              { "number": 20, "prompt": "observan con mucha atención y detalle (párrafo 3)", "answer": "escudriñan", "points": 1 },
+              { "number": 21, "prompt": "unión / punto donde se encuentran dos cosas (párrafo 4)", "answer": "convergencia", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 22–24: Opción múltiple. Elige la respuesta correcta (A, B, C o D).",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 22,
+                "prompt": "Según el párrafo 2, la gran ventaja del sistema de antenas de ALMA es que puede...",
+                "options": {
+                  "A": "viajar a través del espacio más rápido que la luz visible.",
+                  "B": "traspasar el polvo espacial que normalmente no nos dejaría ver nada.",
+                  "C": "predecir con exactitud cuándo ocurrirán las tormentas de arena en la tierra.",
+                  "D": "escuchar las conversaciones de radio de otras civilizaciones antiguas."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 23,
+                "prompt": "La principal diferencia de la etnoastronomía andina mencionada en el párrafo 3 es que...",
+                "options": {
+                  "A": "solo observaban el sol y no prestaban atención a la luna.",
+                  "B": "inventaron los primeros telescopios de madera antes que los europeos.",
+                  "C": "creaban figuras mitológicas basándose en las manchas negras del cielo, no solo en las luces.",
+                  "D": "creían que las estrellas eran animales que habían volado hacia el espacio."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 24,
+                "prompt": "¿Qué cambio de mentalidad se describe en el párrafo 4 respecto a la ciencia moderna?",
+                "options": {
+                  "A": "Los científicos ya no necesitan los satélites porque usan los mitos indígenas.",
+                  "B": "La ciencia occidental ha dejado de considerar las creencias originarias como cuentos ignorantes.",
+                  "C": "El gobierno ha decidido que la religión es más importante que la astronomía moderna.",
+                  "D": "Los pueblos indígenas han abandonado sus creencias para estudiar física cuántica."
+                },
+                "answer": "B",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 25–26: Respuestas cortas. Contesta usando las palabras exactas del texto.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 25, "prompt": "Menciona dos características del clima o ambiente en Atacama que lo hacen ideal para la astronomía. (párrafo 1)", "answer": "humedad prácticamente inexistente / altitud superlativa / aislamiento de la contaminación lumínica (dos de tres)", "points": 1 },
+              { "number": 26, "prompt": "¿Qué elementos de la vida cotidiana organizaban las culturas antiguas usando las estrellas? (párrafo 3)", "answer": "los ciclos agrícolas (y) el comportamiento de la fauna", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — La epidemia del silencio",
+        "paragraphs": [
+          "Nadie en el aislado pueblo de San Jerónimo de los Espejos supo determinar con exactitud cuándo comenzó la peste. No se anunció con fiebres ardientes, sarpullidos en la piel ni toses convulsivas. La enfermedad se infiltró en las casas de manera sigilosa, indolora y terriblemente sutil: comenzó como un simple tartamudeo en la memoria de los ancianos. Una tarde, el herrero del pueblo se quedó con el martillo suspendido en el aire, frunciendo el ceño, completamente incapaz de recordar cómo se llamaba el bloque de hierro sobre el que golpeaba el metal incandescente. A los pocos días, la maestra de la escuela olvidó la palabra 'pizarra', refiriéndose a ella torpemente como 'el gran cuadrado negro de escribir'.",
+          "Pronto comprendieron que no se trataba de una amnesia común, sino de un desvanecimiento inexorable del lenguaje mismo. Los sustantivos fueron los primeros en desangrarse; los nombres de los pájaros, de las frutas y de las herramientas se evaporaron de sus mentes como el rocío matutino. Luego, el vacío comenzó a devorar los verbos, reduciendo la capacidad de la gente para expresar acciones complejas. El terror se apoderó de San Jerónimo. La pérdida de las palabras no solo dificultaba la comunicación cotidiana, sino que empezó a desdibujar la identidad misma del pueblo. Si alguien no podía nombrar sus propios recuerdos, estos dejaban de existir, sumergiendo a los habitantes en un letargo de ignorancia y soledad compartida.",
+          "En un intento desesperado por frenar la catástrofe, el joven escribano Aureliano inventó un sistema de resistencia. Armado con un pincel grueso y varios frascos de tinta negra, comenzó a pintar letreros que colgaba del cuello de los animales y adhería a la superficie de los objetos. Así, las calles se llenaron de rótulos que rezaban: 'Esto es una silla, sirve para sentarse', 'Esto es una vaca, hay que ordeñarla todas las mañanas para que produzca leche, y la leche se hierve para el café'. Por un tiempo, esta taxonomía desesperada funcionó. La gente caminaba por sus casas leyendo las instrucciones de su propia vida, aferrándose a los pedazos de papel como náufragos a una tabla en medio del océano.",
+          "Pero la tregua fue cruelmente efímera. Semanas después, una mañana gélida, Aureliano despertó frente al letrero que él mismo había clavado en la puerta de su habitación. Sus ojos recorrieron las elegantes letras de tinta negra, pero su cerebro fue incapaz de descifrar la forma y el sonido de los símbolos. La peste había evolucionado; ya no solo borraba la memoria de las cosas, sino el significado de la escritura. Los habitantes de San Jerónimo quedaron rodeados de miles de advertencias incomprensibles, prisioneros de un mundo donde los objetos habían perdido su nombre para siempre y los humanos habían perdido, irreparablemente, la capacidad de entenderse a sí mismos."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 27–30: Selección múltiple. Selecciona las CUATRO frases verdaderas basándote en el texto literario. Escribe las letras (A-H) en las opciones.",
+            "type": "multiple_select",
+            "options": {
+              "A": "La enfermedad llegó al pueblo causando graves síntomas físicos como fiebre y tos.",
+              "B": "La gente perdía los nombres de los objetos, pero nunca olvidaron cómo expresar acciones.",
+              "C": "El herrero fue uno de los primeros habitantes en mostrar síntomas de la misteriosa peste.",
+              "D": "Perder las palabras provocaba también que los habitantes olvidaran quiénes eran.",
+              "E": "Aureliano intentó solucionar el problema marcando y describiendo el uso de todas las cosas.",
+              "F": "Los rótulos con instrucciones solucionaron el problema del pueblo de forma definitiva.",
+              "G": "La enfermedad avanzó hasta el punto en que la gente ya no sabía cómo leer las letras.",
+              "H": "Al final, Aureliano logró salir del pueblo para buscar una cura mágica a la enfermedad."
+            },
+            "questions": [
+              { "number": "27-30", "prompt": "Selecciona las 4 verdaderas", "answer": ["C", "D", "E", "G"], "points": 4 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 31–34: Opción múltiple literaria. Elige la respuesta correcta basándote en el significado del texto.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 31,
+                "prompt": "En el párrafo 2, la expresión 'los sustantivos fueron los primeros en desangrarse' es una metáfora que indica que...",
+                "options": {
+                  "A": "las palabras se volvieron violentas y agresivas entre los vecinos.",
+                  "B": "los nombres de las cosas fueron lo primero en perderse lenta y dolorosamente.",
+                  "C": "escribir las palabras en papel requería usar sangre en lugar de tinta.",
+                  "D": "la enfermedad solo afectaba a las personas que trabajaban como carniceros."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 32,
+                "prompt": "El propósito principal del sistema de Aureliano (párrafo 3) era...",
+                "options": {
+                  "A": "ganar mucho dinero vendiendo etiquetas a los vecinos del pueblo.",
+                  "B": "decorar el pueblo para la llegada de visitantes extranjeros.",
+                  "C": "crear una memoria externa y artificial para que la gente pudiera funcionar en el día a día.",
+                  "D": "enseñar a los niños pequeños a leer y escribir correctamente en la escuela."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 33,
+                "prompt": "Al final de la historia, la evolución de la peste provocó que...",
+                "options": {
+                  "A": "el pueblo recuperara su memoria milagrosamente tras una noche fría.",
+                  "B": "la gente comprendiera el idioma, pero decidiera no hablar más por tristeza.",
+                  "C": "las advertencias escritas se convirtieran en simples dibujos sin sentido alguno para ellos.",
+                  "D": "los animales del pueblo aprendieran a hablar y a leer las etiquetas."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 34,
+                "prompt": "A través de esta narración de realismo mágico, el autor explora profundamente el tema de...",
+                "options": {
+                  "A": "la importancia médica de la vacunación en las zonas rurales.",
+                  "B": "la conexión vital y absoluta entre el lenguaje, la memoria y la identidad humana.",
+                  "C": "la inutilidad del trabajo duro en los pueblos agrícolas latinoamericanos.",
+                  "D": "la superioridad de la comunicación escrita sobre la comunicación oral."
+                },
+                "answer": "B",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 35–37: Completar la oración basándose en el texto literario.",
+            "type": "matching",
+            "options": {
+              "A": "fue cruel, rápido y dejó marcas físicas permanentes en la población.",
+              "B": "funcionó brevemente, pero terminó siendo inútil frente a la nueva amnesia.",
+              "C": "era que al no poder nombrar sus recuerdos, su historia colectiva desaparecía.",
+              "D": "se manifestaba mediante silencios repentinos y el olvido de términos básicos.",
+              "E": "se negó a ayudar porque ya había olvidado cómo escribir.",
+              "F": "buscaba enseñar a leer a los analfabetos del pueblo."
+            },
+            "questions": [
+              { "number": 35, "prompt": "A diferencia de una epidemia normal, el inicio de esta enfermedad...", "answer": "D", "points": 1 },
+              { "number": 36, "prompt": "El miedo más profundo y existencial de los habitantes de San Jerónimo...", "answer": "C", "points": 1 },
+              { "number": 37, "prompt": "El esfuerzo y la estrategia del escribano Aureliano con los rótulos...", "answer": "B", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 38–40: Búsqueda de sinónimos literarios. Encuentra las palabras en el texto que coincidan con estos significados.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 38, "prompt": "inevitable / que no se puede evitar o detener (párrafo 2)", "answer": "inexorable", "points": 1 },
+              { "number": 39, "prompt": "adormecimiento / estado de cansancio o inactividad profunda (párrafo 2)", "answer": "letargo", "points": 1 },
+              { "number": 40, "prompt": "clasificación / forma de ordenar y nombrar las cosas (párrafo 3)", "answer": "taxonomía", "points": 1 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
