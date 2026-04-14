@@ -1,0 +1,263 @@
+{
+  "worksheet": {
+    "title": "Práctica de Lectura IB: Nivel Superior (Modelo 10)",
+    "texts": [
+      {
+        "text_id": "A",
+        "title": "Texto A — La revolución gastronómica peruana: Identidad y desarrollo",
+        "paragraphs": [
+          "El auge de la gastronomía peruana en el escenario internacional no es un fenómeno fortuito, sino la cristalización de un complejo sincretismo cultural forjado a lo largo de siglos. La amalgama de ingredientes precolombinos fundamentales, como los incontables tipos de ajíes, la quinua y los tubérculos andinos, con las refinadas técnicas culinarias traídas por los colonizadores españoles y las sucesivas olas migratorias (africanos, chinos, japoneses e italianos) ha esculpido una identidad culinaria de riqueza inigualable. Esta convergencia de sabores y tradiciones ha elevado a Lima a la categoría indiscutible de meca gastronómica mundial, atrayendo a legiones de turistas y críticos especializados.",
+          "Sin embargo, la verdadera trascendencia de este 'boom' sobrepasa ampliamente las fronteras elitistas de la alta cocina para erigirse como un motor fundamental de transformación socioeconómica. En las recónditas entrañas de los Andes y la vasta Amazonía, donde las comunidades campesinas subsistían históricamente bajo el umbral de la pobreza extrema, se ha forjado una alianza estratégica y esperanzadora. Los chefs de renombre internacional establecen redes de comercio justo, garantizando la compra directa y a precios equitativos de superalimentos autóctonos. Esta dinámica democratiza las ganancias y empodera económicamente a los pequeños productores, quienes antes dependían de intermediarios abusivos.",
+          "Paralelamente, la revolución de los fogones ha permeado con fuerza el ámbito educativo, constituyendo una vía de escape genuina para la juventud en situación de vulnerabilidad. Instituciones filantrópicas pioneras, como la Fundación Pachacútec, otorgan becas integrales a adolescentes provenientes de asentamientos urbanos precarios. Sometidos a una disciplina académica espartana y a una formación técnica de excelencia en las artes culinarias, estos jóvenes logran sortear las garras del pandillaje y la marginación, insertándose exitosamente en los equipos de trabajo de la restauración global o fundando sus propios emprendimientos.",
+          "En definitiva, el paradigma peruano corrobora fehacientemente que la gastronomía posee una dimensión política y cohesiva insoslayable. Ha logrado mitigar las históricas fracturas raciales y clasistas que dividían a la nación, demostrando de manera palpable que alrededor de un plato de ceviche o un ají de gallina convergen todas las sangres, estratos y credos en un sentimiento de orgullo patriótico inquebrantable."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 1–4: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para cada párrafo. Hay más opciones de las necesarias.",
+            "type": "matching",
+            "options": {
+              "A": "La formación técnica como vía de escape social",
+              "B": "La dependencia de los agricultores frente a los empresarios",
+              "C": "Una alianza para erradicar la pobreza rural",
+              "D": "El cierre definitivo de las escuelas de gastronomía",
+              "E": "La capacidad cohesiva de la identidad culinaria",
+              "F": "El resultado de un complejo sincretismo cultural"
+            },
+            "questions": [
+              { "number": 1, "prompt": "Párrafo 1", "answer": "F", "points": 1 },
+              { "number": 2, "prompt": "Párrafo 2", "answer": "C", "points": 1 },
+              { "number": 3, "prompt": "Párrafo 3", "answer": "A", "points": 1 },
+              { "number": 4, "prompt": "Párrafo 4", "answer": "E", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 5–8: Verdadero o Falso con justificación. Marca si la afirmación es verdadera (V) o falsa (F) y justifica tu respuesta usando las palabras exactas del texto. Ambas partes son necesarias para obtener el punto.",
+            "type": "true_false_justification",
+            "questions": [
+              { "number": 5, "prompt": "La cocina peruana actual fue creada usando únicamente técnicas e ingredientes de las culturas indígenas antiguas.", "answer": "F, (La amalgama de ingredientes precolombinos...) con las refinadas técnicas culinarias traídas por los colonizadores españoles y las sucesivas olas migratorias", "points": 1 },
+              { "number": 6, "prompt": "En la actualidad, los cocineros famosos adquieren productos sin usar revendedores, pagando un precio justo a los agricultores.", "answer": "V, establecen redes de comercio justo, garantizando la compra directa y a precios equitativos de superalimentos autóctonos", "points": 1 },
+              { "number": 7, "prompt": "Las fundaciones culinarias regalan estudios de cocina a los jóvenes más adinerados de la capital.", "answer": "F, otorgan becas integrales a adolescentes provenientes de asentamientos urbanos precarios", "points": 1 },
+              { "number": 8, "prompt": "El auge de la comida peruana ha contribuido a reducir las divisiones sociales e históricas del país.", "answer": "V, Ha logrado mitigar las históricas fracturas raciales y clasistas que dividían a la nación", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 9–11: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 9, "prompt": "mezcla / unión de elementos distintos (párrafo 1)", "answer": "amalgama", "points": 1 },
+              { "number": 10, "prompt": "evitar / superar un problema o peligro (párrafo 3)", "answer": "sortear", "points": 1 },
+              { "number": 11, "prompt": "suavizar / reducir la gravedad o dureza (párrafo 4)", "answer": "mitigar", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 12–13: Respuestas cortas. Contesta usando las palabras exactas del texto.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 12, "prompt": "¿Qué institución filantrópica se menciona como ejemplo de ayuda académica a la juventud? (párrafo 3)", "answer": "(la) Fundación Pachacútec", "points": 1 },
+              { "number": 13, "prompt": "Menciona un plato tradicional específico que, según el autor, sirve para unir a los habitantes del país. (párrafo 4)", "answer": "(un plato de) ceviche / ají de gallina (cualquiera de los dos)", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "B",
+        "title": "Texto B — La cruzada tecnológica contra el desperdicio alimentario",
+        "paragraphs": [
+          "En una era globalizada marcada paradójicamente por la urgencia climática y la inseguridad alimentaria, resulta éticamente inaceptable y logísticamente absurdo que aproximadamente un tercio de la producción mundial de alimentos acabe putrefacta en los vertederos. Esta hemorragia de valiosos recursos ocurre de manera inexorable en la última fase de la cadena de suministro: supermercados, hoteles y restaurantes desechan a diario cientos de miles de toneladas de productos perecederos en óptimas condiciones, simplemente por no haber sido comercializados antes de la hora de cierre. Para atajar este despropósito monumental, ha emergido una vanguardia tecnológica encarnada en ingeniosas aplicaciones móviles de rescate alimentario.",
+          "La operatividad de estas plataformas digitales es brillante en su sencillez y fomenta una economía circular de facto. Los establecimientos hosteleros agrupan el excedente diario en 'paquetes sorpresa' y los ofertan a través de la interfaz virtual con un descuento que suele rondar el setenta por ciento de su valor original. [ – 14 – ], los ciudadanos geolocalizan las ofertas en su zona, efectúan el pago telemático y acuden al local durante una franja horaria designada. [ – 15 – ] la composición exacta del paquete es un enigma absoluto hasta el instante mismo de la recolección, este factor de descubrimiento se ha convertido en un atractivo lúdico que fideliza exponencialmente a los usuarios urbanos.",
+          "Desde una perspectiva netamente económica, el sistema instaura una dinámica de beneficio mutuo irrefutable. Para el sector empresarial, mitiga las abultadas pérdidas financieras derivadas de la merma de productos y actúa simultáneamente como un innovador escaparate publicitario para captar nueva clientela. [ – 16 – ], para el sector demográfico con menor poder adquisitivo, como la población estudiantil, los jóvenes emancipados o las familias numerosas, representa un mecanismo inestimable para acceder a una dieta variada y nutritiva que, bajo circunstancias normales de mercado, desestabilizaría su precaria economía doméstica.",
+          "No obstante, el impacto más trascendental y loable de esta cruzada digital es indiscutiblemente ecológico. La descomposición acelerada de materia orgánica en los basurales emite cantidades exorbitantes de gas metano, un agente letal que acelera severamente el efecto invernadero. [ – 17 – ], cada ración de comida rescatada a través de estas aplicaciones se traduce en una reducción cuantificable de la huella de carbono, demostrando empíricamente que el activismo digital cotidiano puede ejercer una influencia macroscópica en la salvaguarda de la biósfera terrestre."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 14–17: Completar espacios en blanco. Elige de la lista el conector apropiado para rellenar los espacios en el texto. Hay más opciones de las necesarias.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "Por otro lado",
+              "B": "En consecuencia",
+              "C": "Antes de que",
+              "D": "Aunque",
+              "E": "Posteriormente",
+              "F": "A pesar de"
+            },
+            "questions": [
+              { "number": 14, "prompt": "Espacio [ – 14 – ]", "answer": "E", "points": 1 },
+              { "number": 15, "prompt": "Espacio [ – 15 – ]", "answer": "D", "points": 1 },
+              { "number": 16, "prompt": "Espacio [ – 16 – ]", "answer": "A", "points": 1 },
+              { "number": 17, "prompt": "Espacio [ – 17 – ]", "answer": "B", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 18–20: Identificación de referencia. ¿A qué se refieren las siguientes palabras en el texto?",
+            "type": "reference",
+            "questions": [
+              { "number": 18, "prompt": "Esta hemorragia de valiosos recursos (párrafo 1)", "answer": "que aproximadamente un tercio de la producción mundial de alimentos acabe putrefacta (en los vertederos)", "points": 1 },
+              { "number": 19, "prompt": "su valor original (párrafo 2)", "answer": "(del) paquete sorpresa / (del) excedente diario", "points": 1 },
+              { "number": 20, "prompt": "su precaria economía doméstica (párrafo 3)", "answer": "del sector demográfico con menor poder adquisitivo (población estudiantil, jóvenes emancipados o familias numerosas)", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 21–23: Opción múltiple. Elige la respuesta correcta basándote en el texto.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 21,
+                "prompt": "Según el párrafo 1, las aplicaciones de rescate de alimentos han emergido para...",
+                "options": {
+                  "A": "cerrar definitivamente los supermercados que contaminan el medio ambiente.",
+                  "B": "solucionar el problema de que los restaurantes cocinan mal los alimentos.",
+                  "C": "frenar el desperdicio absurdo de comida que está en perfectas condiciones.",
+                  "D": "aumentar los precios de los productos perecederos durante la noche."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 22,
+                "prompt": "En el párrafo 2, el texto señala que el aspecto de 'enigma' del paquete sorpresa...",
+                "options": {
+                  "A": "provoca que muchos clientes exijan la devolución de su dinero.",
+                  "B": "resulta en una experiencia divertida que atrae constantemente a los compradores.",
+                  "C": "es ilegal según las normas de economía circular actuales.",
+                  "D": "hace que sea imposible saber la ubicación real del restaurante."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 23,
+                "prompt": "¿Por qué es tan peligroso que la comida se pudra en los vertederos según el párrafo 4?",
+                "options": {
+                  "A": "Porque su descomposición produce un gas que empeora el calentamiento global.",
+                  "B": "Porque los animales salvajes invaden las ciudades buscando esos alimentos.",
+                  "C": "Porque hace que el terreno sea inútil para la futura construcción de edificios.",
+                  "D": "Porque gasta enormes cantidades de dióxido de carbono al ser enterrada."
+                },
+                "answer": "A",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 24–27: Relacionar mitades de oraciones. Relaciona la primera parte de la frase con su final correcto.",
+            "type": "matching",
+            "options": {
+              "A": "...se presentan en el local durante la hora acordada en la aplicación.",
+              "B": "...reducir el impacto financiero de tirar comida y hacer publicidad.",
+              "C": "...ayuda a proteger el planeta de manera medible y real.",
+              "D": "...consiguen mantener una alimentación sana sin arruinarse económicamente.",
+              "E": "...pierden todo su dinero por vender productos a un setenta por ciento menos."
+            },
+            "questions": [
+              { "number": 24, "prompt": "Los dueños del sector hostelero utilizan esta tecnología para...", "answer": "B", "points": 1 },
+              { "number": 25, "prompt": "Las familias numerosas y los estudiantes universitarios...", "answer": "D", "points": 1 },
+              { "number": 26, "prompt": "Después de realizar el pago por internet, los usuarios...", "answer": "A", "points": 1 },
+              { "number": 27, "prompt": "Evitar que la materia orgánica llegue a los basurales...", "answer": "C", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — El caldo de la melancolía",
+        "paragraphs": [
+          "La cocina de la inmensa hacienda Los Sauces era el dominio absoluto y sagrado de Candelaria. Nacida con el don inexplicable y místico de transmutar sus emociones más hondas en sabores palpables, la joven cocinera vivía aislada entre pesadas cazuelas de barro, manojos de romero fresco y ristras de ajos que colgaban de las vigas ahumadas. Candelaria nunca necesitó articular palabras para expresar su estado de ánimo; bastaba con que los silenciosos habitantes de la casa probaran una sola cucharada de su espesa sopa para experimentar, con una intensidad sobrecogedora y casi dolorosa, las tempestades internas que agitaban su alma.",
+          "El fatídico día en que recibió la noticia de que su prometido, un fornido arriero de ojos color miel, había desaparecido sin rastro en las escarpadas montañas del norte, Candelaria no derramó una sola lágrima en público. Se refugió de inmediato en la penumbra de su cocina y comenzó a preparar un caldo de gallina con tubérculos andinos. Cortó la cebolla con movimientos rígidos y mecánicos, machacó el cilantro en el pesado mortero de piedra volcánica y dejó que la preparación hirviera a fuego lento durante toda la interminable tarde. El vapor que inundó los pasillos de la hacienda era denso, sofocante, impregnado de una pesadumbre inmemorial.",
+          "Cuando Candelaria sirvió la cena aquella noche lluviosa, la familia patronal se dispuso a comer inmersa en su habitual mutismo protocolario. Sin embargo, al tragar el primer sorbo del caldo dorado, don Ernesto, un patriarca temido por su severidad implacable, dejó caer la pesada cuchara de plata. De repente, un nudo áspero le atenazó la garganta y unas lágrimas gruesas, silenciosas e incontrolables comenzaron a rodar por sus mejillas surcadas de arrugas. En el otro extremo de la larguísima mesa, su esposa sollozó abiertamente, sobrecogida por un sentimiento de pérdida absoluta y viudez anticipada que, en realidad, no le pertenecía. La pena profunda y asfixiante de Candelaria se había infiltrado directamente en el torrente sanguíneo de los comensales, infectándolos con una melancolía desoladora.",
+          "Tras aquel inquietante incidente, Candelaria comprendió la extrema peligrosidad de su maldición heredada. Durante las semanas siguientes, intentó cocinar con la mente totalmente en blanco, bloqueando sistemáticamente cualquier pensamiento doloroso o recuerdo punzante. Sin embargo, aquel vacío emocional inducido resultaba invariablemente en platos desabridos, con una textura polvorienta similar a la ceniza y un sabor insulso a agua de lluvia. La única forma viable de devolver la vitalidad y la alegría a los muros de la casa fue encomendarse, como quien reza un padrenuestro, al recuerdo de los días felices.",
+          "Meses más tarde, al hornear unos panes dulces coronados con semillas de anís, Candelaria evocó con nitidez la primera vez que el arriero le había acariciado el cabello bajo la espesa sombra del sauce llorón. La masa reaccionó a su pensamiento y se esponjó con un vigor inusitado, dorándose en el antiguo horno de leña hasta alcanzar un color ambarino radiante. Al probar los panecillos calientes, los sirvientes y los amos de la hacienda experimentaron una oleada de euforia efervescente; algunos rieron a carcajadas descontroladas sin motivo lógico aparente, y otros sintieron el impulso irrefrenable de bailar descalzos en el patio empedrado. Candelaria, limpiándose distraídamente la fina harina del delantal de lino, sonrió de manera tenue desde la cálida penumbra de su cocina. Había aceptado con resignación pacífica que su propio corazón sería, hasta el fin de sus días, el verdadero y único recetario de la familia."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 28–31: Selección múltiple. Selecciona las CUATRO frases verdaderas basándote en el texto literario. Escribe las letras (A-H) en las opciones.",
+            "type": "multiple_select",
+            "options": {
+              "A": "Candelaria era una mujer muy comunicativa que expresaba sus sentimientos hablando sin parar.",
+              "B": "Las personas que probaban la comida de Candelaria podían sentir físicamente las emociones de la cocinera.",
+              "C": "Al enterarse de la tragedia de su prometido, Candelaria lloró desconsoladamente frente a los dueños de la hacienda.",
+              "D": "El dueño de la casa, conocido por ser un hombre muy duro, no pudo evitar llorar al comer la sopa de gallina.",
+              "E": "Cuando Candelaria reprimía sus emociones para no contagiar a los demás, la comida perdía completamente su buen sabor.",
+              "F": "La esposa de don Ernesto lloraba amargamente porque ella también había perdido a su marido en las montañas.",
+              "G": "El recuerdo feliz del arriero provocó que los panes hicieran sentir una inmensa alegría a todos los que los comieron.",
+              "H": "Candelaria decidió renunciar a su trabajo y abandonar la hacienda al darse cuenta de su peligroso poder mágico."
+            },
+            "questions": [
+              { "number": "28-31", "prompt": "Selecciona las 4 verdaderas", "answer": ["B", "D", "E", "G"], "points": 4 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 32–35: Opción múltiple literaria. Elige la respuesta correcta basándote en el significado del texto.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 32,
+                "prompt": "En el párrafo 1, el 'don inexplicable y místico' de Candelaria consistía en:",
+                "options": {
+                  "A": "cultivar las plantas más exóticas de toda la cordillera de los Andes.",
+                  "B": "predecir exactamente cuándo iban a morir los miembros de la familia patronal.",
+                  "C": "transferir e infundir su propio estado emocional y espiritual en los alimentos que preparaba.",
+                  "D": "cocinar platillos deliciosos utilizando ingredientes que estaban podridos."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 33,
+                "prompt": "En el párrafo 3, el uso de palabras como 'infectándolos' y 'torrente sanguíneo' sirve literariamente para mostrar que:",
+                "options": {
+                  "A": "Candelaria había puesto veneno real de serpiente en el caldo de gallina.",
+                  "B": "la tristeza de la cocinera se transmitió como si fuera una enfermedad física incontrolable.",
+                  "C": "los dueños de la casa padecían problemas de salud crónicos antes de comer.",
+                  "D": "la falta de higiene en la cocina estaba enfermando a los amos de la hacienda."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 34,
+                "prompt": "¿Qué sucedía cuando Candelaria cocinaba bloqueando sus pensamientos y con la 'mente totalmente en blanco' (párrafo 4)?",
+                "options": {
+                  "A": "Los platos quedaban insípidos, desagradables y carentes de vida.",
+                  "B": "La comida resultaba extremadamente picante y quemaba la boca de los amos.",
+                  "C": "Los alimentos se volvían invisibles antes de llegar a la mesa del comedor.",
+                  "D": "La cocinera se quemaba constantemente las manos con el fuego del horno."
+                },
+                "answer": "A",
+                "points": 1
+              },
+              {
+                "number": 35,
+                "prompt": "La actitud final de Candelaria al sonreír tenuemente desde la penumbra (párrafo 5) revela que ella:",
+                "options": {
+                  "A": "estaba planeando una venganza contra don Ernesto.",
+                  "B": "había perdido la cordura debido a la profunda tristeza de su viudez.",
+                  "C": "aceptaba su destino y su singular poder como el centro emocional de la hacienda.",
+                  "D": "se burlaba en secreto de la extraña forma en que bailaban los amos y sirvientes."
+                },
+                "answer": "C",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 36–37: Respuestas cortas. Contesta usando las palabras exactas del texto literario.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 36, "prompt": "¿Qué suceso trágico e inesperado provocó que Candelaria preparara aquel caldo denso lleno de pesadumbre (párrafo 2)?", "answer": "(la noticia de) que su prometido (...) había desaparecido (sin rastro)", "points": 1 },
+              { "number": 37, "prompt": "Mientras horneaba los panes dulces, ¿qué recuerdo romántico específico la hizo sentir feliz (párrafo 5)?", "answer": "la primera vez que el arriero le había acariciado el cabello (bajo la espesa sombra del sauce llorón)", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 38–40: Búsqueda de sinónimos literarios. Encuentra las palabras en el texto que coincidan con estos significados.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 38, "prompt": "transformar / cambiar la forma o naturaleza de una cosa a otra (párrafo 1)", "answer": "transmutar", "points": 1 },
+              { "number": 39, "prompt": "sujetó fuertemente / apretó como con unas pinzas (párrafo 3)", "answer": "atenazó", "points": 1 },
+              { "number": 40, "prompt": "recordó / trajo a la memoria un sentimiento o imagen (párrafo 5)", "answer": "evocó", "points": 1 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
