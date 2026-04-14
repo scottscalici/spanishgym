@@ -102,7 +102,7 @@
             </select>
 
             <button class="btn btn-png" onclick="downloadPNG()">🖼️ Download Portada Bundle (PNG)</button>
-            <button class="btn btn-desc" onclick="generateDescription()">📝 Generate TpT Description</button>
+            <button class="btn btn-desc" onclick="generateDescription()">📝 Generate TpT Title & Desc</button>
             <button class="btn btn-pdf" onclick="generatePreviewPDF()">📄 Print Preview Guide (PDF)</button>
             
             <div class="tag-box">
@@ -114,10 +114,18 @@
         </div>
 
         <div>
-            <h2 style="margin-top:0;">TpT Listing Description</h2>
+            <h2 style="margin-top:0;">TpT Listing Details</h2>
+            
+            <label>Listing Title (Click to copy):</label>
+            <div style="position: relative; margin-bottom: 20px;">
+                <input type="text" id="title-output" readonly style="background: #f7fafc; font-weight: bold; color: #c53030; cursor: pointer; padding-right: 70px; margin-bottom: 0;" onclick="copyTitle()" value="Select a program to generate title...">
+                <span id="char-count" style="position: absolute; right: 15px; top: 12px; font-size: 12px; font-weight: bold; color: #718096;">0/80</span>
+            </div>
+
+            <label>Listing Description:</label>
             <div class="description-output" id="desc-output">
                 <button class="copy-btn" onclick="copyDesc()">Copy</button>
-                <div id="desc-content">Select a program bundle and click "Generate TpT Description" to build your marketing text...</div>
+                <div id="desc-content">Select a program bundle and click "Generate TpT Title & Desc" to build your marketing text...</div>
             </div>
         </div>
     </div>
@@ -261,6 +269,41 @@
         const prog = currentMaster.programa || "Vocabulary";
         const accent = document.getElementById('level-accent').value;
 
+        // --- TITLE GENERATION ---
+        let shortLevel = "Spanish";
+        if(accent.includes("Level 1")) shortLevel = "Spanish 1";
+        else if(accent.includes("Level 2")) shortLevel = "Spanish 2";
+        else if(accent.includes("Level 3")) shortLevel = "Spanish 3";
+        else if(accent.includes("AP/IB")) shortLevel = "AP/IB Spanish";
+
+        let setsCount = currentMaster.sets.length;
+        
+        // Build the optimized TpT title
+        let generatedTitle = `${prog} ${shortLevel} Vocabulary Bundle | Worksheets | ${setsCount} Sets`;
+        
+        // Fallbacks to ensure it fits the 80 char limit
+        if (generatedTitle.length > 80) {
+            generatedTitle = `${prog} ${shortLevel} Vocab Bundle | ${setsCount} Sets | No Prep`;
+        }
+        if (generatedTitle.length > 80) {
+            generatedTitle = `${prog} ${shortLevel} Vocab Bundle | ${setsCount} Sets`;
+        }
+        if (generatedTitle.length > 80) {
+            generatedTitle = `${prog} Vocabulary Bundle`.substring(0, 80);
+        }
+
+        const titleEl = document.getElementById('title-output');
+        titleEl.value = generatedTitle;
+        
+        const charCountEl = document.getElementById('char-count');
+        charCountEl.textContent = `${generatedTitle.length}/80`;
+        if(generatedTitle.length > 80) {
+            charCountEl.style.color = "#c53030"; // Red if over
+        } else {
+            charCountEl.style.color = "#48bb78"; // Green if safe
+        }
+
+        // --- DESCRIPTION GENERATION ---
         let totalWords = 0;
         currentMaster.sets.forEach(s => totalWords += (s.preparate ? s.preparate.length : 0));
 
@@ -268,7 +311,7 @@
         text += `The **${prog} Bundle** is the ultimate way to train your students' vocabulary. Instead of standard, repetitive worksheets, this comprehensive resource treats vocabulary acquisition like a mental workout. Students move through carefully scaffolded "exercises"—from light warm-ups to heavy-lifting context clues—ensuring deep retention and true comprehension.\n\n`;
         
         text += `📚 **WHAT’S INCLUDED IN THIS BUNDLE?**\n`;
-        text += `This massive bundle includes ${currentMaster.sets.length} complete, highly focused vocabulary sets (covering ${totalWords} target words total to prevent student burnout):\n`;
+        text += `This massive bundle includes ${setsCount} complete, highly focused vocabulary sets (covering ${totalWords} target words total to prevent student burnout):\n`;
         currentMaster.sets.forEach(set => {
             text += `• **Set ${set.set_numero}:** ${set.titulo}\n`;
         });
@@ -292,6 +335,14 @@
         text += `Give your ${accent} students the foundation they need to succeed, and reclaim your planning period!`;
 
         document.getElementById('desc-content').textContent = text;
+    }
+
+    function copyTitle() {
+        const titleInput = document.getElementById('title-output');
+        if(!currentMaster || titleInput.value.includes("Select a program")) return;
+        titleInput.select();
+        navigator.clipboard.writeText(titleInput.value);
+        alert("Title copied!");
     }
 
     function copyDesc() {
