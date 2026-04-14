@@ -56,9 +56,7 @@
         <div class="controls-panel">
             <label>1. Select Full Program Bundle</label>
             <select id="program-select" onchange="loadProgram()">
-                <option value="01_primeros_pasos_master.json">Primeros Pasos (Level 1)</option>
-                <option value="02_resistencia_master.json">Resistencia (Level 2)</option>
-                <option value="03_alto_rendimiento_master.json">Alto Rendimiento (Level 3/4)</option>
+                <option value="" disabled selected>Loading programs from GitHub...</option>
             </select>
 
             <label>2. Branding Accent</label>
@@ -66,10 +64,8 @@
                 <option value="Level 1: Beginner">Level 1: Beginner</option>
                 <option value="Level 2: Intermediate">Level 2: Intermediate</option>
                 <option value="Level 3: Advanced">Level 3: Advanced</option>
+                <option value="AP/IB Spanish">AP/IB Spanish</option>
             </select>
-            
-            <label>3. Bundle Page Count</label>
-            <input type="number" id="page-count" value="69" onchange="updatePreview()">
 
             <button class="btn btn-png" onclick="downloadPNG()">🖼️ Download Portada Bundle (PNG)</button>
             <button class="btn btn-desc" onclick="generateDescription()">📝 Generate Bundle Description</button>
@@ -96,12 +92,12 @@
     <div id="capture-target" class="tpt-preview-card">
         <div class="red-accent"></div>
         <div class="preview-header" id="p-header">LEVEL 1: BEGINNER</div>
-        <div class="preview-title" id="p-title">PRIMEROS PASOS BUNDLE</div>
+        <div class="preview-title" id="p-title">PROGRAMA BUNDLE</div>
         
         <div class="badge-grid">
-            <div class="badge" id="p-pages">69 Páginas</div>
             <div class="badge">🔥 4 Sets Completos</div>
             <div class="badge">✅ Versiones A y B</div>
+            <div class="badge">💯 Claves de Respuestas</div>
             <div class="badge" id="p-wordcount">80+ Palabras Clave</div>
         </div>
 
@@ -111,42 +107,83 @@
         </div>
 
         <div class="logo-box">
-            <img src="https://raw.githubusercontent.com/scottscalici/spanishgym/refs/heads/main/images/spanishgym.png" style="width:100%;">
+            <img src="https://raw.githubusercontent.com/scottscalici/spanishgym/refs/heads/main/images/spanishgym.png" style="width:100%;" crossorigin="anonymous">
         </div>
     </div>
 </div>
 
 <script>
-    const baseUrl = 'https://raw.githubusercontent.com/scottscalici/spanishgym/main/vocabulary/';
+    const repoApiUrl = 'https://api.github.com/repos/scottscalici/spanishgym/contents/vocabulary';
     let currentMaster = null;
 
-    async function loadProgram() {
-        const file = document.getElementById('program-select').value;
+    // Auto-fetch all JSONs from GitHub on load
+    async function initFolder() {
         try {
-            const response = await fetch(baseUrl + file);
+            const response = await fetch(repoApiUrl);
+            const files = await response.json();
+            const availablePrograms = files
+                .filter(file => file.name.endsWith('_master.json'))
+                .map((file) => {
+                    // Clean up the name for the dropdown
+                    let cleanName = file.name.replace('_master.json', '').replace(/_/g, ' '); 
+                    cleanName = cleanName.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+                    return { name: cleanName, url: file.download_url };
+                });
+
+            const selector = document.getElementById('program-select');
+            selector.innerHTML = ''; 
+            
+            if(availablePrograms.length === 0) {
+                selector.innerHTML = '<option disabled>No _master.json files found</option>';
+                return;
+            }
+
+            availablePrograms.forEach(prog => {
+                const option = document.createElement('option');
+                option.value = prog.url; 
+                option.text = prog.name;
+                selector.appendChild(option);
+            });
+
+            // Automatically load the first one in the list
+            loadProgram();
+
+        } catch (error) {
+            console.error("Error reading GitHub folder:", error);
+            document.getElementById('program-select').innerHTML = '<option disabled>Error loading programs</option>';
+        }
+    }
+
+    async function loadProgram() {
+        const fileUrl = document.getElementById('program-select').value;
+        if (!fileUrl) return;
+
+        try {
+            const response = await fetch(fileUrl);
             currentMaster = await response.json();
             updatePreview();
         } catch (error) {
-            console.error("Error loading JSON. Make sure the file exists on GitHub.", error);
+            console.error("Error loading JSON.", error);
         }
     }
 
     function updatePreview() {
         if (!currentMaster) return;
         const accent = document.getElementById('level-accent').value;
-        const pages = document.getElementById('page-count').value;
+
+        // Use the defined program name or default to the file name
+        const progName = currentMaster.programa || "Vocabulary";
 
         document.getElementById('p-header').textContent = accent;
-        document.getElementById('p-title').textContent = currentMaster.programa + " BUNDLE";
-        document.getElementById('p-pages').textContent = pages + " Páginas";
+        document.getElementById('p-title').textContent = progName + " BUNDLE";
         
         let totalWords = 0;
-        currentMaster.sets.forEach(s => totalWords += s.preparate.length);
+        currentMaster.sets.forEach(s => totalWords += (s.preparate ? s.preparate.length : 0));
         document.getElementById('p-wordcount').textContent = totalWords + " Palabras Clave";
 
         const setGrid = document.getElementById('p-sets');
         setGrid.innerHTML = '';
-        currentMaster.sets.forEach((set, index) => {
+        currentMaster.sets.forEach((set) => {
             setGrid.innerHTML += `<div>✔ Set ${set.set_numero}: ${set.titulo}</div>`;
         });
     }
@@ -163,9 +200,10 @@
         });
         await Promise.all(promises);
 
-        const canvas = await html2canvas(target, { scale: 2, useCORS: true });
+        const canvas = await html2canvas(target, { scale: 2, useCORS: true, backgroundColor: null });
         const link = document.createElement('a');
-        const title = currentMaster.programa.replace(/ /g, '_');
+        const progName = currentMaster.programa || "Vocabulary";
+        const title = progName.replace(/[^a-z0-9]/gi, '_');
         link.download = `SpanishGym_Bundle_${title}.png`;
         link.href = canvas.toDataURL('image/png');
         link.click();
@@ -173,15 +211,14 @@
 
     function generateDescription() {
         if (!currentMaster) return alert("Please load a program first.");
-        const prog = currentMaster.programa;
+        const prog = currentMaster.programa || "Vocabulary";
         const accent = document.getElementById('level-accent').value;
-        const pages = document.getElementById('page-count').value;
 
         let totalWords = 0;
-        currentMaster.sets.forEach(s => totalWords += s.preparate.length);
+        currentMaster.sets.forEach(s => totalWords += (s.preparate ? s.preparate.length : 0));
 
         let text = `Ditch the boring vocab lists and translation apps. Welcome to **The Spanish Gym**! 🏋️‍♂️\n\n`;
-        text += `The **${prog} Bundle** is the ultimate way to train your students' vocabulary. Instead of standard, repetitive worksheets, this massive ${pages}-page resource treats vocabulary acquisition like a mental workout. Students move through carefully scaffolded "exercises"—from light warm-ups to heavy-lifting context clues—ensuring deep retention and true comprehension.\n\n`;
+        text += `The **${prog} Bundle** is the ultimate way to train your students' vocabulary. Instead of standard, repetitive worksheets, this massive, comprehensive resource treats vocabulary acquisition like a mental workout. Students move through carefully scaffolded "exercises"—from light warm-ups to heavy-lifting context clues—ensuring deep retention and true comprehension.\n\n`;
         
         text += `📚 **WHAT’S INCLUDED IN THIS BUNDLE?**\n`;
         text += `This comprehensive bundle includes ${currentMaster.sets.length} complete, highly focused vocabulary sets (covering ${totalWords} target words total to prevent student burnout):\n`;
@@ -194,7 +231,7 @@
         text += `Tired of wandering eyes during independent practice? Every single vocabulary set in this bundle includes a Versión A and a Versión B. The question pools are completely shuffled, swapped, and varied. Hand out Version A to row one and Version B to row two, or use Version A for classwork and Version B for a Friday quiz!\n\n`;
 
         text += `💪 **THE "WORKOUT" STRUCTURE (Included in EVERY Set):**\n`;
-        text += `Each vocabulary topic includes an 8-page packet per version, featuring:\n\n`;
+        text += `Each vocabulary topic includes a massive 8-page packet per version, featuring:\n\n`;
         text += `📋 **Prepárate:** A clean master list featuring the Spanish word, English translation, and a real-world context sentence.\n`;
         text += `🏃 **El Calentamiento:** Low-stakes matching and direct translation to build initial recognition.\n`;
         text += `🚴 **El Cardio (2 Pages):** Students read descriptive clues—one page in English, one page in Spanish—to produce the target word without a word bank.\n`;
@@ -216,7 +253,8 @@
         alert("Description copied!");
     }
 
-    loadProgram();
+    // Run the fetch on load
+    initFolder();
 </script>
 
 </body>
