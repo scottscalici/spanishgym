@@ -1,0 +1,241 @@
+{
+  "worksheet": {
+    "title": "Práctica de Lectura IB: Nivel Medio (Modelo 7 - Opción 4)",
+    "texts": [
+      {
+        "text_id": "A",
+        "title": "Texto A — El grafiti: ¿Vandalismo o patrimonio cultural?",
+        "paragraphs": [
+          "Durante décadas, el grafiti fue considerado exclusivamente como un acto de vandalismo y un símbolo de decadencia urbana. Las autoridades gastaban millones anualmente en borrar rápidamente las firmas que aparecían en los muros durante la noche. Sin embargo, en los últimos años, ciudades latinoamericanas como Bogotá (Colombia) y Valparaíso (Chile) han liderado un cambio de perspectiva radical. Han dejado de perseguir indiscriminadamente a los creadores para empezar a reconocer el arte urbano como una expresión cultural legítima y un auténtico museo al aire libre.",
+          "En Bogotá, tras años de conflictos entre jóvenes y policías, el gobierno local decidió implementar políticas públicas que regulan y promueven el arte callejero. En lugar de muros grises, la ciudad ahora ofrece espacios designados donde artistas locales e internacionales pueden pintar murales gigantescos. Esta iniciativa no solo ha embellecido zonas que antes se consideraban peligrosas, sino que ha convertido a la capital colombiana en un imán para el turismo alternativo. Miles de visitantes extranjeros pagan anualmente por realizar recorridos guiados o 'graffiti tours' para fotografiar estas impresionantes obras de arte.",
+          "Por su parte, la ciudad portuaria de Valparaíso siempre ha estado profundamente ligada al color gracias a sus casas en los cerros. Hoy en día, sus escaleras y callejones están completamente cubiertos de murales que cuentan la historia de sus habitantes, los mitos del mar y los desafíos de los pescadores. Para la economía local, este fenómeno ha sido una verdadera bendición, ya que ha impulsado la apertura de pequeñas cafeterías, galerías independientes y hostales en barrios que anteriormente sufrían de un gran abandono.",
+          "El arte urbano moderno va mucho más allá de las simples firmas o letras incomprensibles. Es una poderosa herramienta visual que la juventud utiliza para transmitir reivindicaciones sociales, defender la protección del medio ambiente y celebrar la diversidad indígena. Aunque el debate sobre dónde termina el vandalismo y dónde empieza el arte nunca desaparecerá por completo, es innegable que estos colores han devuelto la vida y la voz a las calles de América Latina."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 1–4: Relacionar subtítulos. Elige de la lista el subtítulo apropiado para cada párrafo. Hay más opciones de las necesarias.",
+            "type": "matching",
+            "options": {
+              "A": "Una ciudad portuaria transformada por el turismo y el color",
+              "B": "La prohibición total del arte en las calles",
+              "C": "Mensajes profundos que van más allá de la estética",
+              "D": "De un problema criminal a una exhibición pública",
+              "E": "Políticas gubernamentales que atraen a visitantes internacionales",
+              "F": "Los altos costos de comprar pintura para los artistas"
+            },
+            "questions": [
+              { "number": 1, "prompt": "Párrafo 1", "answer": "D", "points": 1 },
+              { "number": 2, "prompt": "Párrafo 2", "answer": "E", "points": 1 },
+              { "number": 3, "prompt": "Párrafo 3", "answer": "A", "points": 1 },
+              { "number": 4, "prompt": "Párrafo 4", "answer": "C", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 5–8: Verdadero o Falso con justificación. Marca si la afirmación es verdadera (V) o falsa (F) y justifica tu respuesta usando las palabras exactas del texto. Ambas partes son necesarias para el punto.",
+            "type": "true_false_justification",
+            "questions": [
+              { "number": 5, "prompt": "En el pasado, los gobiernos veían el grafiti como una forma de arte valiosa.", "answer": "F, fue considerado exclusivamente como un acto de vandalismo", "points": 1 },
+              { "number": 6, "prompt": "Cualquier persona puede pintar donde quiera en Bogotá sin ningún tipo de regla.", "answer": "F, el gobierno local decidió implementar políticas públicas que regulan y promueven", "points": 1 },
+              { "number": 7, "prompt": "Los murales en Valparaíso han ayudado a crear nuevos negocios en zonas olvidadas.", "answer": "V, ha impulsado la apertura de pequeñas cafeterías (...) en barrios que anteriormente sufrían de un gran abandono", "points": 1 },
+              { "number": 8, "prompt": "El texto afirma que la discusión sobre si el grafiti es arte o delito ya se ha resuelto por completo.", "answer": "F, el debate sobre dónde termina el vandalismo y dónde empieza el arte nunca desaparecerá", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 9–11: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 9, "prompt": "destrucción / deterioro progresivo (párrafo 1)", "answer": "decadencia", "points": 1 },
+              { "number": 10, "prompt": "atracción / objeto que atrae con fuerza (párrafo 2)", "answer": "imán", "points": 1 },
+              { "number": 11, "prompt": "demandas / protestas por un derecho (párrafo 4)", "answer": "reivindicaciones", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 12–13: Respuestas cortas. Contesta usando las palabras exactas del texto.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 12, "prompt": "¿Qué actividad pagan los turistas para hacer en las calles de Bogotá? (1 punto)", "answer": "(realizar) recorridos guiados o 'graffiti tours'", "points": 1 },
+              { "number": 13, "prompt": "Menciona uno de los tres temas que los jóvenes suelen pintar en los murales modernos según el párrafo 4. (1 punto)", "answer": "reivindicaciones sociales / protección del medio ambiente / celebrar la diversidad indígena (cualquiera de las tres)", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "B",
+        "title": "Texto B — Las ciudades de 15 minutos: El rediseño urbano",
+        "paragraphs": [
+          "El modelo de la gran ciudad moderna, donde las áreas residenciales están muy alejadas de los centros de trabajo y comercio, está en crisis. Millones de personas pierden horas valiosas de su día atrapadas en el tráfico, generando niveles altísimos de contaminación y sufriendo estrés crónico. Para combatir este estilo de vida agotador, urbanistas de todo el mundo están impulsando un concepto revolucionario conocido como la 'ciudad de 15 minutos'. Su premisa es maravillosamente simple: [ – 14 – ] la escuela, el trabajo, las tiendas y los centros de salud deben estar a un máximo de quince minutos caminando o en bicicleta desde tu casa.",
+          "Esta innovadora idea busca devolver las calles a los peatones y reducir drásticamente nuestra dependencia del automóvil privado. [ – 15 – ] construir enormes autopistas de hormigón, los gobiernos locales están invirtiendo en ampliar las aceras, plantar árboles y crear redes seguras de carriles para bicicletas. En el mundo hispanohablante, la ciudad de Barcelona es una pionera indiscutible gracias a su proyecto de las 'supermanzanas' (superilles). Estas son agrupaciones de varias calles donde el tráfico de vehículos a motor está prohibido o estrictamente limitado, creando en el centro grandes plazas seguras donde los niños pueden volver a jugar al aire libre.",
+          "[ – 16 – ], en América Latina, ciudades densamente pobladas como Buenos Aires y Bogotá están adaptando esta filosofía a su propia realidad. Han cerrado numerosas calles comerciales a los coches durante los fines de semana y han creado mercados temporales en los barrios periféricos. Esto permite que los vecinos puedan comprar alimentos frescos y relacionarse con su comunidad sin tener que desplazarse al centro histórico.",
+          "A pesar del indudable éxito ecológico, el modelo también tiene sus críticos. Algunos expertos advierten sobre el peligro de la 'gentrificación verde', argumentando que mejorar tanto un barrio provoca que los alquileres suban de precio, expulsando a las familias con menos recursos. [ – 17 – ], otros temen que la ciudad de 15 minutos pueda dividir a la metrópolis en pequeños pueblos aislados, disminuyendo la rica interacción social y cultural que caracteriza a las grandes capitales. El desafío será implementar estas mejoras de forma equitativa para todos."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 14–17: Completar espacios en blanco. Elige de la lista el conector apropiado para rellenar los espacios en el texto.",
+            "type": "fill_in_the_blank",
+            "options": {
+              "A": "En lugar de",
+              "B": "Por el contrario",
+              "C": "Asimismo",
+              "D": "Por lo tanto",
+              "E": "es decir que",
+              "F": "A menos que",
+              "G": "En consecuencia"
+            },
+            "questions": [
+              { "number": 14, "prompt": "Espacio [ – 14 – ]", "answer": "E", "points": 1 },
+              { "number": 15, "prompt": "Espacio [ – 15 – ]", "answer": "A", "points": 1 },
+              { "number": 16, "prompt": "Espacio [ – 16 – ]", "answer": "C", "points": 1 },
+              { "number": 17, "prompt": "Espacio [ – 17 – ]", "answer": "B", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 18–20: Opción múltiple. Elige la respuesta correcta basándote en el texto.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 18,
+                "prompt": "Según el párrafo 1, la causa principal del estrés y la contaminación en las ciudades actuales es...",
+                "options": {
+                  "A": "la falta de escuelas de calidad en los barrios céntricos.",
+                  "B": "la gran distancia que existe entre las casas y los lugares de trabajo.",
+                  "C": "el uso excesivo de bicicletas en las calles estrechas.",
+                  "D": "la falta de transporte público gratuito."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 19,
+                "prompt": "¿Qué logran exactamente las 'supermanzanas' en Barcelona (párrafo 2)?",
+                "options": {
+                  "A": "Crear enormes edificios de apartamentos muy baratos.",
+                  "B": "Prohibir totalmente que la gente camine por el centro de la ciudad.",
+                  "C": "Eliminar o limitar los coches para crear espacios seguros y peatonales.",
+                  "D": "Construir nuevas autopistas de hormigón más rápidas."
+                },
+                "answer": "C",
+                "points": 1
+              },
+              {
+                "number": 20,
+                "prompt": "Uno de los miedos sobre las 'ciudades de 15 minutos' mencionados en el último párrafo es que...",
+                "options": {
+                  "A": "la gente ya no quiera salir nunca de sus casas.",
+                  "B": "los barrios se vuelvan tan caros que la gente pobre deba irse.",
+                  "C": "las tiendas locales cierren por falta de clientes.",
+                  "D": "aumente drásticamente la contaminación en los barrios periféricos."
+                },
+                "answer": "B",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "instructions": "Preguntas 21–23: Identificación de referencia. ¿A qué se refieren las siguientes palabras en el texto?",
+            "type": "reference",
+            "questions": [
+              { "number": 21, "prompt": "Su (párrafo 1)", "answer": "la 'ciudad de 15 minutos'", "points": 1 },
+              { "number": 22, "prompt": "Estas (párrafo 2)", "answer": "las 'supermanzanas' (superilles)", "points": 1 },
+              { "number": 23, "prompt": "Esto (párrafo 3)", "answer": "Cerrar calles a los coches y crear mercados temporales", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 24–26: Relacionar mitades de oraciones. Relaciona la primera parte de la frase con su final correcto.",
+            "type": "matching",
+            "options": {
+              "A": "...no tengan que ir al centro de la ciudad a comprar.",
+              "B": "...limitan severamente la cantidad de gente que puede entrar.",
+              "C": "...se dividan en zonas que no interactúan entre sí.",
+              "D": "...son lugares más agradables para caminar o ir en bicicleta.",
+              "E": "...se utilicen exclusivamente para el transporte de mercancías."
+            },
+            "questions": [
+              { "number": 24, "prompt": "Al plantar árboles y ampliar aceras, las ciudades...", "answer": "D", "points": 1 },
+              { "number": 25, "prompt": "Los mercados en Buenos Aires permiten que los vecinos...", "answer": "A", "points": 1 },
+              { "number": 26, "prompt": "A los críticos les preocupa que las capitales...", "answer": "C", "points": 1 }
+            ]
+          }
+        ]
+      },
+      {
+        "text_id": "C",
+        "title": "Texto C — Rescatando la memoria de los ladrillos",
+        "paragraphs": [
+          "Al pasear por las capitales modernas de América Latina, es común observar una lucha visual constante entre el pasado y el futuro. Majestuosos rascacielos de cristal y acero se elevan implacables junto a antiguas casonas coloniales que parecen a punto de derrumbarse. Durante décadas, la filosofía del desarrollo urbano dictaba que para modernizar una metrópolis era absolutamente necesario demoler los edificios antiguos. Hoy, una nueva generación de arquitectos defiende que la verdadera identidad de una ciudad reside en preservar esos viejos ladrillos.",
+          "Los edificios históricos no son solo estructuras inútiles que ocupan espacio; son testigos silenciosos de la evolución social. Una vieja fábrica textil de principios del siglo XX, por ejemplo, no solo nos habla de la Revolución Industrial, sino de las vidas de miles de trabajadores inmigrantes, de sus huelgas y de sus esperanzas. Al destruir esos muros, borramos físicamente un capítulo irrepetible de nuestra propia historia colectiva. Conservarlos es una forma de mantener vivo el respeto por nuestros antepasados.",
+          "Afortunadamente, la solución moderna no es convertir las ciudades en museos intocables. La tendencia actual, conocida mundialmente como 'reutilización adaptativa', busca un equilibrio perfecto. Consiste en restaurar la estructura externa de los edificios antiguos pero renovando completamente su interior para darles un uso contemporáneo. Así, antiguos mercados de abastos se transforman en vibrantes centros culturales comunitarios, y fábricas abandonadas se convierten en modernos apartamentos tipo 'loft' o en oficinas para jóvenes empresas de tecnología.",
+          "La reutilización adaptativa es, además, la opción más ecológica frente a la crisis climática, ya que construir un edificio nuevo desde cero genera enormes cantidades de emisiones de carbono. En conclusión, modernizar no debe ser sinónimo de destruir. Una ciudad que no cuida su patrimonio arquitectónico es como una persona que ha perdido la memoria: puede caminar hacia el futuro, pero ha olvidado completamente de dónde viene."
+        ],
+        "question_sections": [
+          {
+            "instructions": "Preguntas 27–31: Selección múltiple. Selecciona las CINCO afirmaciones verdaderas basándote en el texto. Escribe las letras (A-J) en las opciones.",
+            "type": "multiple_select",
+            "options": {
+              "A": "En muchas ciudades latinoamericanas, conviven edificios muy modernos con casas muy antiguas.",
+              "B": "En el pasado, los arquitectos creían que se debía proteger cada edificio antiguo a toda costa.",
+              "C": "Los edificios históricos nos ayudan a entender cómo vivían y trabajaban las personas en el pasado.",
+              "D": "La 'reutilización adaptativa' significa dejar los edificios viejos exactamente como estaban por dentro.",
+              "E": "Al aplicar la reutilización adaptativa, se puede vivir o trabajar en edificios con mucha historia.",
+              "F": "Los rascacielos de cristal son los edificios más ecológicos que se pueden construir hoy en día.",
+              "G": "Restaurar un edificio viejo es mejor para el medio ambiente que construir uno completamente nuevo.",
+              "H": "El autor cree que las ciudades modernas deberían convertirse en museos que nadie pueda tocar.",
+              "I": "Las fábricas abandonadas están siendo utilizadas actualmente por empresas tecnológicas.",
+              "J": "Una ciudad sin edificios antiguos es comparada con una persona que está ciega."
+            },
+            "questions": [
+              { "number": "27-31", "prompt": "Selecciona las 5 verdaderas", "answer": ["A", "C", "E", "G", "I"], "points": 5 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 32–34: Respuestas cortas. Contesta usando las palabras exactas del texto.",
+            "type": "short_answer",
+            "questions": [
+              { "number": 32, "prompt": "¿Qué nos enseñan o relatan las fábricas textiles antiguas además de la Revolución Industrial (párrafo 2)? (1 punto)", "answer": "las vidas de miles de trabajadores inmigrantes, de sus huelgas y de sus esperanzas", "points": 1 },
+              { "number": 33, "prompt": "Menciona DOS de los tres usos nuevos que se les da a los edificios restaurados según el párrafo 3. (2 puntos)", "answer": "centros culturales comunitarios / apartamentos tipo 'loft' / oficinas (dos de tres)", "points": 2 },
+              { "number": 34, "prompt": "¿Por qué es malo para el clima construir un edificio completamente nuevo (párrafo 4)? (1 punto)", "answer": "genera enormes cantidades de emisiones de carbono", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 35–37: Búsqueda de sinónimos. Encuentra la palabra en los párrafos indicados que tenga el mismo significado.",
+            "type": "synonym_search",
+            "questions": [
+              { "number": 35, "prompt": "crueles / que no se detienen ante nada (párrafo 1)", "answer": "implacables", "points": 1 },
+              { "number": 36, "prompt": "derribar / destruir un edificio (párrafo 1)", "answer": "demoler", "points": 1 },
+              { "number": 37, "prompt": "actual / del tiempo presente (párrafo 3)", "answer": "contemporáneo", "points": 1 }
+            ]
+          },
+          {
+            "instructions": "Preguntas 38–39: Opción múltiple para comprensión global.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "number": 38,
+                "prompt": "El propósito de la metáfora en la última oración del texto (párrafo 4) es...",
+                "options": {
+                  "A": "explicar que los ancianos olvidan fácilmente la historia urbana.",
+                  "B": "demostrar que es imposible vivir en el presente sin conocer nuestra historia.",
+                  "C": "convencer a los médicos de curar las enfermedades de la memoria.",
+                  "D": "advertir que la construcción moderna puede causar pérdida de inteligencia."
+                },
+                "answer": "B",
+                "points": 1
+              },
+              {
+                "number": 39,
+                "prompt": "¿Cuál es la idea principal del Texto C?",
+                "options": {
+                  "A": "El progreso de una ciudad solo se mide por la cantidad de rascacielos.",
+                  "B": "Las fábricas abandonadas son muy peligrosas y deben ser demolidas.",
+                  "C": "Es vital equilibrar el progreso moderno con la preservación del pasado arquitectónico.",
+                  "D": "Vivir en apartamentos tipo loft es la opción más barata en América Latina."
+                },
+                "answer": "C",
+                "points": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
