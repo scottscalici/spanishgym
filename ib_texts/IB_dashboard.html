@@ -96,23 +96,43 @@
         /* --- PNG PREVIEW GENERATOR STYLES --- */
         #png-staging { position: absolute; left: -9999px; top: 0; }
         
-        .tpt-preview { width: 800px; height: 800px; background: linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%); position: relative; box-sizing: border-box; padding: 50px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); font-family: 'Nunito', sans-serif;}
+        .tpt-preview { width: 800px; height: 800px; background: linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%); position: relative; box-sizing: border-box; padding: 50px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); font-family: 'Nunito', sans-serif; overflow: hidden;}
         .bundle-preview { background: linear-gradient(135deg, #276749 0%, #38a169 100%); }
         .generic-preview { background: linear-gradient(135deg, #2c5282 0%, #2a4365 100%); }
 
-        .category-tag { background-color: #ecc94b; color: #1a365d; font-size: 22px; font-weight: 900; text-transform: uppercase; padding: 10px 25px; border-radius: 30px; display: inline-block; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);}
-        .preview-title { color: white; font-size: 45px; font-weight: 900; text-transform: uppercase; margin: 0 0 30px 0; line-height: 1.1; text-shadow: 2px 4px 8px rgba(0,0,0,0.4); width: 95%; }
+        .category-tag { background-color: #ecc94b; color: #1a365d; font-size: 22px; font-weight: 900; text-transform: uppercase; padding: 10px 25px; border-radius: 30px; display: inline-block; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); position: relative; z-index: 20;}
+        .preview-title { color: white; font-size: 45px; font-weight: 900; text-transform: uppercase; margin: 0 0 30px 0; line-height: 1.1; text-shadow: 2px 4px 8px rgba(0,0,0,0.4); width: 95%; position: relative; z-index: 20;}
         
-        .badge-container { display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 40px;}
+        .badge-container { display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 40px; position: relative; z-index: 20;}
         .badge { background: white; color: #1a365d; padding: 12px 20px; border-radius: 8px; font-size: 20px; font-weight: 900; box-shadow: 0 6px 15px rgba(0,0,0,0.2); border-left: 6px solid #ecc94b; }
         
-        .preview-content-box { background: rgba(255, 255, 255, 0.95); padding: 25px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.3); border-left: 8px solid #c53030; }
+        /* FIX APPLIED HERE: Added positioning and z-index */
+        .preview-content-box { 
+            background: rgba(255, 255, 255, 0.95); 
+            padding: 25px; 
+            border-radius: 12px; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3); 
+            border-left: 8px solid #c53030; 
+            position: relative; /* Necessary for z-index to work */
+            z-index: 10;        /* Higher than the logo */
+        }
         .preview-content-box h3 { margin: 0 0 15px 0; color: #1a365d; font-size: 22px; text-transform: uppercase; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px;}
-        .preview-content-box ul { margin: 0; padding-left: 20px; color: #2d3748; font-size: 18px; line-height: 1.6; font-weight: bold; }
+        .preview-content-box ul { margin: 0; padding-left: 20px; color: #2d3748; font-size: 18px; line-height: 1.6; font-weight: bold; list-style: disc;}
         .preview-content-box li { margin-bottom: 8px; }
         
-        .logo-img { position: absolute; bottom: 40px; right: 40px; width: 220px; background: rgba(255, 255, 255, 0.9); padding: 10px 20px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
-        .preview-watermark { position: absolute; bottom: -50px; left: -50px; opacity: 0.1; width: 500px; transform: rotate(-15deg); pointer-events: none; }
+        /* FIX APPLIED HERE: Set z-index lower than content box */
+        .logo-img { 
+            position: absolute; 
+            bottom: 40px; 
+            right: 40px; 
+            width: 220px; 
+            background: rgba(255, 255, 255, 0.9); 
+            padding: 10px 20px; 
+            border-radius: 15px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2); 
+            z-index: 5; /* Lower than content box */
+        }
+        .preview-watermark { position: absolute; bottom: -50px; left: -50px; opacity: 0.1; width: 500px; transform: rotate(-15deg); pointer-events: none; z-index: 1;}
     </style>
 </head>
 <body>
@@ -389,7 +409,7 @@
 
                     <div class="preview-content-box" style="border-left-color: #ecc94b;">
                         <h3>Exámenes Incluidos:</h3>
-                        <ul>
+                        <ul style="list-style: none; padding-left: 5px;">
                             ${includedModels.slice(0, 8).map(model => `<li>✔ ${model} (3 textos)</li>`).join('')}
                             ${includedModels.length > 8 ? `<li style="color:#c53030; font-style:italic;">+ ${includedModels.length - 8} modelos adicionales...</li>` : ''}
                         </ul>
