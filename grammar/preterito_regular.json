@@ -1,0 +1,499 @@
+{
+  "grammar_topic": "El Pretérito (Verbos Regulares)",
+  "levels": {
+    "level_1": {
+      "target_audience": "English/Beginner",
+      "exercises": [
+        {
+          "section_id": "L1_prep",
+          "type": "notes_and_matching",
+          "gym_label": "📋 Prepárate",
+          "instructions": "Review the quick notes below, then match the sentence halves to form complete thoughts.",
+          "notes_content": [
+            "Use the preterite tense to talk about completed actions in the past.",
+            "Regular -AR endings: -é, -aste, -ó, -amos, -aron",
+            "Regular -ER/-IR endings: -í, -iste, -ió, -imos, -ieron"
+          ],
+          "pull_count": 10,
+          "bank": [
+            { "prompt": "Ayer, yo hablé...", "answer": "...por teléfono con mi madre." },
+            { "prompt": "Anoche, tú comiste...", "answer": "...una pizza muy grande." },
+            { "prompt": "El sábado, ella compró...", "answer": "...una camisa azul en el centro comercial." },
+            { "prompt": "Nosotros vivimos...", "answer": "...en esa casa por tres años." },
+            { "prompt": "Mis amigos viajaron...", "answer": "...a México para las vacaciones." },
+            { "prompt": "Yo escribí...", "answer": "...un correo electrónico al profesor." },
+            { "prompt": "Tú no comprendiste...", "answer": "...la lección de matemáticas." },
+            { "prompt": "Juan bebió...", "answer": "...un vaso de agua fría." },
+            { "prompt": "Nosotros trabajamos...", "answer": "...en el restaurante todo el verano." },
+            { "prompt": "Ustedes corrieron...", "answer": "...cinco millas en el parque." },
+            { "prompt": "Mi hermano aprendió...", "answer": "...a manejar el carro ayer." },
+            { "prompt": "La tienda vendió...", "answer": "...muchos zapatos el fin de semana." },
+            { "prompt": "Yo preparé...", "answer": "...la cena para mi familia." },
+            { "prompt": "Ellos abrieron...", "answer": "...la puerta del garaje." },
+            { "prompt": "Nosotros escuchamos...", "answer": "...música en el carro." }
+          ]
+        },
+        {
+          "section_id": "L1_calentamiento_A",
+          "type": "multiple_choice",
+          "gym_label": "🏃 El Calentamiento: Parte A",
+          "instructions": "Choose the correct option to complete the sentence in the preterite tense.",
+          "pull_count": 5,
+          "bank": [
+            { "prompt": "Ayer, yo ___ un libro muy interesante.", "options": { "A": "leyó", "B": "leí", "C": "lees" }, "answer": "B" },
+            { "prompt": "Tú ___ mucha agua después de jugar al fútbol.", "options": { "A": "bebiste", "B": "bebió", "C": "bebes" }, "answer": "A" },
+            { "prompt": "Marta y Luis ___ en el parque por una hora.", "options": { "A": "caminaron", "B": "caminamos", "C": "camina" }, "answer": "A" },
+            { "prompt": "Nosotros ___ un sándwich de jamón y queso.", "options": { "A": "como", "B": "comió", "C": "comimos" }, "answer": "C" },
+            { "prompt": "¿A qué hora ___ tú a la escuela hoy?", "options": { "A": "llega", "B": "llegaste", "C": "llegaron" }, "answer": "B" },
+            { "prompt": "El profesor ___ la lección en la pizarra.", "options": { "A": "escribió", "B": "escribí", "C": "escriben" }, "answer": "A" },
+            { "prompt": "Mis padres no ___ el programa en la televisión.", "options": { "A": "miró", "B": "miraron", "C": "miramos" }, "answer": "B" },
+            { "prompt": "Yo ___ la puerta de mi cuarto.", "options": { "A": "abriste", "B": "abrimos", "C": "abrí" }, "answer": "C" }
+          ]
+        },
+        {
+          "section_id": "L1_calentamiento_B",
+          "type": "error_correction",
+          "gym_label": "🏃 El Calentamiento: Parte B",
+          "instructions": "Find the error in the bolded verb and write the correct preterite conjugation on the line.",
+          "pull_count": 5,
+          "bank": [
+            { "prompt": "Ella **comiste** una hamburguesa grande.", "answer": "comió" },
+            { "prompt": "Nosotros **escribieron** en el cuaderno.", "answer": "escribimos" },
+            { "prompt": "Yo **habló** con el director de la escuela.", "answer": "hablé" },
+            { "prompt": "Mis amigos **vivió** en Florida el año pasado.", "answer": "vivieron" },
+            { "prompt": "Tú **miró** la película de terror.", "answer": "miraste" },
+            { "prompt": "Juan y yo **trabajó** en la tienda.", "answer": "trabajamos" },
+            { "prompt": "Ustedes **aprendiste** mucho vocabulario.", "answer": "aprendieron" },
+            { "prompt": "Yo no **comprendió** la tarea.", "answer": "comprendí" }
+          ]
+        },
+        {
+          "section_id": "L1_cardio",
+          "type": "fill_in_the_blank_sentences",
+          "gym_label": "🚴 El Cardio Steady",
+          "instructions": "Complete the sentence by conjugating the verb in parentheses into the preterite tense.",
+          "pull_count": 10,
+          "bank": [
+            { "prompt": "Anoche, yo ___ (bailar) con mis amigos en la fiesta.", "answer": "bailé" },
+            { "prompt": "Ayer, tú ___ (estudiar) para el examen de inglés.", "answer": "estudiaste" },
+            { "prompt": "El año pasado, nosotros ___ (viajar) a España.", "answer": "viajamos" },
+            { "prompt": "Ellos ___ (recibir) muchos regalos de Navidad.", "answer": "recibieron" },
+            { "prompt": "Mi familia ___ (vender) la casa vieja.", "answer": "vendió" },
+            { "prompt": "Tú ___ (escribir) un mensaje de texto muy largo.", "answer": "escribiste" },
+            { "prompt": "Yo ___ (abrir) la ventana porque hacía calor.", "answer": "abrí" },
+            { "prompt": "Nosotros ___ (aprender) a nadar en la piscina.", "answer": "aprendimos" },
+            { "prompt": "Ustedes ___ (hablar) mucho durante la clase.", "answer": "hablaron" },
+            { "prompt": "El perro ___ (correr) rápido en el jardín.", "answer": "corrió" },
+            { "prompt": "Yo ___ (necesitar) un lápiz para el examen.", "answer": "necesité" },
+            { "prompt": "Tú ___ (comprar) unos zapatos nuevos en el centro.", "answer": "compraste" },
+            { "prompt": "Mis hermanos ___ (comer) todos los cereales.", "answer": "comieron" },
+            { "prompt": "Nosotros ___ (mirar) las estrellas anoche.", "answer": "miramos" },
+            { "prompt": "La profesora ___ (responder) a mis preguntas.", "answer": "respondió" }
+          ]
+        },
+        {
+          "section_id": "L1_pesas_A",
+          "type": "cloze_paragraph_inline",
+          "gym_label": "🏋️ Levantar Pesas: Resistencia (Ejercicio A)",
+          "instructions": "Read the story and conjugate the verbs in parentheses into the preterite tense.",
+          "pull_count": 1,
+          "bank": [
+            {
+              "story_id": "L1_A_viaje",
+              "text": "El verano pasado, mi familia y yo [blank_1] (viajar) a la playa. Cuando nosotros [blank_2] (llegar) al hotel, mi hermano [blank_3] (correr) rápidamente al agua. Yo [blank_4] (comprar) un helado de chocolate y lo [blank_5] (comer) en la arena. Luego, mis padres [blank_6] (descansar) bajo el sol. A las seis de la tarde, nosotros [blank_7] (regresar) al cuarto y [blank_8] (cenar) en el restaurante. Yo [blank_9] (beber) un jugo de manzana. Finalmente, todos [blank_10] (dormir) muy bien.",
+              "answers": { "blank_1": "viajamos", "blank_2": "llegamos", "blank_3": "corrió", "blank_4": "compré", "blank_5": "comí", "blank_6": "descansaron", "blank_7": "regresamos", "blank_8": "cenamos", "blank_9": "bebí", "blank_10": "dormimos" }
+            },
+            {
+              "story_id": "L1_A_escuela",
+              "text": "Ayer [blank_1] (ser) un día muy largo. Yo [blank_2] (llegar) a la escuela a las ocho y [blank_3] (hablar) con mis amigos en la cafetería. En la clase de historia, el profesor [blank_4] (enseñar) sobre Roma. Nosotros [blank_5] (tomar) muchos apuntes y [blank_6] (escribir) un ensayo corto. A la hora del almuerzo, yo [blank_7] (comer) una manzana y [blank_8] (beber) agua. Después de la escuela, yo [blank_9] (caminar) a mi casa y [blank_10] (mirar) la televisión.",
+              "answers": { "blank_1": "fue", "blank_2": "llegué", "blank_3": "hablé", "blank_4": "enseñó", "blank_5": "tomamos", "blank_6": "escribimos", "blank_7": "comí", "blank_8": "bebí", "blank_9": "caminé", "blank_10": "miré" }
+            }
+          ]
+        },
+        {
+          "section_id": "L1_pesas_B",
+          "type": "cloze_paragraph_bank",
+          "gym_label": "🏋️ Levantar Pesas: Resistencia (Ejercicio B)",
+          "instructions": "Complete the paragraph using the verbs from the word bank. Make sure to conjugate them in the preterite tense!",
+          "pull_count": 1,
+          "bank": [
+            {
+              "story_id": "L1_B_fiesta",
+              "word_bank": ["bailar", "beber", "abrir", "comer", "celebrar"],
+              "text": "El sábado, María [blank_1] su cumpleaños. Ella invitó a muchos amigos. Nosotros [blank_2] pizza y pastel de chocolate. También, todos [blank_3] refrescos fríos. Después de la comida, nosotros [blank_4] en la sala con música latina. Al final de la noche, María [blank_5] todos sus regalos.",
+              "answers": { "blank_1": "celebró", "blank_2": "comimos", "blank_3": "bebimos", "blank_4": "bailamos", "blank_5": "abrió" }
+            },
+            {
+              "story_id": "L1_B_mañana",
+              "word_bank": ["salir", "desayunar", "mirar", "comprar", "correr"],
+              "text": "Ayer por la mañana, yo [blank_1] cereales en la cocina. Luego, [blank_2] de mi casa a las siete en punto. Yo [blank_3] rápidamente para no perder el autobús. En el centro, yo [blank_4] una camisa nueva en la tienda. Finalmente, [blank_5] una película cómica en el cine con mi amigo.",
+              "answers": { "blank_1": "desayuné", "blank_2": "salí", "blank_3": "corrí", "blank_4": "compré", "blank_5": "miré" }
+            }
+          ]
+        },
+        {
+          "section_id": "L1_estiramiento",
+          "type": "transformation",
+          "gym_label": "🧘 El Estiramiento",
+          "instructions": "Rewrite the sentence in the preterite tense. Change 'Hoy' (Today) to 'Ayer' (Yesterday) or use a past time marker.",
+          "pull_count": 5,
+          "bank": [
+            { "prompt": "Hoy, yo compro un libro.", "answer": "Ayer, yo compré un libro." },
+            { "prompt": "Hoy, ella bebe agua fría.", "answer": "Ayer, ella bebió agua fría." },
+            { "prompt": "Hoy, nosotros estudiamos mucho.", "answer": "Ayer, nosotros estudiamos mucho." },
+            { "prompt": "Hoy, ellos corren en el parque.", "answer": "Ayer, ellos corrieron en el parque." },
+            { "prompt": "Hoy, tú escribes una carta.", "answer": "Ayer, tú escribiste una carta." },
+            { "prompt": "Hoy, Juan y yo comemos pizza.", "answer": "Ayer, Juan y yo comimos pizza." },
+            { "prompt": "Hoy, usted trabaja en la oficina.", "answer": "Ayer, usted trabajó en la oficina." },
+            { "prompt": "Hoy, yo miro la televisión.", "answer": "Ayer, yo miré la televisión." }
+          ]
+        },
+        {
+          "section_id": "L1_profundiza",
+          "type": "open_response",
+          "gym_label": "🔄 Profundiza",
+          "instructions": "Answer the following personal questions using complete sentences in the preterite tense.",
+          "pull_count": 4,
+          "bank": [
+            { "prompt": "¿A qué hora te levantaste esta mañana?" },
+            { "prompt": "¿Qué miraste en la televisión o en YouTube anoche?" },
+            { "prompt": "¿Qué comiste para la cena ayer?" },
+            { "prompt": "¿Hablaste por teléfono con un amigo el fin de semana pasado?" },
+            { "prompt": "¿Viajaste a otra ciudad durante el verano?" },
+            { "prompt": "¿Qué compraste la última vez que fuiste a la tienda?" }
+          ]
+        }
+      ]
+    },
+    
+    "level_2": {
+      "target_audience": "Structured Spanish II",
+      "exercises": [
+        {
+          "section_id": "L2_prep",
+          "type": "notes_and_matching",
+          "gym_label": "📋 Prepárate",
+          "instructions": "Repasa los apuntes de gramática. Luego, une las dos mitades para formar oraciones lógicas.",
+          "notes_content": [
+            "El pretérito se usa para expresar acciones que ya terminaron en el pasado.",
+            "Para los verbos regulares que terminan en -AR, usamos: -é, -aste, -ó, -amos, -aron.",
+            "Para los verbos regulares que terminan en -ER/-IR, usamos: -í, -iste, -ió, -imos, -ieron."
+          ],
+          "pull_count": 10,
+          "bank": [
+            { "prompt": "La semana pasada, el gerente habló...", "answer": "...con todos los empleados del hotel." },
+            { "prompt": "Anoche, mis hermanos y yo decidimos...", "answer": "...quedarnos en casa para ver una película." },
+            { "prompt": "De repente, la profesora entró...", "answer": "...y empezó a explicar la lección nueva." },
+            { "prompt": "El mes pasado, mi familia vendió...", "answer": "...nuestro carro viejo para comprar uno nuevo." },
+            { "prompt": "Tú no comprendiste bien...", "answer": "...las instrucciones que dio el entrenador." },
+            { "prompt": "Ayer por la tarde, yo recibí...", "answer": "...un paquete muy grande por correo." },
+            { "prompt": "Los turistas se perdieron y caminaron...", "answer": "...por todo el centro de la ciudad." },
+            { "prompt": "Nosotros respondimos rápidamente...", "answer": "...a todos los correos electrónicos de los clientes." },
+            { "prompt": "Para mi cumpleaños, yo invité...", "answer": "...a casi todos mis compañeros de clase." },
+            { "prompt": "Ustedes corrieron mucho...", "answer": "...durante la práctica de fútbol ayer." },
+            { "prompt": "Mi abuelo vivió muchos años...", "answer": "...en un pequeño pueblo cerca de las montañas." },
+            { "prompt": "Yo preparé una cena especial...", "answer": "...para celebrar nuestro aniversario." },
+            { "prompt": "Ellos abrieron sus regalos...", "answer": "...después de cantar el feliz cumpleaños." },
+            { "prompt": "El turista perdió su pasaporte...", "answer": "...cuando estaba en el aeropuerto de Madrid." },
+            { "prompt": "Nosotros escuchamos las noticias...", "answer": "...en la radio mientras viajábamos." }
+          ]
+        },
+        {
+          "section_id": "L2_calentamiento_A",
+          "type": "multiple_choice",
+          "gym_label": "🏃 El Calentamiento: Parte A",
+          "instructions": "Selecciona la conjugación correcta en el pretérito para cada frase.",
+          "pull_count": 5,
+          "bank": [
+            { "prompt": "El fin de semana pasado, nosotros ___ una carta muy larga a nuestros abuelos.", "options": { "A": "escribemos", "B": "escribimos", "C": "escribieron" }, "answer": "B" },
+            { "prompt": "¿A qué hora ___ ustedes a la fiesta de cumpleaños anoche?", "options": { "A": "llegasteis", "B": "llegaron", "C": "llegaban" }, "answer": "B" },
+            { "prompt": "El cliente ___ el menú por diez minutos antes de pedir.", "options": { "A": "miró", "B": "miro", "C": "miraba" }, "answer": "A" },
+            { "prompt": "Yo ___ el problema con la computadora de inmediato.", "options": { "A": "comprendí", "B": "comprendio", "C": "comprenden" }, "answer": "A" },
+            { "prompt": "Mis padres no ___ permitirme salir tarde anoche.", "options": { "A": "deciden", "B": "decidió", "C": "decidieron" }, "answer": "C" },
+            { "prompt": "Tú ___ que cancelar tu viaje a Costa Rica, ¿verdad?", "options": { "A": "tienes", "B": "tuviste", "C": "tuvo" }, "answer": "B" },
+            { "prompt": "Nosotros ___ toda la tarde estudiando en la biblioteca.", "options": { "A": "pasamos", "B": "pasaron", "C": "pasábamos" }, "answer": "A" },
+            { "prompt": "Ayer, el cajero me ___ mucho dinero de cambio por error.", "options": { "A": "dio", "B": "dieron", "C": "dí" }, "answer": "A" }
+          ]
+        },
+        {
+          "section_id": "L2_calentamiento_B",
+          "type": "error_correction",
+          "gym_label": "🏃 El Calentamiento: Parte B",
+          "instructions": "Lee la oración. Si el verbo en negrita es incorrecto, escribe la forma correcta en la línea.",
+          "pull_count": 5,
+          "bank": [
+            { "prompt": "Los estudiantes **comprendió** la lección rápidamente.", "answer": "comprendieron" },
+            { "prompt": "Yo no **recibió** el paquete que me mandaste el martes.", "answer": "recibí" },
+            { "prompt": "Tú **habló** con el gerente sobre el problema.", "answer": "hablaste" },
+            { "prompt": "Ayer por la tarde, nosotros **decidieron** cenar en ese restaurante nuevo.", "answer": "decidimos" },
+            { "prompt": "La semana pasada, ella **vendimos** su colección de discos.", "answer": "vendió" },
+            { "prompt": "Yo **salió** de la casa a las siete de la mañana.", "answer": "salí" },
+            { "prompt": "Ustedes **escribisteis** muy bien en el examen final.", "answer": "escribieron" },
+            { "prompt": "Mi hermano **comí** toda la ensalada de frutas.", "answer": "comió" }
+          ]
+        },
+        {
+          "section_id": "L2_cardio",
+          "type": "fill_in_the_blank_sentences",
+          "gym_label": "🚴 El Cardio Steady",
+          "instructions": "Escribe la forma correcta del pretérito para completar cada oración.",
+          "pull_count": 10,
+          "bank": [
+            { "prompt": "Anoche, el gerente del restaurante ___ (recibir) una queja del cliente sobre la sopa.", "answer": "recibió" },
+            { "prompt": "Nosotros no ___ (comprender) las instrucciones del profesor de química ayer.", "answer": "comprendimos" },
+            { "prompt": "Durante nuestras vacaciones, tú ___ (tomar) más de cien fotos del paisaje.", "answer": "tomaste" },
+            { "prompt": "Yo no ___ (decidir) qué ropa llevar a la boda hasta el último minuto.", "answer": "decidí" },
+            { "prompt": "El vendedor ___ (vender) todos los boletos para el concierto en solo una hora.", "answer": "vendió" },
+            { "prompt": "Mis amigos y yo ___ (asistir) a una conferencia sobre el medio ambiente el mes pasado.", "answer": "asistimos" },
+            { "prompt": "De repente, empezó a llover y todos ___ (correr) hacia sus carros.", "answer": "corrieron" },
+            { "prompt": "¿Por qué no ___ (escribir) tú la dirección correcta en el sobre?", "answer": "escribiste" },
+            { "prompt": "Yo ___ (abrir) el regalo de cumpleaños con mucha emoción.", "answer": "abrí" },
+            { "prompt": "Las niñas ___ (aprender) la coreografía de baile muy rápido.", "answer": "aprendieron" },
+            { "prompt": "El turista ___ (preguntar) cómo llegar a la estación de tren.", "answer": "preguntó" },
+            { "prompt": "Nosotros ___ (descubrir) un restaurante excelente cerca del hotel.", "answer": "descubrimos" },
+            { "prompt": "Ayer, tú ___ (gastar) mucho dinero en ropa nueva.", "answer": "gastaste" },
+            { "prompt": "El mes pasado, mi familia ___ (mudarse) a una ciudad diferente.", "answer": "se mudó" },
+            { "prompt": "Yo ___ (entender) el chiste que contaste en la fiesta.", "answer": "entendí" }
+          ]
+        },
+        {
+          "section_id": "L2_pesas_A",
+          "type": "cloze_paragraph_inline",
+          "gym_label": "🏋️ Levantar Pesas: Resistencia (Ejercicio A)",
+          "instructions": "Completa el siguiente relato conjugando los verbos entre paréntesis en el pretérito.",
+          "pull_count": 1,
+          "bank": [
+            {
+              "story_id": "L2_A_hotel",
+              "text": "El fin de semana pasado, mis amigos y yo [blank_1] (decidir) pasar unos días en las montañas. Nosotros [blank_2] (alquilar) una cabaña pequeña cerca del lago. El primer día, yo [blank_3] (preparar) el desayuno temprano y luego todos nosotros [blank_4] (caminar) por el bosque. De repente, mi amigo Luis [blank_5] (resbalar) en el lodo y [blank_6] (caerse). Afortunadamente, él no se lastimó. Por la tarde, nosotros [blank_7] (regresar) a la cabaña y [blank_8] (encender) la chimenea. Yo [blank_9] (leer) un libro mientras los demás [blank_10] (jugar) a las cartas.",
+              "answers": { "blank_1": "decidimos", "blank_2": "alquilamos", "blank_3": "preparé", "blank_4": "caminamos", "blank_5": "resbaló", "blank_6": "se cayó", "blank_7": "regresamos", "blank_8": "encendimos", "blank_9": "leí", "blank_10": "jugaron" }
+            },
+            {
+              "story_id": "L2_A_restaurante",
+              "text": "Anoche, mis padres [blank_1] (celebrar) su aniversario en un restaurante italiano elegante. El mesero nos [blank_2] (mostrar) la mesa y luego nosotros [blank_3] (mirar) el menú. Mi papá [blank_4] (pedir) una pizza grande y mi mamá [blank_5] (ordenar) una ensalada. Yo [blank_6] (comer) espaguetis con albóndigas. Después de cenar, el gerente del restaurante nos [blank_7] (ofrecer) un postre gratis. Nosotros [blank_8] (agradecer) su amabilidad. Finalmente, mi papá [blank_9] (pagar) la cuenta y todos [blank_10] (salir) muy contentos.",
+              "answers": { "blank_1": "celebraron", "blank_2": "mostró", "blank_3": "miramos", "blank_4": "pidió", "blank_5": "ordenó", "blank_6": "comí", "blank_7": "ofreció", "blank_8": "agradecimos", "blank_9": "pagó", "blank_10": "salimos" }
+            }
+          ]
+        },
+        {
+          "section_id": "L2_pesas_B",
+          "type": "cloze_paragraph_bank",
+          "gym_label": "🏋️ Levantar Pesas: Resistencia (Ejercicio B)",
+          "instructions": "Rellena los espacios en blanco del párrafo usando los verbos del banco. ¡Conjugalos en el pretérito!",
+          "pull_count": 1,
+          "bank": [
+            {
+              "story_id": "L2_B_concierto",
+              "word_bank": ["llegar", "comprar", "escuchar", "gritar", "cantar"],
+              "text": "El mes pasado, mi banda favorita vino a la ciudad. Mis amigos y yo [blank_1] los boletos por internet muy rápido. El día del evento, nosotros [blank_2] al estadio tres horas antes para estar cerca del escenario. Durante el concierto, todos los fans [blank_3] todas las canciones populares con la banda. Además, muchas chicas [blank_4] de emoción cuando el cantante salió. Nosotros [blank_5] música increíble toda la noche y fue una experiencia inolvidable.",
+              "answers": { "blank_1": "compramos", "blank_2": "llegamos", "blank_3": "cantaron", "blank_4": "gritaron", "blank_5": "escuchamos" }
+            },
+            {
+              "story_id": "L2_B_aeropuerto",
+              "word_bank": ["facturar", "pasar", "abordar", "esperar", "aterrizar"],
+              "text": "Mi viaje a Perú empezó muy mal. Primero, nosotros [blank_1] nuestras maletas en el mostrador equivocado. Luego, yo [blank_2] por el control de seguridad y perdí mi reloj. Después, nosotros [blank_3] en la sala de embarque por más de dos horas porque el vuelo estaba retrasado. Finalmente, los pasajeros [blank_4] el avión. Afortunadamente, el avión [blank_5] en Lima sin ningún otro problema.",
+              "answers": { "blank_1": "facturamos", "blank_2": "pasé", "blank_3": "esperamos", "blank_4": "abordaron", "blank_5": "aterrizó" }
+            }
+          ]
+        },
+        {
+          "section_id": "L2_estiramiento",
+          "type": "transformation",
+          "gym_label": "🧘 El Estiramiento",
+          "instructions": "Reescribe la oración en el pretérito. Cambia la palabra 'Hoy' por 'Ayer' o una frase temporal del pasado similar.",
+          "pull_count": 5,
+          "bank": [
+            { "prompt": "Hoy, el chef prepara una comida especial.", "answer": "Ayer, el chef preparó una comida especial." },
+            { "prompt": "Hoy, tú comprendes la explicación del profesor.", "answer": "Ayer, tú comprendiste la explicación del profesor." },
+            { "prompt": "Hoy, nosotros decidimos viajar en tren.", "answer": "Ayer, nosotros decidimos viajar en tren." },
+            { "prompt": "Hoy, ellos venden muchos productos en la tienda.", "answer": "Ayer, ellos vendieron muchos productos en la tienda." },
+            { "prompt": "Hoy, yo recibo buenas noticias por correo.", "answer": "Ayer, yo recibí buenas noticias por correo." },
+            { "prompt": "Hoy, Juan y Marta abren su propio restaurante.", "answer": "Ayer, Juan y Marta abrieron su propio restaurante." },
+            { "prompt": "Hoy, usted asiste a una reunión importante.", "answer": "Ayer, usted asistió a una reunión importante." },
+            { "prompt": "Hoy, yo escribo un ensayo para la clase de historia.", "answer": "Ayer, yo escribí un ensayo para la clase de historia." }
+          ]
+        },
+        {
+          "section_id": "L2_profundiza",
+          "type": "open_response",
+          "gym_label": "🔄 Profundiza",
+          "instructions": "Responde a las siguientes preguntas con detalles, usando oraciones completas en el pretérito.",
+          "pull_count": 4,
+          "bank": [
+            { "prompt": "¿Qué hiciste el fin de semana pasado? (Escribe al menos dos actividades)." },
+            { "prompt": "Describe un viaje o una excursión que tomaste recientemente. ¿Adónde fuiste y qué visitaste?" },
+            { "prompt": "¿A qué hora te levantaste esta mañana y qué desayunaste?" },
+            { "prompt": "La última vez que fuiste a un restaurante, ¿qué pediste para comer y beber?" },
+            { "prompt": "¿Qué compraste la última vez que fuiste a un centro comercial?" },
+            { "prompt": "¿Qué programa o película miraste anoche? ¿Te gustó?" }
+          ]
+        }
+      ]
+    },
+
+    "level_3": {
+      "target_audience": "Natural Spanish/Advanced",
+      "exercises": [
+        {
+          "section_id": "L3_prep",
+          "type": "notes_and_matching",
+          "gym_label": "📋 Prepárate",
+          "instructions": "Analiza las siguientes observaciones gramaticales y relaciona los fragmentos para estructurar oraciones coherentes.",
+          "notes_content": [
+            "El pretérito indefinido indica acciones concluidas en un momento específico del pasado.",
+            "Las desinencias de los verbos regulares de la primera conjugación (-ar) son: -é, -aste, -ó, -amos, -aron.",
+            "Las terminaciones correspondientes a la segunda y tercera conjugación (-er/-ir) son: -í, -iste, -ió, -imos, -ieron."
+          ],
+          "pull_count": 10,
+          "bank": [
+            { "prompt": "Apenas se enteró de la noticia, la portavoz emitió...", "answer": "...un comunicado oficial ante los medios de comunicación." },
+            { "prompt": "A pesar de la insistencia de los inversores, la junta directiva rechazó...", "answer": "...la propuesta de fusionar las dos empresas multinacionales." },
+            { "prompt": "Durante la madrugada, los equipos de rescate reanudaron...", "answer": "...la búsqueda exhaustiva de los montañistas desaparecidos." },
+            { "prompt": "El comité evaluador debatió...", "answer": "...las distintas estrategias presupuestarias durante horas." },
+            { "prompt": "Con gran cautela, los arqueólogos descubrieron...", "answer": "...una serie de artefactos de incalculable valor histórico." },
+            { "prompt": "Para evitar mayores conflictos, el embajador se retiró...", "answer": "...de la cumbre antes de que concluyeran las negociaciones." },
+            { "prompt": "Las intensas lluvias provocaron...", "answer": "...el desbordamiento de los ríos aledaños a la ciudad." },
+            { "prompt": "El novelista recién galardonado dedicó...", "answer": "...su premio a todos los que lo apoyaron en sus inicios." },
+            { "prompt": "En cuanto terminaron los ensayos, los músicos abandonaron...", "answer": "...el teatro para descansar antes de la gran presentación." },
+            { "prompt": "Ante la falta de pruebas contundentes, el juez absolvió...", "answer": "...al principal sospechoso del caso de fraude." },
+            { "prompt": "Los manifestantes marcharon...", "answer": "...pacíficamente exigiendo reformas laborales inmediatas." },
+            { "prompt": "La administración municipal implementó...", "answer": "...medidas estrictas para reducir la contaminación del aire." },
+            { "prompt": "Tras una profunda reflexión, el atleta anunció...", "answer": "...su retiro definitivo de las competiciones internacionales." },
+            { "prompt": "Los científicos publicaron...", "answer": "...los resultados de su investigación en una revista prestigiosa." },
+            { "prompt": "El inesperado apagón interrumpió...", "answer": "...la transmisión en vivo del evento deportivo." }
+          ]
+        },
+        {
+          "section_id": "L3_calentamiento_A",
+          "type": "multiple_choice",
+          "gym_label": "🏃 El Calentamiento: Parte A",
+          "instructions": "Determina cuál es la forma adecuada del verbo para completar el enunciado.",
+          "pull_count": 5,
+          "bank": [
+            { "prompt": "Durante la asamblea extraordinaria, el presidente del comité ___ la propuesta sin titubear.", "options": { "A": "rechazo", "B": "rechazó", "C": "rechazaría" }, "answer": "B" },
+            { "prompt": "A pesar de las severas advertencias, los manifestantes no ___ ante la presión mediática.", "options": { "A": "cedimos", "B": "cedieron", "C": "cedieran" }, "answer": "B" },
+            { "prompt": "En la entrevista, la candidata ___ claramente sus intenciones de reformar el departamento.", "options": { "A": "expresó", "B": "expresa", "C": "expresaba" }, "answer": "A" },
+            { "prompt": "Ayer por la tarde, la dirección del hospital ___ un nuevo protocolo de emergencia.", "options": { "A": "estableció", "B": "establezco", "C": "establecían" }, "answer": "A" },
+            { "prompt": "Nosotros ___ rotundamente cualquier implicación en el escándalo financiero.", "options": { "A": "negamos", "B": "negaran", "C": "negáramos" }, "answer": "A" },
+            { "prompt": "El año pasado, los economistas ___ un aumento significativo en la inflación.", "options": { "A": "percibieron", "B": "percibirán", "C": "percibían" }, "answer": "A" },
+            { "prompt": "Ante la inminente amenaza del huracán, las autoridades ___ la costa de inmediato.", "options": { "A": "evacúan", "B": "evacuaron", "C": "evacuaban" }, "answer": "B" },
+            { "prompt": "Yo ___ el informe confidencial a mis superiores a primera hora de la mañana.", "options": { "A": "entregué", "B": "entregue", "C": "entregaba" }, "answer": "A" }
+          ]
+        },
+        {
+          "section_id": "L3_calentamiento_B",
+          "type": "error_correction",
+          "gym_label": "🏃 El Calentamiento: Parte B",
+          "instructions": "Identifica la incorrección gramatical en el uso del pretérito y proporciona la enmienda pertinente.",
+          "pull_count": 5,
+          "bank": [
+            { "prompt": "Las autoridades locales **emitió** una alerta meteorológica ayer por la tarde.", "answer": "emitieron" },
+            { "prompt": "Apenas cruzó la frontera, el periodista **descubriste** la magnitud real del conflicto.", "answer": "descubrió" },
+            { "prompt": "La empresa tecnológica **desarrollamos** un software innovador el trimestre pasado.", "answer": "desarrolló" },
+            { "prompt": "Yo **convenció** al jurado de nuestra inocencia con argumentos sólidos.", "answer": "convencí" },
+            { "prompt": "Tras la intensa discusión, los diplomáticos **acordó** firmar el tratado de paz.", "answer": "acordaron" },
+            { "prompt": "Tú **superó** todas las expectativas durante el proceso de selección.", "answer": "superaste" },
+            { "prompt": "Los ciudadanos **exigió** mayor transparencia en la gestión pública.", "answer": "exigieron" },
+            { "prompt": "Nosotros **intervino** en la disputa antes de que la situación empeorara.", "answer": "intervinimos" }
+          ]
+        },
+        {
+          "section_id": "L3_cardio",
+          "type": "fill_in_the_blank_sentences",
+          "gym_label": "🚴 El Cardio Steady",
+          "instructions": "Rellena el espacio en blanco empleando la conjugación adecuada del pretérito indefinido.",
+          "pull_count": 10,
+          "bank": [
+            { "prompt": "Ante la inminente tormenta, los pescadores ___ (amarrar) las embarcaciones al muelle con gran urgencia.", "answer": "amarraron" },
+            { "prompt": "Apenas se enteró de la noticia, la portavoz ___ (emitir) un comunicado oficial para aplacar los rumores.", "answer": "emitió" },
+            { "prompt": "Durante la conferencia magistral, el ponente ___ (abordar) temas sumamente controvertidos.", "answer": "abordó" },
+            { "prompt": "Para garantizar la seguridad del evento, nosotros ___ (restringir) el acceso a la zona VIP.", "answer": "restringimos" },
+            { "prompt": "El mes pasado, la corporación multinacional ___ (absorber) a su principal competidor en el mercado.", "answer": "absorbió" },
+            { "prompt": "A pesar de sus esfuerzos, tú no ___ (lograr) convencer a la asamblea de aprobar el proyecto.", "answer": "lograste" },
+            { "prompt": "Yo ___ (deducir) de inmediato que la oferta era engañosa al leer las letras pequeñas.", "answer": "deduje" },
+            { "prompt": "Las drásticas medidas económicas ___ (perjudicar) gravemente a los pequeños empresarios.", "answer": "perjudicaron" },
+            { "prompt": "En el debate televisado, los candidatos ___ (intercambiar) fuertes acusaciones sin llegar a ningún consenso.", "answer": "intercambiaron" },
+            { "prompt": "El cirujano ___ (operar) al paciente de emergencia tras el accidente de tráfico.", "answer": "operó" },
+            { "prompt": "Nosotros ___ (emprender) un ambicioso proyecto de reforestación en la zona devastada por el incendio.", "answer": "emprendimos" },
+            { "prompt": "A su llegada a la cumbre, el diplomático ___ (saludar) fríamente a sus homólogos extranjeros.", "answer": "saludó" },
+            { "prompt": "Yo ___ (someter) el manuscrito a una rigurosa revisión antes de enviarlo a la editorial.", "answer": "sometí" },
+            { "prompt": "La inesperada renuncia del ministro ___ (provocar) una profunda crisis en el gabinete de gobierno.", "answer": "provocó" },
+            { "prompt": "Tú ___ (asimilar) la compleja teoría matemática mucho más rápido que el resto de la clase.", "answer": "asimilaste" }
+          ]
+        },
+        {
+          "section_id": "L3_pesas_A",
+          "type": "cloze_paragraph_inline",
+          "gym_label": "🏋️ Levantar Pesas: Resistencia (Ejercicio A)",
+          "instructions": "Lee el siguiente fragmento narrativo y restituye los verbos omitidos utilizando el pretérito indefinido.",
+          "pull_count": 1,
+          "bank": [
+            {
+              "story_id": "L3_A_investigacion",
+              "text": "La exhaustiva investigación [blank_1] (revelar) detalles inquietantes sobre el entramado de corrupción. El fiscal a cargo del caso [blank_2] (recopilar) innumerables pruebas documentales y [blank_3] (interrogar) a múltiples testigos clave a lo largo de varias semanas. A pesar de las presiones mediáticas, su equipo no [blank_4] (ceder) ante los intentos de soborno. Finalmente, las autoridades [blank_5] (proceder) a allanar las oficinas de la empresa implicada, donde [blank_6] (confiscar) discos duros y archivos confidenciales. El desenlace [blank_7] (conmocionar) a la opinión pública, ya que la prensa [blank_8] (difundir) la noticia a nivel nacional de inmediato. Aquel escándalo [blank_9] (marcar) un punto de inflexión en la política del país y [blank_10] (obligar) a varios funcionarios a dimitir de sus cargos.",
+              "answers": { "blank_1": "reveló", "blank_2": "recopiló", "blank_3": "interrogó", "blank_4": "cedió", "blank_5": "procedieron", "blank_6": "confiscaron", "blank_7": "conmocionó", "blank_8": "difundió", "blank_9": "marcó", "blank_10": "obligó" }
+            },
+            {
+              "story_id": "L3_A_expedicion",
+              "text": "La expedición científica [blank_1] (partir) del campamento base al amanecer. Los investigadores [blank_2] (ascender) por la escarpada ladera de la montaña enfrentando ráfagas de viento helado. El líder del grupo [blank_3] (trazar) la ruta cuidadosamente en su mapa para evitar las zonas propensas a avalanchas. A mediodía, nosotros [blank_4] (descansar) brevemente y [blank_5] (ingerir) algunas provisiones de alta energía. Poco después, un biólogo de la tripulación [blank_6] (descubrir) una especie de liquen previamente no catalogada, lo cual [blank_7] (alegrar) enormemente al equipo. Ellos [blank_8] (tomar) numerosas muestras y [blank_9] (anotar) observaciones detalladas en sus bitácoras. Finalmente, el grupo [blank_10] (regresar) al refugio antes de que cayera la noche.",
+              "answers": { "blank_1": "partió", "blank_2": "ascendieron", "blank_3": "trazó", "blank_4": "descansamos", "blank_5": "ingerimos", "blank_6": "descubrió", "blank_7": "alegró", "blank_8": "tomaron", "blank_9": "anotaron", "blank_10": "regresaron" }
+            }
+          ]
+        },
+        {
+          "section_id": "L3_pesas_B",
+          "type": "cloze_paragraph_bank",
+          "gym_label": "🏋️ Levantar Pesas: Resistencia (Ejercicio B)",
+          "instructions": "Rellena los espacios en blanco del párrafo utilizando los verbos del banco, conjugados adecuadamente en pretérito indefinido.",
+          "pull_count": 1,
+          "bank": [
+            {
+              "story_id": "L3_B_artista",
+              "word_bank": ["plasmar", "exhibir", "acaparar", "fallecer", "trascender"],
+              "text": "El reconocido pintor impresionista [blank_1] el mes pasado a la edad de ochenta y cinco años. Durante su juventud, él [blank_2] en sus lienzos la melancolía de los paisajes urbanos industriales. Cuando finalmente [blank_3] su obra magna en la galería principal de París, la pieza [blank_4] la atención de todos los críticos de arte europeos. Sin lugar a dudas, su legado [blank_5] las fronteras de su país natal y se consolidó como una influencia perdurable en el arte contemporáneo.",
+              "answers": { "blank_1": "falleció", "blank_2": "plasmó", "blank_3": "exhibió", "blank_4": "acaparó", "blank_5": "trascendió" }
+            },
+            {
+              "story_id": "L3_B_economia",
+              "word_bank": ["desplomarse", "anunciar", "generar", "intervenir", "estabilizar"],
+              "text": "Ayer por la mañana, los mercados bursátiles globales [blank_1] tras la apertura, cayendo a niveles no vistos en la última década. El pánico inicial [blank_2] una ola masiva de ventas por parte de los inversores. Ante la inminente crisis, el Banco Central [blank_3] en el mercado cambiario inyectando liquidez masiva. Posteriormente, el Ministro de Economía [blank_4] una serie de medidas de estímulo fiscal extraordinarias. Afortunadamente, estas rápidas acciones gubernamentales [blank_5] la economía al final de la jornada de transacciones.",
+              "answers": { "blank_1": "se desplomaron", "blank_2": "generó", "blank_3": "intervino", "blank_4": "anunció", "blank_5": "estabilizaron" }
+            }
+          ]
+        },
+        {
+          "section_id": "L3_estiramiento",
+          "type": "transformation",
+          "gym_label": "🧘 El Estiramiento",
+          "instructions": "Transpón las siguientes oraciones al pretérito indefinido, alterando los marcadores temporales del presente (por ejemplo, 'Hoy') a marcadores temporales pertinentes del pasado.",
+          "pull_count": 5,
+          "bank": [
+            { "prompt": "Hoy, el consejo de administración aprueba la fusión corporativa.", "answer": "Ayer, el consejo de administración aprobó la fusión corporativa." },
+            { "prompt": "Hoy, la cumbre climática concluye con la firma de un acuerdo histórico.", "answer": "Ayer, la cumbre climática concluyó con la firma de un acuerdo histórico." },
+            { "prompt": "Hoy, nosotros exigimos el cumplimiento íntegro de nuestros derechos laborales.", "answer": "Ayer, nosotros exigimos el cumplimiento íntegro de nuestros derechos laborales." },
+            { "prompt": "Hoy, los sindicatos convocan una huelga general en todo el país.", "answer": "Ayer, los sindicatos convocaron una huelga general en todo el país." },
+            { "prompt": "Hoy, yo asumo toda la responsabilidad por los errores cometidos en el proyecto.", "answer": "Ayer, yo asumí toda la responsabilidad por los errores cometidos en el proyecto." },
+            { "prompt": "Hoy, la prestigiosa universidad otorga becas a los estudiantes más sobresalientes.", "answer": "Ayer, la prestigiosa universidad otorgó becas a los estudiantes más sobresalientes." },
+            { "prompt": "Hoy, tú debates con vehemencia las políticas públicas en el parlamento.", "answer": "Ayer, tú debatiste con vehemencia las políticas públicas en el parlamento." },
+            { "prompt": "Hoy, los avances tecnológicos facilitan drásticamente la comunicación global.", "answer": "Ayer, los avances tecnológicos facilitaron drásticamente la comunicación global." }
+          ]
+        },
+        {
+          "section_id": "L3_profundiza",
+          "type": "open_response",
+          "gym_label": "🔄 Profundiza",
+          "instructions": "Elabora respuestas pormenorizadas a los siguientes planteamientos, empleando estructuras complejas y garantizando la conjugación precisa en el pretérito indefinido.",
+          "pull_count": 4,
+          "bank": [
+            { "prompt": "Describe detalladamente un suceso inesperado que alteró por completo los planes de un viaje que realizaste en el pasado." },
+            { "prompt": "Relata cómo reaccionaste ante un contratiempo significativo en el ámbito académico o profesional recientemente." },
+            { "prompt": "Expón las circunstancias que te llevaron a tomar una decisión trascendental durante el último año." },
+            { "prompt": "Narra los eventos principales de una noticia de repercusión mundial que capturó tu atención la semana pasada." },
+            { "prompt": "Describe una interacción significativa que mantuviste recientemente con alguien que modificó tu perspectiva sobre un tema controvertido." },
+            { "prompt": "Explica cómo se desarrolló un evento cultural o artístico al que asististe y qué impacto tuvo en ti." }
+          ]
+        }
+      ]
+    }
+  }
+}
