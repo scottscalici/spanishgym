@@ -2,93 +2,54 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Generador de Gramática: The Spanish Gym</title>
+    <title>The Spanish Gym: Creador de Unidades</title>
     <style>
         /* Base Screen Styles */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #222;
-            background-color: #525659;
-            margin: 0;
-            padding: 20px;
-        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, sans-serif; color: #222; background-color: #525659; margin: 0; padding: 20px; }
         
-        #control-panel {
-            background-color: #2c3e50; color: white; padding: 25px; border-radius: 8px;
-            max-width: 8.5in; margin: 0 auto 20px auto; 
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-        }
-        
-        .control-row {
-            display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;
-        }
-        
-        #control-panel select { 
-            padding: 10px; font-size: 16px; border-radius: 5px; width: 60%; 
-        }
-        
-        #control-panel button { 
-            padding: 12px 25px; font-size: 16px; background-color: #e67e22; 
-            color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; width: 35%;
-        }
-        #control-panel button:hover { background-color: #d35400; }
+        #control-panel { background-color: #2c3e50; color: white; padding: 25px; border-radius: 8px; max-width: 8.5in; margin: 0 auto 20px auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
+        .control-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; gap: 10px;}
+        select { padding: 10px; font-size: 15px; border-radius: 5px; flex-grow: 1; }
+        button { padding: 12px 25px; font-size: 16px; background-color: #e67e22; color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; }
+        button:hover { background-color: #d35400; }
 
-        .stage-selectors {
-            display: flex; flex-wrap: wrap; gap: 15px; background: #34495e; padding: 15px; border-radius: 6px;
-        }
-        
-        .stage-selectors label {
-            color: white; font-size: 14px; display: flex; align-items: center; gap: 5px; cursor: pointer;
-        }
-        
-        /* 8.5 x 11 Portrait Pages */
-        .page {
-            background: white; width: 8.5in; height: 11in; margin: 0 auto 20px auto;
-            padding: 0.5in; box-sizing: border-box; box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-            position: relative; overflow: hidden; z-index: 1;
-        }
-        
-        /* Watermark */
-        .watermark {
-            position: absolute; bottom: 30px; right: 40px; width: 160px; height: 50px;
-            background-image: url('https://raw.githubusercontent.com/scottscalici/spanishgym/refs/heads/main/images/spanishgymbw.png');
-            background-position: bottom right; background-repeat: no-repeat; background-size: contain;
-            opacity: 0.15; z-index: 0; pointer-events: none;
-        }
-        
+        .dashboard-section { background: #34495e; padding: 15px; border-radius: 6px; margin-bottom: 15px; }
+        .dashboard-section h3 { color: #ecc94b; margin-top: 0; margin-bottom: 10px; font-size: 15px; }
+        .checkbox-grid { display: flex; flex-wrap: wrap; gap: 15px; }
+        .checkbox-grid label { font-size: 14px; cursor: pointer; display: flex; align-items: center; gap: 5px; }
+
+        /* Print Pages */
+        .page { background: white; width: 8.5in; height: 11in; margin: 0 auto 20px auto; padding: 0.5in; box-sizing: border-box; position: relative; overflow: hidden; }
+        .watermark { position: absolute; bottom: 30px; right: 40px; width: 160px; height: 50px; background-image: url('https://raw.githubusercontent.com/scottscalici/spanishgym/refs/heads/main/images/spanishgymbw.png'); background-position: bottom right; background-repeat: no-repeat; background-size: contain; opacity: 0.15; z-index: 0; pointer-events: none; }
         .content-layer { position: relative; z-index: 2; height: 100%; }
 
-        /* Typography & Layout */
+        /* Typography */
         h1 { border-bottom: 3px solid #2c3e50; padding-bottom: 5px; color: #2c3e50; font-size: 20px; margin-top: 0; margin-bottom: 10px;}
         h2 { color: #e67e22; margin-top: 0px; margin-bottom: 5px; font-size: 18px; text-transform: uppercase; }
-        .instructions { font-style: italic; color: #555; margin-bottom: 15px; font-size: 13px; margin-top: 0; line-height: 1.4;}
+        .stage-title { font-size: 14px; color: #7f8c8d; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 15px; font-weight: bold; }
+        .instructions { font-style: italic; color: #555; margin-bottom: 15px; font-size: 13px; margin-top: 0; }
         
         .grammar-notes { background-color: #f7fafc; border-left: 4px solid #2c3e50; padding: 12px; margin-bottom: 20px; font-size: 13px;}
         .grammar-notes ul { margin: 0; padding-left: 20px; }
-        .grammar-notes li { margin-bottom: 5px; }
-
-        .two-col { display: flex; justify-content: space-between; font-size: 13.5px; align-items: flex-start; }
+        
+        .two-col { display: flex; justify-content: space-between; font-size: 13.5px; }
         .col { width: 48%; list-style-type: none; padding: 0; margin-top: 0;}
-        .match-col li { margin-bottom: 10px; border-bottom: 1px dashed #ccc; padding-bottom: 4px; font-size: 13px;}
+        .match-col li { margin-bottom: 10px; border-bottom: 1px dashed #ccc; padding-bottom: 4px; }
         
         .blank-line { display: inline-block; width: 120px; border-bottom: 1px solid #222; margin: 0 5px; }
         .blank-line-med { display: inline-block; width: 200px; border-bottom: 1px solid #222; margin: 0 5px; }
-        .blank-line-long { display: inline-block; width: 100%; border-bottom: 1px solid #222; margin-top: 20px; margin-bottom: 10px;}
-        .blank-line-full { display: block; width: 100%; border-bottom: 1px solid #222; margin-top: 25px; margin-bottom: 10px;}
+        .blank-line-long { display: block; width: 100%; border-bottom: 1px solid #222; margin-top: 20px; margin-bottom: 10px;}
         
         .question-item { margin-bottom: 16px; font-size: 14px; line-height: 1.5;}
-        .mcq-options { margin-left: 25px; margin-top: 5px; font-size: 13.5px; color: #333;}
+        .mcq-options { margin-left: 25px; margin-top: 5px;}
         .mcq-options span { margin-right: 20px; }
-        
         .word-bank { background: #ecf0f1; padding: 10px; text-align: center; font-weight: bold; font-size: 14px; margin-bottom: 15px; border-radius: 5px;}
         .clue-bold { font-weight: bold; color: #c0392b; }
-
         .paragraph-text { font-size: 14.5px; line-height: 1.8; text-indent: 30px; text-align: justify;}
 
         .key-section { margin-bottom: 15px; font-size: 12px; line-height: 1.4; break-inside: avoid;}
         .key-section h3 { margin: 5px 0; color: #c0392b; font-size: 14px; border-bottom: 1px solid #eee; padding-bottom: 2px;}
 
-        /* Print Settings */
         @media print {
             body { background-color: white; margin: 0; padding: 0; }
             .no-print { display: none !important; }
@@ -100,411 +61,162 @@
 <body>
 
     <div id="control-panel" class="no-print">
-        <h2 style="color:white; margin-top:0; text-align:center; margin-bottom: 20px;">Constructor de Paquetes: Gramática</h2>
+        <h2 style="margin-top:0; text-align:center; margin-bottom: 20px;">The Spanish Gym: Constructor</h2>
         
         <div class="control-row">
-            <select id="level-selector">
-                <option value="level_1">Nivel 1 (English/Beginner)</option>
-                <option value="level_2">Nivel 2 (Structured Spanish II)</option>
-                <option value="level_3">Nivel 3 (Natural Spanish/Advanced)</option>
+            <select id="topic-selector" onchange="loadTopicData()">
+                <option value="test_data">El Pretérito (Master Unit)</option>
+            </select>
+            
+            <select id="level-selector" onchange="buildStageCheckboxes()">
+                <option value="level_1">Nivel 1 (Beginner)</option>
+                <option value="level_2">Nivel 2 (Structured)</option>
+                <option value="level_3">Nivel 3 (Advanced)</option>
             </select>
             <button onclick="generateWorkbook()">Generar PDF</button>
         </div>
 
-        <div class="stage-selectors">
-            <span style="color:#ecc94b; font-weight:bold; width: 100%; margin-bottom: 5px;">Selecciona las etapas a incluir:</span>
-            <label><input type="checkbox" name="stage" value="preparate" checked> 📋 Prepárate</label>
-            <label><input type="checkbox" name="stage" value="calentamiento" checked> 🏃 Calentamiento</label>
-            <label><input type="checkbox" name="stage" value="cardio_ligero" checked> 🚶 Cardio Ligero</label>
-            <label><input type="checkbox" name="stage" value="cardio_fuerte" checked> 🚴 Cardio Fuerte</label>
-            <label><input type="checkbox" name="stage" value="levantar_pesas" checked> 🏋️ Levantar Pesas</label>
-            <label><input type="checkbox" name="stage" value="reto_final" checked> 🔥 Reto Final</label>
+        <div class="dashboard-section">
+            <h3>1. Selecciona las Etapas Gramaticales (Temas)</h3>
+            <div id="dynamic-stages" class="checkbox-grid">
+                </div>
+        </div>
+
+        <div class="dashboard-section">
+            <h3>2. Selecciona las Actividades de Entrenamiento</h3>
+            <div class="checkbox-grid">
+                <label><input type="checkbox" class="activity-cb" value="preparate" checked> 📋 Prepárate</label>
+                <label><input type="checkbox" class="activity-cb" value="calentamiento" checked> 🏃 Calentamiento</label>
+                <label><input type="checkbox" class="activity-cb" value="cardio_ligero" checked> 🚶 Cardio Ligero</label>
+                <label><input type="checkbox" class="activity-cb" value="cardio_fuerte" checked> 🚴 Cardio Fuerte</label>
+                <label><input type="checkbox" class="activity-cb" value="levantar_pesas" checked> 🏋️ Levantar Pesas</label>
+                <label><input type="checkbox" class="activity-cb" value="reto_final" checked> 🔥 Reto Final</label>
+            </div>
         </div>
     </div>
     
     <div id="app"></div>
 
     <script>
-        const grammarData = {
-            "grammar_topic": "El Pretérito (Verbos Regulares)",
+        // --- MASTER JSON ARCHITECTURE (MULTI-STAGE) ---
+        const sampleJsonData = {
+            "grammar_topic": "El Pretérito",
             "levels": {
                 "level_1": {
-                    "exercises": [
+                    "stages": [
                         {
-                            "stage": "preparate",
-                            "type": "notes_and_matching",
-                            "gym_label": "📋 Prepárate",
-                            "instructions": "Review the quick notes below, then match the sentence halves to form complete thoughts.",
-                            "notes_content": [
-                                "Use the preterite tense to talk about completed actions in the past.",
-                                "Regular -AR endings: -é, -aste, -ó, -amos, -aron",
-                                "Regular -ER/-IR endings: -í, -iste, -ió, -imos, -ieron"
-                            ],
-                            "pull_count": 8,
-                            "bank": [
-                                { "prompt": "Ayer, yo hablé...", "answer": "...por teléfono con mi madre." },
-                                { "prompt": "Anoche, tú comiste...", "answer": "...una pizza muy grande." },
-                                { "prompt": "El sábado, ella compró...", "answer": "...una camisa azul en el centro." },
-                                { "prompt": "Nosotros vivimos...", "answer": "...en esa casa por tres años." },
-                                { "prompt": "Mis amigos viajaron...", "answer": "...a México para las vacaciones." },
-                                { "prompt": "Yo escribí...", "answer": "...un correo electrónico al profesor." },
-                                { "prompt": "Tú no comprendiste...", "answer": "...la lección de matemáticas." },
-                                { "prompt": "Juan bebió...", "answer": "...un vaso de agua fría." }
-                            ]
-                        },
-                        {
-                            "stage": "calentamiento",
-                            "type": "multiple_choice",
-                            "gym_label": "🏃 El Calentamiento: Parte A",
-                            "instructions": "Choose the correct option to complete the sentence in the preterite tense.",
-                            "pull_count": 5,
-                            "bank": [
-                                { "prompt": "Ayer, yo ___ un libro muy interesante.", "options": { "A": "leyó", "B": "leí", "C": "lees" }, "answer": "B" },
-                                { "prompt": "Tú ___ mucha agua después de jugar al fútbol.", "options": { "A": "bebiste", "B": "bebió", "C": "bebes" }, "answer": "A" },
-                                { "prompt": "Marta y Luis ___ en el parque por una hora.", "options": { "A": "caminaron", "B": "caminamos", "C": "camina" }, "answer": "A" },
-                                { "prompt": "Nosotros ___ un sándwich de jamón y queso.", "options": { "A": "como", "B": "comió", "C": "comimos" }, "answer": "C" },
-                                { "prompt": "¿A qué hora ___ tú a la escuela hoy?", "options": { "A": "llega", "B": "llegaste", "C": "llegaron" }, "answer": "B" }
-                            ]
-                        },
-                        {
-                            "stage": "calentamiento",
-                            "type": "error_correction",
-                            "gym_label": "🏃 El Calentamiento: Parte B",
-                            "instructions": "Find the error in the bolded verb and write the correct preterite conjugation on the line.",
-                            "pull_count": 5,
-                            "bank": [
-                                { "prompt": "Ella **comiste** una hamburguesa grande.", "answer": "comió" },
-                                { "prompt": "Nosotros **escribieron** en el cuaderno.", "answer": "escribimos" },
-                                { "prompt": "Yo **habló** con el director de la escuela.", "answer": "hablé" },
-                                { "prompt": "Mis amigos **vivió** en Florida el año pasado.", "answer": "vivieron" },
-                                { "prompt": "Tú **miró** la película de terror.", "answer": "miraste" }
-                            ]
-                        },
-                        {
-                            "stage": "cardio_ligero",
-                            "type": "fill_in_the_blank_sentences",
-                            "gym_label": "🚶 Cardio Ligero",
-                            "instructions": "Complete the sentence by conjugating the verb in parentheses into the preterite tense.",
-                            "pull_count": 8,
-                            "bank": [
-                                { "prompt": "Anoche, yo ___ (bailar) con mis amigos en la fiesta.", "answer": "bailé" },
-                                { "prompt": "Ayer, tú ___ (estudiar) para el examen de inglés.", "answer": "estudiaste" },
-                                { "prompt": "El año pasado, nosotros ___ (viajar) a España.", "answer": "viajamos" },
-                                { "prompt": "Ellos ___ (recibir) muchos regalos de Navidad.", "answer": "recibieron" },
-                                { "prompt": "Mi familia ___ (vender) la casa vieja.", "answer": "vendió" },
-                                { "prompt": "Tú ___ (escribir) un mensaje de texto muy largo.", "answer": "escribiste" },
-                                { "prompt": "Yo ___ (abrir) la ventana porque hacía calor.", "answer": "abrí" },
-                                { "prompt": "Nosotros ___ (aprender) a nadar en la piscina.", "answer": "aprendimos" }
-                            ]
-                        },
-                        {
-                            "stage": "cardio_fuerte",
-                            "type": "cloze_paragraph_inline",
-                            "gym_label": "🚴 Cardio Fuerte (Ejercicio A)",
-                            "instructions": "Read the story and conjugate the verbs in parentheses into the preterite tense.",
-                            "pull_count": 1,
-                            "bank": [
+                            "stage_id": "etapa_1",
+                            "stage_title": "Etapa 1: Verbos Regulares",
+                            "exercises": [
                                 {
-                                    "story_id": "L1_A_viaje",
-                                    "text": "El verano pasado, mi familia y yo [blank_1] (viajar) a la playa. Cuando nosotros [blank_2] (llegar) al hotel, mi hermano [blank_3] (correr) rápidamente al agua. Yo [blank_4] (comprar) un helado de chocolate y lo [blank_5] (comer) en la arena. Luego, mis padres [blank_6] (descansar) bajo el sol. A las seis de la tarde, nosotros [blank_7] (regresar) al cuarto y [blank_8] (cenar) en el restaurante.",
-                                    "answers": { "blank_1": "viajamos", "blank_2": "llegamos", "blank_3": "corrió", "blank_4": "compré", "blank_5": "comí", "blank_6": "descansaron", "blank_7": "regresamos", "blank_8": "cenamos" }
+                                    "activity_tag": "preparate",
+                                    "type": "notes_and_matching",
+                                    "gym_label": "📋 Prepárate",
+                                    "instructions": "Match the regular preterite sentences.",
+                                    "notes_content": ["Regular -AR endings: -é, -aste, -ó, -amos, -aron"],
+                                    "pull_count": 4,
+                                    "bank": [
+                                        { "prompt": "Yo hablé...", "answer": "...con mi amigo." },
+                                        { "prompt": "Tú comiste...", "answer": "...una manzana." },
+                                        { "prompt": "Nosotros vivimos...", "answer": "...en la ciudad." },
+                                        { "prompt": "Ellos trabajaron...", "answer": "...en el hospital." }
+                                    ]
+                                },
+                                {
+                                    "activity_tag": "calentamiento",
+                                    "type": "multiple_choice",
+                                    "gym_label": "🏃 Calentamiento",
+                                    "instructions": "Choose the correct regular conjugation.",
+                                    "pull_count": 2,
+                                    "bank": [
+                                        { "prompt": "Ayer, yo ___.", "options": {"A":"habló", "B":"hablé", "C":"hablan"}, "answer":"B" },
+                                        { "prompt": "Tú ___ agua.", "options": {"A":"bebiste", "B":"bebió", "C":"bebes"}, "answer":"A" }
+                                    ]
+                                },
+                                {
+                                    "activity_tag": "reto_final",
+                                    "type": "open_response",
+                                    "gym_label": "🔥 Reto Final: Etapa 1",
+                                    "instructions": "Answer using regular verbs.",
+                                    "pull_count": 2,
+                                    "bank": [
+                                        { "prompt": "¿Qué comiste ayer?" },
+                                        { "prompt": "¿A qué hora llegaste a la escuela?" }
+                                    ]
                                 }
                             ]
                         },
                         {
-                            "stage": "cardio_fuerte",
-                            "type": "cloze_paragraph_bank",
-                            "gym_label": "🚴 Cardio Fuerte (Ejercicio B)",
-                            "instructions": "Complete the paragraph using the verbs from the word bank. Make sure to conjugate them in the preterite tense!",
-                            "pull_count": 1,
-                            "bank": [
+                            "stage_id": "etapa_2",
+                            "stage_title": "Etapa 2: Ir, Ser, Dar, Ver",
+                            "exercises": [
                                 {
-                                    "story_id": "L1_B_fiesta",
-                                    "word_bank": ["bailar", "beber", "abrir", "comer", "celebrar"],
-                                    "text": "El sábado, María [blank_1] su cumpleaños. Ella invitó a muchos amigos. Nosotros [blank_2] pizza y pastel de chocolate. También, todos [blank_3] refrescos fríos. Después de la comida, nosotros [blank_4] en la sala con música latina. Al final de la noche, María [blank_5] todos sus regalos.",
-                                    "answers": { "blank_1": "celebró", "blank_2": "comimos", "blank_3": "bebimos", "blank_4": "bailamos", "blank_5": "abrió" }
-                                }
-                            ]
-                        },
-                        {
-                            "stage": "levantar_pesas",
-                            "type": "transformation",
-                            "gym_label": "🏋️ Levantar Pesas",
-                            "instructions": "Rewrite the sentence in the preterite tense. Change 'Hoy' (Today) to 'Ayer' (Yesterday).",
-                            "pull_count": 4,
-                            "bank": [
-                                { "prompt": "Hoy, yo compro un libro.", "answer": "Ayer, yo compré un libro." },
-                                { "prompt": "Hoy, ella bebe agua fría.", "answer": "Ayer, ella bebió agua fría." },
-                                { "prompt": "Hoy, nosotros estudiamos mucho.", "answer": "Ayer, nosotros estudiamos mucho." },
-                                { "prompt": "Hoy, ellos corren en el parque.", "answer": "Ayer, ellos corrieron en el parque." }
-                            ]
-                        },
-                        {
-                            "stage": "reto_final",
-                            "type": "open_response",
-                            "gym_label": "🔥 Reto Final",
-                            "instructions": "Answer the following personal questions using complete sentences in the preterite tense.",
-                            "pull_count": 3,
-                            "bank": [
-                                { "prompt": "¿A qué hora te levantaste esta mañana?" },
-                                { "prompt": "¿Qué miraste en la televisión o en YouTube anoche?" },
-                                { "prompt": "¿Qué comiste para la cena ayer?" }
-                            ]
-                        }
-                    ]
-                },
-                "level_2": {
-                    "exercises": [
-                        {
-                            "stage": "preparate",
-                            "type": "notes_and_matching",
-                            "gym_label": "📋 Prepárate",
-                            "instructions": "Repasa los apuntes de gramática. Luego, une las dos mitades para formar oraciones lógicas.",
-                            "notes_content": [
-                                "El pretérito se usa para expresar acciones que ya terminaron en el pasado.",
-                                "Para los verbos regulares que terminan en -AR, usamos: -é, -aste, -ó, -amos, -aron.",
-                                "Para los verbos regulares que terminan en -ER/-IR, usamos: -í, -iste, -ió, -imos, -ieron."
-                            ],
-                            "pull_count": 8,
-                            "bank": [
-                                { "prompt": "La semana pasada, el gerente habló...", "answer": "...con todos los empleados del hotel." },
-                                { "prompt": "Anoche, mis hermanos y yo decidimos...", "answer": "...quedarnos en casa para ver una película." },
-                                { "prompt": "De repente, la profesora entró...", "answer": "...y empezó a explicar la lección nueva." },
-                                { "prompt": "El mes pasado, mi familia vendió...", "answer": "...nuestro carro viejo para comprar uno nuevo." },
-                                { "prompt": "Tú no comprendiste bien...", "answer": "...las instrucciones que dio el entrenador." },
-                                { "prompt": "Ayer por la tarde, yo recibí...", "answer": "...un paquete muy grande por correo." },
-                                { "prompt": "Los turistas se perdieron y caminaron...", "answer": "...por todo el centro de la ciudad." },
-                                { "prompt": "Nosotros respondimos rápidamente...", "answer": "...a todos los correos electrónicos." }
-                            ]
-                        },
-                        {
-                            "stage": "calentamiento",
-                            "type": "multiple_choice",
-                            "gym_label": "🏃 El Calentamiento: Parte A",
-                            "instructions": "Selecciona la conjugación correcta en el pretérito para cada frase.",
-                            "pull_count": 5,
-                            "bank": [
-                                { "prompt": "El fin de semana pasado, nosotros ___ una carta muy larga a nuestros abuelos.", "options": { "A": "escribemos", "B": "escribimos", "C": "escribieron" }, "answer": "B" },
-                                { "prompt": "¿A qué hora ___ ustedes a la fiesta de cumpleaños anoche?", "options": { "A": "llegasteis", "B": "llegaron", "C": "llegaban" }, "answer": "B" },
-                                { "prompt": "El cliente ___ el menú por diez minutos antes de pedir.", "options": { "A": "miró", "B": "miro", "C": "miraba" }, "answer": "A" },
-                                { "prompt": "Mis padres no ___ permitirme salir tarde anoche.", "options": { "A": "deciden", "B": "decidió", "C": "decidieron" }, "answer": "C" },
-                                { "prompt": "Nosotros ___ toda la tarde estudiando en la biblioteca.", "options": { "A": "pasamos", "B": "pasaron", "C": "pasábamos" }, "answer": "A" }
-                            ]
-                        },
-                        {
-                            "stage": "calentamiento",
-                            "type": "error_correction",
-                            "gym_label": "🏃 El Calentamiento: Parte B",
-                            "instructions": "Lee la oración. Si el verbo en negrita es incorrecto, escribe la forma correcta en la línea.",
-                            "pull_count": 5,
-                            "bank": [
-                                { "prompt": "Los estudiantes **comprendió** la lección rápidamente.", "answer": "comprendieron" },
-                                { "prompt": "Yo no **recibió** el paquete que me mandaste el martes.", "answer": "recibí" },
-                                { "prompt": "Tú **habló** con el gerente sobre el problema.", "answer": "hablaste" },
-                                { "prompt": "Ayer por la tarde, nosotros **decidieron** cenar en ese restaurante nuevo.", "answer": "decidimos" },
-                                { "prompt": "La semana pasada, ella **vendimos** su colección de discos.", "answer": "vendió" }
-                            ]
-                        },
-                        {
-                            "stage": "cardio_ligero",
-                            "type": "fill_in_the_blank_sentences",
-                            "gym_label": "🚶 Cardio Ligero",
-                            "instructions": "Escribe la forma correcta del pretérito para completar cada oración.",
-                            "pull_count": 8,
-                            "bank": [
-                                { "prompt": "Anoche, el gerente del restaurante ___ (recibir) una queja del cliente.", "answer": "recibió" },
-                                { "prompt": "Nosotros no ___ (comprender) las instrucciones del profesor ayer.", "answer": "comprendimos" },
-                                { "prompt": "Durante nuestras vacaciones, tú ___ (tomar) más de cien fotos.", "answer": "tomaste" },
-                                { "prompt": "Yo no ___ (decidir) qué ropa llevar a la boda hasta el último minuto.", "answer": "decidí" },
-                                { "prompt": "El vendedor ___ (vender) todos los boletos para el concierto.", "answer": "vendió" },
-                                { "prompt": "Mis amigos y yo ___ (asistir) a una conferencia el mes pasado.", "answer": "asistimos" },
-                                { "prompt": "De repente, empezó a llover y todos ___ (correr) hacia sus carros.", "answer": "corrieron" },
-                                { "prompt": "¿Por qué no ___ (escribir) tú la dirección correcta en el sobre?", "answer": "escribiste" }
-                            ]
-                        },
-                        {
-                            "stage": "cardio_fuerte",
-                            "type": "cloze_paragraph_inline",
-                            "gym_label": "🚴 Cardio Fuerte (Ejercicio A)",
-                            "instructions": "Completa el siguiente relato conjugando los verbos entre paréntesis en el pretérito.",
-                            "pull_count": 1,
-                            "bank": [
+                                    "activity_tag": "preparate",
+                                    "type": "notes_and_matching",
+                                    "gym_label": "📋 Prepárate",
+                                    "instructions": "Match the irregular sentences.",
+                                    "notes_content": ["Ir/Ser: fui, fuiste, fue, fuimos, fueron"],
+                                    "pull_count": 4,
+                                    "bank": [
+                                        { "prompt": "Yo fui...", "answer": "...a la tienda." },
+                                        { "prompt": "La película fue...", "answer": "...muy divertida." },
+                                        { "prompt": "Nosotros dimos...", "answer": "...un regalo." },
+                                        { "prompt": "Ellos vieron...", "answer": "...un perro." }
+                                    ]
+                                },
                                 {
-                                    "story_id": "L2_A_hotel",
-                                    "text": "El fin de semana pasado, mis amigos y yo [blank_1] (decidir) pasar unos días en las montañas. Nosotros [blank_2] (alquilar) una cabaña pequeña. El primer día, yo [blank_3] (preparar) el desayuno y luego todos nosotros [blank_4] (caminar) por el bosque. De repente, mi amigo Luis [blank_5] (resbalar) en el lodo y se cayó. Afortunadamente, no se lastimó. Por la tarde, nosotros [blank_6] (regresar) a la cabaña y [blank_7] (encender) la chimenea. Yo [blank_8] (leer) un libro mientras los demás jugaban.",
-                                    "answers": { "blank_1": "decidimos", "blank_2": "alquilamos", "blank_3": "preparé", "blank_4": "caminamos", "blank_5": "resbaló", "blank_6": "regresamos", "blank_7": "encendimos", "blank_8": "leí" }
+                                    "activity_tag": "reto_final",
+                                    "type": "cloze_paragraph_bank",
+                                    "gym_label": "🔥 Reto Acumulativo (Etapas 1 y 2)",
+                                    "instructions": "Complete the story using regular and irregular verbs.",
+                                    "pull_count": 1,
+                                    "bank": [
+                                        {
+                                            "story_id": "repaso_1",
+                                            "word_bank": ["ir", "comer", "ser", "ver", "hablar"],
+                                            "text": "Ayer yo [blank_1] al parque. El clima [blank_2] perfecto. Yo [blank_3] un sándwich grande y [blank_4] muchos pájaros. Luego, [blank_5] con mi amigo por teléfono.",
+                                            "answers": { "blank_1":"fui", "blank_2":"fue", "blank_3":"comí", "blank_4":"vi", "blank_5":"hablé" }
+                                        }
+                                    ]
                                 }
-                            ]
-                        },
-                        {
-                            "stage": "cardio_fuerte",
-                            "type": "cloze_paragraph_bank",
-                            "gym_label": "🚴 Cardio Fuerte (Ejercicio B)",
-                            "instructions": "Rellena los espacios en blanco usando los verbos del banco. ¡Conjugalos en el pretérito!",
-                            "pull_count": 1,
-                            "bank": [
-                                {
-                                    "story_id": "L2_B_concierto",
-                                    "word_bank": ["llegar", "comprar", "escuchar", "gritar", "cantar"],
-                                    "text": "El mes pasado, mi banda favorita vino a la ciudad. Mis amigos y yo [blank_1] los boletos por internet. El día del evento, nosotros [blank_2] al estadio tres horas antes. Durante el concierto, todos los fans [blank_3] las canciones con la banda. Además, muchas chicas [blank_4] de emoción cuando el cantante salió. Nosotros [blank_5] música increíble toda la noche.",
-                                    "answers": { "blank_1": "compramos", "blank_2": "llegamos", "blank_3": "cantaron", "blank_4": "gritaron", "blank_5": "escuchamos" }
-                                }
-                            ]
-                        },
-                        {
-                            "stage": "levantar_pesas",
-                            "type": "transformation",
-                            "gym_label": "🏋️ Levantar Pesas",
-                            "instructions": "Reescribe la oración en el pretérito. Cambia 'Hoy' por 'Ayer' o una frase temporal similar.",
-                            "pull_count": 4,
-                            "bank": [
-                                { "prompt": "Hoy, el chef prepara una comida especial.", "answer": "Ayer, el chef preparó una comida especial." },
-                                { "prompt": "Hoy, tú comprendes la explicación del profesor.", "answer": "Ayer, tú comprendiste la explicación del profesor." },
-                                { "prompt": "Hoy, nosotros decidimos viajar en tren.", "answer": "Ayer, nosotros decidimos viajar en tren." },
-                                { "prompt": "Hoy, ellos venden muchos productos en la tienda.", "answer": "Ayer, ellos vendieron muchos productos en la tienda." }
-                            ]
-                        },
-                        {
-                            "stage": "reto_final",
-                            "type": "open_response",
-                            "gym_label": "🔥 Reto Final",
-                            "instructions": "Responde a las siguientes preguntas con detalles, usando oraciones completas en el pretérito.",
-                            "pull_count": 3,
-                            "bank": [
-                                { "prompt": "¿Qué hiciste el fin de semana pasado? (Escribe al menos dos actividades)." },
-                                { "prompt": "Describe un viaje o excursión reciente. ¿Adónde fuiste y qué visitaste?" },
-                                { "prompt": "La última vez que fuiste a un restaurante, ¿qué pediste para comer y beber?" }
-                            ]
-                        }
-                    ]
-                },
-                "level_3": {
-                    "exercises": [
-                        {
-                            "stage": "preparate",
-                            "type": "notes_and_matching",
-                            "gym_label": "📋 Prepárate",
-                            "instructions": "Analiza las observaciones gramaticales y relaciona los fragmentos para estructurar oraciones.",
-                            "notes_content": [
-                                "El pretérito indefinido indica acciones concluidas en un momento específico del pasado.",
-                                "Las desinencias de la primera conjugación (-ar) son: -é, -aste, -ó, -amos, -aron.",
-                                "Las terminaciones de la segunda y tercera conjugación (-er/-ir) son: -í, -iste, -ió, -imos, -ieron."
-                            ],
-                            "pull_count": 8,
-                            "bank": [
-                                { "prompt": "Apenas se enteró de la noticia, la portavoz emitió...", "answer": "...un comunicado oficial ante los medios de comunicación." },
-                                { "prompt": "A pesar de la insistencia, la junta directiva rechazó...", "answer": "...la propuesta de fusionar las dos empresas." },
-                                { "prompt": "Durante la madrugada, los equipos de rescate reanudaron...", "answer": "...la búsqueda exhaustiva de los montañistas." },
-                                { "prompt": "El comité evaluador debatió...", "answer": "...las distintas estrategias presupuestarias durante horas." },
-                                { "prompt": "Con gran cautela, los arqueólogos descubrieron...", "answer": "...una serie de artefactos de incalculable valor histórico." },
-                                { "prompt": "Para evitar mayores conflictos, el embajador se retiró...", "answer": "...de la cumbre antes de que concluyeran las negociaciones." },
-                                { "prompt": "Las intensas lluvias provocaron...", "answer": "...el desbordamiento de los ríos aledaños a la ciudad." },
-                                { "prompt": "Tras una profunda reflexión, el atleta anunció...", "answer": "...su retiro definitivo de las competiciones." }
-                            ]
-                        },
-                        {
-                            "stage": "calentamiento",
-                            "type": "multiple_choice",
-                            "gym_label": "🏃 El Calentamiento: Parte A",
-                            "instructions": "Determina cuál es la forma adecuada del verbo para completar el enunciado.",
-                            "pull_count": 5,
-                            "bank": [
-                                { "prompt": "Durante la asamblea, el presidente del comité ___ la propuesta sin titubear.", "options": { "A": "rechazo", "B": "rechazó", "C": "rechazaría" }, "answer": "B" },
-                                { "prompt": "A pesar de las severas advertencias, los manifestantes no ___ ante la presión mediática.", "options": { "A": "cedimos", "B": "cedieron", "C": "cedieran" }, "answer": "B" },
-                                { "prompt": "En la entrevista, la candidata ___ claramente sus intenciones.", "options": { "A": "expresó", "B": "expresa", "C": "expresaba" }, "answer": "A" },
-                                { "prompt": "Ayer por la tarde, la dirección del hospital ___ un nuevo protocolo.", "options": { "A": "estableció", "B": "establezco", "C": "establecían" }, "answer": "A" },
-                                { "prompt": "Ante la inminente amenaza del huracán, las autoridades ___ la costa.", "options": { "A": "evacúan", "B": "evacuaron", "C": "evacuaban" }, "answer": "B" }
-                            ]
-                        },
-                        {
-                            "stage": "calentamiento",
-                            "type": "error_correction",
-                            "gym_label": "🏃 El Calentamiento: Parte B",
-                            "instructions": "Identifica la incorrección gramatical en el uso del pretérito y proporciona la enmienda pertinente.",
-                            "pull_count": 5,
-                            "bank": [
-                                { "prompt": "Las autoridades locales **emitió** una alerta meteorológica ayer.", "answer": "emitieron" },
-                                { "prompt": "Apenas cruzó la frontera, el periodista **descubriste** la magnitud del conflicto.", "answer": "descubrió" },
-                                { "prompt": "La empresa tecnológica **desarrollamos** un software innovador el trimestre pasado.", "answer": "desarrolló" },
-                                { "prompt": "Tras la intensa discusión, los diplomáticos **acordó** firmar el tratado de paz.", "answer": "acordaron" },
-                                { "prompt": "Los ciudadanos **exigió** mayor transparencia en la gestión pública.", "answer": "exigieron" }
-                            ]
-                        },
-                        {
-                            "stage": "cardio_ligero",
-                            "type": "fill_in_the_blank_sentences",
-                            "gym_label": "🚶 Cardio Ligero",
-                            "instructions": "Rellena el espacio en blanco empleando la conjugación adecuada del pretérito indefinido.",
-                            "pull_count": 8,
-                            "bank": [
-                                { "prompt": "Ante la inminente tormenta, los pescadores ___ (amarrar) las embarcaciones al muelle.", "answer": "amarraron" },
-                                { "prompt": "Apenas se enteró de la noticia, la portavoz ___ (emitir) un comunicado oficial.", "answer": "emitió" },
-                                { "prompt": "Para garantizar la seguridad, nosotros ___ (restringir) el acceso a la zona VIP.", "answer": "restringimos" },
-                                { "prompt": "El mes pasado, la corporación ___ (absorber) a su principal competidor.", "answer": "absorbió" },
-                                { "prompt": "Yo ___ (deducir) de inmediato que la oferta era engañosa al leer las letras pequeñas.", "answer": "deduje" },
-                                { "prompt": "Las drásticas medidas económicas ___ (perjudicar) gravemente a los empresarios.", "answer": "perjudicaron" },
-                                { "prompt": "Nosotros ___ (emprender) un ambicioso proyecto de reforestación en la zona devastada.", "answer": "emprendimos" },
-                                { "prompt": "La inesperada renuncia del ministro ___ (provocar) una crisis en el gabinete.", "answer": "provocó" }
-                            ]
-                        },
-                        {
-                            "stage": "cardio_fuerte",
-                            "type": "cloze_paragraph_inline",
-                            "gym_label": "🚴 Cardio Fuerte (Ejercicio A)",
-                            "instructions": "Lee el siguiente fragmento narrativo y restituye los verbos omitidos.",
-                            "pull_count": 1,
-                            "bank": [
-                                {
-                                    "story_id": "L3_A_investigacion",
-                                    "text": "La investigación [blank_1] (revelar) detalles sobre el entramado de corrupción. El fiscal a cargo [blank_2] (recopilar) pruebas documentales e [blank_3] (interrogar) a múltiples testigos. A pesar de las presiones, su equipo no [blank_4] (ceder) ante los sobornos. Finalmente, las autoridades [blank_5] (proceder) a allanar las oficinas, donde [blank_6] (confiscar) archivos confidenciales. El desenlace [blank_7] (conmocionar) a la opinión pública, ya que la prensa [blank_8] (difundir) la noticia a nivel nacional.",
-                                    "answers": { "blank_1": "reveló", "blank_2": "recopiló", "blank_3": "interrogó", "blank_4": "cedió", "blank_5": "procedieron", "blank_6": "confiscaron", "blank_7": "conmocionó", "blank_8": "difundió" }
-                                }
-                            ]
-                        },
-                        {
-                            "stage": "cardio_fuerte",
-                            "type": "cloze_paragraph_bank",
-                            "gym_label": "🚴 Cardio Fuerte (Ejercicio B)",
-                            "instructions": "Rellena los espacios en blanco utilizando los verbos del banco, conjugados adecuadamente.",
-                            "pull_count": 1,
-                            "bank": [
-                                {
-                                    "story_id": "L3_B_economia",
-                                    "word_bank": ["desplomarse", "anunciar", "generar", "intervenir", "estabilizar"],
-                                    "text": "Ayer por la mañana, los mercados bursátiles globales [blank_1] tras la apertura. El pánico inicial [blank_2] una ola masiva de ventas. Ante la crisis, el Banco Central [blank_3] en el mercado cambiario inyectando liquidez. Posteriormente, el Ministro de Economía [blank_4] medidas de estímulo extraordinarias. Afortunadamente, estas rápidas acciones gubernamentales [blank_5] la economía al final de la jornada.",
-                                    "answers": { "blank_1": "se desplomaron", "blank_2": "generó", "blank_3": "intervino", "blank_4": "anunció", "blank_5": "estabilizaron" }
-                                }
-                            ]
-                        },
-                        {
-                            "stage": "levantar_pesas",
-                            "type": "transformation",
-                            "gym_label": "🏋️ Levantar Pesas",
-                            "instructions": "Transpón las oraciones al pretérito indefinido, alterando los marcadores temporales.",
-                            "pull_count": 4,
-                            "bank": [
-                                { "prompt": "Hoy, el consejo de administración aprueba la fusión corporativa.", "answer": "Ayer, el consejo de administración aprobó la fusión corporativa." },
-                                { "prompt": "Hoy, la cumbre climática concluye con la firma de un acuerdo histórico.", "answer": "Ayer, la cumbre climática concluyó con la firma de un acuerdo histórico." },
-                                { "prompt": "Hoy, nosotros exigimos el cumplimiento íntegro de nuestros derechos laborales.", "answer": "Ayer, nosotros exigimos el cumplimiento íntegro de nuestros derechos laborales." },
-                                { "prompt": "Hoy, yo asumo toda la responsabilidad por los errores cometidos en el proyecto.", "answer": "Ayer, yo asumí toda la responsabilidad por los errores cometidos en el proyecto." }
-                            ]
-                        },
-                        {
-                            "stage": "reto_final",
-                            "type": "open_response",
-                            "gym_label": "🔥 Reto Final",
-                            "instructions": "Elabora respuestas pormenorizadas, garantizando la conjugación precisa en el pretérito indefinido.",
-                            "pull_count": 3,
-                            "bank": [
-                                { "prompt": "Describe detalladamente un suceso inesperado que alteró los planes de un viaje." },
-                                { "prompt": "Relata cómo reaccionaste ante un contratiempo significativo en el ámbito profesional." },
-                                { "prompt": "Narra los eventos principales de una noticia de repercusión mundial reciente." }
                             ]
                         }
                     ]
                 }
             }
         };
+
+        let currentGrammarData = null;
+
+        // 1. In production, this fetches from GitHub. For now, it loads the sample data.
+        function loadTopicData() {
+            currentGrammarData = sampleJsonData;
+            buildStageCheckboxes();
+        }
+
+        // 2. Dynamically build the Stage Checkboxes based on the selected Level
+        function buildStageCheckboxes() {
+            if (!currentGrammarData) return;
+            const levelKey = document.getElementById('level-selector').value;
+            const stagesContainer = document.getElementById('dynamic-stages');
+            stagesContainer.innerHTML = ''; // Clear old boxes
+
+            // Fallback if level doesn't exist yet
+            if (!currentGrammarData.levels[levelKey]) {
+                stagesContainer.innerHTML = '<span style="color:#e74c3c;">Datos no disponibles para este nivel aún.</span>';
+                return;
+            }
+
+            const stages = currentGrammarData.levels[levelKey].stages;
+            stages.forEach(stage => {
+                const label = document.createElement('label');
+                label.innerHTML = `<input type="checkbox" class="stage-cb" value="${stage.stage_id}" checked> ${stage.stage_title}`;
+                stagesContainer.appendChild(label);
+            });
+        }
+
+        // Init the dashboard
+        loadTopicData();
 
         function shuffleArray(array) {
             let shuffled = [...array];
@@ -515,149 +227,118 @@
             return shuffled;
         }
 
+        // 3. THE SMART ASSEMBLER
         function generateWorkbook() {
-            const levelKey = document.getElementById('level-selector').value;
-            const levelData = grammarData.levels[levelKey];
-            
-            // Collect the checked stages from the UI
-            const selectedStages = Array.from(document.querySelectorAll('input[name="stage"]:checked')).map(cb => cb.value);
+            if (!currentGrammarData) return;
 
-            if (selectedStages.length === 0) {
-                alert("Por favor, selecciona al menos una etapa para generar el PDF.");
+            const levelKey = document.getElementById('level-selector').value;
+            const levelData = currentGrammarData.levels[levelKey];
+            
+            // Get user selections
+            const selectedStageIds = Array.from(document.querySelectorAll('.stage-cb:checked')).map(cb => cb.value);
+            const selectedActivities = Array.from(document.querySelectorAll('.activity-cb:checked')).map(cb => cb.value);
+
+            if (selectedStageIds.length === 0 || selectedActivities.length === 0) {
+                alert("Debes seleccionar al menos una etapa y una actividad.");
                 return;
             }
-
-            // Filter the master JSON array to only include the stages the user requested
-            const exercisesToRender = levelData.exercises.filter(ex => selectedStages.includes(ex.stage));
 
             const app = document.getElementById('app');
             let html = '';
             let versionKeyData = ''; 
-            
-            const topicName = grammarData.grammar_topic;
-            const headerTitle = `${topicName}`;
+            const topicName = currentGrammarData.grammar_topic;
 
-            exercisesToRender.forEach(exercise => {
-                
-                // Keep related exercises on the same page based on type
-                if (['notes_and_matching', 'multiple_choice', 'fill_in_the_blank_sentences', 'cloze_paragraph_inline', 'transformation', 'open_response'].includes(exercise.type)) {
-                    if (html !== '' && exercise.type !== 'error_correction' && exercise.type !== 'cloze_paragraph_bank') {
-                         html += `</div></div>`;
-                    }
-                    if (exercise.type !== 'error_correction' && exercise.type !== 'cloze_paragraph_bank') {
-                        html += `
-                            <div class="page">
-                                <div class="watermark"></div>
-                                <div class="content-layer">
-                                    <h1>${headerTitle}</h1>
-                        `;
-                    }
-                }
+            // Loop through selected grammar stages
+            levelData.stages.forEach(stage => {
+                if (!selectedStageIds.includes(stage.stage_id)) return;
 
-                html += `<h2>${exercise.gym_label}</h2>`;
-                html += `<p class="instructions">${exercise.instructions}</p>`;
+                // Filter exercises in this stage based on selected Gym Activities
+                const exercisesToRender = stage.exercises.filter(ex => selectedActivities.includes(ex.activity_tag));
+                if (exercisesToRender.length === 0) return; // Skip stage if no activities match
 
-                let pulledItems = shuffleArray(exercise.bank).slice(0, exercise.pull_count);
-                let keyContent = [];
+                // Print the Stage Header on the first page of the stage
+                const headerTitle = `${topicName}`;
+                const subHeader = `${stage.stage_title}`;
 
-                if (exercise.type === 'notes_and_matching') {
-                    html += `<div class="grammar-notes"><ul>`;
-                    exercise.notes_content.forEach(note => html += `<li>${note}</li>`);
-                    html += `</ul></div>`;
-
-                    let partA = pulledItems;
-                    let partB_Shuffled = shuffleArray(partA);
-                    const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O'];
-
-                    html += `<div class="two-col"><ul class="col match-col">`;
-                    partA.forEach((item, index) => {
-                        html += `<li>___ ${index + 1}. ${item.prompt}</li>`;
-                        let matchIdx = partB_Shuffled.findIndex(e => e.answer === item.answer);
-                        keyContent.push(`${index + 1}. ${letters[matchIdx]}`);
-                    });
-                    html += `</ul><ul class="col match-col" style="list-style-type:none;">`;
-                    partB_Shuffled.forEach((item, index) => {
-                        html += `<li><strong>${letters[index]}.</strong> ${item.answer}</li>`;
-                    });
-                    html += `</ul></div>`;
-                } 
-                
-                else if (exercise.type === 'multiple_choice') {
-                    pulledItems.forEach((item, index) => {
-                        html += `<div class="question-item"><strong>${index + 1}.</strong> ${item.prompt}
-                            <div class="mcq-options">
-                                <span><strong>A.</strong> ${item.options.A}</span>
-                                <span><strong>B.</strong> ${item.options.B}</span>
-                                <span><strong>C.</strong> ${item.options.C}</span>
-                            </div></div>`;
-                        keyContent.push(`${index + 1}. ${item.answer}`);
-                    });
-                }
-
-                else if (exercise.type === 'error_correction') {
-                    pulledItems.forEach((item, index) => {
-                        let formattedPrompt = item.prompt.replace(/\*\*(.*?)\*\*/g, '<span class="clue-bold">$1</span>');
-                        html += `<div class="question-item"><strong>${index + 1}.</strong> ${formattedPrompt} <span class="blank-line-med"></span></div>`;
-                        keyContent.push(`${index + 1}. ${item.answer}`);
-                    });
-                }
-
-                else if (exercise.type === 'fill_in_the_blank_sentences') {
-                    pulledItems.forEach((item, index) => {
-                        let promptWithBlank = item.prompt.replace('___', '<span class="blank-line"></span>');
-                        html += `<div class="question-item"><strong>${index + 1}.</strong> ${promptWithBlank}</div>`;
-                        keyContent.push(`${index + 1}. ${item.answer}`);
-                    });
-                }
-
-                else if (exercise.type === 'cloze_paragraph_inline') {
-                    let story = pulledItems[0];
-                    let processedText = story.text.replace(/\[blank_(\d+)\]/g, (match, p1) => {
-                        return `<span class="blank-line"></span>`;
-                    });
-                    html += `<div class="paragraph-text">${processedText}</div>`;
+                exercisesToRender.forEach(exercise => {
                     
-                    let storyKeys = Object.entries(story.answers).map(([k, v]) => v);
-                    keyContent.push(storyKeys.join(" | "));
-                }
+                    // Page Break Logic
+                    if (['notes_and_matching', 'multiple_choice', 'fill_in_the_blank_sentences', 'cloze_paragraph_inline', 'transformation', 'open_response'].includes(exercise.type)) {
+                        if (html !== '' && exercise.type !== 'error_correction' && exercise.type !== 'cloze_paragraph_bank') {
+                             html += `</div></div>`;
+                        }
+                        if (exercise.type !== 'error_correction' && exercise.type !== 'cloze_paragraph_bank') {
+                            html += `
+                                <div class="page">
+                                    <div class="watermark"></div>
+                                    <div class="content-layer">
+                                        <h1>${headerTitle}</h1>
+                                        <div class="stage-title">${subHeader}</div>
+                            `;
+                        }
+                    }
 
-                else if (exercise.type === 'cloze_paragraph_bank') {
-                    let story = pulledItems[0];
-                    let bankHtml = shuffleArray(story.word_bank).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
-                    html += `<div class="word-bank">${bankHtml}</div>`;
+                    html += `<h2>${exercise.gym_label}</h2>`;
+                    html += `<p class="instructions">${exercise.instructions}</p>`;
+
+                    let pulledItems = shuffleArray(exercise.bank).slice(0, exercise.pull_count);
+                    let keyContent = [];
+
+                    // --- HTML RENDERING BY TYPE ---
+                    if (exercise.type === 'notes_and_matching') {
+                        html += `<div class="grammar-notes"><ul>`;
+                        exercise.notes_content.forEach(note => html += `<li>${note}</li>`);
+                        html += `</ul></div>`;
+                        let partB_Shuffled = shuffleArray(pulledItems);
+                        const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'];
+                        html += `<div class="two-col"><ul class="col match-col">`;
+                        pulledItems.forEach((item, idx) => {
+                            html += `<li>___ ${idx + 1}. ${item.prompt}</li>`;
+                            let matchIdx = partB_Shuffled.findIndex(e => e.answer === item.answer);
+                            keyContent.push(`${idx + 1}. ${letters[matchIdx]}`);
+                        });
+                        html += `</ul><ul class="col match-col" style="list-style-type:none;">`;
+                        partB_Shuffled.forEach((item, idx) => {
+                            html += `<li><strong>${letters[idx]}.</strong> ${item.answer}</li>`;
+                        });
+                        html += `</ul></div>`;
+                    } 
                     
-                    let processedText = story.text.replace(/\[blank_(\d+)\]/g, (match, p1) => {
-                        return `<span class="blank-line"></span>`;
-                    });
-                    html += `<div class="paragraph-text">${processedText}</div>`;
+                    else if (exercise.type === 'multiple_choice') {
+                        pulledItems.forEach((item, index) => {
+                            html += `<div class="question-item"><strong>${index + 1}.</strong> ${item.prompt}
+                                <div class="mcq-options">
+                                    <span><strong>A.</strong> ${item.options.A}</span>
+                                    <span><strong>B.</strong> ${item.options.B}</span>
+                                    <span><strong>C.</strong> ${item.options.C}</span>
+                                </div></div>`;
+                            keyContent.push(`${index + 1}. ${item.answer}`);
+                        });
+                    }
 
-                    let storyKeys = Object.entries(story.answers).map(([k, v]) => v);
-                    keyContent.push(storyKeys.join(" | "));
-                }
+                    else if (exercise.type === 'cloze_paragraph_bank') {
+                        let story = pulledItems[0];
+                        let bankHtml = shuffleArray(story.word_bank).join(" &nbsp;&nbsp;|&nbsp;&nbsp; ");
+                        html += `<div class="word-bank">${bankHtml}</div>`;
+                        let processedText = story.text.replace(/\[blank_(\d+)\]/g, () => `<span class="blank-line"></span>`);
+                        html += `<div class="paragraph-text">${processedText}</div>`;
+                        keyContent.push(Object.values(story.answers).join(" | "));
+                    }
 
-                else if (exercise.type === 'transformation') {
-                    pulledItems.forEach((item, index) => {
-                        html += `<div class="question-item"><strong>${index + 1}.</strong> ${item.prompt} <br><span class="blank-line-long"></span></div>`;
-                        keyContent.push(`${index + 1}. ${item.answer}`);
-                    });
-                }
+                    else if (exercise.type === 'open_response') {
+                        pulledItems.forEach((item, index) => {
+                            html += `<div class="question-item"><strong>${index + 1}.</strong> ${item.prompt} <br><span class="blank-line-long"></span><span class="blank-line-long"></span></div>`;
+                            keyContent.push(`${index + 1}. Respuestas variarán.`);
+                        });
+                    }
 
-                else if (exercise.type === 'open_response') {
-                    pulledItems.forEach((item, index) => {
-                        html += `<div class="question-item"><strong>${index + 1}.</strong> ${item.prompt} <br><span class="blank-line-full"></span><span class="blank-line-full"></span></div>`;
-                        keyContent.push(`${index + 1}. Respuestas variarán.`);
-                    });
-                }
-
-                versionKeyData += `<div class="key-section"><h3>${exercise.gym_label}</h3>${keyContent.join(" | ")}</div>`;
+                    versionKeyData += `<div class="key-section"><h3>${subHeader} - ${exercise.gym_label}</h3>${keyContent.join(" | ")}</div>`;
+                });
             });
             
-            // Close the final rendered page
-            if (html !== '') {
-                html += `</div></div>`;
-            }
+            if (html !== '') html += `</div></div>`;
 
-            // Create Final Answer Key Page
+            // Answer Key
             html += `
                 <div class="page">
                     <div class="content-layer">
