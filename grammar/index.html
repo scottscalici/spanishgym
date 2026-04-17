@@ -18,15 +18,16 @@
         .checkbox-grid { display: flex; flex-wrap: wrap; gap: 15px; }
         .checkbox-grid label { font-size: 14px; cursor: pointer; display: flex; align-items: center; gap: 5px; }
 
-        /* Print Pages */
-        .page { background: white; width: 8.5in; height: 11in; margin: 0 auto 20px auto; padding: 0.5in; box-sizing: border-box; position: relative; overflow: hidden; }
-        .watermark { position: absolute; bottom: 30px; right: 40px; width: 160px; height: 50px; background-image: url('https://raw.githubusercontent.com/scottscalici/spanishgym/refs/heads/main/images/spanishgymbw.png'); background-position: bottom right; background-repeat: no-repeat; background-size: contain; opacity: 0.15; z-index: 0; pointer-events: none; }
+        /* Continuous Flow Pages */
+        .page-continuous { background: white; max-width: 8.5in; margin: 0 auto 20px auto; padding: 0.5in; box-sizing: border-box; box-shadow: 0 4px 10px rgba(0,0,0,0.3); position: relative; }
         .content-layer { position: relative; z-index: 2; height: 100%; }
 
         /* Typography */
-        h1 { border-bottom: 3px solid #2c3e50; padding-bottom: 5px; color: #2c3e50; font-size: 20px; margin-top: 0; margin-bottom: 10px;}
-        h2 { color: #e67e22; margin-top: 0px; margin-bottom: 5px; font-size: 18px; text-transform: uppercase; }
-        .stage-title { font-size: 14px; color: #7f8c8d; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 15px; font-weight: bold; }
+        .level-main-title { text-align: center; font-size: 24px; color: #2c3e50; border-bottom: 3px solid #e67e22; padding-bottom: 10px; margin-top: 0; margin-bottom: 30px; text-transform: uppercase; font-weight: 900;}
+        .stage-title { font-size: 16px; color: #7f8c8d; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 20px; font-weight: bold; border-bottom: 2px solid #ecf0f1; padding-bottom: 5px; margin-top: 30px;}
+        
+        .exercise-block { break-inside: avoid; page-break-inside: avoid; margin-bottom: 35px; }
+        .exercise-block h2 { color: #e67e22; margin-top: 0px; margin-bottom: 5px; font-size: 18px; text-transform: uppercase; }
         .instructions { font-style: italic; color: #555; margin-bottom: 15px; font-size: 13px; margin-top: 0; }
         
         .grammar-notes { background-color: #f7fafc; border-left: 4px solid #2c3e50; padding: 12px; margin-bottom: 20px; font-size: 13px;}
@@ -53,10 +54,10 @@
         #loading-indicator { color: #ecc94b; margin-top: 15px; font-weight: bold; text-align: center; display: none; }
 
         @media print {
-            body { background-color: white; margin: 0; padding: 0; }
+            body { background-color: white; margin: 0; padding: 0; -webkit-print-color-adjust: exact; }
             .no-print { display: none !important; }
-            @page { size: letter portrait; margin: 0; }
-            .page { box-shadow: none; margin: 0; page-break-after: always; height: 100vh; }
+            @page { size: letter portrait; margin: 0.5in; }
+            .page-continuous { box-shadow: none; margin: 0; padding: 0; max-width: 100%; width: 100%; break-after: page; page-break-after: always;}
         }
     </style>
 </head>
@@ -107,7 +108,6 @@
         const repoApiUrl = 'https://api.github.com/repos/scottscalici/spanishgym/contents/grammar';
         let currentGrammarData = null;
 
-        // 1. Fetch JSON files from GitHub on Load
         async function initFolder() {
             try {
                 const response = await fetch(repoApiUrl);
@@ -145,7 +145,6 @@
 
         initFolder();
 
-        // 2. Load Specific JSON when selected in dropdown
         async function fetchAndLoadTopic() {
             const topicUrl = document.getElementById('topic-selector').value;
             if (!topicUrl) return;
@@ -160,7 +159,7 @@
                 currentGrammarData = await response.json();
                 
                 loadingText.style.display = 'none';
-                buildStageCheckboxes(); // Populate the stage boxes automatically
+                buildStageCheckboxes(); 
                 
             } catch (error) {
                 loadingText.innerText = "Error: No se pudo cargar el archivo.";
@@ -168,14 +167,12 @@
             }
         }
 
-        // 3. Dynamically build the Stage Checkboxes based on the JSON
         function buildStageCheckboxes() {
             if (!currentGrammarData) return;
             let levelKey = document.getElementById('level-selector').value;
             const stagesContainer = document.getElementById('dynamic-stages');
             stagesContainer.innerHTML = ''; 
 
-            // If "All Levels" is selected, just use level_1 to find the stage names (assuming parallel structure)
             if (levelKey === 'all') {
                 levelKey = 'level_1'; 
             }
@@ -193,7 +190,6 @@
             });
         }
 
-        // Utility: Randomizer
         function shuffleArray(array) {
             let shuffled = [...array];
             for (let i = shuffled.length - 1; i > 0; i--) {
@@ -203,7 +199,6 @@
             return shuffled;
         }
 
-        // 4. THE SMART ASSEMBLER
         function generateWorkbook() {
             if (!currentGrammarData) {
                 alert("Por favor, selecciona un tema de la lista primero.");
@@ -224,7 +219,6 @@
             let masterKeyHTML = ''; 
             const topicName = currentGrammarData.grammar_topic;
 
-            // Determine which levels to loop through
             let levelsToProcess = [];
             if (levelKey === 'all') {
                 levelsToProcess = ['level_1', 'level_2', 'level_3'];
@@ -232,13 +226,17 @@
                 levelsToProcess = [levelKey];
             }
 
-            // Master Loop: Levels -> Stages -> Exercises
             levelsToProcess.forEach(currentLevelKey => {
                 const levelData = currentGrammarData.levels[currentLevelKey];
-                if (!levelData) return; // Skip if a level isn't built yet
+                if (!levelData) return; 
 
-                // Create a clear Answer Key header for this specific level's variations
-                masterKeyHTML += `<h2 style="margin-top: 30px; border-bottom: 2px solid #2c3e50; color: #2c3e50;">Clave: ${currentLevelKey.toUpperCase()}</h2>`;
+                // Start a Continuous Page for the specific Level
+                html += `<div class="page-continuous"><div class="content-layer">`;
+                
+                let readableLevel = currentLevelKey.replace('_', ' ').toUpperCase();
+                html += `<h1 class="level-main-title">${topicName} - ${readableLevel}</h1>`;
+
+                masterKeyHTML += `<h2 style="margin-top: 30px; border-bottom: 2px solid #2c3e50; color: #2c3e50;">Clave: ${readableLevel}</h2>`;
 
                 levelData.stages.forEach(stage => {
                     if (!selectedStageIds.includes(stage.stage_id)) return;
@@ -246,34 +244,17 @@
                     const exercisesToRender = stage.exercises.filter(ex => selectedActivities.includes(ex.activity_tag));
                     if (exercisesToRender.length === 0) return; 
 
-                    const headerTitle = `${topicName}`;
-                    const subHeader = `${stage.stage_title}`;
+                    html += `<div class="stage-title">${stage.stage_title}</div>`;
 
                     exercisesToRender.forEach(exercise => {
                         
-                        // Page Break Logic
-                        if (['notes_and_matching', 'multiple_choice', 'fill_in_the_blank_sentences', 'cloze_paragraph_inline', 'transformation', 'open_response'].includes(exercise.type)) {
-                            if (html !== '' && exercise.type !== 'error_correction' && exercise.type !== 'cloze_paragraph_bank') {
-                                 html += `</div></div>`;
-                            }
-                            if (exercise.type !== 'error_correction' && exercise.type !== 'cloze_paragraph_bank') {
-                                html += `
-                                    <div class="page">
-                                        <div class="watermark"></div>
-                                        <div class="content-layer">
-                                            <h1>${headerTitle}</h1>
-                                            <div class="stage-title">${subHeader}</div>
-                                `;
-                            }
-                        }
-
+                        html += `<div class="exercise-block">`;
                         html += `<h2>${exercise.gym_label}</h2>`;
                         html += `<p class="instructions">${exercise.instructions}</p>`;
 
                         let pulledItems = shuffleArray(exercise.bank).slice(0, exercise.pull_count);
                         let keyContent = [];
 
-                        // HTML RENDERING BY TYPE
                         if (exercise.type === 'notes_and_matching') {
                             html += `<div class="grammar-notes"><ul>`;
                             exercise.notes_content.forEach(note => html += `<li>${note}</li>`);
@@ -351,18 +332,19 @@
                             });
                         }
 
-                        masterKeyHTML += `<div class="key-section"><h3>${subHeader} - ${exercise.gym_label}</h3>${keyContent.join(" | ")}</div>`;
+                        html += `</div>`; // Close exercise-block
+                        masterKeyHTML += `<div class="key-section"><h3>${stage.stage_title} - ${exercise.gym_label}</h3>${keyContent.join(" | ")}</div>`;
                     });
                 });
-            }); // End Levels Loop
-            
-            if (html !== '') html += `</div></div>`;
 
+                html += `</div></div>`; // Close content-layer & page-continuous for this Level
+            });
+            
             // Append the Answer Key at the very end
             html += `
-                <div class="page">
+                <div class="page-continuous">
                     <div class="content-layer">
-                        <h1>Claves de Respuestas: ${topicName}</h1>
+                        <h1 class="level-main-title">Claves de Respuestas: ${topicName}</h1>
                         ${masterKeyHTML}
                     </div>
                 </div>
