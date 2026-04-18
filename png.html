@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Gym Cover Generator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --brand-dark: #111827;
+            --brand-yellow: #FBBF24;
+            --brand-orange: #EA580C;
+            --brand-white: #F9FAFB;
+        }
+        body {
+            font-family: 'Montserrat', sans-width;
+            margin: 0;
+            padding: 20px;
+            background: #f0f2f5;
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+        }
+        /* Editor Panel */
+        .controls {
+            width: 350px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .controls h2 { margin-top: 0; }
+        label { font-weight: bold; font-size: 14px; }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-family: inherit;
+            box-sizing: border-box;
+        }
+        button {
+            background: var(--brand-orange);
+            color: white;
+            border: none;
+            padding: 12px;
+            font-weight: bold;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        button:hover { background: #c2410c; }
+
+        /* Preview Canvas (1080x1080 for TpT square thumbnails) */
+        .canvas-container {
+            width: 800px; /* Scaled down for screen viewing */
+            height: 800px;
+            background: white;
+            box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+            overflow: hidden;
+            position: relative;
+        }
+        
+        #capture-area {
+            width: 1080px; /* Actual export size */
+            height: 1080px;
+            background: linear-gradient(135deg, var(--brand-dark) 0%, #1f2937 100%);
+            color: var(--brand-white);
+            position: absolute;
+            top: 0; left: 0;
+            transform: scale(0.7407); /* 800 / 1080 */
+            transform-origin: top left;
+            padding: 80px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Cover Design Elements */
+        .header-tag {
+            color: var(--brand-yellow);
+            font-weight: 900;
+            font-size: 32px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .main-title {
+            font-size: 110px;
+            font-weight: 900;
+            line-height: 1;
+            margin: 10px 0 20px 0;
+            text-transform: uppercase;
+            text-shadow: 4px 4px 0px rgba(0,0,0,0.5);
+        }
+        .sub-title {
+            font-size: 45px;
+            font-weight: 700;
+            background: var(--brand-orange);
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            flex-grow: 1;
+        }
+        .feature-item {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-left: 6px solid var(--brand-yellow);
+            border-radius: 4px;
+            font-size: 24px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .footer-bar {
+            text-align: center;
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--brand-yellow);
+            border-top: 2px dashed rgba(255,255,255,0.2);
+            padding-top: 30px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="controls">
+        <h2>Cover Generator</h2>
+        
+        <label>Header Tagline</label>
+        <input type="text" id="input-tag" value="THE SPANISH GYM" oninput="updateText('tag', this.value)">
+        
+        <label>Main Title</label>
+        <input type="text" id="input-title" value="MEGA BUNDLE" oninput="updateText('title', this.value)">
+        
+        <label>Subtitle</label>
+        <input type="text" id="input-subtitle" value="YEAR 2: PROGRAMAS 10-21" oninput="updateText('subtitle', this.value)">
+        
+        <label>Feature 1</label>
+        <input type="text" value="🏋️ 12 Complete Programs" oninput="updateFeature(1, this.value)">
+        
+        <label>Feature 2</label>
+        <input type="text" value="📄 900+ Core Words" oninput="updateFeature(2, this.value)">
+        
+        <label>Feature 3</label>
+        <input type="text" value="🛑 Versions A & B" oninput="updateFeature(3, this.value)">
+        
+        <label>Feature 4</label>
+        <input type="text" value="✅ Differentiated Output" oninput="updateFeature(4, this.value)">
+        
+        <label>Footer Text</label>
+        <input type="text" value="SCAFFOLDED VOCABULARY & GRAMMAR TRAINING" oninput="updateText('footer', this.value)">
+        
+        <button onclick="downloadPNG()">Download PNG (1080x1080)</button>
+    </div>
+
+    <div class="canvas-container">
+        <div id="capture-area">
+            <div>
+                <div class="header-tag" id="val-tag">THE SPANISH GYM</div>
+                <div class="main-title" id="val-title">MEGA BUNDLE</div>
+                <div class="sub-title" id="val-subtitle">YEAR 2: PROGRAMAS 10-21</div>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-item" id="feat-1">🏋️ 12 Complete Programs</div>
+                <div class="feature-item" id="feat-2">📄 900+ Core Words</div>
+                <div class="feature-item" id="feat-3">🛑 Versions A & B</div>
+                <div class="feature-item" id="feat-4">✅ Differentiated Output</div>
+            </div>
+
+            <div class="footer-bar" id="val-footer">
+                SCAFFOLDED VOCABULARY & GRAMMAR TRAINING
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Live update DOM elements
+        function updateText(id, value) {
+            document.getElementById('val-' + id).innerText = value;
+        }
+
+        function updateFeature(num, value) {
+            document.getElementById('feat-' + num).innerText = value;
+        }
+
+        // Export to PNG using html2canvas
+        function downloadPNG() {
+            const captureArea = document.getElementById('capture-area');
+            
+            // Temporarily remove the scale transform so html2canvas captures the full 1080x1080 resolution
+            const originalTransform = captureArea.style.transform;
+            captureArea.style.transform = 'none';
+
+            html2canvas(captureArea, {
+                scale: 1, // 1:1 scale of the 1080x1080 div
+                useCORS: true,
+                backgroundColor: null
+            }).then(canvas => {
+                // Restore the scale for viewing
+                captureArea.style.transform = originalTransform;
+
+                // Create download link
+                const image = canvas.toDataURL("image/png");
+                const link = document.createElement('a');
+                link.href = image;
+                link.download = 'Spanish-Gym-Cover.png';
+                link.click();
+            });
+        }
+    </script>
+</body>
+</html>
