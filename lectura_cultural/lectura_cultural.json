@@ -13071,8 +13071,1223 @@
         ]
       }
     }
+  },
+{
+    "topicName": "Tikal",
+    "imageFileName": "tikal.png",
+    "bundles": ["geografia_y_maravillas", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Deep in the heart of the lush, green jungle of Guatemala lies one of the most incredible ancient cities in the world: Tikal. More than a thousand years ago, this massive city was the beating heart of the brilliant Mayan civilization. At its peak, Tikal was home to tens of thousands of people and served as a powerful center for trade, religion, and advanced astronomy.\n\nThe most famous and breathtaking features of Tikal are its towering stone pyramids. The most iconic structure is known as the Temple of the Great Jaguar, which rises high above the thick jungle canopy. The Mayans built these incredible 'pirámides' (pyramids) entirely by hand, without the use of metal tools or modern machinery. They used them for important religious ceremonies and to carefully study the stars and planets in the night sky.\n\nWhat makes Tikal completely unique is its location. The ruins are hidden inside the massive Maya Biosphere Reserve in the northern region of El Petén. As you walk through the ancient 'ciudad' (city), you are surrounded by the loud, echoing sounds of nature. It is very common to see colorful toucans flying above or hear loud howler monkeys swinging through the tall trees.\n\nMysteriously, around the year 900, the Mayans abandoned this magnificent city, and the jungle slowly covered the grand stone temples. For centuries, Tikal remained a hidden secret. Today, it is proudly protected as a UNESCO World Heritage site. It allows thousands of amazed visitors to step back in time and explore the brilliant history of the ancient Mayan people.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is the ancient city of Tikal located?",
+          "What brilliant civilization built this massive city more than a thousand years ago?",
+          "What is the most iconic towering stone structure in the city known as?",
+          "How did the Mayans build these incredible pyramids without modern machinery?",
+          "What did they carefully study from the top of the pyramids in the night sky?",
+          "What loud animals is it very common to hear swinging through the tall trees?",
+          "What slowly covered the grand stone temples after the city was abandoned?"
+        ],
+        "answerKey": [
+          "Deep in the lush, green jungle of Guatemala (El Petén).",
+          "The Mayan civilization.",
+          "The Temple of the Great Jaguar.",
+          "They built them entirely by hand.",
+          "The stars and planets.",
+          "Howler monkeys.",
+          "The jungle."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "En lo profundo de la selva verde y hermosa de Guatemala está una de las ciudades antiguas más increíbles del mundo: Tikal. Hace más de mil años, esta ciudad enorme era el centro de la brillante civilización maya. En su mejor momento, Tikal tenía decenas de miles de personas y era un lugar muy poderoso para el comercio, la religión y la astronomía avanzada.\n\nLas características más famosas e impresionantes de Tikal son sus pirámides de piedra muy altas. La estructura más icónica es conocida como el Templo del Gran Jaguar, que se levanta por encima de los árboles de la selva. Los mayas construyeron estas pirámides increíbles completamente a mano, sin usar herramientas de metal o máquinas modernas. Ellos las usaban para ceremonias religiosas importantes y para estudiar cuidadosamente las estrellas y los planetas en el cielo.\n\nLo que hace a Tikal completamente única es su ubicación especial. Las ruinas están escondidas dentro de una reserva natural masiva en la región de El Petén. Cuando tú caminas por la ciudad antigua, estás rodeado por los sonidos fuertes de la naturaleza. Es muy común ver tucanes coloridos volando en el aire o escuchar a los monos aulladores en los árboles altos.\n\nMisteriosamente, cerca del año 900, los mayas abandonaron esta ciudad magnífica y la selva cubrió lentamente los templos grandes. Por muchos siglos, Tikal fue un secreto escondido. Hoy en día, es protegida con orgullo como un sitio de Patrimonio de la Humanidad. Permite a miles de visitantes sorprendidos viajar en el tiempo y explorar la gran historia del pueblo maya antiguo.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde está ubicada la ciudad antigua e increíble de Tikal?",
+          "¿De qué civilización brillante era el centro esta ciudad enorme?",
+          "¿Cómo se conoce la estructura más icónica que se levanta por encima de los árboles?",
+          "¿Cómo construyeron los mayas estas pirámides increíbles sin máquinas modernas?",
+          "¿Qué estudiaban ellos cuidadosamente en el cielo desde las pirámides?",
+          "¿Qué animales ruidosos es muy común escuchar en los árboles altos?",
+          "¿Qué cubrió lentamente los templos grandes cuando los mayas abandonaron la ciudad?"
+        ],
+        "answerKey": [
+          "En lo profundo de la selva verde y hermosa de Guatemala (El Petén).",
+          "De la civilización maya.",
+          "Se conoce como el Templo del Gran Jaguar.",
+          "Las construyeron completamente a mano.",
+          "Estudiaban las estrellas y los planetas.",
+          "Los monos aulladores.",
+          "La selva."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Oculta en la densa y exuberante selva del norte de Guatemala se encuentra Tikal, una de las metrópolis más deslumbrantes y monumentales de la antigua civilización maya. Durante su época de máximo esplendor en el periodo Clásico, esta majestuosa ciudad albergaba a decenas de miles de habitantes y funcionaba como un epicentro indiscutible de poder político, económico y astronómico en toda Mesoamérica.\n\nEl rasgo más imponente de Tikal es su extraordinaria arquitectura monumental, dominada por altísimas pirámides escalonadas de piedra caliza. La edificación más emblemática es el Templo del Gran Jaguar, una estructura colosal que se eleva majestuosamente por encima del espeso dosel selvático. Los antiguos ingenieros mayas construyeron estos templos sagrados sin la ayuda de herramientas metálicas ni bestias de carga, utilizándolos para realizar ceremonias rituales complejas y para observar los movimientos precisos de los astros.\n\nLo que confiere a Tikal un carácter verdaderamente mágico es su perfecta simbiosis con el entorno natural. El yacimiento arqueológico está enclavado en el corazón de la Reserva de la Biosfera Maya, en la región de El Petén. Recorrer sus calzadas milenarias implica sumergirse en una selva vibrante, donde el ensordecedor rugido de los monos saraguatos y el vuelo de tucanes multicolores acompañan cada paso del visitante.\n\nPor razones que aún debaten los historiadores, la ciudad fue misteriosamente abandonada alrededor del siglo diez, siendo devorada lentamente por la vegetación implacable. Permaneció oculta durante siglos hasta su redescubrimiento. Hoy en día, Tikal ostenta el doble título de Patrimonio Cultural y Natural de la Humanidad por la UNESCO, erigiéndose como un testimonio eterno del inigualable ingenio arquitectónico y cultural del pueblo maya.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué país y tipo de entorno se encuentra esta metrópolis monumental maya?",
+          "¿Como qué funcionaba esta ciudad durante su época de máximo esplendor en Mesoamérica?",
+          "¿Cuál es la edificación colosal más emblemática construida con piedra caliza?",
+          "¿Para qué utilizaban los antiguos ingenieros mayas estos majestuosos templos sagrados?",
+          "¿En qué región y reserva específica está enclavado el yacimiento arqueológico?",
+          "¿Qué animales acompañan cada paso del visitante con su rugido o su vuelo?",
+          "¿Qué implacable fuerza devoró la ciudad tras ser misteriosamente abandonada?"
+        ],
+        "answerKey": [
+          "Se encuentra oculta en la densa y exuberante selva de Guatemala.",
+          "Como un epicentro indiscutible de poder político, económico y astronómico.",
+          "El Templo del Gran Jaguar.",
+          "Para realizar ceremonias rituales complejas y observar los movimientos de los astros.",
+          "En la Reserva de la Biosfera Maya, en la región de El Petén.",
+          "Los monos saraguatos y los tucanes multicolores.",
+          "La vegetación implacable (la selva)."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "La Gran Pirámide de Cholula",
+    "imageFileName": "cholula.png",
+    "bundles": ["geografia_y_maravillas", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Located in the colorful state of Puebla, Mexico, the Great Pyramid of Cholula is a truly massive ancient structure. Many people think the Great Pyramid of Giza in Egypt is the largest, but Cholula actually holds the record for the largest pyramid base in the entire world. In the local Nahuatl language, its name is 'Tlachihualtepetl,' which means 'man-made mountain.' Because it is covered in grass and trees, it looks like a natural hill instead of a giant building.\n\nThis incredible 'pirámide' (pyramid) was built over many centuries by different indigenous groups. It was a very important religious center where thousands of people gathered to worship their gods. Unlike Egyptian pyramids that are mostly hollow inside, Cholula was built in several layers, like a giant onion. Each new generation of leaders built a bigger structure right on top of the old one. This created a massive platform that is almost 1,500 feet wide on each side.\n\nWhen the Spanish explorers arrived in the year 1519, they were amazed by the city but did not realize there was a giant pyramid hidden under the dirt and plants. On the very top of the hill, they built a beautiful yellow church called 'Nuestra Señora de los Remedios.' Today, this site is famous because it shows a unique mixture of indigenous and Spanish history. \n\nVisitors can explore the interior of the pyramid through a long network of 'túneles' (tunnels) that archaeologists have created. From the top of the pyramid, you can see a spectacular view of the active volcano Popocatépetl. It is a powerful symbol of Mexican identity and ancient engineering.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "In what Mexican state is the Great Pyramid of Cholula located?",
+          "What does the name 'Tlachihualtepetl' mean in the Nahuatl language?",
+          "Why does the pyramid look like a natural hill today?",
+          "How was the pyramid built differently than Egyptian pyramids?",
+          "What did the Spanish build on the very top of the pyramid?",
+          "What can visitors use to explore the interior of the structure?",
+          "What active volcano can you see from the top of the pyramid?"
+        ],
+        "answerKey": [
+          "In the state of Puebla, Mexico.",
+          "It means 'man-made mountain.'",
+          "Because it is covered in grass and trees.",
+          "It was built in several layers on top of each other like an onion.",
+          "A yellow church called 'Nuestra Señora de los Remedios.'",
+          "A long network of tunnels (túneles).",
+          "The volcano Popocatépetl."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Situada en el estado de Puebla, México, la Gran Pirámide de Cholula es una estructura antigua verdaderamente enorme. Muchas personas creen que la Gran Pirámide de Giza en Egipto es la más grande, pero Cholula tiene la base más grande de todo el mundo. En la lengua náhuatl, su nombre es 'Tlachihualtepetl', que significa 'montaña hecha a mano'. Porque está cubierta de hierba y árboles, parece una colina natural en vez de un edificio gigante.\n\nEsta pirámide increíble fue construida durante muchos siglos por diferentes grupos indígenas. Era un centro religioso muy importante donde miles de personas iban para adorar a sus dioses. A diferencia de las pirámides de Egipto, Cholula fue construida en varias capas, como una cebolla gigante. Cada nueva generación de líderes construía una estructura más grande encima de la anterior. Esto creó una plataforma masiva de casi 450 metros por cada lado.\n\nCuando los exploradores españoles llegaron en el año 1519, ellos no comprendieron que había una pirámide debajo de la tierra y las plantas. En la parte más alta de la colina, ellos construyeron una iglesia amarilla muy bonita llamada 'Nuestra Señora de los Remedios'. Hoy en día, este sitio es famoso porque muestra una mezcla única de la historia indígena y española.\n\nLos visitantes pueden explorar el interior de la pirámide a través de una red larga de túneles que los arqueólogos crearon. Desde la cima de la pirámide, puedes ver una vista espectacular del volcán activo Popocatépetl. Es un símbolo muy poderoso de la identidad mexicana y de la ingeniería antigua de los antepasados.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué estado de México está situada la Gran Pirámide de Cholula?",
+          "¿Qué significa el nombre 'Tlachihualtepetl' en la lengua náhuatl?",
+          "¿Por qué la pirámide parece una colina natural hoy en día?",
+          "¿Cómo fue construida la pirámide de Cholula en comparación con una cebolla?",
+          "¿Qué construyeron los españoles en la parte más alta de la pirámide?",
+          "¿Qué pueden usar los visitantes para explorar el interior del edificio?",
+          "¿Qué volcán activo es posible ver desde la cima de la pirámide?"
+        ],
+        "answerKey": [
+          "En el estado de Puebla, México.",
+          "Significa 'montaña hecha a mano'.",
+          "Porque está cubierta de hierba y árboles.",
+          "Fue construida en varias capas, una encima de la otra.",
+          "Una iglesia amarilla llamada 'Nuestra Señora de los Remedios'.",
+          "Una red larga de túneles.",
+          "El volcán Popocatépetl."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Ubicada en el histórico estado de Puebla, la Gran Pirámide de Cholula, conocida en náhuatl como Tlachihualtepetl o 'montaña hecha a mano', ostenta el título de ser el basamento piramidal más grande del mundo por volumen. A pesar de que su altura no supera a la de Giza, su base monumental de 450 metros por lado la convierte en una proeza arquitectónica sin precedentes en la historia de la humanidad. Actualmente, su apariencia externa engaña al ojo inexperto, ya que siglos de abandono y vegetación la han hecho parecer una elevación natural del terreno.\n\nLa construcción de este coloso se extendió a lo largo de casi un milenio, desde el siglo III a.C. hasta el siglo IX d.C. Su estructura es el resultado de sucesivas superposiciones; es decir, cada fase constructiva cubría la anterior, creando un complejo sistema de capas que servía como el centro espiritual y ceremonial más relevante del México antiguo. Miles de peregrinos acudían a sus faldas para rendir tributo a deidades como Quetzalcóatl.\n\nCon la llegada de las tropas españolas en 1519, el sitio experimentó una transformación radical. Sobre la cima de la pirámide, que para entonces ya estaba oculta por la tierra, los colonizadores erigieron la Iglesia de Nuestra Señora de los Remedios. Este acto de sincretismo religioso creó uno de los paisajes más icónicos de México: un templo católico de cúpulas brillantes descansando sobre los cimientos de una civilización milenaria.\n\nEn la actualidad, el sitio arqueológico ofrece una experiencia fascinante a través de sus ocho kilómetros de túneles explorables, permitiendo a los estudiosos y turistas descifrar los secretos de su edificación. La majestuosidad del sitio se ve realzada por la presencia del volcán Popocatépetl, que vigila desde el horizonte la herencia inmutable de Cholula.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué título ostenta la Gran Pirámide de Cholula a nivel mundial?",
+          "¿Qué significa el término náhuatl 'Tlachihualtepetl'?",
+          "¿Por qué la apariencia externa de la pirámide suele engañar a los visitantes?",
+          "¿Durante qué periodo de tiempo se llevó a cabo la construcción de este coloso?",
+          "¿En qué consistía el proceso de 'superposiciones' en su estructura?",
+          "¿Qué edificio icónico erigieron los colonizadores sobre la cima de la pirámide?",
+          "¿Qué elementos permiten hoy en día explorar los secretos internos de la edificación?"
+        ],
+        "answerKey": [
+          "Es el basamento piramidal más grande del mundo por volumen.",
+          "Significa 'montaña hecha a mano'.",
+          "Parece una elevación natural debido a los siglos de abandono y vegetación.",
+          "Desde el siglo III a.C. hasta el siglo IX d.C.",
+          "En que cada fase constructiva nueva cubría a la anterior.",
+          "La Iglesia de Nuestra Señora de los Remedios.",
+          "Ocho kilómetros de túneles explorables."
+        ]
+      }
+    }
+  },
+{
+    "topicName": "El Lago de Atitlán",
+    "imageFileName": "atitlan.png",
+    "bundles": ["geografia_y_maravillas", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Lake Atitlán is a breathtakingly beautiful and famous 'lago' located in the highlands of Guatemala. Many people and travelers from all over the world consider it the most beautiful lake on the entire planet. This massive body of water was formed about 84,000 years ago by a gigantic volcanic eruption. Today, the lake is situated inside a massive volcanic caldera, which is a large crater that looks like a giant bowl.\n\nOne of the most spectacular things about Lake Atitlán is that it is surrounded by three towering, majestic 'volcanes' (volcanoes): Volcán Atitlán, Volcán Tolimán, and Volcán San Pedro. These mountains create a landscape that is truly unforgettable. The lake is also incredibly deep, reaching depths of over 1,000 feet, making it the deepest lake in all of Central America. The water is famous for its bright blue color, but it can change depending on the sunlight and the wind.\n\nAll around the shore of the lake, there are many colorful 'pueblos' (towns) where the indigenous Maya people live. Each town has its own unique personality and traditional 'huipiles' (hand-woven blouses). The people here are very proud of their culture and still speak Mayan languages like Kaqchikel and Tz'utujil. \n\nVisitors can travel between the different towns by taking small boats called 'lanchas.' The area is perfect for hiking, exploring local markets, and learning about ancient traditions. Lake Atitlán is not just a natural wonder; it is a sacred place for the Maya people. It remains a powerful symbol of Guatemala's natural beauty and its rich, living history that continues to inspire everyone who visits.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is the famous Lake Atitlán located?",
+          "How was this massive body of water formed 84,000 years ago?",
+          "What are the names of the three volcanoes that surround the lake?",
+          "How deep is Lake Atitlán compared to other lakes in Central America?",
+          "Who lives in the colorful towns around the shore of the lake?",
+          "What are the hand-woven traditional blouses called?",
+          "What are the small boats used to travel between towns called?"
+        ],
+        "answerKey": [
+          "In the highlands of Guatemala.",
+          "By a gigantic volcanic eruption.",
+          "Atitlán, Tolimán, and San Pedro.",
+          "It is the deepest lake in Central America (over 1,000 feet).",
+          "The indigenous Maya people.",
+          "They are called huipiles.",
+          "They are called lanchas."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El Lago de Atitlán es uno de los destinos más hermosos y famosos del mundo, situado en las tierras altas de Guatemala. Muchos viajeros y personas locales creen que es el lago más bonito del planeta. Este cuerpo de agua enorme se formó hace aproximadamente 84,000 años después de una erupción volcánica gigante. Hoy, el lago está dentro de una caldera volcánica masiva, que es un cráter muy grande con forma de tazón.\n\nAlgo muy espectacular del Lago de Atitlán es que está rodeado por tres volcanes majestuosos y muy altos: el Volcán Atitlán, el Volcán Tolimán y el Volcán San Pedro. Estas montañas crean un paisaje que es verdaderamente inolvidable. El lago también es increíblemente profundo y alcanza más de 340 metros de profundidad. Por esta razón, es el lago más profundo de toda Centroamérica. El agua es famosa por su color azul brillante, pero el color puede cambiar con la luz del sol y el viento.\n\nAlrededor del lago, hay muchos pueblos coloridos donde viven las personas indígenas mayas. Cada pueblo tiene su propia personalidad y usan huipiles tradicionales, que son blusas hechas a mano con colores brillantes. Las personas están muy orgullosas de su cultura y todavía hablan lenguas mayas como el kaqchikel y el tz'utujil.\n\nLos visitantes pueden viajar entre los pueblos usando botes pequeños llamados lanchas. El área es perfecta para caminar en la naturaleza, visitar mercados locales y aprender sobre tradiciones antiguas. El Lago de Atitlán no es solo una maravilla natural; es un lugar sagrado para los mayas. Sigue siendo un símbolo de la belleza natural de Guatemala y de su historia viva.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde está situado el famoso Lago de Atitlán?",
+          "¿Hace cuántos años se formó este lago después de una erupción volcánica?",
+          "¿Cuáles son los nombres de los tres volcanes que rodean el lago?",
+          "¿Cuál es la profundidad máxima del lago en metros?",
+          "¿Qué tipo de personas viven en los pueblos coloridos alrededor del lago?",
+          "¿Qué lenguas mayas todavía hablan las personas de la región?",
+          "¿Cómo se llaman los botes pequeños que usan los visitantes para viajar?"
+        ],
+        "answerKey": [
+          "En las tierras altas de Guatemala.",
+          "Hace aproximadamente 84,000 años.",
+          "El Volcán Atitlán, el Volcán Tolimán y el Volcán San Pedro.",
+          "Más de 340 metros.",
+          "Las personas indígenas mayas.",
+          "Hablan kaqchikel y tz'utujil.",
+          "Se llaman lanchas."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Ubicado en el altiplano guatemalteco, el Lago de Atitlán es frecuentemente aclamado como el espejo de agua más espectacular y cautivador del mundo. Esta maravilla geológica se originó hace unos 84,000 años a raíz de una colosal erupción volcánica conocida como 'Los Chocoyos'. Tras el evento, el colapso de la cámara magmática dio lugar a una vasta caldera volcánica que hoy alberga las aguas cristalinas del lago.\n\nLa majestuosidad del entorno se ve realzada por la presencia imponente de tres volcanes que custodian sus orillas: Atitlán, Tolimán y San Pedro. Estos gigantes de piedra configuran un horizonte inigualable que ha fascinado a artistas y escritores durante décadas. Con una profundidad que supera los 340 metros, Atitlán ostenta el título de ser el lago más profundo de Centroamérica. Sus aguas son célebres por el fenómeno del 'Xocomil', un viento fuerte que agita la superficie del lago durante las tardes, alterando sus tonalidades azuladas y verdosas.\n\nMás allá de su esplendor natural, el lago es el corazón palpitante de la cultura maya viva. En sus márgenes se asientan numerosos pueblos pintorescos, como Panajachel y Santiago Atitlán, donde las comunidades kaqchikel y tz'utujil preservan con celo sus tradiciones milenarias. Los habitantes lucen con orgullo sus huipiles, cuyos diseños intrincados narran la cosmogonía de sus ancestros.\n\nPara el visitante, el lago ofrece una experiencia inmersiva mediante el uso de lanchas que conectan las diversas aldeas. Atitlán es un santuario de espiritualidad donde la naturaleza y la herencia maya convergen en perfecta armonía. Su inmensidad y misterio continúan siendo un pilar fundamental de la identidad guatemalteca y un tesoro invaluable del patrimonio natural latinoamericano.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué evento geológico dio origen a la formación del Lago de Atitlán?",
+          "¿Cómo se conoce técnicamente a la estructura de tazón donde se aloja el lago?",
+          "¿Qué tres imponentes volcanes custodian las orillas del lago?",
+          "¿Qué fenómeno eólico agita las aguas del lago durante las tardes?",
+          "¿Qué etnias mayas predominan en los pueblos que rodean el lago?",
+          "¿Qué elementos de la vestimenta tradicional narran la cosmogonía de los ancestros?",
+          "¿Por qué se considera al Lago de Atitlán un santuario de espiritualidad?"
+        ],
+        "answerKey": [
+          "Una colosal erupción volcánica conocida como 'Los Chocoyos'.",
+          "Se conoce como una caldera volcánica.",
+          "El Volcán Atitlán, el Volcán Tolimán y el Volcán San Pedro.",
+          "El fenómeno del 'Xocomil'.",
+          "Las etnias kaqchikel y tz'utujil.",
+          "Los huipiles con diseños intrincados.",
+          "Porque es el lugar donde convergen la naturaleza y la herencia maya en armonía."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Roatán",
+    "imageFileName": "roatan.png",
+    "bundles": ["geografia_y_maravillas", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Located in the crystal-clear waters of the Caribbean Sea, Roatán is the largest and most famous of the Bay Islands in the beautiful country of Honduras. This tropical 'isla' (island) is a true paradise for people who love nature and the ocean. It is famous all over the world because it sits right on top of the Mesoamerican Barrier Reef. This massive coral reef is the second-largest in the entire world, making Roatán a top destination for 'buceo' (scuba diving) and snorkeling.\n\nRoatán has a very unique and fascinating history. Centuries ago, the island was home to indigenous groups. Later, it became a popular hiding place for famous European pirates, including the legendary Captain Henry Morgan. Because both the Spanish and the British controlled the island at different times in history, the culture is very diverse. Today, many people on the island speak both English and Spanish perfectly.\n\nBesides the spectacular coral reefs and colorful marine life, visitors love to relax on the white sand beaches, like the world-famous West Bay. The island is also home to the vibrant Garifuna community, especially in a town called Punta Gorda. The Garifuna people are famous for their delicious seafood, rich culture, and traditional 'punta' music and dancing.\n\nToday, Roatán strongly focuses on eco-tourism and protecting its delicate ocean environment. Local organizations work very hard to keep the coral reefs healthy and protect sea turtles. It is an unforgettable destination that beautifully combines rich Caribbean history, vibrant local culture, and some of the most breathtaking underwater landscapes on the planet.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is the famous island of Roatán located?",
+          "What massive structure sits right under the island, making it famous worldwide?",
+          "Who used the island as a popular hiding place centuries ago?",
+          "What two languages do many people on the island speak perfectly today?",
+          "What is the name of the world-famous white sand beach on the island?",
+          "What vibrant cultural community lives in a town called Punta Gorda?",
+          "What do local organizations work very hard to keep healthy and protect?"
+        ],
+        "answerKey": [
+          "In the crystal-clear waters of the Caribbean Sea (Honduras).",
+          "The Mesoamerican Barrier Reef.",
+          "Famous European pirates, including Captain Henry Morgan.",
+          "English and Spanish.",
+          "West Bay.",
+          "The Garifuna community.",
+          "The coral reefs and sea turtles."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Situada en las aguas cristalinas del Mar Caribe, Roatán es la isla más grande y famosa de las Islas de la Bahía en el hermoso país de Honduras. Esta isla tropical es un verdadero paraíso para las personas que aman la naturaleza y el océano. Es muy famosa en todo el mundo porque está sobre el Arrecife Mesoamericano. Este arrecife de coral masivo es el segundo más grande de todo el mundo. Por esta razón, Roatán es un destino excelente para el buceo y el esnórquel.\n\nRoatán tiene una historia muy única y fascinante. Hace muchos siglos, la isla era el hogar de grupos indígenas. Más tarde, se convirtió en un escondite popular para piratas europeos famosos, incluyendo al legendario Capitán Henry Morgan. Porque los españoles y los británicos controlaron la isla en diferentes momentos de la historia, la cultura es muy diversa. Hoy en día, muchas personas en la isla hablan inglés y español perfectamente.\n\nAdemás de los arrecifes espectaculares y la vida marina colorida, a los visitantes les encanta relajarse en las playas de arena blanca, como la famosa West Bay. La isla también es el hogar de la vibrante comunidad garífuna, especialmente en un pueblo llamado Punta Gorda. Los garífunas son muy famosos por su deliciosa comida del mar, su rica cultura y su baile tradicional.\n\nHoy en día, Roatán se enfoca mucho en el ecoturismo y en proteger su medio ambiente delicado. Las organizaciones locales trabajan muy duro para mantener los arrecifes saludables y proteger a las tortugas marinas. Es un destino inolvidable que combina una historia rica y paisajes hermosos.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde está situada la famosa isla de Roatán?",
+          "¿Qué estructura masiva está debajo de la isla, haciéndola muy famosa?",
+          "¿Quiénes usaron la isla como un escondite popular hace muchos siglos?",
+          "¿Qué dos idiomas hablan perfectamente muchas personas en la isla hoy en día?",
+          "¿Cómo se llama la famosa playa de arena blanca en la isla?",
+          "¿Qué comunidad vibrante vive en un pueblo llamado Punta Gorda?",
+          "¿Qué trabajan muy duro para proteger las organizaciones locales?"
+        ],
+        "answerKey": [
+          "En las aguas cristalinas del Mar Caribe (Honduras).",
+          "El Arrecife Mesoamericano.",
+          "Los piratas europeos famosos, incluyendo al Capitán Henry Morgan.",
+          "Inglés y español.",
+          "Se llama West Bay.",
+          "La comunidad garífuna.",
+          "Los arrecifes saludables y las tortugas marinas."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Enclavada en las aguas turquesas del Mar Caribe, Roatán destaca como la mayor y más deslumbrante de las Islas de la Bahía, pertenecientes a la República de Honduras. Este edén tropical es mundialmente reconocido por encontrarse sobre la barrera de coral mesoamericana, el segundo sistema arrecifal más grande del planeta. Gracias a esta inmensa biodiversidad marina, la isla se ha consolidado como un destino de clase mundial para los aficionados al buceo y al ecoturismo, ofreciendo paisajes submarinos inigualables.\n\nEl trasfondo histórico de Roatán es tan cautivador como su belleza natural. En la antigüedad, la isla fue habitada por civilizaciones indígenas antes de convertirse en un refugio estratégico para corsarios y piratas europeos, destacando la figura del infame Henry Morgan. Debido a las constantes disputas coloniales entre la corona española y el imperio británico, Roatán desarrolló un patrimonio cultural sumamente sincrético. En la actualidad, esta herencia se refleja en su bilingüismo, ya que gran parte de la población domina tanto el español como el inglés caribeño.\n\nMás allá de sus impresionantes arrecifes y playas paradisíacas como West Bay, la isla alberga una importante riqueza étnica. La comunidad garífuna, asentada principalmente en la pintoresca aldea de Punta Gorda, aporta una vitalidad única a la región mediante su exquisita gastronomía costera y sus ritmos ancestrales, reconocidos como Patrimonio Inmaterial de la Humanidad.\n\nConscientes de la fragilidad de su ecosistema, los habitantes y diversas organizaciones locales impulsan rigurosas iniciativas de conservación marina. Su objetivo primordial es preservar los delicados corales y proteger a las especies en peligro de extinción, garantizando que este tesoro caribeño perdure para las futuras generaciones de viajeros.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué mar turquesa se encuentra enclavada la deslumbrante isla de Roatán?",
+          "¿Qué sistema arrecifal de clase mundial atrae a los aficionados al buceo?",
+          "¿Para quiénes se convirtió la isla en un refugio estratégico en la antigüedad?",
+          "¿Qué idiomas domina gran parte de la población debido a las disputas coloniales?",
+          "¿Cuál es el nombre de una de las playas paradisíacas más destacadas de la isla?",
+          "¿En qué pintoresca aldea está asentada principalmente la comunidad garífuna?",
+          "¿Cuál es el objetivo primordial de las rigurosas iniciativas de conservación marina?"
+        ],
+        "answerKey": [
+          "En el Mar Caribe.",
+          "La barrera de coral mesoamericana.",
+          "Para corsarios y piratas europeos, como Henry Morgan.",
+          "Tanto el español como el inglés caribeño.",
+          "West Bay.",
+          "En la pintoresca aldea de Punta Gorda.",
+          "Preservar los delicados corales y proteger a las especies en peligro de extinción."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Tulum",
+    "imageFileName": "tulum.png",
+    "bundles": ["geografia_y_maravillas", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Located on the eastern coast of the beautiful Yucatán Peninsula in Mexico, Tulum is one of the most unique and spectacular Mayan ruins in the world. Unlike other ancient cities hidden deep inside the dark jungle, Tulum was built right on the edge of a tall, rocky cliff. This cliff overlooks the bright turquoise waters of the Caribbean Sea. Because of its incredible location, the views from the ruins are absolutely breathtaking.\n\nThe word 'Tulum' means 'wall' or 'fence' in the Mayan language. This name is perfect because the ancient city was protected by a massive stone wall on three sides and a steep ocean cliff on the fourth side. Hundreds of years ago, Tulum was a very important trading port for the Mayan people. It was a busy center where merchants from all over Central America traveled to trade valuable items like jade, honey, salt, and colorful feathers.\n\nThe most famous and photographed building in the city is called 'El Castillo' (The Castle). This tall stone structure served as a religious temple and also as a helpful 'faro' (lighthouse). The Mayans lit fires at the top of the castle to help arriving boats navigate through the dangerous coral reefs at night.\n\nToday, Tulum is a massive tourist destination that attracts millions of visitors every year. After exploring the fascinating ancient stone temples and learning about Mayan history, visitors can walk down a wooden staircase to swim in the warm, beautiful ocean. It is a magical place where ancient history and stunning coastal geography perfectly meet.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is the ancient Mayan city of Tulum located?",
+          "Where was the city built unlike other ancient cities hidden in the jungle?",
+          "What does the word 'Tulum' mean in the Mayan language?",
+          "What valuable items did merchants travel to Tulum to trade?",
+          "What is the most famous and photographed building in the city called?",
+          "What did the Mayans light at the top of the castle to help arriving boats navigate?",
+          "What can visitors do after exploring the ancient stone temples?"
+        ],
+        "answerKey": [
+          "On the eastern coast of the Yucatán Peninsula in Mexico.",
+          "Right on the edge of a tall, rocky cliff overlooking the Caribbean Sea.",
+          "It means 'wall' or 'fence'.",
+          "Jade, honey, salt, and colorful feathers.",
+          "'El Castillo' (The Castle).",
+          "They lit fires.",
+          "Walk down a wooden staircase to swim in the warm ocean."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Situada en la costa este de la hermosa Península de Yucatán en México, Tulum es una de las ruinas mayas más únicas y espectaculares del mundo. A diferencia de otras ciudades antiguas escondidas en la selva, Tulum fue construida al borde de un acantilado alto y rocoso. Este acantilado mira hacia las aguas turquesas del Mar Caribe. Por su increíble ubicación, las vistas desde las ruinas son absolutamente impresionantes.\n\nLa palabra 'Tulum' significa 'pared' o 'muro' en la lengua maya. Este nombre es perfecto porque la ciudad antigua estaba protegida por un muro de piedra masivo en tres lados y por el acantilado del océano en el cuarto lado. Hace cientos de años, Tulum fue un puerto comercial muy importante para los mayas. Era un centro ocupado donde los comerciantes viajaban para intercambiar artículos valiosos como jade, miel, sal y plumas coloridas.\n\nEl edificio más famoso y fotografiado en la ciudad se llama 'El Castillo'. Esta estructura alta de piedra funcionaba como un templo religioso y también como un faro útil. Los mayas encendían fuegos en la cima del castillo para ayudar a los barcos a navegar por los peligrosos arrecifes de coral durante la noche.\n\nHoy en día, Tulum es un gran destino turístico que atrae a millones de visitantes todos los años. Después de explorar los fascinantes templos antiguos de piedra y aprender sobre la historia maya, los visitantes pueden bajar por una escalera de madera para nadar en el océano hermoso. Es un lugar mágico donde la historia antigua y la geografía costera se encuentran perfectamente.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde está situada la ciudad antigua maya de Tulum?",
+          "¿En dónde fue construida la ciudad a diferencia de otras ciudades en la selva?",
+          "¿Qué significa la palabra 'Tulum' en la lengua maya?",
+          "¿Qué artículos valiosos intercambiaban los comerciantes en Tulum?",
+          "¿Cómo se llama el edificio más famoso y fotografiado en la ciudad?",
+          "¿Qué encendían los mayas en la cima del castillo para ayudar a los barcos?",
+          "¿Qué pueden hacer los visitantes después de explorar los templos antiguos?"
+        ],
+        "answerKey": [
+          "En la costa este de la Península de Yucatán en México.",
+          "Al borde de un acantilado alto y rocoso.",
+          "Significa 'pared' o 'muro'.",
+          "Jade, miel, sal y plumas coloridas.",
+          "Se llama 'El Castillo'.",
+          "Encendían fuegos.",
+          "Nadar en el océano hermoso."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Erigida sobre un imponente acantilado rocoso que se asoma a las cristalinas aguas turquesas del Mar Caribe, Tulum es, sin lugar a duda, uno de los enclaves arqueológicos mayas más singulares y fotogénicos de la Península de Yucatán. A diferencia de otras grandes urbes mesoamericanas asfixiadas por la densa selva, la excepcional ubicación costera de Tulum le otorga una belleza escénica incomparable.\n\nEn la antigua lengua maya, el vocablo 'Tulum' se traduce como 'muralla' o 'palizada'. Esta denominación describe perfectamente la arquitectura defensiva del asentamiento, el cual estaba flanqueado por una robusta muralla de piedra caliza en tres de sus frentes, mientras que el cuarto quedaba resguardado naturalmente por el escarpado acantilado. Durante el período Posclásico, la urbe funcionó como un estratégico y próspero puerto comercial. Mercaderes provenientes de toda Centroamérica convergían aquí para intercambiar valiosas mercancías como jade, obsidiana, miel y plumas de quetzal.\n\nLa estructura más icónica e imponente del complejo es El Castillo. Esta majestuosa edificación, situada al filo del precipicio, no solo cumplía funciones ceremoniales y astrológicas, sino que operaba como un faro rudimentario. Mediante fogatas encendidas en su cúspide, los mayas orientaban a las embarcaciones mercantes para evitar que encallaran en el traicionero sistema arrecifal mesoamericano.\n\nActualmente, Tulum es un destino turístico de renombre mundial que cautiva a millones de viajeros anualmente. Tras recorrer las imponentes ruinas y absorber la rica herencia prehispánica, los visitantes pueden descender por unas escalinatas de madera y sumergirse directamente en las cálidas aguas del mar. Es un sitio verdaderamente paradisíaco donde el legado histórico converge armónicamente con la deslumbrante geografía caribeña.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En dónde se encuentra erigida esta singular y fotogénica urbe maya?",
+          "¿Qué significa el vocablo 'Tulum' en la antigua lengua maya?",
+          "¿Cómo funcionaba la ciudad durante el período Posclásico?",
+          "¿Qué valiosas mercancías intercambiaban los mercaderes en este próspero puerto?",
+          "¿Cuál es la estructura más imponente situada al filo del precipicio?",
+          "¿Cómo operaba esta edificación majestuosa como un faro rudimentario?",
+          "¿A dónde pueden descender los visitantes tras recorrer las imponentes ruinas?"
+        ],
+        "answerKey": [
+          "Sobre un imponente acantilado rocoso que se asoma al Mar Caribe (Península de Yucatán).",
+          "Se traduce como 'muralla' o 'palizada'.",
+          "Como un estratégico y próspero puerto comercial.",
+          "Jade, obsidiana, miel y plumas de quetzal.",
+          "El Castillo.",
+          "Mediante fogatas encendidas en su cúspide para orientar a las embarcaciones.",
+          "A las cálidas aguas del mar."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Xochimilco",
+    "imageFileName": "xochimilco.png",
+    "bundles": ["geografia_y_maravillas", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Located in the southern part of the massive capital of Mexico City, Xochimilco is a beautiful, colorful, and historic place that feels like stepping back in time. Long before the Spanish arrived, the brilliant Aztec people built their great empire on a massive lake. To grow enough food for their people, they invented an incredible system of agriculture called 'chinampas' (floating gardens). They built these artificial islands out of mud, rocks, and plants, creating a massive network of water canals.\n\nToday, the lake is mostly gone, but the beautiful canals of Xochimilco remain. Millions of tourists and local families visit this magical place every year to ride on traditional, colorful boats called 'trajineras.' These bright wooden boats are painted in beautiful colors and usually have the name of a woman painted on the front. As you float down the peaceful 'canales' (canals), you can listen to live mariachi bands play traditional music and buy delicious Mexican food from passing boats.\n\nBesides its fun and festive atmosphere, Xochimilco is also extremely important for the environment. It is the only natural home in the entire world for the 'ajolote' (axolotl), a fascinating and unique aquatic salamander that looks like a smiling water monster. This amazing creature is a powerful symbol of Mexican culture and biology.\n\nBecause of its incredible ancient history, unique agriculture, and festive culture, Xochimilco was proudly named a UNESCO World Heritage site. It is a wonderful, unforgettable place where the rich, ancient history of the Aztec empire continues to live and float on the water today.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is Xochimilco located?",
+          "What incredible system of agriculture did the Aztec people invent?",
+          "What are the traditional, colorful boats in Xochimilco called?",
+          "What is usually painted on the front of the bright wooden boats?",
+          "What type of live music can you listen to as you float down the canals?",
+          "What unique aquatic salamander lives only in Xochimilco?",
+          "What was Xochimilco proudly named because of its history and culture?"
+        ],
+        "answerKey": [
+          "In the southern part of Mexico City.",
+          "They invented 'chinampas' (floating gardens).",
+          "They are called 'trajineras.'",
+          "The name of a woman.",
+          "Traditional music played by mariachi bands.",
+          "The 'ajolote' (axolotl).",
+          "A UNESCO World Heritage site."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Situado en la parte sur de la enorme capital de la Ciudad de México, Xochimilco es un lugar hermoso, colorido e histórico que parece un viaje en el tiempo. Mucho antes de que llegaran los españoles, el brillante pueblo azteca construyó su gran imperio sobre un lago masivo. Para cultivar suficiente comida para sus personas, ellos inventaron un sistema de agricultura increíble llamado 'chinampas' (jardines flotantes). Ellos construyeron estas islas artificiales usando lodo, rocas y plantas, creando una red enorme de canales de agua.\n\nHoy en día, el lago casi ha desaparecido, pero los hermosos canales de Xochimilco todavía existen. Millones de turistas y familias locales visitan este lugar mágico todos los años para pasear en barcos tradicionales y coloridos llamados 'trajineras'. Estos barcos de madera brillantes están pintados con colores muy hermosos y generalmente tienen el nombre de una mujer en la parte de enfrente. Mientras flotas por los canales tranquilos, puedes escuchar a grupos de mariachis tocar música tradicional y comprar comida mexicana deliciosa de otros barcos.\n\nAdemás de su ambiente divertido y festivo, Xochimilco también es extremadamente importante para el medio ambiente. Es el único hogar natural en todo el mundo para el ajolote, una salamandra acuática fascinante y única que parece un monstruo de agua sonriente. Esta criatura increíble es un símbolo muy poderoso de la cultura y la biología mexicana.\n\nPor su historia antigua increíble, su agricultura única y su cultura festiva, Xochimilco fue nombrado Patrimonio de la Humanidad por la UNESCO. Es un lugar maravilloso e inolvidable donde la historia antigua de los aztecas continúa viviendo hoy.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde está situado Xochimilco?",
+          "¿Qué inventó el pueblo azteca para cultivar suficiente comida?",
+          "¿Cómo se llaman los barcos tradicionales y coloridos en Xochimilco?",
+          "¿Qué tienen generalmente los barcos en la parte de enfrente?",
+          "¿A qué grupos de músicos puedes escuchar en los canales tranquilos?",
+          "¿Qué criatura fascinante y única tiene su único hogar natural en Xochimilco?",
+          "¿Qué título le dio la UNESCO a Xochimilco por su historia y cultura?"
+        ],
+        "answerKey": [
+          "En la parte sur de la capital de la Ciudad de México.",
+          "Un sistema de agricultura llamado 'chinampas'.",
+          "Se llaman 'trajineras'.",
+          "Tienen el nombre de una mujer.",
+          "A grupos de mariachis.",
+          "El ajolote (una salamandra acuática).",
+          "El título de Patrimonio de la Humanidad."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Ubicado en la zona sur de la inmensa Ciudad de México, Xochimilco es un remanso histórico y cultural que nos permite vislumbrar la majestuosidad del antiguo Imperio Azteca. Antes de la conquista española, la cuenca del Valle de México estaba dominada por un extenso sistema lacustre. Para satisfacer las necesidades agrícolas de una población creciente, los ingenieros prehispánicos desarrollaron las 'chinampas', un ingenioso sistema de islas artificiales construidas con lodo, juncos y raíces. Esta técnica transformó el lago en una red navegable de canales sumamente fértiles.\n\nEn la actualidad, aunque la mayor parte del gran lago se ha desecado, los canales milenarios de Xochimilco sobreviven como un vibrante atractivo turístico. Anualmente, millones de visitantes acuden para navegar a bordo de las famosas 'trajineras'. Estas pintorescas y coloridas embarcaciones de madera, decoradas con arreglos florales y bautizadas frecuentemente con nombres femeninos, ofrecen un recorrido festivo. Durante el trayecto, el ambiente se inunda con las melodías tradicionales de los mariachis y el aroma de la auténtica gastronomía mexicana vendida desde canoas flotantes.\n\nMás allá de su innegable atractivo folclórico, este ecosistema lacustre posee una importancia biológica invaluable. Xochimilco es el hábitat endémico y exclusivo del ajolote, un anfibio extraordinario con la capacidad de regenerar sus propias extremidades y órganos. Este simpático animal se ha consolidado como un emblema de la identidad nacional y la conservación ecológica.\n\nReconocido como Patrimonio Cultural de la Humanidad por la UNESCO en 1987, Xochimilco no es simplemente un destino de esparcimiento. Es un santuario vivo donde la herencia prehispánica, la biodiversidad única y la alegría desbordante del pueblo mexicano convergen armónicamente sobre el agua.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué zona de la Ciudad de México se ubica este remanso histórico y cultural?",
+          "¿Qué ingenioso sistema desarrollaron los ingenieros prehispánicos para sus cultivos?",
+          "¿A bordo de qué embarcaciones pintorescas navegan los millones de visitantes?",
+          "¿Con qué nombres son bautizadas frecuentemente estas embarcaciones de madera?",
+          "¿Qué melodías tradicionales inundan el ambiente durante el trayecto?",
+          "¿De qué anfibio extraordinario es Xochimilco el hábitat endémico y exclusivo?",
+          "¿Qué prestigioso título le otorgó la UNESCO a Xochimilco en 1987?"
+        ],
+        "answerKey": [
+          "En la zona sur de la inmensa Ciudad de México.",
+          "Las 'chinampas' (un sistema de islas artificiales).",
+          "A bordo de las famosas 'trajineras'.",
+          "Con nombres femeninos.",
+          "Las melodías de los mariachis.",
+          "Del ajolote.",
+          "El título de Patrimonio Cultural de la Humanidad."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Las Islas de San Blas",
+    "imageFileName": "san_blas.png",
+    "bundles": ["geografia_y_maravillas", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The San Blas Islands are a breathtaking group of 365 islands located off the northern coast of Panama in the beautiful Caribbean Sea. This amazing archipelago is also known as Guna Yala, which is the official name of the autonomous territory belonging to the indigenous Guna people. The islands are famous worldwide for their crystal-clear turquoise waters, white sandy beaches, and thousands of tall coconut palms.\n\nWhat makes San Blas truly unique is that the Guna people have complete 'soberanía' (sovereignty) over their lands. They manage the islands themselves and work very hard to protect their ancient 'tradiciones' (traditions) and the delicate environment. Because the Guna people control everything, there are no massive hotels or modern luxury resorts. Instead, travelers stay in simple, eco-friendly wooden cabins and eat fresh 'mariscos' (seafood) caught by local fishermen every day.\n\nThe Guna culture is vibrant and colorful. The women are famous for creating 'molas', which are beautiful, hand-woven textiles with intricate designs of animals and geometric patterns. These textiles are a powerful symbol of their identity and artistic talent. The Guna people still follow their ancestral laws and speak their own language, while also sharing their culture with respectful visitors.\n\nVisiting San Blas is like traveling to a hidden paradise. It is one of the few places in the world where you can experience pure, untouched nature and learn directly from a community that has protected its way of life for centuries. It remains a spectacular example of sustainable tourism and indigenous pride in Latin America.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "How many islands are there in the San Blas archipelago?",
+          "What is the official name of the autonomous territory where the islands are located?",
+          "What indigenous group has complete sovereignty over these islands?",
+          "Why are there no massive hotels or modern luxury resorts in San Blas?",
+          "What are the beautiful, hand-woven textiles made by Guna women called?",
+          "What types of designs are usually found on the traditional molas?",
+          "What is San Blas a spectacular example of in Latin America?"
+        ],
+        "answerKey": [
+          "There are 365 islands.",
+          "Guna Yala.",
+          "The Guna people.",
+          "Because the Guna people manage the islands and want to protect their traditions and environment.",
+          "They are called molas.",
+          "Intricate designs of animals and geometric patterns.",
+          "Sustainable tourism and indigenous pride."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Las Islas de San Blas son un grupo impresionante de 365 islas situadas en la costa norte de Panamá, en el Mar Caribe. Este archipiélago también es conocido como Guna Yala. Guna Yala es el nombre oficial del territorio autónomo que pertenece al pueblo indígena Guna. Las islas son famosas en todo el mundo por sus aguas de color turquesa, sus playas de arena blanca y sus miles de palmeras de coco.\n\nAlgo que hace a San Blas muy especial es que los Guna tienen soberanía completa sobre sus tierras. Ellos administran las islas y trabajan muy duro para proteger sus tradiciones antiguas y el medio ambiente. Porque el pueblo Guna controla todo, no hay hoteles grandes ni resorts modernos. En vez de eso, los viajeros duermen en cabañas de madera sencillas y comen mariscos frescos que los pescadores locales pescan todos los días.\n\nLa cultura Guna es muy vibrante y colorida. Las mujeres son famosas por crear las molas. Las molas son textiles hermosos hechos a mano con diseños complejos de animales y formas geométricas. Estos textiles son un símbolo importante de su identidad y talento artístico. Las personas de la comunidad todavía siguen sus leyes ancestrales y hablan su propia lengua, pero también comparten su cultura con los visitantes.\n\nVisitar San Blas es como viajar a un paraíso escondido. Es uno de los pocos lugares en el mundo donde puedes experimentar la naturaleza pura y aprender directamente de una comunidad que protege su forma de vida desde hace muchos siglos. Sigue siendo un ejemplo espectacular de turismo sostenible y orgullo indígena en Latinoamérica.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cuántas islas hay en el archipiélago de San Blas?",
+          "¿Cuál es el nombre oficial del territorio autónomo de los Guna?",
+          "¿Por qué es muy famosa el agua de las Islas de San Blas?",
+          "¿Quiénes tienen la soberanía completa sobre las islas?",
+          "¿Dónde duermen los viajeros que visitan el archipiélago?",
+          "¿Cómo se llaman los textiles famosos que hacen las mujeres Guna?",
+          "¿Qué representan los diseños de las molas tradicionales?"
+        ],
+        "answerKey": [
+          "Hay 365 islas.",
+          "Se llama Guna Yala.",
+          "Por su color turquesa y por ser cristalina.",
+          "El pueblo indígena Guna.",
+          "Duermen en cabañas de madera sencillas.",
+          "Se llaman molas.",
+          "Representan animales y formas geométricas (su identidad)."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Ubicado frente a la costa caribeña de Panamá, el archipiélago de las Islas de San Blas constituye uno de los destinos más puros y fascinantes del continente americano. Compuesto por exactamente 365 islas e islotes, este paraíso tropical es la patria del pueblo indígena Guna, quienes habitan la comarca autónoma oficialmente denominada Guna Yala. La región es mundialmente célebre por su asombrosa belleza natural, caracterizada por arrecifes de coral intactos y una serenidad que es difícil de encontrar en otros destinos del Caribe.\n\nLo que distingue fundamentalmente a San Blas de otros archipiélagos es el férreo control y la soberanía que ejerce el Congreso General Guna sobre su territorio. Gracias a esta autonomía política y cultural, la comarca ha logrado resistir la explotación del turismo masivo. En San Blas, la construcción de grandes complejos hoteleros está estrictamente prohibida, lo que ha permitido preservar el ecosistema y fomentar un modelo de turismo comunitario y ecológico. Los visitantes conviven estrechamente con la comunidad, alojándose en cabañas rústicas que respetan la estética tradicional.\n\nLa herencia cultural de los Guna se manifiesta magistralmente en sus artesanías, especialmente en las molas. Estas piezas textiles, elaboradas mediante una técnica de superposición de telas de colores, presentan diseños geométricos y zoomorfos que reflejan la cosmovisión y la historia de su pueblo. Las molas no solo son una fuente de ingresos, sino un símbolo de resistencia y orgullo nacional.\n\nActualmente, San Blas se erige como un modelo de autogestión indígena frente a los retos de la globalización. Es un santuario donde el tiempo parece haberse detenido, permitiendo al viajero reflexionar sobre la importancia de la conservación ambiental y el respeto por las culturas ancestrales que custodian los últimos tesoros vírgenes de nuestro planeta.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué región panameña se encuentra el archipiélago de San Blas?",
+          "¿Qué autoridad ejerce el control y la soberanía sobre el territorio de Guna Yala?",
+          "¿Qué impacto ha tenido la autonomía política Guna en el desarrollo hotelero de la zona?",
+          "¿Cómo se describe el modelo de turismo que se fomenta en la comarca?",
+          "¿Qué técnica se utiliza para elaborar las piezas textiles conocidas como molas?",
+          "¿Qué elementos de la realidad indígena reflejan los diseños de las molas?",
+          "¿Por qué se considera a San Blas un santuario frente a los retos de la globalización?"
+        ],
+        "answerKey": [
+          "Frente a la costa caribeña de Panamá.",
+          "El Congreso General Guna.",
+          "Ha impedido la construcción de grandes complejos hoteleros y la explotación masiva.",
+          "Se describe como un modelo de turismo comunitario y ecológico.",
+          "Una técnica de superposición de telas de colores.",
+          "Reflejan la cosmovisión y la historia de su pueblo.",
+          "Porque es un lugar de autogestión que preserva la naturaleza y la cultura ancestral."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Malecón de La Habana",
+    "imageFileName": "malecon_habana.png",
+    "bundles": ["geografia_y_maravillas", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "El Malecón de La Habana is one of the most iconic and beloved landmarks in Cuba. Stretching for five miles (eight kilometers) along the northern coast of Havana, this massive stone wall and broad sidewalk serve as the city's living room. It was originally built in the early 1900s during the American occupation to protect the city from the powerful waves of the Atlantic Ocean. Today, it is famously known as 'el sofá de La Habana' (Havana’s sofa) because thousands of people gather there every single day to talk, laugh, and relax.\n\nWalking down the Malecón is a sensory experience. You can hear the loud, crashing waves hitting the wall and feel the cool sea breeze. It is a social hub where you will see 'pescadores' (fishermen) trying their luck, musicians playing lively 'son cubano,' and young couples enjoying the romantic atmosphere. The architectural backdrop is stunning, featuring a mixture of colorful, but often weathered, neoclassical and Art Deco buildings that reflect the city's rich history.\n\nThe most magical time to visit is during 'la puesta del sol' (the sunset). As the sun dips into the ocean, the sky turns brilliant shades of orange, pink, and purple, reflecting off the water. For Cubans, the Malecón is more than just a wall; it is a place of deep emotion, nostalgia, and connection to the world beyond the sea. It remains a powerful symbol of the Cuban spirit, resilience, and the enduring beauty of its historic capital city.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is the iconic Malecón de La Habana located?",
+          "How long is this massive stone wall and sidewalk?",
+          "Why was the Malecón originally built in the early 1900s?",
+          "What is the famous nickname for the Malecón?",
+          "What types of people can you commonly see at this social hub?",
+          "What architectural styles are featured in the colorful buildings nearby?",
+          "What makes the sunset time at the Malecón so special?"
+        ],
+        "answerKey": [
+          "Along the northern coast of Havana, Cuba.",
+          "It is eight kilometers (five miles) long.",
+          "To protect the city from the powerful waves of the Atlantic Ocean.",
+          "It is known as 'el sofá de La Habana' (Havana's sofa).",
+          "Fishermen, musicians, couples, and families.",
+          "Neoclassical and Art Deco styles.",
+          "The sky turns brilliant colors reflecting off the water."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El Malecón de La Habana es uno de los monumentos más icónicos y queridos de Cuba. Con una extensión de ocho kilómetros a lo largo de la costa norte de la capital, este muro de piedra es el lugar de reunión favorito de los ciudadanos. Se construyó originalmente a principios del siglo veinte para proteger a la ciudad de las olas fuertes del Océano Atlántico. Hoy en día, es conocido cariñosamente como 'el sofá de La Habana' porque miles de personas se reúnen allí todos los días para hablar, descansar y pasar tiempo con amigos.\n\nPasear por el Malecón es una experiencia única para los sentidos. Puedes escuchar el sonido fuerte de las olas rompiendo contra el muro y sentir la brisa fresca del mar. Es un centro social donde puedes ver a muchos pescadores, músicos tocando canciones tradicionales y familias disfrutando del aire libre. La arquitectura detrás del muro es impresionante, con edificios de muchos colores y estilos diferentes que muestran la historia rica y compleja de la ciudad.\n\nEl momento más mágico para visitar es durante la puesta del sol. Cuando el sol baja al océano, el cielo se pinta de colores brillantes como el naranja, el rosa y el morado. Para los cubanos, el Malecón es más que un simple muro; es un lugar de mucha emoción, nostalgia y conexión con el resto del mundo. Sigue siendo un símbolo poderoso del espíritu cubano, de su alegría y de la belleza eterna de esta ciudad histórica.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué parte de Cuba está situado el icónico Malecón?",
+          "¿Cuál es la extensión total del Malecón en kilómetros?",
+          "¿Para qué se construyó originalmente este muro de piedra?",
+          "¿Cuál es el apodo cariñoso por el que se conoce a este lugar?",
+          "¿Qué tipo de personas es común ver durante un paseo por el muro?",
+          "¿Qué se puede ver en el cielo durante la puesta del sol?",
+          "¿Qué representa el Malecón para las personas que viven en Cuba?"
+        ],
+        "answerKey": [
+          "En la costa norte de La Habana.",
+          "Tiene ocho kilómetros de extensión.",
+          "Para proteger a la ciudad de las olas fuertes del océano.",
+          "Se conoce como 'el sofá de La Habana'.",
+          "Pescadores, músicos y familias.",
+          "Colores brillantes como naranja, rosa y morado.",
+          "Representa emoción, nostalgia y conexión con el mundo."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El Malecón de La Habana es, sin duda, el alma y el corazón de la capital cubana, constituyendo un extenso balcón de ocho kilómetros que se asoma majestuosamente al Océano Atlántico. Su construcción se inició en 1901, durante la ocupación estadounidense, con el objetivo primordial de defender a la ciudad de las inclemencias del mar y los frecuentes frentes fríos. Con el paso de las décadas, esta imponente barrera de hormigón trascendió su función defensiva para convertirse en el espacio público más democrático y concurrido de la isla, apodado con frecuencia 'el sofá de La Habana'.\n\nRecorrer su trazado es sumergirse en la esencia misma de la cubanía. El Malecón es un escenario vibrante donde conviven los pescadores de caña, los vendedores ambulantes y los poetas que encuentran inspiración en el horizonte. El entorno arquitectónico que lo flanquea es una amalgama de estilos que van desde el neoclasicismo hasta el art déco, mostrando las cicatrices del tiempo y el salitre que le confieren una pátina de melancolía y resiliencia. Es un lugar de encuentros furtivos y debates apasionados bajo el rugido incesante de las olas.\n\nLa hora dorada, cuando el sol se despide en un despliegue cromático de naranjas y violetas, transforma el muro en un refugio espiritual. Para el habanero, el Malecón representa tanto un límite físico como un portal de esperanza y anhelos. Ha sido testigo de éxodos, celebraciones y la vida cotidiana de generaciones enteras. Este icónico paseo marítimo no es solo una proeza de ingeniería, sino un símbolo imperecedero de la identidad, la resistencia y el romanticismo que definen a Cuba.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué año se inició la construcción del Malecón y cuál era su objetivo?",
+          "¿Qué apodo recibe el Malecón debido a su carácter social y democrático?",
+          "¿Qué tipos de personajes conviven habitualmente en este escenario vibrante?",
+          "¿Cómo ha afectado el entorno marino a los edificios que flanquean el paseo?",
+          "¿Qué estilos arquitectónicos predominan en las fachadas frente al mar?",
+          "¿A qué fenómeno visual se hace referencia durante la 'hora dorada'?",
+          "¿Qué significados simbólicos tiene el Malecón para los habitantes de la capital?"
+        ],
+        "answerKey": [
+          "Se inició en 1901 para defender a la ciudad de las inclemencias del mar.",
+          "Recibe el apodo de 'el sofá de La Habana'.",
+          "Pescadores de caña, vendedores ambulantes y poetas.",
+          "El salitre y el tiempo han dejado cicatrices en las fachadas.",
+          "Predominan el neoclasicismo y el art déco.",
+          "Al despliegue cromático de naranjas y violetas durante la puesta del sol.",
+          "Representa un límite físico, un portal de esperanza y un símbolo de identidad."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Valle de Viñales",
+    "imageFileName": "valle_vinales.png",
+    "bundles": ["geografia_y_maravillas", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Located in the beautiful western province of Pinar del Río in Cuba, the Viñales Valley is one of the most stunning and unique natural landscapes in the entire Caribbean. When you look at this incredible green valley, the first thing you notice are the massive, rounded limestone hills that rise dramatically from the flat ground. These strange and beautiful mountains are called 'mogotes'. They were formed millions of years ago by underground rivers and massive caves collapsing.\n\nBesides its breathtaking natural beauty, the Viñales Valley is world-famous for its rich, red soil and traditional agriculture. This specific region produces the absolute best tobacco in the entire world, which is used to make famous Cuban 'puros' (cigars). The local farmers, known as 'guajiros', still use traditional, old-fashioned methods to grow and harvest their crops. Instead of using modern tractors or loud machines, they use strong oxen and wooden plows to carefully work the land.\n\nBecause of its traditional farming methods and spectacular scenery, the Viñales Valley was proudly named a UNESCO World Heritage site. Visitors from all over the world travel here to explore the massive, dark underground caves, ride horses through the quiet tobacco farms, and enjoy the peaceful atmosphere.\n\nTime seems to move much slower in this beautiful, quiet green valley. The Viñales Valley is not just a geographical wonder; it is a living museum that perfectly preserves the authentic, rural culture and the incredible natural history of the beautiful island of Cuba.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is the stunning Viñales Valley located in Cuba?",
+          "What are the massive, rounded limestone hills in the valley called?",
+          "How were these strange and beautiful mountains formed millions of years ago?",
+          "What is the world-famous crop produced in the rich, red soil of this region?",
+          "What are the local farmers who grow and harvest the crops called?",
+          "What do the farmers use to carefully work the land instead of modern tractors?",
+          "What can visitors do to explore the quiet tobacco farms?"
+        ],
+        "answerKey": [
+          "In the western province of Pinar del Río.",
+          "They are called 'mogotes'.",
+          "By underground rivers and massive caves collapsing.",
+          "The best tobacco in the world (used for cigars/puros).",
+          "They are known as 'guajiros'.",
+          "Strong oxen and wooden plows.",
+          "They can ride horses."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Situado en la hermosa provincia occidental de Pinar del Río en Cuba, el Valle de Viñales es uno de los paisajes naturales más impresionantes del Caribe. Cuando miras este increíble valle verde, la primera cosa que notas son las montañas masivas y redondas que se levantan del suelo plano. Estas montañas extrañas y hermosas se llaman 'mogotes'. Se formaron hace millones de años por ríos subterráneos y grandes cuevas.\n\nAdemás de su belleza natural, el Valle de Viñales es muy famoso en todo el mundo por su tierra roja y su agricultura tradicional. Esta región específica produce el mejor tabaco del mundo, que se usa para hacer los famosos puros cubanos. Los agricultores locales, conocidos como 'guajiros', todavía usan métodos muy tradicionales y antiguos para cultivar sus plantas. En vez de usar tractores modernos o máquinas ruidosas, ellos usan bueyes fuertes y herramientas de madera para trabajar la tierra cuidadosamente.\n\nPor sus métodos agrícolas tradicionales y su paisaje espectacular, el Valle de Viñales fue nombrado Patrimonio de la Humanidad por la UNESCO. Visitantes de todo el mundo viajan aquí para explorar las enormes y oscuras cuevas subterráneas, montar a caballo por las granjas tranquilas de tabaco y disfrutar del ambiente pacífico.\n\nEl tiempo parece moverse mucho más lento en este valle hermoso y tranquilo. El Valle de Viñales no es solo una maravilla geográfica de la naturaleza; es un museo vivo que preserva perfectamente la cultura rural auténtica y la historia natural increíble de la hermosa isla de Cuba.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde está situado el impresionante Valle de Viñales en Cuba?",
+          "¿Cómo se llaman las montañas masivas y redondas que se levantan del suelo plano?",
+          "¿Cómo se formaron estas montañas extrañas hace millones de años?",
+          "¿Qué planta famosa se produce en la tierra roja de esta región específica?",
+          "¿Cómo se conocen a los agricultores locales que cultivan las plantas?",
+          "¿Qué usan los agricultores para trabajar la tierra en vez de usar tractores modernos?",
+          "¿Qué pueden hacer los visitantes para disfrutar de las granjas de tabaco?"
+        ],
+        "answerKey": [
+          "En la provincia occidental de Pinar del Río.",
+          "Se llaman 'mogotes'.",
+          "Por ríos subterráneos y grandes cuevas.",
+          "El mejor tabaco del mundo (para hacer puros).",
+          "Se conocen como 'guajiros'.",
+          "Usan bueyes fuertes y herramientas de madera.",
+          "Pueden montar a caballo."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Situado en la exuberante provincia occidental de Pinar del Río, el Valle de Viñales es indiscutiblemente uno de los paisajes naturales más deslumbrantes y emblemáticos de toda la isla de Cuba. Lo que más cautiva a los visitantes al contemplar esta vasta depresión kárstica son los espectaculares 'mogotes'. Estas imponentes formaciones rocosas de piedra caliza, con cimas redondeadas y paredes casi verticales, se elevan dramáticamente sobre la llanura fértil. Fueron esculpidas durante millones de años por la implacable erosión del agua y el colapso de antiguas cavernas subterráneas.\n\nMás allá de su innegable esplendor geológico, el valle es mundialmente renombrado por su arraigada tradición agrícola. La tierra rojiza de esta región es considerada la mejor del planeta para el cultivo del tabaco negro, materia prima esencial para la elaboración de los célebres puros habanos. Los campesinos locales, cariñosamente apodados 'guajiros', preservan celosamente las técnicas de cultivo de sus antepasados. Rechazando la maquinaria agrícola moderna, continúan arando la tierra utilizando yuntas de bueyes, asegurando así una cosecha de calidad insuperable.\n\nGracias a esta perfecta armonía entre el ser humano y la naturaleza, la UNESCO declaró al Valle de Viñales como Patrimonio de la Humanidad en la categoría de paisaje cultural. En la actualidad, el valle atrae a miles de ecoturistas que desean explorar sus laberínticas redes de cuevas, realizar cabalgatas por las extensas vegas de tabaco y absorber la profunda tranquilidad del entorno.\n\nEl Valle de Viñales es verdaderamente un rincón mágico donde el tiempo parece haberse detenido, resguardando con orgullo la auténtica esencia rural y la incomparable riqueza geográfica del patrimonio cubano.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué exuberante provincia occidental de Cuba se sitúa este valle deslumbrante?",
+          "¿Qué son los espectaculares 'mogotes' que se elevan sobre la llanura fértil?",
+          "¿Qué fuerzas naturales esculpieron estas formaciones durante millones de años?",
+          "¿Para qué producto es esencial el tabaco negro cultivado en la tierra rojiza?",
+          "¿Con qué apodo cariñoso se conoce a los campesinos locales de esta región?",
+          "¿Qué utilizan los campesinos para arar la tierra, rechazando la maquinaria moderna?",
+          "¿En qué categoría declaró la UNESCO al Valle de Viñales como Patrimonio de la Humanidad?"
+        ],
+        "answerKey": [
+          "En la provincia de Pinar del Río.",
+          "Son imponentes formaciones rocosas de piedra caliza con cimas redondeadas.",
+          "La implacable erosión del agua y el colapso de antiguas cavernas subterráneas.",
+          "Para la elaboración de los célebres puros habanos.",
+          "Se les conoce como 'guajiros'.",
+          "Utilizan yuntas de bueyes.",
+          "En la categoría de paisaje cultural."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Las Bahías Bioluminiscentes",
+    "imageFileName": "bahias_bioluminiscentes.png",
+    "bundles": ["geografia_y_maravillas", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Located in the beautiful, warm waters of Puerto Rico, the bioluminescent bays are one of the most magical and rare geographical wonders on Earth. There are only five ecosystem like this in the entire world, and incredibly, three of them are located in Puerto Rico. The most famous and brightest one is called Mosquito Bay, located on the small, peaceful island of Vieques.\n\nDuring the day, these shallow bays look like normal, pretty ocean water surrounded by thick green mangrove trees. However, at night, the water completely transforms. When you move the water with your hand, a kayak paddle, or a swimming fish, it glows with an incredible, bright neon blue light. This glowing effect is called 'bioluminiscencia' (bioluminescence).\n\nThis magical glow is caused by millions of tiny, microscopic organisms called dinoflagellates. When these tiny creatures feel movement in the water, they create a fast chemical reaction inside their bodies that produces a sudden flash of blue light. It is their natural defense mechanism to scare away predators.\n\nTo protect this delicate 'ecosistema' (ecosystem), gas-powered boats are not allowed in the brightest bays. Visitors must take quiet, peaceful kayak tours under the dark, starry sky to see the glowing water. Because light pollution from big cities can ruin the effect, the dark areas around the bays are strictly protected.\n\nVisiting a bioluminescent bay is an unforgettable, magical experience that feels like swimming in a sea of glowing stars. It is a powerful reminder of how unique, fragile, and absolutely wonderful the natural geography of Puerto Rico truly is.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "How many bioluminescent bay ecosystems like this exist in the entire world?",
+          "What is the most famous and brightest bay in Puerto Rico called?",
+          "What color does the water glow when you move it with your hand or a paddle?",
+          "What are the tiny microscopic organisms that cause this magical glow called?",
+          "Why do these tiny creatures produce a sudden flash of light?",
+          "What type of boats do visitors take to protect the delicate ecosystem?",
+          "What can ruin the glowing effect in the bays?"
+        ],
+        "answerKey": [
+          "There are only five in the entire world.",
+          "Mosquito Bay (on the island of Vieques).",
+          "A bright neon blue light.",
+          "They are called dinoflagellates.",
+          "As a natural defense mechanism to scare away predators.",
+          "Quiet, peaceful kayaks.",
+          "Light pollution from big cities."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Situadas en las hermosas y cálidas aguas de Puerto Rico, las bahías bioluminiscentes son una de las maravillas geográficas más raras y mágicas de la Tierra. Solo hay cinco ecosistemas como este en todo el mundo, e increíblemente, tres de ellos están ubicados en Puerto Rico. La más famosa y brillante se llama Bahía Mosquito, situada en la pequeña y tranquila isla de Vieques.\n\nDurante el día, estas bahías parecen agua de océano normal y bonita, rodeada por árboles verdes llamados manglares. Sin embargo, por la noche, el agua se transforma completamente. Cuando tú mueves el agua con tu mano, con un remo de kayak o un pez nada, el agua brilla con una luz azul neón increíble. Este efecto brillante se llama bioluminiscencia.\n\nEste brillo mágico es causado por millones de organismos muy pequeños y microscópicos. Cuando estas criaturas pequeñas sienten movimiento en el agua, ellos crean una reacción química rápida dentro de sus cuerpos que produce una luz azul brillante. Es su mecanismo de defensa natural para asustar a los depredadores en el océano.\n\nPara proteger este ecosistema delicado, los barcos de motor no están permitidos en las bahías más brillantes. Los visitantes tienen que hacer excursiones tranquilas en kayak bajo el cielo oscuro y estrellado para ver el agua brillante. Porque la luz artificial de las ciudades grandes puede arruinar el efecto, estas áreas oscuras están estrictamente protegidas.\n\nVisitar una bahía bioluminiscente es una experiencia inolvidable que parece nadar en un mar de estrellas brillantes. Es un recordatorio de la geografía natural única y maravillosa de Puerto Rico.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cuántos ecosistemas de este tipo hay en todo el mundo?",
+          "¿Cómo se llama la bahía más famosa y brillante que está en la isla de Vieques?",
+          "¿De qué color brillante se transforma el agua cuando la mueves por la noche?",
+          "¿Qué tipo de organismos causan este brillo mágico increíble?",
+          "¿Por qué producen estas criaturas una luz azul brillante cuando sienten movimiento?",
+          "¿Qué tipo de excursiones tienen que hacer los visitantes para proteger la bahía?",
+          "¿Qué cosa artificial puede arruinar el efecto brillante del agua?"
+        ],
+        "answerKey": [
+          "Solo hay cinco en todo el mundo.",
+          "Se llama Bahía Mosquito.",
+          "De un color azul neón.",
+          "Organismos muy pequeños y microscópicos.",
+          "Es su mecanismo de defensa natural para asustar a los depredadores.",
+          "Excursiones tranquilas en kayak.",
+          "La luz artificial de las ciudades grandes."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Ubicadas en el archipiélago puertorriqueño, las bahías bioluminiscentes constituyen uno de los fenómenos naturales más extraordinarios y escasos del planeta. A nivel global, existen únicamente cinco ecosistemas de este tipo que permanecen activos todo el año, y asombrosamente, tres de ellos se encuentran en Puerto Rico. La más célebre y resplandeciente es la Bahía Mosquito, enclavada en la pintoresca isla municipio de Vieques.\n\nDurante las horas diurnas, estas ensenadas poco profundas, bordeadas por densos bosques de manglares rojos, aparentan ser cuerpos de agua convencionales. No obstante, al caer la noche, sufren una transformación verdaderamente mágica. Cualquier agitación mecánica en el agua, ya sea provocada por el remo de un kayak, la mano de un visitante o el nado repentino de un pez, desencadena un resplandor espectacular de color azul neón.\n\nEste fascinante espectáculo lumínico es generado por enormes concentraciones de microorganismos unicelulares llamados dinoflagelados. Cuando estos diminutos organismos perciben una perturbación física en su entorno, producen una reacción química instantánea que emite luz fría. Los biólogos creen que esta adaptación evolutiva funciona como un ingenioso mecanismo de defensa para desorientar o evadir a sus depredadores naturales.\n\nPara preservar el frágil equilibrio de este ecosistema inigualable, las autoridades han implementado estrictas regulaciones ambientales, prohibiendo la navegación de embarcaciones con motores de combustión y mitigando agresivamente la contaminación lumínica en los alrededores. Explorar estas bahías en un kayak silencioso bajo un cielo estrellado es una experiencia sensorial inefable, un encuentro místico que resalta la deslumbrante biodiversidad y la incomparable riqueza geográfica que atesora Puerto Rico.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cuántos ecosistemas de este tipo permanecen activos todo el año a nivel global?",
+          "¿Cuál es la ensenada más célebre y resplandeciente enclavada en Vieques?",
+          "¿Qué sucede en el agua durante la noche ante cualquier agitación mecánica?",
+          "¿Cómo se llaman los microorganismos unicelulares que generan este espectáculo lumínico?",
+          "¿Para qué funciona esta adaptación evolutiva según los biólogos?",
+          "¿Qué tipo de embarcaciones están prohibidas para preservar este frágil ecosistema?",
+          "¿Qué tipo de contaminación mitigan agresivamente las autoridades en los alrededores?"
+        ],
+        "answerKey": [
+          "Únicamente existen cinco ecosistemas de este tipo.",
+          "La Bahía Mosquito.",
+          "Desencadena un resplandor espectacular de color azul neón.",
+          "Se llaman dinoflagelados.",
+          "Funciona como un ingenioso mecanismo de defensa para desorientar a sus depredadores.",
+          "Las embarcaciones con motores de combustión.",
+          "La contaminación lumínica."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Caño Cristales",
+    "imageFileName": "cano_cristales.png",
+    "bundles": ["geografia_y_maravillas", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Located deep in the isolated Serranía de la Macarena mountain range of Colombia is one of the most spectacular natural wonders on the planet: Caño Cristales. For most of the year, this beautiful river looks like any other normal body of water. However, for a few short months between July and November, it completely transforms. During this specific time, it becomes known worldwide as the 'River of Five Colors' or the 'Liquid Rainbow.'\n\nThe secret behind this magical transformation is a unique and delicate aquatic plant called Macarenia clavigera. When the water level and the sunlight are absolutely perfect, these underwater plants bloom brightly. They turn the clear river into a vibrant explosion of vivid red, bright pink, deep yellow, green, and blue colors. The bright red 'plantas' (plants) cover the rocks under the crystal-clear water, creating a breathtaking visual illusion.\n\nBecause this 'río' (river) is extremely fragile, the Colombian government strictly protects the entire area. Visitors are not allowed to wear any sunscreen or insect repellent when they swim in the water, because the harsh chemicals will instantly kill the sensitive plants. The area was closed to the public for many years, but today, lucky tourists can take guided eco-tours to witness the magic in person.\n\nCaño Cristales is a perfect example of Colombia's incredible, diverse geography and vibrant natural beauty. It reminds every person who visits that our planet is full of delicate, beautiful mysteries. Seeing the bright, rainbow-colored water flowing peacefully through the wild, untouched jungle is an unforgettable experience that feels like pure magic.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is the spectacular natural wonder Caño Cristales located?",
+          "What is the river known as worldwide during its transformation?",
+          "What is the unique and delicate aquatic plant that causes this transformation?",
+          "What specific colors does the clear river explode into during the bloom?",
+          "Why are visitors not allowed to wear sunscreen or insect repellent in the river?",
+          "How can lucky tourists witness the magic in person today?",
+          "What is Caño Cristales a perfect example of?"
+        ],
+        "answerKey": [
+          "Deep in the Serranía de la Macarena mountain range of Colombia.",
+          "The 'River of Five Colors' or the 'Liquid Rainbow'.",
+          "Macarenia clavigera.",
+          "Vivid red, bright pink, deep yellow, green, and blue.",
+          "Because the harsh chemicals will instantly kill the sensitive plants.",
+          "They can take guided eco-tours.",
+          "Colombia's incredible, diverse geography and vibrant natural beauty."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Situado en la aislada sierra de la Macarena en Colombia, está una de las maravillas naturales más espectaculares del planeta: Caño Cristales. Durante la mayor parte del año, este río hermoso parece un cuerpo de agua normal. Sin embargo, por unos pocos meses entre julio y noviembre, se transforma completamente. Durante este tiempo específico, es conocido en todo el mundo como el 'Río de los Cinco Colores' o el 'Arcoíris Líquido'.\n\nEl secreto detrás de esta transformación mágica es una planta acuática única y delicada llamada Macarenia clavigera. Cuando el nivel del agua y la luz del sol son absolutamente perfectos, estas plantas bajo el agua florecen. Ellas cambian el río claro a una explosión de colores vibrantes como rojo, rosa, amarillo, verde y azul. Las plantas rojas cubren las rocas debajo del agua cristalina, creando una ilusión visual impresionante.\n\nPorque este río es extremadamente frágil, el gobierno colombiano protege el área de manera estricta. Los visitantes no tienen permiso para usar protector solar o repelente de insectos cuando nadan en el agua. Los químicos fuertes pueden matar a las plantas sensibles instantáneamente. El área estuvo cerrada al público por muchos años, pero hoy en día, los turistas afortunados pueden tomar excursiones guiadas para ver la magia en persona.\n\nCaño Cristales es un ejemplo perfecto de la increíble geografía diversa y la belleza natural de Colombia. Nos recuerda que nuestro planeta está lleno de misterios delicados y hermosos. Ver el agua con los colores del arcoíris fluyendo por la selva salvaje es una experiencia inolvidable que parece magia pura.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde está situado el espectacular Caño Cristales en Colombia?",
+          "¿Con qué dos nombres es conocido este río durante su transformación mágica?",
+          "¿Qué provoca la transformación mágica debajo del agua clara?",
+          "¿Qué colores vibrantes se pueden ver cuando las plantas acuáticas florecen?",
+          "¿Por qué no tienen permiso los visitantes para usar protector solar en el agua?",
+          "¿Qué tienen que tomar los turistas afortunados para ver la magia en persona?",
+          "¿De qué es un ejemplo perfecto este río hermoso y frágil?"
+        ],
+        "answerKey": [
+          "En la aislada sierra de la Macarena.",
+          "El 'Río de los Cinco Colores' y el 'Arcoíris Líquido'.",
+          "Una planta acuática única y delicada llamada Macarenia clavigera.",
+          "Rojo, rosa, amarillo, verde y azul.",
+          "Porque los químicos fuertes pueden matar a las plantas sensibles.",
+          "Tienen que tomar excursiones guiadas.",
+          "De la increíble geografía diversa y la belleza natural de Colombia."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Escondido en la remota Serranía de la Macarena, en el corazón geográfico de Colombia, se encuentra Caño Cristales, considerado por muchos como el río más hermoso del mundo. Durante gran parte del año, este caudaloso arroyo presenta una apariencia común y silvestre. No obstante, en la breve transición entre la temporada de lluvias y la estación seca, de julio a noviembre, experimenta una metamorfosis deslumbrante que le ha otorgado el poético sobrenombre de 'el río que se escapó del paraíso' o el 'arcoíris líquido'.\n\nEste prodigio visual es orquestado por una planta acuática endémica y sumamente exigente llamada Macarenia clavigera. Cuando las condiciones de caudal y la incidencia de los rayos solares alcanzan un equilibrio perfecto, esta flora subacuática florece con una intensidad inusitada. El lecho del río se tiñe abruptamente de tonalidades escarlatas, fucsias, amarillas, verdes y azules, creando un tapiz cromático que serpentea a través de la densa selva virgen.\n\nDebido a la extrema vulnerabilidad de este ecosistema, las autoridades colombianas aplican normativas de conservación rigurosas. El acceso diario está estrictamente limitado y se prohíbe terminantemente el uso de bloqueadores solares o repelentes químicos, ya que cualquier alteración en la pureza del agua podría aniquilar a estas sensibles plantas acuáticas.\n\nTras permanecer inaccesible durante décadas por conflictos internos, hoy en día Caño Cristales es un destino cumbre del ecoturismo sostenible. Representa la abrumadora biodiversidad y la riqueza hidrográfica de Colombia, ofreciendo a los viajeros una experiencia mística e inolvidable donde la botánica y la geología convergen para pintar un cuadro vivo de proporciones verdaderamente épicas y surrealistas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué remota ubicación geográfica se encuentra escondido Caño Cristales?",
+          "¿En qué meses específicos del año experimenta su deslumbrante metamorfosis?",
+          "¿Qué condiciones deben alcanzar un equilibrio para que la flora subacuática florezca?",
+          "¿Qué colores abruptos tiñen el lecho del río creando un tapiz cromático?",
+          "¿Por qué aplican las autoridades normativas rigurosas prohibiendo bloqueadores solares?",
+          "¿Por qué permaneció inaccesible este destino ecoturístico durante varias décadas?",
+          "¿Qué dos ramas de la ciencia convergen para pintar este cuadro vivo y épico?"
+        ],
+        "answerKey": [
+          "En la Serranía de la Macarena, en el corazón geográfico de Colombia.",
+          "De julio a noviembre.",
+          "Las condiciones de caudal y la incidencia de los rayos solares.",
+          "Tonalidades escarlatas, fucsias, amarillas, verdes y azules.",
+          "Porque cualquier alteración en la pureza del agua podría aniquilar a las plantas sensibles.",
+          "Por conflictos internos en el país.",
+          "La botánica y la geología."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "La Represa de Itaipú",
+    "imageFileName": "represa_itaipu.png",
+    "bundles": ["geografia_y_maravillas", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Located right on the border between the countries of Brazil and Paraguay, the Itaipu Dam is a massive, awe-inspiring engineering marvel. Built on the powerful Paraná River, this gigantic 'represa' (dam) is one of the largest and most powerful hydroelectric power plants in the entire world. In fact, it is so incredibly huge and complex that the American Society of Civil Engineers named it one of the Seven Wonders of the Modern World.\n\nThe construction of the dam began in the 1970s and required a massive amount of teamwork between the two neighboring countries. The amount of concrete used to build this giant structure was absolutely staggering. Experts say that there is enough concrete in the Itaipu Dam to build more than two hundred massive football stadiums!\n\nToday, this incredible structure uses the rushing 'agua' (water) of the river to generate clean, renewable electricity. It provides almost all of the electricity needed for the entire country of Paraguay and a very large percentage of the electricity used in Brazil. Because it produces so much power without burning fossil fuels, it is extremely important for the environment and fighting climate change.\n\nBesides producing electricity, Itaipu is also a very popular tourist destination. Millions of visitors travel there every year to take guided tours and see the massive spillways release gigantic, roaring waterfalls of excess water. The Itaipu Dam stands as a spectacular example of what humans can achieve when two different nations work peacefully together to build a sustainable, powerful, and environmentally friendly future for their people.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "On the border of which two countries is the Itaipu Dam located?",
+          "What did the American Society of Civil Engineers name the dam?",
+          "How many football stadiums could experts build with the concrete used in the dam?",
+          "What does the incredible structure use the rushing river water to generate?",
+          "Why is the Itaipu Dam extremely important for the environment?",
+          "What do millions of visitors travel there every year to see?",
+          "What is the dam a spectacular example of?"
+        ],
+        "answerKey": [
+          "Brazil and Paraguay.",
+          "One of the Seven Wonders of the Modern World.",
+          "More than two hundred massive football stadiums.",
+          "Clean, renewable electricity.",
+          "Because it produces a lot of power without burning fossil fuels.",
+          "The massive spillways releasing gigantic waterfalls of excess water.",
+          "What humans can achieve when two nations work peacefully together for a sustainable future."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Situada exactamente en la frontera entre los países de Brasil y Paraguay, la Represa de Itaipú es una maravilla de ingeniería masiva e impresionante. Construida en el poderoso Río Paraná, esta represa gigante es una de las plantas de energía hidroeléctrica más grandes del mundo entero. De hecho, es tan increíblemente grande y compleja que la Sociedad Estadounidense de Ingenieros Civiles la nombró una de las Siete Maravillas del Mundo Moderno.\n\nLa construcción de la represa empezó en la década de 1970 y requirió un trabajo en equipo masivo entre los dos países vecinos. La cantidad de cemento que usaron para construir esta estructura gigante fue absolutamente asombrosa. ¡Los expertos dicen que hay suficiente cemento en la Represa de Itaipú para construir más de doscientos estadios de fútbol masivos!\n\nHoy en día, esta estructura increíble usa el agua rápida del río para generar electricidad limpia y renovable. Produce casi toda la electricidad necesaria para todo el país de Paraguay y un porcentaje muy grande de la electricidad que usan en Brasil. Porque produce tanta energía sin quemar combustibles fósiles, es extremadamente importante para el medio ambiente.\n\nAdemás de producir electricidad, Itaipú también es un destino turístico muy popular. Millones de visitantes viajan allí todos los años para tomar excursiones guiadas y ver las cascadas gigantes y ruidosas de agua. La Represa de Itaipú es un ejemplo espectacular de lo que los humanos pueden hacer cuando dos naciones diferentes trabajan juntas en paz para construir un futuro sostenible y bueno para todas sus personas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Entre qué dos países está situada exactamente la Represa de Itaipú?",
+          "¿En qué río poderoso fue construida esta maravilla de ingeniería?",
+          "¿Qué título importante le dio la Sociedad Estadounidense de Ingenieros Civiles?",
+          "¿Cuántos estadios de fútbol masivos se pueden construir con el cemento de la represa?",
+          "¿Qué genera esta estructura usando el agua rápida del río?",
+          "¿Para qué país produce la represa casi toda la electricidad necesaria?",
+          "¿Por qué viajan millones de visitantes a la represa todos los años?"
+        ],
+        "answerKey": [
+          "Entre Brasil y Paraguay.",
+          "En el Río Paraná.",
+          "Una de las Siete Maravillas del Mundo Moderno.",
+          "Más de doscientos estadios de fútbol.",
+          "Genera electricidad limpia y renovable.",
+          "Para el país de Paraguay.",
+          "Para tomar excursiones guiadas y ver las cascadas gigantes de agua."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Ubicada estratégicamente en la frontera natural entre Brasil y Paraguay, sobre el caudaloso Río Paraná, la Represa de Itaipú se erige como una de las proezas de ingeniería civil más monumentales y formidables de la historia humana. Este coloso hidroeléctrico es tan extraordinariamente complejo y masivo que la Sociedad Estadounidense de Ingenieros Civiles lo catalogó merecidamente como una de las Siete Maravillas del Mundo Moderno, compartiendo este prestigio con el Canal de Panamá.\n\nLa edificación de esta megaestructura binacional comenzó en la década de los setenta y exigió una colaboración diplomática y técnica sin precedentes entre ambas naciones suramericanas. Las cifras de su construcción son asombrosas: el volumen de hormigón vertido para forjar su inmensa cortina sería suficiente para construir más de doscientos estadios de fútbol de proporciones olímpicas. El desvío del séptimo río más grande del mundo fue un triunfo absoluto de la tenacidad humana.\n\nEn la actualidad, Itaipú es un pilar indispensable para la infraestructura energética de Sudamérica. Al aprovechar la fuerza cinética del agua, genera electricidad limpia y renovable, abasteciendo la casi totalidad de la demanda energética del Paraguay y una porción sumamente significativa del consumo en Brasil. Su contribución a la mitigación del cambio climático es incalculable, al evitar la quema de millones de toneladas de combustibles fósiles.\n\nAdicionalmente, el complejo funciona como un imán turístico donde los visitantes pueden maravillarse ante el ensordecedor rugido de sus vertederos aliviando el exceso de caudal. Itaipú representa el epítome de la cooperación pacífica transfronteriza y un modelo brillante de desarrollo sostenible a escala verdaderamente épica.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Sobre qué caudaloso río se erige esta formidable proeza de ingeniería civil?",
+          "¿Con qué otra obra majestuosa comparte su título de Maravilla del Mundo Moderno?",
+          "¿Qué volumen de construcción ilustra la magnitud asombrosa de esta megaestructura?",
+          "¿A quiénes abastece de electricidad limpia y renovable este coloso hidroeléctrico?",
+          "¿Por qué es incalculable su contribución a la mitigación del cambio climático?",
+          "¿Ante qué evento específico pueden maravillarse los turistas que visitan el complejo?",
+          "¿De qué representa el epítome este proyecto binacional?"
+        ],
+        "answerKey": [
+          "Sobre el Río Paraná.",
+          "Con el Canal de Panamá.",
+          "El volumen de hormigón vertido es suficiente para construir más de doscientos estadios.",
+          "A la casi totalidad de Paraguay y una porción significativa de Brasil.",
+          "Porque evita la quema de millones de toneladas de combustibles fósiles.",
+          "Ante el ensordecedor rugido de sus vertederos aliviando el exceso de caudal.",
+          "El epítome de la cooperación pacífica transfronteriza y el desarrollo sostenible."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Valparaíso",
+    "imageFileName": "valparaiso.png",
+    "bundles": ["geografia_y_maravillas", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Located on the beautiful Pacific coast of Chile, Valparaíso is one of the most colorful, bohemian, and culturally rich port cities in all of South America. Instead of being built on flat land, this incredible 'ciudad' (city) is constructed across dozens of very steep hills that drop dramatically into the deep blue ocean. Because the hills are so incredibly steep, the people of Valparaíso use a very unique system of transportation to get around.\n\nTo travel up and down the steep neighborhoods, residents use 'ascensores' (funicular elevators). These charming, antique wooden cable cars have been carrying people up the hills for more than a century. Riding these historic elevators gives visitors breathtaking, panoramic views of the busy port and the massive Pacific Ocean below.\n\nWhen you walk through the narrow, winding streets of the city, you will immediately notice the incredibly bright colors. Every house, staircase, and wall is painted in vibrant colors and covered in spectacular street art. Valparaíso is essentially a massive, open-air art museum. The unique artistic energy of the city attracted many famous writers and painters, including the legendary poet Pablo Neruda, who built a beautiful house here called La Sebastiana.\n\nBecause of its remarkable urban design, rich maritime history, and vibrant artistic culture, the historic center of Valparaíso was proudly named a UNESCO World Heritage site. Today, it is a bustling, chaotic, and completely magical destination. It is a place where every colorful street corner tells a story, and the deep love for art and ocean geography perfectly combine.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is the culturally rich port city of Valparaíso located?",
+          "Where is the city constructed instead of on flat land?",
+          "What unique system of transportation do residents use to get up and down the hills?",
+          "What can visitors see when riding these charming, antique wooden cable cars?",
+          "What covers every house, staircase, and wall in the narrow, winding streets?",
+          "Which legendary poet built a beautiful house called La Sebastiana in the city?",
+          "What was the historic center proudly named because of its design and history?"
+        ],
+        "answerKey": [
+          "On the beautiful Pacific coast of Chile.",
+          "Across dozens of very steep hills.",
+          "They use 'ascensores' (funicular elevators).",
+          "Breathtaking, panoramic views of the busy port and the Pacific Ocean.",
+          "Vibrant colors and spectacular street art.",
+          "Pablo Neruda.",
+          "A UNESCO World Heritage site."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Situada en la hermosa costa del Pacífico en Chile, Valparaíso es una de las ciudades portuarias más coloridas, bohemias y ricas en cultura de toda Sudamérica. En vez de estar construida en tierra plana, esta ciudad increíble está construida sobre docenas de cerros muy empinados que bajan dramáticamente hacia el océano azul. Porque los cerros son increíblemente empinados, las personas de Valparaíso usan un sistema de transporte muy único para moverse.\n\nPara viajar arriba y abajo por los barrios, los residentes usan 'ascensores' (funiculares). Estos elevadores de madera antiguos y encantadores han transportado a las personas por los cerros durante más de un siglo. Viajar en estos elevadores históricos les da a los visitantes vistas panorámicas e impresionantes del puerto ocupado y del enorme Océano Pacífico abajo.\n\nCuando tú caminas por las calles estrechas de la ciudad, vas a notar inmediatamente los colores brillantes. Cada casa, escalera y pared está pintada de colores vibrantes y cubierta de arte callejero espectacular. Valparaíso es básicamente un museo de arte masivo al aire libre. La energía artística de la ciudad atrajo a muchos escritores y pintores famosos, incluyendo al legendario poeta Pablo Neruda, quien construyó una hermosa casa aquí llamada La Sebastiana.\n\nPor su diseño urbano notable, su rica historia marítima y su cultura artística vibrante, el centro histórico de Valparaíso fue nombrado Patrimonio de la Humanidad por la UNESCO. Hoy en día, es un destino bullicioso, caótico y completamente mágico. Es un lugar donde cada calle colorida cuenta una historia y el amor por el arte se combina perfectamente con la geografía.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde está construida la ciudad de Valparaíso en vez de en tierra plana?",
+          "¿Por qué tienen las personas de Valparaíso que usar un sistema de transporte único?",
+          "¿Qué usan los residentes para viajar arriba y abajo por los barrios empinados?",
+          "¿Qué vistas impresionantes pueden ver los visitantes desde los elevadores?",
+          "¿Con qué están pintadas y cubiertas cada casa, escalera y pared de la ciudad?",
+          "¿Quién fue el escritor legendario que construyó su casa La Sebastiana allí?",
+          "¿Qué título recibió el centro histórico de Valparaíso por su cultura e historia?"
+        ],
+        "answerKey": [
+          "Sobre docenas de cerros muy empinados.",
+          "Porque los cerros son increíblemente empinados.",
+          "Usan 'ascensores' (funiculares).",
+          "Vistas panorámicas del puerto y del enorme Océano Pacífico.",
+          "Con colores vibrantes y arte callejero espectacular.",
+          "El legendario poeta Pablo Neruda.",
+          "El título de Patrimonio de la Humanidad por la UNESCO."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Enclavada como un anfiteatro natural frente a las gélidas aguas del Océano Pacífico, Valparaíso es, sin lugar a duda, la joya portuaria y la capital cultural indiscutible de Chile. Su singular y caprichosa geografía desafía la planificación urbana convencional, desplegándose caóticamente sobre más de cuarenta cerros escarpados que caen en picado hacia la bahía. Para sortear esta topografía vertiginosa, la ciudad implementó a finales del siglo diecinueve una ingeniosa red de ascensores funiculares. Estos pintorescos vagones de madera continúan trepando por las laderas, ofreciendo a los pasajeros unas vistas panorámicas verdaderamente inigualables.\n\nCaminar por el laberinto de callejuelas empedradas de Valparaíso es adentrarse en una galería de arte urbano a cielo abierto. Las fachadas de las casas, revestidas de calamina, están pintadas con una paleta cromática deslumbrante y decoradas con murales intrincados que reflejan el alma bohemia y rebelde del puerto. Este vibrante epicentro de creatividad ha servido de musa para innumerables artistas, destacando el ilustre poeta y Premio Nobel Pablo Neruda, quien erigió aquí su icónica residencia conocida como La Sebastiana.\n\nLa rica amalgama de herencia inmigrante, arquitectura vernácula e importancia marítima comercial llevó a la UNESCO a declarar el casco histórico de Valparaíso como Patrimonio de la Humanidad. Hoy en día, 'Valpo', como la llaman cariñosamente sus habitantes, es una urbe nostálgica y efervescente que se niega a perder su autenticidad. Es un rincón mágico donde la melancolía del mar se entrelaza con el ingenio humano, creando un paisaje cultural deslumbrante que atrapa irremediablemente el corazón de todo aquel que la visita.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cómo desafía la geografía de Valparaíso la planificación urbana convencional?",
+          "¿Qué ingeniosa red implementó la ciudad para sortear su topografía vertiginosa?",
+          "¿De qué material están revestidas las fachadas que exhiben una paleta cromática deslumbrante?",
+          "¿Qué famosa residencia erigió en este puerto el Premio Nobel Pablo Neruda?",
+          "¿Qué rica amalgama de elementos llevó a la UNESCO a otorgar su prestigioso título?",
+          "¿Con qué apodo cariñoso se refieren sus habitantes a esta urbe nostálgica y efervescente?",
+          "¿Qué dos elementos se entrelazan para crear este paisaje cultural deslumbrante?"
+        ],
+        "answerKey": [
+          "Desplegándose caóticamente sobre más de cuarenta cerros escarpados.",
+          "Una ingeniosa red de ascensores funiculares.",
+          "Están revestidas de calamina.",
+          "La icónica residencia conocida como La Sebastiana.",
+          "La herencia inmigrante, la arquitectura vernácula y la importancia marítima.",
+          "La llaman cariñosamente 'Valpo'.",
+          "La melancolía del mar y el ingenio humano."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "La Laguna Colorada",
+    "imageFileName": "laguna_colorada.png",
+    "bundles": ["geografia_y_maravillas", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "High in the cold and windy Altiplano region of Bolivia lies one of the most incredible natural wonders in the world: Laguna Colorada (Red Lagoon). This shallow salt lake is famous worldwide because its water is a vibrant, deep shade of red. This unique 'color' (color) is not caused by magic or chemicals; it is created by millions of tiny red algae and sediments that live in the salty water.\n\nThe scenery at the lagoon is absolutely breathtaking. Surrounding the deep red water are massive white pools of borax, which is a mineral that looks like snow or bright white ice. This contrast between the bright red water and the brilliant white minerals creates a landscape that looks like it belongs on another planet. Because the air is very thin and the altitude is extremely high, the clouds look very close to the ground.\n\nLaguna Colorada is also a very important home for thousands of beautiful 'flamencos' (flamingos). There are three different species of flamingos that live here, including the very rare James's Flamingo. These birds have pink feathers because they eat the tiny red algae from the water. Seeing thousands of pink flamingos standing in the bright red water against the white minerals is an unforgettable experience for every traveler.\n\nToday, the lagoon is a protected area inside the Eduardo Avaroa Andean Fauna National Reserve. It is a fragile and precious 'ecosistema' (ecosystem) that scientists work hard to protect. For the people of Bolivia, Laguna Colorada is a powerful symbol of the unique and wild beauty of the high Andes mountains.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is the incredible Laguna Colorada located?",
+          "What causes the water in the lagoon to look a deep shade of red?",
+          "What is the name of the white mineral that looks like snow around the water?",
+          "How many different species of flamingos live in the lagoon?",
+          "Why do the flamingos in this area have pink feathers?",
+          "In what national reserve is the lagoon located?",
+          "What does Laguna Colorada symbolize for the people of Bolivia?"
+        ],
+        "answerKey": [
+          "In the Altiplano region of Bolivia.",
+          "Millions of tiny red algae and sediments.",
+          "It is called borax.",
+          "Three different species.",
+          "Because they eat the tiny red algae from the water.",
+          "The Eduardo Avaroa Andean Fauna National Reserve.",
+          "The unique and wild beauty of the high Andes mountains."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Situada en la región fría y alta del Altiplano de Bolivia, se encuentra una de las maravillas naturales más increíbles del mundo: la Laguna Colorada. Este lago de sal poco profundo es famoso en todo el mundo porque su agua es de un color rojo vibrante y profundo. Este color único no es causado por químicos; es creado por millones de algas rojas diminutas y sedimentos que viven en el agua salada.\n\nEl paisaje en la laguna es absolutamente impresionante. Alrededor del agua roja hay depósitos grandes de bórax, que es un mineral blanco que parece nieve o hielo brillante. Este contraste entre el agua roja y los minerales blancos crea un paisaje que parece de otro planeta. Porque el aire es muy fino y la altitud es extremadamente alta, las nubes parecen estar muy cerca del suelo.\n\nLa Laguna Colorada también es un hogar muy importante para miles de flamencos hermosos. Hay tres especies diferentes de flamencos que viven aquí, incluyendo el flamenco de James, que es muy raro. Estas aves tienen plumas rosadas porque comen las algas rojas del agua. Ver miles de flamencos rosados en el agua roja con los minerales blancos es una experiencia inolvidable para todos los viajeros.\n\nHoy en día, la laguna es un área protegida dentro de la Reserva Nacional de Fauna Andina Eduardo Avaroa. Es un ecosistema frágil que los científicos trabajan duro para proteger. Para los bolivianos, la Laguna Colorada es un símbolo poderoso de la belleza salvaje de las montañas de los Andes. Es un lugar mágico donde la naturaleza muestra sus colores más intensos y sorprendentes.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué región de Bolivia está situada la Laguna Colorada?",
+          "¿Qué microorganismos causan el color rojo vibrante del agua?",
+          "¿Qué mineral blanco rodea el agua y parece nieve brillante?",
+          "¿Por qué el paisaje de la laguna parece de otro planeta?",
+          "¿Cuántas especies de flamencos viven en este lugar?",
+          "¿Por qué tienen plumas rosadas los flamencos que viven allí?",
+          "¿Cómo se llama la reserva nacional que protege la laguna?"
+        ],
+        "answerKey": [
+          "En la región del Altiplano.",
+          "Millones de algas rojas diminutas.",
+          "El mineral se llama bórax.",
+          "Por el contraste entre el agua roja y los minerales blancos.",
+          "Viven tres especies diferentes.",
+          "Porque comen las algas rojas del agua.",
+          "La Reserva Nacional de Fauna Andina Eduardo Avaroa."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Enclavada en las desoladas y majestuosas alturas del Altiplano boliviano, a más de 4,000 metros sobre el nivel del mar, la Laguna Colorada se erige como un enigma visual de la naturaleza. Este centro hidrográfico de escasa profundidad es mundialmente célebre por la coloración carmesí de sus aguas, un fenómeno biológico fascinante provocado por la proliferación de algas flageladas y la pigmentación de ciertos sedimentos. La intensidad del rojo varía según la incidencia de la luz solar y la agitación de los vientos andinos.\n\nEl entorno que rodea este espejo de agua es igualmente sobrecogedor. Extensos depósitos de bórax emergen como islas de un blanco inmaculado, generando un contraste cromático violento contra el rojo intenso del lago. Esta amalgama de colores, sumada a la aridez del terreno volcánico circundante, otorga al paisaje una apariencia onírica y extraterrestre. La pureza del aire y la soledad del paisaje convierten a este sitio en un santuario de paz absoluta.\n\nLa laguna constituye el hábitat principal para la conservación de la avifauna andina, siendo el punto de reunión más importante para tres especies de flamencos: el andino, el chileno y el esquivo flamenco de James. La dieta de estas aves, rica en carotenos provenientes de las algas locales, es la responsable del delicado tono rosado de su plumaje. El avistamiento de estas colonias nidificando en este ambiente extremo es un espectáculo de biodiversidad sin parangón.\n\nProtegida bajo el marco de la Reserva Nacional Eduardo Avaroa, la Laguna Colorada es un pilar fundamental del patrimonio natural de Bolivia. Su conservación es vital para garantizar el equilibrio de un ecosistema único que desafía las condiciones climáticas más hostiles del continente.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿A qué altitud aproximada se encuentra este enigma visual de la naturaleza?",
+          "¿Qué factores ambientales hacen que la intensidad del color rojo varíe?",
+          "¿Qué elementos geológicos generan el contraste blanco contra el agua carmesí?",
+          "¿Qué especies de flamencos nidifican en este ecosistema extremo?",
+          "¿Cuál es el origen biológico del tono rosado en el plumaje de los flamencos?",
+          "¿Bajo qué marco legal y de conservación se encuentra protegida la laguna?",
+          "¿Por qué es vital garantizar la conservación de este centro hidrográfico?"
+        ],
+        "answerKey": [
+          "A más de 4,000 metros sobre el nivel del mar.",
+          "La incidencia de la luz solar y la agitación de los vientos.",
+          "Los extensos depósitos de bórax.",
+          "El flamenco andino, el chileno y el de James.",
+          "Proviene de los carotenos de las algas locales que consumen.",
+          "Bajo la Reserva Nacional Eduardo Avaroa.",
+          "Para garantizar el equilibrio de un ecosistema único en condiciones hostiles."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Monte Roraima",
+    "imageFileName": "roraima.png",
+    "bundles": ["geografia_y_maravillas", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Mount Roraima is a massive and mysterious mountain located on the border of Venezuela, Brazil, and Guyana. It is not a normal mountain with a sharp peak; instead, it is a 'tepuy' (table-top mountain). This means the top is completely flat, like a giant table in the sky. It is part of the Guiana Highlands and is considered one of the oldest geological formations on the entire planet, dating back billions of years.\n\nThe top of Mount Roraima is often covered by a thick sea of white clouds, making it look like a floating island in space. Because the mountain is so isolated and difficult to climb, it has a very unique 'ecosistema' (ecosystem). Many of the plants and animals found on the top of the mountain live nowhere else on Earth. For example, there are tiny black frogs and many different types of carnivorous plants that eat insects to survive in the rocky soil.\n\nFor the indigenous Pemon people, the mountain is a sacred place. They believe it is the stump of a giant tree that once held all the fruits and vegetables in the world. This mysterious landscape was so famous that it inspired the classic adventure book 'The Lost World' by Sir Arthur Conan Doyle. Many people imagined that dinosaurs still lived on top of the flat plateau.\n\nToday, hiking to the top of Mount Roraima is a difficult but incredible adventure. It takes several days of walking through the jungle and climbing steep cliffs. Travelers who reach the top can explore strange rock formations and crystal pools, feeling like they have truly traveled back to the beginning of time.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What three countries share the border where Mount Roraima is located?",
+          "What is a 'tepuy' and how is it different from a normal mountain?",
+          "Why is the mountain considered one of the oldest geological formations?",
+          "What covers the top of the mountain, making it look like it's floating?",
+          "What do the carnivorous plants on the mountain eat to survive?",
+          "What famous adventure book was inspired by this mysterious landscape?",
+          "How long does it take to hike to the top of the mountain?"
+        ],
+        "answerKey": [
+          "Venezuela, Brazil, and Guyana.",
+          "A tepuy is a table-top mountain with a completely flat top.",
+          "Because it dates back billions of years.",
+          "A thick sea of white clouds.",
+          "They eat insects.",
+          "The Lost World by Sir Arthur Conan Doyle.",
+          "It takes several days."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El Monte Roraima es una montaña masiva y misteriosa situada en la frontera de Venezuela, Brasil y Guyana. No es una montaña normal con un pico; es un 'tepuy'. Esto significa que la cima es completamente plana, como una mesa gigante en el cielo. Es parte del Escudo Guayanés y es considerada una de las formaciones geológicas más antiguas del planeta, con miles de millones de años de historia.\n\nLa cima del Monte Roraima está frecuentemente cubierta por un mar de nubes blancas, lo que hace que parezca una isla flotante en el espacio. Porque la montaña está muy aislada y es difícil de escalar, tiene un ecosistema muy único. Muchas de las plantas y animales que viven arriba no viven en ningún otro lugar de la Tierra. Por ejemplo, hay ranas negras diminutas y plantas carnívoras que comen insectos para sobrevivir en el suelo rocoso.\n\nPara el pueblo indígena Pemón, la montaña es un lugar sagrado. Ellos creen que es el tronco de un árbol gigante que tenía todas las frutas y vegetales del mundo. Este paisaje misterioso fue tan famoso que inspiró el libro de aventuras 'El Mundo Perdido' de Sir Arthur Conan Doyle. Muchas personas imaginaban que los dinosaurios todavía vivían arriba de la meseta plana.\n\nHoy en día, subir al Monte Roraima es una aventura difícil pero increíble. Se necesitan varios días de caminar por la selva y escalar rocas empinadas. Los viajeros que llegan a la cima pueden explorar formaciones de rocas extrañas y piscinas de cristal, sintiendo que han viajado al principio del tiempo. Es un lugar donde la naturaleza se mantiene pura y protegida.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué frontera de tres países se encuentra el Monte Roraima?",
+          "¿Qué característica física hace que un 'tepuy' sea diferente a otras montañas?",
+          "¿Por qué es famoso el ecosistema que vive en la cima de la montaña?",
+          "¿Qué tipo de plantas especiales viven en el suelo rocoso del Roraima?",
+          "¿Qué representa la montaña para el pueblo indígena Pemón?",
+          "¿Qué libro famoso de aventuras fue inspirado por este paisaje?",
+          "¿Qué pueden explorar los viajeros cuando llegan finalmente a la cima?"
+        ],
+        "answerKey": [
+          "En la frontera de Venezuela, Brasil y Guyana.",
+          "Tiene una cima completamente plana.",
+          "Porque tiene plantas y animales que no viven en ningún otro lugar.",
+          "Plantas carnívoras que comen insectos.",
+          "Es un lugar sagrado (el tronco de un árbol gigante).",
+          "El Mundo Perdido.",
+          "Formaciones de rocas extrañas y piscinas de cristal."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El Monte Roraima, cuya silueta rectangular se recorta contra el horizonte de la Gran Sabana, es el más eminente de los tepuyes del Escudo Guayanés. Esta imponente meseta, compartida por Venezuela, Brasil y Guyana, representa un vestigio geológico del periodo Precámbrico. Con una antigüedad estimada en dos mil millones de años, sus paredes verticales de arenisca guardan los secretos de los albores de la vida en la Tierra, habiendo permanecido aisladas de la evolución biológica del resto del continente.\n\nLa cumbre del Roraima es un laboratorio evolutivo fascinante. Debido a la constante lixiviación de nutrientes por las lluvias torrenciales, el suelo es extremadamente pobre, lo que ha forzado la aparición de una flora endémica asombrosa. Destacan las plantas insectívoras, como la Heliamphora, que han desarrollado mecanismos complejos para capturar presas y compensar la carencia de nitrógeno. Asimismo, la fauna local incluye especies únicas como el sapito negro del Roraima, un anfibio que no salta, sino que camina con lentitud sobre las rocas milenarias.\n\nEn la cosmogonía de la etnia Pemón, el Roraima es conocido como el 'Gran Árbol de la Vida'. Según sus leyendas, la caída de este árbol primordial dio origen a todos los ríos y plantas que sustentan la selva. Esta aura de misterio e inaccesibilidad cautivó al escritor británico Arthur Conan Doyle, quien inmortalizó el lugar en su obra 'El Mundo Perdido', planteando la existencia de criaturas prehistóricas en su cima.\n\nActualmente, la ascensión al Roraima es una de las rutas de trekking más exigentes y gratificantes de Sudamérica. Atravesar sus valles de cuarzo y bañarse en sus 'jacuzzis' naturales es un privilegio que permite al ser humano conectar con la esencia más primitiva y virginal de nuestro planeta.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué periodo geológico es vestigio la meseta del Monte Roraima?",
+          "¿Por qué se considera a la cumbre del Roraima un 'laboratorio evolutivo'?",
+          "¿Qué factor ambiental fuerza a las plantas locales a ser insectívoras?",
+          "¿Qué característica inusual tiene el sapito negro que habita en la cima?",
+          "¿Cómo explica la mitología Pemón el origen de los ríos y plantas?",
+          "¿Qué autor británico inmortalizó este paisaje en la literatura de ficción?",
+          "¿Qué elementos naturales pueden encontrar los excursionistas en los valles de la cima?"
+        ],
+        "answerKey": [
+          "Del periodo Precámbrico.",
+          "Porque sus especies han evolucionado aisladas del resto del continente.",
+          "La lixiviación de nutrientes del suelo por las lluvias torrenciales.",
+          "Es un anfibio que no salta, sino que camina.",
+          "A través de la leyenda de la caída del Gran Árbol de la Vida.",
+          "Arthur Conan Doyle.",
+          "Valles de cuarzo y 'jacuzzis' (piscinas) naturales."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Cartagena de Indias",
+    "imageFileName": "cartagena_de_indias.png",
+    "bundles": ["arte_literatura_y_cine", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Cartagena de Indias is a breathtakingly beautiful and historic city located on the Caribbean coast of Colombia. Founded in 1533, it was one of the most important ports in the entire Spanish Empire. Because it was so rich and powerful, the city was a constant target for 'piratas' (pirates) like Sir Francis Drake. To protect the city, the Spanish built massive stone walls and giant forts that still stand tall today.\n\nThe heart of the city is known as the 'Ciudad Amurallada' (Walled City). Walking inside the walls feels like traveling back in time. The narrow, cobblestone streets are filled with colorful colonial houses that have bright wooden balconies covered in flowers. You can see many 'palenqueras' (fruit sellers) wearing vibrant dresses of yellow, blue, and red, carrying large bowls of fresh tropical fruit on their heads. They are a beautiful and iconic symbol of the city's Afro-Colombian culture.\n\nOne of the most impressive landmarks is the Castillo San Felipe de Barajas. This is a massive fortress built on a hill to defend the city from any invaders. Visitors can walk through its long, dark underground tunnels and see the giant cannons that once protected the harbor. The views of the modern skyline and the blue Caribbean Sea from the top of the fort are spectacular.\n\nBecause of its incredible preservation and historical importance, Cartagena was named a UNESCO World Heritage site. It was also a massive inspiration for famous writers, especially the Nobel Prize winner Gabriel García Márquez. Today, Cartagena is a magical place where the romantic stories of the past and the vibrant music of the Caribbean come perfectly together for every visitor to enjoy.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "When was the city of Cartagena de Indias founded?",
+          "Why did the Spanish build massive stone walls around the city?",
+          "What is the heart of the city commonly called?",
+          "Who are the 'palenqueras' and what do they carry on their heads?",
+          "What is the name of the massive fortress built on a hill in Cartagena?",
+          "What can visitors explore inside the Castillo San Felipe?",
+          "Which famous Nobel Prize-winning writer was inspired by this city?"
+        ],
+        "answerKey": [
+          "It was founded in 1533.",
+          "To protect the city from pirates.",
+          "The 'Ciudad Amurallada' (Walled City).",
+          "Fruit sellers who carry bowls of fresh fruit on their heads.",
+          "Castillo San Felipe de Barajas.",
+          "Long, dark underground tunnels and cannons.",
+          "Gabriel García Márquez."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Cartagena de Indias es una ciudad histórica y hermosa situada en la costa del Caribe de Colombia. Fundada en el año 1533, fue uno de los puertos más importantes del Imperio español. Porque era una ciudad muy rica, fue un objetivo constante para los piratas famosos. Para proteger la ciudad, los españoles construyeron murallas masivas de piedra y fuertes gigantes que todavía existen hoy.\n\nEl corazón de la ciudad es conocido como la 'Ciudad Amurallada'. Caminar dentro de las murallas es como viajar al pasado. Las calles estrechas tienen casas coloniales de muchos colores con balcones de madera llenos de flores. Puedes ver a muchas 'palenqueras' con vestidos vibrantes de color amarillo, azul y rojo. Ellas llevan canastas de frutas tropicales frescas en la cabeza y son un símbolo icónico de la cultura afrocolombiana de la ciudad.\n\nUno de los monumentos más impresionantes es el Castillo San Felipe de Barajas. Esta es una fortaleza masiva construida en una colina para defender a Cartagena. Los visitantes pueden caminar por sus túneles subterráneos oscuros y ver los cañones grandes que protegían el puerto. Las vistas del mar Caribe desde la cima del fuerte son espectaculares.\n\nPor su conservación increíble y su importancia histórica, Cartagena fue nombrada Patrimonio de la Humanidad por la UNESCO. También fue una gran inspiración para escritores famosos, especialmente para el ganador del Premio Nobel Gabriel García Márquez. Hoy en día, Cartagena es un lugar mágico donde las historias románticas del pasado y la música alegre del Caribe se encuentran. Es un destino que todos los estudiantes de español deben conocer para entender la historia de Latinoamérica.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué año fue fundada la ciudad de Cartagena de Indias?",
+          "¿Por qué construyeron los españoles murallas y fuertes de piedra?",
+          "¿Cómo se llama el centro histórico que está dentro de las murallas?",
+          "¿Qué llevan las palenqueras en la cabeza y qué representan?",
+          "¿Cuál es el monumento más impresionante construido sobre una colina?",
+          "¿Qué título recibió Cartagena por su gran conservación e historia?",
+          "¿Qué escritor famoso se inspiró en la magia de Cartagena?"
+        ],
+        "answerKey": [
+          "Fue fundada en el año 1533.",
+          "Para proteger la ciudad de los piratas.",
+          "La Ciudad Amurallada.",
+          "Llevan canastas de frutas y representan la cultura afrocolombiana.",
+          "El Castillo San Felipe de Barajas.",
+          "El título de Patrimonio de la Humanidad.",
+          "Gabriel García Márquez."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Cartagena de Indias, la joya de la corona del Caribe colombiano, es una ciudad donde el tiempo parece haberse detenido entre sus imponentes baluartes. Fundada por Pedro de Heredia en 1533, esta urbe se consolidó como el puerto neurálgico para el envío de riquezas hacia España. Esta opulencia atrajo la codicia de corsarios británicos y franceses, lo que obligó a la corona a ejecutar una de las proezas de ingeniería militar más ambiciosas del Nuevo Mundo: el cinturón de murallas y el sistema de fortificaciones que aún abrazan el casco antiguo.\n\nAdentrarse en la Ciudad Amurallada es sumergirse en un realismo mágico tangible. Las fachadas de colores pastel, adornadas con buganvilias que caen desde balcones coloniales de madera tallada, configuran un paisaje urbano inigualable. Las palenqueras, mujeres descendientes de cimarrones que fundaron el primer pueblo libre de América, añaden un componente etnográfico esencial con sus polleras multicolores y su destreza para equilibrar frutas exóticas sobre sus cabezas. Su presencia es un testimonio vivo de la herencia africana que define la identidad cartagenera.\n\nDominando el horizonte se encuentra el Castillo San Felipe de Barajas, una fortaleza inexpugnable que destaca por su complejo sistema de túneles diseñados para la guerra acústica. Desde su cima, se puede contemplar el contraste entre la Cartagena histórica y los modernos rascacielos de Bocagrande. Declarada Patrimonio de la Humanidad en 1984, la ciudad ha sido la musa eterna de Gabriel García Márquez, quien impregnó su literatura con la brisa salada y el misticismo de sus plazas.\n\nHoy en día, Cartagena sigue siendo un epicentro de cultura y romance. Es un santuario histórico donde la piedra milenaria narra crónicas de batallas y amores prohibidos bajo la perpetua luz del sol caribeño.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Quién fundó la ciudad de Cartagena en 1533 y cuál era su función principal?",
+          "¿Qué motivó a la corona española a construir el ambicioso cinturón de murallas?",
+          "¿Qué flores adornan típicamente los balcones coloniales de madera tallada?",
+          "¿Quiénes fueron los antepasados de las palenqueras y por qué son históricamente importantes?",
+          "¿Qué característica técnica destaca en el diseño del Castillo San Felipe de Barajas?",
+          "¿En qué año recibió Cartagena el título de Patrimonio de la Humanidad por la UNESCO?",
+          "¿Cómo influyó el ambiente de la ciudad en la obra de Gabriel García Márquez?"
+        ],
+        "answerKey": [
+          "Pedro de Heredia; funcionaba como puerto neurálgico para enviar riquezas a España.",
+          "La codicia de corsarios británicos y franceses.",
+          "Las buganvilias.",
+          "Los cimarrones; fundaron el primer pueblo libre de América (Palenque).",
+          "Su complejo sistema de túneles diseñados para la guerra acústica.",
+          "En el año 1984.",
+          "La ciudad fue su musa eterna, impregnando su obra con su brisa y misticismo."
+        ]
+      }
+    }
   }
-
 
   
 ]
