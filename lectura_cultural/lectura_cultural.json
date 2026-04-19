@@ -19151,5 +19151,461 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "La Carreta",
+    "imageFileName": "la_carreta_costa_rica.png",
+    "bundles": ["cultura_y_gastronomia", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "If you ever travel to the beautiful Central American country of Costa Rica, you will quickly notice a very famous, colorful, and completely unique national symbol. It is not a wild animal or a historic building, but a traditional wooden oxcart known as 'la carreta'. For many centuries, these beautifully painted carts were absolutely essential for the survival and massive economic growth of the local people. Before modern trucks and paved roads existed, farmers desperately needed a strong, reliable way to transport their heavy crops across the difficult, muddy mountains.\n\nOriginally, the simple, wooden carts were pulled by two strong oxen. They were primarily used to carry millions of pounds of fresh 'café' (coffee) beans from the high, green valleys directly to the busy coastal ports. The journey was incredibly long and dangerous, often taking several weeks to completely finish. Over time, the proud farmers started painting their plain wooden carts with bright, beautiful colors to show their absolute joy and deep cultural pride. They carefully painted magical geometric shapes, vibrant flowers, and intricate star patterns on the massive, solid wheels.\n\nToday, 'las carretas' are no longer used for heavy daily farming, but they remain an incredibly powerful and beloved symbol of Costa Rican history. Every single year, excited crowds gather to watch massive, colorful parades where proud families show off their perfectly painted, traditional carts. In fact, this beautiful artistic tradition is so culturally important that the United Nations officially declared it a Masterpiece of the Oral and Intangible Heritage of Humanity, perfectly preserving the brilliant, colorful spirit of Costa Rica forever.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What is the traditional wooden oxcart of Costa Rica known as in Spanish?",
+          "Why did farmers desperately need a strong, reliable way to transport their heavy crops?",
+          "What were the simple, wooden carts originally pulled by?",
+          "What heavy crop were the carts primarily used to carry from the green valleys to the ports?",
+          "What three things did the proud farmers carefully paint on the massive, solid wheels?",
+          "What do excited crowds gather to watch every single year today?",
+          "What did the United Nations officially declare this beautiful artistic tradition to be?"
+        ],
+        "answerKey": [
+          "It is known as 'la carreta'.",
+          "Because modern trucks and paved roads did not exist yet.",
+          "Two strong oxen.",
+          "Millions of pounds of fresh coffee ('café') beans.",
+          "Magical geometric shapes, vibrant flowers, and intricate star patterns.",
+          "Massive, colorful parades where families show off their traditional carts.",
+          "A Masterpiece of the Oral and Intangible Heritage of Humanity."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Si alguna vez viajas al hermoso país centroamericano de Costa Rica, notarás rápidamente un símbolo nacional muy famoso, colorido y completamente único. No es un animal salvaje o un edificio histórico, sino una carreta tradicional de madera. Por muchos siglos, estas carretas pintadas hermosamente fueron absolutamente esenciales para la supervivencia y el crecimiento económico masivo de las personas locales. Antes de que existieran los camiones modernos y las calles pavimentadas, los agricultores necesitaban desesperadamente una manera fuerte y confiable de transportar sus cultivos por las montañas difíciles y llenas de lodo.\n\nOriginalmente, las carretas de madera simples eran jaladas por dos bueyes fuertes. Ellas se usaban principalmente para llevar millones de libras de granos frescos de café desde los valles altos y verdes directamente a los puertos costeros y ocupados. El viaje era increíblemente largo y peligroso, tomando frecuentemente varias semanas para terminar completamente. Con el tiempo, los agricultores orgullosos empezaron a pintar sus carretas simples de madera con colores brillantes y hermosos para mostrar su alegría absoluta y orgullo cultural profundo. Ellos pintaron cuidadosamente formas geométricas mágicas, flores vibrantes y patrones intrincados de estrellas en las ruedas masivas y sólidas.\n\nHoy en día, las carretas ya no se usan para el trabajo diario pesado de la granja, pero siguen siendo un símbolo increíblemente poderoso y muy querido de la historia costarricense. Cada año, multitudes emocionadas se reúnen para ver desfiles masivos y coloridos donde las familias orgullosas muestran sus carretas tradicionales pintadas perfectamente. De hecho, esta hermosa tradición artística es tan importante culturalmente que las Naciones Unidas la declararon un Patrimonio de la Humanidad, preservando perfectamente el espíritu brillante de Costa Rica.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué material específico estaba hecho este símbolo nacional muy famoso y colorido?",
+          "¿Por qué necesitaban los agricultores una manera fuerte de transportar sus cultivos pesados?",
+          "¿Qué dos animales fuertes jalaban originalmente las carretas de madera simples?",
+          "¿A dónde llevaban las carretas millones de libras de granos frescos de café?",
+          "¿Qué pintaron cuidadosamente los agricultores orgullosos en las ruedas masivas y sólidas?",
+          "¿Qué muestran las familias orgullosas en los desfiles masivos y coloridos cada año?",
+          "¿Qué título importante declaró las Naciones Unidas a esta hermosa tradición artística?"
+        ],
+        "answerKey": [
+          "Estaba hecho de madera (es una carreta tradicional de madera).",
+          "Porque no existían los camiones modernos y las calles pavimentadas.",
+          "Dos bueyes fuertes.",
+          "A los puertos costeros y ocupados.",
+          "Formas geométricas mágicas, flores vibrantes y patrones intrincados de estrellas.",
+          "Sus carretas tradicionales pintadas perfectamente.",
+          "Un Patrimonio de la Humanidad."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Si exploras la exuberante geografía de Costa Rica, inevitablemente te toparás con su emblema nacional más pintoresco, folclórico y universalmente venerado: la icónica carreta típica. Lejos de ser un mero objeto decorativo moderno, este robusto carruaje de madera tirado por yuntas de bueyes constituyó el motor innegable del fenomenal desarrollo agrícola y económico de la nación centroamericana durante los siglos diecinueve y veinte. Ante la total ausencia de infraestructura vial motorizada, estas sólidas carretas eran el único medio capaz de sortear la accidentada topografía andina y los lodazales traicioneros para comercializar sus productos.\n\nOriginalmente, su función primordial consistía en transportar inmensos cargamentos del preciado grano de café desde las fértiles plantaciones del Valle Central hasta los bulliciosos puertos marítimos de exportación. Las travesías eran extenuantes y repletas de adversidades, prolongándose habitualmente por semanas enteras. Paradójicamente, de esta dura labor nació una de las expresiones artísticas más deslumbrantes del país. Los boyeros comenzaron a ornamentar las ruedas macizas y los paneles de sus carretas con pigmentos rutilantes, delineando hipnóticos mandalas, filigranas botánicas y estrellas geométricas vibrantes. Cada diseño pictórico operaba como un sello identitario inconfundible de su región de origen y del orgullo familiar del artesano.\n\nEn la actualidad, la emblemática carreta ha trascendido su propósito utilitario para consagrarse como una obra de arte móvil sumamente valorada. Su incalculable relevancia etnográfica motivó a la UNESCO a proclamarla formalmente como Obra Maestra del Patrimonio Oral e Inmaterial de la Humanidad en el año 2005. Hoy, los majestuosos desfiles de boyeros continúan rindiendo un emotivo y colorido tributo a la inquebrantable tenacidad campesina y al resplandeciente espíritu creativo que define el alma auténtica de Costa Rica.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué fenómeno histórico constituyó este carruaje el motor innegable durante los siglos pasados?",
+          "¿Por qué eran estas sólidas carretas el único medio capaz de sortear la accidentada topografía?",
+          "¿Cuál consistía originalmente su función primordial desde las fértiles plantaciones del Valle Central?",
+          "¿Qué elementos visuales comenzaron a delinear los boyeros al ornamentar las ruedas macizas?",
+          "¿Qué representaba inconfundiblemente cada diseño pictórico plasmado en las carretas?",
+          "¿A qué consagración elevó la UNESCO a este elemento folclórico en el año 2005?",
+          "¿A qué rinden un emotivo y colorido tributo los majestuosos desfiles de boyeros en la actualidad?"
+        ],
+        "answerKey": [
+          "Del fenomenal desarrollo agrícola y económico de la nación centroamericana.",
+          "Ante la total ausencia de infraestructura vial motorizada.",
+          "En transportar inmensos cargamentos del preciado grano de café hasta los puertos marítimos.",
+          "Hipnóticos mandalas, filigranas botánicas y estrellas geométricas vibrantes.",
+          "La región de origen y el orgullo familiar del artesano.",
+          "A Obra Maestra del Patrimonio Oral e Inmaterial de la Humanidad.",
+          "A la inquebrantable tenacidad campesina y al resplandeciente espíritu creativo costarricense."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Las Plantaciones de Café",
+    "imageFileName": "plantaciones_cafe_costa_rica.png",
+    "bundles": ["cultura_y_gastronomia", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Costa Rica is universally famous for its beautiful, bright green landscapes and amazing wild animals, but it is also famous for something absolutely delicious: coffee! The country is known worldwide for producing some of the absolute highest quality and most flavorful coffee beans on the entire planet Earth. For hundreds of years, massive 'plantaciones de café' (coffee plantations) have been the deeply rooted, beating heart of the nation's incredible agricultural history and massive economic success.\n\nIn the early 1800s, farmers realized that the volcanic soil in the Central Valley of Costa Rica was absolutely perfect for growing healthy coffee plants. The high mountains have cool temperatures and exactly the right amount of rain for the green plants to magically thrive. Because the country's leaders knew that this dark, delicious drink was incredibly valuable, they started giving away free land to anyone who promised to plant coffee seeds. Very quickly, coffee became Costa Rica's absolute biggest and most profitable export, bringing massive wealth to the rapidly growing nation.\n\nThe process of making the perfect cup of coffee is incredibly difficult and takes a lot of hard, dedicated work. Today, many local farmers still carefully pick every single ripe, red coffee cherry completely by hand to ensure absolute perfection. After the cherries are washed and dried in the warm sun, the small beans inside are roasted until they turn dark brown.\n\nToday, adventurous tourists from all over the world love to take exciting, guided tours of the beautiful, green plantations. They learn exactly how the magical beans are grown, roasted, and perfectly brewed. It is a fantastic, delicious experience that wonderfully celebrates the proud, hardworking spirit of Costa Rica.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What is Costa Rica known worldwide for producing besides its beautiful landscapes?",
+          "What has been the deeply rooted, beating heart of the nation's massive economic success?",
+          "What type of soil in the Central Valley was absolutely perfect for growing healthy coffee plants?",
+          "Why did the country's leaders start giving away free land in the early 1800s?",
+          "How do many local farmers still carefully pick every single ripe, red coffee cherry today?",
+          "What is done to the small beans inside after the cherries are washed and dried in the sun?",
+          "What do adventurous tourists from all over the world love to take exciting, guided tours of today?"
+        ],
+        "answerKey": [
+          "Some of the absolute highest quality and most flavorful coffee beans on the planet.",
+          "Massive 'plantaciones de café' (coffee plantations).",
+          "Volcanic soil.",
+          "To anyone who promised to plant coffee seeds because the drink was incredibly valuable.",
+          "Completely by hand to ensure absolute perfection.",
+          "They are roasted until they turn dark brown.",
+          "The beautiful, green coffee plantations."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Costa Rica es famosa universalmente por sus hermosos paisajes verdes y animales salvajes asombrosos, pero también es famosa por algo absolutamente delicioso: ¡el café! El país es conocido mundialmente por producir algunos de los granos de café de la más alta calidad y con el mejor sabor en todo el planeta Tierra. Por cientos de años, las plantaciones de café masivas han sido el corazón profundo de la historia agrícola increíble de la nación y su éxito económico masivo.\n\nA principios de los años 1800, los agricultores se dieron cuenta de que la tierra volcánica en el Valle Central de Costa Rica era absolutamente perfecta para cultivar plantas de café saludables. Las montañas altas tienen temperaturas frescas y exactamente la cantidad correcta de lluvia para que las plantas verdes crezcan mágicamente. Porque los líderes del país sabían que esta bebida oscura y deliciosa era increíblemente valiosa, empezaron a regalar tierra gratis a cualquier persona que prometiera plantar semillas de café. Rápidamente, el café se convirtió en la exportación más grande y rentable del país, trayendo mucha riqueza.\n\nEl proceso para hacer la taza perfecta de café es increíblemente difícil y toma mucho trabajo duro y dedicado. Hoy en día, muchos agricultores locales todavía recogen cuidadosamente cada cereza de café roja y madura completamente a mano para asegurar la perfección absoluta. Después de lavar y secar las cerezas bajo el sol, los granos pequeños se tuestan.\n\nHoy, a los turistas de todo el mundo les encanta hacer excursiones emocionantes por las plantaciones hermosas. Es una experiencia fantástica y muy deliciosa que celebra maravillosamente el espíritu orgulloso y trabajador de Costa Rica.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué producto absolutamente delicioso es conocido mundialmente por su alta calidad en Costa Rica?",
+          "¿Qué tipo de tierra fue absolutamente perfecta para cultivar plantas saludables a principios de 1800?",
+          "¿Por qué daban los líderes del país tierra gratis a cualquier persona en el Valle Central?",
+          "¿En qué se convirtió rápidamente el café trayendo mucha riqueza a la nación?",
+          "¿Cómo recogen los agricultores locales cada cereza de café roja para asegurar la perfección absoluta?",
+          "¿Qué les hacen a los granos pequeños después de lavar y secar las cerezas bajo el sol?",
+          "¿A quiénes les encanta hacer excursiones emocionantes por las plantaciones hermosas hoy en día?"
+        ],
+        "answerKey": [
+          "El café (los granos de café).",
+          "La tierra volcánica en el Valle Central.",
+          "A cualquiera que prometiera plantar semillas de café porque era una bebida valiosa.",
+          "Se convirtió en la exportación más grande y rentable del país.",
+          "Recogen cuidadosamente cada cereza completamente a mano.",
+          "Los granos pequeños se tuestan.",
+          "A los turistas de todo el mundo."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Aunque Costa Rica es aclamada globalmente por su asombrosa biodiversidad y exuberantes ecosistemas tropicales, ostenta paralelamente un prestigio inquebrantable en la industria de las bebidas estimulantes. La nación centroamericana es universalmente reverenciada por cultivar y exportar uno de los cafés arábicos más selectos, exquisitos y aromáticos de todo el globo terráqueo. Desde el siglo diecinueve, las inmensas y prósperas plantaciones cafetaleras han constituido la columna vertebral indudable del formidable progreso económico, la consolidación democrática y la profunda herencia agrícola del país.\n\nHistóricamente, los agricultores costarricenses descubrieron rápidamente que el fértil suelo volcánico del Valle Central poseía propiedades químicas absolutamente insuperables. La combinación de elevadas altitudes montañosas, temperaturas moderadas y un régimen de lluvias impecablemente balanceado generaba el microclima perfecto para que el \"grano de oro\" prosperara vigorosamente. Comprendiendo el inmenso valor comercial de esta infusión oscura, el naciente gobierno republicano implementó políticas agresivas, otorgando parcelas gratuitas a los colonos dispuestos a sembrar cafetos. Esta audaz estrategia catapultó al café como el principal motor de exportación nacional, atrayendo una riqueza sin precedentes.\n\nEl minucioso proceso para lograr una taza de café de excelencia requiere un esfuerzo artesanal y una devoción inquebrantables. Actualmente, los caficultores tradicionales insisten en recolectar meticulosamente a mano cada cereza roja en su punto óptimo de maduración, garantizando una calidad sublime. Tras el lavado y el secado al sol, los granos son tostados magistralmente para liberar sus complejos aceites esenciales.\n\nHoy en día, visitar estas deslumbrantes fincas cafetaleras es una actividad obligatoria para los turistas internacionales. Ofrece una inmersión sensorial inolvidable que rinde un merecido homenaje a la resiliencia campesina, la pasión agrónoma y el indomable orgullo cultural costarricense.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué industria y bebida aromática ostenta paralelamente un prestigio inquebrantable Costa Rica?",
+          "¿De qué progreso nacional han constituido la columna vertebral las prósperas plantaciones cafetaleras?",
+          "¿Qué combinación de factores meteorológicos generaba el microclima perfecto en el Valle Central?",
+          "¿Qué otorgaba el naciente gobierno republicano a los colonos dispuestos a sembrar cafetos?",
+          "¿Por qué insisten los caficultores en recolectar meticulosamente a mano cada cereza roja?",
+          "¿Qué finalidad tiene tostar magistralmente los granos de café tras el lavado y el secado?",
+          "¿Qué rinde un merecido homenaje a la resiliencia campesina y la pasión agrónoma para los turistas?"
+        ],
+        "answerKey": [
+          "Del café (cultivar y exportar uno de los cafés arábicos más selectos).",
+          "Del formidable progreso económico, la consolidación democrática y la profunda herencia agrícola.",
+          "Elevadas altitudes, temperaturas moderadas y un régimen de lluvias impecablemente balanceado.",
+          "Otorgaba parcelas gratuitas (tierra gratis).",
+          "Para garantizar una calidad sublime (recolectándolas en su punto óptimo de maduración).",
+          "Liberar sus complejos aceites esenciales.",
+          "La inmersión sensorial inolvidable de visitar estas deslumbrantes fincas cafetaleras."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Los Parques Nacionales",
+    "imageFileName": "parques_nacionales_costa_rica.png",
+    "bundles": ["geografia_y_maravillas", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Costa Rica is a brilliant, progressive, and beautiful Central American country that is highly respected all over the entire world for its incredible commitment to nature. While many massive countries focus entirely on building giant cities and expanding heavy industry, Costa Rica boldly decided to protect its magical natural environment. Today, more than twenty-eight percent of the entire country's land is strictly protected inside an unbelievable system of wild, stunning 'parques nacionales' (national parks) and nature reserves.\n\nThis incredible accomplishment makes Costa Rica the absolute global leader in environmental conservation. The country has dozens of different national parks, and each one protects a completely unique, fascinating ecosystem. For example, Manuel Antonio National Park is a massive, cloudy, green rainforest located high up in the cool mountains. It is completely filled with rare, colorful birds, thousands of bright orchids, and cute monkeys swinging through the tall trees. Meanwhile, Corcovado National Park protects a completely different environment, featuring dense tropical jungles running directly into the warm, blue ocean.\n\nIn the 1970s, the smart government realized that destroying the valuable forests to create cow pastures was a terrible, dangerous mistake. They quickly created strict laws to permanently save the beautiful land for future generations. Because of these massive, wonderful national parks, millions of happy tourists travel to Costa Rica every single year to explore the untouched wilderness and experience eco-tourism.\n\nBy proudly protecting its beautiful natural resources, Costa Rica completely proves that human beings can live peacefully and happily alongside wild nature. Their spectacular national parks are a magical, vibrant treasure for the entire world to enjoy forever.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What did Costa Rica boldly decide to protect instead of building giant cities and expanding industry?",
+          "How much of the entire country's land is strictly protected inside the unbelievable system today?",
+          "What is Manuel Antonio National Park completely filled with in the cool mountains?",
+          "What does Corcovado National Park feature running directly into the warm, blue ocean?",
+          "What terrible, dangerous mistake did the smart government realize they were making in the 1970s?",
+          "Why do millions of happy tourists travel to Costa Rica every single year today?",
+          "What does Costa Rica completely prove by proudly protecting its beautiful natural resources?"
+        ],
+        "answerKey": [
+          "Its magical natural environment.",
+          "More than twenty-eight percent.",
+          "Rare, colorful birds, thousands of bright orchids, and cute monkeys.",
+          "Dense tropical jungles.",
+          "Destroying the valuable forests to create cow pastures.",
+          "To explore the untouched wilderness and experience eco-tourism.",
+          "That human beings can live peacefully and happily alongside wild nature."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Costa Rica es un país centroamericano brillante, progresista y hermoso que es muy respetado en todo el mundo por su compromiso increíble con la naturaleza. Mientras muchos países masivos se enfocan completamente en construir ciudades gigantes y expandir la industria pesada, Costa Rica decidió valientemente proteger su mágico medio ambiente natural. Hoy en día, más del veintiocho por ciento de la tierra de todo el país está estrictamente protegida dentro de un sistema increíble de parques nacionales y reservas naturales.\n\nEste logro increíble hace a Costa Rica el líder global absoluto en la conservación ambiental. El país tiene docenas de parques nacionales diferentes, y cada uno protege un ecosistema completamente único y fascinante. Por ejemplo, el Parque Nacional Manuel Antonio es un bosque lluvioso masivo, nublado y verde situado en lo alto de las montañas frescas. Está completamente lleno de pájaros raros y coloridos, miles de orquídeas brillantes y monos lindos en los árboles altos. Mientras tanto, el Parque Nacional Corcovado protege un ambiente completamente diferente, con selvas tropicales densas cerca del océano azul y cálido.\n\nEn los años setenta, el gobierno inteligente se dio cuenta de que destruir los bosques valiosos para crear pastos para vacas era un error terrible y peligroso. Crearon leyes estrictas rápidamente para salvar permanentemente la hermosa tierra para las generaciones futuras. Por estos parques nacionales maravillosos, millones de turistas felices viajan a Costa Rica cada año para explorar la naturaleza.\n\nAl proteger con orgullo sus recursos naturales, Costa Rica demuestra completamente que los seres humanos pueden vivir pacíficamente y felizmente junto a la naturaleza salvaje y hermosa.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué se enfocan completamente muchos países masivos en vez de proteger la naturaleza?",
+          "¿Qué porcentaje de la tierra de Costa Rica está protegida como parques nacionales y reservas?",
+          "¿Qué hace este logro increíble a Costa Rica en el mundo de la conservación ambiental?",
+          "¿Qué tipo de plantas y animales puedes ver en lo alto del Parque Nacional Manuel Antonio?",
+          "¿Qué protege el Parque Nacional Corcovado cerca del océano azul y cálido?",
+          "¿Para qué se destruían los bosques valiosos antes de que el gobierno creara leyes estrictas?",
+          "¿Qué demuestra completamente Costa Rica al proteger con orgullo sus recursos naturales?"
+        ],
+        "answerKey": [
+          "En construir ciudades gigantes y expandir la industria pesada.",
+          "Más del veintiocho por ciento.",
+          "La hace el líder global absoluto.",
+          "Pájaros raros y coloridos, miles de orquídeas brillantes y monos lindos.",
+          "Selvas tropicales densas.",
+          "Para crear pastos para vacas.",
+          "Demuestra que los seres humanos pueden vivir pacíficamente y felizmente junto a la naturaleza salvaje."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Costa Rica es, indiscutiblemente, una de las repúblicas más progresistas, visionarias y ecológicamente conscientes del panorama internacional contemporáneo. Su inquebrantable compromiso gubernamental con la preservación del medio ambiente es reverenciado globalmente. Mientras numerosas naciones industrializadas priorizan la urbanización descontrolada y la explotación sistemática de recursos, este pequeño istmo centroamericano optó audazmente por salvaguardar su espléndida herencia biológica. Actualmente, más del veintiocho por ciento de su territorio continental se encuentra rigurosamente blindado bajo un formidable e interconectado sistema de parques nacionales y reservas forestales.\n\nEsta colosal hazaña legislativa posiciona a Costa Rica como el indiscutible epicentro mundial de la conservación ecológica. Su red de parques nacionales alberga una abrumadora multiplicidad de ecosistemas radicalmente distintos. Por ejemplo, la icónica Reserva Biológica Bosque Nuboso Monteverde despliega un místico dosel arbóreo envuelto en bruma perpetua, custodiando orquídeas exóticas, escurridizos jaguares y al resplandeciente quetzal. En franco contraste, el prístino Parque Nacional Corcovado, catalogado como el lugar biológicamente más intenso de la Tierra, amalgama selvas tropicales impenetrables que colisionan abruptamente con la bravura del Océano Pacífico.\n\nDurante la turbulenta década de los setenta, las perspicaces autoridades costarricenses comprendieron que la deforestación indiscriminada para fines agropecuarios constituía un error ambiental catastrófico. Promulgaron rápidamente leyes draconianas para frenar la tala y proteger a perpetuidad estos santuarios biológicos para la posteridad. En consecuencia, esta política ha desencadenado un auge sin precedentes del ecoturismo sostenible, atrayendo anualmente a legiones de viajeros aventureros.\n\nLa inmensa red de parques nacionales demuestra fehacientemente que la coexistencia armónica entre el desarrollo humano y la preservación de la vida silvestre no solo es posible, sino que representa el futuro necesario de nuestro planeta entero.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué priorizan numerosas naciones industrializadas en contraste con este pequeño istmo centroamericano?",
+          "¿Bajo qué formidable sistema se encuentra rigurosamente blindado más del veintiocho por ciento de su territorio?",
+          "¿Qué fauna exótica y resplandeciente custodia el místico dosel arbóreo del Bosque Nuboso Monteverde?",
+          "¿Cómo ha sido catalogado científicamente el prístino Parque Nacional Corcovado a nivel mundial?",
+          "¿Qué actividad catastrófica para fines agropecuarios frenaron las perspicaces autoridades en los años setenta?",
+          "¿Qué tipo de auge sin precedentes ha desencadenado esta política atrayendo a legiones de viajeros?",
+          "¿Qué demuestra fehacientemente la inmensa red de parques nacionales sobre el desarrollo humano?"
+        ],
+        "answerKey": [
+          "La urbanización descontrolada y la explotación sistemática de recursos.",
+          "Bajo un interconectado sistema de parques nacionales y reservas forestales.",
+          "Orquídeas exóticas, escurridizos jaguares y al resplandeciente quetzal.",
+          "Como el lugar biológicamente más intenso de la Tierra.",
+          "La deforestación indiscriminada (la tala de bosques).",
+          "Un auge sin precedentes del ecoturismo sostenible.",
+          "Que la coexistencia armónica entre el desarrollo humano y la preservación de la vida silvestre es posible."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Nación Progresista",
+    "imageFileName": "nacion_progresista_costa_rica.png",
+    "bundles": ["historia_y_lideres", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Costa Rica is a truly unique, inspiring, and incredibly special country located right in the middle of Central America. For many decades, it has been widely celebrated all over the world as a brilliant, deeply 'progresista' (progressive) nation. While other countries in the region frequently suffered from terrible violence, extreme poverty, and dangerous military dictatorships, Costa Rica proudly chose a completely different path. They boldly decided to invest all of their money and energy directly into their citizens, creating a peaceful, successful, and beautiful modern society.\n\nOne of the most famous progressive actions Costa Rica ever took happened in 1948, when the brave government officially abolished their entire national army. Instead of buying massive tanks and heavy weapons, they wisely used that massive amount of money to build excellent public schools, modern hospitals, and safe local neighborhoods. Because of this brilliant decision, education and healthcare are basically free and available for everyone in the country today! Their literacy rate is incredibly high, and their people are extremely healthy.\n\nAdditionally, Costa Rica is a massive global leader in protecting the environment and using clean, renewable energy. Today, an unbelievable ninety-nine percent of all the electricity used in the entire country comes from clean sources, like powerful waterfalls, massive wind turbines, and active volcanoes! They do not rely on dirty coal or oil to power their massive cities.\n\nBecause of its deeply peaceful politics, excellent social services, and absolute respect for nature, Costa Rica frequently ranks as one of the happiest nations on Earth. They perfectly prove that true national strength comes from peace, education, and taking care of the beautiful planet.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What has Costa Rica been widely celebrated all over the world as for many decades?",
+          "What did other countries in the region frequently suffer from during this time?",
+          "What did the brave government officially abolish in 1948 to invest in its citizens?",
+          "What three important things did they wisely use the massive amount of money to build instead?",
+          "What percentage of the electricity used in the entire country comes from clean sources today?",
+          "What three clean energy sources power the massive cities instead of dirty coal or oil?",
+          "What do they perfectly prove that true national strength actually comes from?"
+        ],
+        "answerKey": [
+          "A brilliant, deeply progressive ('progresista') nation.",
+          "Terrible violence, extreme poverty, and dangerous military dictatorships.",
+          "Their entire national army.",
+          "Excellent public schools, modern hospitals, and safe local neighborhoods.",
+          "Ninety-nine percent.",
+          "Powerful waterfalls, massive wind turbines, and active volcanoes.",
+          "From peace, education, and taking care of the beautiful planet."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Costa Rica es un país verdaderamente único, inspirador e increíblemente especial situado justo en el medio de Centroamérica. Por muchas décadas, ha sido celebrado ampliamente en todo el mundo como una nación brillante y profundamente progresista. Mientras otros países en la región sufrían frecuentemente de violencia terrible, pobreza extrema y dictaduras militares peligrosas, Costa Rica eligió con orgullo un camino completamente diferente. Decidieron valientemente invertir todo su dinero y energía directamente en sus ciudadanos, creando una sociedad moderna exitosa y pacífica.\n\nUna de las acciones progresistas más famosas que Costa Rica tomó ocurrió en 1948, cuando el gobierno valiente abolió oficialmente todo su ejército nacional. En vez de comprar tanques masivos y armas pesadas, usaron inteligentemente esa cantidad masiva de dinero para construir escuelas públicas excelentes, hospitales modernos y barrios seguros. ¡Por esta decisión brillante, la educación y la atención médica son básicamente gratuitas y están disponibles para todos en el país hoy en día! Su tasa de alfabetización es increíblemente alta, y su pueblo es muy saludable.\n\nAdicionalmente, Costa Rica es un líder global masivo en proteger el medio ambiente y usar energía limpia y renovable. Hoy, ¡un increíble noventa y nueve por ciento de toda la electricidad usada en el país viene de fuentes limpias, como cascadas poderosas, turbinas de viento masivas y volcanes activos! Ellos no dependen del carbón sucio o del petróleo para dar energía a sus ciudades masivas.\n\nPor sus políticas pacíficas y excelente respeto absoluto por la naturaleza, Costa Rica frecuentemente se clasifica como una de las naciones más felices de la Tierra. Ellos demuestran que la fuerza viene de la paz.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué sufrían frecuentemente otros países en la región de Centroamérica en el pasado?",
+          "¿Qué abolió oficialmente el gobierno valiente de Costa Rica en el año 1948?",
+          "¿En qué usaron inteligentemente la cantidad masiva de dinero en vez de comprar armas pesadas?",
+          "¿Qué dos servicios esenciales son básicamente gratuitos y están disponibles para todos hoy en día?",
+          "¿En qué dos áreas ecológicas es Costa Rica un líder global masivo actualmente?",
+          "¿De qué tres fuentes limpias viene el noventa y nueve por ciento de toda su electricidad?",
+          "¿Cómo se clasifica frecuentemente a Costa Rica por sus políticas pacíficas y respeto por la naturaleza?"
+        ],
+        "answerKey": [
+          "De violencia terrible, pobreza extrema y dictaduras militares peligrosas.",
+          "Su ejército nacional.",
+          "En construir escuelas públicas excelentes, hospitales modernos y barrios seguros.",
+          "La educación y la atención médica.",
+          "En proteger el medio ambiente y usar energía limpia y renovable.",
+          "De cascadas poderosas, turbinas de viento masivas y volcanes activos.",
+          "Como una de las naciones más felices de la Tierra."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Costa Rica se erige como una república excepcionalmente admirable, pacífica y verdaderamente ejemplar en el turbulento contexto sociopolítico de América Central. Durante numerosas décadas, ha sido universalmente elogiada en la comunidad internacional por consolidarse como una nación profundamente progresista, visionaria y humanista. Mientras múltiples países vecinos sucumbían repetidamente ante la opresión de cruentas dictaduras militares, la corrupción endémica y la devastadora violencia armada, el estado costarricense forjó tenazmente un camino radicalmente distinto. Apostó incondicionalmente por la inversión social sistemática, garantizando la prosperidad equitativa y la estabilidad democrática absoluta de sus ciudadanos.\n\nEl pináculo indiscutible de esta audaz filosofía progresista se materializó en 1948, cuando la asamblea constituyente abolió de manera definitiva y perpetua sus fuerzas armadas. Al renunciar a la costosa adquisición de artillería bélica, el Estado redirigió estratégicamente sus vastos recursos presupuestarios hacia el desarrollo del capital humano. En consecuencia, edificó una formidable infraestructura de hospitales modernos e instituciones educativas de vanguardia. Gracias a esta lúcida determinación, la sanidad pública y la instrucción académica son derechos universales hoy en día, ostentando índices de alfabetización y longevidad asombrosamente altos.\n\nParalelamente, Costa Rica es una potencia vanguardista en el ámbito de la sostenibilidad ecológica y la transición energética global. Actualmente, genera más del noventa y nueve por ciento de su consumo eléctrico mediante fuentes renovables inagotables, aprovechando magistralmente la energía hidroeléctrica, la fuerza eólica y la inmensa actividad geotérmica de sus formidables volcanes.\n\nSustentada en su inquebrantable pacifismo, su sólido estado de bienestar y su profundo respeto por la biodiversidad, Costa Rica lidera habitualmente los índices globales de felicidad ciudadana. Representa magistralmente el triunfo del pacifismo y la verdadera civilización moderna.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Ante qué tres graves problemáticas sucumbían repetidamente múltiples países vecinos en Centroamérica?",
+          "¿En qué invirtió incondicionalmente el estado costarricense para garantizar la prosperidad equitativa?",
+          "¿Qué decisión de la asamblea constituyente materializó el pináculo de esta audaz filosofía progresista en 1948?",
+          "¿Hacia dónde redirigió estratégicamente el Estado sus vastos recursos al renunciar a la artillería bélica?",
+          "¿Qué derechos universales ostentan índices asombrosamente altos gracias a esta lúcida determinación?",
+          "¿Mediante qué tipo de fuentes inagotables genera más del noventa y nueve por ciento de su consumo eléctrico?",
+          "¿Qué lidera habitualmente Costa Rica sustentada en su pacifismo, bienestar social y respeto a la biodiversidad?"
+        ],
+        "answerKey": [
+          "Ante la opresión de cruentas dictaduras militares, la corrupción endémica y la devastadora violencia armada.",
+          "Apostó incondicionalmente por la inversión social sistemática.",
+          "La abolición definitiva y perpetua de sus fuerzas armadas.",
+          "Hacia el desarrollo del capital humano (hospitales e instituciones educativas).",
+          "La sanidad pública y la instrucción académica (educación).",
+          "Mediante fuentes renovables (hidroeléctrica, eólica y geotérmica).",
+          "Los índices globales de felicidad ciudadana."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Cocofunka",
+    "imageFileName": "cocofunka_costa_rica.png",
+    "bundles": ["arte_literatura_y_cine", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "If you want to perfectly understand the joyful, incredibly vibrant, and youthful modern culture of Costa Rica, you must absolutely listen to an amazing local musical group called Cocofunka. Formed in the busy capital city of San José in 2008, this completely unique and highly energetic band quickly became one of the most famous and beloved alternative music groups in all of Central America. They are wildly famous for breaking all the traditional rules of music and creating a brilliant, extremely fun new sound that makes everyone want to dance!\n\nCocofunka is completely impossible to put into just one simple category. They magically blend many different, exciting styles of 'música' (music) together perfectly. When you listen to their popular songs, you can clearly hear the heavy, cool bass lines of traditional Jamaican reggae, the fast, energetic guitars of classic rock and roll, and the fun, tropical beats of Latin American salsa. The talented band members call their incredibly unique and wild musical style \"psychedelic funk.\" It is incredibly loud, positive, and deeply emotional.\n\nTheir live concerts are famous for being massive, spectacular parties. The energetic lead singer jumps around the bright stage, singing passionate lyrics about young love, protecting the fragile natural environment, and the beautiful, complex daily lives of ordinary Costa Rican people. Thousands of screaming fans sing along with every single word.\n\nToday, Cocofunka travels all over the world, playing at giant international music festivals and sharing their deeply positive messages. They are a powerful, proud symbol of Costa Rica's modern, creative youth, perfectly proving that blending different cultures together creates absolutely beautiful and magical art.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was the amazing local musical group called Cocofunka formed in 2008?",
+          "What is this completely unique and highly energetic band wildly famous for breaking?",
+          "What three exciting styles of music do they magically blend together in their popular songs?",
+          "What do the talented band members proudly call their incredibly unique and wild musical style?",
+          "What does the energetic lead singer sing passionate lyrics about during their massive, spectacular parties?",
+          "Where does the band travel all over the world to play today?",
+          "What does the band perfectly prove that blending different cultures together creates?"
+        ],
+        "answerKey": [
+          "In the busy capital city of San José, Costa Rica.",
+          "All the traditional rules of music.",
+          "Traditional Jamaican reggae, classic rock and roll, and Latin American salsa.",
+          "\"Psychedelic funk.\"",
+          "Young love, protecting the environment, and the daily lives of ordinary Costa Rican people.",
+          "At giant international music festivals.",
+          "Absolutely beautiful and magical art."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Si tú quieres entender perfectamente la cultura moderna, joven e increíblemente vibrante de Costa Rica, debes escuchar absolutamente a un grupo musical local asombroso llamado Cocofunka. Formada en la ocupada ciudad capital de San José en el año 2008, esta banda completamente única y muy enérgica se convirtió rápidamente en uno de los grupos de música alternativa más famosos y queridos en toda Centroamérica. ¡Ellos son muy famosos por romper todas las reglas tradicionales de la música y crear un sonido nuevo, brillante y extremadamente divertido que hace que todos quieran bailar!\n\nCocofunka es completamente imposible de poner en una sola categoría simple. Ellos mezclan mágicamente muchos estilos diferentes y emocionantes de música perfectamente. Cuando escuchas sus canciones populares, puedes escuchar claramente el bajo pesado del reggae jamaicano tradicional, las guitarras rápidas del rock clásico y los ritmos divertidos de la salsa latinoamericana. Los talentosos miembros de la banda llaman a su estilo musical salvaje e increíblemente único \"funk psicodélico\". Es muy ruidoso, muy positivo y profundamente emocional.\n\nSus conciertos en vivo son famosos por ser fiestas masivas y espectaculares. El cantante principal enérgico salta por el escenario brillante, cantando letras apasionadas sobre el amor joven, la protección del medio ambiente frágil y las vidas hermosas y complejas de las personas costarricenses ordinarias. Miles de aficionados gritan y cantan cada palabra con ellos.\n\nHoy en día, Cocofunka viaja por todo el mundo, tocando en festivales internacionales gigantes y compartiendo sus mensajes profundamente positivos. Ellos son un símbolo orgulloso de la juventud creativa de Costa Rica, demostrando perfectamente que mezclar culturas diferentes crea un arte hermoso.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad capital ocupada se formó la banda asombrosa Cocofunka en el año 2008?",
+          "¿Qué hacen ellos con las reglas tradicionales de la música para crear un sonido nuevo?",
+          "¿Qué tres estilos musicales emocionantes puedes escuchar claramente en sus canciones populares?",
+          "¿Cómo llaman los miembros de la banda a su estilo musical salvaje e increíblemente único?",
+          "¿Qué características tiene la música que tocan según el segundo párrafo?",
+          "¿Sobre qué temas cantan apasionadamente en sus conciertos masivos y espectaculares?",
+          "¿Qué demuestra perfectamente este símbolo orgulloso de la juventud creativa de Costa Rica?"
+        ],
+        "answerKey": [
+          "En la ciudad capital de San José.",
+          "Rompen todas las reglas tradicionales.",
+          "El reggae jamaicano tradicional, el rock clásico y la salsa latinoamericana.",
+          "Lo llaman \"funk psicodélico\".",
+          "Es muy ruidoso, muy positivo y profundamente emocional.",
+          "Sobre el amor joven, el medio ambiente frágil y la vida de los costarricenses ordinarios.",
+          "Que mezclar culturas diferentes crea un arte hermoso."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Para comprender cabalmente la efervescencia, la innovación y el espíritu indomable de la juventud contemporánea en Costa Rica, resulta imprescindible sumergirse en la propuesta sonora de Cocofunka. Fundada en la bulliciosa área metropolitana de San José durante el año 2008, esta ecléctica y deslumbrante agrupación independiente se posicionó vertiginosamente como uno de los referentes más aclamados e influyentes del panorama musical alternativo en Centroamérica. Su prestigio internacional radica en su audacia inquebrantable para desafiar los paradigmas musicales convencionales, forjando un sonido fresco, genuinamente experimental y sumamente bailable.\n\nIntentar encasillar a Cocofunka dentro de un único género musical es una tarea absolutamente fútil. La genialidad de la banda reside en su capacidad magistral para amalgamar orgánicamente ritmos aparentemente dispares en una sola pista. Sus desbordantes composiciones entrelazan magistralmente las densas líneas de bajo características del reggae roots jamaiquino, la distorsión impetuosa del rock clásico y la cadencia sincopada e irresistible de la salsa caribeña. Los propios virtuosos integrantes han bautizado esta embriagadora e innovadora alquimia rítmica bajo el sugerente nombre de \"funk psicodélico\".\n\nSus presentaciones en vivo trascienden el mero concierto para convertirse en catárticas celebraciones multitudinarias. El carismático vocalista domina el escenario con una presencia magnética, interpretando líricas poéticas que abordan el romance juvenil, la apremiante conservación medioambiental y las vicisitudes cotidianas de la idiosincrasia costarricense, coreadas apasionadamente por legiones de devotos seguidores.\n\nActualmente, Cocofunka recorre incesantemente el globo terráqueo, deslumbrando en multitudinarios festivales internacionales y difundiendo un mensaje de unidad universal. La banda representa indiscutiblemente la cumbre de la creatividad artística juvenil de Costa Rica, demostrando con brillantez que la hibridación de diversas raíces culturales engendra obras maestras perdurables.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué radica principalmente el prestigio internacional de esta deslumbrante agrupación independiente?",
+          "¿Por qué resulta una tarea absolutamente fútil intentar encasillar a Cocofunka en un único género?",
+          "¿Qué elementos sonoros específicos entrelazan magistralmente en sus desbordantes composiciones?",
+          "¿Bajo qué sugerente nombre han bautizado los integrantes a esta innovadora alquimia rítmica?",
+          "¿En qué se convierten sus presentaciones en vivo trascendiendo la experiencia de un mero concierto?",
+          "¿Qué temas abordan las líricas poéticas interpretadas por el carismático vocalista en el escenario?",
+          "¿Qué demuestra con brillantez la cumbre de la creatividad artística juvenil de Costa Rica?"
+        ],
+        "answerKey": [
+          "En su audacia inquebrantable para desafiar los paradigmas musicales convencionales.",
+          "Porque tienen la capacidad magistral de amalgamar orgánicamente ritmos dispares en una sola pista.",
+          "Líneas de bajo del reggae, distorsión del rock clásico y cadencia de la salsa caribeña.",
+          "Bajo el nombre de \"funk psicodélico\".",
+          "En catárticas celebraciones multitudinarias.",
+          "El romance juvenil, la apremiante conservación medioambiental y las vicisitudes cotidianas costarricenses.",
+          "Que la hibridación de diversas raíces culturales engendra obras maestras perdurables."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Costa Rica",
+    "imageFileName": "costa_rica.png",
+    "bundles": ["geografia_y_maravillas", "historia_y_lideres", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Costa Rica is a small, incredibly beautiful, and peaceful country located right in the middle of Central America. It is bordered by Nicaragua to the north and Panama to the south. With the warm Caribbean Sea on one side and the massive Pacific Ocean on the other, it is a true tropical paradise. The capital city, San José, sits high in the central mountains and is the busy cultural heart of the nation.\n\nEven though Costa Rica is a very tiny country, it is globally famous for its massive and breathtaking 'biodiversidad' (biodiversity). It holds more than five percent of all the plant and animal species on the entire planet! Millions of adventurous tourists travel there every single year to explore the thick, green jungles, climb perfectly shaped 'volcanes' (volcanoes), and relax on the stunning, sunny beaches.\n\nOne of the most absolutely fascinating facts about this brilliant nation is its deeply peaceful history. In the year 1948, the brave government officially abolished its entire national army. Instead of spending millions of dollars on weapons and soldiers, the country decided to invest heavily in excellent education, modern healthcare, and protecting the fragile 'medio ambiente' (environment).\n\nThe incredibly friendly local people proudly call themselves \"Ticos.\" They are world-famous for their happy, relaxed, and welcoming national philosophy called \"Pura Vida.\" This beautiful Spanish phrase translates to \"pure life,\" and it perfectly represents their deep gratitude for simple things, family, and beautiful nature. Costa Rica is a magical, inspiring place that perfectly proves how a peaceful, eco-friendly country can achieve massive global success.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is the small and incredibly beautiful country of Costa Rica located?",
+          "What is the capital city that sits high in the central mountains called?",
+          "What is the tiny country globally famous for having more than five percent of?",
+          "What three exciting things do adventurous tourists travel there to do every single year?",
+          "What did the brave government officially abolish in the year 1948?",
+          "What did the country decide to heavily invest millions of dollars in instead?",
+          "What is the happy and welcoming national philosophy of the local \"Ticos\" called?"
+        ],
+        "answerKey": [
+          "Right in the middle of Central America.",
+          "San José.",
+          "Its massive and breathtaking biodiversity (plant and animal species).",
+          "Explore green jungles, climb volcanoes, and relax on sunny beaches.",
+          "Its entire national army.",
+          "Excellent education, modern healthcare, and protecting the fragile environment.",
+          "\"Pura Vida\" (pure life)."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Costa Rica es un país pequeño, increíblemente hermoso y muy pacífico situado justo en el medio de Centroamérica. Limita con Nicaragua al norte y Panamá al sur. Con el cálido Mar Caribe en un lado y el masivo Océano Pacífico en el otro, es un verdadero paraíso tropical. La ciudad capital, San José, está en las altas montañas centrales y es el ocupado corazón cultural de la nación.\n\nAunque Costa Rica es un país muy pequeño, es mundialmente famoso por su masiva e impresionante biodiversidad. ¡Tiene más del cinco por ciento de todas las especies de plantas y animales de todo el planeta! Millones de turistas aventureros viajan allí cada año para explorar las selvas verdes, escalar volcanes perfectamente formados y relajarse en las playas impresionantes y soleadas.\n\nUno de los hechos absolutamente más fascinantes sobre esta nación brillante es su historia profundamente pacífica. En el año 1948, el valiente gobierno abolió oficialmente todo su ejército nacional. En vez de gastar millones de dólares en armas y soldados, el país decidió invertir mucho dinero en educación excelente, atención médica moderna y en proteger el frágil medio ambiente.\n\nLas personas locales, increíblemente amigables, se llaman a sí mismas con orgullo \"Ticos\". Son mundialmente famosos por su filosofía nacional feliz, relajada y acogedora llamada \"Pura Vida\". Esta hermosa frase española se traduce como \"vida pura\", y representa perfectamente su profunda gratitud por las cosas simples, la familia y la hermosa naturaleza. Costa Rica es un lugar mágico e inspirador que demuestra perfectamente cómo un país pacífico y ecológico puede lograr un éxito masivo y global.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En dónde está situado el pequeño y pacífico país de Costa Rica?",
+          "¿Dónde está la ocupada ciudad capital de San José?",
+          "¿Por qué es mundialmente famoso Costa Rica a pesar de ser un país muy pequeño?",
+          "¿A qué viajan millones de turistas aventureros cada año a Costa Rica?",
+          "¿Qué hizo valientemente el gobierno de la nación en el año 1948?",
+          "¿En qué invirtió mucho dinero el país en vez de gastarlo en armas y soldados?",
+          "¿Cómo se llaman las personas locales con orgullo y cuál es su filosofía nacional?"
+        ],
+        "answerKey": [
+          "Justo en el medio de Centroamérica.",
+          "En las altas montañas centrales.",
+          "Por su masiva e impresionante biodiversidad.",
+          "Para explorar las selvas, escalar volcanes y relajarse en las playas.",
+          "Abolió oficialmente todo su ejército nacional.",
+          "En educación excelente, atención médica moderna y proteger el medio ambiente.",
+          "Se llaman \"Ticos\" y su filosofía es \"Pura Vida\"."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Costa Rica es una próspera, exuberante y pacífica república enclavada estratégicamente en el corazón del istmo centroamericano. Limitando al norte con Nicaragua y al sur con Panamá, sus extensas costas son bañadas tanto por el Mar Caribe como por el Océano Pacífico, conformando un genuino paraíso tropical. La capital del país, San José, se asienta majestuosamente en el Valle Central y funciona como el epicentro cultural, político y económico de esta floreciente nación.\n\nA pesar de su reducida extensión territorial, Costa Rica es aclamada universalmente por albergar una biodiversidad abrumadora. Se estima que custodia más del cinco por ciento de las especies de flora y fauna del planeta entero. Anualmente, legiones de turistas internacionales acuden para explorar sus impenetrables selvas tropicales, coronar sus imponentes volcanes cónicos y disfrutar de sus prístinas playas paradisíacas.\n\nEl hito histórico más deslumbrante y definitorio de esta república es su arraigado pacifismo institucional. En el año 1948, el visionario gobierno tomó la audaz e insólita determinación de abolir perpetuamente sus fuerzas armadas. Al suprimir el gasto militar y rechazar la adquisición de armamento, el Estado redirigió esos vastos recursos económicos hacia la consolidación de un robusto sistema educativo, sanidad pública universal y pioneras políticas de conservación medioambiental.\n\nLos cálidos y hospitalarios ciudadanos costarricenses, quienes se autodenominan afectuosamente \"ticos\", son mundialmente reconocidos por su idiosincrasia nacional encapsulada en el célebre lema \"Pura Vida\". Esta expresión inconfundible trasciende un simple saludo; es una profunda filosofía existencial que prioriza la gratitud cotidiana, la fraternidad comunitaria y el respeto absoluto por la madre naturaleza. Costa Rica demuestra fehacientemente que la paz y la ecología engendran un progreso nacional verdaderamente deslumbrante.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Por qué extensos cuerpos de agua son bañadas las costas de esta pacífica república?",
+          "¿Dónde se asienta majestuosamente San José, el epicentro cultural y económico?",
+          "¿Por qué es aclamada universalmente la nación a pesar de su reducida extensión territorial?",
+          "¿Qué determinación audaz e insólita tomó el visionario gobierno en el año 1948?",
+          "¿Hacia qué áreas redirigió el Estado los vastos recursos al suprimir el gasto militar?",
+          "¿Cómo se autodenominan afectuosamente los cálidos y hospitalarios ciudadanos costarricenses?",
+          "¿Qué prioriza la profunda filosofía existencial encapsulada en el célebre lema \"Pura Vida\"?"
+        ],
+        "answerKey": [
+          "Por el Mar Caribe y el Océano Pacífico.",
+          "En el Valle Central.",
+          "Por albergar una biodiversidad abrumadora (más del cinco por ciento de la flora y fauna del planeta).",
+          "Abolir perpetuamente sus fuerzas armadas.",
+          "Hacia un robusto sistema educativo, sanidad pública universal y conservación medioambiental.",
+          "Se autodenominan \"ticos\".",
+          "La gratitud cotidiana, la fraternidad comunitaria y el respeto absoluto por la madre naturaleza."
+        ]
+      }
+    }
   }
     ]
