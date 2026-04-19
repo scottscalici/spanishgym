@@ -16415,5 +16415,917 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "El Asado Argentino",
+    "imageFileName": "asado_argentino.png",
+    "bundles": ["cultura_y_gastronomia", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "The traditional 'asado' is much more than just a simple barbecue; it is a sacred weekend ritual and the absolute heart of culture in Argentina. When families and friends gather on a sunny Sunday afternoon, they are not just cooking food; they are celebrating life, friendship, and their rich national heritage. The person in charge of cooking the meat is called the 'asador', and this role is considered a very prestigious and highly respected honor.\n\nThe 'asador' slowly and carefully cooks a massive amount of high-quality beef over hot coals or a wood fire. They never use gas grills because the natural smoke gives the meat a magical flavor. A classic 'asado' includes many different cuts of delicious meat, delicious sausages called 'chorizos', and savory black puddings. Before the main steak is served, everyone usually eats a popular appetizer called 'choripán', which is a grilled sausage placed inside warm, crusty bread.\n\nThe secret to a perfect Argentine 'asado' is patience. The meat cooks slowly for several hours while the guests talk, laugh, and enjoy delicious appetizers. When the food is finally ready, it is always served with a famous and incredibly flavorful green sauce called 'chimichurri'. This traditional sauce is a fresh mixture of parsley, garlic, oregano, olive oil, and vinegar.\n\nHowever, the true magic of the 'asado' is the beautiful social connection it creates. People sit around a large table for hours, sharing wonderful stories and making unforgettable memories. It perfectly represents the warm, welcoming, and deeply passionate spirit of the Argentine people. Experiencing an authentic weekend 'asado' is an absolute must for anyone traveling to this beautiful South American country.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What is the person in charge of cooking the meat at an Argentine barbecue called?",
+          "Why do they never use gas grills to cook the meat?",
+          "What popular appetizer consists of a grilled sausage placed inside warm bread?",
+          "What is the secret to a perfect Argentine 'asado' according to the text?",
+          "What is the famous and incredibly flavorful green sauce served with the meat called?",
+          "What ingredients are mixed together to create this traditional green sauce?",
+          "What is the true magic of the 'asado' beyond just the delicious food?"
+        ],
+        "answerKey": [
+          "They are called the 'asador'.",
+          "Because the natural smoke gives the meat a magical flavor.",
+          "A 'choripán'.",
+          "Patience (cooking slowly for several hours).",
+          "It is called 'chimichurri'.",
+          "Parsley, garlic, oregano, olive oil, and vinegar.",
+          "The beautiful social connection it creates among family and friends."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El tradicional asado es mucho más que una simple barbacoa; es un ritual sagrado del fin de semana y el corazón absoluto de la cultura en Argentina. Cuando las familias y los amigos se reúnen en un domingo soleado, no solo están cocinando comida; están celebrando la vida, la amistad y su rica historia nacional. La persona que cocina la carne se llama el asador, y este papel es considerado un honor muy prestigioso e importante.\n\nEl asador cocina lenta y cuidadosamente una cantidad masiva de carne de res de alta calidad sobre carbón o leña. Nunca usan parrillas de gas porque el humo natural da un sabor mágico. Un asado clásico incluye muchos cortes diferentes de carne deliciosa y salchichas llamadas chorizos. Antes de servir la carne principal, todos generalmente comen un aperitivo popular llamado choripán, que es una salchicha asada dentro de pan caliente.\n\nEl secreto para un asado argentino perfecto es la paciencia. La carne se cocina lentamente por varias horas mientras los invitados hablan, ríen y disfrutan. Cuando la comida finalmente está lista, siempre se sirve con una salsa verde famosa y muy sabrosa llamada chimichurri. Esta salsa es una mezcla fresca de perejil, ajo, aceite de oliva y vinagre.\n\nSin embargo, la verdadera magia del asado es la hermosa conexión social que crea. Las personas se sientan alrededor de una mesa grande por muchas horas, compartiendo historias maravillosas. Representa perfectamente el espíritu cálido y apasionado del pueblo argentino. Experimentar un asado auténtico es verdaderamente obligatorio para cualquier persona que viaje a este hermoso país.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué celebran las familias y amigos cuando se reúnen en un domingo soleado?",
+          "¿Cómo se llama la persona que cocina la carne y tiene un papel prestigioso?",
+          "¿Por qué el asador nunca usa parrillas de gas para cocinar la carne?",
+          "¿Qué es un choripán y cuándo se come generalmente?",
+          "¿Cuál es el secreto importante para hacer un asado argentino perfecto?",
+          "¿Qué salsa famosa y sabrosa siempre se sirve cuando la comida está lista?",
+          "¿Qué representa perfectamente la experiencia de compartir horas en una mesa grande?"
+        ],
+        "answerKey": [
+          "Celebran la vida, la amistad y su rica historia nacional.",
+          "Se llama el asador.",
+          "Porque el humo natural le da un sabor mágico a la carne.",
+          "Es una salchicha asada dentro de pan caliente y se come como aperitivo.",
+          "La paciencia (cocinar lentamente por varias horas).",
+          "La salsa chimichurri.",
+          "El espíritu cálido y apasionado del pueblo argentino."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El asado trasciende la mera definición de un evento culinario para erigirse como el rito social más sagrado y emblemático de la identidad cultural argentina. Los domingos, a lo largo y ancho del país, las familias y grupos de amigos se congregan en torno a la parrilla en una ceremonia profundamente arraigada que celebra la fraternidad, la tradición y la exquisita calidad de la ganadería nacional. El individuo encargado de dominar las brasas, el \"asador\", asume un rol de inmenso prestigio y responsabilidad absoluta.\n\nLa técnica del asador requiere una maestría intuitiva, ya que la cocción se realiza exclusivamente sobre leña o carbón ardiente, rechazando categóricamente el uso de gas. Este método tradicional infunde a los selectos cortes de carne vacuna un inconfundible y ahumado sabor. El festín suele inaugurarse con achuras y el clásico choripán, un suculento embutido abrazado por pan crujiente, que calma el apetito mientras el costillar y el vacío se asan lentamente a fuego manso.\n\nLa paciencia es, sin duda, la virtud cardinal de un asado auténtico. La preparación prolongada proporciona el escenario perfecto para prolongadas y animadas tertulias entre los comensales. Al momento de degustar las carnes finamente asadas, resulta indispensable acompañarlas con el vibrante chimichurri, una emulsión rústica a base de perejil, ajo, orégano, vinagre y aceite que realza magistralmente cada bocado.\n\nEn esencia, el asado argentino es una manifestación sublime de la calidez humana. Es una prolongada y jubilosa sobremesa donde las preocupaciones cotidianas se disipan entre el humo fragante y las copas de vino Malbec, consolidando lazos afectivos inquebrantables y manteniendo viva la auténtica esencia de la nación sudamericana.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué elementos celebra esta ceremonia profundamente arraigada a lo largo del país?",
+          "¿Qué requiere la técnica del asador al realizar la cocción exclusivamente sobre leña o carbón?",
+          "¿Qué infunde el método tradicional a los selectos cortes de carne vacuna?",
+          "¿Con qué suculento aperitivo suele inaugurarse el festín mientras la carne se asa a fuego manso?",
+          "¿Cuál es la virtud cardinal que proporciona el escenario perfecto para animadas tertulias?",
+          "¿Qué ingredientes base conforman la emulsión rústica conocida como chimichurri?",
+          "¿Qué consolidan las personas durante esta prolongada y jubilosa sobremesa?"
+        ],
+        "answerKey": [
+          "La fraternidad, la tradición y la exquisita calidad de la ganadería nacional.",
+          "Una maestría intuitiva.",
+          "Un inconfundible y ahumado sabor.",
+          "Con el clásico choripán.",
+          "La paciencia.",
+          "Perejil, ajo, orégano, vinagre y aceite.",
+          "Lazos afectivos inquebrantables."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Óscar de la Renta",
+    "imageFileName": "oscar_de_la_renta.png",
+    "bundles": ["arte_literatura_y_cine", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Óscar de la Renta was one of the most brilliant, elegant, and beloved fashion designers in global history. He was born in the beautiful, tropical country of the Dominican Republic in the year 1932. From a very young age, he loved drawing and creating beautiful art. When he was only eighteen years old, he traveled to the historic city of Madrid, Spain, to study classical painting. However, while living there, his massive passion quickly shifted from painting canvas to designing glamorous clothing.\n\nHis incredible natural talent was quickly noticed by some of the most famous and powerful fashion houses in Europe. He worked hard and learned from master designers in Spain and Paris before finally moving to the busy city of New York in the 1960s. There, he launched his very own brand, which quickly became an absolute sensation. His gorgeous, colorful dresses perfectly combined Caribbean vibrance with classic European elegance.\n\nÓscar became incredibly famous worldwide for designing stunning, sophisticated clothing for extremely powerful women. Over his long career, he dressed many beautiful Hollywood actresses, international royalty, and several First Ladies of the United States. Whenever a famous celebrity wore an elegant Óscar de la Renta gown on the red carpet, everyone was absolutely amazed by the beautiful, perfect design.\n\nBeyond his massive global success in the fashion industry, he was also known as a very kind and generous man. He proudly built schools and orphanages to help poor children in his home country. Today, his magical brand remains a powerful symbol of Latin American excellence, proving that true elegance never goes out of style.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was the elegant fashion designer Óscar de la Renta born in 1932?",
+          "Why did he travel to the historic city of Madrid when he was eighteen?",
+          "What did his massive passion quickly shift to while living in Spain?",
+          "What two things did his gorgeous, colorful dresses perfectly combine?",
+          "What powerful women did he dress over his long career?",
+          "How did he help poor children in his home country as a kind and generous man?",
+          "What is his magical brand a powerful symbol of today?"
+        ],
+        "answerKey": [
+          "In the tropical country of the Dominican Republic.",
+          "To study classical painting.",
+          "From painting canvas to designing glamorous clothing.",
+          "Caribbean vibrance with classic European elegance.",
+          "Hollywood actresses, international royalty, and several First Ladies of the United States.",
+          "He built schools and orphanages.",
+          "Latin American excellence."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Óscar de la Renta fue uno de los diseñadores de moda más brillantes, elegantes y queridos en la historia global. Él nació en el hermoso país tropical de la República Dominicana en el año 1932. Desde una edad muy joven, a él le encantaba dibujar y crear arte hermoso. Cuando tenía solamente dieciocho años, viajó a la histórica ciudad de Madrid, España, para estudiar pintura clásica. Sin embargo, mientras vivía allí, su gran pasión cambió rápidamente de pintar a diseñar ropa glamorosa.\n\nSu talento natural increíble fue notado rápidamente por algunas de las casas de moda más famosas y poderosas de Europa. Él trabajó duro y aprendió de maestros diseñadores en España y París antes de mudarse finalmente a la ciudad de Nueva York en los años sesenta. Allí, él lanzó su propia marca, la cual se convirtió rápidamente en una sensación absoluta. Sus vestidos hermosos y coloridos combinaban perfectamente la energía del Caribe con la elegancia europea.\n\nÓscar se hizo increíblemente famoso en todo el mundo por diseñar ropa sofisticada para mujeres muy poderosas. Durante su larga carrera, él vistió a muchas actrices hermosas de Hollywood, miembros de la realeza internacional y varias Primeras Damas de los Estados Unidos. Cuando una celebridad famosa usaba un vestido elegante de Óscar de la Renta, todos quedaban absolutamente sorprendidos.\n\nAdemás de su éxito global masivo en la industria de la moda, él también era conocido como un hombre muy amable y generoso. Él construyó escuelas y orfanatos para ayudar a los niños pobres en su país natal. Hoy, su marca sigue siendo un poderoso símbolo de la excelencia latinoamericana.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué hermoso país tropical nació Óscar de la Renta en el año 1932?",
+          "¿Qué estudió él inicialmente cuando viajó a la ciudad de Madrid?",
+          "¿A qué cambió rápidamente su gran pasión mientras vivía en España?",
+          "¿Qué dos estilos combinaban perfectamente sus vestidos hermosos y coloridos?",
+          "¿A qué mujeres poderosas vistió durante su larga y exitosa carrera?",
+          "¿Qué construyó para ayudar a los niños pobres porque era un hombre generoso?",
+          "¿De qué sigue siendo un símbolo poderoso su marca famosa hoy en día?"
+        ],
+        "answerKey": [
+          "En la República Dominicana.",
+          "Estudió pintura clásica.",
+          "A diseñar ropa glamorosa.",
+          "La energía del Caribe con la elegancia europea.",
+          "A actrices de Hollywood, miembros de la realeza y Primeras Damas.",
+          "Construyó escuelas y orfanatos.",
+          "De la excelencia latinoamericana."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Óscar de la Renta fue, indiscutiblemente, uno de los modistos más venerados, sofisticados e icónicos en la historia de la alta costura internacional. Nacido en 1932 en la vibrante República Dominicana, demostró desde su infancia una inclinación profunda hacia las artes plásticas. A los dieciocho años, cruzó el Atlántico rumbo a Madrid con el firme propósito de formarse como pintor en la Real Academia de Bellas Artes. No obstante, su innegable fascinación por la indumentaria desvió rápidamente su destino hacia el glamuroso y exigente universo del diseño de modas.\n\nSu talento prodigioso fue descubierto por el legendario Cristóbal Balenciaga, bajo cuya tutela perfeccionó sus habilidades técnicas. Posteriormente, tras adquirir invaluable experiencia en distinguidas casas parisinas, De la Renta se estableció en Nueva York durante la revolucionaria década de los sesenta. Al lanzar su marca homónima, cautivó de inmediato a la crítica con una estética deslumbrante que fusionaba magistralmente el vibrante colorido y la exuberancia de sus raíces caribeñas con el innegable refinamiento de la elegancia europea.\n\nSu nombre se convirtió rápidamente en sinónimo de lujo absoluto. Durante más de cinco décadas, consagró su carrera vistiendo a luminarias de Hollywood, damas de la realeza y a múltiples Primeras Damas estadounidenses, otorgándoles un aura de gracia inigualable. Sus siluetas románticas y femeninas dominaron las alfombras rojas más exclusivas del mundo.\n\nMás allá de su inmenso imperio textil, Óscar de la Renta se distinguió por su prolífica labor filantrópica, financiando la construcción de escuelas y orfanatos para niños desfavorecidos en su tierra natal. Su perdurable legado personifica de manera sublime el talento latinoamericano, demostrando que la verdadera distinción y el humanismo son eternos.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Con qué firme propósito cruzó el Atlántico rumbo a Madrid a los dieciocho años?",
+          "¿Bajo la tutela de qué legendario diseñador perfeccionó sus habilidades técnicas?",
+          "¿Qué elementos estéticos fusionó magistralmente al lanzar su marca homónima en Nueva York?",
+          "¿A qué tipo de mujeres influyentes consagró su carrera vistiendo durante décadas?",
+          "¿Qué características destacaban en sus diseños que dominaron las alfombras rojas exclusivas?",
+          "¿Por qué prolífica labor se distinguió más allá de su inmenso imperio textil?",
+          "¿Qué demostró con su perdurable legado sobre la verdadera distinción?"
+        ],
+        "answerKey": [
+          "Para formarse como pintor en la Real Academia de Bellas Artes.",
+          "Bajo la tutela de Cristóbal Balenciaga.",
+          "La exuberancia de sus raíces caribeñas con el refinamiento de la elegancia europea.",
+          "A luminarias de Hollywood, damas de la realeza y múltiples Primeras Damas estadounidenses.",
+          "Siluetas románticas y femeninas.",
+          "Por su labor filantrópica (financiando escuelas y orfanatos en su tierra natal).",
+          "Que la verdadera distinción y el humanismo son eternos."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Juan Luis Guerra",
+    "imageFileName": "juan_luis_guerra.png",
+    "bundles": ["arte_literatura_y_cine", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Juan Luis Guerra is one of the most brilliant, famous, and beloved musicians in the history of Latin America. He was born in the beautiful, tropical country of the Dominican Republic in 1957. From a very young age, he had an absolute passion for music and beautiful poetry. After studying philosophy and literature in his home country, he traveled to the United States to study jazz and musical composition at a highly prestigious college in Boston.\n\nWhen he returned to the Dominican Republic, he created an incredible band called '440' and completely changed Latin music forever. He brilliantly mixed traditional Dominican rhythms, like merengue and bachata, with modern pop, jazz, and African sounds. Before Guerra, many people considered bachata to be lower-class music that was only played in poor, rural areas. However, his romantic and poetic lyrics elevated the genre, making it incredibly famous and respected all over the entire globe.\n\nHis massive breakthrough album, \"Bachata Rosa,\" won his very first Grammy Award and sold millions of copies worldwide. His beautiful songs are famous for having deeply poetic lyrics that talk about romantic love, the stunning geography of the Caribbean, and the everyday struggles of working-class people. He frequently uses his powerful, joyful music to shine a light on important social issues and economic inequality in Latin America.\n\nOver his long and incredible career, Juan Luis Guerra has won dozens of prestigious awards and sold over thirty million records. He is a true musical genius and a proud cultural ambassador who magically captures the beautiful, vibrant soul of the Dominican Republic in every single song he writes.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was the brilliant musician Juan Luis Guerra born in 1957?",
+          "Where did he travel to study jazz and musical composition?",
+          "What two traditional Dominican rhythms did he brilliantly mix with modern pop and jazz?",
+          "Why did his romantic and poetic lyrics completely elevate the bachata genre?",
+          "What was the name of his massive breakthrough album that won his first Grammy?",
+          "What three things do his deeply poetic lyrics frequently talk about?",
+          "What does his powerful, joyful music frequently shine a light on?"
+        ],
+        "answerKey": [
+          "In the tropical country of the Dominican Republic.",
+          "To a highly prestigious college in Boston, United States.",
+          "Merengue and bachata.",
+          "Because many people previously considered it to be lower-class music.",
+          "\"Bachata Rosa.\"",
+          "Romantic love, the stunning geography of the Caribbean, and the struggles of working-class people.",
+          "Important social issues and economic inequality in Latin America."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Juan Luis Guerra es uno de los músicos más brillantes, famosos y queridos en la historia de Latinoamérica. Él nació en el hermoso país tropical de la República Dominicana en 1957. Desde una edad muy joven, tenía una pasión absoluta por la música y la poesía hermosa. Después de estudiar filosofía y literatura en su país natal, él viajó a los Estados Unidos para estudiar jazz y composición musical en una universidad muy prestigiosa en Boston.\n\nCuando regresó a la República Dominicana, creó una banda increíble llamada '440' y cambió la música latina completamente para siempre. Él mezcló brillantemente los ritmos dominicanos tradicionales, como el merengue y la bachata, con el pop moderno, el jazz y sonidos africanos. Antes de Guerra, muchas personas consideraban que la bachata era música de clase baja. Sin embargo, sus letras románticas y poéticas elevaron el género, haciéndolo increíblemente famoso y respetado en todo el mundo.\n\nSu álbum masivo, \"Bachata Rosa\", ganó su primer Premio Grammy y vendió millones de copias mundialmente. Sus hermosas canciones son famosas por tener letras profundamente poéticas que hablan sobre el amor romántico, la geografía impresionante del Caribe y los problemas diarios de las personas trabajadoras. Él frecuentemente usa su música poderosa y alegre para hablar sobre problemas sociales importantes en Latinoamérica.\n\nDurante su larga e increíble carrera, Juan Luis Guerra ha ganado docenas de premios prestigiosos y ha vendido más de treinta millones de discos. Él es un verdadero genio musical y un embajador cultural orgulloso que captura mágicamente el alma vibrante de la República Dominicana en cada canción que escribe.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde nació el brillante músico Juan Luis Guerra en el año 1957?",
+          "¿Para qué viajó él a una universidad muy prestigiosa en Boston?",
+          "¿Cómo se llamaba la banda increíble que él creó cuando regresó a su país?",
+          "¿Qué ritmos dominicanos tradicionales mezcló él con el jazz y sonidos africanos?",
+          "¿Qué hizo su música por la bachata, que antes era considerada música de clase baja?",
+          "¿Qué ganó su álbum masivo llamado \"Bachata Rosa\"?",
+          "¿Para qué usa Guerra frecuentemente su música poderosa y alegre?"
+        ],
+        "answerKey": [
+          "En la República Dominicana.",
+          "Para estudiar jazz y composición musical.",
+          "Se llamaba '440'.",
+          "El merengue y la bachata.",
+          "Sus letras románticas y poéticas elevaron el género.",
+          "Ganó su primer Premio Grammy.",
+          "Para hablar sobre problemas sociales importantes en Latinoamérica."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Juan Luis Guerra es, indiscutiblemente, uno de los cantautores y productores más sublimes, innovadores e internacionalmente aclamados de la música hispanoamericana. Nacido en 1957 en la vibrante capital de la República Dominicana, forjó su genialidad combinando su profunda afición por la literatura con una rigurosa educación musical. Tras realizar estudios universitarios en filosofía, perfeccionó su técnica estudiando composición y arreglos de jazz en el prestigioso Berklee College of Music en Boston.\n\nAl retornar a su patria, fundó la emblemática agrupación '440', desatando una revolución sonora sin precedentes. Guerra modernizó los géneros folclóricos dominicanos, fusionando magistralmente la base rítmica del merengue y la bachata con armonías sofisticadas del jazz, el pop y la música africana. Su mayor contribución cultural fue dignificar la bachata, un género que históricamente sufría un fuerte estigma social al asociarse con la marginalidad. Al impregnar estas melodías con lirismo poético y metáforas refinadas, catapultó el género hacia un reconocimiento global y un prestigio rotundo.\n\nEl colosal éxito de su álbum \"Bachata Rosa\" lo consagró mundialmente, otorgándole su primer premio Grammy. Las letras de Guerra trascienden el mero romanticismo; son verdaderas crónicas poéticas que describen la exuberancia del paisaje caribeño y abordan, con profunda agudeza, complejas realidades sociopolíticas y las desigualdades que afligen al continente latinoamericano.\n\nA lo largo de su prolífica trayectoria, ha acumulado decenas de galardones internacionales y vendido más de treinta millones de discos. Juan Luis Guerra es un verdadero poeta del ritmo y el embajador cultural definitivo de la República Dominicana, logrando cautivar los corazones del mundo entero a través de la inigualable calidez y poesía de su música.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde perfeccionó su técnica estudiando composición y arreglos de jazz?",
+          "¿Qué revolución sonora desató al fundar la emblemática agrupación '440'?",
+          "¿Cuál fue la mayor contribución cultural de Guerra respecto a la bachata?",
+          "¿Con qué elementos impregnó estas melodías folclóricas para catapultar el género?",
+          "¿Qué galardón le otorgó el colosal éxito mundial de su álbum \"Bachata Rosa\"?",
+          "¿Qué abordan con profunda agudeza las crónicas poéticas de sus canciones?",
+          "¿De qué país caribeño es considerado el embajador cultural definitivo?"
+        ],
+        "answerKey": [
+          "En el prestigioso Berklee College of Music en Boston.",
+          "Modernizó los géneros folclóricos dominicanos fusionándolos con el jazz y el pop.",
+          "Dignificar la bachata, superando su fuerte estigma social.",
+          "Con lirismo poético y metáforas refinadas.",
+          "Su primer premio Grammy.",
+          "Las complejas realidades sociopolíticas y las desigualdades de Latinoamérica.",
+          "De la República Dominicana."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Gloria Estefan",
+    "imageFileName": "gloria_estefan.png",
+    "bundles": ["arte_literatura_y_cine", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Gloria Estefan is one of the most successful and famous Latin music artists of all time. She is often called the \"Queen of Latin Pop\" because she was one of the very first musicians to successfully bring vibrant Latin rhythms into the mainstream American music industry. Born in the beautiful city of Havana, Cuba, in 1957, her family fled to the United States as refugees when she was just a small child following the Cuban Revolution.\n\nGrowing up in the busy city of Miami, music was her absolute favorite escape. She joined a local wedding band called the Miami Sound Machine, where she met her future husband, Emilio Estefan. Together, they transformed the small group into a massive international sensation. With upbeat, catchy songs like \"Conga,\" Gloria brilliantly mixed traditional Cuban salsa beats with fun, energetic American pop music. Her energetic music made everyone want to dance immediately!\n\nHowever, in 1990, her life was almost completely destroyed by a terrible tragedy. While traveling on a snowy highway, her tour bus was involved in a horrific crash. Gloria suffered a broken back and doctors feared she would never walk again. Through intense physical therapy and unbelievable determination, she made a miraculous recovery. Only one year later, she gave an incredibly emotional performance at a major awards show.\n\nToday, Gloria Estefan has sold over one hundred million records worldwide. She is a powerful and inspiring symbol of Cuban-American culture, perfectly proving that hard work, passion, and resilience can overcome any difficult obstacle in life. She opened the doors for all future Latin artists.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What is Gloria Estefan often called for bringing Latin rhythms to the mainstream?",
+          "Why did her family flee from Havana, Cuba to the United States?",
+          "What was the name of the local wedding band she joined in Miami?",
+          "What two styles of music did she brilliantly mix together in upbeat songs like \"Conga\"?",
+          "What terrible tragedy happened to her while traveling on a snowy highway in 1990?",
+          "How was she able to make a miraculous recovery after doctors feared she would never walk?",
+          "What does her massive success perfectly prove about hard work and resilience?"
+        ],
+        "answerKey": [
+          "The \"Queen of Latin Pop.\"",
+          "They fled as refugees following the Cuban Revolution.",
+          "The Miami Sound Machine.",
+          "Traditional Cuban salsa beats and American pop music.",
+          "Her tour bus was involved in a horrific crash and she broke her back.",
+          "Through intense physical therapy and unbelievable determination.",
+          "That they can overcome any difficult obstacle in life."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Gloria Estefan es una de las artistas de música latina más exitosas y famosas de todos los tiempos. A menudo es llamada la \"Reina del Pop Latino\" porque fue una de las primeras músicas en llevar los ritmos latinos a la industria musical americana. Ella nació en la hermosa ciudad de La Habana, Cuba, en 1957. Su familia huyó a los Estados Unidos como refugiados cuando ella era solo una niña pequeña después de la Revolución Cubana.\n\nAl crecer en la ocupada ciudad de Miami, la música fue su escape favorito absoluto. Ella se unió a una banda local llamada Miami Sound Machine, donde conoció a su futuro esposo, Emilio Estefan. Juntos, transformaron al pequeño grupo en una sensación internacional masiva. Con canciones alegres como \"Conga\", Gloria mezcló brillantemente los ritmos tradicionales de la salsa cubana con la música pop americana divertida y enérgica. ¡Su música enérgica hacía que todos quisieran bailar inmediatamente!\n\nSin embargo, en el año 1990, su vida casi fue destruida por una tragedia terrible. Mientras viajaba por una carretera con nieve, su autobús tuvo un accidente horrible. Gloria sufrió la espalda rota y los médicos pensaron que nunca caminaría de nuevo. A través de terapia física intensa y una determinación increíble, ella tuvo una recuperación milagrosa. Solamente un año después, dio una presentación increíblemente emocional en un programa de premios importante.\n\nHoy en día, Gloria Estefan ha vendido más de cien millones de discos en todo el mundo. Ella es un símbolo poderoso e inspirador de la cultura cubanoamericana, demostrando perfectamente que el trabajo duro y la pasión pueden superar cualquier obstáculo en la vida.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cómo es llamada a menudo Gloria Estefan por su influencia en la música?",
+          "¿Por qué huyó su familia de La Habana a los Estados Unidos?",
+          "¿Cómo se llamaba la banda local a la que ella se unió en Miami?",
+          "¿Con qué combinó ella brillantemente los ritmos tradicionales de la salsa cubana?",
+          "¿Qué le pasó a ella en un accidente de autobús en el año 1990?",
+          "¿Qué necesitó ella para tener una recuperación milagrosa de su espalda rota?",
+          "¿Cuántos discos ha vendido esta artista famosa en todo el mundo hoy en día?"
+        ],
+        "answerKey": [
+          "La \"Reina del Pop Latino\".",
+          "Huyeron como refugiados después de la Revolución Cubana.",
+          "Se llamaba Miami Sound Machine.",
+          "Con la música pop americana divertida y enérgica.",
+          "Sufrió la espalda rota y casi pierde su vida.",
+          "Terapia física intensa y una determinación increíble.",
+          "Ha vendido más de cien millones de discos."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Gloria Estefan es, sin lugar a duda, una de las artistas femeninas más icónicas, exitosas y veneradas en los anales de la música contemporánea. Consagrada mundialmente como la \"Reina del Pop Latino\", fue pionera en romper las barreras idiomáticas y culturales, introduciendo los vibrantes ritmos caribeños en el mercado anglosajón. Nacida en La Habana en 1957, su familia se vio forzada a exiliarse en Estados Unidos a raíz del triunfo de la Revolución Cubana, estableciéndose en Miami cuando ella era apenas una niña.\n\nLa música se convirtió en el refugio emocional de su juventud. Su destino cambió al unirse como vocalista principal a la Miami Sound Machine, agrupación liderada por su futuro esposo, Emilio Estefan. Con una visión artística impecable, catapultaron a la banda hacia el estrellato global. Mediante temas rebosantes de energía como \"Conga\", Estefan fusionó magistralmente la rica percusión de la salsa afrocubana con los ritmos sintetizados del pop y la música disco, creando un fenómeno bailable irrefrenable.\n\nTrágicamente, en la cúspide de su fama en 1990, su vida estuvo a punto de truncarse debido a un devastador accidente automovilístico que le fracturó la columna vertebral. A pesar de los sombríos pronósticos médicos que dudaban de su capacidad para volver a caminar, su inquebrantable fuerza de voluntad y extenuantes sesiones de rehabilitación le permitieron lograr una recuperación milagrosa, retornando triunfante a los escenarios un año después.\n\nCon más de cien millones de discos vendidos a nivel global, el legado de Gloria Estefan es monumental. Ella allanó el camino para las futuras generaciones de artistas latinos y personifica la resiliencia triunfante del exilio cubano y del auténtico sueño americano.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué barreras fue pionera en romper al introducir los ritmos caribeños en el mercado anglosajón?",
+          "¿Por qué evento histórico se vio forzada su familia a exiliarse en los Estados Unidos?",
+          "¿Con qué ritmos sintetizados fusionó la rica percusión de la salsa afrocubana?",
+          "¿Qué tragedia física amenazó con truncar su vida en la cúspide de su fama en 1990?",
+          "¿Qué dudaban los sombríos pronósticos médicos tras su devastador accidente automovilístico?",
+          "¿Qué le permitieron lograr su inquebrantable fuerza de voluntad y extenuante rehabilitación?",
+          "¿De qué exilio y de qué ideal personifica la resiliencia triunfante su legado monumental?"
+        ],
+        "answerKey": [
+          "Las barreras idiomáticas y culturales.",
+          "A raíz del triunfo de la Revolución Cubana.",
+          "Con los ritmos del pop y la música disco.",
+          "Un devastador accidente automovilístico que le fracturó la columna vertebral.",
+          "Dudaban de su capacidad para volver a caminar.",
+          "Le permitieron lograr una recuperación milagrosa y retornar a los escenarios.",
+          "Del exilio cubano y del auténtico sueño americano."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Gustavo Dudamel",
+    "imageFileName": "gustavo_dudamel.png",
+    "bundles": ["arte_literatura_y_cine", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Gustavo Dudamel is one of the most famous and talented orchestra conductors in the world today. Born in the beautiful country of Venezuela in 1981, he showed an incredible passion for 'música' (music) from a very young age. His journey to global fame began with a revolutionary music education program in his home country called \"El Sistema.\" This amazing program was designed to rescue poor children from the dangerous streets by teaching them how to play classical instruments and perform in a symphony 'orquesta' (orchestra).\n\nThrough hard work and massive dedication, Gustavo quickly became a brilliant violin player and an inspiring leader. When he was only eighteen years old, he became the main conductor of the national youth orchestra of Venezuela. His energetic and passionate conducting style caught the attention of famous musicians all over the planet. He does not just wave a small stick; he dances, jumps, and smiles brightly while leading the 'músicos' (musicians).\n\nToday, Dudamel is the music director of the incredibly famous Los Angeles Philharmonic in the United States. He has won multiple prestigious Grammy Awards and has even conducted the music for massive Hollywood movies like Star Wars! He is a true superstar in the classical music world.\n\nDespite his massive wealth and global fame, he never forgets where he came from. He continues to support music education programs for poor children across Latin America and the United States. Gustavo Dudamel is a powerful, living symbol of how beautiful music can completely change a person's life and magically bring different cultures together in perfect harmony.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was the famous orchestra conductor Gustavo Dudamel born in 1981?",
+          "What revolutionary music education program did he participate in as a child?",
+          "Why was this amazing program originally designed in his home country?",
+          "How old was Gustavo when he became the main conductor of the national youth orchestra?",
+          "What does he do besides waving a small stick while leading the musicians?",
+          "What incredibly famous orchestra is he the music director of today?",
+          "What does he continue to support despite his massive wealth and global fame?"
+        ],
+        "answerKey": [
+          "In the beautiful country of Venezuela.",
+          "A program called \"El Sistema.\"",
+          "To rescue poor children from the dangerous streets by teaching them music.",
+          "He was only eighteen years old.",
+          "He dances, jumps, and smiles brightly.",
+          "The Los Angeles Philharmonic in the United States.",
+          "Music education programs for poor children across Latin America and the United States."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Gustavo Dudamel es uno de los directores de orquesta más famosos y talentosos en el mundo hoy en día. Nacido en el hermoso país de Venezuela en el año 1981, él mostró una pasión increíble por la música desde una edad muy joven. Su viaje a la fama global empezó con un programa revolucionario de educación musical en su país llamado \"El Sistema\". Este programa asombroso fue diseñado para rescatar a niños pobres de las calles peligrosas enseñándoles a tocar instrumentos clásicos en una orquesta sinfónica.\n\nCon mucho trabajo duro y una dedicación masiva, Gustavo se convirtió rápidamente en un violinista brillante y un líder inspirador. Cuando tenía solamente dieciocho años, él se convirtió en el director principal de la orquesta nacional juvenil de Venezuela. Su estilo de dirigir, que es muy enérgico y apasionado, llamó la atención de músicos famosos en todo el planeta. Él no solo mueve un palo pequeño; él baila, salta y sonríe brillantemente mientras dirige a los músicos.\n\nHoy en día, Dudamel es el director musical de la increíblemente famosa Orquesta Filarmónica de Los Ángeles en los Estados Unidos. ¡Él ha ganado múltiples premios Grammy prestigiosos e incluso ha dirigido la música para películas masivas de Hollywood como Star Wars! Él es una verdadera superestrella en el mundo de la música clásica.\n\nA pesar de su riqueza masiva y su fama global, él nunca olvida de dónde vino. Él continúa apoyando programas de educación musical para niños pobres en toda Latinoamérica y los Estados Unidos. Gustavo Dudamel es un símbolo vivo y poderoso de cómo la música hermosa puede cambiar completamente la vida de una persona y unir culturas diferentes.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué hermoso país sudamericano nació Gustavo Dudamel en el año 1981?",
+          "¿Para qué fue diseñado el programa asombroso llamado \"El Sistema\"?",
+          "¿En qué instrumento clásico se convirtió Gustavo en un músico brillante?",
+          "¿Cuántos años tenía cuando se convirtió en el director principal de la orquesta juvenil?",
+          "¿Qué hace él brillantemente con su cuerpo mientras dirige a los músicos?",
+          "¿De qué orquesta famosa en los Estados Unidos es él el director musical hoy en día?",
+          "¿A qué grupo de personas continúa apoyando él en Latinoamérica y los Estados Unidos?"
+        ],
+        "answerKey": [
+          "En Venezuela.",
+          "Para rescatar a niños pobres de las calles peligrosas enseñándoles a tocar instrumentos.",
+          "En el violín (se convirtió en un violinista brillante).",
+          "Tenía solamente dieciocho años.",
+          "Él baila, salta y sonríe brillantemente.",
+          "De la Orquesta Filarmónica de Los Ángeles.",
+          "A niños pobres (apoya programas de educación musical para ellos)."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Gustavo Dudamel es, sin lugar a duda, uno de los directores de orquesta más carismáticos, virtuosos y aclamados del panorama musical contemporáneo. Nacido en Barquisimeto, Venezuela, en 1981, su extraordinario talento se forjó en el seno de \"El Sistema\", un proyecto pedagógico y social visionario fundado para rescatar a jóvenes en situación de vulnerabilidad a través de la enseñanza intensiva de la música clásica. Inmerso en este entorno profundamente transformador, Dudamel desarrolló una devoción inquebrantable por el arte sinfónico.\n\nDotado de un virtuosismo precoz y un liderazgo magnético, asumió la dirección de la Orquesta Sinfónica Simón Bolívar de Venezuela con apenas dieciocho años. Su técnica de dirección escénica, caracterizada por una efusividad corporal inagotable, rizos rebotando y una sonrisa contagiosa, revolucionó los rígidos y tradicionales atriles europeos. Esta energía desbordante cautivó a los críticos internacionales, catapultándolo hacia los escenarios más prestigiosos del planeta.\n\nActualmente, el maestro venezolano ejerce como el flamante director musical de la renombrada Orquesta Filarmónica de Los Ángeles. A lo largo de su prolífica carrera, ha sido galardonado con múltiples premios Grammy y ha expandido los horizontes de la música académica al componer y dirigir bandas sonoras para titánicas producciones cinematográficas de Hollywood.\n\nA pesar de codearse con la élite cultural y artística global, Dudamel mantiene un compromiso filantrópico arraigado con sus raíces sudamericanas. Es un ferviente promotor de la democratización del arte, impulsando incansablemente iniciativas de educación musical para niños marginados en diversas latitudes. Gustavo Dudamel encarna magistralmente la convicción absoluta de que la música es un instrumento de redención social, capaz de trascender fronteras y elevar el espíritu humano hacia la armonía universal.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En el seno de qué proyecto pedagógico y social se forjó el talento de Dudamel?",
+          "¿Cuál era el propósito visionario original de este proyecto transformador en Venezuela?",
+          "¿Con cuántos años asumió la dirección de la Orquesta Sinfónica Simón Bolívar?",
+          "¿Qué características de su técnica de dirección escénica revolucionaron los atriles tradicionales?",
+          "¿Qué renombrada institución ejerce como director musical actualmente en Estados Unidos?",
+          "¿Cómo ha expandido los horizontes de la música académica en el mundo del entretenimiento?",
+          "¿Qué convicción absoluta encarna magistralmente a través de su compromiso filantrópico?"
+        ],
+        "answerKey": [
+          "En el seno de \"El Sistema\".",
+          "Rescatar a jóvenes en situación de vulnerabilidad a través de la música clásica.",
+          "Con apenas dieciocho años.",
+          "Su efusividad corporal inagotable, rizos rebotando y sonrisa contagiosa.",
+          "La Orquesta Filarmónica de Los Ángeles.",
+          "Al componer y dirigir bandas sonoras para producciones cinematográficas de Hollywood.",
+          "Que la música es un instrumento de redención social capaz de trascender fronteras."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Rita Moreno",
+    "imageFileName": "rita_moreno.png",
+    "bundles": ["arte_literatura_y_cine", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Rita Moreno is an absolute legend in the history of American entertainment. She was born on the beautiful Caribbean island of Puerto Rico in 1931. When she was only five years old, her mother moved them to the busy city of New York to find a better life. Growing up in a new country was incredibly difficult. Young Rita faced a lot of unfair discrimination and bullying because she was an immigrant who spoke Spanish. However, she found a magical escape through 'baile' (dancing) and acting.\n\nShe started performing professionally when she was just a teenager. Her big breakthrough came in 1961 when she played the strong and passionate character named Anita in the famous 'película' (movie) musical \"West Side Story.\" Her brilliant singing and dancing absolutely amazed audiences all over the world. Because of this incredible performance, she won the highly prestigious Oscar for Best Supporting Actress. This was a massive historical moment because she was the very first Hispanic woman to ever win an Academy Award!\n\nThroughout her long and spectacular career, she broke many barriers for Latin American actors. She refused to only play stereotypical roles and always demanded respect in Hollywood. She is one of the very few incredibly talented artists in the entire world to achieve the legendary \"EGOT\" status. This means she has won an Emmy, a Grammy, an Oscar, and a Tony award during her career.\n\nToday, Rita Moreno remains a powerful and vibrant 'actriz' (actress) and singer. She is an inspiring symbol of Puerto Rican pride and completely proves that hard work, confidence, and immense talent can overcome any difficult obstacle in life.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was the absolute entertainment legend Rita Moreno born in 1931?",
+          "Where did her mother move them to find a better life when she was five years old?",
+          "What magical escape did young Rita find to deal with unfair discrimination?",
+          "What strong character did she play in the famous movie musical \"West Side Story\"?",
+          "What massive historical moment did she achieve by winning an Oscar?",
+          "What did she completely refuse to do throughout her spectacular career in Hollywood?",
+          "What four prestigious awards has she won to achieve the legendary \"EGOT\" status?"
+        ],
+        "answerKey": [
+          "On the Caribbean island of Puerto Rico.",
+          "To the busy city of New York.",
+          "Through dancing ('baile') and acting.",
+          "The strong and passionate character named Anita.",
+          "She was the very first Hispanic woman to ever win an Academy Award.",
+          "She refused to only play stereotypical roles.",
+          "An Emmy, a Grammy, an Oscar, and a Tony award."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Rita Moreno es una leyenda absoluta en la historia del entretenimiento americano. Ella nació en la hermosa isla caribeña de Puerto Rico en 1931. Cuando tenía solamente cinco años, su madre se mudó con ella a la ocupada ciudad de Nueva York para encontrar una vida mejor. Crecer en un país nuevo fue increíblemente difícil. La joven Rita enfrentó mucha discriminación injusta porque era una inmigrante que hablaba español. Sin embargo, ella encontró un escape mágico a través del baile y la actuación.\n\nElla empezó a actuar profesionalmente cuando era solo una adolescente. Su gran oportunidad llegó en el año 1961 cuando interpretó el personaje fuerte y apasionado llamado Anita en la famosa película musical \"West Side Story\". Su canto y baile brillantes sorprendieron absolutamente a las audiencias de todo el mundo. Por esta actuación increíble, ella ganó el prestigioso premio Oscar a la Mejor Actriz de Reparto. ¡Este fue un momento histórico masivo porque ella fue la primera mujer hispana en ganar un Premio de la Academia!\n\nDurante su carrera larga y espectacular, ella rompió muchas barreras para los actores latinoamericanos. Ella se negó a interpretar solamente papeles estereotipados y siempre exigió respeto en Hollywood. Ella es una de las pocas artistas increíblemente talentosas en todo el mundo en lograr el estatus legendario de \"EGOT\". Esto significa que ella ha ganado un Emmy, un Grammy, un Oscar y un Tony durante su carrera.\n\nHoy, Rita Moreno sigue siendo una actriz y cantante poderosa y vibrante. Ella es un símbolo inspirador del orgullo puertorriqueño y demuestra completamente que el trabajo duro y la confianza pueden superar cualquier obstáculo.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué hermosa isla caribeña nació Rita Moreno en el año 1931?",
+          "¿Por qué enfrentó mucha discriminación injusta la joven Rita en Nueva York?",
+          "¿Qué personaje fuerte interpretó ella en la famosa película musical de 1961?",
+          "¿Qué premio prestigioso ganó por su actuación increíble de canto y baile?",
+          "¿Por qué fue un momento histórico masivo ganar este premio específico?",
+          "¿Qué tipo de papeles se negó ella a interpretar en Hollywood?",
+          "¿Qué significa exactamente lograr el estatus legendario de \"EGOT\"?"
+        ],
+        "answerKey": [
+          "En Puerto Rico.",
+          "Porque era una inmigrante que hablaba español.",
+          "El personaje llamado Anita en \"West Side Story\".",
+          "El premio Oscar a la Mejor Actriz de Reparto.",
+          "Porque fue la primera mujer hispana en ganar un Premio de la Academia.",
+          "Papeles estereotipados.",
+          "Significa que ha ganado un Emmy, un Grammy, un Oscar y un Tony."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Rita Moreno es, indiscutiblemente, una leyenda viva e ícono pionero en los anales de la industria del entretenimiento estadounidense. Nacida como Rosa Dolores Alverío en Humacao, Puerto Rico, en 1931, emigró a la gélida y abrumadora ciudad de Nueva York junto a su madre cuando apenas tenía cinco años de edad. Durante su dura infancia en el Bronx, enfrentó el hostigamiento sistémico y la xenofobia despiadada por su origen hispano. No obstante, encontró un refugio emocional inquebrantable en las artes escénicas, refugiándose en la danza clásica y el canto.\n\nTras debutar en Broadway durante su adolescencia, su consagración internacional y su salto a la inmortalidad cinematográfica ocurrieron en 1961. Su magistral, volcánica y apasionada interpretación de Anita en la adaptación cinematográfica del célebre musical \"West Side Story\" deslumbró unánimemente a la crítica global. Este papel le valió el codiciado Premio Óscar a la Mejor Actriz de Reparto, marcando un hito histórico sin precedentes al convertirse en la primera mujer hispana en alzar la estatuilla dorada de la Academia.\n\nA lo largo de su prolífica y brillante trayectoria, Moreno luchó tenazmente contra los encasillamientos raciales, rehusándose a perpetuar los estereotipos denigrantes que Hollywood imponía a las actrices latinas. Su versatilidad artística la ha llevado a alcanzar el pináculo absoluto del éxito, perteneciendo a la selecta y minúscula élite mundial de artistas galardonados con el estatus \"EGOT\", al haber conquistado los premios Emmy, Grammy, Óscar y Tony.\n\nActualmente, Rita Moreno continúa derrochando vitalidad, carisma y activismo inagotable. Personifica majestuosamente la resiliencia y el triunfo arrollador del talento latino, demostrando que la autenticidad cultural y la perseverancia feroz pueden derribar las barreras más imponentes de la sociedad.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿A qué ciudad abrumadora emigró junto a su madre cuando apenas tenía cinco años?",
+          "¿Qué tipo de discriminación hostil enfrentó durante su dura infancia en el Bronx?",
+          "¿Qué personaje interpretó magistralmente en la adaptación cinematográfica de 1961?",
+          "¿Qué hito histórico sin precedentes marcó al ganar el codiciado Premio Óscar?",
+          "¿Contra qué luchó tenazmente a lo largo de su prolífica y brillante trayectoria?",
+          "¿A qué selecta y minúscula élite mundial pertenece por su versatilidad artística?",
+          "¿Qué personifica majestuosamente Rita Moreno en la actualidad con su vitalidad y activismo?"
+        ],
+        "answerKey": [
+          "A la ciudad de Nueva York.",
+          "El hostigamiento sistémico y la xenofobia despiadada por su origen hispano.",
+          "El personaje de Anita en \"West Side Story\".",
+          "Se convirtió en la primera mujer hispana en alzar la estatuilla dorada de la Academia.",
+          "Contra los encasillamientos raciales y los estereotipos denigrantes en Hollywood.",
+          "A la élite de artistas galardonados con el estatus \"EGOT\".",
+          "La resiliencia y el triunfo arrollador del talento latino."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Franklin Chang-Díaz",
+    "imageFileName": "franklin_chang_diaz.png",
+    "bundles": ["historia_y_lideres", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Franklin Chang-Díaz is a brilliant scientist and one of the most famous and inspiring astronauts in history. He was born in the beautiful Central American country of Costa Rica in 1950. Ever since he was a small boy, he dreamed of traveling to space and exploring the dark universe. He loved science fiction and often imagined flying rockets to other distant planets. To achieve his massive dreams, he moved to the United States after high school with very little money and not knowing how to speak English.\n\nThrough incredible hard work and absolute dedication, Franklin learned the language and became an outstanding student. He earned a difficult degree in mechanical engineering and eventually received a doctorate in applied plasma physics from a highly prestigious university. In the year 1980, his ultimate dream finally came true. NASA selected him to become an official 'astronauta' (astronaut). This was a massive historical achievement because he became the very first Hispanic American astronaut to ever travel to space!\n\nOver his long and successful career at NASA, Chang-Díaz tied the global record by flying on seven different space shuttle missions. He spent many hundreds of hours floating in zero gravity, doing complex scientific experiments and repairing the International Space Station outside the ship.\n\nAfter retiring from NASA, he did not stop working. Today, he runs an advanced rocket company that is developing a revolutionary plasma engine. He hopes this incredibly fast engine will eventually carry human explorers all the way to Mars! Franklin Chang-Díaz is a powerful symbol of Latin American brilliance, completely proving that with hard work, the sky is never the limit.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was the inspiring astronaut Franklin Chang-Díaz born in 1950?",
+          "What did he dream of doing ever since he was a small boy?",
+          "Why was it difficult for him when he first moved to the United States?",
+          "What massive historical achievement happened to him in the year 1980?",
+          "How many different space shuttle missions did he fly on to tie the global record?",
+          "What is his advanced rocket company developing today?",
+          "Where does he hope this incredibly fast engine will eventually carry human explorers?"
+        ],
+        "answerKey": [
+          "In the Central American country of Costa Rica.",
+          "Traveling to space and exploring the dark universe.",
+          "He had very little money and did not know how to speak English.",
+          "He became the first Hispanic American astronaut to travel to space.",
+          "Seven different space shuttle missions.",
+          "A revolutionary plasma engine.",
+          "All the way to Mars."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Franklin Chang-Díaz es un científico brillante y uno de los astronautas más famosos e inspiradores de la historia. Él nació en el hermoso país centroamericano de Costa Rica en el año 1950. Desde que era un niño pequeño, él soñaba con viajar al espacio y explorar el universo oscuro. Le encantaba la ciencia ficción y frecuentemente imaginaba volar cohetes a otros planetas distantes. Para lograr sus sueños masivos, se mudó a los Estados Unidos después de la escuela secundaria con muy poco dinero y sin saber hablar inglés.\n\nA través de un trabajo duro increíble y una dedicación absoluta, Franklin aprendió el idioma y se convirtió en un estudiante excelente. Él ganó un título difícil en ingeniería mecánica y eventualmente recibió un doctorado en física de una universidad muy prestigiosa. En el año 1980, su sueño máximo finalmente se hizo realidad. La NASA lo seleccionó para convertirse en un astronauta oficial. ¡Este fue un logro histórico masivo porque se convirtió en el primer astronauta hispanoamericano en viajar al espacio!\n\nDurante su carrera larga y exitosa en la NASA, Chang-Díaz empató el récord mundial volando en siete misiones diferentes del transbordador espacial. Pasó muchos cientos de horas flotando en gravedad cero, haciendo experimentos científicos complejos y reparando la Estación Espacial Internacional fuera de la nave.\n\nDespués de retirarse de la NASA, él no dejó de trabajar. Hoy en día, él dirige una compañía avanzada de cohetes que está desarrollando un motor de plasma revolucionario. ¡Él espera que este motor increíblemente rápido lleve exploradores humanos hasta Marte! Franklin Chang-Díaz es un símbolo poderoso de la brillantez latinoamericana y demuestra que todo es posible.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué hermoso país centroamericano nació el científico brillante en 1950?",
+          "¿Con qué soñaba frecuentemente cuando leía libros de ciencia ficción?",
+          "¿A qué dificultades se enfrentó cuando se mudó a los Estados Unidos?",
+          "¿Qué logro histórico increíble alcanzó con la NASA en el año 1980?",
+          "¿Cuántas misiones diferentes voló para empatar el récord mundial del transbordador espacial?",
+          "¿Qué tipo de motor revolucionario está desarrollando su compañía avanzada hoy en día?",
+          "¿A qué planeta distante espera llevar exploradores humanos usando este motor rápido?"
+        ],
+        "answerKey": [
+          "En Costa Rica.",
+          "Soñaba con viajar al espacio y volar cohetes a otros planetas distantes.",
+          "Tenía muy poco dinero y no sabía hablar inglés.",
+          "Fue el primer astronauta hispanoamericano en viajar al espacio.",
+          "Voló en siete misiones diferentes.",
+          "Un motor de plasma revolucionario.",
+          "Al planeta Marte."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Franklin Chang-Díaz es, indiscutiblemente, un científico visionario y uno de los astronautas más ilustres y perseverantes en la historia de la exploración aeroespacial. Nacido en San José, Costa Rica, en 1950, cultivó desde su más tierna infancia una fascinación inagotable por la astronomía y la exploración del cosmos. Decidido a materializar sus ambiciones celestiales, emigró a los Estados Unidos al concluir la educación secundaria, enfrentándose al monumental desafío de no dominar el idioma inglés y disponer de recursos económicos sumamente escasos.\n\nArmado con una disciplina férrea y un intelecto prodigioso, superó todas las barreras lingüísticas para graduarse con honores. Su brillante trayectoria académica culminó con la obtención de un doctorado en física de plasmas aplicados en el prestigioso Instituto Tecnológico de Massachusetts (MIT). Su consagración definitiva ocurrió en 1980, cuando fue seleccionado por la NASA, marcando un hito histórico sin precedentes al convertirse en el primer astronauta hispanoamericano en la historia de la agencia espacial.\n\nA lo largo de su estelar carrera, Chang-Díaz igualó el récord mundial al participar en siete misiones espaciales a bordo de los transbordadores, acumulando más de mil quinientas horas en órbita. Lideró experimentos cruciales y ejecutó complejas caminatas espaciales para el mantenimiento de la Estación Espacial Internacional.\n\nTras su jubilación de la NASA, su incansable espíritu innovador lo impulsó a fundar Ad Astra Rocket Company. Actualmente, lidera el desarrollo del motor VASIMR, un revolucionario sistema de propulsión de plasma diseñado para acortar drásticamente los viajes interplanetarios, con el firme objetivo de llevar misiones tripuladas hacia Marte. Chang-Díaz es un emblema resplandeciente del talento latinoamericano y la capacidad humana para conquistar las estrellas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué capital latinoamericana nació este científico visionario de la aeroespacial?",
+          "¿A qué monumental desafío se enfrentó al emigrar a los Estados Unidos?",
+          "¿En qué disciplina específica obtuvo su doctorado en el prestigioso MIT?",
+          "¿Qué hito histórico sin precedentes marcó su selección por la NASA en 1980?",
+          "¿Qué récord mundial igualó a lo largo de su estelar carrera espacial?",
+          "¿Qué revolucionario sistema de propulsión de plasma lidera en su compañía privada?",
+          "¿Cuál es el firme objetivo de este nuevo sistema de propulsión interplanetario?"
+        ],
+        "answerKey": [
+          "En San José, Costa Rica.",
+          "A no dominar el idioma inglés y disponer de recursos económicos escasos.",
+          "En física de plasmas aplicados.",
+          "Se convirtió en el primer astronauta hispanoamericano en la historia de la agencia.",
+          "Participó en siete misiones espaciales a bordo de los transbordadores.",
+          "El motor VASIMR.",
+          "Acortar drásticamente los viajes interplanetarios y llevar misiones tripuladas hacia Marte."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "César Millán",
+    "imageFileName": "cesar_millan.png",
+    "bundles": ["historia_y_lideres", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "César Millán is one of the most famous and successful animal trainers in the world, widely known globally as the \"Dog Whisperer.\" He was born in 1969 in a small, rural town in the country of Mexico. Growing up on his grandfather's farm, he spent his entire childhood surrounded by many different animals. From a very young age, he showed a magical, natural connection with wild 'perros' (dogs). Because he understood dog behavior so perfectly, local people started calling him the \"dog boy.\"\n\nWhen he was twenty-one years old, César made a very brave and difficult decision. He crossed the border into the United States searching for a better life. He arrived in California without speaking any English and having absolutely no money. He started working at a small dog grooming shop. His incredible ability to calm down aggressive and nervous dogs quickly caught the attention of many wealthy people. Eventually, famous Hollywood actors started hiring him to train their difficult pets.\n\nHis massive success led to his very own television show, \"The Dog Whisperer with Cesar Millan,\" which was broadcast in more than eighty countries. On his popular show, he taught dog owners an important lesson. He always explained that humans must project calm, assertive energy. He famously says, \"I rehabilitate dogs, I train people.\"\n\nToday, César Millán runs a massive psychological dog rehabilitation center in California. He has written many best-selling books and continues to travel the world to share his knowledge. He is an incredibly inspiring example of how a poor immigrant can achieve the absolute highest levels of the American Dream through hard work, passion, and natural talent.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What is the famous animal trainer César Millán widely known globally as?",
+          "Where did he spend his entire childhood surrounded by many different animals?",
+          "Why did the local people in Mexico start calling him the \"dog boy\"?",
+          "What brave and difficult decision did he make when he was twenty-one years old?",
+          "Why did wealthy people and famous Hollywood actors start hiring him?",
+          "What important lesson did he teach dog owners on his popular television show?",
+          "What does he run today in the state of California?"
+        ],
+        "answerKey": [
+          "The \"Dog Whisperer.\"",
+          "On his grandfather's farm in Mexico.",
+          "Because he understood dog behavior so perfectly.",
+          "He crossed the border into the United States searching for a better life.",
+          "Because of his incredible ability to calm down aggressive and nervous dogs.",
+          "That humans must project calm, assertive energy.",
+          "A massive psychological dog rehabilitation center."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "César Millán es uno de los entrenadores de animales más famosos y exitosos del mundo, conocido globalmente como el \"Encantador de Perros\". Él nació en 1969 en un pueblo rural y pequeño en el país de México. Al crecer en la granja de su abuelo, pasó toda su infancia rodeado de muchos animales diferentes. Desde una edad muy joven, él mostró una conexión mágica y natural con los perros salvajes. Porque él entendía el comportamiento de los perros perfectamente, las personas locales empezaron a llamarlo \"el chico de los perros\".\n\nCuando tenía veintiún años, César tomó una decisión muy valiente y difícil. Él cruzó la frontera hacia los Estados Unidos buscando una vida mejor. Llegó a California sin hablar nada de inglés y sin tener absolutamente nada de dinero. Empezó a trabajar en una tienda pequeña de peluquería para perros. Su habilidad increíble para calmar a los perros agresivos y nerviosos llamó rápidamente la atención de muchas personas ricas. Eventualmente, actores famosos de Hollywood empezaron a contratarlo para entrenar a sus mascotas difíciles.\n\nSu éxito masivo lo llevó a su propio programa de televisión, el cual fue transmitido en más de ochenta países. En su programa popular, él enseñó a los dueños de perros una lección importante. Siempre explicaba que los humanos deben proyectar una energía calmada y firme. Él dice famosamente: \"Rehabilito perros, entreno personas\".\n\nHoy en día, César Millán dirige un centro masivo de rehabilitación de perros en California. Él ha escrito muchos libros muy populares y continúa viajando por el mundo. Es un ejemplo increíblemente inspirador de cómo el trabajo duro puede lograr el Sueño Americano.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cómo es conocido globalmente el entrenador de animales César Millán?",
+          "¿En dónde pasó toda su infancia rodeado de muchos animales diferentes?",
+          "¿Por qué empezaron a llamarlo \"el chico de los perros\" las personas locales?",
+          "¿Qué no sabía hacer él cuando cruzó la frontera hacia California?",
+          "¿Para qué empezaron a contratarlo los actores famosos de Hollywood?",
+          "¿Qué tipo de energía explicó él que los humanos deben proyectar a sus mascotas?",
+          "¿Qué dice famosamente César Millán sobre su trabajo con animales y humanos?"
+        ],
+        "answerKey": [
+          "Como el \"Encantador de Perros\".",
+          "En la granja de su abuelo en México.",
+          "Porque entendía el comportamiento de los perros perfectamente.",
+          "No hablaba nada de inglés y no tenía nada de dinero.",
+          "Para entrenar a sus mascotas difíciles.",
+          "Una energía calmada y firme.",
+          "\"Rehabilito perros, entreno personas\"."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "César Millán, mundialmente consagrado bajo el célebre apelativo del \"Encantador de Perros\", es indiscutiblemente uno de los conductistas caninos más influyentes y exitosos del panorama contemporáneo. Nacido en 1969 en la localidad rural de Culiacán, Sinaloa, en México, transcurrió su infancia inmerso en la cotidianidad agrícola de la granja de su abuelo paterno. Desde su más tierna niñez, exhibió una afinidad casi mística y una empatía innata hacia las jaurías de perros callejeros, decodificando sus patrones de comportamiento con tanta lucidez que los habitantes locales lo apodaron \"el perrero\".\n\nImpulsado por el anhelo imperioso de forjarse un futuro próspero, a los veintiún años tomó la arriesgada determinación de cruzar la frontera hacia los Estados Unidos como inmigrante indocumentado. Arribó a California en situación de pobreza extrema y sin dominar el idioma inglés. Sin embargo, su talento excepcional para apaciguar y someter a canes extremadamente agresivos en una peluquería canina atrajo rápidamente la atención de la élite de Los Ángeles. Renombradas celebridades de Hollywood comenzaron a contratar sus servicios para rehabilitar a sus mascotas problemáticas.\n\nSu meteórico ascenso profesional culminó con el lanzamiento de su exitosísimo programa televisivo internacional. Su filosofía conductual revolucionó la educación canina, basándose en la premisa fundamental de que los dueños deben establecerse como líderes de la manada proyectando una \"energía tranquila y asertiva\". Su lema inconfundible, \"Rehabilito perros, entreno personas\", resume perfectamente su metodología psicológica.\n\nActualmente, Millán dirige un vasto centro de psicología canina en las montañas de California y ha publicado múltiples obras superventas. Su trayectoria encarna magistralmente la perseverancia indoblegable y la materialización absoluta del escurridizo sueño americano para la comunidad inmigrante.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué entorno rural y agrícola transcurrió la infancia de César Millán en México?",
+          "¿Qué habilidades innatas exhibió desde su más tierna niñez hacia las jaurías callejeras?",
+          "¿Bajo qué estatus migratorio y económico arribó a California a los veintiún años?",
+          "¿Qué talento excepcional atrajo rápidamente la atención de la élite de Los Ángeles?",
+          "¿En qué premisa fundamental se basa su filosofía conductual sobre los dueños de mascotas?",
+          "¿Qué lema inconfundible resume perfectamente su metodología psicológica?",
+          "¿Qué encarna magistralmente su trayectoria profesional para la comunidad inmigrante?"
+        ],
+        "answerKey": [
+          "En la cotidianidad agrícola de la granja de su abuelo paterno en Culiacán.",
+          "Una afinidad casi mística y empatía innata decodificando sus patrones de comportamiento.",
+          "Como inmigrante indocumentado, en pobreza extrema y sin dominar el inglés.",
+          "Su talento para apaciguar y someter a canes extremadamente agresivos.",
+          "En que los dueños deben establecerse como líderes proyectando una energía tranquila y asertiva.",
+          "\"Rehabilito perros, entreno personas\".",
+          "La perseverancia indoblegable y la materialización del sueño americano."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Jaime Escalante",
+    "imageFileName": "jaime_escalante.png",
+    "bundles": ["historia_y_lideres", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Jaime Escalante is one of the most famous and inspiring educators in the history of the United States. Born in the beautiful country of Bolivia in 1930, he was an excellent 'profesor' (teacher) in his home country. When he moved to the US in the 1960s to search for a better life, he had to start completely over because he did not speak English. He worked incredibly hard in a restaurant while going to college to earn his new teaching degree.\n\nEventually, Escalante started teaching math at Garfield High School in East Los Angeles. This school was located in a very poor, difficult neighborhood. Many students were involved in dangerous street gangs, and other teachers thought they were impossible to teach. However, Jaime completely refused to give up on them. He believed in their massive potential and taught them about having \"ganas\" (desire or motivation).\n\nHe started a highly advanced calculus program for his students. He made them come to school early, stay very late, and study during their summer vacation. Amazingly, in 1982, eighteen of his students passed the incredibly difficult Advanced Placement calculus exam! When testing officials wrongly accused the students of cheating because of their surprisingly high scores, the students bravely took the test again and proved their absolute brilliance.\n\nToday, his magical story is famous worldwide because of the classic Hollywood movie \"Stand and Deliver.\" Jaime Escalante remains a massive, powerful symbol of educational excellence. He perfectly proved that with hard work, love, and high expectations, any student can achieve absolute greatness and change their future.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was the famous educator Jaime Escalante born in the year 1930?",
+          "Why did he have to start his life completely over when he moved to the United States?",
+          "Where did he eventually start teaching math to high school students?",
+          "What Spanish word did he use to teach his students about desire and motivation?",
+          "What incredibly difficult exam did eighteen of his students pass in 1982?",
+          "What did the students bravely do when testing officials wrongly accused them of cheating?",
+          "What is the name of the classic Hollywood movie that made his magical story famous worldwide?"
+        ],
+        "answerKey": [
+          "In the beautiful country of Bolivia.",
+          "Because he did not speak English.",
+          "At Garfield High School in East Los Angeles.",
+          "\"Ganas\".",
+          "The Advanced Placement calculus exam.",
+          "They bravely took the test again and proved their absolute brilliance.",
+          "\"Stand and Deliver.\""
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Jaime Escalante es uno de los educadores más famosos e inspiradores en la historia de los Estados Unidos. Nacido en el hermoso país de Bolivia en 1930, él era un profesor excelente en su país natal. Cuando se mudó a los EE. UU. en los años sesenta para buscar una vida mejor, tuvo que empezar completamente de nuevo porque no hablaba inglés. Él trabajó increíblemente duro en un restaurante mientras iba a la universidad para ganar su nuevo título de enseñanza.\n\nEventualmente, Escalante empezó a enseñar matemáticas en la Escuela Secundaria Garfield en el este de Los Ángeles. Esta escuela estaba situada en un barrio muy pobre y difícil. Muchos estudiantes estaban en pandillas peligrosas, y otros maestros pensaban que eran imposibles de enseñar. Sin embargo, Jaime se negó completamente a abandonarlos. Él creía en su potencial masivo y les enseñó a tener \"ganas\" (deseo o motivación).\n\nÉl empezó un programa muy avanzado de cálculo para sus estudiantes. Él los hizo llegar temprano a la escuela, quedarse muy tarde y estudiar durante sus vacaciones de verano. ¡Sorprendentemente, en 1982, dieciocho de sus estudiantes pasaron el examen increíblemente difícil de cálculo avanzado! Cuando los oficiales de las pruebas acusaron falsamente a los estudiantes de hacer trampa por sus notas altas, los estudiantes valientemente tomaron la prueba otra vez y demostraron su brillantez absoluta.\n\nHoy, su historia mágica es famosa mundialmente por la película clásica de Hollywood \"Stand and Deliver\". Jaime Escalante sigue siendo un símbolo masivo de excelencia educativa. Él demostró que con mucho trabajo y amor, cualquier estudiante puede lograr la grandeza absoluta.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué hermoso país sudamericano nació el profesor Jaime Escalante en 1930?",
+          "¿Por qué tuvo que empezar completamente de nuevo cuando se mudó a los Estados Unidos?",
+          "¿En dónde empezó a enseñar matemáticas a los estudiantes de secundaria eventualmente?",
+          "¿Qué palabra en español usó él para enseñar a sus estudiantes sobre el deseo y la motivación?",
+          "¿Qué examen increíblemente difícil pasaron dieciocho de sus estudiantes en 1982?",
+          "¿Qué hicieron los estudiantes valientemente cuando los oficiales los acusaron de hacer trampa?",
+          "¿Cómo se llama la película clásica de Hollywood que hizo su historia famosa mundialmente?"
+        ],
+        "answerKey": [
+          "En Bolivia.",
+          "Porque no hablaba inglés.",
+          "En la Escuela Secundaria Garfield en el este de Los Ángeles.",
+          "Usó la palabra \"ganas\".",
+          "El examen de cálculo avanzado (Advanced Placement).",
+          "Tomaron la prueba otra vez y demostraron su brillantez absoluta.",
+          "\"Stand and Deliver\" (Con ganas de triunfar)."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Jaime Escalante es, indiscutiblemente, uno de los educadores más visionarios, carismáticos y profundamente inspiradores en los anales del sistema educativo de los Estados Unidos. Nacido en La Paz, Bolivia, en 1930, gozaba de un inmenso prestigio como profesor de física y matemáticas en su tierra natal. Sin embargo, al emigrar a Norteamérica en la década de los sesenta en busca de un futuro próspero, se enfrentó a la cruda realidad de no dominar el idioma inglés. Con una perseverancia inquebrantable, laboró arduamente en la cocina de un restaurante mientras revalidaba sus credenciales universitarias.\n\nTras años de sacrificio, Escalante ingresó como docente a la preparatoria Garfield, ubicada en un sector marginado del este de Los Ángeles. La institución estaba al borde de perder su acreditación académica, asediada por la violencia de las pandillas y el profundo derrotismo del profesorado. Desafiando el escepticismo general, Escalante se rehusó categóricamente a subestimar a sus alumnos latinos. Les inculcó una filosofía inquebrantable basada en tener \"ganas\", transformando su actitud hacia el estudio.\n\nImplementó un riguroso programa de cálculo avanzado, exigiendo a sus alumnos extenuantes jornadas de estudio antes del amanecer, durante los fines de semana y a lo largo de las vacaciones estivales. Milagrosamente, en 1982, dieciocho de sus pupilos aprobaron el formidable examen de nivel avanzado (AP Calculus). Cuando los prejuiciosos evaluadores invalidaron los resultados acusándolos injustamente de fraude, los jóvenes repitieron la exigente prueba bajo estricta vigilancia, revalidando sus deslumbrantes calificaciones y silenciando a los críticos.\n\nInmortalizado en la emblemática cinta de Hollywood \"Stand and Deliver\", el legado perdurable de Jaime Escalante demuestra magistralmente que la exigencia académica y la empatía pueden erradicar la desigualdad.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De qué cruda realidad se enfrentó este visionario profesor al emigrar a Norteamérica en los sesenta?",
+          "¿Qué problemas asediaban a la preparatoria Garfield, poniéndola al borde de perder su acreditación?",
+          "¿A qué se rehusó categóricamente Escalante, desafiando el escepticismo del resto del profesorado?",
+          "¿En qué filosofía inquebrantable basada en una sola palabra transformó la actitud de sus alumnos?",
+          "¿Qué rutinas extenuantes exigió el riguroso programa de cálculo avanzado a los jóvenes?",
+          "¿Por qué invalidaron los prejuiciosos evaluadores los formidables resultados del examen en 1982?",
+          "¿Qué hicieron los jóvenes bajo estricta vigilancia para silenciar a los críticos y revalidar sus notas?"
+        ],
+        "answerKey": [
+          "A la cruda realidad de no dominar el idioma inglés.",
+          "La violencia de las pandillas y el profundo derrotismo del profesorado.",
+          "Se rehusó categóricamente a subestimar a sus alumnos latinos.",
+          "En la filosofía de tener \"ganas\".",
+          "Estudio antes del amanecer, durante los fines de semana y a lo largo de las vacaciones estivales.",
+          "Porque los acusaron injustamente de fraude.",
+          "Repitieron la exigente prueba y revalidaron sus deslumbrantes calificaciones."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Papa Francisco",
+    "imageFileName": "papa_francisco.png",
+    "bundles": ["historia_y_lideres", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Pope Francis is one of the most famous, important, and humble religious leaders in the entire world. He was born in the busy, beautiful city of Buenos Aires, Argentina, in the year 1936. His real name is Jorge Mario Bergoglio, and he grew up in a very traditional, hardworking family of Italian immigrants. Before dedicating his entire life to the church, he was actually a very normal young man. He loved dancing the tango, studying chemistry, and passionately cheering for his favorite local soccer team, San Lorenzo!\n\nAs a priest and later as an archbishop, Jorge was incredibly famous for his simple, humble lifestyle. Instead of living in a massive, expensive palace and driving a luxury car, he chose to live in a small, simple apartment. He cooked his own meals and rode the public bus and subway to work every single day. He spent his time visiting the poorest neighborhoods to help people who were suffering.\n\nIn the historic year of 2013, everything completely changed. He was officially elected as the new leader of the Catholic Church. This was a massive, groundbreaking moment because he became the very first pope from Latin America! He chose the name Francis to honor a famous saint who dedicated his life to peace, nature, and helping the poor.\n\nToday, Pope Francis is celebrated globally for his deep kindness and inclusive messages. He frequently speaks about protecting the environment, fighting global poverty, and treating all human beings with love and respect. He perfectly represents the warm, welcoming spirit of Latin America and the true power of absolute humility.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was Pope Francis born in the year 1936?",
+          "What is his real name, and what type of family did he grow up in?",
+          "What was his favorite local soccer team to passionately cheer for as a young man?",
+          "Where did he choose to live instead of a massive, expensive palace?",
+          "Why was his election as the new leader of the Catholic Church in 2013 a massive, groundbreaking moment?",
+          "Why did he choose the name Francis when he became the pope?",
+          "What does Pope Francis perfectly represent to the world today?"
+        ],
+        "answerKey": [
+          "In the busy city of Buenos Aires, Argentina.",
+          "His real name is Jorge Mario Bergoglio, and he grew up in a hardworking family of Italian immigrants.",
+          "San Lorenzo.",
+          "In a small, simple apartment.",
+          "Because he became the very first pope from Latin America.",
+          "To honor a famous saint who dedicated his life to peace, nature, and helping the poor.",
+          "The warm, welcoming spirit of Latin America and the true power of absolute humility."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "El Papa Francisco es uno de los líderes religiosos más famosos, importantes y humildes de todo el mundo. Él nació en la ciudad ocupada y hermosa de Buenos Aires, Argentina, en el año 1936. Su nombre real es Jorge Mario Bergoglio, y él creció en una familia tradicional y trabajadora de inmigrantes italianos. Antes de dedicar toda su vida a la iglesia, él era un joven muy normal. ¡Le encantaba bailar tango, estudiar química y animar apasionadamente a su equipo de fútbol local favorito, San Lorenzo!\n\nComo sacerdote y luego como arzobispo, Jorge era increíblemente famoso por su estilo de vida simple y humilde. En vez de vivir en un palacio masivo y caro y conducir un carro de lujo, él eligió vivir en un apartamento pequeño y simple. Él cocinaba sus propias comidas y viajaba en el autobús público y el metro para ir al trabajo todos los días. Él pasaba su tiempo visitando los barrios más pobres para ayudar a las personas que estaban sufriendo.\n\nEn el año histórico de 2013, todo cambió completamente. Él fue elegido oficialmente como el nuevo líder de la Iglesia Católica. ¡Este fue un momento masivo e histórico porque se convirtió en el primer papa de Latinoamérica! Él eligió el nombre de Francisco para honrar a un santo famoso que dedicó su vida a la paz, la naturaleza y ayudar a los pobres.\n\nHoy en día, el Papa Francisco es celebrado globalmente por su profunda amabilidad y mensajes inclusivos. Habla frecuentemente sobre proteger el medio ambiente y luchar contra la pobreza global. Él representa perfectamente el poder verdadero de la humildad absoluta.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué ciudad ocupada y hermosa nació el Papa Francisco en 1936?",
+          "¿Cuál es su nombre real y en qué tipo de familia creció en Argentina?",
+          "¿A qué equipo de fútbol local favorito animaba apasionadamente cuando era joven?",
+          "¿Dónde eligió él vivir en vez de vivir en un palacio masivo y caro?",
+          "¿Por qué fue un momento histórico masivo su elección en el año 2013?",
+          "¿A quién quería honrar cuando eligió oficialmente el nombre de Francisco?",
+          "¿Sobre qué dos temas importantes habla él frecuentemente en todo el mundo?"
+        ],
+        "answerKey": [
+          "En Buenos Aires, Argentina.",
+          "Su nombre real es Jorge Mario Bergoglio y creció en una familia de inmigrantes italianos.",
+          "Al equipo San Lorenzo.",
+          "En un apartamento pequeño y simple.",
+          "Porque se convirtió en el primer papa de Latinoamérica.",
+          "A un santo famoso que dedicó su vida a la paz, la naturaleza y ayudar a los pobres.",
+          "Sobre proteger el medio ambiente y luchar contra la pobreza global."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El Papa Francisco es, indiscutiblemente, uno de los líderes espirituales más trascendentales, carismáticos y humildes del panorama global contemporáneo. Nacido como Jorge Mario Bergoglio en 1936, creció en el seno de una laboriosa familia de inmigrantes italianos asentada en la bulliciosa ciudad de Buenos Aires, Argentina. Durante su juventud, llevó una vida sorprendentemente terrenal y ordinaria; disfrutaba bailando el tango tradicional, obtuvo un título técnico en química y desarrolló una pasión inquebrantable y vitalicia por el Club Atlético San Lorenzo de Almagro, su equipo de fútbol predilecto.\n\nTras consagrar su vida al sacerdocio, Bergoglio se distinguió profundamente por su inquebrantable compromiso con la austeridad y la justicia social. Como arzobispo de Buenos Aires, rechazó categóricamente los privilegios de su alta jerarquía. Renunció a residir en el suntuoso palacio arzobispal y a utilizar vehículos con chofer; en su lugar, habitaba un austero apartamento, preparaba sus propios alimentos y utilizaba cotidianamente el transporte público metropolitano. Su labor pastoral se enfocaba visceralmente en socorrer a los habitantes desamparados de las villas miseria.\n\nEl cónclave del año 2013 marcó un hito sin precedentes en la milenaria historia de la Iglesia Católica, al elegirlo como el primer sumo pontífice originario del continente americano. Adoptó el nombre de Francisco en honor a San Francisco de Asís, simbolizando su inmensa dedicación a los desfavorecidos y a la preservación del medio ambiente.\n\nEn la actualidad, el pontificado de Francisco se caracteriza por un enfoque sumamente progresista, compasivo e inclusivo. Es aclamado mundialmente por sus enérgicos llamados a erradicar la feroz desigualdad económica y proteger nuestro ecosistema, erigiéndose como un faro incombustible de auténtica humildad cristiana.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En el seno de qué tipo de familia creció Jorge Mario Bergoglio en Buenos Aires?",
+          "¿Por qué equipo de fútbol argentino desarrolló una pasión inquebrantable y vitalicia?",
+          "¿Qué privilegios de su alta jerarquía rechazó categóricamente como arzobispo de Buenos Aires?",
+          "¿En dónde se enfocaba visceralmente su labor pastoral mientras utilizaba el transporte público?",
+          "¿Qué hito sin precedentes marcó el cónclave del año 2013 en la historia de la Iglesia Católica?",
+          "¿En honor a qué santo famoso adoptó su nombre para simbolizar su dedicación a los desfavorecidos?",
+          "¿Qué dos grandes problemáticas globales busca erradicar a través de sus enérgicos llamados?"
+        ],
+        "answerKey": [
+          "En una laboriosa familia de inmigrantes italianos.",
+          "Por el Club Atlético San Lorenzo de Almagro.",
+          "Residir en el suntuoso palacio arzobispal y utilizar vehículos con chofer.",
+          "En socorrer a los habitantes desamparados de las villas miseria.",
+          "Eligió al primer sumo pontífice originario del continente americano.",
+          "En honor a San Francisco de Asís.",
+          "La feroz desigualdad económica y el daño al ecosistema (el medio ambiente)."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Miguel Cabrera",
+    "imageFileName": "miguel_cabrera.png",
+    "bundles": ["historia_y_lideres", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Miguel Cabrera is one of the greatest, most talented, and most respected baseball players in the entire history of the sport. He was born in the beautiful city of Maracay, Venezuela, in 1983. From a very young age, he showed an incredible, natural passion for 'béisbol' (baseball). He practiced hitting every single day until he became an absolute master. When he was only sixteen years old, he signed his very first professional contract and traveled to the United States to chase his massive dreams.\n\nAfter winning a World Series championship early in his career, he joined the famous Detroit Tigers in the state of Michigan. Here, \"Miggy\" became an absolute legend and a beloved hero for millions of passionate fans. He was famous for his massive smile, his joyful energy on the field, and his incredible ability to hit the ball harder and farther than almost anyone else. He won two Most Valuable Player awards and played in twelve exciting All-Star games!\n\nHis absolute greatest, most historical achievement happened in the magical year 2012. Miguel Cabrera won the legendary Triple Crown. This means he finished the regular season with the highest batting average, the most home runs, and the most runs batted in. No other player in the entire league had achieved this incredibly difficult and rare milestone in forty-five long years!\n\nToday, Miguel Cabrera is happily retired, but his massive legacy will last forever. He is a powerful, inspiring symbol of Venezuelan pride and athletic excellence. He perfectly proves that with massive dedication, joyful passion, and endless hard work, you can become a true hero for your community.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where was the talented baseball player Miguel Cabrera born in the year 1983?",
+          "How old was he when he signed his very first professional contract?",
+          "What famous baseball team did he join in the state of Michigan?",
+          "What was \"Miggy\" famous for showing on the baseball field?",
+          "What absolute greatest, most historical achievement happened to him in the magical year 2012?",
+          "What three things must a player have the highest number of to win this legendary award?",
+          "How many years had passed since another player in the league had achieved this rare milestone?"
+        ],
+        "answerKey": [
+          "In the beautiful city of Maracay, Venezuela.",
+          "He was only sixteen years old.",
+          "The Detroit Tigers.",
+          "His massive smile, joyful energy, and incredible ability to hit the ball.",
+          "He won the legendary Triple Crown.",
+          "The highest batting average, the most home runs, and the most runs batted in.",
+          "Forty-five long years."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Miguel Cabrera es uno de los jugadores de béisbol más grandes, talentosos y respetados en toda la historia del deporte. Él nació en la hermosa ciudad de Maracay, Venezuela, en el año 1983. Desde una edad muy joven, él mostró una pasión natural e increíble por el béisbol. Él practicaba batear todos los días hasta que se convirtió en un maestro absoluto. Cuando tenía solamente dieciséis años, firmó su primer contrato profesional y viajó a los Estados Unidos para perseguir sus sueños masivos.\n\nDespués de ganar un campeonato de la Serie Mundial temprano en su carrera, él se unió a los famosos Tigres de Detroit en el estado de Michigan. Aquí, \"Miggy\" se convirtió en una leyenda absoluta y un héroe muy querido para millones de aficionados apasionados. Él era famoso por su gran sonrisa, su energía alegre en el campo y su habilidad increíble para batear la pelota más fuerte y lejos que casi cualquier otra persona. ¡Él ganó dos premios al Jugador Más Valioso y jugó en doce emocionantes Juegos de Estrellas!\n\nSu logro más grande e histórico ocurrió en el año mágico de 2012. Miguel Cabrera ganó la legendaria Triple Corona. Esto significa que él terminó la temporada regular con el promedio de bateo más alto, la mayor cantidad de jonrones y la mayor cantidad de carreras impulsadas. ¡Ningún otro jugador en toda la liga había logrado este hito raro e increíblemente difícil en cuarenta y cinco años largos!\n\nHoy en día, Miguel Cabrera está felizmente retirado, pero su legado masivo durará para siempre. Él es un símbolo inspirador del orgullo venezolano y demuestra que, con pasión alegre y mucho trabajo duro, puedes convertirte en una verdadera leyenda.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En qué hermosa ciudad de Venezuela nació Miguel Cabrera en 1983?",
+          "¿A qué edad precoz firmó su primer contrato profesional de béisbol?",
+          "¿A qué famoso equipo se unió en el estado de Michigan?",
+          "¿Por qué tres características increíbles era muy famoso \"Miggy\" en el campo?",
+          "¿Qué logro histórico legendario ganó Miguel Cabrera en el año 2012?",
+          "¿Qué tres estadísticas impresionantes debe liderar un jugador para ganar este premio?",
+          "¿Cuántos años largos pasaron antes de que otro jugador lograra este hito difícil?"
+        ],
+        "answerKey": [
+          "En Maracay, Venezuela.",
+          "A los dieciséis años.",
+          "A los Tigres de Detroit.",
+          "Por su gran sonrisa, su energía alegre y su habilidad increíble para batear.",
+          "Ganó la Triple Corona.",
+          "El promedio de bateo más alto, más jonrones y más carreras impulsadas.",
+          "Pasaron cuarenta y cinco años largos."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Miguel Cabrera es, indiscutiblemente, uno de los beisbolistas más formidables, carismáticos y estadísticamente perfectos en la historia de las Grandes Ligas. Nacido en 1983 en la ciudad de Maracay, Venezuela, su portentoso talento para el \"béisbol\" se manifestó desde su más tierna infancia. Bendecido con una envidiable mecánica de bateo y una disciplina férrea, firmó su primer contrato profesional a la precoz edad de dieciséis años, abandonando su patria para conquistar los exigentes diamantes estadounidenses.\n\nTras saborear la gloria de ganar una Serie Mundial en los albores de su carrera, Cabrera fue traspasado a los Tigres de Detroit, en el estado de Míchigan, donde forjó su estatus de leyenda inmortal. Apodado cariñosamente \"Miggy\", se ganó la adoración incondicional de los fanáticos gracias a su perenne sonrisa, su espíritu jubiloso en el terreno y su prodigiosa capacidad para conectar cuadrangulares monumentales hacia todas las bandas del estadio. Su deslumbrante vitrina de trofeos incluye dos prestigiosos galardones consecutivos al Jugador Más Valioso y doce selecciones al codiciado Juego de Estrellas.\n\nEl cenit absoluto de su gloriosa trayectoria se materializó en la histórica temporada de 2012, cuando Cabrera conquistó la mítica Triple Corona de Bateo. Al liderar la Liga Americana simultáneamente en promedio de bateo, cuadrangulares y carreras impulsadas, logró una hazaña estadística casi inalcanzable que ningún otro pelotero en el béisbol moderno había conseguido en cuarenta y cinco años. Este hito sin precedentes lo catapultó instantáneamente al panteón de los inmortales del deporte.\n\nHoy, disfrutando de un merecido retiro, el legado de Miguel Cabrera trasciende las meras estadísticas. Es un emblema resplandeciente del inquebrantable orgullo venezolano y de la excelencia deportiva latinoamericana.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿A qué precoz edad abandonó su patria venezolana tras firmar su primer contrato profesional?",
+          "¿En qué estado estadounidense forjó su estatus de leyenda inmortal con los Tigres de Detroit?",
+          "¿Qué características personales le ganaron la adoración incondicional de los fanáticos?",
+          "¿Qué dos deslumbrantes galardones individuales consecutivos se destacan en su vitrina de trofeos?",
+          "¿En qué histórica temporada se materializó el cenit absoluto de su gloriosa trayectoria?",
+          "¿En qué tres categorías estadísticas lideró la Liga Americana simultáneamente para coronarse?",
+          "¿Qué hazaña casi inalcanzable rompió una sequía de cuarenta y cinco años en el béisbol moderno?"
+        ],
+        "answerKey": [
+          "A la precoz edad de dieciséis años.",
+          "En el estado de Míchigan.",
+          "Su perenne sonrisa y su espíritu jubiloso en el terreno.",
+          "Dos galardones al Jugador Más Valioso.",
+          "En la histórica temporada de 2012.",
+          "En promedio de bateo, cuadrangulares y carreras impulsadas.",
+          "Conquistó la mítica Triple Corona de Bateo."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Gol de Iniesta",
+    "imageFileName": "andres_iniesta_2010.png",
+    "bundles": ["historia_y_lideres", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Andrés Iniesta is one of the most brilliant, creative, and beloved soccer players in the history of Spain. He was a quiet, humble player who possessed absolutely magical skills on the field. For many years, the incredibly talented Spanish national team had suffered from terrible bad luck in the World Cup. Even though they always had fantastic players, they could never win the massive, global tournament. However, everything finally changed during the spectacular summer of 2010 in South Africa.\n\nSpain reached the final match to play against the powerful team from the Netherlands. The incredibly intense game was a violent and difficult battle. After ninety minutes of exhausting playing time, neither team had scored a single goal. The match went into extra time, and millions of nervous fans around the world held their breath. Finally, in the 116th minute, just before the game ended, the magical moment happened.\n\nIniesta received a perfect pass inside the penalty box. With absolutely perfect focus, he kicked the ball extremely hard, sending it flying past the goalkeeper and directly into the net! Spain had finally won their very first World Cup! As Iniesta celebrated the greatest goal of his entire life, he took off his jersey to reveal a hidden message on his undershirt.\n\nThe emotional message was a beautiful tribute to his close friend, Dani Jarque, another famous soccer player who had tragically died a year earlier. Because of his incredible talent, his historical winning goal, and his deep, emotional kindness, Andrés Iniesta remains a massive, immortal hero for the entire country of Spain forever.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Who did the Spanish national team play against in the final match of the 2010 World Cup?",
+          "How many goals had either team scored after ninety minutes of exhausting playing time?",
+          "In what exact minute of the intense game did the magical moment finally happen?",
+          "Where was Andrés Iniesta when he received a perfect pass to score the goal?",
+          "What did Iniesta take off to reveal a hidden message as he celebrated the greatest goal of his life?",
+          "Who was the emotional message a beautiful tribute to?",
+          "What does Andrés Iniesta remain for the entire country of Spain forever?"
+        ],
+        "answerKey": [
+          "The powerful team from the Netherlands.",
+          "Neither team had scored a single goal.",
+          "In the 116th minute.",
+          "Inside the penalty box.",
+          "He took off his jersey to reveal a hidden message on his undershirt.",
+          "His close friend, Dani Jarque, who had tragically died a year earlier.",
+          "A massive, immortal hero."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Andrés Iniesta es uno de los jugadores de fútbol más brillantes, creativos y queridos en la historia de España. Él era un jugador callado y humilde que poseía habilidades absolutamente mágicas en el campo. Por muchos años, el increíblemente talentoso equipo nacional de España había sufrido de muy mala suerte en la Copa Mundial. Aunque siempre tenían jugadores fantásticos, nunca podían ganar el torneo global y masivo. Sin embargo, todo finalmente cambió durante el verano espectacular del año 2010 en Sudáfrica.\n\nEspaña llegó al partido final para jugar contra el poderoso equipo de los Países Bajos. El juego increíblemente intenso fue una batalla violenta y difícil. Después de noventa minutos de tiempo de juego agotador, ningún equipo había marcado un solo gol. El partido entró en tiempo extra, y millones de aficionados nerviosos en todo el mundo contuvieron la respiración. Finalmente, en el minuto 116, justo antes de que terminara el juego, el momento mágico ocurrió.\n\nIniesta recibió un pase perfecto dentro del área de penal. ¡Con un enfoque absolutamente perfecto, él pateó la pelota extremadamente fuerte, enviándola directamente a la red! ¡España finalmente había ganado su primera Copa Mundial! Mientras Iniesta celebraba el gol más grande de toda su vida, se quitó la camiseta para mostrar un mensaje escondido en su camisa interior.\n\nEl mensaje emocional fue un hermoso tributo a su amigo cercano, Dani Jarque, otro jugador de fútbol que había muerto trágicamente un año antes. Por su talento increíble, su gol histórico y su amabilidad emocional, Andrés Iniesta sigue siendo un héroe inmortal y masivo para todo el país de España.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Contra qué equipo poderoso jugó España en el partido final de la Copa Mundial de 2010?",
+          "¿Cuántos goles había marcado cada equipo después de noventa minutos de juego agotador?",
+          "¿En qué minuto exacto del juego intenso ocurrió finalmente el momento mágico?",
+          "¿En dónde estaba Andrés Iniesta cuando recibió un pase perfecto para marcar el gol?",
+          "¿Qué se quitó Iniesta para mostrar un mensaje escondido mientras celebraba el gol?",
+          "¿A qué amigo cercano que había muerto trágicamente honraba este hermoso tributo?",
+          "¿Qué sigue siendo Andrés Iniesta para todo el país de España por su talento y amabilidad?"
+        ],
+        "answerKey": [
+          "Contra el equipo de los Países Bajos.",
+          "Ningún equipo había marcado un solo gol.",
+          "En el minuto 116.",
+          "Dentro del área de penal.",
+          "Se quitó la camiseta para mostrar un mensaje en su camisa interior.",
+          "A Dani Jarque.",
+          "Un héroe inmortal y masivo."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Andrés Iniesta es, sin lugar a duda, uno de los mediocampistas más prodigiosos, visionarios y unánimemente venerados en los anales del fútbol mundial. Caracterizado por su extrema modestia y un talento casi sobrenatural para orquestar el juego, Iniesta fue el arquitecto del momento más glorioso en la historia del deporte español. Durante décadas, la talentosa selección nacional española, conocida popularmente como \"La Roja\", había padecido una suerte aciaga en la Copa del Mundo, fracasando reiteradamente a pesar de su innegable brillantez. No obstante, esta maldición histórica se desvaneció durante el vibrante torneo de Sudáfrica 2010.\n\nEspaña logró avanzar hasta la gran final para enfrentarse a la temible selección de los Países Bajos. El encuentro fue una batalla sumamente ríspida, táctica y físicamente extenuante. Tras noventa minutos de incesante tensión sin que ninguno lograra perforar la portería rival, el partido se adentró en la prórroga. Cuando la inminencia de los temidos penales paralizaba los corazones de millones de espectadores en todo el planeta, surgió la magia absoluta en el agonizante minuto 116.\n\nIniesta recibió una asistencia magistral dentro del área penal. Con una frialdad y precisión quirúrgicas, empalmó el esférico con un potente derechazo cruzado, batiendo al guardameta y sellando la conquista del primer campeonato mundial para su patria. En medio de la euforia desatada, Iniesta protagonizó un gesto de profunda nobleza humana: se despojó de su camiseta oficial para exhibir un mensaje íntimo escrito a mano en su camiseta interior.\n\nEl emotivo texto, \"Dani Jarque siempre con nosotros\", era un conmovedor tributo a su entrañable amigo y colega fallecido trágicamente un año antes. Esta proeza épica consagró a Iniesta como una leyenda inmortal.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué suerte aciaga había padecido reiteradamente \"La Roja\" a pesar de su innegable brillantez?",
+          "¿Cómo se caracterizó el encuentro final contra la temible selección de los Países Bajos?",
+          "¿Qué inminencia amenazaba con paralizar los corazones en la prórroga antes del minuto 116?",
+          "¿Con qué características de frialdad y precisión empalmó Iniesta el esférico en el área penal?",
+          "¿Qué histórico campeonato selló la conquista de este potente derechazo cruzado para su patria?",
+          "¿De qué prenda se despojó Iniesta para protagonizar su gesto de profunda nobleza humana?",
+          "¿Qué conmovedor texto de tributo a su entrañable amigo fallecido exhibió en su camiseta interior?"
+        ],
+        "answerKey": [
+          "Había padecido una suerte aciaga en la Copa del Mundo (fracasando reiteradamente).",
+          "Fue una batalla sumamente ríspida, táctica y físicamente extenuante.",
+          "La inminencia de los temidos penales.",
+          "Con una frialdad y precisión quirúrgicas.",
+          "El primer campeonato mundial para España.",
+          "Se despojó de su camiseta oficial.",
+          "\"Dani Jarque siempre con nosotros\"."
+        ]
+      }
+    }
   }
     ]
