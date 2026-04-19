@@ -136,7 +136,11 @@
             <button class="btn-bundle" onclick="generateBundlePDF()">📚 Imprimir Bundle (PDF con Índice)</button>
             <button class="btn-bundle" onclick="generateBundlePNG()">🎨 Descargar Portada de Bundle (PNG)</button>
         </div>
-
+<h2 class="section-title">Generador de Título BUNDLE (Para TPT)</h2>
+        <div class="description-box" id="title-box">
+            <button class="btn-copy" onclick="copyDescription('generated-title')">📋 Copiar Título</button>
+            <div id="generated-title" style="font-weight: 900; font-size: 18px; color: #1a365d;">Selecciona temas y escribe una categoría arriba para generar el título...</div>
+        </div>
         <h2 class="section-title">Generador de Descripción BUNDLE (Para TPT)</h2>
         <div class="description-box" id="description-box">
             <button class="btn-copy" onclick="copyDescription('generated-description')">📋 Copiar Texto</button>
@@ -211,19 +215,53 @@
             return Array.from(checkboxes).map(cb => globalData[cb.value]);
         }
 
-        // --- BUNDLE Description Generator ---
+// --- BUNDLE Description & Title Generator ---
         function updateBundleDescription() {
             const category = document.getElementById('bundle-category').value.trim() || "[Topic Category]";
             const selected = getSelectedTopics();
+            const numItems = selected.length;
 
-            if (selected.length === 0) {
+            if (numItems === 0) {
+                if(document.getElementById('generated-title')) document.getElementById('generated-title').innerHTML = "Selecciona temas y escribe una categoría arriba para generar el título...";
                 document.getElementById('generated-description').innerHTML = "Selecciona algunos temas y escribe una categoría arriba para generar tu descripción automática...";
                 return;
             }
 
+            // --- Version 2 Pricing Math ---
+            let bundlePrice = numItems; // Default $1 each if less than 5
+            if (numItems >= 5 && numItems <= 40) {
+                bundlePrice = (numItems * 0.40) + 1;
+            } else if (numItems > 40) {
+                bundlePrice = (numItems * 0.30) + 5;
+            }
+            
+            let originalValue = numItems * 1.00;
+            let savingsPercent = Math.round(((originalValue - bundlePrice) / originalValue) * 100);
+            
+            // 6 pages per topic (3 readings + 3 keys) + 1 index page
+            let totalPages = (numItems * 6) + 1; 
+
+            // --- Generate TPT Title ---
+            let generatedTitle = `Spanish Cultural Readings BUNDLE: ${category} | 3 Levels | ${numItems} Topics`;
+            if(document.getElementById('generated-title')) document.getElementById('generated-title').innerText = generatedTitle;
+
+            // --- Generate TPT Description ---
             let text = `Need a high-interest cultural reading activity that works for all your Spanish levels without spending hours differentiating text?\n\n`;
             text += `This ready-to-use bundle of reading passages about **${category}** is the perfect no-prep solution for mixed-ability classrooms, sub plans, or quick cultural deep-dives. I’ve done the heavy lifting for you by taking a fascinating cultural topic and writing it at three distinct levels so every student can succeed!\n\n`;
             
+            // Injecting the calculated stats
+            text += `📊 **BUNDLE AT A GLANCE:**\n`;
+            text += `- **Topics Included:** ${numItems}\n`;
+            text += `- **Total Pages:** ${totalPages} pages of ready-to-print material\n`;
+            text += `- **Teaching Duration:** ${numItems} days of full lessons, or ${numItems} weeks of cultural warm-ups!\n`;
+            text += `- **Original Value:** $${originalValue.toFixed(2)} ($1.00 per topic)\n`;
+            if (numItems >= 5) {
+                text += `- **Bundle Price:** $${bundlePrice.toFixed(2)}\n`;
+                text += `- **Your Savings:** ${savingsPercent}%\n\n`;
+            } else {
+                text += `\n`;
+            }
+
             text += `**What's Included:**\n`;
             selected.forEach((topic, index) => {
                 text += `${index + 1}. ${topic.topicName}\n`;
@@ -241,7 +279,6 @@
 
             document.getElementById('generated-description').innerText = text;
         }
-
         // --- INDIVIDUAL Description Generator ---
         function updateIndividualDescription() {
             const select = document.getElementById('individual-topic-select');
