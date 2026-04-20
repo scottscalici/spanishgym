@@ -19607,5 +19607,233 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "La Carne Uruguaya",
+    "imageFileName": "carne_uruguaya.png",
+    "bundles": ["cultura_y_gastronomia", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Located in South America, the small but beautiful country of Uruguay holds a massive, delicious secret. It is globally famous for producing some of the highest quality, most delicious beef in the entire world! In fact, the country has a completely unique and fascinating statistic. There are actually four times as many cows in Uruguay as there are human beings. This means that cows practically rule the beautiful, green countryside.\n\nFor hundreds of years, the historic 'gauchos' (South American cowboys) have carefully raised massive herds of cattle on the wide, open plains called the Pampas. Unlike many massive factory farms in other countries, the cows in Uruguay live an incredibly peaceful and natural life. They roam freely across the endless green grass and are never given any artificial hormones or dangerous chemicals. Because they eat only natural, fresh grass, the 'carne' (meat) is incredibly healthy, tender, and deeply flavorful.\n\nBecause beef is so amazing and abundant, the traditional 'asado' (barbecue) is the absolute heart of Uruguayan culture. Every single weekend, families and close friends gather around a massive, hot fire to slowly roast different cuts of delicious meat. They spend hours talking, laughing, and enjoying the beautiful weather together.\n\nEating this famous meat is not just a simple meal; it is a powerful symbol of deep national pride. It perfectly represents the hardworking spirit of the traditional gauchos and the beautiful, untouched nature of the country. Today, top restaurants all over the planet happily import this magical, natural beef, proving that small countries can create massive, world-class culinary masterpieces.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What is the small but beautiful country of Uruguay globally famous for producing?",
+          "What completely unique and fascinating statistic does the country of Uruguay have?",
+          "Who have carefully raised massive herds of cattle on the wide, open plains for hundreds of years?",
+          "How is the life of the cows in Uruguay completely different from cows in massive factory farms?",
+          "What makes the meat incredibly healthy, tender, and deeply flavorful?",
+          "What is the absolute heart of Uruguayan culture where families and friends gather every weekend?",
+          "What does eating this famous meat perfectly represent about the country?"
+        ],
+        "answerKey": [
+          "Some of the highest quality, most delicious beef in the entire world.",
+          "There are actually four times as many cows as there are human beings.",
+          "The historic 'gauchos' (South American cowboys).",
+          "They live a peaceful, natural life, roaming freely and are never given artificial hormones.",
+          "They eat only natural, fresh grass.",
+          "The traditional 'asado' (barbecue).",
+          "The hardworking spirit of the gauchos and the beautiful, untouched nature."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Situado en Sudamérica, el país pequeño pero hermoso de Uruguay tiene un secreto masivo y delicioso. ¡Es mundialmente famoso por producir algunas de las carnes de res de más alta calidad y más deliciosas de todo el mundo! De hecho, el país tiene una estadística completamente única y fascinante. Realmente hay cuatro veces más vacas en Uruguay que seres humanos. Esto significa que las vacas prácticamente controlan el campo verde y hermoso.\n\nPor cientos de años, los gauchos históricos han criado cuidadosamente manadas masivas de ganado en las llanuras grandes llamadas las Pampas. A diferencia de las granjas de fábrica masivas en otros países, las vacas en Uruguay viven una vida increíblemente pacífica y natural. Ellas caminan libremente por la hierba verde infinita y nunca reciben hormonas artificiales o químicos peligrosos. Porque comen solamente hierba natural y fresca, la carne es increíblemente saludable, tierna y muy sabrosa.\n\nPorque la carne de res es tan asombrosa y abundante, el asado tradicional es el corazón absoluto de la cultura uruguaya. Cada fin de semana, las familias y los amigos cercanos se reúnen alrededor de un fuego masivo y caliente para asar lentamente diferentes cortes de carne deliciosa. Ellos pasan horas hablando, riendo y disfrutando del clima hermoso juntos.\n\nComer esta carne famosa no es solo una comida simple; es un símbolo poderoso de orgullo nacional profundo. Representa perfectamente el espíritu trabajador de los gauchos tradicionales y la naturaleza hermosa del país. Hoy en día, los mejores restaurantes de todo el planeta importan felizmente esta carne mágica y natural, demostrando que un país pequeño puede crear obras maestras culinarias de clase mundial.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Por qué es mundialmente famoso el país pequeño pero hermoso de Uruguay?",
+          "¿Qué estadística completamente única y fascinante tiene el país sobre sus animales?",
+          "¿Dónde han criado los gauchos históricos sus manadas masivas de ganado por cientos de años?",
+          "¿Qué nunca reciben las vacas que caminan libremente por la hierba verde infinita?",
+          "¿Por qué es la carne de las vacas uruguayas increíblemente saludable, tierna y muy sabrosa?",
+          "¿Qué es el corazón absoluto de la cultura donde las familias se reúnen cada fin de semana?",
+          "¿Qué importan felizmente los mejores restaurantes de todo el planeta hoy en día?"
+        ],
+        "answerKey": [
+          "Por producir algunas de las carnes de res de más alta calidad y más deliciosas del mundo.",
+          "Hay cuatro veces más vacas en Uruguay que seres humanos.",
+          "En las llanuras grandes llamadas las Pampas.",
+          "Nunca reciben hormonas artificiales o químicos peligrosos.",
+          "Porque comen solamente hierba natural y fresca.",
+          "El asado tradicional.",
+          "Importan esta carne mágica y natural de Uruguay."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Ubicada estratégicamente en el Cono Sur, la República Oriental del Uruguay custodia uno de los secretos gastronómicos más codiciados del planeta. A pesar de su reducida extensión territorial, esta nación es aclamada universalmente por producir y exportar una de las carnes vacunas más exquisitas, tiernas y saludables del mundo entero. De hecho, el país ostenta una peculiaridad demográfica verdaderamente fascinante: su población bovina supera con creces a la humana, registrando aproximadamente cuatro vacas por cada habitante, lo que domina el paisaje de sus interminables praderas.\n\nDesde la época colonial, los legendarios gauchos han pastoreado enormes rebaños a través de las vastas y fértiles llanuras pampeanas. A diferencia de las prácticas industriales implementadas en otras naciones, la ganadería uruguaya se fundamenta en un modelo estrictamente natural y sostenible. Las vacas pastan en absoluta libertad durante toda su vida, alimentándose exclusivamente de pasturas frescas, sin recibir jamás hormonas de crecimiento ni antibióticos artificiales. Este riguroso cuidado garantiza un producto final de una calidad suprema y un sabor inigualable.\n\nDada esta abundancia excepcional, el tradicional asado trasciende la mera gastronomía para erigirse como el pilar fundamental de la identidad y la socialización uruguaya. Invariablemente, las familias y amigos se congregan cada fin de semana en torno a las brasas ardientes, compartiendo largas horas de amena camaradería mientras la carne se asa lentamente.\n\nHoy en día, las parrillas más prestigiosas de Europa, Asia y Norteamérica importan con orgullo esta carne premium. Degustar este manjar es saborear la historia viva de los campos uruguayos, demostrando que el respeto inquebrantable por el medio ambiente y las tradiciones rurales puede engendrar un tesoro culinario de talla mundial.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Por qué producto de exportación es aclamada universalmente la República Oriental del Uruguay?",
+          "¿Qué peculiaridad demográfica verdaderamente fascinante ostenta este país sudamericano?",
+          "¿En qué modelo específico se fundamenta la ganadería uruguaya a diferencia de las prácticas industriales?",
+          "¿De qué se alimentan exclusivamente las vacas que pastan en absoluta libertad durante toda su vida?",
+          "¿Qué garantiza este riguroso cuidado al no administrar jamás hormonas de crecimiento ni antibióticos?",
+          "¿En qué se erige el tradicional asado dada la abundancia excepcional de esta nación?",
+          "¿Qué importan con orgullo las parrillas más prestigiosas de Europa, Asia y Norteamérica?"
+        ],
+        "answerKey": [
+          "Por producir y exportar una de las carnes vacunas más exquisitas, tiernas y saludables del mundo.",
+          "Su población bovina supera con creces a la humana (cuatro vacas por cada habitante).",
+          "En un modelo estrictamente natural y sostenible.",
+          "Exclusivamente de pasturas frescas.",
+          "Garantiza un producto final de una calidad suprema y un sabor inigualable.",
+          "En el pilar fundamental de la identidad y la socialización uruguaya.",
+          "Importan esta carne premium uruguaya."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "El Jamón Ibérico",
+    "imageFileName": "jamon_iberico.png",
+    "bundles": ["cultura_y_gastronomia", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Spain is deeply famous for its incredible art, massive historical buildings, and beautiful sunny beaches. However, it is also home to one of the most delicious, expensive, and highly respected foods in the entire world: 'jamón ibérico' (Iberian ham). This dark, rich, and intensely flavorful cured meat is an absolute masterpiece of global culinary arts. It is completely different from normal ham that you buy at a regular grocery store, and it is a massive point of cultural pride for the Spanish people.\n\nThe magical secret behind this incredible food comes from a very specific and rare animal. True Iberian ham is only made from special black pigs that live in the beautiful, ancient oak forests of southern and western Spain. These happy, free-roaming pigs eat a completely natural diet, but their absolute favorite food is the 'bellota' (acorn). Eating thousands of sweet acorns gives the dark meat its completely unique, rich, and slightly nutty flavor.\n\nCreating this delicious masterpiece takes a massive amount of patience and incredibly hard work. After the meat is carefully prepared with natural sea salt, it is hung in special, dark rooms to dry and cure. This slow, magical process can take anywhere from three to five long years to completely finish!\n\nWhen the 'jamón' is finally ready, a highly trained expert slices it into incredibly thin, beautiful pieces. It literally melts in your mouth! Today, eating a plate of real Iberian ham with close friends and a glass of Spanish wine is an unforgettable experience. It perfectly captures the patient, passionate, and deeply joyful spirit of traditional Spanish culture.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What is one of the most delicious, expensive, and highly respected foods from Spain called?",
+          "How is this dark, rich cured meat different from the meat you buy at a regular grocery store?",
+          "What specific and rare animal is true Iberian ham exclusively made from?",
+          "Where do these happy, free-roaming pigs live in the country of Spain?",
+          "What absolute favorite food gives the dark meat its completely unique and slightly nutty flavor?",
+          "How long does the slow, magical process of drying and curing the meat take to completely finish?",
+          "What happens when you eat the incredibly thin, beautiful pieces sliced by a highly trained expert?"
+        ],
+        "answerKey": [
+          "It is called 'jamón ibérico' (Iberian ham).",
+          "It is an absolute masterpiece of global culinary arts and completely different from normal ham.",
+          "Special black pigs.",
+          "In the beautiful, ancient oak forests of southern and western Spain.",
+          "The 'bellota' (acorn).",
+          "It can take anywhere from three to five long years.",
+          "It literally melts in your mouth."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "España es muy famosa por su arte increíble, edificios históricos masivos y hermosas playas soleadas. Sin embargo, también es el hogar de una de las comidas más deliciosas, caras y muy respetadas en todo el mundo: el jamón ibérico. Esta carne curada oscura, rica y con un sabor intenso es una obra maestra absoluta del arte culinario global. Es completamente diferente al jamón normal que tú compras en un supermercado regular, y es un punto masivo de orgullo cultural para los españoles.\n\nEl secreto mágico detrás de esta comida increíble viene de un animal muy específico y raro. El verdadero jamón ibérico se hace solamente de cerdos negros especiales que viven en los hermosos y antiguos bosques de robles del sur y oeste de España. Estos cerdos felices y libres comen una dieta completamente natural, pero su comida favorita absoluta es la bellota. Comer miles de bellotas dulces le da a la carne oscura su sabor completamente único, rico y un poco a nuez.\n\nCrear esta obra maestra deliciosa requiere una cantidad masiva de paciencia y un trabajo increíblemente duro. Después de que la carne se prepara cuidadosamente con sal marina natural, se cuelga en cuartos oscuros y especiales para secar y curar. ¡Este proceso lento y mágico puede tomar entre tres y cinco años largos para terminar completamente!\n\nCuando el jamón finalmente está listo, un experto muy entrenado lo corta en pedazos increíblemente finos y hermosos. ¡Literalmente se derrite en tu boca! Hoy, comer un plato de jamón ibérico real con amigos cercanos es una experiencia inolvidable. Captura perfectamente el espíritu paciente y alegre de la cultura española.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Por qué es el jamón ibérico una obra maestra absoluta del arte culinario global?",
+          "¿De qué animal específico y raro se hace el verdadero jamón ibérico?",
+          "¿En dónde viven estos animales especiales en el país de España?",
+          "¿Cuál es la comida favorita absoluta que le da a la carne su sabor único y un poco a nuez?",
+          "¿Con qué ingrediente natural se prepara cuidadosamente la carne antes de colgarla?",
+          "¿Cuánto tiempo largo y lento toma el proceso para secar y curar completamente la carne?",
+          "¿Qué hace el experto muy entrenado cuando el jamón finalmente está listo?"
+        ],
+        "answerKey": [
+          "Porque es una carne curada oscura, rica y con un sabor intenso, muy diferente al jamón normal.",
+          "De cerdos negros especiales.",
+          "En los hermosos y antiguos bosques de robles del sur y oeste de España.",
+          "La bellota.",
+          "Con sal marina natural.",
+          "Puede tomar entre tres y cinco años largos.",
+          "Lo corta en pedazos increíblemente finos y hermosos."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "España es mundialmente aclamada por su riqueza arquitectónica y sus vibrantes festividades, pero también alberga uno de los tesoros culinarios más exquisitos, codiciados y prestigiosos del planeta entero: el jamón ibérico. Esta suntuosa carne curada, caracterizada por su tonalidad rojo carmesí y su sabor intensamente umami, constituye la cumbre indiscutible de la gastronomía ibérica. Es un manjar radicalmente distinto a cualquier otro fiambre comercial, erigiéndose como un inquebrantable emblema de la identidad cultural y el refinamiento español.\n\nEl secreto fundamental de esta obra maestra radica en la genética de un animal verdaderamente excepcional. El auténtico jamón ibérico de bellota se elabora exclusivamente a partir de cerdos de raza negra que deambulan en absoluta libertad por las milenarias dehesas del sur y el oeste peninsular. Durante la temporada de montanera, estos porcinos se alimentan casi exclusivamente de bellotas caídas de encinas y alcornoques. Esta dieta hipercalórica y estrictamente natural es la responsable directa de infiltrar la carne con esa grasa oleosa que le otorga su inconfundible y sutil sabor a frutos secos.\n\nEl minucioso proceso de curación exige una paciencia verdaderamente monumental. Tras ser sepultada en sal marina pura, la pieza se traslada a bodegas naturales, donde experimenta un letargo de secado que puede prolongarse asombrosamente entre tres y cinco años.\n\nAl concluir este paciente ritual, un maestro cortador filetea la pieza con precisión quirúrgica, obteniendo lonchas translúcidas que, literalmente, se deshacen en el paladar al contacto con el calor corporal. Degustar este manjar acompañado de vino tinto y buena compañía es una experiencia sensorial inolvidable que encapsula maravillosamente la pasión, la dedicación y el alma inconfundible de la cultura tradicional española.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Por qué características visuales y gustativas constituye esta carne curada la cumbre de la gastronomía ibérica?",
+          "¿A partir de qué raza animal verdaderamente excepcional se elabora el auténtico jamón ibérico?",
+          "¿Por dónde deambulan en absoluta libertad estos animales durante su vida?",
+          "¿Qué dieta hipercalórica es la responsable directa de infiltrar la carne con esa grasa oleosa?",
+          "¿En dónde experimenta la pieza un letargo de secado que exige una paciencia verdaderamente monumental?",
+          "¿Cuánto tiempo asombroso puede prolongarse este minucioso proceso de curación?",
+          "¿Cómo obtiene el maestro cortador las lonchas translúcidas que se deshacen en el paladar?"
+        ],
+        "answerKey": [
+          "Por su tonalidad rojo carmesí y su sabor intensamente umami.",
+          "De cerdos de raza negra.",
+          "Por las milenarias dehesas del sur y el oeste peninsular.",
+          "Una dieta compuesta casi exclusivamente de bellotas caídas de encinas y alcornoques.",
+          "En bodegas naturales.",
+          "Puede prolongarse asombrosamente entre tres y cinco años.",
+          "Fileteando la pieza con precisión quirúrgica."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "La Quinua",
+    "imageFileName": "la_quinua.png",
+    "bundles": ["cultura_y_gastronomia", "historia_y_lideres", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "High in the cold, rocky Andes mountains of South America grows a tiny, ancient seed that is completely changing the modern world. This magical plant is called 'quinua' (quinoa). Long before European explorers arrived, the powerful Inca Empire grew massive amounts of this special crop. Because it gave the brave indigenous warriors so much physical energy and strength, the ancient Incas deeply respected it and proudly called it the \"mother of all grains.\"\n\nFor hundreds of years, the rest of the world completely ignored this incredible South American food. However, recently, brilliant scientists and health experts discovered its unbelievable, magical superpower. Quinoa is actually one of the absolute healthiest foods on the entire planet! It is packed with massive amounts of high-quality protein, important vitamins, and healthy fiber. Unlike wheat or pasta, it does not contain any gluten, making it a perfect, safe food for millions of people with severe allergies.\n\nWhat makes this tough little plant even more amazing is how it grows. Quinoa can easily survive in freezing weather, extreme droughts, and very poor, rocky soil where normal crops would quickly die. Because it is so incredibly strong and nutritious, the massive space agency NASA even feeds it to their brave astronauts floating in outer space!\n\nToday, this ancient indigenous crop is famous in expensive restaurants and normal grocery stores all over the globe. You can eat it in fresh salads, warm soups, or healthy breakfast bowls. Quinoa perfectly represents the deep, brilliant agricultural wisdom of the ancient Andean people, proving that sometimes the absolute best modern medicine is actually an incredibly ancient, natural food.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where does the tiny, ancient seed called 'quinua' (quinoa) grow?",
+          "What powerful empire grew massive amounts of this special crop long ago?",
+          "Why did the ancient Incas deeply respect it and proudly call it the \"mother of all grains\"?",
+          "What three healthy things is this unbelievable, magical superpower food packed with?",
+          "Why is quinoa a perfect, safe food for millions of people with severe allergies?",
+          "What extreme weather and soil conditions can this tough little plant easily survive in?",
+          "What massive space agency feeds quinoa to their brave astronauts floating in outer space?"
+        ],
+        "answerKey": [
+          "High in the cold, rocky Andes mountains of South America.",
+          "The powerful Inca Empire.",
+          "Because it gave the brave indigenous warriors so much physical energy and strength.",
+          "Massive amounts of high-quality protein, important vitamins, and healthy fiber.",
+          "Because unlike wheat or pasta, it does not contain any gluten.",
+          "Freezing weather, extreme droughts, and very poor, rocky soil.",
+          "NASA."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Alto en las montañas frías y rocosas de los Andes en Sudamérica crece una semilla pequeña y antigua que está cambiando completamente el mundo moderno. Esta planta mágica se llama quinua. Mucho antes de que llegaran los exploradores europeos, el poderoso Imperio Inca cultivaba cantidades masivas de este cultivo especial. Porque les daba mucha energía física y fuerza a los valientes guerreros indígenas, los antiguos incas la respetaban profundamente y la llamaban con orgullo la \"madre de todos los granos\".\n\nPor cientos de años, el resto del mundo ignoró completamente esta comida sudamericana increíble. Sin embargo, recientemente, científicos brillantes y expertos en salud descubrieron su superpoder mágico e increíble. ¡La quinua es realmente una de las comidas más saludables de todo el planeta! Está llena de cantidades masivas de proteína de alta calidad, vitaminas importantes y fibra saludable. A diferencia del trigo o la pasta, no contiene nada de gluten, haciéndola una comida perfecta y segura para millones de personas con alergias graves.\n\nLo que hace a esta pequeña planta aún más asombrosa es cómo crece. La quinua puede sobrevivir fácilmente en el clima helado, en sequías extremas y en tierra muy pobre y rocosa donde los cultivos normales morirían rápidamente. ¡Porque es tan increíblemente fuerte y nutritiva, la agencia espacial masiva de la NASA incluso se la da de comer a sus valientes astronautas que flotan en el espacio exterior!\n\nHoy en día, este antiguo cultivo indígena es famoso en restaurantes caros y supermercados normales en todo el mundo. La quinua representa perfectamente la sabiduría agrícola profunda de los antiguos pueblos andinos, demostrando el poder de la comida natural.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿En dónde crece la semilla pequeña y antigua que está cambiando el mundo moderno?",
+          "¿Qué imperio poderoso cultivaba cantidades masivas de este cultivo mucho antes de los europeos?",
+          "¿Por qué llamaban los antiguos incas a esta planta mágica la \"madre de todos los granos\"?",
+          "¿De qué tres cosas saludables está llena la quinua para beneficiar el cuerpo?",
+          "¿Por qué es la quinua una comida perfecta y segura para las personas con alergias graves?",
+          "¿En qué tipo de clima extremo y tierra puede sobrevivir fácilmente esta pequeña planta asombrosa?",
+          "¿A quiénes les da de comer la NASA este antiguo cultivo indígena increíblemente nutritivo?"
+        ],
+        "answerKey": [
+          "Alto en las montañas frías y rocosas de los Andes en Sudamérica.",
+          "El poderoso Imperio Inca.",
+          "Porque les daba mucha energía física y fuerza a los valientes guerreros indígenas.",
+          "Proteína de alta calidad, vitaminas importantes y fibra saludable.",
+          "Porque no contiene nada de gluten.",
+          "En el clima helado, en sequías extremas y en tierra muy pobre y rocosa.",
+          "A sus valientes astronautas que flotan en el espacio exterior."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Enclavada en las escarpadas y gélidas cumbres de la imponente cordillera de los Andes, florece una semilla milenaria que está revolucionando drásticamente la nutrición a nivel mundial. Esta planta prodigiosa, conocida como la quinua, fue el pilar fundamental de la dieta precolombina. Siglos antes de la conquista española, el vasto Imperio Inca cultivaba extensas parcelas de este rubro. Al comprobar que proporcionaba una vitalidad y resistencia sobrehumanas a sus feroces guerreros, los incas la veneraron con un fervor casi religioso, bautizándola poéticamente como la \"madre de todos los granos\".\n\nDurante siglos, el mundo occidental ignoró y menospreció este tesoro botánico sudamericano. Sin embargo, en décadas recientes, la comunidad científica internacional descubrió asombrada sus incomparables propiedades nutricionales. La quinua es, indiscutiblemente, uno de los superalimentos más completos y benéficos del globo terráqueo. Posee un equilibrio proteico absolutamente perfecto, albergando todos los aminoácidos esenciales, además de cuantiosas vitaminas y fibra dietética. Al carecer totalmente de gluten, se ha convertido en un salvavidas culinario indispensable para los celíacos.\n\nEl aspecto más fascinante de este cultivo radica en su asombrosa resiliencia agronómica. La planta es capaz de germinar y prosperar estoicamente soportando sequías extremas, heladas nocturnas y suelos áridos donde el trigo o el maíz perecerían irremediablemente. Su perfil nutricional es tan sumamente excepcional que incluso la NASA la ha incorporado como un componente estelar en la dieta de los astronautas durante sus prolongadas misiones espaciales.\n\nHoy en día, este modesto grano andino adorna las mesas de los restaurantes más exclusivos del planeta. La quinua ejemplifica magistralmente cómo la incalculable sabiduría agrícola de los pueblos originarios sudamericanos continúa nutriendo y salvando a la humanidad moderna.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué vasto imperio cultivaba extensas parcelas de esta planta prodigiosa siglos antes de la conquista?",
+          "¿Por qué veneraron los incas a la quinua bautizándola poéticamente como la \"madre de todos los granos\"?",
+          "¿Qué equilibrio nutricional absolutamente perfecto posee este tesoro botánico sudamericano?",
+          "¿Por qué característica específica se ha convertido en un salvavidas culinario indispensable para los celíacos?",
+          "¿Qué condiciones climáticas y geográficas extremas es capaz de soportar la planta para germinar y prosperar?",
+          "¿Qué agencia espacial ha incorporado la quinua como un componente estelar en la dieta de sus astronautas?",
+          "¿Qué ejemplifica magistralmente el éxito global actual de este modesto grano andino?"
+        ],
+        "answerKey": [
+          "El vasto Imperio Inca.",
+          "Porque proporcionaba una vitalidad y resistencia sobrehumanas a sus feroces guerreros.",
+          "Un equilibrio proteico absolutamente perfecto (albergando todos los aminoácidos esenciales).",
+          "Al carecer totalmente de gluten.",
+          "Sequías extremas, heladas nocturnas y suelos áridos.",
+          "La NASA.",
+          "Cómo la incalculable sabiduría agrícola de los pueblos originarios sudamericanos continúa nutriendo a la humanidad."
+        ]
+      }
+    }
   }
     ]
