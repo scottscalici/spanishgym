@@ -22951,5 +22951,81 @@
         ]
       }
     }
+  },
+  {
+  "topicName": "Los Baños Árabes",
+  "imageFileName": "banos_arabes.png",
+  "bundles": ["spain_history", "andalucia_culture", "vip_lifetime"],
+  "levels": {
+    "level_1": {
+      "tier": "Level 1 (English/Beginner)",
+      "readingText": "During the era of Al-Andalus, the Baños Árabes or hammams were essential parts of daily life in Spain. These structures were not just for cleaning the body; they were important social centers where people met to discuss politics and business. When you enter a traditional hammam, you notice a specific architectural style with horseshoe arches and beautiful tiles called azulejos. The experience usually follows a sequence of three different rooms with varying temperatures to relax the body and mind. First, you enter the 'sala fría' or cold room to refresh yourself. Then, you move to the 'sala templada' or warm room, which is often the largest area where people spend most of their time chatting. Finally, there is the 'sala caliente' or hot room, filled with steam to help clean the skin. One of the most famous examples is located in the Alhambra of Granada. The ceilings often have small star-shaped windows called 'lucernas' that let in soft light and allow steam to escape. This creates a magical atmosphere that feels like traveling back in history. Water is a sacred element in Islamic culture, representing purity and life, which is why these buildings are so decorative and calm. Today, many tourists visit these ancient sites in cities like Cordoba and Seville to enjoy the thermal baths and learn about the Moorish influence on Spanish architecture. It is a wonderful way to experience the peaceful legacy of a civilization that valued beauty, hygiene, and community. Visiting a traditional hammam is truly an unforgettable experience for anyone exploring the rich history of the Iberian Peninsula.",
+      "instruction": "Answer the following questions according to the text.",
+      "questions": [
+        "What was the main purpose of the Baños Árabes besides hygiene?",
+        "What are the three types of rooms found in a traditional hammam?",
+        "Which room is typically the largest where people spend the most time?",
+        "What is the name of the star-shaped windows in the ceilings?",
+        "In which famous palace complex can you find a great example of these baths?",
+        "What does water represent in Islamic culture according to the text?",
+        "In which Spanish cities can tourists still visit these ancient sites today?"
+      ],
+      "answerKey": [
+        "They were social centers for discussing politics and business.",
+        "The cold room, warm room, and hot room.",
+        "The 'sala templada' or warm room.",
+        "They are called 'lucernas'.",
+        "The Alhambra of Granada.",
+        "It represents purity and life.",
+        "In cities like Cordoba, Seville, and Granada."
+      ]
+    },
+    "level_2": {
+      "tier": "Level 2 (Structured Spanish/Spanish II)",
+      "readingText": "Los baños árabes, conocidos como hammams, son una parte muy importante de la historia de España. Durante la época de Al-Andalus, estos lugares eran centros de reunión para la comunidad. Para los árabes, la higiene era una obligación religiosa y social. Por eso, casi todos los barrios tenían sus propios baños públicos. El diseño de estos edificios es muy especial y bonito. Los techos tienen pequeñas ventanas en forma de estrella para dejar pasar la luz del sol. El interior de un baño árabe tiene tres salas principales. Primero, los visitantes entran en la sala fría para preparar el cuerpo. Después, pasan a la sala templada. Esta es la habitación más grande del hammam. Aquí, las personas pueden descansar, recibir masajes y hablar con sus amigos sobre las noticias del día. Por último, está la sala caliente. Esta sala tiene mucho vapor y calor para limpiar la piel profundamente. El agua es el elemento más importante de la experiencia. Siempre hay fuentes y sonidos relajantes en el edificio. Los baños árabes más famosos de España están en Granada y Córdoba. Hoy en día, muchos edificios antiguos son museos, pero otros funcionan como baños modernos para los turistas. Visitar un hammam es como hacer un viaje al pasado. Es una oportunidad perfecta para aprender sobre la arquitectura antigua y disfrutar de un momento de paz. La influencia de la cultura árabe todavía es visible en muchas tradiciones españolas actuales. Si vas a Andalucía, tienes que visitar un baño árabe para comprender mejor la cultura histórica de esta región tan especial.",
+      "instruction": "Contesta las preguntas según el texto.",
+      "questions": [
+        "¿Qué nombre reciben también los baños árabes?",
+        "¿Por qué era importante la higiene para los árabes?",
+        "¿Qué forma tienen las ventanas de los techos?",
+        "¿Cuál es la sala más grande del hammam?",
+        "¿Qué actividades hacían las personas en la sala templada?",
+        "¿Cuál es el elemento más importante de la experiencia del baño?",
+        "¿En qué ciudades españolas se encuentran los baños más famosos?"
+      ],
+      "answerKey": [
+        "Se conocen como hammams.",
+        "Era una obligación religiosa y social.",
+        "Tienen forma de estrella.",
+        "La sala templada.",
+        "Descansar, recibir masajes y hablar con amigos.",
+        "El agua.",
+        "En Granada y Córdoba."
+      ]
+    },
+    "level_3": {
+      "tier": "Level 3 (Natural Spanish/Advanced)",
+      "readingText": "La herencia andalusí en la Península Ibérica se manifiesta con un esplendor inigualable a través de los baños árabes o hammams. Estas instituciones no representaban meramente un espacio destinado al aseo personal, sino que constituían el epicentro de la vida social y espiritual de la comunidad. Siguiendo los preceptos del Corán, que vincula estrechamente la purificación física con la espiritual, el hammam se erigió como un elemento urbanístico indispensable en cualquier ciudad islámica de relevancia. Arquitectónicamente, estos recintos destacan por su ingeniosa gestión de la luz y la temperatura. El recorrido ritual se inicia en la 'apodyterium' o vestuario, para luego transitar por tres estancias clave: la sala fría, la templada y la caliente. La sala templada suele ser el espacio más fastuoso, decorado con columnas esbeltas y arcos de herradura que sostienen bóvedas horadadas por lucernas estrelladas. Estos pequeños tragaluces no solo tamizan la luz exterior creando una atmósfera mística, sino que también actúan como reguladores térmicos. El uso del vapor en la sala caliente permitía una exfoliación profunda, mientras que el murmullo constante del agua en las fuentes circundantes invitaba a la introspección. Ejemplos monumentales como el Bañuelo en Granada o los Baños Califales de Córdoba testimonian la sofisticación técnica de la época, empleando sistemas de hipocausto para calentar el suelo. En la actualidad, la revitalización de estos espacios permite a los visitantes contemporáneos sumergirse en una tradición milenaria que celebra el bienestar. El legado de los baños árabes trasciende lo material, recordándonos una época donde la arquitectura se diseñaba para armonizar el cuerpo, el espíritu y la convivencia ciudadana en un entorno de absoluta belleza estética.",
+      "instruction": "Contesta las preguntas según el texto.",
+      "questions": [
+        "¿Qué vínculo establece el Corán respecto a la higiene según el autor?",
+        "¿Qué importancia urbanística tenían los hammams en las ciudades islámicas?",
+        "¿Qué funciones técnicas cumplen las lucernas estrelladas en las bóvedas?",
+        "¿Cuál es el orden del recorrido ritual por las salas del baño?",
+        "¿Qué sistema se utilizaba antiguamente para calentar el suelo de los baños?",
+        "Menciona dos ejemplos específicos de baños históricos citados en el texto.",
+        "¿Cuál es el objetivo final de la arquitectura de los baños árabes según el cierre del texto?"
+      ],
+      "answerKey": [
+        "Vincula estrechamente la purificación física con la espiritual.",
+        "Eran elementos indispensables y centros del epicentro social y espiritual.",
+        "Tamizan la luz para crear una atmósfera mística y actúan como reguladores térmicos.",
+        "Inicia en el vestuario, seguido por la sala fría, la templada y finalmente la caliente.",
+        "Se empleaba el sistema de hipocausto.",
+        "El Bañuelo en Granada y los Baños Califales de Córdoba.",
+        "Armonizar el cuerpo, el espíritu y la convivencia ciudadana en un entorno estético."
+      ]
+    }
   }
+}
     ]
