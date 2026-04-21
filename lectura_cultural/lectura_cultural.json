@@ -23027,5 +23027,461 @@
       ]
     }
   }
+},
+{
+"topicName": "Bolivia: El Corazón de Sudamérica",
+"imageFileName": "bolivia_overview.png",
+"bundles": ["south_america", "geography", "vip_lifetime"],
+"levels": {
+"level_1": {
+"tier": "Level 1 (English/Beginner)",
+"readingText": "Located in the center of South America, Bolivia is a fascinating country often called the 'heart' of the continent. It is one of the few landlocked countries in the region, meaning it has no direct access to the sea. Bolivia is famous for its incredible diversity, featuring the high Altiplano mountains and the humid Amazon rainforest. The country has two capitals: Sucre, which is the constitutional capital, and La Paz, where the government actually sits. La Paz is the highest administrative capital in the world, surrounded by snow-capped mountains. One of the most famous tourist destinations is the Salar de Uyuni, the largest salt flat on Earth, which looks like a giant mirror after it rains. Bolivia is also a pluricultural nation, recognizing over thirty indigenous languages, though Spanish is the most common. The culture is a vibrant mix of Spanish colonial influence and ancient Andean traditions. You can see this in the colorful markets where people sell unique fruits, handmade textiles, and traditional medicines. The food is delicious and hearty, with dishes like salteñas being a local favorite for breakfast. Despite facing many economic challenges, the Bolivian people are known for their resilience and deep connection to the Earth, often referred to as Pachamama. Exploring Bolivia offers a journey through breathtaking landscapes, from the cold peaks of the Andes to the tropical heat of the lowlands. It is a place where history feels alive in every corner, making it a must-visit destination for anyone interested in authentic South American culture and geography.",
+"instruction": "Answer the following questions according to the text.",
+"questions": [
+"Why is Bolivia often called the 'heart' of South America?",
+"What does it mean that Bolivia is a landlocked country?",
+"What are the two capitals of Bolivia mentioned in the text?",
+"What is unique about the Salar de Uyuni after it rains?",
+"How many indigenous languages does Bolivia approximately recognize?",
+"What is the name of the local breakfast favorite mentioned?",
+"Who or what is Pachamama in Bolivian culture?"
+],
+"answerKey": [
+"Because it is located in the center of the continent.",
+"It means it has no direct access to the sea.",
+"Sucre and La Paz.",
+"It looks like a giant mirror.",
+"Over thirty indigenous languages.",
+"Salteñas.",
+"It refers to the Earth (Mother Earth)."
+]
+},
+"level_2": {
+"tier": "Level 2 (Structured Spanish/Spanish II)",
+"readingText": "Bolivia es un país lleno de sorpresas y contrastes en el centro de América del Sur. Es un país que no tiene salida al mar, pero tiene paisajes naturales impresionantes. La geografía de Bolivia es muy variada. En el oeste, están las montañas altas de los Andes y el Altiplano. En el este, hay selvas tropicales y llanuras calientes. Bolivia tiene dos ciudades principales muy importantes: Sucre es la capital histórica y La Paz es la sede del gobierno. La Paz es una ciudad muy alta y tiene un sistema de teleféricos muy moderno para transportar a las personas. Uno de los lugares más bonitos es el Salar de Uyuni. Es un desierto de sal blanco y enorme que parece otro planeta. La población de Bolivia es muy diversa porque hay muchos grupos indígenas diferentes. Por esta razón, el país se llama oficialmente Estado Plurinacional de Bolivia. La gente respeta mucho a la naturaleza y a la 'Pachamama', que significa Madre Tierra. En los mercados, puedes ver a mujeres con ropa tradicional muy colorida vendiendo productos locales. La comida boliviana es muy rica; a los bolivianos les encanta comer sopa y carne con papas. También es el hogar del Lago Titicaca, el lago navegable más alto del mundo, que comparte con el país vecino, Perú. Bolivia es un destino perfecto para los viajeros que aman la aventura y quieren conocer una cultura auténtica y antigua. Cada región tiene sus propias danzas, música y festivales que celebran la historia y la identidad del pueblo boliviano.",
+"instruction": "Contesta las preguntas según el texto.",
+"questions": [
+"¿En qué parte de América del Sur está Bolivia?",
+"¿Qué tipo de paisajes hay en el oeste del país?",
+"¿Cuál es la función de la ciudad de La Paz?",
+"¿Cómo se llama el desierto de sal más grande del mundo?",
+"¿Qué significa el nombre 'Pachamama'?",
+"¿Cómo se llama el lago más alto del mundo que está en Bolivia?",
+"¿Qué usan los bolivianos en La Paz para transportarse por la ciudad?"
+],
+"answerKey": [
+"Está en el centro de América del Sur.",
+"Están las montañas de los Andes y el Altiplano.",
+"Es la sede del gobierno.",
+"El Salar de Uyuni.",
+"Significa Madre Tierra.",
+"El Lago Titicaca.",
+"Un sistema de teleféricos."
+]
+},
+"level_3": {
+"tier": "Level 3 (Natural Spanish/Advanced)",
+"readingText": "El Estado Plurinacional de Bolivia se erige como un bastión de resistencia cultural y diversidad geográfica en el corazón del continente sudamericano. Esta nación, marcada por una historia de superación y una geografía indómita, ofrece un mosaico de experiencias que van desde las cumbres gélidas de la Cordillera Real hasta la exuberancia biodiversa de la cuenca amazónica. La dualidad de su capitalidad, con Sucre manteniendo el estatus constitucional y La Paz fungiendo como centro político administrativo, refleja la complejidad de su estructura social. La Paz, en particular, desafía la gravedad asentada en una cuenca profunda, donde el sistema de Mi Teleférico se ha convertido en un emblema de modernidad y eficiencia urbana. Sin embargo, el verdadero misticismo boliviano reside en su cosmovisión andina. El concepto de la Pachamama no es una mera abstracción, sino un eje rector que dicta la relación de respeto y reciprocidad entre el ser humano y el entorno natural. Este vínculo es palpable en festividades donde el sincretismo religioso fusiona deidades ancestrales con la fe católica. Económicamente, Bolivia posee reservas estratégicas de litio y gas natural, elementos clave para su desarrollo futuro. No obstante, es el capital humano y su identidad plurinacional lo que define su esencia; con 36 lenguas oficiales reconocidas, Bolivia celebra la convivencia de naciones originarias como los quechuas y aimaras. Desde la inmensidad blanca del Salar de Uyuni hasta las misiones jesuíticas de la Chiquitania, Bolivia invita a una introspección profunda sobre la identidad latinoamericana, presentándose como un país donde la tradición no es un recuerdo, sino un presente vibrante y lleno de orgullo.",
+"instruction": "Contesta las preguntas según el texto.",
+"questions": [
+"¿Cómo se describe la estructura de la capitalidad en Bolivia?",
+"¿Qué sistema de transporte se ha convertido en un emblema de modernidad en La Paz?",
+"¿Qué importancia tiene la 'Pachamama' en la vida cotidiana boliviana?",
+"¿Cuántas lenguas oficiales reconoce la constitución boliviana?",
+"¿Qué recursos naturales estratégicos posee el país para su desarrollo futuro?",
+"¿Qué dos grupos étnicos principales se mencionan como parte de la identidad plurinacional?",
+"¿Qué representa el sincretismo mencionado en las festividades del país?"
+],
+"answerKey": [
+"Es una dualidad: Sucre es la capital constitucional y La Paz es el centro político administrativo.",
+"El sistema de Mi Teleférico.",
+"Es un eje rector que dicta el respeto y la reciprocidad con la naturaleza.",
+"Reconoce 36 lenguas oficiales.",
+"Posee reservas estratégicas de litio y gas natural.",
+"Los quechuas y los aimaras.",
+"La fusión de deidades ancestrales con la fe católica."
+]
+}
+}
+},
+{
+"topicName": "Tiahuanaco: El Imperio Ancestral",
+"imageFileName": "tiahuanaco.png",
+"bundles": ["ancient_civilizations", "bolivia_history", "vip_lifetime"],
+"levels": {
+"level_1": {
+"tier": "Level 1 (English/Beginner)",
+"readingText": "Deep in the Bolivian Altiplano, near Lake Titicaca, lies the mysterious archaeological site of Tiahuanaco, also known as Tiwanaku. This was once the spiritual and political center of a powerful pre-Inca civilization that lasted for centuries. Long before the Inca Empire became famous, the people of Tiwanaku built incredible structures using massive stones that fit together perfectly. One of the most iconic monuments is the Puerta del Sol, or Gateway of the Sun. It is carved from a single giant block of stone and features a central figure holding two staffs, believed to be a creator god. Another impressive site is the Akapana pyramid, which was used for religious ceremonies. The engineers of Tiwanaku were very advanced for their time; they created drainage systems and used bronze tools to shape the rocks. They also developed a unique agricultural system called 'sukakollu' or raised fields, which protected crops from the freezing mountain nights. Today, Tiahuanaco is a UNESCO World Heritage site and a source of great pride for the Bolivian people. Many indigenous groups still gather there during the winter solstice in June to celebrate the Willkakuti, or the Andean New Year, as the first rays of sun pass through the stone temples. Although the civilization eventually declined due to climate change and drought, their architectural and artistic influence can still be seen throughout the Andes. Visiting Tiahuanaco is like walking through a puzzle of the past, where every carved stone tells a story of a culture that mastered the harsh mountain environment with intelligence and faith.",
+"instruction": "Answer the following questions according to the text.",
+"questions": [
+"Where is the Tiahuanaco archaeological site located?",
+"Was Tiahuanaco built before or after the Inca Empire?",
+"What is the name of the most iconic monument carved from a single stone?",
+"What was the Akapana pyramid used for?",
+"What was the 'sukakollu' agricultural system used for?",
+"When do indigenous groups gather at the site for the Andean New Year?",
+"Why did the Tiwanaku civilization eventually decline?"
+],
+"answerKey": [
+"In the Bolivian Altiplano, near Lake Titicaca.",
+"It was built long before the Inca Empire.",
+"The Puerta del Sol (Gateway of the Sun).",
+"It was used for religious ceremonies.",
+"To protect crops from freezing mountain nights.",
+"During the winter solstice in June.",
+"Due to climate change and drought."
+]
+},
+"level_2": {
+"tier": "Level 2 (Structured Spanish/Spanish II)",
+"readingText": "Tiahuanaco es uno de los lugares arqueológicos más importantes de toda Sudamérica. Se encuentra en Bolivia, muy cerca del famoso Lago Titicaca. Esta ciudad antigua fue la capital de una civilización muy poderosa antes de los Incas. Los habitantes de Tiahuanaco eran expertos constructores y arquitectos. Usaron piedras gigantes para construir templos y monumentos que todavía podemos ver hoy. El monumento más famoso es la Puerta del Sol. En esta puerta de piedra, hay un grabado de un dios antiguo que tiene dos bastones en sus manos. Otro lugar interesante es el Templete Semisubterráneo, donde hay muchas cabezas de piedra esculpidas en las paredes. La tecnología de Tiahuanaco era muy avanzada. Ellos sabían cómo mover piedras que pesaban muchas toneladas sin usar caballos o ruedas. También crearon un sistema de agricultura muy inteligente para cultivar comida en el clima frío de las montañas. Este sistema ayudaba a que las plantas no murieran con el hielo de la noche. Lamentablemente, la civilización desapareció después de una sequía muy larga, pero sus ideas influyeron mucho en los Incas. Cada año, miles de personas visitan las ruinas para celebrar el Año Nuevo Andino el 21 de junio. Es un momento especial cuando el sol sale y toca las piedras antiguas del templo de Kalasasaya. Tiahuanaco es un símbolo de la fuerza y la inteligencia de los pueblos originarios de Bolivia. Es un lugar lleno de misterio y belleza que todos los estudiantes de español deben conocer para entender la historia de los Andes.",
+"instruction": "Contesta las preguntas según el texto.",
+"questions": [
+"¿Cerca de qué lago se encuentra Tiahuanaco?",
+"¿Quiénes eran los habitantes de Tiahuanaco antes que los Incas?",
+"¿Cómo se llama el monumento de piedra más famoso del sitio?",
+"¿Qué hay en las paredes del Templete Semisubterráneo?",
+"¿Por qué es impresionante la tecnología de construcción de este pueblo?",
+"¿Por qué desapareció la civilización de Tiahuanaco?",
+"¿Qué evento importante ocurre en las ruinas el 21 de junio?"
+],
+"answerKey": [
+"Se encuentra cerca del Lago Titicaca.",
+"Eran expertos constructores y una civilización poderosa pre-inca.",
+"La Puerta del Sol.",
+"Hay muchas cabezas de piedra esculpidas.",
+"Porque movían piedras pesadísimas sin caballos ni ruedas.",
+"Desapareció después de una sequía muy larga.",
+"Se celebra el Año Nuevo Andino."
+]
+},
+"level_3": {
+"tier": "Level 3 (Natural Spanish/Advanced)",
+"readingText": "La ciudadela de Tiahuanaco representa el apogeo cultural y técnico de una de las civilizaciones más longevas de la región andina. Ubicada a casi 4.000 metros de altitud, esta metrópolis preincaica se consolidó como un centro ceremonial y cosmopolita de gran influencia. Su arquitectura se caracteriza por un manejo magistral de la lítica, donde bloques de andesita y arenisca fueron ensamblados con una precisión milimétrica mediante el uso de grapas de cobre, una innovación técnica excepcional para la época. La Puerta del Sol es, sin duda, la pieza cumbre de este complejo; su friso central exhibe al 'Dios de los Báculos', una deidad que se repite en diversas culturas panandinas y que simboliza el orden cósmico. Otro elemento fascinante es el sistema de camellones o 'sukakollus', una técnica agrícola que permitía la termorregulación de los cultivos, mitigando los efectos de las heladas nocturnas y garantizando la seguridad alimentaria de una población numerosa. Pese a su sofisticación, Tiahuanaco colapsó hacia el siglo XII, presumiblemente debido a cambios climáticos drásticos que alteraron el régimen de lluvias. No obstante, su legado espiritual permanece vivo. Cada solsticio de invierno, las ruinas de Kalasasaya reciben a comunidades indígenas y visitantes para el Willkakuti, reafirmando la vigencia de la identidad aimara y la conexión con sus ancestros. Hoy, Tiahuanaco no solo es un patrimonio de la humanidad, sino un recordatorio elocuente de la capacidad humana para florecer en entornos extremos y de la profundidad histórica que subyace en el territorio boliviano, mucho antes de la hegemonía del Imperio Inca.",
+"instruction": "Contesta las preguntas según el texto.",
+"questions": [
+"¿A qué altitud se encuentra aproximadamente la ciudadela de Tiahuanaco?",
+"¿Qué innovación técnica se utilizaba para ensamblar los bloques de piedra?",
+"¿Qué deidad se encuentra representada en el friso de la Puerta del Sol?",
+"¿Cuál era la función principal de los 'sukakollus' en la agricultura?",
+"¿En qué siglo se estima que colapsó la civilización de Tiahuanaco?",
+"¿Qué importancia tiene el templo de Kalasasaya durante el solsticio de invierno?",
+"¿Cómo influyó el clima en la desaparición de esta metrópolis?"
+],
+"answerKey": [
+"Se encuentra a casi 4.000 metros de altitud.",
+"Se utilizaban grapas de cobre para ensamblar los bloques.",
+"El 'Dios de los Báculos'.",
+"Permitían la termorregulación de los cultivos para evitar heladas.",
+"Hacia el siglo XII.",
+"Es el lugar donde se celebra el Willkakuti o Año Nuevo Andino.",
+"Cambios climáticos drásticos y la alteración de lluvias causaron su colapso."
+]
+}
+}
+},
+{
+"topicName": "La Chola Paceña: Icono de Identidad",
+"imageFileName": "chola_pacena.png",
+"bundles": ["bolivia_culture", "fashion_history", "vip_lifetime"],
+"levels": {
+"level_1": {
+"tier": "Level 1 (English/Beginner)",
+"readingText": "In the streets of La Paz, Bolivia, you will see women wearing very distinctive and elegant clothing. These women are known as 'Cholas Paceñas'. For many years, the word 'chola' was used in a negative way, but today it is a symbol of pride, strength, and cultural identity. The outfit of a Chola Paceña is very specific and expensive. It consists of four main parts. First, there is the 'pollera', which is a long, pleated skirt made of fine fabric with many layers underneath to give it volume. Second, they wear a silk shawl called a 'manta', often decorated with beautiful embroidery and long fringes. Third, and perhaps most famous, is the 'bombín' or bowler hat. Legend says that a shipment of hats from Europe arrived in Bolivia by mistake, and since they were too small for the men, the local women started wearing them! Finally, they wear exquisite gold or silver jewelry, including large earrings and a brooch to hold the shawl. The way a woman wears her hat can tell you her marital status: if it is tilted to the side, she might be single or a widow, and if it is straight, she is married. Today, Cholas Paceñas are influential in politics, business, and even sports like wrestling. They have transformed their traditional look into a high-fashion statement, appearing in international magazines. Being a Chola Paceña means carrying the history of Bolivia with dignity and elegance, showing the world that tradition can be both ancient and modern at the same time.",
+"instruction": "Answer the following questions according to the text.",
+"questions": [
+"In which city is the Chola Paceña a famous icon?",
+"What does the word 'chola' represent today according to the text?",
+"What is the 'pollera'?",
+"What is the name of the silk shawl they wear?",
+"How did the bowler hat (bombín) supposedly become part of their outfit?",
+"What does it mean if a woman's hat is tilted to the side?",
+"In what modern areas are Cholas Paceñas influential today?"
+],
+"answerKey": [
+"In the city of La Paz, Bolivia.",
+"A symbol of pride, strength, and cultural identity.",
+"A long, pleated skirt made of fine fabric.",
+"It is called a 'manta'.",
+"A shipment of small hats from Europe arrived by mistake.",
+"It means she might be single or a widow.",
+"In politics, business, sports, and fashion."
+]
+},
+"level_2": {
+"tier": "Level 2 (Structured Spanish/Spanish II)",
+"readingText": "La chola paceña es una de las figuras más representativas de la ciudad de La Paz y de toda Bolivia. Esta mujer es un símbolo de elegancia y de lucha social. Su vestimenta es única y tiene una historia muy interesante que mezcla la cultura indígena y la española. El traje de la chola tiene varios elementos importantes. La pieza principal es la pollera, una falda larga y ancha con muchos colores. Debajo de la pollera, usan varias faldas más sencillas para tener mucho volumen. Otra parte esencial es la manta de seda, que tiene flores bordadas y flecos muy largos. Pero el accesorio más curioso es el sombrero de tipo bombín. Casi todas las cholas usan este sombrero de color café o negro. También llevan joyas muy valiosas de oro y plata, especialmente en sus orejas y en su manta. Antiguamente, las cholas sufrían discriminación, pero ahora son mujeres muy respetadas y poderosas. Muchas de ellas son abogadas, empresarias y presentadoras de televisión. Incluso existen las 'cholitas luchadoras', que practican lucha libre profesional con su ropa tradicional. El traje de una chola paceña puede costar miles de dólares porque los materiales son de alta calidad. La forma de poner el sombrero también es un código secreto: si está recto, la mujer está casada, pero si está de lado, es soltera o viuda. Ver a las cholas caminar por las calles de La Paz es ver la fuerza de la identidad boliviana. Ellas llevan su cultura con mucho orgullo y elegancia todos los días del año.",
+"instruction": "Contesta las preguntas según el texto.",
+"questions": [
+"¿De qué ciudad es típica la chola paceña?",
+"¿Qué elementos culturales mezcla la vestimenta de la chola?",
+"¿Cómo se llama la falda ancha y colorida que usan?",
+"¿De qué material es la manta que llevan sobre los hombros?",
+"¿Qué accesorio curioso llevan en la cabeza?",
+"¿Qué profesiones tienen las cholas modernas hoy en día?",
+"¿Qué significa si una chola lleva el sombrero de lado?"
+],
+"answerKey": [
+"Es típica de la ciudad de La Paz.",
+"Mezcla la cultura indígena y la española.",
+"Se llama pollera.",
+"Es de seda.",
+"Un sombrero de tipo bombín.",
+"Son abogadas, empresarias y presentadoras de televisión.",
+"Significa que es soltera o viuda."
+]
+},
+"level_3": {
+"tier": "Level 3 (Natural Spanish/Advanced)",
+"readingText": "La chola paceña personifica la resistencia y el empoderamiento de la mujer indígena y mestiza en el contexto urbano de Bolivia. Lo que antaño fue un atuendo impuesto durante la colonia para marcar estratos sociales, se ha transformado en un emblema de distinción y estatus económico. La indumentaria de la chola es un compendio de artesanía fina: la pollera, confeccionada con metros de terciopelo o seda; la manta, cuyos macramés y bordados son obras de arte manual; y el icónico sombrero bombín de origen italiano o inglés. Este último se incorporó a la estética local en la década de 1920 y se ha mantenido inalterable como sello distintivo. La joyería, a menudo de oro de 18 quilates con incrustaciones de perlas o piedras preciosas, no solo complementa el atuendo, sino que funciona como una reserva de capital y prestigio. En las últimas décadas, la chola paceña ha ocupado espacios anteriormente vedados, desde las pasarelas de alta costura hasta los escaños del parlamento y el mundo académico. Este fenómeno de 'reivindicación de la pollera' ha erradicado gradualmente el estigma de la discriminación, posicionándolas como protagonistas del desarrollo nacional. Además, su presencia en el deporte, con las famosas 'cholitas luchadoras', ha captado la atención internacional, desafiando estereotipos de género y etnicidad. El rigor estético de su vestimenta, que puede alcanzar precios exorbitantes, refleja una economía próspera impulsada por mujeres comerciantes y emprendedoras. Así, la chola paceña no es solo una imagen pintoresca, sino el motor de una identidad dinámica que navega con maestría entre la tradición ancestral y las exigencias de la modernidad globalizada.",
+"instruction": "Contesta las preguntas según el texto.",
+"questions": [
+"¿Cómo ha evolucionado el significado del atuendo de la chola desde la colonia?",
+"¿Qué origen tienen los sombreros bombines que utilizan?",
+"¿Qué función económica cumplen las joyas de oro para la chola?",
+"¿A qué se refiere el texto con el fenómeno de 'reivindicación de la pollera'?",
+"¿En qué ámbitos profesionales han incursionado las cholas recientemente?",
+"¿Cómo han desafiado las 'cholitas luchadoras' los estereotipos sociales?",
+"¿Qué materiales se mencionan para la confección de la pollera?"
+],
+"answerKey": [
+"Pasó de ser un atuendo impuesto para marcar estratos a ser un emblema de distinción y estatus.",
+"Tienen origen italiano o inglés.",
+"Funcionan como una reserva de capital y prestigio.",
+"Al proceso de ocupar espacios públicos y erradicar el estigma de la discriminación.",
+"En la alta costura, el parlamento, el mundo académico y el deporte.",
+"Han desafiado estereotipos de género y etnicidad a través del deporte.",
+"Se mencionan el terciopelo y la seda."
+]
+}
+}
+},
+{
+"topicName": "Chila Jatun: Herederos del Folk",
+"imageFileName": "chila_jatun.png",
+"bundles": ["bolivia_music", "modern_culture", "vip_lifetime"],
+"levels": {
+"level_1": {
+"tier": "Level 1 (English/Beginner)",
+"readingText": "Chila Jatun is one of the most famous and talented music groups in Bolivia today. The name of the band comes from the Quechua language, where 'Chila' means small and 'Jatun' means big, representing the connection between youth and greatness. This group is very special because the members are the sons and nephews of the legendary band Los Kjarkas, who are icons of Andean music. However, Chila Jatun has created its own unique style by mixing traditional folk instruments with modern rhythms. They use instruments like the 'zampoña' (panpipes), 'charango' (a small guitar-like instrument), and 'quena' (flute) to create beautiful melodies that celebrate Bolivian identity. Their songs often talk about love, nature, and the beauty of their homeland. The group became very famous internationally after participating in the Viña del Mar festival in Chile, where they won the hearts of the audience with their energy and talent. Although they respect their family heritage, they want to show that traditional music can be cool and attractive for young people. You can find their music videos on YouTube, which often feature stunning landscapes of the Bolivian mountains and traditional dancers. Chila Jatun represents the new generation of Bolivian artists who are proud of their roots but also ready to innovate. For anyone learning Spanish, listening to their music is a great way to practice vocabulary and discover the magical sounds of the Andes mountains. Their success shows that folk music is very alive and continues to evolve with every new generation of musicians in South America.",
+"instruction": "Answer the following questions according to the text.",
+"questions": [
+"What does the name 'Chila Jatun' mean in Quechua?",
+"Which legendary musical group are they related to?",
+"What traditional instruments do they use in their music?",
+"What are some common themes in their songs?",
+"In which famous international festival did they participate?",
+"What is the goal of Chila Jatun regarding traditional music and young people?",
+"Where can you see their music videos featuring Bolivian landscapes?"
+],
+"answerKey": [
+"It means 'small big' (small-great).",
+"They are related to the group Los Kjarkas.",
+"They use the zampoña, charango, and quena.",
+"Themes like love, nature, and their homeland.",
+"The Viña del Mar festival in Chile.",
+"They want to show that traditional music can be attractive for young people.",
+"On YouTube."
+]
+},
+"level_2": {
+"tier": "Level 2 (Structured Spanish/Spanish II)",
+"readingText": "Chila Jatun es un grupo musical de Bolivia que representa el futuro de la música andina. El nombre del grupo es una combinación de palabras en quechua: 'Chila' significa pequeño y 'Jatun' significa grande. Los integrantes de este grupo son jóvenes, pero tienen mucha experiencia porque son los hijos de los músicos de Los Kjarkas, el grupo más famoso de Bolivia. Chila Jatun toca música folclórica con un toque moderno. Usan instrumentos tradicionales como el charango, la quena y la zampoña, pero también usan sonidos actuales para atraer a las nuevas generaciones. Sus canciones son muy románticas y celebran la cultura de los Andes. Una de sus canciones más conocidas es 'Boquita de Miel'. En el año 2014, el grupo participó en el Festival de Viña del Mar en Chile. Aunque no ganaron el primer lugar, ganaron el respeto de todo el mundo y se hicieron muy populares en otros países de Latinoamérica. Chila Jatun viaja mucho por el mundo para mostrar la belleza de Bolivia. En sus conciertos, la gente baila ritmos tradicionales como el caporal y el tinku. Ellos creen que es muy importante mantener vivas las tradiciones de sus padres y abuelos, pero con su propia personalidad. Escuchar a Chila Jatun es una excelente forma de aprender sobre la cultura boliviana porque sus letras son claras y su música es muy alegre. Son un ejemplo de orgullo cultural para todos los jóvenes bolivianos que aman sus raíces y quieren compartirlas con el resto del mundo a través del arte.",
+"instruction": "Contesta las preguntas según el texto.",
+"questions": [
+"¿Qué significa el nombre del grupo en idioma quechua?",
+"¿Quiénes son los padres de los integrantes de Chila Jatun?",
+"¿Qué instrumentos tradicionales usan en sus canciones?",
+"¿Cuál es el título de una de sus canciones más famosas?",
+"¿Qué festival internacional ayudó a su popularidad en 2014?",
+"¿Qué ritmos tradicionales se pueden ver en sus conciertos?",
+"¿Cuál es el objetivo principal del grupo según el texto?"
+],
+"answerKey": [
+"Significa 'pequeño grande'.",
+"Son los músicos del grupo Los Kjarkas.",
+"Usan el charango, la quena y la zampoña.",
+"Se menciona 'Boquita de Miel'.",
+"El Festival de Viña del Mar en Chile.",
+"Ritmos como el caporal y el tinku.",
+"Mantener vivas las tradiciones con su propia personalidad."
+]
+},
+"level_3": {
+"tier": "Level 3 (Natural Spanish/Advanced)",
+"readingText": "Chila Jatun surge en el panorama musical boliviano no solo como una prolongación del legado de Los Kjarkas, sino como una propuesta innovadora que revitaliza el folclore andino. Provenientes de la prolífica familia Hermosa, estos músicos han logrado desmarcarse de la sombra de sus progenitores para consolidar una identidad propia bajo el nombre quechua que evoca la dualidad de lo 'pequeño y grande'. Su sonido es una amalgama perfecta entre la pureza de los vientos andinos y arreglos contemporáneos que apelan a una audiencia global. La maestría con la que ejecutan el charango y las zampoñas demuestra un respeto profundo por la técnica ancestral, mientras que sus composiciones exploran matices líricos que refrescan la canción social y romántica de Bolivia. Su participación en la competencia folclórica del Festival de Viña del Mar marcó un hito en su carrera, proyectándolos como embajadores culturales de una Bolivia joven y orgullosa. Chila Jatun ha sabido capitalizar la era digital, utilizando plataformas visuales para exhibir la majestuosidad de los paisajes cochabambinos y potosinos en sus videoclips, integrando danzas tradicionales con estéticas modernas. La agrupación defiende la tesis de que el folclore no es una pieza de museo, sino un organismo vivo que debe evolucionar para sobrevivir en el mercado musical actual. Con giras internacionales que abarcan desde Europa hasta Norteamérica, Chila Jatun demuestra que la música de raíz boliviana posee una vigencia universal, capaz de conmover a públicos diversos mediante la fuerza de su herencia y la frescura de su juventud creativa.",
+"instruction": "Contesta las preguntas según el texto.",
+"questions": [
+"¿Qué dualidad evoca el nombre del grupo en quechua?",
+"¿De qué famosa familia de músicos bolivianos provienen los integrantes?",
+"¿Cómo describe el texto la relación entre el sonido del grupo y los arreglos contemporáneos?",
+"¿Qué importancia tuvo el Festival de Viña del Mar para la carrera de la banda?",
+"¿Cuál es la postura del grupo respecto a la evolución del folclore?",
+"¿Qué elementos visuales suelen destacar en sus videoclips?",
+"¿Qué géneros líricos exploran en sus composiciones?"
+],
+"answerKey": [
+"Evoca la dualidad de lo 'pequeño y grande'.",
+"Provienen de la familia Hermosa.",
+"Es una amalgama perfecta entre vientos andinos y arreglos modernos.",
+"Fue un hito que los proyectó como embajadores culturales internacionales.",
+"Defienden que el folclore es un organismo vivo que debe evolucionar.",
+"La majestuosidad de paisajes bolivianos y danzas tradicionales.",
+"Exploran la canción social y romántica."
+]
+}
+}
+},
+{
+"topicName": "Carnaval de Oruro: Danza y Devoción",
+"imageFileName": "carnaval_oruro.png",
+"bundles": ["bolivia_culture", "festivals", "vip_lifetime"],
+"levels": {
+"level_1": {
+"tier": "Level 1 (English/Beginner)",
+"readingText": "The Carnaval de Oruro is one of the most spectacular festivals in the world, taking place in the mining city of Oruro, Bolivia. It is so unique that UNESCO declared it a 'Masterpiece of the Oral and Intangible Heritage of Humanity'. This celebration is a fascinating blend of indigenous Andean traditions and Catholic religious beliefs. The festival is held in honor of the Virgen del Socavón, the patron saint of miners. Every year, thousands of dancers and musicians perform in a massive parade that lasts for many hours. The most famous dance is the 'Diablada' or Dance of the Devils. Dancers wear incredible masks with large eyes and horns, representing the struggle between good and evil. Other popular dances include the 'Morenada', which has heavy, shiny costumes, and the 'Caporales', known for its energetic jumps and bells. The parade ends at the Sanctuary of the Tunnel, where dancers enter on their knees to show respect to the Virgin. Besides the dancing, people celebrate with water balloons, foam, and delicious traditional food. The streets are filled with colors, music, and a lot of energy. It is not just a party; it is a profound expression of faith and history. People prepare for months, sewing their own costumes and practicing their steps. Visiting Oruro during carnival is an unforgettable experience where you can see the heart of Bolivian culture. It is a time when the whole country celebrates its roots and the magical legends of the mountains, creating a bridge between the past and the present.",
+"instruction": "Answer the following questions according to the text.",
+"questions": [
+"In which Bolivian city does this famous carnival take place?",
+"What special title did UNESCO give to the Carnaval de Oruro?",
+"Who is the patron saint honored during the festival?",
+"What is the name of the 'Dance of the Devils'?",
+"What do the masks in the Diablada represent?",
+"Where does the parade end?",
+"How do dancers show their respect when entering the sanctuary?"
+],
+"answerKey": [
+"In the city of Oruro.",
+"Masterpiece of the Oral and Intangible Heritage of Humanity.",
+"The Virgen del Socavón.",
+"The Diablada.",
+"The struggle between good and evil.",
+"At the Sanctuary of the Tunnel (Santuario del Socavón).",
+"They enter on their knees."
+]
+},
+"level_2": {
+"tier": "Level 2 (Structured Spanish/Spanish II)",
+"readingText": "El Carnaval de Oruro es la fiesta más grande y colorida de Bolivia. Cada año, miles de turistas de todo el mundo viajan a la ciudad de Oruro para ver este evento increíble. El carnaval no es solo una fiesta, es una mezcla de religión y tradiciones antiguas de los Andes. Los participantes bailan para agradecer a la Virgen del Socavón. El desfile es muy largo y los bailarines recorren muchos kilómetros por las calles. La danza más importante es la Diablada. En esta danza, los bailarines usan máscaras de diablos muy grandes y coloridas. Estas máscaras representan la lucha entre el bien y el mal. Otra danza muy popular es la Morenada. Los hombres usan trajes muy pesados que brillan mucho bajo el sol. Las mujeres también bailan con polleras hermosas y sombreros elegantes. Al final del desfile, todos los bailarines llegan a la iglesia para ver a la Virgen. Muchos bailarines entran de rodillas porque tienen mucha fe. Durante el carnaval, las personas también juegan con agua y espuma en las calles. La música de las bandas de bronce es muy fuerte y alegre. Es un momento de mucha unión para los bolivianos. Los artesanos trabajan todo el año para hacer las máscaras y los trajes a mano. El Carnaval de Oruro es un tesoro de la humanidad y muestra la identidad y el orgullo de Bolivia. Si te gusta la música, el baile y la cultura, tienes que visitar Oruro en febrero para vivir esta experiencia única en la vida.",
+"instruction": "Contesta las preguntas según el texto.",
+"questions": [
+"¿Por qué es famoso el Carnaval de Oruro?",
+"¿A quién dedican los bailarines su danza?",
+"¿Cómo se llama la danza donde usan máscaras de diablos?",
+"¿Qué representan las máscaras de la Diablada?",
+"¿Qué característica especial tienen los trajes de la Morenada?",
+"¿Qué hacen los bailarines al llegar a la iglesia?",
+"¿Con qué elementos juega la gente en las calles durante el carnaval?"
+],
+"answerKey": [
+"Porque es la fiesta más grande y colorida de Bolivia.",
+"A la Virgen del Socavón.",
+"La Diablada.",
+"La lucha entre el bien y el mal.",
+"Son trajes muy pesados y brillantes.",
+"Muchos entran de rodillas por fe.",
+"Juegan con agua y espuma."
+]
+},
+"level_3": {
+"tier": "Level 3 (Natural Spanish/Advanced)",
+"readingText": "El Carnaval de Oruro trasciende la noción convencional de festividad para convertirse en un fenómeno sociológico y espiritual de magnitud global. Reconocido por la UNESCO como Obra Maestra del Patrimonio Oral e Intangible de la Humanidad, este evento amalgama el misticismo andino con la liturgia católica en un sincretismo fascinante. La peregrinación hacia el Santuario del Socavón es el eje central, donde más de 50 conjuntos folclóricos despliegan una narrativa coreográfica que relata la historia de la región. La Diablada es, indiscutiblemente, la danza emblemática; sus máscaras antropomorfas y trajes fastuosos simbolizan la rebelión del Tío de la mina y el triunfo del Arcángel Miguel. No obstante, la Morenada también goza de gran prestigio, evocando el sufrimiento de los esclavos durante la colonia mediante pasos lentos y trajes que pueden pesar hasta 30 kilos. La complejidad logística y artística es abrumadora: miles de músicos integran las bandas de bronce que marcan el pulso de la ciudad durante días ininterrumpidos. Para el orureño, el carnaval es un compromiso sagrado que requiere meses de ensayo y una inversión económica considerable en indumentaria artesanal. La entrada no es un simple desfile, sino un acto de devoción donde el cansancio físico se transmuta en fervor espiritual al postrarse frente a la imagen de la Virgen. Esta celebración es un testamento vivo de la resiliencia cultural de Bolivia, un espacio donde la identidad indígena se reafirma y se proyecta hacia el futuro con una vitalidad estética que cautiva a propios y extraños por igual.",
+"instruction": "Contesta las preguntas según el texto.",
+"questions": [
+"¿Qué reconocimiento internacional posee el Carnaval de Oruro?",
+"¿Cuál es el significado simbólico de la danza de la Diablada?",
+"¿Qué evento histórico evoca la danza de la Morenada?",
+"¿Cuánto pueden llegar a pesar los trajes de la Morenada según el texto?",
+"¿Cómo se describe la participación de las bandas de bronce?",
+"¿Qué importancia tiene la inversión económica para los participantes?",
+"¿Cuál es el propósito final de la 'entrada' para los bailarines?"
+],
+"answerKey": [
+"Es Obra Maestra del Patrimonio Oral e Intangible de la Humanidad por la UNESCO.",
+"Simboliza la rebelión del Tío de la mina y el triunfo del Arcángel Miguel.",
+"Evoca el sufrimiento de los esclavos durante la colonia.",
+"Pueden pesar hasta 30 kilos.",
+"Miles de músicos marcan el pulso de la ciudad de forma ininterrumpida.",
+"Es un compromiso sagrado que requiere una inversión considerable en indumentaria.",
+"Es un acto de devoción espiritual para postrarse ante la Virgen."
+]
+}
+}
+},
+{
+"topicName": "El Aimara: Lengua de los Andes",
+"imageFileName": "lengua_aimara.png",
+"bundles": ["languages", "bolivia_culture", "vip_lifetime"],
+"levels": {
+"level_1": {
+"tier": "Level 1 (English/Beginner)",
+"readingText": "Aymara, or aimará, is one of the oldest and most important indigenous languages in South America. It is spoken by over two million people, mainly in the high Altiplano regions of Bolivia, Peru, and Chile. In Bolivia, it is an official language and a vital part of the national identity. What makes Aymara very special is how its speakers perceive time. In most languages, we think of the future as being in front of us. However, for Aymara speakers, the past is in front because it is something they have already seen and known, while the future is behind because it is unknown! The language is also known for its incredible precision. It has many different ways to describe concepts related to nature and human relationships. Many Aymara words have influenced Bolivian Spanish; for example, the word 'wawa' is commonly used to mean 'baby'. Today, there are schools that teach in both Spanish and Aymara to ensure the language does not disappear. There are also radio stations, newspapers, and even television programs in Aymara. Learning about this language helps us understand the deep connection between the Andean people and their environment. It is a language of resistance and pride that has survived for thousands of years despite many challenges. When you hear Aymara spoken in the markets of La Paz or near Lake Titicaca, you are listening to the living history of the Andes. It is a beautiful reminder of the linguistic diversity that makes our world so rich and interesting for everyone to explore.",
+"instruction": "Answer the following questions according to the text.",
+"questions": [
+"In which countries is Aymara mainly spoken?",
+"How many people approximately speak the Aymara language?",
+"What is unique about how Aymara speakers perceive the past and the future?",
+"What does the word 'wawa' mean in the local Spanish influenced by Aymara?",
+"What is being done today to ensure the language does not disappear?",
+"Where can you commonly hear Aymara spoken according to the text?",
+"What kind of connection does the language help us understand?"
+],
+"answerKey": [
+"Mainly in Bolivia, Peru, and Chile.",
+"Over two million people.",
+"The past is in front (known) and the future is behind (unknown).",
+"It means 'baby'.",
+"Schools teach in both languages and there are Aymara media outlets.",
+"In the markets of La Paz or near Lake Titicaca.",
+"The connection between Andean people and their environment."
+]
+},
+"level_2": {
+"tier": "Level 2 (Structured Spanish/Spanish II)",
+"readingText": "El aimará es una lengua indígena muy antigua que se habla en las montañas de los Andes. Más de dos millones de personas usan esta lengua en Bolivia, Perú y el norte de Chile. En Bolivia, el aimará es una lengua oficial junto con el español y el quechua. Esta lengua es muy interesante por su gramática y su forma de ver el mundo. Por ejemplo, para los aimaras, el pasado está adelante porque ya lo conocemos con nuestros ojos. El futuro está atrás porque no podemos verlo todavía. Esta es una idea muy diferente a la cultura occidental. El aimará es una lengua muy rica y lógica. Tiene palabras muy específicas para describir la naturaleza, las montañas y el clima frío del Altiplano. Muchas palabras del aimará se usan hoy en el español de Bolivia. Una palabra muy común es 'wawa', que significa bebé o niño pequeño. También usan la palabra 'achachila' para referirse a los espíritus de las montañas. Actualmente, el gobierno de Bolivia ayuda a proteger esta lengua. Hay programas de radio, canales de televisión y escuelas bilingües donde los niños aprenden aimará y español. Es muy importante que los jóvenes sigan hablando la lengua de sus abuelos para no perder su identidad. El aimará no es solo un idioma, es una forma de pensar y de sentir la tierra. Escuchar a una persona hablar aimará es como escuchar el sonido de las montañas antiguas. Es una lengua de orgullo y de mucha fuerza que representa la historia viva de los pueblos originarios de Sudamérica.",
+"instruction": "Contesta las preguntas según el texto.",
+"questions": [
+"¿En qué regiones se habla principalmente el aimará?",
+"¿Qué estatus tiene el aimará en Bolivia?",
+"¿Por qué el pasado está 'adelante' para los hablantes de aimará?",
+"¿Qué significa la palabra 'wawa'?",
+"¿Cómo se llaman los espíritus de las montañas en aimará?",
+"¿Qué medios de comunicación existen en lengua aimará?",
+"¿Por qué es importante que los jóvenes hablen esta lengua?"
+],
+"answerKey": [
+"En las montañas de los Andes (Bolivia, Perú y Chile).",
+"Es una lengua oficial.",
+"Porque ya lo conocemos con nuestros ojos.",
+"Significa bebé o niño pequeño.",
+"Se llaman 'achachilas'.",
+"Programas de radio y canales de televisión.",
+"Para no perder su identidad y la lengua de sus ancestros."
+]
+},
+"level_3": {
+"tier": "Level 3 (Natural Spanish/Advanced)",
+"readingText": "La lengua aimará constituye uno de los pilares fundamentales de la identidad cultural en la región andina, extendiéndose por la vasta meseta del Altiplano. Con una estructura lingüística aglutinante y altamente compleja, el aimará desafía las convenciones cognitivas occidentales a través de su particular concepción del tiempo. En la cosmología aimara, el pasado (nayra) se sitúa frente al hablante, pues los hechos ya acontecidos son visibles ante el 'ojo de la mente', mientras que el futuro (qhipa) se ubica a la espalda, por ser una entidad desconocida e invisible. Este fenómeno, estudiado profundamente por lingüistas y antropólogos, revela una filosofía de vida basada en la evidencia y la experiencia directa. Además de su profundidad conceptual, el aimará posee un sufijo de cortesía y niveles de validación que indican si el hablante presenció el hecho o si solo lo conoce por referencia, lo que otorga una precisión comunicativa extraordinaria. A pesar de los siglos de marginación, la lengua ha experimentado una revitalización sin precedentes en el Estado Plurinacional de Bolivia, impulsada por políticas de educación intercultural bilingüe y la creación de la Universidad Indígena Boliviana. El léxico aimara ha permeado el habla cotidiana del español andino, aportando términos que describen desde vínculos familiares hasta conceptos espirituales como la 'Pachamama' o la reciprocidad del 'ayni'. La supervivencia del aimará es un testimonio de la resiliencia de los pueblos originarios y de la riqueza de un patrimonio inmaterial que continúa moldeando la realidad social, política y cultural de la Bolivia contemporánea.",
+"instruction": "Contesta las preguntas según el texto.",
+"questions": [
+"¿Qué característica técnica define la estructura lingüística del aimará?",
+"¿Cómo explica el texto la ubicación del pasado en la mente del hablante aimara?",
+"¿Qué función cumplen los 'niveles de validación' en este idioma?",
+"¿Qué instituciones han impulsado la revitalización de la lengua en Bolivia?",
+"¿Qué concepto espiritual mencionado describe la reciprocidad andina?",
+"¿Cómo se denomina al futuro en la lengua aimará según el texto?",
+"¿Qué revela la particular concepción del tiempo en el aimará según los estudiosos?"
+],
+"answerKey": [
+"Es una estructura lingüística aglutinante y altamente compleja.",
+"El pasado está frente al hablante porque los hechos ya acontecidos son visibles ante el ojo de la mente.",
+"Indican si el hablante presenció el hecho directamente o si lo conoce por referencia.",
+"La educación intercultural bilingüe y la Universidad Indígena Boliviana.",
+"El concepto de 'ayni'.",
+"Se denomina 'qhipa'.",
+"Revela una filosofía de vida basada en la evidencia y la experiencia directa."
+]
+}
+}
 }
     ]
