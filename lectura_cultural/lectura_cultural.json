@@ -27815,5 +27815,81 @@
         ]
       }
     }
+  },
+  {
+    "topicName": "Nezahualcóyotl: El Rey Poeta",
+    "imageFileName": "nezahualcoyotl.png",
+    "bundles": ["mexican_history", "literature", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Nezahualcóyotl is one of the most fascinating figures in ancient Mexican history. Born in the year 1402, he was the famous \"Rey Poeta\" or Poet King of the city-state of Texcoco. His name in the Nahuatl language translates to \"Fasting Coyote,\" representing his strength and spiritual dedication. Nezahualcóyotl was not just a powerful ruler and a brave warrior; he was also a brilliant architect, a wise philosopher, and a talented poet. After his father was killed by enemies, he had to flee and hide in the mountains. Eventually, he formed a powerful alliance, reclaimed his throne, and helped create the famous Aztec Triple Alliance. As a leader, he transformed Texcoco into a center of learning, art, and culture. He built beautiful botanical gardens, large libraries, and impressive aqueducts to bring fresh water to the people of his kingdom. However, he is best remembered today for his beautiful poetry. He wrote deep, emotional poems about the beauty of nature, the meaning of life, and the sadness of death. He believed that life on earth was short and that poetry and art were the only things that could last forever. Today, Mexicans remember his incredible legacy with great pride. In fact, you can see his face and read one of his most famous poems on the Mexican 100-peso bill! For students learning Spanish and Mexican history, Nezahualcóyotl is a perfect example of the intelligence and artistic spirit of the indigenous peoples before the Spanish arrived. His words continue to inspire people to appreciate the fleeting beauty of our world.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What does the name Nezahualcóyotl translate to in English?",
+          "What title is Nezahualcóyotl famous for?",
+          "What happened to him after his father was killed by enemies?",
+          "What are two things he built to improve his city of Texcoco?",
+          "What did he write his deep and emotional poems about?",
+          "What did he believe was the only thing that could last forever?",
+          "Where can you easily find his face and a poem in Mexico today?"
+        ],
+        "answerKey": [
+          "It translates to \"Fasting Coyote.\"",
+          "He is famous for being the \"Rey Poeta\" or Poet King.",
+          "He had to flee and hide in the mountains.",
+          "He built botanical gardens, libraries, and aqueducts.",
+          "The beauty of nature, the meaning of life, and the sadness of death.",
+          "He believed poetry and art were the only things that could last forever.",
+          "On the Mexican 100-peso bill."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Nezahualcóyotl es una de las personas más fascinantes de la historia antigua de México. Él nació en el año 1402 y fue el líder de la ciudad de Texcoco. Su nombre en la lengua náhuatl significa 'Coyote que ayuna'. Nezahualcóyotl es muy famoso porque no solo fue un rey poderoso y un guerrero valiente, sino también un arquitecto inteligente y un gran poeta. Por esta razón, la gente lo conoce como el 'Rey Poeta'. La vida de Nezahualcóyotl fue muy difícil cuando era joven. Sus enemigos mataron a su padre, y él tuvo que escapar a las montañas para sobrevivir. Después de muchos años, él formó un gran ejército, recuperó su ciudad y ayudó a crear la famosa Triple Alianza de los aztecas. Como líder, él transformó Texcoco en una ciudad llena de arte y educación. Él construyó bibliotecas enormes, jardines botánicos hermosos y acueductos para llevar agua limpia a todas las personas de su ciudad. A pesar de ser un gran guerrero, hoy lo recordamos más por sus poemas. Él escribió versos muy tristes y hermosos sobre la naturaleza, las flores y la vida humana. Él creía que la vida en la tierra era muy corta y que solo el arte y la poesía podían vivir para siempre. En México moderno, Nezahualcóyotl es un símbolo de enorme orgullo nacional. Si tienes un billete de cien pesos mexicanos, puedes ver su cara y leer uno de sus poemas más famosos. Estudiar su vida nos ayuda a comprender la inteligencia increíble de las culturas indígenas antes de la conquista española.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué significa el nombre Nezahualcóyotl en lengua náhuatl?",
+          "¿Con qué título o nombre especial se conoce a este líder?",
+          "¿Por qué la vida de Nezahualcóyotl fue muy difícil cuando era joven?",
+          "¿Qué cosas importantes construyó él en su ciudad de Texcoco?",
+          "¿Sobre qué temas principales escribió sus poemas hermosos?",
+          "¿Qué creía él que podía vivir para siempre?",
+          "¿En qué objeto moderno de México podemos ver su cara hoy en día?"
+        ],
+        "answerKey": [
+          "Significa 'Coyote que ayuna'.",
+          "Se le conoce como el 'Rey Poeta'.",
+          "Porque sus enemigos mataron a su padre y él tuvo que escapar.",
+          "Construyó bibliotecas, jardines botánicos y acueductos.",
+          "Sobre la naturaleza, las flores y la vida humana.",
+          "Creía que solo el arte y la poesía podían vivir para siempre.",
+          "En el billete de cien pesos mexicanos."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Nezahualcóyotl, cuyo nombre en náhuatl se traduce poéticamente como 'Coyote que ayuna', es indiscutiblemente una de las figuras más formidables de la época prehispánica en Mesoamérica. Nacido en 1402, este célebre 'Rey Poeta' gobernó la próspera ciudad-estado de Texcoco, convirtiéndola en el principal epicentro cultural e intelectual del Valle de México. Su ascenso al poder estuvo marcado por la tragedia; tras presenciar el asesinato de su padre a manos del tirano Tezozómoc, se vio forzado a vivir como un fugitivo en las montañas. Con el tiempo, su astucia diplomática le permitió forjar alianzas estratégicas, recuperar su trono y consolidar la Triple Alianza, el imperio más poderoso de la región. Más allá de su destreza militar, Nezahualcóyotl brilló como un urbanista y filósofo visionario. Impulsó la construcción de complejos acueductos, palacios suntuosos, vastas bibliotecas y jardines botánicos que albergaban flora y fauna de todos los rincones de su dominio. No obstante, su legado más imperecedero reside en su obra lírica. Sus poemas, impregnados de una profunda sensibilidad filosófica, reflexionan sobre la fugacidad de la existencia humana, la inevitabilidad de la muerte y la belleza efímera de la naturaleza. A través de sus metáforas, postulaba que solo 'flor y canto' —el arte y la poesía— podían trascender la mortalidad y dejar una huella eterna en la tierra. Hoy en día, su rostro engalana el billete de cien pesos mexicanos, acompañado de unos versos que celebran la riqueza del canto del cenzontle. Nezahualcóyotl sigue siendo un baluarte de la identidad nacional mexicana y un testimonio elocuente de la sofisticación humanística que floreció en las civilizaciones mesoamericanas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué título célebre ostentó Nezahualcóyotl y qué ciudad-estado gobernó?",
+          "¿Qué tragedia marcó su juventud y lo obligó a vivir como fugitivo?",
+          "¿Qué logros urbanísticos y arquitectónicos impulsó durante su reinado en Texcoco?",
+          "¿Qué alianza estratégica consolidó para formar el imperio más poderoso de la región?",
+          "¿Sobre qué temas existenciales reflexionan profundamente sus poemas?",
+          "¿Qué significado tiene el concepto de 'flor y canto' en su filosofía poética?",
+          "¿En qué elemento de la vida cotidiana actual de México se conmemora su legado?"
+        ],
+        "answerKey": [
+          "Ostentó el título de 'Rey Poeta' y gobernó la ciudad-estado de Texcoco.",
+          "Presenció el asesinato de su padre a manos del tirano Tezozómoc.",
+          "Impulsó la construcción de complejos acueductos, palacios, bibliotecas y jardines botánicos.",
+          "Consolidó la Triple Alianza.",
+          "Reflexionan sobre la fugacidad de la vida humana, la muerte y la belleza efímera de la naturaleza.",
+          "Postulaba que el arte y la poesía eran lo único que podía trascender la mortalidad.",
+          "Su rostro y sus versos engalanan el billete de cien pesos mexicanos."
+        ]
+      }
+    }
   }
     ]
