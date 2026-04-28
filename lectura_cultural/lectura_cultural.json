@@ -1,4 +1,688 @@
 [
+    {
+    "topicName": "México: El Gigante de Norteamérica",
+    "imageFileName": "mexico_overview.png",
+    "bundles": ["north_america", "geography", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Mexico is an incredible and vast country located in the southern part of North America. It is famous for its rich history, vibrant culture, and diverse landscapes. The country borders the United States to the north and Guatemala and Belize to the south. With beautiful beaches, dense jungles, and enormous deserts, Mexico offers something magical for every traveler. The capital, Mexico City, is one of the largest and most populated cities in the entire world, built right on top of the ancient Aztec capital, Tenochtitlán.\n\nThe history of Mexico is a fascinating mix of ancient indigenous civilizations and Spanish colonial influence. Long before the Spanish arrived, the Maya and the Aztecs built massive pyramids, advanced cities, and studied the stars. You can still visit these breathtaking archaeological sites today, such as Chichén Itzá and Teotihuacán. After the Spanish conquest, the culture blended perfectly, creating the unique Mexican identity we know today.\n\nFood is an essential part of Mexican culture, and it is so special that UNESCO declared it an Intangible Cultural Heritage of Humanity. Delicious dishes like tacos, mole, and tamales are loved globally. Mexicans are also famous for their deep connection to family and traditions. The Day of the Dead is a beautiful and colorful holiday where people honor their loved ones who have passed away. For students of Spanish, exploring Mexico is a wonderful adventure. It is a country full of life, welcoming people, and endless stories, proving that it truly is the cultural giant of North America.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is Mexico located?",
+          "What three countries border Mexico according to the text?",
+          "What ancient city is Mexico City built on top of?",
+          "Which two ancient indigenous civilizations are mentioned?",
+          "What are two examples of breathtaking archaeological sites you can visit?",
+          "What international organization recognized Mexican food as a Cultural Heritage?",
+          "What is the colorful holiday where people honor their loved ones who passed away?"
+        ],
+        "answerKey": [
+          "In the southern part of North America.",
+          "The United States, Guatemala, and Belize.",
+          "The ancient Aztec capital, Tenochtitlán.",
+          "The Maya and the Aztecs.",
+          "Chichén Itzá and Teotihuacán.",
+          "UNESCO.",
+          "The Day of the Dead."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "México es un país increíble y enorme situado en la parte sur de Norteamérica. Es muy famoso por su historia rica, su cultura vibrante y sus paisajes diferentes. El país tiene frontera con Estados Unidos en el norte y con Guatemala y Belice en el sur. Con playas hermosas, selvas densas y desiertos gigantes, México tiene lugares mágicos para todos los viajeros. La capital, la Ciudad de México, es una de las ciudades más grandes del mundo entero y está construida sobre Tenochtitlán, la antigua capital azteca.\n\nLa historia de México es una mezcla fascinante de civilizaciones indígenas y la influencia colonial de España. Mucho antes de que llegaran los españoles, los mayas y los aztecas construyeron pirámides enormes, ciudades avanzadas y estudiaron las estrellas. Hoy en día, todavía puedes visitar estos impresionantes sitios arqueológicos, como Chichén Itzá y Teotihuacán. Después de la conquista española, las culturas se mezclaron perfectamente, creando la identidad mexicana única que conocemos hoy.\n\nLa comida es una parte esencial de la cultura mexicana. Es tan especial que la UNESCO la declaró Patrimonio Cultural Inmaterial de la Humanidad. Platos deliciosos como los tacos, el mole y los tamales son muy populares a nivel mundial. Los mexicanos también son famosos por su fuerte conexión con la familia y sus tradiciones. El Día de Muertos es una celebración hermosa y llena de colores donde las personas recuerdan a sus seres queridos que han muerto. Para los estudiantes, explorar México es una aventura maravillosa en un país lleno de vida, alegría y personas muy amables.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde está situado el país de México?",
+          "¿Con qué tres países tiene frontera México?",
+          "¿Sobre qué capital antigua está construida la Ciudad de México?",
+          "¿Qué civilizaciones construyeron pirámides antes de los españoles?",
+          "¿Qué nombramiento especial le dio la UNESCO a la comida mexicana?",
+          "¿Cuáles son tres platos típicos y deliciosos de México?",
+          "¿Qué se recuerda durante la celebración del Día de Muertos?"
+        ],
+        "answerKey": [
+          "En la parte sur de Norteamérica.",
+          "Con Estados Unidos, Guatemala y Belice.",
+          "Sobre Tenochtitlán, la capital azteca.",
+          "Los mayas y los aztecas.",
+          "Patrimonio Cultural Inmaterial de la Humanidad.",
+          "Los tacos, el mole y los tamales.",
+          "Se recuerda a los seres queridos que han muerto."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "México se erige como una potencia cultural y geográfica indiscutible en la región meridional de Norteamérica. Este vasto país presenta una topografía excepcionalmente diversa, que abarca desde los áridos desiertos norteños hasta las selvas tropicales y las paradisíacas costas del Caribe y el Pacífico. Su capital, la Ciudad de México, es una megalópolis vibrante que late sobre los cimientos lacustres de la antigua Tenochtitlán. Esta superposición urbanística es un reflejo exacto de la identidad nacional: un sincretismo profundo entre la majestuosidad prehispánica y el legado arquitectónico colonial.\n\nLa historia de México está forjada por el esplendor de civilizaciones milenarias como la olmeca, la maya y la mexica, cuyas innovaciones astronómicas y proezas arquitectónicas siguen maravillando a la humanidad en yacimientos como Palenque o Teotihuacán. La llegada de los españoles en el siglo dieciséis desencadenó un dramático choque cultural que, con el paso de los siglos, gestó una sociedad mestiza rica y compleja. Hoy, el país exporta su inmensa riqueza artística a través de la literatura, el cine y la pintura, con figuras de renombre internacional.\n\nLa gastronomía mexicana, declarada Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO, es un mosaico de sabores que utiliza el maíz, el chile y el frijol como pilares sagrados. Paralelamente, festividades como el Día de Muertos ilustran la particular filosofía mexicana ante la vida y la muerte, celebrando la memoria con un colorido respeto. Para el estudioso del mundo hispano, México no es solo un destino; es una experiencia sensorial y académica inagotable que define gran parte del carácter, la historia y la vitalidad de la América contemporánea.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cómo describe el autor la topografía excepcionalmente diversa de México?",
+          "¿Qué representa la superposición urbanística de la capital mexicana?",
+          "¿Qué civilizaciones milenarias forjaron la historia prehispánica del país?",
+          "¿Qué resultado histórico a largo plazo tuvo la llegada de los españoles en el siglo XVI?",
+          "¿Cuáles son los tres pilares sagrados de la gastronomía mexicana mencionados?",
+          "¿Qué ilustra la festividad del Día de Muertos sobre la filosofía nacional?",
+          "¿A través de qué medios exporta México su riqueza artística contemporánea al mundo?"
+        ],
+        "answerKey": [
+          "Abarca desde desiertos norteños hasta selvas tropicales y costas del Caribe y el Pacífico.",
+          "Es un reflejo de la identidad nacional y un sincretismo entre lo prehispánico y lo colonial.",
+          "Las civilizaciones olmeca, maya y mexica.",
+          "Desencadenó un choque cultural que gestó una sociedad mestiza rica y compleja.",
+          "El maíz, el chile y el frijol.",
+          "Ilustra la particular filosofía mexicana ante la vida y la muerte.",
+          "A través de la literatura, el cine y la pintura."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "España: La Cuna del Idioma",
+    "imageFileName": "espana_overview.png",
+    "bundles": ["europe", "geography", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Spain is a beautiful and historic country located on the Iberian Peninsula in southwestern Europe. It is famous around the world for its diverse culture, stunning landscapes, and as the birthplace of the Spanish language. Spain is divided into seventeen different autonomous communities, and each region has its own unique traditions, food, and sometimes even its own language, like Catalan or Basque. The capital city, Madrid, is located right in the center of the country and is famous for its grand museums and lively streets.\n\nThe history of Spain is incredibly rich and complex. For many centuries, the peninsula was home to Romans, Visigoths, and Moors from North Africa. This long period of mixing cultures created some of the most beautiful architecture in the world. You can easily see this blend when you visit ancient monuments like the Alhambra palace in Granada or the impressive Mezquita in Cordoba. Later, Spain became a massive global empire that spread its language and culture across the Americas.\n\nToday, Spain is a modern, progressive country known for its relaxed and joyful lifestyle. Spaniards love to spend time outside, taking evening walks and eating small plates of food called 'tapas' with their friends and family. The country is also famous for traditional festivals, spectacular beaches, and a passion for sports, especially soccer. For students learning the language, studying Spain is absolutely essential. It provides a deep understanding of the historical roots of the Spanish language and offers a brilliant window into a vibrant, welcoming, and beautifully diverse European society.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is Spain located?",
+          "How many autonomous communities is Spain divided into?",
+          "What are two examples of regional languages spoken in Spain?",
+          "What groups of people lived on the peninsula for many centuries?",
+          "What are two famous ancient monuments mentioned in the text?",
+          "What are 'tapas' in Spanish culture?",
+          "Why is studying Spain essential for students learning the language?"
+        ],
+        "answerKey": [
+          "On the Iberian Peninsula in southwestern Europe.",
+          "Seventeen.",
+          "Catalan and Basque.",
+          "Romans, Visigoths, and Moors from North Africa.",
+          "The Alhambra palace and the Mezquita in Cordoba.",
+          "Small plates of food eaten with friends and family.",
+          "It provides a deep understanding of the historical roots of the Spanish language."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "España es un país hermoso e histórico situado en la Península Ibérica, en el suroeste de Europa. Es famoso en todo el mundo por su cultura diversa, sus paisajes espectaculares y por ser la cuna del idioma español. España está dividida en diecisiete comunidades autónomas diferentes. Cada región tiene sus propias tradiciones, su comida típica y a veces su propio idioma, como el catalán o el vasco. La capital, Madrid, está en el centro exacto del país y es muy conocida por sus grandes museos.\n\nLa historia de España es increíblemente rica y compleja. Durante muchos siglos, la península fue el hogar de romanos, visigodos y árabes del norte de África. Esta mezcla de culturas creó algunas de las obras de arquitectura más hermosas del mundo. Puedes ver esta influencia cuando visitas monumentos antiguos como el palacio de la Alhambra en Granada o la impresionante Mezquita en Córdoba. Después, España se convirtió en un gran imperio que llevó su idioma a América.\n\nHoy en día, España es un país moderno y progresista, muy conocido por su estilo de vida relajado y alegre. A los españoles les encanta pasar tiempo al aire libre, caminar por las tardes y comer 'tapas' deliciosas con sus amigos y familiares. El país también es famoso por sus fiestas tradicionales, sus playas y su gran pasión por los deportes. Para los estudiantes de español, conocer España es fundamental. Ayuda a entender las raíces del idioma y muestra una sociedad europea muy vibrante, amable y llena de diversidad.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde está situada España?",
+          "¿En cuántas comunidades autónomas está dividido el país?",
+          "¿Qué otras lenguas se hablan en algunas regiones de España?",
+          "¿Qué tres grupos vivieron en la península durante muchos siglos?",
+          "¿Qué dos monumentos antiguos demuestran la mezcla de culturas?",
+          "¿Qué costumbre gastronómica disfrutan los españoles al aire libre?",
+          "¿Hacia dónde llevó España su idioma cuando era un imperio?"
+        ],
+        "answerKey": [
+          "En la Península Ibérica, en el suroeste de Europa.",
+          "En diecisiete comunidades autónomas.",
+          "El catalán o el vasco.",
+          "Romanos, visigodos y árabes.",
+          "El palacio de la Alhambra y la Mezquita en Córdoba.",
+          "Comer 'tapas' deliciosas con amigos y familiares.",
+          "Lo llevó a América."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "El Reino de España, situado estratégicamente en la Península Ibérica, constituye un puente geográfico y cultural ineludible entre Europa, África y América. Reconocida universalmente como la cuna del idioma castellano, esta nación se caracteriza por una asombrosa pluralidad interna. Su territorio está estructurado en diecisiete comunidades autónomas, entidades que resguardan con celo identidades históricas, costumbres milenarias y, en varios casos, lenguas cooficiales como el catalán, el gallego o el euskera. Madrid, la dinámica capital, ejerce de centro político y cultural en la meseta central.\n\nLa trayectoria histórica española es un fascinante tapiz tejido por múltiples civilizaciones. El paso de romanos, visigodos y, de manera determinante, los ocho siglos de presencia andalusí, han dejado una huella indeleble en la idiosincrasia y la estética monumental del país. Joyas arquitectónicas como la Alhambra de Granada o la Mezquita de Córdoba atestiguan esta convivencia histórica sin precedentes. Posteriormente, la expansión ultramarina durante la Edad Moderna consolidó a España como un imperio global, exportando su lengua y su cosmovisión al Nuevo Mundo.\n\nEn la actualidad, España se proyecta como una democracia moderna, tolerante y altamente desarrollada, integrada plenamente en la Unión Europea. Su estilo de vida es célebre por priorizar la socialización en espacios públicos y la rica cultura de las tapas, elementos que reflejan un carácter abierto y vitalista. Para el estudiante de la lengua y la cultura hispánicas, sumergirse en la realidad de España resulta absolutamente imperativo. Es un viaje a las raíces etimológicas e históricas que permite comprender la evolución de un mundo hispanohablante vasto, diverso y eternamente interconectado.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué continentes conecta España gracias a su situación estratégica?",
+          "Menciona las tres lenguas cooficiales citadas en el texto además del castellano.",
+          "¿Qué tres grandes civilizaciones dejaron una huella indeleble en el país históricamente?",
+          "¿Qué monumentos andaluces atestiguan la convivencia de culturas en la península?",
+          "¿Qué papel jugó España en la Edad Moderna a nivel mundial?",
+          "¿Qué costumbre social española refleja su carácter abierto y vitalista?",
+          "¿Por qué es imperativo para un estudiante de español sumergirse en la realidad de España?"
+        ],
+        "answerKey": [
+          "Conecta Europa, África y América.",
+          "El catalán, el gallego y el euskera.",
+          "Los romanos, los visigodos y los árabes (presencia andalusí).",
+          "La Alhambra de Granada y la Mezquita de Córdoba.",
+          "Se consolidó como un imperio global, exportando su lengua al Nuevo Mundo.",
+          "Priorizar la socialización en espacios públicos y la rica cultura de las tapas.",
+          "Porque es un viaje a las raíces etimológicas e históricas del idioma."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Perú: El Imperio Andino",
+    "imageFileName": "peru_overview.png",
+    "bundles": ["south_america", "geography", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Located on the western coast of South America, Peru is a country of breathtaking landscapes and extraordinary ancient history. It is world-famous for being the heart of the powerful Inca Empire, which ruled the Andes mountains long before the Spanish arrived. Peru has three very different geographical regions: the dry coastal desert next to the Pacific Ocean, the towering peaks of the Andes mountains, and the lush, green Amazon rainforest in the east. The capital city is Lima, which sits right on the coast.\n\nThe most iconic symbol of Peru is Machu Picchu, a stunning ancient city built high up in the cloudy mountains. Millions of people travel to Peru every year just to walk the Inca Trail and see this magical stone fortress. But the Incas were not the only brilliant civilization here. You can also find the mysterious Nazca Lines, which are massive drawings of animals in the desert sand that can only be seen from an airplane.\n\nToday, Peru is globally celebrated for its incredible food. Peruvian cuisine mixes ancient indigenous ingredients, like potatoes and corn, with Spanish, African, and Asian influences. The most famous dish is 'ceviche', made with fresh raw fish and lime juice. The Peruvian people are very proud of their deep roots, and millions still speak the native Quechua language today. For students learning Spanish, Peru offers a fascinating look into a country where the modern world and ancient traditions exist beautifully together, sharing amazing stories of survival, creativity, and absolute natural beauty.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is Peru located?",
+          "What ancient empire was Peru the heart of?",
+          "What are the three different geographical regions of Peru?",
+          "What is the capital city of Peru?",
+          "What famous ancient city is located high up in the cloudy mountains?",
+          "How can the massive drawings of the Nazca Lines be seen?",
+          "What native language do millions of Peruvians still speak today?"
+        ],
+        "answerKey": [
+          "On the western coast of South America.",
+          "The Inca Empire.",
+          "The dry coastal desert, the Andes mountains, and the Amazon rainforest.",
+          "Lima.",
+          "Machu Picchu.",
+          "They can only be seen from an airplane.",
+          "Quechua."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Ubicado en la costa oeste de América del Sur, Perú es un país de paisajes impresionantes y una historia antigua extraordinaria. Es muy famoso a nivel mundial por ser el corazón del poderoso Imperio Inca, que controló las montañas antes de que llegaran los españoles. Perú tiene tres regiones geográficas muy diferentes: el desierto seco en la costa del océano Pacífico, las altas montañas de los Andes y la selva verde del Amazonas en el este. La capital del país es Lima, situada en la costa.\n\nEl símbolo más famoso de Perú es Machu Picchu, una antigua y hermosa ciudad construida muy alto en las montañas. Millones de personas viajan a Perú todos los años para caminar por el Camino Inca y ver esta fortaleza mágica de piedra. Pero los incas no fueron la única civilización brillante aquí. También puedes encontrar las famosas Líneas de Nazca, que son dibujos gigantes de animales en el desierto que solo se pueden ver desde un avión.\n\nHoy en día, Perú es muy famoso internacionalmente por su increíble comida. La gastronomía peruana mezcla ingredientes indígenas, como las papas y el maíz, con influencias de España, África y Asia. El plato más famoso es el ceviche, hecho con pescado crudo fresco y limón. Los peruanos están muy orgullosos de sus raíces, y millones de personas todavía hablan la lengua nativa quechua. Conocer Perú es descubrir un lugar fascinante donde el mundo moderno y las tradiciones antiguas viven juntos en perfecta armonía.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde está ubicado el país de Perú?",
+          "¿Cuáles son las tres regiones geográficas del país?",
+          "¿Qué imperio poderoso controló las montañas antes de los españoles?",
+          "¿Cómo se llama la ciudad antigua y mágica construida en las montañas?",
+          "¿Qué son las Líneas de Nazca y dónde están?",
+          "¿Qué influencias culturales mezcla la comida peruana?",
+          "¿Cuál es el plato más famoso de la gastronomía peruana?"
+        ],
+        "answerKey": [
+          "En la costa oeste de América del Sur.",
+          "El desierto seco, las montañas de los Andes y la selva del Amazonas.",
+          "El Imperio Inca.",
+          "Machu Picchu.",
+          "Son dibujos gigantes de animales en el desierto.",
+          "Influencias de indígenas, España, África y Asia.",
+          "El ceviche."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Situado estratégicamente en la costa occidental de Sudamérica, el Perú se erige como una nación de contrastes geográficos deslumbrantes y una profundidad arqueológica inigualable. Es reconocido universalmente como la cuna del majestuoso Imperio Inca, la civilización precolombina más extensa del continente. Su topografía se divide drásticamente en tres regiones: la árida franja costera bañada por el Pacífico, la imponente cordillera de los Andes y la exuberante cuenca amazónica. Lima, su bulliciosa capital costera, es el epicentro político y culinario del país.\n\nEl patrimonio histórico peruano es abrumador. Machu Picchu, la ciudadela incaica enclavada en la ceja de selva, es una maravilla de la ingeniería lítica y el principal imán turístico de la región. Sin embargo, la grandeza arqueológica de Perú antecede a los incas, evidenciándose en las misteriosas Líneas de Nazca y en las sofisticadas culturas Moche y Chimú. Estas civilizaciones dominaron un entorno hostil mediante avanzados sistemas de irrigación y un profundo conocimiento astronómico.\n\nEn la época contemporánea, Perú ha conquistado el mundo a través de su prodigiosa gastronomía. Su arte culinario es el resultado de un mestizaje magistral que fusiona ingredientes endémicos, como las miles de variedades de papas nativas, con influencias hispanas, africanas y asiáticas. Platos como el ceviche o el lomo saltado son auténticos embajadores culturales. La pervivencia del idioma quechua y del aimara, hablados por millones de ciudadanos, demuestra la resiliencia de sus pueblos originarios. El Perú invita a una inmersión profunda en un territorio donde la majestuosidad del pasado indígena sigue dictando el pulso y el orgullo de su vibrante presente.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cómo se describe la división geográfica o topográfica del Perú?",
+          "¿Qué civilización precolombina es considerada la más extensa del continente?",
+          "¿Qué maravilla arquitectónica se encuentra enclavada en la ceja de selva?",
+          "Nombra dos civilizaciones peruanas avanzadas que anteceden a los incas.",
+          "¿Cómo dominaron las antiguas civilizaciones el entorno hostil del desierto?",
+          "¿Qué mestizaje caracteriza al arte culinario peruano contemporáneo?",
+          "¿Qué idiomas nativos demuestran la resiliencia de los pueblos originarios?"
+        ],
+        "answerKey": [
+          "En tres regiones: la costa árida, la cordillera andina y la cuenca amazónica.",
+          "El Imperio Inca.",
+          "Machu Picchu.",
+          "Las culturas Moche y Chimú (y Nazca).",
+          "Mediante avanzados sistemas de irrigación y un profundo conocimiento astronómico.",
+          "Un mestizaje que fusiona ingredientes endémicos con influencias hispanas, africanas y asiáticas.",
+          "El quechua y el aimara."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Chile: El País Poeta",
+    "imageFileName": "chile_overview.png",
+    "bundles": ["south_america", "geography", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Located on the western edge of South America, Chile is known as the country at the end of the world. It has a very unique shape, being incredibly long and narrow, stretching over four thousand kilometers along the Pacific Ocean. Because of its extreme length, Chile has a spectacular variety of climates and landscapes. In the north, you can find the Atacama Desert, which is the driest desert on the entire planet. In the center lies the capital city, Santiago, surrounded by the towering Andes mountains. In the far south, the beautiful region of Patagonia is filled with massive glaciers, cold fjords, and deep blue lakes.\n\nHistorically, Chile has faced many natural challenges, such as large earthquakes and volcanic eruptions, which have made the Chilean people incredibly strong and resilient. The economy is very powerful, known globally for exporting delicious wines, fresh fruits, and copper, which is a vital metal for modern technology.\n\nChile is also famously called the 'country of poets.' It is the birthplace of legendary writers like Pablo Neruda and Gabriela Mistral, who both won the Nobel Prize in Literature for their beautiful and emotional poetry. The local culture is warm and welcoming, and during national holidays, people love to dance the 'Cueca,' the traditional national dance, while eating delicious empanadas. For a student learning Spanish, studying Chile offers a wonderful journey through dramatic natural extremes, rich literary history, and a modern society that proudly protects its breathtaking environment at the very bottom of the globe.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is Chile located and what is its unique shape?",
+          "What is special about the Atacama Desert in the north?",
+          "What mountains surround the capital city of Santiago?",
+          "What natural challenges have made the Chilean people strong and resilient?",
+          "What are three major products that Chile exports globally?",
+          "Who are the two famous poets from Chile that won the Nobel Prize?",
+          "What is the name of the traditional national dance people enjoy during holidays?"
+        ],
+        "answerKey": [
+          "On the western edge of South America; it is incredibly long and narrow.",
+          "It is the driest desert on the entire planet.",
+          "The towering Andes mountains.",
+          "Large earthquakes and volcanic eruptions.",
+          "Delicious wines, fresh fruits, and copper.",
+          "Pablo Neruda and Gabriela Mistral.",
+          "The 'Cueca'."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Situado en la costa oeste de América del Sur, Chile es conocido como el país en el fin del mundo. Su forma es muy curiosa porque es un territorio increíblemente largo y estrecho que acompaña al Océano Pacífico. Gracias a esta forma especial, Chile tiene una variedad espectacular de climas y paisajes. En el norte, puedes explorar el Desierto de Atacama, que es el desierto más seco de todo el planeta. En el centro se encuentra la capital, Santiago, una ciudad moderna rodeada por las montañas altas de los Andes. En el sur está la Patagonia, una región famosa por sus glaciares gigantes y lagos fríos.\n\nDurante su historia, Chile ha sufrido muchos terremotos y erupciones volcánicas. Estos desafíos naturales han hecho que los chilenos sean personas muy fuertes y unidas. La economía del país es excelente; Chile es famoso en el mundo entero por exportar vinos deliciosos, frutas frescas y cobre, un metal muy importante.\n\nAdemás de su naturaleza, Chile es conocido internacionalmente como el 'país de poetas'. Es el hogar de escritores brillantes como Pablo Neruda y Gabriela Mistral. Ellos ganaron el Premio Nobel de Literatura por sus poemas llenos de emoción y amor. A los chilenos les encanta celebrar sus fiestas nacionales bailando la 'Cueca', su baile tradicional, y comiendo ricas empanadas. Conocer Chile es descubrir un país de contrastes extremos, donde la poesía, la modernidad y la fuerza de la naturaleza viven juntas en perfecta armonía en el hemisferio sur. Para los estudiantes de español, explorar la cultura chilena es una aventura fascinante llena de paisajes dramáticos y un vocabulario literario muy hermoso.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Por qué la forma del territorio de Chile es muy curiosa?",
+          "¿Qué récord mundial tiene el Desierto de Atacama?",
+          "¿Qué elementos de la naturaleza se pueden encontrar en la Patagonia?",
+          "¿Qué desastres naturales han sufrido los chilenos durante su historia?",
+          "¿Cuáles son las exportaciones más famosas de la economía de Chile?",
+          "¿Qué importante premio literario ganaron Pablo Neruda y Gabriela Mistral?",
+          "¿Qué hacen los chilenos para celebrar sus fiestas nacionales?"
+        ],
+        "answerKey": [
+          "Porque es increíblemente largo y estrecho.",
+          "Es el desierto más seco de todo el planeta.",
+          "Glaciares gigantes y lagos fríos.",
+          "Terremotos y erupciones volcánicas.",
+          "Vinos deliciosos, frutas frescas y cobre.",
+          "El Premio Nobel de Literatura.",
+          "Bailan la 'Cueca' y comen ricas empanadas."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Enclavado en el extremo sudoccidental de Sudamérica, Chile se despliega como una franja territorial asombrosamente larga y estrecha, flanqueada por la imponente Cordillera de los Andes y el vasto Océano Pacífico. Esta singular configuración geográfica dota al país de una diversidad climática y paisajística sin parangón. El territorio abarca desde la aridez extrema del Desierto de Atacama en el norte, hasta la majestuosidad gélida de la Patagonia y la Antártica chilena en el sur, pasando por fértiles valles centrales donde se asienta Santiago, su moderna y dinámica capital.\n\nA nivel económico, Chile se ha consolidado como una de las naciones más prósperas y estables de la región, destacándose como el mayor productor mundial de cobre y un exportador de primer nivel de vinos y productos agrícolas. Sin embargo, su geografía indómita, marcada por una constante actividad sísmica y volcánica, ha forjado en el pueblo chileno un carácter profundamente resiliente y solidario ante la adversidad natural.\n\nCulturalmente, Chile ostenta el merecido título de 'país de poetas'. Su herencia literaria ha trascendido fronteras gracias a figuras colosales como Gabriela Mistral y Pablo Neruda, ambos galardonados con el Premio Nobel de Literatura. Sus versos capturan la melancolía, el amor y la fuerza telúrica de su tierra. En el ámbito folclórico, la cueca reina como la danza nacional, celebrando el cortejo y la identidad campesina. Para el estudiante avanzado, Chile ofrece un modelo de sociedad que equilibra hábilmente el progreso tecnológico y económico con un profundo respeto por su patrimonio literario y sus monumentales reservas naturales.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué dos formaciones geográficas flanquean la franja territorial chilena?",
+          "¿Qué contrastes climáticos y paisajísticos se mencionan entre el norte y el sur del país?",
+          "¿En la producción de qué recurso mineral destaca Chile a nivel mundial?",
+          "¿Qué impacto ha tenido la constante actividad sísmica en el carácter del pueblo chileno?",
+          "¿Por qué se conoce a Chile culturalmente como el 'país de poetas'?",
+          "¿Qué temas principales capturan los versos de los premios Nobel chilenos?",
+          "¿Qué celebración y danza reina en el ámbito folclórico nacional?"
+        ],
+        "answerKey": [
+          "La Cordillera de los Andes y el Océano Pacífico.",
+          "La aridez extrema del Desierto de Atacama en el norte y la majestuosidad gélida de la Patagonia en el sur.",
+          "Es el mayor productor mundial de cobre.",
+          "Ha forjado un carácter profundamente resiliente y solidario ante la adversidad.",
+          "Por ser cuna de figuras colosales como Gabriela Mistral y Pablo Neruda.",
+          "La melancolía, el amor y la fuerza telúrica de su tierra.",
+          "La cueca, que celebra el cortejo y la identidad campesina."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Guatemala: El Corazón del Mundo Maya",
+    "imageFileName": "guatemala_overview.png",
+    "bundles": ["central_america", "geography", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Located just south of Mexico, Guatemala is a beautiful and vibrant country known as the heart of the Mayan world. It is the most populated country in Central America and features a stunning geography filled with towering volcanoes, deep lakes, and dense tropical jungles. The capital, Guatemala City, is a busy modern metropolis, but just a short drive away is Antigua, a perfectly preserved Spanish colonial city famous for its colorful streets and spectacular Easter celebrations.\n\nOne of the most breathtaking natural wonders in the country is Lake Atitlán, a deep blue lake surrounded by three massive volcanoes and many traditional indigenous villages. Guatemala's history is deeply connected to the ancient Mayan civilization. In the northern jungle region of Petén, you can visit Tikal, one of the largest and most powerful ancient Mayan cities, featuring giant stone pyramids that rise above the trees.\n\nUnlike many other countries, the indigenous culture in Guatemala is still very much alive today. Nearly half of the population is of Mayan descent, and they still speak more than twenty different Mayan languages, such as K'iche' and Kaqchikel. The people wear traditional, brightly colored hand-woven clothing, and markets like Chichicastenango are world-famous for their beautiful crafts. Guatemala is also famous for growing some of the best coffee in the world and for its national bird, the beautiful Quetzal. For Spanish students, studying Guatemala provides a fascinating look at a country where ancient indigenous traditions and the Spanish language exist together in everyday life.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is Guatemala located and what is its nickname?",
+          "What is Antigua famous for according to the text?",
+          "What surrounds the deep blue waters of Lake Atitlán?",
+          "What can you visit in the northern jungle region of Petén?",
+          "How many Mayan languages are still spoken in Guatemala today?",
+          "What do people wear in traditional indigenous villages?",
+          "What is the name of the national bird of Guatemala?"
+        ],
+        "answerKey": [
+          "Just south of Mexico; it is known as the heart of the Mayan world.",
+          "It is a preserved Spanish colonial city famous for colorful streets and Easter celebrations.",
+          "Three massive volcanoes and many traditional indigenous villages.",
+          "Tikal, one of the largest ancient Mayan cities.",
+          "More than twenty different Mayan languages.",
+          "Traditional, brightly colored hand-woven clothing.",
+          "The Quetzal."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Situada al sur de México, Guatemala es un país hermoso y vibrante conocido como el corazón del mundo maya. Es el país con más habitantes de América Central y tiene una geografía impresionante llena de volcanes altos, lagos profundos y selvas tropicales. La capital es la Ciudad de Guatemala, una ciudad moderna y grande. Sin embargo, muy cerca está Antigua, una ciudad colonial española famosa por sus calles de piedra, casas de colores y sus celebraciones espectaculares durante la Semana Santa.\n\nUna de las maravillas naturales más increíbles del país es el Lago de Atitlán. Es un lago de color azul profundo que está rodeado por tres volcanes gigantes y muchos pueblos indígenas. La historia de Guatemala está fuertemente conectada con la antigua civilización maya. En la selva del norte, puedes visitar Tikal, una de las ciudades mayas más grandes y poderosas de la historia, con pirámides de piedra que suben por encima de los árboles.\n\nLa cultura indígena en Guatemala sigue muy viva hoy en día. Casi la mitad de la población tiene raíces mayas y todavía hablan más de veinte lenguas indígenas diferentes. Las personas usan ropa tradicional hecha a mano con colores muy brillantes. Los mercados locales, como el de Chichicastenango, son famosos en todo el mundo por sus artesanías. Además, Guatemala produce un café excelente y su ave nacional es el hermoso quetzal. Explorar Guatemala ayuda a los estudiantes a comprender una cultura donde las tradiciones indígenas antiguas y el idioma español conviven todos los días.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde está situada Guatemala y cómo es conocida?",
+          "¿Por qué es famosa la ciudad colonial de Antigua?",
+          "¿Qué elementos de la naturaleza rodean al Lago de Atitlán?",
+          "¿Qué lugar importante se puede visitar en la selva del norte del país?",
+          "¿Cuántas lenguas indígenas se hablan todavía en Guatemala?",
+          "¿Qué lugar es famoso en todo el mundo por sus hermosas artesanías?",
+          "¿Cuál es el producto agrícola famoso y cuál es el ave nacional del país?"
+        ],
+        "answerKey": [
+          "Al sur de México, conocida como el corazón del mundo maya.",
+          "Por sus calles de piedra, casas de colores y celebraciones de Semana Santa.",
+          "Tres volcanes gigantes y muchos pueblos indígenas.",
+          "Tikal, una de las ciudades mayas más grandes.",
+          "Más de veinte lenguas indígenas diferentes.",
+          "El mercado de Chichicastenango.",
+          "El café y el quetzal."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Ubicada estratégicamente como puente entre Norte y Centroamérica, Guatemala se consagra como el corazón palpitante del mundo maya. Esta nación posee una topografía dramática y espectacular, definida por espeso bosque tropical, vastas mesetas y una de las cadenas volcánicas más activas del continente. Mientras la Ciudad de Guatemala funciona como el núcleo económico y administrativo moderno, la ciudad de Antigua Guatemala preserva intacto su esplendor colonial, siendo aclamada internacionalmente por su arquitectura barroca y sus fervorosas procesiones de Semana Santa.\n\nEl legado histórico de Guatemala es monumental. En la densa selva del Petén se oculta Tikal, una de las superpotencias urbanas del periodo Clásico maya, cuyas pirámides monumentales atestiguan el avance arquitectónico y astronómico de esta civilización. A diferencia de otras naciones, el sustrato demográfico y cultural prehispánico en Guatemala se mantiene extraordinariamente vigente. Cerca de la mitad de su población es de ascendencia maya, conservando no solo su indumentaria textil de intrincada policromía, sino también más de veintidós idiomas originarios reconocidos oficialmente.\n\nEl Lago de Atitlán, flanqueado por tres majestuosos volcanes, es considerado uno de los cuerpos de agua más bellos del planeta y está rodeado de comunidades que mantienen vivas sus tradiciones milenarias. En el ámbito económico, Guatemala es un exportador líder de café de especialidad y cardamomo, recursos vitales cultivados en sus fértiles suelos volcánicos. Para el estudioso, Guatemala ofrece una radiografía perfecta del sincretismo cultural latinoamericano, un territorio donde la herencia de los ancestros mayas sigue dictando el pulso social, lingüístico y espiritual de la sociedad contemporánea.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué contraste urbano existe entre la Ciudad de Guatemala y Antigua Guatemala?",
+          "¿En qué región selvática se oculta la superpotencia urbana de Tikal?",
+          "¿De qué son testimonio las pirámides monumentales de Tikal?",
+          "¿Qué porcentaje aproximado de la población guatemalteca es de ascendencia maya?",
+          "¿Qué evidencia lingüística demuestra la vigencia de la cultura prehispánica en el país?",
+          "¿Qué características geográficas hacen del Lago de Atitlán un lugar notable?",
+          "¿Qué recursos vitales se cultivan en los fértiles suelos volcánicos de Guatemala?"
+        ],
+        "answerKey": [
+          "La Ciudad de Guatemala es el núcleo económico moderno, mientras que Antigua preserva el esplendor colonial barroco.",
+          "En la densa selva del Petén.",
+          "Del avance arquitectónico y astronómico de la civilización maya.",
+          "Cerca de la mitad de su población.",
+          "El uso oficial de más de veintidós idiomas originarios.",
+          "Está flanqueado por tres majestuosos volcanes y es considerado uno de los más bellos del planeta.",
+          "Café de especialidad y cardamomo."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Cuba: La Perla de las Antillas",
+    "imageFileName": "cuba_overview.png",
+    "bundles": ["caribbean_culture", "geography", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Cuba is the largest island in the Caribbean Sea and one of the most fascinating countries in Latin America. It is located just south of Florida and is famous worldwide for its rich history, incredible music, and beautiful white-sand beaches like Varadero. The capital city, Havana, is incredibly charming and often feels like it is frozen in time. Walking through the streets of Old Havana, you will see colorful colonial buildings and thousands of classic American cars from the 1950s driving along the famous seaside avenue known as the Malecón.\n\nCuba has a very complex political history. After being a Spanish colony for centuries, it became an independent nation, but in 1959, Fidel Castro led a socialist revolution that changed the country forever. Because of political conflicts and a long economic blockade by the United States, life in Cuba has been difficult, and many people have had to rely on their creativity to survive. Despite these challenges, Cuba provides completely free healthcare and education to all its citizens and has some of the best doctors in the world.\n\nHowever, the true soul of Cuba is its joyful culture. Music and dance are everywhere. Genres like salsa, son, and rumba were born here, influencing artists all over the globe. Famous musicians like Celia Cruz and the Buena Vista Social Club have made Cuban rhythms immortal. The people of Cuba are incredibly resilient, welcoming, and happy. For students, studying Cuba is essential because it offers a deep look into a highly unique society full of unforgettable art and history.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is Cuba located in relation to the United States?",
+          "What is the name of the famous white-sand beach mentioned in the text?",
+          "What makes the streets of Old Havana feel like they are frozen in time?",
+          "What major political event changed the country forever in 1959?",
+          "Despite economic challenges, what two things does Cuba provide for free to its citizens?",
+          "What are three genres of music and dance that were born in Cuba?",
+          "Who are some of the famous musicians that made Cuban rhythms immortal?"
+        ],
+        "answerKey": [
+          "It is located just south of Florida.",
+          "Varadero.",
+          "Colorful colonial buildings and classic American cars from the 1950s.",
+          "The socialist revolution led by Fidel Castro.",
+          "Completely free healthcare and education.",
+          "Salsa, son, and rumba.",
+          "Celia Cruz and the Buena Vista Social Club."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Cuba es la isla más grande del Mar Caribe y uno de los países más fascinantes de América Latina. Está ubicada muy cerca de Florida y es famosa en todo el mundo por su historia compleja, su música increíble y sus playas de arena blanca como Varadero. La capital, La Habana, es una ciudad mágica que parece estar congelada en el tiempo. Si caminas por las calles de La Habana Vieja, puedes ver edificios coloniales de muchos colores y miles de autos clásicos americanos de los años cincuenta conduciendo por el famoso paseo del Malecón.\n\nLa historia política de Cuba es muy diferente a la del resto del continente. En 1959, Fidel Castro lideró una revolución socialista que transformó el sistema del país por completo. Debido a los problemas políticos y al bloqueo económico de Estados Unidos, la vida diaria en Cuba ha sido muy difícil. Los cubanos han tenido que usar mucha imaginación para sobrevivir. A pesar de los problemas económicos, el país ofrece educación y medicina totalmente gratis a todos sus ciudadanos, y tiene médicos excelentes.\n\nEl verdadero corazón de Cuba es su cultura alegre. La música y el baile están en todas partes. Ritmos como la salsa, el son y la rumba nacieron en esta isla caribeña. Músicos famosos como Celia Cruz han llevado la alegría cubana a todo el mundo. Los cubanos son personas muy fuertes, amables y optimistas. Conocer Cuba ayuda a los estudiantes de español a entender una sociedad única, donde el arte y la música triunfan sobre las dificultades diarias.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Dónde está ubicada Cuba y cuál es su playa más famosa?",
+          "¿Qué puedes ver si caminas por las calles de La Habana Vieja?",
+          "¿Qué evento político transformó el sistema del país en 1959?",
+          "¿Por qué ha sido muy difícil la vida diaria en Cuba?",
+          "¿Qué servicios ofrece el país totalmente gratis a sus ciudadanos?",
+          "¿Qué ritmos musicales famosos nacieron en esta isla caribeña?",
+          "¿Cómo se describe a los cubanos en el texto?"
+        ],
+        "answerKey": [
+          "Está ubicada muy cerca de Florida y su playa famosa es Varadero.",
+          "Edificios coloniales de muchos colores y autos clásicos de los años cincuenta.",
+          "La revolución socialista liderada por Fidel Castro.",
+          "Debido a los problemas políticos y al bloqueo económico de Estados Unidos.",
+          "Educación y medicina (salud).",
+          "La salsa, el son y la rumba.",
+          "Como personas muy fuertes, amables y optimistas."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La República de Cuba, la mayor de las Antillas, se erige como una nación de una riqueza cultural desbordante y una trayectoria geopolítica absolutamente singular en el hemisferio occidental. Su capital, La Habana, es una joya arquitectónica donde el esplendor colonial español dialoga con el deterioro urbano, creando una estética melancólica y cautivadora. El famoso Malecón y las calles adoquinadas de La Habana Vieja sirven como escenario constante por donde transitan los icónicos 'almendrones', vehículos estadounidenses de la década de 1950 que atestiguan un país paralizado en el tiempo.\n\nEl parteaguas definitivo de la historia cubana contemporánea fue la Revolución de 1959 liderada por Fidel Castro, que instauró un modelo socialista a escasas millas de Estados Unidos. Este evento desencadenó un prolongado embargo económico que ha forjado en el pueblo cubano una capacidad de inventiva y resiliencia asombrosa para sortear la escasez material. Pese a las agudas carencias económicas y las restricciones de libertades civiles, el Estado cubano ha logrado mantener sistemas universales y gratuitos de educación y salud, exportando brigadas médicas altamente capacitadas a nivel internacional.\n\nNo obstante, el mayor tesoro de Cuba es su espíritu festivo y su portentosa producción musical. La isla es la cuna irrefutable del son, la rumba, el mambo y la salsa, ritmos que constituyen la banda sonora de la resistencia popular. Agrupaciones como el Buena Vista Social Club o íconos como Celia Cruz han universalizado el compás cubano. Abordar la realidad de Cuba exige al estudiante una mirada crítica y empática hacia un pueblo que, frente a la adversidad constante, responde siempre con arte, ritmo y una inquebrantable vitalidad.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cómo describe el autor la estética visual de la ciudad de La Habana?",
+          "¿Qué son los 'almendrones' y qué atestiguan sobre la situación del país?",
+          "¿Qué impacto geopolítico tuvo la Revolución de 1959 liderada por Fidel Castro?",
+          "¿Qué cualidad ha forjado el prolongado embargo económico en el pueblo cubano?",
+          "Menciona dos logros sociales que el Estado cubano mantiene a pesar de la escasez material.",
+          "¿Qué ritmos musicales conforman la banda sonora de la resistencia popular cubana?",
+          "¿Qué actitud exige abordar la realidad de Cuba por parte del estudiante?"
+        ],
+        "answerKey": [
+          "Como una estética melancólica y cautivadora donde dialogan el esplendor colonial y el deterioro urbano.",
+          "Son vehículos estadounidenses de la década de 1950 que atestiguan un país paralizado en el tiempo.",
+          "Instauró un modelo socialista a escasas millas de Estados Unidos y desencadenó un embargo económico.",
+          "Una capacidad de inventiva y resiliencia asombrosa para sortear la escasez material.",
+          "Sistemas universales y gratuitos de educación y salud.",
+          "El son, la rumba, el mambo y la salsa.",
+          "Exige una mirada crítica y empática hacia un pueblo que responde a la adversidad con arte y vitalidad."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Puerto Rico: La Isla del Encanto",
+    "imageFileName": "puerto_rico_overview.png",
+    "bundles": ["caribbean_culture", "geography", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Puerto Rico is a beautiful island in the Caribbean Sea affectionately known as the 'Isla del Encanto' or Island of Enchantment. Unlike other Latin American countries, it is an unincorporated territory of the United States. This means Puerto Ricans are US citizens, but they maintain their own unique culture, flag, and even their own Olympic sports team. The capital city is San Juan, famous worldwide for its colorful colonial buildings, cobblestone streets, and the massive historic stone fort called El Morro that guards the bay.\n\nThe island offers incredibly diverse landscapes, including stunning white-sand beaches, magical glowing bioluminescent bays, and El Yunque, which is the only tropical rainforest in the US National Forest System. Music and dance are essential parts of daily Puerto Rican life. Famous musical genres like salsa and modern reggaeton have deep roots here, and contemporary artists like Ricky Martin, Daddy Yankee, and Bad Bunny have taken the island's infectious rhythm to a massive global audience.\n\nThe local food is also incredible, featuring traditional dishes like 'mofongo', which is made from fried and mashed green plantains mixed with garlic. The people, proudly known as 'Boricuas', are famous for their remarkable warmth, resilience, and joyful spirit. Despite facing severe challenges like powerful hurricanes over the years, their beautiful culture remains incredibly strong. For Spanish students, Puerto Rico represents a fascinating blend of native Taino indigenous roots, rich African heritage, and long Spanish colonial history. It is a vibrant, welcoming place where the Spanish language is proudly celebrated and creatively mixed with modern American cultural influences.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "What is the popular nickname for Puerto Rico?",
+          "What is Puerto Rico's political relationship with the United States?",
+          "What is the name of the massive historic stone fort in San Juan?",
+          "What is special about El Yunque?",
+          "Which two famous musical genres have deep roots in Puerto Rico?",
+          "What is 'mofongo' made from?",
+          "What are the people of Puerto Rico proudly known as?"
+        ],
+        "answerKey": [
+          "The 'Isla del Encanto' or Island of Enchantment.",
+          "It is an unincorporated territory of the United States.",
+          "El Morro.",
+          "It is the only tropical rainforest in the US National Forest System.",
+          "Salsa and reggaeton.",
+          "Fried and mashed green plantains mixed with garlic.",
+          "'Boricuas'."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Puerto Rico es una hermosa isla en el Mar Caribe conocida como la 'Isla del Encanto'. A diferencia de otros países de América Latina, Puerto Rico es un territorio de los Estados Unidos. Esto significa que los puertorriqueños son ciudadanos estadounidenses, pero tienen su propia cultura, su bandera y su propio equipo olímpico. La capital de la isla es San Juan. Esta ciudad es famosa por sus casas coloniales de muchos colores y por El Morro, un fuerte de piedra gigante que protegía la ciudad en el pasado.\n\nLa geografía de la isla es muy diversa y espectacular. Tiene playas de arena blanca, bahías que brillan en la oscuridad y El Yunque, un bosque lluvioso tropical lleno de plantas y animales únicos. La música es una parte fundamental de la vida en la isla. Ritmos muy populares como la salsa y el reguetón nacieron o crecieron aquí. Artistas internacionales como Marc Anthony, Daddy Yankee y Bad Bunny han llevado la música puertorriqueña a todo el mundo.\n\nLa comida tradicional también es deliciosa. El plato más famoso es el 'mofongo', que se prepara con plátanos verdes fritos y mucho ajo. A las personas de Puerto Rico les gusta llamarse 'boricuas', una palabra que viene de los antiguos indígenas taínos. Los boricuas son personas muy felices, amables y fuertes, incluso después de sufrir huracanes terribles. Para los estudiantes de español, Puerto Rico es un lugar fascinante porque mezcla las tradiciones indígenas, africanas y españolas con la vida moderna estadounidense. Es una isla llena de energía, historia y mucha alegría tropical.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cuál es el apodo cariñoso de la isla de Puerto Rico?",
+          "¿Por qué Puerto Rico es diferente a otros países de América Latina?",
+          "¿Qué edificio histórico gigante protegía la ciudad de San Juan en el pasado?",
+          "¿Qué tipo de lugar natural es El Yunque?",
+          "¿Qué ritmos musicales populares crecieron y se desarrollaron en esta isla?",
+          "¿Cómo se llama el plato tradicional hecho con plátanos verdes fritos y ajo?",
+          "¿De qué antigua cultura indígena viene la palabra 'boricua'?"
+        ],
+        "answerKey": [
+          "La 'Isla del Encanto'.",
+          "Porque es un territorio de los Estados Unidos.",
+          "El Morro (un fuerte de piedra).",
+          "Un bosque lluvioso tropical.",
+          "La salsa y el reguetón.",
+          "El mofongo.",
+          "De los indígenas taínos."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Puerto Rico, mundialmente reconocido como la 'Isla del Encanto', ocupa un lugar singular en la geopolítica y la cultura del hemisferio occidental. Constituido como un Estado Libre Asociado de los Estados Unidos desde 1952, sus habitantes poseen ciudadanía estadounidense, aunque mantienen una identidad nacional fiera e inquebrantable, representada en su himno, su bandera y su soberanía deportiva internacional. La capital, San Juan, es una joya caribeña cuyo Viejo San Juan alberga fortificaciones imponentes como el Castillo San Felipe del Morro, testimonio de la importancia estratégica de la isla durante el periodo colonial español.\n\nEl patrimonio natural puertorriqueño es deslumbrante y sumamente biodiverso. Sus atractivos incluyen desde las maravillosas bahías bioluminiscentes en Vieques y Fajardo, hasta El Yunque, el único bosque pluvial tropical que pertenece al Sistema de Bosques Nacionales de los Estados Unidos. Sin embargo, la mayor exportación de la isla es, indiscutiblemente, su prodigioso talento musical. Puerto Rico es la cuna del reguetón y un pilar histórico de la salsa, produciendo ídolos globales que dominan las listas de popularidad y difunden el español a través del ritmo y la lírica urbana.\n\nLa gastronomía boricua, con manjares como el mofongo y el lechón asado, evidencia un exquisito sincretismo culinario que amalgama las raíces taínas, la herencia africana y la tradición ibérica. A pesar de los estragos causados por devastadores fenómenos meteorológicos y complejos desafíos económicos, el espíritu del pueblo boricua se caracteriza por una resiliencia festiva y solidaria. Estudiar Puerto Rico permite comprender un fascinante fenómeno de resistencia lingüística y cultural, donde el español sobrevive y evoluciona vibrante frente a la constante influencia anglosajona.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué estatus político mantiene Puerto Rico con Estados Unidos desde 1952?",
+          "¿De qué es testimonio el Castillo San Felipe del Morro en el Viejo San Juan?",
+          "¿Qué distinción oficial posee El Yunque en relación con los Estados Unidos?",
+          "¿Cuál es considerada la mayor exportación cultural de la isla según el texto?",
+          "¿Qué raíces culturales amalgama el sincretismo culinario de la gastronomía boricua?",
+          "¿Cómo se describe el espíritu del pueblo boricua frente a los fenómenos meteorológicos?",
+          "¿Qué fenómeno de resistencia lingüística permite comprender el estudio de Puerto Rico?"
+        ],
+        "answerKey": [
+          "Es un Estado Libre Asociado.",
+          "Es testimonio de la importancia estratégica de la isla durante el periodo colonial español.",
+          "Es el único bosque pluvial tropical que pertenece al Sistema de Bosques Nacionales de EE. UU.",
+          "Su prodigioso talento musical (la salsa y el reguetón).",
+          "Amalgama las raíces taínas, la herencia africana y la tradición ibérica.",
+          "Se caracteriza por una resiliencia festiva y solidaria.",
+          "Permite comprender cómo el español sobrevive y evoluciona frente a la influencia anglosajona."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Ecuador: El Centro del Mundo",
+    "imageFileName": "ecuador_overview.png",
+    "bundles": ["south_america", "geography", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Ecuador is a small but incredibly diverse country located on the western coast of South America. It gets its name because the equator, the invisible line that divides the Earth into the northern and southern hemispheres, runs right through it. Near the capital city of Quito, you can visit a famous monument called 'La Mitad del Mundo' (The Middle of the World) and literally stand with one foot in each hemisphere!\n\nEven though it is a small country, Ecuador has four completely different geographical regions. The first is the Pacific coast, known for its beautiful beaches and delicious seafood. The second is the Andes mountains, featuring breathtaking volcanoes and ancient indigenous cultures. The third region is the dense Amazon rainforest, filled with exotic plants, wild animals, and remote tribal communities. Finally, the fourth region is the famous Galápagos Islands, located far out in the Pacific Ocean.\n\nThe Galápagos Islands are a unique natural paradise where animals do not fear humans. Here, Charles Darwin developed his famous theory of evolution after observing giant tortoises and marine iguanas. Ecuador is also a pioneer in environmental protection. It was the first country in the world to give legal constitutional rights to nature. For students learning Spanish, Ecuador is a truly magical place. It offers a clear, beautiful Spanish accent and a vibrant indigenous culture where millions of people still speak the ancient Quechua language. It is a nation packed with natural wonders and fascinating historical traditions.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Where is Ecuador located and how did it get its name?",
+          "What famous monument is located near the capital city of Quito?",
+          "What are the four completely different geographical regions of Ecuador?",
+          "What makes the animals in the Galápagos Islands unique?",
+          "Which famous scientist developed his theory of evolution in the Galápagos?",
+          "What legal action did Ecuador take to pioneer environmental protection?",
+          "What ancient language is still spoken by millions of people in Ecuador today?"
+        ],
+        "answerKey": [
+          "On the western coast of South America; named after the equator.",
+          "'La Mitad del Mundo' (The Middle of the World).",
+          "The Pacific coast, the Andes mountains, the Amazon rainforest, and the Galápagos Islands.",
+          "They do not fear humans.",
+          "Charles Darwin.",
+          "It was the first country to give legal constitutional rights to nature.",
+          "The Quechua language."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Ecuador es un país pequeño pero increíblemente diverso situado en la costa oeste de América del Sur. Su nombre viene de la línea del ecuador, la línea imaginaria que divide el planeta Tierra en dos mitades iguales. Cerca de la capital, Quito, puedes visitar el monumento de 'La Mitad del Mundo' y poner un pie en el hemisferio norte y otro en el hemisferio sur al mismo tiempo.\n\nAunque es un territorio pequeño, Ecuador tiene cuatro regiones geográficas completamente diferentes. La primera es la costa del Pacífico, famosa por sus playas cálidas y sus deliciosos platos de mariscos. La segunda son las montañas de los Andes, llenas de volcanes altísimos y tradiciones indígenas muy ricas. La tercera región es la selva del Amazonas, un lugar húmedo y verde con animales exóticos y tribus antiguas. La cuarta región son las famosas Islas Galápagos, que están muy lejos en el océano.\n\nLas Islas Galápagos son un paraíso natural donde los animales no tienen miedo de los humanos. Allí, el científico Charles Darwin estudió a las tortugas gigantes para escribir su famosa teoría de la evolución. Ecuador también es un gran defensor del medio ambiente, siendo el primer país del mundo en dar derechos legales a la naturaleza. Para los estudiantes de español, Ecuador es un lugar perfecto. Las personas hablan un español muy claro y amigable. Además, es un país donde la herencia indígena sigue viva, ya que muchas personas todavía hablan el idioma quechua en las comunidades de las montañas.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿De dónde viene el nombre del país de Ecuador?",
+          "¿Qué actividad curiosa se puede hacer en el monumento de 'La Mitad del Mundo'?",
+          "¿Cuáles son las cuatro regiones geográficas diferentes de Ecuador?",
+          "¿Por qué son famosas las zonas de la costa del Pacífico?",
+          "¿A qué animales famosos estudió Charles Darwin en las Islas Galápagos?",
+          "¿Qué derecho legal único en el mundo otorgó Ecuador al medio ambiente?",
+          "¿Qué idioma indígena siguen hablando muchas personas en las montañas?"
+        ],
+        "answerKey": [
+          "Viene de la línea del ecuador que divide la Tierra en dos mitades.",
+          "Poner un pie en el hemisferio norte y otro en el hemisferio sur.",
+          "La costa del Pacífico, los Andes, la selva del Amazonas y las Islas Galápagos.",
+          "Por sus playas cálidas y sus deliciosos platos de mariscos.",
+          "A las tortugas gigantes.",
+          "Fue el primer país en dar derechos legales a la naturaleza.",
+          "El idioma quechua."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "La República del Ecuador es una verdadera joya de la biodiversidad global, condensando una variedad geográfica y biológica inusitada dentro de un territorio relativamente compacto en Sudamérica. Atravesado por la línea ecuatorial, de la cual deriva su nombre, el país se divide geológicamente en cuatro mundos contrastantes: la llanura costera del Pacífico, la imponente cordillera andina que atraviesa el centro, la vasta y misteriosa cuenca amazónica al este, y el archipiélago volcánico de las Islas Galápagos a mil kilómetros de sus costas.\n\nQuito, su capital situada a más de dos mil ochocientos metros de altitud, ostenta el privilegio de tener el centro histórico colonial más extenso y mejor conservado de América, siendo declarado el primer Patrimonio Cultural de la Humanidad por la UNESCO en 1978. Las Islas Galápagos, por su parte, representan un laboratorio evolutivo viviente; su aislamiento permitió el desarrollo de especies endémicas únicas, como las tortugas gigantes y las iguanas marinas, inspirando la teoría evolutiva de Charles Darwin.\n\nSociopolíticamente, Ecuador ha sido pionero internacional en materia ecológica, convirtiéndose en el primer Estado del planeta en reconocer los Derechos de la Naturaleza en su Constitución de 2008. A nivel humano, es una nación plurinacional donde la rica herencia indígena convive con el mestizaje, y donde lenguas originarias como el kichwa gozan de reconocimiento oficial. Sumergirse en la realidad ecuatoriana es descubrir un paraíso de contrastes, desde la altitud asfixiante de sus nevados hasta la profundidad de su selva, ofreciendo al estudiante una inmersión completa en el patrimonio natural y el respeto medioambiental de la América hispana.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Cuáles son los cuatro mundos geológicos contrastantes que conforman Ecuador?",
+          "¿Qué reconocimiento internacional histórico ostenta el centro de la capital, Quito?",
+          "¿Por qué se consideran a las Islas Galápagos un laboratorio evolutivo viviente?",
+          "¿Qué innovación sociopolítica introdujo Ecuador en su Constitución de 2008?",
+          "¿Qué lengua originaria goza de reconocimiento oficial en el país según el texto?",
+          "¿A qué altitud aproximada se encuentra situada la ciudad de Quito?",
+          "¿Cómo se describe el aislamiento del archipiélago volcánico de las Galápagos?"
+        ],
+        "answerKey": [
+          "La llanura costera, la cordillera andina, la cuenca amazónica y las Islas Galápagos.",
+          "Fue el primer Patrimonio Cultural de la Humanidad declarado por la UNESCO en 1978.",
+          "Porque su aislamiento permitió el desarrollo de especies endémicas únicas que inspiraron a Darwin.",
+          "Fue el primer Estado en reconocer los Derechos de la Naturaleza constitucionalmente.",
+          "El idioma kichwa (quechua).",
+          "A más de dos mil ochocientos metros de altitud.",
+          "Se encuentra a mil kilómetros de las costas ecuatorianas en el océano."
+        ]
+      }
+    }
+  },
+  {
+    "topicName": "Guinea Ecuatorial: El Tesoro Hispano",
+    "imageFileName": "guinea_ecuatorial_overview.png",
+    "bundles": ["africa", "geography", "vip_lifetime"],
+    "levels": {
+      "level_1": {
+        "tier": "Level 1 (English/Beginner)",
+        "readingText": "Equatorial Guinea is a very special and unique country because it is the only nation in Africa where Spanish is an official language. Located on the western coast of central Africa, it is a small country with a fascinating geography. It consists of a mainland region called Río Muni, which is covered in dense tropical rainforests, and several islands. The capital city, Malabo, is actually located on an island called Bioko, far away from the mainland part of the country.\n\nThe history of Equatorial Guinea is deeply connected to Spain. It was a Spanish colony for over one hundred years until it gained its independence in 1968. Because of this history, the people there speak a beautiful version of Spanish mixed with local African expressions. Walking through the streets of Malabo, you can see beautiful colonial architecture that looks very similar to buildings found in Spain or Latin America.\n\nIn the 1990s, the country discovered massive oil reserves under the ocean, which quickly transformed its economy and brought new wealth. However, the true treasure of Equatorial Guinea is its incredible biodiversity. The thick jungles are home to amazing animals like gorillas, chimpanzees, and forest elephants. For students of the Spanish language, learning about Equatorial Guinea is incredibly important. It proves that the Spanish language is truly global, connecting continents and cultures across the ocean. It is a beautiful African country with a Hispanic soul, waiting to be explored.",
+        "instruction": "Answer the following questions according to the text.",
+        "questions": [
+          "Why is Equatorial Guinea a very special and unique country in Africa?",
+          "What are the names of the mainland region and the island where the capital is located?",
+          "What is the name of the capital city of Equatorial Guinea?",
+          "Which European country colonized Equatorial Guinea for over one hundred years?",
+          "In what year did Equatorial Guinea gain its independence?",
+          "What major discovery in the 1990s transformed the country's economy?",
+          "What are three amazing animals that live in the thick jungles of the country?"
+        ],
+        "answerKey": [
+          "Because it is the only nation in Africa where Spanish is an official language.",
+          "The mainland is Río Muni, and the capital is on the island of Bioko.",
+          "Malabo.",
+          "Spain.",
+          "In 1968.",
+          "The discovery of massive oil reserves under the ocean.",
+          "Gorillas, chimpanzees, and forest elephants."
+        ]
+      },
+      "level_2": {
+        "tier": "Level 2 (Structured Spanish/Spanish II)",
+        "readingText": "Guinea Ecuatorial es un país muy especial y único porque es la única nación en todo el continente de África donde el español es un idioma oficial. Está situado en la costa oeste de África central y tiene una geografía muy curiosa. El país está formado por una parte continental llamada Río Muni, que está llena de selvas tropicales, y por varias islas hermosas. La capital del país se llama Malabo, pero no está en el continente, sino en una isla volcánica llamada Bioko.\n\nLa historia de este país está muy conectada con Europa. Guinea Ecuatorial fue una colonia de España durante más de cien años y consiguió su independencia en el año 1968. Por esta razón, los habitantes hablan un español excelente, pero mezclado con expresiones africanas muy interesantes. Si caminas por las calles de Malabo, puedes ver edificios antiguos de estilo colonial que se parecen mucho a las casas tradicionales de España o de América Latina.\n\nEn los años noventa, el país descubrió enormes reservas de petróleo en el océano. Este descubrimiento cambió la economía rápidamente y trajo mucho dinero al país. Sin embargo, el tesoro más grande de Guinea Ecuatorial es su naturaleza. Sus selvas son el hogar de animales increíbles como gorilas, chimpancés y elefantes de bosque. Conocer Guinea Ecuatorial es muy importante para los estudiantes de español porque demuestra que este idioma es verdaderamente global. Es un hermoso país africano que tiene un corazón y una voz hispana.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Por qué es un país único en todo el continente de África?",
+          "¿Cómo se llama la parte continental y la isla donde está la capital?",
+          "¿Qué país de Europa controló Guinea Ecuatorial por más de cien años?",
+          "¿Qué estilo de arquitectura se puede observar en las calles de la capital?",
+          "¿Qué recurso natural se descubrió en los océanos en los años noventa?",
+          "¿Qué animales increíbles viven en las selvas de Río Muni?",
+          "¿Qué nos enseña este país sobre el alcance del idioma español en el mundo?"
+        ],
+        "answerKey": [
+          "Porque es la única nación en África donde el español es un idioma oficial.",
+          "La parte continental se llama Río Muni y la capital está en la isla de Bioko.",
+          "España.",
+          "Edificios antiguos de estilo colonial, similares a los de España y América Latina.",
+          "Enormes reservas de petróleo.",
+          "Gorilas, chimpancés y elefantes de bosque.",
+          "Demuestra que el español es un idioma verdaderamente global."
+        ]
+      },
+      "level_3": {
+        "tier": "Level 3 (Natural Spanish/Advanced)",
+        "readingText": "Guinea Ecuatorial ocupa un lugar verdaderamente excepcional en la hispanosfera, destacándose como la única nación soberana del continente africano que mantiene el español como su principal idioma oficial. Ubicada en la costa occidental de África Central, su fragmentada geografía es fascinante: comprende una región continental selvática conocida como Río Muni, y un archipiélago de islas, siendo Bioko la más importante. Curiosamente, la capital política e histórica del país, Malabo, se encuentra en la isla de Bioko, separada geográficamente de la mayoría del territorio continental.\n\nEl vínculo hispánico de Guinea Ecuatorial es producto de más de un siglo de colonización española, la cual culminó con la independencia de la nación en 1968. Esta herencia ha dejado una profunda huella arquitectónica en sus ciudades y un legado lingüístico único; el español ecuatoguineano se nutre de la fonética y el vocabulario de lenguas bantúes originarias como el fang y el bubi, creando una variante dialectal sumamente rica. A finales del siglo veinte, el descubrimiento de vastos yacimientos petrolíferos en alta mar transformó radicalmente su economía, convirtiéndolo en uno de los países con mayor renta per cápita de África, aunque la distribución de esta riqueza sigue siendo un gran desafío.\n\nMás allá de su desarrollo económico, el país alberga una biodiversidad espectacular en sus selvas vírgenes, que sirven de refugio para primates endémicos y elefantes de bosque. Para el estudioso de la lengua, Guinea Ecuatorial representa la confirmación de la expansión transcontinental del español. Es el testimonio vivo de una africanidad hispanoparlante que enriquece enormemente el mosaico cultural y lingüístico de la comunidad hispana a nivel mundial.",
+        "instruction": "Contesta las preguntas según el texto.",
+        "questions": [
+          "¿Qué hecho hace excepcional a Guinea Ecuatorial dentro de la hispanosfera?",
+          "¿Cuál es la división geográfica principal del territorio del país?",
+          "¿Dónde se ubica irónicamente la capital política del país respecto a su geografía?",
+          "¿Qué lenguas originarias nutren e influyen el español ecuatoguineano?",
+          "¿Qué recurso transformó radicalmente la economía del país a finales del siglo veinte?",
+          "¿Qué reto económico social persiste a pesar del alto ingreso per cápita?",
+          "¿Qué representa el estudio de este país para la expansión de la lengua española?"
+        ],
+        "answerKey": [
+          "Es la única nación soberana africana que mantiene el español como idioma oficial principal.",
+          "Se divide en la región continental (Río Muni) y un archipiélago de islas.",
+          "Se ubica en la isla de Bioko, separada de la mayoría del territorio continental.",
+          "Las lenguas bantúes originarias como el fang y el bubi.",
+          "El descubrimiento de vastos yacimientos petrolíferos en alta mar.",
+          "La distribución equitativa de esta nueva riqueza entre la población.",
+          "Representa la confirmación de la expansión transcontinental del español (una africanidad hispanoparlante)."
+        ]
+      }
+    }
+  },
   {
     "topicName": "Los Moáis de la Isla de Pascua",
     "imageFileName": "moais.jpg",
@@ -27888,690 +28572,6 @@
           "Reflexionan sobre la fugacidad de la vida humana, la muerte y la belleza efímera de la naturaleza.",
           "Postulaba que el arte y la poesía eran lo único que podía trascender la mortalidad.",
           "Su rostro y sus versos engalanan el billete de cien pesos mexicanos."
-        ]
-      }
-    }
-  },
-  {
-    "topicName": "México: El Gigante de Norteamérica",
-    "imageFileName": "mexico_overview.png",
-    "bundles": ["north_america", "geography", "vip_lifetime"],
-    "levels": {
-      "level_1": {
-        "tier": "Level 1 (English/Beginner)",
-        "readingText": "Mexico is an incredible and vast country located in the southern part of North America. It is famous for its rich history, vibrant culture, and diverse landscapes. The country borders the United States to the north and Guatemala and Belize to the south. With beautiful beaches, dense jungles, and enormous deserts, Mexico offers something magical for every traveler. The capital, Mexico City, is one of the largest and most populated cities in the entire world, built right on top of the ancient Aztec capital, Tenochtitlán.\n\nThe history of Mexico is a fascinating mix of ancient indigenous civilizations and Spanish colonial influence. Long before the Spanish arrived, the Maya and the Aztecs built massive pyramids, advanced cities, and studied the stars. You can still visit these breathtaking archaeological sites today, such as Chichén Itzá and Teotihuacán. After the Spanish conquest, the culture blended perfectly, creating the unique Mexican identity we know today.\n\nFood is an essential part of Mexican culture, and it is so special that UNESCO declared it an Intangible Cultural Heritage of Humanity. Delicious dishes like tacos, mole, and tamales are loved globally. Mexicans are also famous for their deep connection to family and traditions. The Day of the Dead is a beautiful and colorful holiday where people honor their loved ones who have passed away. For students of Spanish, exploring Mexico is a wonderful adventure. It is a country full of life, welcoming people, and endless stories, proving that it truly is the cultural giant of North America.",
-        "instruction": "Answer the following questions according to the text.",
-        "questions": [
-          "Where is Mexico located?",
-          "What three countries border Mexico according to the text?",
-          "What ancient city is Mexico City built on top of?",
-          "Which two ancient indigenous civilizations are mentioned?",
-          "What are two examples of breathtaking archaeological sites you can visit?",
-          "What international organization recognized Mexican food as a Cultural Heritage?",
-          "What is the colorful holiday where people honor their loved ones who passed away?"
-        ],
-        "answerKey": [
-          "In the southern part of North America.",
-          "The United States, Guatemala, and Belize.",
-          "The ancient Aztec capital, Tenochtitlán.",
-          "The Maya and the Aztecs.",
-          "Chichén Itzá and Teotihuacán.",
-          "UNESCO.",
-          "The Day of the Dead."
-        ]
-      },
-      "level_2": {
-        "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "México es un país increíble y enorme situado en la parte sur de Norteamérica. Es muy famoso por su historia rica, su cultura vibrante y sus paisajes diferentes. El país tiene frontera con Estados Unidos en el norte y con Guatemala y Belice en el sur. Con playas hermosas, selvas densas y desiertos gigantes, México tiene lugares mágicos para todos los viajeros. La capital, la Ciudad de México, es una de las ciudades más grandes del mundo entero y está construida sobre Tenochtitlán, la antigua capital azteca.\n\nLa historia de México es una mezcla fascinante de civilizaciones indígenas y la influencia colonial de España. Mucho antes de que llegaran los españoles, los mayas y los aztecas construyeron pirámides enormes, ciudades avanzadas y estudiaron las estrellas. Hoy en día, todavía puedes visitar estos impresionantes sitios arqueológicos, como Chichén Itzá y Teotihuacán. Después de la conquista española, las culturas se mezclaron perfectamente, creando la identidad mexicana única que conocemos hoy.\n\nLa comida es una parte esencial de la cultura mexicana. Es tan especial que la UNESCO la declaró Patrimonio Cultural Inmaterial de la Humanidad. Platos deliciosos como los tacos, el mole y los tamales son muy populares a nivel mundial. Los mexicanos también son famosos por su fuerte conexión con la familia y sus tradiciones. El Día de Muertos es una celebración hermosa y llena de colores donde las personas recuerdan a sus seres queridos que han muerto. Para los estudiantes, explorar México es una aventura maravillosa en un país lleno de vida, alegría y personas muy amables.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Dónde está situado el país de México?",
-          "¿Con qué tres países tiene frontera México?",
-          "¿Sobre qué capital antigua está construida la Ciudad de México?",
-          "¿Qué civilizaciones construyeron pirámides antes de los españoles?",
-          "¿Qué nombramiento especial le dio la UNESCO a la comida mexicana?",
-          "¿Cuáles son tres platos típicos y deliciosos de México?",
-          "¿Qué se recuerda durante la celebración del Día de Muertos?"
-        ],
-        "answerKey": [
-          "En la parte sur de Norteamérica.",
-          "Con Estados Unidos, Guatemala y Belice.",
-          "Sobre Tenochtitlán, la capital azteca.",
-          "Los mayas y los aztecas.",
-          "Patrimonio Cultural Inmaterial de la Humanidad.",
-          "Los tacos, el mole y los tamales.",
-          "Se recuerda a los seres queridos que han muerto."
-        ]
-      },
-      "level_3": {
-        "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "México se erige como una potencia cultural y geográfica indiscutible en la región meridional de Norteamérica. Este vasto país presenta una topografía excepcionalmente diversa, que abarca desde los áridos desiertos norteños hasta las selvas tropicales y las paradisíacas costas del Caribe y el Pacífico. Su capital, la Ciudad de México, es una megalópolis vibrante que late sobre los cimientos lacustres de la antigua Tenochtitlán. Esta superposición urbanística es un reflejo exacto de la identidad nacional: un sincretismo profundo entre la majestuosidad prehispánica y el legado arquitectónico colonial.\n\nLa historia de México está forjada por el esplendor de civilizaciones milenarias como la olmeca, la maya y la mexica, cuyas innovaciones astronómicas y proezas arquitectónicas siguen maravillando a la humanidad en yacimientos como Palenque o Teotihuacán. La llegada de los españoles en el siglo dieciséis desencadenó un dramático choque cultural que, con el paso de los siglos, gestó una sociedad mestiza rica y compleja. Hoy, el país exporta su inmensa riqueza artística a través de la literatura, el cine y la pintura, con figuras de renombre internacional.\n\nLa gastronomía mexicana, declarada Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO, es un mosaico de sabores que utiliza el maíz, el chile y el frijol como pilares sagrados. Paralelamente, festividades como el Día de Muertos ilustran la particular filosofía mexicana ante la vida y la muerte, celebrando la memoria con un colorido respeto. Para el estudioso del mundo hispano, México no es solo un destino; es una experiencia sensorial y académica inagotable que define gran parte del carácter, la historia y la vitalidad de la América contemporánea.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Cómo describe el autor la topografía excepcionalmente diversa de México?",
-          "¿Qué representa la superposición urbanística de la capital mexicana?",
-          "¿Qué civilizaciones milenarias forjaron la historia prehispánica del país?",
-          "¿Qué resultado histórico a largo plazo tuvo la llegada de los españoles en el siglo XVI?",
-          "¿Cuáles son los tres pilares sagrados de la gastronomía mexicana mencionados?",
-          "¿Qué ilustra la festividad del Día de Muertos sobre la filosofía nacional?",
-          "¿A través de qué medios exporta México su riqueza artística contemporánea al mundo?"
-        ],
-        "answerKey": [
-          "Abarca desde desiertos norteños hasta selvas tropicales y costas del Caribe y el Pacífico.",
-          "Es un reflejo de la identidad nacional y un sincretismo entre lo prehispánico y lo colonial.",
-          "Las civilizaciones olmeca, maya y mexica.",
-          "Desencadenó un choque cultural que gestó una sociedad mestiza rica y compleja.",
-          "El maíz, el chile y el frijol.",
-          "Ilustra la particular filosofía mexicana ante la vida y la muerte.",
-          "A través de la literatura, el cine y la pintura."
-        ]
-      }
-    }
-  },
-  {
-    "topicName": "España: La Cuna del Idioma",
-    "imageFileName": "espana_overview.png",
-    "bundles": ["europe", "geography", "vip_lifetime"],
-    "levels": {
-      "level_1": {
-        "tier": "Level 1 (English/Beginner)",
-        "readingText": "Spain is a beautiful and historic country located on the Iberian Peninsula in southwestern Europe. It is famous around the world for its diverse culture, stunning landscapes, and as the birthplace of the Spanish language. Spain is divided into seventeen different autonomous communities, and each region has its own unique traditions, food, and sometimes even its own language, like Catalan or Basque. The capital city, Madrid, is located right in the center of the country and is famous for its grand museums and lively streets.\n\nThe history of Spain is incredibly rich and complex. For many centuries, the peninsula was home to Romans, Visigoths, and Moors from North Africa. This long period of mixing cultures created some of the most beautiful architecture in the world. You can easily see this blend when you visit ancient monuments like the Alhambra palace in Granada or the impressive Mezquita in Cordoba. Later, Spain became a massive global empire that spread its language and culture across the Americas.\n\nToday, Spain is a modern, progressive country known for its relaxed and joyful lifestyle. Spaniards love to spend time outside, taking evening walks and eating small plates of food called 'tapas' with their friends and family. The country is also famous for traditional festivals, spectacular beaches, and a passion for sports, especially soccer. For students learning the language, studying Spain is absolutely essential. It provides a deep understanding of the historical roots of the Spanish language and offers a brilliant window into a vibrant, welcoming, and beautifully diverse European society.",
-        "instruction": "Answer the following questions according to the text.",
-        "questions": [
-          "Where is Spain located?",
-          "How many autonomous communities is Spain divided into?",
-          "What are two examples of regional languages spoken in Spain?",
-          "What groups of people lived on the peninsula for many centuries?",
-          "What are two famous ancient monuments mentioned in the text?",
-          "What are 'tapas' in Spanish culture?",
-          "Why is studying Spain essential for students learning the language?"
-        ],
-        "answerKey": [
-          "On the Iberian Peninsula in southwestern Europe.",
-          "Seventeen.",
-          "Catalan and Basque.",
-          "Romans, Visigoths, and Moors from North Africa.",
-          "The Alhambra palace and the Mezquita in Cordoba.",
-          "Small plates of food eaten with friends and family.",
-          "It provides a deep understanding of the historical roots of the Spanish language."
-        ]
-      },
-      "level_2": {
-        "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "España es un país hermoso e histórico situado en la Península Ibérica, en el suroeste de Europa. Es famoso en todo el mundo por su cultura diversa, sus paisajes espectaculares y por ser la cuna del idioma español. España está dividida en diecisiete comunidades autónomas diferentes. Cada región tiene sus propias tradiciones, su comida típica y a veces su propio idioma, como el catalán o el vasco. La capital, Madrid, está en el centro exacto del país y es muy conocida por sus grandes museos.\n\nLa historia de España es increíblemente rica y compleja. Durante muchos siglos, la península fue el hogar de romanos, visigodos y árabes del norte de África. Esta mezcla de culturas creó algunas de las obras de arquitectura más hermosas del mundo. Puedes ver esta influencia cuando visitas monumentos antiguos como el palacio de la Alhambra en Granada o la impresionante Mezquita en Córdoba. Después, España se convirtió en un gran imperio que llevó su idioma a América.\n\nHoy en día, España es un país moderno y progresista, muy conocido por su estilo de vida relajado y alegre. A los españoles les encanta pasar tiempo al aire libre, caminar por las tardes y comer 'tapas' deliciosas con sus amigos y familiares. El país también es famoso por sus fiestas tradicionales, sus playas y su gran pasión por los deportes. Para los estudiantes de español, conocer España es fundamental. Ayuda a entender las raíces del idioma y muestra una sociedad europea muy vibrante, amable y llena de diversidad.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Dónde está situada España?",
-          "¿En cuántas comunidades autónomas está dividido el país?",
-          "¿Qué otras lenguas se hablan en algunas regiones de España?",
-          "¿Qué tres grupos vivieron en la península durante muchos siglos?",
-          "¿Qué dos monumentos antiguos demuestran la mezcla de culturas?",
-          "¿Qué costumbre gastronómica disfrutan los españoles al aire libre?",
-          "¿Hacia dónde llevó España su idioma cuando era un imperio?"
-        ],
-        "answerKey": [
-          "En la Península Ibérica, en el suroeste de Europa.",
-          "En diecisiete comunidades autónomas.",
-          "El catalán o el vasco.",
-          "Romanos, visigodos y árabes.",
-          "El palacio de la Alhambra y la Mezquita en Córdoba.",
-          "Comer 'tapas' deliciosas con amigos y familiares.",
-          "Lo llevó a América."
-        ]
-      },
-      "level_3": {
-        "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "El Reino de España, situado estratégicamente en la Península Ibérica, constituye un puente geográfico y cultural ineludible entre Europa, África y América. Reconocida universalmente como la cuna del idioma castellano, esta nación se caracteriza por una asombrosa pluralidad interna. Su territorio está estructurado en diecisiete comunidades autónomas, entidades que resguardan con celo identidades históricas, costumbres milenarias y, en varios casos, lenguas cooficiales como el catalán, el gallego o el euskera. Madrid, la dinámica capital, ejerce de centro político y cultural en la meseta central.\n\nLa trayectoria histórica española es un fascinante tapiz tejido por múltiples civilizaciones. El paso de romanos, visigodos y, de manera determinante, los ocho siglos de presencia andalusí, han dejado una huella indeleble en la idiosincrasia y la estética monumental del país. Joyas arquitectónicas como la Alhambra de Granada o la Mezquita de Córdoba atestiguan esta convivencia histórica sin precedentes. Posteriormente, la expansión ultramarina durante la Edad Moderna consolidó a España como un imperio global, exportando su lengua y su cosmovisión al Nuevo Mundo.\n\nEn la actualidad, España se proyecta como una democracia moderna, tolerante y altamente desarrollada, integrada plenamente en la Unión Europea. Su estilo de vida es célebre por priorizar la socialización en espacios públicos y la rica cultura de las tapas, elementos que reflejan un carácter abierto y vitalista. Para el estudiante de la lengua y la cultura hispánicas, sumergirse en la realidad de España resulta absolutamente imperativo. Es un viaje a las raíces etimológicas e históricas que permite comprender la evolución de un mundo hispanohablante vasto, diverso y eternamente interconectado.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Qué continentes conecta España gracias a su situación estratégica?",
-          "Menciona las tres lenguas cooficiales citadas en el texto además del castellano.",
-          "¿Qué tres grandes civilizaciones dejaron una huella indeleble en el país históricamente?",
-          "¿Qué monumentos andaluces atestiguan la convivencia de culturas en la península?",
-          "¿Qué papel jugó España en la Edad Moderna a nivel mundial?",
-          "¿Qué costumbre social española refleja su carácter abierto y vitalista?",
-          "¿Por qué es imperativo para un estudiante de español sumergirse en la realidad de España?"
-        ],
-        "answerKey": [
-          "Conecta Europa, África y América.",
-          "El catalán, el gallego y el euskera.",
-          "Los romanos, los visigodos y los árabes (presencia andalusí).",
-          "La Alhambra de Granada y la Mezquita de Córdoba.",
-          "Se consolidó como un imperio global, exportando su lengua al Nuevo Mundo.",
-          "Priorizar la socialización en espacios públicos y la rica cultura de las tapas.",
-          "Porque es un viaje a las raíces etimológicas e históricas del idioma."
-        ]
-      }
-    }
-  },
-  {
-    "topicName": "Perú: El Imperio Andino",
-    "imageFileName": "peru_overview.png",
-    "bundles": ["south_america", "geography", "vip_lifetime"],
-    "levels": {
-      "level_1": {
-        "tier": "Level 1 (English/Beginner)",
-        "readingText": "Located on the western coast of South America, Peru is a country of breathtaking landscapes and extraordinary ancient history. It is world-famous for being the heart of the powerful Inca Empire, which ruled the Andes mountains long before the Spanish arrived. Peru has three very different geographical regions: the dry coastal desert next to the Pacific Ocean, the towering peaks of the Andes mountains, and the lush, green Amazon rainforest in the east. The capital city is Lima, which sits right on the coast.\n\nThe most iconic symbol of Peru is Machu Picchu, a stunning ancient city built high up in the cloudy mountains. Millions of people travel to Peru every year just to walk the Inca Trail and see this magical stone fortress. But the Incas were not the only brilliant civilization here. You can also find the mysterious Nazca Lines, which are massive drawings of animals in the desert sand that can only be seen from an airplane.\n\nToday, Peru is globally celebrated for its incredible food. Peruvian cuisine mixes ancient indigenous ingredients, like potatoes and corn, with Spanish, African, and Asian influences. The most famous dish is 'ceviche', made with fresh raw fish and lime juice. The Peruvian people are very proud of their deep roots, and millions still speak the native Quechua language today. For students learning Spanish, Peru offers a fascinating look into a country where the modern world and ancient traditions exist beautifully together, sharing amazing stories of survival, creativity, and absolute natural beauty.",
-        "instruction": "Answer the following questions according to the text.",
-        "questions": [
-          "Where is Peru located?",
-          "What ancient empire was Peru the heart of?",
-          "What are the three different geographical regions of Peru?",
-          "What is the capital city of Peru?",
-          "What famous ancient city is located high up in the cloudy mountains?",
-          "How can the massive drawings of the Nazca Lines be seen?",
-          "What native language do millions of Peruvians still speak today?"
-        ],
-        "answerKey": [
-          "On the western coast of South America.",
-          "The Inca Empire.",
-          "The dry coastal desert, the Andes mountains, and the Amazon rainforest.",
-          "Lima.",
-          "Machu Picchu.",
-          "They can only be seen from an airplane.",
-          "Quechua."
-        ]
-      },
-      "level_2": {
-        "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "Ubicado en la costa oeste de América del Sur, Perú es un país de paisajes impresionantes y una historia antigua extraordinaria. Es muy famoso a nivel mundial por ser el corazón del poderoso Imperio Inca, que controló las montañas antes de que llegaran los españoles. Perú tiene tres regiones geográficas muy diferentes: el desierto seco en la costa del océano Pacífico, las altas montañas de los Andes y la selva verde del Amazonas en el este. La capital del país es Lima, situada en la costa.\n\nEl símbolo más famoso de Perú es Machu Picchu, una antigua y hermosa ciudad construida muy alto en las montañas. Millones de personas viajan a Perú todos los años para caminar por el Camino Inca y ver esta fortaleza mágica de piedra. Pero los incas no fueron la única civilización brillante aquí. También puedes encontrar las famosas Líneas de Nazca, que son dibujos gigantes de animales en el desierto que solo se pueden ver desde un avión.\n\nHoy en día, Perú es muy famoso internacionalmente por su increíble comida. La gastronomía peruana mezcla ingredientes indígenas, como las papas y el maíz, con influencias de España, África y Asia. El plato más famoso es el ceviche, hecho con pescado crudo fresco y limón. Los peruanos están muy orgullosos de sus raíces, y millones de personas todavía hablan la lengua nativa quechua. Conocer Perú es descubrir un lugar fascinante donde el mundo moderno y las tradiciones antiguas viven juntos en perfecta armonía.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Dónde está ubicado el país de Perú?",
-          "¿Cuáles son las tres regiones geográficas del país?",
-          "¿Qué imperio poderoso controló las montañas antes de los españoles?",
-          "¿Cómo se llama la ciudad antigua y mágica construida en las montañas?",
-          "¿Qué son las Líneas de Nazca y dónde están?",
-          "¿Qué influencias culturales mezcla la comida peruana?",
-          "¿Cuál es el plato más famoso de la gastronomía peruana?"
-        ],
-        "answerKey": [
-          "En la costa oeste de América del Sur.",
-          "El desierto seco, las montañas de los Andes y la selva del Amazonas.",
-          "El Imperio Inca.",
-          "Machu Picchu.",
-          "Son dibujos gigantes de animales en el desierto.",
-          "Influencias de indígenas, España, África y Asia.",
-          "El ceviche."
-        ]
-      },
-      "level_3": {
-        "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "Situado estratégicamente en la costa occidental de Sudamérica, el Perú se erige como una nación de contrastes geográficos deslumbrantes y una profundidad arqueológica inigualable. Es reconocido universalmente como la cuna del majestuoso Imperio Inca, la civilización precolombina más extensa del continente. Su topografía se divide drásticamente en tres regiones: la árida franja costera bañada por el Pacífico, la imponente cordillera de los Andes y la exuberante cuenca amazónica. Lima, su bulliciosa capital costera, es el epicentro político y culinario del país.\n\nEl patrimonio histórico peruano es abrumador. Machu Picchu, la ciudadela incaica enclavada en la ceja de selva, es una maravilla de la ingeniería lítica y el principal imán turístico de la región. Sin embargo, la grandeza arqueológica de Perú antecede a los incas, evidenciándose en las misteriosas Líneas de Nazca y en las sofisticadas culturas Moche y Chimú. Estas civilizaciones dominaron un entorno hostil mediante avanzados sistemas de irrigación y un profundo conocimiento astronómico.\n\nEn la época contemporánea, Perú ha conquistado el mundo a través de su prodigiosa gastronomía. Su arte culinario es el resultado de un mestizaje magistral que fusiona ingredientes endémicos, como las miles de variedades de papas nativas, con influencias hispanas, africanas y asiáticas. Platos como el ceviche o el lomo saltado son auténticos embajadores culturales. La pervivencia del idioma quechua y del aimara, hablados por millones de ciudadanos, demuestra la resiliencia de sus pueblos originarios. El Perú invita a una inmersión profunda en un territorio donde la majestuosidad del pasado indígena sigue dictando el pulso y el orgullo de su vibrante presente.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Cómo se describe la división geográfica o topográfica del Perú?",
-          "¿Qué civilización precolombina es considerada la más extensa del continente?",
-          "¿Qué maravilla arquitectónica se encuentra enclavada en la ceja de selva?",
-          "Nombra dos civilizaciones peruanas avanzadas que anteceden a los incas.",
-          "¿Cómo dominaron las antiguas civilizaciones el entorno hostil del desierto?",
-          "¿Qué mestizaje caracteriza al arte culinario peruano contemporáneo?",
-          "¿Qué idiomas nativos demuestran la resiliencia de los pueblos originarios?"
-        ],
-        "answerKey": [
-          "En tres regiones: la costa árida, la cordillera andina y la cuenca amazónica.",
-          "El Imperio Inca.",
-          "Machu Picchu.",
-          "Las culturas Moche y Chimú (y Nazca).",
-          "Mediante avanzados sistemas de irrigación y un profundo conocimiento astronómico.",
-          "Un mestizaje que fusiona ingredientes endémicos con influencias hispanas, africanas y asiáticas.",
-          "El quechua y el aimara."
-        ]
-      }
-    }
-  },
-  {
-    "topicName": "Chile: El País Poeta",
-    "imageFileName": "chile_overview.png",
-    "bundles": ["south_america", "geography", "vip_lifetime"],
-    "levels": {
-      "level_1": {
-        "tier": "Level 1 (English/Beginner)",
-        "readingText": "Located on the western edge of South America, Chile is known as the country at the end of the world. It has a very unique shape, being incredibly long and narrow, stretching over four thousand kilometers along the Pacific Ocean. Because of its extreme length, Chile has a spectacular variety of climates and landscapes. In the north, you can find the Atacama Desert, which is the driest desert on the entire planet. In the center lies the capital city, Santiago, surrounded by the towering Andes mountains. In the far south, the beautiful region of Patagonia is filled with massive glaciers, cold fjords, and deep blue lakes.\n\nHistorically, Chile has faced many natural challenges, such as large earthquakes and volcanic eruptions, which have made the Chilean people incredibly strong and resilient. The economy is very powerful, known globally for exporting delicious wines, fresh fruits, and copper, which is a vital metal for modern technology.\n\nChile is also famously called the 'country of poets.' It is the birthplace of legendary writers like Pablo Neruda and Gabriela Mistral, who both won the Nobel Prize in Literature for their beautiful and emotional poetry. The local culture is warm and welcoming, and during national holidays, people love to dance the 'Cueca,' the traditional national dance, while eating delicious empanadas. For a student learning Spanish, studying Chile offers a wonderful journey through dramatic natural extremes, rich literary history, and a modern society that proudly protects its breathtaking environment at the very bottom of the globe.",
-        "instruction": "Answer the following questions according to the text.",
-        "questions": [
-          "Where is Chile located and what is its unique shape?",
-          "What is special about the Atacama Desert in the north?",
-          "What mountains surround the capital city of Santiago?",
-          "What natural challenges have made the Chilean people strong and resilient?",
-          "What are three major products that Chile exports globally?",
-          "Who are the two famous poets from Chile that won the Nobel Prize?",
-          "What is the name of the traditional national dance people enjoy during holidays?"
-        ],
-        "answerKey": [
-          "On the western edge of South America; it is incredibly long and narrow.",
-          "It is the driest desert on the entire planet.",
-          "The towering Andes mountains.",
-          "Large earthquakes and volcanic eruptions.",
-          "Delicious wines, fresh fruits, and copper.",
-          "Pablo Neruda and Gabriela Mistral.",
-          "The 'Cueca'."
-        ]
-      },
-      "level_2": {
-        "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "Situado en la costa oeste de América del Sur, Chile es conocido como el país en el fin del mundo. Su forma es muy curiosa porque es un territorio increíblemente largo y estrecho que acompaña al Océano Pacífico. Gracias a esta forma especial, Chile tiene una variedad espectacular de climas y paisajes. En el norte, puedes explorar el Desierto de Atacama, que es el desierto más seco de todo el planeta. En el centro se encuentra la capital, Santiago, una ciudad moderna rodeada por las montañas altas de los Andes. En el sur está la Patagonia, una región famosa por sus glaciares gigantes y lagos fríos.\n\nDurante su historia, Chile ha sufrido muchos terremotos y erupciones volcánicas. Estos desafíos naturales han hecho que los chilenos sean personas muy fuertes y unidas. La economía del país es excelente; Chile es famoso en el mundo entero por exportar vinos deliciosos, frutas frescas y cobre, un metal muy importante.\n\nAdemás de su naturaleza, Chile es conocido internacionalmente como el 'país de poetas'. Es el hogar de escritores brillantes como Pablo Neruda y Gabriela Mistral. Ellos ganaron el Premio Nobel de Literatura por sus poemas llenos de emoción y amor. A los chilenos les encanta celebrar sus fiestas nacionales bailando la 'Cueca', su baile tradicional, y comiendo ricas empanadas. Conocer Chile es descubrir un país de contrastes extremos, donde la poesía, la modernidad y la fuerza de la naturaleza viven juntas en perfecta armonía en el hemisferio sur. Para los estudiantes de español, explorar la cultura chilena es una aventura fascinante llena de paisajes dramáticos y un vocabulario literario muy hermoso.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Por qué la forma del territorio de Chile es muy curiosa?",
-          "¿Qué récord mundial tiene el Desierto de Atacama?",
-          "¿Qué elementos de la naturaleza se pueden encontrar en la Patagonia?",
-          "¿Qué desastres naturales han sufrido los chilenos durante su historia?",
-          "¿Cuáles son las exportaciones más famosas de la economía de Chile?",
-          "¿Qué importante premio literario ganaron Pablo Neruda y Gabriela Mistral?",
-          "¿Qué hacen los chilenos para celebrar sus fiestas nacionales?"
-        ],
-        "answerKey": [
-          "Porque es increíblemente largo y estrecho.",
-          "Es el desierto más seco de todo el planeta.",
-          "Glaciares gigantes y lagos fríos.",
-          "Terremotos y erupciones volcánicas.",
-          "Vinos deliciosos, frutas frescas y cobre.",
-          "El Premio Nobel de Literatura.",
-          "Bailan la 'Cueca' y comen ricas empanadas."
-        ]
-      },
-      "level_3": {
-        "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "Enclavado en el extremo sudoccidental de Sudamérica, Chile se despliega como una franja territorial asombrosamente larga y estrecha, flanqueada por la imponente Cordillera de los Andes y el vasto Océano Pacífico. Esta singular configuración geográfica dota al país de una diversidad climática y paisajística sin parangón. El territorio abarca desde la aridez extrema del Desierto de Atacama en el norte, hasta la majestuosidad gélida de la Patagonia y la Antártica chilena en el sur, pasando por fértiles valles centrales donde se asienta Santiago, su moderna y dinámica capital.\n\nA nivel económico, Chile se ha consolidado como una de las naciones más prósperas y estables de la región, destacándose como el mayor productor mundial de cobre y un exportador de primer nivel de vinos y productos agrícolas. Sin embargo, su geografía indómita, marcada por una constante actividad sísmica y volcánica, ha forjado en el pueblo chileno un carácter profundamente resiliente y solidario ante la adversidad natural.\n\nCulturalmente, Chile ostenta el merecido título de 'país de poetas'. Su herencia literaria ha trascendido fronteras gracias a figuras colosales como Gabriela Mistral y Pablo Neruda, ambos galardonados con el Premio Nobel de Literatura. Sus versos capturan la melancolía, el amor y la fuerza telúrica de su tierra. En el ámbito folclórico, la cueca reina como la danza nacional, celebrando el cortejo y la identidad campesina. Para el estudiante avanzado, Chile ofrece un modelo de sociedad que equilibra hábilmente el progreso tecnológico y económico con un profundo respeto por su patrimonio literario y sus monumentales reservas naturales.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Qué dos formaciones geográficas flanquean la franja territorial chilena?",
-          "¿Qué contrastes climáticos y paisajísticos se mencionan entre el norte y el sur del país?",
-          "¿En la producción de qué recurso mineral destaca Chile a nivel mundial?",
-          "¿Qué impacto ha tenido la constante actividad sísmica en el carácter del pueblo chileno?",
-          "¿Por qué se conoce a Chile culturalmente como el 'país de poetas'?",
-          "¿Qué temas principales capturan los versos de los premios Nobel chilenos?",
-          "¿Qué celebración y danza reina en el ámbito folclórico nacional?"
-        ],
-        "answerKey": [
-          "La Cordillera de los Andes y el Océano Pacífico.",
-          "La aridez extrema del Desierto de Atacama en el norte y la majestuosidad gélida de la Patagonia en el sur.",
-          "Es el mayor productor mundial de cobre.",
-          "Ha forjado un carácter profundamente resiliente y solidario ante la adversidad.",
-          "Por ser cuna de figuras colosales como Gabriela Mistral y Pablo Neruda.",
-          "La melancolía, el amor y la fuerza telúrica de su tierra.",
-          "La cueca, que celebra el cortejo y la identidad campesina."
-        ]
-      }
-    }
-  },
-  {
-    "topicName": "Guatemala: El Corazón del Mundo Maya",
-    "imageFileName": "guatemala_overview.png",
-    "bundles": ["central_america", "geography", "vip_lifetime"],
-    "levels": {
-      "level_1": {
-        "tier": "Level 1 (English/Beginner)",
-        "readingText": "Located just south of Mexico, Guatemala is a beautiful and vibrant country known as the heart of the Mayan world. It is the most populated country in Central America and features a stunning geography filled with towering volcanoes, deep lakes, and dense tropical jungles. The capital, Guatemala City, is a busy modern metropolis, but just a short drive away is Antigua, a perfectly preserved Spanish colonial city famous for its colorful streets and spectacular Easter celebrations.\n\nOne of the most breathtaking natural wonders in the country is Lake Atitlán, a deep blue lake surrounded by three massive volcanoes and many traditional indigenous villages. Guatemala's history is deeply connected to the ancient Mayan civilization. In the northern jungle region of Petén, you can visit Tikal, one of the largest and most powerful ancient Mayan cities, featuring giant stone pyramids that rise above the trees.\n\nUnlike many other countries, the indigenous culture in Guatemala is still very much alive today. Nearly half of the population is of Mayan descent, and they still speak more than twenty different Mayan languages, such as K'iche' and Kaqchikel. The people wear traditional, brightly colored hand-woven clothing, and markets like Chichicastenango are world-famous for their beautiful crafts. Guatemala is also famous for growing some of the best coffee in the world and for its national bird, the beautiful Quetzal. For Spanish students, studying Guatemala provides a fascinating look at a country where ancient indigenous traditions and the Spanish language exist together in everyday life.",
-        "instruction": "Answer the following questions according to the text.",
-        "questions": [
-          "Where is Guatemala located and what is its nickname?",
-          "What is Antigua famous for according to the text?",
-          "What surrounds the deep blue waters of Lake Atitlán?",
-          "What can you visit in the northern jungle region of Petén?",
-          "How many Mayan languages are still spoken in Guatemala today?",
-          "What do people wear in traditional indigenous villages?",
-          "What is the name of the national bird of Guatemala?"
-        ],
-        "answerKey": [
-          "Just south of Mexico; it is known as the heart of the Mayan world.",
-          "It is a preserved Spanish colonial city famous for colorful streets and Easter celebrations.",
-          "Three massive volcanoes and many traditional indigenous villages.",
-          "Tikal, one of the largest ancient Mayan cities.",
-          "More than twenty different Mayan languages.",
-          "Traditional, brightly colored hand-woven clothing.",
-          "The Quetzal."
-        ]
-      },
-      "level_2": {
-        "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "Situada al sur de México, Guatemala es un país hermoso y vibrante conocido como el corazón del mundo maya. Es el país con más habitantes de América Central y tiene una geografía impresionante llena de volcanes altos, lagos profundos y selvas tropicales. La capital es la Ciudad de Guatemala, una ciudad moderna y grande. Sin embargo, muy cerca está Antigua, una ciudad colonial española famosa por sus calles de piedra, casas de colores y sus celebraciones espectaculares durante la Semana Santa.\n\nUna de las maravillas naturales más increíbles del país es el Lago de Atitlán. Es un lago de color azul profundo que está rodeado por tres volcanes gigantes y muchos pueblos indígenas. La historia de Guatemala está fuertemente conectada con la antigua civilización maya. En la selva del norte, puedes visitar Tikal, una de las ciudades mayas más grandes y poderosas de la historia, con pirámides de piedra que suben por encima de los árboles.\n\nLa cultura indígena en Guatemala sigue muy viva hoy en día. Casi la mitad de la población tiene raíces mayas y todavía hablan más de veinte lenguas indígenas diferentes. Las personas usan ropa tradicional hecha a mano con colores muy brillantes. Los mercados locales, como el de Chichicastenango, son famosos en todo el mundo por sus artesanías. Además, Guatemala produce un café excelente y su ave nacional es el hermoso quetzal. Explorar Guatemala ayuda a los estudiantes a comprender una cultura donde las tradiciones indígenas antiguas y el idioma español conviven todos los días.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Dónde está situada Guatemala y cómo es conocida?",
-          "¿Por qué es famosa la ciudad colonial de Antigua?",
-          "¿Qué elementos de la naturaleza rodean al Lago de Atitlán?",
-          "¿Qué lugar importante se puede visitar en la selva del norte del país?",
-          "¿Cuántas lenguas indígenas se hablan todavía en Guatemala?",
-          "¿Qué lugar es famoso en todo el mundo por sus hermosas artesanías?",
-          "¿Cuál es el producto agrícola famoso y cuál es el ave nacional del país?"
-        ],
-        "answerKey": [
-          "Al sur de México, conocida como el corazón del mundo maya.",
-          "Por sus calles de piedra, casas de colores y celebraciones de Semana Santa.",
-          "Tres volcanes gigantes y muchos pueblos indígenas.",
-          "Tikal, una de las ciudades mayas más grandes.",
-          "Más de veinte lenguas indígenas diferentes.",
-          "El mercado de Chichicastenango.",
-          "El café y el quetzal."
-        ]
-      },
-      "level_3": {
-        "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "Ubicada estratégicamente como puente entre Norte y Centroamérica, Guatemala se consagra como el corazón palpitante del mundo maya. Esta nación posee una topografía dramática y espectacular, definida por espeso bosque tropical, vastas mesetas y una de las cadenas volcánicas más activas del continente. Mientras la Ciudad de Guatemala funciona como el núcleo económico y administrativo moderno, la ciudad de Antigua Guatemala preserva intacto su esplendor colonial, siendo aclamada internacionalmente por su arquitectura barroca y sus fervorosas procesiones de Semana Santa.\n\nEl legado histórico de Guatemala es monumental. En la densa selva del Petén se oculta Tikal, una de las superpotencias urbanas del periodo Clásico maya, cuyas pirámides monumentales atestiguan el avance arquitectónico y astronómico de esta civilización. A diferencia de otras naciones, el sustrato demográfico y cultural prehispánico en Guatemala se mantiene extraordinariamente vigente. Cerca de la mitad de su población es de ascendencia maya, conservando no solo su indumentaria textil de intrincada policromía, sino también más de veintidós idiomas originarios reconocidos oficialmente.\n\nEl Lago de Atitlán, flanqueado por tres majestuosos volcanes, es considerado uno de los cuerpos de agua más bellos del planeta y está rodeado de comunidades que mantienen vivas sus tradiciones milenarias. En el ámbito económico, Guatemala es un exportador líder de café de especialidad y cardamomo, recursos vitales cultivados en sus fértiles suelos volcánicos. Para el estudioso, Guatemala ofrece una radiografía perfecta del sincretismo cultural latinoamericano, un territorio donde la herencia de los ancestros mayas sigue dictando el pulso social, lingüístico y espiritual de la sociedad contemporánea.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Qué contraste urbano existe entre la Ciudad de Guatemala y Antigua Guatemala?",
-          "¿En qué región selvática se oculta la superpotencia urbana de Tikal?",
-          "¿De qué son testimonio las pirámides monumentales de Tikal?",
-          "¿Qué porcentaje aproximado de la población guatemalteca es de ascendencia maya?",
-          "¿Qué evidencia lingüística demuestra la vigencia de la cultura prehispánica en el país?",
-          "¿Qué características geográficas hacen del Lago de Atitlán un lugar notable?",
-          "¿Qué recursos vitales se cultivan en los fértiles suelos volcánicos de Guatemala?"
-        ],
-        "answerKey": [
-          "La Ciudad de Guatemala es el núcleo económico moderno, mientras que Antigua preserva el esplendor colonial barroco.",
-          "En la densa selva del Petén.",
-          "Del avance arquitectónico y astronómico de la civilización maya.",
-          "Cerca de la mitad de su población.",
-          "El uso oficial de más de veintidós idiomas originarios.",
-          "Está flanqueado por tres majestuosos volcanes y es considerado uno de los más bellos del planeta.",
-          "Café de especialidad y cardamomo."
-        ]
-      }
-    }
-  },
-  {
-    "topicName": "Cuba: La Perla de las Antillas",
-    "imageFileName": "cuba_overview.png",
-    "bundles": ["caribbean_culture", "geography", "vip_lifetime"],
-    "levels": {
-      "level_1": {
-        "tier": "Level 1 (English/Beginner)",
-        "readingText": "Cuba is the largest island in the Caribbean Sea and one of the most fascinating countries in Latin America. It is located just south of Florida and is famous worldwide for its rich history, incredible music, and beautiful white-sand beaches like Varadero. The capital city, Havana, is incredibly charming and often feels like it is frozen in time. Walking through the streets of Old Havana, you will see colorful colonial buildings and thousands of classic American cars from the 1950s driving along the famous seaside avenue known as the Malecón.\n\nCuba has a very complex political history. After being a Spanish colony for centuries, it became an independent nation, but in 1959, Fidel Castro led a socialist revolution that changed the country forever. Because of political conflicts and a long economic blockade by the United States, life in Cuba has been difficult, and many people have had to rely on their creativity to survive. Despite these challenges, Cuba provides completely free healthcare and education to all its citizens and has some of the best doctors in the world.\n\nHowever, the true soul of Cuba is its joyful culture. Music and dance are everywhere. Genres like salsa, son, and rumba were born here, influencing artists all over the globe. Famous musicians like Celia Cruz and the Buena Vista Social Club have made Cuban rhythms immortal. The people of Cuba are incredibly resilient, welcoming, and happy. For students, studying Cuba is essential because it offers a deep look into a highly unique society full of unforgettable art and history.",
-        "instruction": "Answer the following questions according to the text.",
-        "questions": [
-          "Where is Cuba located in relation to the United States?",
-          "What is the name of the famous white-sand beach mentioned in the text?",
-          "What makes the streets of Old Havana feel like they are frozen in time?",
-          "What major political event changed the country forever in 1959?",
-          "Despite economic challenges, what two things does Cuba provide for free to its citizens?",
-          "What are three genres of music and dance that were born in Cuba?",
-          "Who are some of the famous musicians that made Cuban rhythms immortal?"
-        ],
-        "answerKey": [
-          "It is located just south of Florida.",
-          "Varadero.",
-          "Colorful colonial buildings and classic American cars from the 1950s.",
-          "The socialist revolution led by Fidel Castro.",
-          "Completely free healthcare and education.",
-          "Salsa, son, and rumba.",
-          "Celia Cruz and the Buena Vista Social Club."
-        ]
-      },
-      "level_2": {
-        "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "Cuba es la isla más grande del Mar Caribe y uno de los países más fascinantes de América Latina. Está ubicada muy cerca de Florida y es famosa en todo el mundo por su historia compleja, su música increíble y sus playas de arena blanca como Varadero. La capital, La Habana, es una ciudad mágica que parece estar congelada en el tiempo. Si caminas por las calles de La Habana Vieja, puedes ver edificios coloniales de muchos colores y miles de autos clásicos americanos de los años cincuenta conduciendo por el famoso paseo del Malecón.\n\nLa historia política de Cuba es muy diferente a la del resto del continente. En 1959, Fidel Castro lideró una revolución socialista que transformó el sistema del país por completo. Debido a los problemas políticos y al bloqueo económico de Estados Unidos, la vida diaria en Cuba ha sido muy difícil. Los cubanos han tenido que usar mucha imaginación para sobrevivir. A pesar de los problemas económicos, el país ofrece educación y medicina totalmente gratis a todos sus ciudadanos, y tiene médicos excelentes.\n\nEl verdadero corazón de Cuba es su cultura alegre. La música y el baile están en todas partes. Ritmos como la salsa, el son y la rumba nacieron en esta isla caribeña. Músicos famosos como Celia Cruz han llevado la alegría cubana a todo el mundo. Los cubanos son personas muy fuertes, amables y optimistas. Conocer Cuba ayuda a los estudiantes de español a entender una sociedad única, donde el arte y la música triunfan sobre las dificultades diarias.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Dónde está ubicada Cuba y cuál es su playa más famosa?",
-          "¿Qué puedes ver si caminas por las calles de La Habana Vieja?",
-          "¿Qué evento político transformó el sistema del país en 1959?",
-          "¿Por qué ha sido muy difícil la vida diaria en Cuba?",
-          "¿Qué servicios ofrece el país totalmente gratis a sus ciudadanos?",
-          "¿Qué ritmos musicales famosos nacieron en esta isla caribeña?",
-          "¿Cómo se describe a los cubanos en el texto?"
-        ],
-        "answerKey": [
-          "Está ubicada muy cerca de Florida y su playa famosa es Varadero.",
-          "Edificios coloniales de muchos colores y autos clásicos de los años cincuenta.",
-          "La revolución socialista liderada por Fidel Castro.",
-          "Debido a los problemas políticos y al bloqueo económico de Estados Unidos.",
-          "Educación y medicina (salud).",
-          "La salsa, el son y la rumba.",
-          "Como personas muy fuertes, amables y optimistas."
-        ]
-      },
-      "level_3": {
-        "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "La República de Cuba, la mayor de las Antillas, se erige como una nación de una riqueza cultural desbordante y una trayectoria geopolítica absolutamente singular en el hemisferio occidental. Su capital, La Habana, es una joya arquitectónica donde el esplendor colonial español dialoga con el deterioro urbano, creando una estética melancólica y cautivadora. El famoso Malecón y las calles adoquinadas de La Habana Vieja sirven como escenario constante por donde transitan los icónicos 'almendrones', vehículos estadounidenses de la década de 1950 que atestiguan un país paralizado en el tiempo.\n\nEl parteaguas definitivo de la historia cubana contemporánea fue la Revolución de 1959 liderada por Fidel Castro, que instauró un modelo socialista a escasas millas de Estados Unidos. Este evento desencadenó un prolongado embargo económico que ha forjado en el pueblo cubano una capacidad de inventiva y resiliencia asombrosa para sortear la escasez material. Pese a las agudas carencias económicas y las restricciones de libertades civiles, el Estado cubano ha logrado mantener sistemas universales y gratuitos de educación y salud, exportando brigadas médicas altamente capacitadas a nivel internacional.\n\nNo obstante, el mayor tesoro de Cuba es su espíritu festivo y su portentosa producción musical. La isla es la cuna irrefutable del son, la rumba, el mambo y la salsa, ritmos que constituyen la banda sonora de la resistencia popular. Agrupaciones como el Buena Vista Social Club o íconos como Celia Cruz han universalizado el compás cubano. Abordar la realidad de Cuba exige al estudiante una mirada crítica y empática hacia un pueblo que, frente a la adversidad constante, responde siempre con arte, ritmo y una inquebrantable vitalidad.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Cómo describe el autor la estética visual de la ciudad de La Habana?",
-          "¿Qué son los 'almendrones' y qué atestiguan sobre la situación del país?",
-          "¿Qué impacto geopolítico tuvo la Revolución de 1959 liderada por Fidel Castro?",
-          "¿Qué cualidad ha forjado el prolongado embargo económico en el pueblo cubano?",
-          "Menciona dos logros sociales que el Estado cubano mantiene a pesar de la escasez material.",
-          "¿Qué ritmos musicales conforman la banda sonora de la resistencia popular cubana?",
-          "¿Qué actitud exige abordar la realidad de Cuba por parte del estudiante?"
-        ],
-        "answerKey": [
-          "Como una estética melancólica y cautivadora donde dialogan el esplendor colonial y el deterioro urbano.",
-          "Son vehículos estadounidenses de la década de 1950 que atestiguan un país paralizado en el tiempo.",
-          "Instauró un modelo socialista a escasas millas de Estados Unidos y desencadenó un embargo económico.",
-          "Una capacidad de inventiva y resiliencia asombrosa para sortear la escasez material.",
-          "Sistemas universales y gratuitos de educación y salud.",
-          "El son, la rumba, el mambo y la salsa.",
-          "Exige una mirada crítica y empática hacia un pueblo que responde a la adversidad con arte y vitalidad."
-        ]
-      }
-    }
-  },
-  {
-    "topicName": "Puerto Rico: La Isla del Encanto",
-    "imageFileName": "puerto_rico_overview.png",
-    "bundles": ["caribbean_culture", "geography", "vip_lifetime"],
-    "levels": {
-      "level_1": {
-        "tier": "Level 1 (English/Beginner)",
-        "readingText": "Puerto Rico is a beautiful island in the Caribbean Sea affectionately known as the 'Isla del Encanto' or Island of Enchantment. Unlike other Latin American countries, it is an unincorporated territory of the United States. This means Puerto Ricans are US citizens, but they maintain their own unique culture, flag, and even their own Olympic sports team. The capital city is San Juan, famous worldwide for its colorful colonial buildings, cobblestone streets, and the massive historic stone fort called El Morro that guards the bay.\n\nThe island offers incredibly diverse landscapes, including stunning white-sand beaches, magical glowing bioluminescent bays, and El Yunque, which is the only tropical rainforest in the US National Forest System. Music and dance are essential parts of daily Puerto Rican life. Famous musical genres like salsa and modern reggaeton have deep roots here, and contemporary artists like Ricky Martin, Daddy Yankee, and Bad Bunny have taken the island's infectious rhythm to a massive global audience.\n\nThe local food is also incredible, featuring traditional dishes like 'mofongo', which is made from fried and mashed green plantains mixed with garlic. The people, proudly known as 'Boricuas', are famous for their remarkable warmth, resilience, and joyful spirit. Despite facing severe challenges like powerful hurricanes over the years, their beautiful culture remains incredibly strong. For Spanish students, Puerto Rico represents a fascinating blend of native Taino indigenous roots, rich African heritage, and long Spanish colonial history. It is a vibrant, welcoming place where the Spanish language is proudly celebrated and creatively mixed with modern American cultural influences.",
-        "instruction": "Answer the following questions according to the text.",
-        "questions": [
-          "What is the popular nickname for Puerto Rico?",
-          "What is Puerto Rico's political relationship with the United States?",
-          "What is the name of the massive historic stone fort in San Juan?",
-          "What is special about El Yunque?",
-          "Which two famous musical genres have deep roots in Puerto Rico?",
-          "What is 'mofongo' made from?",
-          "What are the people of Puerto Rico proudly known as?"
-        ],
-        "answerKey": [
-          "The 'Isla del Encanto' or Island of Enchantment.",
-          "It is an unincorporated territory of the United States.",
-          "El Morro.",
-          "It is the only tropical rainforest in the US National Forest System.",
-          "Salsa and reggaeton.",
-          "Fried and mashed green plantains mixed with garlic.",
-          "'Boricuas'."
-        ]
-      },
-      "level_2": {
-        "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "Puerto Rico es una hermosa isla en el Mar Caribe conocida como la 'Isla del Encanto'. A diferencia de otros países de América Latina, Puerto Rico es un territorio de los Estados Unidos. Esto significa que los puertorriqueños son ciudadanos estadounidenses, pero tienen su propia cultura, su bandera y su propio equipo olímpico. La capital de la isla es San Juan. Esta ciudad es famosa por sus casas coloniales de muchos colores y por El Morro, un fuerte de piedra gigante que protegía la ciudad en el pasado.\n\nLa geografía de la isla es muy diversa y espectacular. Tiene playas de arena blanca, bahías que brillan en la oscuridad y El Yunque, un bosque lluvioso tropical lleno de plantas y animales únicos. La música es una parte fundamental de la vida en la isla. Ritmos muy populares como la salsa y el reguetón nacieron o crecieron aquí. Artistas internacionales como Marc Anthony, Daddy Yankee y Bad Bunny han llevado la música puertorriqueña a todo el mundo.\n\nLa comida tradicional también es deliciosa. El plato más famoso es el 'mofongo', que se prepara con plátanos verdes fritos y mucho ajo. A las personas de Puerto Rico les gusta llamarse 'boricuas', una palabra que viene de los antiguos indígenas taínos. Los boricuas son personas muy felices, amables y fuertes, incluso después de sufrir huracanes terribles. Para los estudiantes de español, Puerto Rico es un lugar fascinante porque mezcla las tradiciones indígenas, africanas y españolas con la vida moderna estadounidense. Es una isla llena de energía, historia y mucha alegría tropical.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Cuál es el apodo cariñoso de la isla de Puerto Rico?",
-          "¿Por qué Puerto Rico es diferente a otros países de América Latina?",
-          "¿Qué edificio histórico gigante protegía la ciudad de San Juan en el pasado?",
-          "¿Qué tipo de lugar natural es El Yunque?",
-          "¿Qué ritmos musicales populares crecieron y se desarrollaron en esta isla?",
-          "¿Cómo se llama el plato tradicional hecho con plátanos verdes fritos y ajo?",
-          "¿De qué antigua cultura indígena viene la palabra 'boricua'?"
-        ],
-        "answerKey": [
-          "La 'Isla del Encanto'.",
-          "Porque es un territorio de los Estados Unidos.",
-          "El Morro (un fuerte de piedra).",
-          "Un bosque lluvioso tropical.",
-          "La salsa y el reguetón.",
-          "El mofongo.",
-          "De los indígenas taínos."
-        ]
-      },
-      "level_3": {
-        "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "Puerto Rico, mundialmente reconocido como la 'Isla del Encanto', ocupa un lugar singular en la geopolítica y la cultura del hemisferio occidental. Constituido como un Estado Libre Asociado de los Estados Unidos desde 1952, sus habitantes poseen ciudadanía estadounidense, aunque mantienen una identidad nacional fiera e inquebrantable, representada en su himno, su bandera y su soberanía deportiva internacional. La capital, San Juan, es una joya caribeña cuyo Viejo San Juan alberga fortificaciones imponentes como el Castillo San Felipe del Morro, testimonio de la importancia estratégica de la isla durante el periodo colonial español.\n\nEl patrimonio natural puertorriqueño es deslumbrante y sumamente biodiverso. Sus atractivos incluyen desde las maravillosas bahías bioluminiscentes en Vieques y Fajardo, hasta El Yunque, el único bosque pluvial tropical que pertenece al Sistema de Bosques Nacionales de los Estados Unidos. Sin embargo, la mayor exportación de la isla es, indiscutiblemente, su prodigioso talento musical. Puerto Rico es la cuna del reguetón y un pilar histórico de la salsa, produciendo ídolos globales que dominan las listas de popularidad y difunden el español a través del ritmo y la lírica urbana.\n\nLa gastronomía boricua, con manjares como el mofongo y el lechón asado, evidencia un exquisito sincretismo culinario que amalgama las raíces taínas, la herencia africana y la tradición ibérica. A pesar de los estragos causados por devastadores fenómenos meteorológicos y complejos desafíos económicos, el espíritu del pueblo boricua se caracteriza por una resiliencia festiva y solidaria. Estudiar Puerto Rico permite comprender un fascinante fenómeno de resistencia lingüística y cultural, donde el español sobrevive y evoluciona vibrante frente a la constante influencia anglosajona.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Qué estatus político mantiene Puerto Rico con Estados Unidos desde 1952?",
-          "¿De qué es testimonio el Castillo San Felipe del Morro en el Viejo San Juan?",
-          "¿Qué distinción oficial posee El Yunque en relación con los Estados Unidos?",
-          "¿Cuál es considerada la mayor exportación cultural de la isla según el texto?",
-          "¿Qué raíces culturales amalgama el sincretismo culinario de la gastronomía boricua?",
-          "¿Cómo se describe el espíritu del pueblo boricua frente a los fenómenos meteorológicos?",
-          "¿Qué fenómeno de resistencia lingüística permite comprender el estudio de Puerto Rico?"
-        ],
-        "answerKey": [
-          "Es un Estado Libre Asociado.",
-          "Es testimonio de la importancia estratégica de la isla durante el periodo colonial español.",
-          "Es el único bosque pluvial tropical que pertenece al Sistema de Bosques Nacionales de EE. UU.",
-          "Su prodigioso talento musical (la salsa y el reguetón).",
-          "Amalgama las raíces taínas, la herencia africana y la tradición ibérica.",
-          "Se caracteriza por una resiliencia festiva y solidaria.",
-          "Permite comprender cómo el español sobrevive y evoluciona frente a la influencia anglosajona."
-        ]
-      }
-    }
-  },
-  {
-    "topicName": "Ecuador: El Centro del Mundo",
-    "imageFileName": "ecuador_overview.png",
-    "bundles": ["south_america", "geography", "vip_lifetime"],
-    "levels": {
-      "level_1": {
-        "tier": "Level 1 (English/Beginner)",
-        "readingText": "Ecuador is a small but incredibly diverse country located on the western coast of South America. It gets its name because the equator, the invisible line that divides the Earth into the northern and southern hemispheres, runs right through it. Near the capital city of Quito, you can visit a famous monument called 'La Mitad del Mundo' (The Middle of the World) and literally stand with one foot in each hemisphere!\n\nEven though it is a small country, Ecuador has four completely different geographical regions. The first is the Pacific coast, known for its beautiful beaches and delicious seafood. The second is the Andes mountains, featuring breathtaking volcanoes and ancient indigenous cultures. The third region is the dense Amazon rainforest, filled with exotic plants, wild animals, and remote tribal communities. Finally, the fourth region is the famous Galápagos Islands, located far out in the Pacific Ocean.\n\nThe Galápagos Islands are a unique natural paradise where animals do not fear humans. Here, Charles Darwin developed his famous theory of evolution after observing giant tortoises and marine iguanas. Ecuador is also a pioneer in environmental protection. It was the first country in the world to give legal constitutional rights to nature. For students learning Spanish, Ecuador is a truly magical place. It offers a clear, beautiful Spanish accent and a vibrant indigenous culture where millions of people still speak the ancient Quechua language. It is a nation packed with natural wonders and fascinating historical traditions.",
-        "instruction": "Answer the following questions according to the text.",
-        "questions": [
-          "Where is Ecuador located and how did it get its name?",
-          "What famous monument is located near the capital city of Quito?",
-          "What are the four completely different geographical regions of Ecuador?",
-          "What makes the animals in the Galápagos Islands unique?",
-          "Which famous scientist developed his theory of evolution in the Galápagos?",
-          "What legal action did Ecuador take to pioneer environmental protection?",
-          "What ancient language is still spoken by millions of people in Ecuador today?"
-        ],
-        "answerKey": [
-          "On the western coast of South America; named after the equator.",
-          "'La Mitad del Mundo' (The Middle of the World).",
-          "The Pacific coast, the Andes mountains, the Amazon rainforest, and the Galápagos Islands.",
-          "They do not fear humans.",
-          "Charles Darwin.",
-          "It was the first country to give legal constitutional rights to nature.",
-          "The Quechua language."
-        ]
-      },
-      "level_2": {
-        "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "Ecuador es un país pequeño pero increíblemente diverso situado en la costa oeste de América del Sur. Su nombre viene de la línea del ecuador, la línea imaginaria que divide el planeta Tierra en dos mitades iguales. Cerca de la capital, Quito, puedes visitar el monumento de 'La Mitad del Mundo' y poner un pie en el hemisferio norte y otro en el hemisferio sur al mismo tiempo.\n\nAunque es un territorio pequeño, Ecuador tiene cuatro regiones geográficas completamente diferentes. La primera es la costa del Pacífico, famosa por sus playas cálidas y sus deliciosos platos de mariscos. La segunda son las montañas de los Andes, llenas de volcanes altísimos y tradiciones indígenas muy ricas. La tercera región es la selva del Amazonas, un lugar húmedo y verde con animales exóticos y tribus antiguas. La cuarta región son las famosas Islas Galápagos, que están muy lejos en el océano.\n\nLas Islas Galápagos son un paraíso natural donde los animales no tienen miedo de los humanos. Allí, el científico Charles Darwin estudió a las tortugas gigantes para escribir su famosa teoría de la evolución. Ecuador también es un gran defensor del medio ambiente, siendo el primer país del mundo en dar derechos legales a la naturaleza. Para los estudiantes de español, Ecuador es un lugar perfecto. Las personas hablan un español muy claro y amigable. Además, es un país donde la herencia indígena sigue viva, ya que muchas personas todavía hablan el idioma quechua en las comunidades de las montañas.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿De dónde viene el nombre del país de Ecuador?",
-          "¿Qué actividad curiosa se puede hacer en el monumento de 'La Mitad del Mundo'?",
-          "¿Cuáles son las cuatro regiones geográficas diferentes de Ecuador?",
-          "¿Por qué son famosas las zonas de la costa del Pacífico?",
-          "¿A qué animales famosos estudió Charles Darwin en las Islas Galápagos?",
-          "¿Qué derecho legal único en el mundo otorgó Ecuador al medio ambiente?",
-          "¿Qué idioma indígena siguen hablando muchas personas en las montañas?"
-        ],
-        "answerKey": [
-          "Viene de la línea del ecuador que divide la Tierra en dos mitades.",
-          "Poner un pie en el hemisferio norte y otro en el hemisferio sur.",
-          "La costa del Pacífico, los Andes, la selva del Amazonas y las Islas Galápagos.",
-          "Por sus playas cálidas y sus deliciosos platos de mariscos.",
-          "A las tortugas gigantes.",
-          "Fue el primer país en dar derechos legales a la naturaleza.",
-          "El idioma quechua."
-        ]
-      },
-      "level_3": {
-        "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "La República del Ecuador es una verdadera joya de la biodiversidad global, condensando una variedad geográfica y biológica inusitada dentro de un territorio relativamente compacto en Sudamérica. Atravesado por la línea ecuatorial, de la cual deriva su nombre, el país se divide geológicamente en cuatro mundos contrastantes: la llanura costera del Pacífico, la imponente cordillera andina que atraviesa el centro, la vasta y misteriosa cuenca amazónica al este, y el archipiélago volcánico de las Islas Galápagos a mil kilómetros de sus costas.\n\nQuito, su capital situada a más de dos mil ochocientos metros de altitud, ostenta el privilegio de tener el centro histórico colonial más extenso y mejor conservado de América, siendo declarado el primer Patrimonio Cultural de la Humanidad por la UNESCO en 1978. Las Islas Galápagos, por su parte, representan un laboratorio evolutivo viviente; su aislamiento permitió el desarrollo de especies endémicas únicas, como las tortugas gigantes y las iguanas marinas, inspirando la teoría evolutiva de Charles Darwin.\n\nSociopolíticamente, Ecuador ha sido pionero internacional en materia ecológica, convirtiéndose en el primer Estado del planeta en reconocer los Derechos de la Naturaleza en su Constitución de 2008. A nivel humano, es una nación plurinacional donde la rica herencia indígena convive con el mestizaje, y donde lenguas originarias como el kichwa gozan de reconocimiento oficial. Sumergirse en la realidad ecuatoriana es descubrir un paraíso de contrastes, desde la altitud asfixiante de sus nevados hasta la profundidad de su selva, ofreciendo al estudiante una inmersión completa en el patrimonio natural y el respeto medioambiental de la América hispana.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Cuáles son los cuatro mundos geológicos contrastantes que conforman Ecuador?",
-          "¿Qué reconocimiento internacional histórico ostenta el centro de la capital, Quito?",
-          "¿Por qué se consideran a las Islas Galápagos un laboratorio evolutivo viviente?",
-          "¿Qué innovación sociopolítica introdujo Ecuador en su Constitución de 2008?",
-          "¿Qué lengua originaria goza de reconocimiento oficial en el país según el texto?",
-          "¿A qué altitud aproximada se encuentra situada la ciudad de Quito?",
-          "¿Cómo se describe el aislamiento del archipiélago volcánico de las Galápagos?"
-        ],
-        "answerKey": [
-          "La llanura costera, la cordillera andina, la cuenca amazónica y las Islas Galápagos.",
-          "Fue el primer Patrimonio Cultural de la Humanidad declarado por la UNESCO en 1978.",
-          "Porque su aislamiento permitió el desarrollo de especies endémicas únicas que inspiraron a Darwin.",
-          "Fue el primer Estado en reconocer los Derechos de la Naturaleza constitucionalmente.",
-          "El idioma kichwa (quechua).",
-          "A más de dos mil ochocientos metros de altitud.",
-          "Se encuentra a mil kilómetros de las costas ecuatorianas en el océano."
-        ]
-      }
-    }
-  },
-  {
-    "topicName": "Guinea Ecuatorial: El Tesoro Hispano",
-    "imageFileName": "guinea_ecuatorial_overview.png",
-    "bundles": ["africa", "geography", "vip_lifetime"],
-    "levels": {
-      "level_1": {
-        "tier": "Level 1 (English/Beginner)",
-        "readingText": "Equatorial Guinea is a very special and unique country because it is the only nation in Africa where Spanish is an official language. Located on the western coast of central Africa, it is a small country with a fascinating geography. It consists of a mainland region called Río Muni, which is covered in dense tropical rainforests, and several islands. The capital city, Malabo, is actually located on an island called Bioko, far away from the mainland part of the country.\n\nThe history of Equatorial Guinea is deeply connected to Spain. It was a Spanish colony for over one hundred years until it gained its independence in 1968. Because of this history, the people there speak a beautiful version of Spanish mixed with local African expressions. Walking through the streets of Malabo, you can see beautiful colonial architecture that looks very similar to buildings found in Spain or Latin America.\n\nIn the 1990s, the country discovered massive oil reserves under the ocean, which quickly transformed its economy and brought new wealth. However, the true treasure of Equatorial Guinea is its incredible biodiversity. The thick jungles are home to amazing animals like gorillas, chimpanzees, and forest elephants. For students of the Spanish language, learning about Equatorial Guinea is incredibly important. It proves that the Spanish language is truly global, connecting continents and cultures across the ocean. It is a beautiful African country with a Hispanic soul, waiting to be explored.",
-        "instruction": "Answer the following questions according to the text.",
-        "questions": [
-          "Why is Equatorial Guinea a very special and unique country in Africa?",
-          "What are the names of the mainland region and the island where the capital is located?",
-          "What is the name of the capital city of Equatorial Guinea?",
-          "Which European country colonized Equatorial Guinea for over one hundred years?",
-          "In what year did Equatorial Guinea gain its independence?",
-          "What major discovery in the 1990s transformed the country's economy?",
-          "What are three amazing animals that live in the thick jungles of the country?"
-        ],
-        "answerKey": [
-          "Because it is the only nation in Africa where Spanish is an official language.",
-          "The mainland is Río Muni, and the capital is on the island of Bioko.",
-          "Malabo.",
-          "Spain.",
-          "In 1968.",
-          "The discovery of massive oil reserves under the ocean.",
-          "Gorillas, chimpanzees, and forest elephants."
-        ]
-      },
-      "level_2": {
-        "tier": "Level 2 (Structured Spanish/Spanish II)",
-        "readingText": "Guinea Ecuatorial es un país muy especial y único porque es la única nación en todo el continente de África donde el español es un idioma oficial. Está situado en la costa oeste de África central y tiene una geografía muy curiosa. El país está formado por una parte continental llamada Río Muni, que está llena de selvas tropicales, y por varias islas hermosas. La capital del país se llama Malabo, pero no está en el continente, sino en una isla volcánica llamada Bioko.\n\nLa historia de este país está muy conectada con Europa. Guinea Ecuatorial fue una colonia de España durante más de cien años y consiguió su independencia en el año 1968. Por esta razón, los habitantes hablan un español excelente, pero mezclado con expresiones africanas muy interesantes. Si caminas por las calles de Malabo, puedes ver edificios antiguos de estilo colonial que se parecen mucho a las casas tradicionales de España o de América Latina.\n\nEn los años noventa, el país descubrió enormes reservas de petróleo en el océano. Este descubrimiento cambió la economía rápidamente y trajo mucho dinero al país. Sin embargo, el tesoro más grande de Guinea Ecuatorial es su naturaleza. Sus selvas son el hogar de animales increíbles como gorilas, chimpancés y elefantes de bosque. Conocer Guinea Ecuatorial es muy importante para los estudiantes de español porque demuestra que este idioma es verdaderamente global. Es un hermoso país africano que tiene un corazón y una voz hispana.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Por qué es un país único en todo el continente de África?",
-          "¿Cómo se llama la parte continental y la isla donde está la capital?",
-          "¿Qué país de Europa controló Guinea Ecuatorial por más de cien años?",
-          "¿Qué estilo de arquitectura se puede observar en las calles de la capital?",
-          "¿Qué recurso natural se descubrió en los océanos en los años noventa?",
-          "¿Qué animales increíbles viven en las selvas de Río Muni?",
-          "¿Qué nos enseña este país sobre el alcance del idioma español en el mundo?"
-        ],
-        "answerKey": [
-          "Porque es la única nación en África donde el español es un idioma oficial.",
-          "La parte continental se llama Río Muni y la capital está en la isla de Bioko.",
-          "España.",
-          "Edificios antiguos de estilo colonial, similares a los de España y América Latina.",
-          "Enormes reservas de petróleo.",
-          "Gorilas, chimpancés y elefantes de bosque.",
-          "Demuestra que el español es un idioma verdaderamente global."
-        ]
-      },
-      "level_3": {
-        "tier": "Level 3 (Natural Spanish/Advanced)",
-        "readingText": "Guinea Ecuatorial ocupa un lugar verdaderamente excepcional en la hispanosfera, destacándose como la única nación soberana del continente africano que mantiene el español como su principal idioma oficial. Ubicada en la costa occidental de África Central, su fragmentada geografía es fascinante: comprende una región continental selvática conocida como Río Muni, y un archipiélago de islas, siendo Bioko la más importante. Curiosamente, la capital política e histórica del país, Malabo, se encuentra en la isla de Bioko, separada geográficamente de la mayoría del territorio continental.\n\nEl vínculo hispánico de Guinea Ecuatorial es producto de más de un siglo de colonización española, la cual culminó con la independencia de la nación en 1968. Esta herencia ha dejado una profunda huella arquitectónica en sus ciudades y un legado lingüístico único; el español ecuatoguineano se nutre de la fonética y el vocabulario de lenguas bantúes originarias como el fang y el bubi, creando una variante dialectal sumamente rica. A finales del siglo veinte, el descubrimiento de vastos yacimientos petrolíferos en alta mar transformó radicalmente su economía, convirtiéndolo en uno de los países con mayor renta per cápita de África, aunque la distribución de esta riqueza sigue siendo un gran desafío.\n\nMás allá de su desarrollo económico, el país alberga una biodiversidad espectacular en sus selvas vírgenes, que sirven de refugio para primates endémicos y elefantes de bosque. Para el estudioso de la lengua, Guinea Ecuatorial representa la confirmación de la expansión transcontinental del español. Es el testimonio vivo de una africanidad hispanoparlante que enriquece enormemente el mosaico cultural y lingüístico de la comunidad hispana a nivel mundial.",
-        "instruction": "Contesta las preguntas según el texto.",
-        "questions": [
-          "¿Qué hecho hace excepcional a Guinea Ecuatorial dentro de la hispanosfera?",
-          "¿Cuál es la división geográfica principal del territorio del país?",
-          "¿Dónde se ubica irónicamente la capital política del país respecto a su geografía?",
-          "¿Qué lenguas originarias nutren e influyen el español ecuatoguineano?",
-          "¿Qué recurso transformó radicalmente la economía del país a finales del siglo veinte?",
-          "¿Qué reto económico social persiste a pesar del alto ingreso per cápita?",
-          "¿Qué representa el estudio de este país para la expansión de la lengua española?"
-        ],
-        "answerKey": [
-          "Es la única nación soberana africana que mantiene el español como idioma oficial principal.",
-          "Se divide en la región continental (Río Muni) y un archipiélago de islas.",
-          "Se ubica en la isla de Bioko, separada de la mayoría del territorio continental.",
-          "Las lenguas bantúes originarias como el fang y el bubi.",
-          "El descubrimiento de vastos yacimientos petrolíferos en alta mar.",
-          "La distribución equitativa de esta nueva riqueza entre la población.",
-          "Representa la confirmación de la expansión transcontinental del español (una africanidad hispanoparlante)."
         ]
       }
     }
